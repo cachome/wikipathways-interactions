@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Congenital generalized lipodystrophy (CGL)" Version="20210430" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Congenital generalized lipodystrophy (CGL) is divided into four subtypes. Type 1 is mainly caused by mutations in AGPAT2 gene, subtype 2 by BSCL2 mutations, type  3 by CAV1 mutations and type 4 by CAVIN1 mutations. 
+
+Patients with CGL show a near total absence of body fat which starts either at birth or shortly after. There are also metabolic abnormalities. Type 1 CGL shows loss of metabolically active adipose tissue. Type 2 CGL has a general absence of adipose tissue. Patients with type 3 CGL show vitamin D resistance, hypocalcemia, hypomagnesemia and have a short stature. Patients with type 4 CGL show myopathy, skeletal abnormalities, cardiac arrhythmias, pyloric stenosis and gastrointestinal motility problems.</Comment>
+  <Graphics BoardWidth="1287.2687499999997" BoardHeight="882.571797574626"/>
+  <DataNode TextLabel="IRS1" GraphId="a20aa" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CGL type 1" GraphId="b2b19">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="DGAT2" GraphId="b3e67" Type="GeneProduct" GroupRef="e33e2">
+        </DataNode>
+  <DataNode TextLabel="PI3K" GraphId="ba001" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DGAT1" GraphId="c5598" Type="GeneProduct" GroupRef="e33e2">
+        </DataNode>
+  <DataNode TextLabel="CGL type 4" GraphId="d0875">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="GPAT3" GraphId="d0b49" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AKT2" GraphId="d20a0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Triacylglycerol" GraphId="d52a2" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CGL type 2" GraphId="dc457">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="ITGB4" GraphId="e0d82" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GRB2" GraphId="e14c6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="INS" GraphId="e8830" Type="Protein">
+    <Comment>Insulin</Comment>
+        </DataNode>
+  <DataNode TextLabel="CGL type 3" GraphId="f1653">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Congenital Generalized Lipodystrophy&#10;(CGL)" GraphId="fa32e">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="RAS-ERK" GraphId="aa821" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="HIF1A" GraphId="feadc" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CAV1" GraphId="f6c57" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BSCL2" GraphId="c6bcd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FYN" GraphId="a2a90" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Seipin" GraphId="d0ae3" Type="Protein">
+    <Comment>Protein of BSCL2</Comment>
+        </DataNode>
+  <DataNode TextLabel="CAVIN1" GraphId="e3024" Type="GeneProduct">
+    <Comment>Also known as PTRF</Comment>
+        </DataNode>
+  <DataNode TextLabel="AGPAT2" GraphId="bbdf5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Glycerol-3-phosphate" GraphId="f12fc" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CAV1" GraphId="c05d4" Type="GeneProduct" GroupRef="bea5d">
+        </DataNode>
+  <DataNode TextLabel="CAVIN1" GraphId="b1c57" Type="GeneProduct" GroupRef="bea5d">
+        </DataNode>
+  <DataNode TextLabel="Phosphatidic acid" GraphId="fbb83" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Diacylglycerol" GraphId="f5755" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Lysophosphatidic acid" GraphId="e74ba" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="LPIN3" GraphId="ea039" Type="GeneProduct" GroupRef="e60b1">
+        </DataNode>
+  <DataNode TextLabel="LPIN2" GraphId="cd143" Type="GeneProduct" GroupRef="e60b1">
+        </DataNode>
+  <DataNode TextLabel="LPIN1" GraphId="ef0cf" Type="GeneProduct" GroupRef="e60b1">
+        </DataNode>
+  <Interaction GraphId="id1412d990">
+    <BiopaxRef>c11</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d20a0"/>
+      <Point GraphRef="aa8b2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id15fd340a">
+    <BiopaxRef>dba</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="d0b49"/>
+      <Point GraphRef="bcf55" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id18954236">
+    <Comment>Binds to receptor</Comment>
+    <BiopaxRef>f8a</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e1711"/>
+      <Point GraphRef="a20aa" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id24585741">
+    <BiopaxRef>d7d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d0ae3"/>
+      <Point GraphRef="a9332" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3f114979">
+    <Comment>Removes phosphate </Comment>
+    <BiopaxRef>e6a</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c3f76"/>
+      <Point GraphRef="a9332" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id42e4c57">
+    <BiopaxRef>dbc</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fbb83"/>
+      <Point GraphRef="f5755" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a9332"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id48be62ec">
+    <BiopaxRef>dbc</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f12fc"/>
+      <Point GraphRef="e74ba" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="adfab"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4f1c99af">
+    <BiopaxRef>e98</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="c3f76"/>
+      <Point/>
+      <Point GraphRef="e271a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4f5d064d">
+    <BiopaxRef>dba</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="d0b49"/>
+      <Point/>
+      <Point GraphRef="e271a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4fa002be">
+    <BiopaxRef>c62</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f6c57"/>
+      <Point GraphRef="e1711" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id56206a77">
+    <BiopaxRef>ef3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a2a90"/>
+      <Point GraphRef="e14c6" ArrowHead="mim-binding"/>
+      <Anchor Position="0.4" Shape="None" GraphId="dcc16"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5e016e50">
+    <BiopaxRef>dbc</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f6b4e"/>
+      <Point GraphRef="e700a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id604094d1">
+    <BiopaxRef>c11</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e8830"/>
+      <Point GraphRef="a20aa" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id699c8747">
+    <BiopaxRef>c11</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ba001"/>
+      <Point GraphRef="d20a0" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7d3e1280">
+    <BiopaxRef>ef3</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e14c6"/>
+      <Point GraphRef="a92e9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9d1d4aba">
+    <BiopaxRef>e98</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="e271a"/>
+      <Point GraphRef="b2b19" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9fac0d0f">
+    <BiopaxRef>b10</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d52a2"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="a20aa" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida4b1a4eb">
+    <BiopaxRef>eb7</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e1711"/>
+      <Point GraphRef="df665" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaca2431">
+    <BiopaxRef>c11</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a20aa"/>
+      <Point GraphRef="ba001" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb304e609">
+    <BiopaxRef>ba3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="feadc"/>
+      <Point GraphRef="bbdf5" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb929dcd3">
+    <BiopaxRef>dbc</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d0b49"/>
+      <Point GraphRef="adfab" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbe901faf">
+    <BiopaxRef>ef3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e1711"/>
+      <Point GraphRef="dcc16" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcb65f306">
+    <BiopaxRef>c62</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e3024"/>
+      <Point GraphRef="f6c57" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcbd3e76d">
+    <BiopaxRef>a00</BiopaxRef>
+    <BiopaxRef>f77</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c6bcd"/>
+      <Point GraphRef="d0ae3" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd47ff080">
+    <BiopaxRef>dbc</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e74ba"/>
+      <Point GraphRef="fbb83" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="fc32c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddc450572">
+    <BiopaxRef>ef3</BiopaxRef>
+    <BiopaxRef>bba</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e0d82"/>
+      <Point GraphRef="aa821" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a92e9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idec81889b">
+    <BiopaxRef>dbc</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f5755"/>
+      <Point GraphRef="d52a2" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e700a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf4b67d07">
+    <BiopaxRef>abe</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e8830"/>
+      <Point GraphRef="e3024" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfd325174">
+    <BiopaxRef>be8</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="aa821"/>
+      <Point GraphRef="db195" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c40e7">
+    <BiopaxRef>e98</BiopaxRef>
+    <BiopaxRef>c62</BiopaxRef>
+    <Graphics Color="ff0000">
+      <Point GraphRef="f6c57"/>
+      <Point GraphRef="f1653" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ec17c">
+    <BiopaxRef>e98</BiopaxRef>
+    <BiopaxRef>d7d</BiopaxRef>
+    <Graphics Color="ff0000">
+      <Point GraphRef="bcf55"/>
+      <Point GraphRef="dc457" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ea5ad">
+    <BiopaxRef>ba3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bbdf5"/>
+      <Point GraphRef="fc32c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aff4d">
+    <BiopaxRef>e98</BiopaxRef>
+    <BiopaxRef>c47</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="bbdf5"/>
+      <Point GraphRef="e271a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c39df">
+    <BiopaxRef>e98</BiopaxRef>
+    <BiopaxRef>d7d</BiopaxRef>
+    <Graphics Color="ff0000">
+      <Point GraphRef="c6bcd"/>
+      <Point GraphRef="bcf55" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b3533">
+    <BiopaxRef>e98</BiopaxRef>
+    <BiopaxRef>c62</BiopaxRef>
+    <Graphics Color="ff0000">
+      <Point GraphRef="e3024"/>
+      <Point GraphRef="d0875" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="e302c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fa32e"/>
+      <Point GraphRef="b2b19" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ce5e4">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fa32e"/>
+      <Point GraphRef="dc457" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="faee8">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fa32e"/>
+      <Point GraphRef="f1653" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b423d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fa32e"/>
+      <Point GraphRef="d0875" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a16dc">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="c13c6" ArrowHead="mim-binding"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f8e29">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="f91b7" ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a5e36">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="a8c17" ArrowHead="mim-stimulation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cb079">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="f7e67" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d7224">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="df59e" ArrowHead="mim-inhibition"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ad129">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="a92e6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e8b1e">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Adipogenesis" GraphId="aa8b2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cell cycle &#10;progression" GraphId="db195">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Translocates FA to &#10;lipid droplets" GraphId="df665">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Disease" GraphId="f5ad3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Loss of lipid &#10;droplet formation" GraphId="bcf55">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Loss of metabolically &#10;active adipose tissue" GraphId="e271a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Binding" GraphId="c13c6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Pathway" GraphId="fbc0e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inhibition" GraphId="df59e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Conversion" GraphId="f91b7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Gene/protein" GraphId="b3f2d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Metabolite" GraphId="fd1b6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Transcription" GraphId="f7e67">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Catalysis" GraphId="a92e6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Stimulation" GraphId="a8c17">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Methylatioin" GraphId="fb892">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="M" GraphId="dff70">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Mutations" GraphId="defd2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Legend" GraphId="e7aef">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape TextLabel="x" GraphId="dc6c5">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="x" GraphId="dd651">
+    <Graphics ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="ac050">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ee705">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="x" GraphId="ed2b5">
+    <Graphics ShapeType="RoundedRectangle" Color="339900"/>
+  </Shape>
+  <Shape TextLabel="x" GraphId="e3390">
+    <Graphics ShapeType="Rectangle" Color="0000ff"/>
+  </Shape>
+  <Group GroupId="e60b1" GraphId="c3f76" Style="Complex"/>
+  <Group GroupId="bea5d" GraphId="e1711" Style="Complex"/>
+  <Group GroupId="e33e2" GraphId="f6b4e" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >congenital generalized lipodystrophy type 4</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0111138</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c47">
+      <bp:ID >27408775</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >AGPAT2 is essential for postnatal development and maintenance of white and brown adipose tissue.</bp:TITLE>
+      <bp:SOURCE >Mol Metab</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Cautivo KM</bp:AUTHORS>
+      <bp:AUTHORS >Lizama CO</bp:AUTHORS>
+      <bp:AUTHORS >Tapia PJ</bp:AUTHORS>
+      <bp:AUTHORS >Agarwal AK</bp:AUTHORS>
+      <bp:AUTHORS >Garg A</bp:AUTHORS>
+      <bp:AUTHORS >Horton JD</bp:AUTHORS>
+      <bp:AUTHORS >Cort&#195;&#402;&#198;&#8217;&#195;&#8218;&#194;&#169;s VA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef3">
+      <bp:ID >9741627</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A requirement for caveolin-1 and associated kinase Fyn in integrin signaling and anchorage-dependent cell growth.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Wary KK</bp:AUTHORS>
+      <bp:AUTHORS >Mariotti A</bp:AUTHORS>
+      <bp:AUTHORS >Zurzolo C</bp:AUTHORS>
+      <bp:AUTHORS >Giancotti FG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f8a">
+      <bp:ID >27852311</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Caveolin-1 in the regulation of cell metabolism: a cancer perspective.</bp:TITLE>
+      <bp:SOURCE >Mol Cancer</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Nwosu ZC</bp:AUTHORS>
+      <bp:AUTHORS >Ebert MP</bp:AUTHORS>
+      <bp:AUTHORS >Dooley S</bp:AUTHORS>
+      <bp:AUTHORS >Meyer C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="abe">
+      <bp:ID >31126986</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cavin-1/PTRF mediates insulin-dependent focal adhesion remodeling and ameliorates high-fat diet-induced inflammatory responses in mice.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Wang H</bp:AUTHORS>
+      <bp:AUTHORS >Pilch PF</bp:AUTHORS>
+      <bp:AUTHORS >Liu L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dba">
+      <bp:ID >32094408</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Oligomers of the lipodystrophy protein seipin may co-ordinate GPAT3 and AGPAT2 enzymes to facilitate adipocyte differentiation.</bp:TITLE>
+      <bp:SOURCE >Sci Rep</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Sim MFM</bp:AUTHORS>
+      <bp:AUTHORS >Persiani E</bp:AUTHORS>
+      <bp:AUTHORS >Talukder MMU</bp:AUTHORS>
+      <bp:AUTHORS >Mcilroy GD</bp:AUTHORS>
+      <bp:AUTHORS >Roumane A</bp:AUTHORS>
+      <bp:AUTHORS >Edwardson JM</bp:AUTHORS>
+      <bp:AUTHORS >Rochford JJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d7d">
+      <bp:ID >31351098</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The biogenesis of lipid droplets: Lipids take center stage.</bp:TITLE>
+      <bp:SOURCE >Prog Lipid Res</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Gao M</bp:AUTHORS>
+      <bp:AUTHORS >Huang X</bp:AUTHORS>
+      <bp:AUTHORS >Song BL</bp:AUTHORS>
+      <bp:AUTHORS >Yang H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >congenital generalized lipodystrophy</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0050585</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b10">
+      <bp:ID >23443243</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Insulin signalling mechanisms for triacylglycerol storage.</bp:TITLE>
+      <bp:SOURCE >Diabetologia</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Czech MP</bp:AUTHORS>
+      <bp:AUTHORS >Tencerova M</bp:AUTHORS>
+      <bp:AUTHORS >Pedersen DJ</bp:AUTHORS>
+      <bp:AUTHORS >Aouadi M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e98">
+      <bp:ID >29989768</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Lipodystrophy Syndromes: Presentation and Treatment</bp:TITLE>
+      <bp:SOURCE />
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Akinci B</bp:AUTHORS>
+      <bp:AUTHORS >Sahinoz M</bp:AUTHORS>
+      <bp:AUTHORS >Oral E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eb7">
+      <bp:ID >28476236</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Genetics of Lipodystrophy.</bp:TITLE>
+      <bp:SOURCE >Endocrinol Metab Clin North Am</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Lightbourne M</bp:AUTHORS>
+      <bp:AUTHORS >Brown RJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dbc">
+      <bp:ID >28588114</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Two Glycerol-3-Phosphate Dehydrogenases from&lt;i&gt;Chlamydomonas&lt;/i&gt;Have Distinct Roles in Lipid Metabolism.</bp:TITLE>
+      <bp:SOURCE >Plant Physiol</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Driver T</bp:AUTHORS>
+      <bp:AUTHORS >Trivedi DK</bp:AUTHORS>
+      <bp:AUTHORS >McIntosh OA</bp:AUTHORS>
+      <bp:AUTHORS >Dean AP</bp:AUTHORS>
+      <bp:AUTHORS >Goodacre R</bp:AUTHORS>
+      <bp:AUTHORS >Pittman JK</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be8">
+      <bp:ID >17126425</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Roles of the Raf/MEK/ERK pathway in cell growth, malignant transformation and drug resistance.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >McCubrey JA</bp:AUTHORS>
+      <bp:AUTHORS >Steelman LS</bp:AUTHORS>
+      <bp:AUTHORS >Chappell WH</bp:AUTHORS>
+      <bp:AUTHORS >Abrams SL</bp:AUTHORS>
+      <bp:AUTHORS >Wong EW</bp:AUTHORS>
+      <bp:AUTHORS >Chang F</bp:AUTHORS>
+      <bp:AUTHORS >Lehmann B</bp:AUTHORS>
+      <bp:AUTHORS >Terrian DM</bp:AUTHORS>
+      <bp:AUTHORS >Milella M</bp:AUTHORS>
+      <bp:AUTHORS >Tafuri A</bp:AUTHORS>
+      <bp:AUTHORS >Stivala F</bp:AUTHORS>
+      <bp:AUTHORS >Libra M</bp:AUTHORS>
+      <bp:AUTHORS >Basecke J</bp:AUTHORS>
+      <bp:AUTHORS >Evangelisti C</bp:AUTHORS>
+      <bp:AUTHORS >Martelli AM</bp:AUTHORS>
+      <bp:AUTHORS >Franklin RA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e6a">
+      <bp:ID >33203880</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Proto-oncogene Src links lipogenesis via lipin-1 to breast cancer malignancy.</bp:TITLE>
+      <bp:SOURCE >Nat Commun</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Song L</bp:AUTHORS>
+      <bp:AUTHORS >Liu Z</bp:AUTHORS>
+      <bp:AUTHORS >Hu HH</bp:AUTHORS>
+      <bp:AUTHORS >Yang Y</bp:AUTHORS>
+      <bp:AUTHORS >Li TY</bp:AUTHORS>
+      <bp:AUTHORS >Lin ZZ</bp:AUTHORS>
+      <bp:AUTHORS >Ye J</bp:AUTHORS>
+      <bp:AUTHORS >Chen J</bp:AUTHORS>
+      <bp:AUTHORS >Huang X</bp:AUTHORS>
+      <bp:AUTHORS >Liu DT</bp:AUTHORS>
+      <bp:AUTHORS >Zhou J</bp:AUTHORS>
+      <bp:AUTHORS >Shi Y</bp:AUTHORS>
+      <bp:AUTHORS >Zhao H</bp:AUTHORS>
+      <bp:AUTHORS >Xie C</bp:AUTHORS>
+      <bp:AUTHORS >Chen L</bp:AUTHORS>
+      <bp:AUTHORS >Song E</bp:AUTHORS>
+      <bp:AUTHORS >Lin SY</bp:AUTHORS>
+      <bp:AUTHORS >Lin SC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a00">
+      <bp:ID >31708432</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >LDAF1 and Seipin Form a Lipid Droplet Assembly Complex.</bp:TITLE>
+      <bp:SOURCE >Dev Cell</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Chung J</bp:AUTHORS>
+      <bp:AUTHORS >Wu X</bp:AUTHORS>
+      <bp:AUTHORS >Lambert TJ</bp:AUTHORS>
+      <bp:AUTHORS >Lai ZW</bp:AUTHORS>
+      <bp:AUTHORS >Walther TC</bp:AUTHORS>
+      <bp:AUTHORS >Farese RV Jr</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bba">
+      <bp:ID >27009876</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Caveolin-1 is a checkpoint regulator in hypoxia-induced astrocyte apoptosis via Ras/Raf/ERK pathway.</bp:TITLE>
+      <bp:SOURCE >Am J Physiol Cell Physiol</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Xu L</bp:AUTHORS>
+      <bp:AUTHORS >Wang L</bp:AUTHORS>
+      <bp:AUTHORS >Wen Z</bp:AUTHORS>
+      <bp:AUTHORS >Wu L</bp:AUTHORS>
+      <bp:AUTHORS >Jiang Y</bp:AUTHORS>
+      <bp:AUTHORS >Yang L</bp:AUTHORS>
+      <bp:AUTHORS >Xiao L</bp:AUTHORS>
+      <bp:AUTHORS >Xie Y</bp:AUTHORS>
+      <bp:AUTHORS >Ma M</bp:AUTHORS>
+      <bp:AUTHORS >Zhu W</bp:AUTHORS>
+      <bp:AUTHORS >Ye R</bp:AUTHORS>
+      <bp:AUTHORS >Liu X</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba3">
+      <bp:ID >29908837</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Expression of AGPAT2, an enzyme involved in the glycerophospholipid/triacylglycerol biosynthesis pathway, is directly regulated by HIF-1 and promotes survival and etoposide resistance of cancer cells under hypoxia.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta Mol Cell Biol Lipids</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Triantafyllou EA</bp:AUTHORS>
+      <bp:AUTHORS >Georgatsou E</bp:AUTHORS>
+      <bp:AUTHORS >Mylonis I</bp:AUTHORS>
+      <bp:AUTHORS >Simos G</bp:AUTHORS>
+      <bp:AUTHORS >Paraskeva E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f77">
+      <bp:ID >27879284</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Seipin regulates ER-lipid droplet contacts and cargo delivery.</bp:TITLE>
+      <bp:SOURCE >EMBO J</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Salo VT</bp:AUTHORS>
+      <bp:AUTHORS >Belevich I</bp:AUTHORS>
+      <bp:AUTHORS >Li S</bp:AUTHORS>
+      <bp:AUTHORS >Karhinen L</bp:AUTHORS>
+      <bp:AUTHORS >Vihinen H</bp:AUTHORS>
+      <bp:AUTHORS >Vigouroux C</bp:AUTHORS>
+      <bp:AUTHORS >Magr&#195;&#402;&#198;&#8217;&#195;&#8218;&#194;&#169; J</bp:AUTHORS>
+      <bp:AUTHORS >Thiele C</bp:AUTHORS>
+      <bp:AUTHORS >H&#195;&#402;&#198;&#8217;&#195;&#8218;&#194;&#182;ltt&#195;&#402;&#198;&#8217;&#195;&#8218;&#194;&#164;-Vuori M</bp:AUTHORS>
+      <bp:AUTHORS >Jokitalo E</bp:AUTHORS>
+      <bp:AUTHORS >Ikonen E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c11">
+      <bp:ID >30328953</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Insulin Substrate Receptor (IRS) proteins in normal and malignant hematopoiesis.</bp:TITLE>
+      <bp:SOURCE >Clinics (Sao Paulo)</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Machado-Neto JA</bp:AUTHORS>
+      <bp:AUTHORS >Fenerich BA</bp:AUTHORS>
+      <bp:AUTHORS >Rodrigues Alves APN</bp:AUTHORS>
+      <bp:AUTHORS >Fernandes JC</bp:AUTHORS>
+      <bp:AUTHORS >Scopim-Ribeiro R</bp:AUTHORS>
+      <bp:AUTHORS >Coelho-Silva JL</bp:AUTHORS>
+      <bp:AUTHORS >Traina F</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >congenital generalized lipodystrophy type 1</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0111135</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >congenital generalized lipodystrophy type 2</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0111136</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c62">
+      <bp:ID >26239609</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Congenital generalized lipodystrophies--new insights into metabolic dysfunction.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Endocrinol</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Patni N</bp:AUTHORS>
+      <bp:AUTHORS >Garg A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >congenital generalized lipodystrophy type 3</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0111137</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

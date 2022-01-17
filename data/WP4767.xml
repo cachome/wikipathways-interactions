@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="FGFR3 signaling in chondrocyte proliferation and terminal differentiation" Version="20191218" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Taken from Achondroplasia: Development, Pathenogenesis, and Therapy by Ornitz DM, Legeai-Mallet L [https://www.ncbi.nlm.nih.gov/pubmed/27987249].
+
+Signaling pathways in the postnatal growth plate.
+During endochondral bone development, FGF9 and FGF18, derived from the perichondrium and surrounding tissue, signal to FGFR3 in chondrocytes. The balance of chondrocyte proliferation and differentiation is controlled by crosstalk of several signaling pathways. Expression of FGFR3 is enhanced by thyroid hormone (T3/3,3',5'-Triiodothyronine) and suppressed by PTHLH (member of the parathyroid hormone family). FGFR3 signaling results in increased expression of Snail1 (encoded by SNAI1), which is required for activation of STAT1 and MAPK signaling (ERK1/2 and p38 branches). Signaling from PTHLH, IHH and BMPs antagonizes the suppression of chondrocyte proliferation by FGFR3. Both FGFR3 and PTHLH function to suppress chondrocyte differentiation and antagonize the action of Wnt signaling, which promotes differentiation. FGFR3 negatively regulates the autophagy protein, ATG5. Activation of downstream signals: PP2a (encoded by PPP2CA) regulates p107 (encoded by RBL1) activation, and STAT1 regulates p21Waf1/Cip1 (encoded by CKDN1A) activation. Both function to suppress chondrocyte proliferation. Activation of the MAPKs, ERK1, and ERK2, regulate Sox9 expression, which functions to suppress chondrocyte terminal differentiation and endochondral ossification.
+
+Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutation in the respective gene.</Comment>
+  <BiopaxRef>e9a</BiopaxRef>
+  <Graphics BoardWidth="1661.578947368421" BoardHeight="1224.6533587783417"/>
+  <DataNode TextLabel="THRA" GraphId="ad924" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PTH1R" GraphId="af906" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAPK12" GraphId="afa26" Type="GeneProduct" GroupRef="ed06a">
+        </DataNode>
+  <DataNode TextLabel="SNAI1" GraphId="b7904" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAPK14" GraphId="b83b3" Type="GeneProduct" GroupRef="ed06a">
+        </DataNode>
+  <DataNode TextLabel="PTHLH" GraphId="c586c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FGF18" GraphId="c6e97" Type="GeneProduct" GroupRef="e95c5">
+        </DataNode>
+  <DataNode TextLabel="FGF9" GraphId="d7fa2" Type="GeneProduct" GroupRef="e95c5">
+        </DataNode>
+  <DataNode TextLabel="3,3',5'-Triiodothyronine" GraphId="d962b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MAPK11" GraphId="dd1a6" Type="GeneProduct" GroupRef="ed06a">
+        </DataNode>
+  <DataNode TextLabel="STAT1" GraphId="de0b4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ATG5" GraphId="e18cf" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IHH" GraphId="eaf1d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BMP2" GraphId="f1272" Type="GeneProduct" GroupRef="fd823">
+        </DataNode>
+  <DataNode TextLabel="RAF1" GraphId="f6327" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAPK13" GraphId="f68bb" Type="GeneProduct" GroupRef="ed06a">
+        </DataNode>
+  <DataNode TextLabel="FGFR3" GraphId="f7ac4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NPR2" GraphId="faba9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CNP" GraphId="fc775" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PTH1R" GraphId="d3120" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BMP4" GraphId="dcd5c" Type="GeneProduct" GroupRef="fd823">
+        </DataNode>
+  <DataNode TextLabel="SOX9" GraphId="d35b0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RBL1" GraphId="cb3cc" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CDKN1A" GraphId="d45e2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RBL1" GraphId="cafe0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PPP2CA" GraphId="a81a6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAP2K1" GraphId="c210b" Type="GeneProduct" GroupRef="a5f45">
+        </DataNode>
+  <DataNode TextLabel="MAP2K2" GraphId="c2f96" Type="GeneProduct" GroupRef="a5f45">
+        </DataNode>
+  <DataNode TextLabel="MAPK1" GraphId="c9405" Type="GeneProduct" GroupRef="c4ec7">
+        </DataNode>
+  <DataNode TextLabel="MAPK3" GraphId="f8aa9" Type="GeneProduct" GroupRef="c4ec7">
+        </DataNode>
+  <State GraphRef="cafe0" TextLabel="P" GraphId="b3a9a">
+    <Comment>parentid=ENSG00000080839; parentsymbol=RBL1; site=KRSFAPStPLTGRRY; position=thr369; sitegrpid=451295; ptm=p; direction=d</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="cafe0" TextLabel="P" GraphId="c19af">
+    <Comment>parentid=ENSG00000080839; parentsymbol=RBL1; site=HIKQQPGsPRRISQQ   ; position=ser975; sitegrpid=450986; ptm=p; direction=d</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="cafe0" TextLabel="P" GraphId="de277">
+    <Comment>parentid=ENSG00000080839; parentsymbol=RBL1; site=RRDMQPLsPISVHER; position=ser640; sitegrpid=451296; ptm=p; direction=d</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="cafe0" TextLabel="P" GraphId="ec1b6">
+    <Comment>parentid=ENSG00000080839; parentsymbol=RBL1; site=MMDAPPLsPFPHIKQ; position=ser964; sitegrpid=451297; ptm=p; direction=d</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="f7ac4"/>
+      <Point GraphRef="f69d8" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.8101143669825631" Shape="None" GraphId="b538a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1eb94ab6">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f6327"/>
+      <Point GraphRef="f19de" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id28e20273">
+    <Graphics>
+      <Point GraphRef="f7ac4"/>
+      <Point GraphRef="de0b4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id299e4be0">
+    <Graphics>
+      <Point GraphRef="d4121"/>
+      <Point GraphRef="b0d11" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id33f73e6c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="eaf1d"/>
+      <Point GraphRef="c586c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3f7a3d9f">
+    <Graphics>
+      <Point GraphRef="de0b4"/>
+      <Point GraphRef="d45e2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id42281903">
+    <Graphics>
+      <Point GraphRef="f7ac4"/>
+      <Point GraphRef="e18cf" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4359f136">
+    <Graphics>
+      <Point GraphRef="c586c"/>
+      <Point GraphRef="af906" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id49bfc176">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="af906"/>
+      <Point GraphRef="d5617" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id50889f26">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="eaf1d"/>
+      <Point/>
+      <Point GraphRef="d5617" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id67ae2259">
+    <Graphics>
+      <Point GraphRef="f7ac4"/>
+      <Point GraphRef="d4121" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6a4d617">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b7904"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="f6327" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id71b6f2fe">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d3120"/>
+      <Point GraphRef="eaf1d" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id73f7a48d">
+    <Graphics>
+      <Point GraphRef="af906"/>
+      <Point GraphRef="f7ac4" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8dd88d7a">
+    <Graphics>
+      <Point GraphRef="b7904"/>
+      <Point GraphRef="f69d8" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9f21bd9c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cb3cc"/>
+      <Point/>
+      <Point GraphRef="d5617" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida0eba681">
+    <Graphics>
+      <Point GraphRef="f19de"/>
+      <Point GraphRef="d4d73" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida73cb899">
+    <Graphics>
+      <Point GraphRef="b7904"/>
+      <Point GraphRef="de0b4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaaeb1d2a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d962b"/>
+      <Point/>
+      <Point GraphRef="ad924" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc5f96cc3">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fc775"/>
+      <Point/>
+      <Point GraphRef="faba9" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc9df5c1c">
+    <Graphics>
+      <Point GraphRef="f7ac4"/>
+      <Point GraphRef="a81a6" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idccdc175">
+    <Graphics>
+      <Point GraphRef="ad924"/>
+      <Point GraphRef="f7ac4" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd33a7094">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c586c"/>
+      <Point GraphRef="d3120" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddd07adca">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b3d3e"/>
+      <Point GraphRef="f7ac4" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idddec9e2e">
+    <Graphics>
+      <Point GraphRef="f7ac4"/>
+      <Point GraphRef="f6327" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e8235"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide10b4d2d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d3120"/>
+      <Point/>
+      <Point GraphRef="b0d11" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide4f255da">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ef154"/>
+      <Point GraphRef="d5617" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide70a8a18">
+    <Graphics>
+      <Point GraphRef="faba9"/>
+      <Point GraphRef="b538a" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idec87605c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e18cf"/>
+      <Point GraphRef="cdf62" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf1a41522">
+    <Graphics>
+      <Point GraphRef="d4d73"/>
+      <Point GraphRef="d35b0" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf327257">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d45e2"/>
+      <Point GraphRef="d5617" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf75fd50d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f053f"/>
+      <Point GraphRef="eaf1d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a8e2c">
+    <Graphics>
+      <Point GraphRef="f69d8"/>
+      <Point GraphRef="d35b0" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6723">
+    <Graphics>
+      <Point GraphRef="a81a6"/>
+      <Point GraphRef="b82b5" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a1dbd">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d35b0"/>
+      <Point/>
+      <Point GraphRef="b0d11" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ea34e">
+    <Graphics>
+      <Point GraphRef="cafe0"/>
+      <Point GraphRef="cb3cc" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.32718943929566835" Shape="None" GraphId="b82b5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bd494">
+    <Graphics>
+      <Point GraphRef="faba9"/>
+      <Point GraphRef="e8235" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="a2c66">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="eaf1d"/>
+      <Point GraphRef="ade4e" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="afc50">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f1272"/>
+      <Point GraphRef="eb88e" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b8346">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d3120"/>
+      <Point GraphRef="bf3bd" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bdb1b">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="d7fa2"/>
+      <Point GraphRef="bf27f" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bf586">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="af906"/>
+      <Point GraphRef="d1a55" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ec9d7">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f7ac4"/>
+      <Point GraphRef="e0d94" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="eee43">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="faba9"/>
+      <Point GraphRef="ba557" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f89ec">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c586c"/>
+      <Point GraphRef="b9f09" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="idbf9d996">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Pre-hypertrophic chondrocytes" GraphId="a00de">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Chondrocyte differentiation" GraphId="b0d11">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Label>
+  <Label TextLabel="Hypertrophic chondrocytes" GraphId="b44f3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Perichondrium/periosteum" GraphId="b58d2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Reserve chondrocytes" GraphId="c3c29">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Autophagy" GraphId="cdf62">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Label>
+  <Label TextLabel="Wnt" GraphId="d4121">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Endochondral ossification" GraphId="e0dd0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="produced by prehypertrophic&#10;and hypertrophic chondrocytes " GraphId="f053f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Proliferating chondrocytes" GraphId="b782a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="OMIM:215045&#10;Chondrodysplasia,&#10;Blomstrand type" GraphId="b779d" Href="https://omim.org/entry/215045" GroupRef="a175b">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:600002&#10;Eiken syndrome" GraphId="d7c10" Href="https://omim.org/entry/600002" GroupRef="a175b">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:156400&#10;Metaphyseal chondrodysplasia,&#10;Murk Jansen type" GraphId="b79b1" Href="https://omim.org/entry/156400" GroupRef="a175b">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:187600&#10;Thanatophoric dysplasia, type I" GraphId="ec069" Href="https://omim.org/entry/187600" GroupRef="f4099">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:187601&#10;Thanatophoric dysplasia, type II" GraphId="b3373" Href="https://omim.org/entry/187601" GroupRef="f4099">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:616482&#10;SADDAN" GraphId="ed1c5" Href="https://omim.org/entry/616482" GroupRef="f4099">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:100800&#10;Achondroplasia" GraphId="a7d82" Href="https://omim.org/entry/100800" GroupRef="f4099">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:146000&#10;Hypochondroplasia" GraphId="c4458" Href="https://omim.org/entry/146000" GroupRef="f4099">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:610474&#10;CATSHL syndrome" GraphId="a698a" Href="https://omim.org/entry/610474" GroupRef="f4099">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:613382&#10;Brachydactyly, type E2" GraphId="b9f09" Href="https://omim.org/entry/613382">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:612961&#10;Multiple synostoses syndrome 3" GraphId="bf27f" Href="https://omim.org/entry/612961">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:607778&#10;Acrocapitofemoral dysplasia" GraphId="aa68a" Href="https://omim.org/entry/607778" GroupRef="c00ab">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:112600&#10;Brachydactyly, type A2" GraphId="eb88e" Href="https://omim.org/entry/112600">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:602875&#10;Acromesomelic dysplasia, Maroteaux type" GraphId="cb612" Href="https://omim.org/entry/602875" GroupRef="a4d6a">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Chondrocyte proliferation" GraphId="d5617">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="OMIM:612247&#10;Crouzon syndrome with&#10;acanthosis nigricans" GraphId="e65c4" Href="https://omim.org/entry/612247" GroupRef="f4099">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:602849&#10;Muenke syndrome" GraphId="ae55c" Href="https://omim.org/entry/602849" GroupRef="f4099">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:149730&#10;LADD syndrome" GraphId="aba46" Href="https://omim.org/entry/149730" GroupRef="f4099">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:215045&#10;Chondrodysplasia,&#10;Blomstrand type" GraphId="ea776" Href="https://omim.org/entry/215045" GroupRef="dbb65">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:600002&#10;Eiken syndrome" GraphId="a57a3" Href="https://omim.org/entry/600002" GroupRef="dbb65">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:156400&#10;Metaphyseal chondrodysplasia,&#10;Murk Jansen type" GraphId="a636c" Href="https://omim.org/entry/156400" GroupRef="dbb65">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:615923&#10;Epiphyseal chondrodysplasia, Miura type" GraphId="a040c" Href="https://omim.org/entry/615923" GroupRef="a4d6a">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:112500&#10;Brachydactyly, type A1" GraphId="a886a" Href="https://omim.org/entry/112500" GroupRef="c00ab">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Syndactyly Lueken type" GraphId="f6de5" GroupRef="c00ab">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Shape GraphId="a4954">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="aeb85">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b854a">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d0c95">
+    <Graphics FillColor="000000" ShapeType="Triangle"/>
+  </Shape>
+  <Shape GraphId="dee6b">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="fcc67">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e129e">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="ea098" GraphId="a2220" Style="Group"/>
+  <Group GroupId="c00ab" GraphId="ade4e" Style="Group"/>
+  <Group GroupId="e95c5" GraphId="b3d3e" Style="Group"/>
+  <Group GroupId="a4d6a" GraphId="ba557" Style="Group"/>
+  <Group GroupId="dbb65" GraphId="bf3bd" Style="Group"/>
+  <Group GroupId="a175b" GraphId="d1a55" Style="Group"/>
+  <Group GroupId="c4ec7" GraphId="d4d73" Style="Group"/>
+  <Group GroupId="f4099" GraphId="e0d94" Style="Group"/>
+  <Group GroupId="fd823" GraphId="ef154" Style="Group"/>
+  <Group GroupId="a5f45" GraphId="f19de" Style="Group"/>
+  <Group GroupId="ad848" GraphId="f476f" Style="Group"/>
+  <Group GroupId="ed06a" GraphId="f69d8" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >thyroid hormone signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000501</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >parathyroid hormone signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001135</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >fibroblast growth factor signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000328</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e9a">
+      <bp:ID >27987249</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Achondroplasia: Development, pathogenesis, and therapy.</bp:TITLE>
+      <bp:SOURCE >Dev Dyn</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Ornitz DM</bp:AUTHORS>
+      <bp:AUTHORS >Legeai-Mallet L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Muenke Syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0060703</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

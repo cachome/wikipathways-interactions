@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Caloric restriction and aging" Version="20161102" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Caloric restriction leads to a decrease in the ATP/AMP ratio, thereby activating the key nutrient sensor of the body: AMPK. 
+AMPK then blocks mTOR function, as mTOR has an important role in regulating the balance between cell growth and autophagy, nutrient decrease leads to the induction of autophagy. 
+AMPK stimulates NAMPT function and PGC-1a release. NAMPT converts nicotinamide to nicotinamide mononucleotide for NAD+ synthesis. PGC-1a is the regulator of mitochondrial biosynthesis (increasing mitochondrial cell mass to produce more ATP) which thus will increase if more PGC-1a is released.
+Levels of NAD rise during caloric restriction leading to increased SIRT1 activity. SIRT1 blocks the Insulin/IGF-1 pathway. This is a very complex and paradoxal tissue, which need further investigation/research.
+Increased SIRT1 activity leads to activation of FOXO/p53 genes. FOXOs become phosphorylated by AKT and this may attenuate apoptotic stimuli and reduce antioxidative stress expression.
+In the end these effects result in increased stress resistance and improved lifespan and health span.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP4191 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>b45</BiopaxRef>
+  <Graphics BoardWidth="596.0" BoardHeight="491.0"/>
+  <DataNode TextLabel="mTOR" GraphId="ae933" Type="GeneProduct">
+    <Graphics FillColor="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="NAMPT" GraphId="d774e" Type="GeneProduct">
+    <Graphics FillColor="99ccff"/>
+    </DataNode>
+  <DataNode TextLabel="ATP" GraphId="dc4c6" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AMPK" GraphId="d5f05" Type="GeneProduct">
+    <Graphics FillColor="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="SIRT1" GraphId="a8491" Type="GeneProduct">
+    <Graphics FillColor="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="insulin/IGF1" GraphId="ab67f" Type="GeneProduct">
+    <Graphics FillColor="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="AMP" GraphId="ccf63" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NAD" GraphId="c1e9e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PGC-1a" GraphId="cc388" Type="GeneProduct">
+    <Graphics FillColor="99ccff"/>
+    </DataNode>
+  <DataNode TextLabel="FOXO" GraphId="e2ddd" Type="GeneProduct" GroupRef="ed07e">
+    <Graphics FillColor="99ccff"/>
+    </DataNode>
+  <DataNode TextLabel="AKT" GraphId="be906" Type="GeneProduct">
+    <Graphics FillColor="99ccff"/>
+    </DataNode>
+  <DataNode TextLabel="p53" GraphId="a2bbf" Type="GeneProduct" GroupRef="ed07e">
+    <Graphics FillColor="99ccff"/>
+    </DataNode>
+  <Interaction GraphId="id10747b45">
+    <Graphics>
+      <Point GraphRef="dc4c6"/>
+      <Point GraphRef="f1043" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1127ecf2">
+    <Graphics>
+      <Point GraphRef="ac4ab"/>
+      <Point GraphRef="e2918" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id273e61d3">
+    <Graphics>
+      <Point GraphRef="d5f05"/>
+      <Point GraphRef="ae933" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id50725c3c">
+    <Graphics>
+      <Point GraphRef="f6b9b"/>
+      <Point GraphRef="c1e9e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id50b9dd36">
+    <Graphics>
+      <Point GraphRef="f1043"/>
+      <Point GraphRef="ccf63" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5d644df9">
+    <Graphics>
+      <Point GraphRef="a8491"/>
+      <Point GraphRef="ab67f" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id796a9d67">
+    <Graphics>
+      <Point GraphRef="be906"/>
+      <Point GraphRef="c49ff" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id79a0f241">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="be906"/>
+      <Point GraphRef="ae933" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9b3f09ef">
+    <Graphics>
+      <Point GraphRef="fb52a"/>
+      <Point GraphRef="d5f05" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f1043"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b2329">
+    <Graphics>
+      <Point GraphRef="fb52a"/>
+      <Point GraphRef="a8491" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f6b9b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d574b">
+    <Graphics>
+      <Point GraphRef="d5f05"/>
+      <Point GraphRef="d774e" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aaf2f">
+    <Graphics>
+      <Point GraphRef="d5f05"/>
+      <Point GraphRef="cc388" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ff138">
+    <Graphics>
+      <Point GraphRef="a8491"/>
+      <Point GraphRef="cc388" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ac490">
+    <Graphics>
+      <Point GraphRef="a8491"/>
+      <Point GraphRef="c49ff" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="be47f">
+    <Graphics>
+      <Point GraphRef="ab67f"/>
+      <Point GraphRef="be906" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.4" Shape="None" GraphId="fb823"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f613c">
+    <Graphics>
+      <Point GraphRef="ae933"/>
+      <Point GraphRef="f747f" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6028">
+    <Graphics>
+      <Point GraphRef="cc388"/>
+      <Point GraphRef="d2d3c" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ab5a0">
+    <Graphics>
+      <Point GraphRef="c49ff"/>
+      <Point GraphRef="d031e" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d959b">
+    <Graphics>
+      <Point GraphRef="d2697"/>
+      <Point GraphRef="e2918" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a4631">
+    <Graphics>
+      <Point GraphRef="dc40a"/>
+      <Point GraphRef="e2918" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="(+) Stress resistance&#10;(+) Lifespan and healthspan" GraphId="e2918">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Autophagy" GraphId="f747f">
+    <Graphics FillColor="ffffff" Color="ffffff"/>
+  </Label>
+  <Label TextLabel="Caloric restriction" GraphId="fb52a">
+    <Graphics FillColor="990033" Color="ffffff"/>
+  </Label>
+  <Label TextLabel="Mitochondrial&#10;biogenisis" GraphId="d2d3c">
+    <Graphics FillColor="ffffff" Color="ffffff"/>
+  </Label>
+  <Label TextLabel="Oxidative &#10;stress" GraphId="d031e">
+    <Graphics FillColor="ffffff" Color="ffffff"/>
+  </Label>
+  <Shape GraphId="c9fce">
+    <Graphics FillColor="00cc33" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="d2697">
+    <Graphics FillColor="9900ff" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="dc40a">
+    <Graphics FillColor="9900ff" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="ac4ab">
+    <Graphics FillColor="9900ff" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="e5cc9">
+    <Graphics FillColor="990033" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Group GroupId="ed07e" GraphId="c49ff" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b45">
+      <bp:ID >23746838</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The hallmarks of aging.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >L&#243;pez-Ot&#237;n C</bp:AUTHORS>
+      <bp:AUTHORS >Blasco MA</bp:AUTHORS>
+      <bp:AUTHORS >Partridge L</bp:AUTHORS>
+      <bp:AUTHORS >Serrano M</bp:AUTHORS>
+      <bp:AUTHORS >Kroemer G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >aging pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000651</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >autophagy pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000278</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >oxidative stress response pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000378</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

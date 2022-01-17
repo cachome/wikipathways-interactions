@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="NAD+ biosynthetic pathways" Version="20160526" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">NAD+ biosynthetic pathways. NAD+ levels are maintained by three independent pathways. First, the Preiss-Handler pathway uses dietary nicotinic acid and the enzyme nicotinic acid phosphoribosyltransferase (NAPRT) to generate NAMN, which is then transformed into NAAD by NAMN transferase (NMNAT). Three forms of this enzyme (NMNAT1, -2, and -3) have distinct subcellular localizations. The process is completed by the transformation of NAAD into NAD+ by NAD+ synthase (NADS). Second, the de novo synthesis pathway of NAD from tryptophan occurs through the kinurenine pathway (5). The first step in this pathway is the rate-limiting conversion of tryptophan to N-formylkinurenine (N-formylkin) by either IDO or TDO. Formylkinurenine is transformed into L-kinurenine (L-kin), 3-hydroxykinurenine, and 3-hydroxyanthranilic acid (3-HAA) and finally to ACMS. This compound can spontaneously condense and rearrange into quinolinic acid, which is transformed into NAMN, at which point it converges with the Preiss-Handler pathway. ACMS can also be decarboxylated into AMS by ACMS decarboxylase (ACMSD), leading to its oxidation into acetyl-CoA via the TCA cycle. Third, the NAD+ salvage pathway recycles the nicotinamide generated as a by-product of the enzymatic activities of NAD+-consuming enzymes: sirtuins, PARPs, and the cADPR synthases (CD38 and CD157). Initially, NAMPT recycles nicotinamide into NMN, which is then converted into NAD+ via the different NMNATs.
+
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3645 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>ccb</BiopaxRef>
+  <BiopaxRef>d27</BiopaxRef>
+  <Graphics BoardWidth="979.579831932773" BoardHeight="794.7058823529411"/>
+  <DataNode TextLabel="SIRT1" GraphId="a231b" Type="GeneProduct" GroupRef="fbdf9">
+        </DataNode>
+  <DataNode TextLabel="ACMS" GraphId="a4d35" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Nicotinamide" GraphId="a663b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Nicotinic acid" GraphId="a6f5b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Tryptophan" GraphId="ac796" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="L-Kynurenine" GraphId="af436" Type="Metabolite">
+    <Graphics FillColor="Transparent" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="N-Formylkin" GraphId="afef2" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NADSYN1" GraphId="c02f6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="QPRT" GraphId="c7235" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Nicotinic acid adenine dinucleotide" GraphId="c96a4" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TCA cycle" GraphId="d115f" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="TDO2" GraphId="d2186" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IDO1" GraphId="db766" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="3-HAA" GraphId="dba9e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Nicotinic acid mononucleotide" GraphId="dd3d9" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CD38" GraphId="ddd0b" Type="GeneProduct" GroupRef="fbdf9">
+        </DataNode>
+  <DataNode TextLabel="NADH" GraphId="e20d0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="BST1" GraphId="e6555" Type="GeneProduct" GroupRef="fbdf9">
+        </DataNode>
+  <DataNode TextLabel="NMNAT1" GraphId="e883d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Nicotinamide mononucleotide" GraphId="e8889" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ACMSD" GraphId="eb91d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Nicotinamide riboside" GraphId="eb9dc" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AMS" GraphId="ed4af" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Quinolinic acid" GraphId="ed524" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NAMPT" GraphId="f522e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NAPRT1" GraphId="f62eb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PARP1" GraphId="f6cb2" Type="GeneProduct" GroupRef="fbdf9">
+        </DataNode>
+  <DataNode TextLabel="SIRT2" GraphId="fd1b3" Type="GeneProduct" GroupRef="fbdf9">
+        </DataNode>
+  <DataNode TextLabel="NAD" GraphId="ff105" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NMNAT1" GraphId="db198" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PARP4" GraphId="f18e2" Type="GeneProduct" GroupRef="fbdf9">
+        </DataNode>
+  <DataNode TextLabel="PARP2" GraphId="beaa5" Type="GeneProduct" GroupRef="fbdf9">
+        </DataNode>
+  <DataNode TextLabel="TNKS" GraphId="ff1df" Type="GeneProduct" GroupRef="fbdf9">
+        </DataNode>
+  <DataNode TextLabel="TNKS2" GraphId="f3978" Type="GeneProduct" GroupRef="fbdf9">
+        </DataNode>
+  <DataNode TextLabel="SIRT3" GraphId="e3741" Type="GeneProduct" GroupRef="fbdf9">
+        </DataNode>
+  <DataNode TextLabel="SIRT4" GraphId="f6e09" Type="GeneProduct" GroupRef="fbdf9">
+        </DataNode>
+  <DataNode TextLabel="SIRT5" GraphId="ea00b" Type="GeneProduct" GroupRef="fbdf9">
+        </DataNode>
+  <DataNode TextLabel="SIRT6" GraphId="be782" Type="GeneProduct" GroupRef="fbdf9">
+        </DataNode>
+  <DataNode TextLabel="SIRT7" GraphId="b7a66" Type="GeneProduct" GroupRef="fbdf9">
+        </DataNode>
+  <DataNode TextLabel="SIRT7" GraphId="ded1c" Type="GeneProduct" GroupRef="fbdf9">
+        </DataNode>
+  <Interaction GraphId="id1a5491f8">
+    <Graphics>
+      <Point GraphRef="e883d"/>
+      <Point GraphRef="c0fa4" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2701df44">
+    <Graphics>
+      <Point GraphRef="a4d35"/>
+      <Point GraphRef="ed524" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2cee8aec">
+    <Graphics>
+      <Point GraphRef="f522e"/>
+      <Point GraphRef="d2eca" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id31313a33">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c96a4"/>
+      <Point GraphRef="ff105" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a5b63"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id346dc688">
+    <Graphics>
+      <Point GraphRef="ac796"/>
+      <Point GraphRef="afef2" ArrowHead="Arrow"/>
+      <Anchor Position="0.4909820613057211" Shape="None" GraphId="bf3e1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3e752414">
+    <Graphics>
+      <Point GraphRef="cdd7c"/>
+      <Point GraphRef="a663b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3ffb5eff">
+    <Graphics>
+      <Point GraphRef="db766"/>
+      <Point GraphRef="bf3e1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id43a6d611">
+    <Graphics>
+      <Point GraphRef="c7235"/>
+      <Point GraphRef="a2087" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id47581e38">
+    <Graphics>
+      <Point GraphRef="af5f3"/>
+      <Point GraphRef="eb9dc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4997328b">
+    <Graphics>
+      <Point GraphRef="bc8e7"/>
+      <Point GraphRef="a6f5b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4b4d6e1e">
+    <Graphics>
+      <Point GraphRef="a4d35"/>
+      <Point GraphRef="ed4af" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b0d2f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id57a7eeb5">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ff105"/>
+      <Point/>
+      <Point GraphRef="c15d5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id60fe527">
+    <Graphics>
+      <Point GraphRef="ed524"/>
+      <Point GraphRef="dd3d9" ArrowHead="Arrow"/>
+      <Anchor Position="0.3626023657870793" Shape="None" GraphId="a2087"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id68a03a9b">
+    <Graphics>
+      <Point GraphRef="d2186"/>
+      <Point GraphRef="bf3e1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6cfbaaf2">
+    <Graphics>
+      <Point GraphRef="ed4af"/>
+      <Point GraphRef="d115f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8779a6f9">
+    <Graphics>
+      <Point GraphRef="eb9dc"/>
+      <Point GraphRef="e8889" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id899fbee4">
+    <Graphics>
+      <Point GraphRef="af436"/>
+      <Point GraphRef="dba9e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida90e26c0">
+    <Graphics>
+      <Point GraphRef="ba36d"/>
+      <Point GraphRef="ac796" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idab8a418d">
+    <Graphics>
+      <Point GraphRef="a6f5b"/>
+      <Point GraphRef="dd3d9" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ba1ed"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idac5113c4">
+    <Graphics>
+      <Point GraphRef="afef2"/>
+      <Point GraphRef="af436" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaed6d7cb">
+    <Graphics>
+      <Point GraphRef="db198"/>
+      <Point GraphRef="e411b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb6b65f29">
+    <Graphics>
+      <Point GraphRef="c02f6"/>
+      <Point GraphRef="a5b63" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd507bf94">
+    <Graphics>
+      <Point GraphRef="eb91d"/>
+      <Point GraphRef="b0d2f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd5d71491">
+    <Graphics>
+      <Point GraphRef="c15d5"/>
+      <Point GraphRef="a663b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide28f6889">
+    <Graphics>
+      <Point GraphRef="ff105" ArrowHead="Arrow"/>
+      <Point GraphRef="e20d0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide8abc490">
+    <Graphics>
+      <Point GraphRef="dba9e"/>
+      <Point GraphRef="a4d35" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf5ce9427">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="a663b"/>
+      <Point GraphRef="e8889" ArrowHead="Arrow"/>
+      <Anchor Position="0.7439385794426537" Shape="None" GraphId="d2eca"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfaa70de7">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e8889"/>
+      <Point/>
+      <Point GraphRef="ff105" ArrowHead="Arrow"/>
+      <Anchor Position="0.5064027939464494" Shape="None" GraphId="e411b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfc8c4402">
+    <Graphics>
+      <Point GraphRef="f62eb"/>
+      <Point GraphRef="ba1ed" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cbba5">
+    <Graphics>
+      <Point GraphRef="dd3d9"/>
+      <Point GraphRef="c96a4" ArrowHead="Arrow"/>
+      <Anchor Position="0.45121951219512196" Shape="None" GraphId="c0fa4"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="NAD-consuming&#10;enzymes" GraphId="ba024">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Diet" GraphId="bc8e7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="De novo biosynthesis pathway" GraphId="c2b82">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Preiss-Handler pathway" GraphId="d12c6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Diet" GraphId="ba36d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Diet" GraphId="af5f3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Diet" GraphId="cdd7c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Salvage pathway" GraphId="c73d9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="aee9e">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" Color="999999"/>
+  </Shape>
+  <Shape GraphId="e0800">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" Color="999999"/>
+  </Shape>
+  <Shape GraphId="aea97">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" Color="999999"/>
+  </Shape>
+  <Group GroupId="fbdf9" GraphId="c15d5" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >classic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000002</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d27">
+      <bp:ID >18429699</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Nicotinic acid, nicotinamide, and nicotinamide riboside: a molecular evaluation of NAD+ precursor vitamins in human nutrition.</bp:TITLE>
+      <bp:SOURCE >Annu Rev Nutr</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Bogan KL</bp:AUTHORS>
+      <bp:AUTHORS >Brenner C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ccb">
+      <bp:ID >26785480</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NAD&#8314; in aging, metabolism, and neurodegeneration.</bp:TITLE>
+      <bp:SOURCE >Science</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Verdin E</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>nicotinamide adenine dinucleotide biosynthetic pathway</bp:TERM><bp:ID>PW:0000219</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

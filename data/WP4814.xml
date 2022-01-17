@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Somatic sex determination" Version="20200217" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway describes the sex determination in a fetus. 
+For the male development the SRY gene plays an important role, leading to the SOX9 expression which will then stimulate AMH expression and testis development.
+In adults DMRT1 and SOX9 inhibit the FOXL2 gene, maintaining the male sex determination. 
+For the female development the WNT4 and RSPO1 signaling pathways lead to beta-catenin accumulation which inhibits SOX9 and the development of ovaries.
+In adults, Foxl2 repress Sox9 expression to maintain ovarian identity.
+</Comment>
+  <BiopaxRef>ef1</BiopaxRef>
+  <Graphics BoardWidth="766.0" BoardHeight="559.9579831932773"/>
+  <DataNode TextLabel="DHH" GraphId="f1f15" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="beta catenin" GraphId="b66ad" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FOXL2" GraphId="dbb6c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOX9" GraphId="e64b2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOX9" GraphId="e6f9b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FOXL2" GraphId="de4b1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AMH" GraphId="f8b4b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WNT4" GraphId="b2d8b" Type="GeneProduct" GroupRef="e4409">
+        </DataNode>
+  <DataNode TextLabel="GATA4" GraphId="d74f5" Type="GeneProduct" GroupRef="a9203">
+        </DataNode>
+  <DataNode TextLabel="SRY" GraphId="aea4f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NR5A1" GraphId="ed970" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RSPO1" GraphId="b500d" Type="GeneProduct" GroupRef="e4409">
+        </DataNode>
+  <DataNode TextLabel="NR5A1" GraphId="c5545" Type="GeneProduct" GroupRef="a9203">
+        </DataNode>
+  <DataNode TextLabel="WT1" GraphId="c2556" Type="GeneProduct" GroupRef="a9203">
+        </DataNode>
+  <DataNode TextLabel="SOX9" GraphId="d83df" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NR5A1" GraphId="d7cff" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WT1" GraphId="c2bfe" Type="GeneProduct" GroupRef="ed4ca">
+        </DataNode>
+  <DataNode TextLabel="SOX8" GraphId="a2582" Type="GeneProduct" GroupRef="a9203">
+        </DataNode>
+  <DataNode TextLabel="FGF9" GraphId="aa33e" Type="GeneProduct" GroupRef="bbd70">
+        </DataNode>
+  <DataNode TextLabel="DMRT1" GraphId="d893d" Type="GeneProduct">
+    <Graphics Color="333333"/>
+    </DataNode>
+  <DataNode TextLabel="PTGDS" GraphId="f80ca" Type="GeneProduct" GroupRef="bbd70">
+        </DataNode>
+  <DataNode TextLabel="SOX9" GraphId="ade61" Type="GeneProduct" GroupRef="bcbe4">
+        </DataNode>
+  <DataNode TextLabel="NR5A1" GraphId="da49e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GATA4" GraphId="fcd0a" Type="GeneProduct" GroupRef="ed4ca">
+        </DataNode>
+  <DataNode TextLabel="SOX8" GraphId="ebcba" Type="GeneProduct" GroupRef="bcbe4">
+        </DataNode>
+  <Interaction GraphId="fb377">
+    <Graphics>
+      <Point GraphRef="f7c82"/>
+      <Point GraphRef="f30c9" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa3a2">
+    <Graphics>
+      <Point GraphRef="da49e"/>
+      <Point GraphRef="b6e4b" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e6a86">
+    <Graphics>
+      <Point GraphRef="e64b2"/>
+      <Point GraphRef="dbb6c" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dea98">
+    <Graphics>
+      <Point GraphRef="aea4f"/>
+      <Point GraphRef="f1f15" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c0e77">
+    <Graphics>
+      <Point GraphRef="cc08b"/>
+      <Point GraphRef="aea4f" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d27d0">
+    <Graphics>
+      <Point GraphRef="a2582"/>
+      <Point GraphRef="d2a83" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="beae6">
+    <Graphics>
+      <Point GraphRef="e4c4d"/>
+      <Point GraphRef="aea4f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df32c">
+    <Graphics>
+      <Point GraphRef="ade61"/>
+      <Point GraphRef="f8b4b" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d2a83"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a5448">
+    <Graphics>
+      <Point GraphRef="b66ad"/>
+      <Point GraphRef="e6f9b" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d68b8">
+    <Graphics>
+      <Point GraphRef="c2556"/>
+      <Point GraphRef="d2a83" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a222b">
+    <Graphics>
+      <Point GraphRef="aea4f"/>
+      <Point GraphRef="ebcba" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b6e4b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="abb6f">
+    <Graphics>
+      <Point GraphRef="d74f5"/>
+      <Point GraphRef="d2a83" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e9f38">
+    <Graphics>
+      <Point GraphRef="c5545"/>
+      <Point GraphRef="d2a83" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dc0a2">
+    <Graphics>
+      <Point GraphRef="d7cff"/>
+      <Point GraphRef="fc791" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dc735">
+    <Graphics>
+      <Point GraphRef="d893d"/>
+      <Point GraphRef="dbb6c" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eb9e1">
+    <Graphics>
+      <Point GraphRef="de4b1"/>
+      <Point GraphRef="d83df" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b63cb">
+    <Graphics>
+      <Point GraphRef="ec6b5"/>
+      <Point GraphRef="b66ad" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1cca">
+    <Graphics>
+      <Point GraphRef="f1f15"/>
+      <Point GraphRef="c9e34" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a4657">
+    <Graphics>
+      <Point GraphRef="ed970"/>
+      <Point GraphRef="db8d3" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a722a">
+    <Graphics>
+      <Point GraphRef="e4c4d"/>
+      <Point GraphRef="b2d8b" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f400a">
+    <Graphics>
+      <Point GraphRef="c9e34"/>
+      <Point GraphRef="d7cff" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="a2b6c">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e2a54">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Steroidogenesis" GraphId="db8d3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Foetal &#10;" GraphId="af8a2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Female" GraphId="fb7ad">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Genital Ridge" GraphId="e4c4d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Steroidogenesis" GraphId="fc791">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="FOG2" GraphId="dd4c9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Adult Testis" GraphId="ea8b6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Male" GraphId="ca1fe">
+    <Graphics FillColor="ffffff" Color="00ccff"/>
+  </Label>
+  <Label TextLabel="Adult Ovary" GraphId="f40ee">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Leydig cell" GraphId="c9e34">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Group GroupId="ed4ca" GraphId="cc08b" Style="Group"/>
+  <Group GroupId="a9203" GraphId="df381" Style="Group"/>
+  <Group GroupId="e4409" GraphId="ec6b5" Style="Group"/>
+  <Group GroupId="bcbe4" GraphId="f30c9" Style="Group"/>
+  <Group GroupId="bbd70" GraphId="f7c82" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef1">
+      <bp:ID >27915330</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mechanism of Sex Determination in Humans: Insights from Disorders of Sex Development.</bp:TITLE>
+      <bp:SOURCE >Sex Dev</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Bashamboo A</bp:AUTHORS>
+      <bp:AUTHORS >McElreavey K</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>signaling pathway</bp:TERM><bp:ID>PW:0000003</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>sex differentiation disease</bp:TERM><bp:ID>DOID:1923</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

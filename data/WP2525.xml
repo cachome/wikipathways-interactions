@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Trans-sulfuration and one-carbon metabolism" Author="Liang Zhao" Last-Modified="10/16/2013" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The one carbon donor pathway (WP2190) has been added to this one (conversions are coloured green for clarity of the origin).
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2525 CPTAC Assay Portal].</Comment>
+  <BiopaxRef>d21</BiopaxRef>
+  <Graphics BoardWidth="1400.999222632943" BoardHeight="573.7619047619036"/>
+  <DataNode TextLabel="Cystathionine" GraphId="cd679" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PHGDH" GraphId="ada5a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="3P-Glycerate" GraphId="ca49c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="3P-Hydroxypyruvate" GraphId="e8a2a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Phosphoserine" GraphId="cc73c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Serine" GraphId="ba69e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PSAT1" GraphId="cbdb4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Methionine" GraphId="fc0dc" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SAMe" GraphId="c1911" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SAH" GraphId="b307b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Homocysteine" GraphId="e80fb" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MAT2B" GraphId="b0545" Type="GeneProduct" GroupRef="cd8bd">
+        </DataNode>
+  <DataNode TextLabel="MAT1A" GraphId="bce4a" Type="GeneProduct" GroupRef="cd8bd">
+        </DataNode>
+  <DataNode TextLabel="MAT2A" GraphId="e2d4a" Type="GeneProduct" GroupRef="cd8bd">
+        </DataNode>
+  <DataNode TextLabel="DNMT1" GraphId="d96ea" Type="GeneProduct" GroupRef="b13af">
+        </DataNode>
+  <DataNode TextLabel="DNMT3A" GraphId="a817c" Type="GeneProduct" GroupRef="b13af">
+        </DataNode>
+  <DataNode TextLabel="DNMT3B" GraphId="b8b23" Type="GeneProduct" GroupRef="b13af">
+        </DataNode>
+  <DataNode TextLabel="DNMT3L" GraphId="c096e" Type="GeneProduct" GroupRef="b13af">
+        </DataNode>
+  <DataNode TextLabel="PSPH" GraphId="d5390" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AHCY" GraphId="d83d6" Type="GeneProduct" GroupRef="b6e6a">
+        </DataNode>
+  <DataNode TextLabel="AHCYL1" GraphId="f4856" Type="GeneProduct" GroupRef="b6e6a">
+        </DataNode>
+  <DataNode TextLabel="AHCYL2" GraphId="d1c8e" Type="GeneProduct" GroupRef="b6e6a">
+        </DataNode>
+  <DataNode TextLabel="Cysteine" GraphId="f5b82" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Glutathione" GraphId="ad13c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Glycine" GraphId="ad15b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="THF" GraphId="b9414" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="dUMP" GraphId="cd6db" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="5,10-Methenyl-THF" GraphId="d9ecf" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="10-Formyl-THF" GraphId="f2471" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="5,10-Methylene-THF" GraphId="a331f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Dihydrofolate" GraphId="f71bf" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="dTMP" GraphId="edad3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SHMT1" GraphId="f3f25" Type="GeneProduct" GroupRef="d129b">
+        </DataNode>
+  <DataNode TextLabel="SHMT2" GraphId="eaffe" Type="GeneProduct" GroupRef="d129b">
+        </DataNode>
+  <DataNode TextLabel="AMT" GraphId="b1f49" Type="GeneProduct" GroupRef="d129b">
+        </DataNode>
+  <DataNode TextLabel="TYMS" GraphId="dbec9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DHFR" GraphId="cc435" Type="GeneProduct" GroupRef="e4ccf">
+        </DataNode>
+  <DataNode TextLabel="DHFRL1" GraphId="deff5" Type="GeneProduct" GroupRef="e4ccf">
+        </DataNode>
+  <DataNode TextLabel="MTHFD1" GraphId="ede8f" Type="GeneProduct" GroupRef="ec951">
+        </DataNode>
+  <DataNode TextLabel="MTHFD2" GraphId="b65c7" Type="GeneProduct" GroupRef="ec4bb">
+        </DataNode>
+  <DataNode TextLabel="MTHFD2L" GraphId="ee845" Type="GeneProduct" GroupRef="ec4bb">
+        </DataNode>
+  <DataNode TextLabel="MTHFD1L" GraphId="c4edc" Type="GeneProduct" GroupRef="ec4bb">
+        </DataNode>
+  <DataNode TextLabel="THF" GraphId="c64af" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="5,10-Methylene-THF" GraphId="c23a3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="5-Methyl-THF" GraphId="cb375" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MTHFD1L" GraphId="df127" Type="GeneProduct" GroupRef="e538d">
+        </DataNode>
+  <DataNode TextLabel="MTHFD1" GraphId="b0822" Type="GeneProduct" GroupRef="e538d">
+        </DataNode>
+  <DataNode TextLabel="MTHFD2" GraphId="a2351" Type="GeneProduct" GroupRef="ec951">
+        </DataNode>
+  <DataNode TextLabel="MTHFD2L" GraphId="f4e3a" Type="GeneProduct" GroupRef="ec951">
+        </DataNode>
+  <DataNode TextLabel="MTR" GraphId="dc1c5" Type="GeneProduct" GroupRef="e2e3e">
+        </DataNode>
+  <DataNode TextLabel="BHMT" GraphId="df156" Type="GeneProduct" GroupRef="e2e3e">
+        </DataNode>
+  <DataNode TextLabel="Serine" GraphId="d163b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Glycine" GraphId="a5ceb" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SHMT1" GraphId="f6246" Type="GeneProduct" GroupRef="f0866">
+        </DataNode>
+  <DataNode TextLabel="SHMT2" GraphId="eead7" Type="GeneProduct" GroupRef="f0866">
+        </DataNode>
+  <DataNode TextLabel="AMT" GraphId="e8b31" Type="GeneProduct" GroupRef="f0866">
+        </DataNode>
+  <DataNode TextLabel="MTHFR" GraphId="a6e07" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CBS" GraphId="cead8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CTH" GraphId="de851" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GSS" GraphId="e849a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GCLC" GraphId="b0eb7" Type="GeneProduct" GroupRef="e5709">
+        </DataNode>
+  <DataNode TextLabel="GCLM" GraphId="c0343" Type="GeneProduct" GroupRef="e5709">
+        </DataNode>
+  <DataNode TextLabel="GSS" GraphId="d8d9c" Type="GeneProduct" GroupRef="e5709">
+        </DataNode>
+  <DataNode TextLabel="Putrescine" GraphId="ff744" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Decarboxylated SAM" GraphId="c6a6f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Betaine" GraphId="a6e7c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Acetylcholine" GraphId="b8c0d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Dimethylglycine" GraphId="bff2d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Glycine" GraphId="a5e43" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Taurine" GraphId="d9eb3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cysteine sulphinate" GraphId="f2e1e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Choline" GraphId="df05e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ornithine" GraphId="f0a95" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Hypotaurine" GraphId="be7a8" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Sarcosine" GraphId="df894" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Spermine" GraphId="db5d9" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Spermidine" GraphId="bbd12" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="id1605b920">
+    <Graphics>
+      <Point GraphRef="cb375"/>
+      <Point GraphRef="e0a90" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1712458d">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="ba69e"/>
+      <Point/>
+      <Point GraphRef="ad15b" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e98dc"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id191a3a0d">
+    <Graphics>
+      <Point GraphRef="c2741"/>
+      <Point GraphRef="a90e3" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2166ad41">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c64af"/>
+      <Point GraphRef="c23a3" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d0e23"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id21cbcb2b">
+    <Graphics>
+      <Point GraphRef="d1269"/>
+      <Point GraphRef="fefa8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id41c6c0f9">
+    <Graphics>
+      <Point GraphRef="e4b43"/>
+      <Point GraphRef="e98dc" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id49faf99b">
+    <Graphics>
+      <Point GraphRef="a6e07"/>
+      <Point GraphRef="f2c09" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id545c3">
+    <Graphics>
+      <Point GraphRef="e4b43"/>
+      <Point GraphRef="fa636" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5b7fa48d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e80fb"/>
+      <Point GraphRef="ba69e"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b3097"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id62335dc3">
+    <Graphics>
+      <Point GraphRef="f2471"/>
+      <Point GraphRef="b9414" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a8a56"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id624a63fe">
+    <Graphics>
+      <Point GraphRef="b3097"/>
+      <Point GraphRef="cd679" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b30ed"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id734ee89a">
+    <Graphics>
+      <Point GraphRef="b7aa9"/>
+      <Point GraphRef="e6348" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id74e9cf0b">
+    <Graphics>
+      <Point GraphRef="a331f"/>
+      <Point GraphRef="d9ecf" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a90e3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7afe9b85">
+    <Graphics>
+      <Point GraphRef="b7aa9"/>
+      <Point GraphRef="d0e23" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8b53140f">
+    <Graphics>
+      <Point GraphRef="bbefe"/>
+      <Point GraphRef="b3d36" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8f56550a">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="d163b"/>
+      <Point/>
+      <Point GraphRef="a5ceb" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e6348"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id94f0065e">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="cd6db"/>
+      <Point/>
+      <Point GraphRef="edad3"/>
+      <Anchor Position="0.33240159650085693" Shape="None" GraphId="f4947"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id97e1290a">
+    <Graphics>
+      <Point GraphRef="dbec9"/>
+      <Point GraphRef="f4947" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id98321f3">
+    <Graphics>
+      <Point GraphRef="cead8"/>
+      <Point GraphRef="b30ed" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9d9b7a1a">
+    <Graphics>
+      <Point GraphRef="b0a0c"/>
+      <Point GraphRef="e0a90" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida45a65a8">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b9414"/>
+      <Point/>
+      <Point GraphRef="a331f" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="fa636"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida5d8685e">
+    <Graphics>
+      <Point GraphRef="f5b82"/>
+      <Point GraphRef="ad13c" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b3d36"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida7aa09">
+    <Graphics>
+      <Point GraphRef="f71bf"/>
+      <Point GraphRef="a331f" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ba805"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idab6ecf73">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c23a3"/>
+      <Point GraphRef="cb375" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f2c09"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idafd1e5eb">
+    <Graphics>
+      <Point GraphRef="e849a"/>
+      <Point GraphRef="bcab1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbce4b4fd">
+    <Graphics>
+      <Point GraphRef="dbec9"/>
+      <Point GraphRef="c6159" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd6f94c0d">
+    <Graphics>
+      <Point GraphRef="cd679"/>
+      <Point GraphRef="f5b82" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="badf8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddd4a3c09">
+    <Graphics>
+      <Point GraphRef="d07bb"/>
+      <Point GraphRef="ba805" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide0264daa">
+    <Graphics>
+      <Point GraphRef="df1c8"/>
+      <Point GraphRef="a8a56" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide83fb858">
+    <Graphics>
+      <Point GraphRef="de851"/>
+      <Point GraphRef="badf8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idedeea680">
+    <Graphics>
+      <Point GraphRef="d9ecf"/>
+      <Point GraphRef="f2471" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d4188"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idefa3872c">
+    <Graphics>
+      <Point GraphRef="a6ec2"/>
+      <Point GraphRef="d4188" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfd40487f">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ad15b"/>
+      <Point GraphRef="ad13c" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bcab1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id88eb9d21">
+    <Graphics>
+      <Point GraphRef="d5390"/>
+      <Point GraphRef="a14c0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id11ace205">
+    <Graphics>
+      <Point GraphRef="ada5a"/>
+      <Point GraphRef="af3a2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id90f021b8">
+    <Graphics>
+      <Point GraphRef="f1ee5"/>
+      <Point GraphRef="e6e69" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf44f81ad">
+    <Graphics>
+      <Point GraphRef="e8a2a"/>
+      <Point GraphRef="cc73c" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a55de"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide5b73732">
+    <Graphics>
+      <Point GraphRef="cbdb4"/>
+      <Point GraphRef="a55de" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idab76f6aa">
+    <Graphics>
+      <Point GraphRef="fc0dc"/>
+      <Point GraphRef="c1911" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c6879"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id114effe8">
+    <Graphics>
+      <Point GraphRef="cc73c"/>
+      <Point GraphRef="ba69e" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a14c0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide86317f3">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e80fb"/>
+      <Point/>
+      <Point GraphRef="fc0dc" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4435413029441756" Shape="None" GraphId="e0a90"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1d5f1b82">
+    <Graphics>
+      <Point GraphRef="ca49c"/>
+      <Point GraphRef="e8a2a" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="af3a2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1a8b73d0">
+    <Graphics>
+      <Point GraphRef="fa828"/>
+      <Point GraphRef="c6879" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2a5f5b13">
+    <Graphics>
+      <Point GraphRef="b307b"/>
+      <Point GraphRef="e80fb" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="fefa8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2506c482">
+    <Graphics>
+      <Point GraphRef="c1911"/>
+      <Point GraphRef="b307b" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e6e69"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4b3fef02">
+    <Graphics>
+      <Point GraphRef="b9414"/>
+      <Point GraphRef="f71bf" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c6159"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b9daf">
+    <Graphics ConnectorType="Elbow" Color="33ff33">
+      <Point GraphRef="c6a6f"/>
+      <Point/>
+      <Point GraphRef="af944"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bb7e7">
+    <Graphics ConnectorType="Curved" Color="33ff33">
+      <Point GraphRef="ed0a0"/>
+      <Point/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="e0a90"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f2103">
+    <Graphics ConnectorType="Curved" Color="33ff33">
+      <Point GraphRef="ca64d"/>
+      <Point/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="e0a90"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f63fe">
+    <Graphics ConnectorType="Elbow" Color="33ff33">
+      <Point GraphRef="c6a6f"/>
+      <Point GraphRef="c7511"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a8260">
+    <Graphics Color="33ff33">
+      <Point GraphRef="df05e"/>
+      <Point GraphRef="b8c0d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d93c4">
+    <Graphics Color="33ff33">
+      <Point GraphRef="df05e"/>
+      <Point GraphRef="a6e7c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fc3eb">
+    <Graphics Color="33ff33">
+      <Point GraphRef="bff2d"/>
+      <Point GraphRef="df894" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa043">
+    <Graphics LineStyle="Broken" Color="33ff33">
+      <Point GraphRef="be7a8"/>
+      <Point GraphRef="d9eb3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d0a20">
+    <Graphics LineStyle="Broken" Color="33ff33">
+      <Point GraphRef="f5b82"/>
+      <Point GraphRef="f2e1e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d5435">
+    <Graphics Color="33ff33">
+      <Point GraphRef="bbd12"/>
+      <Point GraphRef="db5d9" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="af944"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ed011">
+    <Graphics Color="33ff33">
+      <Point GraphRef="f5b82"/>
+      <Point GraphRef="cd679" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa22a">
+    <Graphics Color="33ff33">
+      <Point GraphRef="ff744"/>
+      <Point GraphRef="bbd12" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c7511"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e047d">
+    <Graphics ConnectorType="Elbow" Color="33ff33">
+      <Point GraphRef="fc0dc"/>
+      <Point GraphRef="c6a6f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c48c0">
+    <Graphics LineStyle="Broken" Color="33ff33">
+      <Point GraphRef="f0a95"/>
+      <Point GraphRef="ff744" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e7f55">
+    <Graphics Color="33ff33">
+      <Point GraphRef="a6e7c"/>
+      <Point GraphRef="bff2d" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ed0a0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6d7e">
+    <Graphics Color="33ff33">
+      <Point GraphRef="df894"/>
+      <Point GraphRef="a5e43" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ca64d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9b30">
+    <Graphics LineStyle="Broken" Color="33ff33">
+      <Point GraphRef="f2e1e"/>
+      <Point GraphRef="be7a8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bd2d6">
+    <Graphics ConnectorType="Elbow" Color="33ff33">
+      <Point GraphRef="cd679"/>
+      <Point GraphRef="e80fb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b2a9c">
+    <Graphics>
+      <Point GraphRef="e0a90"/>
+      <Point GraphRef="c64af" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Group GroupId="dd0a1" GraphId="a0280" Style="Group"/>
+  <Group GroupId="e84c0" GraphId="a578b" Style="Group"/>
+  <Group GroupId="ec4bb" GraphId="a6ec2" Style="Group"/>
+  <Group GroupId="e2e3e" GraphId="b0a0c" Style="Group"/>
+  <Group GroupId="f0866" GraphId="b7aa9" Style="Group"/>
+  <Group GroupId="babdb" GraphId="ba60f" Style="Group"/>
+  <Group GroupId="e5709" GraphId="bbefe" Style="Group"/>
+  <Group GroupId="ec951" GraphId="c2741" Style="Group"/>
+  <Group GroupId="f2b5c" GraphId="c316d" Style="Group"/>
+  <Group GroupId="e4ccf" GraphId="d07bb" Style="Group"/>
+  <Group GroupId="b6e6a" GraphId="d1269" Style="Group"/>
+  <Group GroupId="e538d" GraphId="df1c8" Style="Group"/>
+  <Group GroupId="de030" GraphId="e0564" Style="Group"/>
+  <Group GroupId="ae23d" GraphId="e2883" Style="Group"/>
+  <Group GroupId="d129b" GraphId="e4b43" Style="Group"/>
+  <Group GroupId="b13af" GraphId="f1ee5" Style="Group"/>
+  <Group GroupId="cd8bd" GraphId="fa828" Style="Group"/>
+  <Group GroupId="e888b" GraphId="fafbf" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >classic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000002</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d21">
+      <bp:ID >27641100</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >One-Carbon Metabolism in Health and Disease.</bp:TITLE>
+      <bp:SOURCE >Cell Metab</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Ducker GS</bp:AUTHORS>
+      <bp:AUTHORS >Rabinowitz JD</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

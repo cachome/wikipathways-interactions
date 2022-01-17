@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Alternative pathway of fetal androgen synthesis" Version="20190214" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The development of sexual organs in humans is still not completely understood at the molecular level, controlled through the chromosomal difference between men and women. Steroids related to sexual development can have a temporary or permanent effects. Androgens are the leading compounds differentiating between (among other sexual organs) the internal and external genitalia of men.
+Next to the classical pathway of androgen synthesis (see [https://www.wikipathways.org/index.php/Pathway:WP4523]), alternative pathways are known, which make use of either selective expression patterns of isoenzymes or alternate enzymes. As an alternative, a socalled 'backdoor pathway', which can create dihydrotestosterone (DHT), skipping testosterone. Several enzymes between the classical and backdoor pathway are shared, however the later one utilises one unique enzyme, 3-alpha hydroxysteroid dehydrogenase 3 (gene: AKR1C2). Even though the relevance of this backdoor pathway for humans is not completely clear yet, mutations in the human AKR1C2 gene can lead to disordered sexual differentiation. This finding would indicate that both the classical and the alternative pathway are needed for normal development of male genitalia in humans.
+For more information on androgens, see Hiort (2013 [https://www.ncbi.nlm.nih.gov/pubmed/23800242]), and for more information on the disease linked to this pathway, please visit Chapter 37 of the book of Blau (ISBN 3642403360 (978-3642403361)).</Comment>
+  <BiopaxRef>dff</BiopaxRef>
+  <BiopaxRef>bd0</BiopaxRef>
+  <Graphics BoardWidth="1193.231481481481" BoardHeight="825.2278911564634"/>
+  <DataNode TextLabel="Dihydrotestosterone (DHT)" GraphId="a1820" Type="Metabolite">
+    <BiopaxRef>c2a</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Pregnenolone" GraphId="a2c10" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Androsterone" GraphId="a4488" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="17-Hydroxyallopregnanolone" GraphId="a7210" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="P450scc" GraphId="ad6b6" Type="GeneProduct" GroupRef="cf555">
+    <BiopaxRef>d01</BiopaxRef>
+    <BiopaxRef>a78</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="DHEA" GraphId="ad852" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="17-Hydroxypregnenolone" GraphId="b2190" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cytb5" GraphId="b4602" Type="Protein" GroupRef="aa57c">
+    <BiopaxRef>f1d</BiopaxRef>
+    <BiopaxRef>a5a</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="3 HSD" GraphId="b5ad7" Type="Protein">
+    <Comment>Aka HSD3B2; 3 beta-hydroxysteroid dehydrogenase type II</Comment>
+        </DataNode>
+  <DataNode TextLabel="STAR" GraphId="b6276" Type="GeneProduct" GroupRef="cf555">
+        </DataNode>
+  <DataNode TextLabel="AKR1C2" GraphId="b9463" Type="Protein">
+    <Comment>Responsible protein found through Rhea (not part of Blau book)</Comment>
+        </DataNode>
+  <DataNode TextLabel="5-alpha-reductase 1" GraphId="bcd1f" Type="GeneProduct">
+    <BiopaxRef>b24</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="17-Hydroxyprogesterone" GraphId="bfa3d" Type="Metabolite">
+    <BiopaxRef>b21</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="P450c17" GraphId="c9acc" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="d01b3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="17-hydroxydihydroprogesterone" GraphId="d1b18" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="d276b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="RODH" GraphId="d8693" Type="Protein" GroupRef="f23de">
+        </DataNode>
+  <DataNode TextLabel="17-beta-HSD" GraphId="d9876" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="3-beta-HSD" GraphId="de422" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Androstanedione" GraphId="df135" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Androstenedione" GraphId="e5199" Type="Metabolite">
+    <BiopaxRef>b21</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="androst-4-ene-&#10;3,17-dione" GraphId="e5bd1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Progesterone" GraphId="e69d3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AKR1C2/4" GraphId="e6fa5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="POR" GraphId="e7ac2" Type="Protein">
+    <Comment>Function:"This enzyme is required for electron transfer from NADP to cytochrome P450 in microsomes" [https://www.uniprot.org/uniprot/P16435]</Comment>
+        </DataNode>
+  <DataNode TextLabel="Cholesterol" GraphId="eee11" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AKR1C4" GraphId="f2b2b" Type="GeneProduct" GroupRef="f23de">
+        </DataNode>
+  <DataNode TextLabel="NAD+" GraphId="f5fc2" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Testosterone" GraphId="fbbb2" Type="Metabolite">
+    <BiopaxRef>c2a</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Androstanediol" GraphId="fda41" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="POR" GraphId="c771a" Type="Protein" GroupRef="d0578">
+        </DataNode>
+  <DataNode TextLabel="P450c17" GraphId="e70bb" Type="GeneProduct" GroupRef="d0578">
+        </DataNode>
+  <DataNode TextLabel="3-beta-HSD" GraphId="ee379" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="17-beta-HSD3" GraphId="b5edd" Type="GeneProduct">
+    <BiopaxRef>ac0</BiopaxRef>
+    <BiopaxRef>fa0</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="5-alpha-reductase 2" GraphId="cac20" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="P450c17" GraphId="c6520" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="P450c17" GraphId="bbf12" Type="Protein" GroupRef="aa57c">
+    <BiopaxRef>b21</BiopaxRef>
+    <BiopaxRef>f1d</BiopaxRef>
+    <BiopaxRef>a5a</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="P450c17" GraphId="dd93d" Type="Protein">
+    <Comment>Function:"Conversion of pregnenolone and progesterone to their 17-alpha-hydroxylated products and subsequently to dehydroepiandrosterone (DHEA) and androstenedione. Catalyzes both the 17-alpha-hydroxylation and the 17,20-lyase reaction. Involved in sexual development during fetal life and at puberty" [https://www.uniprot.org/uniprot/P05093]</Comment>
+    <BiopaxRef>e32</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="P450c17" GraphId="c62bb" Type="Protein">
+    <BiopaxRef>d30</BiopaxRef>
+    <BiopaxRef>e32</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="P450c17" GraphId="c068e" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="POR" GraphId="fd406" Type="Protein">
+    <Comment>Function:"This enzyme is required for electron transfer from NADP to cytochrome P450 in microsomes" [https://www.uniprot.org/uniprot/P16435]</Comment>
+        </DataNode>
+  <DataNode TextLabel="P450c17" GraphId="c0ad9" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="P450c17" GraphId="cf9ce" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="POR" GraphId="e93f5" Type="Protein">
+    <Comment>Function:"This enzyme is required for electron transfer from NADP to cytochrome P450 in microsomes" [https://www.uniprot.org/uniprot/P16435]</Comment>
+        </DataNode>
+  <DataNode TextLabel="P450c17" GraphId="b3729" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="P450c17" GraphId="cb5d3" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="POR" GraphId="a8bd0" Type="Protein">
+    <Comment>Function:"This enzyme is required for electron transfer from NADP to cytochrome P450 in microsomes" [https://www.uniprot.org/uniprot/P16435]</Comment>
+        </DataNode>
+  <DataNode TextLabel="POR" GraphId="f9960" Type="Protein">
+    <Comment>Function:"This enzyme is required for electron transfer from NADP to cytochrome P450 in microsomes" [https://www.uniprot.org/uniprot/P16435]</Comment>
+        </DataNode>
+  <DataNode TextLabel="NADH" GraphId="a40f8" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="ba0f7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="d2206" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NAD+" GraphId="c0305" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NADH" GraphId="b7401" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AKR1C2" GraphId="fd06e" Type="Protein">
+    <Comment>Responsible protein found through Rhea (not part of Blau book)</Comment>
+        </DataNode>
+  <State GraphRef="c9acc" TextLabel="R" GraphId="c4c6f">
+    <Comment>Reduced</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c6520" TextLabel="R" GraphId="a2a88">
+    <Comment>Reduced</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="bbf12" TextLabel="R" GraphId="cd331">
+    <Comment>Reduced</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="dd93d" TextLabel="R" GraphId="cf61e">
+    <Comment>Reduced</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c62bb" TextLabel="R" GraphId="d5c94">
+    <Comment>Reduced</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c068e" TextLabel="Ox" GraphId="a06b9">
+    <Comment>Oxidised</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c0ad9" TextLabel="Ox" GraphId="a53fa">
+    <Comment>Oxidised</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="cf9ce" TextLabel="Ox" GraphId="c5563">
+    <Comment>Oxidised</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b3729" TextLabel="Ox" GraphId="ab591">
+    <Comment>Oxidised</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="cb5d3" TextLabel="Ox" GraphId="dc27c">
+    <Comment>Oxidised</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id1009078c">
+    <Graphics>
+      <Point GraphRef="db883"/>
+      <Point GraphRef="f484b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1e784a7">
+    <Graphics>
+      <Point GraphRef="de422"/>
+      <Point GraphRef="a3969" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1ee54e16">
+    <Graphics>
+      <Point GraphRef="d8e2b"/>
+      <Point GraphRef="c85c1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id293aa68f">
+    <Graphics>
+      <Point GraphRef="b5ad7"/>
+      <Point GraphRef="e8a2e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2cb445a7">
+    <Comment>**No Rhea available</Comment>
+    <Graphics>
+      <Point GraphRef="a7210"/>
+      <Point GraphRef="a4488" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c85c1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id34610595">
+    <BiopaxRef>b21</BiopaxRef>
+    <BiopaxRef>d30</BiopaxRef>
+    <BiopaxRef>e32</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bfa3d"/>
+      <Point GraphRef="e5199" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5408658383076212" Shape="None" GraphId="cd28a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3e63f062">
+    <Graphics>
+      <Point GraphRef="ee379"/>
+      <Point GraphRef="a3dd4" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id437665bf">
+    <Graphics>
+      <Point GraphRef="e69d3"/>
+      <Point GraphRef="e5bd1" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5679805769780075" Shape="None" GraphId="dbd59"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4389ef0a">
+    <BiopaxRef>cc7</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a4488"/>
+      <Point GraphRef="df135" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f3a69"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4aee0e2a">
+    <Graphics>
+      <Point GraphRef="fda41"/>
+      <Point GraphRef="a1820" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.40057062199435794" Shape="None" GraphId="f7519"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5d10d187">
+    <BiopaxRef>d66</BiopaxRef>
+    <BiopaxRef>fed</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="df135"/>
+      <Point GraphRef="a1820" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="abad2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5d34b3c8">
+    <Graphics>
+      <Point GraphRef="e6fa5"/>
+      <Point GraphRef="d0998" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5d535044">
+    <Graphics>
+      <Point GraphRef="a2c10"/>
+      <Point GraphRef="e69d3" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e8a2e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id63351752">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bfa3d"/>
+      <Point GraphRef="e5199" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.549951792333733" Shape="None" GraphId="c67d4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id672682eb">
+    <BiopaxRef>cc7</BiopaxRef>
+    <BiopaxRef>ac0</BiopaxRef>
+    <BiopaxRef>fa0</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b5edd"/>
+      <Point GraphRef="c634d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6971a570">
+    <Comment>Specific Rhea for this reaction is not available at the moment; added Rhea for compounds classes reaction</Comment>
+    <Graphics>
+      <Point GraphRef="b2190"/>
+      <Point GraphRef="bfa3d" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.47478991596638653" Shape="None" GraphId="a3969"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6a98ae4c">
+    <Graphics>
+      <Point GraphRef="f5fc2"/>
+      <Point GraphRef="abad2" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id72640af">
+    <Comment>**No Rhea available</Comment>
+    <Graphics>
+      <Point GraphRef="d1b18"/>
+      <Point GraphRef="a7210" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d0998"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7a4e6b0d">
+    <BiopaxRef>cc7</BiopaxRef>
+    <BiopaxRef>ac0</BiopaxRef>
+    <BiopaxRef>fa0</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="df135"/>
+      <Point GraphRef="a1820" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5263193841240108" Shape="None" GraphId="d0ae9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id81dace9">
+    <Graphics>
+      <Point GraphRef="e7ac2"/>
+      <Point GraphRef="c65cd" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id88d98d18">
+    <Graphics>
+      <Point GraphRef="fd06e"/>
+      <Point GraphRef="bfc9d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8deb9b5c">
+    <Graphics>
+      <Point GraphRef="bcd1f"/>
+      <Point GraphRef="e427e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8edc92cf">
+    <BiopaxRef>cc7</BiopaxRef>
+    <BiopaxRef>fa0</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e5199"/>
+      <Point GraphRef="fbbb2" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.46977329974811227" Shape="None" GraphId="c634d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id90bf9399">
+    <BiopaxRef>c80</BiopaxRef>
+    <BiopaxRef>fca</BiopaxRef>
+    <BiopaxRef>e64</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fbbb2"/>
+      <Point GraphRef="a1820" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.466267269461892" Shape="None" GraphId="b811c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id96a6c5d4">
+    <BiopaxRef>eda</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c068e"/>
+      <Point GraphRef="c9acc" ArrowHead="mim-modification"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c65cd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9db32a3b">
+    <Graphics>
+      <Point GraphRef="c6520"/>
+      <Point GraphRef="c67d4" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9f8485dd">
+    <BiopaxRef>b21</BiopaxRef>
+    <BiopaxRef>fa8</BiopaxRef>
+    <BiopaxRef>cc1</BiopaxRef>
+    <BiopaxRef>a5a</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e69d3"/>
+      <Point GraphRef="bfa3d" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.44623881872523546" Shape="None" GraphId="dfac4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9fb20bd4">
+    <BiopaxRef>fca</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e5199"/>
+      <Point/>
+      <Point GraphRef="df135" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida81de6c8">
+    <Graphics>
+      <Point GraphRef="d01b3"/>
+      <Point GraphRef="d0ae9" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida943bf1b">
+    <BiopaxRef>b21</BiopaxRef>
+    <BiopaxRef>eda</BiopaxRef>
+    <BiopaxRef>f40</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c9acc"/>
+      <Point GraphRef="f5762" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb8205d4">
+    <Graphics>
+      <Point GraphRef="d9876"/>
+      <Point GraphRef="eedfe" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd7b10afc">
+    <Graphics>
+      <Point GraphRef="ad852"/>
+      <Point GraphRef="e5199" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4716477317182286" Shape="None" GraphId="a3dd4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd7e06f70">
+    <BiopaxRef>cc7</BiopaxRef>
+    <BiopaxRef>d66</BiopaxRef>
+    <BiopaxRef>d50</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a4488"/>
+      <Point GraphRef="df135" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bfc9d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddad61340">
+    <BiopaxRef>b21</BiopaxRef>
+    <BiopaxRef>f1d</BiopaxRef>
+    <BiopaxRef>ff1</BiopaxRef>
+    <BiopaxRef>acd</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b2190"/>
+      <Point GraphRef="ad852" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5265894005719616" Shape="None" GraphId="e2b7b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddd04df92">
+    <Graphics>
+      <Point GraphRef="b9463"/>
+      <Point GraphRef="f3a69" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide3961988">
+    <BiopaxRef>b21</BiopaxRef>
+    <BiopaxRef>f1d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c7e2a"/>
+      <Point GraphRef="e2b7b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide5c0716e">
+    <Comment>**No Rhea available</Comment>
+    <Graphics>
+      <Point GraphRef="a4488"/>
+      <Point GraphRef="fda41" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="eedfe"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide98cb2fa">
+    <BiopaxRef>aa9</BiopaxRef>
+    <BiopaxRef>a78</BiopaxRef>
+    <BiopaxRef>f94</BiopaxRef>
+    <BiopaxRef>d01</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="eee11"/>
+      <Point GraphRef="a2c10" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f484b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idea4bf73d">
+    <Comment>**No Rhea available</Comment>
+    <Graphics>
+      <Point GraphRef="bfa3d"/>
+      <Point GraphRef="d1b18" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.44666666666666666" Shape="None" GraphId="e427e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideb99453a">
+    <BiopaxRef>b21</BiopaxRef>
+    <BiopaxRef>a5a</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a2c10"/>
+      <Point GraphRef="b2190" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4525482396159659" Shape="None" GraphId="f5762"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ided05a70c">
+    <BiopaxRef>c80</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cac20"/>
+      <Point GraphRef="b811c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfa991ec1">
+    <Graphics>
+      <Point GraphRef="b78ec"/>
+      <Point GraphRef="f7519" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfd3f8932">
+    <BiopaxRef>b21</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="dd93d"/>
+      <Point GraphRef="dfac4" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d877b">
+    <Graphics>
+      <Point GraphRef="dd93d"/>
+      <Point GraphRef="dbd59" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0ab0">
+    <BiopaxRef>b21</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c62bb"/>
+      <Point GraphRef="cd28a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d1eb5">
+    <BiopaxRef>eda</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c0ad9"/>
+      <Point GraphRef="bbf12" ArrowHead="mim-modification"/>
+      <Anchor Position="0.6162437987877647" Shape="None" GraphId="c15a8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a2369">
+    <BiopaxRef>eda</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cf9ce"/>
+      <Point GraphRef="dd93d" ArrowHead="mim-modification"/>
+      <Anchor Position="0.506812429938766" Shape="None" GraphId="bfa6b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3ad0">
+    <Graphics>
+      <Point GraphRef="fd406"/>
+      <Point GraphRef="c15a8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c3507">
+    <Graphics>
+      <Point GraphRef="e93f5"/>
+      <Point GraphRef="bfa6b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9d1a">
+    <BiopaxRef>eda</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b3729"/>
+      <Point GraphRef="c6520" ArrowHead="mim-modification"/>
+      <Anchor Position="0.4375301651715506" Shape="None" GraphId="dbbf1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa417">
+    <BiopaxRef>eda</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cb5d3"/>
+      <Point GraphRef="c62bb" ArrowHead="mim-modification"/>
+      <Anchor Position="0.4375301651715506" Shape="None" GraphId="b1f51"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b6095">
+    <Graphics>
+      <Point GraphRef="a8bd0"/>
+      <Point GraphRef="dbbf1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e1d66">
+    <Graphics>
+      <Point GraphRef="f9960"/>
+      <Point GraphRef="b1f51" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eeb74">
+    <Graphics>
+      <Point GraphRef="d0ae9"/>
+      <Point GraphRef="d276b" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f87e0">
+    <Graphics>
+      <Point GraphRef="abad2"/>
+      <Point GraphRef="a40f8" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fdb81">
+    <BiopaxRef>cc7</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ba0f7"/>
+      <Point GraphRef="f3a69" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e4b9f">
+    <BiopaxRef>cc7</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f3a69"/>
+      <Point GraphRef="d2206" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a8d5a">
+    <Graphics>
+      <Point GraphRef="c0305"/>
+      <Point GraphRef="bfc9d" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ee796">
+    <Graphics>
+      <Point GraphRef="bfc9d"/>
+      <Point GraphRef="b7401" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="e63c0">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c634d"/>
+      <Point GraphRef="ae7cc" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f8d41">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b811c"/>
+      <Point GraphRef="db130" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c87ba">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d0998"/>
+      <Point GraphRef="b5e89" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c7e5d">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="eedfe"/>
+      <Point GraphRef="c1370" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d34f8">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f3a69"/>
+      <Point GraphRef="f4b12" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f280b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bfc9d"/>
+      <Point GraphRef="f4b12" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e40cd">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f2b2b"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ebb63">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e70bb"/>
+      <Point GraphRef="ce7a5" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e3ade">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d8e2b"/>
+      <Point GraphRef="bcab5" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="17-beta-hydroxysteroid&#10;dehydrogenase deficiency" GraphId="ae7cc" Href="https://www.omim.org/entry/264300">
+    <BiopaxRef>aca</BiopaxRef>
+    <BiopaxRef>e25</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="5-alpha-reductase&#10;type II deficiency" GraphId="db130" Href="https://www.omim.org/entry/264600">
+    <Comment>AKA pseudovaginal perineoscrotal hypospadia</Comment>
+    <BiopaxRef>c16</BiopaxRef>
+    <BiopaxRef>c42</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="46,XY sex reversal 8" GraphId="b5e89" Href="https://omim.org/entry/614279">
+    <Comment>AKA pseudovaginal perineoscrotal hypospadia</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="17-beta-hydroxysteroid&#10;dehydrogenase deficiency" GraphId="c1370" Href="https://omim.org/entry/264300">
+    <Comment>AKA pseudovaginal perineoscrotal hypospadia</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="3-alpha-Hydroxysteroid&#10;dehydrogenase deficiency" GraphId="f4b12" Href="https://www.omim.org/entry/614279">
+    <Comment>AKA pseudovaginal perineoscrotal hypospadia</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="17,20-lyase deficiency" GraphId="ce7a5" Href="https://omim.org/entry/202110">
+    <Comment>AKA pseudovaginal perineoscrotal hypospadia</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="P450 oxidoreductase&#10; deficiency" GraphId="bcab5" Href="https://omim.org/entry/613571">
+    <Comment>AKA pseudovaginal perineoscrotal hypospadia</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Group GroupId="f23de" GraphId="b78ec" Style="Complex"/>
+  <Group GroupId="aa57c" GraphId="c7e2a" Style="Complex">
+    <BiopaxRef>f1d</BiopaxRef>
+    <BiopaxRef>a5a</BiopaxRef>
+  </Group>
+  <Group GroupId="ccd80" GraphId="d4be6" Style="Group"/>
+  <Group GroupId="d0578" GraphId="d8e2b" Style="Group"/>
+  <Group GroupId="cf555" GraphId="db883" Style="Complex"/>
+  <Group GroupId="dad80" GraphId="e7608" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c16">
+      <bp:ID >240819</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Diminished 5alpha-reductase activity in extracts of fibroblasts cultured from patients with familial incomplete male pseudohermaphroditism, type 2.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1975</bp:YEAR>
+      <bp:AUTHORS >Moore RJ</bp:AUTHORS>
+      <bp:AUTHORS >Griffin JE</bp:AUTHORS>
+      <bp:AUTHORS >Wilson JD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >testosterone biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000778</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d50">
+      <bp:ID >11360992</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Further characterization of human microsomal 3alpha-hydroxysteroid dehydrogenase.</bp:TITLE>
+      <bp:SOURCE >Arch Biochem Biophys</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Chetyrkin SV</bp:AUTHORS>
+      <bp:AUTHORS >Hu J</bp:AUTHORS>
+      <bp:AUTHORS >Gough WH</bp:AUTHORS>
+      <bp:AUTHORS >Dumaual N</bp:AUTHORS>
+      <bp:AUTHORS >Kedishvili NY</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >altered steroid biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001306</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f94">
+      <bp:ID >21636783</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Structural basis for pregnenolone biosynthesis by the mitochondrial monooxygenase system.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Strushkevich N</bp:AUTHORS>
+      <bp:AUTHORS >MacKenzie F</bp:AUTHORS>
+      <bp:AUTHORS >Cherkesova T</bp:AUTHORS>
+      <bp:AUTHORS >Grabovec I</bp:AUTHORS>
+      <bp:AUTHORS >Usanov S</bp:AUTHORS>
+      <bp:AUTHORS >Park HW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c80">
+      <bp:ID >2339109</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Structural and biochemical properties of cloned and expressed human and rat steroid 5 alpha-reductases.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >1990</bp:YEAR>
+      <bp:AUTHORS >Andersson S</bp:AUTHORS>
+      <bp:AUTHORS >Russell DW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aca">
+      <bp:ID >26545797</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE />
+      <bp:SOURCE />
+      <bp:YEAR />
+      <bp:ID >26545797</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Biochemical analyses and molecular modeling explain the functional loss of 17&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#226;&#8364;&#166;&#195;&#8218;&#194;&#189;&#195;&#402;&#198;&#8217;&#195;&#162;&#226;&#8218;&#172;&#197;&#161;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#178;-hydroxysteroid dehydrogenase 3 mutant G133R in three Tunisian patients with 46, XY Disorders of Sex Development.</bp:TITLE>
+      <bp:SOURCE >J Steroid Biochem Mol Biol</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Engeli RT</bp:AUTHORS>
+      <bp:AUTHORS >Rhouma BB</bp:AUTHORS>
+      <bp:AUTHORS >Sager CP</bp:AUTHORS>
+      <bp:AUTHORS >Tsachaki M</bp:AUTHORS>
+      <bp:AUTHORS >Birk J</bp:AUTHORS>
+      <bp:AUTHORS >Fakhfakh F</bp:AUTHORS>
+      <bp:AUTHORS >Keskes L</bp:AUTHORS>
+      <bp:AUTHORS >Belguith N</bp:AUTHORS>
+      <bp:AUTHORS >Odermatt A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f1d">
+      <bp:ID >26587646</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mechanistic Scrutiny Identifies a Kinetic Role for Cytochrome b5 Regulation of Human Cytochrome P450c17 (CYP17A1, P450 17A1).</bp:TITLE>
+      <bp:SOURCE >PLoS One</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Simonov AN</bp:AUTHORS>
+      <bp:AUTHORS >Holien JK</bp:AUTHORS>
+      <bp:AUTHORS >Yeung JC</bp:AUTHORS>
+      <bp:AUTHORS >Nguyen AD</bp:AUTHORS>
+      <bp:AUTHORS >Corbin CJ</bp:AUTHORS>
+      <bp:AUTHORS >Zheng J</bp:AUTHORS>
+      <bp:AUTHORS >Kuznetsov VL</bp:AUTHORS>
+      <bp:AUTHORS >Auchus RJ</bp:AUTHORS>
+      <bp:AUTHORS >Conley AJ</bp:AUTHORS>
+      <bp:AUTHORS >Bond AM</bp:AUTHORS>
+      <bp:AUTHORS >Parker MW</bp:AUTHORS>
+      <bp:AUTHORS >Rodgers RJ</bp:AUTHORS>
+      <bp:AUTHORS >Martin LL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fca">
+      <bp:ID >26855069</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Characterization of 5&#945;-reductase activity and isoenzymes in human abdominal adipose tissues.</bp:TITLE>
+      <bp:SOURCE >J Steroid Biochem Mol Biol</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Fouad Mansour M</bp:AUTHORS>
+      <bp:AUTHORS >Pelletier M</bp:AUTHORS>
+      <bp:AUTHORS >Tchernof A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d66">
+      <bp:ID >11294878</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Characterization of a novel type of human microsomal 3alpha -hydroxysteroid dehydrogenase: unique tissue distribution and catalytic properties.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Chetyrkin SV</bp:AUTHORS>
+      <bp:AUTHORS >Belyaeva OV</bp:AUTHORS>
+      <bp:AUTHORS >Gough WH</bp:AUTHORS>
+      <bp:AUTHORS >Kedishvili NY</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dff">
+      <bp:ID >9783642403361</bp:ID>
+      <bp:DB >ISBN</bp:DB>
+      <bp:TITLE >Physician's Guide to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases</bp:TITLE>
+      <bp:SOURCE >ISBN 978-3-642-40337-8</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Blau, Nenad</bp:AUTHORS>
+      <bp:AUTHORS >Duran, Marinus</bp:AUTHORS>
+      <bp:AUTHORS >Gibson, K. Michael</bp:AUTHORS>
+      <bp:AUTHORS >Dionisi-Vici, Carlo</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >steroid inherited metabolic disorder</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:1701</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c42">
+      <bp:ID >1123350</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Dihydrotestosterone formation in cultured human fibroblasts. Comparison of cells from normal subjects and patients with familial incomplete male pseudohermaphroditism, Type 2.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1975</bp:YEAR>
+      <bp:AUTHORS >Wilson JD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >steroid hormone metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001305</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d01">
+      <bp:ID >7217084</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Adrenal mitochondrial cytochrome P-450scc. Cholesterol and adrenodoxin interactions at equilibrium and during turnover.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1981</bp:YEAR>
+      <bp:AUTHORS >Hanukoglu I</bp:AUTHORS>
+      <bp:AUTHORS >Spitsberg V</bp:AUTHORS>
+      <bp:AUTHORS >Bumpus JA</bp:AUTHORS>
+      <bp:AUTHORS >Dus KM</bp:AUTHORS>
+      <bp:AUTHORS >Jefcoate CR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a78">
+      <bp:ID >21159775</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Structural basis for three-step sequential catalysis by the cholesterol side chain cleavage enzyme CYP11A1.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Mast N</bp:AUTHORS>
+      <bp:AUTHORS >Annalora AJ</bp:AUTHORS>
+      <bp:AUTHORS >Lodowski DT</bp:AUTHORS>
+      <bp:AUTHORS >Palczewski K</bp:AUTHORS>
+      <bp:AUTHORS >Stout CD</bp:AUTHORS>
+      <bp:AUTHORS >Pikuleva IA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ff1">
+      <bp:ID >26976652</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of cytochrome b5 in the modulation of the enzymatic activities of cytochrome P450 17&#945;-hydroxylase/17,20-lyase (P450 17A1).</bp:TITLE>
+      <bp:SOURCE >J Steroid Biochem Mol Biol</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Bhatt MR</bp:AUTHORS>
+      <bp:AUTHORS >Khatri Y</bp:AUTHORS>
+      <bp:AUTHORS >Rodgers RJ</bp:AUTHORS>
+      <bp:AUTHORS >Martin LL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="acd">
+      <bp:ID >27339894</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mechanism of 17&#945;,20-Lyase and New Hydroxylation Reactions of Human Cytochrome P450 17A1: 18O LABELING AND OXYGEN SURROGATE EVIDENCE FOR A ROLE OF A PERFERRYL OXYGEN.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Yoshimoto FK</bp:AUTHORS>
+      <bp:AUTHORS >Gonzalez E</bp:AUTHORS>
+      <bp:AUTHORS >Auchus RJ</bp:AUTHORS>
+      <bp:AUTHORS >Guengerich FP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd0">
+      <bp:ID >21802064</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Why boys will be boys: two pathways of fetal testicular androgen biosynthesis are needed for male sexual differentiation.</bp:TITLE>
+      <bp:SOURCE >Am J Hum Genet</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:ID >21802064</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Why boys will be boys: two pathways of fetal testicular androgen biosynthesis are needed for male sexual differentiation.</bp:TITLE>
+      <bp:SOURCE >Am J Hum Genet</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Fl&#252;ck CE</bp:AUTHORS>
+      <bp:AUTHORS >Meyer-B&#246;ni M</bp:AUTHORS>
+      <bp:AUTHORS >Pandey AV</bp:AUTHORS>
+      <bp:AUTHORS >Kempn&#225; P</bp:AUTHORS>
+      <bp:AUTHORS >Miller WL</bp:AUTHORS>
+      <bp:AUTHORS >Schoenle EJ</bp:AUTHORS>
+      <bp:AUTHORS >Biason-Lauber A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d30">
+      <bp:ID >17386955</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Functional expression and characterisation of human cytochrome P45017alpha in Pichia pastoris.</bp:TITLE>
+      <bp:SOURCE >J Biotechnol</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Kolar NW</bp:AUTHORS>
+      <bp:AUTHORS >Swart AC</bp:AUTHORS>
+      <bp:AUTHORS >Mason JI</bp:AUTHORS>
+      <bp:AUTHORS >Swart P</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac0">
+      <bp:ID >16216911</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Androgen metabolism via 17beta-hydroxysteroid dehydrogenase type 3 in mammalian and non-mammalian vertebrates: comparison of the human and the zebrafish enzyme.</bp:TITLE>
+      <bp:SOURCE >J Mol Endocrinol</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Mindnich R</bp:AUTHORS>
+      <bp:AUTHORS >Haller F</bp:AUTHORS>
+      <bp:AUTHORS >Halbach F</bp:AUTHORS>
+      <bp:AUTHORS >Moeller G</bp:AUTHORS>
+      <bp:AUTHORS >Hrab&#233; de Angelis M</bp:AUTHORS>
+      <bp:AUTHORS >Adamski J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >steroid metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001303</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e32">
+      <bp:ID >18707589</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Engineering, expression, and purification of "soluble" human cytochrome P45017alpha and its functional characterization.</bp:TITLE>
+      <bp:SOURCE >Biochemistry (Mosc)</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Pechurskaya TA</bp:AUTHORS>
+      <bp:AUTHORS >Lukashevich OP</bp:AUTHORS>
+      <bp:AUTHORS >Gilep AA</bp:AUTHORS>
+      <bp:AUTHORS >Usanov SA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fed">
+      <bp:ID >12917011</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Expanded substrate screenings of human and Drosophila type 10 17beta-hydroxysteroid dehydrogenases (HSDs) reveal multiple specificities in bile acid and steroid hormone metabolism: characterization of multifunctional 3alpha/7alpha/7beta/17beta/20beta/21-HSD.</bp:TITLE>
+      <bp:SOURCE >Biochem J</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Shafqat N</bp:AUTHORS>
+      <bp:AUTHORS >Marschall HU</bp:AUTHORS>
+      <bp:AUTHORS >Filling C</bp:AUTHORS>
+      <bp:AUTHORS >Nordling E</bp:AUTHORS>
+      <bp:AUTHORS >Wu XQ</bp:AUTHORS>
+      <bp:AUTHORS >Bj&#246;rk L</bp:AUTHORS>
+      <bp:AUTHORS >Thyberg J</bp:AUTHORS>
+      <bp:AUTHORS >M&#229;rtensson E</bp:AUTHORS>
+      <bp:AUTHORS >Salim S</bp:AUTHORS>
+      <bp:AUTHORS >J&#246;rnvall H</bp:AUTHORS>
+      <bp:AUTHORS >Oppermann U</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >altered isoprenoid biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000751</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e25">
+      <bp:ID >8075637</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Male pseudohermaphroditism caused by mutations of testicular 17 beta-hydroxysteroid dehydrogenase 3.</bp:TITLE>
+      <bp:SOURCE >Nat Genet</bp:SOURCE>
+      <bp:YEAR >1994</bp:YEAR>
+      <bp:AUTHORS >Geissler WM</bp:AUTHORS>
+      <bp:AUTHORS >Davis DL</bp:AUTHORS>
+      <bp:AUTHORS >Wu L</bp:AUTHORS>
+      <bp:AUTHORS >Bradshaw KD</bp:AUTHORS>
+      <bp:AUTHORS >Patel S</bp:AUTHORS>
+      <bp:AUTHORS >Mendonca BB</bp:AUTHORS>
+      <bp:AUTHORS >Elliston KO</bp:AUTHORS>
+      <bp:AUTHORS >Wilson JD</bp:AUTHORS>
+      <bp:AUTHORS >Russell DW</bp:AUTHORS>
+      <bp:AUTHORS >Andersson S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cholesterol metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001304</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >steroid hormone biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000040</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cc1">
+      <bp:ID >21586563</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >High-yield expression of a catalytically active membrane-bound protein: human P450 oxidoreductase.</bp:TITLE>
+      <bp:SOURCE >Endocrinology</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Sandee D</bp:AUTHORS>
+      <bp:AUTHORS >Miller WL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa0">
+      <bp:ID >25577493</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Aldo-keto Reductase 1B15 (AKR1B15): a mitochondrial human aldo-keto reductase with activity toward steroids and 3-keto-acyl-CoA conjugates.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Weber S</bp:AUTHORS>
+      <bp:AUTHORS >Salabei JK</bp:AUTHORS>
+      <bp:AUTHORS >M&#246;ller G</bp:AUTHORS>
+      <bp:AUTHORS >Kremmer E</bp:AUTHORS>
+      <bp:AUTHORS >Bhatnagar A</bp:AUTHORS>
+      <bp:AUTHORS >Adamski J</bp:AUTHORS>
+      <bp:AUTHORS >Barski OA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eda">
+      <bp:ID >19661994</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Measurement of cytochrome P450 and NADPH-cytochrome P450 reductase.</bp:TITLE>
+      <bp:SOURCE >Nat Protoc</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Guengerich FP</bp:AUTHORS>
+      <bp:AUTHORS >Martin MV</bp:AUTHORS>
+      <bp:AUTHORS >Sohl CD</bp:AUTHORS>
+      <bp:AUTHORS >Cheng Q</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c2a">
+      <bp:ID >164477</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Genetic and hormonal control of male sexual differentiation.</bp:TITLE>
+      <bp:SOURCE >J Cell Physiol</bp:SOURCE>
+      <bp:YEAR >1975</bp:YEAR>
+      <bp:AUTHORS >Goldstein JL</bp:AUTHORS>
+      <bp:AUTHORS >Wilson JD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cc7">
+      <bp:ID >10998348</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Human 3alpha-hydroxysteroid dehydrogenase isoforms (AKR1C1-AKR1C4) of the aldo-keto reductase superfamily: functional plasticity and tissue distribution reveals roles in the inactivation and formation of male and female sex hormones.</bp:TITLE>
+      <bp:SOURCE >Biochem J</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Penning TM</bp:AUTHORS>
+      <bp:AUTHORS >Burczynski ME</bp:AUTHORS>
+      <bp:AUTHORS >Jez JM</bp:AUTHORS>
+      <bp:AUTHORS >Hung CF</bp:AUTHORS>
+      <bp:AUTHORS >Lin HK</bp:AUTHORS>
+      <bp:AUTHORS >Ma H</bp:AUTHORS>
+      <bp:AUTHORS >Moore M</bp:AUTHORS>
+      <bp:AUTHORS >Palackal N</bp:AUTHORS>
+      <bp:AUTHORS >Ratnam K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b24">
+      <bp:ID >23800242</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The differential role of androgens in early human sex development.</bp:TITLE>
+      <bp:SOURCE >BMC Med</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Hiort O</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa8">
+      <bp:ID >14640697</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Broad substrate specificity of human cytochrome P450 46A1 which initiates cholesterol degradation in the brain.</bp:TITLE>
+      <bp:SOURCE >Biochemistry</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Mast N</bp:AUTHORS>
+      <bp:AUTHORS >Norcross R</bp:AUTHORS>
+      <bp:AUTHORS >Andersson U</bp:AUTHORS>
+      <bp:AUTHORS >Shou M</bp:AUTHORS>
+      <bp:AUTHORS >Nakayama K</bp:AUTHORS>
+      <bp:AUTHORS >Bjorkhem I</bp:AUTHORS>
+      <bp:AUTHORS >Pikuleva IA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e64">
+      <bp:ID >10898110</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Biochemical and pharmacogenetic dissection of human steroid 5 alpha-reductase type II.</bp:TITLE>
+      <bp:SOURCE >Pharmacogenetics</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Makridakis NM</bp:AUTHORS>
+      <bp:AUTHORS >di Salle E</bp:AUTHORS>
+      <bp:AUTHORS >Reichardt JK</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b21">
+      <bp:ID >26668369</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Unveiling the crucial intermediates in androgen production.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Mak PJ</bp:AUTHORS>
+      <bp:AUTHORS >Gregory MC</bp:AUTHORS>
+      <bp:AUTHORS >Denisov IG</bp:AUTHORS>
+      <bp:AUTHORS >Sligar SG</bp:AUTHORS>
+      <bp:AUTHORS >Kincaid JR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a5a">
+      <bp:ID >9452426</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cytochrome b5 augments the 17,20-lyase activity of human P450c17 without direct electron transfer.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Auchus RJ</bp:AUTHORS>
+      <bp:AUTHORS >Lee TC</bp:AUTHORS>
+      <bp:AUTHORS >Miller WL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f40">
+      <bp:ID >11329262</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Determination of the redox properties of human NADPH-cytochrome P450 reductase.</bp:TITLE>
+      <bp:SOURCE >Biochemistry</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Munro AW</bp:AUTHORS>
+      <bp:AUTHORS >Noble MA</bp:AUTHORS>
+      <bp:AUTHORS >Robledo L</bp:AUTHORS>
+      <bp:AUTHORS >Daff SN</bp:AUTHORS>
+      <bp:AUTHORS >Chapman SK</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aa9">
+      <bp:ID >1238395</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mass spectrometric study of the enzymatic conversion of cholesterol to (22R)-22-hydroxycholesterol, (20R,22R)-20,22-dihydroxycholesterol, and pregnenolone, and of (22R)-22-hydroxycholesterol to the lgycol and pregnenolone in bovine adrenocortical preparations. Mode of oxygen incorporation.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1975</bp:YEAR>
+      <bp:AUTHORS >Burstein S</bp:AUTHORS>
+      <bp:AUTHORS >Middleditch BS</bp:AUTHORS>
+      <bp:AUTHORS >Gut M</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>disease pathway</bp:TERM><bp:ID>PW:0000013</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

@@ -1,0 +1,2915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Oxysterols derived from cholesterol" Version="20190306" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The Oxysterol group of compounds are oxygenated derivatives of cholesterol or its sterol precursors, e.g. 7-dehydrocholesterol (7-DHC) or desmosterol. There are three mechanisms leading to the formation of oxysterols: 
+
+1. Enzymatically (first steps of sterol metabolism, being intermediates for the formation of steroid hormones, bile acids and 1,25-dihydroxyvitamin D3). 
+2. Non-enzymatically by encountering reactive oxygen species (ROS), providing a second pool of metabolites (this pool also includes oxidized cholesterol molecules taken in from diet), see [https://www.wikipathways.org/index.php/Pathway:WP5064 WP5064]. 
+3. Generation by the gut microflora and uptake through the enterohepatic circulation.
+
+
+Previously oxysterols where though to be inactive metabolic intermediates, however recent findings have established that these metabolites are involved in cholesterol homoeostasis, can be ligands to nuclear and G protein-coupled receptors and biomarkers of diseases (for example Niemann-Pick disease).
+
+This pathway drawing was inspired by Figure 3 of the review article by Griffiths et al. (2016) [https://www.ncbi.nlm.nih.gov/pubmed/27068984], and has been extended with immune system, receptor agonists, steroidal alkaloid and biomarker information from the same paper. This pathway has been updated with Figure 1 from Griffiths et al (2020) [https://dx.doi.org/10.1016%2Fj.prostaglandins.2019.106381] (green boxes), Figure 2 (yellow box) and Figure 3 (blue box).</Comment>
+  <BiopaxRef>b35</BiopaxRef>
+  <BiopaxRef>f5f</BiopaxRef>
+  <Graphics BoardWidth="1798.129770992366" BoardHeight="1125.1029593137855"/>
+  <DataNode TextLabel="INSIG" GraphId="a0c20" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Cyp3A4" GraphId="a3ee6" Type="Protein">
+    <Comment>Reaction also occurs in mouse: CYP3A11</Comment>
+        </DataNode>
+  <DataNode TextLabel="IL-17A" GraphId="a48f4" Type="Protein" GroupRef="c643f">
+    <Comment>"IL-17 familiy is essential in host defense and may play key pathogenic roles in autoimmune diseases." [PMID: 25092323]</Comment>
+        </DataNode>
+  <DataNode TextLabel="AKR1C4" GraphId="a71cb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Cyp7B1" GraphId="a88fa" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="7a,24R-Dihydroxy-3-oxocholest-&#10;4-en-(25R)26-oyl-CoA" GraphId="ac5a7" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="BACS (SLC27A5)" GraphId="ac8ac" Type="GeneProduct">
+    <Comment>Bile Acid CoA ligase (or synthetase)</Comment>
+    <Comment>microsomal protein mostly expressed in liver [PMID:24309898, 25409824(mouse)]</Comment>
+    <BiopaxRef>d46</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="7&#945;,12&#945;&#8722;diHCO" GraphId="acedb" Type="Metabolite">
+    <Comment>aka 7alpha-hydroxycholest-4-en-3-one</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP3A4" GraphId="ad65d" Type="GeneProduct">
+    <Comment>CYP3A11 in mouse is responsible for this conversion! [pmid:31698146;11454857]</Comment>
+        </DataNode>
+  <DataNode TextLabel="AKR1D1" GraphId="b0dd1" Type="GeneProduct" GroupRef="d1048">
+    <Comment>Reduction and oxidation 
+(presumably by AKR1D1 and AKR1C4)
+may precede before or after 24-hydroxylation.</Comment>
+        </DataNode>
+  <DataNode TextLabel="7-beta, (25R)26-diHC" GraphId="b1803" Type="Metabolite">
+    <Comment>AKA  7&#946;,26-dihydroxycholesterol (7&#946;,26-diHC).</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7a-Hydroxy-3-oxocholest-&#10;4,24(E)-dien-26-oyl-CoA" GraphId="b24fd" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP27A1" GraphId="b4e2c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="histamine" GraphId="b72b1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DHCR7" GraphId="ba5c1" Type="Protein">
+    <Comment>"ChEH is a dimer of 7-dehydrocholesterol reductase (DHCR7) and 3&#946;-hydroxysteroid-&#916;8-&#916;7-isomerase (D8D7I)"</Comment>
+    <Comment> the 3beta-hydroxysteroid delta7 reductase (DHCR7), which is the regulatory subunit. [https://en.wikipedia.org/wiki/Cholesterol-5,6-oxide_hydrolase]</Comment>
+    <BiopaxRef>afa</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="HSD3B7" GraphId="ba637" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="ACOT1" GraphId="bb191" Type="Protein" GroupRef="fb239">
+        </DataNode>
+  <DataNode TextLabel="EBI2" GraphId="bd0eb" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="7a-Hydroxy-3-oxochol-&#10;4-en-24-oyl-CoA" GraphId="bda42" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="HSD3B7" GraphId="be411" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYP8B1" GraphId="c1bc3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="7&#945;(25S)26-diHC" GraphId="c1e3a" Type="Metabolite">
+    <Comment>aka 7&#945;,(25S)26-dihydroxycholesterol</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="HSD3B7" GraphId="c26df" Type="Protein">
+    <BiopaxRef>f5f</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="DBP" GraphId="c3189" Type="GeneProduct">
+    <Comment>D-biofinctional protein; aka MFE2, HSD17B4</Comment>
+        </DataNode>
+  <DataNode TextLabel="LXR-alpha" GraphId="c4270" Type="Protein" GroupRef="abfca">
+        </DataNode>
+  <DataNode TextLabel="ACOX2" GraphId="c5771" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="3&#945;,7&#945;,12&#945;&#8722;tri-H-5&#946;-&#10;cholestan-(25R)26-oic acid" GraphId="c58e1" Type="Metabolite">
+    <Comment>AKA (25R)-3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-26-oic acid</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7-oxo-C and&#10;7beta-HC pathways" GraphId="c61c1" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="D8D7I" GraphId="c9cd0" Type="Protein">
+    <Comment>"ChEH is a dimer of 7-dehydrocholesterol reductase (DHCR7) and 3&#946;-hydroxysteroid-&#916;8-&#916;7-isomerase (D8D7I)"</Comment>
+    <Comment>also known as the emopamyl binding protein (EBP), which is the catalytic subunit [https://en.wikipedia.org/wiki/Cholesterol-5,6-oxide_hydrolase]</Comment>
+    <BiopaxRef>afa</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="7a-Hydroxy-3-oxochol-&#10;4-en-24-oyl-taurine" GraphId="c9fe1" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DDA" GraphId="ca463" Type="Metabolite">
+    <Comment>AKA Dendrogenin A</Comment>
+    <BiopaxRef>ae1</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP27A1" GraphId="cc1fb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BAAT" GraphId="cca4b" Type="GeneProduct">
+    <Comment>amino acid N-acyl transferase</Comment>
+        </DataNode>
+  <DataNode TextLabel="EBI2" GraphId="cd5fc" Type="Protein">
+    <Comment>AKA G protein-coupled receptor EBI2 (GPR183)</Comment>
+        </DataNode>
+  <DataNode TextLabel="AMACR" GraphId="cf423" Type="GeneProduct">
+    <Comment>alpha-methylacyl-CoA racemase</Comment>
+    <Comment>broadly expressed [PMID:24309898, 25409824(mouse)]</Comment>
+    <BiopaxRef>d46</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="5&#946;-CO-3&#945;,7&#945;,12&#945;&#10;&#8722;(25R)26-tetrol" GraphId="cf51a" Type="Metabolite">
+    <Comment>aka (25R)-5beta-cholestane-3alpha,7alpha,12alpha,26-tetrol</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cholesterol" GraphId="d1a28" Type="Metabolite">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="7a,24S-Dihydroxy-3-oxocholest-&#10;4-en-(25R)26-oic acid" GraphId="d1cd8" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SCPx (SCP2)" GraphId="d1ee7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="7&#945;,25-diHCO" GraphId="d4b7b" Type="Metabolite">
+    <Comment>aka 7&#945;,25-dihydroxycholest-4-en-3-one</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AKR1C4" GraphId="d65ae" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYP3A4" GraphId="d7567" Type="GeneProduct">
+    <Comment>Alternative protein to CH25H for hydroxylation</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <BiopaxRef>a9c</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Estrogen receptor alpha" GraphId="dad0c" Type="Protein" GroupRef="bddc8">
+    <Comment>Expressed in vascular cells.</Comment>
+        </DataNode>
+  <DataNode TextLabel="7a-Hydroxy-3-oxocholest-4-&#10;en-(25S)26-oyl-CoA" GraphId="db6d7" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="24S-HC" GraphId="dbf16" Type="Metabolite">
+    <Comment>AKA (24S)-hydroxycholesterol</Comment>
+    <Comment>Can corss the Blood-Brain-Barrier (to remove cholesterol from brain tissue) [PMID:8790411; 9717719]</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7a-Hydroxy-3-oxocholest-4-&#10;en-(25R)26-oyl-CoA" GraphId="de59a" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7a,24S-Dihydroxy-3-oxocholest-&#10;4-en-(25R)26-oyl CoA" GraphId="dfc35" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7&#945;,12&#945;,(25R)26&#10;-TriH-5&#946;-CO" GraphId="e03bb" Type="Metabolite">
+    <Comment>aka 7&#945;,12&#945;,(25R)26-TriHydroxy-5&#946;-cholestan-3-one</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AKR1D1" GraphId="e068c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LBP" GraphId="e0e3e" Type="GeneProduct">
+    <Comment>L-bifunctional protein, aka MFP1, enoyl-CoA hydratase and 3-hydroxacyl CoA dehydrogenase EHHADH).</Comment>
+        </DataNode>
+  <DataNode TextLabel="CYP8B1" GraphId="e14e8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="3&#946;,7&#945;-diHCA" GraphId="e3342" Type="Metabolite">
+    <Comment>Aka 3&#946;,7&#945;-dihydroxycholest-5-en-(25R)26-oic acid</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PXR" GraphId="e7858" Type="Protein" GroupRef="afa5b">
+        </DataNode>
+  <DataNode TextLabel="7&#945;,25-diHC" GraphId="f3822" Type="Metabolite">
+    <Comment>aka 7&#945;,25-dihydroxycholesterol </Comment>
+    <Comment>"the most potent EBI2 agonist 7&#945;,25-dihydroxycholesterol (7&#945;,25-diHC))" [PMID:31698146]</Comment>
+    <BiopaxRef>b97</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7a-Hydroxy-3-oxochol-&#10;4-en-24-oic acid" GraphId="f5fb1" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7a-Hydroxy-3-oxochol-&#10;4-en-24-oyl-glycine" GraphId="f8989" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ROR-&#947;t " GraphId="fb2a8" Type="Protein">
+    <Comment>AKA RAR-related orphan receptor gamma (ROR&#947;t); consists of 2 isoforms: ROR&#947; and ROR&#947;t. This nuclear receptor is required for generating IL-17-producing CD4(+) Th17 T cells.</Comment>
+    <Comment>"ROR&#947;t (also known as ROR&#947;2) &#8211; produced from an mRNA identical to that of ROR&#947;, except that the two 5'-most exons are replaced by an alternative exon, located downstream in the gene. This causes a different, shorter N-terminus." [https://en.wikipedia.org/wiki/RAR-related_orphan_receptor_gamma]</Comment>
+    <BiopaxRef>dc7</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="7&#945;&#8722;HCO" GraphId="fc024" Type="Metabolite">
+    <Comment>aka 7&#945;-hydroxycholest-4-en-3-one</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7a-Hydroxy-3,24-bisoxocholest-4-&#10;en-(25R)26-oyl-CoA" GraphId="fcc4b" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ACOT" GraphId="fe6fb" Type="Protein" GroupRef="fb239">
+    <Comment>acyl-CoA thioesterase are a group of enzymes</Comment>
+        </DataNode>
+  <DataNode TextLabel="VLCS (SLC27A2)" GraphId="feecd" Type="GeneProduct">
+    <Comment>very-long chain acyl-CoA synthetase</Comment>
+    <Comment>expressed mostly in liver and kidney, and present in ER and peroxisome [PMID:24309898, 25409824(mouse)]</Comment>
+    <BiopaxRef>d46</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="5,6-alpha-Epoxycholesterol" GraphId="d7e48" Type="Metabolite">
+    <Comment>AKA  5,6&#945;-epoxycholesterol </Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cholestane-3-beta,&#10;5-alpha, 6-beta-triol" GraphId="a7cc6" Type="Metabolite">
+    <Comment>AKA cholestane-3&#946;,5&#945;,6&#946;-triol</Comment>
+    <Comment>"Biomarker for NPC1; elevated levels of cholestane-3&#946;,5&#945;,6&#946;-triol in plasma from NPC1 patients." [PMID: 21048217].</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7-beta-HC" GraphId="a50c6" Type="Metabolite">
+    <Comment>AKA  7&#946;-hydroxycholesterol (7&#946;-HC)</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7-alpha-HC" GraphId="ae68a" Type="Metabolite">
+    <Comment>AKA  7&#945;-hydroxycholesterol (7&#945;-HC)</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="25-HC" GraphId="c2e4b" Type="Metabolite">
+    <Comment>AKA 25-Hydroxycholesterol</Comment>
+    <Comment>Produced by macrophages [PMID: 19805370, 19502589, 23273843], in vivo [PMID: 25104388].</Comment>
+    <BiopaxRef>ad6</BiopaxRef>
+    <BiopaxRef>c09</BiopaxRef>
+    <BiopaxRef>a56</BiopaxRef>
+    <BiopaxRef>b7e</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7-alpha,25-diHC" GraphId="fb992" Type="Metabolite">
+    <Comment>AKA 7&#945;,25-Dihydroxycholesterol</Comment>
+    <Comment>Involved in immune response (agonist of G-protein-coupled receptor EBI2 (AKA GPR183)) [PMID: 21796212, 21796211].</Comment>
+    <BiopaxRef>b56</BiopaxRef>
+    <BiopaxRef>e9d</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="(25R)26-HC" GraphId="b35c2" Type="Metabolite">
+    <Comment>"AKA (25R)26-hydroxycholesterol; Named with systematic nomenclature, where hydroxylation at the terminal side chain of cholesterol is on C-26 leading to 26-hydroxycholesterol (26-HC) which may have 25R or 25S stereochemistry [26]. Unless stated otherwise 25R stereochemistry is assumed. In much of the literature (25R)26-HC is referred to 27-hydroxycholesterol (27-HC), presumably the 25R isomer." [PMID:22366074]</Comment>
+    <Comment>"26-HC, 25R-stereochemistry is assumed unless indicated otherwise, also called 27-hydroxycholesterol" [PMID:31698146]</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <BiopaxRef>c13</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7&#945;,26-diHC" GraphId="b11db" Type="Metabolite">
+    <Comment>AKA  7&#945;,26-dihydroxycholesterol; 7-alpha, (25R)26-diHC </Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cyp27A1" GraphId="b6262" Type="Protein">
+    <BiopaxRef>ebf</BiopaxRef>
+    <BiopaxRef>c8b</BiopaxRef>
+    <BiopaxRef>f5f</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Cyp27A1" GraphId="eaba3" Type="Protein">
+    <BiopaxRef>ebf</BiopaxRef>
+    <BiopaxRef>c8b</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Cyp7A1" GraphId="a4d45" Type="Protein">
+    <Comment>cholesterol 7 alpha-hydroxylase, the rate-limiting enzyme in bile acid biosynthesis.</Comment>
+    <Comment>"the transcript of which is almost exclusively expressed in liver" [PMID:31698146]</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Cyp27A1" GraphId="ae660" Type="Protein">
+    <BiopaxRef>ebf</BiopaxRef>
+    <BiopaxRef>c8b</BiopaxRef>
+    <BiopaxRef>f5f</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Cyp7B1" GraphId="d00d8" Type="Protein">
+    <BiopaxRef>f5f</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CH25H" GraphId="edfdc" Type="Protein">
+    <Comment>AKA  cholesterol 25-hydroxylase</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Cyp46A1" GraphId="c90a3" Type="Protein">
+    <Comment>Responsible for cholesterol homeostasis in brain [PMID:8790411]. Expressed mainly in Brain, however also small quantities in testis and ovary [PMID:24309898,25409824(mouse)].</Comment>
+    <BiopaxRef>d46</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ChEH" GraphId="e1321" Type="Protein">
+    <Comment>AKA cholesterol epoxide hydrolase (ChEH); EC: 3.3.2.11</Comment>
+    <Comment>"ChEH is a dimer of 7-dehydrocholesterol reductase (DHCR7) and 3&#946;-hydroxysteroid-&#916;8-&#916;7-isomerase (D8D7I)"</Comment>
+    <BiopaxRef>ae1</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="IL-17B" GraphId="ac0b3" Type="Protein" GroupRef="c643f">
+    <Comment>"IL-17 familiy is essential in host defense and may play key pathogenic roles in autoimmune diseases." [PMID: 25092323]</Comment>
+        </DataNode>
+  <DataNode TextLabel="IL-17C" GraphId="c5353" Type="Protein" GroupRef="c643f">
+    <Comment>"IL-17 familiy is essential in host defense and may play key pathogenic roles in autoimmune diseases." [PMID: 25092323]</Comment>
+        </DataNode>
+  <DataNode TextLabel="IL-17D" GraphId="ed937" Type="Protein" GroupRef="c643f">
+    <Comment>"IL-17 familiy is essential in host defense and may play key pathogenic roles in autoimmune diseases." [PMID: 25092323]</Comment>
+        </DataNode>
+  <DataNode TextLabel="IL-17E" GraphId="c218f" Type="Protein" GroupRef="c643f">
+    <Comment>"IL-17 familiy is essential in host defense and may play key pathogenic roles in autoimmune diseases." [PMID: 25092323]</Comment>
+        </DataNode>
+  <DataNode TextLabel="IL-17F" GraphId="e0cc0" Type="Protein" GroupRef="c643f">
+    <Comment>"IL-17 familiy is essential in host defense and may play key pathogenic roles in autoimmune diseases." [PMID: 25092323]</Comment>
+        </DataNode>
+  <DataNode TextLabel="Estrogen receptor beta" GraphId="f5dea" Type="Protein" GroupRef="bddc8">
+    <Comment>Expressed in vascular cells.</Comment>
+        </DataNode>
+  <DataNode TextLabel="LXR-beta" GraphId="aa873" Type="Protein" GroupRef="abfca">
+        </DataNode>
+  <DataNode TextLabel="7&#945;&#8722;HCO" GraphId="ef5cf" Type="Metabolite" GroupRef="afa5b">
+    <Comment>aka 7&#945;-hydroxycholest-4-en-3-one</Comment>
+    <Comment>"7&#945;&#8722;HCO is a ligand to the pregnane X receptor (PXR), a member of the nuclear receptor superfamily" [PMID:31698146]</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7-alpha-HC" GraphId="aee96" Type="Metabolite">
+    <Comment>AKA  7&#945;-hydroxycholesterol (7&#945;-HC)</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7&#945;(25S)26-diHCO" GraphId="f8867" Type="Metabolite">
+    <Comment>aka 7&#945;,(25S)26-dihydroxycholest-4-en-3-one</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7&#945;,12&#945;&#8722;diH-5&#946;-CO" GraphId="ffaea" Type="Metabolite">
+    <Comment>aka 7alpha,12alpha-dihydroxy-5beta-cholestan-3-one</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="5&#946;-CO-3&#945;,7&#945;,12&#945;&#8722;triol" GraphId="abd9c" Type="Metabolite">
+    <Comment>aka 5beta-cholestane-3alpha,7alpha,12alpha-triol ; trihydroxycoprostane</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cyp27A1" GraphId="ac8db" Type="Protein">
+    <BiopaxRef>ebf</BiopaxRef>
+    <BiopaxRef>c8b</BiopaxRef>
+    <BiopaxRef>f5f</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="3&#946;-HCA" GraphId="aa9d7" Type="Metabolite">
+    <Comment>"AKA (25R)-3beta-hydroxycholest-5-en-26-oic acid; 3&#946;-HC-5-en-(25R)26-oic acid</Comment>
+    <Comment>"Pathway starting from this metabolite to 3&#946;,7alpha-HCA is considered the acidic or alternative PW of bile acid biosynthesis" [PMID:31698146,12543708]</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <BiopaxRef>eae</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cyp27A1" GraphId="f5936" Type="Protein">
+    <BiopaxRef>ebf</BiopaxRef>
+    <BiopaxRef>c8b</BiopaxRef>
+    <BiopaxRef>f5f</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="7&#945;(25R)26&#8722;diHCO" GraphId="acf41" Type="Metabolite">
+    <Comment>aka (25R)-7alpha,26-dihydroxycholest-4-en-3-one</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7&#945;-H-3-oxoC-4-en-&#10;(25R)26-oic acid" GraphId="b77f4" Type="Metabolite">
+    <Comment>aka 7-Hydroxy-3-oxocholest-4-en-(25R)26-oic acid</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP27A1" GraphId="c6241" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYP27A1" GraphId="a0197" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="7&#945;, 12&#945;,(25R)26&#8722;triHCO" GraphId="a15cf" Type="Metabolite">
+    <Comment>aka 7alpha,12alpha,(25R)26-trihydroxycholest-4-en-3-one</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7&#945;,12&#945;,-H-3-oxoC-4-&#10;en-(25R)26-oic acid" GraphId="c1c2c" Type="Metabolite">
+    <Comment>aka 7-alpha,12-alpha-diHydroxy-3-oxocholest-4-en-(25R)26-oic acid (not available in Wikidata)</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP8B1" GraphId="fce3c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="7&#945;,12&#945;-diH-3-oxo-5&#946;-CO&#10;-(25R)26-oic acid" GraphId="b0933" Type="Metabolite">
+    <Comment>aka 7&#945;,12&#945;-diHydroxy-3-oxo-5&#946;-cholestan-(25R)26-oic acid</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AKR1D1" GraphId="fed73" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYP27A1" GraphId="d07d7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYP8B1" GraphId="d3971" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="7a,12a,25-TriH-cholest-&#10;4-en-3-one" GraphId="c7f0c" Type="Metabolite">
+    <Comment>aka 7a,12a,25-Trihydroxycholest-4-en-3-one</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7a,25-DiH-cholest-&#10;4-en-3-one" GraphId="bfc3c" Type="Metabolite">
+    <Comment>aka 7a,25-Dihydroxycholest-4-en-3-one, 7a,25-diHCO.</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7a,25-DiH-3-oxocholest-&#10;4-en-26-oic acid" GraphId="e4ae0" Type="Metabolite">
+    <Comment>aka 7a,25-Dihydroxy-3-oxocholest-4-en-26-oic acid; 7alpha,25-diH,3O-CA</Comment>
+    <Comment>Found in human plasma and cerebrospinal fluid (CSF) [PMID:29960034]; reduced levels found in Alzheimers disease.</Comment>
+    <BiopaxRef>e17</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7a,12a-DiH-3-oxochol-&#10;4-en-24-oic acid" GraphId="c09f5" Type="Metabolite">
+    <Comment>aka 7a,12a-Dihydroxy-3-oxochol-4-en-24-oic acid</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7a,12a,25-TriH-cholest-&#10;4-en-3,24-dione" GraphId="ef99d" Type="Metabolite">
+    <Comment>aka 7a,12a,25-Trihydroxycholest-4-en-3,24-dione</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cholic acid" GraphId="ab7ef" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7a,12a,24,25-TetraH-&#10;cholest-4-en-3-one" GraphId="f4e90" Type="Metabolite">
+    <Comment>aka 7a,12a,24,25-Tetrahydroxycholest-4-en-3-one</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7a,24S-DiHCO" GraphId="bc373" Type="Metabolite">
+    <Comment>aka 7a,24S-Dihydroxycholest-4-en-3-one, 7a,24S-DiH-cholest-4-en-3-one </Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="HSD3B7" GraphId="c3a69" Type="GeneProduct">
+    <Comment/>
+        </DataNode>
+  <DataNode TextLabel="CYP39A1" GraphId="b6291" Type="GeneProduct">
+    <Comment>Mostly expressed in liver, also in brain [PMID:24309898,25409824 (mouse)]</Comment>
+    <BiopaxRef>d46</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="7a,24S-diH,3O-CA" GraphId="ac7c6" Type="Metabolite">
+    <Comment>aka 7a,24S-Dihydroxy-3-oxocholest-4-en-26-oic acid, 7a,24S-DiH-3-oxocholest-4-en-26-oic acid</Comment>
+    <Comment>Identified in human plasma [PMID:29960034] and CSF [PMID:30578919,29960034]</Comment>
+    <BiopaxRef>e51</BiopaxRef>
+    <BiopaxRef>e17</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP27A1" GraphId="c7c27" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="7a,24S-DiHC" GraphId="a80be" Type="Metabolite">
+    <Comment>aka 7a,24S-Dihydroxycholesterol, 7a,24S-DiH-cholesterol</Comment>
+    <Comment>Found in human plasma [PMID:31009661]</Comment>
+    <BiopaxRef>f84</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AKR1C4" GraphId="bb0f0" Type="GeneProduct" GroupRef="d1048">
+    <Comment>Reduction and oxidation 
+(presumably by AKR1D1 and AKR1C4)
+may precede before or after 24-hydroxylation.</Comment>
+        </DataNode>
+  <DataNode TextLabel="LXR-alpha" GraphId="cf068" Type="Protein" GroupRef="e42a0">
+        </DataNode>
+  <DataNode TextLabel="LXR-beta" GraphId="ef676" Type="Protein" GroupRef="e42a0">
+        </DataNode>
+  <DataNode TextLabel="24S-HC" GraphId="fb351" Type="Metabolite">
+    <Comment>AKA (24S)-hydroxycholesterol</Comment>
+    <Comment>Can corss the Blood-Brain-Barrier (to remove cholesterol from brain tissue) [PMID:8790411; 9717719]</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="EBI2" GraphId="b5eb5" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="7&#945;-H-3-oxoC-4-en-&#10;(25R)26-oic acid" GraphId="c5819" Type="Metabolite">
+    <Comment>aka 7-Hydroxy-3-oxocholest-4-en-(25R)26-oic acid</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ACOT2" GraphId="ff411" Type="Protein" GroupRef="fb239">
+    <Comment>"originally thought to be in peroxisome [PMID:10944470)], later found to be mitochondrial [PMID:16940157]" [https://www.uniprot.org/uniprot/P49753]</Comment>
+    <BiopaxRef>f07</BiopaxRef>
+    <BiopaxRef>a7b</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ACOT4" GraphId="dd2f5" Type="Protein" GroupRef="fb239">
+    <Comment>"Compared to mouse peroxisomal succinyl-coenzyme A thioesterase/ACOT4, the human enzyme has a broad substrate specificity overlapping the activity of three mouse acyl-coenzyme A thioesterases, providing an explanation for the unexpectedly low number of acyl-coenzyme A thioesterase genes in the human genome [PMID:16940157]" [https://www.uniprot.org/uniprot/Q8N9L9]</Comment>
+    <BiopaxRef>a7b</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ACOT6" GraphId="a7213" Type="Protein" GroupRef="fb239">
+        </DataNode>
+  <DataNode TextLabel="ACOT7" GraphId="d87f1" Type="Protein" GroupRef="fb239">
+        </DataNode>
+  <DataNode TextLabel="ACOT8" GraphId="a27f6" Type="Protein" GroupRef="fb239">
+        </DataNode>
+  <DataNode TextLabel="ACOT9" GraphId="a0d22" Type="Protein" GroupRef="fb239">
+        </DataNode>
+  <DataNode TextLabel="ACOT11" GraphId="f4e87" Type="Protein" GroupRef="fb239">
+        </DataNode>
+  <DataNode TextLabel="ACOT12" GraphId="e567b" Type="Protein" GroupRef="fb239">
+        </DataNode>
+  <DataNode TextLabel="ACOT13" GraphId="b74d4" Type="Protein" GroupRef="fb239">
+        </DataNode>
+  <DataNode TextLabel="ACOT7L" GraphId="e2c1c" Type="Protein" GroupRef="fb239">
+    <Comment>"Could be the product of a pseudogene. The peptide used to produce antibodies against ACOT7L matches at 85% with ACOT7 and the antibodies may not be specific to ACOT7L." [https://www.uniprot.org/uniprot/Q6ZUV0]</Comment>
+        </DataNode>
+  <DataNode TextLabel="ACOT15" GraphId="f6c31" Type="Protein" GroupRef="fb239">
+        </DataNode>
+  <DataNode TextLabel="BACS (SLC27A5)" GraphId="aac67" Type="GeneProduct">
+    <Comment>Bile Acid CoA ligase (or synthetase)</Comment>
+    <Comment>microsomal protein mostly expressed in liver [PMID:24309898, 25409824(mouse)]</Comment>
+    <BiopaxRef>d46</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="VLCS (SLC27A2)" GraphId="ed28d" Type="GeneProduct">
+    <Comment>very-long chain acyl-CoA synthetase</Comment>
+    <Comment>expressed mostly in liver and kidney, and present in ER and peroxisome [PMID:24309898, 25409824(mouse)]</Comment>
+    <BiopaxRef>d46</BiopaxRef>
+        </DataNode>
+  <Interaction GraphId="id10a16a38">
+    <BiopaxRef>c87</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fde4d"/>
+      <Point GraphRef="a3ee6" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1371865c">
+    <Graphics>
+      <Point GraphRef="c6241"/>
+      <Point GraphRef="b2b44" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id137c9208">
+    <Graphics>
+      <Point GraphRef="be411"/>
+      <Point GraphRef="f8895" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1fc5a7fa">
+    <BiopaxRef>ae2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="dbf16"/>
+      <Point GraphRef="a2e95" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id22ef7178">
+    <Comment>Dimer formation</Comment>
+    <Graphics>
+      <Point GraphRef="ba5c1"/>
+      <Point GraphRef="c9cd0"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f31f0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id267c0fb0">
+    <Graphics>
+      <Point GraphRef="ac8ac"/>
+      <Point GraphRef="c1630" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2de611a1">
+    <Graphics>
+      <Point GraphRef="a71cb"/>
+      <Point GraphRef="dbe52" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id32130f9">
+    <Graphics>
+      <Point GraphRef="f5936"/>
+      <Point GraphRef="ac1c1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id37074943">
+    <Comment>Research findings in Mouse (Mus musculus.</Comment>
+    <BiopaxRef>b3c</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f738a"/>
+      <Point GraphRef="e673a" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3d183a8b">
+    <Comment>"ChEH is a dimer of 7-dehydrocholesterol reductase (DHCR7) and 3&#946;-hydroxysteroid-&#916;8-&#916;7-isomerase (D8D7I)"</Comment>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f31f0"/>
+      <Point GraphRef="e1321" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3ef20608">
+    <BiopaxRef>e2c</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a002c"/>
+      <Point GraphRef="dcca3" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3f9e1efa">
+    <Graphics>
+      <Point GraphRef="c26df"/>
+      <Point GraphRef="b595a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4baebefe">
+    <Graphics>
+      <Point GraphRef="d7567"/>
+      <Point GraphRef="a2d20" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4cdb5e1c">
+    <Graphics>
+      <Point GraphRef="e14e8"/>
+      <Point GraphRef="a7b29" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id501e9d">
+    <Comment>"(25R)26-HC is a selective estrogen receptor (ER) modulator, expressed in vascular cells."  [PMID: 17873880]</Comment>
+    <BiopaxRef>da0</BiopaxRef>
+    <BiopaxRef>f43</BiopaxRef>
+    <BiopaxRef>e2d</BiopaxRef>
+    <BiopaxRef>f4d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b35c2"/>
+      <Point GraphRef="ce189" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id529c870b">
+    <Graphics>
+      <Point GraphRef="d1ee7"/>
+      <Point GraphRef="d77f9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5992f7b6">
+    <BiopaxRef>f43</BiopaxRef>
+    <BiopaxRef>bec</BiopaxRef>
+    <BiopaxRef>dbb</BiopaxRef>
+    <BiopaxRef>ae6</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b35c2"/>
+      <Point GraphRef="efd4f" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5cfcf1ef">
+    <Graphics>
+      <Point GraphRef="e0e3e"/>
+      <Point GraphRef="be552" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5d623320">
+    <Graphics>
+      <Point GraphRef="ad65d"/>
+      <Point GraphRef="dcca3" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5f384375">
+    <Graphics>
+      <Point GraphRef="c1bc3"/>
+      <Point GraphRef="b1210" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6898ac35">
+    <BiopaxRef>c87</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fc024"/>
+      <Point GraphRef="fde4d" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6b7d5f92">
+    <Graphics>
+      <Point GraphRef="e0e3e"/>
+      <Point GraphRef="b7151" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6d5c569">
+    <Graphics>
+      <Point GraphRef="ba637"/>
+      <Point GraphRef="e3fb9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6de0a62a">
+    <Graphics>
+      <Point GraphRef="cca4b"/>
+      <Point GraphRef="ec626" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id76332f54">
+    <Graphics>
+      <Point GraphRef="aac67"/>
+      <Point GraphRef="e70e5" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id77e0e70c">
+    <Graphics>
+      <Point GraphRef="ece3e"/>
+      <Point GraphRef="c47d1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id786e8c57">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b11db"/>
+      <Point GraphRef="e3342" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b27e6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8749933a">
+    <BiopaxRef>c6d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="dbf16"/>
+      <Point GraphRef="a0c20" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id887c6c5d">
+    <Graphics>
+      <Point GraphRef="d07d7"/>
+      <Point GraphRef="e4445" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id89fc60dd">
+    <BiopaxRef>ae1</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ca463"/>
+      <Point GraphRef="e1321" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8ad3a41">
+    <Comment>Research findings in Mouse (Mus musculus).</Comment>
+    <BiopaxRef>b3c</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ce946"/>
+      <Point GraphRef="cef66" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7968667196147394" Shape="None" GraphId="e673a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id90508542">
+    <Graphics>
+      <Point GraphRef="b11db"/>
+      <Point GraphRef="b5eb5" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id92333bc7">
+    <Comment>reduction reaction</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="acedb"/>
+      <Point GraphRef="ffaea" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b8e27"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id94587361">
+    <Comment>Reaction also occurs in mouse: CYP3A11</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="aee96"/>
+      <Point GraphRef="f3822" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.44607150821378194" Shape="None" GraphId="f2831"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida243dde9">
+    <Graphics>
+      <Point GraphRef="cf423"/>
+      <Point GraphRef="b20f0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida34a14e1">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fc024"/>
+      <Point GraphRef="acedb" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b1210"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida7605920">
+    <Graphics>
+      <Point GraphRef="d1a28"/>
+      <Point GraphRef="d7e48" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida84d51c6">
+    <BiopaxRef>ae1</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b72b1"/>
+      <Point GraphRef="cc1a9" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida9ab9a84">
+    <BiopaxRef>e51</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a002c"/>
+      <Point GraphRef="c87eb" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idac8da6c2">
+    <Graphics>
+      <Point GraphRef="fed73"/>
+      <Point GraphRef="d0d33" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb08a24f8">
+    <Graphics>
+      <Point GraphRef="d65ae"/>
+      <Point GraphRef="f1d32" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb134b135">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="abd9c"/>
+      <Point GraphRef="cf51a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.17537693036609467" Shape="None" GraphId="abd4e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb148146f">
+    <Graphics>
+      <Point GraphRef="c3189"/>
+      <Point GraphRef="c1f58" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc16a4c47">
+    <Graphics>
+      <Point GraphRef="feecd"/>
+      <Point GraphRef="c1630" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc8b2f560">
+    <Comment>oxidation</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ae68a"/>
+      <Point GraphRef="fc024" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.8033927794693345" Shape="None" GraphId="b595a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd3d63052">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d7e48"/>
+      <Point GraphRef="c61c1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd59ed1e7">
+    <Graphics>
+      <Point GraphRef="e068c"/>
+      <Point GraphRef="b8e27" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd6d5604e">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ffaea"/>
+      <Point GraphRef="abd9c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4667301335389671" Shape="None" GraphId="dbe52"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd8716343">
+    <BiopaxRef>ae1</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e1321"/>
+      <Point GraphRef="ad1fc" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide0a872d">
+    <Graphics>
+      <Point GraphRef="d3971"/>
+      <Point GraphRef="ec487" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide12745f2">
+    <Graphics>
+      <Point GraphRef="a3ee6"/>
+      <Point GraphRef="f2831" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide28db18">
+    <Graphics>
+      <Point GraphRef="c5771"/>
+      <Point GraphRef="a92d2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide2f6baba">
+    <Graphics>
+      <Point GraphRef="d07d7"/>
+      <Point GraphRef="abd4e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide83fc409">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cf51a"/>
+      <Point GraphRef="c58e1" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.48153731914223386" Shape="None" GraphId="e4445"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide8610522">
+    <Graphics>
+      <Point GraphRef="c6241"/>
+      <Point GraphRef="b0dc7" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idedfba556">
+    <Comment>"7&#945;,25-diHC is a potent agonist of the G protein-coupled receptor EBI2 (GPR183). 7&#945;,25-diHC acts as a chemoattractant for immune cells expressing EBI2 by directing cell migration." Research findings in Mouse (Mus musculus) . [PMID:  PubMed 21796212., 21796211].</Comment>
+    <BiopaxRef>b56</BiopaxRef>
+    <BiopaxRef>e9d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fb992"/>
+      <Point GraphRef="cd5fc" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideeaea0df">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ae68a"/>
+      <Point GraphRef="aee96"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf20512bd">
+    <Comment>"7&#946;,26-dihydroxycholesterol (7&#946;,26-diHC), presumably the 25R-epimer, as a potent agonist for ROR&#947;t" Research findings in Mouse (Mus musculus) .</Comment>
+    <BiopaxRef>b3c</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b1803"/>
+      <Point GraphRef="fb2a8" ArrowHead="mim-binding"/>
+      <Anchor Position="0.3531914582991756" Shape="None" GraphId="f738a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf3ff24ee">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f3822"/>
+      <Point GraphRef="d4b7b" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.45986139185677183" Shape="None" GraphId="e3fb9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf97059d9">
+    <Graphics>
+      <Point GraphRef="ed28d"/>
+      <Point GraphRef="e70e5" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfa1a95a0">
+    <BiopaxRef>f5f</BiopaxRef>
+    <BiopaxRef>b97</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f3822"/>
+      <Point GraphRef="bd0eb" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c0430">
+    <Comment>aminolysis reaction</Comment>
+    <BiopaxRef>ae1</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d7e48"/>
+      <Point GraphRef="ca463" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5633278972242562" Shape="None" GraphId="cc1a9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6a41">
+    <BiopaxRef>ae1</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d7e48"/>
+      <Point GraphRef="a7cc6" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4074647140760285" Shape="None" GraphId="ad1fc"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f9f65">
+    <BiopaxRef>eae</BiopaxRef>
+    <BiopaxRef>d21</BiopaxRef>
+    <BiopaxRef>d74</BiopaxRef>
+    <BiopaxRef>da7</BiopaxRef>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d1a28"/>
+      <Point GraphRef="dbf16" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.3777245586137303" Shape="None" GraphId="a4889"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e4223">
+    <BiopaxRef>eae</BiopaxRef>
+    <BiopaxRef>b5f</BiopaxRef>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d1a28"/>
+      <Point GraphRef="c2e4b" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b3d5d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c4f5a">
+    <BiopaxRef>cf0</BiopaxRef>
+    <BiopaxRef>eae</BiopaxRef>
+    <BiopaxRef>d70</BiopaxRef>
+    <BiopaxRef>a51</BiopaxRef>
+    <BiopaxRef>c74</BiopaxRef>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c2e4b"/>
+      <Point GraphRef="fb992" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5850785340314136" Shape="None" GraphId="c1b01"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a7a96">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d1a28"/>
+      <Point GraphRef="b35c2" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5954732129761305" Shape="None" GraphId="e7e43"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ef9ed">
+    <Graphics>
+      <Point GraphRef="b35c2"/>
+      <Point GraphRef="b11db" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.48352713178294576" Shape="None" GraphId="bd7dd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a7285">
+    <Comment>(25R)26-hydroxylated</Comment>
+    <Graphics>
+      <Point GraphRef="ae68a"/>
+      <Point GraphRef="b11db" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.2149479101250343" Shape="None" GraphId="fbe19"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a8e4b">
+    <Comment>7&#945;-hydroxylation</Comment>
+    <BiopaxRef>d33</BiopaxRef>
+    <BiopaxRef>ab4</BiopaxRef>
+    <BiopaxRef>d68</BiopaxRef>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d1a28"/>
+      <Point GraphRef="ae68a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4847917984027729" Shape="None" GraphId="e0611"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b63fc">
+    <Graphics>
+      <Point GraphRef="d1a28"/>
+      <Point GraphRef="a50c6" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b25a0">
+    <Graphics>
+      <Point GraphRef="a50c6"/>
+      <Point GraphRef="b1803" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.49849397590361444" Shape="None" GraphId="e833d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e6ba4">
+    <BiopaxRef>d46</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c90a3"/>
+      <Point GraphRef="a4889" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1613">
+    <Graphics>
+      <Point GraphRef="d00d8"/>
+      <Point GraphRef="c1b01" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c090b">
+    <Graphics>
+      <Point GraphRef="edfdc"/>
+      <Point GraphRef="b3d5d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b6ca3">
+    <Graphics>
+      <Point GraphRef="ae660"/>
+      <Point GraphRef="e7e43" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c41f5">
+    <Graphics>
+      <Point GraphRef="a4d45"/>
+      <Point GraphRef="e0611" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f68fd">
+    <Graphics>
+      <Point GraphRef="b6262"/>
+      <Point GraphRef="fbe19" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="db360">
+    <Graphics>
+      <Point GraphRef="eaba3"/>
+      <Point GraphRef="e833d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eca7b">
+    <Graphics>
+      <Point GraphRef="a88fa"/>
+      <Point GraphRef="bd7dd" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc651">
+    <Comment>"7&#946;,26-dihydroxycholesterol (7&#946;,26-diHC), presumably the 25R-epimer, as a potent agonist for ROR&#947;t" Research findings in Mouse (Mus musculus) .</Comment>
+    <BiopaxRef>b3c</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b11db"/>
+      <Point GraphRef="fb2a8" ArrowHead="mim-binding"/>
+      <Anchor Position="0.4" Shape="None" GraphId="edd8d"/>
+      <Anchor Position="0.888232453451299" Shape="None" GraphId="e672a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c4b3e">
+    <Comment>Research findings in Mouse (Mus musculus.</Comment>
+    <BiopaxRef>b3c</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e672a"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="e673a" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fb3ab">
+    <Comment>(25R)26-carboxylated</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ac8db"/>
+      <Point GraphRef="b27e6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b02ed">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="aee96"/>
+      <Point GraphRef="c1e3a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7304207434923454" Shape="None" GraphId="a3d1d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a2d49">
+    <Graphics>
+      <Point GraphRef="a3ee6"/>
+      <Point GraphRef="a3d1d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e2844">
+    <BiopaxRef>f5f</BiopaxRef>
+    <BiopaxRef>b97</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c1e3a"/>
+      <Point GraphRef="bd0eb" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e3dbd">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c1e3a"/>
+      <Point GraphRef="f8867" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7304207434923454" Shape="None" GraphId="cb0a7"/>
+      <Anchor Position="0.44767079226447437" Shape="None" GraphId="fe501"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f92bb">
+    <Graphics>
+      <Point GraphRef="ba637"/>
+      <Point GraphRef="fe501" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c249c">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b35c2"/>
+      <Point GraphRef="aa9d7" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ac1c1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dd69e">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="aa9d7"/>
+      <Point GraphRef="e3342" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bbbbb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e513a">
+    <Graphics>
+      <Point GraphRef="a88fa"/>
+      <Point GraphRef="bbbbb" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa5aa">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b11db"/>
+      <Point GraphRef="acf41" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f8895"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1b79">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e3342"/>
+      <Point GraphRef="b77f4" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e04dc"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ef413">
+    <Graphics>
+      <Point GraphRef="be411"/>
+      <Point GraphRef="e04dc" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df158">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fc024"/>
+      <Point GraphRef="acf41" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b0dc7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc99e">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="acf41"/>
+      <Point GraphRef="b77f4" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d63c3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a689f">
+    <Graphics>
+      <Point GraphRef="a0197"/>
+      <Point GraphRef="d63c3" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f068f">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="acf41"/>
+      <Point GraphRef="a15cf" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="cb49c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6b24">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b77f4"/>
+      <Point GraphRef="c1c2c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ec487"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="be66f">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="acedb"/>
+      <Point GraphRef="a15cf" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b2b44"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ceb6a">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a15cf"/>
+      <Point GraphRef="c1c2c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e18d1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6391">
+    <Graphics>
+      <Point GraphRef="a0197"/>
+      <Point GraphRef="e18d1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2caa">
+    <Graphics>
+      <Point GraphRef="fce3c"/>
+      <Point GraphRef="cb49c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c0454">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ffaea"/>
+      <Point GraphRef="e03bb" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.3848913529947113" Shape="None" GraphId="acb14"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d1772">
+    <Graphics>
+      <Point GraphRef="cc1fb"/>
+      <Point GraphRef="acb14" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6ec8">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a15cf"/>
+      <Point GraphRef="e03bb" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e8283"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8e5f">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c1c2c"/>
+      <Point GraphRef="b0933" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.31546668194018096" Shape="None" GraphId="d0d33"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a0bfa">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e03bb"/>
+      <Point GraphRef="b0933" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a6e60"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ac8c0">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b0933"/>
+      <Point GraphRef="c58e1" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f1d32"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d7be7">
+    <Graphics>
+      <Point GraphRef="b4e2c"/>
+      <Point GraphRef="a6e60" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f70d0">
+    <Graphics>
+      <Point GraphRef="fed73"/>
+      <Point GraphRef="e8283" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b3274">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e03bb"/>
+      <Point GraphRef="cf51a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b3585"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b8fe3">
+    <Graphics>
+      <Point GraphRef="d65ae"/>
+      <Point GraphRef="b3585" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ce597">
+    <BiopaxRef>d46</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b6291"/>
+      <Point GraphRef="ba939" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a3d9c">
+    <BiopaxRef>f5f</BiopaxRef>
+    <BiopaxRef>d70</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="dbf16"/>
+      <Point GraphRef="a80be" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.41686825725765764" Shape="None" GraphId="ba939"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a23e4">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a80be"/>
+      <Point GraphRef="bc373" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5398773006134919" Shape="None" GraphId="b37a1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ea491">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bc373"/>
+      <Point GraphRef="ac7c6" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.42660627094871" Shape="None" GraphId="d35c9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b833b">
+    <Graphics>
+      <Point GraphRef="c3a69"/>
+      <Point GraphRef="b37a1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e240c">
+    <Graphics>
+      <Point GraphRef="c7c27"/>
+      <Point GraphRef="d35c9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fd5a1">
+    <BiopaxRef>f5f</BiopaxRef>
+    <BiopaxRef>a9c</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d1a28"/>
+      <Point GraphRef="c2e4b" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.41686825725765764" Shape="None" GraphId="a2d20"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b5d96">
+    <Comment>Exact route for metabolism of 7alpha,25-diHCO are still to be fully established [PMID:31698146]</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fb992"/>
+      <Point GraphRef="bfc3c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.24100263249785436" Shape="None" GraphId="dc801"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="beeb6">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bfc3c"/>
+      <Point GraphRef="c7f0c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.41686825725765764" Shape="None" GraphId="a7b29"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dca70">
+    <BiopaxRef>f5f</BiopaxRef>
+    <BiopaxRef>e2c</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c7f0c"/>
+      <Point GraphRef="f4e90" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7074582132419462" Shape="None" GraphId="dcca3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f16ab">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bfc3c"/>
+      <Point GraphRef="e4ae0" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.41686825725765764" Shape="None" GraphId="caa5e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fe373">
+    <BiopaxRef>f5f</BiopaxRef>
+    <BiopaxRef>e2c</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f4e90"/>
+      <Point GraphRef="ef99d" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.41686825725765764" Shape="None" GraphId="bb7ea"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e1d2d">
+    <BiopaxRef>f5f</BiopaxRef>
+    <BiopaxRef>e51</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ef99d"/>
+      <Point GraphRef="c09f5" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.41686825725765764" Shape="None" GraphId="c87eb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d0174">
+    <BiopaxRef>f5f</BiopaxRef>
+    <BiopaxRef>e51</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c09f5"/>
+      <Point GraphRef="ab7ef" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.41686825725765764" Shape="None" GraphId="ab81d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cc3d2">
+    <Graphics>
+      <Point GraphRef="c3a69"/>
+      <Point GraphRef="dc801" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa426">
+    <Graphics>
+      <Point GraphRef="c7c27"/>
+      <Point GraphRef="caa5e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d803d">
+    <BiopaxRef>e2c</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a002c"/>
+      <Point GraphRef="bb7ea" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6004">
+    <BiopaxRef>e51</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a002c"/>
+      <Point GraphRef="ab81d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2f39d2fe">
+    <Graphics>
+      <Point GraphRef="dbf16"/>
+      <Point GraphRef="fb351"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a66a5">
+    <Graphics>
+      <Point GraphRef="fb351"/>
+      <Point GraphRef="dbf16"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e226f">
+    <BiopaxRef>bec</BiopaxRef>
+    <BiopaxRef>dbb</BiopaxRef>
+    <BiopaxRef>ae6</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="aa9d7"/>
+      <Point GraphRef="efd4f" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e2c46">
+    <BiopaxRef>bec</BiopaxRef>
+    <BiopaxRef>dbb</BiopaxRef>
+    <BiopaxRef>ae6</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e3342"/>
+      <Point GraphRef="efd4f" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c40ea">
+    <BiopaxRef>c6d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b35c2"/>
+      <Point GraphRef="a0c20" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ad638">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b77f4"/>
+      <Point GraphRef="c5819"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e812c">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c5819"/>
+      <Point GraphRef="de59a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7304207434923454" Shape="None" GraphId="f80b3"/>
+      <Anchor Position="0.44767079226447437" Shape="None" GraphId="c1630"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f722f">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="de59a"/>
+      <Point GraphRef="db6d7" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7304207434923454" Shape="None" GraphId="abeed"/>
+      <Anchor Position="0.44767079226447437" Shape="None" GraphId="b20f0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d973e">
+    <Comment>double bond with E stereochemistry between C-24 and C-25</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="db6d7"/>
+      <Point GraphRef="b24fd" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4421060378248842" Shape="None" GraphId="a92d2"/>
+      <Anchor Position="0.44767079226447437" Shape="None" GraphId="ca95b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b47eb">
+    <Comment>hydrolysis</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b24fd"/>
+      <Point GraphRef="ac5a7" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7304207434923454" Shape="None" GraphId="b7504"/>
+      <Anchor Position="0.44767079226447437" Shape="None" GraphId="c1f58"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dcda4">
+    <Comment>oxidised by HSD activity of DBP</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ac5a7"/>
+      <Point GraphRef="fcc4b" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.26922428435487994" Shape="None" GraphId="c74d9"/>
+      <Anchor Position="0.44767079226447437" Shape="None" GraphId="fd212"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ade30">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fcc4b"/>
+      <Point GraphRef="bda42" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7304207434923454" Shape="None" GraphId="b9b42"/>
+      <Anchor Position="0.44767079226447437" Shape="None" GraphId="d77f9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8a41">
+    <BiopaxRef>f5f</BiopaxRef>
+    <BiopaxRef>af3</BiopaxRef>
+    <BiopaxRef>fd2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bda42"/>
+      <Point GraphRef="f8989" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7304207434923454" Shape="None" GraphId="ed49e"/>
+      <Anchor Position="0.44767079226447437" Shape="None" GraphId="ec626"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ce427">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f8989"/>
+      <Point GraphRef="f5fb1" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7304207434923454" Shape="None" GraphId="d9071"/>
+      <Anchor Position="0.44767079226447437" Shape="None" GraphId="e29c7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b9d8d">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bda42"/>
+      <Point GraphRef="c9fe1" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7304207434923454" Shape="None" GraphId="fee9a"/>
+      <Anchor Position="0.44767079226447437" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d3b1b">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d1cd8"/>
+      <Point GraphRef="dfc35" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.44767079226447437" Shape="None" GraphId="e70e5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b4663">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b24fd"/>
+      <Point GraphRef="dfc35" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7304207434923454" Shape="None" GraphId="d8f30"/>
+      <Anchor Position="0.44767079226447437" Shape="None" GraphId="be552"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b7d13">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="dfc35"/>
+      <Point GraphRef="fcc4b" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7304207434923454" Shape="None" GraphId="e6f48"/>
+      <Anchor Position="0.44767079226447437" Shape="None" GraphId="b7151"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bda74">
+    <Graphics>
+      <Point GraphRef="c3189"/>
+      <Point GraphRef="c74d9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bece4">
+    <BiopaxRef>f5f</BiopaxRef>
+    <BiopaxRef>af3</BiopaxRef>
+    <BiopaxRef>fd2</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bda42"/>
+      <Point/>
+      <Point GraphRef="f5fb1" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7304207434923454" Shape="None" GraphId="d1c12"/>
+      <Anchor Position="0.9399475832165313" Shape="None" GraphId="c47d1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="abe41">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ac7c6"/>
+      <Point GraphRef="d1cd8"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="edaa2">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c1b01"/>
+      <Point GraphRef="bd13f" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fc0b3">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ba5c1"/>
+      <Point GraphRef="a9569" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ae0f9">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="fbe19"/>
+      <Point GraphRef="a7979" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ba627">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e7e43"/>
+      <Point GraphRef="a7979" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bcf52">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bd7dd"/>
+      <Point GraphRef="f4904" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="aa650">
+    <Comment>Biomarker for</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a7cc6"/>
+      <Point GraphRef="e96ad" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f804b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ac1c1"/>
+      <Point GraphRef="a7979" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="da29f">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b20f0"/>
+      <Point GraphRef="d4909" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="de3b2">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a92d2"/>
+      <Point GraphRef="adb48" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c181f">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c1f58"/>
+      <Point GraphRef="f1d77" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ff8c2">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c74d9"/>
+      <Point GraphRef="f1d77" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d5b60">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d77f9"/>
+      <Point GraphRef="bfbc6" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ac67e">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ec626"/>
+      <Point GraphRef="eb9aa" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="SLOS" GraphId="a9569" Href="https://omim.org/entry/270400">
+    <Comment>AKA Smith&#8211;Lemli&#8211;Opitz syndrome</Comment>
+    <BiopaxRef>d91</BiopaxRef>
+    <BiopaxRef>da6</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="HSDB" GraphId="bd13f" Href="https://omim.org/entry/201810">
+    <Comment>AKA 3-BETA-HSD DEFICIENCY</Comment>
+    <BiopaxRef>a71</BiopaxRef>
+    <BiopaxRef>a51</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Based on Fig. 1&#10;[PMID:31698146]" GraphId="c2bfd">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="NPC1" GraphId="c6702" Href="https://omim.org/entry/257220" GroupRef="a5eb3">
+    <Comment>NIEMANN-PICK DISEASE, TYPE C1</Comment>
+    <BiopaxRef>c4e</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="CD4+ Th17 cells" GraphId="ce946">
+    <Comment>[https://en.wikipedia.org/wiki/T_helper_17_cell]</Comment>
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Label>
+  <Label TextLabel="Reduction and oxidation &#10;(presumably by AKR1D1 and AKR1C4)&#10;may precede before or after 24-hydroxylation." GraphId="d1a8f">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="CTX" GraphId="a7979" Href="https://omim.org/entry/213700">
+    <Comment>AKA CEREBROTENDINOUS XANTHOMATOSIS</Comment>
+    <Comment>Deficiency in this enzyme's activity leads to a mild phenotype in mouse as compared to humans [PMID:9614081]</Comment>
+    <BiopaxRef>d91</BiopaxRef>
+    <BiopaxRef>ba7</BiopaxRef>
+    <BiopaxRef>df7</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="SPG5" GraphId="f4904" Href="https://omim.org/entry/270800">
+    <Comment>AKA  hereditary spastic paresis type 5</Comment>
+    <BiopaxRef>d91</BiopaxRef>
+    <BiopaxRef>da6</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="NP Type B" GraphId="f0a31" Href="https://omim.org/entry/607616" GroupRef="a5eb3">
+    <Comment>NIEMANN-PICK DISEASE, TYPE B</Comment>
+    <BiopaxRef>bbd</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="NP type A" GraphId="ab785" Href="https://omim.org/entry/257200" GroupRef="a5eb3">
+    <Comment>NIEMANN-PICK DISEASE, TYPE A</Comment>
+    <BiopaxRef>bbd</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Based on Fig. 1&#10;[PMID:31698146]" GraphId="d6a5a">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Based on Fig. 2&#10;[PMID:31698146]" GraphId="a7dfe">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Based on Fig. 3&#10;[PMID:31698146]" GraphId="a0584">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="AMACRD" GraphId="d4909" Href="https://omim.org/entry/614307">
+    <Comment>AKA ALPHA-METHYLACYL-CoA RACEMASE DEFICIENCY</Comment>
+    <BiopaxRef>b10</BiopaxRef>
+    <BiopaxRef>b52</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="CBAS6" GraphId="adb48" Href="https://omim.org/entry/617308">
+    <Comment>AKA BILE ACID SYNTHESIS DEFECT, CONGENITAL, 6; ACOX2Deficiency</Comment>
+    <BiopaxRef>b49</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="DBPD" GraphId="f1d77" Href="https://omim.org/entry/261515">
+    <Comment>AKA D-BIFUNCTIONAL PROTEIN DEFICIENCY</Comment>
+    <BiopaxRef>e68</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="LKDMN" GraphId="bfbc6" Href="https://omim.org/entry/613724">
+    <Comment>AKA LEUKOENCEPHALOPATHY WITH DYSTONIA AND MOTOR NEUROPATHY; </Comment>
+    <BiopaxRef>f9c</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="FHCA" GraphId="eb9aa" Href="https://omim.org/entry/607748">
+    <Comment>AKA HYPERCHOLANEMIA, FAMILIAL; </Comment>
+    <BiopaxRef>cd6</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Shape TextLabel="Peroxisomal side-chain shortening" GraphId="f6fcf">
+    <Graphics FillColor="ccccff" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape TextLabel="24S- and 25-&#10;Hydroxylase pathway" GraphId="e9b67">
+    <Graphics FillColor="ffffcc" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape TextLabel="7&#945;-Hydroxylase pathway:&#10;neutral/classical pathway&#10;of bile acid biosynthesis" GraphId="ecab9">
+    <Graphics FillColor="ccffcc" Align="Right" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape TextLabel="25-hydroxylase pathway" GraphId="f4d24">
+    <Comment>(FIG.1 [PMID:31698146] bottom part in box).</Comment>
+    <Graphics FillColor="ccffcc" Align="Right" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape TextLabel="Blood-Brain-Barrier  " GraphId="e9bc3">
+    <Graphics Align="Right" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="d1048" GraphId="a002c" Style="Group">
+    <Comment>Reduction and oxidation 
+(presumably by AKR1D1 and AKR1C4)
+may precede before or after 24-hydroxylation.</Comment>
+  </Group>
+  <Group GroupId="e42a0" GraphId="a2e95" Style="Group"/>
+  <Group GroupId="bddc8" GraphId="ce189" Style="Group"/>
+  <Group GroupId="c643f" GraphId="cef66" Style="Group"/>
+  <Group GroupId="a5eb3" GraphId="e96ad" Style="Group"/>
+  <Group GroupId="fb239" GraphId="ece3e" Style="Group"/>
+  <Group GroupId="abfca" GraphId="efd4f" Style="Group"/>
+  <Group GroupId="afa5b" GraphId="fde4d" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b52">
+      <bp:ID >24735479</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of AMACR (&#945;-methylacyl-CoA racemase) and MFE-1 (peroxisomal multifunctional enzyme-1) in bile acid synthesis in mice.</bp:TITLE>
+      <bp:SOURCE >Biochem J</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Autio KJ</bp:AUTHORS>
+      <bp:AUTHORS >Schmitz W</bp:AUTHORS>
+      <bp:AUTHORS >Nair RR</bp:AUTHORS>
+      <bp:AUTHORS >Selk&#228;l&#228; EM</bp:AUTHORS>
+      <bp:AUTHORS >Sormunen RT</bp:AUTHORS>
+      <bp:AUTHORS >Miinalainen IJ</bp:AUTHORS>
+      <bp:AUTHORS >Crick PJ</bp:AUTHORS>
+      <bp:AUTHORS >Wang Y</bp:AUTHORS>
+      <bp:AUTHORS >Griffiths WJ</bp:AUTHORS>
+      <bp:AUTHORS >Reddy JK</bp:AUTHORS>
+      <bp:AUTHORS >Baes M</bp:AUTHORS>
+      <bp:AUTHORS >Hiltunen JK</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e9d">
+      <bp:ID >21796211</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Oxysterols direct B-cell migration through EBI2.</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Liu C</bp:AUTHORS>
+      <bp:AUTHORS >Yang XV</bp:AUTHORS>
+      <bp:AUTHORS >Wu J</bp:AUTHORS>
+      <bp:AUTHORS >Kuei C</bp:AUTHORS>
+      <bp:AUTHORS >Mani NS</bp:AUTHORS>
+      <bp:AUTHORS >Zhang L</bp:AUTHORS>
+      <bp:AUTHORS >Yu J</bp:AUTHORS>
+      <bp:AUTHORS >Sutton SW</bp:AUTHORS>
+      <bp:AUTHORS >Qin N</bp:AUTHORS>
+      <bp:AUTHORS >Banie H</bp:AUTHORS>
+      <bp:AUTHORS >Karlsson L</bp:AUTHORS>
+      <bp:AUTHORS >Sun S</bp:AUTHORS>
+      <bp:AUTHORS >Lovenberg TW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae2">
+      <bp:ID >9013544</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Activation of the nuclear receptor LXR by oxysterols defines a new hormone response pathway.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Lehmann JM</bp:AUTHORS>
+      <bp:AUTHORS >Kliewer SA</bp:AUTHORS>
+      <bp:AUTHORS >Moore LB</bp:AUTHORS>
+      <bp:AUTHORS >Smith-Oliver TA</bp:AUTHORS>
+      <bp:AUTHORS >Oliver BB</bp:AUTHORS>
+      <bp:AUTHORS >Su JL</bp:AUTHORS>
+      <bp:AUTHORS >Sundseth SS</bp:AUTHORS>
+      <bp:AUTHORS >Winegar DA</bp:AUTHORS>
+      <bp:AUTHORS >Blanchard DE</bp:AUTHORS>
+      <bp:AUTHORS >Spencer TA</bp:AUTHORS>
+      <bp:AUTHORS >Willson TM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >sterol regulatory element-binding protein signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000753</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bbd">
+      <bp:ID >25819840</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >LC-MS/MS based assay and reference intervals in children and adolescents for oxysterols elevated in Niemann-Pick diseases.</bp:TITLE>
+      <bp:SOURCE >Clin Biochem</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Klinke G</bp:AUTHORS>
+      <bp:AUTHORS >Rohrbach M</bp:AUTHORS>
+      <bp:AUTHORS >Giugliani R</bp:AUTHORS>
+      <bp:AUTHORS >Burda P</bp:AUTHORS>
+      <bp:AUTHORS >Baumgartner MR</bp:AUTHORS>
+      <bp:AUTHORS >Tran C</bp:AUTHORS>
+      <bp:AUTHORS >Gautschi M</bp:AUTHORS>
+      <bp:AUTHORS >Mathis D</bp:AUTHORS>
+      <bp:AUTHORS >Hersberger M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f5f">
+      <bp:ID >31698146</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Oxysterols as lipid mediators: Their biosynthetic genes, enzymes and metabolites.</bp:TITLE>
+      <bp:SOURCE >Prostaglandins Other Lipid Mediat</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Griffiths WJ</bp:AUTHORS>
+      <bp:AUTHORS >Wang Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b49">
+      <bp:ID >27647924</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >ACOX2 deficiency: A disorder of bile acid synthesis with transaminase elevation, liver fibrosis, ataxia, and cognitive impairment.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Vilarinho S</bp:AUTHORS>
+      <bp:AUTHORS >Sari S</bp:AUTHORS>
+      <bp:AUTHORS >Mazzacuva F</bp:AUTHORS>
+      <bp:AUTHORS >Bilg&#252;var K</bp:AUTHORS>
+      <bp:AUTHORS >Esendagli-Yilmaz G</bp:AUTHORS>
+      <bp:AUTHORS >Jain D</bp:AUTHORS>
+      <bp:AUTHORS >Akyol G</bp:AUTHORS>
+      <bp:AUTHORS >Dalgi&#231; B</bp:AUTHORS>
+      <bp:AUTHORS >G&#252;nel M</bp:AUTHORS>
+      <bp:AUTHORS >Clayton PT</bp:AUTHORS>
+      <bp:AUTHORS >Lifton RP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Niemann-Pick disease type B</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0070112</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da0">
+      <bp:ID >17873880</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >27-Hydroxycholesterol is an endogenous SERM that inhibits the cardiovascular effects of estrogen.</bp:TITLE>
+      <bp:SOURCE >Nat Med</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Umetani M</bp:AUTHORS>
+      <bp:AUTHORS >Domoto H</bp:AUTHORS>
+      <bp:AUTHORS >Gormley AK</bp:AUTHORS>
+      <bp:AUTHORS >Yuhanna IS</bp:AUTHORS>
+      <bp:AUTHORS >Cummins CL</bp:AUTHORS>
+      <bp:AUTHORS >Javitt NB</bp:AUTHORS>
+      <bp:AUTHORS >Korach KS</bp:AUTHORS>
+      <bp:AUTHORS >Shaul PW</bp:AUTHORS>
+      <bp:AUTHORS >Mangelsdorf DJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da7">
+      <bp:ID >18621681</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Crystal structures of substrate-bound and substrate-free cytochrome P450 46A1, the principal cholesterol hydroxylase in the brain.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Mast N</bp:AUTHORS>
+      <bp:AUTHORS >White MA</bp:AUTHORS>
+      <bp:AUTHORS >Bjorkhem I</bp:AUTHORS>
+      <bp:AUTHORS >Johnson EF</bp:AUTHORS>
+      <bp:AUTHORS >Stout CD</bp:AUTHORS>
+      <bp:AUTHORS >Pikuleva IA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e68">
+      <bp:ID >16385454</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mutational spectrum of D-bifunctional protein deficiency and structure-based genotype-phenotype analysis.</bp:TITLE>
+      <bp:SOURCE >Am J Hum Genet</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Ferdinandusse S</bp:AUTHORS>
+      <bp:AUTHORS >Ylianttila MS</bp:AUTHORS>
+      <bp:AUTHORS >Gloerich J</bp:AUTHORS>
+      <bp:AUTHORS >Koski MK</bp:AUTHORS>
+      <bp:AUTHORS >Oostheim W</bp:AUTHORS>
+      <bp:AUTHORS >Waterham HR</bp:AUTHORS>
+      <bp:AUTHORS >Hiltunen JK</bp:AUTHORS>
+      <bp:AUTHORS >Wanders RJ</bp:AUTHORS>
+      <bp:AUTHORS >Glumoff T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >D-bifunctional protein deficiency</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0090031</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eae">
+      <bp:ID >12543708</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The enzymes, regulation, and genetics of bile acid synthesis.</bp:TITLE>
+      <bp:SOURCE >Annu Rev Biochem</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Russell DW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="afa">
+      <bp:ID >20615952</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification and pharmacological characterization of cholesterol-5,6-epoxide hydrolase as a target for tamoxifen and AEBS ligands.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >de Medina P</bp:AUTHORS>
+      <bp:AUTHORS >Paillasse MR</bp:AUTHORS>
+      <bp:AUTHORS >Segala G</bp:AUTHORS>
+      <bp:AUTHORS >Poirot M</bp:AUTHORS>
+      <bp:AUTHORS >Silvente-Poirot S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc7">
+      <bp:ID >10602018</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >RORgammaT, a thymus-specific isoform of the orphan nuclear receptor RORgamma / TOR, is up-regulated by signaling through the pre-T cell receptor and binds to the TEA promoter.</bp:TITLE>
+      <bp:SOURCE >Eur J Immunol</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Villey I</bp:AUTHORS>
+      <bp:AUTHORS >de Chasseval R</bp:AUTHORS>
+      <bp:AUTHORS >de Villartay JP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bec">
+      <bp:ID >11089551</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cholestenoic acid is a naturally occurring ligand for liver X receptor alpha.</bp:TITLE>
+      <bp:SOURCE >Endocrinology</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Song C</bp:AUTHORS>
+      <bp:AUTHORS >Liao S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d70">
+      <bp:ID >10748047</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Expression cloning of an oxysterol 7alpha-hydroxylase selective for 24-hydroxycholesterol.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Li-Hawkins J</bp:AUTHORS>
+      <bp:AUTHORS >Lund EG</bp:AUTHORS>
+      <bp:AUTHORS >Bronson AD</bp:AUTHORS>
+      <bp:AUTHORS >Russell DW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad6">
+      <bp:ID >19805370</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >25-Hydroxycholesterol secreted by macrophages in response to Toll-like receptor activation suppresses immunoglobulin A production.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Bauman DR</bp:AUTHORS>
+      <bp:AUTHORS >Bitmansour AD</bp:AUTHORS>
+      <bp:AUTHORS >McDonald JG</bp:AUTHORS>
+      <bp:AUTHORS >Thompson BM</bp:AUTHORS>
+      <bp:AUTHORS >Liang G</bp:AUTHORS>
+      <bp:AUTHORS >Russell DW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Niemann-Pick disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:14504</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c6d">
+      <bp:ID >17428920</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Sterol-regulated transport of SREBPs from endoplasmic reticulum to Golgi: oxysterols block transport by binding to Insig.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Radhakrishnan A</bp:AUTHORS>
+      <bp:AUTHORS >Ikeda Y</bp:AUTHORS>
+      <bp:AUTHORS >Kwon HJ</bp:AUTHORS>
+      <bp:AUTHORS >Brown MS</bp:AUTHORS>
+      <bp:AUTHORS >Goldstein JL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ecb">
+      <bp:ID >8790411</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cholesterol homeostasis in human brain: evidence for an age-dependent flux of 24S-hydroxycholesterol from the brain intothe circulation.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >L&#252;tjohann D</bp:AUTHORS>
+      <bp:AUTHORS >Breuer O</bp:AUTHORS>
+      <bp:AUTHORS >Ahlborg G</bp:AUTHORS>
+      <bp:AUTHORS >Nennesmo I</bp:AUTHORS>
+      <bp:AUTHORS >Sid&#233;n A</bp:AUTHORS>
+      <bp:AUTHORS >Diczfalusy U</bp:AUTHORS>
+      <bp:AUTHORS >Bj&#246;rkhem I</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3c">
+      <bp:ID >25092323</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Oxysterols are agonist ligands of ROR&#947;t and drive Th17 cell differentiation.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Soroosh P</bp:AUTHORS>
+      <bp:AUTHORS >Wu J</bp:AUTHORS>
+      <bp:AUTHORS >Xue X</bp:AUTHORS>
+      <bp:AUTHORS >Song J</bp:AUTHORS>
+      <bp:AUTHORS >Sutton SW</bp:AUTHORS>
+      <bp:AUTHORS >Sablad M</bp:AUTHORS>
+      <bp:AUTHORS >Yu J</bp:AUTHORS>
+      <bp:AUTHORS >Nelen MI</bp:AUTHORS>
+      <bp:AUTHORS >Liu X</bp:AUTHORS>
+      <bp:AUTHORS >Castro G</bp:AUTHORS>
+      <bp:AUTHORS >Luna R</bp:AUTHORS>
+      <bp:AUTHORS >Crawford S</bp:AUTHORS>
+      <bp:AUTHORS >Banie H</bp:AUTHORS>
+      <bp:AUTHORS >Dandridge RA</bp:AUTHORS>
+      <bp:AUTHORS >Deng X</bp:AUTHORS>
+      <bp:AUTHORS >Bittner A</bp:AUTHORS>
+      <bp:AUTHORS >Kuei C</bp:AUTHORS>
+      <bp:AUTHORS >Tootoonchi M</bp:AUTHORS>
+      <bp:AUTHORS >Rozenkrants N</bp:AUTHORS>
+      <bp:AUTHORS >Herman K</bp:AUTHORS>
+      <bp:AUTHORS >Gao J</bp:AUTHORS>
+      <bp:AUTHORS >Yang XV</bp:AUTHORS>
+      <bp:AUTHORS >Sachen K</bp:AUTHORS>
+      <bp:AUTHORS >Ngo K</bp:AUTHORS>
+      <bp:AUTHORS >Fung-Leung WP</bp:AUTHORS>
+      <bp:AUTHORS >Nguyen S</bp:AUTHORS>
+      <bp:AUTHORS >de Leon-Tabaldo A</bp:AUTHORS>
+      <bp:AUTHORS >Blevitt J</bp:AUTHORS>
+      <bp:AUTHORS >Zhang Y</bp:AUTHORS>
+      <bp:AUTHORS >Cummings MD</bp:AUTHORS>
+      <bp:AUTHORS >Rao T</bp:AUTHORS>
+      <bp:AUTHORS >Mani NS</bp:AUTHORS>
+      <bp:AUTHORS >Liu C</bp:AUTHORS>
+      <bp:AUTHORS >McKinnon M</bp:AUTHORS>
+      <bp:AUTHORS >Milla ME</bp:AUTHORS>
+      <bp:AUTHORS >Fourie AM</bp:AUTHORS>
+      <bp:AUTHORS >Sun S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b56">
+      <bp:ID >21796212</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Oxysterols direct immune cell migration via EBI2.</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Hannedouche S</bp:AUTHORS>
+      <bp:AUTHORS >Zhang J</bp:AUTHORS>
+      <bp:AUTHORS >Yi T</bp:AUTHORS>
+      <bp:AUTHORS >Shen W</bp:AUTHORS>
+      <bp:AUTHORS >Nguyen D</bp:AUTHORS>
+      <bp:AUTHORS >Pereira JP</bp:AUTHORS>
+      <bp:AUTHORS >Guerini D</bp:AUTHORS>
+      <bp:AUTHORS >Baumgarten BU</bp:AUTHORS>
+      <bp:AUTHORS >Roggo S</bp:AUTHORS>
+      <bp:AUTHORS >Wen B</bp:AUTHORS>
+      <bp:AUTHORS >Knochenmuss R</bp:AUTHORS>
+      <bp:AUTHORS >No&#235;l S</bp:AUTHORS>
+      <bp:AUTHORS >Gessier F</bp:AUTHORS>
+      <bp:AUTHORS >Kelly LM</bp:AUTHORS>
+      <bp:AUTHORS >Vanek M</bp:AUTHORS>
+      <bp:AUTHORS >Laurent S</bp:AUTHORS>
+      <bp:AUTHORS >Preuss I</bp:AUTHORS>
+      <bp:AUTHORS >Miault C</bp:AUTHORS>
+      <bp:AUTHORS >Christen I</bp:AUTHORS>
+      <bp:AUTHORS >Karuna R</bp:AUTHORS>
+      <bp:AUTHORS >Li W</bp:AUTHORS>
+      <bp:AUTHORS >Koo DI</bp:AUTHORS>
+      <bp:AUTHORS >Suply T</bp:AUTHORS>
+      <bp:AUTHORS >Schmedt C</bp:AUTHORS>
+      <bp:AUTHORS >Peters EC</bp:AUTHORS>
+      <bp:AUTHORS >Falchetto R</bp:AUTHORS>
+      <bp:AUTHORS >Katopodis A</bp:AUTHORS>
+      <bp:AUTHORS >Spanka C</bp:AUTHORS>
+      <bp:AUTHORS >Roy MO</bp:AUTHORS>
+      <bp:AUTHORS >Detheux M</bp:AUTHORS>
+      <bp:AUTHORS >Chen YA</bp:AUTHORS>
+      <bp:AUTHORS >Schultz PG</bp:AUTHORS>
+      <bp:AUTHORS >Cho CY</bp:AUTHORS>
+      <bp:AUTHORS >Seuwen K</bp:AUTHORS>
+      <bp:AUTHORS >Cyster JG</bp:AUTHORS>
+      <bp:AUTHORS >Sailer AW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c09">
+      <bp:ID >19502589</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Marked upregulation of cholesterol 25-hydroxylase expression by lipopolysaccharide.</bp:TITLE>
+      <bp:SOURCE >J Lipid Res</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Diczfalusy U</bp:AUTHORS>
+      <bp:AUTHORS >Olofsson KE</bp:AUTHORS>
+      <bp:AUTHORS >Carlsson AM</bp:AUTHORS>
+      <bp:AUTHORS >Gong M</bp:AUTHORS>
+      <bp:AUTHORS >Golenbock DT</bp:AUTHORS>
+      <bp:AUTHORS >Rooyackers O</bp:AUTHORS>
+      <bp:AUTHORS >Fl&#228;ring U</bp:AUTHORS>
+      <bp:AUTHORS >Bj&#246;rkbacka H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf0">
+      <bp:ID >10588945</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Structure and functions of human oxysterol 7alpha-hydroxylase cDNAs and gene CYP7B1.</bp:TITLE>
+      <bp:SOURCE >J Lipid Res</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Wu Z</bp:AUTHORS>
+      <bp:AUTHORS >Martin KO</bp:AUTHORS>
+      <bp:AUTHORS >Javitt NB</bp:AUTHORS>
+      <bp:AUTHORS >Chiang JY</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f4d">
+      <bp:ID >28923174</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >27-Hydroxycholesterol, an endogenous selective estrogen receptor modulator.</bp:TITLE>
+      <bp:SOURCE >Maturitas</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >He S</bp:AUTHORS>
+      <bp:AUTHORS >Nelson ER</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cholesterol metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001304</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Niemann-Pick disease type C1</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0070113</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c8b">
+      <bp:ID >12077124</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Metabolism of 4 beta -hydroxycholesterol in humans.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Bodin K</bp:AUTHORS>
+      <bp:AUTHORS >Andersson U</bp:AUTHORS>
+      <bp:AUTHORS >Rystedt E</bp:AUTHORS>
+      <bp:AUTHORS >Ellis E</bp:AUTHORS>
+      <bp:AUTHORS >Norlin M</bp:AUTHORS>
+      <bp:AUTHORS >Pikuleva I</bp:AUTHORS>
+      <bp:AUTHORS >Eggertsen G</bp:AUTHORS>
+      <bp:AUTHORS >Bj&#246;rkhem I</bp:AUTHORS>
+      <bp:AUTHORS >Diczfalusy U</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c87">
+      <bp:ID >12569201</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification of an endogenous ligand that activates pregnane X receptor-mediated sterol clearance.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Dussault I</bp:AUTHORS>
+      <bp:AUTHORS >Yoo HD</bp:AUTHORS>
+      <bp:AUTHORS >Lin M</bp:AUTHORS>
+      <bp:AUTHORS >Wang E</bp:AUTHORS>
+      <bp:AUTHORS >Fan M</bp:AUTHORS>
+      <bp:AUTHORS >Batta AK</bp:AUTHORS>
+      <bp:AUTHORS >Salen G</bp:AUTHORS>
+      <bp:AUTHORS >Erickson SK</bp:AUTHORS>
+      <bp:AUTHORS >Forman BM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c74">
+      <bp:ID >7925343</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >7 alpha hydroxylation of 25-hydroxycholesterol in liver microsomes. Evidence that the enzyme involved is different from cholesterol 7 alpha-hydroxylase.</bp:TITLE>
+      <bp:SOURCE >Eur J Biochem</bp:SOURCE>
+      <bp:YEAR >1994</bp:YEAR>
+      <bp:AUTHORS >Toll A</bp:AUTHORS>
+      <bp:AUTHORS >Wikvall K</bp:AUTHORS>
+      <bp:AUTHORS >Sudjana-Sugiaman E</bp:AUTHORS>
+      <bp:AUTHORS >Kondo KH</bp:AUTHORS>
+      <bp:AUTHORS >Bj&#246;rkhem I</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b10">
+      <bp:ID >10655068</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mutations in the gene encoding peroxisomal alpha-methylacyl-CoA racemase cause adult-onset sensory motor neuropathy.</bp:TITLE>
+      <bp:SOURCE >Nat Genet</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Ferdinandusse S</bp:AUTHORS>
+      <bp:AUTHORS >Denis S</bp:AUTHORS>
+      <bp:AUTHORS >Clayton PT</bp:AUTHORS>
+      <bp:AUTHORS >Graham A</bp:AUTHORS>
+      <bp:AUTHORS >Rees JE</bp:AUTHORS>
+      <bp:AUTHORS >Allen JT</bp:AUTHORS>
+      <bp:AUTHORS >McLean BN</bp:AUTHORS>
+      <bp:AUTHORS >Brown AY</bp:AUTHORS>
+      <bp:AUTHORS >Vreken P</bp:AUTHORS>
+      <bp:AUTHORS >Waterham HR</bp:AUTHORS>
+      <bp:AUTHORS >Wanders RJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d33">
+      <bp:ID >11013305</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >24-hydroxycholesterol is a substrate for hepatic cholesterol 7alpha-hydroxylase (CYP7A).</bp:TITLE>
+      <bp:SOURCE >J Lipid Res</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Norlin M</bp:AUTHORS>
+      <bp:AUTHORS >Toll A</bp:AUTHORS>
+      <bp:AUTHORS >Bj&#246;rkhem I</bp:AUTHORS>
+      <bp:AUTHORS >Wikvall K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d91">
+      <bp:ID >21229319</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Disorders of bile acid synthesis.</bp:TITLE>
+      <bp:SOURCE >J Inherit Metab Dis</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Clayton PT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >classic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000002</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d74">
+      <bp:ID >10377398</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >cDNA cloning of cholesterol 24-hydroxylase, a mediator of cholesterol homeostasis in the brain.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Lund EG</bp:AUTHORS>
+      <bp:AUTHORS >Guileyardo JM</bp:AUTHORS>
+      <bp:AUTHORS >Russell DW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d21">
+      <bp:ID >14640697</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Broad substrate specificity of human cytochrome P450 46A1 which initiates cholesterol degradation in the brain.</bp:TITLE>
+      <bp:SOURCE >Biochemistry</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Mast N</bp:AUTHORS>
+      <bp:AUTHORS >Norcross R</bp:AUTHORS>
+      <bp:AUTHORS >Andersson U</bp:AUTHORS>
+      <bp:AUTHORS >Shou M</bp:AUTHORS>
+      <bp:AUTHORS >Nakayama K</bp:AUTHORS>
+      <bp:AUTHORS >Bjorkhem I</bp:AUTHORS>
+      <bp:AUTHORS >Pikuleva IA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >congenital bile acid synthesis defect</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0050674</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d46">
+      <bp:ID >24309898</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Analysis of the human tissue-specific expression by genome-wide integration of transcriptomics and antibody-based proteomics.</bp:TITLE>
+      <bp:SOURCE >Mol Cell Proteomics</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Fagerberg L</bp:AUTHORS>
+      <bp:AUTHORS >Hallstr&#246;m BM</bp:AUTHORS>
+      <bp:AUTHORS >Oksvold P</bp:AUTHORS>
+      <bp:AUTHORS >Kampf C</bp:AUTHORS>
+      <bp:AUTHORS >Djureinovic D</bp:AUTHORS>
+      <bp:AUTHORS >Odeberg J</bp:AUTHORS>
+      <bp:AUTHORS >Habuka M</bp:AUTHORS>
+      <bp:AUTHORS >Tahmasebpoor S</bp:AUTHORS>
+      <bp:AUTHORS >Danielsson A</bp:AUTHORS>
+      <bp:AUTHORS >Edlund K</bp:AUTHORS>
+      <bp:AUTHORS >Asplund A</bp:AUTHORS>
+      <bp:AUTHORS >Sj&#246;stedt E</bp:AUTHORS>
+      <bp:AUTHORS >Lundberg E</bp:AUTHORS>
+      <bp:AUTHORS >Szigyarto CA</bp:AUTHORS>
+      <bp:AUTHORS >Skogs M</bp:AUTHORS>
+      <bp:AUTHORS >Takanen JO</bp:AUTHORS>
+      <bp:AUTHORS >Berling H</bp:AUTHORS>
+      <bp:AUTHORS >Tegel H</bp:AUTHORS>
+      <bp:AUTHORS >Mulder J</bp:AUTHORS>
+      <bp:AUTHORS >Nilsson P</bp:AUTHORS>
+      <bp:AUTHORS >Schwenk JM</bp:AUTHORS>
+      <bp:AUTHORS >Lindskog C</bp:AUTHORS>
+      <bp:AUTHORS >Danielsson F</bp:AUTHORS>
+      <bp:AUTHORS >Mardinoglu A</bp:AUTHORS>
+      <bp:AUTHORS >Sivertsson A</bp:AUTHORS>
+      <bp:AUTHORS >von Feilitzen K</bp:AUTHORS>
+      <bp:AUTHORS >Forsberg M</bp:AUTHORS>
+      <bp:AUTHORS >Zwahlen M</bp:AUTHORS>
+      <bp:AUTHORS >Olsson I</bp:AUTHORS>
+      <bp:AUTHORS >Navani S</bp:AUTHORS>
+      <bp:AUTHORS >Huss M</bp:AUTHORS>
+      <bp:AUTHORS >Nielsen J</bp:AUTHORS>
+      <bp:AUTHORS >Ponten F</bp:AUTHORS>
+      <bp:AUTHORS >Uhl&#233;n M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba7">
+      <bp:ID >23759795</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cerebrotendinous xanthomatosis.</bp:TITLE>
+      <bp:SOURCE >Curr Opin Lipidol</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Bj&#246;rkhem I</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cerebrotendinous xanthomatosis pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001475</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a56">
+      <bp:ID >25104388</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE />
+      <bp:SOURCE />
+      <bp:YEAR />
+      <bp:ID >25104388</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Inflammation. 25-Hydroxycholesterol suppresses interleukin-1-driven inflammation downstream of type I interferon.</bp:TITLE>
+      <bp:SOURCE >Science</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Reboldi A</bp:AUTHORS>
+      <bp:AUTHORS >Dang EV</bp:AUTHORS>
+      <bp:AUTHORS >McDonald JG</bp:AUTHORS>
+      <bp:AUTHORS >Liang G</bp:AUTHORS>
+      <bp:AUTHORS >Russell DW</bp:AUTHORS>
+      <bp:AUTHORS >Cyster JG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b97">
+      <bp:ID >30471425</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Additional pathways of sterol metabolism: Evidence from analysis of Cyp27a1-/- mouse brain and plasma.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta Mol Cell Biol Lipids</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Griffiths WJ</bp:AUTHORS>
+      <bp:AUTHORS >Crick PJ</bp:AUTHORS>
+      <bp:AUTHORS >Meljon A</bp:AUTHORS>
+      <bp:AUTHORS >Theofilopoulos S</bp:AUTHORS>
+      <bp:AUTHORS >Abdel-Khalik J</bp:AUTHORS>
+      <bp:AUTHORS >Yutuc E</bp:AUTHORS>
+      <bp:AUTHORS >Parker JE</bp:AUTHORS>
+      <bp:AUTHORS >Kelly DE</bp:AUTHORS>
+      <bp:AUTHORS >Kelly SL</bp:AUTHORS>
+      <bp:AUTHORS >Arenas E</bp:AUTHORS>
+      <bp:AUTHORS >Wang Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Niemann-Pick disease type A</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0070111</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f84">
+      <bp:ID >31009661</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Metabolism of Non-Enzymatically Derived Oxysterols: Clues from sterol metabolic disorders.</bp:TITLE>
+      <bp:SOURCE >Free Radic Biol Med</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Griffiths WJ</bp:AUTHORS>
+      <bp:AUTHORS >Yutuc E</bp:AUTHORS>
+      <bp:AUTHORS >Abdel-Khalik J</bp:AUTHORS>
+      <bp:AUTHORS >Crick PJ</bp:AUTHORS>
+      <bp:AUTHORS >Hearn T</bp:AUTHORS>
+      <bp:AUTHORS >Dickson A</bp:AUTHORS>
+      <bp:AUTHORS >Bigger BW</bp:AUTHORS>
+      <bp:AUTHORS >Hoi-Yee Wu T</bp:AUTHORS>
+      <bp:AUTHORS >Goenka A</bp:AUTHORS>
+      <bp:AUTHORS >Ghosh A</bp:AUTHORS>
+      <bp:AUTHORS >Jones SA</bp:AUTHORS>
+      <bp:AUTHORS >Covey DF</bp:AUTHORS>
+      <bp:AUTHORS >Ory DS</bp:AUTHORS>
+      <bp:AUTHORS >Wang Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fd2">
+      <bp:ID >11673457</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE />
+      <bp:SOURCE />
+      <bp:YEAR />
+      <bp:ID >11673457</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Characterization of an acyl-coA thioesterase that functions as a major regulator of peroxisomal lipid metabolism.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Hunt MC</bp:AUTHORS>
+      <bp:AUTHORS >Solaas K</bp:AUTHORS>
+      <bp:AUTHORS >Kase BF</bp:AUTHORS>
+      <bp:AUTHORS >Alexson SE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f9c">
+      <bp:ID >16685654</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mutations in the gene encoding peroxisomal sterol carrier protein X (SCPx) cause leukencephalopathy with dystonia and motor neuropathy.</bp:TITLE>
+      <bp:SOURCE >Am J Hum Genet</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Ferdinandusse S</bp:AUTHORS>
+      <bp:AUTHORS >Kostopoulos P</bp:AUTHORS>
+      <bp:AUTHORS >Denis S</bp:AUTHORS>
+      <bp:AUTHORS >Rusch H</bp:AUTHORS>
+      <bp:AUTHORS >Overmars H</bp:AUTHORS>
+      <bp:AUTHORS >Dillmann U</bp:AUTHORS>
+      <bp:AUTHORS >Reith W</bp:AUTHORS>
+      <bp:AUTHORS >Haas D</bp:AUTHORS>
+      <bp:AUTHORS >Wanders RJ</bp:AUTHORS>
+      <bp:AUTHORS >Duran M</bp:AUTHORS>
+      <bp:AUTHORS >Marziniak M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f43">
+      <bp:ID >24288332</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >27-Hydroxycholesterol links hypercholesterolemia and breast cancer pathophysiology.</bp:TITLE>
+      <bp:SOURCE >Science</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Nelson ER</bp:AUTHORS>
+      <bp:AUTHORS >Wardell SE</bp:AUTHORS>
+      <bp:AUTHORS >Jasper JS</bp:AUTHORS>
+      <bp:AUTHORS >Park S</bp:AUTHORS>
+      <bp:AUTHORS >Suchindran S</bp:AUTHORS>
+      <bp:AUTHORS >Howe MK</bp:AUTHORS>
+      <bp:AUTHORS >Carver NJ</bp:AUTHORS>
+      <bp:AUTHORS >Pillai RV</bp:AUTHORS>
+      <bp:AUTHORS >Sullivan PM</bp:AUTHORS>
+      <bp:AUTHORS >Sondhi V</bp:AUTHORS>
+      <bp:AUTHORS >Umetani M</bp:AUTHORS>
+      <bp:AUTHORS >Geradts J</bp:AUTHORS>
+      <bp:AUTHORS >McDonnell DP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a9c">
+      <bp:ID >21576599</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cholesterol 25-hydroxylation activity of CYP3A.</bp:TITLE>
+      <bp:SOURCE >J Lipid Res</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Honda A</bp:AUTHORS>
+      <bp:AUTHORS >Miyazaki T</bp:AUTHORS>
+      <bp:AUTHORS >Ikegami T</bp:AUTHORS>
+      <bp:AUTHORS >Iwamoto J</bp:AUTHORS>
+      <bp:AUTHORS >Maeda T</bp:AUTHORS>
+      <bp:AUTHORS >Hirayama T</bp:AUTHORS>
+      <bp:AUTHORS >Saito Y</bp:AUTHORS>
+      <bp:AUTHORS >Teramoto T</bp:AUTHORS>
+      <bp:AUTHORS >Matsuzaki Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e2c">
+      <bp:ID >28322867</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Bile acid analysis in human disorders of bile acid biosynthesis.</bp:TITLE>
+      <bp:SOURCE >Mol Aspects Med</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Vaz FM</bp:AUTHORS>
+      <bp:AUTHORS >Ferdinandusse S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae1">
+      <bp:ID >23673625</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Dendrogenin A arises from cholesterol and histamine metabolism and shows cell differentiation and anti-tumour properties.</bp:TITLE>
+      <bp:SOURCE >Nat Commun</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >de Medina P</bp:AUTHORS>
+      <bp:AUTHORS >Paillasse MR</bp:AUTHORS>
+      <bp:AUTHORS >Segala G</bp:AUTHORS>
+      <bp:AUTHORS >Voisin M</bp:AUTHORS>
+      <bp:AUTHORS >Mhamdi L</bp:AUTHORS>
+      <bp:AUTHORS >Dalenc F</bp:AUTHORS>
+      <bp:AUTHORS >Lacroix-Triki M</bp:AUTHORS>
+      <bp:AUTHORS >Filleron T</bp:AUTHORS>
+      <bp:AUTHORS >Pont F</bp:AUTHORS>
+      <bp:AUTHORS >Saati TA</bp:AUTHORS>
+      <bp:AUTHORS >Morisseau C</bp:AUTHORS>
+      <bp:AUTHORS >Hammock BD</bp:AUTHORS>
+      <bp:AUTHORS >Silvente-Poirot S</bp:AUTHORS>
+      <bp:AUTHORS >Poirot M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d68">
+      <bp:ID >2384150</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Molecular cloning and sequence analysis of cDNA encoding human cholesterol 7 alpha-hydroxylase.</bp:TITLE>
+      <bp:SOURCE >FEBS Lett</bp:SOURCE>
+      <bp:YEAR >1990</bp:YEAR>
+      <bp:AUTHORS >Noshiro M</bp:AUTHORS>
+      <bp:AUTHORS >Okuda K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c13">
+      <bp:ID >22366074</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >27-Hydroxycholesterol, does it exist? On the nomenclature and stereochemistry of 26-hydroxylated sterols.</bp:TITLE>
+      <bp:SOURCE >Steroids</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Fakheri RJ</bp:AUTHORS>
+      <bp:AUTHORS >Javitt NB</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dbb">
+      <bp:ID >25271621</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cholestenoic acids regulate motor neuron survival via liver X receptors.</bp:TITLE>
+      <bp:SOURCE >J Clin Invest</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Theofilopoulos S</bp:AUTHORS>
+      <bp:AUTHORS >Griffiths WJ</bp:AUTHORS>
+      <bp:AUTHORS >Crick PJ</bp:AUTHORS>
+      <bp:AUTHORS >Yang S</bp:AUTHORS>
+      <bp:AUTHORS >Meljon A</bp:AUTHORS>
+      <bp:AUTHORS >Ogundare M</bp:AUTHORS>
+      <bp:AUTHORS >Kitambi SS</bp:AUTHORS>
+      <bp:AUTHORS >Lockhart A</bp:AUTHORS>
+      <bp:AUTHORS >Tuschl K</bp:AUTHORS>
+      <bp:AUTHORS >Clayton PT</bp:AUTHORS>
+      <bp:AUTHORS >Morris AA</bp:AUTHORS>
+      <bp:AUTHORS >Martinez A</bp:AUTHORS>
+      <bp:AUTHORS >Reddy MA</bp:AUTHORS>
+      <bp:AUTHORS >Martinuzzi A</bp:AUTHORS>
+      <bp:AUTHORS >Bassi MT</bp:AUTHORS>
+      <bp:AUTHORS >Honda A</bp:AUTHORS>
+      <bp:AUTHORS >Mizuochi T</bp:AUTHORS>
+      <bp:AUTHORS >Kimura A</bp:AUTHORS>
+      <bp:AUTHORS >Nittono H</bp:AUTHORS>
+      <bp:AUTHORS >De Michele G</bp:AUTHORS>
+      <bp:AUTHORS >Carbone R</bp:AUTHORS>
+      <bp:AUTHORS >Criscuolo C</bp:AUTHORS>
+      <bp:AUTHORS >Yau JL</bp:AUTHORS>
+      <bp:AUTHORS >Seckl JR</bp:AUTHORS>
+      <bp:AUTHORS >Sch&#252;le R</bp:AUTHORS>
+      <bp:AUTHORS >Sch&#246;ls L</bp:AUTHORS>
+      <bp:AUTHORS >Sailer AW</bp:AUTHORS>
+      <bp:AUTHORS >Kuhle J</bp:AUTHORS>
+      <bp:AUTHORS >Fraidakis MJ</bp:AUTHORS>
+      <bp:AUTHORS >Gustafsson J&#197;</bp:AUTHORS>
+      <bp:AUTHORS >Steffensen KR</bp:AUTHORS>
+      <bp:AUTHORS >Bj&#246;rkhem I</bp:AUTHORS>
+      <bp:AUTHORS >Ernfors P</bp:AUTHORS>
+      <bp:AUTHORS >Sj&#246;vall J</bp:AUTHORS>
+      <bp:AUTHORS >Arenas E</bp:AUTHORS>
+      <bp:AUTHORS >Wang Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="af3">
+      <bp:ID >22465940</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The emerging role of acyl-CoA thioesterases and acyltransferases in regulating peroxisomal lipid metabolism.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Hunt MC</bp:AUTHORS>
+      <bp:AUTHORS >Siponen MI</bp:AUTHORS>
+      <bp:AUTHORS >Alexson SE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a51">
+      <bp:ID >24491228</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Human steroid and oxysterol 7&#945;-hydroxylase CYP7B1: substrate specificity, azole binding and misfolding of clinically relevant mutants.</bp:TITLE>
+      <bp:SOURCE >FEBS J</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Yantsevich AV</bp:AUTHORS>
+      <bp:AUTHORS >Dichenko YV</bp:AUTHORS>
+      <bp:AUTHORS >Mackenzie F</bp:AUTHORS>
+      <bp:AUTHORS >Mukha DV</bp:AUTHORS>
+      <bp:AUTHORS >Baranovsky AV</bp:AUTHORS>
+      <bp:AUTHORS >Gilep AA</bp:AUTHORS>
+      <bp:AUTHORS >Usanov SA</bp:AUTHORS>
+      <bp:AUTHORS >Strushkevich NV</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >congenital bile acid synthesis defect 6</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0111067</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e51">
+      <bp:ID >30578919</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Concentrations of bile acid precursors in cerebrospinal fluid of Alzheimer's disease patients.</bp:TITLE>
+      <bp:SOURCE >Free Radic Biol Med</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Griffiths WJ</bp:AUTHORS>
+      <bp:AUTHORS >Abdel-Khalik J</bp:AUTHORS>
+      <bp:AUTHORS >Yutuc E</bp:AUTHORS>
+      <bp:AUTHORS >Roman G</bp:AUTHORS>
+      <bp:AUTHORS >Warner M</bp:AUTHORS>
+      <bp:AUTHORS >Gustafsson J&#197;</bp:AUTHORS>
+      <bp:AUTHORS >Wang Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d7c">
+      <bp:ID >9717719</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cholesterol homeostasis in human brain: turnover of 24S-hydroxycholesterol and evidence for a cerebral origin of most of this oxysterol in the circulation.</bp:TITLE>
+      <bp:SOURCE >J Lipid Res</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Bj&#246;rkhem I</bp:AUTHORS>
+      <bp:AUTHORS >L&#252;tjohann D</bp:AUTHORS>
+      <bp:AUTHORS >Diczfalusy U</bp:AUTHORS>
+      <bp:AUTHORS >St&#229;hle L</bp:AUTHORS>
+      <bp:AUTHORS >Ahlborg G</bp:AUTHORS>
+      <bp:AUTHORS >Wahren J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ebf">
+      <bp:ID >9660774</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Activities of recombinant human cytochrome P450c27 (CYP27) which produce intermediates of alternative bile acid biosynthetic pathways.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Pikuleva IA</bp:AUTHORS>
+      <bp:AUTHORS >Babiker A</bp:AUTHORS>
+      <bp:AUTHORS >Waterman MR</bp:AUTHORS>
+      <bp:AUTHORS >Bj&#246;rkhem I</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c4e">
+      <bp:ID >21048217</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cholesterol oxidation products are sensitive and specific blood-based biomarkers for Niemann-Pick C1 disease.</bp:TITLE>
+      <bp:SOURCE >Sci Transl Med</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Porter FD</bp:AUTHORS>
+      <bp:AUTHORS >Scherrer DE</bp:AUTHORS>
+      <bp:AUTHORS >Lanier MH</bp:AUTHORS>
+      <bp:AUTHORS >Langmade SJ</bp:AUTHORS>
+      <bp:AUTHORS >Molugu V</bp:AUTHORS>
+      <bp:AUTHORS >Gale SE</bp:AUTHORS>
+      <bp:AUTHORS >Olzeski D</bp:AUTHORS>
+      <bp:AUTHORS >Sidhu R</bp:AUTHORS>
+      <bp:AUTHORS >Dietzen DJ</bp:AUTHORS>
+      <bp:AUTHORS >Fu R</bp:AUTHORS>
+      <bp:AUTHORS >Wassif CA</bp:AUTHORS>
+      <bp:AUTHORS >Yanjanin NM</bp:AUTHORS>
+      <bp:AUTHORS >Marso SP</bp:AUTHORS>
+      <bp:AUTHORS >House J</bp:AUTHORS>
+      <bp:AUTHORS >Vite C</bp:AUTHORS>
+      <bp:AUTHORS >Schaffer JE</bp:AUTHORS>
+      <bp:AUTHORS >Ory DS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab4">
+      <bp:ID >2335522</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cloning and regulation of cholesterol 7 alpha-hydroxylase, the rate-limiting enzyme in bile acid biosynthesis.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1990</bp:YEAR>
+      <bp:AUTHORS >Jelinek DF</bp:AUTHORS>
+      <bp:AUTHORS >Andersson S</bp:AUTHORS>
+      <bp:AUTHORS >Slaughter CA</bp:AUTHORS>
+      <bp:AUTHORS >Russell DW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b35">
+      <bp:ID >27068984</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Current trends in oxysterol research.</bp:TITLE>
+      <bp:SOURCE >Biochem Soc Trans</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Griffiths WJ</bp:AUTHORS>
+      <bp:AUTHORS >Abdel-Khalik J</bp:AUTHORS>
+      <bp:AUTHORS >Hearn T</bp:AUTHORS>
+      <bp:AUTHORS >Yutuc E</bp:AUTHORS>
+      <bp:AUTHORS >Morgan AH</bp:AUTHORS>
+      <bp:AUTHORS >Wang Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd6">
+      <bp:ID >23415802</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Genetic defects in bile acid conjugation cause fat-soluble vitamin deficiency.</bp:TITLE>
+      <bp:SOURCE >Gastroenterology</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Setchell KD</bp:AUTHORS>
+      <bp:AUTHORS >Heubi JE</bp:AUTHORS>
+      <bp:AUTHORS >Shah S</bp:AUTHORS>
+      <bp:AUTHORS >Lavine JE</bp:AUTHORS>
+      <bp:AUTHORS >Suskind D</bp:AUTHORS>
+      <bp:AUTHORS >Al-Edreesi M</bp:AUTHORS>
+      <bp:AUTHORS >Potter C</bp:AUTHORS>
+      <bp:AUTHORS >Russell DW</bp:AUTHORS>
+      <bp:AUTHORS >O'Connell NC</bp:AUTHORS>
+      <bp:AUTHORS >Wolfe B</bp:AUTHORS>
+      <bp:AUTHORS >Jha P</bp:AUTHORS>
+      <bp:AUTHORS >Zhang W</bp:AUTHORS>
+      <bp:AUTHORS >Bove KE</bp:AUTHORS>
+      <bp:AUTHORS >Knisely AS</bp:AUTHORS>
+      <bp:AUTHORS >Hofmann AF</bp:AUTHORS>
+      <bp:AUTHORS >Rosenthal P</bp:AUTHORS>
+      <bp:AUTHORS >Bull LN</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e17">
+      <bp:ID >29960034</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification of 7&#945;,24-dihydroxy-3-oxocholest-4-en-26-oic and 7&#945;,25-dihydroxy-3-oxocholest-4-en-26-oic acids in human cerebrospinal fluid and plasma.</bp:TITLE>
+      <bp:SOURCE >Biochimie</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Abdel-Khalik J</bp:AUTHORS>
+      <bp:AUTHORS >Crick PJ</bp:AUTHORS>
+      <bp:AUTHORS >Yutuc E</bp:AUTHORS>
+      <bp:AUTHORS >DeBarber AE</bp:AUTHORS>
+      <bp:AUTHORS >Duell PB</bp:AUTHORS>
+      <bp:AUTHORS >Steiner RD</bp:AUTHORS>
+      <bp:AUTHORS >Laina I</bp:AUTHORS>
+      <bp:AUTHORS >Wang Y</bp:AUTHORS>
+      <bp:AUTHORS >Griffiths WJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e2d">
+      <bp:ID >17872378</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >27-hydroxycholesterol is an endogenous selective estrogen receptor modulator.</bp:TITLE>
+      <bp:SOURCE >Mol Endocrinol</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >DuSell CD</bp:AUTHORS>
+      <bp:AUTHORS >Umetani M</bp:AUTHORS>
+      <bp:AUTHORS >Shaul PW</bp:AUTHORS>
+      <bp:AUTHORS >Mangelsdorf DJ</bp:AUTHORS>
+      <bp:AUTHORS >McDonnell DP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da6">
+      <bp:ID >21874273</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of a disordered steroid metabolome in the elucidation of sterol and steroid biosynthesis.</bp:TITLE>
+      <bp:SOURCE >Lipids</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Shackleton CH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a7b">
+      <bp:ID >16940157</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Analysis of the mouse and human acyl-CoA thioesterase (ACOT) gene clusters shows that convergent, functional evolution results in a reduced number of human peroxisomal ACOTs.</bp:TITLE>
+      <bp:SOURCE >FASEB J</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Hunt MC</bp:AUTHORS>
+      <bp:AUTHORS >Rautanen A</bp:AUTHORS>
+      <bp:AUTHORS >Westin MA</bp:AUTHORS>
+      <bp:AUTHORS >Svensson LT</bp:AUTHORS>
+      <bp:AUTHORS >Alexson SE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="df7">
+      <bp:ID >9614081</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Markedly reduced bile acid synthesis but maintained levels of cholesterol and vitamin D metabolites in mice with disrupted sterol 27-hydroxylase gene.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Rosen H</bp:AUTHORS>
+      <bp:AUTHORS >Reshef A</bp:AUTHORS>
+      <bp:AUTHORS >Maeda N</bp:AUTHORS>
+      <bp:AUTHORS >Lippoldt A</bp:AUTHORS>
+      <bp:AUTHORS >Shpizen S</bp:AUTHORS>
+      <bp:AUTHORS >Triger L</bp:AUTHORS>
+      <bp:AUTHORS >Eggertsen G</bp:AUTHORS>
+      <bp:AUTHORS >Bj&#246;rkhem I</bp:AUTHORS>
+      <bp:AUTHORS >Leitersdorf E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cerebrotendinous xanthomatosis</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:4810</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae6">
+      <bp:ID >19996111</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cerebrospinal fluid steroidomics: are bioactive bile acids present in brain?</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Ogundare M</bp:AUTHORS>
+      <bp:AUTHORS >Theofilopoulos S</bp:AUTHORS>
+      <bp:AUTHORS >Lockhart A</bp:AUTHORS>
+      <bp:AUTHORS >Hall LJ</bp:AUTHORS>
+      <bp:AUTHORS >Arenas E</bp:AUTHORS>
+      <bp:AUTHORS >Sj&#246;vall J</bp:AUTHORS>
+      <bp:AUTHORS >Brenton AG</bp:AUTHORS>
+      <bp:AUTHORS >Wang Y</bp:AUTHORS>
+      <bp:AUTHORS >Griffiths WJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a71">
+      <bp:ID >12679481</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Molecular genetics of 3beta-hydroxy-Delta5-C27-steroid oxidoreductase deficiency in 16 patients with loss of bile acid synthesis and liver disease.</bp:TITLE>
+      <bp:SOURCE >J Clin Endocrinol Metab</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Cheng JB</bp:AUTHORS>
+      <bp:AUTHORS >Jacquemin E</bp:AUTHORS>
+      <bp:AUTHORS >Gerhardt M</bp:AUTHORS>
+      <bp:AUTHORS >Nazer H</bp:AUTHORS>
+      <bp:AUTHORS >Cresteil D</bp:AUTHORS>
+      <bp:AUTHORS >Heubi JE</bp:AUTHORS>
+      <bp:AUTHORS >Setchell KD</bp:AUTHORS>
+      <bp:AUTHORS >Russell DW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f07">
+      <bp:ID >10944470</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification of PTE2, a human peroxisomal long-chain acyl-CoA thioesterase.</bp:TITLE>
+      <bp:SOURCE >Biochem Biophys Res Commun</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Jones JM</bp:AUTHORS>
+      <bp:AUTHORS >Gould SJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b5f">
+      <bp:ID >9852097</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >cDNA cloning of mouse and human cholesterol 25-hydroxylases, polytopic membrane proteins that synthesize a potent oxysterol regulator of lipid metabolism.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Lund EG</bp:AUTHORS>
+      <bp:AUTHORS >Kerr TA</bp:AUTHORS>
+      <bp:AUTHORS >Sakai J</bp:AUTHORS>
+      <bp:AUTHORS >Li WP</bp:AUTHORS>
+      <bp:AUTHORS >Russell DW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b7e">
+      <bp:ID >23273843</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The transcription factor STAT-1 couples macrophage synthesis of 25-hydroxycholesterol to the interferon antiviral response.</bp:TITLE>
+      <bp:SOURCE >Immunity</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Blanc M</bp:AUTHORS>
+      <bp:AUTHORS >Hsieh WY</bp:AUTHORS>
+      <bp:AUTHORS >Robertson KA</bp:AUTHORS>
+      <bp:AUTHORS >Kropp KA</bp:AUTHORS>
+      <bp:AUTHORS >Forster T</bp:AUTHORS>
+      <bp:AUTHORS >Shui G</bp:AUTHORS>
+      <bp:AUTHORS >Lacaze P</bp:AUTHORS>
+      <bp:AUTHORS >Watterson S</bp:AUTHORS>
+      <bp:AUTHORS >Griffiths SJ</bp:AUTHORS>
+      <bp:AUTHORS >Spann NJ</bp:AUTHORS>
+      <bp:AUTHORS >Meljon A</bp:AUTHORS>
+      <bp:AUTHORS >Talbot S</bp:AUTHORS>
+      <bp:AUTHORS >Krishnan K</bp:AUTHORS>
+      <bp:AUTHORS >Covey DF</bp:AUTHORS>
+      <bp:AUTHORS >Wenk MR</bp:AUTHORS>
+      <bp:AUTHORS >Craigon M</bp:AUTHORS>
+      <bp:AUTHORS >Ruzsics Z</bp:AUTHORS>
+      <bp:AUTHORS >Haas J</bp:AUTHORS>
+      <bp:AUTHORS >Angulo A</bp:AUTHORS>
+      <bp:AUTHORS >Griffiths WJ</bp:AUTHORS>
+      <bp:AUTHORS >Glass CK</bp:AUTHORS>
+      <bp:AUTHORS >Wang Y</bp:AUTHORS>
+      <bp:AUTHORS >Ghazal P</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >familial hypercholanemia pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0002302</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >alpha-methylacyl-CoA racemase deficiency</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0060602</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

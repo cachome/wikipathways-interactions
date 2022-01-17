@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Lidocaine metabolism" Author="Egon Willighagen" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Lidocaine is primarily metabolized by CYP1A2 but minor involvement of CYP3A4 is observed too. Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa00982 KEGG]</Comment>
+  <Graphics BoardWidth="811.0" BoardHeight="397.0"/>
+  <DataNode TextLabel="2,6-xylidine" GraphId="c59ff" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="3-hydroxymonoethyl&#10;glycinexylidide" GraphId="ca0ff" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="glycinexylidide" GraphId="ca7df" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Lidocaine" GraphId="cd113" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="2-amino-3-methylbenzoate" GraphId="d02c6" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="monoethyl&#10;glycinexylidide" GraphId="d668d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP3A4" GraphId="e11d4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYP1A2" GraphId="e3332" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="3-hydroxylidocaine" GraphId="e517f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="4-hydroxy-&#10;2,6-dimethylaniline" GraphId="eadb2" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP1A2" GraphId="e20e7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYP3A4" GraphId="cb81f" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id28a7c7d9">
+    <Graphics ConnectorType="Segmented">
+      <Point GraphRef="c59ff"/>
+      <Point/>
+      <Point GraphRef="d02c6" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4e93dbbe">
+    <Graphics>
+      <Point GraphRef="e20e7"/>
+      <Point GraphRef="a0a95" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5c24ba9b">
+    <Graphics>
+      <Point GraphRef="cb81f"/>
+      <Point GraphRef="a0a95" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6747c81e">
+    <Graphics>
+      <Point GraphRef="d668d"/>
+      <Point GraphRef="ca7df" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id76aaf04a">
+    <Graphics>
+      <Point GraphRef="e11d4"/>
+      <Point GraphRef="e352f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id94583f32">
+    <Graphics ConnectorType="Segmented">
+      <Point GraphRef="cd113"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="c59ff" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id99c68ff9">
+    <Graphics>
+      <Point GraphRef="d668d"/>
+      <Point GraphRef="ca0ff" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9c9a3c27">
+    <Graphics>
+      <Point GraphRef="ca7df"/>
+      <Point GraphRef="c59ff" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida635fa68">
+    <Graphics>
+      <Point GraphRef="d668d"/>
+      <Point GraphRef="c59ff" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb4e6360e">
+    <BiopaxRef>dff</BiopaxRef>
+    <BiopaxRef>f6a</BiopaxRef>
+    <BiopaxRef>f45</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cd113"/>
+      <Point GraphRef="d668d" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e352f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb8588c6a">
+    <Graphics>
+      <Point GraphRef="e517f"/>
+      <Point GraphRef="ca0ff" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb9262808">
+    <BiopaxRef>f6a</BiopaxRef>
+    <BiopaxRef>f45</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cd113"/>
+      <Point GraphRef="e517f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5040295041660975" Shape="None" GraphId="a0a95"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc372dfec">
+    <Graphics>
+      <Point GraphRef="e3332"/>
+      <Point GraphRef="e352f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf6b56c5b">
+    <Graphics>
+      <Point GraphRef="c59ff"/>
+      <Point GraphRef="eadb2" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f45">
+      <bp:ID >16918719</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Effect of fluvoxamine and erythromycin on the pharmacokinetics of oral lidocaine.</bp:TITLE>
+      <bp:SOURCE >Basic Clin Pharmacol Toxicol</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Isohanni MH</bp:AUTHORS>
+      <bp:AUTHORS >Neuvonen PJ</bp:AUTHORS>
+      <bp:AUTHORS >Olkkola KT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >phase I biotransformation pathway via cytochrome P450</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000375</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f6a">
+      <bp:ID >10608481</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Fluvoxamine is a more potent inhibitor of lidocaine metabolism than ketoconazole and erythromycin in vitro.</bp:TITLE>
+      <bp:SOURCE >Pharmacol Toxicol</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Wang JS</bp:AUTHORS>
+      <bp:AUTHORS >Backman JT</bp:AUTHORS>
+      <bp:AUTHORS >Wen X</bp:AUTHORS>
+      <bp:AUTHORS >Taavitsainen P</bp:AUTHORS>
+      <bp:AUTHORS >Neuvonen PJ</bp:AUTHORS>
+      <bp:AUTHORS >Kivist&#246; KT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >xenobiotic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001229</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dff">
+      <bp:ID >14749694</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cytochrome P450 1A2 is a major determinant of lidocaine metabolism in vivo: effects of liver function.</bp:TITLE>
+      <bp:SOURCE >Clin Pharmacol Ther</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Orlando R</bp:AUTHORS>
+      <bp:AUTHORS >Piccoli P</bp:AUTHORS>
+      <bp:AUTHORS >De Martin S</bp:AUTHORS>
+      <bp:AUTHORS >Padrini R</bp:AUTHORS>
+      <bp:AUTHORS >Floreani M</bp:AUTHORS>
+      <bp:AUTHORS >Palatini P</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

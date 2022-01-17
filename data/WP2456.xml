@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="HIF1A and PPARG regulation of glycolysis" Author="M Aguirre" Last-Modified="10/16/2013" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Hypoxia-inducible factor 1A and peroxisome proliferator activated receptor gamma play a role in regulating glycolysis.
+
+This pathway is part the [https://assays.cancer.gov/available_assays?wp_id=WP2456 CPTAC Assay Portal].</Comment>
+  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
+  <Graphics BoardWidth="656.5" BoardHeight="790.0"/>
+  <DataNode TextLabel="GAPDH" GraphId="a407f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Glyceraldehyde-&#10;3-phosphate" GraphId="b01aa" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="LDHA" GraphId="c08ef" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Pyruvate" GraphId="c8c49" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Myocardial Steatosis" GraphId="cfb33" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Fructose-1,6-&#10;biphosphate" GraphId="f61c9" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TPI1" GraphId="fd536" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Dihydroxyacetone&#10;phosphate" GraphId="ca0b3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Lactate" GraphId="cbf1a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Glycerol-3-&#10;phosphate" GraphId="cac91" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Lysophosphatidate" GraphId="e0189" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Triacylglycerol" GraphId="ad53d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Diacylglycerol" GraphId="b7415" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GPD1" GraphId="a9466" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GPAT3" GraphId="a245b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Glucose" GraphId="c1f5c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SLC2A1" GraphId="a7d5d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PPARG" GraphId="abc1e" Type="GeneProduct">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="HIF1A" GraphId="aa5a6" Type="GeneProduct">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="HIF1A" GraphId="bcd64" Type="GeneProduct">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <Interaction GraphId="id13d212d5">
+    <Graphics>
+      <Point GraphRef="e0189"/>
+      <Point GraphRef="b7415" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id201e4513">
+    <Graphics>
+      <Point GraphRef="c8c49"/>
+      <Point GraphRef="cbf1a" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bc346"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id42628fb5">
+    <Graphics>
+      <Point GraphRef="fd536"/>
+      <Point GraphRef="bbe8e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4a19b4a5">
+    <Graphics>
+      <Point GraphRef="c08ef"/>
+      <Point GraphRef="bc346" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id50b63ef1">
+    <Graphics>
+      <Point GraphRef="f61c9"/>
+      <Point GraphRef="ca0b3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5314678f">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b01aa"/>
+      <Point GraphRef="c8c49" ArrowHead="Arrow"/>
+      <Anchor Position="0.22602339864091728" Shape="None" GraphId="fbf9a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6eb09df">
+    <Graphics Color="ff0000">
+      <Point GraphRef="abc1e"/>
+      <Point GraphRef="a9466" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7463f18c">
+    <Graphics>
+      <Point GraphRef="ca0b3"/>
+      <Point GraphRef="cac91" ArrowHead="Arrow"/>
+      <Anchor Position="0.5148525526982587" Shape="None" GraphId="acf6a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7c24d473">
+    <Graphics>
+      <Point GraphRef="cac91"/>
+      <Point GraphRef="e0189" ArrowHead="Arrow"/>
+      <Anchor Position="0.47297297297297297" Shape="None" GraphId="aa307"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id80e188c9">
+    <Graphics>
+      <Point GraphRef="b7415"/>
+      <Point GraphRef="ad53d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id899dc601">
+    <Graphics>
+      <Point GraphRef="a407f"/>
+      <Point GraphRef="fbf9a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9cd2dc4b">
+    <Graphics Color="ff0000">
+      <Point GraphRef="abc1e"/>
+      <Point GraphRef="a245b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idac456373">
+    <Graphics Color="ff0000">
+      <Point GraphRef="bcd64"/>
+      <Point GraphRef="a407f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb66880c0">
+    <Graphics Color="ff0000">
+      <Point GraphRef="bcd64"/>
+      <Point GraphRef="abc1e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb93f64f5">
+    <Graphics>
+      <Point GraphRef="ad53d"/>
+      <Point GraphRef="cfb33" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcf5d956b">
+    <Graphics>
+      <Point GraphRef="ca0b3" ArrowHead="Arrow"/>
+      <Point GraphRef="b01aa" ArrowHead="Arrow"/>
+      <Anchor Position="0.48854961832061067" Shape="None" GraphId="bbe8e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcfe2f12b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c1f5c"/>
+      <Point GraphRef="f61c9" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d765e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddd7fd06d">
+    <Graphics>
+      <Point GraphRef="f61c9"/>
+      <Point GraphRef="b01aa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aab2e">
+    <Graphics>
+      <Point GraphRef="a9466"/>
+      <Point GraphRef="acf6a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e01bc">
+    <Graphics>
+      <Point GraphRef="a245b"/>
+      <Point GraphRef="aa307" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c33e8">
+    <Graphics>
+      <Point GraphRef="a7d5d"/>
+      <Point GraphRef="d765e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="b3f03">
+    <Graphics Color="ff0000">
+      <Point GraphRef="bcd64"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e10e4">
+    <Graphics Color="ff0000">
+      <Point GraphRef="bcd64"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d7504">
+    <Graphics Color="ff0000">
+      <Point GraphRef="aa5a6"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dad96">
+    <Graphics Color="ff0000">
+      <Point GraphRef="aa5a6"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bf861">
+    <Graphics Color="ff0000">
+      <Point GraphRef="aa5a6"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >regulatory pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000004</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >glycolysis/gluconeogenesis pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000025</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

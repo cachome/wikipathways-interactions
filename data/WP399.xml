@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Wnt signaling pathway and pluripotency" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway was adapted from several resources and is designed to provide a theoretical frame-work for examining Wnt signaling and interacting components in the context of embryonic stem-cell pluripotency and self-renewal. 
+A central organizing theme of this pathway are known drug targets that promote self-renewal or pluripotency (BIO and IQ-1) 
+and implicated upstream regulators of the core pluripotency transcriptional components (e.g. Nanog).  It should be noted that it is unclear whether all the depicted components participate in this pathway in human embryonic stem cells. 
+Interactions and object/gene groups for the pathway exist for the majority of components.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP399 CPTAC Assay Portal].</Comment>
+  <BiopaxRef>ab3</BiopaxRef>
+  <Graphics BoardWidth="1275.3333333333333" BoardHeight="1011.3333333333334"/>
+  <DataNode TextLabel="FZD8" GraphId="a0f7c" Type="GeneProduct" GroupRef="e4087">
+        </DataNode>
+  <DataNode TextLabel="APC" GraphId="a12bc" Type="GeneProduct" GroupRef="a3f16">
+        </DataNode>
+  <DataNode TextLabel="CTBP1" GraphId="a19d1" Type="GeneProduct" GroupRef="dc944">
+        </DataNode>
+  <DataNode TextLabel="MMP7" GraphId="a1fa1" Type="GeneProduct" GroupRef="ec9a2">
+        </DataNode>
+  <DataNode TextLabel="DVL2" GraphId="a3683" Type="GeneProduct" GroupRef="eda76">
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="a3b9a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WNT3A" GraphId="a3f1e" Type="GeneProduct" GroupRef="bb71f">
+        </DataNode>
+  <DataNode TextLabel="JUN" GraphId="a5356" Type="GeneProduct" GroupRef="ec9a2">
+        </DataNode>
+  <DataNode TextLabel="FZD10" GraphId="a6fef" Type="GeneProduct" GroupRef="e4087">
+        </DataNode>
+  <DataNode TextLabel="NFYA" GraphId="a98c3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PRKCI" GraphId="aa126" Type="GeneProduct" GroupRef="ee125">
+        </DataNode>
+  <DataNode TextLabel="ESRRB" GraphId="aa2b8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WNT10B" GraphId="aa5e3" Type="GeneProduct" GroupRef="bb71f">
+        </DataNode>
+  <DataNode TextLabel="IQ-1" GraphId="ab61b" Type="Metabolite">
+    <BiopaxRef>e95</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PLAU" GraphId="ad9c8" Type="GeneProduct" GroupRef="ec9a2">
+        </DataNode>
+  <DataNode TextLabel="WNT2B" GraphId="adaac" Type="GeneProduct" GroupRef="bb71f">
+        </DataNode>
+  <DataNode TextLabel="CBP" GraphId="aea63" Type="GeneProduct" GroupRef="d2f55">
+        </DataNode>
+  <DataNode TextLabel="PPP2CA" GraphId="b448a" Type="GeneProduct" GroupRef="df298">
+        </DataNode>
+  <DataNode TextLabel="PPP2CB" GraphId="b450a" Type="GeneProduct" GroupRef="df298">
+        </DataNode>
+  <DataNode TextLabel="TCF7" GraphId="b63aa" Type="GeneProduct" GroupRef="a9ed6">
+        </DataNode>
+  <DataNode TextLabel="TCF7L2" GraphId="b6a73" Type="GeneProduct" GroupRef="a9ed6">
+        </DataNode>
+  <DataNode TextLabel="PRKCA" GraphId="b92ba" Type="GeneProduct" GroupRef="ee125">
+        </DataNode>
+  <DataNode TextLabel="LEF1" GraphId="b9c04" Type="GeneProduct" GroupRef="a9ed6">
+        </DataNode>
+  <DataNode TextLabel="SOX2" GraphId="ba4b0" Type="GeneProduct" GroupRef="e5894">
+        </DataNode>
+  <DataNode TextLabel="ZBTB33" GraphId="ba97d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RACGAP1" GraphId="bbdd2" Type="GeneProduct" GroupRef="abdd0">
+        </DataNode>
+  <DataNode TextLabel="MAPK10" GraphId="bc0a9" Type="GeneProduct" GroupRef="d5056">
+        </DataNode>
+  <DataNode TextLabel="FZD2" GraphId="bd4fe" Type="GeneProduct" GroupRef="e4087">
+        </DataNode>
+  <DataNode TextLabel="WNT16" GraphId="bda88" Type="GeneProduct" GroupRef="bb71f">
+        </DataNode>
+  <DataNode TextLabel="WNT2" GraphId="bf8ef" Type="GeneProduct" GroupRef="bb71f">
+        </DataNode>
+  <DataNode TextLabel="WNT9B" GraphId="bff32" Type="GeneProduct" GroupRef="bb71f">
+        </DataNode>
+  <DataNode TextLabel="WNT5A" GraphId="c0d8f" Type="GeneProduct" GroupRef="bb71f">
+        </DataNode>
+  <DataNode TextLabel="PPP2R1A" GraphId="c34f7" Type="GeneProduct" GroupRef="df298">
+        </DataNode>
+  <DataNode TextLabel="TCF7L1" GraphId="c4632" Type="GeneProduct" GroupRef="a9ed6">
+        </DataNode>
+  <DataNode TextLabel="PPARD" GraphId="c51da" Type="GeneProduct" GroupRef="ec9a2">
+        </DataNode>
+  <DataNode TextLabel="P300" GraphId="c53ab" Type="GeneProduct" GroupRef="e6cfd">
+        </DataNode>
+  <DataNode TextLabel="PRKCQ" GraphId="c5d5d" Type="GeneProduct" GroupRef="ee125">
+        </DataNode>
+  <DataNode TextLabel="FBXW2" GraphId="c60b6" Type="GeneProduct" GroupRef="c072b">
+        </DataNode>
+  <DataNode TextLabel="NLK" GraphId="c82bd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PPM1J" GraphId="c8894" Type="GeneProduct" GroupRef="df298">
+        </DataNode>
+  <DataNode TextLabel="WNT1" GraphId="c980f" Type="GeneProduct" GroupRef="bb71f">
+        </DataNode>
+  <DataNode TextLabel="PRKCB1" GraphId="cbe6d" Type="GeneProduct" GroupRef="ee125">
+        </DataNode>
+  <DataNode TextLabel="PRKD1" GraphId="ccf11" Type="GeneProduct" GroupRef="ee125">
+        </DataNode>
+  <DataNode TextLabel="FOXD3" GraphId="cd8db" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MYC" GraphId="cdee2" Type="GeneProduct" GroupRef="ec9a2">
+        </DataNode>
+  <DataNode TextLabel="WNT6" GraphId="ce5d4" Type="GeneProduct" GroupRef="bb71f">
+        </DataNode>
+  <DataNode TextLabel="DVL1" GraphId="cf7cc" Type="GeneProduct" GroupRef="eda76">
+        </DataNode>
+  <DataNode TextLabel="PAFAH1B1" GraphId="d058e" Type="GeneProduct" GroupRef="c072b">
+        </DataNode>
+  <DataNode TextLabel="26S Proteasome Degradation" GraphId="d2a4c" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="MAP2K4" GraphId="d3c77" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WNT11" GraphId="d3ca9" Type="GeneProduct" GroupRef="bb71f">
+        </DataNode>
+  <DataNode TextLabel="TP53" GraphId="d5035" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CCND1" GraphId="d6b5d" Type="GeneProduct" GroupRef="ec9a2">
+        </DataNode>
+  <DataNode TextLabel="Groucho" GraphId="d77d4" Type="GeneProduct" GroupRef="dc944">
+        </DataNode>
+  <DataNode TextLabel="BIO" GraphId="d8778" Type="Metabolite">
+    <BiopaxRef>bdf</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="WNT3" GraphId="d87f6" Type="GeneProduct" GroupRef="bb71f">
+        </DataNode>
+  <DataNode TextLabel="PPP2R2B" GraphId="d8ef0" Type="GeneProduct" GroupRef="df298">
+        </DataNode>
+  <DataNode TextLabel="MAPK9" GraphId="d91e7" Type="GeneProduct" GroupRef="d5056">
+        </DataNode>
+  <DataNode TextLabel="PPP2R3B" GraphId="dabc1" Type="GeneProduct" GroupRef="df298">
+        </DataNode>
+  <DataNode TextLabel="POU5F1" GraphId="dac8b" Type="GeneProduct" GroupRef="e5894">
+        </DataNode>
+  <DataNode TextLabel="WNT7A" GraphId="dacea" Type="GeneProduct" GroupRef="bb71f">
+        </DataNode>
+  <DataNode TextLabel="CTBP2" GraphId="db94e" Type="GeneProduct" GroupRef="dc944">
+        </DataNode>
+  <DataNode TextLabel="PPP2R1B" GraphId="dd354" Type="GeneProduct" GroupRef="df298">
+        </DataNode>
+  <DataNode TextLabel="PPP2R5E" GraphId="dd5c7" Type="GeneProduct" GroupRef="f6b9c">
+        </DataNode>
+  <DataNode TextLabel="PRKCZ" GraphId="df1dc" Type="GeneProduct" GroupRef="ee125">
+        </DataNode>
+  <DataNode TextLabel="LRP6" GraphId="df9b2" Type="GeneProduct" GroupRef="b47be">
+        </DataNode>
+  <DataNode TextLabel="FZD4" GraphId="dfee8" Type="GeneProduct" GroupRef="e4087">
+        </DataNode>
+  <DataNode TextLabel="DVL3" GraphId="e01d7" Type="GeneProduct" GroupRef="eda76">
+        </DataNode>
+  <DataNode TextLabel="Prkcc" GraphId="e158a" Type="GeneProduct" GroupRef="ee125">
+        </DataNode>
+  <DataNode TextLabel="FOSL1" GraphId="e23fb" Type="GeneProduct" GroupRef="ec9a2">
+        </DataNode>
+  <DataNode TextLabel="AXIN2" GraphId="e2d97" Type="GeneProduct" GroupRef="e0d3e">
+        </DataNode>
+  <DataNode TextLabel="FZD9" GraphId="e32d5" Type="GeneProduct" GroupRef="e4087">
+        </DataNode>
+  <DataNode TextLabel="RHOA" GraphId="e5c9e" Type="GeneProduct" GroupRef="abdd0">
+        </DataNode>
+  <DataNode TextLabel="FZD6" GraphId="e5ec1" Type="GeneProduct" GroupRef="e4087">
+        </DataNode>
+  <DataNode TextLabel="NKD1" GraphId="e6d42" Type="GeneProduct" GroupRef="b3865">
+        </DataNode>
+  <DataNode TextLabel="FZD7" GraphId="e6d5a" Type="GeneProduct" GroupRef="e4087">
+        </DataNode>
+  <DataNode TextLabel="NKD2" GraphId="e7f0f" Type="GeneProduct" GroupRef="b3865">
+        </DataNode>
+  <DataNode TextLabel="FRAT1" GraphId="e95fe" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AXIN1" GraphId="ebb4c" Type="GeneProduct" GroupRef="e0d3e">
+        </DataNode>
+  <DataNode TextLabel="NANOG" GraphId="ec6cf" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PPP2R5C" GraphId="ecb1c" Type="GeneProduct" GroupRef="f6b9c">
+        </DataNode>
+  <DataNode TextLabel="GSK3B" GraphId="ed06c" Type="GeneProduct" GroupRef="a3f16">
+        </DataNode>
+  <DataNode TextLabel="WNT4" GraphId="edc7b" Type="GeneProduct" GroupRef="bb71f">
+        </DataNode>
+  <DataNode TextLabel="PPP2R2A" GraphId="eddf8" Type="GeneProduct" GroupRef="df298">
+        </DataNode>
+  <DataNode TextLabel="CSNK1E" GraphId="eee67" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PPP2R2C" GraphId="eef30" Type="GeneProduct" GroupRef="df298">
+        </DataNode>
+  <DataNode TextLabel="FZD3" GraphId="f131b" Type="GeneProduct" GroupRef="e4087">
+        </DataNode>
+  <DataNode TextLabel="CTNND1" GraphId="f213a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WNT10A" GraphId="f3018" Type="GeneProduct" GroupRef="bb71f">
+        </DataNode>
+  <DataNode TextLabel="LDLR" GraphId="f40d5" Type="GeneProduct" GroupRef="b47be">
+        </DataNode>
+  <DataNode TextLabel="MAP3K7" GraphId="f4854" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WNT11" GraphId="f577f" Type="GeneProduct">
+    <Comment Source="GenMAPP remarks">Non-canonical Wnt signaling enhances differentiation of human circulating progenitor cells to cardiomyogenic cells. PMID: 15701629</Comment>
+        </DataNode>
+  <DataNode TextLabel="PRKCE" GraphId="f59f3" Type="GeneProduct" GroupRef="ee125">
+        </DataNode>
+  <DataNode TextLabel="FZD5" GraphId="f5ad7" Type="GeneProduct" GroupRef="e4087">
+        </DataNode>
+  <DataNode TextLabel="CCND3" GraphId="f73f8" Type="GeneProduct" GroupRef="ec9a2">
+        </DataNode>
+  <DataNode TextLabel="PPP2R3A" GraphId="f74b6" Type="GeneProduct" GroupRef="df298">
+        </DataNode>
+  <DataNode TextLabel="PRKCH" GraphId="f75f4" Type="GeneProduct" GroupRef="ee125">
+        </DataNode>
+  <DataNode TextLabel="CD44" GraphId="f8c9f" Type="GeneProduct" GroupRef="ec9a2">
+        </DataNode>
+  <DataNode TextLabel="WNT7B" GraphId="f9722" Type="GeneProduct" GroupRef="bb71f">
+        </DataNode>
+  <DataNode TextLabel="WNT5B" GraphId="fa008" Type="GeneProduct" GroupRef="bb71f">
+        </DataNode>
+  <DataNode TextLabel="FZD1" GraphId="fa27b" Type="GeneProduct" GroupRef="e4087">
+        </DataNode>
+  <DataNode TextLabel="PRKCD" GraphId="fb070" Type="GeneProduct" GroupRef="ee125">
+        </DataNode>
+  <DataNode TextLabel="PPP2R4" GraphId="fb3bc" Type="GeneProduct" GroupRef="df298">
+        </DataNode>
+  <DataNode TextLabel="LRP5" GraphId="fbc10" Type="GeneProduct" GroupRef="b47be">
+        </DataNode>
+  <DataNode TextLabel="CCND2" GraphId="fc579" Type="GeneProduct" GroupRef="ec9a2">
+        </DataNode>
+  <DataNode TextLabel="Apoptosis" GraphId="fc79d" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="LRRK2-mut" GraphId="b683a" Type="GeneProduct">
+    <Graphics Color="cc3300"/>
+    </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="bbd9f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="e3673" Type="GeneProduct">
+        </DataNode>
+  <State GraphRef="c82bd" TextLabel="P" GraphId="c7daf">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="bbd9f" TextLabel="P" GraphId="ec0dd">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e3673" TextLabel="Ub" GraphId="af0d0">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="a1ddb">
+    <Graphics Color="ff0000">
+      <Point GraphRef="ab61b"/>
+      <Point GraphRef="f74b6" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6195">
+    <Graphics>
+      <Point GraphRef="cd8db"/>
+      <Point GraphRef="ec6cf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6c31">
+    <Graphics>
+      <Point GraphRef="dc358"/>
+      <Point GraphRef="e9b53" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a8225">
+    <Graphics Color="ff0000">
+      <Point GraphRef="aea63"/>
+      <Point GraphRef="a141f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ac1fd">
+    <Graphics>
+      <Point GraphRef="c2935"/>
+      <Point GraphRef="cf633"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ad884">
+    <Graphics Color="ff0000">
+      <Point GraphRef="cbe89"/>
+      <Point GraphRef="ec6cf"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="af4a3">
+    <Graphics>
+      <Point GraphRef="d5035"/>
+      <Point GraphRef="ec6cf" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b0b87">
+    <Graphics Color="ff0000">
+      <Point GraphRef="cbe89"/>
+      <Point GraphRef="fe544" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b0e3d">
+    <Graphics Color="0000ff">
+      <Point GraphRef="b9124"/>
+      <Point GraphRef="ad5dd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b2568">
+    <Graphics Color="0000ff">
+      <Point GraphRef="bdd48"/>
+      <Point GraphRef="d7085" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b3f49">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="dc358"/>
+      <Point GraphRef="e95fe" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b793b">
+    <Graphics>
+      <Point GraphRef="bbd9f"/>
+      <Point GraphRef="e3673" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b7c52">
+    <Graphics>
+      <Point GraphRef="f213a"/>
+      <Point GraphRef="ba97d" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b8d4f">
+    <Graphics>
+      <Point GraphRef="f4854"/>
+      <Point GraphRef="c82bd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bd91a">
+    <Graphics Color="ff0000">
+      <Point GraphRef="cbe89"/>
+      <Point GraphRef="ec6cf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c0301">
+    <Graphics Color="0000ff">
+      <Point GraphRef="c53ab"/>
+      <Point GraphRef="b9124" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c0873">
+    <Graphics Color="ff0000">
+      <Point GraphRef="aea63"/>
+      <Point GraphRef="ba4b0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c2056">
+    <Graphics>
+      <Point GraphRef="a58d5"/>
+      <Point GraphRef="fc79d" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c3eea">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="cd696"/>
+      <Point GraphRef="d228b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c76b5">
+    <Graphics>
+      <Point GraphRef="d2110"/>
+      <Point GraphRef="bbd9f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ca840">
+    <Graphics>
+      <Point GraphRef="c82bd"/>
+      <Point GraphRef="a141f" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cb47a">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="eee67"/>
+      <Point GraphRef="b1227" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cc472">
+    <Graphics>
+      <Point GraphRef="a141f"/>
+      <Point GraphRef="ec6cf" ArrowHead="mim-inhibition"/>
+      <Anchor Position="0.6221088899501944" Shape="None" GraphId="b0d2c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ccb07">
+    <Graphics Color="ff0000">
+      <Point GraphRef="d8778"/>
+      <Point GraphRef="cf633" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cdaff">
+    <Graphics Color="ff0000">
+      <Point GraphRef="d7085"/>
+      <Point GraphRef="bdd48" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d091b">
+    <Graphics>
+      <Point GraphRef="a98c3" ArrowHead="Arrow"/>
+      <Point GraphRef="a9d88" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d0a8e">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="cd696"/>
+      <Point GraphRef="dc358" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d176d">
+    <Graphics>
+      <Point GraphRef="e9b53"/>
+      <Point GraphRef="a58d5" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d27cf">
+    <Graphics>
+      <Point GraphRef="a3b9a"/>
+      <Point GraphRef="a141f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d303c">
+    <Graphics>
+      <Point GraphRef="aae0e"/>
+      <Point GraphRef="a141f" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e1fef">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="dc358"/>
+      <Point GraphRef="cba63" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e27f7">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="dc358"/>
+      <Point GraphRef="f8727" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e3c1f">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ba97d"/>
+      <Point GraphRef="b9124" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e400e">
+    <Graphics>
+      <Point GraphRef="b1227" ArrowHead="Arrow"/>
+      <Point GraphRef="cf633" ArrowHead="Arrow"/>
+      <Anchor Position="0.5940638627092419" Shape="None" GraphId="c9e81"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e52ab">
+    <Graphics>
+      <Point GraphRef="cba63"/>
+      <Point GraphRef="b1227" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e5789">
+    <Graphics Color="0000ff">
+      <Point GraphRef="c53ab"/>
+      <Point GraphRef="a141f"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a9d88"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ed9bf">
+    <Graphics>
+      <Point GraphRef="e95fe"/>
+      <Point GraphRef="c9e81" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f39d4">
+    <Graphics>
+      <Point GraphRef="dc358"/>
+      <Point GraphRef="b1227" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f79d7">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="a3b9a"/>
+      <Point GraphRef="bbd9f" ArrowHead="Arrow"/>
+      <Anchor Position="0.457837088917279" Shape="None" GraphId="c2935"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8ad4">
+    <Graphics>
+      <Point GraphRef="ba97d"/>
+      <Point GraphRef="f577f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa3df">
+    <Graphics>
+      <Point GraphRef="a292b"/>
+      <Point GraphRef="cd696" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fb2fa">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c1227"/>
+      <Point GraphRef="dc358" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ff654">
+    <Graphics>
+      <Point GraphRef="e3673"/>
+      <Point GraphRef="d2a4c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id63cc610d">
+    <BiopaxRef>a85</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b683a"/>
+      <Point GraphRef="d3c77" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaa21cd03">
+    <BiopaxRef>a5c</BiopaxRef>
+    <Graphics Color="ff0033">
+      <Point GraphRef="aa2b8"/>
+      <Point GraphRef="dac8b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb98b4fa7">
+    <Graphics>
+      <Point GraphRef="d3c77"/>
+      <Point GraphRef="a58d5" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide646fac0">
+    <BiopaxRef>ae0</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b0d2c"/>
+      <Point GraphRef="aa2b8" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="c8bca" GroupRef="ce1fe">
+    <Graphics Color="0000ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d5585" GroupRef="ce1fe">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Protein Kinase C" GraphId="a5990">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Stabilized &#10;beta-catenin" GraphId="a92b2">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Differentiation" GraphId="ad5dd">
+    <Graphics FillColor="ffffff" Color="000080"/>
+  </Label>
+  <Label TextLabel="TR" GraphId="b1437">
+    <Graphics FillColor="ffffff" Color="00ff00"/>
+  </Label>
+  <Label TextLabel="Promotes Differentiation" GraphId="b17f6" GroupRef="ce1fe">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="TR" GraphId="b502a">
+    <Graphics FillColor="ffffff" Color="00ff00"/>
+  </Label>
+  <Label TextLabel="TR" GraphId="b86ba">
+    <Graphics FillColor="ffffff" Color="00ff00"/>
+  </Label>
+  <Label TextLabel="beta-catenin" GraphId="c62ec" GroupRef="e6cfd">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Tcf/Lef-1" GraphId="c7f52" GroupRef="d2f55">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Wnt Receptors" GraphId="cb5ad">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="TR" GraphId="d19d9">
+    <Graphics FillColor="ffffff" Color="00ff00"/>
+  </Label>
+  <Label TextLabel="Tcf/Lef-1" GraphId="d6055" GroupRef="e6cfd">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="PP2A" GraphId="d7f72">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Ubiquitin Tagged&#10;beta-catenin" GraphId="d9893">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Recruitment to Unknown&#10;Ubiquitin Conjugating Enzyme" GraphId="db5cd">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="Phosphorylated &#10;beta-catenin" GraphId="de59d">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="TR" GraphId="e019b">
+    <Graphics FillColor="ffffff" Color="00ff00"/>
+  </Label>
+  <Label TextLabel="TR" GraphId="e6119">
+    <Graphics FillColor="ffffff" Color="00ff00"/>
+  </Label>
+  <Label TextLabel="Promotes Pluripotency" GraphId="e62fb" GroupRef="ce1fe">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="beta-catenin" GraphId="e9957" GroupRef="d2f55">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="TR: Transcriptional Regulation" GraphId="ee524" GroupRef="ce1fe">
+    <Graphics FillColor="ffffff" Color="00ff00"/>
+  </Label>
+  <Label TextLabel="Frizzled Ligands" GraphId="ef481">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cytoskeleton" GraphId="f8727">
+    <Graphics FillColor="ffffff" Color="000080"/>
+  </Label>
+  <Label TextLabel="Pluripotency" GraphId="fe544">
+    <Graphics FillColor="ffffff" Color="000080"/>
+  </Label>
+  <Shape TextLabel="Nucleus" GraphId="a76ef">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="a84ae">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Legend" GraphId="f1a93" GroupRef="ce1fe">
+    <Graphics Align="Left" ShapeType="Rectangle"/>
+  </Shape>
+  <Group GroupId="ce1fe" Style="Group"/>
+  <Group GroupId="a9ed6" GraphId="a141f" Style="Complex"/>
+  <Group GroupId="bb71f" GraphId="a292b" Style="Group"/>
+  <Group GroupId="d5056" GraphId="a58d5" Style="Group"/>
+  <Group GroupId="dc944" GraphId="aae0e" Style="Group"/>
+  <Group GroupId="b3865" GraphId="aed9a" Style="Group"/>
+  <Group GroupId="e0d3e" GraphId="b1227" Style="Group"/>
+  <Group GroupId="ec9a2" GraphId="b9124" Style="Complex"/>
+  <Group GroupId="d2f55" GraphId="bdd48"/>
+  <Group GroupId="b47be" GraphId="c1227" Style="Group"/>
+  <Group GroupId="f6b9c" GraphId="cba63"/>
+  <Group GroupId="e5894" GraphId="cbe89" Style="Complex"/>
+  <Group GroupId="e4087" GraphId="cd696" Style="Group"/>
+  <Group GroupId="df298" GraphId="cded0" Style="Complex"/>
+  <Group GroupId="a3f16" GraphId="cf633" Style="Complex"/>
+  <Group GroupId="c072b" GraphId="d2110" Style="Complex"/>
+  <Group GroupId="ee125" GraphId="d228b" Style="Complex"/>
+  <Group GroupId="e6cfd" GraphId="d7085"/>
+  <Group GroupId="eda76" GraphId="dc358" Style="Group"/>
+  <Group GroupId="abdd0" GraphId="e9b53" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >pluripotent stem cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0002248</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >canonical Wnt signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000201</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab3">
+      <bp:ID >hsa04310</bp:ID>
+      <bp:DB >KEGG Pathway</bp:DB>
+      <bp:TITLE >Kegg version of this pathway</bp:TITLE>
+      <bp:SOURCE >http://www.genome.jp/kegg/pathway/hsa/hsa04310.html</bp:SOURCE>
+      <bp:YEAR />
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae0">
+      <bp:ID >18483421</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Tcf3 functions as a steady-state limiter of transcriptional programs of mouse embryonic stem cell self-renewal.</bp:TITLE>
+      <bp:SOURCE >Stem Cells</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Yi F</bp:AUTHORS>
+      <bp:AUTHORS >Pereira L</bp:AUTHORS>
+      <bp:AUTHORS >Merrill BJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a85">
+      <bp:ID >22539006</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >(G2019S) LRRK2 activates MKK4-JNK pathway and causes degeneration of SN dopaminergic neurons in a transgenic mouse model of PD.</bp:TITLE>
+      <bp:SOURCE >Cell Death Differ</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Chen CY</bp:AUTHORS>
+      <bp:AUTHORS >Weng YH</bp:AUTHORS>
+      <bp:AUTHORS >Chien KY</bp:AUTHORS>
+      <bp:AUTHORS >Lin KJ</bp:AUTHORS>
+      <bp:AUTHORS >Yeh TH</bp:AUTHORS>
+      <bp:AUTHORS >Cheng YP</bp:AUTHORS>
+      <bp:AUTHORS >Lu CS</bp:AUTHORS>
+      <bp:AUTHORS >Wang HL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bdf">
+      <bp:ID >16881513</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Manipulation of self-renewal in human embryonic stem cells through a novel pharmacological GSK-3 inhibitor.</bp:TITLE>
+      <bp:SOURCE >Methods Mol Biol</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Sato N</bp:AUTHORS>
+      <bp:AUTHORS >Brivanlou AH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Wnt signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000008</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a5c">
+      <bp:ID >18957414</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE />
+      <bp:SOURCE />
+      <bp:YEAR />
+      <bp:ID >18957414</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Esrrb activates Oct4 transcription and sustains self-renewal and pluripotency in embryonic stem cells.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Zhang X</bp:AUTHORS>
+      <bp:AUTHORS >Zhang J</bp:AUTHORS>
+      <bp:AUTHORS >Wang T</bp:AUTHORS>
+      <bp:AUTHORS >Esteban MA</bp:AUTHORS>
+      <bp:AUTHORS >Pei D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e95">
+      <bp:ID >17372190</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Wnt/beta-catenin/CBP signaling maintains long-term murine embryonic stem cell pluripotency.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Miyabayashi T</bp:AUTHORS>
+      <bp:AUTHORS >Teo JL</bp:AUTHORS>
+      <bp:AUTHORS >Yamamoto M</bp:AUTHORS>
+      <bp:AUTHORS >McMillan M</bp:AUTHORS>
+      <bp:AUTHORS >Nguyen C</bp:AUTHORS>
+      <bp:AUTHORS >Kahn M</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

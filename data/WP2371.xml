@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Parkinson's disease pathway" Version="20121118" Last-Modified="10/16/2013" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <Comment Source="WikiPathways-description">Most people with Parkinson's disease have idiopathic Parkinson's disease (having no specific known cause). A small proportion of cases, however, can be attributed to known genetic factors. Mutations in specific genes have been conclusively shown to cause PD. These genes code for alpha-synuclein (SNCA), parkin (PRKN), leucine-rich repeat kinase 2 (LRRK2 or dardarin), PTEN-induced putative kinase 1 (PINK1), DJ-1 and ATP13A2.[4][22] In most cases, people with these mutations will develop PD. With the exception of LRRK2, however, they account for only a small minority of cases of PD.[4] The most extensively studied PD-related genes are SNCA and LRRK2. Mutations in genes including SNCA, LRRK2 and glucocerebrosidase (GBA) have been found to be risk factors for sporadic PD. The role of the SNCA gene is important in PD because the alpha-synuclein protein is the main component of Lewy bodies.[22] Missense mutations of the gene (in which a single nucleotide is changed), and duplications and triplications of the locus containing it have been found in different groups with familial PD. Mutations in LRRK2 are the most common known cause of familial and sporadic PD, accounting for approximately 5% of individuals with a family history of the disease and 3% of sporadic cases.
+
+
+Sources: [http://en.wikipedia.org/wiki/Parkinson's_disease wikipedia], [https://www.qiagen.com/geneglobe/pathwayview.aspx?pathwayID=345 Qiagen], and [http://www.genome.jp/kegg/pathway/hsa/hsa05012.html KEGG].
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2371 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>cff</BiopaxRef>
+  <BiopaxRef>bc1</BiopaxRef>
+  <BiopaxRef>a5c</BiopaxRef>
+  <BiopaxRef>c3c</BiopaxRef>
+  <BiopaxRef>fe0</BiopaxRef>
+  <Graphics BoardWidth="1406.2214983713354" BoardHeight="1067.81512605042"/>
+  <DataNode TextLabel="ROS" GraphId="b14ce" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="EPRS" GraphId="c2d7f" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Apoptosis Pathway" GraphId="ec4e1" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="DDC" GraphId="f797c" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="DAT" GraphId="a832c" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="UCHL1" GraphId="af93c" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle" Color="cc0000"/>
+    </DataNode>
+  <DataNode TextLabel="Parkin" GraphId="c961e" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle" Color="cc0000"/>
+    </DataNode>
+  <DataNode TextLabel="SNCA" GraphId="b1e03" Type="GeneProduct">
+    <BiopaxRef>dd8</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="cc0000"/>
+    </DataNode>
+  <DataNode TextLabel="TH" GraphId="e32fe" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="L-Tyrosine" GraphId="e1fb1" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="L-DOPA" GraphId="e40bf" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Dopamine" GraphId="b52af" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Dopamine" GraphId="c0d27" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="LRRK2" GraphId="cd757" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle" Color="cc0000"/>
+    </DataNode>
+  <DataNode TextLabel="PINK1" GraphId="a1ead" Type="GeneProduct">
+    <BiopaxRef>dd9</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="cc0000"/>
+    </DataNode>
+  <DataNode TextLabel="DJ1" GraphId="b6299" Type="GeneProduct">
+    <BiopaxRef>a6a</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="cc0000"/>
+    </DataNode>
+  <DataNode TextLabel="HTRA2" GraphId="f1547" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle" Color="cc0000"/>
+    </DataNode>
+  <DataNode TextLabel="CYCS" GraphId="e7148" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="GPR37" GraphId="f6d76" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="SEPTIN5" GraphId="c9a31" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="SNCAIP" GraphId="be8ff" Type="GeneProduct" GroupRef="de30b">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="UBB" GraphId="a0bcd" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="UBA1" GraphId="d0eef" Type="GeneProduct" GroupRef="f38ed">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="UBA7" GraphId="c864a" Type="GeneProduct" GroupRef="f38ed">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="UBE2L3" GraphId="f242c" Type="GeneProduct" GroupRef="bb48a">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="UBE2L6" GraphId="a33ad" Type="GeneProduct" GroupRef="bb48a">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="UBE2J2" GraphId="f47b7" Type="GeneProduct" GroupRef="b25f6">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="UBE2G1" GraphId="c2304" Type="GeneProduct" GroupRef="b25f6">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="UBE2G2" GraphId="b7954" Type="GeneProduct" GroupRef="b25f6">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="UBE2J1" GraphId="d03fb" Type="GeneProduct" GroupRef="b25f6">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="ATXN2" GraphId="bbe13" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="SYT11" GraphId="af368" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="CCNE1" GraphId="f5805" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="CCNE2" GraphId="ebbb3" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="SNCA" GraphId="c1ec7" Type="GeneProduct" GroupRef="de30b">
+    <Graphics ShapeType="RoundedRectangle" Color="cc0000"/>
+    </DataNode>
+  <DataNode TextLabel="SNCAIP" GraphId="e717e" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="MAPK12" GraphId="ec63d" Type="GeneProduct" GroupRef="fcf13">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="MAPK11" GraphId="e871b" Type="GeneProduct" GroupRef="fcf13">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="MAPK14" GraphId="bfe30" Type="GeneProduct" GroupRef="fcf13">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="MAPK13" GraphId="c2550" Type="GeneProduct" GroupRef="fcf13">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Oxidative Phosphorylation" GraphId="f042b" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Apoptosis Pathway" GraphId="eea66" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="CASP6" GraphId="df424" Type="GeneProduct" GroupRef="e317d">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="CASP9" GraphId="a756c" Type="GeneProduct" GroupRef="ff39a">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="CASP2" GraphId="a765d" Type="GeneProduct" GroupRef="e317d">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="CYCS" GraphId="f443b" Type="GeneProduct" GroupRef="ff39a">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="CASP7" GraphId="d6a3a" Type="GeneProduct" GroupRef="e317d">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="CASP3" GraphId="bb333" Type="GeneProduct" GroupRef="e317d">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="APAF1" GraphId="b9ecb" Type="GeneProduct" GroupRef="ff39a">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="MAPK Signaling" GraphId="a2c94" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="WNT Signaling" GraphId="ef324" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-132" GraphId="f8944" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-19A" GraphId="cfd15" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-19B1" GraphId="ca3fd" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-19B2" GraphId="eadba" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-485" GraphId="f440b" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-127" GraphId="ad84f" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-128-1" GraphId="a913c" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-128-2" GraphId="f972a" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-409" GraphId="bc63a" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-let-7g" GraphId="ad48a" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-433" GraphId="d65bf" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-370" GraphId="ba87c" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-873" GraphId="baaf7" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-431" GraphId="a67c4" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-136" GraphId="d224c" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-212" GraphId="fb519" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-10A" GraphId="cb492" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-1224" GraphId="caed4" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-4448" GraphId="a6897" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-338" GraphId="bcf0e" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-16-2" GraphId="cc057" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-1294" GraphId="b7e88" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-30E" GraphId="f801b" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-30A" GraphId="dfc38" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-503" GraphId="ff3ad" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-503" GraphId="ec959" Type="Rna" GroupRef="b3888">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-34C" GraphId="dcfe2" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-26A1" GraphId="be8d9" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-26A2" GraphId="e2397" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-34B" GraphId="e1a4b" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-34C" GraphId="e3d94" Type="Rna" GroupRef="b3888">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-26A1" GraphId="b975d" Type="Rna" GroupRef="b3888">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-26A2" GraphId="c9eae" Type="Rna" GroupRef="b3888">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-34B" GraphId="a1650" Type="Rna" GroupRef="b3888">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-195" GraphId="ee5ad" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-195" GraphId="c1d73" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-26B" GraphId="ba6e5" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR18A" GraphId="c383f" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR18A" GraphId="dc2b2" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-375" GraphId="ec82d" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-26B" GraphId="ac613" Type="Rna" GroupRef="fb20a">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-375" GraphId="c635d" Type="Rna" GroupRef="fb20a">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-26b" GraphId="f019b" Type="Rna">
+    <BiopaxRef>c51</BiopaxRef>
+    <Graphics Color="990099"/>
+    </DataNode>
+  <Interaction GraphId="id15c6ffdf">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="cd757"/>
+      <Point GraphRef="a2c94" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1687f4a7">
+    <Graphics>
+      <Point GraphRef="e7148"/>
+      <Point GraphRef="f443b" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.2971868441720312" Shape="None" GraphId="c67b7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6655e7d4">
+    <Graphics>
+      <Point GraphRef="c0d27"/>
+      <Point GraphRef="b52af" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id732ca8c2">
+    <BiopaxRef>ba3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c961e"/>
+      <Point GraphRef="d0de3" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id774eb550">
+    <Graphics ConnectorType="Curved" LineStyle="Broken">
+      <Point GraphRef="b1cdf"/>
+      <Point GraphRef="ef928" ArrowHead="Arrow"/>
+      <Anchor Position="0.4121654730308088" Shape="None" GraphId="d0de3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id78636171">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="cd757"/>
+      <Point GraphRef="ef324" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id81be5e">
+    <Graphics>
+      <Point GraphRef="af93c"/>
+      <Point GraphRef="c77b4" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8cfc2698">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b1e03"/>
+      <Point GraphRef="a718e" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id982bbd29">
+    <Graphics>
+      <Point GraphRef="e40bf"/>
+      <Point GraphRef="b52af" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="efd77"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9fd46884">
+    <Graphics>
+      <Point GraphRef="f019b"/>
+      <Point GraphRef="c961e" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaf215340">
+    <Comment>Aggregation of misfolded mutant</Comment>
+    <Graphics>
+      <Point GraphRef="c961e"/>
+      <Point GraphRef="a9baa" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb05a8a6d">
+    <Graphics>
+      <Point GraphRef="e1fb1"/>
+      <Point GraphRef="e40bf" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e78ee"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb1cc7404">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a1ead"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="c67b7" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbd3e7440">
+    <BiopaxRef>c56</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="dc2b2"/>
+      <Point GraphRef="c2304" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc00730a">
+    <BiopaxRef>c0a</BiopaxRef>
+    <BiopaxRef>c36</BiopaxRef>
+    <BiopaxRef>b80</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="de0a7"/>
+      <Point GraphRef="ebbb3" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcd20a6ff">
+    <Graphics>
+      <Point GraphRef="e32fe"/>
+      <Point GraphRef="e78ee" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a718e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd801024">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b14ce"/>
+      <Point GraphRef="ec4e1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd9dda822">
+    <BiopaxRef>e5d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c1d73"/>
+      <Point GraphRef="f5805" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide4b5a766">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="aba68"/>
+      <Point GraphRef="eea66" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide92793e0">
+    <Comment>aggretion of misfolded mutatant</Comment>
+    <BiopaxRef>fa2</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b1e03"/>
+      <Point/>
+      <Point GraphRef="a9baa" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idebf7a170">
+    <Comment>O-glycosylation</Comment>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b1e03"/>
+      <Point GraphRef="c1ec7" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idee1bdbcf">
+    <BiopaxRef>ea0</BiopaxRef>
+    <BiopaxRef>c51</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a3308"/>
+      <Point GraphRef="bb333" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf9a647c5">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b52af"/>
+      <Point GraphRef="b14ce" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3d22">
+    <Graphics>
+      <Point GraphRef="f797c"/>
+      <Point GraphRef="efd77" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a017f">
+    <Graphics ConnectorType="Curved" LineStyle="Broken">
+      <Point GraphRef="ef928"/>
+      <Point/>
+      <Point GraphRef="b1cdf" ArrowHead="Arrow"/>
+      <Anchor Position="0.47375057537630083" Shape="None" GraphId="ae6b3"/>
+      <Anchor Position="0.5826772885726271" Shape="None" GraphId="c77b4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c8a8d">
+    <Comment>Aggregation of misfolded mutant</Comment>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="af93c"/>
+      <Point/>
+      <Point GraphRef="a9baa" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c50ca">
+    <Graphics>
+      <Point GraphRef="a7dc8"/>
+      <Point GraphRef="aba68" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="id7ef4eaa5">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="X" GraphId="b1c13">
+    <Graphics FillColor="ffffff" Color="cc0000"/>
+  </Label>
+  <Label TextLabel="Ubiquitin pathway components" GraphId="b1cdf">
+    <Graphics FillColor="ffffff" Color="666666"/>
+  </Label>
+  <Label TextLabel="O-glycosylation" GraphId="cb1a5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Oxidative Stress" GraphId="ce27d">
+    <Graphics FillColor="ffffff" Color="660099"/>
+  </Label>
+  <Label TextLabel="Lewy Body" GraphId="ce2bd" GroupRef="c560c">
+    <Graphics FillColor="ffffff" Color="666666"/>
+  </Label>
+  <Label TextLabel="Targets for Ub degradation" GraphId="ef928">
+    <BiopaxRef>ba3</BiopaxRef>
+    <BiopaxRef>b83</BiopaxRef>
+    <BiopaxRef>b48</BiopaxRef>
+    <BiopaxRef>b8f</BiopaxRef>
+    <Graphics FillColor="ffffff" Color="666666"/>
+  </Label>
+  <Label TextLabel="X" GraphId="b4a4b">
+    <Graphics FillColor="ffffff" Color="cc0000"/>
+  </Label>
+  <Label TextLabel="X" GraphId="a22f6">
+    <Graphics FillColor="ffffff" Color="cc0000"/>
+  </Label>
+  <Label TextLabel="Aggregation" GraphId="d567a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cell Death" GraphId="f5e35">
+    <Graphics FillColor="ffffff" Color="660099"/>
+  </Label>
+  <Label TextLabel="Dopamine oxidation" GraphId="f7617">
+    <Graphics FillColor="ffffff" Color="660099"/>
+  </Label>
+  <Label TextLabel="Ub Proteosome System Dysfunction" GraphId="c7ac1">
+    <Graphics FillColor="ffffff" Color="660099"/>
+  </Label>
+  <Label TextLabel="Toxicity" GraphId="d1d40">
+    <Graphics FillColor="ffffff" Color="660099"/>
+  </Label>
+  <Label TextLabel="Dopaminergic Neuron" GraphId="ac5ef">
+    <Graphics FillColor="ffffff" Color="666666"/>
+  </Label>
+  <Label TextLabel="Mitochondrial Dysfunction" GraphId="c55d3">
+    <BiopaxRef>db9</BiopaxRef>
+    <BiopaxRef>ade</BiopaxRef>
+    <Graphics FillColor="ffffff" Color="660099"/>
+  </Label>
+  <Label TextLabel="Cell Death" GraphId="e4f8c">
+    <BiopaxRef>ef1</BiopaxRef>
+    <Graphics FillColor="ffffff" Color="660099"/>
+  </Label>
+  <Label TextLabel="X" GraphId="a9e64">
+    <Graphics FillColor="ffffff" Color="cc0000"/>
+  </Label>
+  <Label TextLabel="X" GraphId="c6d61">
+    <Graphics FillColor="ffffff" Color="cc0000"/>
+  </Label>
+  <Label TextLabel="Parkinson's disease genes: &#10;pathogenic mutations" GraphId="e3b44">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Block of normal function &#10;for mutated genes" GraphId="bd449">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Indirect action" GraphId="e5a15">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="miRNA differentially expressed in PD &#10;(measured in cerebrospinal fluid)" GraphId="a755a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="miRNA differentially expressed in PD &#10;(measured in blood serum)" GraphId="c4949">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Based on Tables 1, 2 and S3 from Burgos et al, PLoS ONE 2014 May." GraphId="feec1">
+    <BiopaxRef>ac6</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="miRNA differentially expressed &#10;in PD vs PD-Dementia &#10;(measured in blood serum)" GraphId="aa632">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="a9baa" GroupRef="c560c">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="af2a6">
+    <Graphics ShapeType="Mitochondria" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b432d">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bbda2">
+    <Graphics ShapeType="Rectangle" Color="cc00cc"/>
+  </Shape>
+  <Shape GraphId="ce05c">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="Protein" GraphId="db6fe">
+    <Graphics ShapeType="RoundedRectangle" Color="cc0000"/>
+  </Shape>
+  <Group GroupId="fb20a" GraphId="a3308" Style="Group"/>
+  <Group GroupId="ff39a" GraphId="a7dc8"/>
+  <Group GroupId="e317d" GraphId="aba68"/>
+  <Group GroupId="f38ed" GraphId="acbb2" TextLabel="hsa:7317 hsa:7318"/>
+  <Group GroupId="afe95" GraphId="ae3b1" Style="Group"/>
+  <Group GroupId="b25f6" GraphId="b2014" TextLabel="hsa:118424 hsa:51465 hsa:7326 hsa:7327"/>
+  <Group GroupId="de30b" GraphId="b48c0" Style="Complex"/>
+  <Group GroupId="b3888" GraphId="de0a7" Style="Group"/>
+  <Group GroupId="fcf13" GraphId="f0cfe" TextLabel="hsa:1432 hsa:5600 hsa:5603 hsa:6300"/>
+  <Group GroupId="c560c" GraphId="fa911" Style="Group"/>
+  <Group GroupId="bb48a" GraphId="fabc5" TextLabel="hsa:7332 hsa:9246"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Parkinson's disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:14330</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef1">
+      <bp:ID >12728264</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Targeting programmed cell death in neurodegenerative diseases.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Neurosci</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Vila M</bp:AUTHORS>
+      <bp:AUTHORS >Przedborski S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b48">
+      <bp:ID >12783850</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The p38 subunit of the aminoacyl-tRNA synthetase complex is a Parkin substrate: linking protein biosynthesis and neurodegeneration.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Corti O</bp:AUTHORS>
+      <bp:AUTHORS >Hampe C</bp:AUTHORS>
+      <bp:AUTHORS >Koutnikova H</bp:AUTHORS>
+      <bp:AUTHORS >Darios F</bp:AUTHORS>
+      <bp:AUTHORS >Jacquier S</bp:AUTHORS>
+      <bp:AUTHORS >Prigent A</bp:AUTHORS>
+      <bp:AUTHORS >Robinson JC</bp:AUTHORS>
+      <bp:AUTHORS >Pradier L</bp:AUTHORS>
+      <bp:AUTHORS >Ruberg M</bp:AUTHORS>
+      <bp:AUTHORS >Mirande M</bp:AUTHORS>
+      <bp:AUTHORS >Hirsch E</bp:AUTHORS>
+      <bp:AUTHORS >Rooney T</bp:AUTHORS>
+      <bp:AUTHORS >Fournier A</bp:AUTHORS>
+      <bp:AUTHORS >Brice A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac6">
+      <bp:ID >24797360</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Profiles of extracellular miRNA in cerebrospinal fluid and serum from patients with Alzheimer's and Parkinson's diseases correlate with disease status and features of pathology.</bp:TITLE>
+      <bp:SOURCE >PLoS One</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:ID >24797360</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Profiles of extracellular miRNA in cerebrospinal fluid and serum from patients with Alzheimer's and Parkinson's diseases correlate with disease status and features of pathology.</bp:TITLE>
+      <bp:SOURCE >PLoS One</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Burgos K</bp:AUTHORS>
+      <bp:AUTHORS >Malenica I</bp:AUTHORS>
+      <bp:AUTHORS >Metpally R</bp:AUTHORS>
+      <bp:AUTHORS >Courtright A</bp:AUTHORS>
+      <bp:AUTHORS >Rakela B</bp:AUTHORS>
+      <bp:AUTHORS >Beach T</bp:AUTHORS>
+      <bp:AUTHORS >Shill H</bp:AUTHORS>
+      <bp:AUTHORS >Adler C</bp:AUTHORS>
+      <bp:AUTHORS >Sabbagh M</bp:AUTHORS>
+      <bp:AUTHORS >Villa S</bp:AUTHORS>
+      <bp:AUTHORS >Tembe W</bp:AUTHORS>
+      <bp:AUTHORS >Craig D</bp:AUTHORS>
+      <bp:AUTHORS >Van Keuren-Jensen K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c36">
+      <bp:ID >19524505</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Therapeutic microRNA delivery suppresses tumorigenesis in a murine liver cancer model.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Kota J</bp:AUTHORS>
+      <bp:AUTHORS >Chivukula RR</bp:AUTHORS>
+      <bp:AUTHORS >O'Donnell KA</bp:AUTHORS>
+      <bp:AUTHORS >Wentzel EA</bp:AUTHORS>
+      <bp:AUTHORS >Montgomery CL</bp:AUTHORS>
+      <bp:AUTHORS >Hwang HW</bp:AUTHORS>
+      <bp:AUTHORS >Chang TC</bp:AUTHORS>
+      <bp:AUTHORS >Vivekanandan P</bp:AUTHORS>
+      <bp:AUTHORS >Torbenson M</bp:AUTHORS>
+      <bp:AUTHORS >Clark KR</bp:AUTHORS>
+      <bp:AUTHORS >Mendell JR</bp:AUTHORS>
+      <bp:AUTHORS >Mendell JT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >neurodegenerative disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:1289</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e5d">
+      <bp:ID >23383003</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MicroRNA-195 inhibits the proliferation of human glioma cells by directly targeting cyclin D1 and cyclin E1.</bp:TITLE>
+      <bp:SOURCE >PLoS One</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Hui W</bp:AUTHORS>
+      <bp:AUTHORS >Yuntao L</bp:AUTHORS>
+      <bp:AUTHORS >Lun L</bp:AUTHORS>
+      <bp:AUTHORS >WenSheng L</bp:AUTHORS>
+      <bp:AUTHORS >ChaoFeng L</bp:AUTHORS>
+      <bp:AUTHORS >HaiYong H</bp:AUTHORS>
+      <bp:AUTHORS >Yueyang B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dd9">
+      <bp:ID >15505146</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >What does PINK1 mean for Parkinson diseases?</bp:TITLE>
+      <bp:SOURCE >Neurology</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Singleton A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ade">
+      <bp:ID >18680555</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mitochondrial alterations in Parkinson's disease: new clues.</bp:TITLE>
+      <bp:SOURCE >J Neurochem</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Vila M</bp:AUTHORS>
+      <bp:AUTHORS >Ramonet D</bp:AUTHORS>
+      <bp:AUTHORS >Perier C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >neurodegenerative disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000014</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6a">
+      <bp:ID >15503154</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Causes of Parkinson's disease: genetics of DJ-1.</bp:TITLE>
+      <bp:SOURCE >Cell Tissue Res</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Abou-Sleiman PM</bp:AUTHORS>
+      <bp:AUTHORS >Healy DG</bp:AUTHORS>
+      <bp:AUTHORS >Wood NW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c0a">
+      <bp:ID >19461653</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The miR-34 family in cancer and apoptosis.</bp:TITLE>
+      <bp:SOURCE >Cell Death Differ</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Hermeking H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c3c">
+      <bp:ID >16022590</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Molecular pathophysiology of Parkinson's disease.</bp:TITLE>
+      <bp:SOURCE >Annu Rev Neurosci</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Moore DJ</bp:AUTHORS>
+      <bp:AUTHORS >West AB</bp:AUTHORS>
+      <bp:AUTHORS >Dawson VL</bp:AUTHORS>
+      <bp:AUTHORS >Dawson TM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dd8">
+      <bp:ID >15054086</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Does alpha-synuclein modulate dopaminergic synaptic content and tone at the synapse?</bp:TITLE>
+      <bp:SOURCE >FASEB J</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Sidhu A</bp:AUTHORS>
+      <bp:AUTHORS >Wersinger C</bp:AUTHORS>
+      <bp:AUTHORS >Vernier P</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b83">
+      <bp:ID >12716939</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Parkin binds to alpha/beta tubulin and increases their ubiquitination and degradation.</bp:TITLE>
+      <bp:SOURCE >J Neurosci</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Ren Y</bp:AUTHORS>
+      <bp:AUTHORS >Zhao J</bp:AUTHORS>
+      <bp:AUTHORS >Feng J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba3">
+      <bp:ID >15229644</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >How does parkin ligate ubiquitin to Parkinson's disease?</bp:TITLE>
+      <bp:SOURCE >EMBO Rep</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Kahle PJ</bp:AUTHORS>
+      <bp:AUTHORS >Haass C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Parkinson disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000018</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b80">
+      <bp:ID >19956200</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Induction of microRNAs, mir-155, mir-222, mir-424 and mir-503, promotes monocytic differentiation through combinatorial regulation.</bp:TITLE>
+      <bp:SOURCE >Leukemia</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Forrest AR</bp:AUTHORS>
+      <bp:AUTHORS >Kanamori-Katayama M</bp:AUTHORS>
+      <bp:AUTHORS >Tomaru Y</bp:AUTHORS>
+      <bp:AUTHORS >Lassmann T</bp:AUTHORS>
+      <bp:AUTHORS >Ninomiya N</bp:AUTHORS>
+      <bp:AUTHORS >Takahashi Y</bp:AUTHORS>
+      <bp:AUTHORS >de Hoon MJ</bp:AUTHORS>
+      <bp:AUTHORS >Kubosaki A</bp:AUTHORS>
+      <bp:AUTHORS >Kaiho A</bp:AUTHORS>
+      <bp:AUTHORS >Suzuki M</bp:AUTHORS>
+      <bp:AUTHORS >Yasuda J</bp:AUTHORS>
+      <bp:AUTHORS >Kawai J</bp:AUTHORS>
+      <bp:AUTHORS >Hayashizaki Y</bp:AUTHORS>
+      <bp:AUTHORS >Hume DA</bp:AUTHORS>
+      <bp:AUTHORS >Suzuki H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a5c">
+      <bp:ID >17911161</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Parkinson's disease.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Thomas B</bp:AUTHORS>
+      <bp:AUTHORS >Beal MF</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Lewy body dementia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:12217</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c56">
+      <bp:ID >20371350</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Transcriptome-wide identification of RNA-binding protein and microRNA target sites by PAR-CLIP.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Hafner M</bp:AUTHORS>
+      <bp:AUTHORS >Landthaler M</bp:AUTHORS>
+      <bp:AUTHORS >Burger L</bp:AUTHORS>
+      <bp:AUTHORS >Khorshid M</bp:AUTHORS>
+      <bp:AUTHORS >Hausser J</bp:AUTHORS>
+      <bp:AUTHORS >Berninger P</bp:AUTHORS>
+      <bp:AUTHORS >Rothballer A</bp:AUTHORS>
+      <bp:AUTHORS >Ascano M Jr</bp:AUTHORS>
+      <bp:AUTHORS >Jungkamp AC</bp:AUTHORS>
+      <bp:AUTHORS >Munschauer M</bp:AUTHORS>
+      <bp:AUTHORS >Ulrich A</bp:AUTHORS>
+      <bp:AUTHORS >Wardle GS</bp:AUTHORS>
+      <bp:AUTHORS >Dewell S</bp:AUTHORS>
+      <bp:AUTHORS >Zavolan M</bp:AUTHORS>
+      <bp:AUTHORS >Tuschl T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bc1">
+      <bp:ID >15952880</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The biochemistry of Parkinson's disease.</bp:TITLE>
+      <bp:SOURCE >Annu Rev Biochem</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Cookson MR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa2">
+      <bp:ID >15896322</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Common anti-apoptotic roles of parkin and alpha-synuclein in human dopaminergic cells.</bp:TITLE>
+      <bp:SOURCE >Biochem Biophys Res Commun</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Machida Y</bp:AUTHORS>
+      <bp:AUTHORS >Chiba T</bp:AUTHORS>
+      <bp:AUTHORS >Takayanagi A</bp:AUTHORS>
+      <bp:AUTHORS >Tanaka Y</bp:AUTHORS>
+      <bp:AUTHORS >Asanuma M</bp:AUTHORS>
+      <bp:AUTHORS >Ogawa N</bp:AUTHORS>
+      <bp:AUTHORS >Koyama A</bp:AUTHORS>
+      <bp:AUTHORS >Iwatsubo T</bp:AUTHORS>
+      <bp:AUTHORS >Ito S</bp:AUTHORS>
+      <bp:AUTHORS >Jansen PH</bp:AUTHORS>
+      <bp:AUTHORS >Shimizu N</bp:AUTHORS>
+      <bp:AUTHORS >Tanaka K</bp:AUTHORS>
+      <bp:AUTHORS >Mizuno Y</bp:AUTHORS>
+      <bp:AUTHORS >Hattori N</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cff">
+      <bp:ID >15651302</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >[The gene products for familial Parkinson's disease provide us hints to elucidate the mechanisms of nigral degeneration].</bp:TITLE>
+      <bp:SOURCE >Rinsho Shinkeigaku</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Hattori N</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fe0">
+      <bp:ID >18426756</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Progress in the pathogenesis and genetics of Parkinson's disease.</bp:TITLE>
+      <bp:SOURCE >Philos Trans R Soc Lond B Biol Sci</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Mizuno Y</bp:AUTHORS>
+      <bp:AUTHORS >Hattori N</bp:AUTHORS>
+      <bp:AUTHORS >Kubo S</bp:AUTHORS>
+      <bp:AUTHORS >Sato S</bp:AUTHORS>
+      <bp:AUTHORS >Nishioka K</bp:AUTHORS>
+      <bp:AUTHORS >Hatano T</bp:AUTHORS>
+      <bp:AUTHORS >Tomiyama H</bp:AUTHORS>
+      <bp:AUTHORS >Funayama M</bp:AUTHORS>
+      <bp:AUTHORS >Machida Y</bp:AUTHORS>
+      <bp:AUTHORS >Mochizuki H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea0">
+      <bp:ID >20584986</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >miR-375 inhibits differentiation of neurites by lowering HuD levels.</bp:TITLE>
+      <bp:SOURCE >Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Abdelmohsen K</bp:AUTHORS>
+      <bp:AUTHORS >Hutchison ER</bp:AUTHORS>
+      <bp:AUTHORS >Lee EK</bp:AUTHORS>
+      <bp:AUTHORS >Kuwano Y</bp:AUTHORS>
+      <bp:AUTHORS >Kim MM</bp:AUTHORS>
+      <bp:AUTHORS >Masuda K</bp:AUTHORS>
+      <bp:AUTHORS >Srikantan S</bp:AUTHORS>
+      <bp:AUTHORS >Subaran SS</bp:AUTHORS>
+      <bp:AUTHORS >Marasa BS</bp:AUTHORS>
+      <bp:AUTHORS >Mattson MP</bp:AUTHORS>
+      <bp:AUTHORS >Gorospe M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="db9">
+      <bp:ID >16495942</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Expanding insights of mitochondrial dysfunction in Parkinson's disease.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Neurosci</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Abou-Sleiman PM</bp:AUTHORS>
+      <bp:AUTHORS >Muqit MM</bp:AUTHORS>
+      <bp:AUTHORS >Wood NW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b8f">
+      <bp:ID >12628165</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Parkin is a component of an SCF-like ubiquitin ligase complex and protects postmitotic neurons from kainate excitotoxicity.</bp:TITLE>
+      <bp:SOURCE >Neuron</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Staropoli JF</bp:AUTHORS>
+      <bp:AUTHORS >McDermott C</bp:AUTHORS>
+      <bp:AUTHORS >Martinat C</bp:AUTHORS>
+      <bp:AUTHORS >Schulman B</bp:AUTHORS>
+      <bp:AUTHORS >Demireva E</bp:AUTHORS>
+      <bp:AUTHORS >Abeliovich A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c51">
+      <bp:ID >19088304</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MicroRNA target prediction by expression analysis of host genes.</bp:TITLE>
+      <bp:SOURCE >Genome Res</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Gennarino VA</bp:AUTHORS>
+      <bp:AUTHORS >Sardiello M</bp:AUTHORS>
+      <bp:AUTHORS >Avellino R</bp:AUTHORS>
+      <bp:AUTHORS >Meola N</bp:AUTHORS>
+      <bp:AUTHORS >Maselli V</bp:AUTHORS>
+      <bp:AUTHORS >Anand S</bp:AUTHORS>
+      <bp:AUTHORS >Cutillo L</bp:AUTHORS>
+      <bp:AUTHORS >Ballabio A</bp:AUTHORS>
+      <bp:AUTHORS >Banfi S</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

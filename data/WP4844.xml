@@ -1,0 +1,1126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Influence of laminopathies on Wnt signaling" Version="20200312" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The current pathway represents the different molecular interactions that may occur following the dis-regulation of signaling pathways involved in adipocyte differentiation and proliferation which may result in the abnormal distribution of white adipose tissue, leading to the onset of lipodystrophic syndromes. This laminopathic pathway stems from mutations mainly occuring in the LMNA gene can be associated with the onset of other laminopathic syndromes due to a malfunction in the lamin A processing pathway.Other laminopathic diseases are associated with LMNA mutations, thus this pathway represents the overlapping interactions involved in such phenotypic diseases. </Comment>
+  <Graphics BoardWidth="3442.0370370370374" BoardHeight="1521.2563173417523"/>
+  <DataNode TextLabel="SLC2A4" GraphId="a4925" Type="GeneProduct" GroupRef="bb7bb">
+    <Comment>GLUT4- associated with noninsulin diabetes mellitus </Comment>
+        </DataNode>
+  <DataNode TextLabel="Adiponectin" GraphId="ba978" Type="Protein" GroupRef="bb7bb">
+    <Comment>glucose regulation and fatty acid oxidation metabolism --&gt; is secreated from adipose tissue </Comment>
+        </DataNode>
+  <DataNode TextLabel="MIRLET7B" GraphId="defd7" Type="GeneProduct">
+    <Comment>targets HMGA2, decreasing it --&gt; high amounts in mature adipocytes </Comment>
+    <BiopaxRef>c40</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CCND1" GraphId="faa8e" Type="GeneProduct" GroupRef="bb7bb">
+        </DataNode>
+  <DataNode TextLabel="Wnt Signaling" GraphId="f6d1b" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Wnt Signaling" GraphId="ceb44" Type="Pathway">
+    <Comment>Wnt signaling inhibits protease complex to allow for beta catenin localisation into the nucleus and prevent its degredation </Comment>
+    <Comment>Wnt signaling functions as an adipogenic switch. When it is on, adipogenesis is repressed --&gt; in first days of adipogenesis- differentiation is blocked
+when it is off, adipogenesis is initiated. 
+when disrupted = spontaneous adipogenesis </Comment>
+    <Comment>In Wnt signaling absence, myoblasts are reprogrammed to the adipocyte lineage and undergo spontaneous differentiation.</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="PPAR-&#206;&#179;" GraphId="f6922" Type="GeneProduct">
+    <Comment>is down regulated following overexpression of miR33B</Comment>
+        </DataNode>
+  <DataNode TextLabel="CEBPD" GraphId="b2c0f" Type="GeneProduct" GroupRef="bd643">
+    <BiopaxRef>ba8</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CEBPB" GraphId="e1631" Type="GeneProduct" GroupRef="bd643">
+    <Comment>activated in early stages of adipogenesis --&gt; activates transcription of PPARG and CEBPA by binding to promoter region in later stages of adipogenesis as are anti mitotic- promote terminal differentiation</Comment>
+    <BiopaxRef>ba8</BiopaxRef>
+    <BiopaxRef>c5e</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CEBPA" GraphId="b5ff4" Type="GeneProduct">
+    <Comment>is down regulated following overexpression of miR33B</Comment>
+        </DataNode>
+  <DataNode TextLabel="WNT10B" GraphId="b6ee6" Type="GeneProduct">
+    <Comment>upregulation will stimulate wnt signaling to down regulate adipogenesis</Comment>
+    <BiopaxRef>c0c</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GSK3B" GraphId="cfb27" Type="GeneProduct" GroupRef="f5aef">
+        </DataNode>
+  <DataNode TextLabel="CSNK1A1" GraphId="a642d" Type="GeneProduct" GroupRef="f5aef">
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="c7345" Type="GeneProduct" GroupRef="f5aef">
+        </DataNode>
+  <DataNode TextLabel="CSNK1A1L" GraphId="b0dd2" Type="GeneProduct" GroupRef="f5aef">
+        </DataNode>
+  <DataNode TextLabel="APC" GraphId="d306a" Type="GeneProduct" GroupRef="f5aef">
+        </DataNode>
+  <DataNode TextLabel="AXIN1" GraphId="a3ce3" Type="GeneProduct" GroupRef="f5aef">
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="b5f42" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="ee910" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LEF1" GraphId="bc4cb" Type="GeneProduct" GroupRef="f60f3">
+        </DataNode>
+  <DataNode TextLabel="TCF7" GraphId="ae80d" Type="GeneProduct" GroupRef="f60f3">
+        </DataNode>
+  <DataNode TextLabel="TCF7L2" GraphId="d9a3a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TCF7L1" GraphId="b3598" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="efb00" Type="GeneProduct" GroupRef="f60f3">
+        </DataNode>
+  <DataNode TextLabel="ZMPSTE24" GraphId="f3a02" Type="GeneProduct">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="Prelamin-A" GraphId="bb65b" Type="Protein" GroupRef="eed8d">
+        </DataNode>
+  <DataNode TextLabel="LMNA" GraphId="a4519" Type="GeneProduct">
+    <Comment>Single point mutations = AD-EMD</Comment>
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="Isoprenylcysteine carboxyl methyltransferase " GraphId="c2db2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="C" GraphId="b0724" Type="Metabolite" GroupRef="fa037">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Farnesyltransferase" GraphId="e4b99" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Prelamin-A" GraphId="a4ec4" Type="Protein" GroupRef="ed5cc">
+        </DataNode>
+  <DataNode TextLabel="Prelamin-A" GraphId="e27ad" Type="Protein" GroupRef="fa037">
+        </DataNode>
+  <DataNode TextLabel="Prelamin-A" GraphId="bcc5e" Type="Protein" GroupRef="ab567">
+        </DataNode>
+  <DataNode TextLabel="C" GraphId="c0086" Type="Metabolite" GroupRef="ab567">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ZMPSTE24" GraphId="f0501" Type="GeneProduct">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="C" GraphId="d9cd4" Type="Metabolite" GroupRef="c22da">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Mature lamin A" GraphId="bb0a6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SREBP1c" GraphId="a5222" Type="GeneProduct" GroupRef="e609d">
+    <BiopaxRef>bb2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MIR33B" GraphId="f6df3" Type="GeneProduct" GroupRef="f2134">
+    <Comment>intronic microRNA located within the genes encoding SREBP are transcribed in concert with their host genes and function alongside them to regulate cholesterol/FA and glucose metabolism </Comment>
+    <Comment>MIR33b is highly induced upon differentiation of human preadipocytes + SREBP1</Comment>
+    <Comment>inhibition of MiR-33b enhances lipid droplet accumilation + its overexpression impaired preadipocyte proliferation + PPARG activation --&gt; may be mediated by targeting HMGA2/CDK6+ others</Comment>
+    <Comment>overexpression of miR-33b causes
+reduced preadipocyte proliferation and impaired differentiation
+e inhibition of miR-33b enhanced lipid accumulation in differentiating adipocytes</Comment>
+    <Comment>negative regulator of adipogenesis, despite being highly upregulated during
+the later stages of adipocyte differentiation.</Comment>
+    <BiopaxRef>f89</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Prelamin-A" GraphId="c8407" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Prelamin-A" GraphId="c58c0" Type="Protein" GroupRef="e609d">
+    <BiopaxRef>bb2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="SREBP1c" GraphId="ec262" Type="GeneProduct" GroupRef="f2134">
+        </DataNode>
+  <DataNode TextLabel="PPARG" GraphId="da2a2" Type="GeneProduct">
+    <Comment>Novel F388L mutation is associated with a form of partial lipodystrophy</Comment>
+    <BiopaxRef>d0e</BiopaxRef>
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="SREBP Signaling" GraphId="a5b24" Type="Pathway">
+    <BiopaxRef>ef3</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Truncated Prelamin-A" GraphId="f0b40" Type="Protein">
+    <Comment>LMNA heterozygous splicing mutation --&gt; loss of exon 11 results in a truncated pre lamin A - removal of Carboxyl terminal motif - interaction with other proteins - disrupted function</Comment>
+    <Comment>can also result from ZMPSTE24 mutations - premature stop codon - no propper processing of lamin A - can also result from null mutations</Comment>
+    <BiopaxRef>b8f</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CDK6" GraphId="aa4a3" Type="GeneProduct" GroupRef="bb7bb">
+        </DataNode>
+  <DataNode TextLabel="AGO2" GraphId="bcfd5" Type="GeneProduct" GroupRef="a8999">
+        </DataNode>
+  <DataNode TextLabel="TARBP2" GraphId="d8ded" Type="GeneProduct" GroupRef="a8999">
+        </DataNode>
+  <DataNode TextLabel="HMGA2" GraphId="d4c4e" Type="GeneProduct" GroupRef="bb7bb">
+    <Comment>chromatin remodeling factor--&gt; important role in the clonal-expansion phase of
+adipogenesis - may be able to control critical genes involved in cellular proliferation--&gt;  loss of HMGA2 impairs adipocyte differentiation</Comment>
+    <Comment>overexpression of miR33B caused a significant reduction in HMGA2</Comment>
+    <Comment> HMGA2 is induced during the clonal-expansion phase of adipogenesis but
+reduced following terminal differentiation</Comment>
+    <Comment>Type your comment here</Comment>
+        </DataNode>
+  <DataNode TextLabel="DICER1" GraphId="be2b1" Type="GeneProduct" GroupRef="a8999">
+    <BiopaxRef>b39</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MIR33B" GraphId="c8c61" Type="GeneProduct" GroupRef="a8999">
+        </DataNode>
+  <DataNode TextLabel="SPP1" GraphId="b91b1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RUNX2" GraphId="f163c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TLE1" GraphId="e4745" Type="GeneProduct" GroupRef="e3fbc">
+        </DataNode>
+  <DataNode TextLabel="Hutchinson-Gilford Progeria Syndrome" GraphId="d13f6" Type="Pathway">
+    <Graphics ShapeType="None" Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="HES1" GraphId="acc7e" Type="GeneProduct" GroupRef="e3fbc">
+        </DataNode>
+  <DataNode TextLabel="HES5" GraphId="ab292" Type="GeneProduct" GroupRef="e3fbc">
+        </DataNode>
+  <DataNode TextLabel="Progerin" GraphId="e04f2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Notch Signaling" GraphId="f0727" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="EMD" GraphId="ccdeb" Type="GeneProduct">
+    <Comment>Mutations are linked to X-EMD</Comment>
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="Emerin" GraphId="d0d6f" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="ee1d7" Type="GeneProduct" GroupRef="a07b0">
+        </DataNode>
+  <DataNode TextLabel="Emerin" GraphId="c0102" Type="Protein" GroupRef="a07b0">
+        </DataNode>
+  <DataNode TextLabel="Emerin" GraphId="b8ad3" Type="Protein">
+    <BiopaxRef>c37</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TOR1AIP1" GraphId="df3d8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Mature lamin A" GraphId="b1124" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id1583d17f">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b6ee6"/>
+      <Point GraphRef="b5ff4" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id16b59ec4">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="f0473"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="c8407" ArrowHead="Arrow"/>
+      <Anchor Position="0.7889331320812601" Shape="None" GraphId="a2ec4"/>
+      <Anchor Position="0.3809983086880683" Shape="None" GraphId="e0a12"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id178e52f6">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="f5ff2"/>
+      <Point/>
+      <Point GraphRef="ce2d6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1fef3e25">
+    <Graphics Color="ff0000">
+      <Point GraphRef="defd7"/>
+      <Point GraphRef="d4c4e" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id213a2998">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b91b1"/>
+      <Point/>
+      <Point GraphRef="fee98" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2192c463">
+    <Graphics>
+      <Point GraphRef="cfb27"/>
+      <Point GraphRef="e0991" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id23ceaf1c">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f49e4"/>
+      <Point GraphRef="dfda8" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id29425a44">
+    <BiopaxRef>e63</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="ff0000">
+      <Point GraphRef="ceb44"/>
+      <Point GraphRef="bba1d" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2b3a2f31">
+    <Graphics>
+      <Point GraphRef="ad259"/>
+      <Point GraphRef="e4d6d" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2c8dfd9f">
+    <Graphics>
+      <Point GraphRef="da2a2"/>
+      <Point GraphRef="f6922" ArrowHead="mim-transcription-translation"/>
+      <Anchor Position="0.46700320985553645" Shape="None" GraphId="f8265"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2d61340b">
+    <Graphics Color="ff0000">
+      <Point GraphRef="f163c"/>
+      <Point GraphRef="e4cb9" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2f835d24">
+    <Graphics>
+      <Point GraphRef="fee98"/>
+      <Point GraphRef="abd72" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3239582f">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f6922"/>
+      <Point/>
+      <Point GraphRef="d98b2" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id33287c86">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="f49e4"/>
+      <Point GraphRef="ceb44" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id35267550">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="f6922" ArrowHead="Arrow"/>
+      <Point GraphRef="b5ff4"/>
+      <Anchor Position="0.488483577113135" Shape="None" GraphId="ca48b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id48ffb59">
+    <Graphics>
+      <Point GraphRef="fbaf1"/>
+      <Point GraphRef="bba1d" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id497457dc">
+    <BiopaxRef>ebe</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f6d1b"/>
+      <Point GraphRef="fbaf1" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id568bfff3">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="f0471" ArrowHead="mim-stimulation"/>
+      <Point GraphRef="e04f2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id59ba377b">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c7345"/>
+      <Point/>
+      <Point GraphRef="b5f42"/>
+      <Anchor Position="0.513496877845602" Shape="None" GraphId="e0991"/>
+      <Anchor Position="0.2995403371962203" Shape="None" GraphId="ab98f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5dbb3cc0">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="f6d1b"/>
+      <Point/>
+      <Point GraphRef="ceb44"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6c0312f8">
+    <Graphics>
+      <Point GraphRef="b5f42"/>
+      <Point GraphRef="ee910" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6d251b5e">
+    <Graphics>
+      <Point GraphRef="d98b2"/>
+      <Point GraphRef="cb688" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6fe32ed">
+    <BiopaxRef>bed</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ceb44"/>
+      <Point GraphRef="b9452" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id726054d0">
+    <Graphics>
+      <Point GraphRef="fc5fc"/>
+      <Point GraphRef="f6d1b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id746b2c89">
+    <Graphics Color="ff0000">
+      <Point GraphRef="b8ea2"/>
+      <Point GraphRef="a8bf7" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id74e3b910">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bb0a6"/>
+      <Point GraphRef="b1124" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id756b1e35">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="fee98" ArrowHead="mim-stimulation"/>
+      <Point GraphRef="f49e4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id82db3506">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b5ff4"/>
+      <Point GraphRef="bba1d" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id86b0c823">
+    <Graphics>
+      <Point GraphRef="e0a12"/>
+      <Point GraphRef="e04f2" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id883b28da">
+    <Graphics Color="ff0000">
+      <Point GraphRef="e04f2"/>
+      <Point GraphRef="b91b1" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id93071f1e">
+    <Graphics LineStyle="Broken" Color="ff0000">
+      <Point GraphRef="e7b9e"/>
+      <Point GraphRef="b1b03" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id942e5ca7">
+    <Graphics>
+      <Point GraphRef="cb688"/>
+      <Point GraphRef="ef9fd" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id94b83cd1">
+    <Graphics Color="ff0000">
+      <Point GraphRef="e0698"/>
+      <Point GraphRef="f6922" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id95de8a89">
+    <Graphics>
+      <Point GraphRef="f0471"/>
+      <Point GraphRef="f0727" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id98642da">
+    <Graphics Color="ff0000">
+      <Point GraphRef="bba1d"/>
+      <Point GraphRef="e7b9e" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5632256128716743" Shape="None" GraphId="ce2d6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9af0d14b">
+    <Graphics>
+      <Point GraphRef="ca48b"/>
+      <Point GraphRef="ef9fd" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9d87fd6e">
+    <Graphics Color="ff0000">
+      <Point GraphRef="a2ec4"/>
+      <Point GraphRef="f0b40" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb1d29759">
+    <Comment>Is down regulated following overexpression of MIR33B</Comment>
+    <BiopaxRef>f89</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="b5ff4" ArrowHead="mim-stimulation"/>
+      <Point/>
+      <Point GraphRef="f7db3"/>
+      <Anchor Position="0.8995536798200536" Shape="None" GraphId="e0698"/>
+      <Anchor Position="0.6641197650761668" Shape="None" GraphId="b8ea2"/>
+      <Anchor Position="0.3626880380964892" Shape="None" GraphId="f5ff2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb47fc436">
+    <Graphics>
+      <Point GraphRef="c8407"/>
+      <Point GraphRef="c58c0" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc519ad9f">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f6df3"/>
+      <Point GraphRef="c8c61" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd051b2dd">
+    <Graphics Color="ff0000">
+      <Point GraphRef="b4298"/>
+      <Point GraphRef="f8265" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd46fe861">
+    <Graphics>
+      <Point GraphRef="ee910"/>
+      <Point GraphRef="d1687" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idda596055">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b6ee6"/>
+      <Point GraphRef="f6922" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide81f6710">
+    <Graphics>
+      <Point GraphRef="a5b24"/>
+      <Point GraphRef="c2cd3" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idea79a9c7">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f6922" ArrowHead="mim-inhibition"/>
+      <Point GraphRef="ceb44"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf0b31547">
+    <BiopaxRef>ec9</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fc5fc"/>
+      <Point GraphRef="b1c59" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f0794"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf794a51d">
+    <Graphics LineStyle="Broken" Color="ff0000">
+      <Point GraphRef="f0b40"/>
+      <Point GraphRef="a068e" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfa97fb43">
+    <Graphics>
+      <Point GraphRef="ceb44"/>
+      <Point GraphRef="b5ff4" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfdcc8f00">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b5ff4" ArrowHead="Arrow"/>
+      <Point/>
+      <Point GraphRef="f6922"/>
+      <Anchor Position="0.5111787647758108" Shape="None" GraphId="abd72"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idffb1a5af">
+    <Graphics>
+      <Point GraphRef="ab98f"/>
+      <Point GraphRef="efb00" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.8279422401297637" Shape="None" GraphId="e4d6d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id34abe641">
+    <Comment>Wnt signaling promotes hMSC diffferentiation for osteogenesis</Comment>
+    <BiopaxRef>ebe</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fc5fc"/>
+      <Point GraphRef="e1f64" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a99ec"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id84aad981">
+    <Graphics>
+      <Point GraphRef="f6d1b"/>
+      <Point GraphRef="a99ec" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddabd558f">
+    <Graphics>
+      <Point GraphRef="f6d1b"/>
+      <Point GraphRef="f0794" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9ce0">
+    <Graphics>
+      <Point GraphRef="db18a"/>
+      <Point GraphRef="b2cbd" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.43478260869565216" Shape="None" GraphId="b92e2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de02e">
+    <Graphics>
+      <Point GraphRef="d7115"/>
+      <Point GraphRef="bc7af" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.44989920167728426" Shape="None" GraphId="fda19"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cdb83">
+    <Graphics Color="ff0000">
+      <Point GraphRef="f3ffa"/>
+      <Point GraphRef="f0501" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d0249">
+    <Graphics>
+      <Point GraphRef="ef348"/>
+      <Point GraphRef="a8b98" ArrowHead="mim-cleavage"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1b75">
+    <Graphics>
+      <Point GraphRef="bc7af"/>
+      <Point GraphRef="db18a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.44983818770226536" Shape="None" GraphId="b712c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2a17">
+    <Graphics>
+      <Point GraphRef="a4519"/>
+      <Point GraphRef="d7115" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b552e">
+    <Graphics>
+      <Point GraphRef="c2db2"/>
+      <Point GraphRef="b92e2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1ac8">
+    <Graphics>
+      <Point GraphRef="fda19"/>
+      <Point GraphRef="c5d57" ArrowHead="mim-cleavage"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ce4fc">
+    <Graphics>
+      <Point GraphRef="b2cbd"/>
+      <Point GraphRef="bb0a6" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.19716665261833793" Shape="None" GraphId="ef348"/>
+      <Anchor Position="0.5214938026698894" Shape="None" GraphId="f0473"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ada71">
+    <Graphics>
+      <Point GraphRef="f3a02"/>
+      <Point GraphRef="b712c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b5506">
+    <Graphics>
+      <Point GraphRef="e4b99"/>
+      <Point GraphRef="fda19" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e6932">
+    <Graphics>
+      <Point GraphRef="f0501"/>
+      <Point GraphRef="ef348" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c721a">
+    <Graphics>
+      <Point GraphRef="ec262"/>
+      <Point GraphRef="a5222" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e32e3">
+    <Graphics>
+      <Point GraphRef="b91b1"/>
+      <Point GraphRef="f163c" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a607e">
+    <Graphics Color="ff0000">
+      <Point GraphRef="e04f2"/>
+      <Point GraphRef="d13f6" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f80f7">
+    <Graphics>
+      <Point GraphRef="f0727"/>
+      <Point GraphRef="fc5fc" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c662c">
+    <Graphics>
+      <Point GraphRef="ccdeb"/>
+      <Point GraphRef="d0d6f" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e3156">
+    <Graphics>
+      <Point GraphRef="d0d6f"/>
+      <Point GraphRef="ad259" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="e7f0c">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ce82b">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Preadipocytes" GraphId="b0c33">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="+ feedback" GraphId="b1768">
+    <BiopaxRef>d29</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Adipocytes" GraphId="b4a70">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Wnt target genes" GraphId="cb688">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Preadipogenic genes" GraphId="dfda8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Human MSC" GraphId="e54f8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Impaired expansion/ differentiation&#10;of WAT" GraphId="e7b9e">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Adipocyte genes" GraphId="ef9fd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Adipogenic Stimuli" GraphId="f49e4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Myoblast" GraphId="bcfc7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Osteoblast" GraphId="d2c16">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="26S Proteasome &#10;Degredation" GraphId="d1687">
+    <BiopaxRef>ce1</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" Color="009933"/>
+  </Label>
+  <Label TextLabel="aaX" GraphId="c5d57">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Null mutations" GraphId="f3ffa">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CaaX group" GraphId="a2c8c" GroupRef="eed8d">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="15 amino acids" GraphId="cb7d6" GroupRef="c22da">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="CaaX group" GraphId="a453b" GroupRef="ed5cc">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Co-localisation" GraphId="bf2aa">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Restrictive Dermopathy" GraphId="a068e">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="RISC complex" GraphId="b3bca">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="High Bone Turnover" GraphId="e4cb9">
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Familial Partial LIpodystrophy" GraphId="b1b03">
+    <Comment>Onset during puberty- triggers are still unknown</Comment>
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="CH3" GraphId="f8d7e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Process with unknown &#10;interacting molecules " GraphId="d9505">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Phosphate" GraphId="e4435">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Ubiquitin" GraphId="e15fd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Farnesyl Group" GraphId="ffac2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Laminopathic signaling" GraphId="b5f51">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="d75b8">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f3eca" GroupRef="b1003">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f19e1" GroupRef="e1e0c">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b1c59">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e1f64">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c0a28" GroupRef="b1003">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a96f3" GroupRef="b1003">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="dd828" GroupRef="b1003">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f59e6" GroupRef="b1003">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e0e2a" GroupRef="b1003">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f753c" GroupRef="b1003">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f2660" GroupRef="b1003">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d2655" GroupRef="b1003">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e0c6e" GroupRef="b1003">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f473c" GroupRef="b1003">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="be5b4" GroupRef="b1003">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b51d6" GroupRef="b1003">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b1693" GroupRef="e1e0c">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b99b2" GroupRef="c9c86">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e2696" GroupRef="c9c86">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bd1f8">
+    <Graphics FillColor="009933" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ffe3c">
+    <Graphics FillColor="009933" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fa4ca">
+    <Graphics FillColor="009933" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b7c9f">
+    <Graphics FillColor="00cccc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="feb0c">
+    <Graphics FillColor="3366ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f22cf">
+    <Graphics FillColor="3366ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c9069">
+    <Graphics FillColor="3366ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e3ff0">
+    <Graphics FillColor="ff0000" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="da5d5">
+    <Graphics FillColor="3366ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fb9ad">
+    <Graphics FillColor="ff0000" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bb450">
+    <Graphics FillColor="009933" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ab4dc">
+    <Graphics FillColor="00cccc" ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="c22da" GraphId="a8b98" Style="Group"/>
+  <Group GroupId="bb7bb" GraphId="a8bf7" Style="Group">
+    <Comment>overexpression of miR33B causes downregulation of these molecules - influence adipocyte proliferation and differentation </Comment>
+    <BiopaxRef>f89</BiopaxRef>
+  </Group>
+  <Group GroupId="a07b0" GraphId="ad259" Style="Complex">
+    <BiopaxRef>c7a</BiopaxRef>
+  </Group>
+  <Group GroupId="ab567" GraphId="b2cbd" Style="Group"/>
+  <Group GroupId="e609d" GraphId="b4298" Style="Group"/>
+  <Group GroupId="f5aef" GraphId="b9452" Style="Group">
+    <BiopaxRef>bed</BiopaxRef>
+  </Group>
+  <Group GroupId="c9c86" GraphId="bba1d" Style="Group"/>
+  <Group GroupId="ed5cc" GraphId="bc7af" Style="Group"/>
+  <Group GroupId="f2134" GraphId="c2cd3" Style="Group"/>
+  <Group GroupId="eed8d" GraphId="d7115" Style="Group"/>
+  <Group GroupId="f60f3" GraphId="d98b2" Style="Complex">
+    <Comment>activation of this complex allows for the activation of Wnt target genes</Comment>
+    <BiopaxRef>d86</BiopaxRef>
+  </Group>
+  <Group GroupId="fa037" GraphId="db18a" Style="Group"/>
+  <Group GroupId="e3fbc" GraphId="f0471" Style="Group"/>
+  <Group GroupId="a8999" GraphId="f7db3" Style="Complex"/>
+  <Group GroupId="e1e0c" GraphId="fbaf1" Style="Group"/>
+  <Group GroupId="b1003" GraphId="fc5fc" Style="Group"/>
+  <Group GroupId="bd643" GraphId="fee98" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b8f">
+      <bp:ID >15317753</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Lamin A and ZMPSTE24 (FACE-1) defects cause nuclear disorganization and identify restrictive dermopathy as a lethal neonatal laminopathy</bp:TITLE>
+      <bp:SOURCE > Human Molecular Genetics,13(20), 2493&#226;&#8364;&#8220;2503</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Navarro, C. L</bp:AUTHORS>
+      <bp:AUTHORS >De Sandre-Giovannoli,A</bp:AUTHORS>
+      <bp:AUTHORS >Bernard, R</bp:AUTHORS>
+      <bp:AUTHORS >Boccaccio, I</bp:AUTHORS>
+      <bp:AUTHORS >Boyer, A</bp:AUTHORS>
+      <bp:AUTHORS >Genevi&#195;&#168;ve, D</bp:AUTHORS>
+      <bp:AUTHORS >Hadj-Rabia, S</bp:AUTHORS>
+      <bp:AUTHORS >Gaudy-Marqueste, C</bp:AUTHORS>
+      <bp:AUTHORS >Smitt, H. S</bp:AUTHORS>
+      <bp:AUTHORS >Vabres, P</bp:AUTHORS>
+      <bp:AUTHORS >Faivre, L</bp:AUTHORS>
+      <bp:AUTHORS >Verloes, A</bp:AUTHORS>
+      <bp:AUTHORS >Van Essen, T</bp:AUTHORS>
+      <bp:AUTHORS >Flori, E</bp:AUTHORS>
+      <bp:AUTHORS >Hennekam, R</bp:AUTHORS>
+      <bp:AUTHORS >Beemer, F.A</bp:AUTHORS>
+      <bp:AUTHORS >Laurent, N</bp:AUTHORS>
+      <bp:AUTHORS >Le Merrer, M</bp:AUTHORS>
+      <bp:AUTHORS >Cau, P</bp:AUTHORS>
+      <bp:AUTHORS >L&#195;&#169;vy, N</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c37">
+      <bp:ID >10673356</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Direct Interaction Between Emerin and Lamin A</bp:TITLE>
+      <bp:SOURCE >Biochemical and Biophysical Research Communications, 267(3), 709-714</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Clements, L</bp:AUTHORS>
+      <bp:AUTHORS >Manila, S</bp:AUTHORS>
+      <bp:AUTHORS >Love, D. R</bp:AUTHORS>
+      <bp:AUTHORS >Morris, G. E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ebe">
+      <bp:ID >15165456</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Effects of Wnt Signaling on Proliferation and Differentiation of Human Mesenchymal Stem Cells</bp:TITLE>
+      <bp:SOURCE >TISSUE ENGINEERING,10, 3/4</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >DE BOER, J</bp:AUTHORS>
+      <bp:AUTHORS >WANG, H. J</bp:AUTHORS>
+      <bp:AUTHORS >VAN BLITTERSWIJK,C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f89">
+      <bp:ID >26830228</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >SREBP-1c/MicroRNA 33b Genomic Loci Control Adipocyte Differentiation</bp:TITLE>
+      <bp:SOURCE >Molecular and Cellular Biology, 36(7)</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Price, N. L</bp:AUTHORS>
+      <bp:AUTHORS >Holtrup, B</bp:AUTHORS>
+      <bp:AUTHORS >Kwei, S. L</bp:AUTHORS>
+      <bp:AUTHORS >Wabitsch, M</bp:AUTHORS>
+      <bp:AUTHORS >Rodeheffer, M</bp:AUTHORS>
+      <bp:AUTHORS >Bianchini, L</bp:AUTHORS>
+      <bp:AUTHORS >Su&#195;&#161;rez, Y</bp:AUTHORS>
+      <bp:AUTHORS >Fern&#195;&#161;ndez-Hernando, C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d0e">
+      <bp:ID >12453919</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >PPARG F388L, a Transactivation-Deficient Mutant, in Familial Partial Lipodystrophy </bp:TITLE>
+      <bp:SOURCE > Diabetes, 51(12): 3586-3590</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Hegele, R. A</bp:AUTHORS>
+      <bp:AUTHORS >Cao, H</bp:AUTHORS>
+      <bp:AUTHORS >Frankowski, C</bp:AUTHORS>
+      <bp:AUTHORS >Mathews, S. T</bp:AUTHORS>
+      <bp:AUTHORS >Leff, T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d29">
+      <bp:ID >25451943</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Transcriptional regulation of adipocyte differentiation: a central role for CCAAT/enhancer-binding protein (C/EBP) &#946;</bp:TITLE>
+      <bp:SOURCE >The Journal of Biological Chemistry 290, 755-761</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Guo, L. G</bp:AUTHORS>
+      <bp:AUTHORS >Li, X</bp:AUTHORS>
+      <bp:AUTHORS >Tang, Q. Q</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba8">
+      <bp:ID >12006103</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >CCAAT/enhancer-binding proteins: structure, function and regulation</bp:TITLE>
+      <bp:SOURCE >Biochem. J, 365, 561&#226;&#8364;&#8220;575</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Ramji, D. P</bp:AUTHORS>
+      <bp:AUTHORS >Foka, P</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef3">
+      <bp:ID >8156598</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >SREBP-1, a membrane-bound transcription factor released by sterol-regulated proteolysis</bp:TITLE>
+      <bp:SOURCE >Cell, 77(1), 53-62</bp:SOURCE>
+      <bp:YEAR >1994</bp:YEAR>
+      <bp:AUTHORS >Wang, X</bp:AUTHORS>
+      <bp:AUTHORS >Sato, R</bp:AUTHORS>
+      <bp:AUTHORS >Brown, M. S</bp:AUTHORS>
+      <bp:AUTHORS >Hua, X</bp:AUTHORS>
+      <bp:AUTHORS >Goldstein, J.L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec9">
+      <bp:ID >19135507</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Wnt signaling controls the fate of mesenchymal stem cells</bp:TITLE>
+      <bp:SOURCE >Gene, 433(1-2), 1-7</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Ling, L</bp:AUTHORS>
+      <bp:AUTHORS >Nurcombe, V</bp:AUTHORS>
+      <bp:AUTHORS >Cool, S. M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c0c">
+      <bp:ID >19008118</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Adipogenesis and WNT signalling</bp:TITLE>
+      <bp:SOURCE >Trends Endocrinol Metab</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Christodoulides C</bp:AUTHORS>
+      <bp:AUTHORS >Lagathu C</bp:AUTHORS>
+      <bp:AUTHORS >Sethi JK</bp:AUTHORS>
+      <bp:AUTHORS >Vidal-Puig A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce1">
+      <bp:ID >9233789</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >beta-catenin is a target for the ubiquitin-proteasome pathway.</bp:TITLE>
+      <bp:SOURCE >EMBO J</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Aberle H</bp:AUTHORS>
+      <bp:AUTHORS >Bauer A</bp:AUTHORS>
+      <bp:AUTHORS >Stappert J</bp:AUTHORS>
+      <bp:AUTHORS >Kispert A</bp:AUTHORS>
+      <bp:AUTHORS >Kemler R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bed">
+      <bp:ID >23016862</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Wnt/beta-Catenin Signaling and Small Molecule Inhibitors</bp:TITLE>
+      <bp:SOURCE >Current Pharmaceutical Design,19, 634-664</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Voronkov, A</bp:AUTHORS>
+      <bp:AUTHORS >Krauss, S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c5e">
+      <bp:ID >8175923</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The processing pathway of prelamin A</bp:TITLE>
+      <bp:SOURCE >Journal of Cell Science 107, 61-67</bp:SOURCE>
+      <bp:YEAR >1994</bp:YEAR>
+      <bp:AUTHORS >Sinensky, M</bp:AUTHORS>
+      <bp:AUTHORS >Fantle, K</bp:AUTHORS>
+      <bp:AUTHORS >Trujillo, M</bp:AUTHORS>
+      <bp:AUTHORS >McLain, T</bp:AUTHORS>
+      <bp:AUTHORS >Kupfer, A</bp:AUTHORS>
+      <bp:AUTHORS >Dalton, M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb2">
+      <bp:ID >11929849</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A novel interaction between lamin A and SREBP1: implications for partial lipodystrophy and other laminopathies</bp:TITLE>
+      <bp:SOURCE >Human Molecular Genetics, 11(7), 769&#226;&#8364;&#8220;777</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Lloyd, D.J</bp:AUTHORS>
+      <bp:AUTHORS >Trembath, R.C</bp:AUTHORS>
+      <bp:AUTHORS >Shackleton, S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c7a">
+      <bp:ID >16858403</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The inner nuclear membrane protein Emerin regulates b-catenin activity by restricting its accumulation in the nucleus</bp:TITLE>
+      <bp:SOURCE >The EMBO Journal, 25, 3275-85</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Markiewicz, E</bp:AUTHORS>
+      <bp:AUTHORS >Tilgner, K</bp:AUTHORS>
+      <bp:AUTHORS >Barker, N</bp:AUTHORS>
+      <bp:AUTHORS >van de Wetering, M</bp:AUTHORS>
+      <bp:AUTHORS >Clevers, H</bp:AUTHORS>
+      <bp:AUTHORS >Dorobek, M</bp:AUTHORS>
+      <bp:AUTHORS >Hausmanowa-Petrusewicz, I</bp:AUTHORS>
+      <bp:AUTHORS >Ramaekers, F. C. S</bp:AUTHORS>
+      <bp:AUTHORS >Broers, J. L. V</bp:AUTHORS>
+      <bp:AUTHORS >Blankesteijn, W. M</bp:AUTHORS>
+      <bp:AUTHORS >Salpingidou, G</bp:AUTHORS>
+      <bp:AUTHORS >Wilson, R. G</bp:AUTHORS>
+      <bp:AUTHORS >Ellis, J. A</bp:AUTHORS>
+      <bp:AUTHORS >Hutchison, C. J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c40">
+      <bp:ID >19324969</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MicroRNA let-7 Regulates 3T3-L1 Adipogenesis</bp:TITLE>
+      <bp:SOURCE >Molecular Endocrinology, 23(6),925-931</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Sun, T</bp:AUTHORS>
+      <bp:AUTHORS >Fu, M</bp:AUTHORS>
+      <bp:AUTHORS >Bookout, A. L</bp:AUTHORS>
+      <bp:AUTHORS >Kliewer, S. A</bp:AUTHORS>
+      <bp:AUTHORS >Mangelsdorf, D. J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e63">
+      <bp:ID >10937998</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Inhibition of Adipogenesis by Wnt Signaling</bp:TITLE>
+      <bp:SOURCE >Science, 289(5481), 950-953</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Ross, S. E</bp:AUTHORS>
+      <bp:AUTHORS >Hemati, N</bp:AUTHORS>
+      <bp:AUTHORS >Longo, K. A</bp:AUTHORS>
+      <bp:AUTHORS >Bennett, C. B</bp:AUTHORS>
+      <bp:AUTHORS >Lucas, P. C</bp:AUTHORS>
+      <bp:AUTHORS >Erickson, R. L</bp:AUTHORS>
+      <bp:AUTHORS >MacDougald, O. A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b39">
+      <bp:ID >19342379</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The RNA-induced silencing complex: a versatile gene-silencing machine.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Pratt AJ</bp:AUTHORS>
+      <bp:AUTHORS >MacRae IJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d86">
+      <bp:ID >10959075</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Wnt/beta-catenin signaling</bp:TITLE>
+      <bp:SOURCE >Cytokine Growth Factor Reviews, 11(4),273-282 </bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Akiyama, T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >progeria</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:3911</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

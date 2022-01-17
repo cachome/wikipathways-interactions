@@ -1,0 +1,1512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Neural crest differentiation" Author="Nathan Salomonis" Last-Modified="2/22/2013" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-category">Physiological Process</Comment>
+  <Comment Source="WikiPathways-description">Gene regulatory network model of cranial neural crest cell (CNCC) development, adaped from PMID: 19575671. Most interactions in the model are proposed to regulate transcription of core factors involved involved in neural crest and downstream progenitor specification. Transcriptional regulation arrows are proposed to promote transcription, unless a graphical T-bar is present at the end of the arrow (commented to be inhibitors of transcriptional regulation). Additional gene information was obtained from http://www.ncbi.nlm.nih.gov/books/NBK53143
+
+When citing this pathway, please reference the source publication (PMID: 19575671).
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2064 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>b40</BiopaxRef>
+  <Graphics BoardWidth="1174.7619047619044" BoardHeight="1542.5"/>
+  <DataNode TextLabel="Differentiation" GraphId="ce0a4" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="BMP7" GraphId="e0c75" Type="GeneProduct" GroupRef="d6802">
+        </DataNode>
+  <DataNode TextLabel="RHOB" GraphId="a65e3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MYB" GraphId="de36d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ITGB1" GraphId="c06b7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WNT1" GraphId="aebd4" Type="GeneProduct" GroupRef="b80de">
+        </DataNode>
+  <DataNode TextLabel="TFAP2A" GraphId="a53a5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ZIC1" GraphId="c4b15" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PAX3" GraphId="e5c01" Type="GeneProduct" GroupRef="a298d">
+        </DataNode>
+  <DataNode TextLabel="PAX7" GraphId="fbe26" Type="GeneProduct" GroupRef="a298d">
+        </DataNode>
+  <DataNode TextLabel="DLX5" GraphId="ac2af" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MSX1" GraphId="eff3d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MSX2" GraphId="b6125" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FOXD3" GraphId="f81b4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SNAI1" GraphId="d3d21" Type="GeneProduct" GroupRef="e797f">
+        </DataNode>
+  <DataNode TextLabel="SNAI2" GraphId="d86ed" Type="GeneProduct" GroupRef="e797f">
+        </DataNode>
+  <DataNode TextLabel="WNT3A" GraphId="f931f" Type="GeneProduct" GroupRef="b80de">
+        </DataNode>
+  <DataNode TextLabel="FZD3" GraphId="fe7b2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GSK3B" GraphId="feba7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="f8569" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TCF7L1" GraphId="efbb3" Type="GeneProduct" GroupRef="c0c2c">
+        </DataNode>
+  <DataNode TextLabel="TCF4" GraphId="b398b" Type="GeneProduct" GroupRef="c0c2c">
+        </DataNode>
+  <DataNode TextLabel="GBX2" GraphId="f0142" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AXIN2" GraphId="df842" Type="GeneProduct" GroupRef="f602d">
+        </DataNode>
+  <DataNode TextLabel="AXIN1" GraphId="a36c1" Type="GeneProduct" GroupRef="f602d">
+        </DataNode>
+  <DataNode TextLabel="DVL3" GraphId="af9f6" Type="GeneProduct" GroupRef="a8bcc">
+        </DataNode>
+  <DataNode TextLabel="DVL2" GraphId="d1d3c" Type="GeneProduct" GroupRef="a8bcc">
+        </DataNode>
+  <DataNode TextLabel="DVL1" GraphId="f3716" Type="GeneProduct" GroupRef="a8bcc">
+        </DataNode>
+  <DataNode TextLabel="BMP4" GraphId="a4343" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SMAD1" GraphId="a193a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ID1" GraphId="a7a4c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NOTCH1" GraphId="a9bc3" Type="GeneProduct" GroupRef="c9c43">
+        </DataNode>
+  <DataNode TextLabel="DLL3" GraphId="c524b" Type="GeneProduct" GroupRef="cfe83">
+        </DataNode>
+  <DataNode TextLabel="NOTCH4" GraphId="f09f3" Type="GeneProduct" GroupRef="c9c43">
+        </DataNode>
+  <DataNode TextLabel="NOTCH2" GraphId="f9598" Type="GeneProduct" GroupRef="c9c43">
+        </DataNode>
+  <DataNode TextLabel="DLL4" GraphId="b6975" Type="GeneProduct" GroupRef="cfe83">
+        </DataNode>
+  <DataNode TextLabel="NOTCH3" GraphId="f4083" Type="GeneProduct" GroupRef="c9c43">
+        </DataNode>
+  <DataNode TextLabel="DLL1" GraphId="fc68c" Type="GeneProduct" GroupRef="cfe83">
+        </DataNode>
+  <DataNode TextLabel="HEY2" GraphId="fe469" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TWIST1" GraphId="dc90f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOX10" GraphId="ba2c7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FGF2" GraphId="c22de" Type="GeneProduct" GroupRef="eff87">
+        </DataNode>
+  <DataNode TextLabel="HES5" GraphId="d150c" Type="GeneProduct" GroupRef="b6337">
+        </DataNode>
+  <DataNode TextLabel="HES1" GraphId="e242e" Type="GeneProduct" GroupRef="b6337">
+        </DataNode>
+  <DataNode TextLabel="RBPJ" GraphId="f6357" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HES5" GraphId="a0846" Type="GeneProduct" GroupRef="eb7a9">
+        </DataNode>
+  <DataNode TextLabel="HES1" GraphId="b355e" Type="GeneProduct" GroupRef="eb7a9">
+        </DataNode>
+  <DataNode TextLabel="FGFR1" GraphId="a24a3" Type="GeneProduct" GroupRef="e10c4">
+        </DataNode>
+  <DataNode TextLabel="FGFR2" GraphId="dbcd4" Type="GeneProduct" GroupRef="e10c4">
+        </DataNode>
+  <DataNode TextLabel="FGFR3" GraphId="e4910" Type="GeneProduct" GroupRef="e10c4">
+        </DataNode>
+  <DataNode TextLabel="ZIC5" GraphId="eb509" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MYC" GraphId="adc7b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOX9" GraphId="f96cf" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOX10" GraphId="f429e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ISL1" GraphId="ed0a8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CDH6" GraphId="bf85e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CDH2" GraphId="ae32b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CDH1" GraphId="cb815" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOX5" GraphId="b2ae0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ETS1" GraphId="cd396" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PAX3" GraphId="c6307" Type="GeneProduct" GroupRef="e4405">
+        </DataNode>
+  <DataNode TextLabel="PAX7" GraphId="acccb" Type="GeneProduct" GroupRef="e4405">
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="fd3c0" Type="GeneProduct" GroupRef="dd74f">
+        </DataNode>
+  <DataNode TextLabel="CDH7" GraphId="f7a1a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TFAP2A" GraphId="fe7fc" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SNAI1" GraphId="ec4d9" Type="GeneProduct" GroupRef="bd817">
+        </DataNode>
+  <DataNode TextLabel="SNAI2" GraphId="a2d71" Type="GeneProduct" GroupRef="bd817">
+        </DataNode>
+  <DataNode TextLabel="FOXD3" GraphId="b5a88" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ID1" GraphId="b9655" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOX9" GraphId="f79d4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NFKB2" GraphId="dd95c" Type="GeneProduct" GroupRef="dd74f">
+        </DataNode>
+  <DataNode TextLabel="NEUROG1" GraphId="f5459" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOX10" GraphId="cc05f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PHOX2B" GraphId="aed06" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GFAP" GraphId="a63cb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="OLIG1" GraphId="fbd92" Type="GeneProduct" GroupRef="c4011">
+        </DataNode>
+  <DataNode TextLabel="OLIG2" GraphId="d92dc" Type="GeneProduct" GroupRef="c4011">
+        </DataNode>
+  <DataNode TextLabel="GJB1" GraphId="fa4f2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ASCL1" GraphId="ba17d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MITF" GraphId="e5f13" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PMP22" GraphId="ba933" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MPZ" GraphId="f3c5c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MBP" GraphId="ade50" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FOXD3" GraphId="ea36b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PAX3" GraphId="eb40e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LHX1" GraphId="f780a" Type="GeneProduct" GroupRef="cafde">
+        </DataNode>
+  <DataNode TextLabel="LHX2" GraphId="e9f6c" Type="GeneProduct" GroupRef="cafde">
+        </DataNode>
+  <DataNode TextLabel="BMP4" GraphId="e611a" Type="GeneProduct" GroupRef="d6802">
+        </DataNode>
+  <DataNode TextLabel="FGF8" GraphId="b6385" Type="GeneProduct" GroupRef="eff87">
+        </DataNode>
+  <DataNode TextLabel="FGF19" GraphId="c1f43" Type="GeneProduct" GroupRef="eff87">
+        </DataNode>
+  <DataNode TextLabel="SOX10" GraphId="f9f95" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PAX3" GraphId="cae36" Type="GeneProduct" GroupRef="dd865">
+        </DataNode>
+  <DataNode TextLabel="PAX7" GraphId="f1b39" Type="GeneProduct" GroupRef="dd865">
+        </DataNode>
+  <DataNode TextLabel="SOX5" GraphId="b4243" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MITF" GraphId="c3a60" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HDAC1" GraphId="d2f0d" Type="GeneProduct" GroupRef="f974e">
+        </DataNode>
+  <DataNode TextLabel="HDAC2" GraphId="d64ab" Type="GeneProduct" GroupRef="f974e">
+        </DataNode>
+  <DataNode TextLabel="HDAC3" GraphId="adb66" Type="GeneProduct" GroupRef="f974e">
+        </DataNode>
+  <DataNode TextLabel="HDAC4" GraphId="b6946" Type="GeneProduct" GroupRef="f974e">
+        </DataNode>
+  <DataNode TextLabel="HDAC5" GraphId="f85c8" Type="GeneProduct" GroupRef="f974e">
+        </DataNode>
+  <DataNode TextLabel="HDAC6" GraphId="cf02a" Type="GeneProduct" GroupRef="f974e">
+        </DataNode>
+  <DataNode TextLabel="HDAC7" GraphId="e46fe" Type="GeneProduct" GroupRef="f974e">
+        </DataNode>
+  <DataNode TextLabel="HDAC8" GraphId="b5d34" Type="GeneProduct" GroupRef="f974e">
+        </DataNode>
+  <DataNode TextLabel="HDAC9" GraphId="ab2ba" Type="GeneProduct" GroupRef="f974e">
+        </DataNode>
+  <DataNode TextLabel="HDAC10" GraphId="a7dfd" Type="GeneProduct" GroupRef="f974e">
+        </DataNode>
+  <DataNode TextLabel="HDAC11" GraphId="b659c" Type="GeneProduct" GroupRef="f974e">
+        </DataNode>
+  <DataNode TextLabel="CTBP2" GraphId="e003f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DCT" GraphId="f0bf7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOX5" GraphId="f03b6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOX9" GraphId="c2556" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="COL2A1" GraphId="afb94" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="COL11A2" GraphId="e22b9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MIA" GraphId="a87c6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WNT8A" GraphId="a13db" Type="GeneProduct" GroupRef="b80de">
+    <BiopaxRef>e22</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="HOXB1" GraphId="eff97" Type="GeneProduct">
+    <BiopaxRef>b42</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PRTG" GraphId="db89b" Type="GeneProduct">
+    <BiopaxRef>e36</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="OLIG3" GraphId="b0adf" Type="GeneProduct">
+    <BiopaxRef>ec7</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TBX6" GraphId="c60af" Type="GeneProduct">
+    <BiopaxRef>cac</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="HOXA1" GraphId="ac9c3" Type="GeneProduct">
+    <BiopaxRef>e64</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="LHX5" GraphId="d3dd9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TLX2" GraphId="f7a62" Type="GeneProduct">
+    <BiopaxRef>f97</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TFAP2B" GraphId="a527c" Type="GeneProduct">
+    <BiopaxRef>c16</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="DMBX1" GraphId="f7d25" Type="GeneProduct">
+    <BiopaxRef>a91</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="HAND1" GraphId="ea98c" Type="GeneProduct">
+    <BiopaxRef>a91</BiopaxRef>
+        </DataNode>
+  <Interaction GraphId="b1d59">
+    <Comment>inhitory transcriptional regulation</Comment>
+    <Graphics ConnectorType="Elbow" Color="00cc99">
+      <Point GraphRef="f429e"/>
+      <Point GraphRef="ae32b" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb4e3ff23">
+    <Graphics ConnectorType="Elbow" Color="ff99cc">
+      <Point GraphRef="ba422"/>
+      <Point GraphRef="eff3d" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idca04e030">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="eff97"/>
+      <Point/>
+      <Point GraphRef="c0c79" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb6078f83">
+    <Graphics ConnectorType="Elbow" Color="006666">
+      <Point GraphRef="ac9c3"/>
+      <Point/>
+      <Point GraphRef="c4b15" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id26efb39e">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f438d"/>
+      <Point GraphRef="ebd39" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9890cc5d">
+    <Graphics>
+      <Point GraphRef="d447c"/>
+      <Point GraphRef="a4343"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id97e2389e">
+    <Graphics>
+      <Point GraphRef="dad84"/>
+      <Point GraphRef="c079f" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id303c8158">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ce0a4"/>
+      <Point/>
+      <Point GraphRef="f9f95" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb3a0d0a4">
+    <Graphics ConnectorType="Elbow" Color="33ff00">
+      <Point GraphRef="f3170"/>
+      <Point/>
+      <Point GraphRef="b10b3" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfe12f8c5">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="eb40e"/>
+      <Point GraphRef="e5f13" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbac670e0">
+    <Graphics Color="33ff00">
+      <Point GraphRef="efe73"/>
+      <Point GraphRef="bbf49" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf1d6d879">
+    <Comment>inhitory transcriptional regulation</Comment>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bba98"/>
+      <Point GraphRef="c3a60" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb99b09d6">
+    <Graphics>
+      <Point GraphRef="ebd39"/>
+      <Point GraphRef="ba422" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf584af00">
+    <Graphics ConnectorType="Elbow" Color="3366ff">
+      <Point GraphRef="eff3d"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="c4b15" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id81cfb54b">
+    <Graphics Color="33ff00">
+      <Point GraphRef="feba7"/>
+      <Point GraphRef="f8569" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id733752a2">
+    <Graphics Color="33ff00">
+      <Point GraphRef="fe7b2"/>
+      <Point GraphRef="efe73" ArrowHead="mim-necessary-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcd85cec2">
+    <Graphics ConnectorType="Elbow" Color="cc99ff">
+      <Point GraphRef="f0142"/>
+      <Point GraphRef="b10b3" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc341acef">
+    <Graphics Color="33ff00">
+      <Point GraphRef="bbf49"/>
+      <Point GraphRef="feba7" ArrowHead="mim-necessary-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id607a65c0">
+    <Graphics Color="666600">
+      <Point GraphRef="b4243"/>
+      <Point GraphRef="bba98" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5101dbbe">
+    <Graphics>
+      <Point GraphRef="b74c4"/>
+      <Point GraphRef="fe7b2" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id53777f0">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f6357"/>
+      <Point GraphRef="bff8c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id93112d98">
+    <Graphics Color="33ff00">
+      <Point GraphRef="f3170"/>
+      <Point GraphRef="f0142" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9ccdc5df">
+    <Graphics ConnectorType="Elbow" Color="ffcc00">
+      <Point GraphRef="c4b15"/>
+      <Point GraphRef="b10b3" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id450c471d">
+    <Graphics Color="33ff00">
+      <Point GraphRef="f8569"/>
+      <Point GraphRef="f3170" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idffe825b9">
+    <Graphics Color="666600">
+      <Point GraphRef="b4243"/>
+      <Point GraphRef="e003f" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6bebde00">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id70895625">
+    <Graphics Color="990099">
+      <Point GraphRef="a4343"/>
+      <Point GraphRef="a193a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida9b7b81f">
+    <Graphics Color="99cc00">
+      <Point GraphRef="b9655"/>
+      <Point GraphRef="ce0a4" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b99f2">
+    <Graphics ConnectorType="Elbow" Color="990099">
+      <Point GraphRef="a193a"/>
+      <Point/>
+      <Point GraphRef="ebd11" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b0525">
+    <Graphics ConnectorType="Elbow" Color="990099">
+      <Point GraphRef="a193a"/>
+      <Point/>
+      <Point GraphRef="a7a4c" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e78fb">
+    <Graphics ConnectorType="Elbow" Color="990099">
+      <Point GraphRef="a193a"/>
+      <Point/>
+      <Point GraphRef="b6125" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c551e">
+    <Graphics ConnectorType="Elbow" Color="990099">
+      <Point GraphRef="a193a"/>
+      <Point/>
+      <Point GraphRef="ac2af" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d1b3b">
+    <Graphics ConnectorType="Elbow" Color="990099">
+      <Point GraphRef="a193a"/>
+      <Point/>
+      <Point GraphRef="c4b15" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a1c59">
+    <Graphics ConnectorType="Elbow" Color="990099">
+      <Point GraphRef="a193a"/>
+      <Point/>
+      <Point GraphRef="b10b3" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fea89">
+    <Graphics ConnectorType="Elbow" Color="990099">
+      <Point GraphRef="a193a"/>
+      <Point/>
+      <Point GraphRef="eff3d" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6d98">
+    <Graphics ConnectorType="Elbow" Color="33ff00">
+      <Point GraphRef="f3170"/>
+      <Point/>
+      <Point GraphRef="c4b15" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cbd74">
+    <Graphics ConnectorType="Elbow" Color="33ff00">
+      <Point GraphRef="f3170"/>
+      <Point/>
+      <Point GraphRef="eff3d" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aa722">
+    <Graphics ConnectorType="Elbow" Color="cc99ff">
+      <Point GraphRef="f0142"/>
+      <Point/>
+      <Point GraphRef="eff3d" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a7792">
+    <Graphics ConnectorType="Elbow" Color="00ccff">
+      <Point GraphRef="c079f"/>
+      <Point GraphRef="dc90f" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dd02f">
+    <Graphics ConnectorType="Elbow" Color="00ccff">
+      <Point GraphRef="c079f"/>
+      <Point GraphRef="ba2c7" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e9e87">
+    <Graphics ConnectorType="Elbow" Color="00ccff">
+      <Point GraphRef="c079f"/>
+      <Point/>
+      <Point GraphRef="f6357" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bb66d">
+    <Graphics ConnectorType="Elbow" Color="00ccff">
+      <Point GraphRef="c079f"/>
+      <Point/>
+      <Point GraphRef="a867e" ArrowHead="mim-transcription-translation"/>
+      <Anchor Position="0.9792385999483958" Shape="None" GraphId="e519e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c52b6">
+    <Graphics ConnectorType="Elbow" Color="00ccff">
+      <Point GraphRef="c079f"/>
+      <Point/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="fe469" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a57f7">
+    <Graphics ConnectorType="Elbow" Color="ff99cc">
+      <Point GraphRef="ba422"/>
+      <Point/>
+      <Point GraphRef="b10b3" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cf615">
+    <Graphics ConnectorType="Elbow" Color="ff99cc">
+      <Point GraphRef="ba422"/>
+      <Point GraphRef="c4b15" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dca2e">
+    <Graphics ConnectorType="Elbow" Color="ff99cc">
+      <Point GraphRef="ba422"/>
+      <Point/>
+      <Point GraphRef="eb509" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a35a3">
+    <Graphics ConnectorType="Elbow" Color="ff99cc">
+      <Point GraphRef="ba422"/>
+      <Point GraphRef="ebd11" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c56f8">
+    <Graphics ConnectorType="Elbow" Color="3366ff">
+      <Point GraphRef="eff3d"/>
+      <Point/>
+      <Point GraphRef="a53a5" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ade58">
+    <Graphics ConnectorType="Elbow" Color="3366ff">
+      <Point GraphRef="eff3d"/>
+      <Point/>
+      <Point GraphRef="ebd11" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fcb90">
+    <Graphics ConnectorType="Elbow" Color="3366ff">
+      <Point GraphRef="eff3d"/>
+      <Point/>
+      <Point GraphRef="f81b4" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="da41e">
+    <Graphics ConnectorType="Elbow" Color="00ccff">
+      <Point GraphRef="c079f"/>
+      <Point GraphRef="eff3d" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f49a1">
+    <Graphics ConnectorType="Elbow" Color="ffcc00">
+      <Point GraphRef="c4b15"/>
+      <Point/>
+      <Point GraphRef="adc7b" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a155c">
+    <Graphics ConnectorType="Elbow" Color="ffcc00">
+      <Point GraphRef="c4b15"/>
+      <Point/>
+      <Point GraphRef="f81b4" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aa6b1">
+    <Graphics ConnectorType="Elbow" Color="660066">
+      <Point GraphRef="a53a5"/>
+      <Point GraphRef="eff3d" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d1535">
+    <Graphics ConnectorType="Elbow" Color="660066">
+      <Point GraphRef="a53a5"/>
+      <Point GraphRef="b10b3" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de6d7">
+    <Graphics ConnectorType="Elbow" Color="660066">
+      <Point GraphRef="a53a5"/>
+      <Point GraphRef="adc7b" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c3762">
+    <Graphics ConnectorType="Elbow" Color="000066">
+      <Point GraphRef="ac2af"/>
+      <Point GraphRef="eff3d" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="deaf3">
+    <Graphics ConnectorType="Elbow" Color="006633">
+      <Point GraphRef="fe469"/>
+      <Point GraphRef="f81b4" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e01c3">
+    <Graphics ConnectorType="Elbow" Color="006633">
+      <Point GraphRef="fe469"/>
+      <Point GraphRef="ebd11" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6fea">
+    <Graphics ConnectorType="Elbow" Color="33ff00">
+      <Point GraphRef="f3170"/>
+      <Point GraphRef="ebd11" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b8ab5">
+    <Graphics ConnectorType="Elbow" Color="33ff00">
+      <Point GraphRef="f3170"/>
+      <Point GraphRef="f81b4" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e06bf">
+    <Graphics ConnectorType="Elbow" Color="33ff00">
+      <Point GraphRef="f3170"/>
+      <Point/>
+      <Point GraphRef="a7a4c" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ca62e">
+    <Graphics ConnectorType="Elbow" Color="ffcc00">
+      <Point GraphRef="c4b15"/>
+      <Point/>
+      <Point GraphRef="a7a4c" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d45e0">
+    <Graphics ConnectorType="Elbow" Color="660066">
+      <Point GraphRef="a53a5"/>
+      <Point GraphRef="a7a4c" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bfe7a">
+    <Graphics ConnectorType="Elbow" Color="660066">
+      <Point GraphRef="a53a5"/>
+      <Point GraphRef="ebd11" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c292a">
+    <Graphics ConnectorType="Elbow" Color="006666">
+      <Point GraphRef="f96cf"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="ebd11" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e4c49">
+    <Graphics ConnectorType="Elbow" Color="006666">
+      <Point GraphRef="f96cf"/>
+      <Point GraphRef="f429e" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d7720">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="f429e"/>
+      <Point GraphRef="f96cf" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bf251">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="f429e"/>
+      <Point GraphRef="f81b4" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b5be9">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="f429e"/>
+      <Point GraphRef="ebd11" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="faaa7">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="f429e"/>
+      <Point GraphRef="c06b7" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c4e95">
+    <Graphics ConnectorType="Elbow" Color="ff6633">
+      <Point GraphRef="adc7b"/>
+      <Point GraphRef="b10b3" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f1c47">
+    <Graphics ConnectorType="Elbow" Color="ff6633">
+      <Point GraphRef="adc7b"/>
+      <Point GraphRef="eff3d" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2fbc">
+    <Graphics ConnectorType="Elbow" Color="ff6633">
+      <Point GraphRef="adc7b"/>
+      <Point GraphRef="a7a4c" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fadca">
+    <Comment>inhitory transcriptional regulation</Comment>
+    <Graphics ConnectorType="Elbow" Color="663300">
+      <Point GraphRef="ebd11"/>
+      <Point/>
+      <Point GraphRef="cb815" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a2041">
+    <Comment>inhitory transcriptional regulation</Comment>
+    <Graphics ConnectorType="Elbow" Color="663300">
+      <Point GraphRef="ebd11"/>
+      <Point/>
+      <Point GraphRef="bf85e" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d5ba9">
+    <Graphics ConnectorType="Elbow" Color="666600">
+      <Point GraphRef="de36d"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="f429e" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d5421">
+    <Graphics ConnectorType="Elbow" Color="666600">
+      <Point GraphRef="de36d"/>
+      <Point GraphRef="cd396" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6245">
+    <Graphics ConnectorType="Elbow" Color="990000">
+      <Point GraphRef="cd396"/>
+      <Point GraphRef="f429e" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d4042">
+    <Graphics ConnectorType="Elbow" Color="ff33cc">
+      <Point GraphRef="ebd11"/>
+      <Point/>
+      <Point GraphRef="f429e" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c569f">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8657">
+    <Graphics ConnectorType="Elbow" Color="ff00cc">
+      <Point GraphRef="ebd11"/>
+      <Point/>
+      <Point GraphRef="f81b4" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b8ba0">
+    <Graphics ConnectorType="Elbow" Color="ff33cc">
+      <Point GraphRef="ebd11"/>
+      <Point GraphRef="dc90f" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b50cf">
+    <Graphics ConnectorType="Elbow" Color="ff9966">
+      <Point GraphRef="f81b4"/>
+      <Point GraphRef="dc90f" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ad864">
+    <Comment>inhitory transcriptional regulation</Comment>
+    <Graphics ConnectorType="Elbow" Color="00cccc">
+      <Point GraphRef="f81b4"/>
+      <Point GraphRef="ae32b" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f7a60">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e7b84">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d91e6">
+    <Graphics ConnectorType="Elbow" Color="996600">
+      <Point GraphRef="b2ae0"/>
+      <Point GraphRef="ebd11" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b6538">
+    <Graphics ConnectorType="Elbow" Color="996600">
+      <Point GraphRef="b2ae0"/>
+      <Point GraphRef="a65e3" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c2856">
+    <Graphics ConnectorType="Elbow" Color="3399ff">
+      <Point GraphRef="b10b3"/>
+      <Point/>
+      <Point GraphRef="ebd11" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="da6bc">
+    <Graphics ConnectorType="Elbow" Color="3399ff">
+      <Point GraphRef="b10b3"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="f81b4" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ac23d">
+    <Graphics ConnectorType="Elbow" Color="3399ff">
+      <Point GraphRef="a2d94"/>
+      <Point GraphRef="ba2c7" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b96c6">
+    <Graphics ConnectorType="Elbow" Color="d94a02">
+      <Point GraphRef="d3665"/>
+      <Point GraphRef="ba2c7" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ba6cd">
+    <Graphics ConnectorType="Elbow" Color="ff9966">
+      <Point GraphRef="f81b4"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="c06b7" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a1b53">
+    <Graphics ConnectorType="Elbow" Color="33ff00">
+      <Point GraphRef="f3170"/>
+      <Point GraphRef="ba2c7" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e9000">
+    <Graphics ConnectorType="Elbow" Color="33ff00">
+      <Point GraphRef="f3170"/>
+      <Point GraphRef="f79d4" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b4800">
+    <Graphics ConnectorType="Elbow" Color="006666">
+      <Point GraphRef="f79d4"/>
+      <Point GraphRef="ba2c7" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c46c4">
+    <Graphics ConnectorType="Curved" Color="ff0000">
+      <Point GraphRef="ba2c7"/>
+      <Point/>
+      <Point GraphRef="ba2c7" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0df6">
+    <Graphics ConnectorType="Elbow" Color="660066">
+      <Point GraphRef="fe7fc"/>
+      <Point GraphRef="ba2c7" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d1a07">
+    <Graphics ConnectorType="Elbow" Color="ff9966">
+      <Point GraphRef="f81b4"/>
+      <Point/>
+      <Point GraphRef="f7a1a" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f11cf">
+    <Comment>inhitory transcriptional regulation</Comment>
+    <Graphics ConnectorType="Elbow" Color="00cccc">
+      <Point GraphRef="b5a88"/>
+      <Point GraphRef="b5a88" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f662c">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b5fe0">
+    <Comment>inhitory transcriptional regulation</Comment>
+    <Graphics ConnectorType="Elbow" Color="00cccc">
+      <Point GraphRef="b5a88"/>
+      <Point GraphRef="a7bbc" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c109c">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ab0b4">
+    <Comment>inhitory transcriptional regulation</Comment>
+    <Graphics ConnectorType="Elbow" Color="663300">
+      <Point GraphRef="b2ae0"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="ba2c7" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aba60">
+    <Comment>inhitory transcriptional regulation</Comment>
+    <Graphics ConnectorType="Elbow" Color="663300">
+      <Point GraphRef="b2ae0"/>
+      <Point GraphRef="b5a88" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c923c">
+    <Comment>inhitory transcriptional regulation</Comment>
+    <Graphics ConnectorType="Elbow" Color="00cccc">
+      <Point GraphRef="ea36b"/>
+      <Point GraphRef="eb40e" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f74ef">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ea6ff">
+    <Graphics ConnectorType="Elbow" Color="b8b898">
+      <Point GraphRef="a867e"/>
+      <Point GraphRef="a63cb" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b8785">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="cc05f"/>
+      <Point/>
+      <Point GraphRef="f3c5c" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="edb5c">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="cc05f"/>
+      <Point GraphRef="f5459" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fad46">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="cc05f"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="ba17d" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e4da0">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="cc05f"/>
+      <Point GraphRef="aed06" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a8078">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="cc05f"/>
+      <Point/>
+      <Point GraphRef="ba933" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c924f">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="cc05f"/>
+      <Point/>
+      <Point GraphRef="fa4f2" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f026b">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="cc05f"/>
+      <Point/>
+      <Point GraphRef="ade50" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc935">
+    <Graphics ConnectorType="Elbow" Color="ff9966">
+      <Point GraphRef="a63cb"/>
+      <Point/>
+      <Point GraphRef="c0c79" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc735">
+    <Graphics ConnectorType="Elbow" Color="ff9999">
+      <Point GraphRef="fa4f2"/>
+      <Point/>
+      <Point GraphRef="c0c79" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ca50c">
+    <Graphics ConnectorType="Elbow" Color="33ccff">
+      <Point GraphRef="ade50"/>
+      <Point GraphRef="c0c79" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f5f97">
+    <Graphics ConnectorType="Elbow" Color="9933ff">
+      <Point GraphRef="ba933"/>
+      <Point GraphRef="c0c79" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cf8f9">
+    <Graphics ConnectorType="Elbow" Color="9933ff">
+      <Point GraphRef="f3c5c"/>
+      <Point GraphRef="c0c79" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a1098">
+    <Graphics ConnectorType="Elbow" Color="663300">
+      <Point GraphRef="e5f13"/>
+      <Point GraphRef="c0c79" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ef40c">
+    <Graphics ConnectorType="Elbow" Color="cc9900">
+      <Point GraphRef="eb2ce"/>
+      <Point GraphRef="f4aec" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cd59d">
+    <Graphics ConnectorType="Elbow" Color="ff0099">
+      <Point GraphRef="f2fde"/>
+      <Point GraphRef="f4aec" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cc6c7">
+    <Graphics ConnectorType="Elbow" Color="00ccff">
+      <Point GraphRef="e519e"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="f4aec" ArrowHead="mim-inhibition"/>
+      <Anchor Position="0.9792385999483958" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e499f">
+    <Graphics ConnectorType="Elbow" Color="ff6699">
+      <Point GraphRef="ba17d"/>
+      <Point GraphRef="e94c3" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e1ec4">
+    <Comment>inhitory transcriptional regulation</Comment>
+    <Graphics ConnectorType="Elbow" Color="330099">
+      <Point GraphRef="ed0a8"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="f5459" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0f14">
+    <Comment>inhitory transcriptional regulation</Comment>
+    <Graphics ConnectorType="Elbow" Color="330099">
+      <Point GraphRef="ed0a8"/>
+      <Point/>
+      <Point GraphRef="f2fde" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ccf9c">
+    <Comment>inhitory transcriptional regulation</Comment>
+    <Graphics ConnectorType="Elbow" Color="330099">
+      <Point GraphRef="ed0a8"/>
+      <Point/>
+      <Point GraphRef="eb2ce" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fcefe">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cdd74">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d5ee6">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f852c">
+    <Graphics ConnectorType="Elbow" Color="3399ff">
+      <Point GraphRef="d2ab7"/>
+      <Point GraphRef="c3a60" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6e3a">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="f9f95"/>
+      <Point GraphRef="c3a60" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6dd2">
+    <Comment>inhitory transcriptional regulation</Comment>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e003f"/>
+      <Point GraphRef="c3a60" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e97ca">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a4ec6">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e977f">
+    <Graphics ConnectorType="Elbow" Color="663300">
+      <Point GraphRef="c3a60"/>
+      <Point GraphRef="f0bf7" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e2771">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="f9f95"/>
+      <Point GraphRef="f0bf7" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c5293">
+    <Comment>inhitory transcriptional regulation</Comment>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e003f"/>
+      <Point GraphRef="f0bf7" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d5cc8">
+    <Comment>inhitory transcriptional regulation</Comment>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bba98"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="f0bf7" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ac74e">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b3b9a">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a12e3">
+    <Graphics ConnectorType="Elbow" Color="006666">
+      <Point GraphRef="c2556"/>
+      <Point GraphRef="e22b9" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d924a">
+    <Graphics ConnectorType="Elbow" Color="006666">
+      <Point GraphRef="c2556"/>
+      <Point GraphRef="afb94" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d8276">
+    <Graphics ConnectorType="Elbow" Color="006666">
+      <Point GraphRef="c2556"/>
+      <Point GraphRef="a87c6" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6c15">
+    <Graphics ConnectorType="Elbow" Color="996600">
+      <Point GraphRef="f03b6"/>
+      <Point GraphRef="afb94" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dbcc8">
+    <Graphics ConnectorType="Elbow" Color="999999">
+      <Point GraphRef="bff8c"/>
+      <Point GraphRef="afb94" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f4291">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ce0a4"/>
+      <Point/>
+      <Point GraphRef="c2556" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eefa3">
+    <Graphics ConnectorType="Elbow" Color="006666">
+      <Point GraphRef="ac9c3"/>
+      <Point/>
+      <Point GraphRef="f81b4" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8445">
+    <Graphics Color="006666">
+      <Point GraphRef="ac9c3"/>
+      <Point ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Snail/Slug" GraphId="f2cd3" GroupRef="e797f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Delta" GraphId="c3740">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="(high)" GraphId="a1354">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="(intermed)" GraphId="a2339">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nuclear TFs" GraphId="ba422">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Epidermis" GraphId="c597e">
+    <Graphics FillColor="ffffff" Color="660066"/>
+  </Label>
+  <Label TextLabel="Mesoderm" GraphId="b28e6">
+    <Graphics FillColor="ffffff" Color="006633"/>
+  </Label>
+  <Label TextLabel="Neural plate border" GraphId="e5bce">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Neural&#10;plate" GraphId="a85b0">
+    <Graphics FillColor="ffffff" Color="ff00cc"/>
+  </Label>
+  <Label TextLabel="Snail/Slug" GraphId="d6b16" GroupRef="bd817">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Premigratory CNCC" GraphId="b2086">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Neurons/glia" GraphId="a009c">
+    <Graphics FillColor="ffffff" Color="ff6633"/>
+  </Label>
+  <Label TextLabel="Melanocytes" GraphId="bdb64">
+    <Graphics FillColor="ffffff" Color="3366ff"/>
+  </Label>
+  <Label TextLabel="Chondrocytes" GraphId="c18b3">
+    <Graphics FillColor="ffffff" Color="cc6600"/>
+  </Label>
+  <Label TextLabel="Autonomic&#10;Nervous&#10;System" GraphId="e94c3">
+    <Graphics FillColor="ffffff" Color="666666"/>
+  </Label>
+  <Label TextLabel="Sensory&#10;Neurons" GraphId="f4aec">
+    <Graphics FillColor="ffffff" Color="666666"/>
+  </Label>
+  <Label TextLabel="Glia" GraphId="c0c79">
+    <Graphics FillColor="ffffff" Color="666666"/>
+  </Label>
+  <Label TextLabel="Migratory CNCC" GraphId="ab210">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Other Implicated" GraphId="c59ef">
+    <Graphics FillColor="ffffff" Color="330033"/>
+  </Label>
+  <Shape GraphId="f8e28">
+    <Graphics FillColor="eceaea" ShapeType="Rectangle" Color="f5f2f2"/>
+  </Shape>
+  <Shape GraphId="b9267">
+    <Graphics FillColor="ffffcc" ShapeType="Rectangle" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="cacb7">
+    <Graphics FillColor="fbe5ce" ShapeType="Rectangle" Color="fce6cf"/>
+  </Shape>
+  <Shape GraphId="ddf44">
+    <Graphics FillColor="cefbf0" ShapeType="Rectangle" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="d9efc">
+    <Graphics FillColor="fcdaf2" ShapeType="Rectangle" Color="f6d7fb"/>
+  </Shape>
+  <Shape GraphId="fb62f">
+    <Graphics FillColor="eceaea" ShapeType="Rectangle" Color="f5f2f2"/>
+  </Shape>
+  <Shape GraphId="c4a09">
+    <Graphics FillColor="eceaea" ShapeType="Rectangle" Color="f5f2f2"/>
+  </Shape>
+  <Shape GraphId="e5c79">
+    <Graphics FillColor="ccffcc" ShapeType="Rectangle" Color="ccffcc"/>
+  </Shape>
+  <Shape GraphId="dfcc0">
+    <Graphics FillColor="ffdaff" ShapeType="Rectangle" Color="f6d7fb"/>
+  </Shape>
+  <Shape GraphId="e9af3">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Group GroupId="a298d" GraphId="b10b3" Style="Group"/>
+  <Group GroupId="e797f" GraphId="ebd11" Style="Group"/>
+  <Group GroupId="cfe83" GraphId="dad84"/>
+  <Group GroupId="e4405" GraphId="a2d94" Style="Group"/>
+  <Group GroupId="c0c2c" GraphId="f3170" Style="Group"/>
+  <Group GroupId="dd74f" GraphId="d3665" Style="Group"/>
+  <Group GroupId="bd817" GraphId="a7bbc" Style="Group"/>
+  <Group GroupId="eff87" GraphId="f438d" Style="Group"/>
+  <Group GroupId="b6337" GraphId="a867e"/>
+  <Group GroupId="cafde" GraphId="f2fde" Style="Group"/>
+  <Group GroupId="dd865" GraphId="d2ab7" Style="Group"/>
+  <Group GroupId="d6802" GraphId="d447c" Style="Group"/>
+  <Group GroupId="c4011" GraphId="eb2ce" Style="Group"/>
+  <Group GroupId="a8bcc" GraphId="efe73" Style="Group"/>
+  <Group GroupId="c9c43" GraphId="c079f"/>
+  <Group GroupId="f974e" GraphId="bba98" Style="Group"/>
+  <Group GroupId="e10c4" GraphId="ebd39" Style="Group"/>
+  <Group GroupId="eb7a9" GraphId="bff8c"/>
+  <Group GroupId="f602d" GraphId="bbf49" Style="Group"/>
+  <Group GroupId="b80de" GraphId="b74c4" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e36">
+      <bp:ID >21108791</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Protogenin, a new member of the immunoglobulin superfamily, is implicated in the development of the mouse lower first molar.</bp:TITLE>
+      <bp:SOURCE >BMC Dev Biol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Takahashi KF</bp:AUTHORS>
+      <bp:AUTHORS >Kiyoshima T</bp:AUTHORS>
+      <bp:AUTHORS >Kobayashi I</bp:AUTHORS>
+      <bp:AUTHORS >Xie M</bp:AUTHORS>
+      <bp:AUTHORS >Yamaza H</bp:AUTHORS>
+      <bp:AUTHORS >Fujiwara H</bp:AUTHORS>
+      <bp:AUTHORS >Ookuma Y</bp:AUTHORS>
+      <bp:AUTHORS >Nagata K</bp:AUTHORS>
+      <bp:AUTHORS >Wada H</bp:AUTHORS>
+      <bp:AUTHORS >Sakai T</bp:AUTHORS>
+      <bp:AUTHORS >Terada Y</bp:AUTHORS>
+      <bp:AUTHORS >Sakai H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b40">
+      <bp:ID >19575671</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Assembling neural crest regulatory circuits into a gene regulatory network.</bp:TITLE>
+      <bp:SOURCE >Annu Rev Cell Dev Biol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Betancur P</bp:AUTHORS>
+      <bp:AUTHORS >Bronner-Fraser M</bp:AUTHORS>
+      <bp:AUTHORS >Sauka-Spengler T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f97">
+      <bp:ID >16402914</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE />
+      <bp:SOURCE />
+      <bp:YEAR />
+      <bp:ID >16402914</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The TLX2 homeobox gene is a transcriptional target of PHOX2B in neural-crest-derived cells.</bp:TITLE>
+      <bp:SOURCE >Biochem J</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Borghini S</bp:AUTHORS>
+      <bp:AUTHORS >Bachetti T</bp:AUTHORS>
+      <bp:AUTHORS >Fava M</bp:AUTHORS>
+      <bp:AUTHORS >Di Duca M</bp:AUTHORS>
+      <bp:AUTHORS >Cargnin F</bp:AUTHORS>
+      <bp:AUTHORS >Fornasari D</bp:AUTHORS>
+      <bp:AUTHORS >Ravazzolo R</bp:AUTHORS>
+      <bp:AUTHORS >Ceccherini I</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cac">
+      <bp:ID >20083100</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A divergent Tbx6-related gene and Tbx6 are both required for neural crest and intermediate mesoderm development in Xenopus.</bp:TITLE>
+      <bp:SOURCE >Dev Biol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Callery EM</bp:AUTHORS>
+      <bp:AUTHORS >Thomsen GH</bp:AUTHORS>
+      <bp:AUTHORS >Smith JC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e64">
+      <bp:ID >21784065</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification of novel Hoxa1 downstream targets regulating hindbrain, neural crest and inner ear development.</bp:TITLE>
+      <bp:SOURCE >Dev Biol</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Makki N</bp:AUTHORS>
+      <bp:AUTHORS >Capecchi MR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec7">
+      <bp:ID >15731351</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The basic helix-loop-helix olig3 establishes the neural plate boundary of the trunk and is necessary for development of the dorsal spinal cord.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Filippi A</bp:AUTHORS>
+      <bp:AUTHORS >Tiso N</bp:AUTHORS>
+      <bp:AUTHORS >Deflorian G</bp:AUTHORS>
+      <bp:AUTHORS >Zecchin E</bp:AUTHORS>
+      <bp:AUTHORS >Bortolussi M</bp:AUTHORS>
+      <bp:AUTHORS >Argenton F</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >regulatory pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000004</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >neuron neural crest derived</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000029</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a91">
+      <bp:ID >16845469</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Generation and maintenance of Dmbx1 gene-targeted mutant alleles.</bp:TITLE>
+      <bp:SOURCE >Mamm Genome</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Ohtoshi A</bp:AUTHORS>
+      <bp:AUTHORS >Bradley A</bp:AUTHORS>
+      <bp:AUTHORS >Behringer RR</bp:AUTHORS>
+      <bp:AUTHORS >Nishijima I</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b42">
+      <bp:ID >12815623</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Hoxb1 neural crest preferentially form glia of the PNS.</bp:TITLE>
+      <bp:SOURCE >Dev Dyn</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Arenkiel BR</bp:AUTHORS>
+      <bp:AUTHORS >Gaufo GO</bp:AUTHORS>
+      <bp:AUTHORS >Capecchi MR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e22">
+      <bp:ID >14973296</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Reiterated Wnt signaling during zebrafish neural crest development.</bp:TITLE>
+      <bp:SOURCE >Development</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Lewis JL</bp:AUTHORS>
+      <bp:AUTHORS >Bonner J</bp:AUTHORS>
+      <bp:AUTHORS >Modrell M</bp:AUTHORS>
+      <bp:AUTHORS >Ragland JW</bp:AUTHORS>
+      <bp:AUTHORS >Moon RT</bp:AUTHORS>
+      <bp:AUTHORS >Dorsky RI</bp:AUTHORS>
+      <bp:AUTHORS >Raible DW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c16">
+      <bp:ID >15944192</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >AP2-dependent signals from the ectoderm regulate craniofacial development in the zebrafish embryo.</bp:TITLE>
+      <bp:SOURCE >Development</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Knight RD</bp:AUTHORS>
+      <bp:AUTHORS >Javidan Y</bp:AUTHORS>
+      <bp:AUTHORS >Zhang T</bp:AUTHORS>
+      <bp:AUTHORS >Nelson S</bp:AUTHORS>
+      <bp:AUTHORS >Schilling TF</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cranial neural crest cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000008</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

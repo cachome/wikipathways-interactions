@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Canonical NF-kB pathway" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The canonical NF-KB pathway is induced by the ligand-dependent activation of a variety of receptors. Stimulus-dependent activation of the IKK complex results in the phosphorylation and subsequent proteasomal degradation of I&#954;B&#945; and I&#954;B&#949; (NFKBIA and NFKBIE). This allows the nuclear translocation of transcriptionally active RelA/p50 (RELA, NFKB1) or c-Rel/p50 heterodimers (REL, NFKB1).</Comment>
+  <BiopaxRef>be8</BiopaxRef>
+  <Graphics BoardWidth="866.0890233362143" BoardHeight="998.0207433016421"/>
+  <DataNode TextLabel="RELA" Type="GeneProduct" GroupRef="c03e9">
+    <Comment Source="OCR">RelA</Comment>
+        </DataNode>
+  <DataNode TextLabel="NFKBIA" GraphId="b0712" Type="GeneProduct" GroupRef="c03e9">
+        </DataNode>
+  <DataNode TextLabel="REL" GraphId="ba194" Type="GeneProduct" GroupRef="c03e9">
+    <Comment Source="OCR">c-Rel</Comment>
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="d72bb" Type="GeneProduct" GroupRef="c03e9">
+        </DataNode>
+  <DataNode TextLabel="NFKBIE" GraphId="e605f" Type="GeneProduct" GroupRef="c03e9">
+        </DataNode>
+  <DataNode TextLabel="CHUK" GraphId="eb4eb" Type="GeneProduct" GroupRef="d4ced">
+    <Comment Source="OCR">IKKa</Comment>
+        </DataNode>
+  <DataNode TextLabel="IKBKB" GraphId="f5a4f" Type="GeneProduct" GroupRef="d4ced">
+        </DataNode>
+  <DataNode TextLabel="IKBKG" GraphId="f8aac" Type="GeneProduct" GroupRef="d4ced">
+    <Comment Source="OCR">IKKy</Comment>
+        </DataNode>
+  <DataNode TextLabel="RELA" Type="GeneProduct" GroupRef="c41ce">
+    <Comment Source="OCR">RelA</Comment>
+        </DataNode>
+  <DataNode TextLabel="REL" Type="GeneProduct" GroupRef="c41ce">
+    <Comment Source="OCR">c-Rel</Comment>
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="ada00" Type="GeneProduct" GroupRef="c41ce">
+        </DataNode>
+  <DataNode TextLabel="NFKBIA" GraphId="eebb4" Type="GeneProduct" GroupRef="f7bb1">
+        </DataNode>
+  <DataNode TextLabel="NFKBIE" GraphId="bb67d" Type="GeneProduct" GroupRef="f7bb1">
+        </DataNode>
+  <DataNode TextLabel="RELA" Type="GeneProduct" GroupRef="db377">
+    <Comment Source="OCR">RelA</Comment>
+        </DataNode>
+  <DataNode TextLabel="NFKBIA" GraphId="c6bb4" Type="GeneProduct" GroupRef="db377">
+        </DataNode>
+  <DataNode TextLabel="REL" GraphId="d4d1a" Type="GeneProduct" GroupRef="db377">
+    <Comment Source="OCR">c-Rel</Comment>
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="d4937" Type="GeneProduct" GroupRef="db377">
+        </DataNode>
+  <DataNode TextLabel="NFKBIE" GraphId="d7cfb" Type="GeneProduct" GroupRef="db377">
+        </DataNode>
+  <State GraphRef="e605f" TextLabel="P" GraphId="b852e">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f5a4f" TextLabel="P" GraphId="d9f16">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b0712" TextLabel="P" GraphId="dae25">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="f5593"/>
+      <Point GraphRef="d229c" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="f5593"/>
+      <Point GraphRef="a1e09" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="a1e09"/>
+      <Point GraphRef="fa6bc" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="ec833"/>
+      <Point GraphRef="d7e97" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="e3505"/>
+      <Point GraphRef="f5593" ArrowHead="mim-modification"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c3099"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="d7e97"/>
+      <Point GraphRef="c3099" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine>
+    <Graphics>
+      <Point GraphRef="d229c"/>
+      <Point ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="NFKB stimuli" GraphId="ec833">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="ea15f">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Nucleus" GraphId="f5cdd">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="fa6bc">
+    <Graphics ShapeType="mim-degradation"/>
+  </Shape>
+  <Group GroupId="f7bb1" GraphId="a1e09" Style="Complex"/>
+  <Group GroupId="c41ce" GraphId="d229c" Style="Complex"/>
+  <Group GroupId="d4ced" GraphId="d7e97" Style="Complex"/>
+  <Group GroupId="db377" GraphId="e3505" Style="Complex"/>
+  <Group GroupId="c03e9" GraphId="f5593" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be8">
+      <bp:ID >29587428</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NF-&#954;B Activation in Lymphoid Malignancies: Genetics, Signaling, and Targeted Therapy.</bp:TITLE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:SOURCE >Biomedicines</bp:SOURCE>
+      <bp:AUTHORS >Grondona P</bp:AUTHORS>
+      <bp:AUTHORS >Bucher P</bp:AUTHORS>
+      <bp:AUTHORS >Schulze-OsthoffK</bp:AUTHORS>
+      <bp:AUTHORS >Hailfinger S</bp:AUTHORS>
+      <bp:AUTHORS >Schmitt A</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>nuclear factor kappa B signaling pathway</bp:TERM><bp:ID>PW:0000499</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

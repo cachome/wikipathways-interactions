@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Apoptosis modulation by HSP70" Organism="Homo sapiens" License="CC BY 2.0"><Comment Source="WikiPathways-description">This pathway summarizes the various ways by which HSP70 proteins can inhibit apoptosis. This pathway was originally adapted from rat.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP384 CPTAC Assay Portal]</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <BiopaxRef>f65</BiopaxRef>
+  <BiopaxRef>de1</BiopaxRef>
+  <BiopaxRef>e68</BiopaxRef>
+  <BiopaxRef>c94</BiopaxRef>
+  <BiopaxRef>ae8</BiopaxRef>
+  <BiopaxRef>cfb</BiopaxRef>
+  <BiopaxRef>ace</BiopaxRef>
+  <BiopaxRef>f54</BiopaxRef>
+  <Graphics BoardWidth="928.2597054886212" BoardHeight="683.2797858099063"/>
+  <DataNode TextLabel="MAP3K1" GraphId="a9d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CASP8" GraphId="dbd" Type="GeneProduct" GroupRef="ba086">
+        </DataNode>
+  <DataNode TextLabel="CASP3" GraphId="b86" Type="GeneProduct" GroupRef="cbde7">
+        </DataNode>
+  <DataNode TextLabel="FADD" GraphId="b37" Type="GeneProduct" GroupRef="ba086">
+        </DataNode>
+  <DataNode TextLabel="BID" GraphId="e93" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CASP2" GraphId="a77" Type="GeneProduct" GroupRef="cbde7">
+        </DataNode>
+  <DataNode TextLabel="CASP6" GraphId="c5c" Type="GeneProduct" GroupRef="cbde7">
+        </DataNode>
+  <DataNode TextLabel="CASP7" GraphId="ee2" Type="GeneProduct" GroupRef="cbde7">
+        </DataNode>
+  <DataNode TextLabel="FAS" GraphId="b63" Type="GeneProduct" GroupRef="ba086">
+        </DataNode>
+  <DataNode TextLabel="CASP8" GraphId="a6a" Type="GeneProduct" GroupRef="fd690">
+        </DataNode>
+  <DataNode TextLabel="PDCD8" GraphId="f99" Type="GeneProduct">
+    <Comment Source="GenMAPP remarks">Apoptosis Inducing Factor</Comment>
+        </DataNode>
+  <DataNode TextLabel="CYCS" GraphId="d83" Type="GeneProduct" GroupRef="a59b9">
+        </DataNode>
+  <DataNode TextLabel="APAF1" GraphId="d54" Type="GeneProduct" GroupRef="a59b9">
+        </DataNode>
+  <DataNode TextLabel="CASP9" GraphId="a69" Type="GeneProduct" GroupRef="a59b9">
+        </DataNode>
+  <DataNode TextLabel="CYCS" GraphId="bf2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="bee" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FADD" GraphId="a7b" Type="GeneProduct" GroupRef="fd690">
+        </DataNode>
+  <DataNode TextLabel="TNFRSF1A" GraphId="a47" Type="GeneProduct" GroupRef="fd690">
+        </DataNode>
+  <DataNode TextLabel="RIPK1" GraphId="ab5" Type="GeneProduct" GroupRef="fd690">
+        </DataNode>
+  <DataNode TextLabel="MAPK10" GraphId="d93" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HSPA1A" GraphId="c08" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HSPA1A" GraphId="cfb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HSPA1A" GraphId="e7e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Apoptosis" GraphId="de08f" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="FAS-Ligand" GraphId="e85e5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NF-kB Pathway" GraphId="b9d89" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="TNF-alpha" GraphId="d156b" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="d9565">
+    <Graphics>
+      <Point GraphRef="c330e"/>
+      <Point GraphRef="f99" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c3c0d">
+    <Graphics>
+      <Point GraphRef="d9e"/>
+      <Point GraphRef="c330e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a29b3">
+    <Graphics Color="ff0000">
+      <Point GraphRef="a80"/>
+      <Point GraphRef="de08f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ed32f">
+    <Graphics>
+      <Point GraphRef="d93"/>
+      <Point GraphRef="de08f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cc9d7">
+    <Graphics>
+      <Point GraphRef="e93"/>
+      <Point GraphRef="c330e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b6cfd">
+    <Graphics Color="0000ff">
+      <Point GraphRef="a80"/>
+      <Point GraphRef="bee" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b4c3b">
+    <Graphics>
+      <Point GraphRef="b63"/>
+      <Point GraphRef="a9d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d24bb">
+    <Graphics>
+      <Point GraphRef="a77"/>
+      <Point GraphRef="a80" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c7d86">
+    <Graphics Color="ff0000">
+      <Point GraphRef="c08"/>
+      <Point GraphRef="f99" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e437a">
+    <Graphics>
+      <Point GraphRef="bee"/>
+      <Point GraphRef="cea" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bfe93">
+    <Graphics>
+      <Point GraphRef="f99"/>
+      <Point GraphRef="de08f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b316a">
+    <Graphics>
+      <Point GraphRef="d156b"/>
+      <Point GraphRef="a47" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ee729">
+    <Graphics>
+      <Point GraphRef="a9d"/>
+      <Point GraphRef="d93" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e6a1f">
+    <Graphics Color="ff0000">
+      <Point GraphRef="c08"/>
+      <Point GraphRef="d93" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ff3a0">
+    <Graphics>
+      <Point GraphRef="bf2"/>
+      <Point GraphRef="b7790" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e89e6">
+    <Graphics>
+      <Point GraphRef="b7790"/>
+      <Point GraphRef="d5df8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc45d">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b9d89"/>
+      <Point GraphRef="bee" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e7ee5">
+    <Graphics>
+      <Point GraphRef="a6a"/>
+      <Point GraphRef="e93" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d9376">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="b7790"/>
+      <Point GraphRef="a774d" ArrowHead="TBar"/>
+      <Anchor Position="0.24878662763669548" Shape="None" GraphId="daca0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9057">
+    <Graphics Color="0000ff">
+      <Point GraphRef="e7e"/>
+      <Point GraphRef="a80" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ef439">
+    <Graphics>
+      <Point GraphRef="c330e"/>
+      <Point GraphRef="bf2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cec1d">
+    <Graphics>
+      <Point GraphRef="d5df8"/>
+      <Point GraphRef="de08f" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a774d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1701">
+    <Graphics>
+      <Point GraphRef="ab5"/>
+      <Point GraphRef="b9d89" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ffdf6">
+    <Graphics>
+      <Point GraphRef="e85e5"/>
+      <Point GraphRef="b63" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c3253">
+    <Graphics>
+      <Point GraphRef="cfb"/>
+      <Point GraphRef="daca0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="STRESS" GraphId="d9e">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="CELL SURVIVAL" GraphId="cea">
+    <Graphics FillColor="ffffff" Color="660066"/>
+  </Label>
+  <Label TextLabel="Degradation of&#10;Ik alpha&#10;(activation of NFkB)" GraphId="b4f">
+    <Graphics FillColor="ffffff" Color="0000cc"/>
+  </Label>
+  <Label TextLabel="Degradation of proteins" GraphId="aa7">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Apoptosome" GraphId="cd0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Proteasome" GraphId="a80">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape TextLabel="Mitochondrion" GraphId="c330e">
+    <Graphics ShapeType="Mitochondria" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c20b8">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="ba086" GraphId="a68e8"/>
+  <Group GroupId="cbde7" GraphId="d5df8"/>
+  <Group GroupId="a59b9" GraphId="b7790"/>
+  <Group GroupId="fd690" GraphId="a4ffe"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c94">
+      <bp:ID >10224227</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Activation of Fas inhibits heat-induced activation of HSF1 and up-regulation of hsp70.</bp:TITLE>
+      <bp:SOURCE >FASEB J</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Schett G</bp:AUTHORS>
+      <bp:AUTHORS >Steiner CW</bp:AUTHORS>
+      <bp:AUTHORS >Gr&#195;&#182;ger M</bp:AUTHORS>
+      <bp:AUTHORS >Winkler S</bp:AUTHORS>
+      <bp:AUTHORS >Graninger W</bp:AUTHORS>
+      <bp:AUTHORS >Smolen J</bp:AUTHORS>
+      <bp:AUTHORS >Xu Q</bp:AUTHORS>
+      <bp:AUTHORS >Steiner G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ace">
+      <bp:ID >15078873</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The life span determinant p66Shc localizes to mitochondria where it associates with mitochondrial heat shock protein 70 and regulates trans-membrane potential.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Orsini F</bp:AUTHORS>
+      <bp:AUTHORS >Migliaccio E</bp:AUTHORS>
+      <bp:AUTHORS >Moroni M</bp:AUTHORS>
+      <bp:AUTHORS >Contursi C</bp:AUTHORS>
+      <bp:AUTHORS >Raker VA</bp:AUTHORS>
+      <bp:AUTHORS >Piccini D</bp:AUTHORS>
+      <bp:AUTHORS >Martin-Padura I</bp:AUTHORS>
+      <bp:AUTHORS >Pelliccia G</bp:AUTHORS>
+      <bp:AUTHORS >Trinei M</bp:AUTHORS>
+      <bp:AUTHORS >Bono M</bp:AUTHORS>
+      <bp:AUTHORS >Puri C</bp:AUTHORS>
+      <bp:AUTHORS >Tacchetti C</bp:AUTHORS>
+      <bp:AUTHORS >Ferrini M</bp:AUTHORS>
+      <bp:AUTHORS >Mannucci R</bp:AUTHORS>
+      <bp:AUTHORS >Nicoletti I</bp:AUTHORS>
+      <bp:AUTHORS >Lanfrancone L</bp:AUTHORS>
+      <bp:AUTHORS >Giorgio M</bp:AUTHORS>
+      <bp:AUTHORS >Pelicci PG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f65">
+      <bp:ID >14512773</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >HSP27 and HSP70: potentially oncogenic apoptosis inhibitors.</bp:TITLE>
+      <bp:SOURCE >Cell Cycle</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Garrido C</bp:AUTHORS>
+      <bp:AUTHORS >Schmitt E</bp:AUTHORS>
+      <bp:AUTHORS >Cand&#195;&#169; C</bp:AUTHORS>
+      <bp:AUTHORS >Vahsen N</bp:AUTHORS>
+      <bp:AUTHORS >Parcellier A</bp:AUTHORS>
+      <bp:AUTHORS >Kroemer G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="de1">
+      <bp:ID >10982831</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The chaperone function of hsp70 is required for protection against stress-induced apoptosis.</bp:TITLE>
+      <bp:SOURCE >Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Mosser DD</bp:AUTHORS>
+      <bp:AUTHORS >Caron AW</bp:AUTHORS>
+      <bp:AUTHORS >Bourget L</bp:AUTHORS>
+      <bp:AUTHORS >Meriin AB</bp:AUTHORS>
+      <bp:AUTHORS >Sherman MY</bp:AUTHORS>
+      <bp:AUTHORS >Morimoto RI</bp:AUTHORS>
+      <bp:AUTHORS >Massie B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cfb">
+      <bp:ID >9799222</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Hsp70 exerts its anti-apoptotic function downstream of caspase-3-like proteases.</bp:TITLE>
+      <bp:SOURCE >EMBO J</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >J&#195;&#164;&#195;&#164;ttel&#195;&#164; M</bp:AUTHORS>
+      <bp:AUTHORS >Wissing D</bp:AUTHORS>
+      <bp:AUTHORS >Kokholm K</bp:AUTHORS>
+      <bp:AUTHORS >Kallunki T</bp:AUTHORS>
+      <bp:AUTHORS >Egeblad M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae8">
+      <bp:ID >9821948</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of Hsp70 in regulation of stress-kinase JNK: implications in apoptosis and aging.</bp:TITLE>
+      <bp:SOURCE >FEBS Lett</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Gabai VL</bp:AUTHORS>
+      <bp:AUTHORS >Meriin AB</bp:AUTHORS>
+      <bp:AUTHORS >Yaglom JA</bp:AUTHORS>
+      <bp:AUTHORS >Volloch VZ</bp:AUTHORS>
+      <bp:AUTHORS >Sherman MY</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f54">
+      <bp:ID >14555980</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Heat shock protein 70 binding inhibits the nuclear import of apoptosis-inducing factor.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Gurbuxani S</bp:AUTHORS>
+      <bp:AUTHORS >Schmitt E</bp:AUTHORS>
+      <bp:AUTHORS >Cande C</bp:AUTHORS>
+      <bp:AUTHORS >Parcellier A</bp:AUTHORS>
+      <bp:AUTHORS >Hammann A</bp:AUTHORS>
+      <bp:AUTHORS >Daugas E</bp:AUTHORS>
+      <bp:AUTHORS >Kouranti I</bp:AUTHORS>
+      <bp:AUTHORS >Spahr C</bp:AUTHORS>
+      <bp:AUTHORS >Pance A</bp:AUTHORS>
+      <bp:AUTHORS >Kroemer G</bp:AUTHORS>
+      <bp:AUTHORS >Garrido C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e68">
+      <bp:ID >10934467</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Negative regulation of the Apaf-1 apoptosome by Hsp70.</bp:TITLE>
+      <bp:SOURCE >Nat Cell Biol</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Saleh A</bp:AUTHORS>
+      <bp:AUTHORS >Srinivasula SM</bp:AUTHORS>
+      <bp:AUTHORS >Balkir L</bp:AUTHORS>
+      <bp:AUTHORS >Robbins PD</bp:AUTHORS>
+      <bp:AUTHORS >Alnemri ES</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>apoptotic cell death pathway</bp:TERM><bp:ID>PW:0000009</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

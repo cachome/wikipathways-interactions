@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="DNA damage response (only ATM dependent)" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="WikiPathways-description">This is one of two pathways that deal with DNA damage. It has two central gene products (ATM and TP53) which are connected with the [[Pathway:WP707|other DNA damage response pathway]].
+In this pathway there is only one source of DNA damage induction, since most DNA damage induction sources and their involvement are mentioned in the [[Pathway:WP707|first DNA damage response pathway]].
+If it is not mentioned differently, the processes take place in the cell cytoplasm.
+The purpose of this pathway is to report more gene products and cell condition changes through the DNA damage response pathway and at the same time keep them clearly arranged.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP710 CPTAC Assay Portal]</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <Graphics BoardWidth="1923.0" BoardHeight="1780.0"/>
+  <DataNode TextLabel="WNT7A" GraphId="a1362" Type="GeneProduct" GroupRef="cda99">
+        </DataNode>
+  <DataNode TextLabel="AKT1" GraphId="a252a" Type="GeneProduct" GroupRef="bbe38">
+        </DataNode>
+  <DataNode TextLabel="BAK1" GraphId="a3072" Type="GeneProduct" GroupRef="b970f">
+        </DataNode>
+  <DataNode TextLabel="PIK3R3" GraphId="a3d81" Type="GeneProduct" GroupRef="f16b4">
+        </DataNode>
+  <DataNode TextLabel="JUN" GraphId="a4223" Type="GeneProduct" GroupRef="d37d9">
+        </DataNode>
+  <DataNode TextLabel="Cell Cycle" GraphId="a4e27" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="PLAU" GraphId="a5ce1" Type="GeneProduct" GroupRef="d37d9">
+        </DataNode>
+  <DataNode TextLabel="ABL1" GraphId="a5d65" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IRS1" GraphId="a6b59" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MYC" GraphId="a6ced" Type="GeneProduct" GroupRef="d37d9">
+        </DataNode>
+  <DataNode TextLabel="RAC1" GraphId="a82c5" Type="GeneProduct" GroupRef="d18be">
+        </DataNode>
+  <DataNode TextLabel="Apoptosis&#9;" GraphId="a997f" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="CCNG2" GraphId="a9fc0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RAC1" GraphId="aafb1" Type="GeneProduct" GroupRef="b0dc1">
+        </DataNode>
+  <DataNode TextLabel="PIK3C2G" GraphId="abd20" Type="GeneProduct" GroupRef="f16b4">
+        </DataNode>
+  <DataNode TextLabel="AKT2" GraphId="ac38a" Type="GeneProduct" GroupRef="bbe38">
+        </DataNode>
+  <DataNode TextLabel="ATM" GraphId="ac888" Type="GeneProduct">
+    <Graphics Color="009900"/>
+    </DataNode>
+  <DataNode TextLabel="Apoptosis&#9;" GraphId="aca61" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="FOXO3" GraphId="acd61" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BCL6" GraphId="ad1ca" Type="GeneProduct" GroupRef="ba030">
+        </DataNode>
+  <DataNode TextLabel="CDC42" GraphId="ad56f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AKT3" GraphId="ad6b9" Type="GeneProduct" GroupRef="bbe38">
+        </DataNode>
+  <DataNode TextLabel="CDKN1B" GraphId="ae529" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NRAS" GraphId="ae7c2" Type="GeneProduct" GroupRef="a1ac5">
+        </DataNode>
+  <DataNode TextLabel="PIK3C3" GraphId="aed8e" Type="GeneProduct" GroupRef="f16b4">
+        </DataNode>
+  <DataNode TextLabel="WNT11" GraphId="afe61" Type="GeneProduct" GroupRef="cda99">
+        </DataNode>
+  <DataNode TextLabel="PIK3R4" GraphId="affd0" Type="GeneProduct" GroupRef="f16b4">
+        </DataNode>
+  <DataNode TextLabel="c-Myc" GraphId="b05f4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PIK3CA" GraphId="b386a" Type="GeneProduct" GroupRef="f16b4">
+        </DataNode>
+  <DataNode TextLabel="AKT3" GraphId="b4b7d" Type="GeneProduct" GroupRef="edc2a">
+        </DataNode>
+  <DataNode TextLabel="DVL3" GraphId="b6b15" Type="GeneProduct" GroupRef="f1969">
+        </DataNode>
+  <DataNode TextLabel="BIK" GraphId="b7486" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AXIN1" GraphId="b79b3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAPK2" GraphId="b8f3c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WNT16" GraphId="b9e0f" Type="GeneProduct" GroupRef="cda99">
+        </DataNode>
+  <DataNode TextLabel="PIK3CD" GraphId="bb634" Type="GeneProduct" GroupRef="f16b4">
+        </DataNode>
+  <DataNode TextLabel="BCL2" GraphId="bb70b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CAT" GraphId="bb9f0" Type="GeneProduct" GroupRef="e9cf8">
+        </DataNode>
+  <DataNode TextLabel="BAX" GraphId="bbab7" Type="GeneProduct" GroupRef="b970f">
+        </DataNode>
+  <DataNode TextLabel="PEPCK" GraphId="bcd17" Type="GeneProduct" GroupRef="aba18">
+        </DataNode>
+  <DataNode TextLabel="PIK3C2A" GraphId="be753" Type="GeneProduct" GroupRef="f16b4">
+        </DataNode>
+  <DataNode TextLabel="Apoptosis&#9;" GraphId="bf2e2" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="SMAD3" GraphId="bffbb" Type="GeneProduct" GroupRef="d5cc6">
+        </DataNode>
+  <DataNode TextLabel="MAPK10" GraphId="c0770" Type="GeneProduct" GroupRef="e5162">
+        </DataNode>
+  <DataNode TextLabel="CCND1" GraphId="c0e80" Type="GeneProduct" GroupRef="d37d9">
+        </DataNode>
+  <DataNode TextLabel="AKT2" GraphId="c17a0" Type="GeneProduct" GroupRef="edc2a">
+        </DataNode>
+  <DataNode TextLabel="SOD2" GraphId="c1ff8" Type="GeneProduct" GroupRef="e9cf8">
+        </DataNode>
+  <DataNode TextLabel="ERBB2" GraphId="c21d3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BCL2L11" GraphId="c2755" Type="GeneProduct" GroupRef="ba030">
+        </DataNode>
+  <DataNode TextLabel="TGFB" GraphId="c3306" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PIK3CG" GraphId="c34b3" Type="GeneProduct" GroupRef="f16b4">
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="c5421" Type="GeneProduct" GroupRef="e249c">
+        </DataNode>
+  <DataNode TextLabel="WNT16" GraphId="c5545" Type="GeneProduct" GroupRef="cda99">
+        </DataNode>
+  <DataNode TextLabel="WNT7B" GraphId="c59b1" Type="GeneProduct" GroupRef="cda99">
+        </DataNode>
+  <DataNode TextLabel="RAC2" GraphId="c7159" Type="GeneProduct" GroupRef="b0dc1">
+        </DataNode>
+  <DataNode TextLabel="MAPK9" GraphId="c8763" Type="GeneProduct" GroupRef="e5162">
+        </DataNode>
+  <DataNode TextLabel="MAP3K4" GraphId="c8857" Type="GeneProduct" GroupRef="a43ec">
+        </DataNode>
+  <DataNode TextLabel="WNT2" GraphId="c894f" Type="GeneProduct" GroupRef="cda99">
+        </DataNode>
+  <DataNode TextLabel="PDK1" GraphId="c8b07" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WNT5B" GraphId="c9295" Type="GeneProduct" GroupRef="cda99">
+        </DataNode>
+  <DataNode TextLabel="MDM2" GraphId="ca588" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="APC" GraphId="cb2ff" Type="GeneProduct" GroupRef="fad84">
+        </DataNode>
+  <DataNode TextLabel="MAP3K1" GraphId="cbf27" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PPP2R5C" GraphId="cc85c" Type="GeneProduct" GroupRef="bd45b">
+        </DataNode>
+  <DataNode TextLabel="CCND3" GraphId="cd61d" Type="GeneProduct" GroupRef="d37d9">
+        </DataNode>
+  <DataNode TextLabel="HRAS" GraphId="cda10" Type="GeneProduct" GroupRef="a1ac5">
+        </DataNode>
+  <DataNode TextLabel="FASLG" GraphId="ce61a" Type="GeneProduct" GroupRef="ba030">
+        </DataNode>
+  <DataNode TextLabel="GRB2" GraphId="cfca8" Type="GeneProduct" GroupRef="fe563">
+        </DataNode>
+  <DataNode TextLabel="KRAS" GraphId="cff5b" Type="GeneProduct" GroupRef="a1ac5">
+        </DataNode>
+  <DataNode TextLabel="PIK3R1" GraphId="d057f" Type="GeneProduct" GroupRef="f16b4">
+        </DataNode>
+  <DataNode TextLabel="SHC1" GraphId="d0ad6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WNT5A" GraphId="d0f6f" Type="GeneProduct" GroupRef="cda99">
+        </DataNode>
+  <DataNode TextLabel="WNT10A" GraphId="d289f" Type="GeneProduct" GroupRef="cda99">
+        </DataNode>
+  <DataNode TextLabel="BBC3" GraphId="d4567" Type="GeneProduct" GroupRef="ba030">
+        </DataNode>
+  <DataNode TextLabel="PIK3CB" GraphId="d45c7" Type="GeneProduct" GroupRef="f16b4">
+        </DataNode>
+  <DataNode TextLabel="TCF-4" GraphId="d464a" Type="GeneProduct" GroupRef="d86e3">
+        </DataNode>
+  <DataNode TextLabel="TCF-1" GraphId="d70b7" Type="GeneProduct" GroupRef="d86e3">
+        </DataNode>
+  <DataNode TextLabel="PMAIP1" GraphId="d745b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Cell Cycle" GraphId="d9c6f" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="BAD" GraphId="daef2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TCF-3" GraphId="db124" Type="GeneProduct" GroupRef="d86e3">
+        </DataNode>
+  <DataNode TextLabel="CCND2" GraphId="db3dc" Type="GeneProduct" GroupRef="d37d9">
+        </DataNode>
+  <DataNode TextLabel="FRAT1" GraphId="dcb0a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WNT6" GraphId="dd080" Type="GeneProduct" GroupRef="cda99">
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="de40a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DNA damage response" GraphId="dec3e" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="BBC3" GraphId="decfc" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PIK3R2" GraphId="e01dc" Type="GeneProduct" GroupRef="f16b4">
+        </DataNode>
+  <DataNode TextLabel="LDLR" GraphId="e1c5c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DVL1" GraphId="e269f" Type="GeneProduct" GroupRef="f1969">
+        </DataNode>
+  <DataNode TextLabel="BCL2L11" GraphId="e328d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOS1" GraphId="e4519" Type="GeneProduct" GroupRef="fe563">
+        </DataNode>
+  <DataNode TextLabel="DVL2" GraphId="e6692" Type="GeneProduct" GroupRef="f1969">
+        </DataNode>
+  <DataNode TextLabel="LEF1" GraphId="e71e5" Type="GeneProduct" GroupRef="d86e3">
+        </DataNode>
+  <DataNode TextLabel="WNT3" GraphId="e7838" Type="GeneProduct" GroupRef="cda99">
+        </DataNode>
+  <DataNode TextLabel="RAC3" GraphId="e7be6" Type="GeneProduct" GroupRef="b0dc1">
+        </DataNode>
+  <DataNode TextLabel="TP73" GraphId="e8fbd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PPP2R5E" GraphId="e9dfe" Type="GeneProduct" GroupRef="bd45b">
+        </DataNode>
+  <DataNode TextLabel="WNT1" GraphId="eae7b" Type="GeneProduct" GroupRef="cda99">
+        </DataNode>
+  <DataNode TextLabel="SOS2" GraphId="eaefb" Type="GeneProduct" GroupRef="fe563">
+        </DataNode>
+  <DataNode TextLabel="MAP3K7" GraphId="eb6a4" Type="GeneProduct" GroupRef="a43ec">
+        </DataNode>
+  <DataNode TextLabel="FOSL1" GraphId="ecc30" Type="GeneProduct" GroupRef="d37d9">
+        </DataNode>
+  <DataNode TextLabel="NFKB2" GraphId="ecf31" Type="GeneProduct" GroupRef="e249c">
+        </DataNode>
+  <DataNode TextLabel="WNT2B" GraphId="ed2bb" Type="GeneProduct" GroupRef="cda99">
+        </DataNode>
+  <DataNode TextLabel="MAPK8" GraphId="ed452" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HMGB1" GraphId="efe72" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Apoptosis&#9;" GraphId="f066a" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="WNT4" GraphId="f0eac" Type="GeneProduct" GroupRef="cda99">
+        </DataNode>
+  <DataNode TextLabel="WNT3A" GraphId="f1103" Type="GeneProduct" GroupRef="cda99">
+        </DataNode>
+  <DataNode TextLabel="CDKN1A" GraphId="f1814" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GSK3B" GraphId="f3d20" Type="GeneProduct" GroupRef="fad84">
+    <Comment Source="GenMAPP remarks">MOUSE:KG38 MOUSE</Comment>
+        </DataNode>
+  <DataNode TextLabel="SCP2" GraphId="f43c7" Type="GeneProduct" GroupRef="aba18">
+        </DataNode>
+  <DataNode TextLabel="RHOA" GraphId="f55cb" Type="GeneProduct" GroupRef="d18be">
+        </DataNode>
+  <DataNode TextLabel="AKT1" GraphId="f633e" Type="GeneProduct" GroupRef="edc2a">
+        </DataNode>
+  <DataNode TextLabel="WNT10B" GraphId="f6675" Type="GeneProduct" GroupRef="cda99">
+        </DataNode>
+  <DataNode TextLabel="PTEN" GraphId="f6d03" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PIK3C2B" GraphId="f7f5f" Type="GeneProduct" GroupRef="f16b4">
+        </DataNode>
+  <DataNode TextLabel="MAPK9" GraphId="f82ff" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="G6PC" GraphId="f89e1" Type="GeneProduct" GroupRef="aba18">
+        </DataNode>
+  <DataNode TextLabel="SMAD4" GraphId="fa351" Type="GeneProduct" GroupRef="d5cc6">
+        </DataNode>
+  <DataNode TextLabel="CDKN2A" GraphId="faf75" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PIK3R5" GraphId="fb199" Type="GeneProduct" GroupRef="f16b4">
+        </DataNode>
+  <DataNode TextLabel="TGFB1" GraphId="fbe7a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TP53" GraphId="fe49b" Type="GeneProduct">
+    <Graphics Color="339900"/>
+    </DataNode>
+  <DataNode TextLabel="MLKL" GraphId="feab2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="INSR" GraphId="feb06" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RBL2" GraphId="ff9aa" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="APC" GraphId="ffbb9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="f4dfc" Type="GeneProduct">
+        </DataNode>
+  <State GraphRef="f4dfc" TextLabel="P" GraphId="b39d7">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="a052a">
+    <Graphics>
+      <Point GraphRef="acd61"/>
+      <Point GraphRef="f7d82" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a1544">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b05f4"/>
+      <Point GraphRef="faf75" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a1b26">
+    <BiopaxRef>e6f</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="dc01a"/>
+      <Point/>
+      <Point GraphRef="e328d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a3567">
+    <Graphics>
+      <Point GraphRef="a6ced"/>
+      <Point GraphRef="b05f4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a3db3">
+    <Graphics>
+      <Point GraphRef="d32bc"/>
+      <Point GraphRef="b79b3" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a3ef8">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ad56f"/>
+      <Point/>
+      <Point GraphRef="cbf27" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a4767">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="efe72"/>
+      <Point/>
+      <Point GraphRef="fe49b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a59af">
+    <Graphics>
+      <Point GraphRef="ae529"/>
+      <Point GraphRef="ff9aa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a661b">
+    <Graphics>
+      <Point GraphRef="ac888"/>
+      <Point GraphRef="a5d65" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6fee">
+    <Graphics>
+      <Point GraphRef="fe49b"/>
+      <Point GraphRef="f1814" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a9068">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f7d82"/>
+      <Point GraphRef="bf2e2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aa7b1">
+    <Graphics>
+      <Point GraphRef="faf75"/>
+      <Point GraphRef="ca588" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="acf7a">
+    <Graphics>
+      <Point GraphRef="ca588"/>
+      <Point GraphRef="fe49b" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ad6b2">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d32bc"/>
+      <Point GraphRef="dcb0a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ad71a">
+    <Graphics>
+      <Point GraphRef="ac2b4"/>
+      <Point GraphRef="b79b3" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ae5fa">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ed452"/>
+      <Point GraphRef="a6b59" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b1016">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ec35d"/>
+      <Point GraphRef="a997f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b4769">
+    <Graphics>
+      <Point GraphRef="a5d65"/>
+      <Point GraphRef="e8fbd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b4870">
+    <Graphics>
+      <Point GraphRef="acd61"/>
+      <Point GraphRef="b0822" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b4a54">
+    <BiopaxRef>e6f</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="daef2"/>
+      <Point/>
+      <Point GraphRef="bb70b" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b53b9">
+    <BiopaxRef>e6f</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d745b"/>
+      <Point GraphRef="bb70b" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b765a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ad56f"/>
+      <Point/>
+      <Point GraphRef="feab2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b9cc2">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ffbb9"/>
+      <Point GraphRef="fe49b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="badf7">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b0822"/>
+      <Point GraphRef="b9461" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bcefa">
+    <BiopaxRef>e6f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e328d"/>
+      <Point GraphRef="bb70b" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bda6b">
+    <BiopaxRef>e6f</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="dc01a"/>
+      <Point/>
+      <Point GraphRef="b7486" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bdf89">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="da863"/>
+      <Point/>
+      <Point GraphRef="ed452" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c075b">
+    <BiopaxRef>e6f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a34e2"/>
+      <Point GraphRef="e328d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c2413">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f6d03"/>
+      <Point/>
+      <Point GraphRef="ce34d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c2f05">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a9fc0"/>
+      <Point GraphRef="a4e27" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c4855">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ad0d3"/>
+      <Point/>
+      <Point GraphRef="cb18a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c4c17">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d32bc"/>
+      <Point GraphRef="ac2b4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6292">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="acd61"/>
+      <Point/>
+      <Point GraphRef="ae529" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6ce0">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c5417"/>
+      <Point GraphRef="cb2ff" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6d0b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f7b0f"/>
+      <Point GraphRef="d9c6f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c70ac">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="dcb0a"/>
+      <Point GraphRef="d3132" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c74ff">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b60bb"/>
+      <Point GraphRef="f7b0f" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c7b08">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ad0d3"/>
+      <Point/>
+      <Point GraphRef="ad56f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c7f74">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cb18a"/>
+      <Point GraphRef="feab2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c83df">
+    <Graphics>
+      <Point GraphRef="d32bc"/>
+      <Point GraphRef="f4d62" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c8e0a">
+    <Graphics>
+      <Point GraphRef="c21d3"/>
+      <Point GraphRef="ce34d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9f2d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a6b59"/>
+      <Point/>
+      <Point GraphRef="d0ad6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cbb1c">
+    <Graphics>
+      <Point GraphRef="a5d65"/>
+      <Point GraphRef="f82ff" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cc1bf">
+    <Graphics>
+      <Point GraphRef="a6f40" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="e3512"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cfe2f">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fe49b"/>
+      <Point GraphRef="d745b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d0b89">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ad92d"/>
+      <Point GraphRef="c40a0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d1a67">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e3512"/>
+      <Point GraphRef="f1814" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d3da2">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f1814"/>
+      <Point GraphRef="dec3e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d5c4e">
+    <BiopaxRef>e6f</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="decfc"/>
+      <Point GraphRef="bb70b" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6077">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d2d45"/>
+      <Point GraphRef="aca61" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d7fc6">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ce34d"/>
+      <Point/>
+      <Point GraphRef="f1814" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d8236">
+    <Graphics>
+      <Point GraphRef="c8b07"/>
+      <Point GraphRef="b7410" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="da0cc">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b05f4"/>
+      <Point GraphRef="e328d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dca46">
+    <Graphics>
+      <Point GraphRef="fbe7a"/>
+      <Point GraphRef="c5417" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de900">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fbe7a"/>
+      <Point GraphRef="f1814" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df03a">
+    <Graphics>
+      <Point GraphRef="f01a6"/>
+      <Point GraphRef="c8b07" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e08b1">
+    <Graphics>
+      <Point GraphRef="cbf27"/>
+      <Point GraphRef="da863" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e1e69">
+    <BiopaxRef>e6f</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b7486"/>
+      <Point/>
+      <Point GraphRef="bb70b" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e4226">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="acd61"/>
+      <Point/>
+      <Point GraphRef="ad92d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e5fa1">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e1c5c"/>
+      <Point GraphRef="d32bc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eb46b">
+    <Graphics>
+      <Point GraphRef="bf6dd"/>
+      <Point GraphRef="b8f3c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ec024">
+    <Graphics>
+      <Point GraphRef="b7410"/>
+      <Point GraphRef="acd61" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ec373">
+    <BiopaxRef>e6f</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f8e80"/>
+      <Point/>
+      <Point GraphRef="e328d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ecb01">
+    <Graphics>
+      <Point GraphRef="f4d62"/>
+      <Point GraphRef="d2d45" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ef4ae">
+    <Graphics>
+      <Point GraphRef="b8f3c"/>
+      <Point GraphRef="d58ef" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f0ea5">
+    <BiopaxRef>e6f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bb70b"/>
+      <Point GraphRef="ec35d" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f0ea9">
+    <Graphics>
+      <Point GraphRef="b79b3" ArrowHead="Arrow"/>
+      <Point GraphRef="e3512" ArrowHead="Arrow"/>
+      <Anchor Position="0.5207100591715976" Shape="None" GraphId="d3132"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f23ba">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="de40a"/>
+      <Point/>
+      <Point GraphRef="f4dfc" ArrowHead="Arrow"/>
+      <Anchor Position="0.4955387881464063" Shape="None" GraphId="a6f40"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f333e">
+    <Graphics>
+      <Point GraphRef="d0ad6"/>
+      <Point GraphRef="dc654" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f338b">
+    <Graphics>
+      <Point GraphRef="efe72"/>
+      <Point GraphRef="b8f3c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f38c2">
+    <BiopaxRef>e6f</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f8e80"/>
+      <Point/>
+      <Point GraphRef="b7486" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f5c03">
+    <Graphics>
+      <Point GraphRef="ac888"/>
+      <Point GraphRef="fe49b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f665e">
+    <Graphics>
+      <Point GraphRef="ff9aa"/>
+      <Point GraphRef="a9fc0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8a16">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c3306"/>
+      <Point GraphRef="fe49b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8de4">
+    <Graphics>
+      <Point GraphRef="feb06"/>
+      <Point GraphRef="a6b59" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f9994">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fe49b"/>
+      <Point GraphRef="decfc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f9d80">
+    <BiopaxRef>e6f</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a34e2"/>
+      <Point/>
+      <Point GraphRef="daef2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="faade">
+    <Graphics>
+      <Point GraphRef="cb18a"/>
+      <Point GraphRef="cbf27" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fae0c">
+    <Graphics>
+      <Point GraphRef="dc654"/>
+      <Point GraphRef="bf6dd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fc1cd">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="bb70b"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="ae529" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fc54a">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b05f4"/>
+      <Point GraphRef="b6196" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fdcf3">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fe49b"/>
+      <Point/>
+      <Point GraphRef="e328d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fe9f9">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e8fbd"/>
+      <Point GraphRef="f066a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id12ddb67c">
+    <BiopaxRef>d17</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="de40a"/>
+      <Point GraphRef="b60bb" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6df3">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a6b59"/>
+      <Point GraphRef="f01a6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="f20e2" GroupRef="c9611">
+    <Graphics Color="ff0033">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id4a0e12cf" GroupRef="c9611">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ida7a3d513" GroupRef="c9611">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="idb54d4eca" GroupRef="c9611">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="TBar"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="DNA damage source" GraphId="a0930" GroupRef="c9611">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cytokine receptor" GraphId="a34e2">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="UV radiation &#10;--&gt; DNA damage" GraphId="ad0d3">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Origin DNA damage&#10;response" GraphId="b405c" GroupRef="c9611">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Proliferation" GraphId="b6196">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Metabolism" GraphId="b9461">
+    <Graphics FillColor="ffffff" Color="ff3300"/>
+  </Label>
+  <Label TextLabel="Caption" GraphId="b981c" GroupRef="c9611">
+    <Graphics Align="Left" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Oxidative Stress&#10;resistance" GraphId="c40a0">
+    <Graphics FillColor="ffffff" Color="ff3300"/>
+  </Label>
+  <Label TextLabel="Different Pathway" GraphId="c8c93" GroupRef="c9611">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Change in the &#10;Cell condition" GraphId="ca2a4" GroupRef="c9611">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="RAS" GraphId="d3e18" GroupRef="a1ac5">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="PI3K" GraphId="d662a" GroupRef="f16b4">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Inhibition" GraphId="d9733" GroupRef="c9611">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="TCR" GraphId="dc01a">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="TCF-1/LEF" GraphId="e5ceb" GroupRef="d86e3">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="" GraphId="e611c" GroupRef="c9611">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="0033cc"/>
+  </Label>
+  <Label TextLabel="Frizzled Ligands" GraphId="e8a16" GroupRef="cda99">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="" GraphId="eee99" GroupRef="c9611">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="339900"/>
+  </Label>
+  <Label TextLabel="Activation" GraphId="f40d9" GroupRef="c9611">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="BCR" GraphId="f8e80">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Shape GraphId="b3407" GroupRef="cda99">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="Nucleus" GraphId="b8da9">
+    <Graphics Align="Left" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c884f" GroupRef="d18be">
+    <Graphics FillColor="000000" ShapeType="Brace"/>
+  </Shape>
+  <Shape TextLabel="Mitochondria" GraphId="d41b3">
+    <Graphics ShapeType="Mitochondria" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e8559">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="c9611" Style="Group"/>
+  <Group GroupId="bd45b" GraphId="ac2b4" Style="Complex"/>
+  <Group GroupId="e9cf8" GraphId="ad92d" Style="Complex"/>
+  <Group GroupId="cda99" GraphId="ae80e" Style="Group"/>
+  <Group GroupId="aba18" GraphId="b0822" Style="Complex"/>
+  <Group GroupId="d86e3" GraphId="b60bb"/>
+  <Group GroupId="edc2a" GraphId="b7410" Style="Complex"/>
+  <Group GroupId="a1ac5" GraphId="bf6dd"/>
+  <Group GroupId="d5cc6" GraphId="c5417" Style="Complex"/>
+  <Group GroupId="b0dc1" GraphId="cb18a" Style="Complex"/>
+  <Group GroupId="bbe38" GraphId="ce34d" Style="Complex"/>
+  <Group GroupId="e5162" GraphId="d2d45" Style="Group"/>
+  <Group GroupId="f1969" GraphId="d32bc" Style="Group"/>
+  <Group GroupId="e249c" GraphId="d58ef" Style="Complex"/>
+  <Group GroupId="a43ec" GraphId="da863" Style="Complex"/>
+  <Group GroupId="fe563" GraphId="dc654" Style="Complex"/>
+  <Group GroupId="fad84" GraphId="e3512" Style="Complex"/>
+  <Group GroupId="b970f" GraphId="ec35d" Style="Complex"/>
+  <Group GroupId="f16b4" GraphId="f01a6"/>
+  <Group GroupId="d18be" GraphId="f4d62" Style="Complex"/>
+  <Group GroupId="d37d9" GraphId="f7b0f" Style="Group"/>
+  <Group GroupId="ba030" GraphId="f7d82" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bf4">
+      <bp:ID >15668327</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Chromosomal instability in oral cancer cells.</bp:TITLE>
+      <bp:SOURCE >J Dent Res</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Reshmi SC</bp:AUTHORS>
+      <bp:AUTHORS >Gollin SM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efb">
+      <bp:ID >14993903</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Targeting the checkpoint kinases: chemosensitization versus chemoprotection.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Cancer</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Zhou BB</bp:AUTHORS>
+      <bp:AUTHORS >Bartek J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >p53-dependent G1/S DNA damage checkpoint pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000303</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >p53 signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000718</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e48">
+      <bp:ID >17568790</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >CDC25 phosphatases in cancer cells: key players? Good targets?</bp:TITLE>
+      <bp:SOURCE >Nat Rev Cancer</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Boutros R</bp:AUTHORS>
+      <bp:AUTHORS >Lobjois V</bp:AUTHORS>
+      <bp:AUTHORS >Ducommun B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac5">
+      <bp:ID >15688066</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >p53: traffic cop at the crossroads of DNA repair and recombination.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Sengupta S</bp:AUTHORS>
+      <bp:AUTHORS >Harris CC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d5f">
+      <bp:ID >19111245</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Concurrent hormone and radiation therapy in patients with breast cancer: what is the rationale?</bp:TITLE>
+      <bp:SOURCE >Lancet Oncol</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Chargari C</bp:AUTHORS>
+      <bp:AUTHORS >Toillon RA</bp:AUTHORS>
+      <bp:AUTHORS >Macdermed D</bp:AUTHORS>
+      <bp:AUTHORS >Castadot P</bp:AUTHORS>
+      <bp:AUTHORS >Magn&#216;&#163;&#194;&#175;&#216;&#162;&#216;&#376;&#216;&#162;&#194;&#189;&#216;&#163;&#194;&#175;&#216;&#162;&#216;&#376;&#216;&#162;&#194;&#189;&#216;&#163;&#218;&#732;&#216;&#162;&#194;&#169; N</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c48">
+      <bp:ID >15343279</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Transcription - guarding the genome by sensing DNA damage.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Cancer</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Ljungman M</bp:AUTHORS>
+      <bp:AUTHORS >Lane DP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b66">
+      <bp:ID >17943134</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The impact of a negligent G2/M checkpoint on genomic instability and cancer induction.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Cancer</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >L&#216;&#163;&#194;&#175;&#216;&#162;&#216;&#376;&#216;&#162;&#194;&#189;&#216;&#163;&#194;&#175;&#216;&#162;&#216;&#376;&#216;&#162;&#194;&#189;&#216;&#163;&#218;&#732;&#216;&#162;&#194;&#169;brich M</bp:AUTHORS>
+      <bp:AUTHORS >Jeggo PA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da1">
+      <bp:ID >15545627</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Living with or without cyclins and cyclin-dependent kinases.</bp:TITLE>
+      <bp:SOURCE >Genes Dev</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Sherr CJ</bp:AUTHORS>
+      <bp:AUTHORS >Roberts JM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e6f">
+      <bp:ID >15719025</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of BH3-only proteins in the immune system.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Immunol</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Strasser A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dab">
+      <bp:ID >16921403</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulation of the INK4b-ARF-INK4a tumour suppressor locus: all for one or one for all.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Gil J</bp:AUTHORS>
+      <bp:AUTHORS >Peters G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a35">
+      <bp:ID >14634621</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The Bcl-2 family: roles in cell survival and oncogenesis.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Cory S</bp:AUTHORS>
+      <bp:AUTHORS >Huang DC</bp:AUTHORS>
+      <bp:AUTHORS >Adams JM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c56">
+      <bp:ID >18004398</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >CHK2 kinase: cancer susceptibility and cancer therapy - two sides of the same coin?</bp:TITLE>
+      <bp:SOURCE >Nat Rev Cancer</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Antoni L</bp:AUTHORS>
+      <bp:AUTHORS >Sodha N</bp:AUTHORS>
+      <bp:AUTHORS >Collins I</bp:AUTHORS>
+      <bp:AUTHORS >Garrett MD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a1b">
+      <bp:ID >17380161</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >p53 in health and disease.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Vousden KH</bp:AUTHORS>
+      <bp:AUTHORS >Lane DP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="df4">
+      <bp:ID >17768402</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Emergence of a DNA-damage response network consisting of Fanconi anaemia and BRCA proteins.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Genet</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Wang W</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d50">
+      <bp:ID >16805667</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Surviving the breakup: the DNA damage checkpoint.</bp:TITLE>
+      <bp:SOURCE >Annu Rev Genet</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Harrison JC</bp:AUTHORS>
+      <bp:AUTHORS >Haber JE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c04">
+      <bp:ID >17060944</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Polycomb silencers control cell fate, development and cancer.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Cancer</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Sparmann A</bp:AUTHORS>
+      <bp:AUTHORS >van Lohuizen M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d17">
+      <bp:ID >20610534</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Beta-catenin (CTNNB1) promotes preovulatory follicular development but represses LH-mediated ovulation and luteinization.</bp:TITLE>
+      <bp:SOURCE >Mol Endocrinol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Fan HY</bp:AUTHORS>
+      <bp:AUTHORS >O'Connor A</bp:AUTHORS>
+      <bp:AUTHORS >Shitanaka M</bp:AUTHORS>
+      <bp:AUTHORS >Shimada M</bp:AUTHORS>
+      <bp:AUTHORS >Liu Z</bp:AUTHORS>
+      <bp:AUTHORS >Richards JS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="af9">
+      <bp:ID >15339658</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Wagging the dogma; tissue-specific cell cycle control in the mouse embryo.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Pagano M</bp:AUTHORS>
+      <bp:AUTHORS >Jackson PK</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

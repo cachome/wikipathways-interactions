@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Catalytic cycle of mammalian flavin-containing monooxygenases (FMOs)" Last-Modified="2/21/2013" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Flavin-containing monooxygenases are a group of enzymes that catalyze the oxygenation of substrates, mostly soft nucleophiles via the cofactor flavin. In the catalytic cycle, FMO binds to NADPH and to FAD, causing the reduction of FAD to FADH2. Next, molecular oxygen binds to the complex and is reduced to a hydroperoxide form, called 4a-hydroperoxyflavin. This complex is stable in the absence of a substrate. When a substrate is present, the distal O-atom of the complex is transferred to the substrate yielding an oxygenated product and leaving the flavincomplex 4a-hydroxyflavin that breaks down releasing water. At the end of the cycle, NADP+ is released resulting in FAD as the flavin form to start a next cycle.  
+In contrast to cytochrome P450 enzymes, FMOs are generally not induced or inhibited by xenobiotic substances. The five human FMOs are tissue specific: FMO1 is present in the human fetal liver and the adult kidney, FMO2 is present in the lung and FMO3 is present in the adult liver.</Comment>
+  <Comment Source="WikiPathways-category">Molecular Function</Comment>
+  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
+  <BiopaxRef>b1e</BiopaxRef>
+  <BiopaxRef>a03</BiopaxRef>
+  <BiopaxRef>c20</BiopaxRef>
+  <BiopaxRef>deb</BiopaxRef>
+  <BiopaxRef>b64</BiopaxRef>
+  <BiopaxRef>f5f</BiopaxRef>
+  <BiopaxRef>bab</BiopaxRef>
+  <BiopaxRef>d52</BiopaxRef>
+  <Graphics BoardWidth="799.0" BoardHeight="622.0"/>
+  <DataNode TextLabel="H2O" GraphId="a2816" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="ab5ef" Type="Metabolite" GroupRef="e5729">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FMO2" GraphId="c3226" Type="GeneProduct" GroupRef="b0ee2">
+    <Graphics Color="ff3333"/>
+    </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="cd240" Type="Metabolite" GroupRef="c4d6f">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="O2" GraphId="ce06a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FAD-OH" GraphId="d053e" Type="Metabolite" GroupRef="e5729">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="d2064" Type="Metabolite" GroupRef="fe818">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FMO3" GraphId="d527b" Type="GeneProduct" GroupRef="b0ee2">
+    <Graphics Color="ff3333"/>
+    </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="db893" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="dc92d" Type="Metabolite" GroupRef="c30d2">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="e61bc" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FAD" GraphId="e9ba0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FAD" GraphId="f0943" Type="Metabolite" GroupRef="c30d2">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FADH2" GraphId="f4048" Type="Metabolite" GroupRef="fe818">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FAD-OOH" GraphId="fa807" Type="Metabolite" GroupRef="c4d6f">
+    <Comment>Hydroperoxyflavone </Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FMO1" GraphId="fb003" Type="GeneProduct" GroupRef="b0ee2">
+    <Graphics Color="ff3333"/>
+    </DataNode>
+  <DataNode TextLabel="H+" GraphId="fd4b8" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FMO5" GraphId="ff415" Type="GeneProduct" GroupRef="b0ee2">
+    <Graphics Color="ff3333"/>
+    </DataNode>
+  <DataNode TextLabel="FMO4" GraphId="ffa70" Type="GeneProduct" GroupRef="b0ee2">
+    <Graphics Color="ff3333"/>
+    </DataNode>
+  <Interaction GraphId="aa08d">
+    <Graphics>
+      <Point GraphRef="f55ab"/>
+      <Point GraphRef="a9c45" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="adb30">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="aeefa"/>
+      <Point GraphRef="db893" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b441b">
+    <Graphics>
+      <Point GraphRef="f55ab"/>
+      <Point GraphRef="f6d9a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c568d">
+    <Graphics>
+      <Point GraphRef="f55ab"/>
+      <Point GraphRef="bf029" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9995">
+    <Graphics>
+      <Point GraphRef="f55ab"/>
+      <Point GraphRef="cf3f5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9af4">
+    <Graphics Color="ff3333">
+      <Point GraphRef="ff029"/>
+      <Point GraphRef="a4794" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="cf3f5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cf266">
+    <Graphics ConnectorType="Curved" Color="ff3333">
+      <Point GraphRef="e9ba0"/>
+      <Point GraphRef="ff029" ArrowHead="Arrow"/>
+      <Anchor Position="0.5616639958138471" Shape="None" GraphId="bf029"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cfb95">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="fd4b8"/>
+      <Point GraphRef="ff029"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d3a6f">
+    <Graphics Color="ff3333">
+      <Point GraphRef="c61ae"/>
+      <Point GraphRef="aeefa" ArrowHead="Arrow"/>
+      <Anchor Position="0.47368421052631576" Shape="None" GraphId="a92c2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dcfea">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c61ae"/>
+      <Point GraphRef="a2816" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dec02">
+    <Graphics ConnectorType="Curved" Color="ff3333">
+      <Point GraphRef="aeefa"/>
+      <Point GraphRef="e9ba0" ArrowHead="Arrow"/>
+      <Anchor Position="0.4685925428283506" Shape="None" GraphId="f6d9a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e2048">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="ce06a"/>
+      <Point GraphRef="a4794"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e6555">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e38d2"/>
+      <Point GraphRef="ba408" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ea758">
+    <Graphics>
+      <Point GraphRef="f55ab"/>
+      <Point GraphRef="a92c2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ef2a1">
+    <Graphics ConnectorType="Curved" Color="ff3333">
+      <Point GraphRef="a4794"/>
+      <Point/>
+      <Point GraphRef="c61ae" ArrowHead="Arrow"/>
+      <Anchor Position="0.4870267507241439" Shape="None" GraphId="a9c45"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3c9f">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="ff029"/>
+      <Point GraphRef="e61bc"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Substrate-O" GraphId="ba408">
+    <Graphics FillColor="ffffff" Color="33ff66"/>
+  </Label>
+  <Label TextLabel="Endoplasmic reticulum" GraphId="c6786">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Substrate" GraphId="e38d2">
+    <Graphics FillColor="ffffff" Color="33ff66"/>
+  </Label>
+  <Shape GraphId="a78d2">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Group GroupId="c4d6f" GraphId="a4794" Style="Complex"/>
+  <Group GroupId="c30d2" GraphId="aeefa" Style="Complex"/>
+  <Group GroupId="e5729" GraphId="c61ae" Style="Complex"/>
+  <Group GroupId="b0ee2" GraphId="f55ab" Style="Complex"/>
+  <Group GroupId="fe818" GraphId="ff029" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f5f">
+      <bp:ID >15680226</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Potential roles of flavin-containing monooxygenases in sulfoxidation reactions of l-methionine, N-acetyl-l-methionine and peptides containing l-methionine.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Elfarra AA</bp:AUTHORS>
+      <bp:AUTHORS >Krause RJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c20">
+      <bp:ID >15922018</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mammalian flavin-containing monooxygenases: structure/function, genetic polymorphisms and role in drug metabolism.</bp:TITLE>
+      <bp:SOURCE >Pharmacol Ther</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Krueger SK</bp:AUTHORS>
+      <bp:AUTHORS >Williams DE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="deb">
+      <bp:ID >2203193</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Flavin-containing monooxygenases: enzymes adapted for multisubstrate specificity.</bp:TITLE>
+      <bp:SOURCE >Trends Pharmacol Sci</bp:SOURCE>
+      <bp:YEAR >1990</bp:YEAR>
+      <bp:AUTHORS >Ziegler DM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cellular detoxification pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000124</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a03">
+      <bp:ID >8128486</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The mammalian flavin-containing monooxygenases: molecular characterization and regulation of expression.</bp:TITLE>
+      <bp:SOURCE >Toxicol Appl Pharmacol</bp:SOURCE>
+      <bp:YEAR >1994</bp:YEAR>
+      <bp:AUTHORS >Hines RN</bp:AUTHORS>
+      <bp:AUTHORS >Cashman JR</bp:AUTHORS>
+      <bp:AUTHORS >Philpot RM</bp:AUTHORS>
+      <bp:AUTHORS >Williams DE</bp:AUTHORS>
+      <bp:AUTHORS >Ziegler DM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b1e">
+      <bp:ID >7720105</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Multisubstrate flavin-containing monooxygenases: applications of mechanism to specificity.</bp:TITLE>
+      <bp:SOURCE >Chem Biol Interact</bp:SOURCE>
+      <bp:YEAR >1995</bp:YEAR>
+      <bp:AUTHORS >Poulsen LL</bp:AUTHORS>
+      <bp:AUTHORS >Ziegler DM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b64">
+      <bp:ID >18423897</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Flavin-containing monooxygenases: mutations, disease and drug response.</bp:TITLE>
+      <bp:SOURCE >Trends Pharmacol Sci</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Phillips IR</bp:AUTHORS>
+      <bp:AUTHORS >Shephard EA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d52">
+      <bp:ID >16112078</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Some distinctions between flavin-containing and cytochrome P450 monooxygenases.</bp:TITLE>
+      <bp:SOURCE >Biochem Biophys Res Commun</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Cashman JR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bab">
+      <bp:ID >16402899</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Human flavin-containing monooxygenases.</bp:TITLE>
+      <bp:SOURCE >Annu Rev Pharmacol Toxicol</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Cashman JR</bp:AUTHORS>
+      <bp:AUTHORS >Zhang J</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

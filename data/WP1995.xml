@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Effects of nitric oxide" Version="20110617" Author="Martijn van Iersel" Last-Modified="2/22/2013" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">NO (Nitric oxide) is an important signalling molecule with vasodilatory and anti-inflammatory effects, indicating a postive role in reducing hypertension and cardiovascular disease. At the same time, NO is also associated with health risks such as increased risk in carcinogenesis, and hypoxia in infants. It has been suggested that NO can also increase mitochondrial efficiency. NO can be formed from L-Arginine through the classic Arginine-NO-Synthase pathway, or it can be formed directly from dietary nitrite by deoxiginated globins.</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <BiopaxRef>be3</BiopaxRef>
+  <BiopaxRef>bb9</BiopaxRef>
+  <Graphics BoardWidth="912.7096774193544" BoardHeight="599.0"/>
+  <DataNode TextLabel="NOS3 (endothelial)" GraphId="b43d0" Type="GeneProduct" GroupRef="c7733">
+        </DataNode>
+  <DataNode TextLabel="Nitric oxide" GraphId="ba00a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AOX1" GraphId="ee1d5" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="deoxy-hemoglobin" GraphId="c8bca" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="deoxy-myoglobin" GraphId="d2ad2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Nitrate" GraphId="e6a6f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NOS1 (neuronal)" GraphId="e8e2f" Type="GeneProduct" GroupRef="c7733">
+        </DataNode>
+  <DataNode TextLabel="COX1" GraphId="df4a1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NOS2 (inducible)" GraphId="b72c8" Type="GeneProduct" GroupRef="c7733">
+        </DataNode>
+  <DataNode TextLabel="Citrulline" GraphId="dfea3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="VItamin C" GraphId="dd448" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Nitrite" GraphId="e23d1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="XDH" GraphId="e2aba" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="L-Arginine" GraphId="db722" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Oxygen" GraphId="d511b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="d7db9">
+    <Graphics>
+      <Point GraphRef="fd200"/>
+      <Point GraphRef="e6a6f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d0d0c">
+    <Graphics>
+      <Point GraphRef="ee1d5"/>
+      <Point GraphRef="e20ed" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b4801">
+    <Graphics>
+      <Point GraphRef="e3ab1"/>
+      <Point GraphRef="dcf2b" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e8135">
+    <Graphics>
+      <Point GraphRef="dd448"/>
+      <Point GraphRef="e20ed" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a41bc">
+    <Graphics>
+      <Point GraphRef="df4a1"/>
+      <Point GraphRef="e20ed" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f1164">
+    <Graphics>
+      <Point GraphRef="c8bca"/>
+      <Point GraphRef="bbe24" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a4b2e">
+    <Graphics>
+      <Point GraphRef="dbbce"/>
+      <Point GraphRef="dfea3" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de7f9">
+    <Graphics>
+      <Point GraphRef="b51a2"/>
+      <Point GraphRef="c5e9c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="edf03">
+    <Graphics>
+      <Point GraphRef="e2aba"/>
+      <Point GraphRef="d04b0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c0355">
+    <Graphics>
+      <Point GraphRef="ba00a"/>
+      <Point GraphRef="b51a2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d0093">
+    <Graphics>
+      <Point GraphRef="d511b"/>
+      <Point GraphRef="bd70c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d840a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ba00a"/>
+      <Point/>
+      <Point GraphRef="e2aba" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ea116">
+    <Graphics>
+      <Point GraphRef="ba00a"/>
+      <Point GraphRef="fc60c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f5bca">
+    <Graphics>
+      <Point GraphRef="d2ad2"/>
+      <Point GraphRef="bbe24" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a7d33">
+    <Graphics>
+      <Point GraphRef="d1bc8"/>
+      <Point GraphRef="bea5d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b4936">
+    <Graphics>
+      <Point GraphRef="e3ab1"/>
+      <Point GraphRef="afba1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c90a4">
+    <Graphics>
+      <Point GraphRef="e23d1"/>
+      <Point GraphRef="ba00a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6605504587155964" Shape="None" GraphId="afba1"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bbe24"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e3420">
+    <Graphics>
+      <Point GraphRef="fc60c"/>
+      <Point GraphRef="f59f5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c62d6">
+    <Graphics>
+      <Point GraphRef="b51a2"/>
+      <Point GraphRef="d1bc8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c73c8">
+    <Graphics>
+      <Point GraphRef="db722"/>
+      <Point GraphRef="ba00a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.3710450742914222" Shape="None" GraphId="e7c60"/>
+      <Anchor Position="0.2723975691040973" Shape="None" GraphId="bd70c"/>
+      <Anchor Position="0.7314770882756897" Shape="None" GraphId="dcf2b"/>
+      <Anchor Position="0.5088400549381945" Shape="None" GraphId="dbbce"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c0397">
+    <Graphics>
+      <Point GraphRef="fd200"/>
+      <Point GraphRef="e23d1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d1927">
+    <Graphics>
+      <Point GraphRef="c7014"/>
+      <Point GraphRef="e7c60" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cd50f">
+    <Graphics>
+      <Point GraphRef="df4a1"/>
+      <Point GraphRef="bbe24" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9c59">
+    <Graphics>
+      <Point GraphRef="e6a6f"/>
+      <Point GraphRef="e23d1" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e20ed"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Hypoxia" GraphId="e3ab1">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="Increased&#10;mitochondrial&#10;efficiency" GraphId="d04b0">
+    <BiopaxRef>be5</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="reduced risk of&#10;carciovascular disease" GraphId="bea5d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="cGMP&#10;signalling" GraphId="b51a2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Vasodilation" GraphId="d1bc8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="anti-inflammatory&#10;effects" GraphId="c5e9c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NOS family" GraphId="adc2d" GroupRef="c7733">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Increased risk&#10;of carcinogenesis" GraphId="f59f5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NOS Family" GraphId="a5807">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="formation of&#10;nitrosilating&#10;species" GraphId="fc60c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Diet" GraphId="fd200">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Shape GraphId="b4d1a">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="c7733" GraphId="c7014"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be3">
+      <bp:ID >19439460</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Food sources of nitrates and nitrites: the physiologic context for potential health benefits.</bp:TITLE>
+      <bp:SOURCE >Am J Clin Nutr</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Hord NG</bp:AUTHORS>
+      <bp:AUTHORS >Tang Y</bp:AUTHORS>
+      <bp:AUTHORS >Bryan NS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cardiovascular system homeostasis pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000476</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb9">
+      <bp:ID >19915529</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Nitrate and nitrite in biology, nutrition and therapeutics.</bp:TITLE>
+      <bp:SOURCE >Nat Chem Biol</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Lundberg JO</bp:AUTHORS>
+      <bp:AUTHORS >Gladwin MT</bp:AUTHORS>
+      <bp:AUTHORS >Ahluwalia A</bp:AUTHORS>
+      <bp:AUTHORS >Benjamin N</bp:AUTHORS>
+      <bp:AUTHORS >Bryan NS</bp:AUTHORS>
+      <bp:AUTHORS >Butler A</bp:AUTHORS>
+      <bp:AUTHORS >Cabrales P</bp:AUTHORS>
+      <bp:AUTHORS >Fago A</bp:AUTHORS>
+      <bp:AUTHORS >Feelisch M</bp:AUTHORS>
+      <bp:AUTHORS >Ford PC</bp:AUTHORS>
+      <bp:AUTHORS >Freeman BA</bp:AUTHORS>
+      <bp:AUTHORS >Frenneaux M</bp:AUTHORS>
+      <bp:AUTHORS >Friedman J</bp:AUTHORS>
+      <bp:AUTHORS >Kelm M</bp:AUTHORS>
+      <bp:AUTHORS >Kevil CG</bp:AUTHORS>
+      <bp:AUTHORS >Kim-Shapiro DB</bp:AUTHORS>
+      <bp:AUTHORS >Kozlov AV</bp:AUTHORS>
+      <bp:AUTHORS >Lancaster JR Jr</bp:AUTHORS>
+      <bp:AUTHORS >Lefer DJ</bp:AUTHORS>
+      <bp:AUTHORS >McColl K</bp:AUTHORS>
+      <bp:AUTHORS >McCurry K</bp:AUTHORS>
+      <bp:AUTHORS >Patel RP</bp:AUTHORS>
+      <bp:AUTHORS >Petersson J</bp:AUTHORS>
+      <bp:AUTHORS >Rassaf T</bp:AUTHORS>
+      <bp:AUTHORS >Reutov VP</bp:AUTHORS>
+      <bp:AUTHORS >Richter-Addo GB</bp:AUTHORS>
+      <bp:AUTHORS >Schechter A</bp:AUTHORS>
+      <bp:AUTHORS >Shiva S</bp:AUTHORS>
+      <bp:AUTHORS >Tsuchiya K</bp:AUTHORS>
+      <bp:AUTHORS >van Faassen EE</bp:AUTHORS>
+      <bp:AUTHORS >Webb AJ</bp:AUTHORS>
+      <bp:AUTHORS >Zuckerbraun BS</bp:AUTHORS>
+      <bp:AUTHORS >Zweier JL</bp:AUTHORS>
+      <bp:AUTHORS >Weitzberg E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be5">
+      <bp:ID >21284982</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Dietary inorganic nitrate improves mitochondrial efficiency in humans.</bp:TITLE>
+      <bp:SOURCE >Cell Metab</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Larsen FJ</bp:AUTHORS>
+      <bp:AUTHORS >Schiffer TA</bp:AUTHORS>
+      <bp:AUTHORS >Borniquel S</bp:AUTHORS>
+      <bp:AUTHORS >Sahlin K</bp:AUTHORS>
+      <bp:AUTHORS >Ekblom B</bp:AUTHORS>
+      <bp:AUTHORS >Lundberg JO</bp:AUTHORS>
+      <bp:AUTHORS >Weitzberg E</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

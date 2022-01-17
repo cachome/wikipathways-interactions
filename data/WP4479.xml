@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Supression of HMGB1 mediated inflammation by THBD" Version="20181212" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">THBD inhibition of HMGB1 mediated pro-inflammatory pathway via proteolytic cleavage of HMGB1.</Comment>
+  <BiopaxRef>d44</BiopaxRef>
+  <BiopaxRef>edd</BiopaxRef>
+  <Graphics BoardWidth="779.5238095238096" BoardHeight="905.8227024747919"/>
+  <DataNode TextLabel="IkKA" Type="GeneProduct" GroupRef="bb95f">
+        </DataNode>
+  <DataNode TextLabel="IkKB" Type="GeneProduct" GroupRef="bb95f">
+        </DataNode>
+  <DataNode TextLabel="IkKG" Type="GeneProduct" GroupRef="bb95f">
+        </DataNode>
+  <DataNode TextLabel="IkBA" Type="GeneProduct" GroupRef="c51dc">
+        </DataNode>
+  <DataNode TextLabel="RELA" Type="GeneProduct" GroupRef="c51dc">
+        </DataNode>
+  <DataNode TextLabel="THBD" GraphId="b00d8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HMGB1" GraphId="e3639" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RAGE" GraphId="f026f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NFkB" GraphId="f9148" Type="GeneProduct" GroupRef="c51dc">
+        </DataNode>
+  <DataNode TextLabel="HMGB1" GraphId="e8044" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="THBD" GraphId="ebff9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HMGB1" GraphId="fafbd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IkBA" GraphId="d904b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RELA" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NFkB" GraphId="fb0cd" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id27bbe552">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2e3f1cf4">
+    <Graphics>
+      <Point GraphRef="f026f"/>
+      <Point GraphRef="bdd92" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4d20087a">
+    <Graphics>
+      <Point GraphRef="e3639"/>
+      <Point GraphRef="f026f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id72f8083f">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c7770"/>
+      <Point/>
+      <Point GraphRef="d904b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7facb13d">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbb546658">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddd935b8b">
+    <Graphics>
+      <Point GraphRef="bdd92"/>
+      <Point GraphRef="c7770" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideb1e6096">
+    <Graphics>
+      <Point GraphRef="b00d8"/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfea15a3">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf4d39c06">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="bfe20" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide89c7fe1">
+    <Graphics>
+      <Point GraphRef="c7770"/>
+      <Point GraphRef="fb0cd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="DNA" GraphId="e511a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inflammation" GraphId="eb7cb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cytosol" GraphId="ec85e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="f8725">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Proteolytic cleavage" GraphId="fa50f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="ba74a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="bfe20">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="e770f">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="eae4e">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f4e99">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="fec66">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="bb95f" GraphId="bdd92" Style="Complex"/>
+  <Group GroupId="c51dc" GraphId="c7770" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="edd">
+      <bp:ID >17072321</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Introduction to NF-kappaB: players, pathways, perspectives.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Gilmore TD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d44">
+      <bp:ID >22449172</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of thrombomodulin lectin-like domain in inflammation.</bp:TITLE>
+      <bp:SOURCE >J Biomed Sci</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Li YH</bp:AUTHORS>
+      <bp:AUTHORS >Kuo CH</bp:AUTHORS>
+      <bp:AUTHORS >Shi GY</bp:AUTHORS>
+      <bp:AUTHORS >Wu HL</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

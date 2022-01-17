@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Electron transport chain: OXPHOS system in mitochondria" Organism="Homo sapiens">
+  <Comment Source="GenMAPP notes"/>
+  <Comment Source="GenMAPP remarks"/>
+  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment Source="WikiPathways-description">An electron transport chain(ETC) couples a chemical reaction between an electron donor (such as NADH) and an electron acceptor (such as O2) to the transfer of H+ ions across a membrane, through a set of mediating biochemical reactions. These H+ ions are used to produce adenosine triphosphate (ATP), the main energy intermediate in living organisms, as they move back across the membrane. 
+In mitochondria, it is the conversion of oxygen to water, NADH to NAD+ and succinate to fumarate that drives the transfer of H+ ions.
+Source: Wikipedia ([[wikipedia:Electron_transport_chain]])
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP111 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>dc1</BiopaxRef>
+  <Graphics BoardWidth="1440.6666666666667" BoardHeight="764.0"/>
+  <DataNode TextLabel="ATP5A1" GraphId="a0b" Type="GeneProduct" GroupRef="cb58a">
+        </DataNode>
+  <DataNode TextLabel="NDUFB6" GraphId="a11" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="ATP5I" GraphId="a12" Type="GeneProduct" GroupRef="c0500">
+        </DataNode>
+  <DataNode TextLabel="SLC25A5" GraphId="a1d" Type="GeneProduct" GroupRef="e54f3">
+        </DataNode>
+  <DataNode TextLabel="COX15" GraphId="a31" Type="GeneProduct" GroupRef="fdd6a">
+        </DataNode>
+  <DataNode TextLabel="COX6B1" GraphId="a35" Type="GeneProduct" GroupRef="c4e73">
+        </DataNode>
+  <DataNode TextLabel="UCRC" GraphId="a39" Type="GeneProduct" GroupRef="de99a">
+        </DataNode>
+  <DataNode TextLabel="COX6C" GraphId="a4c" Type="GeneProduct" GroupRef="c4e73">
+        </DataNode>
+  <DataNode TextLabel="ATP5J2" GraphId="a4e" Type="GeneProduct" GroupRef="c0500">
+        </DataNode>
+  <DataNode TextLabel="ATP5O" GraphId="a5c" Type="GeneProduct" GroupRef="e472f">
+        </DataNode>
+  <DataNode TextLabel="O2" GraphId="a5e7d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ATP5G2" GraphId="a6e" Type="GeneProduct" GroupRef="c0500">
+        </DataNode>
+  <DataNode TextLabel="H+" GraphId="a7810" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFC1" GraphId="a80" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="ATP5B" GraphId="a92" Type="GeneProduct" GroupRef="cb58a">
+        </DataNode>
+  <DataNode TextLabel="NDUFA8" GraphId="a9b" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="ATP" GraphId="a9cb9" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Succinate" GraphId="ac151" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UQCR" GraphId="ad3" Type="GeneProduct" GroupRef="de99a">
+        </DataNode>
+  <DataNode TextLabel="NDUFA3" GraphId="ae1" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="SLC25A14" GraphId="ae2" Type="GeneProduct" GroupRef="a6e66">
+        </DataNode>
+  <DataNode TextLabel="NDUFV2" GraphId="ae6" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="NDUFA6" GraphId="af0" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="COX2" GraphId="af3" Type="GeneProduct" GroupRef="c4e73">
+        </DataNode>
+  <DataNode TextLabel="NDUFB9" GraphId="af8" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="NDUFS6" GraphId="aff" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="UQCRFS1" GraphId="b00" Type="GeneProduct" GroupRef="de99a">
+        </DataNode>
+  <DataNode TextLabel="NDUFA2" GraphId="b0c" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="ND4L" GraphId="b21" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="e-" GraphId="b29c4" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ATP8" GraphId="b2b" Type="GeneProduct" GroupRef="c0500">
+        </DataNode>
+  <DataNode TextLabel="NDUFS5" GraphId="b39" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="COX5A" GraphId="b40" Type="GeneProduct" GroupRef="c4e73">
+        </DataNode>
+  <DataNode TextLabel="UQCRC2" GraphId="b41" Type="GeneProduct" GroupRef="de99a">
+        </DataNode>
+  <DataNode TextLabel="COX11" GraphId="b59" Type="GeneProduct" GroupRef="fdd6a">
+        </DataNode>
+  <DataNode TextLabel="ATP5J" GraphId="b61" Type="GeneProduct" GroupRef="e472f">
+        </DataNode>
+  <DataNode TextLabel="SDHB" GraphId="b62" Type="GeneProduct" GroupRef="d7381">
+        </DataNode>
+  <DataNode TextLabel="COX1" GraphId="b76" Type="GeneProduct" GroupRef="c4e73">
+        </DataNode>
+  <DataNode TextLabel="FADH2" GraphId="b7f21" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="COX7A2L" GraphId="b87" Type="GeneProduct" GroupRef="c4e73">
+        </DataNode>
+  <DataNode TextLabel="NDUFS7" GraphId="b8b" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="COX6A1" GraphId="b9c" Type="GeneProduct" GroupRef="c4e73">
+        </DataNode>
+  <DataNode TextLabel="SLC25A27" GraphId="bab" Type="GeneProduct" GroupRef="a6e66">
+        </DataNode>
+  <DataNode TextLabel="TCA Cycle" GraphId="bb20c" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS4" GraphId="bbb" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="COX7A1" GraphId="bbf" Type="GeneProduct" GroupRef="c4e73">
+        </DataNode>
+  <DataNode TextLabel="COX4I1" GraphId="bc3" Type="GeneProduct" GroupRef="c4e73">
+        </DataNode>
+  <DataNode TextLabel="H+" GraphId="bc4f2" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="COX7A3" GraphId="bd7" Type="GeneProduct" GroupRef="c4e73">
+        </DataNode>
+  <DataNode TextLabel="H+" GraphId="bde98" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SLC25A6" GraphId="bea" Type="GeneProduct" GroupRef="e54f3">
+        </DataNode>
+  <DataNode TextLabel="ATP5L" GraphId="c04" Type="GeneProduct" GroupRef="c0500">
+        </DataNode>
+  <DataNode TextLabel="NDUFB1" GraphId="c12" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="UCP3" GraphId="c2d" Type="GeneProduct" GroupRef="a6e66">
+        </DataNode>
+  <DataNode TextLabel="UQCRH" GraphId="c54" Type="GeneProduct" GroupRef="de99a">
+        </DataNode>
+  <DataNode TextLabel="FAD" GraphId="c57d6" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA9" GraphId="c5a" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="H+" GraphId="c5b31" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFB3" GraphId="c88" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="ATP5G1" GraphId="c96" Type="GeneProduct" GroupRef="c0500">
+        </DataNode>
+  <DataNode TextLabel="NDUFB4" GraphId="c9a" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="COX7A2" GraphId="c9f" Type="GeneProduct" GroupRef="c4e73">
+        </DataNode>
+  <DataNode TextLabel="H+" GraphId="cabec" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ND6" GraphId="cac" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="ATP5S" GraphId="cb0" Type="GeneProduct" GroupRef="c0500">
+        </DataNode>
+  <DataNode TextLabel="NAD+" GraphId="cb8fe" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SDHA" GraphId="cc7" Type="GeneProduct" GroupRef="d7381">
+        </DataNode>
+  <DataNode TextLabel="H2O" GraphId="ccb20" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ND2" GraphId="cf6" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="NDUFAB1" GraphId="d03" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="COX7B" GraphId="d07" Type="GeneProduct" GroupRef="c4e73">
+        </DataNode>
+  <DataNode TextLabel="QP-C" GraphId="d5d" Type="GeneProduct" GroupRef="de99a">
+        </DataNode>
+  <DataNode TextLabel="Assembly PW&#10;Complex 1" GraphId="d6aa8" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="SLC25A4" GraphId="d6c" Type="GeneProduct" GroupRef="e54f3">
+        </DataNode>
+  <DataNode TextLabel="UQCRB" GraphId="d72" Type="GeneProduct" GroupRef="de99a">
+        </DataNode>
+  <DataNode TextLabel="ND5" GraphId="d89" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="DAP13" GraphId="d9a" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="SCO1" GraphId="db2" Type="GeneProduct" GroupRef="fdd6a">
+        </DataNode>
+  <DataNode TextLabel="SDHD" GraphId="dbb" Type="GeneProduct" GroupRef="d7381">
+        </DataNode>
+  <DataNode TextLabel="ATPIF1" GraphId="ded" Type="GeneProduct" GroupRef="c0500">
+        </DataNode>
+  <DataNode TextLabel="NDUFB7" GraphId="df0" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="NDUFA1" GraphId="df1" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="UQCRC1" GraphId="e02" Type="GeneProduct" GroupRef="de99a">
+        </DataNode>
+  <DataNode TextLabel="NDUFB5" GraphId="e03" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="COX5B" GraphId="e04" Type="GeneProduct" GroupRef="c4e73">
+        </DataNode>
+  <DataNode TextLabel="H+" GraphId="e0eb0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ATP6" GraphId="e17" Type="GeneProduct" GroupRef="c0500">
+        </DataNode>
+  <DataNode TextLabel="COX3" GraphId="e25" Type="GeneProduct" GroupRef="c4e73">
+        </DataNode>
+  <DataNode TextLabel="NDUFS3" GraphId="e2a" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="COX8A" GraphId="e3d" Type="GeneProduct" GroupRef="c4e73">
+        </DataNode>
+  <DataNode TextLabel="ND1" GraphId="e4e" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="NDUFV1" GraphId="e6c" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="SDHC" GraphId="e70" Type="GeneProduct" GroupRef="d7381">
+        </DataNode>
+  <DataNode TextLabel="ATP5G3" GraphId="e79" Type="GeneProduct" GroupRef="c0500">
+        </DataNode>
+  <DataNode TextLabel="COX6A2" GraphId="e7f" Type="GeneProduct" GroupRef="c4e73">
+        </DataNode>
+  <DataNode TextLabel="H+" GraphId="e8583" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SURF1" GraphId="ea9" Type="GeneProduct" GroupRef="fdd6a">
+        </DataNode>
+  <DataNode TextLabel="NDUFS1" GraphId="eb4" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="NDUFA7" GraphId="ec6" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="ND4" GraphId="ec9" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="ATP5H" GraphId="ecb" Type="GeneProduct" GroupRef="c0500">
+        </DataNode>
+  <DataNode TextLabel="NDUFC2" GraphId="ecf" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="NDUFB2" GraphId="ed3" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="NDUFS2" GraphId="ee7" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="COX7C" GraphId="f02" Type="GeneProduct" GroupRef="c4e73">
+        </DataNode>
+  <DataNode TextLabel="ATP5D" GraphId="f0d" Type="GeneProduct" GroupRef="cb58a">
+        </DataNode>
+  <DataNode TextLabel="NDUFB10" GraphId="f15" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="COX17" GraphId="f19" Type="GeneProduct" GroupRef="fdd6a">
+        </DataNode>
+  <DataNode TextLabel="NDUFA4" GraphId="f27" Type="GeneProduct" GroupRef="c4e73">
+    <BiopaxRef>e55</BiopaxRef>
+    <BiopaxRef>ac6</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="e-" GraphId="f43a7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA5" GraphId="f50" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="ATP5F1" GraphId="f59" Type="GeneProduct" GroupRef="c0500">
+        </DataNode>
+  <DataNode TextLabel="ATP5E" GraphId="f6d" Type="GeneProduct" GroupRef="cb58a">
+        </DataNode>
+  <DataNode TextLabel="ATP5C1" GraphId="f76" Type="GeneProduct" GroupRef="cb58a">
+        </DataNode>
+  <DataNode TextLabel="NDUFV3" GraphId="f95" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="e-" GraphId="fa065" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA10" GraphId="fa1" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="Cytochrome C" GraphId="fc1c2" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UCP2" GraphId="fc5" Type="GeneProduct" GroupRef="a6e66">
+        </DataNode>
+  <DataNode TextLabel="ND3" GraphId="fca" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="NDUFS8" GraphId="fcb" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="NDUFB8" GraphId="fcd" Type="GeneProduct" GroupRef="afba2">
+        </DataNode>
+  <DataNode TextLabel="CYTB" GraphId="fd2" Type="GeneProduct" GroupRef="de99a">
+        </DataNode>
+  <DataNode TextLabel="UCP1" GraphId="fe1" Type="GeneProduct" GroupRef="a6e66">
+        </DataNode>
+  <DataNode TextLabel="NADH" GraphId="fe495" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ubiquinone" GraphId="ff5" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="a0b32">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="acde6"/>
+      <Point GraphRef="f43a7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a4aef">
+    <Graphics>
+      <Point GraphRef="ad4b9"/>
+      <Point GraphRef="fbb66" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ad726">
+    <Graphics>
+      <Point GraphRef="fdc14"/>
+      <Point GraphRef="d3678" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b0e4a">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b29c4"/>
+      <Point GraphRef="ff5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b17ae">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b7f21"/>
+      <Point/>
+      <Point GraphRef="c57d6" ArrowHead="Arrow"/>
+      <Anchor Position="0.5587895142636853" Shape="None" GraphId="acde6"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f1537"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b2b00">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e0eb0"/>
+      <Point GraphRef="cabec" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b3d7d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a7810"/>
+      <Point GraphRef="cabec" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b4178">
+    <Graphics>
+      <Point GraphRef="c3e7a"/>
+      <Point GraphRef="f26fc" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b92fd">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="f43a7"/>
+      <Point GraphRef="ff5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c243a">
+    <Graphics>
+      <Point GraphRef="bde98"/>
+      <Point GraphRef="bc4f2" ArrowHead="Arrow"/>
+      <Anchor Position="0.09688154413077718" Shape="None" GraphId="fbb66"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c4d38">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="a5e7d"/>
+      <Point/>
+      <Point GraphRef="ccb20" ArrowHead="Arrow"/>
+      <Anchor Position="0.3227009419827867" Shape="None" GraphId="bcb8f"/>
+      <Anchor Position="0.5124162711616141" Shape="None" GraphId="cdd15"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c57d3">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="fc1c2"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="bcb8f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cdee2">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c57d6"/>
+      <Point/>
+      <Point GraphRef="b7f21" ArrowHead="Arrow"/>
+      <Anchor Position="0.6135312259059371" Shape="None" GraphId="ecac3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cfb2a">
+    <Graphics>
+      <Point GraphRef="fdc14"/>
+      <Point GraphRef="de1e1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d057a">
+    <Graphics>
+      <Point GraphRef="c5b31"/>
+      <Point GraphRef="a7810" ArrowHead="Arrow"/>
+      <Anchor Position="0.09688154413077718" Shape="None" GraphId="f26fc"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="da1d5">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="d7312"/>
+      <Point GraphRef="a9cb9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="da292">
+    <Graphics>
+      <Point GraphRef="c4d30"/>
+      <Point GraphRef="f1537" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dbdc8">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="de1e1"/>
+      <Point GraphRef="b29c4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0a8b">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="fa065"/>
+      <Point GraphRef="ecac3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eb56f">
+    <Graphics>
+      <Point GraphRef="e62a1"/>
+      <Point GraphRef="d7312" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f0372">
+    <Graphics LineStyle="Broken" Color="0000ff">
+      <Point GraphRef="bb20c"/>
+      <Point GraphRef="fe495" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f52f4">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bc4f2"/>
+      <Point GraphRef="cabec" ArrowHead="Arrow"/>
+      <Anchor Position="0.8333527526944362" Shape="None" GraphId="d7312"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f713d">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="ff5"/>
+      <Point GraphRef="fc1c2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa8bc">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="ac151"/>
+      <Point GraphRef="fa065" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="feb3f">
+    <Graphics>
+      <Point GraphRef="ad4b9"/>
+      <Point GraphRef="cdd15" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fee15">
+    <Graphics>
+      <Point GraphRef="e8583"/>
+      <Point GraphRef="e0eb0" ArrowHead="Arrow"/>
+      <Anchor Position="0.09688154413077718" Shape="None" GraphId="d3678"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id65917a83">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="fdc14"/>
+      <Point GraphRef="d6aa8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id86f308da">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="fe495"/>
+      <Point/>
+      <Point GraphRef="cb8fe" ArrowHead="Arrow"/>
+      <Anchor Position="0.5243960017227046" Shape="None" GraphId="de1e1"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="a29f9">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="daf81">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="NADH-Ubiquinone&#10;Oxidoreductase" GraphId="a07">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Complex II" GraphId="a28">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="C subunit" GraphId="a33">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Ubiquinol-Cytochrome C&#10;Reductase" GraphId="a3f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Matrix" GraphId="a43ad">
+    <Graphics FillColor="ffffff" Color="009900"/>
+  </Label>
+  <Label TextLabel="Cytochrome C&#10;Oxidase" GraphId="b29">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Intermembrane&#10;Space" GraphId="b48e2">
+    <Graphics FillColor="ffffff" Color="009900"/>
+  </Label>
+  <Label TextLabel="Stalk" GraphId="b97" GroupRef="e472f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Complex IV" GraphId="cb2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="F1 Complex" GraphId="cd4" GroupRef="cb58a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Complex III" GraphId="cf7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Assembly" GraphId="d65">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="F0 Complex" GraphId="daf" GroupRef="c0500">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="binds ATP Synthase beta" GraphId="f1c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Adenine Nucleotide&#10;Translocator" GraphId="f36">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Succinate-Ubiquinone&#10;Oxidoreductase" GraphId="fc2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Complex I" GraphId="fc3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Uncoupling Protein" GraphId="ff0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Complex V&#10;ATP Synthase " GraphId="ff7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="ed9">
+    <Graphics FillColor="000000" ShapeType="Brace"/>
+  </Shape>
+  <Group GroupId="c0500" Style="Complex"/>
+  <Group GroupId="cb58a" Style="Complex"/>
+  <Group GroupId="c4e73" GraphId="ad4b9" Style="Complex"/>
+  <Group GroupId="de99a" GraphId="c3e7a"/>
+  <Group GroupId="d7381" GraphId="c4d30"/>
+  <Group GroupId="a6e66" GraphId="cc4c1"/>
+  <Group GroupId="e54f3" GraphId="d719e"/>
+  <Group GroupId="fdd6a" GraphId="d7f68"/>
+  <Group GroupId="e472f" GraphId="e62a1" Style="Complex"/>
+  <Group GroupId="afba2" GraphId="fdc14" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e55">
+      <bp:ID >22902835</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NDUFA4 is a subunit of complex IV of the mammalian electron transport chain.</bp:TITLE>
+      <bp:SOURCE >Cell Metab</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Balsa E</bp:AUTHORS>
+      <bp:AUTHORS >Marco R</bp:AUTHORS>
+      <bp:AUTHORS >Perales-Clemente E</bp:AUTHORS>
+      <bp:AUTHORS >Szklarczyk R</bp:AUTHORS>
+      <bp:AUTHORS >Calvo E</bp:AUTHORS>
+      <bp:AUTHORS >Land&#225;zuri MO</bp:AUTHORS>
+      <bp:AUTHORS >Enr&#237;quez JA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac6">
+      <bp:ID >23746447</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NDUFA4 mutations underlie dysfunction of a cytochrome c oxidase subunit linked to human neurological disease.</bp:TITLE>
+      <bp:SOURCE >Cell Rep</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Pitceathly RD</bp:AUTHORS>
+      <bp:AUTHORS >Rahman S</bp:AUTHORS>
+      <bp:AUTHORS >Wedatilake Y</bp:AUTHORS>
+      <bp:AUTHORS >Polke JM</bp:AUTHORS>
+      <bp:AUTHORS >Cirak S</bp:AUTHORS>
+      <bp:AUTHORS >Foley AR</bp:AUTHORS>
+      <bp:AUTHORS >Sailer A</bp:AUTHORS>
+      <bp:AUTHORS >Hurles ME</bp:AUTHORS>
+      <bp:AUTHORS >Stalker J</bp:AUTHORS>
+      <bp:AUTHORS >Hargreaves I</bp:AUTHORS>
+      <bp:AUTHORS >Woodward CE</bp:AUTHORS>
+      <bp:AUTHORS >Sweeney MG</bp:AUTHORS>
+      <bp:AUTHORS >Muntoni F</bp:AUTHORS>
+      <bp:AUTHORS >Houlden H</bp:AUTHORS>
+      <bp:AUTHORS >Taanman JW</bp:AUTHORS>
+      <bp:AUTHORS >Hanna MG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >electron transport chain pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000034</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc1">
+      <bp:ID >30030361</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Assembly of mammalian oxidative phosphorylation complexes I-V and supercomplexes.</bp:TITLE>
+      <bp:SOURCE >Essays Biochem</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Signes A</bp:AUTHORS>
+      <bp:AUTHORS >Fernandez-Vizarra E</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>classic metabolic pathway</bp:TERM><bp:ID>PW:0000002</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

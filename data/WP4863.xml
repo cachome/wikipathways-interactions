@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Host-pathogen interaction of human coronaviruses - autophagy" Version="20200327" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway describes the induction and modulation of the human autophagy system during human coronavirus infection. The information is based on the review of Fung and Liu [10.1146/annurev-micro-020518-115759]. Autophagy is usually a stress mediated defense mechanism and can protect against pathogen infection. On the other hand it is known from several viruses that they can hijack the cellular autophagy system for proliferation [10.1074/jbc.M306124200]. For human coronaviruses it is presumed that coronaviruses stimulate the initiation of autophagy due to infection initiated stress for which PIK3R4 (VPS15), PIK3C3 (VPS34) and BECN1 (beclin1) are key proteins. Additionally, nsp6 (and nsp567 from other virus species than SARS-CoV) inhibit maturation of autolysosomes. Nsp6 is involved in the formation of double membrane vesicles and therefore has side effects on the formation of normal cellular vesicles [10.4161/auto.29309]. </Comment>
+  <BiopaxRef>c00</BiopaxRef>
+  <Graphics BoardWidth="1007.0" BoardHeight="1154.0"/>
+  <DataNode TextLabel="ULK1" GraphId="a0a83" Type="Protein" GroupRef="aa819">
+        </DataNode>
+  <DataNode TextLabel="nsp6" GraphId="a3e06" Type="Protein" GroupRef="f6e78">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="ULK2" GraphId="a5cdb" Type="Protein" GroupRef="aa819">
+        </DataNode>
+  <DataNode TextLabel="RB1CC1" GraphId="acde0" Type="Protein" GroupRef="aa819">
+    <Comment>FIP200</Comment>
+        </DataNode>
+  <DataNode TextLabel="autophagy&#10;initiation&#10;complex" GraphId="aeae7" Type="Complex" GroupRef="aa819">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="BECN1" GraphId="b9910" Type="Protein" GroupRef="bac40">
+    <Comment>beclin 1</Comment>
+        </DataNode>
+  <DataNode TextLabel="PIK3R4" GraphId="c6116" Type="Protein" GroupRef="bac40">
+    <Comment>VPS15</Comment>
+        </DataNode>
+  <DataNode TextLabel="MTOR" GraphId="dc0f7" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PIK3C3" GraphId="dee0b" Type="Protein" GroupRef="bac40">
+    <Comment>VPS34</Comment>
+        </DataNode>
+  <DataNode TextLabel="WIPI1" GraphId="e49f6" Type="Protein" GroupRef="f03b6">
+        </DataNode>
+  <DataNode TextLabel="ZFYVE1" GraphId="f5ed9" Type="Protein" GroupRef="f03b6">
+        </DataNode>
+  <DataNode TextLabel="ULK1" GraphId="f81e7" Type="Protein" GroupRef="dffa6">
+        </DataNode>
+  <DataNode TextLabel="ULK2" GraphId="efb94" Type="Protein" GroupRef="dffa6">
+        </DataNode>
+  <DataNode TextLabel="MTOR" GraphId="a9b05" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="nsp567" GraphId="d00ed" Type="Protein" GroupRef="f6e78">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="nsp6" GraphId="f2d67" Type="Protein" GroupRef="cec00">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="nsp567" GraphId="f275a" Type="Protein" GroupRef="cec00">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="ATG13" GraphId="bb448" Type="GeneProduct" GroupRef="dffa6">
+        </DataNode>
+  <DataNode TextLabel="ATG7" GraphId="d29cb" Type="Protein" GroupRef="ca7f0">
+        </DataNode>
+  <DataNode TextLabel="ATG10" GraphId="a5374" Type="Protein" GroupRef="ca7f0">
+        </DataNode>
+  <DataNode TextLabel="ATG5" GraphId="f0430" Type="Protein" GroupRef="e4a27">
+        </DataNode>
+  <DataNode TextLabel="ATG12" GraphId="d2b7f" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="ATG12" GraphId="f8f15" Type="Protein" GroupRef="e4a27">
+        </DataNode>
+  <DataNode TextLabel="ATG5" GraphId="c82d3" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="ATG16L1" GraphId="c8ea6" Type="Protein" GroupRef="d3798">
+        </DataNode>
+  <DataNode TextLabel="ATG3" GraphId="ac6f8" Type="Protein" GroupRef="d75ba">
+        </DataNode>
+  <DataNode TextLabel="ATG4A" GraphId="c05e1" Type="Protein" GroupRef="d75ba">
+        </DataNode>
+  <DataNode TextLabel="ATG7" GraphId="a026b" Type="Protein" GroupRef="d75ba">
+        </DataNode>
+  <DataNode TextLabel="ATG16L2" GraphId="c2224" Type="Protein" GroupRef="d3798">
+        </DataNode>
+  <DataNode TextLabel="ATG16L1" GraphId="b4d1e" Type="Protein" GroupRef="c4f67">
+        </DataNode>
+  <DataNode TextLabel="ATG16L2" GraphId="d58bf" Type="Protein" GroupRef="c4f67">
+        </DataNode>
+  <DataNode TextLabel="ATG5" GraphId="e700e" Type="Protein" GroupRef="d3798">
+        </DataNode>
+  <DataNode TextLabel="ATG12" GraphId="bb2d7" Type="Protein" GroupRef="d3798">
+        </DataNode>
+  <DataNode TextLabel="PE" GraphId="eaf7b" Type="Metabolite" GroupRef="a262d">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="LC3" GraphId="dd036" Type="GeneProduct" GroupRef="a262d">
+        </DataNode>
+  <DataNode TextLabel="LC3" GraphId="b3be1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PE" GraphId="fa8aa" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ATG13" GraphId="af0e2" Type="Protein" GroupRef="aa819">
+        </DataNode>
+  <State GraphRef="b9910" TextLabel="P" GraphId="ca129">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f81e7" TextLabel="P" GraphId="bcf45">
+    <Comment>parentid=O75385; parentsymbol=ULK1; site=PVVFtVGsPPsGStP; position=ser758; sitegrpid=483139; ptm=p; direction=d</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f81e7" TextLabel="P" GraphId="dbf27">
+    <Comment>parentid=O75385; parentsymbol=ULK1; site=FDFPKtPssQNLLAL; position=ser638; sitegrpid=3176158; ptm=p; direction=d</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="efb94" TextLabel="P" GraphId="fe9a1">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="bb448" TextLabel="P" GraphId="bacbd">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="af0e2" TextLabel="P" GraphId="f3aaf">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id1d777c00">
+    <Graphics>
+      <Point GraphRef="ceb35"/>
+      <Point GraphRef="c4176" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id26b440cd">
+    <Graphics>
+      <Point GraphRef="c4176"/>
+      <Point GraphRef="e5087" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3266321">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ac27b"/>
+      <Point GraphRef="f5ed9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4f4ebe11">
+    <Graphics>
+      <Point GraphRef="ce113"/>
+      <Point GraphRef="ac27b" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.5521538461538464" Shape="None" GraphId="ac45d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5a4fd155">
+    <Graphics>
+      <Point GraphRef="dc0f7"/>
+      <Point GraphRef="a9b05" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7219400a">
+    <Graphics>
+      <Point GraphRef="b392b"/>
+      <Point GraphRef="e6b46" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7b795d10">
+    <Graphics>
+      <Point GraphRef="b3be1"/>
+      <Point GraphRef="b35a3" ArrowHead="Arrow"/>
+      <Anchor Position="0.3750476559521502" Shape="None" GraphId="e6b46"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8d83e948">
+    <Graphics>
+      <Point GraphRef="a61b2"/>
+      <Point GraphRef="e8965" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id90ade9bc">
+    <Graphics>
+      <Point GraphRef="dc0f7"/>
+      <Point GraphRef="a46c6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbfaf590f">
+    <Graphics>
+      <Point GraphRef="ce113"/>
+      <Point GraphRef="fccb6" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5892128919096691" Shape="None" GraphId="a46c6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc0f60255">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e6b46"/>
+      <Point/>
+      <Point GraphRef="fa8aa"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idce3fc47d">
+    <Graphics>
+      <Point GraphRef="d2646"/>
+      <Point GraphRef="ac45d" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idceed974e">
+    <Graphics>
+      <Point GraphRef="e8965"/>
+      <Point GraphRef="c2baf" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e012f"/>
+      <Anchor Position="0.7433155080213903" Shape="None" GraphId="a2aa4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide85e4cff">
+    <BiopaxRef>cf3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b2eb5"/>
+      <Point GraphRef="e012f" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e7260">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b5087"/>
+      <Point/>
+      <Point GraphRef="a2aa4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bad7c">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c82d3"/>
+      <Point GraphRef="bcb58"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8b91">
+    <Graphics>
+      <Point GraphRef="e453d"/>
+      <Point GraphRef="ad01e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a613c">
+    <Graphics>
+      <Point GraphRef="d2b7f"/>
+      <Point GraphRef="a2002" ArrowHead="Arrow"/>
+      <Anchor Position="0.46789638320057675" Shape="None" GraphId="ad01e"/>
+      <Anchor Position="0.6292700359083466" Shape="None" GraphId="bcb58"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f0c56">
+    <Graphics>
+      <Point GraphRef="a2002"/>
+      <Point GraphRef="e7545" ArrowHead="Arrow"/>
+      <Anchor Position="0.7138827939846712" Shape="None" GraphId="e38c7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f1056">
+    <Graphics>
+      <Point GraphRef="e7545"/>
+      <Point GraphRef="b392b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6f7b">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="ac403"/>
+      <Point GraphRef="e38c7"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Maturation" GraphId="a4ae0">
+    <Graphics FillColor="ffffff" Color="3300cc"/>
+  </Label>
+  <Label TextLabel="virus protein" GraphId="de2f7" GroupRef="f9383">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+  </Label>
+  <Label TextLabel="(inactive)" GraphId="e1f24">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Initiation" GraphId="e30ba">
+    <Graphics FillColor="ffffff" Color="3300cc"/>
+  </Label>
+  <Label TextLabel="phosphorylation" GraphId="e915a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="SARS, IBV, MHV" GraphId="f9cfe">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="ER" GraphId="b5f7b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleation" GraphId="cdcef">
+    <Graphics FillColor="ffffff" Color="3300cc"/>
+  </Label>
+  <Label TextLabel="Elongation" GraphId="a4b20">
+    <Graphics FillColor="ffffff" Color="3300cc"/>
+  </Label>
+  <Label TextLabel="PRRSV" GraphId="c34de">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="MHV, EAV&#10;infection" GraphId="ef3d3">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="SARS, IBV, MHV" GraphId="ca52f">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="PRRSV" GraphId="ee891">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="virus type/species&#10;&#10;Phosphorylation" GraphId="cf891" GroupRef="f9383">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Label TextLabel="PRRSV" GraphId="bfc5f" GroupRef="f9383">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Shape TextLabel="Lysozome" GraphId="b5087">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="EDEMosome" GraphId="c4176">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Legend" GraphId="cc893" GroupRef="f9383">
+    <Graphics Align="Left" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="ceb35">
+    <Graphics ShapeType="Endoplasmic Reticulum" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="DMV &#10;double membrane &#10;vesicle" GraphId="e5087">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Autophagosome" GraphId="e8965">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Autolysosome" GraphId="c2baf">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="P" GraphId="a6c95" GroupRef="f9383">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="f9383" Style="Group"/>
+  <Group GroupId="e4a27" GraphId="a2002" Style="Group"/>
+  <Group GroupId="f03b6" GraphId="a61b2" Style="Group"/>
+  <Group GroupId="bac40" GraphId="ac27b" Style="Complex"/>
+  <Group GroupId="c4f67" GraphId="ac403" Style="Group"/>
+  <Group GroupId="c24ab" GraphId="adbfb" Style="Group"/>
+  <Group GroupId="cec00" GraphId="b2eb5" Style="Group"/>
+  <Group GroupId="a262d" GraphId="b35a3" Style="Group"/>
+  <Group GroupId="d75ba" GraphId="b392b" Style="Group"/>
+  <Group GroupId="aa819" GraphId="ce113" Style="Complex"/>
+  <Group GroupId="f6e78" GraphId="d2646" Style="Group"/>
+  <Group GroupId="ca7f0" GraphId="e453d" Style="Group"/>
+  <Group GroupId="d3798" GraphId="e7545" Style="Group"/>
+  <Group GroupId="dffa6" GraphId="fccb6" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c00">
+      <bp:ID >31226023</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Human Coronavirus: Host-Pathogen Interaction.</bp:TITLE>
+      <bp:SOURCE >Annu Rev Microbiol</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Fung TS</bp:AUTHORS>
+      <bp:AUTHORS >Liu DX</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >autophagy pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000278</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >severe acute respiratory syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:2945</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >viral infectious disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:934</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf3">
+      <bp:ID >24991833</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Coronavirus NSP6 restricts autophagosome expansion.</bp:TITLE>
+      <bp:SOURCE >Autophagy</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Cottam EM</bp:AUTHORS>
+      <bp:AUTHORS >Whelband MC</bp:AUTHORS>
+      <bp:AUTHORS >Wileman T</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

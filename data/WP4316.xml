@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="miRNA degrading enzymes" Version="20180614" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">"In cultured human cells, ribosomal RNA processing protein 41 (RRP41) and polynucleotide phosphorylase (PNPT1) degrade specific miRNAs in the 3'-to-5'direction." Gro&#223;hans H. et al 2012. MicroRNAs (miRNAs) are short (&#8764;22 nucleotide) RNAs that are important for the regulation of numerous biological processes. Accordingly, the expression of miRNAs is itself tightly controlled by mechanisms acting at the level of transcription as well as processing of miRNA precursors. Recently, active degradation of mature miRNAs has been identified as another mechanism that is important for miRNA homeostasis. Here we review the molecular factors and cellular conditions that promote miRNA turnover. We also discuss what is known about the physiological relevance of miRNA decay." Gro&#223;hans H. et al 2012</Comment>
+  <BiopaxRef>cc5</BiopaxRef>
+  <BiopaxRef>bc1</BiopaxRef>
+  <Graphics BoardWidth="907.779877059059" BoardHeight="325.7358879595739"/>
+  <DataNode TextLabel="RRP41" GraphId="be89d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PNPT1" GraphId="dc9aa" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="XRN1" GraphId="e2539" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id3d451533">
+    <Graphics>
+      <Point GraphRef="f8244"/>
+      <Point GraphRef="e38fa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f4fb7">
+    <Graphics>
+      <Point GraphRef="eb108"/>
+      <Point GraphRef="dbd7a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="ea7f3">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point/>
+      <Anchor Position="1.0" Shape="None" GraphId="dbd7a"/>
+      <Anchor Position="0.0014809922424947617" Shape="None" GraphId="e38fa"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="idc0104580" GroupRef="dc2a0">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="idc320125f" GroupRef="dc2a0">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e3a5c" GroupRef="a92c6">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="de47c" GroupRef="a92c6">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="5'-P" GraphId="c244c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="miRNA&#10;" GraphId="d5d77">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="3'-P" GraphId="b6408">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="d2596" GroupRef="dc2a0">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="f289a" GroupRef="a92c6">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Group GroupId="df683" Style="Group"/>
+  <Group GroupId="dc2a0" GraphId="eb108" Style="Group"/>
+  <Group GroupId="a92c6" GraphId="f8244" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cc5">
+      <bp:ID >22921610</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MicroRNA turnover: when, how, and why.</bp:TITLE>
+      <bp:SOURCE >Trends Biochem Sci</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >R&#252;egger S</bp:AUTHORS>
+      <bp:AUTHORS >Gro&#223;hans H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bc1">
+      <bp:ID >22461385</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MicroRNA degradation and turnover: regulating the regulators.</bp:TITLE>
+      <bp:SOURCE >Wiley Interdiscip Rev RNA</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Zhang Z</bp:AUTHORS>
+      <bp:AUTHORS >Qin YW</bp:AUTHORS>
+      <bp:AUTHORS >Brewer G</bp:AUTHORS>
+      <bp:AUTHORS >Jing Q</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>microRNA pathway</bp:TERM><bp:ID>PW:0000808</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

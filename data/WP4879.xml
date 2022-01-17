@@ -1,0 +1,2612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Overlap between signal transduction pathways contributing to LMNA laminopathies" Version="20200317" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Laminopathies resulting form a range of LMNA mutations result in a range of tissue specific phenotypes. These rare diseases may be attributed to a symptomatic overlap characterized by the convergence of lamin A downstream signalling pathways. Lamin A is expressed in differentiating cells and thus this pathway highlights the major molecular signalling pathways mis regulated during hMSC differentiation due to varying LMNA mutations. </Comment>
+  <Graphics BoardWidth="3525.7442589514776" BoardHeight="2746.368512897464"/>
+  <DataNode TextLabel="CREBBP" GraphId="ac574" Type="GeneProduct" GroupRef="bf50d">
+    <Comment>involved in the acetylation of MYOD1, enabling it to activate myogenic differentiation targets</Comment>
+    <Comment>acetylates histones</Comment>
+        </DataNode>
+  <DataNode TextLabel="P/CAF" GraphId="bf52f" Type="GeneProduct" GroupRef="bf50d">
+        </DataNode>
+  <DataNode TextLabel="Prelamin-A" GraphId="bcc5e" Type="Protein" GroupRef="f381a">
+    <BiopaxRef>e46</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="C" GraphId="c0086" Type="Metabolite" GroupRef="f381a">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SMAD3" GraphId="bd769" Type="GeneProduct" GroupRef="c5b75">
+        </DataNode>
+  <DataNode TextLabel="Myostatin" GraphId="cdf33" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WNT7B" GraphId="dcfcb" Type="GeneProduct" GroupRef="d6dcb">
+        </DataNode>
+  <DataNode TextLabel="P21" GraphId="dec3f" Type="GeneProduct">
+    <BiopaxRef>a14</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MIRLET7B" GraphId="defd7" Type="GeneProduct">
+    <Comment>targets HMGA2, decreasing it --&gt; high amounts in mature adipocytes </Comment>
+    <BiopaxRef>c40</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="JUNB" GraphId="e968e" Type="GeneProduct">
+    <BiopaxRef>c02</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="SMAD2" GraphId="ea53c" Type="GeneProduct" GroupRef="c5b75">
+        </DataNode>
+  <DataNode TextLabel="NOTCH1" GraphId="ebb1b" Type="GeneProduct">
+    <BiopaxRef>e62</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="BMP2" GraphId="ef951" Type="GeneProduct" GroupRef="c80f0">
+        </DataNode>
+  <DataNode TextLabel="TGFB1" GraphId="f535f" Type="GeneProduct" GroupRef="c80f0">
+        </DataNode>
+  <DataNode TextLabel="MAN1" GraphId="f5f2b" Type="Protein" GroupRef="c5b75">
+        </DataNode>
+  <DataNode TextLabel="Wnt Signaling" GraphId="f6d1b" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="GSK3B" GraphId="cfb27" Type="GeneProduct" GroupRef="f5aef">
+        </DataNode>
+  <DataNode TextLabel="CSNK1A1" GraphId="a642d" Type="GeneProduct" GroupRef="f5aef">
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="c7345" Type="GeneProduct" GroupRef="f5aef">
+        </DataNode>
+  <DataNode TextLabel="CSNK1A1L" GraphId="b0dd2" Type="GeneProduct" GroupRef="f5aef">
+        </DataNode>
+  <DataNode TextLabel="APC" GraphId="d306a" Type="GeneProduct" GroupRef="f5aef">
+        </DataNode>
+  <DataNode TextLabel="AXIN1" GraphId="a3ce3" Type="GeneProduct" GroupRef="f5aef">
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="b5f42" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="ee910" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LEF1" GraphId="bc4cb" Type="GeneProduct" GroupRef="f60f3">
+        </DataNode>
+  <DataNode TextLabel="TCF7" GraphId="ae80d" Type="GeneProduct" GroupRef="f60f3">
+        </DataNode>
+  <DataNode TextLabel="TCF7L2" GraphId="d9a3a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TCF7L1" GraphId="b3598" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="efb00" Type="GeneProduct" GroupRef="f60f3">
+        </DataNode>
+  <DataNode TextLabel="ZMPSTE24" GraphId="f3a02" Type="GeneProduct">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="Prelamin-A" GraphId="bb65b" Type="Protein" GroupRef="d718b">
+        </DataNode>
+  <DataNode TextLabel="LMNA" GraphId="a4519" Type="GeneProduct">
+    <Comment>Single point mutations = AD-EMD</Comment>
+    <BiopaxRef>e46</BiopaxRef>
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="Isoprenylcysteine carboxyl methyltransferase " GraphId="c2db2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="C" GraphId="b0724" Type="Metabolite" GroupRef="c8ec2">
+    <Graphics Color="0000cc"/>
+    </DataNode>
+  <DataNode TextLabel="Farnesyltransferase" GraphId="e4b99" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Prelamin-A" GraphId="e27ad" Type="Protein" GroupRef="c8ec2">
+        </DataNode>
+  <DataNode TextLabel="ZMPSTE24" GraphId="f0501" Type="GeneProduct">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="C" GraphId="d9cd4" Type="Metabolite" GroupRef="c22da">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Lamin A" GraphId="bb0a6" Type="GeneProduct">
+    <BiopaxRef>e46</BiopaxRef>
+    <Graphics Color="ff3300"/>
+    </DataNode>
+  <DataNode TextLabel="SREBP1c" GraphId="a5222" Type="GeneProduct" GroupRef="e609d">
+    <BiopaxRef>bb2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MIR33B" GraphId="f6df3" Type="GeneProduct" GroupRef="f2134">
+    <Comment>intronic microRNA located within the genes encoding SREBP are transcribed in concert with their host genes and function alongside them to regulate cholesterol/FA and glucose metabolism </Comment>
+    <Comment>MIR33b is highly induced upon differentiation of human preadipocytes + SREBP1</Comment>
+    <Comment>inhibition of MiR-33b enhances lipid droplet accumilation + its overexpression impaired preadipocyte proliferation + PPARG activation --&gt; may be mediated by targeting HMGA2/CDK6+ others</Comment>
+    <Comment>overexpression of miR-33b causes
+reduced preadipocyte proliferation and impaired differentiation
+e inhibition of miR-33b enhanced lipid accumulation in differentiating adipocytes</Comment>
+    <Comment>negative regulator of adipogenesis, despite being highly upregulated during
+the later stages of adipocyte differentiation.</Comment>
+    <BiopaxRef>f89</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Prelamin-A" GraphId="c58c0" Type="Protein" GroupRef="e609d">
+    <BiopaxRef>a29</BiopaxRef>
+    <Graphics Color="ff3300"/>
+    </DataNode>
+  <DataNode TextLabel="SREBP1c" GraphId="ec262" Type="GeneProduct" GroupRef="f2134">
+        </DataNode>
+  <DataNode TextLabel="SREBP Signaling" GraphId="a5b24" Type="Pathway">
+    <BiopaxRef>ef3</BiopaxRef>
+    <BiopaxRef>af1</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Truncated Prelamin-A" GraphId="f0b40" Type="Protein">
+    <Comment>LMNA heterozygous splicing mutation --&gt; loss of exon 11 results in a truncated pre lamin A - removal of Carboxyl terminal motif - interaction with other proteins - disrupted function</Comment>
+    <Comment>can also result from ZMPSTE24 mutations - premature stop codon - no propper processing of lamin A - can also result from null mutations</Comment>
+    <BiopaxRef>b8f</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="HMGA2" GraphId="d4c4e" Type="GeneProduct" GroupRef="bb7bb">
+    <Comment>chromatin remodeling factor--&gt; important role in the clonal-expansion phase of
+adipogenesis - may be able to control critical genes involved in cellular proliferation--&gt;  loss of HMGA2 impairs adipocyte differentiation</Comment>
+    <Comment>overexpression of miR33B caused a significant reduction in HMGA2</Comment>
+    <Comment> HMGA2 is induced during the clonal-expansion phase of adipogenesis but
+reduced following terminal differentiation</Comment>
+    <Comment>Type your comment here</Comment>
+        </DataNode>
+  <DataNode TextLabel="TLE1" GraphId="e4745" Type="GeneProduct" GroupRef="e3fbc">
+        </DataNode>
+  <DataNode TextLabel="Hutchinson-Gilford Progeria Syndrome" GraphId="d13f6" Type="Pathway">
+    <Graphics ShapeType="None" Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="HES1" GraphId="acc7e" Type="GeneProduct" GroupRef="e3fbc">
+        </DataNode>
+  <DataNode TextLabel="HES5" GraphId="ab292" Type="GeneProduct" GroupRef="e3fbc">
+        </DataNode>
+  <DataNode TextLabel="Progerin" GraphId="e04f2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Notch Signaling" GraphId="f0727" Type="Pathway">
+    <BiopaxRef>d8e</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Emerin" GraphId="cbc9f" Type="Protein">
+    <Graphics Color="ff3300"/>
+    </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="fa83e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WNT10B" GraphId="e0a06" Type="GeneProduct" GroupRef="d6dcb">
+    <Comment>upregulation will stimulate wnt signaling to down regulate adipogenesis</Comment>
+    <BiopaxRef>c0c</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PPARG" GraphId="c4788" Type="GeneProduct">
+    <Comment>is down regulated following overexpression of miR33B</Comment>
+    <Graphics Color="ff3300"/>
+    </DataNode>
+  <DataNode TextLabel="CEBPA" GraphId="fb949" Type="GeneProduct">
+    <Comment>is down regulated following overexpression of miR33B</Comment>
+        </DataNode>
+  <DataNode TextLabel="CEBPD" GraphId="e7d67" Type="GeneProduct" GroupRef="abc2c">
+    <BiopaxRef>ba8</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CEBPB" GraphId="fa224" Type="GeneProduct" GroupRef="abc2c">
+    <Comment>activated in early stages of adipogenesis --&gt; activates transcription of PPARG and CEBPA by binding to promoter region in later stages of adipogenesis as are anti mitotic- promote terminal differentiation</Comment>
+    <Comment>Type your comment here</Comment>
+    <BiopaxRef>c5e</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Prelamin-A" GraphId="f0bd1" Type="Protein" GroupRef="a2fb4">
+        </DataNode>
+  <DataNode TextLabel="AGO2" GraphId="b278c" Type="GeneProduct" GroupRef="a8f07">
+        </DataNode>
+  <DataNode TextLabel="TARBP2" GraphId="a35f9" Type="GeneProduct" GroupRef="a8f07">
+        </DataNode>
+  <DataNode TextLabel="DICER1" GraphId="e23a2" Type="GeneProduct" GroupRef="a8f07">
+    <BiopaxRef>b39</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MIR33B" GraphId="d01f1" Type="GeneProduct" GroupRef="a8f07">
+    <BiopaxRef>f89</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PI3K-AKT-mTOR &#10;signaling pathway " GraphId="e2807" Type="Pathway">
+    <BiopaxRef>a84</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="MYOD1" GraphId="c71ac" Type="GeneProduct" GroupRef="c2c50">
+        </DataNode>
+  <DataNode TextLabel="Emery Dreifuss &#10;Muscular Dystrophy" GraphId="b7721" Type="Pathway">
+    <Graphics ShapeType="None" Color="ff3300"/>
+    </DataNode>
+  <DataNode TextLabel="Osteoprotegerin" GraphId="d5f52" Type="GeneProduct" GroupRef="a75c8">
+    <Comment>anti-osteoclastogenic cytokine</Comment>
+        </DataNode>
+  <DataNode TextLabel="MAOB" GraphId="a4a13" Type="GeneProduct" GroupRef="fafce">
+    <BiopaxRef>ce3</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Oxidative damage" GraphId="c34e2" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="NAP1L1" GraphId="c93bb" Type="GeneProduct">
+    <Comment>removes acetylated histones providing an open structure of the chromatin</Comment>
+    <BiopaxRef>a14</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="RB1" GraphId="fa5b1" Type="GeneProduct" GroupRef="cfac1">
+        </DataNode>
+  <DataNode TextLabel="Cathepsin K" GraphId="c0f4e" Type="Protein" GroupRef="a75c8">
+    <BiopaxRef>a84</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TGFB2" GraphId="c7131" Type="GeneProduct">
+    <Comment>lmna H222P mutation - modified interaction with TGFB2 - activation of Akt/mTOR signaling</Comment>
+    <Comment>is elavated in EDMD</Comment>
+    <BiopaxRef>d5c</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MAOA" GraphId="d9ff1" Type="GeneProduct" GroupRef="fafce">
+        </DataNode>
+  <DataNode TextLabel="MAPK/ERK signaling" GraphId="b0548" Type="Pathway">
+    <BiopaxRef>da7</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="CDK4" GraphId="e6bef" Type="GeneProduct">
+    <BiopaxRef>b30</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Arrhythmogenic Right&#10;Ventricular Cardiomyopathy/&#10;Dilated Cardiomyopathy" GraphId="eb4ca" Type="Pathway">
+    <Graphics ShapeType="None" Color="ff3300"/>
+    </DataNode>
+  <DataNode TextLabel="HDAC1" GraphId="e75d7" Type="GeneProduct" GroupRef="c2c50">
+        </DataNode>
+  <DataNode TextLabel="MYOD1" GraphId="c6a00" Type="GeneProduct" GroupRef="bf50d">
+        </DataNode>
+  <DataNode TextLabel="RB1" GraphId="b9d7c" Type="GeneProduct">
+    <BiopaxRef>d68</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MAPK/ERK signaling" GraphId="cf1d5" Type="Pathway">
+    <BiopaxRef>da7</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Actin" GraphId="c5b2a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="prelamin A" GraphId="c3101" Type="GeneProduct">
+    <Comment>mutated lamin A- impairements with emerin bidning - involved in its mislocalisation</Comment>
+    <Comment>lmna mutation R527H/ farnesylated laminA = MADA - increased TGFB2</Comment>
+    <Graphics Color="ff3300"/>
+    </DataNode>
+  <DataNode TextLabel="Canonical NF-KB pathway" GraphId="aca74" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Apoptosis" GraphId="afe1c" Type="Pathway">
+    <Graphics ShapeType="Oval" LineStyle="Broken" Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="Lamin A" GraphId="a0ecd" Type="GeneProduct">
+    <BiopaxRef>fb5</BiopaxRef>
+    <Graphics Color="ff3300"/>
+    </DataNode>
+  <DataNode TextLabel="TGFB signaling" GraphId="de5f2" Type="Pathway">
+    <Comment>overexpression = tissue fibrosis</Comment>
+    <Comment>lmna null/ mutated = deregulation of TGFB/smad pathway</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="RUNX2" GraphId="e76bc" Type="GeneProduct">
+    <BiopaxRef>a40</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TGFB signaling" GraphId="d5d37" Type="Pathway">
+    <Comment>overexpression = tissue fibrosis</Comment>
+    <Comment>lmna null/ mutated = deregulation of TGFB/smad pathway</Comment>
+    <BiopaxRef>fcd</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Emerin" GraphId="f7e99" Type="Protein">
+    <Comment>mis-localisation to the ER with lamin A mutations = no propper nuclear localisation</Comment>
+    <Comment>Type your comment here</Comment>
+    <BiopaxRef>a4b</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MAN1" GraphId="ef1db" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="LAP2A" GraphId="b41f6" Type="GeneProduct" GroupRef="edcdf">
+        </DataNode>
+  <DataNode TextLabel="lamin A" GraphId="d7854" Type="GeneProduct" GroupRef="edcdf">
+    <Comment>mutated lamin A- impairements with emerin bidning - involved in its mislocalisation</Comment>
+    <Comment>lmna mutation R527H/ farnesylated laminA = MADA - increased TGFB2</Comment>
+    <Graphics Color="ff3300"/>
+    </DataNode>
+  <DataNode TextLabel="Emerin" GraphId="d69c5" Type="Protein" GroupRef="edcdf">
+    <Comment>Q133H mutation showed no significant binding to f-actin</Comment>
+    <Comment>loss of emerin leads to dysregulation of myoD pathway</Comment>
+    <Graphics Color="ff3300"/>
+    </DataNode>
+  <DataNode TextLabel="PPARG" GraphId="c8610" Type="GeneProduct">
+    <Comment>Novel F388L mutation is associated with a form of partial lipodystrophy</Comment>
+    <BiopaxRef>e3b</BiopaxRef>
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="Lamin A" GraphId="e77c3" Type="GeneProduct" GroupRef="ebdb6">
+    <Graphics Color="ff3300"/>
+    </DataNode>
+  <DataNode TextLabel="Lamin A" GraphId="fc14e" Type="GeneProduct">
+    <Graphics Color="ff3300"/>
+    </DataNode>
+  <DataNode TextLabel="NOTCH NICD" GraphId="ceaf3" Type="GeneProduct" GroupRef="a3a61">
+        </DataNode>
+  <DataNode TextLabel="Emerin" GraphId="fb00a" Type="Protein" GroupRef="a3a61">
+    <Comment>Q133H mutation showed no significant binding to f-actin</Comment>
+    <Comment>loss of emerin leads to dysregulation of myoD pathway</Comment>
+        </DataNode>
+  <DataNode TextLabel="SPP1" GraphId="fd903" Type="GeneProduct">
+    <BiopaxRef>d47</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MYOD1" GraphId="ed1c2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="E2F1" GraphId="df054" Type="GeneProduct" GroupRef="cfac1">
+        </DataNode>
+  <DataNode TextLabel="E2F1" GraphId="e5a1e" Type="GeneProduct" GroupRef="d1b22">
+        </DataNode>
+  <DataNode TextLabel="P/CAF" GraphId="a6bcd" Type="GeneProduct" GroupRef="d1b22">
+        </DataNode>
+  <DataNode TextLabel="HDAC1" GraphId="b0a96" Type="GeneProduct" GroupRef="c1dc9">
+        </DataNode>
+  <DataNode TextLabel="RB1" GraphId="b6978" Type="GeneProduct" GroupRef="c1dc9">
+        </DataNode>
+  <DataNode TextLabel="HDAC1" GraphId="c435d" Type="GeneProduct" GroupRef="cfac1">
+        </DataNode>
+  <DataNode TextLabel="E2F1" GraphId="b98ee" Type="GeneProduct">
+        </DataNode>
+  <State GraphRef="bcc5e" TextLabel="" GraphId="b8ace">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="bcc5e" TextLabel="" GraphId="d5805">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b5f42" TextLabel="" GraphId="bdcd2">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b5f42" TextLabel="" GraphId="d8785">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ee910" TextLabel="" GraphId="b688f">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e27ad" TextLabel="" GraphId="ba9fe">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f0bd1" TextLabel="" GraphId="e8b55">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c6a00" TextLabel="" GraphId="edaea">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b9d7c" TextLabel="" GraphId="f8aef">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e5a1e" TextLabel="" GraphId="cad0e">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id1090d892">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="ebb1b"/>
+      <Point/>
+      <Point GraphRef="d98b2" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id178e52f6">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="ff0000">
+      <Point GraphRef="b38df"/>
+      <Point GraphRef="b72c2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1daaead8">
+    <Graphics>
+      <Point GraphRef="b38df"/>
+      <Point GraphRef="fb949" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1e835327">
+    <Graphics>
+      <Point GraphRef="dec3f"/>
+      <Point GraphRef="bdc3c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2279af0f">
+    <Graphics>
+      <Point GraphRef="c8610"/>
+      <Point GraphRef="c4788" ArrowHead="mim-transcription-translation"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d9e05"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id237dca6b">
+    <Graphics Color="ff3300">
+      <Point GraphRef="ebac1"/>
+      <Point GraphRef="c3101" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id24d97d21">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c7345"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="e77c3" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2ccfcc5c">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="c73ee"/>
+      <Point GraphRef="b493d" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2d2ece3e">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="defd7"/>
+      <Point GraphRef="c54c7" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id301cdd38">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b38df"/>
+      <Point GraphRef="c4788" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id306ca786">
+    <Graphics LineStyle="Broken" Color="ff3300">
+      <Point GraphRef="fbf4c"/>
+      <Point GraphRef="dbb79" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id31b60550">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f0727"/>
+      <Point GraphRef="b9452" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id36486334">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="defd7"/>
+      <Point GraphRef="d4c4e" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id36816300">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="d55a5"/>
+      <Point GraphRef="e8fe7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id37c368f6">
+    <Graphics LineStyle="Broken" Color="ff0000">
+      <Point GraphRef="f2384"/>
+      <Point GraphRef="ed156" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3b0abe33">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ef7c2"/>
+      <Point GraphRef="e8822" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.1925859842439955" Shape="None" GraphId="eb814"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3e9c16a2">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ebb1b"/>
+      <Point GraphRef="eb814" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id42b27943">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="f0727"/>
+      <Point GraphRef="ebb1b" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id434646a3">
+    <Graphics>
+      <Point GraphRef="de5f2"/>
+      <Point GraphRef="cf1d5" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id43e37ee6">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="a8bf7"/>
+      <Point GraphRef="daf18" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4733fe88">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="cbc9f"/>
+      <Point GraphRef="d98b2" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id497457dc">
+    <BiopaxRef>ebe</BiopaxRef>
+    <BiopaxRef>ab8</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f6d1b"/>
+      <Point GraphRef="b9452" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4c78d2d3">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="fa5b1"/>
+      <Point/>
+      <Point GraphRef="b9d7c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5419325160795304" Shape="None" GraphId="b3dcb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4d9376e">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="ff3300">
+      <Point GraphRef="a0ecd"/>
+      <Point/>
+      <Point GraphRef="f5c07" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4e98afc9">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="dbe67"/>
+      <Point/>
+      <Point GraphRef="c4788" ArrowHead="mim-inhibition"/>
+      <Anchor Position="0.8437147321194186" Shape="None" GraphId="e1943"/>
+      <Anchor Position="0.7738608410282937" Shape="None" GraphId="f7f4a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id505fe602">
+    <Graphics>
+      <Point GraphRef="ebb1b"/>
+      <Point GraphRef="a737d" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id568bfff3">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="f0471" ArrowHead="mim-stimulation"/>
+      <Point GraphRef="e04f2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id57820516">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="c4788"/>
+      <Point GraphRef="d98b2" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id57d3e321">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="e75d7"/>
+      <Point GraphRef="b0a96" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id58693cf4">
+    <Graphics>
+      <Point GraphRef="b98ee"/>
+      <Point GraphRef="bfe4f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5a1f8ff2">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="ff3300">
+      <Point GraphRef="ced9d"/>
+      <Point/>
+      <Point GraphRef="a8915" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5f055d4f">
+    <Graphics>
+      <Point GraphRef="c7345"/>
+      <Point GraphRef="b5f42" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6476188146078656" Shape="None" GraphId="f8d1a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id637ce474">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="cf1d5"/>
+      <Point GraphRef="e2807" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id654af497">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="ff3300">
+      <Point GraphRef="f24b4"/>
+      <Point GraphRef="e7b9e" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5931384946943653" Shape="None" GraphId="b72c2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id69568200">
+    <Graphics Color="ff3300">
+      <Point GraphRef="c73ee"/>
+      <Point GraphRef="af399" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id69a217b">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ed1c2"/>
+      <Point GraphRef="c6a00" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6c0312f8">
+    <Graphics>
+      <Point GraphRef="b5f42"/>
+      <Point GraphRef="ee910" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6d251b5e">
+    <Graphics Color="ff3300">
+      <Point GraphRef="d98b2"/>
+      <Point GraphRef="dbe67" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6e5a6f43">
+    <Graphics Color="ff3300">
+      <Point GraphRef="fa83e"/>
+      <Point GraphRef="d98b2" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id709631a0">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="e76bc" ArrowHead="mim-stimulation"/>
+      <Point/>
+      <Point GraphRef="dbe67"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id70a69d69">
+    <Graphics Color="ff3300">
+      <Point GraphRef="ebac1"/>
+      <Point GraphRef="f0b40" ArrowHead="Arrow"/>
+      <Anchor Position="0.5092101059613088" Shape="None" GraphId="a8fe5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7173dc25">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f7f4a"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="fb949" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7243bc2a">
+    <Graphics Color="ff3300">
+      <Point GraphRef="dc4b9"/>
+      <Point GraphRef="b8983" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id72a630e9">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="fd903"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="e8822" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id746b2c89">
+    <Comment>downregulated in the presence of MIR33B</Comment>
+    <Graphics>
+      <Point GraphRef="b38df"/>
+      <Point GraphRef="a8bf7" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7751c050">
+    <Graphics>
+      <Point GraphRef="fc14e"/>
+      <Point GraphRef="f5f2b" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id78d0ce1">
+    <Graphics>
+      <Point GraphRef="ca23d"/>
+      <Point GraphRef="e968e" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.49305692677766794" Shape="None" GraphId="a737d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id800edbca">
+    <Graphics>
+      <Point GraphRef="dfa4a"/>
+      <Point GraphRef="cdf33" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id81dc">
+    <Graphics Color="ff3300">
+      <Point GraphRef="e76bc"/>
+      <Point GraphRef="f2384" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.3468378899390043" Shape="None" GraphId="d24cf"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id86b0c823">
+    <Graphics Color="ff3300">
+      <Point GraphRef="a8fe5"/>
+      <Point GraphRef="e04f2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id87efe214">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="df054"/>
+      <Point GraphRef="b98ee" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id88a3e993">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="b98ee"/>
+      <Point GraphRef="e5a1e" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8ddcb402">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c0ef7"/>
+      <Point GraphRef="afa47" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id93071f1e">
+    <Graphics LineStyle="Broken" Color="ff0000">
+      <Point GraphRef="e7b9e"/>
+      <Point GraphRef="b1b03" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id94706dbe">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f0727"/>
+      <Point/>
+      <Point GraphRef="f86d4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id98d55f83">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="cbc9f"/>
+      <Point GraphRef="c4788" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida5a25ac">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="c3101"/>
+      <Point GraphRef="d55a5" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaf78b332">
+    <Graphics Color="ff3300">
+      <Point GraphRef="e77c3"/>
+      <Point GraphRef="fa83e" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb100c3c7">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="bb0a6"/>
+      <Point GraphRef="d55a5" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.13953564281579636" Shape="None" GraphId="cd501"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb327e94">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="c7345" ArrowHead="mim-conversion"/>
+      <Point/>
+      <Point GraphRef="a24d2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb634ecdf">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="f86d4"/>
+      <Point GraphRef="f4315" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbba7021a">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c5b2a"/>
+      <Point GraphRef="b3ed0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbcbca13a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e968e"/>
+      <Point GraphRef="e76bc" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbebab0e4">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="cdf33"/>
+      <Point GraphRef="deffb" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc2310973">
+    <Graphics>
+      <Point GraphRef="e8822"/>
+      <Point GraphRef="d0791" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc3488a44">
+    <Graphics LineStyle="Broken" Color="ff3300">
+      <Point GraphRef="f0471"/>
+      <Point GraphRef="f0727" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc5252d57">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="d5d37"/>
+      <Point/>
+      <Point GraphRef="c7131" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.895750350980121" Shape="None" GraphId="dfa4a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcc230e2c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ce4ab"/>
+      <Point GraphRef="d5d37" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcf194a9a">
+    <BiopaxRef>c0f</BiopaxRef>
+    <Graphics Color="ff3300">
+      <Point GraphRef="cbc9f"/>
+      <Point GraphRef="fa83e" ArrowHead="mim-binding"/>
+      <Anchor Position="0.48950513714791366" Shape="None" GraphId="a24d2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd1271da5">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cfb27"/>
+      <Point GraphRef="f8d1a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd46fe861">
+    <Graphics>
+      <Point GraphRef="ee910"/>
+      <Point GraphRef="d1687" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd682b128">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="dbe67"/>
+      <Point GraphRef="deffb" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd8ed30ad">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ac574"/>
+      <Point GraphRef="daa47" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb8ac46a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f8ef2"/>
+      <Point GraphRef="cdd24" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddca8770c">
+    <Comment>decrease in lamin A decreases the binding affinity of RUNX2 to the promoter regions of the osteogeinc genes</Comment>
+    <Graphics Color="ff3300">
+      <Point GraphRef="a0ecd"/>
+      <Point GraphRef="d24cf" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddf066316">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c71ac"/>
+      <Point GraphRef="ed1c2" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide1ca5e6a">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="f7c66"/>
+      <Point GraphRef="cdd24" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide6655ef">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b9d7c"/>
+      <Point/>
+      <Point GraphRef="b6978" ArrowHead="mim-binding"/>
+      <Anchor Position="0.4501908247054712" Shape="None" GraphId="bdc3c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide81f6710">
+    <Graphics>
+      <Point GraphRef="a5b24"/>
+      <Point GraphRef="c2cd3" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide9048459">
+    <Graphics>
+      <Point GraphRef="d5d37"/>
+      <Point GraphRef="ca23d" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ided88dd3b">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="fd903"/>
+      <Point GraphRef="e76bc" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideec8de0d">
+    <Comment>causes a decrease in RUNX2 expression = decrease in osteogenic gene expression</Comment>
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="e04f2"/>
+      <Point/>
+      <Point GraphRef="e76bc" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideef8d2c6">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="ef7c2"/>
+      <Point/>
+      <Point GraphRef="f6d1b" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf354d342">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="e77c3"/>
+      <Point/>
+      <Point GraphRef="a99d1" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf458be2d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f6df3"/>
+      <Point/>
+      <Point GraphRef="b38df" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf794a51d">
+    <Graphics LineStyle="Broken" Color="ff0000">
+      <Point GraphRef="f0b40"/>
+      <Point GraphRef="a068e" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfdbcaa4b">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="c6a00"/>
+      <Point GraphRef="b8983" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9ce0">
+    <Graphics>
+      <Point GraphRef="a8bf2"/>
+      <Point GraphRef="ed07d" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.43478260869565216" Shape="None" GraphId="b92e2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de02e">
+    <Graphics>
+      <Point GraphRef="e1789"/>
+      <Point GraphRef="dad19" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.44989920167728426" Shape="None" GraphId="fda19"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cdb83">
+    <Graphics Color="ff0000">
+      <Point GraphRef="f3ffa"/>
+      <Point GraphRef="f0501" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d0249">
+    <Graphics>
+      <Point GraphRef="c1a64"/>
+      <Point GraphRef="a8b98" ArrowHead="mim-cleavage"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1b75">
+    <Graphics>
+      <Point GraphRef="dad19"/>
+      <Point GraphRef="a8bf2" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.44983818770226536" Shape="None" GraphId="b712c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2a17">
+    <Graphics>
+      <Point GraphRef="a4519"/>
+      <Point GraphRef="e1789" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b552e">
+    <Graphics>
+      <Point GraphRef="c2db2"/>
+      <Point GraphRef="b92e2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1ac8">
+    <Graphics>
+      <Point GraphRef="b712c"/>
+      <Point GraphRef="c5d57" ArrowHead="mim-cleavage"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ce4fc">
+    <Graphics>
+      <Point GraphRef="ed07d"/>
+      <Point GraphRef="bb0a6" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.2996698477174641" Shape="None" GraphId="d0cf6"/>
+      <Anchor Position="0.6873697958650787" Shape="None" GraphId="ebac1"/>
+      <Anchor Position="0.29156807902160997" Shape="None" GraphId="c1a64"/>
+      <Anchor Position="0.3013536046450218" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ada71">
+    <Graphics>
+      <Point GraphRef="f3a02"/>
+      <Point GraphRef="b712c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b5506">
+    <Graphics>
+      <Point GraphRef="e4b99"/>
+      <Point GraphRef="fda19" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e6932">
+    <Graphics>
+      <Point GraphRef="f0501"/>
+      <Point GraphRef="c1a64" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c721a">
+    <Graphics>
+      <Point GraphRef="c2cd3"/>
+      <Point GraphRef="b4298" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a607e">
+    <Graphics Color="ff0000">
+      <Point GraphRef="e04f2"/>
+      <Point GraphRef="d13f6" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e438c">
+    <Graphics ConnectorType="Curved" Color="ff3300">
+      <Point GraphRef="fb949" ArrowHead="Arrow"/>
+      <Point GraphRef="c4788"/>
+      <Anchor Position="0.6570941067728753" Shape="None" GraphId="d0791"/>
+      <Anchor Position="0.838379747801384" Shape="None" GraphId="f5c07"/>
+      <Anchor Position="0.17416775310799568" Shape="None" GraphId="fe1ff"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cbe3a">
+    <Graphics ConnectorType="Curved" Color="ff3300">
+      <Point GraphRef="c4788" ArrowHead="Arrow"/>
+      <Point GraphRef="fb949"/>
+      <Anchor Position="0.488483577113135" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f1b0c">
+    <Graphics LineStyle="Broken" Color="ff3300">
+      <Point GraphRef="fe1ff"/>
+      <Point GraphRef="f24b4" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d843e">
+    <Graphics Color="ff3333">
+      <Point GraphRef="c34e2"/>
+      <Point GraphRef="a8730" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ce6d7">
+    <Graphics ConnectorType="Elbow" Color="ff3333">
+      <Point GraphRef="e8fe7" ArrowHead="mim-binding"/>
+      <Point GraphRef="a4750"/>
+      <Anchor Position="0.87900959764245" Shape="None" GraphId="fbf4c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b21f4">
+    <Graphics Color="ff3300">
+      <Point GraphRef="b4409"/>
+      <Point GraphRef="a22e2" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f2a3c">
+    <Graphics Color="ff3300">
+      <Point GraphRef="c402a"/>
+      <Point GraphRef="b5e35" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a2d71">
+    <Graphics>
+      <Point GraphRef="dcefb"/>
+      <Point GraphRef="fe407" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b5ce9">
+    <Graphics Color="ff3300">
+      <Point GraphRef="c8ad7"/>
+      <Point GraphRef="eed49" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a0b9f">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="b5e35"/>
+      <Point GraphRef="ad060"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0243">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="eea7a"/>
+      <Point GraphRef="ab055" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7217194046434127" Shape="None" GraphId="ad060"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="db24f">
+    <Graphics ConnectorType="Curved" Color="ff3300">
+      <Point GraphRef="e2807"/>
+      <Point GraphRef="a0ecd" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b9675">
+    <Graphics>
+      <Point GraphRef="c93bb"/>
+      <Point GraphRef="a3e27" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e9afb">
+    <Graphics Color="ff3300">
+      <Point GraphRef="eed49"/>
+      <Point GraphRef="b7721" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ece5b">
+    <Graphics Color="ff3300">
+      <Point GraphRef="f6509"/>
+      <Point GraphRef="eb4ca" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d183f">
+    <Graphics>
+      <Point GraphRef="b9cdb"/>
+      <Point GraphRef="a4750" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ff0e7">
+    <Graphics LineStyle="Broken" Color="ff3300">
+      <Point GraphRef="c7131"/>
+      <Point GraphRef="f6509" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f576a">
+    <Graphics Color="ff3300">
+      <Point GraphRef="c402a"/>
+      <Point GraphRef="eea7a" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aed15">
+    <Graphics>
+      <Point GraphRef="dbb79"/>
+      <Point GraphRef="aca74" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f2fa5">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="ff3333">
+      <Point GraphRef="b3ed0"/>
+      <Point GraphRef="dbb79" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.3321987839497625" Shape="None" GraphId="fe407"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="da285">
+    <Graphics ConnectorType="Elbow" Color="ff3333">
+      <Point GraphRef="d7854"/>
+      <Point/>
+      <Point GraphRef="b0548" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d85a8">
+    <Graphics>
+      <Point GraphRef="daa47"/>
+      <Point GraphRef="dca43" ArrowHead="mim-cleavage"/>
+      <Anchor Position="0.5205960604674158" Shape="None" GraphId="a3e27"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f150f">
+    <Comment>lamin A binds to G actin</Comment>
+    <BiopaxRef>d20</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="e8fe7"/>
+      <Point GraphRef="c5b2a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bbf7f">
+    <Graphics Color="ff3300">
+      <Point GraphRef="c7131"/>
+      <Point GraphRef="a5694" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b66f7">
+    <Graphics>
+      <Point GraphRef="c6b39"/>
+      <Point GraphRef="b4409" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dff5d">
+    <Graphics Color="ff3300">
+      <Point GraphRef="e2807"/>
+      <Point GraphRef="c6b39" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fd06d">
+    <Graphics Color="ff3300">
+      <Point GraphRef="de5f2"/>
+      <Point GraphRef="e2807" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fe2be">
+    <Graphics Color="ff3333">
+      <Point GraphRef="c34e2"/>
+      <Point GraphRef="daa35" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f943c">
+    <Graphics>
+      <Point GraphRef="a5694"/>
+      <Point GraphRef="deffb" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cb779">
+    <Graphics>
+      <Point GraphRef="e6bef"/>
+      <Point GraphRef="b3dcb" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b5623">
+    <Graphics Color="ff3333">
+      <Point GraphRef="afa47"/>
+      <Point GraphRef="c34e2" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ef80d">
+    <Graphics Color="ff3300">
+      <Point GraphRef="f5af6"/>
+      <Point GraphRef="c8ad7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="be475">
+    <Graphics Color="ff3300">
+      <Point GraphRef="d7854"/>
+      <Point GraphRef="d69c5" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cf2b4">
+    <Comment>Emerin binds to F-actin --&gt; stabilisation --&gt; modifies actin polymerisation as less stability when emerin is mislocalised --&gt; less to bind to f-actin - impaired polymerisation = impaired MLK1 nuclear translocation</Comment>
+    <Comment/>
+    <BiopaxRef>e99</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="cbc9f"/>
+      <Point GraphRef="c5b2a" ArrowHead="mim-modification"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f99a5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c044a">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="ff3333">
+      <Point GraphRef="c3101"/>
+      <Point GraphRef="c0ef7" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6906295420684873" Shape="None" GraphId="ced9d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a24f5">
+    <BiopaxRef>b08</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="aca74"/>
+      <Point GraphRef="afe1c" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df8b4">
+    <BiopaxRef>ace</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="de5f2" ArrowHead="mim-stimulation"/>
+      <Point GraphRef="a0ecd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf3bb3a3a">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="cd501"/>
+      <Point GraphRef="a0ecd" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id27feb943">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="b4298"/>
+      <Point GraphRef="d9e05" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idee639be">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="f5f2b"/>
+      <Point GraphRef="ef1db" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2092dcfe">
+    <Graphics Color="ff3300">
+      <Point GraphRef="cbc9f"/>
+      <Point GraphRef="e77c3" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide944d74">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="cbc9f"/>
+      <Point GraphRef="f7e99" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="edfa6">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a8915"/>
+      <Point GraphRef="afa47" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide866aa78">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d69c5"/>
+      <Point GraphRef="fb00a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id32fea0d3">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="ff3300">
+      <Point GraphRef="e04f2"/>
+      <Point GraphRef="fd903" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="e504d">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d8969">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ef869" GroupRef="d4dfc">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f9995" GroupRef="d4dfc">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="?" GraphId="a1c9a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="-" GraphId="a7a74">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Lamin A intranuclear &#10;foci" GraphId="a99d1">
+    <BiopaxRef>ca3</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="Oval" LineStyle="Broken" Color="ff3300"/>
+  </Label>
+  <Label TextLabel="Rb Proteasomal &#10;Degredation" GraphId="af399">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="+ feedback" GraphId="b1768">
+    <BiopaxRef>d29</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Adipocyte Progenitor" GraphId="b4a70">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Acetyl Group" GraphId="b5142">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Proliferation" GraphId="bbb69">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Ubiquitin mediated&#10;proteasome degredation" GraphId="bfe4f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="?" GraphId="c4f30">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Terminal Differentiation" GraphId="c54c7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="RISC Complex" GraphId="c9664">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Wnt target genes" GraphId="cb688" GroupRef="d6dcb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Mis-localisation &#10;to the ER" GraphId="da08b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Clonal Expansion" GraphId="daf18">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Human MSC" GraphId="e54f8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Impaired expansion/ differentiation&#10;of WAT" GraphId="e7b9e">
+    <BiopaxRef>e67</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="Oval" LineStyle="Broken" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="G1/ S phase &#10;transition" GraphId="ea9fe">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Increased stimulation of the &#10;+ feedback mechanism in &#10;ZMPSTE -/- cells" GraphId="ecc24">
+    <BiopaxRef>a40</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Skeletal Dysplasia/&#10;Increased fatty deposits &#10;in bone marrow" GraphId="ed156">
+    <BiopaxRef>a40</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="Oval" LineStyle="Broken" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Osteogenic genes" GraphId="f2384">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Notch target genes" GraphId="f4315">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Osteoblast Progenitor" GraphId="d2c16">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="26S Proteasome &#10;Degredation" GraphId="d1687">
+    <BiopaxRef>ce1</BiopaxRef>
+    <BiopaxRef>d6c</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" Color="009933"/>
+  </Label>
+  <Label TextLabel="aaX" GraphId="c5d57">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Null mutations" GraphId="f3ffa">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CaaX group" GraphId="a2c8c" GroupRef="d718b">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="15 amino acids" GraphId="cb7d6" GroupRef="c22da">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="CaaX group" GraphId="a453b" GroupRef="a2fb4">
+    <BiopaxRef>e46</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Co-localisation" GraphId="bf2aa">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Restrictive Dermopathy" GraphId="a068e">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Dunnigan-Type Familial Partial &#10;Lipodystrophy" GraphId="b1b03">
+    <Comment>Onset during puberty- triggers are still unknown</Comment>
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="CH3" GraphId="f8d7e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Process with unknown &#10;interacting molecules " GraphId="d9505">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Phosphate" GraphId="e4435">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Ubiquitin" GraphId="e15fd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Farnesyl Group" GraphId="ffac2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Laminopathic signaling" GraphId="b5f51">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Adipocyte genes" GraphId="f24b4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Adipogenic Stimuli&#10;eg. Glutocorticoids" GraphId="ef7c2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="myogenic differentiation" GraphId="deffb">
+    <BiopaxRef>d5c</BiopaxRef>
+    <BiopaxRef>ded</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="Oval" LineStyle="Broken" Color="ff3300"/>
+  </Label>
+  <Label TextLabel="Dilated Cardiomyopathy" GraphId="ab055">
+    <Graphics FillColor="ffffff" ShapeType="Oval" LineStyle="Broken" Color="ff3300"/>
+  </Label>
+  <Label TextLabel="G1 Phase" GraphId="e6c7c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Overexpression of proteins involved &#10;in oxtidative metabolism" GraphId="c0ef7">
+    <BiopaxRef>f69</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Tissue fibrosis in &#10;straited muscle" GraphId="f6509">
+    <BiopaxRef>aa7</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="Oval" LineStyle="Broken" Color="ff3300"/>
+  </Label>
+  <Label TextLabel="Mandibuloacral Dysplasia A" GraphId="a22e2">
+    <BiopaxRef>a84</BiopaxRef>
+    <Graphics FillColor="ffffff" Color="ff3300"/>
+  </Label>
+  <Label TextLabel="S Phase" GraphId="baffb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="increased osteoclastogenesis/ &#10;osteoblast differentiation/&#10;ex matrix remodelling" GraphId="b4409">
+    <Graphics FillColor="ffffff" ShapeType="Oval" LineStyle="Broken" Color="ff3300"/>
+  </Label>
+  <Label TextLabel="Cell stimulation" GraphId="dcefb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Impaired myoblast differentiation/&#10;Myofibre degeneration" GraphId="eed49">
+    <Graphics FillColor="ffffff" ShapeType="Oval" LineStyle="Broken" Color="ff3300"/>
+  </Label>
+  <Label TextLabel="Myogenic differentiation&#10;targets " GraphId="b8983" GroupRef="dccc7">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Decreased nuclear stability/ &#10;abnormal morphology/&#10;impaired mechanotransduction/&#10;decreased cytoskeletal stiffness" GraphId="dbb79">
+    <Comment>decreased stiffness is due to misregulation of SRF - should activate genes involved in motility and contractility</Comment>
+    <BiopaxRef>b08</BiopaxRef>
+    <BiopaxRef>b4c</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="Oval" LineStyle="Broken" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Cardiomyocyte" GraphId="b2b30">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cytoskeleton" GraphId="a4750">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Sacromeres" GraphId="b5e35">
+    <BiopaxRef>a02</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Altered lamin A Akt mediated &#10;phosphorylation/degredation" GraphId="a3eaa">
+    <BiopaxRef>a84</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Rho mediated actin &#10;polymerisation" GraphId="b3ed0">
+    <BiopaxRef>d20</BiopaxRef>
+    <BiopaxRef>b5e</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" Color="00cc33"/>
+  </Label>
+  <Label TextLabel="Preadipocyte senescence" GraphId="daa35">
+    <BiopaxRef>f69</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="Oval" LineStyle="Broken" Color="ff3333"/>
+  </Label>
+  <Label TextLabel="Muscle fibers" GraphId="eea7a">
+    <BiopaxRef>a02</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Myocyte Progenitor" GraphId="b97bf">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Histones" GraphId="daa47" GroupRef="dccc7">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="mechanical force" GraphId="b9cdb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="cell cycle &#10;Biochemical block/&#10;Apoptosis" GraphId="c8ad7">
+    <BiopaxRef>b97</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="ff3300"/>
+  </Label>
+  <Label TextLabel="Akt/mTOR signaling" GraphId="a5694">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="DNA" GraphId="d8e84">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ROS" GraphId="afa47">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Contractile impairment&#10;Myofibre defects&#10;Cell death" GraphId="a8730">
+    <BiopaxRef>ce3</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="Oval" LineStyle="Broken" Color="ff3333"/>
+  </Label>
+  <Label TextLabel="Histones" GraphId="dca43">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="LINC complex" GraphId="e8fe7">
+    <Comment>nesprin 1/2 and SUN proteins + lamin A</Comment>
+    <BiopaxRef>b7f</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="NUCLEAR LAMINA " GraphId="c245b" GroupRef="ebdb6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="-" GraphId="bef46">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="-" GraphId="c6f35">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="-" GraphId="f9aba">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Terminal Differentiation" GraphId="adfaf">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="S phase proteins &#10;Apoptosis" GraphId="cdd24">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="ac74d">
+    <Graphics FillColor="ccffcc" ShapeType="RoundedRectangle" Color="666666"/>
+  </Shape>
+  <Shape GraphId="d1711">
+    <Graphics FillColor="ccffcc" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="e1f64">
+    <BiopaxRef>e6d</BiopaxRef>
+    <Graphics FillColor="ccffff" ShapeType="RoundedRectangle" Color="666666"/>
+  </Shape>
+  <Shape GraphId="f40f4">
+    <Graphics FillColor="ffffcc" ShapeType="RoundedRectangle" Color="666666"/>
+  </Shape>
+  <Shape GraphId="d8271">
+    <BiopaxRef>e6d</BiopaxRef>
+    <Graphics FillColor="ccccff" ShapeType="RoundedRectangle" Color="666666"/>
+  </Shape>
+  <Shape GraphId="b894f">
+    <Graphics ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="b9832">
+    <Graphics ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="c4090">
+    <Graphics ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="fada1">
+    <Graphics ShapeType="Endoplasmic Reticulum" Color="666666"/>
+  </Shape>
+  <Shape GraphId="bd1f8">
+    <Graphics FillColor="009933" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b7c9f">
+    <Graphics FillColor="00cccc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f22cf">
+    <Graphics FillColor="3366ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e3ff0">
+    <Graphics FillColor="ff0000" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="da5d5">
+    <Graphics FillColor="3366ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fb9ad">
+    <Graphics FillColor="ff0000" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bb450">
+    <Graphics FillColor="009933" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ab4dc">
+    <Graphics FillColor="00cccc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e8d32">
+    <Graphics FillColor="009933" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a7a16">
+    <Graphics FillColor="009933" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c7c45">
+    <Graphics FillColor="ffccff" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="a07f2">
+    <Graphics ShapeType="Mitochondria" Color="666666"/>
+  </Shape>
+  <Shape GraphId="defe7">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="eb9ac">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ddf1d">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c9069">
+    <Graphics FillColor="3366ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c9374">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f0c45" GroupRef="ebdb6">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="be356">
+    <Graphics FillColor="3366ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="af7e3">
+    <Graphics FillColor="009933" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e9e6d">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="b2324" Style="Group"/>
+  <Group GroupId="fafce" GraphId="a8915" Style="Group"/>
+  <Group GroupId="c22da" GraphId="a8b98" Style="Group"/>
+  <Group GroupId="c8ec2" GraphId="a8bf2" Style="Group"/>
+  <Group GroupId="bb7bb" GraphId="a8bf7" Style="Group">
+    <Comment>overexpression of miR33B causes downregulation of these molecules - influence adipocyte proliferation and differentation </Comment>
+    <BiopaxRef>f89</BiopaxRef>
+  </Group>
+  <Group GroupId="a8f07" GraphId="b38df" Style="Complex"/>
+  <Group GroupId="e609d" GraphId="b4298" Style="Group"/>
+  <Group GroupId="edcdf" GraphId="b493d" Style="Complex">
+    <Comment>disruption of the ability of Rb to bind to NE proteins disrupts the acetylation ond phosphorylation setps leading to the transcription of myogenic genes- alterations lead to phenotypes observed in EDMD</Comment>
+    <BiopaxRef>d72</BiopaxRef>
+    <BiopaxRef>d14</BiopaxRef>
+    <BiopaxRef>f58</BiopaxRef>
+  </Group>
+  <Group GroupId="f5aef" GraphId="b9452" Style="Group">
+    <BiopaxRef>bed</BiopaxRef>
+    <BiopaxRef>b3c</BiopaxRef>
+  </Group>
+  <Group GroupId="f2134" GraphId="c2cd3" Style="Group"/>
+  <Group GroupId="d4dfc" GraphId="c402a" Style="Group"/>
+  <Group GroupId="a75c8" GraphId="c6b39" Style="Group"/>
+  <Group GroupId="c1dc9" GraphId="c73ee" Style="Complex">
+    <BiopaxRef>a14</BiopaxRef>
+  </Group>
+  <Group GroupId="c80f0" GraphId="ca23d" Style="Group">
+    <BiopaxRef>f39</BiopaxRef>
+  </Group>
+  <Group GroupId="c5b75" GraphId="ce4ab" Style="Group"/>
+  <Group GroupId="ebdb6" GraphId="d55a5" Style="Group"/>
+  <Group GroupId="f60f3" GraphId="d98b2" Style="Complex">
+    <Comment>activation of this complex allows for the activation of Wnt target genes</Comment>
+    <BiopaxRef>d86</BiopaxRef>
+  </Group>
+  <Group GroupId="a2fb4" GraphId="dad19" Style="Group"/>
+  <Group GroupId="d6dcb" GraphId="dbe67" Style="Group"/>
+  <Group GroupId="c2c50" GraphId="dc4b9" Style="Complex">
+    <BiopaxRef>b30</BiopaxRef>
+    <BiopaxRef>a14</BiopaxRef>
+  </Group>
+  <Group GroupId="bf50d" GraphId="df453" Style="Complex">
+    <BiopaxRef>a14</BiopaxRef>
+  </Group>
+  <Group GroupId="d718b" GraphId="e1789" Style="Group"/>
+  <Group GroupId="abc2c" GraphId="e8822" Style="Group"/>
+  <Group GroupId="f381a" GraphId="ed07d" Style="Group"/>
+  <Group GroupId="e3fbc" GraphId="f0471" Style="Group">
+    <Comment>upregulation due to progerin </Comment>
+    <BiopaxRef>ae3</BiopaxRef>
+  </Group>
+  <Group GroupId="baf6d" GraphId="f1fcf" Style="Complex"/>
+  <Group GroupId="dccc7" GraphId="f5af6" Style="Complex">
+    <BiopaxRef>b97</BiopaxRef>
+  </Group>
+  <Group GroupId="d1b22" GraphId="f7c66" Style="Complex">
+    <BiopaxRef>eb5</BiopaxRef>
+  </Group>
+  <Group GroupId="a3a61" GraphId="f86d4" Style="Complex">
+    <BiopaxRef>c66</BiopaxRef>
+  </Group>
+  <Group GroupId="cfac1" GraphId="f8ef2" Style="Complex">
+    <BiopaxRef>a14</BiopaxRef>
+  </Group>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cardiomyopathy</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0050700</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba8">
+      <bp:ID >12006103</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >CCAAT/enhancer-binding proteins: structure, function and regulation.</bp:TITLE>
+      <bp:SOURCE >Biochem J</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Ramji DP</bp:AUTHORS>
+      <bp:AUTHORS >Foka P</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e62">
+      <bp:ID >12960086</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Notch 1 impairs osteoblastic cell differentiation.</bp:TITLE>
+      <bp:SOURCE >Endocrinology</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Sciaudone M</bp:AUTHORS>
+      <bp:AUTHORS >Gazzerro E</bp:AUTHORS>
+      <bp:AUTHORS >Priest L</bp:AUTHORS>
+      <bp:AUTHORS >Delany AM</bp:AUTHORS>
+      <bp:AUTHORS >Canalis E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f58">
+      <bp:ID >17227891</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Nucleoplasmic LAP2alpha-lamin A complexes are required to maintain a proliferative state in human fibroblasts.</bp:TITLE>
+      <bp:SOURCE >J Cell Biol</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Pekovic V</bp:AUTHORS>
+      <bp:AUTHORS >Harborth J</bp:AUTHORS>
+      <bp:AUTHORS >Broers JL</bp:AUTHORS>
+      <bp:AUTHORS >Ramaekers FC</bp:AUTHORS>
+      <bp:AUTHORS >van Engelen B</bp:AUTHORS>
+      <bp:AUTHORS >Lammens M</bp:AUTHORS>
+      <bp:AUTHORS >von Zglinicki T</bp:AUTHORS>
+      <bp:AUTHORS >Foisner R</bp:AUTHORS>
+      <bp:AUTHORS >Hutchison C</bp:AUTHORS>
+      <bp:AUTHORS >Markiewicz E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >progeria</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:3911</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c0c">
+      <bp:ID >19008118</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Adipogenesis and WNT signalling.</bp:TITLE>
+      <bp:SOURCE >Trends Endocrinol Metab</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Christodoulides C</bp:AUTHORS>
+      <bp:AUTHORS >Lagathu C</bp:AUTHORS>
+      <bp:AUTHORS >Sethi JK</bp:AUTHORS>
+      <bp:AUTHORS >Vidal-Puig A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d14">
+      <bp:ID >10984438</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Lamina-associated polypeptide 2alpha binds intranuclear A-type lamins.</bp:TITLE>
+      <bp:SOURCE >J Cell Sci</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Dechat T</bp:AUTHORS>
+      <bp:AUTHORS >Korbei B</bp:AUTHORS>
+      <bp:AUTHORS >Vaughan OA</bp:AUTHORS>
+      <bp:AUTHORS >Vlcek S</bp:AUTHORS>
+      <bp:AUTHORS >Hutchison CJ</bp:AUTHORS>
+      <bp:AUTHORS >Foisner R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Emery-Dreifuss muscular dystrophy</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:11726</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e99">
+      <bp:ID >16115815</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A-type lamins are essential for TGF-beta1 induced PP2A to dephosphorylate transcription factors.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Van Berlo JH</bp:AUTHORS>
+      <bp:AUTHORS >Voncken JW</bp:AUTHORS>
+      <bp:AUTHORS >Kubben N</bp:AUTHORS>
+      <bp:AUTHORS >Broers JL</bp:AUTHORS>
+      <bp:AUTHORS >Duisters R</bp:AUTHORS>
+      <bp:AUTHORS >van Leeuwen RE</bp:AUTHORS>
+      <bp:AUTHORS >Crijns HJ</bp:AUTHORS>
+      <bp:AUTHORS >Ramaekers FC</bp:AUTHORS>
+      <bp:AUTHORS >Hutchison CJ</bp:AUTHORS>
+      <bp:AUTHORS >Pinto YM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aa7">
+      <bp:ID >19917303</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Laminopathies and A-type lamin-associated signalling pathways.</bp:TITLE>
+      <bp:SOURCE >Adv Enzyme Regul</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Maraldi NM</bp:AUTHORS>
+      <bp:AUTHORS >Lattanzi G</bp:AUTHORS>
+      <bp:AUTHORS >Cenni V</bp:AUTHORS>
+      <bp:AUTHORS >Bavelloni A</bp:AUTHORS>
+      <bp:AUTHORS >Marmiroli S</bp:AUTHORS>
+      <bp:AUTHORS >Manzoli FA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b39">
+      <bp:ID >19342379</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The RNA-induced silencing complex: a versatile gene-silencing machine.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Pratt AJ</bp:AUTHORS>
+      <bp:AUTHORS >MacRae IJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da7">
+      <bp:ID >17446932</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Activation of MAPK pathways links LMNA mutations to cardiomyopathy in Emery-Dreifuss muscular dystrophy.</bp:TITLE>
+      <bp:SOURCE >J Clin Invest</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Muchir A</bp:AUTHORS>
+      <bp:AUTHORS >Pavlidis P</bp:AUTHORS>
+      <bp:AUTHORS >Decostre V</bp:AUTHORS>
+      <bp:AUTHORS >Herron AJ</bp:AUTHORS>
+      <bp:AUTHORS >Arimura T</bp:AUTHORS>
+      <bp:AUTHORS >Bonne G</bp:AUTHORS>
+      <bp:AUTHORS >Worman HJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c66">
+      <bp:ID >27865926</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Emerin suppresses Notch signaling by restricting the Notch intracellular domain to the nuclear membrane.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta Mol Cell Res</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Lee B</bp:AUTHORS>
+      <bp:AUTHORS >Lee TH</bp:AUTHORS>
+      <bp:AUTHORS >Shim J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c02">
+      <bp:ID >12370805</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Both the Smad and p38 MAPK pathways play a crucial role in Runx2 expression following induction by transforming growth factor-beta and bone morphogenetic protein.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Lee KS</bp:AUTHORS>
+      <bp:AUTHORS >Hong SH</bp:AUTHORS>
+      <bp:AUTHORS >Bae SC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b97">
+      <bp:ID >16478798</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Nuclear envelope dystrophies show a transcriptional fingerprint suggesting disruption of Rb-MyoD pathways in muscle regeneration.</bp:TITLE>
+      <bp:SOURCE >Brain</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Bakay M</bp:AUTHORS>
+      <bp:AUTHORS >Wang Z</bp:AUTHORS>
+      <bp:AUTHORS >Melcon G</bp:AUTHORS>
+      <bp:AUTHORS >Schiltz L</bp:AUTHORS>
+      <bp:AUTHORS >Xuan J</bp:AUTHORS>
+      <bp:AUTHORS >Zhao P</bp:AUTHORS>
+      <bp:AUTHORS >Sartorelli V</bp:AUTHORS>
+      <bp:AUTHORS >Seo J</bp:AUTHORS>
+      <bp:AUTHORS >Pegoraro E</bp:AUTHORS>
+      <bp:AUTHORS >Angelini C</bp:AUTHORS>
+      <bp:AUTHORS >Shneiderman B</bp:AUTHORS>
+      <bp:AUTHORS >Escolar D</bp:AUTHORS>
+      <bp:AUTHORS >Chen YW</bp:AUTHORS>
+      <bp:AUTHORS >Winokur ST</bp:AUTHORS>
+      <bp:AUTHORS >Pachman LM</bp:AUTHORS>
+      <bp:AUTHORS >Fan C</bp:AUTHORS>
+      <bp:AUTHORS >Mandler R</bp:AUTHORS>
+      <bp:AUTHORS >Nevo Y</bp:AUTHORS>
+      <bp:AUTHORS >Gordon E</bp:AUTHORS>
+      <bp:AUTHORS >Zhu Y</bp:AUTHORS>
+      <bp:AUTHORS >Dong Y</bp:AUTHORS>
+      <bp:AUTHORS >Wang Y</bp:AUTHORS>
+      <bp:AUTHORS >Hoffman EP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ebe">
+      <bp:ID >15165456</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Effects of Wnt signaling on proliferation and differentiation of human mesenchymal stem cells.</bp:TITLE>
+      <bp:SOURCE >Tissue Eng</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >De Boer J</bp:AUTHORS>
+      <bp:AUTHORS >Wang HJ</bp:AUTHORS>
+      <bp:AUTHORS >Van Blitterswijk C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c40">
+      <bp:ID >19324969</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MicroRNA let-7 regulates 3T3-L1 adipogenesis.</bp:TITLE>
+      <bp:SOURCE >Mol Endocrinol</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Sun T</bp:AUTHORS>
+      <bp:AUTHORS >Fu M</bp:AUTHORS>
+      <bp:AUTHORS >Bookout AL</bp:AUTHORS>
+      <bp:AUTHORS >Kliewer SA</bp:AUTHORS>
+      <bp:AUTHORS >Mangelsdorf DJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b5e">
+      <bp:ID >21964294</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Sensing actin dynamics: structural basis for G-actin-sensitive nuclear import of MAL.</bp:TITLE>
+      <bp:SOURCE >Biochem Biophys Res Commun</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Hirano H</bp:AUTHORS>
+      <bp:AUTHORS >Matsuura Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ded">
+      <bp:ID >18371421</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A temporal switch from notch to Wnt signaling in muscle stem cells is necessary for normal adult myogenesis.</bp:TITLE>
+      <bp:SOURCE >Cell Stem Cell</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Brack AS</bp:AUTHORS>
+      <bp:AUTHORS >Conboy IM</bp:AUTHORS>
+      <bp:AUTHORS >Conboy MJ</bp:AUTHORS>
+      <bp:AUTHORS >Shen J</bp:AUTHORS>
+      <bp:AUTHORS >Rando TA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d5c">
+      <bp:ID >29693488</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Elevated TGF &#206;&#178;2 serum levels in Emery-Dreifuss Muscular Dystrophy: Implications for myocyte and tenocyte differentiation and fibrogenic processes.</bp:TITLE>
+      <bp:SOURCE >Nucleus</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Bernasconi P</bp:AUTHORS>
+      <bp:AUTHORS >Carboni N</bp:AUTHORS>
+      <bp:AUTHORS >Ricci G</bp:AUTHORS>
+      <bp:AUTHORS >Siciliano G</bp:AUTHORS>
+      <bp:AUTHORS >Politano L</bp:AUTHORS>
+      <bp:AUTHORS >Maggi L</bp:AUTHORS>
+      <bp:AUTHORS >Mongini T</bp:AUTHORS>
+      <bp:AUTHORS >Vercelli L</bp:AUTHORS>
+      <bp:AUTHORS >Rodolico C</bp:AUTHORS>
+      <bp:AUTHORS >Biagini E</bp:AUTHORS>
+      <bp:AUTHORS >Boriani G</bp:AUTHORS>
+      <bp:AUTHORS >Ruggiero L</bp:AUTHORS>
+      <bp:AUTHORS >Santoro L</bp:AUTHORS>
+      <bp:AUTHORS >Schena E</bp:AUTHORS>
+      <bp:AUTHORS >Prencipe S</bp:AUTHORS>
+      <bp:AUTHORS >Evangelisti C</bp:AUTHORS>
+      <bp:AUTHORS >Pegoraro E</bp:AUTHORS>
+      <bp:AUTHORS >Morandi L</bp:AUTHORS>
+      <bp:AUTHORS >Columbaro M</bp:AUTHORS>
+      <bp:AUTHORS >Lanzuolo C</bp:AUTHORS>
+      <bp:AUTHORS >Sabatelli P</bp:AUTHORS>
+      <bp:AUTHORS >Cavalcante P</bp:AUTHORS>
+      <bp:AUTHORS >Cappelletti C</bp:AUTHORS>
+      <bp:AUTHORS >Bonne G</bp:AUTHORS>
+      <bp:AUTHORS >Muchir A</bp:AUTHORS>
+      <bp:AUTHORS >Lattanzi G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a40">
+      <bp:ID >19587107</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Accelerated features of age-related bone loss in zmpste24 metalloproteinase-deficient mice.</bp:TITLE>
+      <bp:SOURCE >J Gerontol A Biol Sci Med Sci</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Rivas D</bp:AUTHORS>
+      <bp:AUTHORS >Li W</bp:AUTHORS>
+      <bp:AUTHORS >Akter R</bp:AUTHORS>
+      <bp:AUTHORS >Henderson JE</bp:AUTHORS>
+      <bp:AUTHORS >Duque G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d65">
+      <bp:ID >17227891</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Nucleoplasmic LAP2alpha-lamin A Complexes Are Required to Maintain a Proliferative State in Human Fibroblasts</bp:TITLE>
+      <bp:SOURCE >J Cell Biol</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Pekovic, V</bp:AUTHORS>
+      <bp:AUTHORS >Harborth, H</bp:AUTHORS>
+      <bp:AUTHORS >Broers, J. L. V</bp:AUTHORS>
+      <bp:AUTHORS >Ramaekers, F. C. S</bp:AUTHORS>
+      <bp:AUTHORS >van Engelen, B</bp:AUTHORS>
+      <bp:AUTHORS >Lammens, M</bp:AUTHORS>
+      <bp:AUTHORS >von Zglinicki, T</bp:AUTHORS>
+      <bp:AUTHORS >Foisner, R</bp:AUTHORS>
+      <bp:AUTHORS >Hutchison, C</bp:AUTHORS>
+      <bp:AUTHORS >Markiewicz, E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a4b">
+      <bp:ID >15328537</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Emerin caps the pointed end of actin filaments: evidence for an actin cortical network at the nuclear inner membrane.</bp:TITLE>
+      <bp:SOURCE >PLoS Biol</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Holaska JM</bp:AUTHORS>
+      <bp:AUTHORS >Kowalski AK</bp:AUTHORS>
+      <bp:AUTHORS >Wilson KL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce1">
+      <bp:ID >9233789</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >beta-catenin is a target for the ubiquitin-proteasome pathway.</bp:TITLE>
+      <bp:SOURCE >EMBO J</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Aberle H</bp:AUTHORS>
+      <bp:AUTHORS >Bauer A</bp:AUTHORS>
+      <bp:AUTHORS >Stappert J</bp:AUTHORS>
+      <bp:AUTHORS >Kispert A</bp:AUTHORS>
+      <bp:AUTHORS >Kemler R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d20">
+      <bp:ID >23644458</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Lamin A/C and emerin regulate MKL1-SRF activity by modulating actin dynamics.</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Ho CY</bp:AUTHORS>
+      <bp:AUTHORS >Jaalouk DE</bp:AUTHORS>
+      <bp:AUTHORS >Vartiainen MK</bp:AUTHORS>
+      <bp:AUTHORS >Lammerding J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae3">
+      <bp:ID >18311132</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Lamin A-dependent misregulation of adult stem cells associated with accelerated ageing.</bp:TITLE>
+      <bp:SOURCE >Nat Cell Biol</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Scaffidi P</bp:AUTHORS>
+      <bp:AUTHORS >Misteli T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d47">
+      <bp:ID >24123709</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >An Osteopontin-Integrin Interaction Plays a Critical Role in Directing Adipogenesis and Osteogenesis by Mesenchymal Stem Cells</bp:TITLE>
+      <bp:SOURCE >Stem Cells</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Chen, Q</bp:AUTHORS>
+      <bp:AUTHORS >Shou, P</bp:AUTHORS>
+      <bp:AUTHORS >Zhang, L</bp:AUTHORS>
+      <bp:AUTHORS >Xu, C</bp:AUTHORS>
+      <bp:AUTHORS >Zheng, C</bp:AUTHORS>
+      <bp:AUTHORS >Han. Y</bp:AUTHORS>
+      <bp:AUTHORS >Li, W</bp:AUTHORS>
+      <bp:AUTHORS >Huang, Y</bp:AUTHORS>
+      <bp:AUTHORS >Zhang, X</bp:AUTHORS>
+      <bp:AUTHORS >Shao, C</bp:AUTHORS>
+      <bp:AUTHORS >Roberts, A. I</bp:AUTHORS>
+      <bp:AUTHORS >Rabson, A. B</bp:AUTHORS>
+      <bp:AUTHORS >Ren, G</bp:AUTHORS>
+      <bp:AUTHORS >Zhang, Y</bp:AUTHORS>
+      <bp:AUTHORS >Wang, Y</bp:AUTHORS>
+      <bp:AUTHORS >Denhardt, D. T</bp:AUTHORS>
+      <bp:AUTHORS >Shi, Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a02">
+      <bp:ID >17446932</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Activation of MAPK pathways links LMNA mutations to cardiomyopathy in Emery-Dreifuss muscular dystrophy.</bp:TITLE>
+      <bp:SOURCE >J Clin Invest</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Muchir A</bp:AUTHORS>
+      <bp:AUTHORS >Pavlidis P</bp:AUTHORS>
+      <bp:AUTHORS >Decostre V</bp:AUTHORS>
+      <bp:AUTHORS >Herron AJ</bp:AUTHORS>
+      <bp:AUTHORS >Arimura T</bp:AUTHORS>
+      <bp:AUTHORS >Bonne G</bp:AUTHORS>
+      <bp:AUTHORS >Worman HJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab8">
+      <bp:ID >23016862</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Wnt/beta-catenin signaling and small molecule inhibitors.</bp:TITLE>
+      <bp:SOURCE >Curr Pharm Des</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Voronkov A</bp:AUTHORS>
+      <bp:AUTHORS >Krauss S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ace">
+      <bp:ID >16115815</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A-type lamins are essential for TGF-beta1 induced PP2A to dephosphorylate transcription factors.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Van Berlo JH</bp:AUTHORS>
+      <bp:AUTHORS >Voncken JW</bp:AUTHORS>
+      <bp:AUTHORS >Kubben N</bp:AUTHORS>
+      <bp:AUTHORS >Broers JL</bp:AUTHORS>
+      <bp:AUTHORS >Duisters R</bp:AUTHORS>
+      <bp:AUTHORS >van Leeuwen RE</bp:AUTHORS>
+      <bp:AUTHORS >Crijns HJ</bp:AUTHORS>
+      <bp:AUTHORS >Ramaekers FC</bp:AUTHORS>
+      <bp:AUTHORS >Hutchison CJ</bp:AUTHORS>
+      <bp:AUTHORS >Pinto YM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a84">
+      <bp:ID >25823658</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Modulation of TGFbeta 2 levels by lamin A in U2-OS osteoblast-like cells: understanding the osteolytic process triggered by altered lamins.</bp:TITLE>
+      <bp:SOURCE >Oncotarget</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Evangelisti C</bp:AUTHORS>
+      <bp:AUTHORS >Bernasconi P</bp:AUTHORS>
+      <bp:AUTHORS >Cavalcante P</bp:AUTHORS>
+      <bp:AUTHORS >Cappelletti C</bp:AUTHORS>
+      <bp:AUTHORS >D'Apice MR</bp:AUTHORS>
+      <bp:AUTHORS >Sbraccia P</bp:AUTHORS>
+      <bp:AUTHORS >Novelli G</bp:AUTHORS>
+      <bp:AUTHORS >Prencipe S</bp:AUTHORS>
+      <bp:AUTHORS >Lemma S</bp:AUTHORS>
+      <bp:AUTHORS >Baldini N</bp:AUTHORS>
+      <bp:AUTHORS >Avnet S</bp:AUTHORS>
+      <bp:AUTHORS >Squarzoni S</bp:AUTHORS>
+      <bp:AUTHORS >Martelli AM</bp:AUTHORS>
+      <bp:AUTHORS >Lattanzi G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b4c">
+      <bp:ID >14755334</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Lamin A/C deficiency causes defective nuclear mechanics and mechanotransduction.</bp:TITLE>
+      <bp:SOURCE >J Clin Invest</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Lammerding J</bp:AUTHORS>
+      <bp:AUTHORS >Schulze PC</bp:AUTHORS>
+      <bp:AUTHORS >Takahashi T</bp:AUTHORS>
+      <bp:AUTHORS >Kozlov S</bp:AUTHORS>
+      <bp:AUTHORS >Sullivan T</bp:AUTHORS>
+      <bp:AUTHORS >Kamm RD</bp:AUTHORS>
+      <bp:AUTHORS >Stewart CL</bp:AUTHORS>
+      <bp:AUTHORS >Lee RT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef3">
+      <bp:ID >8156598</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >SREBP-1, a membrane-bound transcription factor released by sterol-regulated proteolysis.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >1994</bp:YEAR>
+      <bp:AUTHORS >Wang X</bp:AUTHORS>
+      <bp:AUTHORS >Sato R</bp:AUTHORS>
+      <bp:AUTHORS >Brown MS</bp:AUTHORS>
+      <bp:AUTHORS >Hua X</bp:AUTHORS>
+      <bp:AUTHORS >Goldstein JL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b08">
+      <bp:ID >22103516</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Keeping the LINC: the importance of nucleocytoskeletal coupling in intracellular force transmission and cellular function.</bp:TITLE>
+      <bp:SOURCE >Biochem Soc Trans</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Lombardi ML</bp:AUTHORS>
+      <bp:AUTHORS >Lammerding J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b8f">
+      <bp:ID >15317753</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Lamin A and ZMPSTE24 (FACE-1) defects cause nuclear disorganization and identify restrictive dermopathy as a lethal neonatal laminopathy.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Navarro CL</bp:AUTHORS>
+      <bp:AUTHORS >De Sandre-Giovannoli A</bp:AUTHORS>
+      <bp:AUTHORS >Bernard R</bp:AUTHORS>
+      <bp:AUTHORS >Boccaccio I</bp:AUTHORS>
+      <bp:AUTHORS >Boyer A</bp:AUTHORS>
+      <bp:AUTHORS >Genevi&#195;&#168;ve D</bp:AUTHORS>
+      <bp:AUTHORS >Hadj-Rabia S</bp:AUTHORS>
+      <bp:AUTHORS >Gaudy-Marqueste C</bp:AUTHORS>
+      <bp:AUTHORS >Smitt HS</bp:AUTHORS>
+      <bp:AUTHORS >Vabres P</bp:AUTHORS>
+      <bp:AUTHORS >Faivre L</bp:AUTHORS>
+      <bp:AUTHORS >Verloes A</bp:AUTHORS>
+      <bp:AUTHORS >Van Essen T</bp:AUTHORS>
+      <bp:AUTHORS >Flori E</bp:AUTHORS>
+      <bp:AUTHORS >Hennekam R</bp:AUTHORS>
+      <bp:AUTHORS >Beemer FA</bp:AUTHORS>
+      <bp:AUTHORS >Laurent N</bp:AUTHORS>
+      <bp:AUTHORS >Le Merrer M</bp:AUTHORS>
+      <bp:AUTHORS >Cau P</bp:AUTHORS>
+      <bp:AUTHORS >L&#195;&#169;vy N</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fcd">
+      <bp:ID >16115815</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A-type lamins are essential for TGF-beta1 induced PP2A to dephosphorylate transcription factors.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Van Berlo JH</bp:AUTHORS>
+      <bp:AUTHORS >Voncken JW</bp:AUTHORS>
+      <bp:AUTHORS >Kubben N</bp:AUTHORS>
+      <bp:AUTHORS >Broers JL</bp:AUTHORS>
+      <bp:AUTHORS >Duisters R</bp:AUTHORS>
+      <bp:AUTHORS >van Leeuwen RE</bp:AUTHORS>
+      <bp:AUTHORS >Crijns HJ</bp:AUTHORS>
+      <bp:AUTHORS >Ramaekers FC</bp:AUTHORS>
+      <bp:AUTHORS >Hutchison CJ</bp:AUTHORS>
+      <bp:AUTHORS >Pinto YM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d72">
+      <bp:ID >16403804</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Loss of emerin at the nuclear envelope disrupts the Rb1/E2F and MyoD pathways during muscle regeneration.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Melcon G</bp:AUTHORS>
+      <bp:AUTHORS >Kozlov S</bp:AUTHORS>
+      <bp:AUTHORS >Cutler DA</bp:AUTHORS>
+      <bp:AUTHORS >Sullivan T</bp:AUTHORS>
+      <bp:AUTHORS >Hernandez L</bp:AUTHORS>
+      <bp:AUTHORS >Zhao P</bp:AUTHORS>
+      <bp:AUTHORS >Mitchell S</bp:AUTHORS>
+      <bp:AUTHORS >Nader G</bp:AUTHORS>
+      <bp:AUTHORS >Bakay M</bp:AUTHORS>
+      <bp:AUTHORS >Rottman JN</bp:AUTHORS>
+      <bp:AUTHORS >Hoffman EP</bp:AUTHORS>
+      <bp:AUTHORS >Stewart CL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f39">
+      <bp:ID >12370805</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Both the Smad and p38 MAPK pathways play a crucial role in Runx2 expression following induction by transforming growth factor-beta and bone morphogenetic protein.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Lee KS</bp:AUTHORS>
+      <bp:AUTHORS >Hong SH</bp:AUTHORS>
+      <bp:AUTHORS >Bae SC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c5e">
+      <bp:ID >12006103</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >CCAAT/enhancer-binding proteins: structure, function and regulation.</bp:TITLE>
+      <bp:SOURCE >Biochem J</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Ramji DP</bp:AUTHORS>
+      <bp:AUTHORS >Foka P</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb2">
+      <bp:ID >11929849</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A novel interaction between lamin A and SREBP1: implications for partial lipodystrophy and other laminopathies.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Lloyd DJ</bp:AUTHORS>
+      <bp:AUTHORS >Trembath RC</bp:AUTHORS>
+      <bp:AUTHORS >Shackleton S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c5e">
+      <bp:ID >8175923</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The processing pathway of prelamin A.</bp:TITLE>
+      <bp:SOURCE >J Cell Sci</bp:SOURCE>
+      <bp:YEAR >1994</bp:YEAR>
+      <bp:AUTHORS >Sinensky M</bp:AUTHORS>
+      <bp:AUTHORS >Fantle K</bp:AUTHORS>
+      <bp:AUTHORS >Trujillo M</bp:AUTHORS>
+      <bp:AUTHORS >McLain T</bp:AUTHORS>
+      <bp:AUTHORS >Kupfer A</bp:AUTHORS>
+      <bp:AUTHORS >Dalton M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c0f">
+      <bp:ID >16858403</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The inner nuclear membrane protein emerin regulates beta-catenin activity by restricting its accumulation in the nucleus.</bp:TITLE>
+      <bp:SOURCE >EMBO J</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Markiewicz E</bp:AUTHORS>
+      <bp:AUTHORS >Tilgner K</bp:AUTHORS>
+      <bp:AUTHORS >Barker N</bp:AUTHORS>
+      <bp:AUTHORS >van de Wetering M</bp:AUTHORS>
+      <bp:AUTHORS >Clevers H</bp:AUTHORS>
+      <bp:AUTHORS >Dorobek M</bp:AUTHORS>
+      <bp:AUTHORS >Hausmanowa-Petrusewicz I</bp:AUTHORS>
+      <bp:AUTHORS >Ramaekers FC</bp:AUTHORS>
+      <bp:AUTHORS >Broers JL</bp:AUTHORS>
+      <bp:AUTHORS >Blankesteijn WM</bp:AUTHORS>
+      <bp:AUTHORS >Salpingidou G</bp:AUTHORS>
+      <bp:AUTHORS >Wilson RG</bp:AUTHORS>
+      <bp:AUTHORS >Ellis JA</bp:AUTHORS>
+      <bp:AUTHORS >Hutchison CJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e6d">
+      <bp:ID >15165456</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Effects of Wnt signaling on proliferation and differentiation of human mesenchymal stem cells.</bp:TITLE>
+      <bp:SOURCE >Tissue Eng</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >De Boer J</bp:AUTHORS>
+      <bp:AUTHORS >Wang HJ</bp:AUTHORS>
+      <bp:AUTHORS >Van Blitterswijk C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d29">
+      <bp:ID >25451943</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Transcriptional regulation of adipocyte differentiation: a central role for CCAAT/enhancer-binding protein (C/EBP) &#206;&#178;.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Guo L</bp:AUTHORS>
+      <bp:AUTHORS >Li X</bp:AUTHORS>
+      <bp:AUTHORS >Tang QQ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f69">
+      <bp:ID >21828285</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Proteomic profiling of adipose tissue from Zmpste24-/- mice, a model of lipodystrophy and premature aging, reveals major changes in mitochondrial function and vimentin processing.</bp:TITLE>
+      <bp:SOURCE >Mol Cell Proteomics</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Peinado JR</bp:AUTHORS>
+      <bp:AUTHORS >Quir&#195;&#179;s PM</bp:AUTHORS>
+      <bp:AUTHORS >Pulido MR</bp:AUTHORS>
+      <bp:AUTHORS >Mari&#195;&#177;o G</bp:AUTHORS>
+      <bp:AUTHORS >Mart&#195;&#173;nez-Chantar ML</bp:AUTHORS>
+      <bp:AUTHORS >V&#195;&#161;zquez-Mart&#195;&#173;nez R</bp:AUTHORS>
+      <bp:AUTHORS >Freije JM</bp:AUTHORS>
+      <bp:AUTHORS >L&#195;&#179;pez-Ot&#195;&#173;n C</bp:AUTHORS>
+      <bp:AUTHORS >Malag&#195;&#179;n MM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >familial partial lipodystrophy</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0050440</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f89">
+      <bp:ID >26830228</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >SREBP-1c/MicroRNA 33b Genomic Loci Control Adipocyte Differentiation.</bp:TITLE>
+      <bp:SOURCE >Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Price NL</bp:AUTHORS>
+      <bp:AUTHORS >Holtrup B</bp:AUTHORS>
+      <bp:AUTHORS >Kwei SL</bp:AUTHORS>
+      <bp:AUTHORS >Wabitsch M</bp:AUTHORS>
+      <bp:AUTHORS >Rodeheffer M</bp:AUTHORS>
+      <bp:AUTHORS >Bianchini L</bp:AUTHORS>
+      <bp:AUTHORS >Su&#195;&#161;rez Y</bp:AUTHORS>
+      <bp:AUTHORS >Fern&#195;&#161;ndez-Hernando C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="af1">
+      <bp:ID >8156598</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >SREBP-1, a membrane-bound transcription factor released by sterol-regulated proteolysis.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >1994</bp:YEAR>
+      <bp:AUTHORS >Wang X</bp:AUTHORS>
+      <bp:AUTHORS >Sato R</bp:AUTHORS>
+      <bp:AUTHORS >Brown MS</bp:AUTHORS>
+      <bp:AUTHORS >Hua X</bp:AUTHORS>
+      <bp:AUTHORS >Goldstein JL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eb5">
+      <bp:ID >10675335</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulation of E2F1 activity by acetylation.</bp:TITLE>
+      <bp:SOURCE >EMBO J</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Mart&#195;&#173;nez-Balb&#195;&#161;s MA</bp:AUTHORS>
+      <bp:AUTHORS >Bauer UM</bp:AUTHORS>
+      <bp:AUTHORS >Nielsen SJ</bp:AUTHORS>
+      <bp:AUTHORS >Brehm A</bp:AUTHORS>
+      <bp:AUTHORS >Kouzarides T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b7f">
+      <bp:ID >22103516</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Keeping the LINC: the importance of nucleocytoskeletal coupling in intracellular force transmission and cellular function.</bp:TITLE>
+      <bp:SOURCE >Biochem Soc Trans</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Lombardi ML</bp:AUTHORS>
+      <bp:AUTHORS >Lammerding J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a14">
+      <bp:ID >11285237</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A role for histone deacetylase HDAC1 in modulating the transcriptional activity of MyoD: inhibition of the myogenic program.</bp:TITLE>
+      <bp:SOURCE >EMBO J</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Mal A</bp:AUTHORS>
+      <bp:AUTHORS >Sturniolo M</bp:AUTHORS>
+      <bp:AUTHORS >Schiltz RL</bp:AUTHORS>
+      <bp:AUTHORS >Ghosh MK</bp:AUTHORS>
+      <bp:AUTHORS >Harter ML</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d86">
+      <bp:ID >10959075</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Wnt/beta-catenin signaling.</bp:TITLE>
+      <bp:SOURCE >Cytokine Growth Factor Rev</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Akiyama T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb5">
+      <bp:ID >18847334</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Effect of lamin A/C knockdown on osteoblast differentiation and function.</bp:TITLE>
+      <bp:SOURCE >J Bone Miner Res</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Akter R</bp:AUTHORS>
+      <bp:AUTHORS >Rivas D</bp:AUTHORS>
+      <bp:AUTHORS >Geneau G</bp:AUTHORS>
+      <bp:AUTHORS >Drissi H</bp:AUTHORS>
+      <bp:AUTHORS >Duque G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e3b">
+      <bp:ID >12453919</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >PPARG F388L, a transactivation-deficient mutant, in familial partial lipodystrophy.</bp:TITLE>
+      <bp:SOURCE >Diabetes</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Hegele RA</bp:AUTHORS>
+      <bp:AUTHORS >Cao H</bp:AUTHORS>
+      <bp:AUTHORS >Frankowski C</bp:AUTHORS>
+      <bp:AUTHORS >Mathews ST</bp:AUTHORS>
+      <bp:AUTHORS >Leff T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e46">
+      <bp:ID >24459210</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Normal and aberrant splicing of LMNA.</bp:TITLE>
+      <bp:SOURCE >J Med Genet</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Luo YB</bp:AUTHORS>
+      <bp:AUTHORS >Mastaglia FL</bp:AUTHORS>
+      <bp:AUTHORS >Wilton SD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d68">
+      <bp:ID >17227891</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Nucleoplasmic LAP2alpha-lamin A complexes are required to maintain a proliferative state in human fibroblasts.</bp:TITLE>
+      <bp:SOURCE >J Cell Biol</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Pekovic V</bp:AUTHORS>
+      <bp:AUTHORS >Harborth J</bp:AUTHORS>
+      <bp:AUTHORS >Broers JL</bp:AUTHORS>
+      <bp:AUTHORS >Ramaekers FC</bp:AUTHORS>
+      <bp:AUTHORS >van Engelen B</bp:AUTHORS>
+      <bp:AUTHORS >Lammens M</bp:AUTHORS>
+      <bp:AUTHORS >von Zglinicki T</bp:AUTHORS>
+      <bp:AUTHORS >Foisner R</bp:AUTHORS>
+      <bp:AUTHORS >Hutchison C</bp:AUTHORS>
+      <bp:AUTHORS >Markiewicz E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a29">
+      <bp:ID >11929849</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A novel interaction between lamin A and SREBP1: implications for partial lipodystrophy and other laminopathies.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Lloyd DJ</bp:AUTHORS>
+      <bp:AUTHORS >Trembath RC</bp:AUTHORS>
+      <bp:AUTHORS >Shackleton S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d6c">
+      <bp:ID >9233789</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >beta-catenin is a target for the ubiquitin-proteasome pathway.</bp:TITLE>
+      <bp:SOURCE >EMBO J</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Aberle H</bp:AUTHORS>
+      <bp:AUTHORS >Bauer A</bp:AUTHORS>
+      <bp:AUTHORS >Stappert J</bp:AUTHORS>
+      <bp:AUTHORS >Kispert A</bp:AUTHORS>
+      <bp:AUTHORS >Kemler R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a77">
+      <bp:ID >30862117</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Deciphering Nuclear Mechanobiology in Laminopathy.</bp:TITLE>
+      <bp:SOURCE >Cells</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Hah J</bp:AUTHORS>
+      <bp:AUTHORS >Kim DH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce3">
+      <bp:ID >20716577</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Oxidative stress by monoamine oxidases is causally involved in myofiber damage in muscular dystrophy.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Menazza S</bp:AUTHORS>
+      <bp:AUTHORS >Blaauw B</bp:AUTHORS>
+      <bp:AUTHORS >Tiepolo T</bp:AUTHORS>
+      <bp:AUTHORS >Toniolo L</bp:AUTHORS>
+      <bp:AUTHORS >Braghetta P</bp:AUTHORS>
+      <bp:AUTHORS >Spolaore B</bp:AUTHORS>
+      <bp:AUTHORS >Reggiani C</bp:AUTHORS>
+      <bp:AUTHORS >Di Lisa F</bp:AUTHORS>
+      <bp:AUTHORS >Bonaldo P</bp:AUTHORS>
+      <bp:AUTHORS >Canton M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca3">
+      <bp:ID >11792809</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Properties of lamin A mutants found in Emery-Dreifuss muscular dystrophy, cardiomyopathy and Dunnigan-type partial lipodystrophy.</bp:TITLE>
+      <bp:SOURCE >J Cell Sci</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Ostlund C</bp:AUTHORS>
+      <bp:AUTHORS >Bonne G</bp:AUTHORS>
+      <bp:AUTHORS >Schwartz K</bp:AUTHORS>
+      <bp:AUTHORS >Worman HJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3c">
+      <bp:ID >23016862</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Wnt/beta-catenin signaling and small molecule inhibitors.</bp:TITLE>
+      <bp:SOURCE >Curr Pharm Des</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Voronkov A</bp:AUTHORS>
+      <bp:AUTHORS >Krauss S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d8e">
+      <bp:ID >18371421</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A temporal switch from notch to Wnt signaling in muscle stem cells is necessary for normal adult myogenesis.</bp:TITLE>
+      <bp:SOURCE >Cell Stem Cell</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Brack AS</bp:AUTHORS>
+      <bp:AUTHORS >Conboy IM</bp:AUTHORS>
+      <bp:AUTHORS >Conboy MJ</bp:AUTHORS>
+      <bp:AUTHORS >Shen J</bp:AUTHORS>
+      <bp:AUTHORS >Rando TA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b30">
+      <bp:ID >16478798</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Nuclear envelope dystrophies show a transcriptional fingerprint suggesting disruption of Rb-MyoD pathways in muscle regeneration.</bp:TITLE>
+      <bp:SOURCE >Brain</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Bakay M</bp:AUTHORS>
+      <bp:AUTHORS >Wang Z</bp:AUTHORS>
+      <bp:AUTHORS >Melcon G</bp:AUTHORS>
+      <bp:AUTHORS >Schiltz L</bp:AUTHORS>
+      <bp:AUTHORS >Xuan J</bp:AUTHORS>
+      <bp:AUTHORS >Zhao P</bp:AUTHORS>
+      <bp:AUTHORS >Sartorelli V</bp:AUTHORS>
+      <bp:AUTHORS >Seo J</bp:AUTHORS>
+      <bp:AUTHORS >Pegoraro E</bp:AUTHORS>
+      <bp:AUTHORS >Angelini C</bp:AUTHORS>
+      <bp:AUTHORS >Shneiderman B</bp:AUTHORS>
+      <bp:AUTHORS >Escolar D</bp:AUTHORS>
+      <bp:AUTHORS >Chen YW</bp:AUTHORS>
+      <bp:AUTHORS >Winokur ST</bp:AUTHORS>
+      <bp:AUTHORS >Pachman LM</bp:AUTHORS>
+      <bp:AUTHORS >Fan C</bp:AUTHORS>
+      <bp:AUTHORS >Mandler R</bp:AUTHORS>
+      <bp:AUTHORS >Nevo Y</bp:AUTHORS>
+      <bp:AUTHORS >Gordon E</bp:AUTHORS>
+      <bp:AUTHORS >Zhu Y</bp:AUTHORS>
+      <bp:AUTHORS >Dong Y</bp:AUTHORS>
+      <bp:AUTHORS >Wang Y</bp:AUTHORS>
+      <bp:AUTHORS >Hoffman EP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e67">
+      <bp:ID >26830228</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >SREBP-1c/MicroRNA 33b Genomic Loci Control Adipocyte Differentiation.</bp:TITLE>
+      <bp:SOURCE >Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Price NL</bp:AUTHORS>
+      <bp:AUTHORS >Holtrup B</bp:AUTHORS>
+      <bp:AUTHORS >Kwei SL</bp:AUTHORS>
+      <bp:AUTHORS >Wabitsch M</bp:AUTHORS>
+      <bp:AUTHORS >Rodeheffer M</bp:AUTHORS>
+      <bp:AUTHORS >Bianchini L</bp:AUTHORS>
+      <bp:AUTHORS >Su&#195;&#161;rez Y</bp:AUTHORS>
+      <bp:AUTHORS >Fern&#195;&#161;ndez-Hernando C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bed">
+      <bp:ID >23016862</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Wnt/beta-catenin signaling and small molecule inhibitors.</bp:TITLE>
+      <bp:SOURCE >Curr Pharm Des</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Voronkov A</bp:AUTHORS>
+      <bp:AUTHORS >Krauss S</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

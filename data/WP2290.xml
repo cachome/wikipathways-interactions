@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="RalA downstream regulated genes" Version="20120830" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <Comment Source="WikiPathways-description">Downstream genes of RalA signaling pathways, including the Rac-family GTPase-activating protein RLIP (also known as RLIP76 and ralA binding protein 1 (RALBP1)), CDC42(cell division cycle 42), RAC1 (ras-related C3 botulinum toxin substrate 1), RAC2, RAC3, the Y-box transcription factor ZO-1-associated nucleic acidbinding protein (ZONAB, also known as cold shock domain protein A (CSDA)), and two subunits of the exocyst complex, SEC5 (also known as exocyst complex component 2 (EXOC2)) and EXO84 (also known as EXOC8), which are involved in regulating cell proliferation, apoptosis and migration</Comment>
+  <BiopaxRef>c40</BiopaxRef>
+  <Graphics BoardWidth="618.0" BoardHeight="336.0"/>
+  <DataNode TextLabel="ZONAB" GraphId="a245f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SEC5" GraphId="e01fc" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EXOC84" GraphId="b2ab1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RALBP1" GraphId="a41b9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CDC42" GraphId="c9b31" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RAC3" GraphId="bc678" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RAC2" GraphId="c94dd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RAC1" GraphId="e315a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HRAS" GraphId="c7f9b" Type="GeneProduct" GroupRef="c28b8">
+        </DataNode>
+  <DataNode TextLabel="KRAS" GraphId="db247" Type="GeneProduct" GroupRef="c28b8">
+        </DataNode>
+  <DataNode TextLabel="NRAS" GraphId="c3265" Type="GeneProduct" GroupRef="c28b8">
+        </DataNode>
+  <DataNode TextLabel="RalA" GraphId="b65c2" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id971e4653">
+    <Graphics>
+      <Point GraphRef="a41b9"/>
+      <Point GraphRef="c9b31" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddcbb034f">
+    <Graphics>
+      <Point GraphRef="b65c2"/>
+      <Point GraphRef="a41b9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide18ab94">
+    <Graphics Color="ff0000">
+      <Point GraphRef="b28ed"/>
+      <Point GraphRef="b65c2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id452df857">
+    <Graphics>
+      <Point GraphRef="b65c2"/>
+      <Point GraphRef="b2ab1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a13c7">
+    <Graphics>
+      <Point GraphRef="a41b9"/>
+      <Point GraphRef="bc678" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a576e">
+    <Graphics>
+      <Point GraphRef="a41b9"/>
+      <Point GraphRef="c94dd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="af20f">
+    <Graphics>
+      <Point GraphRef="a41b9"/>
+      <Point GraphRef="e315a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ef386">
+    <Graphics>
+      <Point GraphRef="b65c2"/>
+      <Point GraphRef="e01fc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a95b8">
+    <Graphics>
+      <Point GraphRef="b65c2"/>
+      <Point GraphRef="a245f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="RAS" GraphId="ead65" GroupRef="c28b8">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ff0000"/>
+  </Label>
+  <Group GroupId="c28b8" GraphId="b28ed"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Ras family mediated signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000158</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CML - chronic Myelogenous Leukemia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:8552</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c40">
+      <bp:ID >22442671</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >miR-181a post-transcriptionally downregulates oncogenic RalA and contributes to growth inhibition and apoptosis in chronic myelogenous leukemia (CML).</bp:TITLE>
+      <bp:SOURCE >PLoS One</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Fei J</bp:AUTHORS>
+      <bp:AUTHORS >Li Y</bp:AUTHORS>
+      <bp:AUTHORS >Zhu X</bp:AUTHORS>
+      <bp:AUTHORS >Luo X</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

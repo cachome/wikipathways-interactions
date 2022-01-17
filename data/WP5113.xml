@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Antiviral and anti-inflammatory effects of Nrf2 on SARS-CoV-2 pathway" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Antiviral and antihypertensive effects of Nrf2 and its link to SARS-CoV-2 infection.</Comment>
+  <Graphics BoardWidth="1914.0" BoardHeight="1168.0"/>
+  <DataNode TextLabel="cGMP" GraphId="a9629" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CO" GraphId="ceec7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="HMOX1" GraphId="dae41" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="heme" GraphId="e5155" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GTP" GraphId="f190e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TMPRSS2" GraphId="f7cb6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ACE2" GraphId="fd013" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RNA" GraphId="edd25" Type="Rna">
+    <Graphics Color="101019"/>
+    </DataNode>
+  <DataNode TextLabel="orf1" GraphId="ac6ab" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="orf1ab" GraphId="d29b8" Type="Protein">
+    <Graphics FillColor="ffcccc"/>
+    </DataNode>
+  <DataNode TextLabel="nsp8" GraphId="e9d11" Type="Protein">
+    <Graphics FillColor="ffcccc"/>
+    </DataNode>
+  <DataNode TextLabel="nsp7" GraphId="d7209" Type="Protein">
+    <Graphics FillColor="ffcccc"/>
+    </DataNode>
+  <DataNode TextLabel="nsp12" GraphId="ee5bb" Type="Protein">
+    <Comment>RdRp</Comment>
+    <BiopaxRef>b94</BiopaxRef>
+    <BiopaxRef>ee2</BiopaxRef>
+    <Graphics FillColor="ffcccc"/>
+    </DataNode>
+  <DataNode TextLabel="polymerase&#10;complex" GraphId="c36fe" Type="Complex" GroupRef="aa8eb">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="nsp7" GraphId="abc74" Type="Protein" GroupRef="aa8eb">
+    <Graphics FillColor="ffcccc"/>
+    </DataNode>
+  <DataNode TextLabel="nsp8" GraphId="b9779" Type="Protein" GroupRef="aa8eb">
+    <Graphics FillColor="ffcccc"/>
+    </DataNode>
+  <DataNode TextLabel="nsp12" GraphId="f96e2" Type="Protein" GroupRef="aa8eb">
+    <Comment>RdRp</Comment>
+    <BiopaxRef>d8e</BiopaxRef>
+    <BiopaxRef>ef8</BiopaxRef>
+    <BiopaxRef>b94</BiopaxRef>
+    <Graphics FillColor="ffcccc"/>
+    </DataNode>
+  <DataNode TextLabel="nsp8" GraphId="ab952" Type="Protein" GroupRef="aa8eb">
+    <Graphics FillColor="ffcccc"/>
+    </DataNode>
+  <DataNode TextLabel="5. viral genome replication" GraphId="f8315" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="6. Subgenomic transription" GraphId="aaf48" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="7. Translation of viral proteins" GraphId="ccb7f" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="8. Viral assembly" GraphId="ae968" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="9.Exocytosis" GraphId="f3a48" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="PL2-PRO (nsp3)" GraphId="a083e" Type="Protein">
+    <Comment>nsp3</Comment>
+    <Graphics FillColor="ffcccc"/>
+    </DataNode>
+  <DataNode TextLabel="3CL-PRO(nsp5)" GraphId="d204f" Type="Protein">
+    <Graphics FillColor="ffcccc"/>
+    </DataNode>
+  <DataNode TextLabel="NFE2L2" GraphId="cfe4e" Type="GeneProduct" GroupRef="ff6c6">
+        </DataNode>
+  <DataNode TextLabel="KEAP1" GraphId="a1013" Type="GeneProduct" GroupRef="ff6c6">
+        </DataNode>
+  <DataNode TextLabel="NFE2L2" GraphId="d2867" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="KEAP1" GraphId="d4e12" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAF" GraphId="c0d48" Type="GeneProduct" GroupRef="a7f3d">
+        </DataNode>
+  <DataNode TextLabel="NFE2L2" GraphId="ed65e" Type="GeneProduct" GroupRef="a7f3d">
+        </DataNode>
+  <DataNode TextLabel="GCLC" GraphId="c1f0f" Type="GeneProduct" GroupRef="fada5">
+        </DataNode>
+  <DataNode TextLabel="HMOX1" GraphId="f5762" Type="GeneProduct" GroupRef="fada5">
+        </DataNode>
+  <DataNode TextLabel="SLC7A11" GraphId="e17a6" Type="GeneProduct" GroupRef="fada5">
+        </DataNode>
+  <DataNode TextLabel="NQO1" GraphId="b622f" Type="GeneProduct" GroupRef="fada5">
+        </DataNode>
+  <DataNode TextLabel="GSTA2" GraphId="f34d2" Type="GeneProduct" GroupRef="fada5">
+        </DataNode>
+  <DataNode TextLabel="GCLM" GraphId="b5b2e" Type="GeneProduct" GroupRef="fada5">
+        </DataNode>
+  <DataNode TextLabel="INF-I alpha/ beta" GraphId="a3e0f" Type="Protein">
+    <Graphics Color="9900cc"/>
+    </DataNode>
+  <DataNode TextLabel="IRF3" GraphId="d0957" Type="GeneProduct" GroupRef="f89d9">
+        </DataNode>
+  <DataNode TextLabel="HMOX1" GraphId="f99cd" Type="GeneProduct" GroupRef="f89d9">
+        </DataNode>
+  <DataNode TextLabel="IRF3" GraphId="e93ba" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL-8" GraphId="ec531" Type="GeneProduct" GroupRef="b05ff">
+        </DataNode>
+  <DataNode TextLabel="MMP3" GraphId="aeb54" Type="GeneProduct" GroupRef="b05ff">
+        </DataNode>
+  <DataNode TextLabel="TNF alpha" GraphId="f61de" Type="GeneProduct" GroupRef="b05ff">
+        </DataNode>
+  <DataNode TextLabel="CCL2" GraphId="ec075" Type="GeneProduct" GroupRef="b05ff">
+        </DataNode>
+  <DataNode TextLabel="IL-12" GraphId="e201d" Type="GeneProduct" GroupRef="b05ff">
+        </DataNode>
+  <DataNode TextLabel="IL-1 Beta" GraphId="b48c8" Type="GeneProduct" GroupRef="b05ff">
+        </DataNode>
+  <DataNode TextLabel="MMP1" GraphId="dafe7" Type="GeneProduct" GroupRef="b05ff">
+        </DataNode>
+  <DataNode TextLabel="IL-6" GraphId="ff2d7" Type="GeneProduct" GroupRef="b05ff">
+        </DataNode>
+  <DataNode TextLabel="iron" GraphId="a224a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GUCY1B2" GraphId="eb4db" Type="GeneProduct" GroupRef="a905a">
+        </DataNode>
+  <DataNode TextLabel="GUCY1A2" GraphId="f28e1" Type="GeneProduct" GroupRef="a905a">
+        </DataNode>
+  <DataNode TextLabel="GUCY1A3" GraphId="e8d79" Type="GeneProduct" GroupRef="a905a">
+        </DataNode>
+  <DataNode TextLabel="GUCY1B3" GraphId="a9e79" Type="GeneProduct" GroupRef="a905a">
+        </DataNode>
+  <DataNode TextLabel="PKG2" GraphId="f8d69" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NOX1" GraphId="d4bd3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ROS" GraphId="ed94f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="biliverdin" GraphId="a1389" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="IkBA" GraphId="e695e" Type="GeneProduct" GroupRef="fa6a5">
+        </DataNode>
+  <DataNode TextLabel="p65" GraphId="aa511" Type="GeneProduct" GroupRef="fa6a5">
+        </DataNode>
+  <DataNode TextLabel="p50" GraphId="a2728" Type="GeneProduct" GroupRef="fa6a5">
+        </DataNode>
+  <DataNode TextLabel="IKKB" GraphId="dff64" Type="GeneProduct" GroupRef="aa46f">
+        </DataNode>
+  <DataNode TextLabel="IKKA&#10;" GraphId="aaf7c" Type="GeneProduct" GroupRef="aa46f">
+        </DataNode>
+  <DataNode TextLabel="IKKG" GraphId="ae910" Type="GeneProduct" GroupRef="aa46f">
+        </DataNode>
+  <DataNode TextLabel="IkBA" GraphId="ffd2f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="p65" GraphId="e1fe7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="p50" GraphId="e3880" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="1. Binding to ACE2 receptor" GraphId="f5e6b" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="2. Membrane fusion" GraphId="d809f" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="3. Translation" GraphId="bd199" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="4.Proteolysis" GraphId="e0198" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <State GraphRef="d2867" TextLabel="P" GraphId="b05ac">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e93ba" TextLabel="P" GraphId="f6273">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ffd2f" TextLabel="P" GraphId="ebaec">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id11298a73">
+    <Graphics>
+      <Point GraphRef="d29b8"/>
+      <Point GraphRef="ee5bb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id140331ca">
+    <Graphics>
+      <Point GraphRef="c6501"/>
+      <Point GraphRef="ffd2f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1cbc9d8c">
+    <Graphics>
+      <Point GraphRef="ceec7"/>
+      <Point GraphRef="d6f98" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1ddcb2e3">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c6501"/>
+      <Point GraphRef="e1fe7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1ee79299">
+    <Graphics>
+      <Point GraphRef="bddc5"/>
+      <Point GraphRef="f3a48" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id20e0fe5b">
+    <Graphics>
+      <Point GraphRef="cd637"/>
+      <Point GraphRef="f8315" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id212b2183">
+    <Graphics>
+      <Point GraphRef="e9d11"/>
+      <Point GraphRef="ee5bb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id23c9b4cf">
+    <Graphics ConnectorType="Elbow" Color="cc0000">
+      <Point GraphRef="dae41"/>
+      <Point GraphRef="ba91d" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id25d64634">
+    <Graphics>
+      <Point GraphRef="cab5c"/>
+      <Point GraphRef="e1b56" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2ba69e50">
+    <Graphics>
+      <Point GraphRef="d204f"/>
+      <Point GraphRef="d29b8" ArrowHead="mim-cleavage"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2ce067d0">
+    <Graphics>
+      <Point GraphRef="d7209"/>
+      <Point GraphRef="e9d11"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2de4c9e">
+    <Graphics>
+      <Point GraphRef="c2cfa"/>
+      <Point GraphRef="c6501" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id304f255d">
+    <Graphics>
+      <Point GraphRef="a29ca"/>
+      <Point GraphRef="fd013" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id407b4cba">
+    <Graphics>
+      <Point GraphRef="a9629"/>
+      <Point GraphRef="f8d69" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id461dc676">
+    <Graphics>
+      <Point GraphRef="a1013"/>
+      <Point GraphRef="d4e12" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4bed82f3">
+    <Graphics>
+      <Point GraphRef="a083e"/>
+      <Point GraphRef="d29b8" ArrowHead="mim-cleavage"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5c095b76">
+    <Graphics>
+      <Point GraphRef="e1b26"/>
+      <Point GraphRef="ec531" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5f742b09">
+    <Graphics>
+      <Point GraphRef="edd25"/>
+      <Point GraphRef="ac6ab" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6d9630e">
+    <Graphics>
+      <Point GraphRef="f190e"/>
+      <Point GraphRef="a9629" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5" Shape="None" GraphId="b1bb1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6db3f655">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f61de"/>
+      <Point/>
+      <Point GraphRef="ed94f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id715b17be">
+    <Graphics>
+      <Point GraphRef="d0957"/>
+      <Point GraphRef="e93ba" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id799a92c8">
+    <Graphics>
+      <Point GraphRef="d29b8"/>
+      <Point GraphRef="e9d11" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7c8aa433">
+    <Graphics>
+      <Point GraphRef="d2867"/>
+      <Point GraphRef="c118a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7d205104">
+    <Graphics>
+      <Point GraphRef="d14dd"/>
+      <Point GraphRef="a224a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7d319e35">
+    <Graphics ConnectorType="Elbow" Color="cc0000">
+      <Point GraphRef="a1389"/>
+      <Point GraphRef="d204f" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id80337e77">
+    <Graphics Color="cc0000">
+      <Point GraphRef="f8d69"/>
+      <Point GraphRef="d4bd3" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id81a62627">
+    <Graphics ConnectorType="Elbow" Color="cc0000">
+      <Point GraphRef="a224a"/>
+      <Point GraphRef="c36fe" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id84003b63">
+    <Graphics>
+      <Point GraphRef="ac6ab"/>
+      <Point GraphRef="d29b8" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id95630bb2">
+    <Graphics>
+      <Point GraphRef="e201d"/>
+      <Point GraphRef="e618f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id96aeeb87">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e22c7"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="c2cfa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id985cf82a">
+    <Graphics ConnectorType="Elbow" Color="cc0000">
+      <Point GraphRef="a1389"/>
+      <Point GraphRef="a083e" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaf8188bc">
+    <Graphics>
+      <Point GraphRef="a1013"/>
+      <Point GraphRef="d2867" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb5136f35">
+    <Graphics>
+      <Point GraphRef="dae41"/>
+      <Point GraphRef="d14dd" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb56611eb">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e93ba"/>
+      <Point GraphRef="a3e0f" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbf20bd35">
+    <Graphics>
+      <Point GraphRef="d14dd"/>
+      <Point GraphRef="a1389" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc3648734">
+    <Graphics>
+      <Point GraphRef="e5155"/>
+      <Point GraphRef="ceec7" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5" Shape="None" GraphId="d14dd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcdee20b6">
+    <Graphics>
+      <Point GraphRef="d29b8"/>
+      <Point GraphRef="d7209" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idce0e5551">
+    <Graphics>
+      <Point GraphRef="d6f98"/>
+      <Point GraphRef="b1bb1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcfd4edd4">
+    <Graphics>
+      <Point GraphRef="aaf48"/>
+      <Point GraphRef="ccb7f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd9f034dd">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="fdf7f" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddc9a88f6">
+    <Graphics>
+      <Point GraphRef="c36fe"/>
+      <Point GraphRef="aaf48" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide46758c0">
+    <Graphics>
+      <Point GraphRef="cab5c"/>
+      <Point GraphRef="e22c7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idef0f5bdd">
+    <Graphics>
+      <Point GraphRef="f3a48"/>
+      <Point GraphRef="cc062" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf4c13a25">
+    <Graphics>
+      <Point GraphRef="d4bd3"/>
+      <Point GraphRef="ed94f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf6d0067c">
+    <Graphics ConnectorType="Elbow" Color="cc0000">
+      <Point GraphRef="a3e0f"/>
+      <Point GraphRef="f8315" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfc2d23ef">
+    <Graphics>
+      <Point GraphRef="ee5bb"/>
+      <Point GraphRef="cd637"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfe73c888">
+    <Graphics>
+      <Point GraphRef="d42ff"/>
+      <Point GraphRef="f7cb6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="b3413" GroupRef="aa2d6">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e717e" GroupRef="aa2d6">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="aee9d" GroupRef="aa2d6">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c4c72" GroupRef="aa2d6">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="db6fc" GroupRef="aa2d6">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c07b1" GroupRef="aa2d6">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e6b4b" GroupRef="aa2d6">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fca95" GroupRef="aa2d6">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d3fb7" GroupRef="aa2d6">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a1a33" GroupRef="aa2d6">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a25cc" GroupRef="aa2d6">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c2d89" GroupRef="aa2d6">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b5994">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bb9ad" GroupRef="c5da9">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fb9d6" GroupRef="c5da9">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e64b3" GroupRef="b5ae4">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e70f5" GroupRef="b5ae4">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Cytoplasm" GraphId="b0dd1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Pro-inflammatory stimuli" GraphId="e22c7">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="sCG" GraphId="e3c48">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inflammation" GraphId="e618f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="f28ef">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="SARS-CoV-2" GraphId="a98f7" GroupRef="aa2d6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="SARS-CoV-2" GraphId="f2089">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Release" GraphId="cc062">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ARE" GraphId="b3ef3" GroupRef="a7f3d">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Genes" GraphId="f7505">
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="TATA box" GraphId="ab8e8">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Nrf2 target genes" GraphId="f49ee" GroupRef="fada5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ISRE" GraphId="b7a35" GroupRef="c5da9">
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Inflammatory cytokines" GraphId="ba91d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="RE" GraphId="f9cd5" GroupRef="b5ae4">
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Viral Infection /&#10;Oxidative stress&#10;" GraphId="cab5c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="a6885">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e848c">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bc688">
+    <Graphics ShapeType="Endoplasmic Reticulum" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="de002" GroupRef="aa2d6">
+    <Graphics ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="a05bc" GroupRef="aa2d6">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="f9135" GroupRef="aa2d6">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="a29ca" GroupRef="aa2d6">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="c96b3" GroupRef="aa2d6">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="fb282" GroupRef="aa2d6">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="cf149" GroupRef="aa2d6">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="b4d90" GroupRef="aa2d6">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="d62ec" GroupRef="aa2d6">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="e8411" GroupRef="aa2d6">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="e664a" GroupRef="aa2d6">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="d42ff" GroupRef="aa2d6">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="d5803" GroupRef="aa2d6">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape TextLabel="Endosome" GraphId="aab28">
+    <Graphics ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="d4b79">
+    <Graphics ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape TextLabel="ERGIC" GraphId="bddc5">
+    <Graphics ShapeType="RoundedRectangle" Color="333333"/>
+  </Shape>
+  <Group GroupId="a7f3d" GraphId="c118a" Style="Complex"/>
+  <Group GroupId="aa46f" GraphId="c2cfa" Style="Complex"/>
+  <Group GroupId="c7dfe" GraphId="c487f" Style="Complex"/>
+  <Group GroupId="af397" GraphId="c4bfd" Style="Group"/>
+  <Group GroupId="fa6a5" GraphId="c6501" Style="Complex"/>
+  <Group GroupId="c5da9" GraphId="cbd42" Style="Group"/>
+  <Group GroupId="aa8eb" GraphId="cd637" Style="Complex">
+    <BiopaxRef>cc7</BiopaxRef>
+  </Group>
+  <Group GroupId="f89d9" GraphId="d1aaf" Style="Complex" TextLabel="dimer"/>
+  <Group GroupId="a905a" GraphId="d6f98" Style="Complex"/>
+  <Group GroupId="b5ae4" GraphId="e1b26" Style="Group"/>
+  <Group GroupId="ff6c6" GraphId="e1b56" Style="Complex"/>
+  <Group GroupId="b05ff" GraphId="e42c1" Style="Group"/>
+  <Group GroupId="aa2d6" GraphId="ea8e5" Style="Group"/>
+  <Group GroupId="ef027" GraphId="efd1b" Style="Group"/>
+  <Group GroupId="fada5" GraphId="fdf7f"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b94">
+      <bp:ID >32529116</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Chemistry and Biology of SARS-CoV-2.</bp:TITLE>
+      <bp:SOURCE >Chem</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >COVID-19</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0080600</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ee2">
+      <bp:ID >32277040</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Structure of the RNA-dependent RNA polymerase from COVID-19 virus.</bp:TITLE>
+      <bp:SOURCE >Science</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Gao Y</bp:AUTHORS>
+      <bp:AUTHORS >Yan L</bp:AUTHORS>
+      <bp:AUTHORS >Huang Y</bp:AUTHORS>
+      <bp:AUTHORS >Liu F</bp:AUTHORS>
+      <bp:AUTHORS >Zhao Y</bp:AUTHORS>
+      <bp:AUTHORS >Cao L</bp:AUTHORS>
+      <bp:AUTHORS >Wang T</bp:AUTHORS>
+      <bp:AUTHORS >Sun Q</bp:AUTHORS>
+      <bp:AUTHORS >Ming Z</bp:AUTHORS>
+      <bp:AUTHORS >Zhang L</bp:AUTHORS>
+      <bp:AUTHORS >Ge J</bp:AUTHORS>
+      <bp:AUTHORS >Zheng L</bp:AUTHORS>
+      <bp:AUTHORS >Zhang Y</bp:AUTHORS>
+      <bp:AUTHORS >Wang H</bp:AUTHORS>
+      <bp:AUTHORS >Zhu Y</bp:AUTHORS>
+      <bp:AUTHORS >Zhu C</bp:AUTHORS>
+      <bp:AUTHORS >Hu T</bp:AUTHORS>
+      <bp:AUTHORS >Hua T</bp:AUTHORS>
+      <bp:AUTHORS >Zhang B</bp:AUTHORS>
+      <bp:AUTHORS >Yang X</bp:AUTHORS>
+      <bp:AUTHORS >Li J</bp:AUTHORS>
+      <bp:AUTHORS >Yang H</bp:AUTHORS>
+      <bp:AUTHORS >Liu Z</bp:AUTHORS>
+      <bp:AUTHORS >Xu W</bp:AUTHORS>
+      <bp:AUTHORS >Guddat LW</bp:AUTHORS>
+      <bp:AUTHORS >Wang Q</bp:AUTHORS>
+      <bp:AUTHORS >Lou Z</bp:AUTHORS>
+      <bp:AUTHORS >Rao Z</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef8">
+      <bp:ID >32321524</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Emerging SARS-CoV-2 mutation hot spots include a novel RNA-dependent-RNA polymerase variant.</bp:TITLE>
+      <bp:SOURCE >J Transl Med</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="abf">
+      <bp:ID >32680882</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Structural basis for translational shutdown and immune evasion by the Nsp1 protein of SARS-CoV-2.</bp:TITLE>
+      <bp:SOURCE >Science</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b04">
+      <bp:ID >33091573</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Heme oxygenase-1 modulation: A potential therapeutic target for COVID-19 and associated complications.</bp:TITLE>
+      <bp:SOURCE > Free Radic Biol Med. </bp:SOURCE>
+      <bp:YEAR > 2020</bp:YEAR>
+      <bp:AUTHORS >Singh D</bp:AUTHORS>
+      <bp:AUTHORS >Wasan H</bp:AUTHORS>
+      <bp:AUTHORS >Reeta KH.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="daa">
+      <bp:ID >20600852</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Suppression of NF-kappaB signaling by KEAP1 regulation of IKKbeta activity through autophagic degradation and inhibition of phosphorylation.</bp:TITLE>
+      <bp:SOURCE >Cell Signal</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Kim JE</bp:AUTHORS>
+      <bp:AUTHORS >You DJ</bp:AUTHORS>
+      <bp:AUTHORS >Lee C</bp:AUTHORS>
+      <bp:AUTHORS >Ahn C</bp:AUTHORS>
+      <bp:AUTHORS >Seong JY</bp:AUTHORS>
+      <bp:AUTHORS >Hwang JI</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cc9">
+      <bp:ID >19617398</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Heme oxygenase-1/carbon monoxide: from metabolism to molecular therapy.</bp:TITLE>
+      <bp:SOURCE >Am J Respir Cell Mol Biol</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Ryter SW</bp:AUTHORS>
+      <bp:AUTHORS >Choi AM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb4">
+      <bp:ID >28510041</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The Keap1-Nrf2 pathway: promising therapeutic target to counteract ROS-mediated damage in cancers and neurodegenerative diseases.</bp:TITLE>
+      <bp:SOURCE >Biophys Rev</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Deshmukh P</bp:AUTHORS>
+      <bp:AUTHORS >Unni S</bp:AUTHORS>
+      <bp:AUTHORS >Krishnappa G</bp:AUTHORS>
+      <bp:AUTHORS >Padmanabhan B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e46">
+      <bp:ID >27825853</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Nrf2 signaling pathway: Pivotal roles in inflammation.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta Mol Basis Dis</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Ahmed SM</bp:AUTHORS>
+      <bp:AUTHORS >Luo L</bp:AUTHORS>
+      <bp:AUTHORS >Namani A</bp:AUTHORS>
+      <bp:AUTHORS >Wang XJ</bp:AUTHORS>
+      <bp:AUTHORS >Tang X</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e99">
+      <bp:ID >16382109</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Carbon monoxide: endogenous production, physiological functions, and pharmacological applications.</bp:TITLE>
+      <bp:SOURCE >Pharmacol Rev</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Wu L</bp:AUTHORS>
+      <bp:AUTHORS >Wang R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b5d">
+      <bp:ID >20457564</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The nuclear factor NF-kappaB pathway in inflammation
+</bp:TITLE>
+      <bp:SOURCE >Cold Spring Harb Perspect Biol.</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cc7">
+      <bp:ID >32438371</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Structure of replicating SARS-CoV-2 polymerase.</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f6c">
+      <bp:ID >32711925</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Can Activation of NRF2 Be a Strategy against COVID-19?</bp:TITLE>
+      <bp:SOURCE >Trends Pharmacol Sci</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Cuadrado A</bp:AUTHORS>
+      <bp:AUTHORS >Pajares M</bp:AUTHORS>
+      <bp:AUTHORS >Benito C</bp:AUTHORS>
+      <bp:AUTHORS >Jim&#233;nez-Villegas J</bp:AUTHORS>
+      <bp:AUTHORS >Escoll M</bp:AUTHORS>
+      <bp:AUTHORS >Fern&#225;ndez-Gin&#233;s R</bp:AUTHORS>
+      <bp:AUTHORS >Garcia Yag&#252;e AJ</bp:AUTHORS>
+      <bp:AUTHORS >Lastra D</bp:AUTHORS>
+      <bp:AUTHORS >Manda G</bp:AUTHORS>
+      <bp:AUTHORS >Rojo AI</bp:AUTHORS>
+      <bp:AUTHORS >Dinkova-Kostova AT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >nuclear factor, erythroid 2 like 2 signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000369</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d8e">
+      <bp:ID >32283108</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Remdesivir and SARS-CoV-2: Structural requirements at both nsp12 RdRp and nsp14 Exonuclease active-sites.</bp:TITLE>
+      <bp:SOURCE >Antiviral Res</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a4a">
+      <bp:ID >26551702</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Dissecting molecular cross-talk between Nrf2 and NF-&#954;B response pathways</bp:TITLE>
+      <bp:SOURCE >Biochem Soc Trans 43:621&#8211;626.</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Wardyn JD</bp:AUTHORS>
+      <bp:AUTHORS >Ponsford AH</bp:AUTHORS>
+      <bp:AUTHORS >Sanderson CM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c5d">
+      <bp:ID >31967327</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Emerging coronaviruses: Genome structure, replication, and pathogenesis.</bp:TITLE>
+      <bp:SOURCE >J Med Virol</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Chen Y</bp:AUTHORS>
+      <bp:AUTHORS >Liu Q</bp:AUTHORS>
+      <bp:AUTHORS >Guo D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c6d">
+      <bp:ID >20716671</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >cGMP-dependent protein kinases and cGMP phosphodiesterases in nitric oxide and cGMP action</bp:TITLE>
+      <bp:SOURCE >Pharmacol Rev.</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da3">
+      <bp:ID >32142651</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Hoffmann M</bp:AUTHORS>
+      <bp:AUTHORS >Kleine-Weber H</bp:AUTHORS>
+      <bp:AUTHORS >Schroeder S</bp:AUTHORS>
+      <bp:AUTHORS >Kr&#252;ger N</bp:AUTHORS>
+      <bp:AUTHORS >Herrler T</bp:AUTHORS>
+      <bp:AUTHORS >Erichsen S</bp:AUTHORS>
+      <bp:AUTHORS >Schiergens TS</bp:AUTHORS>
+      <bp:AUTHORS >Herrler G</bp:AUTHORS>
+      <bp:AUTHORS >Wu NH</bp:AUTHORS>
+      <bp:AUTHORS >Nitsche A</bp:AUTHORS>
+      <bp:AUTHORS >M&#252;ller MA</bp:AUTHORS>
+      <bp:AUTHORS >Drosten C</bp:AUTHORS>
+      <bp:AUTHORS >P&#246;hlmann S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a05">
+      <bp:ID >16382109</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Carbon monoxide: endogenous production, physiological functions, and pharmacological applications.</bp:TITLE>
+      <bp:SOURCE >Pharmacol Rev</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Wu L</bp:AUTHORS>
+      <bp:AUTHORS >Wang R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef1">
+      <bp:ID >29737559</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of Nrf2 transcription factor in viral infection.</bp:TITLE>
+      <bp:SOURCE >J Cell Biochem</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Ramezani A</bp:AUTHORS>
+      <bp:AUTHORS >Nahad MP</bp:AUTHORS>
+      <bp:AUTHORS >Faghihloo E</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

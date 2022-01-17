@@ -1,0 +1,3361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Mitochondrial complex I assembly model OXPHOS system" Version="20180725" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway shows how all 45 different subunits are assembled into complex 1 (relevant for the electron transport chain, also known as OXPHOS system), which chaperones(visualised with a small circle and a "C') and which post-translational modifications (a dimethylation on NDUFS2 and hydroxylation on NDUFS7, both in the Q-module) are needed for this assembly.
+Most of the steps involved in this intricate process have been described in separate literature references, which have been combined in a review by Alba Signes and Erika Fernandez-Vizarra[https://doi.org/10.1042/EBC20170098]. If possible (based on the size of the protein in KD and available protein structures in Uniprot), the colour of the protein structure drawings have been matched to the annotated protein DataNodes.
+Abbreviations: IM, inner membrane; IMS, intermembrane space.</Comment>
+  <BiopaxRef>df5</BiopaxRef>
+  <Graphics BoardWidth="3157.1421800220646" BoardHeight="2119.6541970157723"/>
+  <DataNode TextLabel="MT-ND5" GraphId="f9434" Type="Protein" GroupRef="fdd12">
+    <Comment>67 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB2" GraphId="e9941" Type="Protein" GroupRef="fdd12">
+    <Comment>12 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB3" GraphId="e23ff" Type="Protein" GroupRef="fdd12">
+    <Comment>~12 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB7" GraphId="d9fc2" Type="Protein" GroupRef="fdd12">
+    <Comment>16.4 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB8" GraphId="e70c7" Type="Protein" GroupRef="fdd12">
+    <Comment>22 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB9" GraphId="f3e37" Type="Protein" GroupRef="fdd12">
+    <Comment>22 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFAB1" GraphId="b45e7" Type="Protein" GroupRef="fdd12">
+    <Comment>~16 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="DMAC1" GraphId="de0b6" Type="Protein" GroupRef="fdd12">
+    <Comment>DMAC1/TMEM261 is implicated in the stabilization and/or assembly of the ND5-module</Comment>
+    <Comment>11,8 KD</Comment>
+    <BiopaxRef>d45</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NDUFAF2" GraphId="e37a9" Type="Protein" GroupRef="fdd12">
+    <Comment>Stabilising intermediated only lacking the N-module</Comment>
+    <BiopaxRef>f32</BiopaxRef>
+    <BiopaxRef>cb9</BiopaxRef>
+    <BiopaxRef>d45</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NDUFS3" GraphId="ddc0e" Type="Protein" GroupRef="ffc0e">
+    <Comment>30.2 KDa (protein atlas)</Comment>
+    <Graphics FillColor="ff00ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFB5" GraphId="a245a" Type="Protein" GroupRef="a942f">
+        </DataNode>
+  <DataNode TextLabel="TIMMDC1" GraphId="a2a3b" Type="Protein">
+    <Comment>aka C3ORF1</Comment>
+    <Comment>Chaperone</Comment>
+    <Comment>remains bound to the Q/ND1 subassembly until the last maturation steps.</Comment>
+    <BiopaxRef>fe2</BiopaxRef>
+    <BiopaxRef>c23</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Electron Transport &#10;Chain PW" GraphId="a4622" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND4" GraphId="a668b" Type="Protein" GroupRef="b982d">
+    <Comment>52 Kda</Comment>
+    <Graphics FillColor="660066" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF3" GraphId="b5443" Type="Protein" GroupRef="e4e37">
+    <Comment>Chaperone</Comment>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="DMAC1" GraphId="bb66c" Type="Protein">
+    <Comment>DMAC1/TMEM261 is implicated in the stabilization and/or assembly of the ND5-module</Comment>
+    <Comment>11,8 KD</Comment>
+    <BiopaxRef>d45</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="FOXRED1" GraphId="c06fd" Type="Protein" GroupRef="cc95b">
+    <BiopaxRef>dbe</BiopaxRef>
+    <BiopaxRef>d51</BiopaxRef>
+    <BiopaxRef>da8</BiopaxRef>
+    <BiopaxRef>b41</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="[4Fe-4A]&#10;clusters" GraphId="c3546" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFV1" GraphId="c37f8" Type="Protein" GroupRef="b36b9">
+    <Graphics FillColor="e6e0e0"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA5" GraphId="cbdd4" Type="Protein" GroupRef="ffc0e">
+    <Comment>13.5 KD</Comment>
+    <Graphics FillColor="ffccff"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND1" GraphId="d7ab5" Type="Protein">
+    <Graphics FillColor="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF2" GraphId="db26e" Type="Protein">
+    <Comment>Stabilising intermediated only lacking the N-module</Comment>
+    <BiopaxRef>f32</BiopaxRef>
+    <BiopaxRef>cb9</BiopaxRef>
+    <BiopaxRef>d45</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NDUFA1" GraphId="dcc3e" Type="Protein" GroupRef="d1243">
+    <Comment>8.1 KD</Comment>
+    <Graphics FillColor="a4357c"/>
+    </DataNode>
+  <DataNode TextLabel="COA1" GraphId="e6a7b" Type="Protein" GroupRef="b3618">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>f38</BiopaxRef>
+    <BiopaxRef>e00</BiopaxRef>
+    <BiopaxRef>ca9</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MT-ND3" GraphId="e7f43" Type="Protein">
+    <Graphics FillColor="99ff33"/>
+    </DataNode>
+  <DataNode TextLabel="TMEM126B" GraphId="e8d70" Type="Protein">
+    <Comment>Not in Figure at first step, but written down in text!</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFS1" GraphId="eddc7" Type="Protein" GroupRef="fe8d1">
+    <Graphics FillColor="9999ff"/>
+    </DataNode>
+  <DataNode TextLabel="TMEM186" GraphId="f1c4f" Type="Protein" GroupRef="ee92c">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>f38</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NDUFA6" GraphId="f21d8" Type="Protein" GroupRef="c0cbe">
+        </DataNode>
+  <DataNode TextLabel="NDUFA3" GraphId="f3e72" Type="Protein" GroupRef="c119e">
+    <Comment>9.3 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="MT-ND5" GraphId="f6931" Type="Protein" GroupRef="b3b99">
+    <Comment>67 KD</Comment>
+    <Graphics FillColor="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFV2" GraphId="c8531" Type="Protein" GroupRef="b36b9">
+    <Graphics FillColor="ffcccc"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA2" GraphId="aa083" Type="Protein" GroupRef="fe8d1">
+    <Graphics FillColor="c2b5b5"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFV1" GraphId="c2f89" Type="Protein" GroupRef="d87ed">
+    <Graphics FillColor="cccccc"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFV2" GraphId="bbcc3" Type="Protein" GroupRef="d87ed">
+    <Graphics FillColor="ffcccc"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS1" GraphId="dc5e3" Type="Protein" GroupRef="d87ed">
+    <Graphics FillColor="9999ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA2" GraphId="b7ee6" Type="Protein" GroupRef="d87ed">
+    <Graphics FillColor="c2b5b5"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA7" GraphId="a407d" Type="Protein" GroupRef="c0cbe">
+        </DataNode>
+  <DataNode TextLabel="NDUFA12" GraphId="e8df3" Type="Protein" GroupRef="c0cbe">
+        </DataNode>
+  <DataNode TextLabel="NDUFS4" GraphId="d9110" Type="Protein" GroupRef="c0cbe">
+        </DataNode>
+  <DataNode TextLabel="NDUFS6" GraphId="bb5e5" Type="Protein" GroupRef="c0cbe">
+        </DataNode>
+  <DataNode TextLabel="NDUFV3" GraphId="d1502" Type="Protein" GroupRef="c0cbe">
+        </DataNode>
+  <DataNode TextLabel="NDUFB10" GraphId="a1b50" Type="Protein" GroupRef="a942f">
+        </DataNode>
+  <DataNode TextLabel="NDUFB11" GraphId="a90ed" Type="Protein" GroupRef="a942f">
+        </DataNode>
+  <DataNode TextLabel="NDUFB6" GraphId="a08dc" Type="Protein">
+    <Graphics FillColor="4b3a41" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFB5" GraphId="effde" Type="Protein" GroupRef="aaa4b">
+        </DataNode>
+  <DataNode TextLabel="NDUFB10" GraphId="e0b96" Type="Protein" GroupRef="aaa4b">
+        </DataNode>
+  <DataNode TextLabel="NDUFB11" GraphId="b76a6" Type="Protein" GroupRef="aaa4b">
+        </DataNode>
+  <DataNode TextLabel="NDUFB6" GraphId="e4a7b" Type="Protein" GroupRef="aaa4b">
+    <Graphics FillColor="4b3a41" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFB1" GraphId="b1765" Type="Protein" GroupRef="b982d">
+    <Comment>7 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB4" GraphId="cee1d" Type="Protein" GroupRef="b982d">
+    <Comment>15 Kd</Comment>
+    <Comment>Not believed to be involved in catalysis</Comment>
+    <Graphics FillColor="000066" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFB5" GraphId="dc3ef" Type="Protein" GroupRef="e48cf">
+        </DataNode>
+  <DataNode TextLabel="NDUFB10" GraphId="fbb9a" Type="Protein" GroupRef="e48cf">
+        </DataNode>
+  <DataNode TextLabel="NDUFB11" GraphId="a568f" Type="Protein" GroupRef="e48cf">
+        </DataNode>
+  <DataNode TextLabel="NDUFB6" GraphId="dc77e" Type="Protein" GroupRef="e48cf">
+    <Graphics FillColor="4b3a41" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND4" GraphId="f3302" Type="Protein" GroupRef="e48cf">
+    <Comment>52 Kda</Comment>
+    <Graphics FillColor="660066" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFB1" GraphId="e0174" Type="Protein" GroupRef="e48cf">
+    <Comment>7 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB4" GraphId="bb2bc" Type="Protein" GroupRef="e48cf">
+    <Comment>15 Kd</Comment>
+    <Comment>Not believed to be involved in catalysis</Comment>
+    <Graphics FillColor="000066" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="ATP5SL" GraphId="e9986" Type="Protein" GroupRef="cc95b">
+    <BiopaxRef>d45</BiopaxRef>
+    <BiopaxRef>fe2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TMEM70" GraphId="a5ddb" Type="Protein" GroupRef="cc95b">
+    <Comment>aka cV assembly factor</Comment>
+    <BiopaxRef>e31</BiopaxRef>
+    <BiopaxRef>da8</BiopaxRef>
+    <BiopaxRef>f38</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MTND2" GraphId="c2d1d" Type="Protein" GroupRef="b3618">
+        </DataNode>
+  <DataNode TextLabel="NDUFC1" GraphId="d9e9d" Type="Protein" GroupRef="b3618">
+        </DataNode>
+  <DataNode TextLabel="NDUFC2" GraphId="d0e74" Type="Protein" GroupRef="b3618">
+        </DataNode>
+  <DataNode TextLabel="NDUFAF1" GraphId="d5f0e" Type="Protein" GroupRef="b3618">
+    <Comment>aka CIA30</Comment>
+    <BiopaxRef>e59</BiopaxRef>
+    <BiopaxRef>efe</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ECSIT" GraphId="bd2a3" Type="Protein" GroupRef="b3618">
+    <BiopaxRef>ffd</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ACAD9" GraphId="b639b" Type="Protein" GroupRef="b3618">
+    <BiopaxRef>aeb</BiopaxRef>
+    <BiopaxRef>c6c</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MT-ND3" GraphId="a4440" Type="Protein" GroupRef="ddb6d">
+    <Graphics FillColor="99ff33"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND6" GraphId="a42f6" Type="Protein" GroupRef="c61c5">
+    <Comment>18 KD</Comment>
+    <Graphics FillColor="009999"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND4L" GraphId="e26e9" Type="Protein" GroupRef="c61c5">
+    <Comment>11 KD</Comment>
+    <Graphics FillColor="c91c97"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND6" GraphId="d3bd7" Type="Protein" GroupRef="ee92c">
+    <Comment>18 KD</Comment>
+    <Graphics FillColor="009999"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND4L" GraphId="c17c9" Type="Protein" GroupRef="ee92c">
+    <Comment>11 KD</Comment>
+    <Graphics FillColor="c91c97"/>
+    </DataNode>
+  <DataNode TextLabel="MTND2" GraphId="dfd54" Type="Protein" GroupRef="ddb6d">
+        </DataNode>
+  <DataNode TextLabel="NDUFC1" GraphId="e34a2" Type="Protein" GroupRef="ddb6d">
+        </DataNode>
+  <DataNode TextLabel="NDUFC2" GraphId="d6bfd" Type="Protein" GroupRef="ddb6d">
+        </DataNode>
+  <DataNode TextLabel="NDUFAF1" GraphId="b357a" Type="Protein" GroupRef="ddb6d">
+        </DataNode>
+  <DataNode TextLabel="ECSIT" GraphId="fdffe" Type="Protein" GroupRef="ddb6d">
+        </DataNode>
+  <DataNode TextLabel="ACAD9" GraphId="eee24" Type="Protein" GroupRef="ddb6d">
+        </DataNode>
+  <DataNode TextLabel="MT-ND3" GraphId="d116c" Type="Protein" GroupRef="ee92c">
+    <Graphics FillColor="99ff33"/>
+    </DataNode>
+  <DataNode TextLabel="MTND2" GraphId="daf0a" Type="Protein" GroupRef="ee92c">
+        </DataNode>
+  <DataNode TextLabel="NDUFC1" GraphId="e37be" Type="Protein" GroupRef="ee92c">
+        </DataNode>
+  <DataNode TextLabel="NDUFC2" GraphId="e7a58" Type="Protein" GroupRef="ee92c">
+        </DataNode>
+  <DataNode TextLabel="NDUFAF1" GraphId="d7ef1" Type="Protein" GroupRef="ee92c">
+        </DataNode>
+  <DataNode TextLabel="ECSIT" GraphId="f71bd" Type="Protein" GroupRef="ee92c">
+        </DataNode>
+  <DataNode TextLabel="ACAD9" GraphId="e1e6e" Type="Protein" GroupRef="ee92c">
+        </DataNode>
+  <DataNode TextLabel="COA1" GraphId="a01f1" Type="Protein" GroupRef="ddb6d">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>f38</BiopaxRef>
+    <BiopaxRef>e00</BiopaxRef>
+    <BiopaxRef>ca9</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="COA1" GraphId="dbea1" Type="Protein" GroupRef="ee92c">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>ca9</BiopaxRef>
+    <BiopaxRef>e00</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TMEM186" GraphId="bd658" Type="Protein" GroupRef="c4f39">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>f38</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="COA1" GraphId="b728e" Type="Protein" GroupRef="c4f39">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>e00</BiopaxRef>
+    <BiopaxRef>ca9</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NDUFA10" GraphId="e0456" Type="Protein" GroupRef="d1243">
+    <Comment>41KD</Comment>
+    <Graphics FillColor="0066ff" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS5" GraphId="f184c" Type="Protein" GroupRef="d1243">
+    <Comment>15KD</Comment>
+    <Graphics FillColor="33ff99"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND6" GraphId="f6bb7" Type="Protein" GroupRef="c4f39">
+    <Comment>18 KD</Comment>
+    <Graphics FillColor="009999"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND4L" GraphId="a95d3" Type="Protein" GroupRef="c4f39">
+    <Comment>11 KD</Comment>
+    <Graphics FillColor="c91c97"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND3" GraphId="e7144" Type="Protein" GroupRef="c4f39">
+    <Graphics FillColor="99ff33"/>
+    </DataNode>
+  <DataNode TextLabel="MTND2" GraphId="ca118" Type="Protein" GroupRef="c4f39">
+        </DataNode>
+  <DataNode TextLabel="NDUFC1" GraphId="b1a4a" Type="Protein" GroupRef="c4f39">
+        </DataNode>
+  <DataNode TextLabel="NDUFC2" GraphId="c1c40" Type="Protein" GroupRef="c4f39">
+        </DataNode>
+  <DataNode TextLabel="NDUFAF1" GraphId="cdb10" Type="Protein" GroupRef="c4f39">
+        </DataNode>
+  <DataNode TextLabel="ECSIT" GraphId="ac567" Type="Protein" GroupRef="c4f39">
+        </DataNode>
+  <DataNode TextLabel="ACAD9" GraphId="c796a" Type="Protein" GroupRef="c4f39">
+        </DataNode>
+  <DataNode TextLabel="NDUFA1" GraphId="ab843" Type="Protein" GroupRef="c4f39">
+    <Comment>8.1 KD</Comment>
+    <Graphics FillColor="a4357c"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA10" GraphId="d824d" Type="Protein" GroupRef="c4f39">
+    <Comment>41KD</Comment>
+    <Graphics FillColor="0066ff" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS5" GraphId="c4940" Type="Protein" GroupRef="c4f39">
+    <Comment>15KD</Comment>
+    <Graphics FillColor="33ff99"/>
+    </DataNode>
+  <DataNode TextLabel="TMEM186" GraphId="f1977" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="COA1" GraphId="c7904" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="TMEM126B" GraphId="de0b9" Type="Protein" GroupRef="a1943">
+    <Comment>Not in Figure at first step, but written down in text!</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFAF1" GraphId="aa56d" Type="Protein" GroupRef="a1943">
+    <Comment>aka CIA30</Comment>
+    <BiopaxRef>e59</BiopaxRef>
+    <BiopaxRef>efe</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ECSIT" GraphId="cbbfe" Type="Protein" GroupRef="a1943">
+    <BiopaxRef>ffd</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ACAD9" GraphId="f9452" Type="Protein" GroupRef="a1943">
+    <BiopaxRef>aeb</BiopaxRef>
+    <BiopaxRef>c6c</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NDUFAF6" GraphId="e2570" Type="Protein">
+    <Comment>38.2 kDa</Comment>
+    <Comment>seems to participate in the assembly of the Q-module</Comment>
+    <Comment>necessary to maintain normal MT-ND1 synthesis</Comment>
+    <BiopaxRef>fad</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="NUBPL" GraphId="db07d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="NDUFS2" GraphId="eef51" Type="Protein">
+    <Comment>49 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFAF7" GraphId="f15de" Type="Protein">
+    <Comment>49.2 kD (proteinatlas)</Comment>
+        </DataNode>
+  <DataNode TextLabel="[4Fe-4A]&#10;clusters" GraphId="ec99a" Type="Metabolite" GroupRef="afbac">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NUBPL" GraphId="f8c89" Type="Protein" GroupRef="afbac">
+        </DataNode>
+  <DataNode TextLabel="[4Fe-4A]&#10;clusters" GraphId="c0788" Type="Metabolite" GroupRef="fe8d1">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS2" GraphId="f8861" Type="Protein" GroupRef="ffc0e">
+    <Comment>49 KD</Comment>
+    <Graphics FillColor="ffff66"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS8" GraphId="d25f5" Type="Protein" GroupRef="e447b">
+    <Comment>23,7 KD</Comment>
+    <Comment>The encoded protein(TYKY) contains two [4Fe-4S] ferredoxin consensus patterns [PMID: 9837812]</Comment>
+    <BiopaxRef>b2c</BiopaxRef>
+    <Graphics FillColor="66ff99"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF5" GraphId="c8b5b" Type="Protein">
+    <Comment/>
+        </DataNode>
+  <DataNode TextLabel="NDUFS7" GraphId="fe868" Type="Protein" GroupRef="e447b">
+    <Comment>20 kD</Comment>
+    <Graphics FillColor="66ffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS7" GraphId="a7dd8" Type="Protein">
+    <Comment/>
+        </DataNode>
+  <DataNode TextLabel="NDUFAF4" GraphId="a0362" Type="Protein" GroupRef="e4e37">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>e14</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="[4Fe-4A]&#10;clusters" GraphId="ed50e" Type="Metabolite" GroupRef="efc5c">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS3" GraphId="b23e8" Type="Protein" GroupRef="efc5c">
+    <Comment>30.2 KDa (protein atlas)</Comment>
+    <Graphics FillColor="ff00ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA5" GraphId="cd80a" Type="Protein" GroupRef="efc5c">
+    <Comment>13.5 KD</Comment>
+    <Graphics FillColor="ffccff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS2" GraphId="f6306" Type="Protein" GroupRef="efc5c">
+    <Comment>49 KD</Comment>
+    <Graphics FillColor="ffff66"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS8" GraphId="dfacb" Type="Protein" GroupRef="efc5c">
+    <Comment>23,7 KD</Comment>
+    <Comment>The encoded protein(TYKY) contains two [4Fe-4S] ferredoxin consensus patterns [PMID: 9837812]</Comment>
+    <BiopaxRef>b2c</BiopaxRef>
+    <Graphics FillColor="66ff99"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS7" GraphId="be099" Type="Protein" GroupRef="efc5c">
+    <Comment>20 kD</Comment>
+    <Graphics FillColor="66ffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF6" GraphId="a763a" Type="Protein" GroupRef="efc5c">
+    <Comment>38.2 kDa</Comment>
+    <Comment>seems to participate in the assembly of the Q-module</Comment>
+    <Comment>necessary to maintain normal MT-ND1 synthesis</Comment>
+    <BiopaxRef>fad</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF3" GraphId="e39d6" Type="Protein" GroupRef="efc5c">
+    <Comment>Chaperone</Comment>
+    <Comment>Remain bound to this module until the final assembly steps</Comment>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF4" GraphId="a7137" Type="Protein" GroupRef="efc5c">
+    <Comment>Chaperone</Comment>
+    <Comment>Remain bound to this module until the final assembly steps</Comment>
+    <BiopaxRef>e14</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA8" GraphId="f53eb" Type="Protein" GroupRef="c119e">
+    <Comment>20 kD</Comment>
+    <Graphics FillColor="ffffcc"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA13" GraphId="b93e8" Type="Protein" GroupRef="c119e">
+    <Comment>17 kD</Comment>
+    <Graphics FillColor="3366ff" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="[4Fe-4A]&#10;clusters" GraphId="b2e62" Type="Metabolite" GroupRef="eb729">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS3" GraphId="e97f7" Type="Protein" GroupRef="eb729">
+    <Comment>30.2 KDa (protein atlas)</Comment>
+    <Graphics FillColor="ff00ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA5" GraphId="c7ac8" Type="Protein" GroupRef="eb729">
+    <Comment>13.5 KD</Comment>
+    <Graphics FillColor="ffccff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS2" GraphId="f4be1" Type="Protein" GroupRef="eb729">
+    <Comment>49 KD</Comment>
+    <Graphics FillColor="ffff66"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS8" GraphId="da52e" Type="Protein" GroupRef="eb729">
+    <Comment>23,7 KD</Comment>
+    <Comment>The encoded protein(TYKY) contains two [4Fe-4S] ferredoxin consensus patterns [PMID: 9837812]</Comment>
+    <BiopaxRef>b2c</BiopaxRef>
+    <Graphics FillColor="66ff99"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS7" GraphId="ba58a" Type="Protein" GroupRef="eb729">
+    <Comment>20 kD</Comment>
+    <Graphics FillColor="66ffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF6" GraphId="dd02a" Type="Protein" GroupRef="eb729">
+    <Comment>38.2 kDa</Comment>
+    <Comment>seems to participate in the assembly of the Q-module</Comment>
+    <Comment>necessary to maintain normal MT-ND1 synthesis</Comment>
+    <BiopaxRef>fad</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF3" GraphId="be4fc" Type="Protein" GroupRef="eb729">
+    <Comment>Chaperone</Comment>
+    <Comment>Remain bound to this module until the final assembly steps</Comment>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF4" GraphId="c31d0" Type="Protein" GroupRef="eb729">
+    <Comment>Chaperone</Comment>
+    <Comment>Remain bound to this module until the final assembly steps</Comment>
+    <BiopaxRef>e14</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND1" GraphId="ff5ee" Type="Protein" GroupRef="eb729">
+    <Graphics FillColor="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="TIMMDC1" GraphId="ad6f3" Type="Protein" GroupRef="eb729">
+    <Comment>aka C3ORF1</Comment>
+    <Comment>Chaperone</Comment>
+    <Comment>remains bound to the Q/ND1 subassembly until the last maturation steps.</Comment>
+    <BiopaxRef>fe2</BiopaxRef>
+    <BiopaxRef>c23</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="[4Fe-4A]&#10;clusters" GraphId="fc5cb" Type="Metabolite" GroupRef="bcf7e">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS3" GraphId="e4504" Type="Protein" GroupRef="bcf7e">
+    <Comment>30.2 KDa (protein atlas)</Comment>
+    <Graphics FillColor="ff00ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA5" GraphId="c58ea" Type="Protein" GroupRef="bcf7e">
+    <Comment>13.5 KD</Comment>
+    <Graphics FillColor="ffccff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS2" GraphId="b854c" Type="Protein" GroupRef="bcf7e">
+    <Comment>49 KD</Comment>
+    <Graphics FillColor="ffff66"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS8" GraphId="cfb1e" Type="Protein" GroupRef="bcf7e">
+    <Comment>23,7 KD</Comment>
+    <Comment>The encoded protein(TYKY) contains two [4Fe-4S] ferredoxin consensus patterns [PMID: 9837812]</Comment>
+    <BiopaxRef>b2c</BiopaxRef>
+    <Graphics FillColor="66ff99"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS7" GraphId="f6efa" Type="Protein" GroupRef="bcf7e">
+    <Comment>20 kD</Comment>
+    <Graphics FillColor="66ffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF6" GraphId="d6c28" Type="Protein" GroupRef="bcf7e">
+    <Comment>38.2 kDa</Comment>
+    <Comment>seems to participate in the assembly of the Q-module</Comment>
+    <Comment>necessary to maintain normal MT-ND1 synthesis</Comment>
+    <BiopaxRef>fad</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF3" GraphId="e0943" Type="Protein" GroupRef="bcf7e">
+    <Comment>Chaperone</Comment>
+    <Comment>Remain bound to this module until the final assembly steps</Comment>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF4" GraphId="e5f15" Type="Protein" GroupRef="bcf7e">
+    <Comment>Chaperone</Comment>
+    <Comment>Remain bound to this module until the final assembly steps</Comment>
+    <BiopaxRef>e14</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND1" GraphId="fef38" Type="Protein" GroupRef="bcf7e">
+    <Graphics FillColor="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="TIMMDC1" GraphId="f2965" Type="Protein" GroupRef="bcf7e">
+    <Comment>aka C3ORF1</Comment>
+    <Comment>Chaperone</Comment>
+    <Comment>remains bound to the Q/ND1 subassembly until the last maturation steps.</Comment>
+    <BiopaxRef>fe2</BiopaxRef>
+    <BiopaxRef>c23</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NDUFA3" GraphId="bc2cc" Type="Protein" GroupRef="bcf7e">
+    <Comment>9.3 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFA8" GraphId="b2fab" Type="Protein" GroupRef="bcf7e">
+    <Comment>20 kD</Comment>
+    <Graphics FillColor="ffffcc"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA13" GraphId="abb14" Type="Protein" GroupRef="bcf7e">
+    <Comment>17 kD</Comment>
+    <Graphics FillColor="3366ff" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFB2" GraphId="bcd36" Type="Protein" GroupRef="b3b99">
+    <Comment>12 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB3" GraphId="c10b7" Type="Protein" GroupRef="b3b99">
+    <Comment>~12 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB7" GraphId="f09f9" Type="Protein" GroupRef="b3b99">
+    <Comment>16.4 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB8" GraphId="ea571" Type="Protein" GroupRef="b3b99">
+    <Comment>22 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB9" GraphId="fb02b" Type="Protein" GroupRef="b3b99">
+    <Comment>22 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFAB1" GraphId="efa09" Type="Protein" GroupRef="b3b99">
+    <Comment>~16 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="MT-ND5" GraphId="c8187" Type="Protein" GroupRef="b47be">
+    <Comment>67 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB2" GraphId="e3a39" Type="Protein" GroupRef="b47be">
+    <Comment>12 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB3" GraphId="d20ac" Type="Protein" GroupRef="b47be">
+    <Comment>~12 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB7" GraphId="b8bc7" Type="Protein" GroupRef="b47be">
+    <Comment>16.4 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB8" GraphId="ee377" Type="Protein" GroupRef="b47be">
+    <Comment>22 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB9" GraphId="ee3d2" Type="Protein" GroupRef="b47be">
+    <Comment>22 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFAB1" GraphId="a752e" Type="Protein" GroupRef="b47be">
+    <Comment>~16 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="DMAC1" GraphId="da157" Type="Protein" GroupRef="b47be">
+    <Comment>DMAC1/TMEM261 is implicated in the stabilization and/or assembly of the ND5-module</Comment>
+    <Comment>11,8 KD</Comment>
+    <BiopaxRef>d45</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MT-ND6" GraphId="b2b2e" Type="Protein" GroupRef="ccf83">
+    <Comment>18 KD</Comment>
+    <Graphics FillColor="009999"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND4L" GraphId="b1390" Type="Protein" GroupRef="ccf83">
+    <Comment>11 KD</Comment>
+    <Graphics FillColor="c91c97"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND3" GraphId="fa6a4" Type="Protein" GroupRef="ccf83">
+    <Graphics FillColor="99ff33"/>
+    </DataNode>
+  <DataNode TextLabel="MTND2" GraphId="fe76f" Type="Protein" GroupRef="ccf83">
+        </DataNode>
+  <DataNode TextLabel="NDUFC1" GraphId="be905" Type="Protein" GroupRef="ccf83">
+        </DataNode>
+  <DataNode TextLabel="NDUFC2" GraphId="b8f87" Type="Protein" GroupRef="ccf83">
+        </DataNode>
+  <DataNode TextLabel="NDUFAF1" GraphId="d0635" Type="Protein" GroupRef="ccf83">
+        </DataNode>
+  <DataNode TextLabel="ECSIT" GraphId="d19e0" Type="Protein" GroupRef="ccf83">
+        </DataNode>
+  <DataNode TextLabel="ACAD9" GraphId="bc94b" Type="Protein" GroupRef="ccf83">
+        </DataNode>
+  <DataNode TextLabel="NDUFA1" GraphId="dadc3" Type="Protein" GroupRef="ccf83">
+    <Comment>8.1 KD</Comment>
+    <Graphics FillColor="a4357c"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA10" GraphId="ded0b" Type="Protein" GroupRef="ccf83">
+    <Comment>41KD</Comment>
+    <Graphics FillColor="0066ff" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS5" GraphId="b38c2" Type="Protein" GroupRef="ccf83">
+    <Comment>15KD</Comment>
+    <Graphics FillColor="33ff99"/>
+    </DataNode>
+  <DataNode TextLabel="COA1" GraphId="e3687" Type="Protein">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>f38</BiopaxRef>
+    <BiopaxRef>e00</BiopaxRef>
+    <BiopaxRef>ca9</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="COA1" GraphId="ddcb5" Type="Protein">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>f38</BiopaxRef>
+    <BiopaxRef>e00</BiopaxRef>
+    <BiopaxRef>ca9</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TMEM186" GraphId="d3a38" Type="Protein" GroupRef="b54be">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>f38</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="COA1" GraphId="b0905" Type="Protein" GroupRef="b54be">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>ca9</BiopaxRef>
+    <BiopaxRef>e00</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TMEM186" GraphId="f0ed2" Type="Protein" GroupRef="c7c87">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>f38</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="COA1" GraphId="f207a" Type="Protein" GroupRef="c7c87">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>e00</BiopaxRef>
+    <BiopaxRef>ca9</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="FOXRED1" GraphId="f07f5" Type="Protein" GroupRef="ccf83">
+    <BiopaxRef>dbe</BiopaxRef>
+    <BiopaxRef>d51</BiopaxRef>
+    <BiopaxRef>da8</BiopaxRef>
+    <BiopaxRef>b41</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ATP5SL" GraphId="fc6f0" Type="Protein" GroupRef="ccf83">
+    <BiopaxRef>d45</BiopaxRef>
+    <BiopaxRef>fe2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TMEM70" GraphId="e4f81" Type="Protein" GroupRef="ccf83">
+    <Comment>aka cV assembly factor</Comment>
+    <BiopaxRef>e31</BiopaxRef>
+    <BiopaxRef>da8</BiopaxRef>
+    <BiopaxRef>f38</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TMEM186" GraphId="e2284" Type="Protein" GroupRef="ccf83">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>f38</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="COA1" GraphId="f8209" Type="Protein" GroupRef="ccf83">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>e00</BiopaxRef>
+    <BiopaxRef>ca9</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MT-ND6" GraphId="fa978" Type="Protein" GroupRef="c6dcd">
+    <Comment>18 KD</Comment>
+    <Graphics FillColor="009999"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND4L" GraphId="be04f" Type="Protein" GroupRef="c6dcd">
+    <Comment>11 KD</Comment>
+    <Graphics FillColor="c91c97"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND3" GraphId="bb603" Type="Protein" GroupRef="c6dcd">
+    <Graphics FillColor="99ff33"/>
+    </DataNode>
+  <DataNode TextLabel="MTND2" GraphId="e4505" Type="Protein" GroupRef="c6dcd">
+        </DataNode>
+  <DataNode TextLabel="NDUFC1" GraphId="e9d5e" Type="Protein" GroupRef="c6dcd">
+        </DataNode>
+  <DataNode TextLabel="NDUFC2" GraphId="d7421" Type="Protein" GroupRef="c6dcd">
+        </DataNode>
+  <DataNode TextLabel="NDUFAF1" GraphId="fbccb" Type="Protein" GroupRef="c6dcd">
+        </DataNode>
+  <DataNode TextLabel="ECSIT" GraphId="da5ba" Type="Protein" GroupRef="c6dcd">
+        </DataNode>
+  <DataNode TextLabel="ACAD9" GraphId="d9032" Type="Protein" GroupRef="c6dcd">
+        </DataNode>
+  <DataNode TextLabel="NDUFA1" GraphId="c54cc" Type="Protein" GroupRef="c6dcd">
+    <Comment>8.1 KD</Comment>
+    <Graphics FillColor="a4357c"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA10" GraphId="a0d10" Type="Protein" GroupRef="c6dcd">
+    <Comment>41KD</Comment>
+    <Graphics FillColor="0066ff" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS5" GraphId="ceca2" Type="Protein" GroupRef="c6dcd">
+    <Comment>15KD</Comment>
+    <Graphics FillColor="33ff99"/>
+    </DataNode>
+  <DataNode TextLabel="FOXRED1" GraphId="c1756" Type="Protein" GroupRef="c6dcd">
+    <BiopaxRef>dbe</BiopaxRef>
+    <BiopaxRef>d51</BiopaxRef>
+    <BiopaxRef>da8</BiopaxRef>
+    <BiopaxRef>b41</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ATP5SL" GraphId="b7036" Type="Protein" GroupRef="c6dcd">
+    <BiopaxRef>d45</BiopaxRef>
+    <BiopaxRef>fe2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TMEM70" GraphId="b0e7b" Type="Protein" GroupRef="c6dcd">
+    <Comment>aka cV assembly factor</Comment>
+    <BiopaxRef>e31</BiopaxRef>
+    <BiopaxRef>da8</BiopaxRef>
+    <BiopaxRef>f38</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TMEM186" GraphId="bb985" Type="Protein" GroupRef="c6dcd">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>f38</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="COA1" GraphId="c1823" Type="Protein" GroupRef="c6dcd">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>e00</BiopaxRef>
+    <BiopaxRef>ca9</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="[4Fe-4A]&#10;clusters" GraphId="d28d6" Type="Metabolite" GroupRef="c6dcd">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS3" GraphId="b0313" Type="Protein" GroupRef="c6dcd">
+    <Comment>30.2 KDa (protein atlas)</Comment>
+    <Graphics FillColor="ff00ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA5" GraphId="b5700" Type="Protein" GroupRef="c6dcd">
+    <Comment>13.5 KD</Comment>
+    <Graphics FillColor="ffccff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS2" GraphId="e9a9f" Type="Protein" GroupRef="c6dcd">
+    <Comment>49 KD</Comment>
+    <Graphics FillColor="ffff66"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS8" GraphId="f1ae0" Type="Protein" GroupRef="c6dcd">
+    <Comment>23,7 KD</Comment>
+    <Comment>The encoded protein(TYKY) contains two [4Fe-4S] ferredoxin consensus patterns [PMID: 9837812]</Comment>
+    <BiopaxRef>b2c</BiopaxRef>
+    <Graphics FillColor="66ff99"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS7" GraphId="d9ba7" Type="Protein" GroupRef="c6dcd">
+    <Comment>20 kD</Comment>
+    <Graphics FillColor="66ffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF6" GraphId="baa59" Type="Protein" GroupRef="c6dcd">
+    <Comment>38.2 kDa</Comment>
+    <Comment>seems to participate in the assembly of the Q-module</Comment>
+    <Comment>necessary to maintain normal MT-ND1 synthesis</Comment>
+    <BiopaxRef>fad</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF3" GraphId="c49e2" Type="Protein" GroupRef="c6dcd">
+    <Comment>Chaperone</Comment>
+    <Comment>Remain bound to this module until the final assembly steps</Comment>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF4" GraphId="e0e16" Type="Protein" GroupRef="c6dcd">
+    <Comment>Chaperone</Comment>
+    <Comment>Remain bound to this module until the final assembly steps</Comment>
+    <BiopaxRef>e14</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND1" GraphId="a551e" Type="Protein" GroupRef="c6dcd">
+    <Graphics FillColor="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="TIMMDC1" GraphId="b8f2c" Type="Protein" GroupRef="c6dcd">
+    <Comment>aka C3ORF1</Comment>
+    <Comment>Chaperone</Comment>
+    <Comment>remains bound to the Q/ND1 subassembly until the last maturation steps.</Comment>
+    <BiopaxRef>fe2</BiopaxRef>
+    <BiopaxRef>c23</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NDUFA3" GraphId="f50fd" Type="Protein" GroupRef="c6dcd">
+    <Comment>9.3 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFA8" GraphId="cd033" Type="Protein" GroupRef="c6dcd">
+    <Comment>20 kD</Comment>
+    <Graphics FillColor="ffffcc"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA13" GraphId="d92d3" Type="Protein" GroupRef="c6dcd">
+    <Comment>17 kD</Comment>
+    <Graphics FillColor="3366ff" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND6" GraphId="b8e05" Type="Protein" GroupRef="fdd12">
+    <Comment>18 KD</Comment>
+    <Graphics FillColor="009999"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND4L" GraphId="eee45" Type="Protein" GroupRef="fdd12">
+    <Comment>11 KD</Comment>
+    <Graphics FillColor="c91c97"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND3" GraphId="be573" Type="Protein" GroupRef="fdd12">
+    <Graphics FillColor="99ff33"/>
+    </DataNode>
+  <DataNode TextLabel="MTND2" GraphId="c33e9" Type="Protein" GroupRef="fdd12">
+        </DataNode>
+  <DataNode TextLabel="NDUFC1" GraphId="bdbda" Type="Protein" GroupRef="fdd12">
+        </DataNode>
+  <DataNode TextLabel="NDUFC2" GraphId="ef469" Type="Protein" GroupRef="fdd12">
+        </DataNode>
+  <DataNode TextLabel="NDUFAF1" GraphId="bd422" Type="Protein" GroupRef="fdd12">
+        </DataNode>
+  <DataNode TextLabel="ECSIT" GraphId="eff0c" Type="Protein" GroupRef="fdd12">
+        </DataNode>
+  <DataNode TextLabel="ACAD9" GraphId="b7357" Type="Protein" GroupRef="fdd12">
+        </DataNode>
+  <DataNode TextLabel="NDUFA1" GraphId="ec91b" Type="Protein" GroupRef="fdd12">
+    <Comment>8.1 KD</Comment>
+    <Graphics FillColor="a4357c"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA10" GraphId="d4071" Type="Protein" GroupRef="fdd12">
+    <Comment>41KD</Comment>
+    <Graphics FillColor="0066ff" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS5" GraphId="b8082" Type="Protein" GroupRef="fdd12">
+    <Comment>15KD</Comment>
+    <Graphics FillColor="33ff99"/>
+    </DataNode>
+  <DataNode TextLabel="FOXRED1" GraphId="c9481" Type="Protein" GroupRef="fdd12">
+    <BiopaxRef>dbe</BiopaxRef>
+    <BiopaxRef>d51</BiopaxRef>
+    <BiopaxRef>da8</BiopaxRef>
+    <BiopaxRef>b41</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ATP5SL" GraphId="fbf8e" Type="Protein" GroupRef="fdd12">
+    <BiopaxRef>d45</BiopaxRef>
+    <BiopaxRef>fe2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TMEM70" GraphId="ba819" Type="Protein" GroupRef="fdd12">
+    <Comment>aka cV assembly factor</Comment>
+    <BiopaxRef>e31</BiopaxRef>
+    <BiopaxRef>da8</BiopaxRef>
+    <BiopaxRef>f38</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TMEM186" GraphId="e6c1b" Type="Protein" GroupRef="fdd12">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>f38</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="COA1" GraphId="e44e2" Type="Protein" GroupRef="fdd12">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>e00</BiopaxRef>
+    <BiopaxRef>ca9</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="[4Fe-4A]&#10;clusters" GraphId="e7e90" Type="Metabolite" GroupRef="fdd12">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS3" GraphId="db14e" Type="Protein" GroupRef="fdd12">
+    <Comment>30.2 KDa (protein atlas)</Comment>
+    <Graphics FillColor="ff00ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA5" GraphId="dfd08" Type="Protein" GroupRef="fdd12">
+    <Comment>13.5 KD</Comment>
+    <Graphics FillColor="ffccff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS2" GraphId="d5893" Type="Protein" GroupRef="fdd12">
+    <Comment>49 KD</Comment>
+    <Graphics FillColor="ffff66"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS8" GraphId="e4c40" Type="Protein" GroupRef="fdd12">
+    <Comment>23,7 KD</Comment>
+    <Comment>The encoded protein(TYKY) contains two [4Fe-4S] ferredoxin consensus patterns [PMID: 9837812]</Comment>
+    <BiopaxRef>b2c</BiopaxRef>
+    <Graphics FillColor="66ff99"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS7" GraphId="b3d28" Type="Protein" GroupRef="fdd12">
+    <Comment>20 kD</Comment>
+    <Graphics FillColor="66ffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF6" GraphId="be828" Type="Protein" GroupRef="fdd12">
+    <Comment>38.2 kDa</Comment>
+    <Comment>seems to participate in the assembly of the Q-module</Comment>
+    <Comment>necessary to maintain normal MT-ND1 synthesis</Comment>
+    <BiopaxRef>fad</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF3" GraphId="efbdb" Type="Protein" GroupRef="fdd12">
+    <Comment>Chaperone</Comment>
+    <Comment>Remain bound to this module until the final assembly steps</Comment>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF4" GraphId="cfec4" Type="Protein" GroupRef="fdd12">
+    <Comment>Chaperone</Comment>
+    <Comment>Remain bound to this module until the final assembly steps</Comment>
+    <BiopaxRef>e14</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND1" GraphId="cdaa2" Type="Protein" GroupRef="fdd12">
+    <Graphics FillColor="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="TIMMDC1" GraphId="e4e41" Type="Protein" GroupRef="fdd12">
+    <Comment>aka C3ORF1</Comment>
+    <Comment>Chaperone</Comment>
+    <Comment>remains bound to the Q/ND1 subassembly until the last maturation steps.</Comment>
+    <BiopaxRef>fe2</BiopaxRef>
+    <BiopaxRef>c23</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NDUFA3" GraphId="bf654" Type="Protein" GroupRef="fdd12">
+    <Comment>9.3 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFA8" GraphId="fb78c" Type="Protein" GroupRef="fdd12">
+    <Comment>20 kD</Comment>
+    <Graphics FillColor="ffffcc"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA13" GraphId="a1678" Type="Protein" GroupRef="fdd12">
+    <Comment>17 kD</Comment>
+    <Graphics FillColor="3366ff" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND5" GraphId="be155" Type="Protein" GroupRef="cb414">
+    <Comment>67 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB2" GraphId="eae7a" Type="Protein" GroupRef="cb414">
+    <Comment>12 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB3" GraphId="cd67f" Type="Protein" GroupRef="cb414">
+    <Comment>~12 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB7" GraphId="a0e8e" Type="Protein" GroupRef="cb414">
+    <Comment>16.4 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB8" GraphId="ecf29" Type="Protein" GroupRef="cb414">
+    <Comment>22 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFB9" GraphId="e7573" Type="Protein" GroupRef="cb414">
+    <Comment>22 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFAB1" GraphId="f2d0e" Type="Protein" GroupRef="cb414">
+    <Comment>~16 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="DMAC1" GraphId="b0be9" Type="Protein" GroupRef="cb414">
+    <Comment>DMAC1/TMEM261 is implicated in the stabilization and/or assembly of the ND5-module</Comment>
+    <Comment>11,8 KD</Comment>
+    <BiopaxRef>d45</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NDUFAF2" GraphId="ec22a" Type="Protein" GroupRef="cb414">
+    <Comment>Stabilising intermediated only lacking the N-module</Comment>
+    <BiopaxRef>f32</BiopaxRef>
+    <BiopaxRef>cb9</BiopaxRef>
+    <BiopaxRef>d45</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MT-ND6" GraphId="f9e93" Type="Protein" GroupRef="cb414">
+    <Comment>18 KD</Comment>
+    <Graphics FillColor="009999"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND4L" GraphId="cea3e" Type="Protein" GroupRef="cb414">
+    <Comment>11 KD</Comment>
+    <Graphics FillColor="c91c97"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND3" GraphId="c0f0f" Type="Protein" GroupRef="cb414">
+    <Graphics FillColor="99ff33"/>
+    </DataNode>
+  <DataNode TextLabel="MTND2" GraphId="baa34" Type="Protein" GroupRef="cb414">
+        </DataNode>
+  <DataNode TextLabel="NDUFC1" GraphId="fea68" Type="Protein" GroupRef="cb414">
+        </DataNode>
+  <DataNode TextLabel="NDUFC2" GraphId="ae331" Type="Protein" GroupRef="cb414">
+        </DataNode>
+  <DataNode TextLabel="NDUFAF1" GraphId="cda3a" Type="Protein" GroupRef="cb414">
+        </DataNode>
+  <DataNode TextLabel="ECSIT" GraphId="b2b70" Type="Protein" GroupRef="cb414">
+        </DataNode>
+  <DataNode TextLabel="ACAD9" GraphId="f7bff" Type="Protein" GroupRef="cb414">
+        </DataNode>
+  <DataNode TextLabel="NDUFA1" GraphId="d4232" Type="Protein" GroupRef="cb414">
+    <Comment>8.1 KD</Comment>
+    <Graphics FillColor="a4357c"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA10" GraphId="e24c2" Type="Protein" GroupRef="cb414">
+    <Comment>41KD</Comment>
+    <Graphics FillColor="0066ff" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS5" GraphId="d308b" Type="Protein" GroupRef="cb414">
+    <Comment>15KD</Comment>
+    <Graphics FillColor="33ff99"/>
+    </DataNode>
+  <DataNode TextLabel="FOXRED1" GraphId="a7050" Type="Protein" GroupRef="cb414">
+    <BiopaxRef>dbe</BiopaxRef>
+    <BiopaxRef>d51</BiopaxRef>
+    <BiopaxRef>da8</BiopaxRef>
+    <BiopaxRef>b41</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ATP5SL" GraphId="f9e0f" Type="Protein" GroupRef="cb414">
+    <BiopaxRef>d45</BiopaxRef>
+    <BiopaxRef>fe2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TMEM70" GraphId="de768" Type="Protein" GroupRef="cb414">
+    <Comment>aka cV assembly factor</Comment>
+    <BiopaxRef>e31</BiopaxRef>
+    <BiopaxRef>da8</BiopaxRef>
+    <BiopaxRef>f38</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TMEM186" GraphId="e8c17" Type="Protein" GroupRef="b1aab">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>f38</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="COA1" GraphId="ecf68" Type="Protein" GroupRef="b1aab">
+    <Comment>Chaperone</Comment>
+    <BiopaxRef>e00</BiopaxRef>
+    <BiopaxRef>ca9</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="[4Fe-4A]&#10;clusters" GraphId="e5b13" Type="Metabolite" GroupRef="cb414">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS3" GraphId="a995d" Type="Protein" GroupRef="cb414">
+    <Comment>30.2 KDa (protein atlas)</Comment>
+    <Graphics FillColor="ff00ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA5" GraphId="dc2af" Type="Protein" GroupRef="cb414">
+    <Comment>13.5 KD</Comment>
+    <Graphics FillColor="ffccff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS2" GraphId="bedf3" Type="Protein" GroupRef="cb414">
+    <Comment>49 KD</Comment>
+    <Graphics FillColor="ffff66"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS8" GraphId="ea847" Type="Protein" GroupRef="cb414">
+    <Comment>23,7 KD</Comment>
+    <Comment>The encoded protein(TYKY) contains two [4Fe-4S] ferredoxin consensus patterns [PMID: 9837812]</Comment>
+    <BiopaxRef>b2c</BiopaxRef>
+    <Graphics FillColor="66ff99"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS7" GraphId="d2c85" Type="Protein" GroupRef="cb414">
+    <Comment>20 kD</Comment>
+    <Graphics FillColor="66ffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF6" GraphId="ecc7c" Type="Protein" GroupRef="cb414">
+    <Comment>38.2 kDa</Comment>
+    <Comment>seems to participate in the assembly of the Q-module</Comment>
+    <Comment>necessary to maintain normal MT-ND1 synthesis</Comment>
+    <BiopaxRef>fad</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF3" GraphId="c5035" Type="Protein" GroupRef="b1aab">
+    <Comment>Chaperone</Comment>
+    <Comment>Remain bound to this module until the final assembly steps</Comment>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFAF4" GraphId="f5654" Type="Protein" GroupRef="b1aab">
+    <Comment>Chaperone</Comment>
+    <Comment>Remain bound to this module until the final assembly steps</Comment>
+    <BiopaxRef>e14</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="MT-ND1" GraphId="dc956" Type="Protein" GroupRef="cb414">
+    <Graphics FillColor="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="TIMMDC1" GraphId="dd26d" Type="Protein" GroupRef="b1aab">
+    <Comment>aka C3ORF1</Comment>
+    <Comment>Chaperone</Comment>
+    <Comment>remains bound to the Q/ND1 subassembly until the last maturation steps.</Comment>
+    <BiopaxRef>fe2</BiopaxRef>
+    <BiopaxRef>c23</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NDUFA3" GraphId="f4eb2" Type="Protein" GroupRef="cb414">
+    <Comment>9.3 KD</Comment>
+        </DataNode>
+  <DataNode TextLabel="NDUFA8" GraphId="a5cb2" Type="Protein" GroupRef="cb414">
+    <Comment>20 kD</Comment>
+    <Graphics FillColor="ffffcc"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA13" GraphId="c4ad6" Type="Protein" GroupRef="cb414">
+    <Comment>17 kD</Comment>
+    <Graphics FillColor="3366ff" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA6" GraphId="ada48" Type="Protein" GroupRef="cb414">
+        </DataNode>
+  <DataNode TextLabel="NDUFA7" GraphId="be215" Type="Protein" GroupRef="cb414">
+        </DataNode>
+  <DataNode TextLabel="NDUFA12" GraphId="ecc3e" Type="Protein" GroupRef="cb414">
+        </DataNode>
+  <DataNode TextLabel="NDUFS4" GraphId="bcafa" Type="Protein" GroupRef="cb414">
+        </DataNode>
+  <DataNode TextLabel="NDUFS6" GraphId="d8c60" Type="Protein" GroupRef="cb414">
+        </DataNode>
+  <DataNode TextLabel="NDUFV3" GraphId="c0acf" Type="Protein" GroupRef="cb414">
+        </DataNode>
+  <DataNode TextLabel="NDUFV1" GraphId="cc9e0" Type="Protein" GroupRef="cb414">
+    <Graphics FillColor="cccccc"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFV2" GraphId="a1b6a" Type="Protein" GroupRef="cb414">
+    <Graphics FillColor="ffcccc"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFS1" GraphId="dcc4b" Type="Protein" GroupRef="cb414">
+    <Graphics FillColor="9999ff"/>
+    </DataNode>
+  <DataNode TextLabel="NDUFA2" GraphId="b5335" Type="Protein" GroupRef="cb414">
+    <Graphics FillColor="c2b5b5"/>
+    </DataNode>
+  <DataNode TextLabel="TMEM126B" GraphId="d8b29" Type="Protein" GroupRef="ee92c">
+    <Comment>Not in Figure at first step, but written down in text!</Comment>
+        </DataNode>
+  <State GraphRef="a2a3b" TextLabel="C" GraphId="a8ebb">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e6a7b" TextLabel="C" GraphId="be865">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f1c4f" TextLabel="C" GraphId="c0712">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b5443" TextLabel="C" GraphId="c1b0a">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a01f1" TextLabel="C" GraphId="f98b9">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="dbea1" TextLabel="C" GraphId="e02ff">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="bd658" TextLabel="C" GraphId="bd818">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b728e" TextLabel="C" GraphId="ce7c6">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f8861" TextLabel="M" GraphId="a13e9">
+    <Comment>Methylated on Arg(85)</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f8861" TextLabel="M" GraphId="b7341">
+    <Comment>Methylated on Arg(85)</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="fe868" TextLabel="COOH" GraphId="ef686">
+    <Comment>hydroxyl group added to Arg(73) </Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a0362" TextLabel="C" GraphId="db03d">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e39d6" TextLabel="C" GraphId="c35a3">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a7137" TextLabel="C" GraphId="a6e23">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="be4fc" TextLabel="C" GraphId="f3747">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c31d0" TextLabel="C" GraphId="f821d">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ad6f3" TextLabel="C" GraphId="cf349">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e0943" TextLabel="C" GraphId="f16f3">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e5f15" TextLabel="C" GraphId="e09f3">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f2965" TextLabel="C" GraphId="b5608">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e2284" TextLabel="C" GraphId="f1de7">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f8209" TextLabel="C" GraphId="a5a88">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="bb985" TextLabel="C" GraphId="b3168">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c1823" TextLabel="C" GraphId="bfe9b">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c49e2" TextLabel="C" GraphId="e84af">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e0e16" TextLabel="C" GraphId="c64ac">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b8f2c" TextLabel="C" GraphId="b19f9">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e6c1b" TextLabel="C" GraphId="dd3c0">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e44e2" TextLabel="C" GraphId="d3aea">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="efbdb" TextLabel="C" GraphId="f0b7c">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="cfec4" TextLabel="C" GraphId="d1b63">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e4e41" TextLabel="C" GraphId="c4073">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e8c17" TextLabel="C" GraphId="e1bf9">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ecf68" TextLabel="C" GraphId="de5a7">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c5035" TextLabel="C" GraphId="f9139">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f5654" TextLabel="C" GraphId="d607c">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="dd26d" TextLabel="C" GraphId="e3f17">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="b2b76">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a17c4"/>
+      <Point GraphRef="caf95" ArrowHead="Arrow"/>
+      <Anchor Position="0.6603576227213994" Shape="None" GraphId="c86ee"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id138e8813">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e281e"/>
+      <Point GraphRef="ff509" ArrowHead="Arrow"/>
+      <Anchor Position="0.8940234879989299" Shape="None" GraphId="f90c3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id144d82c0">
+    <Graphics>
+      <Point GraphRef="a2a3b"/>
+      <Point GraphRef="e938d" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2014aeac">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b9a43"/>
+      <Point GraphRef="f90c3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id26958b24">
+    <BiopaxRef>fbf</BiopaxRef>
+    <BiopaxRef>d45</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e2570"/>
+      <Point GraphRef="a817c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id293ed8f2">
+    <Comment>Essentail modification for cI assembly</Comment>
+    <BiopaxRef>ed5</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="eef51"/>
+      <Point GraphRef="f8861" ArrowHead="mim-modification"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c3ecc"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2bd6bfb0">
+    <BiopaxRef>d45</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bb66c"/>
+      <Point GraphRef="d2e87" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2f2d9816">
+    <Graphics>
+      <Point GraphRef="eccc2"/>
+      <Point GraphRef="e2570" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id32949d19">
+    <BiopaxRef>f38</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="eeabf"/>
+      <Point GraphRef="b69b6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id45cad252">
+    <Graphics>
+      <Point GraphRef="fde7e"/>
+      <Point GraphRef="c383f" ArrowHead="mim-binding"/>
+      <Anchor Position="0.7005713412270228" Shape="None" GraphId="fef17"/>
+      <Anchor Position="0.7630651831937485" Shape="None" GraphId="c56f3"/>
+      <Anchor Position="0.6238631372543023" Shape="None" GraphId="e938d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4855a6b">
+    <BiopaxRef>d45</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ac36f"/>
+      <Point GraphRef="a1734" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5094767b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b71d2"/>
+      <Point GraphRef="c1633" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id59558d6b">
+    <Graphics>
+      <Point GraphRef="db3ea"/>
+      <Point GraphRef="fde7e" ArrowHead="mim-binding"/>
+      <Anchor Position="0.8662529368345724" Shape="None" GraphId="a975e"/>
+      <Anchor Position="0.21563775740588467" Shape="None" GraphId="a817c"/>
+      <Anchor Position="0.5414718650900973" Shape="None" GraphId="e1fc6"/>
+      <Anchor Position="0.7940975375180283" Shape="None" GraphId="c53ff"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id68061782">
+    <Graphics>
+      <Point GraphRef="a7dd8"/>
+      <Point GraphRef="fe868" ArrowHead="mim-modification"/>
+      <Anchor Position="0.6506998600097798" Shape="None" GraphId="a9204"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id74f318d1">
+    <Graphics>
+      <Point GraphRef="afe85"/>
+      <Point GraphRef="e8783" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id76eff144">
+    <Graphics>
+      <Point GraphRef="a0479"/>
+      <Point GraphRef="c6a00" ArrowHead="mim-binding"/>
+      <Anchor Position="0.6204735022353992" Shape="None" GraphId="a237a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7c6e03bb">
+    <BiopaxRef>d45</BiopaxRef>
+    <BiopaxRef>f38</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a3c7a"/>
+      <Point GraphRef="c9a4c" ArrowHead="mim-binding"/>
+      <Anchor Position="0.5230975097319475" Shape="None" GraphId="d2e87"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7db59d7b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c08ba"/>
+      <Point GraphRef="b9a43" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id889d9c13">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="caf95"/>
+      <Point GraphRef="e281e" ArrowHead="Arrow"/>
+      <Anchor Position="0.7719041159244516" Shape="None" GraphId="bf71e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id91dc3a23">
+    <Graphics>
+      <Point GraphRef="c6a00"/>
+      <Point GraphRef="bff20" ArrowHead="mim-binding"/>
+      <Anchor Position="0.5619557133083612" Shape="None" GraphId="f1d29"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id94481c88">
+    <BiopaxRef>d45</BiopaxRef>
+    <BiopaxRef>cb9</BiopaxRef>
+    <BiopaxRef>f32</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="db26e"/>
+      <Point GraphRef="bdf78" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id98272cce">
+    <Graphics>
+      <Point GraphRef="d4eec"/>
+      <Point GraphRef="eaa27" ArrowHead="mim-cleavage"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id990587fe">
+    <Graphics>
+      <Point GraphRef="b5b2e"/>
+      <Point GraphRef="f717e" ArrowHead="mim-binding"/>
+      <Anchor Position="0.32072240011919156" Shape="None" GraphId="d4eec"/>
+      <Anchor Position="0.6221953740303662" Shape="None" GraphId="fda4a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida0d2bef2">
+    <BiopaxRef>f38</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="beffb"/>
+      <Point GraphRef="ca582" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida3a59d0e">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b5d76"/>
+      <Point GraphRef="bf71e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida5bf2acf">
+    <Graphics>
+      <Point GraphRef="bd73a"/>
+      <Point GraphRef="bcdab" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida67d363e">
+    <BiopaxRef>b82</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e8d70"/>
+      <Point GraphRef="f1d29" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaaba2f66">
+    <Graphics>
+      <Point GraphRef="a51b9"/>
+      <Point GraphRef="a4622" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idad2c3ab0">
+    <BiopaxRef>dbe</BiopaxRef>
+    <BiopaxRef>b02</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fb65b"/>
+      <Point GraphRef="e1fc6" ArrowHead="mim-cleavage"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb5bbd6c7">
+    <Graphics>
+      <Point GraphRef="db07d"/>
+      <Point GraphRef="fb65b" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb74a87c8">
+    <BiopaxRef>f38</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ad96f"/>
+      <Point GraphRef="d8335" ArrowHead="mim-binding"/>
+      <Anchor Position="0.7374874459865086" Shape="None" GraphId="ca582"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc7e3f653">
+    <Comment>NDUFAF7 dimethylates NDUFS2 in Arg(85)</Comment>
+    <BiopaxRef>d03</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f15de"/>
+      <Point GraphRef="c3ecc" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcc3ea92f">
+    <Graphics>
+      <Point GraphRef="a08dc"/>
+      <Point GraphRef="bb590" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb67f94e">
+    <Graphics>
+      <Point GraphRef="d7ab5"/>
+      <Point GraphRef="c56f3" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idec0d3857">
+    <Graphics>
+      <Point GraphRef="b70d8"/>
+      <Point GraphRef="f1d29" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfad92fc3">
+    <Graphics>
+      <Point GraphRef="cc732"/>
+      <Point GraphRef="a975e" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfd20c63a">
+    <Graphics>
+      <Point GraphRef="e2c5d"/>
+      <Point GraphRef="ffa53" ArrowHead="mim-binding"/>
+      <Anchor Position="0.6787198419824124" Shape="None" GraphId="bb590"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idff231e13">
+    <Comment>NDUFAF5 adds a hydroxyl group to Arg73 of NDUFS7</Comment>
+    <BiopaxRef>e5d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c8b5b"/>
+      <Point GraphRef="a9204" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idffb99fb3">
+    <Graphics>
+      <Point GraphRef="c383f"/>
+      <Point GraphRef="f6996" ArrowHead="mim-binding"/>
+      <Anchor Position="0.6804556702560083" Shape="None" GraphId="b69b6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e94c1">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="cd617"/>
+      <Point GraphRef="d3c1a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df22a">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d3c1a"/>
+      <Point GraphRef="bfc6c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f00ab">
+    <Graphics>
+      <Point GraphRef="ffa53"/>
+      <Point GraphRef="fb181" ArrowHead="mim-binding"/>
+      <Anchor Position="0.6787198419824124" Shape="None" GraphId="e8783"/>
+      <Anchor Position="0.6543023670971653" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aee97">
+    <Graphics>
+      <Point GraphRef="fb181"/>
+      <Point GraphRef="fa817" ArrowHead="mim-binding"/>
+      <Anchor Position="0.33812454959828653" Shape="None" GraphId="bcdab"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d565d">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d13ad"/>
+      <Point GraphRef="b8a7d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a1a89">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b8a7d"/>
+      <Point GraphRef="ef0d8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a78d3">
+    <Graphics>
+      <Point GraphRef="bff20"/>
+      <Point GraphRef="b295c" ArrowHead="mim-binding"/>
+      <Anchor Position="0.5934788552215808" Shape="None" GraphId="d9dd7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b76e3">
+    <BiopaxRef>d45</BiopaxRef>
+    <BiopaxRef>f38</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="dfc43"/>
+      <Point GraphRef="d9dd7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b2c26">
+    <Graphics>
+      <Point GraphRef="b295c"/>
+      <Point GraphRef="cb28e" ArrowHead="mim-binding"/>
+      <Anchor Position="0.6124967335256896" Shape="None" GraphId="fa817"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a458e">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ef0d8"/>
+      <Point GraphRef="ab025" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d9e87">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ab025"/>
+      <Point GraphRef="a17c4" ArrowHead="Arrow"/>
+      <Anchor Position="0.6403978173192132" Shape="None" GraphId="f4ae1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fc2d7">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bfc6c"/>
+      <Point GraphRef="f4ae1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dabdb">
+    <BiopaxRef>b82</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e7f43"/>
+      <Point GraphRef="a237a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="afc7b">
+    <Graphics>
+      <Point GraphRef="d8335"/>
+      <Point GraphRef="fda4a" ArrowHead="mim-binding"/>
+      <Anchor Position="0.7374874459865086" Shape="None" GraphId="fdec3"/>
+      <Anchor Position="0.2043221171899735" Shape="None" GraphId="a1734"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6f7c">
+    <Graphics>
+      <Point GraphRef="c3546"/>
+      <Point GraphRef="fb65b" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fd06f">
+    <BiopaxRef>dbe</BiopaxRef>
+    <BiopaxRef>b02</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fb65b"/>
+      <Point GraphRef="c0788" ArrowHead="mim-cleavage"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e45c7">
+    <Comment>NDUFAF3 and 4 remain bound to this module until the final assembly steps</Comment>
+    <BiopaxRef>f38</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b3ea3"/>
+      <Point GraphRef="c53ff" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="da175">
+    <Graphics>
+      <Point GraphRef="eccc2"/>
+      <Point GraphRef="b3ea3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="da449">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c1633"/>
+      <Point GraphRef="ef8f6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6cae">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ef8f6"/>
+      <Point GraphRef="ac576" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d500a">
+    <Graphics>
+      <Point GraphRef="f6996"/>
+      <Point GraphRef="b40f6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d637a">
+    <Graphics>
+      <Point GraphRef="cb28e"/>
+      <Point GraphRef="d30bc" ArrowHead="mim-binding"/>
+      <Anchor Position="0.6804556702560083" Shape="None" GraphId="b40f6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c31bd">
+    <Comment>This intermediate only lacking the N-module is stabilized by NDUFAF2/NDUFA12L/B17.2L</Comment>
+    <Graphics>
+      <Point GraphRef="d30bc"/>
+      <Point GraphRef="b5b2e" ArrowHead="mim-binding"/>
+      <Anchor Position="0.6804556702560083" Shape="None" GraphId="bdf78"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ded83">
+    <Comment>This intermediate only lacking the N-module is stabilized by NDUFAF2/NDUFA12L/B17.2L</Comment>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c9a4c"/>
+      <Point GraphRef="bdf78" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a45e7">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ac576"/>
+      <Point GraphRef="c86ee" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="ef016">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d44be">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="idadc78d52">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="+" GraphId="a2419">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="COMPLEX 1" GraphId="a51b9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="IMS" GraphId="a5d69">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CHAPERONES" GraphId="aa30a" GroupRef="b1aab">
+    <Graphics FillColor="ff6600" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Complex I assembly:&#10;EC 1.6.5.3" GraphId="bc86f">
+    <Comment>Consists out of 45 subunits</Comment>
+    <Comment>Encoded by mtDNA and nDNA</Comment>
+    <Comment>L-shaped enzyme with hydrophilic arm for electron transfer, hydrophobic arm for proton translocation</Comment>
+    <Comment>14 subunits perform catalytic activity</Comment>
+    <Comment>Hydrophilic arm consists out of 7 subunits, which contain redox active centres</Comment>
+    <Comment>Hydrophobic arm consists out of 7 subunits, which form proton channels.</Comment>
+    <Comment>30 remaning subunits are crucial for assembly and stability.</Comment>
+    <Comment>Subunits are organised in 6 groups, which are connect to each other by 5 subassemblies.</Comment>
+    <Graphics FillColor="ffcc00" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Additional subunits&#10;for final complex formation" GraphId="d1849">
+    <Comment>These are not in the original figure, but needed to create the final visualisation</Comment>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Timeline of incorporation" GraphId="e9e4f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ND4-module" GraphId="ebbf1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ND2-module" GraphId="eb651">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Q/ND1-module" GraphId="ab23c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Q-module" GraphId="cb215">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="N-module" GraphId="c2ffb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="necessary to &#10;maintain &#10;normal MT-ND1 &#10;synthesis" GraphId="eccc2">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" Color="9900ff"/>
+  </Label>
+  <Label TextLabel="ND5-module" GraphId="b9d55">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Mitochondrial Complex I &#10;Assembly (MCIA) complex" GraphId="a73f1">
+    <Comment>The stable association of the assembly factors NDUFAF1 + ECSIT + ACAD9 + TMEM126 was denominated Mitochondrial Complex I Assembly (MCIA) complex</Comment>
+    <BiopaxRef>b82</BiopaxRef>
+    <BiopaxRef>c23</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="IM" GraphId="cb3c4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Matrix" GraphId="d0e10">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="b5838" GroupRef="c4fd9">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a3c35" GroupRef="c4fd9">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c6341" GroupRef="b3bbd">
+    <Graphics FillColor="cccc00" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="c59f0" GroupRef="addaf">
+    <Graphics FillColor="ffffcc" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="bec93" GroupRef="addaf">
+    <Graphics FillColor="ffffcc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b3cb7" GroupRef="addaf">
+    <Graphics FillColor="ffff66" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="da5ea" GroupRef="addaf">
+    <Graphics FillColor="66ff99" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="dc4cd" GroupRef="addaf">
+    <Graphics FillColor="a4357c" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fb2ae" GroupRef="addaf">
+    <Graphics FillColor="ff9933" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bb61f" GroupRef="b3bbd">
+    <Graphics FillColor="669900" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="baaf3" GroupRef="a3f28">
+    <Graphics FillColor="ffccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ae7f9" GroupRef="b11e8">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f0548" GroupRef="b11e8">
+    <Graphics FillColor="ff0000" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d38ee" GroupRef="b11e8">
+    <Graphics FillColor="ff0000" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f2ec0" GroupRef="ee297">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f1394" GroupRef="c76ee">
+    <Graphics FillColor="a4357c" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d58ae" GroupRef="c76ee">
+    <Graphics FillColor="a4357c" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ac2aa" GroupRef="e22fd">
+    <Graphics FillColor="d4d4b2" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="ce624" GroupRef="e22fd">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cc494" GroupRef="e22fd">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a96b4" GroupRef="b3bbd">
+    <Graphics FillColor="663300" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="baaa1" GroupRef="b2cac">
+    <Graphics FillColor="ffffcc" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="bb98b" GroupRef="b3bbd">
+    <Graphics FillColor="993300" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bc315" GroupRef="b3bbd">
+    <Graphics FillColor="66ff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bd691" GroupRef="b3bbd">
+    <Graphics FillColor="666666" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="be20c" GroupRef="a3f28">
+    <Graphics FillColor="ffff66" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="c00c2" GroupRef="b3bbd">
+    <Graphics FillColor="cccc00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c1b08" GroupRef="a3f28">
+    <Graphics FillColor="ff00ff" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="c3ca9" GroupRef="b3161">
+    <Graphics FillColor="ff00cc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ccfce" GroupRef="e22fd">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="eb20c" GroupRef="b3bbd">
+    <Graphics FillColor="666666" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ed3fd" GroupRef="b3bbd">
+    <Graphics FillColor="cccc00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f1721" GroupRef="b3bbd">
+    <Graphics FillColor="cccc00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="db34e" GroupRef="c9823">
+    <Graphics FillColor="f2eaea" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b0954" GroupRef="d7780">
+    <Graphics FillColor="d4d4b2" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="e0e6f" GroupRef="d7780">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d4650" GroupRef="d7780">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="aea26" GroupRef="d7780">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cb9e2" GroupRef="d7780">
+    <Graphics FillColor="99ff33" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f6ce6" GroupRef="d7780">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e0bed" GroupRef="c087f">
+    <Graphics FillColor="d4d4b2" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="b13b3" GroupRef="c087f">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bd0e3" GroupRef="c087f">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a34d0" GroupRef="c087f">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="acd9b" GroupRef="c087f">
+    <Graphics FillColor="99ff33" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cd1f0" GroupRef="c087f">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d6ecc" GroupRef="c087f">
+    <Graphics FillColor="c91c97" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fb704" GroupRef="c087f">
+    <Graphics FillColor="c91c97" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e2621" GroupRef="c087f">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cd495" GroupRef="c087f">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e61f3" GroupRef="c76ee">
+    <Graphics FillColor="d4d4b2" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="bc12d" GroupRef="c76ee">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="beb19" GroupRef="c76ee">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bbaac" GroupRef="c76ee">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cc131" GroupRef="c76ee">
+    <Graphics FillColor="99ff33" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e800d" GroupRef="c76ee">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ee30d" GroupRef="c76ee">
+    <Graphics FillColor="c91c97" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f73f6" GroupRef="c76ee">
+    <Graphics FillColor="c91c97" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="dac14" GroupRef="c76ee">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d39d8" GroupRef="e22fd">
+    <Graphics FillColor="d3d3b1" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e2dbd" GroupRef="d7780">
+    <Graphics FillColor="d3d3b1" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d750a" GroupRef="c087f">
+    <Graphics FillColor="d3d3b1" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b1f9a" GroupRef="c76ee">
+    <Graphics FillColor="d3d3b1" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="dbcb0" GroupRef="c76ee">
+    <Graphics FillColor="0066ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a0ed2" GroupRef="c76ee">
+    <Graphics FillColor="0066ff" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="bc16d" GroupRef="ee297">
+    <Graphics FillColor="a4357c" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ca1ff" GroupRef="ee297">
+    <Graphics FillColor="a4357c" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cd70f" GroupRef="ee297">
+    <Graphics FillColor="d4d4b2" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="f6a60" GroupRef="ee297">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="be107" GroupRef="ee297">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b2a46" GroupRef="ee297">
+    <Graphics FillColor="99ff33" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="be01a" GroupRef="ee297">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b151a" GroupRef="ee297">
+    <Graphics FillColor="c91c97" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="abc96" GroupRef="ee297">
+    <Graphics FillColor="c91c97" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ec8a4" GroupRef="ee297">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c184c" GroupRef="ee297">
+    <Graphics FillColor="d3d3b1" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b5182" GroupRef="ee297">
+    <Graphics FillColor="0066ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a9aa0" GroupRef="ee297">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b6590" GroupRef="ee297">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="aa8ff" GroupRef="ee297">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bb597" GroupRef="ee297">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ecf1d" GroupRef="ee297">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="eb4a8" GroupRef="ee297">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c38fb" GroupRef="ee297">
+    <Graphics FillColor="00ffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c8fb4" GroupRef="ee297">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a227e" GroupRef="ee297">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e13ed" GroupRef="ee297">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bd532" GroupRef="ee297">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b408c" GroupRef="ee297">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a48bb" GroupRef="ee297">
+    <Graphics FillColor="660066" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="cc0fe" GroupRef="ee297">
+    <Graphics FillColor="000066" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c25a3" GroupRef="ee297">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c81cd" GroupRef="ee297">
+    <Graphics FillColor="000066" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b2de1" GroupRef="a6ec5">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="dd724" GroupRef="a6ec5">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f9533" GroupRef="a6ec5">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b09f4" GroupRef="a6ec5">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bfedb" GroupRef="a6ec5">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="eda36" GroupRef="a6ec5">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d1069" GroupRef="a6ec5">
+    <Graphics FillColor="00ffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bd007" GroupRef="a6ec5">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f747d" GroupRef="a6ec5">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b7826" GroupRef="a6ec5">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="be42d" GroupRef="a6ec5">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ecad8" GroupRef="a6ec5">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b9975" GroupRef="a6ec5">
+    <Graphics FillColor="660066" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="db143" GroupRef="a6ec5">
+    <Graphics FillColor="000066" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bfe2b" GroupRef="a6ec5">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d5011" GroupRef="a6ec5">
+    <Graphics FillColor="000066" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d9a58" GroupRef="ee297">
+    <Graphics FillColor="0066ff" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="f4509" GroupRef="c76ee">
+    <Graphics FillColor="33ff99" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="fd311" GroupRef="c76ee">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cdd84" GroupRef="ee297">
+    <Graphics FillColor="33ff99" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="e4781" GroupRef="ee297">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d57fd" GroupRef="a2940">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c19e0" GroupRef="a2940">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d1ed5" GroupRef="a2940">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d22e7" GroupRef="a2940">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="adf03" GroupRef="a2940">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e7cb4" GroupRef="a2940">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d79e2" GroupRef="a2940">
+    <Graphics FillColor="00ffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f6feb" GroupRef="a2940">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f0ff3" GroupRef="a2940">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b3795" GroupRef="a2940">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b5ad9" GroupRef="a2940">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e5c53" GroupRef="a2940">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b2ba3" GroupRef="a2940">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a4afa" GroupRef="e23dc">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f98d9" GroupRef="e23dc">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b09c1" GroupRef="e23dc">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fdd57" GroupRef="e23dc">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f0745" GroupRef="e23dc">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e6555" GroupRef="e23dc">
+    <Graphics FillColor="00ffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b5f0c" GroupRef="e23dc">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fb09f" GroupRef="e23dc">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ad0e7" GroupRef="e23dc">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cf1b8" GroupRef="e7284">
+    <Graphics FillColor="9999ff" ShapeType="Triangle"/>
+  </Shape>
+  <Shape GraphId="d699c" GroupRef="e7284">
+    <Graphics FillColor="9c9095" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ff11d" GroupRef="ebf8f">
+    <Graphics FillColor="f2eaea" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bfdd4" GroupRef="ebf8f">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cb13a" GroupRef="c9823">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e0d58" GroupRef="c9823">
+    <Graphics FillColor="9999ff" ShapeType="Triangle"/>
+  </Shape>
+  <Shape GraphId="d9270" GroupRef="c9823">
+    <Graphics FillColor="9c9095" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f471a" GroupRef="b11e8">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="adb45" GroupRef="b11e8">
+    <Graphics FillColor="ff0000" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="db47e" GroupRef="b11e8">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f2fbb" GroupRef="b11e8">
+    <Graphics FillColor="ff0000" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a02ee" GroupRef="cafdd">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cac7f" GroupRef="cafdd">
+    <Graphics FillColor="ff0000" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bacdd" GroupRef="cafdd">
+    <Graphics FillColor="ff0000" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e8ef3" GroupRef="cafdd">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c2eff" GroupRef="cafdd">
+    <Graphics FillColor="ff0000" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ab409" GroupRef="cafdd">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d6d05" GroupRef="cafdd">
+    <Graphics FillColor="ff0000" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e1097" GroupRef="a3f28">
+    <Graphics FillColor="ffff66" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="e822e" GroupRef="bcb05">
+    <Graphics FillColor="ffccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a019e" GroupRef="bcb05">
+    <Graphics FillColor="ffff66" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="ed5ae" GroupRef="bcb05">
+    <Graphics FillColor="ff00ff" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="c6bfc" GroupRef="bcb05">
+    <Graphics FillColor="ffff66" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="c7d7d" GroupRef="bcb05">
+    <Graphics FillColor="66ff99" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="d2095" GroupRef="bcb05">
+    <Graphics FillColor="66ffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ae7ce" GroupRef="c45f8">
+    <Graphics FillColor="ffccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b2fba" GroupRef="c45f8">
+    <Graphics FillColor="ffff66" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="de1f4" GroupRef="c45f8">
+    <Graphics FillColor="ff00ff" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="b79ce" GroupRef="c45f8">
+    <Graphics FillColor="ffff66" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="f1416" GroupRef="c45f8">
+    <Graphics FillColor="66ff99" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="fb44f" GroupRef="c45f8">
+    <Graphics FillColor="66ffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f3c31" GroupRef="c45f8">
+    <Graphics FillColor="ff9933" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a30fb" GroupRef="b2cac">
+    <Graphics FillColor="ffccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="adde3" GroupRef="b2cac">
+    <Graphics FillColor="ffff66" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="a517d" GroupRef="b2cac">
+    <Graphics FillColor="ff00ff" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="c96f0" GroupRef="b2cac">
+    <Graphics FillColor="ffff66" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="abe6d" GroupRef="b2cac">
+    <Graphics FillColor="66ff99" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="d4852" GroupRef="b2cac">
+    <Graphics FillColor="66ffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ee90a" GroupRef="b2cac">
+    <Graphics FillColor="ff9933" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c3afe" GroupRef="b2cac">
+    <Graphics FillColor="ffffcc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c178c" GroupRef="addaf">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b948c" GroupRef="addaf">
+    <Graphics FillColor="a4357c" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f5e57" GroupRef="addaf">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a6b03" GroupRef="addaf">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a31bb" GroupRef="addaf">
+    <Graphics FillColor="99ff33" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c5e63" GroupRef="addaf">
+    <Graphics FillColor="ff9900" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="df8b9" GroupRef="addaf">
+    <Graphics FillColor="c91c97" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c14b8" GroupRef="addaf">
+    <Graphics FillColor="c91c97" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c328c" GroupRef="addaf">
+    <Graphics FillColor="d3d3b1" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e5054" GroupRef="addaf">
+    <Graphics FillColor="0066ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a9682" GroupRef="addaf">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e98fd" GroupRef="addaf">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d5665" GroupRef="addaf">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f43ec" GroupRef="addaf">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b7256" GroupRef="addaf">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a3e48" GroupRef="addaf">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f0fa1" GroupRef="addaf">
+    <Graphics FillColor="00ffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ba82b" GroupRef="addaf">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="aa826" GroupRef="addaf">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f04f6" GroupRef="addaf">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c8d66" GroupRef="addaf">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b4b99" GroupRef="addaf">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b93bf" GroupRef="addaf">
+    <Graphics FillColor="660066" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="f7c3b" GroupRef="addaf">
+    <Graphics FillColor="000066" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="da8e0" GroupRef="addaf">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="dbf5b" GroupRef="addaf">
+    <Graphics FillColor="000066" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b9ae9" GroupRef="addaf">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e08be" GroupRef="addaf">
+    <Graphics FillColor="ffccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f3bc2" GroupRef="addaf">
+    <Graphics FillColor="ff00ff" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="bbdfe" GroupRef="addaf">
+    <Graphics FillColor="ffff66" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="b92ad" GroupRef="addaf">
+    <Graphics FillColor="66ffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c0232" GroupRef="addaf">
+    <Graphics FillColor="3366ff" ShapeType="Triangle"/>
+  </Shape>
+  <Shape GraphId="f7046" GroupRef="addaf">
+    <Graphics FillColor="33ff99" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="d6420" GroupRef="addaf">
+    <Graphics FillColor="d4d4b2" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="e8608" GroupRef="b2cac">
+    <Graphics FillColor="3366ff" ShapeType="Triangle"/>
+  </Shape>
+  <Shape GraphId="a0dae" GroupRef="c4fd9">
+    <Graphics FillColor="cccc00" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="fd335" GroupRef="c4fd9">
+    <Graphics FillColor="669900" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b4e14" GroupRef="c4fd9">
+    <Graphics FillColor="663300" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="aae34" GroupRef="c4fd9">
+    <Graphics FillColor="993300" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ab8d0" GroupRef="c4fd9">
+    <Graphics FillColor="66ff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e4237" GroupRef="c4fd9">
+    <Graphics FillColor="666666" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="dabcf" GroupRef="c4fd9">
+    <Graphics FillColor="cccc00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f0d30" GroupRef="c4fd9">
+    <Graphics FillColor="666666" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b9e88" GroupRef="c4fd9">
+    <Graphics FillColor="cccc00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b2b16" GroupRef="c4fd9">
+    <Graphics FillColor="cccc00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b5a78" GroupRef="c4fd9">
+    <Graphics FillColor="ffffcc" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="b6974" GroupRef="c4fd9">
+    <Graphics FillColor="ffffcc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bfcb7" GroupRef="c4fd9">
+    <Graphics FillColor="ffff66" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="c0bff" GroupRef="c4fd9">
+    <Graphics FillColor="66ff99" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="e5e4b" GroupRef="c4fd9">
+    <Graphics FillColor="a4357c" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ae52a" GroupRef="c4fd9">
+    <Graphics FillColor="ff9933" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e3ba2" GroupRef="c4fd9">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cbe1b" GroupRef="c4fd9">
+    <Graphics FillColor="a4357c" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d0332" GroupRef="c4fd9">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="eb231" GroupRef="c4fd9">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d60e8" GroupRef="c4fd9">
+    <Graphics FillColor="99ff33" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ea041" GroupRef="c4fd9">
+    <Graphics FillColor="ff9900" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c4cdc" GroupRef="c4fd9">
+    <Graphics FillColor="c91c97" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a54e6" GroupRef="c4fd9">
+    <Graphics FillColor="c91c97" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fdb9e" GroupRef="c4fd9">
+    <Graphics FillColor="d3d3b1" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ccd8e" GroupRef="c4fd9">
+    <Graphics FillColor="0066ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b98e5" GroupRef="c4fd9">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d3bc3" GroupRef="c4fd9">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ade14" GroupRef="c4fd9">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fa423" GroupRef="c4fd9">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b63d6" GroupRef="c4fd9">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ac16f" GroupRef="c4fd9">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f7207" GroupRef="c4fd9">
+    <Graphics FillColor="00ffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d896d" GroupRef="c4fd9">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b23fc" GroupRef="c4fd9">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e9ee0" GroupRef="c4fd9">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d8d73" GroupRef="c4fd9">
+    <Graphics FillColor="660066" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="f4be0" GroupRef="c4fd9">
+    <Graphics FillColor="000066" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="eb82e" GroupRef="c4fd9">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="dbe8e" GroupRef="c4fd9">
+    <Graphics FillColor="000066" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b2a60" GroupRef="c4fd9">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e7214" GroupRef="c4fd9">
+    <Graphics FillColor="ffccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e8a72" GroupRef="c4fd9">
+    <Graphics FillColor="ff00ff" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="b4ba4" GroupRef="c4fd9">
+    <Graphics FillColor="ffff66" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="e53d5" GroupRef="c4fd9">
+    <Graphics FillColor="66ffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c8331" GroupRef="c4fd9">
+    <Graphics FillColor="3366ff" ShapeType="Triangle"/>
+  </Shape>
+  <Shape GraphId="f968f" GroupRef="c4fd9">
+    <Graphics FillColor="33ff99" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="a547c" GroupRef="c4fd9">
+    <Graphics FillColor="d4d4b2" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="b493a" GroupRef="b3161">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c4812" GroupRef="b3161">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="de4db" GroupRef="b3161">
+    <Graphics FillColor="cccc00" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="f1fcd" GroupRef="b3161">
+    <Graphics FillColor="669900" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a65b2" GroupRef="b3161">
+    <Graphics FillColor="663300" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fdfad" GroupRef="b3161">
+    <Graphics FillColor="993300" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ce174" GroupRef="b3161">
+    <Graphics FillColor="66ff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a5130" GroupRef="b3161">
+    <Graphics FillColor="666666" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a75dd" GroupRef="b3161">
+    <Graphics FillColor="cccc00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b6f59" GroupRef="b3161">
+    <Graphics FillColor="666666" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fe84d" GroupRef="b3161">
+    <Graphics FillColor="cccc00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f1b49" GroupRef="b3161">
+    <Graphics FillColor="cccc00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="df398" GroupRef="b3161">
+    <Graphics FillColor="ffffcc" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="b7bab" GroupRef="b3161">
+    <Graphics FillColor="ffffcc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b0920" GroupRef="b3161">
+    <Graphics FillColor="ffff66" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="afda6" GroupRef="b3161">
+    <Graphics FillColor="66ff99" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="f5646" GroupRef="b3161">
+    <Graphics FillColor="a4357c" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a03c8" GroupRef="b3161">
+    <Graphics FillColor="ff9933" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a970c" GroupRef="b3161">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a83d4" GroupRef="b3161">
+    <Graphics FillColor="a4357c" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a9086" GroupRef="b3161">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c1fcf" GroupRef="b3161">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f1939" GroupRef="b3161">
+    <Graphics FillColor="99ff33" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="de4ae" GroupRef="b3161">
+    <Graphics FillColor="ff9900" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fa247" GroupRef="b3161">
+    <Graphics FillColor="c91c97" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a20e9" GroupRef="b3161">
+    <Graphics FillColor="c91c97" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d9024" GroupRef="b3161">
+    <Graphics FillColor="d3d3b1" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a79a1" GroupRef="b3161">
+    <Graphics FillColor="0066ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fca1f" GroupRef="b3161">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e340c" GroupRef="b3161">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="aeec6" GroupRef="b3161">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c4e23" GroupRef="b3161">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d9366" GroupRef="b3161">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a193c" GroupRef="b3161">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a6be7" GroupRef="b3161">
+    <Graphics FillColor="00ffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bba01" GroupRef="b3161">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e1bd2" GroupRef="b3161">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ea33a" GroupRef="b3161">
+    <Graphics FillColor="4b3a41" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f5a65" GroupRef="b3161">
+    <Graphics FillColor="660066" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="ecfd3" GroupRef="b3161">
+    <Graphics FillColor="000066" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bcc50" GroupRef="b3161">
+    <Graphics FillColor="006633" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b0a5b" GroupRef="b3161">
+    <Graphics FillColor="000066" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e2ed2" GroupRef="b3161">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ea652" GroupRef="b3161">
+    <Graphics FillColor="ffccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="aab6b" GroupRef="b3161">
+    <Graphics FillColor="ff00ff" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="f96d7" GroupRef="b3161">
+    <Graphics FillColor="ffff66" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="b9e8d" GroupRef="b3161">
+    <Graphics FillColor="66ffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f8e63" GroupRef="b3161">
+    <Graphics FillColor="3366ff" ShapeType="Triangle"/>
+  </Shape>
+  <Shape GraphId="eef1c" GroupRef="b3161">
+    <Graphics FillColor="33ff99" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="dafd7" GroupRef="b3161">
+    <Graphics FillColor="d4d4b2" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="bc7bb" GroupRef="b3161">
+    <Graphics FillColor="f2eaea" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="dfe23" GroupRef="b3161">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f1fa7" GroupRef="b3161">
+    <Graphics FillColor="9999ff" ShapeType="Triangle"/>
+  </Shape>
+  <Shape GraphId="fb586" GroupRef="b3161">
+    <Graphics FillColor="9c9095" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="be6ba" GroupRef="c4fd9">
+    <Graphics FillColor="0066ff" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="d0af7" GroupRef="c4fd9">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c2c60" GroupRef="addaf">
+    <Graphics FillColor="0066ff" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="b6033" GroupRef="addaf">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b9709" GroupRef="b3161">
+    <Graphics FillColor="0066ff" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="ee648" GroupRef="b3161">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f6050">
+    <Graphics FillColor="99ffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="da1e5">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d28f5" GroupRef="b3161">
+    <Graphics FillColor="99ffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d4385" GroupRef="b3161">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d97b1" GroupRef="b3161">
+    <Graphics FillColor="999900" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="a94e1">
+    <Graphics FillColor="999900" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="d09da">
+    <Graphics FillColor="ff00cc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cb4d4">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c01e2" GroupRef="b3161">
+    <Graphics FillColor="009999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="da192" GroupRef="b3161">
+    <Graphics FillColor="66ff99" ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="a1943" Style="Group"/>
+  <Group GroupId="b11e8" Style="Group"/>
+  <Group GroupId="cafdd" Style="Group"/>
+  <Group GroupId="a8217" Style="Group"/>
+  <Group GroupId="c56b6" Style="Group"/>
+  <Group GroupId="c1655" Style="Group"/>
+  <Group GroupId="b4d1a" Style="Group"/>
+  <Group GroupId="c7c87" Style="Group"/>
+  <Group GroupId="b54be" Style="Group"/>
+  <Group GroupId="b3618" GraphId="a0479" Style="Group"/>
+  <Group GroupId="f7c66" GraphId="a06ef" Style="Group"/>
+  <Group GroupId="ee297" GraphId="a17c4" Style="Group"/>
+  <Group GroupId="b3b99" GraphId="a3c7a" Style="Group">
+    <BiopaxRef>d45</BiopaxRef>
+    <BiopaxRef>f38</BiopaxRef>
+  </Group>
+  <Group GroupId="c76ee" GraphId="ab025" Style="Group"/>
+  <Group GroupId="c0cbe" GraphId="ac36f" Style="Group">
+    <BiopaxRef>d45</BiopaxRef>
+  </Group>
+  <Group GroupId="b2cac" GraphId="ac576" Style="Group"/>
+  <Group GroupId="b36b9" GraphId="ad96f" Style="Group"/>
+  <Group GroupId="d67a8" GraphId="ae880" Style="Group"/>
+  <Group GroupId="b982d" GraphId="afe85" Style="Group"/>
+  <Group GroupId="c4f39" GraphId="b295c" Style="Group"/>
+  <Group GroupId="e4e37" GraphId="b3ea3" Style="Group">
+    <Comment>Chaperones for these and further steps are NDUFAF3(C3ORF60) and NDUFAF4(C6ORF66), which remain bound to the Q-module module until the final assembly steps</Comment>
+    <BiopaxRef>d10</BiopaxRef>
+  </Group>
+  <Group GroupId="fdd12" GraphId="b5b2e" Style="Group"/>
+  <Group GroupId="b3bbd" GraphId="b5d76" Style="Group"/>
+  <Group GroupId="d5f5a" GraphId="b5edb" Style="Group"/>
+  <Group GroupId="c61c5" GraphId="b70d8" Style="Group"/>
+  <Group GroupId="a3f28" GraphId="b71d2" Style="Group"/>
+  <Group GroupId="e7788" GraphId="b7ab3" Style="Group"/>
+  <Group GroupId="d7780" GraphId="b8a7d" Style="Group"/>
+  <Group GroupId="c9823" GraphId="b9a43" Style="Group"/>
+  <Group GroupId="ebf8f" GraphId="bc4e8" Style="Group"/>
+  <Group GroupId="cc95b" GraphId="bd73a" Style="Group">
+    <Comment/>
+  </Group>
+  <Group GroupId="fe8d1" GraphId="beffb" Style="Group"/>
+  <Group GroupId="a6ec5" GraphId="bfc6c" Style="Group"/>
+  <Group GroupId="ee92c" GraphId="bff20" Style="Group"/>
+  <Group GroupId="e7284" GraphId="c08ba" Style="Group"/>
+  <Group GroupId="b6362" GraphId="c1590" Style="Group"/>
+  <Group GroupId="bcb05" GraphId="c1633" Style="Group"/>
+  <Group GroupId="eb729" GraphId="c383f" Style="Group"/>
+  <Group GroupId="a3b4a" GraphId="c3b5f" Style="Group"/>
+  <Group GroupId="fe925" GraphId="c44c8" Style="Group">
+    <BiopaxRef>d45</BiopaxRef>
+    <BiopaxRef>f38</BiopaxRef>
+  </Group>
+  <Group GroupId="ddb6d" GraphId="c6a00" Style="Group"/>
+  <Group GroupId="afd4e" GraphId="c87e8" Style="Group"/>
+  <Group GroupId="d6b21" GraphId="c8bb4" Style="Group"/>
+  <Group GroupId="b47be" GraphId="c9a4c" Style="Group"/>
+  <Group GroupId="ab07e" GraphId="c9c0b" Style="Group"/>
+  <Group GroupId="bc8f7" GraphId="ca027" Style="Group"/>
+  <Group GroupId="addaf" GraphId="caf95" Style="Group"/>
+  <Group GroupId="ccf83" GraphId="cb28e" Style="Group"/>
+  <Group GroupId="fd90a" GraphId="cc542" Style="Group"/>
+  <Group GroupId="e447b" GraphId="cc732" Style="Group"/>
+  <Group GroupId="d1400" GraphId="ccf6a" Style="Group"/>
+  <Group GroupId="e23dc" GraphId="cd617" Style="Group"/>
+  <Group GroupId="c702d" GraphId="cf0a1" Style="Group"/>
+  <Group GroupId="e22fd" GraphId="d13ad" Style="Group"/>
+  <Group GroupId="e3826" GraphId="d2460" Style="Group"/>
+  <Group GroupId="c6dcd" GraphId="d30bc" Style="Group"/>
+  <Group GroupId="a2940" GraphId="d3c1a" Style="Group"/>
+  <Group GroupId="d87ed" GraphId="d8335" Style="Group"/>
+  <Group GroupId="ffc0e" GraphId="db3ea" Style="Group"/>
+  <Group GroupId="d1243" GraphId="dfc43" Style="Group"/>
+  <Group GroupId="c4fd9" GraphId="e281e" Style="Group"/>
+  <Group GroupId="a942f" GraphId="e2c5d" Style="Group"/>
+  <Group GroupId="f9004" GraphId="e2e94" Style="Group"/>
+  <Group GroupId="d70ff" GraphId="e41b6" Style="Group"/>
+  <Group GroupId="b1aab" GraphId="eaa27" Style="Group"/>
+  <Group GroupId="e7830" GraphId="eb5a0" Style="Group"/>
+  <Group GroupId="d1bf7" GraphId="ee10a" Style="Group"/>
+  <Group GroupId="c119e" GraphId="eeabf" Style="Group"/>
+  <Group GroupId="f665d" GraphId="ef06f" Style="Group"/>
+  <Group GroupId="c087f" GraphId="ef0d8" Style="Group"/>
+  <Group GroupId="c45f8" GraphId="ef8f6" Style="Group"/>
+  <Group GroupId="e4b73" GraphId="efe17" Style="Group"/>
+  <Group GroupId="b41b1" GraphId="efe89" Style="Group"/>
+  <Group GroupId="de5b6" GraphId="f007e" Style="Group"/>
+  <Group GroupId="a483e" GraphId="f04bb" Style="Group"/>
+  <Group GroupId="bcf7e" GraphId="f6996" Style="Group"/>
+  <Group GroupId="cb414" GraphId="f717e" Style="Group"/>
+  <Group GroupId="c841b" GraphId="f889e" Style="Group"/>
+  <Group GroupId="e48cf" GraphId="fb181" Style="Group"/>
+  <Group GroupId="afbac" GraphId="fb65b" Style="Complex">
+    <Comment>NUBPL/IND1 delivers [4Fe&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#162;&#195;&#402;&#198;&#8217;&#195;&#8218;&#194;&#162;&#195;&#402;&#194;&#162;&#195;&#162;&#226;&#8364;&#353;&#194;&#172;&#195;&#8230;&#194;&#161;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#172;&#195;&#402;&#198;&#8217;&#195;&#8218;&#194;&#162;&#195;&#402;&#194;&#162;&#195;&#162;&#226;&#8218;&#172;&#197;&#161;&#195;&#8218;&#194;&#172;&#195;&#402;&#226;&#8364;&#166;&#195;&#162;&#226;&#8218;&#172;&#197;&#8220;4S] clusters specifically to the N- and Q-module subunits</Comment>
+  </Group>
+  <Group GroupId="efc5c" GraphId="fde7e" Style="Group"/>
+  <Group GroupId="dd6e8" GraphId="fef49" Style="Group">
+    <BiopaxRef>d45</BiopaxRef>
+  </Group>
+  <Group GroupId="b3161" GraphId="ff509" Style="Group"/>
+  <Group GroupId="aaa4b" GraphId="ffa53" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="df5">
+      <bp:ID >30030361</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Assembly of mammalian oxidative phosphorylation complexes I-V and supercomplexes.</bp:TITLE>
+      <bp:SOURCE >Essays Biochem</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Signes A</bp:AUTHORS>
+      <bp:AUTHORS >Fernandez-Vizarra E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b82">
+      <bp:ID >22982022</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Complexome profiling identifies TMEM126B as a component of the mitochondrial complex I assembly complex.</bp:TITLE>
+      <bp:SOURCE >Cell Metab</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Heide H</bp:AUTHORS>
+      <bp:AUTHORS >Bleier L</bp:AUTHORS>
+      <bp:AUTHORS >Steger M</bp:AUTHORS>
+      <bp:AUTHORS >Ackermann J</bp:AUTHORS>
+      <bp:AUTHORS >Dr&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#226;&#8364;&#160;&#195;&#162;&#226;&#8218;&#172;&#226;&#8222;&#162;&#195;&#402;&#198;&#8217;&#195;&#162;&#226;&#8218;&#172;&#197;&#161;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#182;se S</bp:AUTHORS>
+      <bp:AUTHORS >Schwamb B</bp:AUTHORS>
+      <bp:AUTHORS >Z&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#226;&#8364;&#160;&#195;&#162;&#226;&#8218;&#172;&#226;&#8222;&#162;&#195;&#402;&#198;&#8217;&#195;&#162;&#226;&#8218;&#172;&#197;&#161;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#182;rnig M</bp:AUTHORS>
+      <bp:AUTHORS >Reichert AS</bp:AUTHORS>
+      <bp:AUTHORS >Koch I</bp:AUTHORS>
+      <bp:AUTHORS >Wittig I</bp:AUTHORS>
+      <bp:AUTHORS >Brandt U</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b41">
+      <bp:ID >27215383</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A Mutation in the Flavin Adenine Dinucleotide-Dependent Oxidoreductase FOXRED1 Results in Cell-Type-Specific Assembly Defects in Oxidative Phosphorylation Complexes I and II.</bp:TITLE>
+      <bp:SOURCE >Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Zurita Rend&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#226;&#8364;&#160;&#195;&#162;&#226;&#8218;&#172;&#226;&#8222;&#162;&#195;&#402;&#198;&#8217;&#195;&#162;&#226;&#8218;&#172;&#197;&#161;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#179;n O</bp:AUTHORS>
+      <bp:AUTHORS >Antonicka H</bp:AUTHORS>
+      <bp:AUTHORS >Horvath R</bp:AUTHORS>
+      <bp:AUTHORS >Shoubridge EA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e14">
+      <bp:ID >18179882</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >C6ORF66 is an assembly factor of mitochondrial complex I.</bp:TITLE>
+      <bp:SOURCE >Am J Hum Genet</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Saada A</bp:AUTHORS>
+      <bp:AUTHORS >Edvardson S</bp:AUTHORS>
+      <bp:AUTHORS >Rapoport M</bp:AUTHORS>
+      <bp:AUTHORS >Shaag A</bp:AUTHORS>
+      <bp:AUTHORS >Amry K</bp:AUTHORS>
+      <bp:AUTHORS >Miller C</bp:AUTHORS>
+      <bp:AUTHORS >Lorberboum-Galski H</bp:AUTHORS>
+      <bp:AUTHORS >Elpeleg O</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c6c">
+      <bp:ID >21057504</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Exome sequencing identifies ACAD9 mutations as a cause of complex I deficiency.</bp:TITLE>
+      <bp:SOURCE >Nat Genet</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Haack TB</bp:AUTHORS>
+      <bp:AUTHORS >Danhauser K</bp:AUTHORS>
+      <bp:AUTHORS >Haberberger B</bp:AUTHORS>
+      <bp:AUTHORS >Hoser J</bp:AUTHORS>
+      <bp:AUTHORS >Strecker V</bp:AUTHORS>
+      <bp:AUTHORS >Boehm D</bp:AUTHORS>
+      <bp:AUTHORS >Uziel G</bp:AUTHORS>
+      <bp:AUTHORS >Lamantea E</bp:AUTHORS>
+      <bp:AUTHORS >Invernizzi F</bp:AUTHORS>
+      <bp:AUTHORS >Poulton J</bp:AUTHORS>
+      <bp:AUTHORS >Rolinski B</bp:AUTHORS>
+      <bp:AUTHORS >Iuso A</bp:AUTHORS>
+      <bp:AUTHORS >Biskup S</bp:AUTHORS>
+      <bp:AUTHORS >Schmidt T</bp:AUTHORS>
+      <bp:AUTHORS >Mewes HW</bp:AUTHORS>
+      <bp:AUTHORS >Wittig I</bp:AUTHORS>
+      <bp:AUTHORS >Meitinger T</bp:AUTHORS>
+      <bp:AUTHORS >Zeviani M</bp:AUTHORS>
+      <bp:AUTHORS >Prokisch H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e59">
+      <bp:ID >16218961</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Human mitochondrial complex I assembly is mediated by NDUFAF1.</bp:TITLE>
+      <bp:SOURCE >FEBS J</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Vogel RO</bp:AUTHORS>
+      <bp:AUTHORS >Janssen RJ</bp:AUTHORS>
+      <bp:AUTHORS >Ugalde C</bp:AUTHORS>
+      <bp:AUTHORS >Grovenstein M</bp:AUTHORS>
+      <bp:AUTHORS >Huijbens RJ</bp:AUTHORS>
+      <bp:AUTHORS >Visch HJ</bp:AUTHORS>
+      <bp:AUTHORS >van den Heuvel LP</bp:AUTHORS>
+      <bp:AUTHORS >Willems PH</bp:AUTHORS>
+      <bp:AUTHORS >Zeviani M</bp:AUTHORS>
+      <bp:AUTHORS >Smeitink JA</bp:AUTHORS>
+      <bp:AUTHORS >Nijtmans LG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d10">
+      <bp:ID >19463981</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mutations in NDUFAF3 (C3ORF60), encoding an NDUFAF4 (C6ORF66)-interacting complex I assembly protein, cause fatal neonatal mitochondrial disease.</bp:TITLE>
+      <bp:SOURCE >Am J Hum Genet</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Saada A</bp:AUTHORS>
+      <bp:AUTHORS >Vogel RO</bp:AUTHORS>
+      <bp:AUTHORS >Hoefs SJ</bp:AUTHORS>
+      <bp:AUTHORS >van den Brand MA</bp:AUTHORS>
+      <bp:AUTHORS >Wessels HJ</bp:AUTHORS>
+      <bp:AUTHORS >Willems PH</bp:AUTHORS>
+      <bp:AUTHORS >Venselaar H</bp:AUTHORS>
+      <bp:AUTHORS >Shaag A</bp:AUTHORS>
+      <bp:AUTHORS >Barghuti F</bp:AUTHORS>
+      <bp:AUTHORS >Reish O</bp:AUTHORS>
+      <bp:AUTHORS >Shohat M</bp:AUTHORS>
+      <bp:AUTHORS >Huynen MA</bp:AUTHORS>
+      <bp:AUTHORS >Smeitink JA</bp:AUTHORS>
+      <bp:AUTHORS >van den Heuvel LP</bp:AUTHORS>
+      <bp:AUTHORS >Nijtmans LG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b2c">
+      <bp:ID >9837812</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The first nuclear-encoded complex I mutation in a patient with Leigh syndrome.</bp:TITLE>
+      <bp:SOURCE >Am J Hum Genet</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Loeffen J</bp:AUTHORS>
+      <bp:AUTHORS >Smeitink J</bp:AUTHORS>
+      <bp:AUTHORS >Triepels R</bp:AUTHORS>
+      <bp:AUTHORS >Smeets R</bp:AUTHORS>
+      <bp:AUTHORS >Schuelke M</bp:AUTHORS>
+      <bp:AUTHORS >Sengers R</bp:AUTHORS>
+      <bp:AUTHORS >Trijbels F</bp:AUTHORS>
+      <bp:AUTHORS >Hamel B</bp:AUTHORS>
+      <bp:AUTHORS >Mullaart R</bp:AUTHORS>
+      <bp:AUTHORS >van den Heuvel L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f32">
+      <bp:ID >16200211</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A molecular chaperone for mitochondrial complex I assembly is mutated in a progressive encephalopathy.</bp:TITLE>
+      <bp:SOURCE >J Clin Invest</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Ogilvie I</bp:AUTHORS>
+      <bp:AUTHORS >Kennaway NG</bp:AUTHORS>
+      <bp:AUTHORS >Shoubridge EA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fe2">
+      <bp:ID >24191001</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Assembly factors for the membrane arm of human complex I.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Andrews B</bp:AUTHORS>
+      <bp:AUTHORS >Carroll J</bp:AUTHORS>
+      <bp:AUTHORS >Ding S</bp:AUTHORS>
+      <bp:AUTHORS >Fearnley IM</bp:AUTHORS>
+      <bp:AUTHORS >Walker JE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f38">
+      <bp:ID >27720676</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The Assembly Pathway of Mitochondrial Respiratory Chain Complex I.</bp:TITLE>
+      <bp:SOURCE >Cell Metab</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Guerrero-Castillo S</bp:AUTHORS>
+      <bp:AUTHORS >Baertling F</bp:AUTHORS>
+      <bp:AUTHORS >Kownatzki D</bp:AUTHORS>
+      <bp:AUTHORS >Wessels HJ</bp:AUTHORS>
+      <bp:AUTHORS >Arnold S</bp:AUTHORS>
+      <bp:AUTHORS >Brandt U</bp:AUTHORS>
+      <bp:AUTHORS >Nijtmans L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cb9">
+      <bp:ID >17383918</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Investigation of the complex I assembly chaperones B17.2L and NDUFAF1 in a cohort of CI deficient patients.</bp:TITLE>
+      <bp:SOURCE >Mol Genet Metab</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Vogel RO</bp:AUTHORS>
+      <bp:AUTHORS >van den Brand MA</bp:AUTHORS>
+      <bp:AUTHORS >Rodenburg RJ</bp:AUTHORS>
+      <bp:AUTHORS >van den Heuvel LP</bp:AUTHORS>
+      <bp:AUTHORS >Tsuneoka M</bp:AUTHORS>
+      <bp:AUTHORS >Smeitink JA</bp:AUTHORS>
+      <bp:AUTHORS >Nijtmans LG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed5">
+      <bp:ID >24838397</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE />
+      <bp:SOURCE />
+      <bp:YEAR />
+      <bp:ID >24838397</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The arginine methyltransferase NDUFAF7 is essential for complex I assembly and early vertebrate embryogenesis.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Zurita Rend&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#226;&#8364;&#160;&#195;&#162;&#226;&#8218;&#172;&#226;&#8222;&#162;&#195;&#402;&#198;&#8217;&#195;&#162;&#226;&#8218;&#172;&#197;&#161;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#179;n O</bp:AUTHORS>
+      <bp:AUTHORS >Silva Neiva L</bp:AUTHORS>
+      <bp:AUTHORS >Sasarman F</bp:AUTHORS>
+      <bp:AUTHORS >Shoubridge EA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d03">
+      <bp:ID >24089531</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NDUFAF7 methylates arginine 85 in the NDUFS2 subunit of human complex I.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Rhein VF</bp:AUTHORS>
+      <bp:AUTHORS >Carroll J</bp:AUTHORS>
+      <bp:AUTHORS >Ding S</bp:AUTHORS>
+      <bp:AUTHORS >Fearnley IM</bp:AUTHORS>
+      <bp:AUTHORS >Walker JE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c23">
+      <bp:ID >24344204</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >TIMMDC1/C3orf1 functions as a membrane-embedded mitochondrial complex I assembly factor through association with the MCIA complex.</bp:TITLE>
+      <bp:SOURCE >Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Guarani V</bp:AUTHORS>
+      <bp:AUTHORS >Paulo J</bp:AUTHORS>
+      <bp:AUTHORS >Zhai B</bp:AUTHORS>
+      <bp:AUTHORS >Huttlin EL</bp:AUTHORS>
+      <bp:AUTHORS >Gygi SP</bp:AUTHORS>
+      <bp:AUTHORS >Harper JW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fad">
+      <bp:ID >18614015</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A mitochondrial protein compendium elucidates complex I disease biology.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Pagliarini DJ</bp:AUTHORS>
+      <bp:AUTHORS >Calvo SE</bp:AUTHORS>
+      <bp:AUTHORS >Chang B</bp:AUTHORS>
+      <bp:AUTHORS >Sheth SA</bp:AUTHORS>
+      <bp:AUTHORS >Vafai SB</bp:AUTHORS>
+      <bp:AUTHORS >Ong SE</bp:AUTHORS>
+      <bp:AUTHORS >Walford GA</bp:AUTHORS>
+      <bp:AUTHORS >Sugiana C</bp:AUTHORS>
+      <bp:AUTHORS >Boneh A</bp:AUTHORS>
+      <bp:AUTHORS >Chen WK</bp:AUTHORS>
+      <bp:AUTHORS >Hill DE</bp:AUTHORS>
+      <bp:AUTHORS >Vidal M</bp:AUTHORS>
+      <bp:AUTHORS >Evans JG</bp:AUTHORS>
+      <bp:AUTHORS >Thorburn DR</bp:AUTHORS>
+      <bp:AUTHORS >Carr SA</bp:AUTHORS>
+      <bp:AUTHORS >Mootha VK</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d45">
+      <bp:ID >27626371</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Accessory subunits are integral for assembly and function of human mitochondrial complex I.</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Stroud DA</bp:AUTHORS>
+      <bp:AUTHORS >Surgenor EE</bp:AUTHORS>
+      <bp:AUTHORS >Formosa LE</bp:AUTHORS>
+      <bp:AUTHORS >Reljic B</bp:AUTHORS>
+      <bp:AUTHORS >Frazier AE</bp:AUTHORS>
+      <bp:AUTHORS >Dibley MG</bp:AUTHORS>
+      <bp:AUTHORS >Osellame LD</bp:AUTHORS>
+      <bp:AUTHORS >Stait T</bp:AUTHORS>
+      <bp:AUTHORS >Beilharz TH</bp:AUTHORS>
+      <bp:AUTHORS >Thorburn DR</bp:AUTHORS>
+      <bp:AUTHORS >Salim A</bp:AUTHORS>
+      <bp:AUTHORS >Ryan MT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca9">
+      <bp:ID >23260140</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MITRAC links mitochondrial protein translocation to respiratory-chain assembly and translational regulation.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Mick DU</bp:AUTHORS>
+      <bp:AUTHORS >Dennerlein S</bp:AUTHORS>
+      <bp:AUTHORS >Wiese H</bp:AUTHORS>
+      <bp:AUTHORS >Reinhold R</bp:AUTHORS>
+      <bp:AUTHORS >Pacheu-Grau D</bp:AUTHORS>
+      <bp:AUTHORS >Lorenzi I</bp:AUTHORS>
+      <bp:AUTHORS >Sasarman F</bp:AUTHORS>
+      <bp:AUTHORS >Weraarpachai W</bp:AUTHORS>
+      <bp:AUTHORS >Shoubridge EA</bp:AUTHORS>
+      <bp:AUTHORS >Warscheid B</bp:AUTHORS>
+      <bp:AUTHORS >Rehling P</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efe">
+      <bp:ID >17557076</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Human CIA30 is involved in the early assembly of mitochondrial complex I and mutations in its gene cause disease.</bp:TITLE>
+      <bp:SOURCE >EMBO J</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Dunning CJ</bp:AUTHORS>
+      <bp:AUTHORS >McKenzie M</bp:AUTHORS>
+      <bp:AUTHORS >Sugiana C</bp:AUTHORS>
+      <bp:AUTHORS >Lazarou M</bp:AUTHORS>
+      <bp:AUTHORS >Silke J</bp:AUTHORS>
+      <bp:AUTHORS >Connelly A</bp:AUTHORS>
+      <bp:AUTHORS >Fletcher JM</bp:AUTHORS>
+      <bp:AUTHORS >Kirby DM</bp:AUTHORS>
+      <bp:AUTHORS >Thorburn DR</bp:AUTHORS>
+      <bp:AUTHORS >Ryan MT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e5d">
+      <bp:ID >27226634</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NDUFAF5 Hydroxylates NDUFS7 at an Early Stage in the Assembly of Human Complex I.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Rhein VF</bp:AUTHORS>
+      <bp:AUTHORS >Carroll J</bp:AUTHORS>
+      <bp:AUTHORS >Ding S</bp:AUTHORS>
+      <bp:AUTHORS >Fearnley IM</bp:AUTHORS>
+      <bp:AUTHORS >Walker JE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aeb">
+      <bp:ID >20816094</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Acyl-CoA dehydrogenase 9 is required for the biogenesis of oxidative phosphorylation complex I.</bp:TITLE>
+      <bp:SOURCE >Cell Metab</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Nouws J</bp:AUTHORS>
+      <bp:AUTHORS >Nijtmans L</bp:AUTHORS>
+      <bp:AUTHORS >Houten SM</bp:AUTHORS>
+      <bp:AUTHORS >van den Brand M</bp:AUTHORS>
+      <bp:AUTHORS >Huynen M</bp:AUTHORS>
+      <bp:AUTHORS >Venselaar H</bp:AUTHORS>
+      <bp:AUTHORS >Hoefs S</bp:AUTHORS>
+      <bp:AUTHORS >Gloerich J</bp:AUTHORS>
+      <bp:AUTHORS >Kronick J</bp:AUTHORS>
+      <bp:AUTHORS >Hutchin T</bp:AUTHORS>
+      <bp:AUTHORS >Willems P</bp:AUTHORS>
+      <bp:AUTHORS >Rodenburg R</bp:AUTHORS>
+      <bp:AUTHORS >Wanders R</bp:AUTHORS>
+      <bp:AUTHORS >van den Heuvel L</bp:AUTHORS>
+      <bp:AUTHORS >Smeitink J</bp:AUTHORS>
+      <bp:AUTHORS >Vogel RO</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >electron transport chain pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000034</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >oxidative phosphorylation pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001059</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da8">
+      <bp:ID >25678554</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Characterization of mitochondrial FOXRED1 in the assembly of respiratory chain complex I.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Formosa LE</bp:AUTHORS>
+      <bp:AUTHORS >Mimaki M</bp:AUTHORS>
+      <bp:AUTHORS >Frazier AE</bp:AUTHORS>
+      <bp:AUTHORS >McKenzie M</bp:AUTHORS>
+      <bp:AUTHORS >Stait TL</bp:AUTHORS>
+      <bp:AUTHORS >Thorburn DR</bp:AUTHORS>
+      <bp:AUTHORS >Stroud DA</bp:AUTHORS>
+      <bp:AUTHORS >Ryan MT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d51">
+      <bp:ID >20858599</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >FOXRED1, encoding an FAD-dependent oxidoreductase complex-I-specific molecular chaperone, is mutated in infantile-onset mitochondrial encephalopathy.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Fassone E</bp:AUTHORS>
+      <bp:AUTHORS >Duncan AJ</bp:AUTHORS>
+      <bp:AUTHORS >Taanman JW</bp:AUTHORS>
+      <bp:AUTHORS >Pagnamenta AT</bp:AUTHORS>
+      <bp:AUTHORS >Sadowski MI</bp:AUTHORS>
+      <bp:AUTHORS >Holand T</bp:AUTHORS>
+      <bp:AUTHORS >Qasim W</bp:AUTHORS>
+      <bp:AUTHORS >Rutland P</bp:AUTHORS>
+      <bp:AUTHORS >Calvo SE</bp:AUTHORS>
+      <bp:AUTHORS >Mootha VK</bp:AUTHORS>
+      <bp:AUTHORS >Bitner-Glindzicz M</bp:AUTHORS>
+      <bp:AUTHORS >Rahman S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e00">
+      <bp:ID >22356826</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Iterative orthology prediction uncovers new mitochondrial proteins and identifies C12orf62 as the human ortholog of COX14, a protein involved in the assembly of cytochrome c oxidase.</bp:TITLE>
+      <bp:SOURCE >Genome Biol</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Szklarczyk R</bp:AUTHORS>
+      <bp:AUTHORS >Wanschers BF</bp:AUTHORS>
+      <bp:AUTHORS >Cuypers TD</bp:AUTHORS>
+      <bp:AUTHORS >Esseling JJ</bp:AUTHORS>
+      <bp:AUTHORS >Riemersma M</bp:AUTHORS>
+      <bp:AUTHORS >van den Brand MA</bp:AUTHORS>
+      <bp:AUTHORS >Gloerich J</bp:AUTHORS>
+      <bp:AUTHORS >Lasonder E</bp:AUTHORS>
+      <bp:AUTHORS >van den Heuvel LP</bp:AUTHORS>
+      <bp:AUTHORS >Nijtmans LG</bp:AUTHORS>
+      <bp:AUTHORS >Huynen MA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fbf">
+      <bp:ID >27623250</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Exome sequencing coupled with mRNA analysis identifies NDUFAF6 as a Leigh gene.</bp:TITLE>
+      <bp:SOURCE >Mol Genet Metab</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Bianciardi L</bp:AUTHORS>
+      <bp:AUTHORS >Imperatore V</bp:AUTHORS>
+      <bp:AUTHORS >Fernandez-Vizarra E</bp:AUTHORS>
+      <bp:AUTHORS >Lopomo A</bp:AUTHORS>
+      <bp:AUTHORS >Falabella M</bp:AUTHORS>
+      <bp:AUTHORS >Furini S</bp:AUTHORS>
+      <bp:AUTHORS >Galluzzi P</bp:AUTHORS>
+      <bp:AUTHORS >Grosso S</bp:AUTHORS>
+      <bp:AUTHORS >Zeviani M</bp:AUTHORS>
+      <bp:AUTHORS >Renieri A</bp:AUTHORS>
+      <bp:AUTHORS >Mari F</bp:AUTHORS>
+      <bp:AUTHORS >Frullanti E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e31">
+      <bp:ID >24564666</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Nuclear genetic defects of mitochondrial ATP synthase.</bp:TITLE>
+      <bp:SOURCE >Physiol Res</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Hejzlarov&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#226;&#8364;&#160;&#195;&#162;&#226;&#8218;&#172;&#226;&#8222;&#162;&#195;&#402;&#198;&#8217;&#195;&#162;&#226;&#8218;&#172;&#197;&#161;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#161; K</bp:AUTHORS>
+      <bp:AUTHORS >Mr&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#226;&#8364;&#160;&#195;&#162;&#226;&#8218;&#172;&#226;&#8222;&#162;&#195;&#402;&#198;&#8217;&#195;&#162;&#226;&#8218;&#172;&#197;&#161;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#161;&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#194;&#162;&#195;&#162;&#226;&#8364;&#353;&#194;&#172;&#195;&#8230;&#194;&#190;&#195;&#402;&#198;&#8217;&#195;&#8218;&#194;&#175;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#191;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#189;ek T</bp:AUTHORS>
+      <bp:AUTHORS >Vrback&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#226;&#8364;&#160;&#195;&#162;&#226;&#8218;&#172;&#226;&#8222;&#162;&#195;&#402;&#198;&#8217;&#195;&#162;&#226;&#8218;&#172;&#197;&#161;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#189; M</bp:AUTHORS>
+      <bp:AUTHORS >Kaplanov&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#226;&#8364;&#160;&#195;&#162;&#226;&#8218;&#172;&#226;&#8222;&#162;&#195;&#402;&#198;&#8217;&#195;&#162;&#226;&#8218;&#172;&#197;&#161;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#161; V</bp:AUTHORS>
+      <bp:AUTHORS >Karbanov&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#226;&#8364;&#160;&#195;&#162;&#226;&#8218;&#172;&#226;&#8222;&#162;&#195;&#402;&#198;&#8217;&#195;&#162;&#226;&#8218;&#172;&#197;&#161;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#161; V</bp:AUTHORS>
+      <bp:AUTHORS >N&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#194;&#162;&#195;&#162;&#226;&#8364;&#353;&#194;&#172;&#195;&#8218;&#194;&#166;&#195;&#402;&#198;&#8217;&#195;&#162;&#226;&#8218;&#172;&#197;&#161;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#175;skov&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#226;&#8364;&#160;&#195;&#162;&#226;&#8218;&#172;&#226;&#8222;&#162;&#195;&#402;&#198;&#8217;&#195;&#162;&#226;&#8218;&#172;&#197;&#161;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#161; H</bp:AUTHORS>
+      <bp:AUTHORS >Pecina P</bp:AUTHORS>
+      <bp:AUTHORS >Hou&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#194;&#162;&#195;&#162;&#226;&#8364;&#353;&#194;&#172;&#195;&#8218;&#194;&#166;&#195;&#402;&#198;&#8217;&#195;&#162;&#226;&#8218;&#172;&#197;&#161;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#161;t&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#194;&#162;&#195;&#162;&#226;&#8364;&#353;&#194;&#172;&#195;&#8230;&#194;&#190;&#195;&#402;&#198;&#8217;&#195;&#8218;&#194;&#162;&#195;&#402;&#194;&#162;&#195;&#162;&#226;&#8218;&#172;&#197;&#161;&#195;&#8218;&#194;&#172;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#186;k J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dbe">
+      <bp:ID >20818383</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >High-throughput, pooled sequencing identifies mutations in NUBPL and FOXRED1 in human complex I deficiency.</bp:TITLE>
+      <bp:SOURCE >Nat Genet</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Calvo SE</bp:AUTHORS>
+      <bp:AUTHORS >Tucker EJ</bp:AUTHORS>
+      <bp:AUTHORS >Compton AG</bp:AUTHORS>
+      <bp:AUTHORS >Kirby DM</bp:AUTHORS>
+      <bp:AUTHORS >Crawford G</bp:AUTHORS>
+      <bp:AUTHORS >Burtt NP</bp:AUTHORS>
+      <bp:AUTHORS >Rivas M</bp:AUTHORS>
+      <bp:AUTHORS >Guiducci C</bp:AUTHORS>
+      <bp:AUTHORS >Bruno DL</bp:AUTHORS>
+      <bp:AUTHORS >Goldberger OA</bp:AUTHORS>
+      <bp:AUTHORS >Redman MC</bp:AUTHORS>
+      <bp:AUTHORS >Wiltshire E</bp:AUTHORS>
+      <bp:AUTHORS >Wilson CJ</bp:AUTHORS>
+      <bp:AUTHORS >Altshuler D</bp:AUTHORS>
+      <bp:AUTHORS >Gabriel SB</bp:AUTHORS>
+      <bp:AUTHORS >Daly MJ</bp:AUTHORS>
+      <bp:AUTHORS >Thorburn DR</bp:AUTHORS>
+      <bp:AUTHORS >Mootha VK</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b02">
+      <bp:ID >19752196</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Human ind1, an iron-sulfur cluster assembly factor for respiratory complex I.</bp:TITLE>
+      <bp:SOURCE >Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Sheftel AD</bp:AUTHORS>
+      <bp:AUTHORS >Stehling O</bp:AUTHORS>
+      <bp:AUTHORS >Pierik AJ</bp:AUTHORS>
+      <bp:AUTHORS >Netz DJ</bp:AUTHORS>
+      <bp:AUTHORS >Kerscher S</bp:AUTHORS>
+      <bp:AUTHORS >Els&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#226;&#8364;&#160;&#195;&#162;&#226;&#8218;&#172;&#226;&#8222;&#162;&#195;&#402;&#198;&#8217;&#195;&#162;&#226;&#8218;&#172;&#197;&#161;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#164;sser HP</bp:AUTHORS>
+      <bp:AUTHORS >Wittig I</bp:AUTHORS>
+      <bp:AUTHORS >Balk J</bp:AUTHORS>
+      <bp:AUTHORS >Brandt U</bp:AUTHORS>
+      <bp:AUTHORS >Lill R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ffd">
+      <bp:ID >17344420</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cytosolic signaling protein Ecsit also localizes to mitochondria where it interacts with chaperone NDUFAF1 and functions in complex I assembly.</bp:TITLE>
+      <bp:SOURCE >Genes Dev</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Vogel RO</bp:AUTHORS>
+      <bp:AUTHORS >Janssen RJ</bp:AUTHORS>
+      <bp:AUTHORS >van den Brand MA</bp:AUTHORS>
+      <bp:AUTHORS >Dieteren CE</bp:AUTHORS>
+      <bp:AUTHORS >Verkaart S</bp:AUTHORS>
+      <bp:AUTHORS >Koopman WJ</bp:AUTHORS>
+      <bp:AUTHORS >Willems PH</bp:AUTHORS>
+      <bp:AUTHORS >Pluk W</bp:AUTHORS>
+      <bp:AUTHORS >van den Heuvel LP</bp:AUTHORS>
+      <bp:AUTHORS >Smeitink JA</bp:AUTHORS>
+      <bp:AUTHORS >Nijtmans LG</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

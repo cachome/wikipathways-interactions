@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="mRNA, protein, and metabolite inducation pathway by cyclosporin A" Version="20161215" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Exposure to cyclosporin A triggers a cascade of changes in expression and abundance of various mRNAs, proteins, and metabolites, which can be measured experimentally.</Comment>
+  <BiopaxRef>a4c</BiopaxRef>
+  <Graphics BoardWidth="1363.0" BoardHeight="888.9845288326295"/>
+  <DataNode TextLabel="Nrf2" GraphId="a000b" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="SLC3A2" GraphId="a500d" Type="GeneProduct" GroupRef="e6656">
+        </DataNode>
+  <DataNode TextLabel="glutathione&#10;reductase" GraphId="a6312" Type="Rna">
+    <Graphics Color="ff00ff"/>
+    </DataNode>
+  <DataNode TextLabel="Pi" GraphId="bc610" Type="Metabolite">
+    <Comment>Assuming this is Phosphate ion</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ATF4" GraphId="bca34" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="L-leucine" GraphId="be76f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ROS" GraphId="ca578" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="cysteine" GraphId="d362a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="L-Isoleucine" GraphId="db057" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SLC7A5" GraphId="ef1ac" Type="GeneProduct" GroupRef="e6656">
+        </DataNode>
+  <DataNode TextLabel="SLC1A5" GraphId="a0248" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="L-tyrosine" GraphId="c902f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="L-Valine" GraphId="b37eb" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="L-tryptophan" GraphId="c0e20" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="L-threonine" GraphId="d8099" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="L-alanine" GraphId="df1cc" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="L-glutamine" GraphId="aa76a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="L-asparagine" GraphId="d2032" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SLC3A2" GraphId="c4b67" Type="GeneProduct">
+    <Graphics Color="ff00ff"/>
+    </DataNode>
+  <DataNode TextLabel="SLC7A5" GraphId="bb946" Type="GeneProduct">
+    <Graphics Color="ff00ff"/>
+    </DataNode>
+  <DataNode TextLabel="SLC1A5" GraphId="b6e3b" Type="GeneProduct">
+    <Graphics Color="ff00ff"/>
+    </DataNode>
+  <DataNode TextLabel="KEAP1" GraphId="ef641" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="KEAP1" GraphId="b5645" Type="Protein">
+    <Graphics Color="ff00ff"/>
+    </DataNode>
+  <DataNode TextLabel="ATF4" GraphId="dc103" Type="GeneProduct">
+    <Graphics Color="ff00ff"/>
+    </DataNode>
+  <DataNode TextLabel="glutamate cysteine&#10;ligase catalytic subunit" GraphId="cd3ad" Type="Rna">
+    <Graphics Color="ff00ff"/>
+    </DataNode>
+  <DataNode TextLabel="glutamate cysteine&#10;ligase modifier subunit" GraphId="eea31" Type="Rna">
+    <Graphics Color="ff00ff"/>
+    </DataNode>
+  <DataNode TextLabel="glutamate cysteine&#10;ligase modifier subunit" GraphId="e4432" Type="Rna">
+        </DataNode>
+  <DataNode TextLabel="glutamate cysteine&#10;ligase modifier subunit" GraphId="c4831" Type="Rna">
+        </DataNode>
+  <DataNode TextLabel="ADP" GraphId="ddbfd" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SLC7A11" GraphId="b02b9" Type="GeneProduct">
+    <Graphics Color="ff00ff"/>
+    </DataNode>
+  <DataNode TextLabel="SLC3A2" GraphId="f87e4" Type="GeneProduct" GroupRef="d52aa">
+        </DataNode>
+  <DataNode TextLabel="SLC7A11" GraphId="c4ccf" Type="GeneProduct" GroupRef="d52aa">
+        </DataNode>
+  <DataNode TextLabel="L-cysteine" GraphId="d820e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="id13f185e9">
+    <Graphics>
+      <Point GraphRef="aed64"/>
+      <Point GraphRef="be76f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id146d815f">
+    <Graphics>
+      <Point GraphRef="d5ef6"/>
+      <Point GraphRef="d362a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id17b6d50f">
+    <Graphics>
+      <Point GraphRef="ca578"/>
+      <Point GraphRef="ef641" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1e721d1b">
+    <Graphics>
+      <Point GraphRef="a0248"/>
+      <Point GraphRef="d8099" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1fb98369">
+    <Graphics>
+      <Point GraphRef="bca34"/>
+      <Point GraphRef="b6e3b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2345eef9">
+    <Graphics>
+      <Point GraphRef="aed64"/>
+      <Point GraphRef="c0e20" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id273c38f9">
+    <Graphics>
+      <Point GraphRef="a0248"/>
+      <Point GraphRef="df1cc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id393faed7">
+    <Graphics>
+      <Point GraphRef="a000b"/>
+      <Point GraphRef="eea31" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3e581f36">
+    <Graphics>
+      <Point GraphRef="a0248"/>
+      <Point GraphRef="aa76a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id40853d5e">
+    <Graphics>
+      <Point GraphRef="c4b67"/>
+      <Point GraphRef="a500d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id461e3dd0">
+    <Graphics>
+      <Point GraphRef="dc103"/>
+      <Point GraphRef="bca34" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4882ae9e">
+    <Graphics>
+      <Point GraphRef="a0248"/>
+      <Point GraphRef="c0e20" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4a6208ff">
+    <Graphics>
+      <Point GraphRef="c4b67"/>
+      <Point GraphRef="f87e4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5a9955b5">
+    <Graphics>
+      <Point GraphRef="aed64"/>
+      <Point GraphRef="db057" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id65fa99f2">
+    <Graphics>
+      <Point GraphRef="b6e3b"/>
+      <Point GraphRef="a0248" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id69cbecca">
+    <Graphics>
+      <Point GraphRef="d362a"/>
+      <Point GraphRef="d820e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6d0b5db4">
+    <Graphics>
+      <Point GraphRef="ef641"/>
+      <Point GraphRef="a000b" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id752475b7">
+    <Graphics>
+      <Point GraphRef="cd3ad"/>
+      <Point GraphRef="c4831" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7770e226">
+    <Graphics>
+      <Point GraphRef="a000b"/>
+      <Point GraphRef="cd3ad" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id85238aca">
+    <Graphics>
+      <Point GraphRef="a000b"/>
+      <Point GraphRef="dc103" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id87c72705">
+    <Graphics>
+      <Point GraphRef="bb946"/>
+      <Point GraphRef="ef1ac" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idadb3e53e">
+    <Graphics>
+      <Point GraphRef="b5645"/>
+      <Point GraphRef="ef641" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb0553232">
+    <Graphics>
+      <Point GraphRef="bca34"/>
+      <Point GraphRef="bb946" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idba8c6a39">
+    <Graphics>
+      <Point GraphRef="a0248"/>
+      <Point GraphRef="b37eb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbd28af4c">
+    <Graphics>
+      <Point GraphRef="a0248"/>
+      <Point GraphRef="db057" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc0c7f158">
+    <Graphics>
+      <Point GraphRef="d820e"/>
+      <Point GraphRef="c4831" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc57b60b7">
+    <Graphics>
+      <Point GraphRef="bc610"/>
+      <Point GraphRef="c4831" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc65eb345">
+    <Graphics>
+      <Point GraphRef="eea31"/>
+      <Point GraphRef="e4432" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcc07cdd0">
+    <Graphics>
+      <Point GraphRef="a0248"/>
+      <Point GraphRef="d2032" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb549c07">
+    <Graphics>
+      <Point GraphRef="b02b9"/>
+      <Point GraphRef="c4ccf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idde10df95">
+    <Graphics>
+      <Point GraphRef="e4432"/>
+      <Point GraphRef="c4831" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide5c23faf">
+    <Graphics>
+      <Point GraphRef="ddbfd"/>
+      <Point GraphRef="c4831" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idea700f20">
+    <Graphics>
+      <Point GraphRef="a000b"/>
+      <Point GraphRef="a6312" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf3610136">
+    <Graphics>
+      <Point GraphRef="a0248"/>
+      <Point GraphRef="c902f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf3f2f68a">
+    <Graphics>
+      <Point GraphRef="bca34"/>
+      <Point GraphRef="c4b67" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf590b564">
+    <Graphics>
+      <Point GraphRef="a0248"/>
+      <Point GraphRef="be76f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfaffca53">
+    <Graphics>
+      <Point GraphRef="aed64"/>
+      <Point GraphRef="b37eb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfea5965c">
+    <Graphics>
+      <Point GraphRef="aed64"/>
+      <Point GraphRef="c902f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Group GroupId="e6656" GraphId="aed64" Style="Group"/>
+  <Group GroupId="c391a" GraphId="d29fb" Style="Group"/>
+  <Group GroupId="d52aa" GraphId="d5ef6" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >xenobiotic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001229</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a4c">
+      <bp:ID >23238060</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Application of integrated transcriptomic, proteomic and metabolomic profiling for the delineation of mechanisms of drug induced cell stress.</bp:TITLE>
+      <bp:SOURCE >J Proteomics</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Wilmes A</bp:AUTHORS>
+      <bp:AUTHORS >Limonciel A</bp:AUTHORS>
+      <bp:AUTHORS >Aschauer L</bp:AUTHORS>
+      <bp:AUTHORS >Moenks K</bp:AUTHORS>
+      <bp:AUTHORS >Bielow C</bp:AUTHORS>
+      <bp:AUTHORS >Leonard MO</bp:AUTHORS>
+      <bp:AUTHORS >Hamon J</bp:AUTHORS>
+      <bp:AUTHORS >Carpi D</bp:AUTHORS>
+      <bp:AUTHORS >Ruzek S</bp:AUTHORS>
+      <bp:AUTHORS >Handler A</bp:AUTHORS>
+      <bp:AUTHORS >Schmal O</bp:AUTHORS>
+      <bp:AUTHORS >Herrgen K</bp:AUTHORS>
+      <bp:AUTHORS >Bellwon P</bp:AUTHORS>
+      <bp:AUTHORS >Burek C</bp:AUTHORS>
+      <bp:AUTHORS >Truisi GL</bp:AUTHORS>
+      <bp:AUTHORS >Hewitt P</bp:AUTHORS>
+      <bp:AUTHORS >Di Consiglio E</bp:AUTHORS>
+      <bp:AUTHORS >Testai E</bp:AUTHORS>
+      <bp:AUTHORS >Blaauboer BJ</bp:AUTHORS>
+      <bp:AUTHORS >Guillou C</bp:AUTHORS>
+      <bp:AUTHORS >Huber CG</bp:AUTHORS>
+      <bp:AUTHORS >Lukas A</bp:AUTHORS>
+      <bp:AUTHORS >Pfaller W</bp:AUTHORS>
+      <bp:AUTHORS >Mueller SO</bp:AUTHORS>
+      <bp:AUTHORS >Bois FY</bp:AUTHORS>
+      <bp:AUTHORS >Dekant W</bp:AUTHORS>
+      <bp:AUTHORS >Jennings P</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transcriptional activation by NRF2 in response to phytochemicals" Last-Modified="5/16/2012" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="WikiPathways-description">Based on [http://www.nature.com/nrc/journal/v3/n10/fig_tab/nrc1189_F4.html Surh, 2003, figure 4].
+
+NRF2 is a transcription factor that regulates expression of many detoxification or antioxidant enzymes. The Kelch-like-ECH-associated protein 1 (KEAP1) is a cytoplasmic repressor of NRF2 that inhibits its ability to translocate to the nucleus. These two proteins interact with each other through the double glycine-rich domains of KEAP1 and a hydrophilic region in the NEH2 domain of NRF2. KEAP1 contains many cysteine residues. Phase II enzyme inducers and/or prooxidants can cause oxidation or covalent modification (R) of these cysteine residues. As a result, NRF2 is released from KEAP1. In addition, phosphorylation of NRF2 at serine (S) and threonine (T) residues by kinases such as phosphatidylinositol 3-kinase (PI3K), protein kinase C (PKC), c-Jun NH2-terminal kinase (JNK) and extracellular-signal-regulated kinase (ERK) is assumed to facilitate the dissociation of NRF2 from KEAP1 and subsequent translocation to the nucleus. p38 can both stimulate and inhibit the NRF2 nuclear translocation. In the nucleus, NRF2 associates with small MAF (the term is derived from musculoaponeurotic-fibrosarcoma virus), forming a heterodimer that binds to the antioxidant-responsive element (ARE) to stimulate gene expression. NRF2/MAF target genes encode phase II detoxification or antioxidant enzymes such as glutathione S-transferase alpha2 (GSTA2), NAD(P)H:quinone oxidoreductase (NQO1), gamma-glutamate cysteine ligase (gamma -GCLC and gamma -GCLM) and heme oxygenase-1 (HO-1). PI3K also phosphorylates the CCAAT/enhancer binding protein-beta (C/EBPbeta), inducing its translocation to the nucleus and binding to the CCAAT sequence of C/EBP-beta response element within the xenobiotic response element (XRE), in conjunction with NRF2 binding to ARE. Transfection of human neuroblastoma cells with PI3K activates ARE, which is attenuated by a pharmacological inhibitor of PI3K or dominant-negative NRF2. Curcumin and caffeic acid phenethyl ester (CAPE) disrupt the NRF2&#8211;KEAP1 complex, leading to increased NRF2 binding to ARE. Sulphoraphane directly interacts with KEAP1 by covalent binding to its thiol groups. 6-(Methylsulfinyl)hexyl isothiocyanate (6-HITC) &#8212; a sulphoraphane analogue from Japanese horseradish wasabi &#8212; stimulates nuclear translocation of NRF2, which subsequently activates ARE.</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <BiopaxRef>dba</BiopaxRef>
+  <Graphics BoardWidth="726.0524455753483" BoardHeight="706.5267175572519"/>
+  <DataNode TextLabel="ERK" GraphId="dbe12" Type="GeneProduct" GroupRef="ca47e">
+        </DataNode>
+  <DataNode TextLabel="C/EBP-beta" GraphId="b3620" Type="GeneProduct" GroupRef="c805e">
+        </DataNode>
+  <DataNode TextLabel="MAF" GraphId="d79c3" Type="GeneProduct" GroupRef="c805e">
+        </DataNode>
+  <DataNode TextLabel="PI3K" GraphId="dea4c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GCLC" GraphId="cecad" Type="GeneProduct" GroupRef="e8313">
+        </DataNode>
+  <DataNode TextLabel="JNK" GraphId="a859f" Type="GeneProduct" GroupRef="ca47e">
+        </DataNode>
+  <DataNode TextLabel="P38" GraphId="b06bd" Type="GeneProduct" GroupRef="ca47e">
+        </DataNode>
+  <DataNode TextLabel="NRF2" GraphId="b68db" Type="GeneProduct" GroupRef="c805e">
+        </DataNode>
+  <DataNode TextLabel="PKC" GraphId="a62fe" Type="GeneProduct" GroupRef="ca47e">
+        </DataNode>
+  <DataNode TextLabel="NRF2" GraphId="d3b16" Type="GeneProduct" GroupRef="abe0b">
+        </DataNode>
+  <DataNode TextLabel="KEAP1" GraphId="d61e1" Type="GeneProduct" GroupRef="abe0b">
+        </DataNode>
+  <DataNode TextLabel="HO-1" GraphId="d4c77" Type="GeneProduct" GroupRef="e8313">
+        </DataNode>
+  <DataNode TextLabel="SLC7A11" GraphId="a1b6d" Type="GeneProduct" GroupRef="e8313">
+        </DataNode>
+  <DataNode TextLabel="NQO1" GraphId="f553c" Type="GeneProduct" GroupRef="e8313">
+        </DataNode>
+  <DataNode TextLabel="Curcumin" GraphId="ff3f4" Type="Metabolite" GroupRef="e3b6d">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GSTA2" GraphId="dfa5a" Type="GeneProduct" GroupRef="e8313">
+        </DataNode>
+  <DataNode TextLabel="GCLM" GraphId="f5ed1" Type="GeneProduct" GroupRef="e8313">
+        </DataNode>
+  <DataNode TextLabel="KEAP1" GraphId="be345" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Caffeic acid phenethyl ester" GraphId="d739f" Type="Metabolite" GroupRef="e3b6d">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C/EBP-beta" GraphId="c9ebb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Sulforaphane" GraphId="b03a0" Type="Metabolite" GroupRef="e3b6d">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="6-HITC" GraphId="b366d" Type="Metabolite">
+    <Comment>Full name: 6-(Methylsulfinyl)hexylisothiocyanate, or Japanese horseradish wasabi</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NRF2" GraphId="b5bb9" Type="GeneProduct" GroupRef="b1a92">
+        </DataNode>
+  <DataNode TextLabel="KEAP1" GraphId="e3f69" Type="GeneProduct" GroupRef="b1a92">
+        </DataNode>
+  <DataNode TextLabel="NRF2" GraphId="b2519" Type="GeneProduct">
+        </DataNode>
+  <State GraphRef="b68db" TextLabel="P" GraphId="aa2c5">
+    <Comment>Threonine phosphorylation</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b68db" TextLabel="P" GraphId="c8125">
+    <Comment>parent=C9J0Y1; parentsymbol=NRF2; site=SREVFDFsQRRkEYE; position=S40; sitegrpid=450082; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d3b16" TextLabel="P" GraphId="e02c4">
+    <Comment>Threonine phosphorylation</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d3b16" TextLabel="P" GraphId="ec84a">
+    <Comment>parent=C9J0Y1; parentsymbol=NRF2; site=SREVFDFsQRRkEYE; position=S40; sitegrpid=450082; ptm=p; direction=u</Comment>
+    <BiopaxRef>ab9</BiopaxRef>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b2519" TextLabel="P" GraphId="b9fd6">
+    <Comment>Threonine phosphorylation</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b2519" TextLabel="P" GraphId="dc608">
+    <Comment>parent=C9J0Y1; parentsymbol=NRF2; site=SREVFDFsQRRkEYE; position=S40; sitegrpid=450082; ptm=p; direction=u</Comment>
+    <BiopaxRef>ab9</BiopaxRef>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="dc948">
+    <Graphics>
+      <Point GraphRef="dabcf"/>
+      <Point GraphRef="cfadf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id14c2c6c1">
+    <Graphics>
+      <Point GraphRef="c915f"/>
+      <Point GraphRef="f8512" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b9ef5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id27fc892c">
+    <Graphics>
+      <Point GraphRef="d3065"/>
+      <Point GraphRef="b9ef5" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7b573b82">
+    <Graphics>
+      <Point GraphRef="f8512"/>
+      <Point GraphRef="be345" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddbb87dcb">
+    <Graphics>
+      <Point GraphRef="f8512"/>
+      <Point GraphRef="b2519" ArrowHead="Arrow"/>
+      <Anchor Position="0.45548352956740545" Shape="None" GraphId="cfadf"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb1485347">
+    <Graphics>
+      <Point GraphRef="df624"/>
+      <Point GraphRef="dafdb" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f0473">
+    <Graphics>
+      <Point GraphRef="b366d"/>
+      <Point GraphRef="f1d61" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bd859">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c9ebb"/>
+      <Point GraphRef="b3620" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bcfe7">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b2519"/>
+      <Point GraphRef="b68db" ArrowHead="Arrow"/>
+      <Anchor Position="0.25393289286967663" Shape="None" GraphId="f1d61"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bff9c">
+    <Graphics>
+      <Point GraphRef="dea4c"/>
+      <Point GraphRef="c9ebb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Phase II enzymes" GraphId="edfb9" GroupRef="e8313">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="caf0a">
+    <Graphics FillColor="ffffff" FontName="Dialog" FontStyle="Italic" Color="666666"/>
+  </Label>
+  <Shape GraphId="dabd5">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="b1a92" GraphId="c915f" Style="Complex"/>
+  <Group GroupId="ca47e" GraphId="d3065" Style="Group"/>
+  <Group GroupId="e3b6d" GraphId="dabcf" Style="Group"/>
+  <Group GroupId="e8313" GraphId="dafdb" Style="Group"/>
+  <Group GroupId="c805e" GraphId="df624"/>
+  <Group GroupId="e30a2" GraphId="e160c" Style="Complex"/>
+  <Group GroupId="abe0b" GraphId="f8512" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >nuclear factor, erythroid derived 2, like 2 signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000369</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dba">
+      <bp:ID >14570043</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cancer chemoprevention with dietary phytochemicals.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Cancer</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Surh YJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >oxidative stress response pathways</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000378</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab9">
+      <bp:ID >23434765</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulation of Nrf2-an update.</bp:TITLE>
+      <bp:SOURCE >Free Radic Biol Med</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Niture SK</bp:AUTHORS>
+      <bp:AUTHORS >Khatri R</bp:AUTHORS>
+      <bp:AUTHORS >Jaiswal AK</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

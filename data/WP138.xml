@@ -1,0 +1,1347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Androgen receptor signaling pathway" Last-Modified="10/17/2013" Organism="Homo sapiens" License="Freely available under Creative Commons license 2.8">
+  <Comment Source="WikiPathways-description">Androgens, mainly testosterone and 5alpha-dihydrotestosterone (DHT) play significant role in the growth and development of the male reproductive organs. These steroid hormones bring about their biological functions through their associations with Androgen receptor (AR), a 110 KDa ligand dependent transcription factor that falls under the group of nuclear receptor superfamily. DHT binds the receptor with high affinity compared to testosterone. The AR gene is located in the X chromosome at Xq11-12 site. AR is cytosolic protein, which in the ligand unbound state, is present as a complex with various Heat shock proteins primarily Hsp70, 90 and 56 as well as p23. Upon ligand binding, it dissociates from the complex. AR is found to be expressed in a number of tissues and cells including prostate, testis, seminal vescicle, epididymis, skin, skeletal muscle, cardiac muscle, liver and central nervous system. The protein has four functional domains- an N terminal domain (NTD), a DNA binding domain (DBD), a hinge region and a Ligand binding Domain (LBD). The DBD is a 658 amino acid residue region that has ZNF motifs which allows it bind to DNA. The rest of the domains are involved in dimerization and ligand binding. Two phosphorylation events are proposed to play very important role in the activation of the receptor upon ligand binding. The first phosphorylation event releases the ligand binding domain for hormone binding. The subsequent phosphorylation event is triggered upon hormone binding. Activated AR upon ligand binding undergoes conformational change to form a homodimer and interacts tightly with the Androgen Response Element (ARE). The androgen receptor is known to bind to many co-regulators at different time points and in different cell types. This DNA protein complex triggers the expression of various target genes that are associated with the male phenotype. Modulation of the AR activity is carried out by several transcription factors like ARA70, TR4, SRC family members and CBP/p300 and other associated proteins. FXXLF and WXXLF motifs containing coactivators such as the p160 members bind with the AF2 region of the Ligand Binding Domain of the AR. Androgen receptors are known to induce apoptosis under certain conditions. Various regulators that regulate androgen induced apoptosis include BRCA1 and Smad3 and Akt. Mutation in AR are also known to be associated in a number of diseases including spinal and bulbar muscular atrophy (SBMA) or Kennedy's disease and Androgen Insensitivity syndrome (AIS). Abnormal amplification of the androgen gene as well as deregulation of AR gene expression have been shown to be associated with prostate cancer.
+
+
+Please access this pathway at [http://www.netpath.org/netslim/ar_pathway.html NetSlim] database.
+
+If you use this pathway, please cite following paper:
+Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugopal, A. K., Telikicherla, D., Navarro, J. D., Mathivanan, S., Pecquet, C., Gollapudi, S. K., Tattikota, S. G., Mohan, S., Padhukasahasram, H., Subbannayya, Y., Goel, R., Jacob, H. K. C., Zhong, J., Sekhar, R., Nanjappa, V., Balakrishnan, L., Subbaiah, R., Ramachandra, Y. L., Rahiman, B. A., Prasad, T. S. K., Lin, J., Houtman, J. C. D., Desiderio, S., Renauld, J., Constantinescu, S. N., Ohara, O., Hirano, T., Kubo, M., Singh, S., Khatri, P., Draghici, S., Bader, G. D., Sander, C., Leonard, W. J. and Pandey, A. (2010). NetPath: A public resource of curated signal transduction pathways. &lt;i&gt;Genome Biology&lt;/i&gt;. 11:R3.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP138 CPTAC Assay Portal]</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <BiopaxRef>ace</BiopaxRef>
+  <Graphics BoardWidth="1538.0" BoardHeight="1586.25"/>
+  <DataNode TextLabel="KDM1A" GraphId="a6312" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="BMF" GraphId="ab1cd" Type="Rna">
+    <Graphics FontStyle="Italic"/>
+    </DataNode>
+  <DataNode TextLabel="PIAS3" GraphId="ac25d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="SIRT1" GraphId="ac5ac" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="SMARCE1" GraphId="ac818" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RNF6" GraphId="acb7d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="NR2C2" GraphId="b064b" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RAD9A" GraphId="b34d5" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RHOA" GraphId="b36f9" Type="Protein" GroupRef="c5dfb">
+    <Graphics FillColor="00ffff"/>
+    </DataNode>
+  <DataNode TextLabel="RHOB" GraphId="b470f" Type="Protein" GroupRef="c5dfb">
+    <Graphics FillColor="00ffff"/>
+    </DataNode>
+  <DataNode TextLabel="PSMC3IP" GraphId="b4854" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="SMAD4" GraphId="b76b4" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="FKBP4" GraphId="b7713" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="NCOR2" GraphId="b85b5" Type="Protein" GroupRef="f62b3">
+        </DataNode>
+  <DataNode TextLabel="PIAS1" GraphId="b8d76" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="SUMO1" GraphId="ba0c9" Type="Protein" GroupRef="b4a9b">
+        </DataNode>
+  <DataNode TextLabel="AR" GraphId="bb42d" Type="Protein" GroupRef="e50ce">
+        </DataNode>
+  <DataNode TextLabel="RUNX2" GraphId="bb724" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RAC1" GraphId="bfb15" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PRDX1" GraphId="c0cd8" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="KAT2B" GraphId="c4e8b" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CDC42" GraphId="c69c2" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="NCOR1" GraphId="c8edf" Type="Protein" GroupRef="f62b3">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="c9174" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="ROCK1" GraphId="c9351" Type="Protein" GroupRef="b586f">
+    <Graphics FillColor="00ffff"/>
+    </DataNode>
+  <DataNode TextLabel="EGFR" GraphId="cb4ac" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="HDAC1" GraphId="cb963" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PIK3R2" GraphId="cc3a2" Type="Protein" GroupRef="e2974">
+        </DataNode>
+  <DataNode TextLabel="CREB1" GraphId="ccd89" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RLN1" GraphId="ce15e" Type="GeneProduct">
+    <Graphics FontStyle="Italic"/>
+    </DataNode>
+  <DataNode TextLabel="FOXO1" GraphId="d219b" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MYST2" GraphId="d6501" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="SIN3A" GraphId="d661b" Type="Protein" GroupRef="ea234">
+        </DataNode>
+  <DataNode TextLabel="DSTN" GraphId="d725a" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RB1" GraphId="d7ce8" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="AES" GraphId="d849b" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CARM1" GraphId="d880c" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PATZ1" GraphId="d96a3" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="TGIF1" GraphId="d9b56" Type="Protein" GroupRef="ea234">
+        </DataNode>
+  <DataNode TextLabel="KLK3" GraphId="dba54" Type="Rna">
+    <Graphics FontStyle="Italic"/>
+    </DataNode>
+  <DataNode TextLabel="PPAP2A" GraphId="de498" Type="Rna">
+    <Graphics FontStyle="Italic"/>
+    </DataNode>
+  <DataNode TextLabel="NCOA3" GraphId="e2160" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="TZF" GraphId="e5318" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="SMAD3" GraphId="e6fdc" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PARK7" GraphId="e7ec8" Type="Protein" GroupRef="a2900">
+        </DataNode>
+  <DataNode TextLabel="ZMIZ1" GraphId="e830a" Type="Protein" GroupRef="b4a9b">
+        </DataNode>
+  <DataNode TextLabel="CDKN1A" GraphId="e837e" Type="Rna">
+    <Graphics FontStyle="Italic"/>
+    </DataNode>
+  <DataNode TextLabel="EFCAB6" GraphId="e8c9d" Type="Protein" GroupRef="a2900">
+        </DataNode>
+  <DataNode TextLabel="DAXX" GraphId="e91ac" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RELA" GraphId="eb3cf" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="BAG1" GraphId="ee46e" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="LIMK2" GraphId="eeb3b" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="AR" GraphId="f4004" Type="Protein" GroupRef="c8a56">
+        </DataNode>
+  <DataNode TextLabel="MDM2" GraphId="f4466" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="STUB1" GraphId="f50dc" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="SP1" GraphId="f5671" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="ROCK2" GraphId="f6d33" Type="Protein" GroupRef="b586f">
+    <Graphics FillColor="00ffff"/>
+    </DataNode>
+  <DataNode TextLabel="PTK2" GraphId="f7590" Type="Protein">
+    <Comment>DHT and testosterone induces phosphorylation of FAK in LNCaP cells.</Comment>
+        </DataNode>
+  <DataNode TextLabel="PAK6" GraphId="fc689" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="UBE3A" GraphId="ff008" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="ETV5" GraphId="f49cf" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="NR0B2" GraphId="f6a03" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CAV1" GraphId="b30b9" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="SRC" GraphId="f554e" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="NCOA1" GraphId="f1ad1" Type="Protein" GroupRef="f2781">
+        </DataNode>
+  <DataNode TextLabel="RAN" GraphId="a4d9d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RNF14" GraphId="f0ae4" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PIAS4" GraphId="d9363" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="FLNA" GraphId="a534d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="EP300" GraphId="e11a5" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="cd1ed" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="GNB2L1" GraphId="dee79" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CALR" GraphId="c9cac" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PIK3R1" GraphId="c13e2" Type="Protein" GroupRef="e2974">
+        </DataNode>
+  <DataNode TextLabel="AKT1" GraphId="d01f7" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PTEN" GraphId="d29ba" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="AR" GraphId="ecb1d" Type="Protein" GroupRef="c8a56">
+        </DataNode>
+  <DataNode TextLabel="UBE2I" GraphId="b999d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PIAS2" GraphId="e5cd5" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="AR" GraphId="c0d24" Type="Protein" GroupRef="cc66c">
+        </DataNode>
+  <DataNode TextLabel="BRCA1" GraphId="c97a9" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CCND1" GraphId="a73d7" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="FHL2" GraphId="c78d2" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CREBBP" GraphId="f3188" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="NCOA4" GraphId="a9a21" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="JUN" GraphId="ef4b7" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="NCOA2" GraphId="fb1db" Type="Protein" GroupRef="f2781">
+        </DataNode>
+  <DataNode TextLabel="GSK3B" GraphId="e003a" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="TGFB1I1" GraphId="a0600" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="AR" GraphId="af3c9" Type="Protein" GroupRef="e50ce">
+        </DataNode>
+  <DataNode TextLabel="AR" GraphId="f8d13" Type="Protein" GroupRef="cc66c">
+        </DataNode>
+  <DataNode TextLabel="KAT5" GraphId="f3c28" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CCNE1" GraphId="cc942" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RNF4" GraphId="b686d" Type="Protein">
+        </DataNode>
+  <State GraphRef="f7590" TextLabel="P" GraphId="a662b">
+    <Graphics FillColor="fefe57" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ccd89" TextLabel="P" GraphId="a6b56">
+    <Comment>Stimulation with DHT induces phosphorylation of CREB at Ser-183 (NP_604391.1) in LnCAP cells.</Comment>
+    <Graphics FillColor="fbf311" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d725a" TextLabel="P" GraphId="c0958">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="cc3a2" TextLabel="P" GraphId="d5317">
+    <Graphics FillColor="fafa44" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="eeb3b" TextLabel="P" GraphId="dbf7a">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="bfb15" TextLabel="GTP" GraphId="e0c94">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f554e" TextLabel="P" GraphId="fb242">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c13e2" TextLabel="P" GraphId="e326a">
+    <Comment>Androgen stimulates the phosphorylation of p85 alpha protein in MCF7 cells.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d01f7" TextLabel="P" GraphId="e772e">
+    <Comment>Androgen stimulation leads to induced phosphorylation of AKT1 in HEK293 cells.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ecb1d" TextLabel="P" GraphId="b4e83">
+    <Comment>Stimulation with Androgen induces AR phosphorylation at Ser-80, Ser-93 and Ser-641 in LNCaP cells.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="bcd69">
+    <Comment>On androgen stimulation, HDAC1 interacts with AR and induces the deacetylation of AR in COS-7 cells.</Comment>
+    <Graphics Color="ff9933">
+      <Point GraphRef="cb963"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8413">
+    <Comment>On stimulation by DHT, EP300 acetylates ARat Lys residues at 631, 633,634 in DU145 cells.</Comment>
+    <Graphics Color="ffcc33">
+      <Point GraphRef="e11a5"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id117e6c53">
+    <Comment>R1881 induces the interaction of AES with N-terminal region of AR in PC3 cells. AES is acts as repressor of AR.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="d849b"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id13bc6f89">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="c69c2"/>
+      <Point/>
+      <Point GraphRef="b36f9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id20821e6b">
+    <Comment>SIRT1, a corepressor interacts with the conserved lysine motif of Androgen receptor in LNCaP cells. </Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="ac5ac"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id248f460c">
+    <Comment>AR and HDAC1 are ubiquitinated by MDM2 in response to Androgen in LNCaP cells.</Comment>
+    <Graphics Color="cc00cc">
+      <Point GraphRef="f4466"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id279965c0">
+    <Comment>DHT induces the interaction of NCOA3 with N-terminal and ligand binding domiains of Androgen receptor in Yeast cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="e2160"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2c4eb645">
+    <Comment>Stimulation with Androgen induces the interaction of SP1 with AR which results in the induction of p21 transcription in SK-N-BE(2)-C tumor cells.</Comment>
+    <Graphics>
+      <Point GraphRef="f5671"/>
+      <Point GraphRef="e837e" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id34e101a9">
+    <Comment>DHT induces the interaction between AR and HBO1 in CV-1 and PC-3 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="d6501"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id353e70ac">
+    <Comment>DHT induces the interaction between Androgen receptor and STAT3 in LNCaP cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="c9174"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id365c8057">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="acb7d"/>
+      <Point GraphRef="ab1cd" ArrowHead="mim-transcription-translation"/>
+      <Anchor Position="0.14607359893962651" Shape="None" GraphId="da542"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id39a4279b">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point GraphRef="f7590" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3c00f5d7">
+    <Comment>AR and HDAC1 are ubiquitinated by MDM2 in response to Androgen in LNCaP cells.</Comment>
+    <Graphics Color="cc00cc">
+      <Point GraphRef="f4466"/>
+      <Point GraphRef="cb963" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id424859a8">
+    <Comment>Stimulation with DHT induces the interaction of androgen receptor with Zimp10 in CV1 cells. hZimp10 is capable of enhancing the sumoylation of AR.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="e830a"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id46189bb1">
+    <Comment>Stimualtion with DHT induces the interaction of NT and DB domain of AR with RB in DU145 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="d7ce8"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4a2b7543">
+    <Comment>Testosterone induces the between Androgen Receptor and RELA in COS-1 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="eb3cf"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4ce85a98">
+    <Comment>Stimulation with androgen induces the interaction of AR with PATZ in CV-1 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="d96a3"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id53d79c2f">
+    <Comment>Stimulation with DHT induces the interaction of CHIP with NH2-terminal conserved motif of AR in COS-7 cells. CHIP functions as a negative regulator of AR transcriptional activity by promoting AR degradation. </Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="f50dc"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id59a3f425">
+    <Comment>Stimulation with androgen induces the interaction of LBD domain of NCOR with AR in LNCaP cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="c8edf"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5cc568ab">
+    <Comment>AR interacts with TBPIP both in the presence and absence of DHT in LNCaP cells and in vitro. It acts as a positive regulator of AR transactivation.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="b4854"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id614c32b9">
+    <Comment>DHT induces TR4 interaction with Androgen receptor in H1299 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="b064b"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6904c533">
+    <Comment>Stimulation with DHT induces the interaction between Androgen receptor and BAF57 in LNCaP and LB1-Luc cells. </Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="ac818"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id713c3d58">
+    <Comment>AR interacts with CBP in COS-1 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="f3188"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id71fd00d7">
+    <Comment>Foxo1 is recruited by liganded AR to the chromatin of AR target gene promoters, where it interferes with AR-DNA interactions. </Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="d219b"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id75b0ec9">
+    <Comment>SMAD3 which acts both coactivator and repressor of AR induces the expression of PSA in LNCaP cells.</Comment>
+    <Graphics>
+      <Point GraphRef="e6fdc"/>
+      <Point GraphRef="dba54" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7bb5a892">
+    <Comment>Stimulation with Androgen induces the interaction of LSD1 with AR in mouse testis. LSD1 demethylates histone and stimulate androgen receptor-dependent gene transcription.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="a6312"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7cc11a1b">
+    <Comment>BAG1L interacts with NH2-terminal region of AR in COS-7 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="ee46e"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7f2ed49c">
+    <Comment>Testpsterone stimulation induces destrin phosphorylation in vitro</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="eeb3b"/>
+      <Point GraphRef="d725a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id807b361d">
+    <Comment>Stimulatio nwith DHT induces the interaction of TZF with activation function-1 (AF-1) domain of AR in LNCaP cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="e5318"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id80de3693">
+    <Comment>SRC-1 and TIF2 forms a complex and interacts with AR in LNCaP and androgen independent CDC2 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="f1ad1"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8bee5839">
+    <Comment>Stimulation with Androgen induces the interaction of DAXX with N-terminal and the DNA-binding domain of AR in LNCaP and COS-1 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="e91ac"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8c724b81">
+    <Comment>Stimulation with androgen induces the interaction of SMAD4 with DB and LB domains of AR in LNCaP cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="b76b4"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id91a54820">
+    <Comment>Stimulation with androgen induces the interaction PAK6 with DB and LB domain of AR in CV1 cells. PAK6 is an activator of AR. </Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="fc689"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id91e4c794">
+    <Comment>Stimulation with Androgen induces the interaction of SP1 with AR in LNCaP-FGC and SK-N-BE(2)-C cells. </Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="f5671"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9aee4d8e">
+    <Comment>Stimulation with DHT induces the interaction between  Androgen Receptor and PRDX1 in COS-7 cells.  </Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="c0cd8"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida26596e3">
+    <Comment>Stimulation with DHT induces interaction of AR with CREB and this interaction is mediated by CBP in COS 7 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="ccd89"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida68e519">
+    <Comment>Ligand binding domain of AR interacts with RAD9 in 293T cells and CWR22R cell lines.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="b34d5"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idafb0848c">
+    <Comment>Stimulation with DHT induces the interaction of FKBP52 with AR in rabbit reticulocyte.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="b7713"/>
+      <Point GraphRef="c0d24" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb807edaf">
+    <Comment>Activation of RhoA/B and ROCK is implicated in membrane androgen receptor-dependent actin polymerization. </Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d725a"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb8441377">
+    <Comment>DHT stimulation induces the interaction of PIAS3 with AR in LNCaP cells. PIAS3 acts as both activator and repressor of AR.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="ac25d"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb86f9997">
+    <Comment> AR interacts with RNF4 in CV-1 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="b686d"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb8dfe085">
+    <Comment>Androgen stimulates the interaction between Androgen receptor and PARK7 in LNCaP cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="e7ec8"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb9239cbc">
+    <Comment>Stimulation with R1881 induces interaction between E6-AP and androgen receptor in prostrate cancer cell lines.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="ff008"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc42b1416" GroupRef="e2974">
+    <Comment>DHT and testosterone induces activation of Rac1and CDC42  in LNCaP cells.</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="cc3a2"/>
+      <Point GraphRef="e0c94" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idca378db2">
+    <Comment>CARM1 an activator of AR interacts with AR.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="d880c"/>
+      <Point GraphRef="bb42d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd49453fd">
+    <Comment>Stimulation with androgen receptor with DHT induces the interaction of androgen receptor with FHL2 in CV1 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="c78d2"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd9f40839">
+    <Comment>Testosterone stimulation leads to the activation of ROCK1 in DU145 and LNCaP cells.</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b470f"/>
+      <Point GraphRef="c9351" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idda102e90">
+    <Comment>RNF6, an coactivator of AR induces the expression of RLN1.</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="acb7d"/>
+      <Point GraphRef="ce15e" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddc5a7b9d">
+    <Comment>Stimulation with Androgen indices the interaction of iDNA binding domain of Androgen receptor interacts with LXXLL motifs of PIAS1 in COS-1 cells. PIAS1 acts as both coactivator and repressor of androgen receptor.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="b8d76"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf1dfb16a">
+    <Comment>Stimulation with DHT induces the interaction of DNA binding domain of AR with PST and RUNT domians of RUNX2 in MC3T3-E1 and PC3 cells. AR abrogates RUNX2 its recruitment to DNA.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="bb724"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf7029af2">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="da542"/>
+      <Point GraphRef="de498" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf7658b1b">
+    <Comment>PCAF acetylates AR at Lys-631, Lys-633, Lys-634by and thus enhances AR activity. </Comment>
+    <Graphics Color="ffcc33">
+      <Point GraphRef="c4e8b"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfb137e1d">
+    <Comment>Stimulation with synthetic androgen R1881 induces the interaction of AR with EGFR in PC3 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="ecb1d"/>
+      <Point GraphRef="cb4ac" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id970a7ef2">
+    <Comment>DHT induces interaction between AR and ERM in CV-1 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="af3c9"/>
+      <Point GraphRef="f49cf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida4009936">
+    <Comment>On AR ligand dependant activation, NR0B2 interacts with AR  at the NTD and LBD domain and inhibits AR transcriptional activity in yeast cells and CV-1 and CHO cells respectively.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="f6a03"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide52a8c50">
+    <Comment>Testosterone induces the interaction between Androgen Receptor and ARIP3 in HeLa, COS-1 and mammalian cells and in vitro.</Comment>
+    <Comment>low amounts of coexpressed ARIP3 enhanced AR-dependent transactivation up to 4-fold, but the effect vanished gradually with increasing amounts of ARIP3 expression plasmid in COS-1 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="e5cd5"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b20c2">
+    <Comment>On androgen stimulation, CALR interacts with AR in PC3 and Cos-7 cells and inhibits AR transcriptional activities in vivo.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="c9cac"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6536d5fe">
+    <Comment>DHT induces interaction of AR with BRCA1 in prostate cancer DU145 and PC-3 cells .</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="c97a9"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide1e48bed">
+    <Comment>DHT induces the interaction between AR and ARA54 in HepG2, DU145  cells and enhances trans-activation of AR.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="f0ae4"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfff85514">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="cc3a2"/>
+      <Point GraphRef="d01f7" ArrowHead="Arrow"/>
+      <Anchor Position="0.32678996440814845" Shape="None" GraphId="ab410"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de89d">
+    <Comment>DHT and testosterone induces the interaction between AR and ARA70 in HepG2, DU145 cells and yeast.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="a9a21"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dd70d">
+    <Comment>Stimulation with Androgen induces the interaction of region of AR between the DNA and ligand binding domains with the leucine zipper region of c-Jun in a ligand dependent manner in LNcap cells. c-Jun acts as both activator and repressor of AR.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="ef4b7"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e60eb">
+    <Comment>DNA binding domain of AR interacts with PIAS4 in vitro.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="d9363"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cd3f5">
+    <Comment>AR interacts with ARA55 in H1299 human lung cancer cells in a ligand dependent manner.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="a0600"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fb189">
+    <Comment>hinge region of AR interacts with FLNA in a ligand enhanced manner in LNCaP cells (cell line)</Comment>
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="a534d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d675f">
+    <Comment>DHT stimulation leads to the interaction between AR and CAV1  in PC3 cell lines.</Comment>
+    <Comment>Overexpression of CAV1 enhances AR-mediated transcriptional activity and increases the sensitivity of AR to ligand-dependent activation in HEK 293 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="b30b9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b151c">
+    <Comment>N-terminal domain of AR interacts with Cyclin D1 in CV1 and LNCaP cells  in a ligand-dependent manner and inhibits its transcriptional ability.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="a73d7"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="be448">
+    <Comment>Stimulation of Androgen receptor with DHT induces the interaction of ligand binding domain of AR with RACK1 in LNCaP  cells(cell line)</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="f4004"/>
+      <Point GraphRef="dee79" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b93ce">
+    <Comment>On stimulation with DHT, CTNNB1 interacts with AR in CV1 cells.</Comment>
+    <Comment>On stimulation with DHT, interaction of androgen receptor with TCF4  in CV1 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="cd1ed"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d93e7">
+    <Comment> ARA24 interacting with AR from the DHT-treated LNCaP cells</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="a4d9d"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f03aa">
+    <Comment>Stimulation of Androgen receptor with DHT induces the interaction of Androgen receptor with PTEN in LNCaP cells</Comment>
+    <Graphics Color="ff0000">
+      <Point GraphRef="d29ba"/>
+      <Point GraphRef="ab410" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c5186" GroupRef="c8a56">
+    <Graphics>
+      <Point GraphRef="aafcf"/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e9396" GroupRef="c8a56">
+    <Graphics Color="ff3399">
+      <Point GraphRef="fb680"/>
+      <Point GraphRef="aaaf8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c7d68">
+    <Graphics>
+      <Point GraphRef="fda15"/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d329b">
+    <Graphics Color="ff3399">
+      <Point GraphRef="a2015"/>
+      <Point GraphRef="c4516"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3e8d">
+    <Graphics>
+      <Point GraphRef="f436e"/>
+      <Point GraphRef="af3c9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a7272">
+    <Graphics Color="ff3399">
+      <Point GraphRef="ec1e1"/>
+      <Point GraphRef="b4b96"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c4ac0">
+    <Comment>Upon stimulation of Androgen receptor with androgen leads to the interaction and phosphorylation of ligand binding domain of AR by GSK3beta  in DU-145, LNCaP , PC3 and COS-1  cells(cell line). This results in the suppression of androgen receptor activity.</Comment>
+    <Graphics Color="0000ff">
+      <Point GraphRef="e003a"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d9298">
+    <Comment>Testosterone induces the sumoylation of Androgen receptor in HeLa cells.</Comment>
+    <Graphics Color="999900">
+      <Point GraphRef="b999d"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b588e">
+    <Comment>Androgen stimulation leads to interaction of androgen receptor with SRC and p85 alpha subunit of PI3-kinase in HEK293 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="f554e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id639e673c">
+    <Comment>Stimulation with Androgen induces the interaction of SmAD3 withLB domina of AR in LNCaP cells. SmAD3 acts as both coactivator and repressor of AR.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="e6fdc"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df31c">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point GraphRef="f44d8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b9c8d">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point GraphRef="ff9e1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f9233">
+    <Graphics>
+      <Point GraphRef="d36ff"/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a0b45">
+    <Graphics Color="ff3399">
+      <Point GraphRef="c4762"/>
+      <Point GraphRef="f597d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e8770">
+    <Comment>DHT induces the interaction between TGIF and SIN3A and HDAC1 in CV1 cells.This complex suppresses AR transactivation.</Comment>
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="cb963" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a2ae8">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f554e"/>
+      <Point GraphRef="c13e2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a0ab0">
+    <Comment>Testosterone stimulation induces phoshorylation of LIMK2 in vitro.</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f6d33"/>
+      <Point GraphRef="eeb3b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d61a5">
+    <Comment>Stimulation of Androgen receptor with DHT induces the interaction of Androgen receptor with PTEN in LNCaP cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="ecb1d"/>
+      <Point GraphRef="d29ba" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d4c17">
+    <Comment>KAT5 acetylates AR in COS-7 cells.</Comment>
+    <Graphics Color="ffcc33">
+      <Point GraphRef="f3c28"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d5ec8">
+    <Comment>Androgen receptor interacts with CCNE1 in MDAH041 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="cc942"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b3860">
+    <Comment>RNF6 ubiquitinates AR at Lys-846 and Lys-848 in CWR-R1, LNCaP and COS-1 cells.</Comment>
+    <Graphics Color="cc00cc">
+      <Point GraphRef="acb7d"/>
+      <Point GraphRef="bb42d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ae822">
+    <Comment>PATZ1 interacts with RNF4 in CV-1 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="d96a3"/>
+      <Point GraphRef="b686d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aeb24">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f7590"/>
+      <Point GraphRef="c13e2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f5924">
+    <Graphics>
+      <Point GraphRef="b6b38"/>
+      <Point GraphRef="cb4ac"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7010fb29">
+    <Graphics LineStyle="Broken" Color="00cccc">
+      <Point GraphRef="f8d13"/>
+      <Point GraphRef="af3c9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="db4eb">
+    <Graphics Color="ff3399">
+      <Point GraphRef="ffadf"/>
+      <Point GraphRef="f4786"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="a6263">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="TBar"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a8cf7">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f06b7">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ba0c8">
+    <Graphics Color="ff0033">
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c8373">
+    <Graphics Color="9900cc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e916c">
+    <Graphics Color="cc00cc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f8b2e">
+    <Graphics Color="999900">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ec7fb">
+    <Graphics LineStyle="Broken" Color="00cccc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e23c4">
+    <Graphics Color="00ffff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fcb95">
+    <Graphics Color="ffcc33">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f4af1">
+    <Graphics>
+      <Point GraphRef="f450c"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f20af">
+    <Graphics Color="0000ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ce0f8">
+    <Graphics Color="ff9933">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e5262">
+    <Graphics Color="cccc00">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="de412">
+    <Graphics Color="770000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ebe6a">
+    <Graphics Color="775200">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ce548">
+    <Graphics Color="ff6666">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dc4bd">
+    <Graphics Color="999999">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b5299">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c1184">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d54ce">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f9319">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d83a5">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cded2">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fb820">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Androgen receptor signaling pathway" GraphId="cf2a6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Actin polymerization" GraphId="e9671">
+    <Graphics FillColor="ffffff" Color="ff3300"/>
+  </Label>
+  <Label TextLabel="Androgen" GraphId="fb680" GroupRef="c8a56">
+    <Graphics FillColor="00ffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="NU" GraphId="f44d8">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="CY" GraphId="ff9e1">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Androgen" GraphId="a2015">
+    <Graphics FillColor="00ffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Androgen" GraphId="ec1e1">
+    <Graphics FillColor="00ffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Androgen" GraphId="c4762">
+    <Graphics FillColor="00ffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Protein - protein dissociation" GraphId="e80d8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Receptor" GraphId="e4f39">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Protein" GraphId="cdd1e">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Enzyme complex" GraphId="c1966">
+    <Graphics FillColor="99ff33" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="mRNA" GraphId="f8204">
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Protein" GraphId="c46be">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Protein" GraphId="ceb3c">
+    <Graphics FillColor="99ffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Ligand" GraphId="ffadf">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Small molecule" GraphId="e2a8b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Induced activation" GraphId="bd822">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inhibition" GraphId="a43b8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Auto catalysis" GraphId="de3b2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Transport" GraphId="bf91a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Positive regulation of gene expression" GraphId="b4b6d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Leads to through unknown mechanism" GraphId="a7425">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Negative regulation of gene expression" GraphId="b695d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Translocation " GraphId="e1503">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Ubiquitination" GraphId="dd9e9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Deubiquitination" GraphId="ba020">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Sumoylation" GraphId="cb03e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Induced catalysis" GraphId="b388f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Protein-protein interaction" GraphId="e0a57">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Acetylation" GraphId="f56ee">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Dephosphorylation" GraphId="e1c98">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="LEGEND" GraphId="cd494">
+    <Graphics FillColor="ffffff" Color="3333ff"/>
+  </Label>
+  <Label TextLabel="Phosphorylation" GraphId="e5b5b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Deacetylation" GraphId="d42d6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Golgi apparatus" GraphId="a0853">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Endosome" GraphId="f4662">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="fb3b2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Mitochondrion" GraphId="b51e3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Desumoylation" GraphId="f95c1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Methylation" GraphId="f3845">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Demethylation" GraphId="bf45d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Palmitoylation" GraphId="a7cad">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cytoplasm" GraphId="f59a5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="EC" GraphId="af50f">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Plasma membrane" GraphId="a4637">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="MT" GraphId="bc497">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Endoplasmic reticulum" GraphId="de715">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CY" GraphId="f61e0">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="PM" GraphId="faabc">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="GO" GraphId="e0c8b">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="NU" GraphId="a1885">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Extracellular" GraphId="e4e4c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ER" GraphId="b5ef2">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="EN" GraphId="c2fca">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Proteolytic cleavage" GraphId="fa7dd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape TextLabel="Negative regulators" GraphId="e85f4">
+    <Graphics FillColor="ff99ff" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="Positive regulators" GraphId="a7ada">
+    <Graphics FillColor="00ffcc" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="aafcf">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="aaaf8" GroupRef="c8a56">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff0066"/>
+  </Shape>
+  <Shape GraphId="fda15">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="c4516">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff0066"/>
+  </Shape>
+  <Shape GraphId="f436e">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="b4b96">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff0066"/>
+  </Shape>
+  <Shape GraphId="d36ff">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="f597d">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff0066"/>
+  </Shape>
+  <Shape GraphId="b6b38">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="f450c">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="b2b52">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="eab4d">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape TextLabel="Molecule" GraphId="d7731">
+    <Graphics FillColor="ffccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f4786">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff0066"/>
+  </Shape>
+  <Shape GraphId="be869">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="f62b3" GraphId="aa5a4" Style="Group"/>
+  <Group GroupId="b4a9b" GraphId="b71f7" Style="Group"/>
+  <Group GroupId="c5dfb" GraphId="b7ab5" Style="Group"/>
+  <Group GroupId="cc66c" GraphId="be29e" Style="Group"/>
+  <Group GroupId="f2781" GraphId="c0dea" Style="Group"/>
+  <Group GroupId="e50ce" GraphId="c1f51" Style="Group"/>
+  <Group GroupId="ea234" GraphId="c3c9e" Style="Group"/>
+  <Group GroupId="a2900" GraphId="c43e9" Style="Group"/>
+  <Group GroupId="c8a56" GraphId="c8bd1" Style="Group"/>
+  <Group GroupId="e2974" GraphId="d8b69" Style="Group"/>
+  <Group GroupId="b586f" GraphId="de840" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ace">
+      <bp:ID >20067622</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NetPath: a public resource of curated signal transduction pathways.</bp:TITLE>
+      <bp:SOURCE >Genome Biol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Kandasamy K</bp:AUTHORS>
+      <bp:AUTHORS >Mohan SS</bp:AUTHORS>
+      <bp:AUTHORS >Raju R</bp:AUTHORS>
+      <bp:AUTHORS >Keerthikumar S</bp:AUTHORS>
+      <bp:AUTHORS >Kumar GS</bp:AUTHORS>
+      <bp:AUTHORS >Venugopal AK</bp:AUTHORS>
+      <bp:AUTHORS >Telikicherla D</bp:AUTHORS>
+      <bp:AUTHORS >Navarro JD</bp:AUTHORS>
+      <bp:AUTHORS >Mathivanan S</bp:AUTHORS>
+      <bp:AUTHORS >Pecquet C</bp:AUTHORS>
+      <bp:AUTHORS >Gollapudi SK</bp:AUTHORS>
+      <bp:AUTHORS >Tattikota SG</bp:AUTHORS>
+      <bp:AUTHORS >Mohan S</bp:AUTHORS>
+      <bp:AUTHORS >Padhukasahasram H</bp:AUTHORS>
+      <bp:AUTHORS >Subbannayya Y</bp:AUTHORS>
+      <bp:AUTHORS >Goel R</bp:AUTHORS>
+      <bp:AUTHORS >Jacob HK</bp:AUTHORS>
+      <bp:AUTHORS >Zhong J</bp:AUTHORS>
+      <bp:AUTHORS >Sekhar R</bp:AUTHORS>
+      <bp:AUTHORS >Nanjappa V</bp:AUTHORS>
+      <bp:AUTHORS >Balakrishnan L</bp:AUTHORS>
+      <bp:AUTHORS >Subbaiah R</bp:AUTHORS>
+      <bp:AUTHORS >Ramachandra YL</bp:AUTHORS>
+      <bp:AUTHORS >Rahiman BA</bp:AUTHORS>
+      <bp:AUTHORS >Prasad TS</bp:AUTHORS>
+      <bp:AUTHORS >Lin JX</bp:AUTHORS>
+      <bp:AUTHORS >Houtman JC</bp:AUTHORS>
+      <bp:AUTHORS >Desiderio S</bp:AUTHORS>
+      <bp:AUTHORS >Renauld JC</bp:AUTHORS>
+      <bp:AUTHORS >Constantinescu SN</bp:AUTHORS>
+      <bp:AUTHORS >Ohara O</bp:AUTHORS>
+      <bp:AUTHORS >Hirano T</bp:AUTHORS>
+      <bp:AUTHORS >Kubo M</bp:AUTHORS>
+      <bp:AUTHORS >Singh S</bp:AUTHORS>
+      <bp:AUTHORS >Khatri P</bp:AUTHORS>
+      <bp:AUTHORS >Draghici S</bp:AUTHORS>
+      <bp:AUTHORS >Bader GD</bp:AUTHORS>
+      <bp:AUTHORS >Sander C</bp:AUTHORS>
+      <bp:AUTHORS >Leonard WJ</bp:AUTHORS>
+      <bp:AUTHORS >Pandey A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >androgen signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000564</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

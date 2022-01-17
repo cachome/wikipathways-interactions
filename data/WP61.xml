@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Notch signaling pathway" Organism="Homo sapiens" License="Freely available under Creative Commons license">
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <Comment Source="WikiPathways-description">The Notch pathway is an evolutionally conserved signaling pathway which plays an important role in diverse developmental and physiological processes. These include cell-fate determination, tissue patterning and morphogenesis, cell differentiation, proliferation and cell death. The Notch pathway is named after the Drosophila mutants that showed irregular notches of missing tissue at the insect wing blade tips. The Notch gene was cloned in 1985. Proteins of the Notch families are single-pass transmembrane proteins that function both as cell surface receptors and nuclear transcriptional regulators. Four Notch receptors (Notch 1-4) have been identified in mammals. Mature Notch receptors are non-covalent heterodimers consisting of an extracellular subunit (NEC) and a transmembrane subunit (NTM). NEC possess multiple EGF-like repeats and three specialized Lin-Notch repeats (LNR) that forms a tight hydrophobic interaction with extracellular stump of NTM. This region masks an A disintegrin and metalloprotease (ADAM) cleavage site. The region where these two subunits interact is called the heterodimerization domain (HD). Notch ligands are also transmembrane proteins with multiple EGF-like repeats, a short cytoplasmic tail and a specialized delta-serrate-lag2 (DSL) domain at the N-terminus. There are five canonical Notch ligands i.e. Jagged (JAG1 and JAG2), Delta-like (DLL1, DLL3, DLL4) in mammals. Notch signaling activation occurs upon ligand-receptor binding, which are expressed on two adjacent cells. Ligand binding causes dissociation of NEC from NTM, unmasking the ADAM cleavage site. The NEC fragment is trans- endocytosed into the ligand expressing cells. The full-length receptor minus the NEC fragment is cleaved at the membrane by ADAM17 generating an intermediate, Notch extracellular truncation (NEXT). This is further cleaved by &#206;&#179;-secretase that generates an active Notch intracellular fragment (NIC) or Notch intracellular domain (NICD). The &#206;&#179;-secretase complex is composed of PSEN1, PSEN2, PSENEN, NCSTN and APH1 (A or B). Following these two cleavage steps, the NICD is released into the cytoplasm and translocates into the nucleus to regulate transcription of Notch target genes. Upon translocation into the nucleus, NICD binds to RBPJ which is a constitutive repressor of Notch signaling. RBPJ represses Notch target gene expression by recruiting a co-repressor complex, which includes NCOR1, NCOR2, SNW1, CIR, HDAC1, HDAC2, SPEN and FHL1 and SAP30. NICD binding to RBPJ replaces the co-repressor complex with a co-activator complex which includes MAML1-3, EP300 and SNW1. Primary Notch target genes include two families of transcriptional factors Hes, including HES1 and HES5 as well as Hey including HEY1 and HEY2. Other Notch target genes include CCND1, CDKN1A, GATA3 and PTCRA. CNTN1 acts as a functional ligand of Notch. This trans-extracellular interaction causes &#206;&#179;-secretase-dependent nuclear translocation of the NICD. This signaling is involved in oligodendrocyte precursor cell differentiation and upregulation of myelin-related protein MAG. In addition to the canonical Notch pathway, there is increasing evidence showing RBPJ independent non-canonical pathways. been fully characterized. Physical interaction of NOTCH-1IC with LCK- PI3K may mediate non-nuclear cross-talk with AKT, leading to survival signaling. Notch stimulation through AKT pathway leads to down regulation of MYC expression. Activation of SRC/STAT3 pathway by Notch signaling is dependent on the expression of Notch effector HES1 transcription factor. The induction of HES1 enhanced SRC phosphorylation. This activated SRC kinase was found to be responsible for the enhanced phosphorylation of STAT3. The HES1 and HES5 proteins associate with and facilitate the complex formation between JAK2 and STAT3, thus promoting STAT3 phosphorylation and activation. The activated STAT3 translocates from the cytoplasm to the nucleus and induces transcriptional activation of target gene expression (including HIF1A).
+
+Please access this pathway at [http://www.netpath.org/netslim/notch_pathway.html NetSlim] database.
+
+If you use this pathway, please cite following paper:
+Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugopal, A. K., Telikicherla, D., Navarro, J. D., Mathivanan, S., Pecquet, C., Gollapudi, S. K., Tattikota, S. G., Mohan, S., Padhukasahasram, H., Subbannayya, Y., Goel, R., Jacob, H. K. C., Zhong, J., Sekhar, R., Nanjappa, V., Balakrishnan, L., Subbaiah, R., Ramachandra, Y. L., Rahiman, B. A., Prasad, T. S. K., Lin, J., Houtman, J. C. D., Desiderio, S., Renauld, J., Constantinescu, S. N., Ohara, O., Hirano, T., Kubo, M., Singh, S., Khatri, P., Draghici, S., Bader, G. D., Sander, C., Leonard, W. J. and Pandey, A. (2010). NetPath: A public resource of curated signal transduction pathways. &lt;i&gt;Genome Biology&lt;/i&gt;. 11:R3.</Comment>
+  <BiopaxRef>bc8</BiopaxRef>
+  <Graphics BoardWidth="1226.0" BoardHeight="1404.0"/>
+  <DataNode TextLabel="PTCRA" GraphId="bf9b3" Type="Rna">
+        </DataNode>
+  <DataNode TextLabel="CDKN1A" GraphId="ca2b1" Type="Rna">
+        </DataNode>
+  <DataNode TextLabel="MAML1" GraphId="e354b" Type="Protein" GroupRef="d4473">
+        </DataNode>
+  <DataNode TextLabel="GATA3" GraphId="fb5c6" Type="Rna">
+        </DataNode>
+  <DataNode TextLabel="NOTCH1" GraphId="adb30" Type="Protein" GroupRef="dc374">
+        </DataNode>
+  <DataNode TextLabel="NOTCH2" GraphId="ea69e" Type="Protein" GroupRef="dc374">
+        </DataNode>
+  <DataNode TextLabel="NOTCH4" GraphId="b795e" Type="Protein" GroupRef="dc374">
+        </DataNode>
+  <DataNode TextLabel="NOTCH3" GraphId="dd792" Type="Protein" GroupRef="dc374">
+        </DataNode>
+  <DataNode TextLabel="NOTCH1" GraphId="b887c" Type="Protein" GroupRef="cc481">
+        </DataNode>
+  <DataNode TextLabel="NOTCH2" GraphId="b2885" Type="Protein" GroupRef="cc481">
+        </DataNode>
+  <DataNode TextLabel="NOTCH4" GraphId="aac26" Type="Protein" GroupRef="cc481">
+        </DataNode>
+  <DataNode TextLabel="NOTCH3" GraphId="d25ab" Type="Protein" GroupRef="cc481">
+        </DataNode>
+  <DataNode TextLabel="MAML2" GraphId="f1f3c" Type="Protein" GroupRef="d4473">
+        </DataNode>
+  <DataNode TextLabel="CCND1" GraphId="e5d43" Type="Rna">
+        </DataNode>
+  <DataNode TextLabel="APH1B" GraphId="f041f" Type="Protein" GroupRef="fdaf6">
+        </DataNode>
+  <DataNode TextLabel="APH1A" GraphId="ab0aa" Type="Protein" GroupRef="fdaf6">
+        </DataNode>
+  <DataNode TextLabel="NCSTN" GraphId="abacd" Type="Protein" GroupRef="fdaf6">
+        </DataNode>
+  <DataNode TextLabel="PSENEN" GraphId="ed9ff" Type="Protein" GroupRef="fdaf6">
+        </DataNode>
+  <DataNode TextLabel="PSEN2" GraphId="f0084" Type="Protein" GroupRef="fdaf6">
+        </DataNode>
+  <DataNode TextLabel="PSEN1" GraphId="a1fd0" Type="Protein" GroupRef="fdaf6">
+        </DataNode>
+  <DataNode TextLabel="MAML3" GraphId="b52cb" Type="Protein" GroupRef="d4473">
+        </DataNode>
+  <DataNode TextLabel="GSK3B" GraphId="e7972" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RING1" GraphId="aa7fa" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="FHL1" GraphId="df1db" Type="Protein" GroupRef="b9a71">
+        </DataNode>
+  <DataNode TextLabel="HDAC2" GraphId="a4860" Type="Protein" GroupRef="b9a71">
+        </DataNode>
+  <DataNode TextLabel="HDAC1" GraphId="d6d1f" Type="Protein" GroupRef="b9a71">
+        </DataNode>
+  <DataNode TextLabel="HEY1" GraphId="a3b2b" Type="Rna">
+        </DataNode>
+  <DataNode TextLabel="HES5" GraphId="adc2d" Type="Rna">
+        </DataNode>
+  <DataNode TextLabel="EP300" GraphId="f69d9" Type="Protein" GroupRef="d4473">
+        </DataNode>
+  <DataNode TextLabel="NCOR2" GraphId="f897b" Type="Protein" GroupRef="b9a71">
+        </DataNode>
+  <DataNode TextLabel="NCOR1" GraphId="f408e" Type="Protein" GroupRef="b9a71">
+        </DataNode>
+  <DataNode TextLabel="SPEN" GraphId="f6495" Type="Protein" GroupRef="b9a71">
+        </DataNode>
+  <DataNode TextLabel="SNW1" GraphId="aab34" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="DLL4" GraphId="ced61" Type="Protein" GroupRef="c3041">
+        </DataNode>
+  <DataNode TextLabel="DLL3" GraphId="becf0" Type="Protein" GroupRef="c3041">
+        </DataNode>
+  <DataNode TextLabel="DLL1" GraphId="fe22a" Type="Protein" GroupRef="c3041">
+        </DataNode>
+  <DataNode TextLabel="JAG2" GraphId="d302b" Type="Protein" GroupRef="c3041">
+        </DataNode>
+  <DataNode TextLabel="JAG1" GraphId="c9bc0" Type="Protein" GroupRef="c3041">
+        </DataNode>
+  <DataNode TextLabel="ADAM17" GraphId="a98cf" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RBPJ" GraphId="b3463" Type="Protein" GroupRef="cc481">
+        </DataNode>
+  <DataNode TextLabel="SAP30" GraphId="fe31e" Type="Protein" GroupRef="b9a71">
+        </DataNode>
+  <DataNode TextLabel="CIR" GraphId="cfc7e" Type="Protein" GroupRef="b9a71">
+        </DataNode>
+  <DataNode TextLabel="FBXW7" GraphId="b339f" Type="Protein" GroupRef="f66ac">
+        </DataNode>
+  <DataNode TextLabel="CUL1" GraphId="f3bb9" Type="Protein" GroupRef="f66ac">
+        </DataNode>
+  <DataNode TextLabel="SKP1" GraphId="c1c9b" Type="Protein" GroupRef="f66ac">
+        </DataNode>
+  <DataNode TextLabel="ITCH" GraphId="c9652" Type="Protein" GroupRef="cc611">
+        </DataNode>
+  <DataNode TextLabel="NUMB" GraphId="c5c4d" Type="Protein" GroupRef="cc611">
+        </DataNode>
+  <DataNode TextLabel="TLE1" GraphId="ecb27" Type="Protein" GroupRef="ff2e6">
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="b9c51" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PIK3R2" GraphId="aef70" Type="Protein" GroupRef="b54ce">
+        </DataNode>
+  <DataNode TextLabel="PIK3R1" GraphId="d85a7" Type="Protein" GroupRef="b54ce">
+        </DataNode>
+  <DataNode TextLabel="LCK" GraphId="c59af" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MAGEA1" GraphId="f6904" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="AKT1" GraphId="a95ef" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MYC" GraphId="d03c4" Type="Rna">
+        </DataNode>
+  <DataNode TextLabel="MTOR" GraphId="d7647" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="JAK2" GraphId="d3b5e" Type="Protein" GroupRef="c256d">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="fc7a6" Type="Protein" GroupRef="c256d">
+        </DataNode>
+  <DataNode TextLabel="HES6" GraphId="f85b5" Type="Protein" GroupRef="ff2e6">
+        </DataNode>
+  <DataNode TextLabel="HES5" GraphId="f80e2" Type="Protein" GroupRef="c256d">
+        </DataNode>
+  <DataNode TextLabel="HES1" GraphId="cec0f" Type="Protein" GroupRef="ff2e6">
+        </DataNode>
+  <DataNode TextLabel="NUMBL" GraphId="d180c" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="DTX1" GraphId="a216b" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="HIF1A" GraphId="c0a62" Type="Rna">
+        </DataNode>
+  <DataNode TextLabel="SRC" GraphId="dfd8e" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="HEY2" GraphId="b1b6c" Type="Rna">
+        </DataNode>
+  <DataNode TextLabel="HES1" GraphId="eca18" Type="Rna">
+        </DataNode>
+  <DataNode TextLabel="HEY2" GraphId="c80a1" Type="Protein" GroupRef="a5a5c">
+        </DataNode>
+  <DataNode TextLabel="HEY1" GraphId="a3bbc" Type="Protein" GroupRef="a5a5c">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="d4e80" Type="Protein">
+        </DataNode>
+  <State GraphRef="dfd8e" TextLabel="P" GraphId="a23fb">
+    <Comment>Stimulation of notch by ligand induces phosphorylation of endogenous SRC at Tyr 416 </Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id14ab20d6" GroupRef="cc481">
+    <Comment>NOTCH1 intracellular domain interacts with RBPJ.</Comment>
+    <Comment>NOTCH2 intracellular domain interacts with RBPJ in HEK-293 cells, NIH 3T3 cells and CHO cells.</Comment>
+    <Comment>NOTCH3 intracellular domain interacts with RBPJ in HEK-293 cells, NIH 3T3 cells and CHO cells.</Comment>
+    <Comment>NOTCH4 intracellular domain interacts with RBPJ in HEK-293 cells, NIH 3T3 cells and CHO cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="c9084"/>
+      <Point GraphRef="b3463" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1a79caf" GroupRef="b9a71">
+    <Graphics Color="00cc00">
+      <Point GraphRef="cfc7e"/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1ae0dab5">
+    <Comment>Notch stimulation downregulates CDKN1A expression.</Comment>
+    <Graphics>
+      <Point/>
+      <Point GraphRef="ca2b1" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id23e1100">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d7647"/>
+      <Point GraphRef="dafea" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id27ede953">
+    <Comment>On stimulation with notch ligands, HEY2 interacts with NCOR1 in 293T cells. </Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="c80a1"/>
+      <Point GraphRef="a8bfb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3937c70f">
+    <Comment>Notch upregulates CCND1 expression.</Comment>
+    <Graphics>
+      <Point GraphRef="fe501"/>
+      <Point GraphRef="e5d43" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4291f8d7">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="c59af"/>
+      <Point GraphRef="d85a7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id49583a2a">
+    <Comment>NOTCH1 intracellular domain-RBPJ interacts with MAML1 in a ternary complex in vitro.</Comment>
+    <Comment>Stimulation with Delta1 and Jagged2 on binding with NOTCH1 leads to NOTCH1 intracellular domain-RBPJ interaction with MAML2 to form a ternary complex  in COS-7 cells, U20S cells.</Comment>
+    <Comment>Stimulation with Delta1 and Jagged2 on binding with NOTCH1 leads to NOTCH1 intracellular domain-RBPJ interaction with MAML3 to form a ternary complex in COS-7 cells, U20S cells.</Comment>
+    <Comment>Stimulation with Delta1 and Jagged2 on binding with NOTCH2 leads to NOTCH2 intracellular domain-RBPJ interacts with MAML2 to form a ternary complex in COS-7 cells, U20S cells.</Comment>
+    <Comment>Stimulation with Delta1 and Jagged2 on binding with NOTCH2 leads to NOTCH2 intracellular domain-RBPJ interaction with MAML3 to form a ternary complex in COS-7 cells, U20S cells.</Comment>
+    <Comment>Stimulation with Delta1 and Jagged2 on binding with NOTCH3 leads to NOTCH3 intracellular domain-RBPJ interaction with MAML2 to form a ternary complex in COS-7 cells, U20S cells.</Comment>
+    <Comment>Stimulation with Delta1 and Jagged2 on binding with NOTCH3 leads to NOTCH3 intracellular domain-RBPJ interaction with MAML3 to form a ternary complex in COS-7 cells, U20S cells.</Comment>
+    <Comment>Stimulation with Delta1 and Jagged2 on binding with NOTCH4 leads to NOTCH4 intracellular domain-RBPJ interaction with MAML2 to form a ternary complex in COS-7 cells, U20S cells.</Comment>
+    <Comment>Stimulation with Delta1 and Jagged2 on binding with NOTCH4 leads to NOTCH4 intracellular domain-RBPJ interaction with MAML3 to form a ternary complex in COS-7 cells, U20S cells.</Comment>
+    <Comment>EP300 interacts with NOTCH1 in HEK-293 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="f4cc3"/>
+      <Point GraphRef="ccd56" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id49b25a85">
+    <Graphics LineStyle="Broken" Color="00cccc">
+      <Point GraphRef="fc7a6"/>
+      <Point GraphRef="d4e80" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4f06e241">
+    <Graphics Color="00cc00">
+      <Point GraphRef="c45da"/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id54ed83a">
+    <Comment>MAGEA1 interacts with SNW1 in COS-7 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="f6904"/>
+      <Point GraphRef="aab34" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6519f7d">
+    <Graphics ConnectorType="Elbow" Color="0000ff">
+      <Point GraphRef="e7972"/>
+      <Point/>
+      <Point GraphRef="aa0aa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id690f7343">
+    <Comment>HES1 interacts with STAT3 in COS-1 cells.
+</Comment>
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="fc7a6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6b84d2f9">
+    <Comment>Notch stimulation induces upregulation of PTCRA expression.</Comment>
+    <Graphics>
+      <Point GraphRef="f2fb3"/>
+      <Point GraphRef="bf9b3" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id730e0bb4" GroupRef="b9a71">
+    <Comment>RBPJ interacts with FHL1 in 293T cells.</Comment>
+    <Comment>RBPJ interacts with CIR in the Vero cells.</Comment>
+    <Comment>RBPJ interacts with SPEN in the NIH3T3 and HEK-293 cells.</Comment>
+    <Comment>RBPJ interacts with NCOR1 in the NIH3T3 cells.</Comment>
+    <Comment>RBPJ interacts with NCOR2 in the NIH3T3 cells.</Comment>
+    <Comment>RBPJ interacts with HDAC1 in the NIH3T3 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="a8bfb"/>
+      <Point GraphRef="b3463" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id737053b0">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="aa0aa"/>
+      <Point GraphRef="c59af" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7b10323">
+    <Comment>Notch upregulates Gata3expression in an RBP-J-dependent manner.</Comment>
+    <Graphics>
+      <Point GraphRef="cdf01"/>
+      <Point GraphRef="fb5c6" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8ad67049">
+    <Graphics>
+      <Point GraphRef="bf5e0"/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8b49a067">
+    <Comment>Stimulation of Notch1 receptor with ligand JAG1 induces proteolytic cleavage at the A1710, V17111 site at the extracellular domain in bone marrow derived monocytic precursor cells.</Comment>
+    <Graphics Color="999999">
+      <Point GraphRef="a98cf"/>
+      <Point GraphRef="aa0aa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id94d7444d">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point GraphRef="c45da" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9aafbe26">
+    <Comment>On stimulation with notch ligands, HEY2 interacts with HES1 in 293T cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="c45da"/>
+      <Point GraphRef="a3bbc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9c83648c">
+    <Comment>Translocation of NOTCH1 from Plasma membrane to Nucleus.The intracellular domain of NOTCH1 (NICD) translocates to nucleus.</Comment>
+    <Comment>Translocation of NOTCH2 from Plasma membrane to Nucleus.The intracellular domain of NOTCH2 (NICD) translocates to nucleus.</Comment>
+    <Comment>Translocation of NOTCH3 from Plasma membrane to Nucleus.The intracellular domain of NOTCH2 (NICD) translocates to nucleus.</Comment>
+    <Comment>Translocation of NOTCH4 from Plasma membrane to Nucleus.The intracellular domain of NOTCH2 (NICD) translocates to nucleus.</Comment>
+    <Graphics LineStyle="Broken" Color="00cccc">
+      <Point GraphRef="aa0aa"/>
+      <Point GraphRef="c9084" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida3d454b5">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida736b519" GroupRef="b9a71">
+    <Comment>HDAC1 interacts with NCOR2 in NIH&#226;&#8364;&#8220;3T3 and 293T cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="d6d1f"/>
+      <Point GraphRef="f897b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida74470e9">
+    <Comment>NICD/CSL/MAML/p300 complex upregulates HEY1</Comment>
+    <Graphics>
+      <Point GraphRef="da025"/>
+      <Point GraphRef="a3b2b" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idabfdf66a">
+    <Comment>Notch stimulation leads to downregulation of myc</Comment>
+    <Graphics>
+      <Point/>
+      <Point GraphRef="d03c4" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb82b5340" GroupRef="b9a71">
+    <Comment>CIR interacts with SAP30 in the Vero cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="fe31e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb99051f4">
+    <Comment>NUMB interacts with ITCH and cooperatively induce and enhance the ubiquitination of Notch 1 in HEK 293T cells and jurkat cells.</Comment>
+    <Graphics Color="cc00cc">
+      <Point GraphRef="bdab2"/>
+      <Point GraphRef="aa0aa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc0a55e04" GroupRef="b9a71">
+    <Comment>CIR interacts with HDAC2 in the Vero cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="a4860"/>
+      <Point GraphRef="cfc7e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcb67675b">
+    <Comment>Notch Signaling Stimulates HIF1-&#206;&#177; Gene Expression in HeLa cells.</Comment>
+    <Graphics>
+      <Point GraphRef="d4e80"/>
+      <Point GraphRef="c0a62" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcc6be199">
+    <Graphics>
+      <Point GraphRef="f0798"/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd2382fdc">
+    <Comment>SNW1 interactes with NCOR2 in HeLa cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="aab34"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd3b88c87">
+    <Comment>NUMBL interacts with NOTCH1.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="c9084"/>
+      <Point GraphRef="d180c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd4f4074a">
+    <Graphics ConnectorType="Elbow" Color="999999">
+      <Point GraphRef="fac5b"/>
+      <Point/>
+      <Point GraphRef="aa0aa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddf54d7b4">
+    <Comment>RING1 interacts with FHL1 in 293T cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="aa7fa"/>
+      <Point GraphRef="df1db" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide264f5a6">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="aa0aa"/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfb589537">
+    <Comment>NFKB1 interacts with NOTCH2 in Ntera-2 cells.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="fd5c7"/>
+      <Point GraphRef="b9c51" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfd200894">
+    <Comment>Notch induces Hes5 expression</Comment>
+    <Graphics>
+      <Point GraphRef="a149b"/>
+      <Point GraphRef="adc2d" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idff952094">
+    <Comment>Ubiquitination of NOTCH1 by SKP1A_CUL1_FBXW7.</Comment>
+    <Comment>Intracellular domain of NOTCH1 interacts with FBXW7</Comment>
+    <Comment>Ubiquitination of NOTCH4 by SKP1A_CUL1_FBXW7.</Comment>
+    <Comment>FBXW7 interacts with NOTCH4 through the WD40 repeats in Bosc23 cells.</Comment>
+    <Graphics Color="cc00cc">
+      <Point GraphRef="b43c6"/>
+      <Point GraphRef="aa0aa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="af1f7">
+    <Graphics>
+      <Point GraphRef="be086"/>
+      <Point GraphRef="adb30"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f5a5a">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e62ab">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e3e6d">
+    <Comment>JAG1 interacts with NOTCH1  in CHO cell line.</Comment>
+    <Comment>JAG2 interacts with NOTCH1  in CHO cell line.</Comment>
+    <Comment>DLL1 interacts with NOTCH1 in CHO cell line.</Comment>
+    <Comment>JAG1 interacts with  NOTCH2 in CHO cell lines.</Comment>
+    <Comment>JAG2 interacts with  NOTCH2 in CHO cell lines.</Comment>
+    <Comment>DLL1 interacts with NOTCH2 in CHO cell line.</Comment>
+    <Comment>JAG1 interacts with NOTCH3 in CHO cell line.</Comment>
+    <Comment>JAG2 interacts with NOTCH3 in CHO cell line.</Comment>
+    <Comment>DLL1 interacts with NOTCH3 in CHO cell line.</Comment>
+    <Comment>Extracellular domain of Notch1 interacts with Dll3 tagged with an extracellular VSV tag upon stimulation of NECDFc receptor in HeLa cells. Dll3 does not bind Notch1 in a trans conformation but is involved in cis inhibition of Notch signalling.</Comment>
+    <Comment>DLL4 interacts with NOTCH1  in co-culture of human primary macrophages and a mouse stromal cell.</Comment>
+    <Comment>DLL4 interacts with NOTCH4</Comment>
+    <Graphics Color="ff3399">
+      <Point GraphRef="fe22a"/>
+      <Point GraphRef="a5989"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="edbee">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a95ef"/>
+      <Point GraphRef="d7647" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fce7c">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="aef70"/>
+      <Point GraphRef="a95ef" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e77a0">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bde86">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d574e">
+    <Comment>NOTCH stimulation leads to SRC mediated phosphorylation of STAT3 on Tyr 705 and its subsequent translocation in HeLa cells.</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="dfd8e"/>
+      <Point GraphRef="fc7a6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c5b88">
+    <Graphics>
+      <Point GraphRef="cbb31"/>
+      <Point GraphRef="cc453"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a4a6f">
+    <Graphics Color="ff3399">
+      <Point GraphRef="e3991"/>
+      <Point GraphRef="ee5ae"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc92c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="dbc90"/>
+      <Point/>
+      <Point GraphRef="eca18" ArrowHead="mim-transcription-translation"/>
+      <Anchor Position="0.03615744076074896" Shape="None" GraphId="f0798"/>
+      <Anchor Position="0.22907463223013333" Shape="None" GraphId="fe501"/>
+      <Anchor Position="0.460896397494967" Shape="None" GraphId="a149b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc38b">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="e9bae"/>
+      <Point/>
+      <Point GraphRef="d3b5e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="efea9">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c9868"/>
+      <Point/>
+      <Point GraphRef="b1b6c" ArrowHead="mim-transcription-translation"/>
+      <Anchor Position="0.15644766623845338" Shape="None" GraphId="dbc90"/>
+      <Anchor Position="0.30561265063926113" Shape="None" GraphId="cdf01"/>
+      <Anchor Position="0.4711476111824801" Shape="None" GraphId="da025"/>
+      <Anchor Position="0.6589985930140084" Shape="None" GraphId="f2fb3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ec9d0">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="f4cc3"/>
+      <Point/>
+      <Point GraphRef="a216b" ArrowHead="Arrow"/>
+      <Anchor Position="0.5124333971577089" Shape="None" GraphId="fd5c7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc46d">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="f69d9"/>
+      <Point GraphRef="e354b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e1b6e">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="aab34"/>
+      <Point GraphRef="f4cc3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="bce9c">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cd5fb">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f0dbf">
+    <Graphics Color="ff0033">
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a04f1">
+    <Graphics Color="9900cc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e8e62">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e6a00">
+    <Graphics Color="cc00cc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d9f09">
+    <Graphics Color="999900">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d721b">
+    <Graphics LineStyle="Broken" Color="00cccc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ee8f2">
+    <Graphics Color="00ffff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f70d9">
+    <Graphics Color="ffcc33">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e5a02">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b156e">
+    <Graphics Color="0000ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a29b5">
+    <Graphics Color="ff9933">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="df327">
+    <Graphics Color="cccc00">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bcccc">
+    <Graphics Color="770000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a1eba">
+    <Graphics Color="775200">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ed242">
+    <Graphics Color="ff6666">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a97aa">
+    <Graphics Color="999999">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c9be7">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c2ea6">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="TBar"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c2906">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dd2e6">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d7c76">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e4b2a">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Protein" GraphId="aaca8">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Protein - protein dissociation" GraphId="a2de7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Notch signaling pathway" GraphId="b3c09">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PM" GraphId="f5326">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="NU" GraphId="c9915">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="AKT dependent" GraphId="dafea" GroupRef="e0278">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="gene expression" GraphId="bf5e0" GroupRef="e0278">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="CY" GraphId="e68fb">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="NU" GraphId="bc3d5">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Inhibition" GraphId="db5cd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Auto catalysis" GraphId="ab0e4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Transport" GraphId="dd76c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Positive regulation of gene expression" GraphId="bb4ee">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Leads to through unknown mechanism" GraphId="aafa8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Negative regulation of gene expression" GraphId="e1410">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Translocation " GraphId="a73d8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Ubiquitination" GraphId="ce2bc">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Deubiquitination" GraphId="eb8ae">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Sumoylation" GraphId="b7554">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Induced catalysis" GraphId="a2616">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Protein-protein interaction" GraphId="cae99">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Acetylation" GraphId="cc916">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Dephosphorylation" GraphId="ba1ca">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Legend" GraphId="e94fa">
+    <Graphics FillColor="ffffff" Color="3333ff"/>
+  </Label>
+  <Label TextLabel="Phosphorylation" GraphId="f6f0a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Deacetylation" GraphId="c2f28">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Golgi apparatus" GraphId="def8c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Endosome" GraphId="e284d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="ce428">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Mitochondrion" GraphId="f806e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Desumoylation" GraphId="ebaac">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Methylation" GraphId="def9f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Demethylation" GraphId="f2cea">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Palmitoylation" GraphId="d9180">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cytoplasm" GraphId="d137e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="EC" GraphId="e87ec">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Plasma membrane" GraphId="d9e07">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="MT" GraphId="fdc83">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Endoplasmic reticulum" GraphId="a7290">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CY" GraphId="afd86">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="PM" GraphId="beb5d">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="GO" GraphId="d898e">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="NU" GraphId="b69d8">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Extracellular" GraphId="c4e49">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ER" GraphId="e7c6e">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="EN" GraphId="e16d6">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Proteolytic cleavage" GraphId="fe9d7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Receptor" GraphId="cc453">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Protein" GraphId="c868c">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="mRNA" GraphId="f0729">
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Ligand" GraphId="ee5ae">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Shape GraphId="a8bfb" GroupRef="b9a71">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="aa0aa" GroupRef="dc374">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="b43c6" GroupRef="f66ac">
+    <Comment>FBXW7 interacts with SKP1A through the FBox domain in the Bosc23 cells.</Comment>
+    <Comment>FBXW7 interacts with CUL1</Comment>
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="bdab2" GroupRef="cc611">
+    <Comment>NUMB interacts with ITCH and cooperatively promote the ubiquitination of Notch 1 in HEK 293T cells.</Comment>
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="c45da">
+    <Comment>On stimulation with notch ligands, HES1 interacts with TLE1 in 293T cells.</Comment>
+    <Comment>HES6 interacts with TLE1 in the C2C12 cells.</Comment>
+    <Comment>HES6 interacts with HES1 in the COS-7 cells.</Comment>
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="c9084" GroupRef="cc481">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="ccd56">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="f4cc3" GroupRef="cc481">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="fac5b" GroupRef="fdaf6">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="be086">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="a5989">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff0066"/>
+  </Shape>
+  <Shape GraphId="b7b38">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="ced96">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="b4e00">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Shape TextLabel="Enzyme complex" GraphId="d7ee8">
+    <Graphics FillColor="ccff33" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="cbb31">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="e3991">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff00cc"/>
+  </Shape>
+  <Group GroupId="a5a5c" GraphId="adc8e" Style="Group"/>
+  <Group GroupId="e0278" GraphId="b2b81" Style="Group"/>
+  <Group GroupId="cc481" GraphId="beabe" Style="Group"/>
+  <Group GroupId="d4473" GraphId="c9868" Style="Group"/>
+  <Group GroupId="f66ac" GraphId="caae5" Style="Group"/>
+  <Group GroupId="dc374" GraphId="e863a" Style="Group"/>
+  <Group GroupId="ff2e6" GraphId="e9bae" Style="Group"/>
+  <Group GroupId="b9a71" GraphId="eca63" Style="Group"/>
+  <Group GroupId="fdaf6" GraphId="ee9d1" Style="Group"/>
+  <Group GroupId="b54ce" GraphId="f0f93" Style="Group"/>
+  <Group GroupId="c3041" GraphId="f1063" Style="Group"/>
+  <Group GroupId="cc611" GraphId="f73bd" Style="Group"/>
+  <Group GroupId="c256d" GraphId="fd6e3" Style="Group">
+    <Comment>JAK2 interacts with STAT3 in COS-1 cells.</Comment>
+    <Comment>HES5 interacts with JAK2 in COS-1 cells.</Comment>
+    <Comment>HES5 interacts with STAT3 in COS-1 cells.</Comment>
+  </Group>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bc8">
+      <bp:ID >20067622</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NetPath: a public resource of curated signal transduction pathways.</bp:TITLE>
+      <bp:SOURCE >Genome Biol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Kandasamy K</bp:AUTHORS>
+      <bp:AUTHORS >Mohan SS</bp:AUTHORS>
+      <bp:AUTHORS >Raju R</bp:AUTHORS>
+      <bp:AUTHORS >Keerthikumar S</bp:AUTHORS>
+      <bp:AUTHORS >Kumar GS</bp:AUTHORS>
+      <bp:AUTHORS >Venugopal AK</bp:AUTHORS>
+      <bp:AUTHORS >Telikicherla D</bp:AUTHORS>
+      <bp:AUTHORS >Navarro JD</bp:AUTHORS>
+      <bp:AUTHORS >Mathivanan S</bp:AUTHORS>
+      <bp:AUTHORS >Pecquet C</bp:AUTHORS>
+      <bp:AUTHORS >Gollapudi SK</bp:AUTHORS>
+      <bp:AUTHORS >Tattikota SG</bp:AUTHORS>
+      <bp:AUTHORS >Mohan S</bp:AUTHORS>
+      <bp:AUTHORS >Padhukasahasram H</bp:AUTHORS>
+      <bp:AUTHORS >Subbannayya Y</bp:AUTHORS>
+      <bp:AUTHORS >Goel R</bp:AUTHORS>
+      <bp:AUTHORS >Jacob HK</bp:AUTHORS>
+      <bp:AUTHORS >Zhong J</bp:AUTHORS>
+      <bp:AUTHORS >Sekhar R</bp:AUTHORS>
+      <bp:AUTHORS >Nanjappa V</bp:AUTHORS>
+      <bp:AUTHORS >Balakrishnan L</bp:AUTHORS>
+      <bp:AUTHORS >Subbaiah R</bp:AUTHORS>
+      <bp:AUTHORS >Ramachandra YL</bp:AUTHORS>
+      <bp:AUTHORS >Rahiman BA</bp:AUTHORS>
+      <bp:AUTHORS >Prasad TS</bp:AUTHORS>
+      <bp:AUTHORS >Lin JX</bp:AUTHORS>
+      <bp:AUTHORS >Houtman JC</bp:AUTHORS>
+      <bp:AUTHORS >Desiderio S</bp:AUTHORS>
+      <bp:AUTHORS >Renauld JC</bp:AUTHORS>
+      <bp:AUTHORS >Constantinescu SN</bp:AUTHORS>
+      <bp:AUTHORS >Ohara O</bp:AUTHORS>
+      <bp:AUTHORS >Hirano T</bp:AUTHORS>
+      <bp:AUTHORS >Kubo M</bp:AUTHORS>
+      <bp:AUTHORS >Singh S</bp:AUTHORS>
+      <bp:AUTHORS >Khatri P</bp:AUTHORS>
+      <bp:AUTHORS >Draghici S</bp:AUTHORS>
+      <bp:AUTHORS >Bader GD</bp:AUTHORS>
+      <bp:AUTHORS >Sander C</bp:AUTHORS>
+      <bp:AUTHORS >Leonard WJ</bp:AUTHORS>
+      <bp:AUTHORS >Pandey A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Notch signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000204</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Vitamins A and D - action mechanisms" Version="20180408" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The active forms of vitamins A and D both activate nuclear receptors. The generation of the vitamin metabolites and their role in the activation of the nuclear receptors is shown in the pathway. </Comment>
+  <BiopaxRef>a74</BiopaxRef>
+  <Graphics BoardWidth="1253.2425543478264" BoardHeight="693.745157608696"/>
+  <DataNode TextLabel="beta-carotene" GraphId="bb1a2" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7-Dehydrocholesterol" GraphId="f777c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="retinol (vit A)" GraphId="a4994" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="retinal" GraphId="e5375" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ATRA" GraphId="c9348" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="9-cis-Retinoic acid" GraphId="aad4b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="25(OH)D3" GraphId="f8431" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="VDR" GraphId="e296e" Type="GeneProduct" GroupRef="d4b3b">
+    <Graphics FillColor="Transparent"/>
+    </DataNode>
+  <DataNode TextLabel="Vitamin D3" GraphId="c2ee8" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Previtamin D3" GraphId="e83af" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="1,25(OH)2D3" GraphId="fd5f5" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="25(OH)D3" GraphId="b3893" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="1,25(OH)2D3" GraphId="a6966" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="RXR" GraphId="a6a7c" Type="GeneProduct" GroupRef="d4b3b">
+    <Graphics FillColor="Transparent"/>
+    </DataNode>
+  <DataNode TextLabel="RXR" GraphId="c0c4b" Type="GeneProduct" GroupRef="d9995">
+    <Graphics FillColor="Transparent"/>
+    </DataNode>
+  <DataNode TextLabel="RXR" GraphId="f1d59" Type="GeneProduct" GroupRef="d9995">
+    <Graphics FillColor="Transparent"/>
+    </DataNode>
+  <DataNode TextLabel="RAR" GraphId="a0ef9" Type="GeneProduct" GroupRef="df163">
+    <Graphics FillColor="Transparent"/>
+    </DataNode>
+  <DataNode TextLabel="RXR" GraphId="ff8ac" Type="GeneProduct" GroupRef="df163">
+    <Graphics FillColor="Transparent"/>
+    </DataNode>
+  <Interaction GraphId="idb82999dd">
+    <Graphics>
+      <Point GraphRef="d7e5b"/>
+      <Point GraphRef="f777c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideeb0237f">
+    <Graphics>
+      <Point GraphRef="e72d2"/>
+      <Point GraphRef="bb1a2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id91bce333">
+    <Graphics>
+      <Point GraphRef="a4994"/>
+      <Point GraphRef="e5375" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id42b069c">
+    <Graphics>
+      <Point GraphRef="aad4b"/>
+      <Point GraphRef="d1ea7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idddea5ab9">
+    <Graphics>
+      <Point GraphRef="c0049"/>
+      <Point GraphRef="a4994" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id14e4b369">
+    <Graphics>
+      <Point GraphRef="bb1a2"/>
+      <Point GraphRef="e5375" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id495176fc">
+    <Graphics>
+      <Point GraphRef="f777c"/>
+      <Point GraphRef="e83af" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6d0a0e7">
+    <Graphics>
+      <Point GraphRef="e5375"/>
+      <Point GraphRef="cb2b6" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2afd117f">
+    <Graphics>
+      <Point GraphRef="c9348"/>
+      <Point GraphRef="d1ea7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id79e2455">
+    <Graphics>
+      <Point GraphRef="aad4b"/>
+      <Point GraphRef="ae207" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3b60e567">
+    <Graphics>
+      <Point GraphRef="aad4b"/>
+      <Point GraphRef="c9348" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id10f4bf73">
+    <Graphics>
+      <Point GraphRef="c9348"/>
+      <Point GraphRef="aad4b" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id95b27a2a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f8431"/>
+      <Point GraphRef="b3893" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf866470a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c2ee8"/>
+      <Point/>
+      <Point GraphRef="f8431" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id49e3ed99">
+    <Graphics>
+      <Point GraphRef="f8431"/>
+      <Point GraphRef="fd5f5" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2bfc5c6d">
+    <Graphics>
+      <Point GraphRef="a6966"/>
+      <Point GraphRef="cdf12" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id126403c0">
+    <Graphics>
+      <Point GraphRef="c2ee8"/>
+      <Point GraphRef="b3893" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd3d33d9e">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fd5f5"/>
+      <Point GraphRef="a6966" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idea5bafd9">
+    <Graphics>
+      <Point GraphRef="b3893"/>
+      <Point GraphRef="a6966" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id37d1b1a4">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="df2fd"/>
+      <Point GraphRef="c2ee8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd38b031c">
+    <Graphics>
+      <Point GraphRef="e83af"/>
+      <Point GraphRef="c2ee8" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="e4d9c">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d1b89">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dbf17">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Retinoic acid" GraphId="cb2b6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Gut" GraphId="aff97">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="VDRE" GraphId="fb3ec">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Effector cell" GraphId="a69c3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Vitamin D-&#10;rich diet" GraphId="ffafd">
+    <Graphics FillColor="33ff33"/>
+  </Label>
+  <Label TextLabel="Vitamin A-&#10;rich diet" GraphId="a3a07" GroupRef="abf76">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="UV-B light" GraphId="d7e5b">
+      </Label>
+  <Label TextLabel="Skin" GraphId="e7af1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Liver" GraphId="c4ed5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Kidney" GraphId="f6d08">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="a5b7e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="RARE" GraphId="f3b20">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="b4f16">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Effector cell" GraphId="ee1e0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="e6c24">
+    <Graphics ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="df2fd">
+    <Graphics ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="d4fa4">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f0f75">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="fc3ef">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e72d2" GroupRef="abf76">
+    <Graphics ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="e7476">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ca6bc">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="b8771" Style="Complex"/>
+  <Group GroupId="fc5bf" Style="Complex"/>
+  <Group GroupId="d9995" GraphId="ae207" Style="Complex"/>
+  <Group GroupId="abf76" GraphId="c0049" Style="Group"/>
+  <Group GroupId="d4b3b" GraphId="cdf12" Style="Complex"/>
+  <Group GroupId="df163" GraphId="d1ea7" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >vitamin D metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001011</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >vitamin D signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a74">
+      <bp:ID >19172691</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Vitamin effects on the immune system: vitamins A and D take centre stage.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Immunol</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Mora JR</bp:AUTHORS>
+      <bp:AUTHORS >Iwata M</bp:AUTHORS>
+      <bp:AUTHORS >von Andrian UH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >vitamin A and metabolites signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001116</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

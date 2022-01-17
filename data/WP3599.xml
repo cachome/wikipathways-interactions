@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transcription factor regulation in adipogenesis" Version="20151120" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The transcription factors involved in adipogenesis are shown in the current pathway. Adipogensis is the biological proces of cell differentation in which preadipocytes are converted into adipocytes. 
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3599 CPTAC Assay Portal].</Comment>
+  <Graphics BoardWidth="825.0" BoardHeight="871.0"/>
+  <DataNode TextLabel="Glucocorticoids" GraphId="c837d" Type="Metabolite">
+    <Graphics ShapeType="None"/>
+    </DataNode>
+  <DataNode TextLabel="INSR" GraphId="d36b9" Type="GeneProduct">
+    <BiopaxRef>efd</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="RXRA" GraphId="e85ab" Type="GeneProduct">
+    <BiopaxRef>b88</BiopaxRef>
+    <BiopaxRef>ce7</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="LPIN1" GraphId="dc35a" Type="GeneProduct">
+    <BiopaxRef>c3c</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PCK2" GraphId="bb3d5" Type="GeneProduct">
+    <BiopaxRef>b88</BiopaxRef>
+    <BiopaxRef>ce7</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CEBPA" GraphId="df184" Type="GeneProduct">
+    <BiopaxRef>d36</BiopaxRef>
+    <BiopaxRef>cd2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GLUT4" GraphId="f7112" Type="GeneProduct">
+    <BiopaxRef>a7a</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PPARG" GraphId="a42bd" Type="GeneProduct">
+    <BiopaxRef>d36</BiopaxRef>
+    <BiopaxRef>cd2</BiopaxRef>
+    <BiopaxRef>b88</BiopaxRef>
+    <BiopaxRef>ce7</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CREB1" GraphId="ab62d" Type="GeneProduct">
+    <BiopaxRef>cd2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CEBPB" GraphId="a2f28" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CEBPD" GraphId="ce540" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NR3C1" GraphId="be482" Type="GeneProduct">
+    <BiopaxRef>cd2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NRIP1" GraphId="c4247" Type="GeneProduct">
+    <BiopaxRef>a7a</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="IRS1" GraphId="e0e2f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IRS2" GraphId="e77bb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ADIPOQ" GraphId="fe83b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LEP" GraphId="ec4b3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="JNK" GraphId="db93e" Type="GeneProduct">
+    <BiopaxRef>efd</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="FOXO1A" GraphId="fb802" Type="GeneProduct">
+    <BiopaxRef>cd2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TWIST1" GraphId="de981" Type="GeneProduct">
+    <BiopaxRef>cb3</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PPARGC1A" GraphId="a1d85" Type="GeneProduct">
+    <BiopaxRef>cb3</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TNF" GraphId="d0778" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL6" GraphId="ae904" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NRIP1" GraphId="aec7d" Type="GeneProduct">
+    <BiopaxRef>a7a</BiopaxRef>
+        </DataNode>
+  <Interaction GraphId="id85631901">
+    <BiopaxRef>efd</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e32a1"/>
+      <Point GraphRef="db93e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd850349e">
+    <BiopaxRef>cb3</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="de981"/>
+      <Point ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9a088dab">
+    <BiopaxRef>d36</BiopaxRef>
+    <BiopaxRef>cd2</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="df184"/>
+      <Point GraphRef="a42bd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida66f2245">
+    <BiopaxRef>cb3</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="de981"/>
+      <Point GraphRef="a1d85" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id41baa57f">
+    <BiopaxRef>cb3</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a1d85"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="ec0d2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd72907d4">
+    <BiopaxRef>d36</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a42bd"/>
+      <Point/>
+      <Point GraphRef="b60b6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9292023">
+    <BiopaxRef>efd</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="db93e"/>
+      <Point GraphRef="b6207" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idef575326">
+    <BiopaxRef>a7a</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="aec7d"/>
+      <Point GraphRef="f2a8e" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide67bd9b7">
+    <BiopaxRef>cd2</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="b6207"/>
+      <Point/>
+      <Point GraphRef="fb802" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfe0b87e8">
+    <BiopaxRef>d36</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d2cac"/>
+      <Point/>
+      <Point GraphRef="df184" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id325e64da">
+    <BiopaxRef>cd2</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="c837d"/>
+      <Point/>
+      <Point GraphRef="be482" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id236dd07f">
+    <BiopaxRef>a7a</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c4247"/>
+      <Point GraphRef="f7112" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1b6bd66b">
+    <BiopaxRef>cd2</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="fb802"/>
+      <Point GraphRef="a42bd" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id84f36005">
+    <BiopaxRef>d36</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="df184"/>
+      <Point/>
+      <Point GraphRef="b60b6" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide3ff3f41">
+    <BiopaxRef>d36</BiopaxRef>
+    <BiopaxRef>cd2</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a42bd"/>
+      <Point GraphRef="df184" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id19399ec5">
+    <Graphics>
+      <Point GraphRef="ab62d"/>
+      <Point GraphRef="a2f28" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4bd87ed5">
+    <BiopaxRef>cd2</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="b6207"/>
+      <Point GraphRef="ab62d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb7ae0a">
+    <BiopaxRef>b88</BiopaxRef>
+    <BiopaxRef>ce7</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e85ab"/>
+      <Point GraphRef="bb3d5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5368898d">
+    <BiopaxRef>cd2</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="be482"/>
+      <Point/>
+      <Point GraphRef="a42bd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idabbef303">
+    <BiopaxRef>c3c</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="dc35a"/>
+      <Point GraphRef="a42bd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd4e6353d">
+    <BiopaxRef>b88</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bb3d5"/>
+      <Point/>
+      <Point GraphRef="b67bd" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.8049302118063293" Shape="None" GraphId="ec0d2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1ee0941">
+    <BiopaxRef>efd</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f2f44"/>
+      <Point GraphRef="db93e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id669e7b54">
+    <BiopaxRef>efd</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d36b9"/>
+      <Point GraphRef="b6207" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf10e7f2c">
+    <BiopaxRef>d36</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d2cac"/>
+      <Point/>
+      <Point GraphRef="a42bd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3dcf8722">
+    <BiopaxRef>cd2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="be482"/>
+      <Point GraphRef="ce540" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="e4fa0">
+    <BiopaxRef>efd</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point/>
+      <Point/>
+      <Point GraphRef="e4c05" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ffd99">
+    <BiopaxRef>efd</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point/>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f2c10">
+    <BiopaxRef>efd</BiopaxRef>
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bf393">
+    <BiopaxRef>efd</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f7aab"/>
+      <Point/>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ed69c">
+    <BiopaxRef>efd</BiopaxRef>
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Lipids/FA oxidation" GraphId="c2ca9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ER" GraphId="ea4d4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Adipocyte Secretory Products" GraphId="af32a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ROS" GraphId="e32a1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Lipids" GraphId="af99d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Genes involved in:&#10;Mitochondrial uncoupling&#10;FA Beta-oxidation&#10;Oxidative phosphorylation&#10;TCA cycle&#10;Glycolysis" GraphId="b82a2">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Label TextLabel="Mitochondria" GraphId="e47ba">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape TextLabel="  Nucleus" GraphId="aa1df">
+    <Graphics Align="Left" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f33a7">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="b113a">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="d2cac">
+    <BiopaxRef>d36</BiopaxRef>
+    <BiopaxRef>cd2</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" LineStyle="Broken" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b8d12">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e4c05">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d558c">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e017a">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="c05c9">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e7678">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f7aab">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="a9772">
+    <BiopaxRef>efd</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" LineStyle="Broken" Color="ffcc66"/>
+  </Shape>
+  <Shape GraphId="eff04">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f705a">
+    <Graphics FillColor="ffcccc" ShapeType="Mitochondria" Color="663300"/>
+  </Shape>
+  <Shape GraphId="cdadc">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="b0487">
+    <Graphics ShapeType="Endoplasmic Reticulum" Color="cc0000"/>
+  </Shape>
+  <Shape GraphId="f6940">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="a1ab9">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ea403">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="b085f">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="e359a">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="b67bd">
+    <Graphics FillColor="ffcccc" ShapeType="Mitochondria" Color="663300"/>
+  </Shape>
+  <Shape GraphId="d07e6">
+    <Graphics FillColor="ffcccc" ShapeType="Mitochondria" Color="663300"/>
+  </Shape>
+  <Shape GraphId="b6207">
+    <BiopaxRef>efd</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" LineStyle="Broken" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b60b6">
+    <BiopaxRef>d36</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" LineStyle="Broken" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bf4bc">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="f2f44">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="f9e7a">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="e012c">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="ad18e">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="e566f">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="f0962">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c92b8">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bb7df">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bb7a5">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c47be">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d8b84">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="cac87">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="a3a48">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="d4565">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="a4953">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ae4af">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cc5f0">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c1099">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bd491">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ca518">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cb5c1">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e7b48">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b2a7b">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ce22a">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b57a3">
+    <Graphics FillColor="ffcccc" ShapeType="Mitochondria" Color="663300"/>
+  </Shape>
+  <Shape GraphId="bd885">
+    <BiopaxRef>cb3</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" LineStyle="Broken" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f2a8e">
+    <BiopaxRef>a7a</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" LineStyle="Broken" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cdfa8">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="c2981">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="fda5e">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="e9f82">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="a2db2">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="f115d">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="c010b">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="c5f17">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="f2dec">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c6f38">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d5d05">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d99b4">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c89ce">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b88">
+      <bp:ID >7799943</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >PPAR gamma 2 regulates adipose expression of the phosphoenolpyruvate carboxykinase gene.</bp:TITLE>
+      <bp:SOURCE >Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >1995</bp:YEAR>
+      <bp:AUTHORS >Tontonoz P</bp:AUTHORS>
+      <bp:AUTHORS >Hu E</bp:AUTHORS>
+      <bp:AUTHORS >Devine J</bp:AUTHORS>
+      <bp:AUTHORS >Beale EG</bp:AUTHORS>
+      <bp:AUTHORS >Spiegelman BM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >fat cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000136</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >signaling pathway pertinent to development</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000650</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efd">
+      <bp:ID >17167474</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Inflammation and metabolic disorders.</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Hotamisligil GS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d36">
+      <bp:ID >21807935</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Adipogenesis at a glance.</bp:TITLE>
+      <bp:SOURCE >J Cell Sci</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Lowe CE</bp:AUTHORS>
+      <bp:AUTHORS >O'Rahilly S</bp:AUTHORS>
+      <bp:AUTHORS >Rochford JJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cb3">
+      <bp:ID >22969750</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A tale with a Twist: a developmental gene with potential relevance for metabolic dysfunction and inflammation in adipose tissue.</bp:TITLE>
+      <bp:SOURCE >Front Endocrinol (Lausanne)</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Dobrian AD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c3c">
+      <bp:ID >20530740</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Lpin1 in human visceral and subcutaneous adipose tissue: similar levels but different associations with lipogenic and lipolyticgenes.</bp:TITLE>
+      <bp:SOURCE >Am J Physiol Endocrinol Metab</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Miranda M</bp:AUTHORS>
+      <bp:AUTHORS >Escot&#233; X</bp:AUTHORS>
+      <bp:AUTHORS >Alcaide MJ</bp:AUTHORS>
+      <bp:AUTHORS >Solano E</bp:AUTHORS>
+      <bp:AUTHORS >Ceperuelo-Mallafr&#233; V</bp:AUTHORS>
+      <bp:AUTHORS >Hern&#225;ndez P</bp:AUTHORS>
+      <bp:AUTHORS >Wabitsch M</bp:AUTHORS>
+      <bp:AUTHORS >Vendrell J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce7">
+      <bp:ID >14739072</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulation of cytosolic phosphoenolpyruvate carboxykinase gene expression in adipocytes.</bp:TITLE>
+      <bp:SOURCE >Biochimie</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Beale EG</bp:AUTHORS>
+      <bp:AUTHORS >Forest C</bp:AUTHORS>
+      <bp:AUTHORS >Hammer RE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a7a">
+      <bp:ID >21193034</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of nuclear receptor corepressor RIP140 in metabolic syndrome.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:ID >21193034</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of nuclear receptor corepressor RIP140 in metabolic syndrome.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Rosell M</bp:AUTHORS>
+      <bp:AUTHORS >Jones MC</bp:AUTHORS>
+      <bp:AUTHORS >Parker MG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd2">
+      <bp:ID >22079269</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Transcriptional networks and chromatin remodeling controlling adipogenesis.</bp:TITLE>
+      <bp:SOURCE >Trends Endocrinol Metab</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Siersb&#230;k R</bp:AUTHORS>
+      <bp:AUTHORS >Nielsen R</bp:AUTHORS>
+      <bp:AUTHORS >Mandrup S</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

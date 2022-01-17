@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Liver steatosis adverse outcome pathway" Version="20170626" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This liver steatosis AOP starts from the top with different molecular initiating events going down towards liver steatosis. The black nodes are Key Events and green nodes are molecular pathways. 
+
+Adverse outcome pathway liver steatosis; the accumulation of lipids in hepatocytes, caused either by over-nutrition, visceral obesity, metabolic syndrome, or environmental toxins. Liver steatosis can be divided into three main categories: alcoholic liver disease (ALD), non-alcoholic  liver disease (NAFLD), and toxicant-associated liver disease (TAFLD).[https://pubmed.ncbi.nlm.nih.gov/28210688/ Review on liver steatosis]</Comment>
+  <Graphics BoardWidth="2747.455661896057" BoardHeight="1724.4984791415286"/>
+  <DataNode TextLabel="KE66: Activation, ChREBP" GraphId="a15af" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="KE228: demethylation, PPARg promoter" GraphId="a20ec" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="KE291: Accumulation, Triglyceride" GraphId="a4da5" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="KE466: Up Regulation, LDLR (low density lipoprotein receptor)" GraphId="a583c" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="Lipid Metabolism Pathway" GraphId="a83cd" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="KE258: Activation, SCD-1" GraphId="abe95" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="KE116: Activation, FAS" GraphId="adbb6" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="NRF2 pathway" GraphId="b01f4" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Mitochondrial LC-Fatty Acid Beta-Oxidation" GraphId="b0cee" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="KE860: Decreased, Mitochondrial Fatty Acid Beta Oxidation" GraphId="b71ee" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="Liver X Receptor Pathway" GraphId="b8983" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Farnesoid X Receptor Pathway" GraphId="b913a" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="KE54 Up Regulation, CD36" GraphId="bcd9c" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="KE474: Down Regulation, HMGCS2" GraphId="bd087" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="KE345: Liver steatosis" GraphId="c2d9b" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="KE245: Activation, PXR/SXR" GraphId="c35fd" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="KE227: Activation, PPAR&#945;" GraphId="c470f" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="PPAR Alpha Pathway" GraphId="c5219" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="KE232: Decreased, PPAR-beta activation" GraphId="c7d97" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="KE264: Activation, SREBP-1c" GraphId="c885b" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="KE471: Inhibition, FoxA2" GraphId="c8f6a" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="KE115: Increase, FA Influx" GraphId="cc87c" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="Aryl Hydrocarbon Receptor Netpath" GraphId="cc9bb" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="KE472: Down Regulation, CPT1A" GraphId="ccfd2" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="Branched-chain amino acid catabolism" GraphId="cff98" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Metabolic pathway of LDL" GraphId="d89de" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="KE18: Activation, AhR" GraphId="da884" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="KE1214: Altered gene expression specific to CAR activation, Hepatocytes" GraphId="dbbf0" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="Angiopoietin Like Protein 8 Regulatory Pathway" GraphId="dea2f" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Cholesterol metabolism" GraphId="e29df" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="KE167: Activation, LXR" GraphId="e2fcb" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="Pregnane X Receptor pathway" GraphId="e633a" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="KE10106: Fatty Acid Lysis" GraphId="e65ba" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="Constitutive Androstane Receptor Pathway" GraphId="e7155" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="KE140: Decreased, HSD17B10 expression" GraphId="e7a2c" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="AMP-activated Protein Kinase (AMPK) Signaling" GraphId="ec41a" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="KE89: Synthesis, De Novo FA" GraphId="f44de" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="Sterol Regulatory Element-Binding Proteins (SREBP) signalling" GraphId="f4bdf" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="KE478: Activation, NRF2" GraphId="f5b15" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="KE479: Activation, NR1H4" GraphId="f6a14" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="Fatty acid transporters" GraphId="fd13d" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Fatty Acid Biosynthesis" GraphId="fdb80" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="PPAR Gamma Pathway" GraphId="abba8" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="PPAR Beta/Delta pathway" GraphId="ac2d7" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Foxa2 Pathway" GraphId="e34f3" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <Interaction GraphId="id133c195d">
+    <Graphics>
+      <Point GraphRef="ac2d7"/>
+      <Point GraphRef="c7d97"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id166b5bcb">
+    <Graphics>
+      <Point GraphRef="c8f6a"/>
+      <Point GraphRef="e34f3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1b58e4a0">
+    <Graphics>
+      <Point GraphRef="adbb6"/>
+      <Point GraphRef="f44de" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1bb23e79">
+    <Graphics>
+      <Point GraphRef="e2fcb"/>
+      <Point GraphRef="b8983"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id23bcb4c4">
+    <Graphics>
+      <Point GraphRef="a15af"/>
+      <Point GraphRef="dea2f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id29b417aa">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="abe95"/>
+      <Point/>
+      <Point GraphRef="f44de" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id39dcc33a">
+    <Graphics>
+      <Point GraphRef="da884"/>
+      <Point GraphRef="cc9bb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3e45176f">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c35fd"/>
+      <Point/>
+      <Point GraphRef="bcd9c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id40efe8d8">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a20ec"/>
+      <Point/>
+      <Point GraphRef="bcd9c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id546838dd">
+    <Graphics>
+      <Point GraphRef="e7a2c"/>
+      <Point GraphRef="cff98"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5b045d17">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ccfd2"/>
+      <Point/>
+      <Point GraphRef="b71ee" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5c8b8144">
+    <Graphics>
+      <Point GraphRef="bd087"/>
+      <Point GraphRef="e29df"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5dc8f0e6">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c7d97"/>
+      <Point GraphRef="e7a2c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5e93fa97">
+    <Graphics>
+      <Point GraphRef="e1f25"/>
+      <Point GraphRef="c2d9b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5ed7a427">
+    <Graphics>
+      <Point GraphRef="f6a14"/>
+      <Point GraphRef="c470f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id63dc6dd9">
+    <Graphics>
+      <Point GraphRef="dbbf0"/>
+      <Point GraphRef="e7155"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6be6f67a">
+    <Graphics>
+      <Point GraphRef="c885b"/>
+      <Point GraphRef="ec41a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id72365f7">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cc87c"/>
+      <Point/>
+      <Point GraphRef="a4da5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id741ef4ee">
+    <Graphics>
+      <Point GraphRef="a4da5"/>
+      <Point GraphRef="ba264" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id78a06264">
+    <Graphics>
+      <Point GraphRef="b71ee"/>
+      <Point GraphRef="b0cee"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7fab8114">
+    <Graphics>
+      <Point GraphRef="b71ee"/>
+      <Point GraphRef="e65ba" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8a314e62">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a20ec"/>
+      <Point/>
+      <Point GraphRef="c885b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8a5af9c0">
+    <Graphics>
+      <Point GraphRef="da884"/>
+      <Point GraphRef="a583c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id93f09f51">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="da884"/>
+      <Point/>
+      <Point GraphRef="abe95" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id96a2a6bc">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="dbbf0"/>
+      <Point/>
+      <Point GraphRef="a20ec" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id96b1267">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e7a2c"/>
+      <Point/>
+      <Point GraphRef="b71ee" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9b35de00">
+    <Graphics>
+      <Point GraphRef="c885b"/>
+      <Point GraphRef="f4bdf"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9ba3cb7b">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c35fd"/>
+      <Point/>
+      <Point GraphRef="c8f6a" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9e54aa3c">
+    <Graphics>
+      <Point GraphRef="f5b15"/>
+      <Point GraphRef="f6a14" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida14ae6f0">
+    <Graphics>
+      <Point GraphRef="c885b"/>
+      <Point GraphRef="adbb6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida31144bd">
+    <Graphics>
+      <Point GraphRef="f5b15"/>
+      <Point GraphRef="b01f4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idae535040">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bd087"/>
+      <Point/>
+      <Point GraphRef="b71ee" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbcb7541c">
+    <Graphics>
+      <Point GraphRef="e65ba"/>
+      <Point GraphRef="a83cd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbd87c570">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="dbbf0"/>
+      <Point GraphRef="e2fcb" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbeb5fecb">
+    <Graphics>
+      <Point GraphRef="f44de"/>
+      <Point GraphRef="a4da5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbefd5a6c">
+    <Graphics>
+      <Point GraphRef="cc87c"/>
+      <Point GraphRef="fd13d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc136320d">
+    <Graphics>
+      <Point GraphRef="ba264"/>
+      <Point GraphRef="e1f25" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc27f8750">
+    <Graphics>
+      <Point GraphRef="bcd9c"/>
+      <Point GraphRef="cc87c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc58904bc">
+    <Graphics>
+      <Point GraphRef="fdb80"/>
+      <Point GraphRef="f44de"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcaf013d4">
+    <Graphics>
+      <Point GraphRef="a15af"/>
+      <Point GraphRef="c885b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcdc59b4f">
+    <Graphics>
+      <Point GraphRef="c5219"/>
+      <Point GraphRef="c470f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idce6c4270">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e2fcb" ArrowHead="Arrow"/>
+      <Point/>
+      <Point GraphRef="c470f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd33eaca5">
+    <Graphics>
+      <Point GraphRef="e2fcb"/>
+      <Point GraphRef="c885b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd59aaae0">
+    <Graphics>
+      <Point GraphRef="a583c"/>
+      <Point GraphRef="d89de"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd6a74fa5">
+    <Graphics>
+      <Point GraphRef="dbbf0"/>
+      <Point GraphRef="c35fd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd84902b8">
+    <Graphics>
+      <Point GraphRef="f6a14"/>
+      <Point GraphRef="b913a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idda7dd44f">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a20ec"/>
+      <Point/>
+      <Point GraphRef="e7a2c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddaa514f2">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c8f6a"/>
+      <Point/>
+      <Point GraphRef="ccfd2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddef9268b">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e2fcb"/>
+      <Point/>
+      <Point GraphRef="a15af" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide3fd3518">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c470f"/>
+      <Point/>
+      <Point GraphRef="e7a2c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide513e1a6">
+    <Graphics>
+      <Point GraphRef="c35fd"/>
+      <Point GraphRef="e633a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idefac4c96">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a583c"/>
+      <Point/>
+      <Point GraphRef="cc87c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf360e4a1">
+    <Graphics>
+      <Point GraphRef="c35fd"/>
+      <Point GraphRef="abe95" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf62037b5">
+    <Graphics>
+      <Point GraphRef="a20ec"/>
+      <Point GraphRef="abba8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf8d804e2">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c8f6a"/>
+      <Point/>
+      <Point GraphRef="bd087" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfe119929">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e65ba"/>
+      <Point/>
+      <Point GraphRef="a4da5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Shape TextLabel="Cytoplasm displacement" GraphId="ccf08" GroupRef="d0b20">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="Fatty liver cells" GraphId="e1f25">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="Endoplasmic reticulum stress" GraphId="fca28" GroupRef="d0b20">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="Nucleus distortion" GraphId="b0e4b" GroupRef="d0b20">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="Mitochondrial distruption" GraphId="fd6d3" GroupRef="d0b20">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Group GroupId="d0b20" GraphId="ba264" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eb7">
+      <bp:ID >12611900</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification of a novel human constitutive androstane receptor (CAR) agonist and its use in the identification of CAR target genes.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Maglich JM</bp:AUTHORS>
+      <bp:AUTHORS >Parks DJ</bp:AUTHORS>
+      <bp:AUTHORS >Moore LB</bp:AUTHORS>
+      <bp:AUTHORS >Collins JL</bp:AUTHORS>
+      <bp:AUTHORS >Goodwin B</bp:AUTHORS>
+      <bp:AUTHORS >Billin AN</bp:AUTHORS>
+      <bp:AUTHORS >Stoltz CA</bp:AUTHORS>
+      <bp:AUTHORS >Kliewer SA</bp:AUTHORS>
+      <bp:AUTHORS >Lambert MH</bp:AUTHORS>
+      <bp:AUTHORS >Willson TM</bp:AUTHORS>
+      <bp:AUTHORS >Moore JT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c02">
+      <bp:ID >17595319</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The xenobiotic-sensing nuclear receptors pregnane X receptor, constitutive androstane receptor, and orphan nuclear receptor hepatocyte nuclear factor 4alpha in the regulation of human steroid-/bile acid-sulfotransferase.</bp:TITLE>
+      <bp:SOURCE >Mol Endocrinol</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Echchgadda I</bp:AUTHORS>
+      <bp:AUTHORS >Song CS</bp:AUTHORS>
+      <bp:AUTHORS >Oh T</bp:AUTHORS>
+      <bp:AUTHORS >Ahmed M</bp:AUTHORS>
+      <bp:AUTHORS >De La Cruz IJ</bp:AUTHORS>
+      <bp:AUTHORS >Chatterjee B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >hepatocyte</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000182</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce9">
+      <bp:ID >15004031</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The nuclear receptor CAR is a regulator of thyroid hormone metabolism during caloric restriction.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Maglich JM</bp:AUTHORS>
+      <bp:AUTHORS >Watson J</bp:AUTHORS>
+      <bp:AUTHORS >McMillen PJ</bp:AUTHORS>
+      <bp:AUTHORS >Goodwin B</bp:AUTHORS>
+      <bp:AUTHORS >Willson TM</bp:AUTHORS>
+      <bp:AUTHORS >Moore JT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec2">
+      <bp:ID >16873678</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Liver-specific inhibition of ChREBP improves hepatic steatosis and insulin resistance in ob/ob mice.</bp:TITLE>
+      <bp:SOURCE >Diabetes</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Dentin R</bp:AUTHORS>
+      <bp:AUTHORS >Benhamed F</bp:AUTHORS>
+      <bp:AUTHORS >Hainault I</bp:AUTHORS>
+      <bp:AUTHORS >Fauveau V</bp:AUTHORS>
+      <bp:AUTHORS >Foufelle F</bp:AUTHORS>
+      <bp:AUTHORS >Dyck JR</bp:AUTHORS>
+      <bp:AUTHORS >Girard J</bp:AUTHORS>
+      <bp:AUTHORS >Postic C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed4">
+      <bp:ID >21908933</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Crosstalk of thyroid hormone receptor and liver X receptor in lipid metabolism and beyond [Review].</bp:TITLE>
+      <bp:SOURCE >Endocr J</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Hashimoto K</bp:AUTHORS>
+      <bp:AUTHORS >Mori M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a33">
+      <bp:ID >9789279277443</bp:ID>
+      <bp:DB >ISBN</bp:DB>
+      <bp:TITLE >Description of Prototype Modes-of-Action Related to Repeated Dose Toxicity </bp:TITLE>
+      <bp:SOURCE >http://publications.jrc.ec.europa.eu/repository/bitstream/JRC75689/lb-na-25631-en-n.pdf</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Brigitte Landesmann</bp:AUTHORS>
+      <bp:AUTHORS >Marina Goumenou</bp:AUTHORS>
+      <bp:AUTHORS >Sharon Munn</bp:AUTHORS>
+      <bp:AUTHORS >Maurice Whelan</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be4">
+      <bp:ID >11343253</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The phenobarbital response enhancer module in the human bilirubin UDP-glucuronosyltransferase UGT1A1 gene and regulation by the nuclear receptor CAR.</bp:TITLE>
+      <bp:SOURCE >Hepatology</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Sugatani J</bp:AUTHORS>
+      <bp:AUTHORS >Kojima H</bp:AUTHORS>
+      <bp:AUTHORS >Ueda A</bp:AUTHORS>
+      <bp:AUTHORS >Kakizaki S</bp:AUTHORS>
+      <bp:AUTHORS >Yoshinari K</bp:AUTHORS>
+      <bp:AUTHORS >Gong QH</bp:AUTHORS>
+      <bp:AUTHORS >Owens IS</bp:AUTHORS>
+      <bp:AUTHORS >Negishi M</bp:AUTHORS>
+      <bp:AUTHORS >Sueyoshi T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dfc">
+      <bp:ID >19129222</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification of pregnane-X receptor target genes and coactivator and corepressor binding to promoter elements in human hepatocytes.</bp:TITLE>
+      <bp:SOURCE >Nucleic Acids Res</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:ID >19129222</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification of pregnane-X receptor target genes and coactivator and corepressor binding to promoter elements in human hepatocytes.</bp:TITLE>
+      <bp:SOURCE >Nucleic Acids Res</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Hariparsad N</bp:AUTHORS>
+      <bp:AUTHORS >Chu X</bp:AUTHORS>
+      <bp:AUTHORS >Yabut J</bp:AUTHORS>
+      <bp:AUTHORS >Labhart P</bp:AUTHORS>
+      <bp:AUTHORS >Hartley DP</bp:AUTHORS>
+      <bp:AUTHORS >Dai X</bp:AUTHORS>
+      <bp:AUTHORS >Evers R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="df0">
+      <bp:ID >15340055</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Nuclear receptors CAR and PXR cross talk with FOXO1 to regulate genes that encode drug-metabolizing and gluconeogenic enzymes</bp:TITLE>
+      <bp:SOURCE >Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >2004 </bp:YEAR>
+      <bp:AUTHORS >Kodama S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d68">
+      <bp:ID >10398686</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >p27(Kip1) induction and inhibition of proliferation by the intracellular Ah receptor in developing thymus and hepatoma cells.</bp:TITLE>
+      <bp:SOURCE >Genes Dev</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Kolluri SK</bp:AUTHORS>
+      <bp:AUTHORS >Weiss C</bp:AUTHORS>
+      <bp:AUTHORS >Koff A</bp:AUTHORS>
+      <bp:AUTHORS >G&#246;ttlicher M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d50">
+      <bp:ID >26451809</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The identification of nuclear receptors associated with hepatic steatosis to develop and extend adverse outcome pathways.</bp:TITLE>
+      <bp:SOURCE >Crit Rev Toxicol</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Mellor CL</bp:AUTHORS>
+      <bp:AUTHORS >Steinmetz FP</bp:AUTHORS>
+      <bp:AUTHORS >Cronin MT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a2e">
+      <bp:ID >18288955</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Xenobiotic-induced transcriptional regulation of xenobiotic metabolizing enzymes of the cytochrome P450 superfamily in human extrahepatic tissues.</bp:TITLE>
+      <bp:SOURCE >Curr Drug Metab</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Pavek P</bp:AUTHORS>
+      <bp:AUTHORS >Dvorak Z</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd6">
+      <bp:ID >15581595</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulatory network of lipid-sensing nuclear receptors: roles for CAR, PXR, LXR, and FXR.</bp:TITLE>
+      <bp:SOURCE >Arch Biochem Biophys</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Handschin C</bp:AUTHORS>
+      <bp:AUTHORS >Meyer UA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e5d">
+      <bp:ID >1844873</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Human AH locus polymorphism and cancer: inducibility of CYP1A1 and other genes by combustion products and dioxin.</bp:TITLE>
+      <bp:SOURCE >Pharmacogenetics</bp:SOURCE>
+      <bp:YEAR >1991</bp:YEAR>
+      <bp:AUTHORS >Nebert DW</bp:AUTHORS>
+      <bp:AUTHORS >Petersen DD</bp:AUTHORS>
+      <bp:AUTHORS >Puga A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b6a">
+      <bp:ID >15581595</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulatory network of lipid-sensing nuclear receptors: roles for CAR, PXR, LXR, and FXR.</bp:TITLE>
+      <bp:SOURCE >Arch Biochem Biophys</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Handschin C</bp:AUTHORS>
+      <bp:AUTHORS >Meyer UA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a45">
+      <bp:ID >8910454</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Isolation and characterization of the human cytochrome P450 CYP1B1 gene.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >Tang YM</bp:AUTHORS>
+      <bp:AUTHORS >Wo YY</bp:AUTHORS>
+      <bp:AUTHORS >Stewart J</bp:AUTHORS>
+      <bp:AUTHORS >Hawkins AL</bp:AUTHORS>
+      <bp:AUTHORS >Griffin CA</bp:AUTHORS>
+      <bp:AUTHORS >Sutter TR</bp:AUTHORS>
+      <bp:AUTHORS >Greenlee WF</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a7b">
+      <bp:ID >21420387</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >From differential induction of UDP-glucuronosyltransferases in rat liver to characterization of responsible ligand-activated transcription factors, and their multilevel crosstalk in humans.</bp:TITLE>
+      <bp:SOURCE >Biochem Pharmacol</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Bock KW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a4f">
+      <bp:ID >11502724</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Metabolic activation of polycyclic aromatic hydrocarbons and other procarcinogens by cytochromes P450 1A1 and P450 1B1 allelic variants and other human cytochromes P450 in Salmonella typhimurium NM2009.</bp:TITLE>
+      <bp:SOURCE >Drug Metab Dispos</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Shimada T</bp:AUTHORS>
+      <bp:AUTHORS >Oda Y</bp:AUTHORS>
+      <bp:AUTHORS >Gillam EM</bp:AUTHORS>
+      <bp:AUTHORS >Guengerich FP</bp:AUTHORS>
+      <bp:AUTHORS >Inoue K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca3">
+      <bp:ID >8120057</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The human CYP1A2 gene and induction by 3-methylcholanthrene. A region of DNA that supports AH-receptor binding and promoter-specific induction.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1994</bp:YEAR>
+      <bp:AUTHORS >Quattrochi LC</bp:AUTHORS>
+      <bp:AUTHORS >Vu T</bp:AUTHORS>
+      <bp:AUTHORS >Tukey RH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >fatty liver disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:9452</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

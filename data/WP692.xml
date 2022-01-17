@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Sulfation biotransformation reaction" Last-Modified="2/22/2013" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="WikiPathways-description">Metabolism of xenobiotic compounds consists of phase I and a phase II biotransformation reactions, being compound modification and conjugation reactions respectively. In phase I biotransformation, the compound is modificated via oxidation, reduction, hydrolysis, or other minor reactions, to reveal a reactive group to which a conjugation molecule can react to. In phase II, a small conjugation molecule reacts with the phase I modified molecule, producing a much more water-soluble molecule that can be excreted more easily.
+Sulfation is a phase II biotransformation reaction in which sulfate acts as a conjugation molecule and binds to a substrate via the catalysis of sulfotransferases. Sulfate is first combined with ATP molecules to form PAPS via the dual function enzymes PAPSS1 and PAPSS2 consisting of a sulfurylase domain and an APS kinase domain. From PAPS the sulfate group is transferred to the actual substrate via the action of sulfotransferases, resulting in a sulfated substrate and the sulfate-lacking PAP.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP692 CPTAC Assay Portal].</Comment>
+  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
+  <BiopaxRef>fff</BiopaxRef>
+  <BiopaxRef>d59</BiopaxRef>
+  <BiopaxRef>c0c</BiopaxRef>
+  <Graphics BoardWidth="739.0" BoardHeight="486.0"/>
+  <DataNode TextLabel="SULT1E1" GraphId="a0aeb" Type="GeneProduct" GroupRef="c9080">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="PAPSS2" GraphId="a7615" Type="GeneProduct" GroupRef="edb88">
+        </DataNode>
+  <DataNode TextLabel="Sulfate" GraphId="a9bd0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ATP" GraphId="b19ad" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Glutathione (reduced)" GraphId="b1db5" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1A1" GraphId="b2fc3" Type="GeneProduct" GroupRef="c9080">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="PAPS" GraphId="b6da1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PAPSS1" GraphId="c06a9" Type="GeneProduct" GroupRef="edb88">
+        </DataNode>
+  <DataNode TextLabel="GPX" GraphId="c1483" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Sulfotransferase" GraphId="c1752" Type="GeneProduct">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="G6PD" GraphId="c52fb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SULT6B1" GraphId="c6d02" Type="GeneProduct" GroupRef="c9080">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="SULT4A1" GraphId="c993e" Type="GeneProduct" GroupRef="c9080">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="cab83" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1A4" GraphId="cfc18" Type="GeneProduct" GroupRef="c9080">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="Glutathione (oxidized)" GraphId="d04e5" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1A2" GraphId="d4728" Type="GeneProduct" GroupRef="c9080">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="PPi" GraphId="d53c1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GSR" GraphId="dd1af" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SULT2A1" GraphId="e1f0d" Type="GeneProduct" GroupRef="c9080">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1C3" GraphId="e444e" Type="GeneProduct" GroupRef="c9080">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="APS" GraphId="e5377" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1A3" GraphId="eafc6" Type="GeneProduct" GroupRef="c9080">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1C4" GraphId="eb6c5" Type="GeneProduct" GroupRef="c9080">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1C1" GraphId="ebadf" Type="GeneProduct" GroupRef="c9080">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="ATP" GraphId="efc9b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PAP" GraphId="f2a78" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1C2" GraphId="f504b" Type="GeneProduct" GroupRef="c9080">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="f86e8" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1B1" GraphId="f89bf" Type="GeneProduct" GroupRef="c9080">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="SULT2B1" GraphId="faca8" Type="GeneProduct" GroupRef="c9080">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="ADP" GraphId="fde0b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="a5d9e">
+    <Graphics>
+      <Point GraphRef="e5377"/>
+      <Point GraphRef="b6da1" ArrowHead="Arrow"/>
+      <Anchor Position="0.4292929292929293" Shape="None" GraphId="d8aa6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a98be">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="f86e8"/>
+      <Point/>
+      <Point GraphRef="cab83" ArrowHead="Arrow"/>
+      <Anchor Position="0.49232432432432427" Shape="None" GraphId="b54fb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a9f78">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b6da1"/>
+      <Point/>
+      <Point GraphRef="f2a78" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="abced">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="efc9b"/>
+      <Point/>
+      <Point GraphRef="fde0b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aeefb">
+    <Graphics>
+      <Point GraphRef="dd1af"/>
+      <Point GraphRef="c46ab" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="be82f">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b1db5"/>
+      <Point/>
+      <Point GraphRef="d04e5" ArrowHead="Arrow"/>
+      <Anchor Position="0.4879815739993742" Shape="None" GraphId="c3359"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9af0">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="d04e5"/>
+      <Point/>
+      <Point GraphRef="b1db5" ArrowHead="Arrow"/>
+      <Anchor Position="0.48595793695023387" Shape="None" GraphId="c46ab"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d26cc">
+    <Graphics>
+      <Point GraphRef="e366d"/>
+      <Point GraphRef="ff529" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2d7d">
+    <Graphics>
+      <Point GraphRef="e366d"/>
+      <Point GraphRef="d8aa6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dc4a8">
+    <Graphics>
+      <Point GraphRef="c52fb"/>
+      <Point GraphRef="b54fb" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0780">
+    <Graphics>
+      <Point GraphRef="a9bd0"/>
+      <Point GraphRef="e5377" ArrowHead="Arrow"/>
+      <Anchor Position="0.4576271186440678" Shape="None" GraphId="ff529"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ec4ed">
+    <Graphics>
+      <Point GraphRef="d04e5"/>
+      <Point GraphRef="c1752" ArrowHead="mim-inhibition"/>
+      <Anchor Position="0.43859649122807015" Shape="None" GraphId="c6919"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ecdf8">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b19ad"/>
+      <Point/>
+      <Point GraphRef="d53c1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eecbd">
+    <Graphics>
+      <Point GraphRef="c1483"/>
+      <Point GraphRef="c3359" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f34cf">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b6da1"/>
+      <Point GraphRef="c6919" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3cb1">
+    <Graphics>
+      <Point GraphRef="c1752"/>
+      <Point GraphRef="a29e7" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f4b9a">
+    <Graphics>
+      <Point GraphRef="a7d22"/>
+      <Point GraphRef="a3eac" ArrowHead="Arrow"/>
+      <Anchor Position="0.4217687074829932" Shape="None" GraphId="a29e7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fcc06">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="cab83"/>
+      <Point/>
+      <Point GraphRef="f86e8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="sulfurylase" GraphId="a0906">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Substrate sulfate" GraphId="a3eac">
+    <Graphics FillColor="ffffff" Color="00ff66"/>
+  </Label>
+  <Label TextLabel="Substrate" GraphId="a7d22">
+    <Graphics FillColor="ffffff" Color="00ff66"/>
+  </Label>
+  <Label TextLabel="APS kinase" GraphId="b1053">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PAPS synthesis (co-substrate)" GraphId="b874a">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="999999"/>
+  </Label>
+  <Label TextLabel="modification of Cys83 in SULT1E1" GraphId="effa8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="aeeed" GroupRef="c9080">
+    <Graphics ShapeType="Rectangle" Color="ff0033"/>
+  </Shape>
+  <Shape GraphId="b2ad0">
+    <Graphics ShapeType="Rectangle" Color="999999"/>
+  </Shape>
+  <Group GroupId="c9080" GraphId="c3ad9" Style="Group"/>
+  <Group GroupId="edb88" GraphId="e366d" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d59">
+      <bp:ID >16322073</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Human sulfotransferases and their role in chemical metabolism.</bp:TITLE>
+      <bp:SOURCE >Toxicol Sci</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Gamage N</bp:AUTHORS>
+      <bp:AUTHORS >Barnett A</bp:AUTHORS>
+      <bp:AUTHORS >Hempel N</bp:AUTHORS>
+      <bp:AUTHORS >Duggleby RG</bp:AUTHORS>
+      <bp:AUTHORS >Windmill KF</bp:AUTHORS>
+      <bp:AUTHORS >Martin JL</bp:AUTHORS>
+      <bp:AUTHORS >McManus ME</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c0c">
+      <bp:ID >11259344</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Interactions between dietary chemicals and human sulfotransferases-molecular mechanisms and clinical significance.</bp:TITLE>
+      <bp:SOURCE >Drug Metab Dispos</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Coughtrie MW</bp:AUTHORS>
+      <bp:AUTHORS >Johnston LE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >sulfonation conjugation pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000860</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fff">
+      <bp:ID >12439736</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Sulfation through the looking glass--recent advances in sulfotransferase research for the curious.</bp:TITLE>
+      <bp:SOURCE >Pharmacogenomics J</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Coughtrie MW</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Metapathway biotransformation Phase I and II" Last-Modified="2/21/2013" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Biotransformation is the chemical modification (or modifications) made by an organism on a chemical compound. If this modification ends in mineral compounds like CO2, NH4+, or H2O, the biotransformation is called mineralisation.
+
+Biotransformation means chemical alteration of chemicals such as nutrients, amino acids, toxins, and drugs in the body. It is also needed to render non-polar compounds polar so that they are not reabsorbed in renal tubules and are excreted. Biotransformation of xenobiotics can dominate toxicokinetics and the metabolites may reach higher concentrations in organisms than their parent compounds. [https://en.wikipedia.org/wiki/Biotransformation]
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP702 CPTAC Assay Portal]</Comment>
+  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
+  <BiopaxRef>d32</BiopaxRef>
+  <Graphics BoardWidth="1034.0" BoardHeight="1178.0"/>
+  <DataNode TextLabel="GSTA5" GraphId="a0547" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="Sulfotransferase" GraphId="a0c55" Type="GeneProduct">
+    <Graphics Color="0033ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP4B1" GraphId="a0dc9" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="NDST4" GraphId="a1137" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="GSTA4" GraphId="a17c5" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="AKR7A2" GraphId="a21a4" Type="GeneProduct" GroupRef="c357f">
+    <Graphics Color="00cc00"/>
+    </DataNode>
+  <DataNode TextLabel="NAT12" GraphId="a2865" Type="GeneProduct" GroupRef="b3d8e">
+    <Graphics Color="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="NAT1" GraphId="a37ca" Type="GeneProduct" GroupRef="b3d8e">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="Flavin monooxygenase" GraphId="a388e" Type="GeneProduct">
+    <Graphics Color="33ffff"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1C2" GraphId="a3912" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="3366ff"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A5" GraphId="a3970" Type="GeneProduct" GroupRef="ddaaa">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="NAT2" GraphId="a3ae9" Type="GeneProduct" GroupRef="b3d8e">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="Substrate-SH" GraphId="a4ec8" Type="Metabolite" GroupRef="dd978">
+        </DataNode>
+  <DataNode TextLabel="UGT1A4" GraphId="a4ed3" Type="GeneProduct" GroupRef="ddaaa">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="CYP39A1" GraphId="a6280" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CYP27A1" GraphId="a7ede" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2D6" GraphId="a8b6c" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="NDST2" GraphId="a9945" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2U1" GraphId="a9db1" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CYP450" GraphId="aba70" Type="GeneProduct">
+    <Comment>Protein family</Comment>
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="FMO5" GraphId="adcf8" Type="GeneProduct" GroupRef="e1da5">
+    <Graphics Color="33ffff"/>
+    </DataNode>
+  <DataNode TextLabel="NDST3" GraphId="ae41b" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="HS6ST1" GraphId="aed18" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="GSTT2" GraphId="aff58" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A7" GraphId="b0998" Type="GeneProduct" GroupRef="ddaaa">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="CYP4F3" GraphId="b0b7d" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="AKR1C2" GraphId="b0fd9" Type="GeneProduct" GroupRef="c357f">
+    <Graphics Color="00cc00"/>
+    </DataNode>
+  <DataNode TextLabel="CYP4X1" GraphId="b162d" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="HS3ST1" GraphId="b2002" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="MGST2" GraphId="b2086" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="HS3ST3A1" GraphId="b248d" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="Amino acid acyltransferase" GraphId="b271f" Type="GeneProduct">
+    <Graphics Color="660099"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2A7" GraphId="b28ff" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CYP4F22" GraphId="b294f" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="GPX1" GraphId="b328f" Type="GeneProduct" GroupRef="b9372">
+        </DataNode>
+  <DataNode TextLabel="Substrate-NH2" GraphId="b3747" Type="Metabolite" GroupRef="dd978">
+        </DataNode>
+  <DataNode TextLabel="N-acetyltransferase" GraphId="b435b" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CHST7" GraphId="b602d" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="TPMT" GraphId="b6185" Type="GeneProduct" GroupRef="b482e">
+    <Graphics Color="999999"/>
+    </DataNode>
+  <DataNode TextLabel="GLYAT" GraphId="b61d2" Type="GeneProduct" GroupRef="a11c9">
+    <Graphics Color="660099"/>
+    </DataNode>
+  <DataNode TextLabel="HNMT" GraphId="b6405" Type="GeneProduct" GroupRef="b482e">
+    <Graphics Color="999999"/>
+    </DataNode>
+  <DataNode TextLabel="BAAT" GraphId="b6e19" Type="GeneProduct" GroupRef="a11c9">
+    <Graphics Color="660066"/>
+    </DataNode>
+  <DataNode TextLabel="FMO3" GraphId="b7331" Type="GeneProduct" GroupRef="e1da5">
+    <Graphics Color="33ffff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2B6" GraphId="b74cc" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2C19" GraphId="b7614" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="CHST1" GraphId="b7a31" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="GSTA1" GraphId="b7eb8" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="CYP24A1" GraphId="b7f3d" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CHST3" GraphId="b8198" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A10" GraphId="b8cec" Type="GeneProduct" GroupRef="ddaaa">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="CYP4F12" GraphId="ba269" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="UGT2B4" GraphId="bac7d" Type="GeneProduct" GroupRef="ddaaa">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1B1" GraphId="bb380" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A9" GraphId="bbd33" Type="GeneProduct" GroupRef="ddaaa">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="CYP27C1" GraphId="bc661" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2A6" GraphId="bcbb6" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1C4" GraphId="bd1c9" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP46A1" GraphId="bd6e2" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2C9" GraphId="be11f" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="Substrate=O" GraphId="be8c4" Type="Metabolite" GroupRef="e4253">
+        </DataNode>
+  <DataNode TextLabel="CYP4V2" GraphId="becb6" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="NAT6" GraphId="bee66" Type="GeneProduct" GroupRef="b3d8e">
+    <Graphics Color="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="GSTM4" GraphId="bf265" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="GPX2" GraphId="bf35a" Type="GeneProduct" GroupRef="b9372">
+        </DataNode>
+  <DataNode TextLabel="CYP11B1" GraphId="c130b" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="Substrate-Aa" GraphId="c140c" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="CYP2C18" GraphId="c142b" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CYP4F11" GraphId="c163b" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="GLYATL1" GraphId="c178e" Type="GeneProduct" GroupRef="a11c9">
+    <Graphics Color="660099"/>
+    </DataNode>
+  <DataNode TextLabel="Substrate-CH3" GraphId="c1c2a" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="UGT1A1" GraphId="c23bb" Type="GeneProduct" GroupRef="ddaaa">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="CYP1A2" GraphId="c2526" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="AKR1B1" GraphId="c2698" Type="GeneProduct" GroupRef="c357f">
+    <Graphics Color="00cc00"/>
+    </DataNode>
+  <DataNode TextLabel="HS3ST2" GraphId="c30ce" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="NAT14" GraphId="c3aa3" Type="GeneProduct" GroupRef="b3d8e">
+    <Graphics Color="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="GPX3" GraphId="c4c8e" Type="GeneProduct" GroupRef="b9372">
+        </DataNode>
+  <DataNode TextLabel="CYP1B1" GraphId="c4ced" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="GLYATL2" GraphId="c4d0c" Type="GeneProduct" GroupRef="a11c9">
+    <Graphics Color="660099"/>
+    </DataNode>
+  <DataNode TextLabel="GSTO1" GraphId="c557d" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="CYP20A1" GraphId="c5787" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2S1" GraphId="c5826" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1E1" GraphId="c5f18" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP19A1" GraphId="c6966" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CYP21A2" GraphId="c7263" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="AKR7A3" GraphId="c7360" Type="GeneProduct" GroupRef="c357f">
+    <Graphics Color="00cc00"/>
+    </DataNode>
+  <DataNode TextLabel="CYP26C1" GraphId="c80c8" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="SULT2A1" GraphId="c83ca" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="HS6ST2" GraphId="c854c" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP27B1" GraphId="cad76" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CYP26B1" GraphId="cb019" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="GSTT1" GraphId="cbe8f" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="AKR1A1" GraphId="cc15d" Type="GeneProduct" GroupRef="c357f">
+    <Graphics Color="00cc00"/>
+    </DataNode>
+  <DataNode TextLabel="FMO1" GraphId="cc753" Type="GeneProduct" GroupRef="e1da5">
+    <Graphics Color="66ffff"/>
+    </DataNode>
+  <DataNode TextLabel="UGT2B7" GraphId="ce1c0" Type="GeneProduct" GroupRef="ddaaa">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="NAT5" GraphId="cefb3" Type="GeneProduct" GroupRef="b3d8e">
+    <Graphics Color="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="UGT2A2" GraphId="cf3f7" Type="GeneProduct" GroupRef="ddaaa">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="INMT" GraphId="cfaf5" Type="GeneProduct" GroupRef="b482e">
+    <Graphics Color="999999"/>
+    </DataNode>
+  <DataNode TextLabel="NNMT" GraphId="cfca9" Type="GeneProduct" GroupRef="b482e">
+    <Graphics Color="999999"/>
+    </DataNode>
+  <DataNode TextLabel="GSTM2" GraphId="cfd2e" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="AKR1C3" GraphId="cfe43" Type="GeneProduct" GroupRef="c357f">
+    <Graphics Color="00cc00"/>
+    </DataNode>
+  <DataNode TextLabel="Aldo-keto reductase" GraphId="d09ef" Type="GeneProduct">
+    <Graphics Color="00cc00"/>
+    </DataNode>
+  <DataNode TextLabel="Methyltransferase" GraphId="d0c80" Type="GeneProduct">
+    <Graphics Color="999999"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2W1" GraphId="d1273" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="NAT10" GraphId="d1808" Type="GeneProduct" GroupRef="b3d8e">
+    <Graphics Color="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="CHST11" GraphId="d1cc3" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="CHST9" GraphId="d2891" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1C3" GraphId="d3c1a" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="GAL3ST4" GraphId="d3e0a" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP3A7" GraphId="d40d0" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="UGT2B15" GraphId="d41d3" Type="GeneProduct" GroupRef="ddaaa">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="UGT2B11" GraphId="d440f" Type="GeneProduct" GroupRef="ddaaa">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="CYP7A1" GraphId="d468a" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="GSTZ1" GraphId="d4da2" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="Substrate-O-R" GraphId="d5432" Type="Metabolite" GroupRef="e4253">
+        </DataNode>
+  <DataNode TextLabel="CYP4F2" GraphId="d577b" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CHST2" GraphId="d5ad8" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2F1" GraphId="d5dbe" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="GAL3ST1" GraphId="d60cc" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="HS3ST5" GraphId="d6171" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="GSTK1" GraphId="d6d0b" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="GAL3ST3" GraphId="d7638" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="HS2ST1" GraphId="d7a25" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP8B1" GraphId="d97ea" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CYP1A1" GraphId="da2b1" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="Glucuronosyltransferase" GraphId="da3c4" Type="GeneProduct">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="GSR" GraphId="da80a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Substrate-Ac" GraphId="dad5e" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="SULT4A1" GraphId="db1f7" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="Substrate-OH" GraphId="db566" Type="Metabolite" GroupRef="dd978">
+        </DataNode>
+  <DataNode TextLabel="HS6ST3" GraphId="dbe3f" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP11B2" GraphId="dc696" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="GSTM5" GraphId="dd274" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="CYP4Z1" GraphId="dd427" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="Substrate-Gl" GraphId="dd65e" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="AKR1C4" GraphId="dddc8" Type="GeneProduct" GroupRef="c357f">
+    <Graphics Color="33cc00"/>
+    </DataNode>
+  <DataNode TextLabel="UGT2A1" GraphId="de266" Type="GeneProduct" GroupRef="ddaaa">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="NDST1" GraphId="de306" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="AKR1C1" GraphId="deb32" Type="GeneProduct" GroupRef="c357f">
+    <Graphics Color="00cc33"/>
+    </DataNode>
+  <DataNode TextLabel="KCNAB1" GraphId="df561" Type="GeneProduct" GroupRef="c357f">
+    <Graphics Color="00cc00"/>
+    </DataNode>
+  <DataNode TextLabel="GSTCD" GraphId="dfccb" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="CHST13" GraphId="dffc1" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP7B1" GraphId="e00f2" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CYP11A1" GraphId="e0790" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2C8" GraphId="e10f0" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="UGT2A3" GraphId="e1408" Type="GeneProduct" GroupRef="ddaaa">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="CHST10" GraphId="e1788" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1C1" GraphId="e1a22" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="EPHX1" GraphId="e1f45" Type="GeneProduct" GroupRef="b66c7">
+        </DataNode>
+  <DataNode TextLabel="NAT9" GraphId="e2ad1" Type="GeneProduct" GroupRef="b3d8e">
+    <Graphics Color="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="NAT8L" GraphId="e3bbd" Type="GeneProduct" GroupRef="b3d8e">
+    <Graphics Color="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1A2" GraphId="e3c57" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="NAT13" GraphId="e4a3e" Type="GeneProduct" GroupRef="b3d8e">
+    <Graphics Color="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="HS3ST4" GraphId="e4c63" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A6" GraphId="e5032" Type="GeneProduct" GroupRef="ddaaa">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="GPX4" GraphId="e5b08" Type="GeneProduct" GroupRef="b9372">
+        </DataNode>
+  <DataNode TextLabel="CYP2R1" GraphId="e7312" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="HS3ST3B1" GraphId="e76b6" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="SULT2B1" GraphId="e7f71" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="GSS" GraphId="e814c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GPX5" GraphId="e824b" Type="GeneProduct" GroupRef="b9372">
+        </DataNode>
+  <DataNode TextLabel="Substrate-SO3H" GraphId="e8313" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="Glutathione transferase" GraphId="e866f" Type="GeneProduct">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="CYP4F8" GraphId="e86b1" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="EPHX2" GraphId="e8bb2" Type="GeneProduct" GroupRef="b66c7">
+        </DataNode>
+  <DataNode TextLabel="CHST5" GraphId="e943c" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="UGT2B28" GraphId="eafaa" Type="GeneProduct" GroupRef="ddaaa">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="CYP3A4" GraphId="eb0ba" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="GSTM1" GraphId="eb3ec" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="KCNAB3" GraphId="ebe7a" Type="GeneProduct" GroupRef="c357f">
+    <Graphics Color="00cc00"/>
+    </DataNode>
+  <DataNode TextLabel="FMO2" GraphId="ec2d3" Type="GeneProduct" GroupRef="e1da5">
+    <Graphics Color="33ffff"/>
+    </DataNode>
+  <DataNode TextLabel="GSTA3" GraphId="ed295" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="KCNAB2" GraphId="ed556" Type="GeneProduct" GroupRef="c357f">
+    <Graphics Color="00cc00"/>
+    </DataNode>
+  <DataNode TextLabel="NAT11" GraphId="ee12e" Type="GeneProduct" GroupRef="b3d8e">
+    <Graphics Color="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="FMO4" GraphId="ee36a" Type="GeneProduct" GroupRef="e1da5">
+    <Graphics Color="33ffff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP26A1" GraphId="ee615" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1A1" GraphId="ee7e1" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0033ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2E1" GraphId="ee891" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="CHST14" GraphId="ef0b4" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="SULT6B1" GraphId="ef6b0" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="HS3ST6" GraphId="f1e3f" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP17A1" GraphId="f2181" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CHST4" GraphId="f29b2" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="MGST1" GraphId="f2ead" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="UGT2B17" GraphId="f316c" Type="GeneProduct" GroupRef="ddaaa">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1A4" GraphId="f4505" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="AKR1B10" GraphId="f47c2" Type="GeneProduct" GroupRef="c357f">
+    <Graphics Color="00cc00"/>
+    </DataNode>
+  <DataNode TextLabel="NAT8" GraphId="f4a66" Type="GeneProduct" GroupRef="b3d8e">
+    <Graphics Color="ff9933"/>
+    </DataNode>
+  <DataNode TextLabel="CYP3A43" GraphId="f4f7e" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1A3" GraphId="f555a" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0033ff"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A8" GraphId="f6355" Type="GeneProduct" GroupRef="ddaaa">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="CYP3A5" GraphId="f6ec4" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="GSTA2" GraphId="f73ed" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="GSTP1" GraphId="f77b3" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="COMT" GraphId="f77cc" Type="GeneProduct" GroupRef="b482e">
+    <Graphics Color="999999"/>
+    </DataNode>
+  <DataNode TextLabel="CHST6" GraphId="f7d54" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="Substrate-SG" GraphId="f7f74" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="Xenobiotic substrate" GraphId="f7f9c" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="UGT1A3" GraphId="f85d4" Type="GeneProduct" GroupRef="ddaaa">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2J2" GraphId="f881e" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="MGST3" GraphId="f9063" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="AKR1D1" GraphId="fa849" Type="GeneProduct" GroupRef="c357f">
+    <Graphics Color="00cc00"/>
+    </DataNode>
+  <DataNode TextLabel="GSTO2" GraphId="faa9a" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="GSTM3" GraphId="faaec" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="GAL3ST2" GraphId="fae62" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="GSTT2B" GraphId="fae73" Type="GeneProduct" GroupRef="dbf2a">
+    <Graphics Color="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="CHST8" GraphId="fc323" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2A13" GraphId="fee8f" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CYP51A1" GraphId="fefff" Type="GeneProduct" GroupRef="d4138">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CHST12" GraphId="ffae0" Type="GeneProduct" GroupRef="d7af9">
+    <Graphics Color="0066ff"/>
+    </DataNode>
+  <Interaction GraphId="a978b">
+    <Graphics>
+      <Point GraphRef="b271f"/>
+      <Point GraphRef="ad181" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b594e">
+    <Graphics>
+      <Point GraphRef="a388e"/>
+      <Point GraphRef="e15aa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bab2a">
+    <Graphics>
+      <Point GraphRef="b435b"/>
+      <Point GraphRef="f7f12" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c705f">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="eef3b"/>
+      <Point/>
+      <Point GraphRef="dd65e" ArrowHead="Arrow"/>
+      <Anchor Position="0.8057132612203431" Shape="None" GraphId="d676d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cb2ee">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="eef3b"/>
+      <Point/>
+      <Point GraphRef="c1c2a" ArrowHead="Arrow"/>
+      <Anchor Position="0.8166912987252911" Shape="None" GraphId="a4898"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d0ad2">
+    <Graphics>
+      <Point GraphRef="d09ef"/>
+      <Point GraphRef="f29b6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d636b">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="eef3b"/>
+      <Point/>
+      <Point GraphRef="c140c" ArrowHead="Arrow"/>
+      <Anchor Position="0.8272373928642613" Shape="None" GraphId="ad181"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d751a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f7f9c"/>
+      <Point/>
+      <Point GraphRef="d5432" ArrowHead="Arrow"/>
+      <Anchor Position="0.8171550035426998" Shape="None" GraphId="e15aa"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="da133">
+    <Graphics>
+      <Point GraphRef="da3c4"/>
+      <Point GraphRef="d676d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df43b">
+    <Graphics>
+      <Point GraphRef="be8c4"/>
+      <Point GraphRef="f7f74" ArrowHead="Arrow"/>
+      <Anchor Position="0.5524475524475524" Shape="None" GraphId="b69a4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df9c1">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f7f9c"/>
+      <Point/>
+      <Point GraphRef="eef3b" ArrowHead="Arrow"/>
+      <Anchor Position="0.8464799115370438" Shape="None" GraphId="c2304"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e31be">
+    <Graphics>
+      <Point GraphRef="d5432"/>
+      <Point GraphRef="be8c4" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f29b6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e3863">
+    <Graphics>
+      <Point GraphRef="aba70"/>
+      <Point GraphRef="e15aa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e42a9">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="eef3b"/>
+      <Point/>
+      <Point GraphRef="e8313" ArrowHead="Arrow"/>
+      <Anchor Position="0.7967919544253842" Shape="None" GraphId="f7954"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e60fe">
+    <Graphics>
+      <Point GraphRef="e866f"/>
+      <Point GraphRef="b69a4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e6f1c">
+    <Graphics>
+      <Point GraphRef="eef3b"/>
+      <Point GraphRef="dad5e" ArrowHead="Arrow"/>
+      <Anchor Position="0.7458333333333333" Shape="None" GraphId="f7f12"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e78fe">
+    <Graphics>
+      <Point GraphRef="aba70"/>
+      <Point GraphRef="c2304" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f39e7">
+    <Graphics>
+      <Point GraphRef="a0c55"/>
+      <Point GraphRef="f7954" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ff505">
+    <Graphics>
+      <Point GraphRef="d0c80"/>
+      <Point GraphRef="a4898" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Sulfation" GraphId="a0f65">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Aldo-keto reductases" GraphId="a532c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Glutathione reductase" GraphId="ab754">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cytochrome P450" GraphId="b7c4c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Glutathione peroxidases" GraphId="bc354">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleophiles" GraphId="be671">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Acetylation" GraphId="c1af5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Electrophiles" GraphId="c1f2d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Epoxide hydrolases" GraphId="c2851">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Glucuronidation" GraphId="c6aac">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Amino acid acyl transferases" GraphId="ce935">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Flavin monooxygenases" GraphId="d037c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Sulfotransferases" GraphId="d091e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Glutathione synthetase" GraphId="d455a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Amino acid conjugation" GraphId="daa54">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Oxidation" GraphId="de05d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Glucuronosyltransferases" GraphId="e2b97">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Methyltransferases" GraphId="e39fe">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="N-acetyltransferases" GraphId="eaf8e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Glutathione transferases" GraphId="ec45f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Glutathione conjugation" GraphId="ec4a0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Methylation" GraphId="f5909">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Reduction&#10;Hydrolysis" GraphId="fa7ee">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="a4738">
+    <Graphics ShapeType="Rectangle" Color="cc00cc"/>
+  </Shape>
+  <Shape GraphId="a6895">
+    <Graphics ShapeType="Rectangle" Color="00cc33"/>
+  </Shape>
+  <Shape GraphId="bb3f4">
+    <Graphics ShapeType="Rectangle" Color="0033ff"/>
+  </Shape>
+  <Shape GraphId="bfb30">
+    <Graphics ShapeType="Rectangle" Color="ff9900"/>
+  </Shape>
+  <Shape GraphId="c65a2">
+    <Graphics ShapeType="Rectangle" Color="66ffff"/>
+  </Shape>
+  <Shape GraphId="d51b1">
+    <Graphics ShapeType="Rectangle" Color="ff3300"/>
+  </Shape>
+  <Shape GraphId="dab9f">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="dafdf">
+    <Graphics ShapeType="Rectangle" Color="6600cc"/>
+  </Shape>
+  <Shape GraphId="e68cb">
+    <Graphics ShapeType="Rectangle" Color="cccc00"/>
+  </Shape>
+  <Shape GraphId="efd5c">
+    <Graphics ShapeType="Rectangle" Color="999999"/>
+  </Shape>
+  <Group GroupId="e4253" GraphId="a2419" Style="Complex"/>
+  <Group GroupId="b3d8e" GraphId="b9d98" Style="Complex"/>
+  <Group GroupId="d4138" GraphId="bb15d" Style="Complex"/>
+  <Group GroupId="b9372" GraphId="c66be" Style="Complex"/>
+  <Group GroupId="e1da5" GraphId="c826a" Style="Complex"/>
+  <Group GroupId="a11c9" GraphId="d0731" Style="Complex"/>
+  <Group GroupId="ddaaa" GraphId="e36ff" Style="Complex"/>
+  <Group GroupId="b482e" GraphId="e444b" Style="Complex"/>
+  <Group GroupId="dd978" GraphId="eef3b" Style="Complex"/>
+  <Group GroupId="b66c7" GraphId="f4986" Style="Complex"/>
+  <Group GroupId="dbf2a" GraphId="f8ad5" Style="Complex"/>
+  <Group GroupId="c357f" GraphId="fa9a6" Style="Complex"/>
+  <Group GroupId="d7af9" GraphId="fb077" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d32">
+      <bp:ID >10781873</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Molecular and structural aspects of xenobiotic carbonyl metabolizing enzymes. Role of reductases and dehydrogenases in xenobiotic phase I reactions.</bp:TITLE>
+      <bp:SOURCE >Toxicology</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Oppermann UC</bp:AUTHORS>
+      <bp:AUTHORS >Maser E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >phase I biotransformation pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000857</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cellular detoxification pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000124</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >phase II biotransformation pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000858</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >phase I biotransformation pathway via cytochrome P450</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000375</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

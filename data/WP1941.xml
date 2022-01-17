@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Peroxisomal beta-oxidation of tetracosanoyl-CoA" Last-Modified="10/16/2013" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
+  <Graphics BoardWidth="882.4646681896188" BoardHeight="488.10627890530867"/>
+  <DataNode TextLabel="D-bifunctional protein" GraphId="a3450" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="NAD+" GraphId="ab6b5" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="O2" GraphId="ae9c7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Peroxisomal 3-oxoacyl-CoA thiolase" GraphId="b0960" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Peroxisomal beta-oxidation&#10;of hexacosanoyl-CoA" GraphId="b4e5e" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="tetracosanoyl-CoA" GraphId="ba539" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="docosanoyl-CoA" GraphId="ca5db" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Sterol carrier protein X" GraphId="cf671" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="acetyl-CoA" GraphId="dce4f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Peroxisomal beta-oxidation&#10;of docosanoyl-CoA" GraphId="e8cf2" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="H2O" GraphId="e9292" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CoA-SH" GraphId="ed23c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="3-hydroxytetracosanoyl-CoA" GraphId="efc98" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="(2E)-tetracosenoyl-CoA" GraphId="fc276" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="H2O2" GraphId="fd764" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Acyl-CoA Oxidase 1" GraphId="fe505" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="3-ketotetracosanoyl-CoA" GraphId="e59c0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="D-bifunctional protein" GraphId="cbed1" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="NADH" GraphId="d5712" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="id12643bd4">
+    <Graphics>
+      <Point GraphRef="a3450"/>
+      <Point GraphRef="fe444" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id22e34d56">
+    <Graphics>
+      <Point GraphRef="fe505"/>
+      <Point GraphRef="ffc67" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id248a5d23">
+    <Graphics>
+      <Point GraphRef="ba539"/>
+      <Point GraphRef="fc276" ArrowHead="Arrow"/>
+      <Anchor Position="0.5" Shape="None" GraphId="ffc67"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id28d6f8fd">
+    <Graphics>
+      <Point GraphRef="b7bfc"/>
+      <Point GraphRef="dce4f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2ab1d39b">
+    <Graphics>
+      <Point GraphRef="ffc67"/>
+      <Point GraphRef="fd764" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id563ea124">
+    <Graphics>
+      <Point GraphRef="cbed1"/>
+      <Point GraphRef="e3b54" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id701f3d89">
+    <Graphics>
+      <Point GraphRef="b4e5e"/>
+      <Point GraphRef="ba539" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id75e3cac4">
+    <Graphics>
+      <Point GraphRef="b0960"/>
+      <Point GraphRef="b7bfc" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8aea186f">
+    <Graphics>
+      <Point GraphRef="e9292"/>
+      <Point GraphRef="fe444" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida6d397e9">
+    <Graphics>
+      <Point GraphRef="ca5db"/>
+      <Point GraphRef="e8cf2" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb69bc2a6">
+    <Graphics>
+      <Point GraphRef="cf671"/>
+      <Point GraphRef="b7bfc" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd285ec97">
+    <Graphics>
+      <Point GraphRef="e3b54"/>
+      <Point GraphRef="d5712" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd8587197">
+    <Graphics>
+      <Point GraphRef="ed23c"/>
+      <Point GraphRef="b7bfc" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf3b08bb8">
+    <Graphics>
+      <Point GraphRef="ab6b5"/>
+      <Point GraphRef="e3b54" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf807d3fa">
+    <Graphics>
+      <Point GraphRef="ae9c7"/>
+      <Point GraphRef="ffc67" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ac82d">
+    <Graphics>
+      <Point GraphRef="fc276"/>
+      <Point GraphRef="efc98" ArrowHead="Arrow"/>
+      <Anchor Position="0.5" Shape="None" GraphId="fe444"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c079c">
+    <Graphics>
+      <Point GraphRef="efc98"/>
+      <Point GraphRef="e59c0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5" Shape="None" GraphId="e3b54"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fdf3b">
+    <Graphics>
+      <Point GraphRef="e59c0"/>
+      <Point GraphRef="ca5db" ArrowHead="Arrow"/>
+      <Anchor Position="0.5" Shape="None" GraphId="b7bfc"/>
+    </Graphics>
+    </Interaction>
+  <Shape TextLabel="Peroxisome" GraphId="e79bf">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >fatty acid beta degradation pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000738</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

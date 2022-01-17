@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Serotonin transporter activity" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="WikiPathways-description">Serotonin is a monoamine neurotransmitter. Biochemically derived from tryptophan, serotonin is primarily found in the gastrointestinal tract (GI tract), blood platelets, and the central nervous system (CNS) of animals, including humans. It is popularly thought to be a contributor to feelings of well-being and happiness. This pathway summarizes the role of the antidepressant-sensitive serotonin (5-HT) transporter SERT (encoded by the SLC6A4 gene). </Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <Graphics BoardWidth="605.0" BoardHeight="353.0"/>
+  <DataNode TextLabel="SCAMP2" GraphId="aad29" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Hic-5" GraphId="b6412" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SLC6A4" GraphId="b9e35" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ITGB3" GraphId="bc3ee" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Serotonin" GraphId="bcccd" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="IL1B" GraphId="cd997" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="L-Tryptophan" GraphId="d321e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PP2A" GraphId="d5012" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Syntaxin 1A" GraphId="d5f26" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAOA" GraphId="db27f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="nNOS" GraphId="e3155" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TPH2" GraphId="e8cb4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Citalopram" GraphId="f09f6" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="IL1R1" GraphId="fcac9" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id12e26589">
+    <Graphics>
+      <Point GraphRef="b9e35"/>
+      <Point GraphRef="aad29"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1daa7d07">
+    <Graphics>
+      <Point GraphRef="b9e35"/>
+      <Point GraphRef="d5012"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id324bc54e">
+    <BiopaxRef>c39</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b6412"/>
+      <Point GraphRef="b9e35"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5ba1af8d">
+    <Graphics>
+      <Point GraphRef="d321e"/>
+      <Point GraphRef="bcccd" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ad4bc"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6328f1c">
+    <Graphics>
+      <Point GraphRef="f09f6"/>
+      <Point GraphRef="b9e35" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6c15f063">
+    <Graphics>
+      <Point GraphRef="bcccd"/>
+      <Point GraphRef="b9e35" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id71bf00f3">
+    <BiopaxRef>d49</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e3155"/>
+      <Point GraphRef="b9e35"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id82495ffb">
+    <Graphics>
+      <Point GraphRef="ad4bc"/>
+      <Point GraphRef="e8cb4" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id82813149">
+    <BiopaxRef>e06</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b9e35"/>
+      <Point GraphRef="bc3ee"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida5487402">
+    <Graphics>
+      <Point GraphRef="b9e35"/>
+      <Point GraphRef="d5f26"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfdcadf51">
+    <Graphics>
+      <Point GraphRef="cd997"/>
+      <Point GraphRef="fcac9" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d49">
+      <bp:ID >17452640</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Physical interaction between the serotonin transporter and neuronal nitric oxide synthase underlies reciprocal modulation of their activity.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Chanrion B</bp:AUTHORS>
+      <bp:AUTHORS >Mannoury la Cour C</bp:AUTHORS>
+      <bp:AUTHORS >Bertaso F</bp:AUTHORS>
+      <bp:AUTHORS >Lerner-Natoli M</bp:AUTHORS>
+      <bp:AUTHORS >Freissmuth M</bp:AUTHORS>
+      <bp:AUTHORS >Millan MJ</bp:AUTHORS>
+      <bp:AUTHORS >Bockaert J</bp:AUTHORS>
+      <bp:AUTHORS >Marin P</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >neuron</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000540</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c39">
+      <bp:ID >16803896</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Serotonin-, protein kinase C-, and Hic-5-associated redistribution of the platelet serotonin transporter.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Carneiro AM</bp:AUTHORS>
+      <bp:AUTHORS >Blakely RD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >serotonin signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000854</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e06">
+      <bp:ID >18317590</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Interactions between integrin alphaIIbbeta3 and the serotonin transporter regulate serotonin transport and platelet aggregation in mice and humans.</bp:TITLE>
+      <bp:SOURCE >J Clin Invest</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Carneiro AM</bp:AUTHORS>
+      <bp:AUTHORS >Cook EH</bp:AUTHORS>
+      <bp:AUTHORS >Murphy DL</bp:AUTHORS>
+      <bp:AUTHORS >Blakely RD</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

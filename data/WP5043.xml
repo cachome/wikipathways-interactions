@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Pentose phosphate pathway in senescent cells" Version="20210113" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The pentose phosphate pathway is an important route for glucose oxidation. This pathway is divided over 2 different branches; the non-oxidative and the oxidative. The oxidative branch supports the regeneration of reduced NADPH, while converting glucose-6-phosphate into ribulose-5-phosphate and CO2 in an unidirectional way. This branch is also linked to glycolysis at the glucose-6-phosphate level, while the non-oxidative branch is linked to glycolysis in a bidirectional way, depending on the availability of the intermediates glyceraldehyde-3-phosphate and fructose-6-phosphate. This non-oxidative branch converts pentose phosphates into phosphorylated ketones and aldoses (Almeida et al., 2018). During this process, ribose-5-phosphate is produced, which is an important precursor for nucleotide synthesis. The regeneration of the NADPH by the oxidative branch, is regulated by the NADP+/NADPH ratio. When this ratio is lower, due to lower levels of NADPH, the regeneration of NADPH is stimulated in order to maintain the balance (Clement et al., 2019). In case of senescence, OIS heightens this ratio, while proliferative exhaustion-induced senescence lowers this ratio. Furthermore, p53 lowers glycolysis by lowering the level of fructose-2,6-bisphosphate. The PPP is also upregulated due to oxidative stress and by conditions of low stress induced by P53, which is symptomatic of PE-induced senescence (Zhang et al., 2016).  Another study by Wu et al. (2017) showed that one of the rate-limiting enzymes, 6-phosphogluconate dehydrogenase (6PGDH), is upregulated in OIS, due to which the PPP is also upregulated again.
+</Comment>
+  <BiopaxRef>bbb</BiopaxRef>
+  <BiopaxRef>a57</BiopaxRef>
+  <BiopaxRef>c03</BiopaxRef>
+  <BiopaxRef>c9a</BiopaxRef>
+  <Graphics BoardWidth="1468.3945221445194" BoardHeight="1334.5194105698101"/>
+  <DataNode TextLabel="H+" GraphId="a6090" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="D-Ribulose-5-phosphate" GraphId="a65df" Type="Protein">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="H+" GraphId="a7360" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ribulose-phosphate 3-epimerase" GraphId="ab70f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Transaldolase" GraphId="ad486" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PE-Induced Senescence" GraphId="ae854" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="TP53" GraphId="b2c18" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AMP" GraphId="b36d1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ribose-phosphate pyrophosphokinase" GraphId="b3776" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="G6PD" GraphId="b5dc3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Transketolase" GraphId="b622d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="b93c0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="D-Fructose-6-Phosphate" GraphId="bcc28" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="[CO2]" GraphId="c096f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="6-phosphogluconolactonate dehydrogenase" GraphId="c13fd" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="D-Glucose-6-Phosphate" GraphId="c2e9a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="D-Fructose-6-Phosphate" GraphId="c7c66" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="D-sedoheptulose-7-phosphate" GraphId="c8bb3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="acetaldehyde" GraphId="c8e60" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="cb0fe" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="D-glucono-1,5-lactone-6-phosphate" GraphId="cf98b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Oncogene Induced Senescence" GraphId="d1105" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="D-Erythrose-4-phosphate" GraphId="d3445" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="d63ca" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="D-Ribose-5-phosphate" GraphId="dade2" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Oncogene Induced Senescence" GraphId="dd29a" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="5-phospho-D-ribose-1-pyrophosphoric acid" GraphId="df432" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="D-glyceraldehyde-3-phosphate" GraphId="e2f1a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Pyrimidine metabolism" GraphId="e2f8d" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Deoxyribose-phophate aldolase" GraphId="e801b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Phosphoglucomutase" GraphId="e8f08" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Transketolase" GraphId="e9731" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="D-glyceraldehyde-3-phosphate" GraphId="e9e2f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Purine metabolism" GraphId="eade4" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="D-Xylulose-5-phosphate" GraphId="f36d1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="f5d2d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="2-deoxy-D-ribose-5-phosphate" GraphId="fb3ea" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="D-ribose-1-phosphate" GraphId="fbdf9" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Glycolysis" GraphId="fc168" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Ribose phophate isomerase" GraphId="fccd6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="6-phosphogluconolactonase" GraphId="fd3d1" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="6-Phospho-D-gluconate" GraphId="ff4ef" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ATP" GraphId="ffe09" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="d694a" Type="Metabolite" GroupRef="c8bb0">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="d504d" Type="Metabolite" GroupRef="c8bb0">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="id109f6649">
+    <Comment>Oxidative Branch</Comment>
+    <Graphics>
+      <Point GraphRef="c2e9a"/>
+      <Point GraphRef="cf98b" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="dc1a3"/>
+      <Anchor Position="0.4" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1ff4c60c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bcc28"/>
+      <Point/>
+      <Point GraphRef="c7c66" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id228a22ab">
+    <Graphics>
+      <Point GraphRef="f36d1"/>
+      <Point GraphRef="b622d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id229e02cd">
+    <Graphics>
+      <Point GraphRef="dc1a3"/>
+      <Point GraphRef="a6090" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2b2fec7b">
+    <Comment/>
+    <Graphics>
+      <Point GraphRef="ff4ef"/>
+      <Point GraphRef="a65df" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d143f"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ce0c5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2f11f431">
+    <Graphics>
+      <Point GraphRef="d63ca"/>
+      <Point GraphRef="ce0c5" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id39d3eb78">
+    <Comment>P53 lowers glycolysis by lowering the level of fructose-2,6-biphosphatase, a powerful allosteric modulator of PFK1. As a result the glycolytic intermediates are diverted to either the oxidative or non-oxidative branch of the PPP </Comment>
+    <Graphics>
+      <Point GraphRef="b2c18"/>
+      <Point GraphRef="fc168" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3a1b4543">
+    <Graphics>
+      <Point GraphRef="e2f1a"/>
+      <Point GraphRef="ad486" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3d33802a">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e9e2f"/>
+      <Point GraphRef="fc168" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3dc7c8c2">
+    <Graphics>
+      <Point GraphRef="a65df"/>
+      <Point GraphRef="dade2" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b8479"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3f648662">
+    <Graphics>
+      <Point GraphRef="d143f"/>
+      <Point GraphRef="c096f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4498483b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bcc28"/>
+      <Point GraphRef="fc168" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id48f0b897">
+    <Graphics>
+      <Point GraphRef="fccd6"/>
+      <Point GraphRef="b8479" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id49df1891">
+    <Graphics>
+      <Point GraphRef="e8f08"/>
+      <Point GraphRef="a3ab9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4a18399a">
+    <Graphics>
+      <Point GraphRef="ab70f"/>
+      <Point GraphRef="cc4d2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4b871050">
+    <Graphics>
+      <Point GraphRef="f36d1"/>
+      <Point GraphRef="e9731" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4f15c460">
+    <Graphics>
+      <Point GraphRef="c13fd"/>
+      <Point GraphRef="d143f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id50429178">
+    <Graphics>
+      <Point GraphRef="c8bb3"/>
+      <Point GraphRef="ad486" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5af2e2c4">
+    <Graphics>
+      <Point GraphRef="e9e2f"/>
+      <Point GraphRef="fb3ea" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a9233"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5d8c001">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="eade4"/>
+      <Point GraphRef="fbdf9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5e0d2df5">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e2f8d"/>
+      <Point GraphRef="df432" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5fbe1532">
+    <Graphics>
+      <Point GraphRef="d143f"/>
+      <Point GraphRef="cb0fe" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id61f4e6c1">
+    <Graphics>
+      <Point GraphRef="b2df1"/>
+      <Point GraphRef="b62ec"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6356f6d7">
+    <Graphics>
+      <Point GraphRef="e9731"/>
+      <Point GraphRef="d3445" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id65e114e0">
+    <Graphics>
+      <Point GraphRef="dade2"/>
+      <Point GraphRef="df432" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.39040070519747794" Shape="None" GraphId="cc12e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6a622dd7">
+    <Graphics>
+      <Point GraphRef="fd3d1"/>
+      <Point GraphRef="dcee9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id71576db3">
+    <Graphics>
+      <Point GraphRef="d143f"/>
+      <Point GraphRef="a7360" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id71e42e42">
+    <Graphics>
+      <Point GraphRef="b622d"/>
+      <Point GraphRef="c8bb3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7223792f">
+    <Graphics>
+      <Point GraphRef="c8e60"/>
+      <Point GraphRef="fb3ea" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id73821ebb">
+    <Comment>Non-oxidative Branch</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="fc168"/>
+      <Point GraphRef="bcc28" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7814374d">
+    <Graphics>
+      <Point GraphRef="dade2"/>
+      <Point GraphRef="fbdf9" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a3ab9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7f7d1b18">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d504d"/>
+      <Point GraphRef="ce0c5" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e81eb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7fe8b842">
+    <Graphics>
+      <Point GraphRef="b3776"/>
+      <Point GraphRef="cc12e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id80359468">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="fc168"/>
+      <Point GraphRef="e9e2f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id86fb623f">
+    <Graphics>
+      <Point GraphRef="ae854"/>
+      <Point GraphRef="bdbe8" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id94f9949a">
+    <Graphics>
+      <Point GraphRef="cc12e"/>
+      <Point GraphRef="b36d1" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida404f3a4">
+    <Graphics>
+      <Point GraphRef="a65df"/>
+      <Point GraphRef="f36d1" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="cc4d2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida92e2678">
+    <Graphics>
+      <Point GraphRef="ad486"/>
+      <Point GraphRef="d3445" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idad36db4">
+    <Graphics>
+      <Point GraphRef="dade2"/>
+      <Point GraphRef="b622d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb8c2103b">
+    <Graphics>
+      <Point GraphRef="e801b"/>
+      <Point GraphRef="a9233" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbdfe1a89">
+    <Graphics>
+      <Point GraphRef="e81eb"/>
+      <Point GraphRef="b62ec"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbee08787">
+    <Graphics>
+      <Point GraphRef="f5d2d"/>
+      <Point GraphRef="dc1a3" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc3b27310">
+    <Graphics>
+      <Point GraphRef="d1105"/>
+      <Point GraphRef="bdbe8" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc63d81fb">
+    <Comment>In senescent cells, an upregulation of this rate-limiting enzyme takes place</Comment>
+    <Comment>Type your comment here</Comment>
+    <BiopaxRef>f8d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="dd29a"/>
+      <Point GraphRef="b5dc3" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc9a0554e">
+    <Graphics>
+      <Point GraphRef="b622d"/>
+      <Point GraphRef="e2f1a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idccafc4c0">
+    <Graphics>
+      <Point GraphRef="cf98b"/>
+      <Point GraphRef="ff4ef" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.3992130249290002" Shape="None" GraphId="dcee9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcd40a5f0">
+    <Graphics>
+      <Point GraphRef="e9731"/>
+      <Point GraphRef="bcc28" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd0415591">
+    <Graphics>
+      <Point GraphRef="b5dc3"/>
+      <Point GraphRef="dc1a3" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddc4a3548">
+    <Graphics>
+      <Point GraphRef="ffe09"/>
+      <Point GraphRef="cc12e" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddc4edae">
+    <Graphics>
+      <Point GraphRef="ad486"/>
+      <Point GraphRef="c7c66" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide510e3bc">
+    <Graphics>
+      <Point GraphRef="bcc28"/>
+      <Point GraphRef="e9731" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idec0d0323">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="df432"/>
+      <Point GraphRef="eade4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideef30c1a">
+    <Comment>Upregulated levels of G6PDH correlated with decreased p53 levels and increased PPP activity.</Comment>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b5dc3"/>
+      <Point GraphRef="b2c18" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf31f9253">
+    <Graphics>
+      <Point GraphRef="e9731"/>
+      <Point GraphRef="f36d1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf40b8436">
+    <Graphics>
+      <Point GraphRef="dc1a3"/>
+      <Point GraphRef="b93c0" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf5c97575">
+    <Graphics>
+      <Point GraphRef="e9731"/>
+      <Point GraphRef="e9e2f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf8089879">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bdbe8"/>
+      <Point GraphRef="dc1a3" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b2df1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf8e16aee">
+    <Graphics>
+      <Point GraphRef="fc168"/>
+      <Point GraphRef="c2e9a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Lower levels of the NADP+/NADPH ratio&#10;upregulate the regenartion of NADPH." GraphId="b62ec">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Group GroupId="c8bb0" GraphId="bdbe8" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f8d">
+      <bp:ID >28467092</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Metabolomics-Proteomics Combined Approach Identifies Differential Metabolism-Associated Molecular Events between Senescence and Apoptosis.</bp:TITLE>
+      <bp:SOURCE >J Proteome Res</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Wu M</bp:AUTHORS>
+      <bp:AUTHORS >Ye H</bp:AUTHORS>
+      <bp:AUTHORS >Shao C</bp:AUTHORS>
+      <bp:AUTHORS >Zheng X</bp:AUTHORS>
+      <bp:AUTHORS >Li Q</bp:AUTHORS>
+      <bp:AUTHORS >Wang L</bp:AUTHORS>
+      <bp:AUTHORS >Zhao M</bp:AUTHORS>
+      <bp:AUTHORS >Lu G</bp:AUTHORS>
+      <bp:AUTHORS >Chen B</bp:AUTHORS>
+      <bp:AUTHORS >Zhang J</bp:AUTHORS>
+      <bp:AUTHORS >Wang Y</bp:AUTHORS>
+      <bp:AUTHORS >Wang G</bp:AUTHORS>
+      <bp:AUTHORS >Hao H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c03">
+      <bp:ID >27660392</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Glutathione Depletion, Pentose Phosphate Pathway Activation, and Hemolysis in Erythrocytes Protecting Cancer Cells from Vitamin C-induced Oxidative Stress.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Zhang ZZ</bp:AUTHORS>
+      <bp:AUTHORS >Lee EE</bp:AUTHORS>
+      <bp:AUTHORS >Sudderth J</bp:AUTHORS>
+      <bp:AUTHORS >Yue Y</bp:AUTHORS>
+      <bp:AUTHORS >Zia A</bp:AUTHORS>
+      <bp:AUTHORS >Glass D</bp:AUTHORS>
+      <bp:AUTHORS >Deberardinis RJ</bp:AUTHORS>
+      <bp:AUTHORS >Wang RC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bbb">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Metabolic hallmarks of cellular senescence: highlighting the role of intracellular pathways in various senescent phenotypes</bp:TITLE>
+      <bp:SOURCE />
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Birgit Veldman</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c9a">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Improvement of neuronal differentiation by carbon monoxide: Role of pentose phosphate pathway</bp:TITLE>
+      <bp:SOURCE >Elsevier</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Ana S. Almeide</bp:AUTHORS>
+      <bp:AUTHORS >Nuno L. Soares</bp:AUTHORS>
+      <bp:AUTHORS >Catarina O. Sequeira</bp:AUTHORS>
+      <bp:AUTHORS >Sofia A. Pereira</bp:AUTHORS>
+      <bp:AUTHORS >Ursula Sonnewald</bp:AUTHORS>
+      <bp:AUTHORS >Helena L.A. Vieira</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a57">
+      <bp:ID >30124109</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The Plasma NAD&lt;sup&gt;+&lt;/sup&gt;Metabolome Is Dysregulated in "Normal" Aging.</bp:TITLE>
+      <bp:SOURCE >Rejuvenation Res</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Clement J</bp:AUTHORS>
+      <bp:AUTHORS >Wong M</bp:AUTHORS>
+      <bp:AUTHORS >Poljak A</bp:AUTHORS>
+      <bp:AUTHORS >Sachdev P</bp:AUTHORS>
+      <bp:AUTHORS >Braidy N</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >pentose phosphate pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000045</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

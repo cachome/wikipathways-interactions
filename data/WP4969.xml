@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="RAS and bradykinin pathways in COVID-19" Version="20200908" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway describes imbalances in RAS and Bradykinin pathways in COVID-19. 
+The expression of several genes in this pathway is affected in by SARS-CoV-2: 
+
+* SERPING1 is downregulated, which cancels the suppression of F12 of the intrinsic coagulation cascade, resulting in the production of bradykinin from kallikrein and KNG.
+* ACE is downregulated, which increases bradykinin levels.
+* ACE2 is upregulated, ACE is downregulated, which causes an increase in Angiotensin 1-9 and sensitization of bradykinin receptors.
+* NFkappaB is suppressed by SARS-Cov-2, decreasing its binding to the ACE promoter and subsequent transcription.
+
+The result of a hyperactive bradykinin system is vasodilation to the point of vascular leakage and infiltration of inflammatory cells.
+
+The pathway is based on figure 2A from [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7410499/ Garvin et al.]</Comment>
+  <BiopaxRef>f46</BiopaxRef>
+  <Graphics BoardWidth="1343.0" BoardHeight="1029.9433205733694"/>
+  <DataNode TextLabel="Degradation" GraphId="e5292" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="20-HETE" GraphId="a8cb6" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SERPINE1" GraphId="aac02" Type="GeneProduct">
+    <Comment>SERPINE1 codes for plasminogen activator inhibitor-1 (PAI-1)</Comment>
+    <BiopaxRef>f73</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Vitamin D3" GraphId="ac941" Type="Metabolite" GroupRef="feac1">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="ae038" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="bradykinin, des-arg(9)" GraphId="aea90" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="VDR" GraphId="aee67" Type="GeneProduct" GroupRef="feac1">
+        </DataNode>
+  <DataNode TextLabel="Kallikrein-Kinin&#10;System" GraphId="b4cad" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="MAPK1" GraphId="c0de8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SERPING1" GraphId="c32b7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYP24A1" GraphId="cf2a0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Complement and&#10;Coagulation Cascades" GraphId="d20d8" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="L-arginine" GraphId="d996c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="KLK1" GraphId="ddce0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Aldosterone" GraphId="e3c20" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="F12" GraphId="f0b03" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="KLKB1" GraphId="f7722" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AGTR1" GraphId="f99b1" Type="GeneProduct">
+    <BiopaxRef>f73</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CPN1" GraphId="fe018" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AGTR2" GraphId="f2fd8" Type="GeneProduct">
+    <BiopaxRef>bc9</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="BDKRB1" GraphId="b029e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Bradykinin" GraphId="bc2f2" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Angiotensin II" GraphId="f080e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="KNG1" GraphId="b76f8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Angiotensin I" GraphId="c3eaf" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ACE" GraphId="ed520" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Ang 1-7" GraphId="d4174" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="REN" GraphId="f2946" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ACE2" GraphId="aa820" Type="GeneProduct">
+    <BiopaxRef>c74</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="AGT" GraphId="cfd56" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ACE" GraphId="ab666" Type="GeneProduct">
+    <BiopaxRef>bd1</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="BDKRB2" GraphId="f5820" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Ang 1-9" GraphId="b1bb7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Arachidonic &#10;acid" GraphId="a5ea4" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ca++" GraphId="cc565" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP3A4" GraphId="f4d43" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYP3A4" GraphId="fee50" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ACE" GraphId="e130d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Relaxation" GraphId="c3988" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="PRKG1" GraphId="cdaee" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MLCP" GraphId="feb86" Type="Complex">
+        </DataNode>
+  <DataNode TextLabel="Guanylate cyclase" GraphId="e5e16" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RHOA" GraphId="e0505" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ROCK1" GraphId="a8b46" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Guanosine triphosphate" GraphId="e3d3f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="nitric oxide" GraphId="e5fdd" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cyclic guanosine monophosphate" GraphId="ec563" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="nitric oxide" GraphId="c57f1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NOS1" GraphId="cf49a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NOS3" GraphId="fc11d" Type="GeneProduct">
+    <BiopaxRef>d5e</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="L-arginine" GraphId="d555e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ACE2" GraphId="dc981" Type="GeneProduct">
+    <BiopaxRef>f9b</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TNF" GraphId="e582c" Type="GeneProduct" GroupRef="a2d2f">
+        </DataNode>
+  <DataNode TextLabel="IL1A" GraphId="c58bb" Type="GeneProduct" GroupRef="a2d2f">
+        </DataNode>
+  <DataNode TextLabel="Prostaglandin E2" GraphId="b2d4f" Type="Metabolite" GroupRef="bf2b4">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Prostaglandin I2" GraphId="e65c9" Type="Metabolite" GroupRef="bf2b4">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="d33da" Type="GeneProduct" GroupRef="a2d2f">
+        </DataNode>
+  <DataNode TextLabel="IL1B" GraphId="a37dc" Type="GeneProduct" GroupRef="a2d2f">
+        </DataNode>
+  <DataNode TextLabel="IL1A" GraphId="c10e5" Type="GeneProduct" GroupRef="bf2b4">
+        </DataNode>
+  <DataNode TextLabel="IL1B" GraphId="e0a3c" Type="GeneProduct" GroupRef="bf2b4">
+        </DataNode>
+  <DataNode TextLabel="Prostaglandin E2" GraphId="a4c79" Type="Metabolite" GroupRef="e9d52">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Prostaglandin I2" GraphId="d9260" Type="Metabolite" GroupRef="e9d52">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="IL1A" GraphId="c2d6a" Type="GeneProduct" GroupRef="e9d52">
+        </DataNode>
+  <DataNode TextLabel="IL1B" GraphId="d71b0" Type="GeneProduct" GroupRef="e9d52">
+        </DataNode>
+  <Interaction GraphId="id11c88b0d">
+    <Graphics>
+      <Point GraphRef="ddce0"/>
+      <Point GraphRef="b4cad" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id11cf8705">
+    <Graphics>
+      <Point GraphRef="b1bb7"/>
+      <Point GraphRef="f2fd8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1454daff">
+    <Graphics>
+      <Point GraphRef="c2c3d"/>
+      <Point GraphRef="f2946" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4ceb9356">
+    <Graphics>
+      <Point GraphRef="e130d"/>
+      <Point GraphRef="e5292" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id501f9be8">
+    <Graphics>
+      <Point GraphRef="aea90" ArrowHead="Arrow"/>
+      <Point GraphRef="d996c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id54a8211b">
+    <Graphics>
+      <Point GraphRef="f7722"/>
+      <Point GraphRef="bc2f2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id54c92813">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ae038"/>
+      <Point GraphRef="e130d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5f119cca">
+    <Graphics>
+      <Point GraphRef="f4d43"/>
+      <Point GraphRef="dd237" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id63c55d3">
+    <Graphics>
+      <Point GraphRef="bc2f2"/>
+      <Point GraphRef="aea90" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bd101"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id65de959d">
+    <Graphics>
+      <Point GraphRef="f080e"/>
+      <Point GraphRef="f99b1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id672631f5">
+    <BiopaxRef>f73</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e3c20"/>
+      <Point GraphRef="ab666" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6c85e882">
+    <Graphics>
+      <Point GraphRef="d996c"/>
+      <Point GraphRef="cc565" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id73c52fb1">
+    <Graphics>
+      <Point GraphRef="aea90"/>
+      <Point GraphRef="ed520" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7951d7ac">
+    <Graphics>
+      <Point GraphRef="f0b03"/>
+      <Point GraphRef="ddce0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8956bc93">
+    <Graphics>
+      <Point GraphRef="fe018"/>
+      <Point GraphRef="bd101" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id99222b0a">
+    <Graphics>
+      <Point GraphRef="f99b1"/>
+      <Point GraphRef="e3c20" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida74e8c">
+    <Graphics>
+      <Point GraphRef="f080e"/>
+      <Point GraphRef="aac02" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida91dd59d">
+    <BiopaxRef>c7d</BiopaxRef>
+    <BiopaxRef>d1a</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f0b03"/>
+      <Point GraphRef="d20d8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb55155be">
+    <Graphics>
+      <Point GraphRef="c0de8"/>
+      <Point GraphRef="ae038" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbbb881c9">
+    <Graphics>
+      <Point GraphRef="a5ea4"/>
+      <Point GraphRef="fee50" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbcf919df">
+    <Graphics>
+      <Point GraphRef="cf2a0"/>
+      <Point GraphRef="ac941" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="dd237"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc8e789dd">
+    <Graphics>
+      <Point GraphRef="ed520"/>
+      <Point GraphRef="e5292" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide42ad8d5">
+    <Graphics>
+      <Point GraphRef="fee50"/>
+      <Point GraphRef="a8cb6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide64f6ad9">
+    <BiopaxRef>f73</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="aac02"/>
+      <Point/>
+      <Point GraphRef="d20d8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfbb4ef92">
+    <Graphics>
+      <Point GraphRef="b4cad"/>
+      <Point GraphRef="b76f8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfbc3672">
+    <BiopaxRef>f73</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ab666"/>
+      <Point GraphRef="bc2f2" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfe038846">
+    <Graphics>
+      <Point GraphRef="c32b7"/>
+      <Point GraphRef="f0b03" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b31de">
+    <Graphics>
+      <Point GraphRef="c3eaf"/>
+      <Point GraphRef="b1bb7" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.3346696054792089" Shape="None" GraphId="cb549"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e5729">
+    <Graphics>
+      <Point GraphRef="cfd56"/>
+      <Point GraphRef="c3eaf" ArrowHead="Arrow"/>
+      <Anchor Position="0.38998161888022764" Shape="None" GraphId="cc94f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bdeb1">
+    <Graphics>
+      <Point GraphRef="ab666"/>
+      <Point GraphRef="c8420" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ec428">
+    <Graphics>
+      <Point GraphRef="b76f8"/>
+      <Point GraphRef="f7722" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b7518">
+    <Graphics>
+      <Point GraphRef="bc2f2"/>
+      <Point GraphRef="f5820" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fae04">
+    <BiopaxRef>f73</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c3eaf"/>
+      <Point GraphRef="f080e" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4747339641140508" Shape="None" GraphId="c8420"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="da2ac">
+    <Graphics>
+      <Point GraphRef="ab666"/>
+      <Point GraphRef="a2bb9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c8cd6">
+    <Graphics>
+      <Point GraphRef="f2946"/>
+      <Point GraphRef="cc94f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b1ef8">
+    <Graphics>
+      <Point GraphRef="b1bb7"/>
+      <Point GraphRef="d4174" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a2bb9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="be87e">
+    <Graphics>
+      <Point GraphRef="aa820"/>
+      <Point GraphRef="cb549" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b63af">
+    <Graphics>
+      <Point GraphRef="aea90"/>
+      <Point GraphRef="b029e" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d69af">
+    <Graphics>
+      <Point GraphRef="e3d3f"/>
+      <Point GraphRef="ec563" ArrowHead="mim-binding"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c99b0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d9883">
+    <BiopaxRef>ecf</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="feb86"/>
+      <Point GraphRef="c3988" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c4399">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cdaee"/>
+      <Point GraphRef="feb86" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e5c48">
+    <Graphics>
+      <Point GraphRef="e0505"/>
+      <Point GraphRef="a8b46" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d283c">
+    <BiopaxRef>de9</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e5e16"/>
+      <Point GraphRef="c99b0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bd07a">
+    <Graphics>
+      <Point GraphRef="e5fdd"/>
+      <Point GraphRef="e5e16" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b3d21">
+    <Graphics>
+      <Point GraphRef="ec563"/>
+      <Point GraphRef="cdaee" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d96ba">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cdaee"/>
+      <Point GraphRef="e0505" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b06b4">
+    <Graphics>
+      <Point GraphRef="a8b46"/>
+      <Point GraphRef="feb86" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0e49">
+    <Graphics>
+      <Point GraphRef="fc11d"/>
+      <Point GraphRef="a2072" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f390a">
+    <Graphics>
+      <Point GraphRef="f5820"/>
+      <Point GraphRef="cf49a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d28a2">
+    <Graphics>
+      <Point GraphRef="f5820"/>
+      <Point GraphRef="fc11d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1e80">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c57f1"/>
+      <Point GraphRef="e5fdd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a7811">
+    <Graphics>
+      <Point GraphRef="d555e"/>
+      <Point GraphRef="c57f1" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a2072"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e8911">
+    <Graphics>
+      <Point GraphRef="cf49a"/>
+      <Point GraphRef="a2072" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ef0da">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="ff4e0"/>
+      <Point GraphRef="f66e8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b1f87">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="dc981"/>
+      <Point GraphRef="aea90" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a2920">
+    <Graphics>
+      <Point GraphRef="f6746"/>
+      <Point GraphRef="b029e" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b1b8e">
+    <Graphics>
+      <Point GraphRef="b029e"/>
+      <Point GraphRef="ff4e0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida315d709">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f2fd8"/>
+      <Point GraphRef="f5820" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Sensitization" GraphId="b24e1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inflammatory mediators" GraphId="dad9d" GroupRef="bf2b4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Increased plasminogen activator inhibitor-1 (PAI-1 coded by SERPINE1) to&#10;tissue/urokinase plasminogen activator (tPA/uPA) ratio leading to hypofibrinolysis" GraphId="a9d6e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape TextLabel="Blood vessel" GraphId="d82c1">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Vascular smooth muscle cell" GraphId="c6c0b">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="feac1" GraphId="c2c3d" Style="Group"/>
+  <Group GroupId="e9d52" GraphId="f66e8" Style="Group"/>
+  <Group GroupId="a2d2f" GraphId="f6746" Style="Group">
+    <Comment>https://europepmc.org/article/ppr/ppr141292</Comment>
+    <BiopaxRef>e6d</BiopaxRef>
+  </Group>
+  <Group GroupId="bf2b4" GraphId="ff4e0" Style="Group">
+    <BiopaxRef>e40</BiopaxRef>
+  </Group>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >vascular associated smooth muscle cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000359</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a7e">
+      <bp:ID >9489617</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Characterization of the receptor and the mechanisms underlying the inflammatory response induced by des-Arg9-BK in mouse pleurisy.</bp:TITLE>
+      <bp:SOURCE >Br J Pharmacol</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Vianna RM</bp:AUTHORS>
+      <bp:AUTHORS >Calixto JB</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c16">
+      <bp:ID >18417113</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The (pro)renin receptor: a new addition to the renin-angiotensin system?</bp:TITLE>
+      <bp:SOURCE >Eur J Pharmacol</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Batenburg WW</bp:AUTHORS>
+      <bp:AUTHORS >Jan Danser AH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="de9">
+      <bp:ID >10320667</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Guanylate cyclase and the .NO/cGMP signaling pathway.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Denninger JW</bp:AUTHORS>
+      <bp:AUTHORS >Marletta MA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d5e">
+      <bp:ID >18040024</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >cGMP-dependent protein kinase I and smooth muscle relaxation: a tale of two isoforms.</bp:TITLE>
+      <bp:SOURCE >Circ Res</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Surks HK</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce3">
+      <bp:ID >15134803</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The regulation of aldosterone synthase expression.</bp:TITLE>
+      <bp:SOURCE >Mol Cell Endocrinol</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Bassett MH</bp:AUTHORS>
+      <bp:AUTHORS >White PC</bp:AUTHORS>
+      <bp:AUTHORS >Rainey WE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e40">
+      <bp:ID >9489617</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Characterization of the receptor and the mechanisms underlying the inflammatory response induced by des-Arg9-BK in mouse pleurisy.</bp:TITLE>
+      <bp:SOURCE >Br J Pharmacol</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Vianna RM</bp:AUTHORS>
+      <bp:AUTHORS >Calixto JB</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f9b">
+      <bp:ID >32526773</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Impaired Breakdown of Bradykinin and Its Metabolites as a Possible Cause for Pulmonary Edema in COVID-19 Infection.</bp:TITLE>
+      <bp:SOURCE >Semin Thromb Hemost</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >de Maat S</bp:AUTHORS>
+      <bp:AUTHORS >de Mast Q</bp:AUTHORS>
+      <bp:AUTHORS >Danser AHJ</bp:AUTHORS>
+      <bp:AUTHORS >van de Veerdonk FL</bp:AUTHORS>
+      <bp:AUTHORS >Maas C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d1a">
+      <bp:ID >32562843</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >COVID-19 and pneumonia: a role for the uPA/uPAR system.</bp:TITLE>
+      <bp:SOURCE >Drug Discov Today</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >D'Alonzo D</bp:AUTHORS>
+      <bp:AUTHORS >De Fenza M</bp:AUTHORS>
+      <bp:AUTHORS >Pavone V</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f46">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A mechanistic model and therapeutic interventions for COVID-19 involving a RAS-mediated bradykinin storm</bp:TITLE>
+      <bp:SOURCE >eLife</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:ID >32633718</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A mechanistic model and therapeutic interventions for COVID-19 involving a RAS-mediated bradykinin storm.</bp:TITLE>
+      <bp:SOURCE >Elife</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Garvin MR</bp:AUTHORS>
+      <bp:AUTHORS >Alvarez C</bp:AUTHORS>
+      <bp:AUTHORS >Miller JI</bp:AUTHORS>
+      <bp:AUTHORS >Prates ET</bp:AUTHORS>
+      <bp:AUTHORS >Walker AM</bp:AUTHORS>
+      <bp:AUTHORS >Amos BK</bp:AUTHORS>
+      <bp:AUTHORS >Mast AE</bp:AUTHORS>
+      <bp:AUTHORS >Justice A</bp:AUTHORS>
+      <bp:AUTHORS >Aronow B</bp:AUTHORS>
+      <bp:AUTHORS >Jacobson D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >COVID-19</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0080600</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd1">
+      <bp:ID >15174896</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Pharmacogenetics of antihypertensive drug responses.</bp:TITLE>
+      <bp:SOURCE >Am J Pharmacogenomics</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Schwartz GL</bp:AUTHORS>
+      <bp:AUTHORS >Turner ST</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f73">
+      <bp:ID >33375371</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE />
+      <bp:SOURCE />
+      <bp:YEAR />
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c74">
+      <bp:ID >18449520</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Are we poised to target ACE2 for the next generation of antihypertensives?</bp:TITLE>
+      <bp:SOURCE >J Mol Med</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Ferreira AJ</bp:AUTHORS>
+      <bp:AUTHORS >Raizada MK</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ecf">
+      <bp:ID >1336455</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The control of protein phosphatase-1 by targetting subunits. The major myosin phosphatase in avian smooth muscle is a novel form of protein phosphatase-1.</bp:TITLE>
+      <bp:SOURCE >Eur J Biochem</bp:SOURCE>
+      <bp:YEAR >1992</bp:YEAR>
+      <bp:AUTHORS >Alessi D</bp:AUTHORS>
+      <bp:AUTHORS >MacDougall LK</bp:AUTHORS>
+      <bp:AUTHORS >Sola MM</bp:AUTHORS>
+      <bp:AUTHORS >Ikebe M</bp:AUTHORS>
+      <bp:AUTHORS >Cohen P</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c7d">
+      <bp:ID >33065209</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of kallikrein-kinin and renin-angiotensin systems in COVID-19 infection.</bp:TITLE>
+      <bp:SOURCE >Peptides</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Carvalho PR</bp:AUTHORS>
+      <bp:AUTHORS >Sirois P</bp:AUTHORS>
+      <bp:AUTHORS >Fernandes PD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf9">
+      <bp:ID >18086946</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of bradykinin, nitric oxide, and angiotensin II type 2 receptor in imidapril-induced angiogenesis.</bp:TITLE>
+      <bp:SOURCE >Hypertension</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Li P</bp:AUTHORS>
+      <bp:AUTHORS >Kondo T</bp:AUTHORS>
+      <bp:AUTHORS >Numaguchi Y</bp:AUTHORS>
+      <bp:AUTHORS >Kobayashi K</bp:AUTHORS>
+      <bp:AUTHORS >Aoki M</bp:AUTHORS>
+      <bp:AUTHORS >Inoue N</bp:AUTHORS>
+      <bp:AUTHORS >Okumura K</bp:AUTHORS>
+      <bp:AUTHORS >Murohara T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d5e">
+      <bp:ID >18086946</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of bradykinin, nitric oxide, and angiotensin II type 2 receptor in imidapril-induced angiogenesis.</bp:TITLE>
+      <bp:SOURCE >Hypertension</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Li P</bp:AUTHORS>
+      <bp:AUTHORS >Kondo T</bp:AUTHORS>
+      <bp:AUTHORS >Numaguchi Y</bp:AUTHORS>
+      <bp:AUTHORS >Kobayashi K</bp:AUTHORS>
+      <bp:AUTHORS >Aoki M</bp:AUTHORS>
+      <bp:AUTHORS >Inoue N</bp:AUTHORS>
+      <bp:AUTHORS >Okumura K</bp:AUTHORS>
+      <bp:AUTHORS >Murohara T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b5d">
+      <bp:ID >18729003</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mineralocorticoid receptor antagonists and endothelial function.</bp:TITLE>
+      <bp:SOURCE >Curr Opin Investig Drugs</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Maron BA</bp:AUTHORS>
+      <bp:AUTHORS >Leopold JA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bc9">
+      <bp:ID >18035185</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Effects of renin-angiotensin system inhibition on end-organ protection: can we do better?</bp:TITLE>
+      <bp:SOURCE >Clin Ther</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Weir MR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e6d">
+      <bp:ID >32526773</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Impaired Breakdown of Bradykinin and Its Metabolites as a Possible Cause for Pulmonary Edema in COVID-19 Infection.</bp:TITLE>
+      <bp:SOURCE >Semin Thromb Hemost</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >de Maat S</bp:AUTHORS>
+      <bp:AUTHORS >de Mast Q</bp:AUTHORS>
+      <bp:AUTHORS >Danser AHJ</bp:AUTHORS>
+      <bp:AUTHORS >van de Veerdonk FL</bp:AUTHORS>
+      <bp:AUTHORS >Maas C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="af8">
+      <bp:ID >16374430</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Renin increases mesangial cell transforming growth factor-beta1 and matrix proteins through receptor-mediated, angiotensin II-independent mechanisms.</bp:TITLE>
+      <bp:SOURCE >Kidney Int</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Huang Y</bp:AUTHORS>
+      <bp:AUTHORS >Wongamorntham S</bp:AUTHORS>
+      <bp:AUTHORS >Kasting J</bp:AUTHORS>
+      <bp:AUTHORS >McQuillan D</bp:AUTHORS>
+      <bp:AUTHORS >Owens RT</bp:AUTHORS>
+      <bp:AUTHORS >Yu L</bp:AUTHORS>
+      <bp:AUTHORS >Noble NA</bp:AUTHORS>
+      <bp:AUTHORS >Border W</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

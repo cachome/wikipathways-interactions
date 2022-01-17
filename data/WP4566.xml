@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Translation inhibitors in chronically activated PDGFRA cells" Version="20190328" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Chronic stimulation of the PDGFRA receptor results in decreased phosphorylation of RSK1/2 and S6K1/2, which subsequently impairs the phosphorylation of S6 ribosome protein and associated ribosome biogenesis and 5&#8242; TOP mRNA translation. The phosphorylation of 4EBP1 and PDCD4 are suppressed, which subsequently limits the components of the eIF4F complex (eIF4E and eIF4A) from joining into the complex. In addition, the phosphorylation of the translation initiation factor eIF4B is also decreased. These changes result in a suppressed CAP-dependent translation initiation in cells with chronic stimulated PDGFRA signaling compared with acute stimulated ones.
+
+Based on figure S7 from [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6238596/ Zhou et al].</Comment>
+  <BiopaxRef>c10</BiopaxRef>
+  <Graphics BoardWidth="1475.0" BoardHeight="966.4625850340152"/>
+  <DataNode TextLabel="PRKCD" GraphId="ad976" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAPK14" GraphId="af0eb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAP2K4" GraphId="b6ca0" Type="GeneProduct" GroupRef="d671a">
+        </DataNode>
+  <DataNode TextLabel="RPS6KA1" GraphId="c1f22" Type="GeneProduct" GroupRef="a5efd">
+        </DataNode>
+  <DataNode TextLabel="RPS6" GraphId="c995d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RPS6KA4" GraphId="d469a" Type="GeneProduct" GroupRef="e4c72">
+        </DataNode>
+  <DataNode TextLabel="RPS6KB1" GraphId="d4766" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="5' TOP mRNA Translation" GraphId="d4bae" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="AZD8055" GraphId="d5fb9" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="4EGI-1" GraphId="dda71" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PIM1" GraphId="df762" Type="GeneProduct" GroupRef="a57e6">
+        </DataNode>
+  <DataNode TextLabel="PDK1" GraphId="e1b61" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RPS6KB2" GraphId="f297b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AKT1" GraphId="fcdbc" Type="GeneProduct" GroupRef="e2ac0">
+        </DataNode>
+  <DataNode TextLabel="PDCD4" GraphId="fcdf6" Type="GeneProduct" GroupRef="f22c7">
+        </DataNode>
+  <DataNode TextLabel="MTOR" GraphId="ffc3c" Type="GeneProduct" GroupRef="f038f">
+        </DataNode>
+  <DataNode TextLabel="RPTOR" GraphId="b6066" Type="GeneProduct" GroupRef="f038f">
+        </DataNode>
+  <DataNode TextLabel="MAP2K1" GraphId="ace0b" Type="GeneProduct" GroupRef="b0519">
+        </DataNode>
+  <DataNode TextLabel="MAPK1" GraphId="a9d6c" Type="GeneProduct" GroupRef="af5ac">
+        </DataNode>
+  <DataNode TextLabel="MAPK3" GraphId="fbceb" Type="GeneProduct" GroupRef="af5ac">
+        </DataNode>
+  <DataNode TextLabel="MAP2K2" GraphId="d717b" Type="GeneProduct" GroupRef="b0519">
+        </DataNode>
+  <DataNode TextLabel="PIK3CA" GraphId="cd5da" Type="GeneProduct" GroupRef="c0bbb">
+        </DataNode>
+  <DataNode TextLabel="PIK3CB" GraphId="eb3be" Type="GeneProduct" GroupRef="c0bbb">
+        </DataNode>
+  <DataNode TextLabel="PIK3R1" GraphId="b696c" Type="GeneProduct" GroupRef="c0bbb">
+        </DataNode>
+  <DataNode TextLabel="PIK3R2" GraphId="b2171" Type="GeneProduct" GroupRef="c0bbb">
+        </DataNode>
+  <DataNode TextLabel="PIK3R3" GraphId="c32b5" Type="GeneProduct" GroupRef="c0bbb">
+        </DataNode>
+  <DataNode TextLabel="PIK3CG" GraphId="e2d8d" Type="GeneProduct" GroupRef="c0bbb">
+        </DataNode>
+  <DataNode TextLabel="MAP2K5" GraphId="c2eb1" Type="GeneProduct" GroupRef="d671a">
+        </DataNode>
+  <DataNode TextLabel="MAP2K6" GraphId="f29df" Type="GeneProduct" GroupRef="d671a">
+        </DataNode>
+  <DataNode TextLabel="MAP2K7" GraphId="f6649" Type="GeneProduct" GroupRef="d671a">
+        </DataNode>
+  <DataNode TextLabel="MAPK9" GraphId="b5919" Type="GeneProduct" GroupRef="f447f">
+        </DataNode>
+  <DataNode TextLabel="MAPK10" GraphId="c394d" Type="GeneProduct" GroupRef="f447f">
+        </DataNode>
+  <DataNode TextLabel="MAPK8" GraphId="ad280" Type="GeneProduct" GroupRef="f447f">
+        </DataNode>
+  <DataNode TextLabel="MAP2K3" GraphId="e0a08" Type="GeneProduct" GroupRef="fbb3a">
+        </DataNode>
+  <DataNode TextLabel="MAP2K6" GraphId="e900a" Type="GeneProduct" GroupRef="fbb3a">
+        </DataNode>
+  <DataNode TextLabel="PRKCA" GraphId="d226a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RPS6KA5" GraphId="f7c1f" Type="GeneProduct" GroupRef="e4c72">
+        </DataNode>
+  <DataNode TextLabel="CSNK2A1" GraphId="dbf67" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PRKACA" GraphId="de2d2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RPS6KA2" GraphId="cdee0" Type="GeneProduct" GroupRef="a5efd">
+        </DataNode>
+  <DataNode TextLabel="AKT2" GraphId="dd736" Type="GeneProduct" GroupRef="e2ac0">
+        </DataNode>
+  <DataNode TextLabel="AKT3" GraphId="a588e" Type="GeneProduct" GroupRef="e2ac0">
+        </DataNode>
+  <DataNode TextLabel="RPS6" GraphId="eecf8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EIF4EBP1" GraphId="a3ac7" Type="GeneProduct" GroupRef="c5468">
+        </DataNode>
+  <DataNode TextLabel="EIF4E" GraphId="ebb3d" Type="GeneProduct" GroupRef="c5468">
+        </DataNode>
+  <DataNode TextLabel="EIF4EBP1" GraphId="e269d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PDCD4" GraphId="b12f2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EIF4A1" GraphId="e1676" Type="GeneProduct" GroupRef="f22c7">
+        </DataNode>
+  <DataNode TextLabel="EIF4A2" GraphId="ab4fd" Type="GeneProduct" GroupRef="f22c7">
+        </DataNode>
+  <DataNode TextLabel="EIF4G3" GraphId="d2677" Type="GeneProduct" GroupRef="b1057">
+        </DataNode>
+  <DataNode TextLabel="EIF4G1" GraphId="ad091" Type="GeneProduct" GroupRef="b1057">
+    <Comment Source="GenMAPP remarks">TrEMBL accession number O43177 refers to same protein.</Comment>
+        </DataNode>
+  <DataNode TextLabel="EIF4A1" GraphId="de942" Type="GeneProduct" GroupRef="b1057">
+        </DataNode>
+  <DataNode TextLabel="EIF4A2" GraphId="bb202" Type="GeneProduct" GroupRef="b1057">
+        </DataNode>
+  <DataNode TextLabel="EIF4E" GraphId="d2c00" Type="GeneProduct" GroupRef="b1057">
+        </DataNode>
+  <DataNode TextLabel="PIM2" GraphId="c8212" Type="GeneProduct" GroupRef="a57e6">
+        </DataNode>
+  <DataNode TextLabel="EIF4B" GraphId="d85f0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EIF4B" GraphId="b63ac" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EIF4G3" GraphId="b1a26" Type="GeneProduct" GroupRef="bc099">
+        </DataNode>
+  <DataNode TextLabel="EIF4G1" GraphId="a0a8f" Type="GeneProduct" GroupRef="bc099">
+    <Comment Source="GenMAPP remarks">TrEMBL accession number O43177 refers to same protein.</Comment>
+        </DataNode>
+  <DataNode TextLabel="EIF4A1" GraphId="c748f" Type="GeneProduct" GroupRef="bc099">
+        </DataNode>
+  <DataNode TextLabel="EIF4A2" GraphId="b2d98" Type="GeneProduct" GroupRef="bc099">
+        </DataNode>
+  <DataNode TextLabel="EIF4E" GraphId="c464f" Type="GeneProduct" GroupRef="bc099">
+        </DataNode>
+  <DataNode TextLabel="EIF4B" GraphId="f5f0d" Type="GeneProduct" GroupRef="bc099">
+        </DataNode>
+  <DataNode TextLabel="LY2584702" GraphId="d7e8a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <State GraphRef="c995d" TextLabel="P" GraphId="adc56">
+    <Comment>parent=P62753; position=ser235; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c995d" TextLabel="P" GraphId="afb4d">
+    <Comment>parent=P62753; position=ser236; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c1f22" TextLabel="P" GraphId="c4fcd">
+    <Comment>parent=Q15418; position=Ser380; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d4766" TextLabel="P" GraphId="d574d">
+    <Comment>parent=P23443; position=thr389; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c995d" TextLabel="P" GraphId="d6751">
+    <Comment>parent=P62753; position=ser240; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d4766" TextLabel="P" GraphId="e17dc">
+    <Comment>parent=P23443; position=thr412; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c995d" TextLabel="P" GraphId="f7209">
+    <Comment>parent=P62753; position=ser244; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ace0b" TextLabel="P" GraphId="abfe6">
+    <Comment>parent=Q02750; position=ser222; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ace0b" TextLabel="P" GraphId="db1c8">
+    <Comment>parent=Q02750; position=ser218; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a9d6c" TextLabel="P" GraphId="c869a">
+    <Comment>parent=P28482; position=thr185; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a9d6c" TextLabel="P" GraphId="f0d86">
+    <Comment>parent=P28482; position=tyr187; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="fbceb" TextLabel="P" GraphId="a7f07">
+    <Comment>parent=P27361; position=tyr204; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="fbceb" TextLabel="P" GraphId="f60a2">
+    <Comment>parent=P27361; position=thr202; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d717b" TextLabel="P" GraphId="c637c">
+    <Comment>parent=P36507; position=ser222; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d717b" TextLabel="P" GraphId="d9cda">
+    <Comment>parent=P36507; position=ser226; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e269d" TextLabel="P" GraphId="ce54f">
+    <Comment>parent=Q13541; position=thr37; ptm=p; direction=d</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e269d" TextLabel="P" GraphId="d0067">
+    <Comment>parent=Q13541; position=thr46; ptm=p; direction=d</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e269d" TextLabel="P" GraphId="d1415">
+    <Comment>parent=Q13541; position=ser70; ptm=p; direction=d</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e269d" TextLabel="P" GraphId="eb7f9">
+    <Comment>parent=Q13541; position=ser65; ptm=p; direction=d</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b12f2" TextLabel="P" GraphId="a2d51">
+    <Comment>parent=Q53EL6; position=ser67; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b12f2" TextLabel="P" GraphId="c8539">
+    <Comment>parent=Q53EL6; position=ser76; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b12f2" TextLabel="P" GraphId="dfbd0">
+    <Comment>parent=Q53EL6; position=ser457; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d85f0" TextLabel="P" GraphId="a9ba5">
+    <Comment>parent=P23588; position=ser406; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d85f0" TextLabel="P" GraphId="c58eb">
+    <Comment>parent=P23588; position=ser422; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f5f0d" TextLabel="P" GraphId="a84e2">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f5f0d" TextLabel="P" GraphId="f1f28">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id11d6bca4">
+    <Graphics>
+      <Point GraphRef="cb710"/>
+      <Point GraphRef="ee3fe" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1bcc2582">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d4766"/>
+      <Point/>
+      <Point GraphRef="c76a0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1cee5697">
+    <Graphics>
+      <Point GraphRef="e4b43"/>
+      <Point GraphRef="af0eb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2482c8c8">
+    <Graphics>
+      <Point GraphRef="eecf8"/>
+      <Point GraphRef="c995d" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="cdf60"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id286aee3d">
+    <Graphics>
+      <Point GraphRef="b6066"/>
+      <Point GraphRef="d4766" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id29cb3211">
+    <Graphics>
+      <Point GraphRef="c995d"/>
+      <Point GraphRef="d4bae" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2aebd461">
+    <Graphics>
+      <Point GraphRef="e269d" ArrowHead="Arrow"/>
+      <Point GraphRef="e6ae5"/>
+      <Anchor Position="0.85003912002767" Shape="None" GraphId="b0c85"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2b9d915">
+    <Graphics>
+      <Point GraphRef="b6066"/>
+      <Point GraphRef="f4963" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3a34a9bb">
+    <Graphics>
+      <Point GraphRef="c66dc"/>
+      <Point GraphRef="f4963" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3df8f6af">
+    <Graphics>
+      <Point GraphRef="b12f2"/>
+      <Point GraphRef="fcdf6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id45ee6a3f">
+    <Graphics>
+      <Point GraphRef="f4963"/>
+      <Point GraphRef="cdf60" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id64648660">
+    <Graphics>
+      <Point GraphRef="e1b61"/>
+      <Point GraphRef="d4766" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6d2c7e58">
+    <Graphics>
+      <Point GraphRef="e7138"/>
+      <Point GraphRef="b0c85" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id740b5a46">
+    <Graphics>
+      <Point GraphRef="de9d9"/>
+      <Point GraphRef="f8ad9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7ef46f72">
+    <Graphics>
+      <Point GraphRef="c66dc"/>
+      <Point GraphRef="d4766" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id88313946">
+    <Graphics>
+      <Point GraphRef="b12f2"/>
+      <Point GraphRef="d2b85" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id886472e">
+    <Graphics>
+      <Point GraphRef="a89ed"/>
+      <Point GraphRef="e1b61" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id89fe1bab">
+    <Graphics>
+      <Point GraphRef="f297b"/>
+      <Point GraphRef="f8ad9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8da20aa5">
+    <Graphics>
+      <Point GraphRef="d5fb9"/>
+      <Point GraphRef="ffc3c" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8fa26b0c">
+    <Graphics>
+      <Point GraphRef="ee3fe"/>
+      <Point GraphRef="b0c85" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id906ea0ad">
+    <Graphics>
+      <Point GraphRef="c06bd"/>
+      <Point GraphRef="b6066" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id93977ec8">
+    <Graphics>
+      <Point GraphRef="d7e8a"/>
+      <Point GraphRef="f297b" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9a9ccd67">
+    <Graphics>
+      <Point GraphRef="e1b61"/>
+      <Point GraphRef="f4963" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9dea6ae9">
+    <Graphics>
+      <Point GraphRef="b63ac"/>
+      <Point GraphRef="d85f0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5135133562219774" Shape="None" GraphId="f8ad9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida04e3330">
+    <Graphics>
+      <Point GraphRef="ee3fe"/>
+      <Point GraphRef="f4963" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida3e68cf9">
+    <Graphics>
+      <Point GraphRef="d85f0"/>
+      <Point GraphRef="e70af" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida562bd13">
+    <Graphics>
+      <Point GraphRef="d7e8a"/>
+      <Point GraphRef="d4766" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idafb65f88">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d226a"/>
+      <Point/>
+      <Point GraphRef="cdf60" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb3f6d655">
+    <Graphics>
+      <Point GraphRef="c33fd"/>
+      <Point GraphRef="e70af" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb8e088af">
+    <Graphics>
+      <Point GraphRef="c995d"/>
+      <Point GraphRef="eecf8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbdacb95">
+    <Graphics>
+      <Point GraphRef="b6066"/>
+      <Point GraphRef="f297b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc4f83d1a">
+    <Graphics>
+      <Point GraphRef="d226a"/>
+      <Point GraphRef="b0c85" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc7d367d">
+    <Graphics>
+      <Point GraphRef="e6ae5" ArrowHead="Arrow"/>
+      <Point GraphRef="e269d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd1312690">
+    <Graphics>
+      <Point GraphRef="dda71"/>
+      <Point GraphRef="c33fd" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd61d22b9">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c06bd"/>
+      <Point GraphRef="c76a0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd78eb481">
+    <Graphics>
+      <Point GraphRef="f9a52"/>
+      <Point GraphRef="c66dc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idda51a9a8">
+    <Graphics>
+      <Point GraphRef="af0eb"/>
+      <Point GraphRef="b0c85" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb62d1be">
+    <Graphics>
+      <Point GraphRef="f9818"/>
+      <Point GraphRef="c33fd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idde2754cf">
+    <Graphics>
+      <Point GraphRef="b6066"/>
+      <Point GraphRef="b0c85" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idedb15aed">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f4963"/>
+      <Point/>
+      <Point GraphRef="c76a0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf4555a28">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e70af"/>
+      <Point GraphRef="a7cb4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf8132b2d">
+    <Graphics>
+      <Point GraphRef="d85f0"/>
+      <Point GraphRef="b63ac" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfc9180bf">
+    <Graphics>
+      <Point GraphRef="fcdf6"/>
+      <Point GraphRef="b12f2" ArrowHead="Arrow"/>
+      <Anchor Position="0.2660568158068336" Shape="None" GraphId="c76a0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfdd7f61c">
+    <Graphics>
+      <Point GraphRef="e1b61"/>
+      <Point GraphRef="c06bd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de612">
+    <Graphics>
+      <Point GraphRef="de2d2"/>
+      <Point GraphRef="cdf60" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cc7e5">
+    <Graphics>
+      <Point GraphRef="ad976"/>
+      <Point GraphRef="cdf60" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bd7eb">
+    <Graphics>
+      <Point GraphRef="d4766"/>
+      <Point GraphRef="cdf60" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f9a2e">
+    <Graphics>
+      <Point GraphRef="f297b"/>
+      <Point GraphRef="cdf60" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ea397">
+    <Graphics>
+      <Point GraphRef="c06bd"/>
+      <Point GraphRef="cdf60" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f6179">
+    <Graphics>
+      <Point GraphRef="dbf67"/>
+      <Point GraphRef="b0c85" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1397">
+    <Graphics>
+      <Point GraphRef="d4766"/>
+      <Point GraphRef="f8ad9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ead9c">
+    <Graphics>
+      <Point GraphRef="f4963"/>
+      <Point GraphRef="f8ad9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ca54e">
+    <Graphics>
+      <Point GraphRef="e6ae5"/>
+      <Point GraphRef="c33fd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Translation Initiation" GraphId="a7cb4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Chronic" GraphId="cadbe">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Degradation" GraphId="d2b85">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CAP dependent translation" GraphId="da39c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Chronic" GraphId="b161f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Acute" GraphId="bfefb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Acute" GraphId="a14f9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Group GroupId="c0bbb" GraphId="a89ed" Style="Complex"/>
+  <Group GroupId="e2ac0" GraphId="c06bd" Style="Group"/>
+  <Group GroupId="b1057" GraphId="c33fd" Style="Complex"/>
+  <Group GroupId="f447f" GraphId="c66dc" Style="Group"/>
+  <Group GroupId="b0519" GraphId="cb710" Style="Group"/>
+  <Group GroupId="f038f" GraphId="cdc75" Style="Group"/>
+  <Group GroupId="a57e6" GraphId="de9d9" Style="Group"/>
+  <Group GroupId="fbb3a" GraphId="e4b43" Style="Group"/>
+  <Group GroupId="c5468" GraphId="e6ae5" Style="Group"/>
+  <Group GroupId="bc099" GraphId="e70af" Style="Complex"/>
+  <Group GroupId="e4c72" GraphId="e7138" Style="Group"/>
+  <Group GroupId="af5ac" GraphId="ee3fe" Style="Group"/>
+  <Group GroupId="a5efd" GraphId="f4963" Style="Group"/>
+  <Group GroupId="f22c7" GraphId="f9818" Style="Group"/>
+  <Group GroupId="d671a" GraphId="f9a52" Style="Group"/>
+  <Group GroupId="a8d89" GraphId="fcb18" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >translation initiation pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000580</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >glioma pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000711</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c10">
+      <bp:ID >30456354</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Chronic platelet-derived growth factor receptor signaling exerts control over initiation of protein translation in glioma.</bp:TITLE>
+      <bp:SOURCE >Life Sci Alliance</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Zhou S</bp:AUTHORS>
+      <bp:AUTHORS >Appleman VA</bp:AUTHORS>
+      <bp:AUTHORS >Rose CM</bp:AUTHORS>
+      <bp:AUTHORS >Jun HJ</bp:AUTHORS>
+      <bp:AUTHORS >Yang J</bp:AUTHORS>
+      <bp:AUTHORS >Zhou Y</bp:AUTHORS>
+      <bp:AUTHORS >Bronson RT</bp:AUTHORS>
+      <bp:AUTHORS >Gygi SP</bp:AUTHORS>
+      <bp:AUTHORS >Charest A</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

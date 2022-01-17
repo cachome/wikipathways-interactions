@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Canonical and non-canonical TGF-B signaling" Version="20160814" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway is modeled after Figure 9 in the article "Gremlin utilizes canonical and non-canonical TGFB signaling to induce lysyl oxidase (LOX) genes in human trabecular meshwork cells". Gremlin is enables the TGF-B signaling pathways to oversee LOX and LOXL proteins and also demonstrates that the non-canonical JNK1/2 complex, canonical SMAD, and P38 signaling pathways are involved in this pathway. TGF-B signaling is possible through Gremlin's ability to bock the BMP signaling pathway which inhibits TGF-B receptors.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3874 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>f2f</BiopaxRef>
+  <Graphics BoardWidth="998.0" BoardHeight="782.0"/>
+  <DataNode TextLabel="TGFBR1" GraphId="afc44" Type="GeneProduct" GroupRef="b607f">
+        </DataNode>
+  <DataNode TextLabel="TGF-Beta" GraphId="c21db" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TGFBR2" GraphId="e52e0" Type="GeneProduct" GroupRef="b607f">
+        </DataNode>
+  <DataNode TextLabel="Grem" GraphId="bc9bf" Type="GeneProduct" GroupRef="e6021">
+        </DataNode>
+  <DataNode TextLabel="BMP" GraphId="ad3ab" Type="GeneProduct" GroupRef="e6021">
+        </DataNode>
+  <DataNode TextLabel="BMPR2" GraphId="bd599" Type="GeneProduct" GroupRef="d2ae1">
+        </DataNode>
+  <DataNode TextLabel="BMPR1" GraphId="e2038" Type="GeneProduct" GroupRef="d2ae1">
+        </DataNode>
+  <DataNode TextLabel="SMAD4" GraphId="a57f4" Type="GeneProduct" GroupRef="f13b5">
+        </DataNode>
+  <DataNode TextLabel="SMAD2" GraphId="a74fe" Type="GeneProduct" GroupRef="f13b5">
+        </DataNode>
+  <DataNode TextLabel="SMAD3" GraphId="a576a" Type="GeneProduct" GroupRef="f13b5">
+        </DataNode>
+  <DataNode TextLabel="JNK1" GraphId="ce8a3" Type="GeneProduct" GroupRef="f0dbf">
+        </DataNode>
+  <DataNode TextLabel="JNK2" GraphId="c3be4" Type="GeneProduct" GroupRef="f0dbf">
+        </DataNode>
+  <DataNode TextLabel="P38" GraphId="c78cf" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LOX" GraphId="e8f44" Type="GeneProduct" GroupRef="aefa4">
+        </DataNode>
+  <DataNode TextLabel="LOXL1" GraphId="e3b6a" Type="GeneProduct" GroupRef="aefa4">
+        </DataNode>
+  <DataNode TextLabel="LOXL2" GraphId="ec137" Type="GeneProduct" GroupRef="aefa4">
+        </DataNode>
+  <DataNode TextLabel="LOXL4" GraphId="bef3e" Type="GeneProduct" GroupRef="aefa4">
+        </DataNode>
+  <DataNode TextLabel="LOXL4" GraphId="e74dc" Type="GeneProduct" GroupRef="f8406">
+        </DataNode>
+  <DataNode TextLabel="LOXL2" GraphId="dba7e" Type="GeneProduct" GroupRef="f8406">
+        </DataNode>
+  <DataNode TextLabel="LOXL1" GraphId="a22a4" Type="GeneProduct" GroupRef="f8406">
+        </DataNode>
+  <DataNode TextLabel="LOX" GraphId="c1a90" Type="GeneProduct" GroupRef="f8406">
+        </DataNode>
+  <DataNode TextLabel="LOX" GraphId="df272" Type="GeneProduct" GroupRef="c3bdc">
+        </DataNode>
+  <DataNode TextLabel="LOXL1" GraphId="ce557" Type="GeneProduct" GroupRef="c3bdc">
+        </DataNode>
+  <DataNode TextLabel="LOX" GraphId="f4a5f" Type="GeneProduct" GroupRef="a7ada">
+        </DataNode>
+  <DataNode TextLabel="LOXL1" GraphId="d1b2d" Type="GeneProduct" GroupRef="a7ada">
+        </DataNode>
+  <DataNode TextLabel="LOXL1" GraphId="da652" Type="GeneProduct" GroupRef="f6f9d">
+        </DataNode>
+  <DataNode TextLabel="LOXL4" GraphId="db6a4" Type="GeneProduct" GroupRef="f6f9d">
+        </DataNode>
+  <DataNode TextLabel="LOXL1" GraphId="c4b33" Type="GeneProduct" GroupRef="d304e">
+        </DataNode>
+  <DataNode TextLabel="LOXL4" GraphId="bfb9d" Type="GeneProduct" GroupRef="d304e">
+        </DataNode>
+  <State GraphRef="a74fe" TextLabel="P" GraphId="e9b07">
+    <Comment>Phosphate</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a576a" TextLabel="P" GraphId="c6c43">
+    <Comment>Phosphate</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ce8a3" TextLabel="P" GraphId="aa6cd">
+    <Comment>Phosphate</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c3be4" TextLabel="P" GraphId="dc956">
+    <Comment>Phosphate</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c78cf" TextLabel="P" GraphId="b89db">
+    <Comment>Phosphate</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id218f5cd6">
+    <Graphics>
+      <Point GraphRef="c21db"/>
+      <Point GraphRef="c03f5" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcf933d4">
+    <Graphics>
+      <Point GraphRef="bc9bf"/>
+      <Point GraphRef="c21db" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a8e7e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc5e2b5f3">
+    <Graphics>
+      <Point GraphRef="ad3ab"/>
+      <Point GraphRef="bd599" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id62ca76e3">
+    <Graphics>
+      <Point GraphRef="ad3ab"/>
+      <Point GraphRef="e52e0" ArrowHead="mim-inhibition"/>
+      <Anchor Position="0.4" Shape="None" GraphId="be1b4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9cc894c9">
+    <Graphics>
+      <Point GraphRef="a8e7e"/>
+      <Point GraphRef="be1b4" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5b613527">
+    <Graphics>
+      <Point GraphRef="a0718"/>
+      <Point GraphRef="fa150" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id871f9ef1">
+    <Graphics>
+      <Point GraphRef="fa150"/>
+      <Point GraphRef="e761a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id66d7839">
+    <Graphics>
+      <Point GraphRef="d66b6"/>
+      <Point GraphRef="d662f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id20882ef">
+    <Graphics>
+      <Point GraphRef="d662f"/>
+      <Point GraphRef="cc87b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6bd09f0">
+    <Graphics>
+      <Point GraphRef="c78cf"/>
+      <Point GraphRef="c36c5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbe6977b8">
+    <Graphics>
+      <Point GraphRef="c36c5"/>
+      <Point GraphRef="cf14e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="c03f5"/>
+      <Point GraphRef="a0718" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bde14">
+    <Graphics>
+      <Point GraphRef="c03f5"/>
+      <Point GraphRef="d66b6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dca9c">
+    <Graphics>
+      <Point GraphRef="c03f5"/>
+      <Point GraphRef="c78cf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Nucleus" GraphId="d8b7b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Trabecular Meshwork Cell" GraphId="e7518">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="b824d">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f4b68">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="b607f" GraphId="c03f5" Style="Complex"/>
+  <Group GroupId="e6021" GraphId="f2e88" Style="Complex"/>
+  <Group GroupId="d2ae1" GraphId="b1598" Style="Complex"/>
+  <Group GroupId="f13b5" GraphId="a0718" Style="Complex"/>
+  <Group GroupId="f0dbf" GraphId="d66b6" Style="Complex"/>
+  <Group GroupId="aefa4" GraphId="e761a" Style="Group"/>
+  <Group GroupId="f8406" GraphId="fa150" Style="Group"/>
+  <Group GroupId="c3bdc" GraphId="d662f" Style="Group"/>
+  <Group GroupId="a7ada" GraphId="cc87b" Style="Group"/>
+  <Group GroupId="f6f9d" GraphId="c36c5" Style="Group"/>
+  <Group GroupId="d304e" GraphId="cf14e" Style="Group"/>
+  <Group GroupId="a4373" GraphId="e75f9" Style="Group"/>
+  <Group GroupId="f8d36" Style="Group"/>
+  <Group GroupId="c60d3" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >primary angle-closure glaucoma</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:1405</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Bone morphogenetic proteins signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000330</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f2f">
+      <bp:ID >23748100</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Gremlin utilizes canonical and non-canonical TGF&#206;&#178; signaling to induce lysyl oxidase (LOX) genes in human trabecular meshwork cells.</bp:TITLE>
+      <bp:SOURCE >Exp Eye Res</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Sethi A</bp:AUTHORS>
+      <bp:AUTHORS >Wordinger RJ</bp:AUTHORS>
+      <bp:AUTHORS >Clark AF</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

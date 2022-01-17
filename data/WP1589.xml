@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Folate-alcohol and cancer pathway hypotheses" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="WikiPathways-description">As described in Hwang, et al., "The interaction of folate and alcohol consumption has been shown to have an antagonistic effect on the risk of oral cancer. Studies have demonstrated that increased intake of folate decreases the risk of oral cancer, while greater alcohol consumption has an opposite effect." This pathway is a hypothetical model for a causal role for P450 2E1 (CYP2E1) and aldehyde dehydrogenase 1 (ALDH1) in oral cancers, implicating folate (via SAM) and alcohol.</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <BiopaxRef>b5e</BiopaxRef>
+  <Graphics BoardWidth="820.1596638655462" BoardHeight="581.470588235294"/>
+  <DataNode TextLabel="Nucleotide Synthesis" GraphId="a9be0" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="ALDH1A1" GraphId="ad1b0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="THF" GraphId="af2aa" Type="Metabolite">
+    <Graphics Color="0033ff"/>
+    </DataNode>
+  <DataNode TextLabel="MTR" GraphId="b06ca" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Cystathionine" GraphId="b149e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Methionine" GraphId="b9d15" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SAM" GraphId="ba0c7" Type="Metabolite">
+    <Graphics Color="0033ff"/>
+    </DataNode>
+  <DataNode TextLabel="ALDH1A1" GraphId="bc141" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="C/EBPB" GraphId="bfd2b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Acetaldehyde" GraphId="c5fba" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Acetate" GraphId="c683c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2E1" GraphId="d0d43" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SAH" GraphId="d3887" Type="Metabolite">
+    <Graphics Color="0033ff"/>
+    </DataNode>
+  <DataNode TextLabel="Homocysteine" GraphId="d3cdc" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Folate" GraphId="da9e1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ADH5" GraphId="df139" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CREB1" GraphId="e07a6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYP2E1" GraphId="e3213" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ALDH1L1" GraphId="e7315" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MTHFR" GraphId="f0200" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="5,10-Methylene-THF" GraphId="f24f5" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ethanol" GraphId="f6e34" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="5-Methyl THF" GraphId="f9879" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ALDH1L1" GraphId="fa615" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Cysteine" GraphId="fcd83" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CBS" GraphId="fd150" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id1d27bcec">
+    <Graphics>
+      <Point GraphRef="df139"/>
+      <Point GraphRef="bf654" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id229f4726">
+    <Graphics>
+      <Point GraphRef="d3887" ArrowHead="mim-conversion"/>
+      <Point GraphRef="d3cdc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id23dcf84e">
+    <Graphics>
+      <Point GraphRef="b149e" ArrowHead="mim-conversion"/>
+      <Point GraphRef="fcd83" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id26fd6b8c">
+    <Graphics>
+      <Point GraphRef="e3213"/>
+      <Point GraphRef="bf654" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2dd28425">
+    <Graphics>
+      <Point GraphRef="f0200"/>
+      <Point GraphRef="a177f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id35b1fde3">
+    <Graphics>
+      <Point GraphRef="c5fba" ArrowHead="mim-conversion"/>
+      <Point GraphRef="c683c" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ab5ca"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4053a373">
+    <Graphics>
+      <Point GraphRef="a5f91"/>
+      <Point GraphRef="a36b2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id42d9a35f">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="da9e1"/>
+      <Point GraphRef="e07a6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4450a7ec">
+    <Graphics>
+      <Point GraphRef="fa615"/>
+      <Point GraphRef="ebcc2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4462416a">
+    <Graphics>
+      <Point GraphRef="ad1b0"/>
+      <Point GraphRef="ab5ca" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id509aebaa">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="d3cdc" ArrowHead="mim-conversion"/>
+      <Point/>
+      <Point GraphRef="b9d15" ArrowHead="Arrow"/>
+      <Anchor Position="0.6103164243999473" Shape="None" GraphId="eb61e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5580266d">
+    <Graphics>
+      <Point GraphRef="b9d15" ArrowHead="mim-conversion"/>
+      <Point GraphRef="ba0c7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id58af674b">
+    <Graphics>
+      <Point GraphRef="da9e1"/>
+      <Point GraphRef="f9879" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5bf7ecf2">
+    <Graphics>
+      <Point GraphRef="d3cdc" ArrowHead="mim-conversion"/>
+      <Point GraphRef="b149e" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ac557"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id702c7a00">
+    <Graphics>
+      <Point GraphRef="f6e34" ArrowHead="mim-conversion"/>
+      <Point GraphRef="c5fba" ArrowHead="Arrow"/>
+      <Anchor Position="0.5247532024360186" Shape="None" GraphId="bf654"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id77bad960">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c3913"/>
+      <Point/>
+      <Point GraphRef="b291a"/>
+      <Anchor Position="0.507508532423208" Shape="None" GraphId="a36b2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id79645374">
+    <Graphics>
+      <Point GraphRef="bfd2b"/>
+      <Point GraphRef="e7315" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7d5f2e66">
+    <Graphics>
+      <Point GraphRef="e07a6"/>
+      <Point GraphRef="bfd2b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id81a9fef">
+    <Graphics>
+      <Point GraphRef="bfd2b"/>
+      <Point GraphRef="bc141" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id88e0cc2d">
+    <Graphics>
+      <Point GraphRef="ba0c7"/>
+      <Point GraphRef="e3213" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9c4dab53">
+    <Graphics>
+      <Point GraphRef="af2aa" ArrowHead="mim-conversion"/>
+      <Point GraphRef="f24f5" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.524201680672271" Shape="None" GraphId="ebcc2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9f3c43ca">
+    <Graphics>
+      <Point GraphRef="b06ca"/>
+      <Point GraphRef="eac8e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb208ae0d">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="af2aa" ArrowHead="mim-conversion"/>
+      <Point/>
+      <Point GraphRef="f9879" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5093028828761176" Shape="None" GraphId="eac8e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb5b5b488">
+    <Graphics>
+      <Point GraphRef="fd150"/>
+      <Point GraphRef="ac557" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idccd5c0a8">
+    <Graphics>
+      <Point GraphRef="f24f5"/>
+      <Point GraphRef="a9be0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd2dd9714">
+    <Graphics>
+      <Point GraphRef="f24f5" ArrowHead="mim-conversion"/>
+      <Point GraphRef="f9879" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a177f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddc07b227">
+    <Graphics>
+      <Point GraphRef="b06ca"/>
+      <Point GraphRef="eb61e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idecf18ae8">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f6e34"/>
+      <Point GraphRef="d0d43" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf3dfd758">
+    <Graphics>
+      <Point GraphRef="ba0c7" ArrowHead="mim-conversion"/>
+      <Point GraphRef="d3887" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="DNA" GraphId="b291a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Methylated DNA" GraphId="c3913">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NUCLEUS" GraphId="c9671">
+    <Graphics FillColor="ffffff" Color="999999"/>
+  </Label>
+  <Label TextLabel="NON-COMPETITIVE&#10;INHIBITION" GraphId="e9707">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape TextLabel="Methyltransferases" GraphId="a5f91">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e3eed">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ff12b">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ff29c">
+    <Graphics ShapeType="Mitochondria" Color="c0c0c0"/>
+  </Shape>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >oral cavity cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:8618</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b5e">
+      <bp:ID >22100631</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Alcohol intake and folate antagonism via CYP2E1 and ALDH1: effects on oral carcinogenesis.</bp:TITLE>
+      <bp:SOURCE >Med Hypotheses</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Hwang PH</bp:AUTHORS>
+      <bp:AUTHORS >Lian L</bp:AUTHORS>
+      <bp:AUTHORS >Zavras AI</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cancer pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000605</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

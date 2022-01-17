@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="EDA signaling in hair follicle development" Version="20160610" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">EDA protein regulation of hair follicle growth and differentiation through activation Nf-kB pathway occurring by binding of p65/p50 complex. The new protein complex of Nf-kB/p65/p50 activates Wnt and Bmp pathway inhibitors stopping induction/patterning. Nf-kB complex then binds with Ltb and Shh to activate pathways for growth and differentiation. This pathway is based on figure 4 from Cui et al.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway "EDA Signalling in Hair Follicle Development", WP3652 revision 89222, with a 82.0% conversion rate.</Comment>
+  <BiopaxRef>f3a</BiopaxRef>
+  <Graphics BoardWidth="758.0" BoardHeight="576.75"/>
+  <DataNode TextLabel="EDA" GraphId="ebb37" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:Q3UV69</Comment>
+        </DataNode>
+  <DataNode TextLabel="EDA" GraphId="b21a6" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:Q1L2D9</Comment>
+        </DataNode>
+  <DataNode TextLabel="EDAR" GraphId="c905d" Type="GeneProduct" GroupRef="ce3df">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000003227</Comment>
+        </DataNode>
+  <DataNode TextLabel="EDARADD" GraphId="f3d10" Type="GeneProduct" GroupRef="ce3df">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000095105</Comment>
+        </DataNode>
+  <DataNode TextLabel="p65" GraphId="e22e8" Type="GeneProduct" GroupRef="f5dd2">
+        </DataNode>
+  <DataNode TextLabel="p50" GraphId="a6984" Type="GeneProduct" GroupRef="f5dd2">
+        </DataNode>
+  <DataNode TextLabel="DKK4" GraphId="e0347" Type="GeneProduct" GroupRef="d8af8">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000031535</Comment>
+        </DataNode>
+  <DataNode TextLabel="DKK1" GraphId="f6150" Type="GeneProduct" GroupRef="d8af8">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000024868</Comment>
+        </DataNode>
+  <DataNode TextLabel="WNT3" GraphId="ab370" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:A2A649</Comment>
+        </DataNode>
+  <DataNode TextLabel="BMP1" GraphId="a3a3f" Type="GeneProduct">
+    <Comment>BMP Not Specified</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000022098</Comment>
+        </DataNode>
+  <DataNode TextLabel="SOSTDC1" GraphId="e15f7" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000036169</Comment>
+        </DataNode>
+  <DataNode TextLabel="SHH" GraphId="fe3e0" Type="GeneProduct" GroupRef="bacf3">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000002633</Comment>
+        </DataNode>
+  <DataNode TextLabel="GLI1" GraphId="f930f" Type="GeneProduct" GroupRef="bacf3">
+    <Comment/>
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000025407</Comment>
+        </DataNode>
+  <DataNode TextLabel="PTCH1" GraphId="fae33" Type="GeneProduct" GroupRef="bacf3">
+    <Comment>Ptc Not Specified</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000021466</Comment>
+        </DataNode>
+  <DataNode TextLabel="LTB" GraphId="c5640" Type="GeneProduct" GroupRef="fe5a2">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000024399</Comment>
+        </DataNode>
+  <DataNode TextLabel="RELB" GraphId="bfb6a" Type="GeneProduct" GroupRef="fe5a2">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000002983</Comment>
+        </DataNode>
+  <DataNode TextLabel="Nf-kB" GraphId="e5b80" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Cell Growth" GraphId="f7fcf" Type="Pathway">
+    <Comment>Identifier Not Found</Comment>
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Cell Differentiation" GraphId="a8a5b" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <Interaction GraphId="idf82ace22">
+    <Graphics>
+      <Point GraphRef="c796a"/>
+      <Point GraphRef="ab370" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id54906c30">
+    <Graphics>
+      <Point GraphRef="e15f7"/>
+      <Point GraphRef="a3a3f" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id59ec146">
+    <Graphics>
+      <Point GraphRef="b9911"/>
+      <Point GraphRef="f7fcf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id903491d8">
+    <Graphics>
+      <Point GraphRef="e3811"/>
+      <Point GraphRef="a8a5b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2ed63bd0">
+    <Graphics>
+      <Point GraphRef="e0f8a"/>
+      <Point GraphRef="e5b80" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id30585d23">
+    <Graphics>
+      <Point GraphRef="e5b80"/>
+      <Point GraphRef="c5640" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide59439c7">
+    <Graphics>
+      <Point GraphRef="e5b80"/>
+      <Point GraphRef="fe3e0" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id97b3dca">
+    <Graphics>
+      <Point GraphRef="ebb37"/>
+      <Point GraphRef="e1eb5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7aa89bfb">
+    <Graphics>
+      <Point GraphRef="b21a6"/>
+      <Point GraphRef="e1eb5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3d9eafab">
+    <Graphics>
+      <Point GraphRef="e1eb5"/>
+      <Point GraphRef="e0f8a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1229470a">
+    <Graphics>
+      <Point GraphRef="e5b80"/>
+      <Point GraphRef="c796a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id848b1065">
+    <Graphics>
+      <Point GraphRef="e5b80"/>
+      <Point GraphRef="e15f7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Induction/Patterning" GraphId="a875f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Group GroupId="ce3df" GraphId="e1eb5" Style="Complex"/>
+  <Group GroupId="f5dd2" GraphId="e0f8a" Style="Complex"/>
+  <Group GroupId="d8af8" GraphId="c796a" Style="Complex"/>
+  <Group GroupId="bacf3" GraphId="b9911" Style="Complex"/>
+  <Group GroupId="fe5a2" GraphId="e3811" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >nuclear factor kappa B signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000499</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f3a">
+      <bp:ID >16738056</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Ectodysplasin regulates the lymphotoxin-beta pathway for hair differentiation.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Cui CY</bp:AUTHORS>
+      <bp:AUTHORS >Hashimoto T</bp:AUTHORS>
+      <bp:AUTHORS >Grivennikov SI</bp:AUTHORS>
+      <bp:AUTHORS >Piao Y</bp:AUTHORS>
+      <bp:AUTHORS >Nedospasov SA</bp:AUTHORS>
+      <bp:AUTHORS >Schlessinger D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >hair follicle cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0002559</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>altered nuclear factor kappa B signaling pathway</bp:TERM><bp:ID>PW:0000619</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>signaling pathway</bp:TERM><bp:ID>PW:0000003</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>hair follicle cell</bp:TERM><bp:ID>CL:0002559</bp:ID><bp:Ontology>Cell Type</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

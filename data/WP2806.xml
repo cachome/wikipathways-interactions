@@ -1,0 +1,3168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Complement system" Version="20140328" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The complement activation takes place through one or more of the well-established (alternative, classical or lectin) pathways consisting of plasma and membrane-bound proteins. All three pathways converge at the level of complement C3 [https://doi.org/10.6072/H0.MP.A004235.01] and are controlled by regulators [https://doi.org/10.1038/ni.1923]. Complement C3 belongs to the alpha-2-macroglobulin family of proteins, and consists of a alpha-chain and an beta-chain. Cleavage of C3 which can be initiated by one or more of the above three distinct pathways, into C3b[Proteolysis@23-667,749-1663] and C3a [Proteolysis@672-748] is an important step in the complement activation cascade. Classical and lectin pathways, when activated with recognition of pathogens (or immune complexes) use C3-convertase [C4b2a] to cleave complement C3 into C3a and C3b [https://doi.org/10.1084/jem.125.2.359]. However, in alternative pathway a small fraction of the C3 molecules are hydrolyzed to C3(H20) exposing new binding sites. This hydrated C3 [C3(H20)] recruits complement factor B [fB], which is then cleaved by complement factor D [fD] to result in formation of the minor form of C3-convertase [C3(H20)Bb] that cleaves C3 into C3a and C3b [https://doi.org/10.1084/jem.154.3.856]. Further, addition of C3b to C3 convertase [C3bBb or C4b2a] results in C5 convertase [C3bBb3b or C4b2a3b], that cleaves complement C5 to C5a and C5b, is the last enzymatic step of the complement activation cascade [https://doi.org/10.1074/jbc.273.27.16828][https://www.ncbi.nlm.nih.gov/pubmed/?term=2387864]. During complement activation C5b interacts with complement C6, C7, C8 and C9 in a sequential and non-catalyzed manner to result in the formation of Terminal Complement Complex (TCC) [https://doi.org/10.1074/jbc.M111.219766]. The entire network is considered as a simple recognition and elimination system of host-immune complexes and apoptotic and/or pathogens, and therefore promotes host immune homeostasis. The complement system is also involved in cross-talk with other processes related to coagulation, lipid metabolism and cancer. However, many pathogens counteract complement attack through a range of different mechanisms, such acquisition of host complement regulators to the surface of pathogen, or secretion of complement inactivation factors. In order to have a holistic view of the entire complement network, Dr. John D.Lambris group (University of Pennsylvania) developed the Complement Map Database (CMAP) which is a unique repository focused on documented molecular interactions described within the complement cascade and between complement and other biological systems. Information contained in CMAP (http://www.complement.us/cmap/index.php)[https://doi.org/10.1093/bioinformatics/btt269] is entirely based on published experimental data and is fully revised by experts in the field. Further, the Signaling Gateway Molecule Pages -SGMP-( https://escholarship.org/uc/molecule_pages)[https://doi.org/10.1093/bioinformatics/btr190] has published a curated data on each protein involved in human complement activation pathways (refs. [https://doi.org/10.6072/H0.MP.A004235.01] [https://doi.org/10.6072/H0.MP.A004228.01] [https://doi.org/10.6072/H0.MP.A004276.01] [https://doi.org/10.6072/H0.MP.A004256.01] [https://doi.org/10.6072/H0.MP.A004240.01] [https://doi.org/10.6072/H0.MP.A008392.01] [https://doi.org/10.6072/H0.MP.A008391.01] [https://doi.org/10.6072/H0.MP.A004274.01] [https://doi.org/10.6072/H0.MP.A004275.01] [https://doi.org/10.6072/H0.MP.A004266.01] [https://doi.org/10.6072/H0.MP.A004267.01] [https://doi.org/10.6072/H0.MP.A004263.01] [https://doi.org/10.6072/H0.MP.A004234.01] [https://doi.org/10.6072/H0.MP.A004258.01] ).</Comment>
+  <BiopaxRef>f3d</BiopaxRef>
+  <BiopaxRef>c51</BiopaxRef>
+  <BiopaxRef>ae0</BiopaxRef>
+  <BiopaxRef>b4e</BiopaxRef>
+  <BiopaxRef>c1d</BiopaxRef>
+  <BiopaxRef>a6d</BiopaxRef>
+  <BiopaxRef>ec2</BiopaxRef>
+  <BiopaxRef>ea9</BiopaxRef>
+  <BiopaxRef>baa</BiopaxRef>
+  <BiopaxRef>ca2</BiopaxRef>
+  <BiopaxRef>f38</BiopaxRef>
+  <BiopaxRef>cf8</BiopaxRef>
+  <BiopaxRef>a5f</BiopaxRef>
+  <BiopaxRef>fe4</BiopaxRef>
+  <BiopaxRef>cf0</BiopaxRef>
+  <BiopaxRef>c78</BiopaxRef>
+  <BiopaxRef>ea0</BiopaxRef>
+  <Graphics BoardWidth="3096.603235014274" BoardHeight="2082.364849990413"/>
+  <DataNode TextLabel="HSV-gC" GraphId="a08a1" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="FnBPA" GraphId="a27bb" Type="GeneProduct">
+    <Graphics Color="cc00ff"/>
+    </DataNode>
+  <DataNode TextLabel="CD16a" GraphId="a2e5d" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="IBSP" GraphId="a3470" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="beta-Glucan" GraphId="a3473" Type="Metabolite">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="C4a" GraphId="a3a51" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="SELE" GraphId="a3e1d" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="C3b" GraphId="a3eba" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="RgpA" GraphId="a47ad" Type="GeneProduct">
+    <Comment>Gngipain-1</Comment>
+    <Graphics Color="cc00ff"/>
+    </DataNode>
+  <DataNode TextLabel="C4BP" GraphId="a4eb8" Type="GeneProduct" GroupRef="d6744">
+    <Comment>Two isoforms exists (C4BPA and C4BPB).</Comment>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="ITGA2" GraphId="a6599" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="C1q" GraphId="a680a" Type="Complex" GroupRef="a7f60">
+    <Comment>C1q is composed of 18 polypeptide chains: six A-chains, six B-chains, and six C-chains. </Comment>
+    <Comment>Type your comment here</Comment>
+    <BiopaxRef>f47</BiopaxRef>
+    <BiopaxRef>f1b</BiopaxRef>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CR2" GraphId="a6b19" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="DCN" GraphId="a6dc3" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="FPR1" GraphId="a6f26" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="ClfB" GraphId="a7825" Type="GeneProduct">
+    <Graphics Color="cc00ff"/>
+    </DataNode>
+  <DataNode TextLabel="KLKB1" GraphId="a8677" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="SPICE" GraphId="a9235" Type="GeneProduct">
+    <Comment>Small inhbitor of complement enzymes</Comment>
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="Efb" GraphId="a94b0" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="OmpK36" GraphId="a9d05" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="ARRB2" GraphId="aa590" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="gC1qR" GraphId="aa6b1" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="Protein-A" GraphId="aa811" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="DAF" GraphId="ab01a" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="FGB" GraphId="ab293" Type="GeneProduct" GroupRef="a02a1">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="Gpm1p" GraphId="abf72" Type="GeneProduct">
+    <Graphics Color="cc00ff"/>
+    </DataNode>
+  <DataNode TextLabel="FnBPB" GraphId="ac4e7" Type="GeneProduct">
+    <Graphics Color="cc00ff"/>
+    </DataNode>
+  <DataNode TextLabel="C5aR1" GraphId="acbef" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="SSL7" GraphId="ad6bf" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="C3aR1" GraphId="adac1" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="LAMA5" GraphId="ae2d5" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="LTA" GraphId="af8d4" Type="Metabolite">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="LfhA" GraphId="af9e4" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="CK" GraphId="afd4a" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="Ehp" GraphId="b04c8" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="CFHR1" GraphId="b194a" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="gp350" GraphId="b334c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="C3a-desArg" GraphId="b3945" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="C5" GraphId="b44d2" Type="GeneProduct" GroupRef="de0bc">
+    <Comment>Complement C5</Comment>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="C3d" GraphId="b4837" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CPN" GraphId="b6b0d" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="TLR2" GraphId="b75c0" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="SELP" GraphId="b75d9" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="C7" GraphId="b7d0b" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="FGA" GraphId="b7e2a" Type="GeneProduct" GroupRef="a02a1">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="PTX3" GraphId="b8355" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="CbpA" GraphId="b8efd" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="Protein-S" GraphId="bb1a6" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="SFTPA2" GraphId="bb9fb" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="C9" GraphId="bd8d8" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="C1s" GraphId="bd99b" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="C6" GraphId="befc8" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="PrP" GraphId="bfa0a" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="CR3" GraphId="bfcc5" Type="Complex">
+    <Comment>ITGAM and  ITGB2</Comment>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="fMLP" GraphId="c026c" Type="Metabolite">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="C1r" GraphId="c120d" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="ClfA" GraphId="c12ad" Type="GeneProduct">
+    <Graphics Color="cc00ff"/>
+    </DataNode>
+  <DataNode TextLabel="CD40" GraphId="c1670" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="OPN" GraphId="c16a8" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="Sfb" GraphId="c16f2" Type="GeneProduct">
+    <Graphics Color="cc00ff"/>
+    </DataNode>
+  <DataNode TextLabel="cC1qR" GraphId="c2726" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="C3a" GraphId="c33c5" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="C1INH" GraphId="c3852" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CD59" GraphId="c3997" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="MBL2" GraphId="c3bd7" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="StcE" GraphId="c4877" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="C5a-desArg" GraphId="c52f7" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="ICAM2" GraphId="c55c1" Type="GeneProduct" GroupRef="fd8a9">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="VCP " GraphId="c56fc" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="GNA15" GraphId="c5aaa" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="C3c" GraphId="c66f4" Type="GeneProduct">
+    <Comment>Peptide fragment from complement C3</Comment>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="WAS" GraphId="c6bb7" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="Por1A" GraphId="c70d2" Type="GeneProduct">
+    <Graphics Color="ff33ff"/>
+    </DataNode>
+  <DataNode TextLabel="ALB" GraphId="c73ff" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="THBS" GraphId="c775a" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="SIC" GraphId="c9206" Type="GeneProduct">
+    <Graphics Color="cc00ff"/>
+    </DataNode>
+  <DataNode TextLabel="CD23" GraphId="c9491" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="C4b" GraphId="ca5ba" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="SELPLG" GraphId="cbf64" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="FGG" GraphId="cca3a" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="SSL10" GraphId="cd965" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="SCP" GraphId="cdcfe" Type="GeneProduct">
+    <Comment>Streptococcal C5a peptidase</Comment>
+    <Graphics Color="cc00ff"/>
+    </DataNode>
+  <DataNode TextLabel="CFHR4" GraphId="ce088" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="GNAI2" GraphId="ce84b" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="MAp44" GraphId="ce8fe" Type="GeneProduct">
+    <BiopaxRef>f1b</BiopaxRef>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="NS1" GraphId="ce903" Type="GeneProduct">
+    <Comment>AAM51537|780</Comment>
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="PKC" GraphId="ceea6" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="FXIIa" GraphId="cf110" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="C5L2" GraphId="cf1b4" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CFP" GraphId="d1cbc" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="HIV-gp41" GraphId="d3210" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="C1qRp" GraphId="d4016" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="ITGB3" GraphId="d42ad" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="CD19" GraphId="d52de" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="TXN" GraphId="d55d2" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="SSL5" GraphId="d5d86" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel=" Leishmanial protein kinase-1" GraphId="d6249" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="OMCI" GraphId="d6d08" Type="GeneProduct">
+    <Graphics Color="cc00ff"/>
+    </DataNode>
+  <DataNode TextLabel="FCN2" GraphId="d82a2" Type="GeneProduct" GroupRef="eb01b">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="ITGA2B" GraphId="d871c" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="Heparin" GraphId="d9210" Type="Metabolite">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="ELANE" GraphId="dc826" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="iC3b" GraphId="dcc2a" Type="GeneProduct">
+    <Comment>Peptide fragment from complement C3</Comment>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="C4-A" GraphId="dcdd0" Type="GeneProduct">
+    <Comment>Complement C4 exists in two isoforms, C4-A and C4-B. </Comment>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="A2M" GraphId="dcf90" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="Skp" GraphId="dd66a" Type="GeneProduct">
+    <Graphics Color="cc00ff"/>
+    </DataNode>
+  <DataNode TextLabel="CFB" GraphId="de34f" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="HS" GraphId="de45b" Type="Metabolite">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="FXIII" GraphId="df470" Type="GeneProduct">
+    <Graphics Color="cc00ff"/>
+    </DataNode>
+  <DataNode TextLabel="PLAUR" GraphId="e01c7" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="PKA" GraphId="e0b6f" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="GNA1870" GraphId="e183d" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="C3f" GraphId="e2bca" Type="GeneProduct">
+    <Comment>Peptide fragment from complement C3</Comment>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="ICAM1" GraphId="e2c27" Type="GeneProduct" GroupRef="fd8a9">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="MASP1" GraphId="e35fd" Type="GeneProduct">
+    <BiopaxRef>f1b</BiopaxRef>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="C2" GraphId="e42c6" Type="GeneProduct">
+    <BiopaxRef>f1b</BiopaxRef>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="C3bB3b" GraphId="e4901" Type="Complex">
+    <Comment>Alternative C5 convertase
+ 
+Complex Components
+C3b
+Bb</Comment>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="Protein M" GraphId="e63bf" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="VTN" GraphId="e6642" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="CFH" GraphId="e6af7" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="FXIa" GraphId="e6f39" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="PLG" GraphId="e90f5" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="Sbi" GraphId="ea5e7" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="FGA" GraphId="ebffa" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="SAP" GraphId="ed4ee" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="TFECP " GraphId="ee071" Type="GeneProduct">
+    <Comment>T. foetus extracellular cysteine proteinase</Comment>
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="ADM" GraphId="ee8c8" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="C8" GraphId="efa1c" Type="GeneProduct" GroupRef="fd3e3">
+    <Comment>Complement C8 exhists in 3 isoforms. </Comment>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CLEC4M" GraphId="efbe3" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="CHIPS" GraphId="f0595" Type="GeneProduct">
+    <Graphics Color="cc00ff"/>
+    </DataNode>
+  <DataNode TextLabel="SSL11" GraphId="f0a05" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="FX" GraphId="f1679" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="RPS19" GraphId="f2d24" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="C3" GraphId="f2e8f" Type="GeneProduct">
+    <BiopaxRef>f1b</BiopaxRef>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="MAp19" GraphId="f3064" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="SCIN" GraphId="f4761" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="GNAI3" GraphId="f508d" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="C4b2b" GraphId="f51e9" Type="Complex">
+    <Comment>Complex Components
+C4b
+C2b</Comment>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="APOA1" GraphId="f564c" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="E-LDL" GraphId="f6524" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="CR1" GraphId="f737c" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="C3(H2O)" GraphId="f75b4" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="FCN1" GraphId="f76f9" Type="GeneProduct" GroupRef="eb01b">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="C3bBbP" GraphId="f7d7c" Type="Complex">
+    <Comment>Complex Components
+C3b
+Bb
+CFP</Comment>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="FGB" GraphId="f80e1" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="SELL" GraphId="f846a" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="CFI" GraphId="f8b50" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="LAMB1" GraphId="f8ccc" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="FKBP13" GraphId="f9296" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="SFTPA1" GraphId="f97f6" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="LAMC1" GraphId="f99ef" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="LRP2" GraphId="f9a19" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="C4a-desArg" GraphId="f9b57" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="MCP" GraphId="f9c3a" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CRP" GraphId="fa32d" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="CR4" GraphId="fb5dc" Type="Complex">
+    <Comment>ITGB2 and ITGAX</Comment>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="Gpm1p" GraphId="fb8cf" Type="GeneProduct">
+    <Comment>
+A factor H-, FHL-1-, and plasminogen-binding surface protein of Candida albicans</Comment>
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="CRIg" GraphId="fbc28" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="FN" GraphId="fbfde" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="C3bBb" GraphId="fd0cb" Type="Complex">
+    <Comment>Complex Components
+C3b
+Bb</Comment>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="C4b2b3b" GraphId="fd947" Type="Complex">
+    <Comment>Classical C5 convertase
+ 
+Complex Components
+C4b
+C2b
+C3b</Comment>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CFD" GraphId="ff05a" Type="GeneProduct">
+    <Comment>Complement Factor D</Comment>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="ADIPOQ" GraphId="fff2d" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="KLKB1" GraphId="b0b79" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="MASP1" GraphId="b95b7" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="PTX3" GraphId="d0182" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="CRP" GraphId="ee8bd" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="DCN" GraphId="c1821" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="ITGA2" GraphId="be121" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="cC1qR" GraphId="d9b99" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="Por1B" GraphId="ce842" Type="GeneProduct">
+    <Graphics Color="ff33ff"/>
+    </DataNode>
+  <DataNode TextLabel="VCP " GraphId="e0d7a" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="LAMA5" GraphId="f0c0d" Type="GeneProduct" GroupRef="acdc4">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="LAMB1" GraphId="e43fc" Type="GeneProduct" GroupRef="acdc4">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="LAMC1" GraphId="fedb8" Type="GeneProduct" GroupRef="acdc4">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="C3" GraphId="f8919" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="LRP2" GraphId="e993e" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="CPN" GraphId="b8422" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="CPB2 " GraphId="d03cd" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="KLKB1" GraphId="a475b" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="CFD" GraphId="c4866" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CFB" GraphId="d51c6" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="Heparin" GraphId="b6a8f" Type="Metabolite">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="C3b" GraphId="b29b6" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="LAMA5" GraphId="dee67" Type="GeneProduct" GroupRef="a31cd">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="LAMB1" GraphId="eb503" Type="GeneProduct" GroupRef="a31cd">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="LAMC1" GraphId="f36e8" Type="GeneProduct" GroupRef="a31cd">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="VCP " GraphId="bed2b" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="SPICE" GraphId="bbbf9" Type="GeneProduct">
+    <Comment>Small inhbitor of complement enzymes</Comment>
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="HSV-gC" GraphId="c28d1" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="CFP" GraphId="bdbe2" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="C1INH" GraphId="f69fb" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="MCP" GraphId="d794f" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CR1" GraphId="d265b" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="DAF" GraphId="c5a68" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="Efb" GraphId="e7cf1" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ehp" GraphId="d61f9" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="Sbi" GraphId="ea62c" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="FN" GraphId="dd6d2" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="C3" GraphId="cee97" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="Sbi" GraphId="d0d71" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="CFH" GraphId="ce671" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="C3b" GraphId="d6aef" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="Sbi" GraphId="c7bd7" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="CFH" GraphId="d35ed" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="Sbi" GraphId="cd61f" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="CFH" GraphId="c7678" Type="GeneProduct">
+    <BiopaxRef>f1b</BiopaxRef>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CbpA" GraphId="b9774" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="PTX3" GraphId="dabba" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="CFH" GraphId="cad3b" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CRP" GraphId="fb61f" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="PrP" GraphId="d7cc4" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="SSL5" GraphId="c3a0e" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="Heparin" GraphId="dd253" Type="Metabolite">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="KLKB1" GraphId="a34ba" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="C3d" GraphId="e4e2c" Type="GeneProduct">
+    <Comment>Peptide fragment from complement C3</Comment>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CFH" GraphId="eb0be" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CFH" GraphId="d6e82" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CFI" GraphId="df493" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CFI" GraphId="a7452" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CFI" GraphId="e71ea" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="MCP" GraphId="a300c" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CFI" GraphId="bec42" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CFI" GraphId="e4944" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CFI" GraphId="f93bd" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="VCP " GraphId="dbea4" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="SPICE" GraphId="a68bc" Type="GeneProduct">
+    <Comment>Small inhbitor of complement enzymes</Comment>
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="SCIN" GraphId="a0ac7" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="LfhA" GraphId="e096c" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="CFHR1" GraphId="db667" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="LAMA5" GraphId="c3c18" Type="GeneProduct" GroupRef="b96ba">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="LAMB1" GraphId="b48e3" Type="GeneProduct" GroupRef="b96ba">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="LAMC1" GraphId="abdac" Type="GeneProduct" GroupRef="b96ba">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="CFI" GraphId="b6ff9" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CR1" GraphId="ddf9c" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CRIg" GraphId="e2fc5" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CR1" GraphId="bf9ad" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="HSV-gC" GraphId="eccd1" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="Heparin" GraphId="faea2" Type="Metabolite">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="SAP" GraphId="ee444" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="FGB" GraphId="aea8c" Type="GeneProduct" GroupRef="f15d4">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="FGA" GraphId="f320b" Type="GeneProduct" GroupRef="f15d4">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="FN" GraphId="d54ae" Type="GeneProduct">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <DataNode TextLabel="TXN" GraphId="cc785" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="Protein M" GraphId="c448a" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="Efb" GraphId="a221e" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="ClfA" GraphId="aa5cc" Type="GeneProduct">
+    <Graphics Color="cc00ff"/>
+    </DataNode>
+  <DataNode TextLabel="APOA1" GraphId="b08a3" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="C5" GraphId="cb552" Type="GeneProduct" GroupRef="ffa53">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel=" Leishmanial protein kinase-1" GraphId="f5fcc" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="SSL7" GraphId="c8d13" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="CFHR1" GraphId="a2a30" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="C3bB3bP" GraphId="b45a6" Type="Complex">
+    <Comment>Alternative C5 convertase and CFP complex
+ 
+Complex Components
+C3b
+Bb
+CFP</Comment>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="C5a" GraphId="e9f27" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="C5b" GraphId="c9f9c" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="C5L2" GraphId="faf4a" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="CPB2 " GraphId="b2b30" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="CPN" GraphId="e58c7" Type="GeneProduct">
+    <Graphics Color="330066"/>
+    </DataNode>
+  <DataNode TextLabel="SSL5" GraphId="d4f8c" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel=" Leishmanial protein kinase-1" GraphId="cd502" Type="GeneProduct">
+    <Graphics Color="cc33ff"/>
+    </DataNode>
+  <DataNode TextLabel="C9" GraphId="a4be1" Type="GeneProduct">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="Heparin" GraphId="c7182" Type="Metabolite">
+    <Graphics Color="330099"/>
+    </DataNode>
+  <State GraphRef="b44d2" TextLabel="" GraphId="dbb61">
+    <Comment>P</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f8919" TextLabel="P" GraphId="cac59">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a4be1" TextLabel="" GraphId="ac040">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id106815c">
+    <Graphics>
+      <Point GraphRef="f2e8f" ArrowHead="mim-binding"/>
+      <Point GraphRef="e7cf1" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id108f8212">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="be121" ArrowHead="mim-binding"/>
+      <Point GraphRef="c1821" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id10b21cb">
+    <Graphics>
+      <Point GraphRef="af8d4" ArrowHead="mim-binding"/>
+      <Point GraphRef="c3bd7" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id11d967ba">
+    <Graphics>
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+      <Point GraphRef="d61f9" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id12b8d1fa">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="bfa0a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1468f10c">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="fff2d" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id14de6ac1">
+    <Graphics>
+      <Point GraphRef="c7678" ArrowHead="mim-binding"/>
+      <Point GraphRef="e63bf" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id14e85222">
+    <Graphics>
+      <Point GraphRef="ce8fe" ArrowHead="mim-binding"/>
+      <Point GraphRef="d82a2" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id153d8698">
+    <Graphics>
+      <Point GraphRef="ee071"/>
+      <Point GraphRef="ad0da" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id157682f0">
+    <Graphics>
+      <Point GraphRef="d52fd" ArrowHead="mim-binding"/>
+      <Point GraphRef="cc785" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id15a27104">
+    <Graphics>
+      <Point GraphRef="c7678" ArrowHead="mim-binding"/>
+      <Point GraphRef="dd253" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id15eb26bf">
+    <Graphics>
+      <Point GraphRef="e58c7"/>
+      <Point GraphRef="c685d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1aacf32">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="fbfde" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1ac9e3f5">
+    <Graphics>
+      <Point GraphRef="da267" ArrowHead="mim-binding"/>
+      <Point GraphRef="bfcc5" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1b4c9844">
+    <Graphics>
+      <Point GraphRef="c9f43"/>
+      <Point GraphRef="e2bca" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1d2d1502">
+    <Graphics>
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+      <Point GraphRef="f62a5" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1d6c5aa1">
+    <Graphics>
+      <Point GraphRef="a7878"/>
+      <Point GraphRef="b13f6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1d750c72">
+    <Graphics>
+      <Point GraphRef="f3915" ArrowHead="mim-binding"/>
+      <Point GraphRef="cd965" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1ddfa438">
+    <Graphics>
+      <Point GraphRef="ad6bf" ArrowHead="mim-binding"/>
+      <Point GraphRef="f8cca" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1e006cf7">
+    <Graphics>
+      <Point GraphRef="f2e8f" ArrowHead="mim-binding"/>
+      <Point GraphRef="f62a5" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1f11e833">
+    <Graphics>
+      <Point GraphRef="fbee9" ArrowHead="mim-binding"/>
+      <Point GraphRef="ca5ba" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1f57db61">
+    <Graphics>
+      <Point GraphRef="fbc28" ArrowHead="mim-binding"/>
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1f6ef74d">
+    <Graphics>
+      <Point GraphRef="ceea6"/>
+      <Point GraphRef="b7c7a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id20d5d6a6">
+    <Graphics>
+      <Point GraphRef="f1b20" ArrowHead="mim-binding"/>
+      <Point GraphRef="c3bd7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2128e12">
+    <Graphics>
+      <Point GraphRef="faf4a" ArrowHead="mim-binding"/>
+      <Point GraphRef="c52f7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id222c555">
+    <Graphics>
+      <Point GraphRef="dcc2a" ArrowHead="mim-binding"/>
+      <Point GraphRef="f564c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id229dfda6">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="befc8" ArrowHead="mim-binding"/>
+      <Point GraphRef="c7182" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id23d56c2a">
+    <Graphics>
+      <Point GraphRef="f846a" ArrowHead="mim-binding"/>
+      <Point GraphRef="cbf64" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id24f2966f">
+    <Graphics>
+      <Point GraphRef="c7678"/>
+      <Point GraphRef="cd61f" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id26b5dc64">
+    <Graphics>
+      <Point GraphRef="bdbe2" ArrowHead="mim-binding"/>
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id289bd70e">
+    <Graphics>
+      <Point GraphRef="dcc2a"/>
+      <Point GraphRef="e4e2c" ArrowHead="Arrow"/>
+      <Anchor Position="0.8211337108101303" Shape="None" GraphId="d0428"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bd663"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2909beba">
+    <Graphics>
+      <Point GraphRef="c9fe1"/>
+      <Point GraphRef="d80d5" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2965940b">
+    <Graphics>
+      <Point GraphRef="f0807"/>
+      <Point GraphRef="db56e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id29836d20">
+    <Graphics>
+      <Point GraphRef="ce088" ArrowHead="mim-binding"/>
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2aabea3c">
+    <Graphics>
+      <Point GraphRef="a94b0" ArrowHead="mim-binding"/>
+      <Point GraphRef="f75b4" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2bec156f">
+    <Graphics>
+      <Point GraphRef="acbef" ArrowHead="mim-binding"/>
+      <Point GraphRef="c6bb7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2c02627f">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="f3915" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2c7097ca">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="be121" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2cf1ef36">
+    <Graphics>
+      <Point GraphRef="ea62c" ArrowHead="mim-binding"/>
+      <Point GraphRef="dcc2a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2eea3f00">
+    <Graphics>
+      <Point GraphRef="a47ad"/>
+      <Point GraphRef="abb89" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2eeb681">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="ee8bd" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2f2463b2">
+    <Graphics>
+      <Point GraphRef="c7678"/>
+      <Point GraphRef="c7bd7" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2fae2720">
+    <Graphics>
+      <Point GraphRef="e01c7" ArrowHead="mim-binding"/>
+      <Point GraphRef="bfcc5" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3090b377">
+    <Graphics>
+      <Point GraphRef="fda63" ArrowHead="mim-binding"/>
+      <Point GraphRef="c9206" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id31835f6f">
+    <Graphics>
+      <Point GraphRef="f9a19" ArrowHead="mim-binding"/>
+      <Point GraphRef="fbee9" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3380c0ae">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="d0182" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3455ef9b">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="fd0cb" ArrowHead="mim-binding"/>
+      <Point GraphRef="f7d7c" ArrowHead="mim-binding"/>
+      <Anchor Position="0.4481600601601798" Shape="None" GraphId="fc980"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id351f995">
+    <Graphics>
+      <Point GraphRef="e71ea"/>
+      <Point GraphRef="a90aa" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id35d299d6">
+    <Graphics>
+      <Point GraphRef="e7f45" ArrowHead="mim-binding"/>
+      <Point GraphRef="bfcc5" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id36fe2d24">
+    <Graphics>
+      <Point GraphRef="b194a" ArrowHead="mim-binding"/>
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id385b7fd6">
+    <Graphics>
+      <Point GraphRef="afd4a"/>
+      <Point GraphRef="bf3ba" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3bbb0735">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c7182" ArrowHead="mim-binding"/>
+      <Point/>
+      <Point GraphRef="bd8d8" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3cb9eb15">
+    <Graphics>
+      <Point GraphRef="c3852" ArrowHead="mim-binding"/>
+      <Point GraphRef="e6f39" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3cd0e235">
+    <Graphics>
+      <Point GraphRef="c84ec" ArrowHead="mim-binding"/>
+      <Point GraphRef="de0e2" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3d82c9dd">
+    <Graphics>
+      <Point GraphRef="f4761" ArrowHead="mim-binding"/>
+      <Point GraphRef="fd0cb" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3dc97087">
+    <Graphics>
+      <Point GraphRef="acbef" ArrowHead="mim-binding"/>
+      <Point GraphRef="f2d24" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3efdc4d9">
+    <Graphics>
+      <Point GraphRef="fda63" ArrowHead="mim-binding"/>
+      <Point GraphRef="de0e2" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3f14df3f">
+    <Graphics>
+      <Point GraphRef="cf1b4" ArrowHead="mim-binding"/>
+      <Point GraphRef="b3945" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3fbaac8">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="d9b99" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3fdef676">
+    <Graphics>
+      <Point GraphRef="e9f27"/>
+      <Point GraphRef="b4857" ArrowHead="mim-binding"/>
+      <Anchor Position="0.5767628204837467" Shape="None" GraphId="c1f53"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id401ebe6">
+    <Graphics>
+      <Point GraphRef="f2e8f"/>
+      <Point GraphRef="c7692" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ad0da"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id40db828c">
+    <Graphics>
+      <Point GraphRef="e7f45" ArrowHead="mim-binding"/>
+      <Point GraphRef="fb5dc" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id412efb19">
+    <Graphics>
+      <Point GraphRef="bfcc5" ArrowHead="mim-binding"/>
+      <Point GraphRef="a2e5d" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id423f8b14">
+    <Graphics>
+      <Point GraphRef="a33e9"/>
+      <Point GraphRef="ab6ac" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id42c327dc">
+    <Graphics>
+      <Point GraphRef="f0595" ArrowHead="mim-binding"/>
+      <Point GraphRef="a6f26" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id43443f5a">
+    <Graphics>
+      <Point GraphRef="b9956"/>
+      <Point GraphRef="f52e6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id43795f16">
+    <Graphics>
+      <Point GraphRef="a6f26" ArrowHead="mim-binding"/>
+      <Point GraphRef="c026c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id44b166d9">
+    <Graphics>
+      <Point GraphRef="c7678" ArrowHead="mim-binding"/>
+      <Point GraphRef="b9774" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id44d9662">
+    <Graphics>
+      <Point GraphRef="cbf64" ArrowHead="mim-binding"/>
+      <Point GraphRef="f0a05" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id44dc24fe">
+    <Graphics>
+      <Point GraphRef="acbef" ArrowHead="mim-binding"/>
+      <Point GraphRef="ce84b" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id46dd6541">
+    <Graphics>
+      <Point GraphRef="c70d2" ArrowHead="mim-binding"/>
+      <Point GraphRef="fbee9" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4756de6a">
+    <Graphics>
+      <Point GraphRef="acbef" ArrowHead="mim-binding"/>
+      <Point GraphRef="e9f27" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id48f52631">
+    <Graphics>
+      <Point GraphRef="b6a8f"/>
+      <Point GraphRef="d51c6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id49515d80">
+    <Graphics>
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+      <Point GraphRef="ea62c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id49d2a478">
+    <Graphics>
+      <Point GraphRef="e1c1f"/>
+      <Point GraphRef="f51e9" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.35659852875094283" Shape="None" GraphId="c53ef"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4a24b575">
+    <Graphics>
+      <Point GraphRef="f2e8f" ArrowHead="mim-binding"/>
+      <Point GraphRef="ea62c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4a78f744">
+    <Graphics>
+      <Point GraphRef="c7678"/>
+      <Point GraphRef="d0d71" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4aa90e91">
+    <Graphics>
+      <Point GraphRef="c7678" ArrowHead="mim-binding"/>
+      <Point GraphRef="dabba" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4c2cb8db">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="a9d05" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4c4ab717">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="dcdd0" ArrowHead="mim-binding"/>
+      <Point GraphRef="d9210" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4c68d7fe">
+    <Graphics>
+      <Point GraphRef="b7d0b" ArrowHead="mim-binding"/>
+      <Point GraphRef="f26f8" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4d301439">
+    <Graphics>
+      <Point GraphRef="fa32d" ArrowHead="mim-binding"/>
+      <Point GraphRef="d82a2" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4d55cae8">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="bd99b" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4d8aee8c">
+    <Graphics>
+      <Point GraphRef="c7182" ArrowHead="mim-binding"/>
+      <Point GraphRef="abf72" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4dd573c">
+    <Graphics>
+      <Point GraphRef="bbbf9" ArrowHead="mim-binding"/>
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4e046e3b">
+    <Graphics>
+      <Point GraphRef="f2e8f"/>
+      <Point GraphRef="d0d71" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4e596591">
+    <Graphics>
+      <Point GraphRef="d794f" ArrowHead="mim-binding"/>
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4f2957e9">
+    <Graphics>
+      <Point GraphRef="ac4e7" ArrowHead="mim-binding"/>
+      <Point GraphRef="d54ae" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id50b516bd">
+    <Graphics>
+      <Point GraphRef="ce842" ArrowHead="mim-binding"/>
+      <Point GraphRef="fbee9" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id50edf1ec">
+    <Graphics>
+      <Point GraphRef="ca67f"/>
+      <Point GraphRef="dcdc0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id51fca01b">
+    <Graphics>
+      <Point GraphRef="e35fd" ArrowHead="mim-binding"/>
+      <Point GraphRef="c3bd7" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id53c76d2a">
+    <Graphics>
+      <Point GraphRef="c3852" ArrowHead="mim-binding"/>
+      <Point GraphRef="a3eba" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id53f0bd25">
+    <Graphics>
+      <Point GraphRef="f2e8f" ArrowHead="mim-binding"/>
+      <Point GraphRef="d61f9" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5973303">
+    <Graphics>
+      <Point GraphRef="c3852"/>
+      <Point GraphRef="a20b6" ArrowHead="mim-modification"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e731f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5a3e404">
+    <Graphics>
+      <Point GraphRef="f2e8f"/>
+      <Point GraphRef="c33c5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5a8cc69b">
+    <Graphics>
+      <Point GraphRef="a5daf"/>
+      <Point GraphRef="e6642" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5a9502b9">
+    <Graphics>
+      <Point GraphRef="d52fd" ArrowHead="mim-binding"/>
+      <Point GraphRef="df470" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5b1b6d14">
+    <Graphics>
+      <Point GraphRef="f8cca" ArrowHead="mim-binding"/>
+      <Point GraphRef="c3bd7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5b92425c">
+    <Graphics>
+      <Point GraphRef="e4e2c" ArrowHead="mim-binding"/>
+      <Point GraphRef="b0309" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5c4a8039">
+    <Graphics>
+      <Point GraphRef="d52fd" ArrowHead="mim-binding"/>
+      <Point GraphRef="a7825" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5c55700d">
+    <Graphics>
+      <Point GraphRef="f75b4"/>
+      <Point GraphRef="eb0b8" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5cf33acb">
+    <Graphics>
+      <Point GraphRef="c7678" ArrowHead="mim-binding"/>
+      <Point GraphRef="c775a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5e96004f">
+    <Graphics>
+      <Point GraphRef="cc5b6" ArrowHead="mim-binding"/>
+      <Point GraphRef="c8d13" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5e9f0947">
+    <Graphics>
+      <Point GraphRef="a5e2c"/>
+      <Point GraphRef="e731f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5fe3158e">
+    <Graphics>
+      <Point GraphRef="c7678" ArrowHead="mim-binding"/>
+      <Point GraphRef="ee8c8" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id609e7b9b">
+    <Graphics>
+      <Point GraphRef="d52fd" ArrowHead="mim-binding"/>
+      <Point GraphRef="ac4e7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6279d017">
+    <Graphics>
+      <Point GraphRef="faf4a" ArrowHead="mim-binding"/>
+      <Point GraphRef="e9f27" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id62d6af01">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="d9210" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6333d474">
+    <Graphics>
+      <Point GraphRef="f69fb" ArrowHead="mim-binding"/>
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id63e77518">
+    <Graphics>
+      <Point GraphRef="a6b19" ArrowHead="mim-binding"/>
+      <Point GraphRef="d52de" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id64bf40dd">
+    <Graphics>
+      <Point GraphRef="ee444" ArrowHead="mim-binding"/>
+      <Point GraphRef="bfcc5" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id65645352">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="aa6b1" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id65e07c8f">
+    <Graphics>
+      <Point GraphRef="b2b30"/>
+      <Point GraphRef="e2898" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id666536df">
+    <Graphics>
+      <Point GraphRef="a6dd9" ArrowHead="mim-binding"/>
+      <Point GraphRef="aa6b1" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id669f52f9">
+    <Graphics>
+      <Point GraphRef="b29b6"/>
+      <Point GraphRef="fd0cb" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5507190347558031" Shape="None" GraphId="c9a4c"/>
+      <Anchor Position="0.5435223062941321" Shape="None" GraphId="a2595"/>
+      <Anchor Position="0.5352099264987721" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id67b5d9ac">
+    <Graphics>
+      <Point GraphRef="a6599" ArrowHead="mim-binding"/>
+      <Point GraphRef="c3bd7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id694cc389">
+    <Graphics>
+      <Point GraphRef="c7678" ArrowHead="mim-binding"/>
+      <Point GraphRef="a3470" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6a93f1bc">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+      <Point/>
+      <Point GraphRef="a0ac7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6be34c6">
+    <Graphics>
+      <Point GraphRef="d54ae" ArrowHead="mim-binding"/>
+      <Point GraphRef="a27bb" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6e9d173a">
+    <Graphics>
+      <Point GraphRef="cbf64" ArrowHead="mim-binding"/>
+      <Point GraphRef="a3e1d" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6ed1a255">
+    <Graphics>
+      <Point GraphRef="aa5cc" ArrowHead="mim-binding"/>
+      <Point GraphRef="d52fd" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6f4b01df">
+    <Graphics>
+      <Point GraphRef="e0d7a" ArrowHead="mim-binding"/>
+      <Point GraphRef="f75b4" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7034a44e">
+    <Graphics>
+      <Point GraphRef="dcc2a" ArrowHead="mim-binding"/>
+      <Point GraphRef="bfcc5" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id719d62f0">
+    <Graphics>
+      <Point GraphRef="dd6d2" ArrowHead="mim-binding"/>
+      <Point GraphRef="e4e2c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7259a725">
+    <Graphics>
+      <Point GraphRef="acbef" ArrowHead="mim-binding"/>
+      <Point GraphRef="aa590" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7298bcb8">
+    <Graphics>
+      <Point GraphRef="a0ac7" ArrowHead="mim-binding"/>
+      <Point GraphRef="bf9ad" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id729b1029">
+    <Graphics>
+      <Point GraphRef="ea62c" ArrowHead="mim-binding"/>
+      <Point GraphRef="e4e2c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id72b1963f">
+    <Graphics>
+      <Point GraphRef="c7678" ArrowHead="mim-binding"/>
+      <Point GraphRef="d7cc4" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id73162e45">
+    <Graphics>
+      <Point GraphRef="d52fd" ArrowHead="mim-binding"/>
+      <Point GraphRef="c448a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id732e3904">
+    <Graphics>
+      <Point GraphRef="d1cbc" ArrowHead="mim-binding"/>
+      <Point GraphRef="fc980" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id73b4f994">
+    <Graphics>
+      <Point GraphRef="d265b" ArrowHead="mim-binding"/>
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7562e338">
+    <Graphics>
+      <Point GraphRef="e4e2c" ArrowHead="mim-binding"/>
+      <Point GraphRef="db667" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id76e539f">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+      <Point/>
+      <Point GraphRef="c7bd7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id775ce382">
+    <Graphics>
+      <Point GraphRef="ca5ba" ArrowHead="mim-binding"/>
+      <Point GraphRef="f9c3a" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id776bcffe">
+    <Graphics>
+      <Point GraphRef="c7678" ArrowHead="mim-binding"/>
+      <Point GraphRef="f846a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7910552b">
+    <Graphics>
+      <Point GraphRef="b45a6"/>
+      <Point GraphRef="d0922" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id79a6e0ee">
+    <Graphics>
+      <Point GraphRef="f76f9"/>
+      <Point GraphRef="e35fd" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7ac3b027">
+    <Graphics>
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+      <Point GraphRef="e7cf1" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7b09c03d">
+    <Graphics>
+      <Point GraphRef="f5fcc"/>
+      <Point GraphRef="cf945" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7cf27459">
+    <Graphics>
+      <Point GraphRef="a6dc3" ArrowHead="mim-binding"/>
+      <Point GraphRef="c3bd7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7dbae354">
+    <Graphics>
+      <Point GraphRef="dcc2a" ArrowHead="mim-binding"/>
+      <Point GraphRef="bf9ad" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7e047798">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bb9fb" ArrowHead="mim-binding"/>
+      <Point GraphRef="d9b99" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id80df8cd">
+    <Graphics>
+      <Point GraphRef="a4af3"/>
+      <Point GraphRef="fda63" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="cb9dc"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8181006e">
+    <Graphics>
+      <Point GraphRef="c7678" ArrowHead="mim-binding"/>
+      <Point GraphRef="fb61f" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id81aaf24">
+    <Graphics>
+      <Point GraphRef="aa811" ArrowHead="mim-binding"/>
+      <Point GraphRef="f3915" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id83d9774c">
+    <Graphics>
+      <Point GraphRef="f8b50" ArrowHead="mim-binding"/>
+      <Point GraphRef="fbee9" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id84984626">
+    <Graphics>
+      <Point GraphRef="e7cf1" ArrowHead="mim-binding"/>
+      <Point GraphRef="e4e2c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id84c4d1bd">
+    <Graphics>
+      <Point GraphRef="d6e82"/>
+      <Point GraphRef="d9615" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id84c61e77">
+    <Graphics>
+      <Point GraphRef="c66f4" ArrowHead="mim-binding"/>
+      <Point GraphRef="eccd1" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id85a7f190">
+    <Graphics>
+      <Point GraphRef="b6a8f" ArrowHead="mim-binding"/>
+      <Point GraphRef="c28d1" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id868013b5">
+    <Graphics>
+      <Point GraphRef="c7678" ArrowHead="mim-binding"/>
+      <Point GraphRef="d871c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id872466d4">
+    <Graphics>
+      <Point GraphRef="d82a2" ArrowHead="mim-binding"/>
+      <Point GraphRef="f3064" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id875c2cb7">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ce903" ArrowHead="mim-binding"/>
+      <Point/>
+      <Point GraphRef="dcdd0" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8799c07f">
+    <Graphics>
+      <Point GraphRef="b75c0" ArrowHead="mim-binding"/>
+      <Point GraphRef="af8d4" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id88b390a0">
+    <Graphics>
+      <Point GraphRef="bd8d8"/>
+      <Point GraphRef="a4be1" ArrowHead="mim-binding"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a564b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id89010c7">
+    <Graphics>
+      <Point GraphRef="ca5ba" ArrowHead="mim-binding"/>
+      <Point GraphRef="ab01a" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id89a15df7">
+    <Graphics>
+      <Point GraphRef="f2e8f"/>
+      <Point GraphRef="f75b4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8a484fa">
+    <Graphics>
+      <Point GraphRef="d6d08" ArrowHead="mim-binding"/>
+      <Point GraphRef="cc5b6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8b0f58a">
+    <Graphics>
+      <Point GraphRef="cdcfe"/>
+      <Point GraphRef="c1f53" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8c581db1">
+    <Graphics>
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+      <Point GraphRef="dd6d2" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8d294cfe">
+    <Graphics>
+      <Point GraphRef="acbef" ArrowHead="mim-binding"/>
+      <Point GraphRef="f508d" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8e7f4d45">
+    <Graphics>
+      <Point GraphRef="e993e" ArrowHead="mim-binding"/>
+      <Point GraphRef="f2e8f" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id900fe493">
+    <Graphics>
+      <Point GraphRef="c7678" ArrowHead="mim-binding"/>
+      <Point GraphRef="c16a8" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9100d447">
+    <Graphics>
+      <Point GraphRef="d61f9" ArrowHead="mim-binding"/>
+      <Point GraphRef="e4e2c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id911cf693">
+    <Graphics>
+      <Point GraphRef="bd8d8"/>
+      <Point GraphRef="c314e" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id916b036f">
+    <Graphics>
+      <Point GraphRef="bfcc5" ArrowHead="mim-binding"/>
+      <Point GraphRef="e8e20" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9178336c">
+    <Graphics>
+      <Point GraphRef="cbf64" ArrowHead="mim-binding"/>
+      <Point GraphRef="c3a0e" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id91a61e66">
+    <Graphics>
+      <Point GraphRef="d52fd" ArrowHead="mim-binding"/>
+      <Point GraphRef="a27bb" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9202a6f9">
+    <Graphics>
+      <Point GraphRef="c3852" ArrowHead="mim-binding"/>
+      <Point GraphRef="cf110" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id923b6cf3">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="dcc2a" ArrowHead="mim-binding"/>
+      <Point GraphRef="a6b19" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id92c68e7f">
+    <Graphics>
+      <Point GraphRef="cab62"/>
+      <Point GraphRef="e9f27" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id92d1f53f">
+    <Graphics>
+      <Point GraphRef="d52fd" ArrowHead="mim-binding"/>
+      <Point GraphRef="c16f2" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id92ea30db">
+    <Graphics>
+      <Point GraphRef="a5daf"/>
+      <Point GraphRef="de0e2" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id93590c2">
+    <Graphics>
+      <Point GraphRef="d1cbc" ArrowHead="mim-binding"/>
+      <Point GraphRef="b6a8f" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id946f0bfc">
+    <Graphics>
+      <Point GraphRef="a5daf" ArrowHead="mim-binding"/>
+      <Point GraphRef="c3997" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id94c2cddb">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="f6524" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id96eea6ee">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e42c6" ArrowHead="mim-binding"/>
+      <Point/>
+      <Point GraphRef="fe9cd" ArrowHead="mim-binding"/>
+      <Anchor Position="0.4" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9ac2f5a4">
+    <Graphics>
+      <Point GraphRef="fd947"/>
+      <Point GraphRef="cc934" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9bc6b389">
+    <Graphics>
+      <Point GraphRef="c28d1" ArrowHead="mim-binding"/>
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9bd4126d">
+    <Graphics>
+      <Point GraphRef="cbf64" ArrowHead="mim-binding"/>
+      <Point GraphRef="b75d9" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9be8fd0c">
+    <Graphics>
+      <Point GraphRef="bec42"/>
+      <Point GraphRef="dcfd5" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9c308543">
+    <Graphics>
+      <Point GraphRef="ca5ba" ArrowHead="mim-binding"/>
+      <Point GraphRef="c56fc" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9d2f46b3">
+    <Graphics>
+      <Point GraphRef="b8355" ArrowHead="mim-binding"/>
+      <Point GraphRef="eb98c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9e1b41b2">
+    <Graphics>
+      <Point GraphRef="dc826" ArrowHead="mim-binding"/>
+      <Point GraphRef="bfcc5" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida0148990">
+    <Graphics>
+      <Point GraphRef="fd0cb"/>
+      <Point GraphRef="dd35b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida0586e15">
+    <Graphics>
+      <Point GraphRef="d03cd"/>
+      <Point GraphRef="b590d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida086a78f">
+    <Graphics>
+      <Point GraphRef="dd6d2" ArrowHead="mim-binding"/>
+      <Point GraphRef="dcc2a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida1ef78c2">
+    <Graphics>
+      <Point GraphRef="c3852" ArrowHead="mim-binding"/>
+      <Point GraphRef="c4877" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida352e273">
+    <Graphics>
+      <Point GraphRef="d6249"/>
+      <Point GraphRef="d5c95" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida419d7d0">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="c120d" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida49e591">
+    <Graphics>
+      <Point GraphRef="ff05a"/>
+      <Point GraphRef="b927a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida52d324c">
+    <Graphics>
+      <Point GraphRef="a5daf"/>
+      <Point GraphRef="c9206" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida71ae487">
+    <Graphics>
+      <Point GraphRef="c84ec"/>
+      <Point GraphRef="a5daf" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c314e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida7372be3">
+    <Graphics>
+      <Point GraphRef="f2e8f"/>
+      <Point GraphRef="f8919" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.21999073464062605" Shape="None" GraphId="b8d8e"/>
+      <Anchor Position="0.8257412738568846" Shape="None" GraphId="f8a3b"/>
+      <Anchor Position="0.6726565772003935" Shape="None" GraphId="e2d1f"/>
+      <Anchor Position="0.21864094493475356" Shape="None" GraphId="bf3ba"/>
+      <Anchor Position="0.6675393804816292" Shape="None" GraphId="c4f90"/>
+      <Anchor Position="0.8335176296590392" Shape="None" GraphId="d5c95"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b7c7a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida8505e5e">
+    <Graphics>
+      <Point GraphRef="c16f2" ArrowHead="mim-binding"/>
+      <Point GraphRef="d54ae" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida8e55cba">
+    <Graphics>
+      <Point GraphRef="dcc2a" ArrowHead="mim-binding"/>
+      <Point GraphRef="e2fc5" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida958b9a0">
+    <Graphics>
+      <Point GraphRef="d5d86" ArrowHead="mim-binding"/>
+      <Point GraphRef="adac1" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida9a68240">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="efbe3" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida9e811e9">
+    <Graphics>
+      <Point GraphRef="de0e2" ArrowHead="mim-binding"/>
+      <Point GraphRef="b08a3" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida9f2c4be">
+    <Graphics>
+      <Point GraphRef="f8344"/>
+      <Point GraphRef="e463f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaa692158">
+    <Graphics>
+      <Point GraphRef="e6642" ArrowHead="mim-binding"/>
+      <Point GraphRef="faea2" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idab8795db">
+    <Graphics>
+      <Point GraphRef="e9f27"/>
+      <Point GraphRef="c52f7" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.23003342866822069" Shape="None" GraphId="c685d"/>
+      <Anchor Position="0.5859536214678431" Shape="None" GraphId="e2898"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idabaa327e">
+    <Graphics>
+      <Point GraphRef="c3852" ArrowHead="mim-binding"/>
+      <Point GraphRef="b95b7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idabcae888">
+    <Graphics>
+      <Point GraphRef="d52fd" ArrowHead="mim-binding"/>
+      <Point GraphRef="a221e" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idac173682">
+    <Graphics>
+      <Point GraphRef="bfcc5" ArrowHead="mim-binding"/>
+      <Point GraphRef="a3473" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idacc70972">
+    <Graphics>
+      <Point GraphRef="f8ccc" ArrowHead="mim-binding"/>
+      <Point GraphRef="be121" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idad68c82c">
+    <Graphics>
+      <Point GraphRef="b6a8f" ArrowHead="mim-binding"/>
+      <Point GraphRef="c4866" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idada43a77">
+    <Graphics>
+      <Point GraphRef="acbef" ArrowHead="mim-binding"/>
+      <Point GraphRef="f0595" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idadc33a25">
+    <Graphics>
+      <Point GraphRef="c84ec" ArrowHead="mim-binding"/>
+      <Point GraphRef="e6642" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idadc4bd02">
+    <Graphics>
+      <Point GraphRef="bb1a6" ArrowHead="mim-binding"/>
+      <Point GraphRef="fbee9" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idadf7b336">
+    <Graphics>
+      <Point GraphRef="c4866"/>
+      <Point GraphRef="a2595" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idae37c6b0">
+    <Graphics>
+      <Point GraphRef="c7678" ArrowHead="mim-binding"/>
+      <Point GraphRef="e183d" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaf69bd7f">
+    <Graphics>
+      <Point GraphRef="ebffa" ArrowHead="mim-binding"/>
+      <Point GraphRef="aa6b1" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb12ce0">
+    <Graphics>
+      <Point GraphRef="da267" ArrowHead="mim-binding"/>
+      <Point GraphRef="fb5dc" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb192791">
+    <Graphics>
+      <Point GraphRef="e4901"/>
+      <Point GraphRef="c45e5" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb1a44248">
+    <Graphics>
+      <Point GraphRef="ca5ba" ArrowHead="mim-binding"/>
+      <Point GraphRef="a9235" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb3a5c780">
+    <Graphics>
+      <Point GraphRef="f2e8f"/>
+      <Point GraphRef="b29b6" ArrowHead="Arrow"/>
+      <Anchor Position="0.23524402883630025" Shape="None" GraphId="f52e6"/>
+      <Anchor Position="0.28529410019926654" Shape="None" GraphId="d3e4f"/>
+      <Anchor Position="0.3853830997319316" Shape="None" GraphId="b13f6"/>
+      <Anchor Position="0.31123868407188476" Shape="None" GraphId="abc58"/>
+      <Anchor Position="0.35572689351497033" Shape="None" GraphId="a6b0e"/>
+      <Anchor Position="0.4280166123221722" Shape="None" GraphId="eccbf"/>
+      <Anchor Position="0.453967882110751" Shape="None" GraphId="d80d5"/>
+      <Anchor Position="0.49845274859585625" Shape="None" GraphId="dd35b"/>
+      <Anchor Position="0.5132825231833271" Shape="None" GraphId="ca118"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb405219f">
+    <Graphics>
+      <Point GraphRef="f7d7c"/>
+      <Point GraphRef="eccbf" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb57991b4">
+    <Graphics>
+      <Point GraphRef="a2e5d" ArrowHead="mim-binding"/>
+      <Point GraphRef="d4f26" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb6a241a2">
+    <Graphics>
+      <Point GraphRef="b6b0d"/>
+      <Point GraphRef="a81c4" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb733e5b6">
+    <Graphics>
+      <Point GraphRef="cd502"/>
+      <Point GraphRef="a564b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb73402d1">
+    <Graphics>
+      <Point GraphRef="c84ec" ArrowHead="mim-binding"/>
+      <Point GraphRef="c9206" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb772a539">
+    <Graphics>
+      <Point GraphRef="fb8cf" ArrowHead="mim-binding"/>
+      <Point GraphRef="e90f5" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb83ed50b">
+    <Graphics>
+      <Point GraphRef="dcdd0"/>
+      <Point GraphRef="ca5ba" ArrowHead="mim-binding"/>
+      <Anchor Position="0.4" Shape="None" GraphId="cc682"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb9cc3be">
+    <Graphics>
+      <Point GraphRef="c84ec" ArrowHead="mim-binding"/>
+      <Point GraphRef="c3997" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idba747ad2">
+    <Graphics>
+      <Point GraphRef="cc682"/>
+      <Point GraphRef="a3a51" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbacdf41d">
+    <Graphics>
+      <Point GraphRef="f51e9"/>
+      <Point GraphRef="a6b0e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbb4d0c05">
+    <Graphics>
+      <Point GraphRef="c7678" ArrowHead="mim-binding"/>
+      <Point GraphRef="fb8cf" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbc2e6015">
+    <Graphics>
+      <Point GraphRef="db667" ArrowHead="mim-binding"/>
+      <Point GraphRef="e096c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbc8ead57">
+    <Graphics>
+      <Point GraphRef="b8efd" ArrowHead="mim-binding"/>
+      <Point ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbccfebc7">
+    <Graphics>
+      <Point GraphRef="f3064"/>
+      <Point GraphRef="c3bd7" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbf580537">
+    <Graphics>
+      <Point GraphRef="faea2" ArrowHead="mim-binding"/>
+      <Point GraphRef="bfcc5" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbfeebebd">
+    <Graphics>
+      <Point GraphRef="cd61f" ArrowHead="mim-binding"/>
+      <Point GraphRef="e4e2c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbff45a18">
+    <Graphics>
+      <Point GraphRef="e0b6f"/>
+      <Point GraphRef="e2d1f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc080e302">
+    <Graphics>
+      <Point GraphRef="c3852" ArrowHead="mim-binding"/>
+      <Point GraphRef="b0b79" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc1509fbd">
+    <Graphics>
+      <Point GraphRef="c7678" ArrowHead="mim-binding"/>
+      <Point GraphRef="e4e2c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc1affc98">
+    <Graphics>
+      <Point GraphRef="abf72" ArrowHead="mim-binding"/>
+      <Point GraphRef="f26f8" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc220e397">
+    <Graphics>
+      <Point GraphRef="c7678" ArrowHead="mim-binding"/>
+      <Point GraphRef="d55d2" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc2bf8f7b">
+    <Graphics>
+      <Point GraphRef="c33c5"/>
+      <Point GraphRef="b3945" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7307265447583134" Shape="None" GraphId="b0067"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b590d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc4ef7a05">
+    <Graphics>
+      <Point GraphRef="d9210" ArrowHead="mim-binding"/>
+      <Point GraphRef="c3852" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc5c512ca">
+    <Graphics>
+      <Point GraphRef="adac1" ArrowHead="mim-binding"/>
+      <Point GraphRef="c33c5" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc682d3ab">
+    <Graphics>
+      <Point GraphRef="a6b19" ArrowHead="mim-binding"/>
+      <Point GraphRef="b334c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc96c1155">
+    <Graphics>
+      <Point GraphRef="a0ac7" ArrowHead="mim-binding"/>
+      <Point GraphRef="dcc2a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcad42f58">
+    <Graphics>
+      <Point GraphRef="d61f9" ArrowHead="mim-binding"/>
+      <Point GraphRef="dcc2a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcae6634">
+    <Graphics>
+      <Point GraphRef="a34ba"/>
+      <Point GraphRef="f8ae9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcd0517d9">
+    <Graphics>
+      <Point GraphRef="e3536"/>
+      <Point GraphRef="abc58" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcd8f59e8">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="f9296" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcd9a6d04">
+    <Graphics>
+      <Point GraphRef="a2a30" ArrowHead="mim-binding"/>
+      <Point GraphRef="cc5b6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idce283392">
+    <Graphics>
+      <Point GraphRef="f93bd"/>
+      <Point GraphRef="d2f5d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idce6f731c">
+    <Graphics>
+      <Point GraphRef="f2e8f" ArrowHead="mim-binding"/>
+      <Point GraphRef="dd6d2" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idce83856d">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="c1821" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcebdbbf8">
+    <Graphics>
+      <Point GraphRef="a7f9a" ArrowHead="mim-binding"/>
+      <Point GraphRef="c3bd7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd06468a2">
+    <Graphics>
+      <Point GraphRef="a08a1" ArrowHead="mim-binding"/>
+      <Point GraphRef="f2e8f" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd06d14ef">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="d4016" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd47ecbf0">
+    <Graphics>
+      <Point GraphRef="c5a68" ArrowHead="mim-binding"/>
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd5ed1dc1">
+    <Graphics>
+      <Point GraphRef="ea5e7" ArrowHead="mim-binding"/>
+      <Point GraphRef="f3915" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd62d2e40">
+    <Graphics>
+      <Point GraphRef="de45b" ArrowHead="mim-binding"/>
+      <Point GraphRef="bfcc5" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd67e5e4d">
+    <Graphics>
+      <Point GraphRef="a475b"/>
+      <Point GraphRef="c9a4c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd6fcf5b1">
+    <Graphics>
+      <Point GraphRef="e43fc" ArrowHead="mim-binding"/>
+      <Point GraphRef="f75b4" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd90b3cf8">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="c73ff" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddaa98cc8">
+    <Graphics>
+      <Point GraphRef="c7678" ArrowHead="mim-binding"/>
+      <Point GraphRef="af9e4" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb0d3eb7">
+    <Graphics>
+      <Point GraphRef="bd663"/>
+      <Point GraphRef="c66f4" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb42415e">
+    <Graphics>
+      <Point GraphRef="bed2b" ArrowHead="mim-binding"/>
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddc05e39c">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c9491" ArrowHead="mim-binding"/>
+      <Point/>
+      <Point GraphRef="fb5dc" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddcaf8b32">
+    <Graphics>
+      <Point GraphRef="e4944"/>
+      <Point GraphRef="ebd38" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddda84799">
+    <Graphics>
+      <Point GraphRef="c9f9c"/>
+      <Point GraphRef="a4af3" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5702811524272557" Shape="None" GraphId="b57ce"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idde330908">
+    <Graphics>
+      <Point GraphRef="befc8"/>
+      <Point GraphRef="b57ce" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide147f2b8">
+    <Graphics>
+      <Point GraphRef="b6ff9"/>
+      <Point GraphRef="d0428" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide1f8191b">
+    <Graphics>
+      <Point GraphRef="bfcc5" ArrowHead="mim-binding"/>
+      <Point GraphRef="f1679" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide2d0350b">
+    <Graphics>
+      <Point GraphRef="e6af7" ArrowHead="mim-binding"/>
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide30c22ec">
+    <Graphics>
+      <Point GraphRef="cc5b6"/>
+      <Point GraphRef="c9f9c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.10121488194040293" Shape="None" GraphId="cc934"/>
+      <Anchor Position="0.20932182536466631" Shape="None" GraphId="d0922"/>
+      <Anchor Position="0.2934338499616069" Shape="None" GraphId="c45e5"/>
+      <Anchor Position="0.8381222543890385" Shape="None" GraphId="db56e"/>
+      <Anchor Position="0.4377000685285395" Shape="None" GraphId="ab6ac"/>
+      <Anchor Position="0.5458441001531766" Shape="None" GraphId="e463f"/>
+      <Anchor Position="0.6380780583604727" Shape="None" GraphId="dcdc0"/>
+      <Anchor Position="0.7328829519464715" Shape="None" GraphId="e2ba3"/>
+      <Anchor Position="0.3575933784362148" Shape="None" GraphId="cab62"/>
+      <Anchor Position="0.9022817828636458" Shape="None" GraphId="abb89"/>
+      <Anchor Position="0.8324213679265415" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide3ec801f">
+    <Graphics>
+      <Point GraphRef="acbef" ArrowHead="mim-binding"/>
+      <Point GraphRef="dd66a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide42a26b8">
+    <Graphics>
+      <Point GraphRef="dcc2a" ArrowHead="mim-binding"/>
+      <Point GraphRef="fb5dc" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide4670206">
+    <Graphics>
+      <Point GraphRef="e2fc5" ArrowHead="mim-binding"/>
+      <Point GraphRef="c66f4" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide5203685">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="d9210" ArrowHead="mim-binding"/>
+      <Point/>
+      <Point GraphRef="e42c6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide53280ae">
+    <Graphics>
+      <Point GraphRef="ca5ba"/>
+      <Point GraphRef="e1c1f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.707308638104013" Shape="None" GraphId="fe9cd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide698e6a3">
+    <Graphics>
+      <Point GraphRef="b04c8" ArrowHead="mim-binding"/>
+      <Point GraphRef="f75b4" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide953068c">
+    <Graphics>
+      <Point GraphRef="c120d" ArrowHead="mim-binding"/>
+      <Point GraphRef="c3852" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide9602166">
+    <Graphics>
+      <Point GraphRef="bd99b" ArrowHead="mim-binding"/>
+      <Point GraphRef="c3852" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide99a22d2">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="a6b19" ArrowHead="mim-binding"/>
+      <Point GraphRef="e4e2c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide9c3c2db">
+    <Graphics>
+      <Point GraphRef="c9491" ArrowHead="mim-binding"/>
+      <Point GraphRef="bfcc5" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideac1cbe2">
+    <Graphics>
+      <Point GraphRef="a38fb"/>
+      <Point GraphRef="ca118" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideb0350e4">
+    <Graphics>
+      <Point GraphRef="bfa41" ArrowHead="mim-binding"/>
+      <Point GraphRef="b29b6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idedd6c648">
+    <Graphics>
+      <Point GraphRef="d054f" ArrowHead="mim-binding"/>
+      <Point GraphRef="f2e8f" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idee34a0c6">
+    <Graphics>
+      <Point GraphRef="acbef" ArrowHead="mim-binding"/>
+      <Point GraphRef="c5aaa" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idefaf9e97">
+    <Graphics>
+      <Point GraphRef="fda63"/>
+      <Point GraphRef="c84ec" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="fdc5a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf0272778">
+    <Graphics>
+      <Point GraphRef="c7678"/>
+      <Point GraphRef="fe21d" ArrowHead="mim-binding"/>
+      <Anchor Position="0.5723106710561194" Shape="None" GraphId="f8ae9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf0c6ab1d">
+    <Graphics>
+      <Point GraphRef="e7cf1" ArrowHead="mim-binding"/>
+      <Point GraphRef="dcc2a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf0d5895b">
+    <Graphics>
+      <Point GraphRef="bd99b"/>
+      <Point GraphRef="c53ef" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf0f60855">
+    <Graphics>
+      <Point GraphRef="b6a8f" ArrowHead="mim-binding"/>
+      <Point GraphRef="e6af7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf2780abb">
+    <Graphics>
+      <Point GraphRef="a3a51"/>
+      <Point GraphRef="f9b57" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.41594801468590553" Shape="None" GraphId="a81c4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf27c4061">
+    <Graphics>
+      <Point GraphRef="f0d20"/>
+      <Point GraphRef="d3e4f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf2b81061">
+    <Graphics>
+      <Point GraphRef="b7d0b"/>
+      <Point GraphRef="cb9dc" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf3b49ae8">
+    <Graphics>
+      <Point GraphRef="bf9ad" ArrowHead="mim-binding"/>
+      <Point GraphRef="c66f4" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf4dbc7c0">
+    <Graphics>
+      <Point GraphRef="ca5ba" ArrowHead="mim-binding"/>
+      <Point GraphRef="f737c" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf5ae0f4d">
+    <Graphics>
+      <Point GraphRef="ce8fe" ArrowHead="mim-binding"/>
+      <Point GraphRef="c3bd7" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf74b10ae">
+    <Graphics>
+      <Point GraphRef="eff1e"/>
+      <Point GraphRef="e2ba3" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf82f20c1">
+    <Graphics>
+      <Point GraphRef="dcf90" ArrowHead="mim-binding"/>
+      <Point GraphRef="c3bd7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf9e54cfd">
+    <Graphics>
+      <Point GraphRef="c1670" ArrowHead="mim-binding"/>
+      <Point GraphRef="fbee9" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfa2ee2ed">
+    <Graphics>
+      <Point GraphRef="acbef" ArrowHead="mim-binding"/>
+      <Point GraphRef="d4f8c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfab761ff">
+    <Graphics>
+      <Point GraphRef="eb0be"/>
+      <Point GraphRef="d3a13" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfb54f942">
+    <Graphics>
+      <Point GraphRef="fda63" ArrowHead="mim-binding"/>
+      <Point GraphRef="e6642" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfcb5874d">
+    <Graphics>
+      <Point GraphRef="b29b6"/>
+      <Point GraphRef="dcc2a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5332870163098987" Shape="None" GraphId="d9615"/>
+      <Anchor Position="0.42936960686260506" Shape="None" GraphId="dcfd5"/>
+      <Anchor Position="0.5521199038983975" Shape="None" GraphId="ebd38"/>
+      <Anchor Position="0.3056506211826366" Shape="None" GraphId="a90aa"/>
+      <Anchor Position="0.6967858151690117" Shape="None" GraphId="d3a13"/>
+      <Anchor Position="0.6731710902467046" Shape="None" GraphId="d2f5d"/>
+      <Anchor Position="0.7877098079671893" Shape="None" GraphId="c9f43"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfd0708a9">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="fa8e2" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfd4a29df">
+    <Graphics>
+      <Point GraphRef="b8422"/>
+      <Point GraphRef="b0067" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfebde25a">
+    <Graphics>
+      <Point GraphRef="d4f8c" ArrowHead="mim-binding"/>
+      <Point GraphRef="a6f26" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idff11ad6d">
+    <Graphics>
+      <Point GraphRef="cc5b6"/>
+      <Point GraphRef="c950e" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="cf945"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idffcaa408">
+    <Graphics>
+      <Point GraphRef="e7787" ArrowHead="mim-binding"/>
+      <Point GraphRef="ed4ee" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b9ce0">
+    <Graphics>
+      <Point GraphRef="dcf90" ArrowHead="mim-binding"/>
+      <Point GraphRef="a8677" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfa80384c">
+    <Graphics>
+      <Point GraphRef="c2726" ArrowHead="mim-binding"/>
+      <Point GraphRef="c3bd7" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd106d738">
+    <Graphics>
+      <Point GraphRef="efa1c"/>
+      <Point GraphRef="fdc5a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Ba" GraphId="a1687">
+    <Comment>Complement factor B's fragment Ba</Comment>
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ff9900"/>
+  </Label>
+  <Label TextLabel="Degradation" GraphId="a20b6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="FXIa" GraphId="a38fb">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330066"/>
+  </Label>
+  <Label TextLabel="C5b6-9 complex" GraphId="a5daf">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ff9900"/>
+  </Label>
+  <Label TextLabel="Plasmin" GraphId="a5e2c">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330099"/>
+  </Label>
+  <Label TextLabel="Fibrin " GraphId="a6dd9">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330099"/>
+  </Label>
+  <Label TextLabel="FIXa " GraphId="a7878">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330066"/>
+  </Label>
+  <Label TextLabel="IgG" GraphId="a7f9a">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330066"/>
+  </Label>
+  <Label TextLabel="Endougenous (host) molecules" GraphId="c22c2">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330066"/>
+  </Label>
+  <Label TextLabel="Ba" GraphId="c501f">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ff9900"/>
+  </Label>
+  <Label TextLabel="FXa" GraphId="c9fe1">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330066"/>
+  </Label>
+  <Label TextLabel="Exogenous molecules (eg. pathogenic)" GraphId="d7641">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="cc33ff"/>
+  </Label>
+  <Label TextLabel="Clusterin" GraphId="de0e2">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330066"/>
+  </Label>
+  <Label TextLabel="C4bC2" GraphId="e1c1f">
+    <Comment>COMPLEX</Comment>
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ff9900"/>
+  </Label>
+  <Label TextLabel="Thrombin " GraphId="e3536">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330066"/>
+  </Label>
+  <Label TextLabel=" Neutrophil inhibitory factor (NIF) " GraphId="e8e20">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330066"/>
+  </Label>
+  <Label TextLabel="C3(H2O)Bb" GraphId="eb0b8">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ff9900"/>
+  </Label>
+  <Label TextLabel="IgM" GraphId="f1b20">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330066"/>
+  </Label>
+  <Label TextLabel="Compstatin" GraphId="f62a5">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="IgA" GraphId="f8cca">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330066"/>
+  </Label>
+  <Label TextLabel="Complement proteins (host)" GraphId="faacb">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ff9900"/>
+  </Label>
+  <Label TextLabel="IgM" GraphId="fa8e2">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330066"/>
+  </Label>
+  <Label TextLabel="IgG" GraphId="f3915">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330066"/>
+  </Label>
+  <Label TextLabel="Fibrin " GraphId="d054f">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330099"/>
+  </Label>
+  <Label TextLabel="C3(H2O)Bb" GraphId="f0d20">
+    <Comment>Complex of hydrated C3 molecule and a proteolytic fragment from CFB.</Comment>
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ff9900"/>
+  </Label>
+  <Label TextLabel="Degradation" GraphId="c7692">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Plasmin" GraphId="b9956">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330099"/>
+  </Label>
+  <Label TextLabel="Degradation" GraphId="fe21d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="IgG" GraphId="d4f26">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330066"/>
+  </Label>
+  <Label TextLabel="C5b678 complex" GraphId="c84ec">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ff9900"/>
+  </Label>
+  <Label TextLabel="C5b67 complex" GraphId="fda63">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ff9900"/>
+  </Label>
+  <Label TextLabel="C5b6 complex" GraphId="a4af3">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ff9900"/>
+  </Label>
+  <Label TextLabel="Plasmin" GraphId="a33e9">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330099"/>
+  </Label>
+  <Label TextLabel="Thrombin " GraphId="f8344">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330066"/>
+  </Label>
+  <Label TextLabel="FXa" GraphId="eff1e">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330066"/>
+  </Label>
+  <Label TextLabel="FIXa " GraphId="ca67f">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330066"/>
+  </Label>
+  <Label TextLabel="FXIa" GraphId="f0807">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330066"/>
+  </Label>
+  <Label TextLabel="Degradation" GraphId="b4857">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Plasmin" GraphId="f26f8">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="330099"/>
+  </Label>
+  <Shape GraphId="a5e39">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="b927a">
+    <Comment>CFD cleaves CFB in to Ba and Bb. Then Bb combines with C3(H20), a C3 Convertase. </Comment>
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Group GroupId="b96ba" GraphId="b0309" Style="Group"/>
+  <Group GroupId="a31cd" GraphId="bfa41" Style="Group"/>
+  <Group GroupId="fd3e3" GraphId="bfd37" Style="Group"/>
+  <Group GroupId="de0bc" GraphId="c950e" Style="Group"/>
+  <Group GroupId="ffa53" GraphId="cc5b6" Style="Group"/>
+  <Group GroupId="acdc4" GraphId="d4429" Style="Group"/>
+  <Group GroupId="f15d4" GraphId="d52fd" Style="Group"/>
+  <Group GroupId="a02a1" GraphId="da267" Style="Group"/>
+  <Group GroupId="a7f60" GraphId="e7787" Style="Group"/>
+  <Group GroupId="fd8a9" GraphId="e7f45" Style="Group"/>
+  <Group GroupId="eb01b" GraphId="eb98c" Style="Group"/>
+  <Group GroupId="a7585" GraphId="f5c14" Style="Group"/>
+  <Group GroupId="d6744" GraphId="fbee9" Style="Group"/>
+  <Group GroupId="b3029" GraphId="fcff4" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae0">
+      <bp:ID >21505029</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Signaling gateway molecule pages--a data model perspective.</bp:TITLE>
+      <bp:SOURCE >Bioinformatics</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Dinasarapu AR</bp:AUTHORS>
+      <bp:AUTHORS >Saunders B</bp:AUTHORS>
+      <bp:AUTHORS >Ozerlat I</bp:AUTHORS>
+      <bp:AUTHORS >Azam K</bp:AUTHORS>
+      <bp:AUTHORS >Subramaniam S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf8">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE > L-Ficolin.</bp:TITLE>
+      <bp:SOURCE >UCSD Molecule Pages, 2 (1), 37-44.</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Chandrasekhar A</bp:AUTHORS>
+      <bp:AUTHORS >Dinasarapu AR</bp:AUTHORS>
+      <bp:AUTHORS >Thiel S</bp:AUTHORS>
+      <bp:AUTHORS >Subramaniam S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c1d">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mannose/mannan-binding lectin.</bp:TITLE>
+      <bp:SOURCE >UCSD Molecule Pages</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Dinasarapu AR</bp:AUTHORS>
+      <bp:AUTHORS >Chandrasekhar A</bp:AUTHORS>
+      <bp:AUTHORS >Fujita T</bp:AUTHORS>
+      <bp:AUTHORS >Subramaniam S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c51">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Complement C3</bp:TITLE>
+      <bp:SOURCE > UCSD Molecule Pages, 1 (2), 34-48</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Dinasarapu AR</bp:AUTHORS>
+      <bp:AUTHORS >Chandrasekhar A</bp:AUTHORS>
+      <bp:AUTHORS >Sahu A</bp:AUTHORS>
+      <bp:AUTHORS >Subramaniam S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea0">
+      <bp:ID >20720586</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Complement: a key system for immune surveillance and homeostasis.</bp:TITLE>
+      <bp:SOURCE >Nat Immunol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Ricklin D</bp:AUTHORS>
+      <bp:AUTHORS >Hajishengallis G</bp:AUTHORS>
+      <bp:AUTHORS >Yang K</bp:AUTHORS>
+      <bp:AUTHORS >Lambris JD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fe4">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE > Integrin beta-2. </bp:TITLE>
+      <bp:SOURCE >UCSD Molecule Pages.</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Dinasarapu AR</bp:AUTHORS>
+      <bp:AUTHORS >Chandrasekhar A</bp:AUTHORS>
+      <bp:AUTHORS >Hajishengallis G</bp:AUTHORS>
+      <bp:AUTHORS >Subramaniam S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec2">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Complement C5. </bp:TITLE>
+      <bp:SOURCE >UCSD Molecule Pages , 1 (2), 61-70.</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Complement C5. </bp:TITLE>
+      <bp:SOURCE >UCSD Molecule Pages , 1 (2), 61-70.</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Chandrasekhar A</bp:AUTHORS>
+      <bp:AUTHORS >Dinasarapu AR</bp:AUTHORS>
+      <bp:AUTHORS >Isenman D.E</bp:AUTHORS>
+      <bp:AUTHORS >Subramaniam S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a5f">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE > H-Ficolin. </bp:TITLE>
+      <bp:SOURCE >UCSD Molecule Pages.</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Chandrasekhar A</bp:AUTHORS>
+      <bp:AUTHORS >Dinasarapu AR</bp:AUTHORS>
+      <bp:AUTHORS >Cedzyaski M</bp:AUTHORS>
+      <bp:AUTHORS >Subramaniam S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f3d">
+      <bp:ID >23661693</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >CMAP: Complement Map Database.</bp:TITLE>
+      <bp:SOURCE >Bioinformatics</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Yang K</bp:AUTHORS>
+      <bp:AUTHORS >Dinasarapu AR</bp:AUTHORS>
+      <bp:AUTHORS >Reis ES</bp:AUTHORS>
+      <bp:AUTHORS >Deangelis RA</bp:AUTHORS>
+      <bp:AUTHORS >Ricklin D</bp:AUTHORS>
+      <bp:AUTHORS >Subramaniam S</bp:AUTHORS>
+      <bp:AUTHORS >Lambris JD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b4e">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Complement C1q subcomponent subunit A.</bp:TITLE>
+      <bp:SOURCE >UCSD Molecule Pages, 1 (2), 49-60</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Chandrasekhar A</bp:AUTHORS>
+      <bp:AUTHORS >Dinasarapu AR</bp:AUTHORS>
+      <bp:AUTHORS >Tenner AJ</bp:AUTHORS>
+      <bp:AUTHORS >Subramaniam S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6d">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Complement factor H.</bp:TITLE>
+      <bp:SOURCE > UCSD Molecule Pages, 1 (2), 71-86</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Dinasarapu A</bp:AUTHORS>
+      <bp:AUTHORS >Chandrasekhar A</bp:AUTHORS>
+      <bp:AUTHORS >Jozsi M</bp:AUTHORS>
+      <bp:AUTHORS >Subramaniam S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="baa">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE > MASP-3. </bp:TITLE>
+      <bp:SOURCE >UCSD Molecule Pages.</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Chandrasekhar A</bp:AUTHORS>
+      <bp:AUTHORS >Dinasarapu AR</bp:AUTHORS>
+      <bp:AUTHORS >Matsushita M</bp:AUTHORS>
+      <bp:AUTHORS >Subramaniam S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf0">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Complement C2. </bp:TITLE>
+      <bp:SOURCE >UCSD Molecule Pages.</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Dinasarapu AR</bp:AUTHORS>
+      <bp:AUTHORS >Chandrasekhar A</bp:AUTHORS>
+      <bp:AUTHORS >Inal J</bp:AUTHORS>
+      <bp:AUTHORS >Subramaniam S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c78">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Properdin.</bp:TITLE>
+      <bp:SOURCE >UCSD Molecule Pages.</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Min J,</bp:AUTHORS>
+      <bp:AUTHORS >Chandrasekhar A</bp:AUTHORS>
+      <bp:AUTHORS >Dinasarapu AR</bp:AUTHORS>
+      <bp:AUTHORS >Kemper C</bp:AUTHORS>
+      <bp:AUTHORS >Subramaniam S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f38">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MASP-2. </bp:TITLE>
+      <bp:SOURCE >UCSD Molecule Pages.</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Chandrasekhar A</bp:AUTHORS>
+      <bp:AUTHORS >Dinasarapu AR</bp:AUTHORS>
+      <bp:AUTHORS >Thielens N</bp:AUTHORS>
+      <bp:AUTHORS >Subramaniam S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea9">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE > MAp44.</bp:TITLE>
+      <bp:SOURCE >UCSD Molecule Pages.</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Chandrasekhar A</bp:AUTHORS>
+      <bp:AUTHORS >Dinasarapu AR</bp:AUTHORS>
+      <bp:AUTHORS >Matsushita M</bp:AUTHORS>
+      <bp:AUTHORS >Subramaniam S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca2">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE />
+      <bp:SOURCE >UCSD Molecule Pages.</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Chandrasekhar A</bp:AUTHORS>
+      <bp:AUTHORS >Dinasarapu AR</bp:AUTHORS>
+      <bp:AUTHORS >Matsushita M</bp:AUTHORS>
+      <bp:AUTHORS >Subramaniam S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f47">
+      <bp:ID >10904115</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >C1q: structure, function, and receptors.</bp:TITLE>
+      <bp:SOURCE >Immunopharmacology</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Kishore U</bp:AUTHORS>
+      <bp:AUTHORS >Reid KB</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f1b">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Complement C3</bp:TITLE>
+      <bp:SOURCE >UCSD Molecule Pages, 1 (2), 34-48. (doi: 10.6072/H0.M</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Dinasarapu AR, Chandrasekhar A, Sahu A, Subramaniam S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >complement system pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000502</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

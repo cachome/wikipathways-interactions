@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Krebs cycle disorders" Version="20180221" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway shows an simplified version of the Krebs cycle (for more details see [https://www.wikipathways.org/index.php/Pathway:WP78] ), with 4 genetic diseases related to it.
+For succinyl-CoA synthetase deficiencies, relevant metabolic markers are depicted in light green.
+Patients with a mutation in the SUCLG1 might present a severe (fatal) form of mitochondrial encephalomyopathy.
+
+This pathway was inspired by Chapter 20 of the book of Blau (ISBN 3642403360 (978-3642403361)).</Comment>
+  <BiopaxRef>a65</BiopaxRef>
+  <Graphics BoardWidth="1114.7685185185196" BoardHeight="968.6339705728568"/>
+  <DataNode TextLabel="NDPK" GraphId="a103d" Type="Protein">
+    <Comment>Nucleoside diphosphate kinase</Comment>
+        </DataNode>
+  <DataNode TextLabel="SUCLA2" GraphId="af0dd" Type="Protein" GroupRef="e0d59">
+        </DataNode>
+  <DataNode TextLabel="mtDNA synthesis" GraphId="b3aa0" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="ADP-forming (A-SCS)" GraphId="d929b" Type="Protein" GroupRef="e0d59">
+    <Comment>SCS (succinyl-CoA syntethase)</Comment>
+    <Comment>For more info see: https://en.wikipedia.org/wiki/Succinyl_coenzyme_A_synthetase</Comment>
+        </DataNode>
+  <DataNode TextLabel="alpha-ketoglutarate" GraphId="ea00e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Fumarate" GraphId="cd179" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="E1-subunit" GraphId="eb774" Type="Protein" GroupRef="a92f4">
+        </DataNode>
+  <DataNode TextLabel="GDP-forming(G-SCS)" GraphId="f7ad2" Type="Protein" GroupRef="ad85d">
+    <Comment>SCS (succinyl-CoA syntethase)</Comment>
+    <Comment>For more info see: https://en.wikipedia.org/wiki/Succinyl_coenzyme_A_synthetase</Comment>
+        </DataNode>
+  <DataNode TextLabel="FH" GraphId="ed4ac" Type="GeneProduct">
+    <Comment>Fumarate hydratase</Comment>
+        </DataNode>
+  <DataNode TextLabel="2-KGD complex" GraphId="fba33" Type="Protein" GroupRef="a92f4">
+    <Comment>Composed of 3 subunits</Comment>
+    <Comment>"Homodimer. The 2-oxoglutarate dehydrogenase (ODH) complex contains multiple copies of three enzymatic components: 2-oxoglutarate dehydrogenase (E1), dihydrolipoamide succinyltransferase (E2) and lipoamide dehydrogenase (E3) (By similarity)." [https://www.uniprot.org/uniprot/Q1B4V6]</Comment>
+        </DataNode>
+  <DataNode TextLabel="Oxaloacetate" GraphId="f24d7" Type="Metabolite">
+    <Comment>Not in original drawing, adapted from https://www.wikipathways.org/index.php/Pathway:WP78</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Methylmalonyl-CoA" GraphId="dd70f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="(S)-malate" GraphId="ef12e" Type="Metabolite">
+    <Comment>Not in original drawing, adapted from https://www.wikipathways.org/index.php/Pathway:WP78</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="pyruvate" GraphId="dc2ec" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="lactate" GraphId="d485e" Type="Metabolite">
+    <Graphics FillColor="ccffcc"/>
+    </DataNode>
+  <DataNode TextLabel="Succinyl coenzyme A" GraphId="a34fe" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Acetyl-CoA" GraphId="ce063" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ADP" GraphId="fbddb" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="propionyl" GraphId="c6e15" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ATP" GraphId="bdc90" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="METHYLMALONIC &#10;ACID" GraphId="d6d31" Type="Metabolite">
+    <Graphics FillColor="ccffcc"/>
+    </DataNode>
+  <DataNode TextLabel="GTP" GraphId="f411a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="citrate" GraphId="a1146" Type="Metabolite">
+    <Graphics FillColor="ccffcc"/>
+    </DataNode>
+  <DataNode TextLabel="succinate" GraphId="a65cd" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="methylcitrate" GraphId="da0eb" Type="Metabolite">
+    <Comment>a.k.a. 2-methylcitric acid</Comment>
+    <Graphics FillColor="ccffcc"/>
+    </DataNode>
+  <DataNode TextLabel="METHYLMALONYL CARNITINE &#10;ESTER (C4DC)" GraphId="b7355" Type="Metabolite">
+    <Graphics FillColor="ccffcc"/>
+    </DataNode>
+  <DataNode TextLabel="SUCCINYL CARNITINE&#10;ESTER (C4DC)" GraphId="c069d" Type="Metabolite">
+    <Graphics FillColor="ccffcc"/>
+    </DataNode>
+  <DataNode TextLabel="3-HYDROXYPROPIONATE" GraphId="f31fd" Type="Metabolite">
+    <Comment/>
+    <Graphics FillColor="ccffcc"/>
+    </DataNode>
+  <DataNode TextLabel="PROPIONYLCARNITINE (C3)" GraphId="d0bcb" Type="Metabolite">
+    <Comment>a.k.a. 2-methylcitric acid</Comment>
+    <Graphics FillColor="ccffcc"/>
+    </DataNode>
+  <DataNode TextLabel="E2-subunit" GraphId="cdbcc" Type="Protein" GroupRef="a92f4">
+        </DataNode>
+  <DataNode TextLabel="E3-subunit" GraphId="aa7c3" Type="Protein" GroupRef="a92f4">
+        </DataNode>
+  <DataNode TextLabel="SUCLG1" GraphId="f901c" Type="Protein" GroupRef="ad85d">
+    <Comment>Succinate-CoA ligase alpha-subunit</Comment>
+        </DataNode>
+  <DataNode TextLabel="SUCLG2" GraphId="e30b3" Type="Protein" GroupRef="ad85d">
+        </DataNode>
+  <DataNode TextLabel="GDP" GraphId="fa732" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SUCLG1" GraphId="c49e3" Type="Protein" GroupRef="e0d59">
+        </DataNode>
+  <DataNode TextLabel="GDP-forming(G-SCS)" GraphId="d8e72" Type="Protein" GroupRef="f57f0">
+    <Comment>SCS (succinyl-CoA syntethase)</Comment>
+    <Comment>For more info see: https://en.wikipedia.org/wiki/Succinyl_coenzyme_A_synthetase</Comment>
+        </DataNode>
+  <DataNode TextLabel="SUCLG1" GraphId="de55d" Type="Protein" GroupRef="f57f0">
+    <Comment>Succinate-CoA ligase alpha-subunit</Comment>
+        </DataNode>
+  <DataNode TextLabel="SUCLG2" GraphId="c3c97" Type="Protein" GroupRef="f57f0">
+        </DataNode>
+  <DataNode TextLabel="SUCLA2" GraphId="e7002" Type="Protein" GroupRef="edcb9">
+        </DataNode>
+  <DataNode TextLabel="ADP-forming (A-SCS)" GraphId="b4312" Type="Protein" GroupRef="edcb9">
+    <Comment>SCS (succinyl-CoA syntethase)</Comment>
+    <Comment>For more info see: https://en.wikipedia.org/wiki/Succinyl_coenzyme_A_synthetase</Comment>
+        </DataNode>
+  <DataNode TextLabel="SUCLG1" GraphId="bf4cd" Type="Protein" GroupRef="edcb9">
+        </DataNode>
+  <DataNode TextLabel="GDP-forming(G-SCS)" GraphId="de0ce" Type="Protein" GroupRef="bb6ec">
+    <Comment>SCS (succinyl-CoA syntethase)</Comment>
+    <Comment>For more info see: https://en.wikipedia.org/wiki/Succinyl_coenzyme_A_synthetase</Comment>
+        </DataNode>
+  <DataNode TextLabel="SUCLG1" GraphId="de551" Type="Protein" GroupRef="bb6ec">
+    <Comment>Succinate-CoA ligase alpha-subunit</Comment>
+        </DataNode>
+  <DataNode TextLabel="SUCLG2" GraphId="cfde2" Type="Protein" GroupRef="bb6ec">
+        </DataNode>
+  <DataNode TextLabel="NDPK" GraphId="a7c17" Type="Protein" GroupRef="bb6ec">
+    <Comment>Nucleoside diphosphate kinase</Comment>
+        </DataNode>
+  <DataNode TextLabel="SUCLA2" GraphId="deb33" Type="Protein" GroupRef="ed0fa">
+        </DataNode>
+  <DataNode TextLabel="ADP-forming (A-SCS)" GraphId="a9e5c" Type="Protein" GroupRef="ed0fa">
+    <Comment>SCS (succinyl-CoA syntethase)</Comment>
+    <Comment>For more info see: https://en.wikipedia.org/wiki/Succinyl_coenzyme_A_synthetase</Comment>
+        </DataNode>
+  <DataNode TextLabel="SUCLG1" GraphId="cb365" Type="Protein" GroupRef="ed0fa">
+        </DataNode>
+  <DataNode TextLabel="NDPK" GraphId="ab7a8" Type="Protein" GroupRef="ed0fa">
+    <Comment>Nucleoside diphosphate kinase</Comment>
+        </DataNode>
+  <Interaction GraphId="id8d7c659d">
+    <BiopaxRef>d18</BiopaxRef>
+    <BiopaxRef>ba2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a103d"/>
+      <Point GraphRef="d5b82" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc326de55">
+    <BiopaxRef>d18</BiopaxRef>
+    <BiopaxRef>ba2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cdef3"/>
+      <Point GraphRef="a7082" ArrowHead="mim-binding"/>
+      <Anchor Position="0.808651477294498" Shape="None" GraphId="d5b82"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc89af816">
+    <BiopaxRef>e84</BiopaxRef>
+    <BiopaxRef>d18</BiopaxRef>
+    <BiopaxRef>ba2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c9a67"/>
+      <Point GraphRef="b3aa0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="abd3f">
+    <Graphics>
+      <Point GraphRef="d8c56"/>
+      <Point GraphRef="e27ec" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eb07d">
+    <Graphics>
+      <Point GraphRef="bafa6"/>
+      <Point GraphRef="dbb34" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eb734">
+    <Graphics>
+      <Point GraphRef="ef12e"/>
+      <Point GraphRef="f24d7" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fb1df">
+    <Graphics>
+      <Point GraphRef="ed4ac"/>
+      <Point GraphRef="f66a1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e22f6">
+    <Graphics>
+      <Point GraphRef="e27ec"/>
+      <Point GraphRef="f411a" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a5522">
+    <Graphics>
+      <Point GraphRef="bdc90"/>
+      <Point GraphRef="af896" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="abebf">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a65cd"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="a34fe" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e5685"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e4d52">
+    <Graphics>
+      <Point GraphRef="cd179"/>
+      <Point GraphRef="ef12e" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f66a1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f9b09">
+    <Graphics>
+      <Point GraphRef="fa732"/>
+      <Point GraphRef="e27ec" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a7ed0">
+    <Graphics>
+      <Point GraphRef="bfaa3"/>
+      <Point GraphRef="b17d5" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="be207">
+    <Graphics>
+      <Point GraphRef="f24d7"/>
+      <Point GraphRef="a1146" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c11de"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df0eb">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a34fe"/>
+      <Point/>
+      <Point GraphRef="a65cd" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e27ec"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f38a0">
+    <Graphics>
+      <Point GraphRef="d8c56"/>
+      <Point GraphRef="e5685" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a7e6c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a65cd"/>
+      <Point/>
+      <Point GraphRef="a34fe" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.45515761719790476" Shape="None" GraphId="af896"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b57fd">
+    <Graphics>
+      <Point GraphRef="a34fe"/>
+      <Point GraphRef="dd70f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.2284696155170233" Shape="None" GraphId="a223c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e5f4e">
+    <Graphics>
+      <Point GraphRef="c6e15"/>
+      <Point GraphRef="f31fd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e954c">
+    <Graphics>
+      <Point GraphRef="e0313"/>
+      <Point GraphRef="c069d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="acb42">
+    <Graphics>
+      <Point GraphRef="dd70f"/>
+      <Point GraphRef="a34fe" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6137901326336846" Shape="None" GraphId="e0313"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eb630">
+    <Graphics>
+      <Point GraphRef="d485e"/>
+      <Point GraphRef="dc2ec" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d5dc4">
+    <Graphics>
+      <Point GraphRef="dd70f"/>
+      <Point GraphRef="d6d31" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fd671">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a34fe"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="a65cd" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.43173735159177945" Shape="None" GraphId="b17d5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c7ee2">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="ea00e"/>
+      <Point GraphRef="a34fe" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4866521498306279" Shape="None" GraphId="dbb34"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a77e3">
+    <Graphics>
+      <Point GraphRef="c6e15"/>
+      <Point GraphRef="da0eb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d1cb4">
+    <Graphics>
+      <Point GraphRef="dd70f"/>
+      <Point GraphRef="b7355" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b9ddc">
+    <Graphics>
+      <Point GraphRef="c6e15"/>
+      <Point GraphRef="dd70f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d841c">
+    <Graphics>
+      <Point GraphRef="fbddb"/>
+      <Point GraphRef="b17d5" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cb1bb">
+    <Graphics>
+      <Point GraphRef="dc2ec"/>
+      <Point GraphRef="ce063" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c87bb">
+    <Graphics>
+      <Point GraphRef="ce063"/>
+      <Point GraphRef="c11de" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b093a">
+    <Graphics>
+      <Point GraphRef="a65cd"/>
+      <Point GraphRef="cd179" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a67f6">
+    <Graphics>
+      <Point GraphRef="c6e15"/>
+      <Point GraphRef="d0bcb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b9270">
+    <Graphics>
+      <Point GraphRef="b17d5"/>
+      <Point GraphRef="bdc90" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a951c">
+    <Graphics>
+      <Point GraphRef="dd70f"/>
+      <Point GraphRef="c6e15" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c0bb6">
+    <Graphics>
+      <Point GraphRef="dc2ec"/>
+      <Point GraphRef="d485e" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e464f">
+    <Graphics>
+      <Point GraphRef="af896"/>
+      <Point GraphRef="fbddb" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e8efc">
+    <Graphics>
+      <Point GraphRef="f411a"/>
+      <Point GraphRef="e5685" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c7032">
+    <Graphics>
+      <Point GraphRef="e5685"/>
+      <Point GraphRef="fa732" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d54b9">
+    <Graphics>
+      <Point GraphRef="bfaa3"/>
+      <Point GraphRef="af896" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d5b5f">
+    <BiopaxRef>e84</BiopaxRef>
+    <BiopaxRef>d18</BiopaxRef>
+    <BiopaxRef>ba2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cf198"/>
+      <Point GraphRef="c9a67" ArrowHead="mim-binding"/>
+      <Anchor Position="0.6638624387538133" Shape="None" GraphId="cb169"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c7e95">
+    <BiopaxRef>e84</BiopaxRef>
+    <BiopaxRef>d18</BiopaxRef>
+    <BiopaxRef>ba2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a103d"/>
+      <Point GraphRef="cb169" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ee670">
+    <BiopaxRef>d18</BiopaxRef>
+    <BiopaxRef>ba2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a7082"/>
+      <Point GraphRef="b3aa0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6153">
+    <Graphics>
+      <Point GraphRef="a223c"/>
+      <Point GraphRef="c069d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="af5ff">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bfaa3"/>
+      <Point GraphRef="cf198" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b4b03">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="dbb34"/>
+      <Point GraphRef="ab5e1" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bad2e">
+    <Comment>"[...]In most patient, the E2 subunit could be responsible for the "classic metabolic" presentation of 2-oxoglutaric aciduria" [Chapter 20, book of Blau]</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="aa7c3"/>
+      <Point GraphRef="ab5e1" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ce660">
+    <Comment>Clinically recognisable form of:
+deafness, onycho-osteodystrophy,
+thumbs and sensorineural deafness,
+is related to defect of E1 subunit.</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="eb774"/>
+      <Point GraphRef="a6107" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dfb53">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f66a1"/>
+      <Point GraphRef="ba8f7" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c67a2">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ab5e1"/>
+      <Point GraphRef="da7d0" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c57d3">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="a1146"/>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="beac4">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="ea00e" ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d699a">
+    <Comment>Encephalopathic form is related 
+to E2 subunit deficiency</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="cdbcc"/>
+      <Point GraphRef="da7d0" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cb1eb">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f901c"/>
+      <Point GraphRef="d933a" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="df641">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point GraphRef="b6487" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a7c6a">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d8c56"/>
+      <Point GraphRef="cdef3" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Complex formation of &#10;SCS with NDPK &#10;is inprotant for &#10;deoxyribonucleotide salvation, &#10;which is needed for mtDNA &#10;synthesis and integrity." GraphId="eb7d9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Relevant metabolic pathways,&#10;illustrating the metabolic &#10;effects of succinyl-CoA &#10;sythethase deficiency" GraphId="fccbe">
+    <Graphics FillColor="ccffcc" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="2-oxoglutaric aciduria" GraphId="ab5e1" Href="http://omim.org/2030740">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="In most patient, E2 subunit seems &#10;responsible for &quot;classic metabolic&quot; &#10;presentation of disease" GraphId="a8a68">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Encephalopathic form is related &#10;to E2 subunit deficiency" GraphId="b8036">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="2-oxoglutaric aciduria:&#10;encephalopathic form" GraphId="da7d0" Href="http://omim.org/2030740">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="2-oxoglutaric aciduria:&#10;'DOOR syndrome&quot;" GraphId="a6107" Href="http://omim.org/2030740">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Clinically recognisable form of:&#10;deafness, onycho-osteodystrophy,&#10;thumbs and sensorineural deafness,&#10;is related to defect of E1 subunit." GraphId="eb160">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Fumarase &#10;deficiency" GraphId="ba8f7" Href="http://omim.org/136850">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="SCS &#10;deficiency&#10;SUCLA2" GraphId="b6487" Href="http://omim.org/612073">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="SCS &#10;deficiency&#10;SUCLG1" GraphId="d933a" Href="http://omim.org/245400">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Group GroupId="c285b" GraphId="a2962" Style="Complex"/>
+  <Group GroupId="bb6ec" GraphId="a7082" Style="Complex"/>
+  <Group GroupId="c708b" GraphId="b8f8a" Style="Complex"/>
+  <Group GroupId="a92f4" GraphId="bafa6" Style="Complex"/>
+  <Group GroupId="e0d59" GraphId="bfaa3" Style="Complex"/>
+  <Group GroupId="ed0fa" GraphId="c9a67" Style="Complex"/>
+  <Group GroupId="f57f0" GraphId="cdef3" Style="Complex"/>
+  <Group GroupId="edcb9" GraphId="cf198" Style="Complex"/>
+  <Group GroupId="ad85d" GraphId="d8c56" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >mitochondrial encephalomyopathy</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:890</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d18">
+      <bp:ID >8016083</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Characterization of nucleoside-diphosphate kinase from Pseudomonas aeruginosa: complex formation with succinyl-CoA synthetase.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >1994</bp:YEAR>
+      <bp:AUTHORS >Kavanaugh-Black A</bp:AUTHORS>
+      <bp:AUTHORS >Connolly DM</bp:AUTHORS>
+      <bp:AUTHORS >Chugani SA</bp:AUTHORS>
+      <bp:AUTHORS >Chakrabarty AM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e84">
+      <bp:ID >1653609</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Apparent ATP-linked succinate thiokinase activity and its relation to nucleoside diphosphate kinase in mitochondrial matrix preparations from rabbit.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR >1991</bp:YEAR>
+      <bp:AUTHORS >Kadrmas EF</bp:AUTHORS>
+      <bp:AUTHORS >Ray PD</bp:AUTHORS>
+      <bp:AUTHORS >Lambeth DO</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a65">
+      <bp:ID >9783642403361</bp:ID>
+      <bp:DB >ISBN</bp:DB>
+      <bp:TITLE >Physician's Guide to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases</bp:TITLE>
+      <bp:SOURCE >Springer-Verlag Berlin Heidelberg</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Nenad Blau</bp:AUTHORS>
+      <bp:AUTHORS >Marinus Duran</bp:AUTHORS>
+      <bp:AUTHORS >K Michael Gibson</bp:AUTHORS>
+      <bp:AUTHORS >Carlo Dionisi-Vici.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba2">
+      <bp:ID >11831846</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Localization and characterization of the mitochondrial isoform of the nucleoside diphosphate kinase in the pancreatic beta cell: evidence for its complexation with mitochondrial succinyl-CoA synthetase.</bp:TITLE>
+      <bp:SOURCE >Arch Biochem Biophys</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Kowluru A</bp:AUTHORS>
+      <bp:AUTHORS >Tannous M</bp:AUTHORS>
+      <bp:AUTHORS >Chen HQ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >citric acid cycle pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000026</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >methylmalonic acidemia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:14749</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >fumaric aciduria pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0002098</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Genes controlling nephrogenesis" Version="20200216" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Kidneys develop from intermediate mesoderm under the timed or sequential control of a growing number of genes. These genes have been identified at various stages of glomerulotubular development in the mammalian kidney. The genes listed have been tested in various genetically modified mice, and their location corresponds to the classical stages of kidney development postulated by Saxen in 1987.</Comment>
+  <BiopaxRef>d10</BiopaxRef>
+  <Graphics BoardWidth="1282.0" BoardHeight="700.5"/>
+  <DataNode TextLabel="ILK" GraphId="bc49e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ETV4" GraphId="bd0e0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SHH" GraphId="c05a2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GLI3" GraphId="c172e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LHX1" GraphId="e915b" Type="GeneProduct">
+    <Comment>formerly known as LIM-1, LIM1, LIM homeobox 1</Comment>
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="ec27f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HNF1B" GraphId="f4601" Type="GeneProduct">
+    <BiopaxRef>df8</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="EYA1" GraphId="fbd0d" Type="GeneProduct">
+    <BiopaxRef>d0d</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ITGB1" GraphId="b4a09" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ITGA3" GraphId="ed826" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LMX1B" GraphId="b7c6e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GDNF" GraphId="bc159" Type="GeneProduct" GroupRef="ce342">
+        </DataNode>
+  <DataNode TextLabel="CXCR4" GraphId="a6d8c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SIX1" GraphId="fadef" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FOXD1" GraphId="ffce7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PDGFB" GraphId="a52b9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HOXA11" GraphId="a18a3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CXCL12" GraphId="c41e3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="VEGFA" GraphId="a7c34" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="KIRREL1" GraphId="cd7c4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LAMB2" GraphId="f700c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="KDR" GraphId="e40a9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WT1" GraphId="cab8f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LHX1" GraphId="e2fe8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FOXC2" GraphId="bd3cf" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NCK1" GraphId="b60f9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ITGA8" GraphId="bbf4a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NPHS2" GraphId="db258" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NPHS1" GraphId="efe12" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FGF8" GraphId="e0252" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RET" GraphId="b7eca" Type="GeneProduct" GroupRef="ce342">
+        </DataNode>
+  <DataNode TextLabel="CD2AP" GraphId="b7577" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WNT4" GraphId="d35cb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ROBO2" GraphId="a4f97" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NCK2" GraphId="bb6c4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ITGB1" GraphId="b2189" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FOXC1" GraphId="b8e6c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NOTCH2" GraphId="a5d7c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TCF21" GraphId="f3625" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PDGFRB" GraphId="cb2b2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PAX2" GraphId="cc00e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CD36" GraphId="f9bd5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SLIT2" GraphId="f0fca" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EMX2" GraphId="fdacf" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FGFR2" GraphId="fb971" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HOXD11" GraphId="f4012" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HNF1B" GraphId="b42b8" Type="GeneProduct">
+    <BiopaxRef>df8</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="HNF1B" GraphId="c7ea0" Type="GeneProduct">
+    <BiopaxRef>df8</BiopaxRef>
+        </DataNode>
+  <Interaction GraphId="id306e1b02">
+    <Graphics>
+      <Point GraphRef="c05a2"/>
+      <Point GraphRef="c172e" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="dbcbe">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="regulation" GraphId="fb1cd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Ureteric bud induction" GraphId="ff60d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Pretubular &#10;aggregation" GraphId="bcf6f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Mature &#10;glomerulus" GraphId="e9dd1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Capillary&#10;loop" GraphId="f5ae6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="S-shape" GraphId="cf28e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nephrogenesis" GraphId="fafdf">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Comma-shape" GraphId="b92f8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Group GroupId="ce342" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="df8">
+      <bp:ID >20378641</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Spectrum of HNF1B mutations in a large cohort of patients who harbor renal diseases.</bp:TITLE>
+      <bp:SOURCE >Clin J Am Soc Nephrol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Heidet L</bp:AUTHORS>
+      <bp:AUTHORS >Decramer S</bp:AUTHORS>
+      <bp:AUTHORS >Pawtowski A</bp:AUTHORS>
+      <bp:AUTHORS >Morini&#232;re V</bp:AUTHORS>
+      <bp:AUTHORS >Bandin F</bp:AUTHORS>
+      <bp:AUTHORS >Knebelmann B</bp:AUTHORS>
+      <bp:AUTHORS >Lebre AS</bp:AUTHORS>
+      <bp:AUTHORS >Faguer S</bp:AUTHORS>
+      <bp:AUTHORS >Guigonis V</bp:AUTHORS>
+      <bp:AUTHORS >Antignac C</bp:AUTHORS>
+      <bp:AUTHORS >Salomon R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d10">
+      <bp:ID >978-1259644030</bp:ID>
+      <bp:DB >ISBN</bp:DB>
+      <bp:TITLE >Cellular and Molecular Biology of the Kidney. In: Jameson J, Fauci AS, Kasper DL, Hauser SL, Longo DL, Loscalzo J. eds. Harrison's Principles of Internal Medicine, 20e. McGraw-Hill</bp:TITLE>
+      <bp:SOURCE >https://accessmedicine.mhmedical.com/content.aspx?bookid=2129&amp;sectionid=181950772</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Jameson J</bp:AUTHORS>
+      <bp:AUTHORS >Fauci AS</bp:AUTHORS>	  
+      <bp:AUTHORS >Kasper DL</bp:AUTHORS>
+      <bp:AUTHORS >Hauser SL</bp:AUTHORS>
+      <bp:AUTHORS >Longo DL</bp:AUTHORS>
+      <bp:AUTHORS >Loscalzo J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d0d">
+      <bp:ID >9361030</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Clustering of mutations responsible for branchio-oto-renal (BOR) syndrome in the eyes absent homologous region (eyaHR) of EYA1.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Abdelhak S</bp:AUTHORS>
+      <bp:AUTHORS >Kalatzis V</bp:AUTHORS>
+      <bp:AUTHORS >Heilig R</bp:AUTHORS>
+      <bp:AUTHORS >Compain S</bp:AUTHORS>
+      <bp:AUTHORS >Samson D</bp:AUTHORS>
+      <bp:AUTHORS >Vincent C</bp:AUTHORS>
+      <bp:AUTHORS >Levi-Acobas F</bp:AUTHORS>
+      <bp:AUTHORS >Cruaud C</bp:AUTHORS>
+      <bp:AUTHORS >Le Merrer M</bp:AUTHORS>
+      <bp:AUTHORS >Mathieu M</bp:AUTHORS>
+      <bp:AUTHORS >K&#246;nig R</bp:AUTHORS>
+      <bp:AUTHORS >Vigneron J</bp:AUTHORS>
+      <bp:AUTHORS >Weissenbach J</bp:AUTHORS>
+      <bp:AUTHORS >Petit C</bp:AUTHORS>
+      <bp:AUTHORS >Weil D</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>CAKUT</bp:TERM><bp:ID>DOID:0080205</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

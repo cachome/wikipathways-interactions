@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="PCSK9-mediated LDL receptor degradation" Version="20140908" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Exogenously, circulating PCSK9 (Proprotein convertase subtilisin/kexin type 9) protein binds to LDLR (LDL receptor). Once internalized into the liver cell, the PCSK9 protein directs the LDLR to the lysosome for degradation. Intrinsically, PCSK9, which is secreted from the Golgi apparatus, binds the LDLR before it reaches the cell surface, leading it to lysosomal degradation. However, the precise mechanisms by which the intrinsic degradation pathway operates are still unknown. Abbreviations: LDLR, LDL receptor; PCSK9, proprotein convertase subtilisin/kexin type 9.</Comment>
+  <BiopaxRef>f3f</BiopaxRef>
+  <Graphics BoardWidth="894.22494375" BoardHeight="922.3507500000003"/>
+  <DataNode TextLabel="LDLR" GraphId="d07bd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PCSK9" GraphId="c1c0d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PCSK9" GraphId="bb755" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LDLR" GraphId="f3107" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LDLR" GraphId="f8f7d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LDLR" GraphId="d15a6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PCSK9" GraphId="ca036" Type="GeneProduct" GroupRef="a1c93">
+        </DataNode>
+  <DataNode TextLabel="LDLR" GraphId="d84b7" Type="GeneProduct" GroupRef="a1c93">
+        </DataNode>
+  <DataNode TextLabel="PCSK9" GraphId="f615d" Type="GeneProduct" GroupRef="e6953">
+        </DataNode>
+  <DataNode TextLabel="LDLR" GraphId="c93d4" Type="GeneProduct" GroupRef="e6953">
+        </DataNode>
+  <DataNode TextLabel="PCSK9" GraphId="c9e2f" Type="GeneProduct" GroupRef="c8f36">
+        </DataNode>
+  <DataNode TextLabel="LDLR" GraphId="d9dfd" Type="GeneProduct" GroupRef="c8f36">
+        </DataNode>
+  <DataNode TextLabel="PCSK9" GraphId="d6270" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LDLR" GraphId="dd5d0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LDLR" GraphId="ba665" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LDLR" GraphId="d5252" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id23f4c5bd">
+    <Graphics>
+      <Point GraphRef="f3107"/>
+      <Point GraphRef="d15a6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8a52bade">
+    <Graphics>
+      <Point GraphRef="d15a6"/>
+      <Point GraphRef="afe96" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id358430db">
+    <Graphics>
+      <Point GraphRef="bb755"/>
+      <Point GraphRef="afe96" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida5d1159e">
+    <Graphics>
+      <Point GraphRef="afe96"/>
+      <Point GraphRef="fa91e" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id91824619">
+    <Graphics>
+      <Point GraphRef="afd4f"/>
+      <Point GraphRef="a25fb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6f566d09">
+    <Graphics>
+      <Point GraphRef="da660"/>
+      <Point GraphRef="fa91e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb46cf816">
+    <Graphics>
+      <Point GraphRef="a9a38"/>
+      <Point GraphRef="fa91e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd67791b5">
+    <Graphics>
+      <Point GraphRef="bb755"/>
+      <Point GraphRef="d6270" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id99d51bc7">
+    <Graphics>
+      <Point GraphRef="d15a6"/>
+      <Point GraphRef="d07bd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4534dd2f">
+    <Graphics>
+      <Point GraphRef="ba665"/>
+      <Point GraphRef="d07bd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfe6a2ebb">
+    <Graphics>
+      <Point GraphRef="c1c0d"/>
+      <Point GraphRef="b0e63" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfe8e51d8">
+    <Graphics>
+      <Point GraphRef="b0e63"/>
+      <Point GraphRef="b3aa9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide27a0618">
+    <Graphics>
+      <Point GraphRef="f8f7d"/>
+      <Point GraphRef="dd5d0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf0398611">
+    <Graphics>
+      <Point GraphRef="dd5d0"/>
+      <Point GraphRef="ba665" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8116936d">
+    <Graphics>
+      <Point GraphRef="d5252"/>
+      <Point GraphRef="b0e63" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="fd3fd">
+    <Graphics Color="666666">
+      <Point GraphRef="c3b4d"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f7da4" GroupRef="c5b0d">
+    <Graphics Color="666666">
+      <Point GraphRef="c6ebc"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d1622">
+    <Graphics Color="666666">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="caa7a" GroupRef="f1ecc">
+    <Graphics Color="666666">
+      <Point GraphRef="ba6d9"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e7738" GroupRef="ad8be">
+    <Graphics Color="666666">
+      <Point GraphRef="fe1c4"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f2d5f">
+    <Graphics Color="666666">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ed8ff" GroupRef="b18db">
+    <Graphics Color="666666">
+      <Point GraphRef="c7f6a"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f5c63" GroupRef="d8996">
+    <Graphics Color="666666">
+      <Point GraphRef="efe9b"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f6aad" GroupRef="ab83a">
+    <Graphics Color="666666">
+      <Point GraphRef="f3316"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dd198" GroupRef="c68dc">
+    <Graphics Color="666666">
+      <Point GraphRef="bb915"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="be324" GroupRef="cf186">
+    <Graphics Color="666666">
+      <Point GraphRef="d881c"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fdc35" GroupRef="cd32c">
+    <Graphics Color="666666">
+      <Point GraphRef="aca11"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Golgi apparatus" GraphId="f1248">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="LDL particles" GraphId="afd4f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Endocytosis" GraphId="d8528">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Hepatocyte" GraphId="c770a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="LDL-receptor &#10;synthesis" GraphId="d779d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Lysosomal&#10;degradation" GraphId="ebcb8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Secretion" GraphId="eaa0d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="LDL-receptor &#10;recycling" GraphId="d724c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Endosome" GraphId="b91ec">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="fa91e">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="de5a3">
+    <Graphics ShapeType="Golgi Apparatus" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c3b4d">
+    <Graphics ShapeType="Arc" Color="666666"/>
+  </Shape>
+  <Shape GraphId="e1617">
+    <Graphics FillColor="999999" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="b25bd">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c6ebc" GroupRef="c5b0d">
+    <Graphics ShapeType="Arc" Color="666666"/>
+  </Shape>
+  <Shape GraphId="ff14b">
+    <Graphics ShapeType="Arc" Color="666666"/>
+  </Shape>
+  <Shape GraphId="c418a">
+    <Graphics FillColor="999999" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="d6fd4">
+    <Graphics FillColor="999999" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="f4243">
+    <Graphics FillColor="999999" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="e40d5">
+    <Graphics FillColor="999999" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="fa095">
+    <Graphics FillColor="999999" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="ba6d9" GroupRef="f1ecc">
+    <Graphics ShapeType="Arc" Color="666666"/>
+  </Shape>
+  <Shape GraphId="fe1c4" GroupRef="ad8be">
+    <Graphics ShapeType="Arc" Color="666666"/>
+  </Shape>
+  <Shape GraphId="a9a38">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c7f6a" GroupRef="b18db">
+    <Graphics ShapeType="Arc" Color="666666"/>
+  </Shape>
+  <Shape GraphId="a25fb" GroupRef="b18db">
+    <Graphics FillColor="cc9900" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="f4620">
+    <Graphics FillColor="cc9900" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="ffa6f">
+    <Graphics FillColor="cc9900" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="e4ecb">
+    <Graphics FillColor="cc9900" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="efe9b" GroupRef="d8996">
+    <Graphics ShapeType="Arc" Color="666666"/>
+  </Shape>
+  <Shape GraphId="a68f2" GroupRef="d8996">
+    <Graphics FillColor="cc9900" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="f3316" GroupRef="ab83a">
+    <Graphics ShapeType="Arc" Color="666666"/>
+  </Shape>
+  <Shape GraphId="d2608" GroupRef="ab83a">
+    <Graphics FillColor="999999" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="da660">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bb915" GroupRef="c68dc">
+    <Graphics ShapeType="Arc" Color="666666"/>
+  </Shape>
+  <Shape GraphId="b52c0" GroupRef="c68dc">
+    <Graphics FillColor="999999" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="a7736">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d881c" GroupRef="cf186">
+    <Graphics ShapeType="Arc" Color="666666"/>
+  </Shape>
+  <Shape GraphId="aca11" GroupRef="cd32c">
+    <Graphics ShapeType="Arc" Color="666666"/>
+  </Shape>
+  <Group GroupId="c5b0d" GraphId="e0706" Style="Group"/>
+  <Group GroupId="a1c93" GraphId="afe96" Style="Complex"/>
+  <Group GroupId="b18db" GraphId="edb9d" Style="Group"/>
+  <Group GroupId="ab83a" GraphId="c3c6c" Style="Group"/>
+  <Group GroupId="e6953" GraphId="b3aa9" Style="Complex"/>
+  <Group GroupId="c8f36" GraphId="b0e63" Style="Complex"/>
+  <Group GroupId="f1ecc" GraphId="d7201" Style="Group"/>
+  <Group GroupId="ad8be" GraphId="b5f6c" Style="Group"/>
+  <Group GroupId="eed11" GraphId="a9909" Style="Group"/>
+  <Group GroupId="d8996" GraphId="f804e" Style="Group"/>
+  <Group GroupId="da1d4" GraphId="af3d3" Style="Complex"/>
+  <Group GroupId="c68dc" GraphId="dced9" Style="Group"/>
+  <Group GroupId="e91fd" GraphId="bfb06" Style="Complex"/>
+  <Group GroupId="cf186" GraphId="ac4bd" Style="Group"/>
+  <Group GroupId="cd32c" GraphId="a2f6d" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f3f">
+      <bp:ID >21321561</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Pharmacological strategies for lowering LDL cholesterol: statins and beyond.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Cardiol</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Brautbar A</bp:AUTHORS>
+      <bp:AUTHORS >Ballantyne CM</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>lipoprotein metabolic pathway</bp:TERM><bp:ID>PW:0000482</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

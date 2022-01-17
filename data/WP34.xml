@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Ovarian infertility" Last-Modified="10/16/2013" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <Comment Source="WikiPathways-description">Ovarian bottleneck genes associated with infertility.
+A valuable approach to the study of infertility is the comparison of mutations of individual human and mouse genes associated with infertility phenotypes. The individual gene pages in the OKdb (Ovarian Kaleidoscope Database: http://ovary.stanford.edu) contain information on associated fertility phenotypes sorted by ovarian and nonovarian defects and by subfertility or infertility. If one searches for null mutations (under mutation type) causing infertility (infertile - ovarian defect, under female fertility status) in mice (under species), 44 gene entries are found. The expression of these infertility genes in the oocyte and granulosa cells together with their cellular localization is presented in Ovarian Infertility gene map. The theca cell genes are not presented because most publications emphasize granulosa cell studies.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP34 CPTAC Assay Portal]</Comment>
+  <Graphics BoardWidth="963.3333333333334" BoardHeight="494.0"/>
+  <DataNode TextLabel="BMPR1B" GraphId="c5e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PRLR" GraphId="cac" Type="GeneProduct" GroupRef="a81ce">
+        </DataNode>
+  <DataNode TextLabel="FSHR" GraphId="b78" Type="GeneProduct" GroupRef="a81ce">
+        </DataNode>
+  <DataNode TextLabel="LHCGR" GraphId="af1" Type="GeneProduct" GroupRef="a81ce">
+        </DataNode>
+  <DataNode TextLabel="ZP3" GraphId="a15" Type="GeneProduct" GroupRef="f8618">
+        </DataNode>
+  <DataNode TextLabel="ZP3" GraphId="b20" Type="GeneProduct" GroupRef="f8618">
+        </DataNode>
+  <DataNode TextLabel="FIGLA" GraphId="c01" Type="GeneProduct" GroupRef="ac8a0">
+        </DataNode>
+  <DataNode TextLabel="DMC1" GraphId="ea6" Type="GeneProduct" GroupRef="ac8a0">
+        </DataNode>
+  <DataNode TextLabel="ATM" GraphId="c6e" Type="GeneProduct" GroupRef="ac8a0">
+        </DataNode>
+  <DataNode TextLabel="MLH1" GraphId="a06" Type="GeneProduct" GroupRef="ac8a0">
+        </DataNode>
+  <DataNode TextLabel="MSH5" GraphId="b0d" Type="GeneProduct" GroupRef="ac8a0">
+        </DataNode>
+  <DataNode TextLabel="GDF9" GraphId="bb7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ZP2" GraphId="f9f" Type="GeneProduct" GroupRef="f8618">
+        </DataNode>
+  <DataNode TextLabel="SMPD1" GraphId="c56" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DAZL" GraphId="c21" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GJA4" GraphId="e42" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GJA4" GraphId="d32" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="INHA" GraphId="ed6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SMAD3" GraphId="caf" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PGR" GraphId="fc2" Type="GeneProduct" GroupRef="afae8">
+        </DataNode>
+  <DataNode TextLabel="ESR2" GraphId="bd3" Type="GeneProduct" GroupRef="afae8">
+        </DataNode>
+  <DataNode TextLabel="VDR" GraphId="e68" Type="GeneProduct" GroupRef="afae8">
+        </DataNode>
+  <DataNode TextLabel="NR5A1" GraphId="fa9" Type="GeneProduct" GroupRef="afae8">
+        </DataNode>
+  <DataNode TextLabel="TF2D" GraphId="bf8" Type="GeneProduct" GroupRef="afae8">
+        </DataNode>
+  <DataNode TextLabel="NCOR1" GraphId="fff" Type="GeneProduct" GroupRef="afae8">
+        </DataNode>
+  <DataNode TextLabel="NRIP1" GraphId="d93" Type="GeneProduct" GroupRef="afae8">
+        </DataNode>
+  <DataNode TextLabel="EGR1" GraphId="af4" Type="GeneProduct" GroupRef="afae8">
+        </DataNode>
+  <DataNode TextLabel="CEBPB" GraphId="c2b" Type="GeneProduct" GroupRef="afae8">
+        </DataNode>
+  <DataNode TextLabel="PTGER2" GraphId="ff1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CDKN1B" GraphId="e69" Type="GeneProduct" GroupRef="adf26">
+        </DataNode>
+  <DataNode TextLabel="CCND2" GraphId="f06" Type="GeneProduct" GroupRef="adf26">
+        </DataNode>
+  <DataNode TextLabel="CDK4" GraphId="a32" Type="GeneProduct" GroupRef="adf26">
+        </DataNode>
+  <DataNode TextLabel="SMPD1" GraphId="c54" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYP19A1" GraphId="b1a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SYNE2" GraphId="e9e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GDF9" GraphId="e567c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="INHA" GraphId="acbdd" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="be432">
+    <Graphics>
+      <Point GraphRef="e567c"/>
+      <Point GraphRef="bb7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="daa3a">
+    <Graphics>
+      <Point GraphRef="acbdd"/>
+      <Point GraphRef="ed6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aa5ac">
+    <Graphics>
+      <Point GraphRef="caf"/>
+      <Point GraphRef="d63d8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Granulosa Cell" GraphId="b51">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cytoplasm" GraphId="fd7">
+    <Graphics FillColor="ffffff" Color="999999"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="f8f">
+    <Graphics FillColor="ffffff" Color="999999"/>
+  </Label>
+  <Label TextLabel="Oocyte" GraphId="f00">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="dc7">
+    <Graphics FillColor="ffffff" Color="999999"/>
+  </Label>
+  <Label TextLabel="Ooplasm" GraphId="ec8">
+    <Graphics FillColor="ffffff" Color="999999"/>
+  </Label>
+  <Shape GraphId="c4e30">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f168a">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c1126">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="fe396">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="ac8a0" GraphId="f6e5f"/>
+  <Group GroupId="f8618" GraphId="c4727"/>
+  <Group GroupId="afae8" GraphId="d63d8"/>
+  <Group GroupId="adf26" GraphId="fb9d0"/>
+  <Group GroupId="a81ce" GraphId="e7c11"/>
+  <InfoBox/>
+  <Legend/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >oocyte</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000023</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >granulosa cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000501</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >infertility</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:5223</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>urogenital disease pathway</bp:TERM><bp:ID>PW:0001699</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

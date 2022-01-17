@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Bone morphogenic protein (BMP) signaling and regulation" Last-Modified="2/21/2013" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <Comment Source="WikiPathways-description">"BMP signals are mediated by type I and II BMP receptors and their downstream molecules Smad1, 5 and 8. Phosphorylated Smad1, 5 and 8 proteins form a complex with Smad4 and then are translocated into the nucleus where they interact with other transcription factors, such as Runx2 in osteoblasts." [http://www.ncbi.nlm.nih.gov/pubmed/15621726 (Chen 2004)].
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP1425 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>f9a</BiopaxRef>
+  <Graphics BoardWidth="676.0" BoardHeight="664.0"/>
+  <DataNode TextLabel="BMP2" GraphId="e2008" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BMPR2" GraphId="cfe05" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BMPR1A" GraphId="b66d6" Type="GeneProduct" GroupRef="fda35">
+        </DataNode>
+  <DataNode TextLabel="SMURF1" GraphId="ade09" Type="GeneProduct" GroupRef="f1da6">
+        </DataNode>
+  <DataNode TextLabel="SMAD6" GraphId="a18d8" Type="GeneProduct" GroupRef="f1da6">
+        </DataNode>
+  <DataNode TextLabel="SMAD1" GraphId="b6317" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SMURF1" GraphId="f6220" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TOB1" GraphId="b20a8" Type="GeneProduct" GroupRef="cf898">
+        </DataNode>
+  <DataNode TextLabel="SMAD1" GraphId="faf94" Type="GeneProduct" GroupRef="f5bda">
+        </DataNode>
+  <DataNode TextLabel="SMAD1" GraphId="e3e90" Type="GeneProduct" GroupRef="f5bda">
+        </DataNode>
+  <DataNode TextLabel="SMAD4" GraphId="d9194" Type="GeneProduct" GroupRef="f5bda">
+        </DataNode>
+  <DataNode TextLabel="SMURF1" GraphId="e7a65" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SMAD1" GraphId="e45fb" Type="GeneProduct" GroupRef="f7bf3">
+        </DataNode>
+  <DataNode TextLabel="RUNX2" GraphId="a052c" Type="GeneProduct" GroupRef="f7bf3">
+        </DataNode>
+  <DataNode TextLabel="SMURF1" GraphId="fad85" Type="GeneProduct" GroupRef="ce335">
+        </DataNode>
+  <DataNode TextLabel="SMAD6" GraphId="d6ace" Type="GeneProduct" GroupRef="ce335">
+        </DataNode>
+  <DataNode TextLabel="BMPR1B" GraphId="fb2c3" Type="GeneProduct" GroupRef="fda35">
+        </DataNode>
+  <DataNode TextLabel="TOB2" GraphId="e5831" Type="GeneProduct" GroupRef="cf898">
+        </DataNode>
+  <DataNode TextLabel="SMAD1" GraphId="c77da" Type="GeneProduct" GroupRef="fda35">
+        </DataNode>
+  <DataNode TextLabel="NOG" GraphId="cc9e5" Type="GeneProduct">
+        </DataNode>
+  <State GraphRef="c77da" TextLabel="" GraphId="c71d1">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="faf94" TextLabel="" GraphId="d5864">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e3e90" TextLabel="" GraphId="fe3b6">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e45fb" TextLabel="" GraphId="f24bf">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="e077e">
+    <Graphics>
+      <Point GraphRef="e2008"/>
+      <Point GraphRef="cfe05" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fc3a0">
+    <Graphics>
+      <Point GraphRef="e2008"/>
+      <Point GraphRef="b66d6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ca0f6">
+    <Graphics>
+      <Point GraphRef="f6220"/>
+      <Point GraphRef="b6317" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e10f7">
+    <Graphics>
+      <Point GraphRef="e7a65"/>
+      <Point GraphRef="a052c" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b66b9">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b2d62"/>
+      <Point GraphRef="f6220" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dd59d">
+    <Graphics>
+      <Point GraphRef="b6317"/>
+      <Point GraphRef="c77da" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dc5cd">
+    <Graphics>
+      <Point GraphRef="ad6b3"/>
+      <Point GraphRef="b5c25" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cabe8">
+    <Graphics>
+      <Point GraphRef="b8501"/>
+      <Point GraphRef="b6317" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c8938">
+    <Graphics>
+      <Point GraphRef="e3e90"/>
+      <Point GraphRef="e45fb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f11bb">
+    <Graphics>
+      <Point GraphRef="cc9e5"/>
+      <Point GraphRef="e2008" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b9257">
+    <Graphics>
+      <Point GraphRef="c77da"/>
+      <Point GraphRef="faf94" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="adcda">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b2d62"/>
+      <Point GraphRef="ad6b3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id72cd8318">
+    <Graphics>
+      <Point GraphRef="d80c7"/>
+      <Point GraphRef="df7af" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Cytoplasm&#10;" GraphId="ab01d">
+    <Graphics FillColor="ffffff" Color="999999"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="df93a">
+    <Graphics FillColor="ffffff" Color="999999"/>
+  </Label>
+  <Label TextLabel="Target &#10;genes" GraphId="df7af">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="OSE2 &#10;binding sites" GraphId="ca9f6">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Shape GraphId="d5e7b">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="be58c">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="ce335" GraphId="b2d62" Style="Complex"/>
+  <Group GroupId="f1da6" GraphId="ad6b3" Style="Complex"/>
+  <Group GroupId="f5bda" GraphId="a9b99" Style="Complex"/>
+  <Group GroupId="cf898" GraphId="b8501" Style="Group"/>
+  <Group GroupId="fda35" GraphId="b5c25" Style="Complex"/>
+  <Group GroupId="f7bf3" GraphId="d80c7" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >BMP signaling pathway </bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000330</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f9a">
+      <bp:ID >15621726</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Bone morphogenetic proteins.</bp:TITLE>
+      <bp:SOURCE >Growth Factors</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Chen D</bp:AUTHORS>
+      <bp:AUTHORS >Zhao M</bp:AUTHORS>
+      <bp:AUTHORS >Mundy GR</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

@@ -1,0 +1,4015 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Fragile X syndrome" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Fragile X syndrome (FXS) is a monogenetic disorder caused by a mutation in the FMR1 gene and the most common form of inherited intellectual disability and autism spectrum disorder (ASD). Patients with FXS show a range of typical physical features such as macro-orchidism in males, a long and narrow face, large and protruding ears, and hyperextensible joints. Common comorbidities of FXS are neuropsychiatric disorders such as hyperactivity, depression and anxiety. 
+The mutation of FMR1 in FXS disrupts production of the FMR1 gene product, the fragile mental retardation protein (FMRP). The main function of FMRP is to locally act as a translational repressor for target mRNAs and thereby regulate de novo protein synthesis and ultimately synaptic plasticity. FMRP, together with the mTOR pathway and the ERK pathway regulates expression of target mRNAsn mediated by stimulation of Group I metabotropic glutamate receptors (mGluR) and thereby regulate  &#945;-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor (AMPAR) internalisation and thus long term depression (LTD).  LTD is a form of synaptic plasticity which is involved in learning and memory. Lack of FMRP leads to exaggerated mGluR dependant LTD, which accounts for most of FXS pathogenesis. </Comment>
+  <Graphics BoardWidth="5231.347826086948" BoardHeight="2968.2470780738595"/>
+  <DataNode TextLabel="glutamate" GraphId="a2fd0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="KCND2" GraphId="a3c40" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="MMP9" GraphId="a9604" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="KCNC1" GraphId="ac5ae" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="CYFIP2" GraphId="ad39d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GABRD" GraphId="aefd4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GRM5" GraphId="b0473" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CNR1" GraphId="c324d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SRC" GraphId="daa4e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DUSP3" GraphId="db077" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="HOMER1" GraphId="ece9e" Type="GeneProduct">
+    <Comment>The short splice variant of Homer, Homer1a, competes with Homer 1 for the binding site on mGluR. In FXS mouse model, Homer1a has been shown to associate more with mGluR than Homer1, thereby it disrupts mGluR signalling and causes constitutive, agonist-independent activity of Group I mGluR. </Comment>
+    <BiopaxRef>fd2</BiopaxRef>
+    <Graphics Color="ff3300"/>
+    </DataNode>
+  <DataNode TextLabel="FYN" GraphId="f0fb0" Type="GeneProduct">
+    <Comment>Tyrosine-protein kinase Fyn (FYN) is a member of the Src family of tyrosine kinases which is involved in the regulation of brain function. </Comment>
+    <BiopaxRef>a79</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GRIN2A" GraphId="f5ca1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EEF1A1" GraphId="f6832" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="GRIN2A" GraphId="f71d3" Type="GeneProduct">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="HCN1" GraphId="f8758" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="EPS8L1" GraphId="fcd81" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="BDNF-TrkB Signalling" GraphId="fda63" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="ABAT" GraphId="d7a44" Type="GeneProduct">
+    <Comment>4-aminobutyrate aminotransferase (ABAT) is involved in GABA catabolism. </Comment>
+    <BiopaxRef>dda</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PI3K-Akt-mTOR &#10;Pathway&#10;" GraphId="b7759" Type="Pathway">
+    <Comment>Activation of mTOR pathway is required for mGlur-LTD. mTOR activation is believed to sustain the increase in overall rate of mRNA translation at the synapse. </Comment>
+    <BiopaxRef>f8b</BiopaxRef>
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="CAMKIV-CREB Pathway" GraphId="b8d60" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="glutamate" GraphId="fe5c4" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="BDNF" GraphId="cf9d9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AP2A1" GraphId="e95af" Type="GeneProduct" GroupRef="e75aa">
+        </DataNode>
+  <DataNode TextLabel="PLCB1" GraphId="d36bc" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GAD1" GraphId="a824e" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="cAMP" GraphId="fd5c1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CLTCL1" GraphId="bd259" Type="GeneProduct" GroupRef="e4320">
+        </DataNode>
+  <DataNode TextLabel="PPP3CA" GraphId="b531b" Type="GeneProduct">
+    <Comment>Calcineurin</Comment>
+        </DataNode>
+  <DataNode TextLabel="GRIP2" GraphId="f03e0" Type="GeneProduct" GroupRef="f8b08">
+    <Comment>Glutamate receptor-interacting protein 2 (GRIP2) also called AMPAR binding protein (ABP) interacts with GRIP1 to regulate AMPAR trafficking</Comment>
+        </DataNode>
+  <DataNode TextLabel="CREB1" GraphId="d3036" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DLG4" GraphId="b4869" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DLG4" GraphId="b0e44" Type="GeneProduct">
+    <Comment>postsynaptic density protein 95 (PSD-95 also known as SAP-90, encoded by the gene DLG4) is a PSD scaffolding protein, located at synapses, which is involved in the modulation of AMPAR ineternalization, stabilization of dendritic spines and synaptic strength. Translation of PSD-95 is negatively regulated by FMRP and miR-125a and positively regulated by mGluR activation. PSD-95 anchors synaptic proteins at the membrane and thus plays a cruicial role in synaptic plasticity and NMDAR-dependant LTP. In that sense, PSD-95 has a binary role, it serves as a structural scaffold which anchors AMPARs at the synapse. It also acts as a signalling scaffold required for LTD. </Comment>
+    <BiopaxRef>de1</BiopaxRef>
+    <BiopaxRef>f91</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="SLC6A1" GraphId="a14d7" Type="GeneProduct">
+    <Comment>Sodium- and chloride-dependent GABA transporter 1 (SLC6A1 or GAT-1)  has a function in GABA reuptake in the cortex, cerebellum and the whole forebrain. GAT-1 ends GABA action by removing GABA from the synaptic cleft and restoring it to presynaptic terminals.</Comment>
+    <BiopaxRef>e3a</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PRKCA" GraphId="a5ba0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GAD1" GraphId="eec3b" Type="GeneProduct">
+    <Comment>Glutamate decarboxylase 1 (GAD1) encoded an enzyme (glutamic acid decarboxylase) that has a role in &#947;-aminobutyric acid (GABA) synthesis. The enzyme catalyzes the production of GABA from L-glutamic acid. </Comment>
+    <BiopaxRef>dc9</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PRKACA" GraphId="f560d" Type="GeneProduct" GroupRef="ceedf">
+        </DataNode>
+  <DataNode TextLabel="MEK-ERK-Mnk1 Pathway" GraphId="c93d5" Type="Pathway">
+    <Comment>Activation of ERK pathway is required for mGlur-LTD. ERK activation is thought to control the activation of specific mRNAs such as the LTD proteins. </Comment>
+    <BiopaxRef>f8b</BiopaxRef>
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="EIF4G1" GraphId="f0ce6" Type="GeneProduct" GroupRef="acd3f">
+        </DataNode>
+  <DataNode TextLabel="ALDH5A1" GraphId="e91f9" Type="GeneProduct">
+    <Comment>aldehyde dehydrogenase 5 family member A1 (ALDHA1) and encodes encodes a mitochondrial NAD(+)-dependent succinic semialdehyde dehydrogenaseis that is involved in the catalysis of GABA.</Comment>
+    <BiopaxRef>def</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="&#947;-aminobutyric acid" GraphId="fb109" Type="Metabolite">
+    <Comment>&#947;-aminobutyric acid (GABA) is the major inhibitory neurotransmitter in the central nervous system. </Comment>
+    <BiopaxRef>f8c</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SHC1" GraphId="e3d66" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GRIA1" GraphId="cb3ca" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="CLTC" GraphId="cff0b" Type="GeneProduct" GroupRef="e4320">
+        </DataNode>
+  <DataNode TextLabel="AP2B1" GraphId="b60a8" Type="GeneProduct" GroupRef="e75aa">
+        </DataNode>
+  <DataNode TextLabel="CPT1A" GraphId="db8ff" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="PRKACA" GraphId="cef38" Type="GeneProduct" GroupRef="ceedf">
+    <Comment>Exact subunits which make up PKA in thus pathway could not be found. PKA is made up of 2 regulary subunits and 2 catalytic subunits. Because no information on the composition of subunits in this case could have been found, subunits A have been used for regulatory and catalytic parts of PKA. </Comment>
+        </DataNode>
+  <DataNode TextLabel="PIP2" GraphId="dfc5c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PTPN5" GraphId="cd7a0" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="GRB2" GraphId="a364c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CLTB" GraphId="e5ee5" Type="GeneProduct" GroupRef="e4320">
+        </DataNode>
+  <DataNode TextLabel="GPHN" GraphId="e8fca" Type="GeneProduct">
+    <Comment>Gephyrin is involved in GABA receptor clustering in the cortex. Gephyrin is a neuronal assembly protein that anchors inhibitory neurotransmitter receptors, such as GABA receptors, to the postsynaptic cytoskeleton. </Comment>
+    <BiopaxRef>e30</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GRIP1" GraphId="b3e2b" Type="GeneProduct" GroupRef="f8b08">
+    <Comment>   </Comment>
+        </DataNode>
+  <DataNode TextLabel="DLG4" GraphId="b6e01" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GRIA2" GraphId="c405a" Type="GeneProduct" GroupRef="b28cc">
+        </DataNode>
+  <DataNode TextLabel="APP" GraphId="f9760" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="miR-125b&#10;" GraphId="e2bb4" Type="Rna" GroupRef="bb884">
+    <Graphics Color="660066"/>
+    </DataNode>
+  <DataNode TextLabel="CAMK4" GraphId="f9f8c" Type="GeneProduct">
+    <Comment>CAMK4 or CAMKIV</Comment>
+        </DataNode>
+  <DataNode TextLabel="CREB1" GraphId="bf607" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PTPN11" GraphId="b64db" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GRIA1" GraphId="fdf19" Type="GeneProduct" GroupRef="b28cc">
+        </DataNode>
+  <DataNode TextLabel="AP2S1" GraphId="b236e" Type="GeneProduct" GroupRef="e75aa">
+        </DataNode>
+  <DataNode TextLabel="AGO2" GraphId="c16d9" Type="GeneProduct" GroupRef="bb884">
+        </DataNode>
+  <DataNode TextLabel="AKAP5" GraphId="e9258" Type="GeneProduct">
+    <Comment>A-kinase anchor protein 5 (AKAP5) anchors protein kinase A (PKA) at the PSD by directly interacting with PSD-95. This interaction is important for NMDAR-dependant AMPAR endocytosis and LTD. </Comment>
+    <BiopaxRef>b64</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GABRG2" GraphId="ccf74" Type="GeneProduct">
+    <Comment>GABA rceeptor subunit &#947;</Comment>
+        </DataNode>
+  <DataNode TextLabel="CAMK1" GraphId="a4e3c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ARHGAP32" GraphId="b5824" Type="GeneProduct">
+    <Comment>Rho GTPase activating protein 32 (ARHGAP32) is a neuron-associated GAP that may regulate dendritic spine morphology and strength through modulation of Rho GTPase activity. </Comment>
+    <BiopaxRef>e12</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GAB1" GraphId="b023c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GABRA1" GraphId="f0e0d" Type="GeneProduct">
+    <Comment>GABA receptor subunit &#945;</Comment>
+        </DataNode>
+  <DataNode TextLabel="PTPN5" GraphId="dc475" Type="GeneProduct">
+    <Comment>Tyrosine-protein phosphatase non-receptor type 5 (STEP) is involves to regulate AMPAR trafficking and negatively regulates AMPAR surface expression thereby contributing to mGluR-LTD. STEP promotes LTD by stimulating synaptic weakening by dephosphorylation of ERK1/2 and subunits of NDMA and AMPA receptors. STEP has been shown to promote NMDA internalization. </Comment>
+    <BiopaxRef>f94</BiopaxRef>
+    <BiopaxRef>cf2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Dynamin-1" GraphId="c5ce3" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="DICER1" GraphId="b3e88" Type="GeneProduct">
+    <Comment>DICER, is an endonuclease, which cleaves double stranded RNA (dsRNA) into short single stranded RNA called miRNA and tehreby faciliates the activation of RISC</Comment>
+    <BiopaxRef>ce2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="AP2M1" GraphId="cbb2a" Type="GeneProduct" GroupRef="e75aa">
+        </DataNode>
+  <DataNode TextLabel="PICK1" GraphId="c3764" Type="GeneProduct">
+    <Comment>Protein Interacting with Kinase C 1 (PICK1)  </Comment>
+        </DataNode>
+  <DataNode TextLabel="DAG1" GraphId="c3f9f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GRIN2B" GraphId="b91f7" Type="GeneProduct">
+    <Comment>N-methyl-D-aspartate (NMDA)-type glutamate receptors (NMDAR) are ionotropic receptors activated by glutamate. NMDAR activation allows Ca2+ influx leading to NMDAR-dependant LTP and LTD. NMDA receptors contribute to dendritic structure and thus, can have impact on neuronal firing. </Comment>
+    <BiopaxRef>bfd</BiopaxRef>
+    <BiopaxRef>b4e</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GABRB2" GraphId="f0c60" Type="GeneProduct">
+    <Comment>GABA receptor subunit &#946;</Comment>
+        </DataNode>
+  <DataNode TextLabel="endocannabinoids" GraphId="d7fc2" Type="Metabolite">
+    <Comment/>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NTRK2" GraphId="e58ce" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SLC16A1" GraphId="d055a" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="CLTA" GraphId="e0616" Type="GeneProduct" GroupRef="e4320">
+        </DataNode>
+  <DataNode TextLabel="GRIA2" GraphId="f5337" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="SYNGAP1" GraphId="a7faf" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ITPR1" GraphId="b70e9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PPP1CA" GraphId="b56c5" Type="GeneProduct">
+    <Comment>PP1 had 4 isomforms, however, in this pathway, only one (gene PPP1CA) has been used since literature did not specify which isoform is involved in this specific case. </Comment>
+    <BiopaxRef>d04</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PLCG1" GraphId="cd617" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CAMK2B" GraphId="df13f" Type="GeneProduct">
+    <Comment>CAMKII catalyzes the phosphorylation of AMPAR an</Comment>
+        </DataNode>
+  <DataNode TextLabel="SHANK1" GraphId="e5fba" Type="GeneProduct">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="DLG4" GraphId="a8467" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="DLGAP3" GraphId="fe57b" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="MAP2K2" GraphId="a4e5a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FMR1" GraphId="a3823" Type="GeneProduct">
+    <Comment>FMR1 gene product, called fragile mental retardation protein (FMRP) is a major regulator of mGluR-dependant protein synthesis and synaptic plasticity in hippocampus and cerebellum. It functions as a translational regulator of certain target mRNAs, is involved in denrite and axon developent as well as in learning and memory. </Comment>
+    <BiopaxRef>f94</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MAP1B" GraphId="c2bc4" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="ARC" GraphId="a8263" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="MKNK1" GraphId="e1da2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RPS6KB1" GraphId="f9577" Type="GeneProduct">
+    <Graphics FillColor="Transparent"/>
+    </DataNode>
+  <DataNode TextLabel="MAP1B" GraphId="b4ed7" Type="GeneProduct">
+    <Comment>Microtubule-associated protein 1B (MAP1B) is involved in mcirotubule assembly and neurogenesis. MAP1b is involved in the regulation of the morphology of dendritic spines in glutamatergic synapses. Furthermore, MAP1b is a negative regulator of AMPAR surface expression thereby contributing to mGluR-LTD. </Comment>
+    <BiopaxRef>f94</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MAPK1" GraphId="f401e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="KRAS" GraphId="b2983" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYFIP1" GraphId="bfc13" Type="GeneProduct">
+    <Comment>CYFIP1 interacts with FMRP and with translation initiation factor eIF4E</Comment>
+    <BiopaxRef>e9d</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="AKT1S1" GraphId="ddce6" Type="GeneProduct" GroupRef="a806b">
+        </DataNode>
+  <DataNode TextLabel="ARC" GraphId="c167f" Type="GeneProduct">
+    <Comment>Activity-regulated cytoskeleton-associated protein (ARC) is a key regulator of synaptic plasticity. It is required for protein synthesis-dependent LTP and LTD as well as  for the formation of long-term memory. ARC regulates synaptic plasticity by promoting endocytosis of AMPA receptors AMPAR and thus, LTD. </Comment>
+    <BiopaxRef>dfe</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MAP2K1" GraphId="d78b2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CAMK2A" GraphId="f473b" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="SOS1" GraphId="b6067" Type="GeneProduct">
+    <Comment>SOS, a guanine-associated echange factor (GEF), activates Ras by inducing the exchange of GTDP by GTP. This positively regulates Ras signalling.</Comment>
+    <BiopaxRef>ac2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PPP2R5B" GraphId="c4c61" Type="GeneProduct">
+    <Graphics FillColor="Transparent"/>
+    </DataNode>
+  <DataNode TextLabel="EIF4EBP2" GraphId="eee9f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RAF1" GraphId="de858" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NF1" GraphId="a5d72" Type="GeneProduct">
+    <Comment>NF1 functions as a guanine exchange factors (GEF), stimulating the conversion of GTP-bound RAS into GDP-bound RAS and tehreby negatively regulating the MEK-ERK-Mnk1 pathway.</Comment>
+    <BiopaxRef>db1</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="EIF4E" GraphId="b1db8" Type="GeneProduct" GroupRef="acd3f">
+        </DataNode>
+  <DataNode TextLabel="CAMK2A" GraphId="ee5c2" Type="GeneProduct">
+    <Comment>calcium/calmodulin dependent protein kinase II alpha (CAMKII&#945;) is expressed at synapses where its translation is negatively regulated by FMRP. CAMKII&#945; is a key determinant for AMPAR internalization and thus LTD. The protein kinase mediates AMPAR internalization through phosphorylation of AMPAR subunits. CAMKII&#945; is involved in synaptic plasticity, neurotransmitter release and LTP. </Comment>
+    <BiopaxRef>afd</BiopaxRef>
+    <BiopaxRef>c33</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="FMR1" GraphId="b1f46" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DEPTOR" GraphId="e9825" Type="GeneProduct" GroupRef="a806b">
+        </DataNode>
+  <DataNode TextLabel="TELO2" GraphId="cdae6" Type="GeneProduct" GroupRef="a806b">
+        </DataNode>
+  <DataNode TextLabel="RPTOR" GraphId="c5110" Type="GeneProduct" GroupRef="a806b">
+        </DataNode>
+  <DataNode TextLabel="MLST8" GraphId="f97de" Type="GeneProduct" GroupRef="a806b">
+        </DataNode>
+  <DataNode TextLabel="MTOR" GraphId="b8297" Type="GeneProduct" GroupRef="a806b">
+        </DataNode>
+  <DataNode TextLabel="PIK3CB" GraphId="b3ff7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TTI1" GraphId="e9636" Type="GeneProduct" GroupRef="a806b">
+        </DataNode>
+  <DataNode TextLabel="GRM5" GraphId="d0cd1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RHEB" GraphId="f3077" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HOMER1" GraphId="ac4db" Type="GeneProduct">
+    <Comment>Long homer variant</Comment>
+        </DataNode>
+  <DataNode TextLabel="GRM1" GraphId="b5ca7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PDK1" GraphId="ddab0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AGAP2" GraphId="c9e48" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PIP2" GraphId="cd6ac" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PTEN" GraphId="b8ad4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TSC1" GraphId="e9609" Type="GeneProduct" GroupRef="bc2f4">
+        </DataNode>
+  <DataNode TextLabel="AKT1" GraphId="aaa9b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PIP3" GraphId="c42c7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TSC2" GraphId="f7bf9" Type="GeneProduct" GroupRef="bc2f4">
+        </DataNode>
+  <DataNode TextLabel="TBC1D7" GraphId="fb6ee" Type="GeneProduct" GroupRef="bc2f4">
+        </DataNode>
+  <DataNode TextLabel="RHEB" GraphId="d6ade" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="KRAS" GraphId="ba06e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DLGAP3" GraphId="bb595" Type="GeneProduct">
+    <Comment>SAP90/PSD-95-associated protein 3 (SAPAP3) plays a role in the organization of synapses and neuronal cell signaling and is negatively regulated by FMRP. SAPAP3 is a postsynaptic scaffolding protein which is associated with PSD-95 and localized in dendrites. SAPAP3 plays an improtant role in maturation of synapses</Comment>
+    <BiopaxRef>d39</BiopaxRef>
+    <BiopaxRef>d51</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="SHANK1" GraphId="ceef6" Type="GeneProduct">
+    <Comment>Shank,  an adapter protein in the PSD of excitatory synapses, is necessary for the structural and functional integrity of dendritic spines and synaptic junction.</Comment>
+    <BiopaxRef>ee2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GRIN2B" GraphId="eba48" Type="GeneProduct">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="GRIN2B" GraphId="f052f" Type="GeneProduct">
+    <Comment>Glutamate receptor ionotropic, NMDA 2B (GluN2B) is a subunit of the NMDAR receptor which is negatively regulated by FMRP. </Comment>
+    <BiopaxRef>c0d</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GABRA1" GraphId="c8c69" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="GABRB2" GraphId="d08d6" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="GABRG2" GraphId="bc2be" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="GPHN" GraphId="a327a" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="SLC6A1" GraphId="fd84a" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="ABAT" GraphId="a279d" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="ALDH5A1" GraphId="c82be" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="ALDH3A2" GraphId="d27f0" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="ABCD3" GraphId="fc054" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="TECR" GraphId="d9f72" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="CPT1A" GraphId="df0e6" Type="GeneProduct">
+    <Comment>CPT1A encodes the hepatic enzyme carnitine palmitoyltransferase 1A. The enzyme is responsible for fatty acid oxidation within the mitochondria, it connects carnitine to long-chain fatty acids thereby enabling the crossing of the fatty acid into the inner membrane of mitochondria. FMRP negatively regulates CPT1A and thus lipid metabolism. </Comment>
+    <BiopaxRef>f34</BiopaxRef>
+    <BiopaxRef>b22</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="SLC16A1" GraphId="cd09d" Type="GeneProduct">
+    <Comment>Monocarboxylate transporter 1 (MCT1) is a proton coupled monocarboxylate transporter which function is to catalyse the rapid transport of many monocarboxylates across the plasma membrane.</Comment>
+    <BiopaxRef>f34</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ALDH3A2" GraphId="a70a9" Type="GeneProduct">
+    <Comment>Fatty aldehyde dehydrogenase (ALDH3A2) catalyzes the oxidation of long-chain aliphatic aldehydes to fatty acids. ALDH3A2 has shown to be essential for the detoxification of aldehydes generated by alcohol metabolism and lipid peroxidation.</Comment>
+    <BiopaxRef>eb2</BiopaxRef>
+    <BiopaxRef>f34</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ABCD3" GraphId="e3430" Type="GeneProduct">
+    <Comment>ABCD3, a peroxisomal membrane protein, is involved in the  transport of branched chain acyl-CoA into peroxisomes. ABCD3 is a fatty acid (FA) transporter protein. </Comment>
+    <BiopaxRef>e4c</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TECR" GraphId="a0794" Type="GeneProduct">
+    <Comment>Very-long-chain enoyl-CoA reductase (TECR) is responsible to catalyze the last of the four reactions of the long-chain fatty acids elongation cycle. </Comment>
+    <BiopaxRef>edd</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PRKAR1A" GraphId="eebfb" Type="GeneProduct" GroupRef="ceedf">
+        </DataNode>
+  <DataNode TextLabel="PRKAR1A" GraphId="a45ab" Type="GeneProduct" GroupRef="ceedf">
+        </DataNode>
+  <DataNode TextLabel="FMR1" GraphId="acdc1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GRIA1" GraphId="fe447" Type="GeneProduct" GroupRef="fbce9">
+        </DataNode>
+  <DataNode TextLabel="GRIA2" GraphId="e48af" Type="GeneProduct" GroupRef="fbce9">
+        </DataNode>
+  <DataNode TextLabel="GRIA2" GraphId="a13bb" Type="GeneProduct" GroupRef="abd19">
+        </DataNode>
+  <DataNode TextLabel="GRIA1" GraphId="e9e88" Type="GeneProduct" GroupRef="abd19">
+    <Comment>&#945;-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptors (AMPAR) are ionotropic glutamate transmembrane receptors that mediate the majority of fast excitatory transmission in the central nervous system (CNS). </Comment>
+    <BiopaxRef>b64</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GRIA1" GraphId="ea469" Type="GeneProduct">
+    <Comment>AMPAR subunit GuA1</Comment>
+        </DataNode>
+  <DataNode TextLabel="GRIA2" GraphId="c5c19" Type="GeneProduct">
+    <Comment>AMPAR subunit GluA2</Comment>
+        </DataNode>
+  <DataNode TextLabel="miR-132&#10;" GraphId="df321" Type="Rna" GroupRef="bb884">
+    <Graphics Color="660066"/>
+    </DataNode>
+  <DataNode TextLabel="miR-196a&#10;&#10;" GraphId="af977" Type="Rna" GroupRef="bb884">
+    <Graphics Color="660066"/>
+    </DataNode>
+  <DataNode TextLabel="SH3GL1" GraphId="c757d" Type="GeneProduct">
+    <Comment>Endophoilin 2</Comment>
+        </DataNode>
+  <DataNode TextLabel="DNM2" GraphId="b1b97" Type="GeneProduct">
+    <Comment>Dynamin is a large GTPase modulating release of endosomes from the membrane by pinching off and fissioning the membrane. 
+</Comment>
+    <BiopaxRef>b65</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="EIF4A1" GraphId="a0ff1" Type="GeneProduct" GroupRef="acd3f">
+        </DataNode>
+  <DataNode TextLabel="TARBP2" GraphId="e0005" Type="GeneProduct" GroupRef="bb884">
+        </DataNode>
+  <DataNode TextLabel="EIF4EBP2" GraphId="dcf1f" Type="GeneProduct">
+    <Comment>Phosphorylated 4E-BP cannot bind to eIF4E anymore, this means that its inhibitory effect on translation is repressed</Comment>
+    <BiopaxRef>eb4</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MECP2" GraphId="a10ba" Type="GeneProduct">
+    <Comment>Methyl-CpG-binding protein 2 (MECP2) is a nuclear protein that is capable of binding to methylated DNA. It is essential for nerve cell functionality. </Comment>
+    <BiopaxRef>d33</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="EPHA4" GraphId="c6308" Type="GeneProduct">
+    <Comment>Ephrin type-A receptor 4 (EPHA4) is a receptor tyrosine kinase binding tp ephrin ligands. EPHA4 is has a function in the development of the nervous system. </Comment>
+    <BiopaxRef>a10</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GRIN2A" GraphId="e7257" Type="GeneProduct">
+    <Comment>NMDA receptor subunit 2 A</Comment>
+        </DataNode>
+  <DataNode TextLabel="CDKN2A" GraphId="c72d1" Type="GeneProduct">
+    <Comment>Cyclin-dependent kinase inhibitor 2A (CDKC2A) 
+</Comment>
+        </DataNode>
+  <DataNode TextLabel="HOXB8" GraphId="eb0d1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAP2K2" GraphId="e4f56" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAP2K1" GraphId="e9306" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAPK1" GraphId="df3b8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MKNK1" GraphId="d478a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BRAF" GraphId="fa17c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ARAF" GraphId="c49ef" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SH3GL3" GraphId="bc1dd" Type="GeneProduct">
+    <Comment>Endopilin 3</Comment>
+        </DataNode>
+  <DataNode TextLabel="PRKACA" GraphId="ea7cc" Type="GeneProduct" GroupRef="a4a6b">
+    <Comment>Exact subunits which make up PKA in thus pathway could not be found. PKA is made up of 2 regulary subunits and 2 catalytic subunits. Because no information on the composition of subunits in this case could have been found, subunits A have been used for regulatory and catalytic parts of PKA.</Comment>
+        </DataNode>
+  <DataNode TextLabel="PRKACA" GraphId="d983e" Type="GeneProduct" GroupRef="a4a6b">
+        </DataNode>
+  <DataNode TextLabel="PRKAR1A" GraphId="f07fd" Type="GeneProduct" GroupRef="a4a6b">
+        </DataNode>
+  <DataNode TextLabel="PRKAR1A" GraphId="a3e27" Type="GeneProduct" GroupRef="a4a6b">
+        </DataNode>
+  <DataNode TextLabel="APP" GraphId="d8731" Type="GeneProduct">
+    <Comment>Amyloid-beta precursor protein (APP), large membrane-spanning glycoprotein, is implicated in neurogenesis and synapse formation. It is mainly expressed in synapses. APP is suspected to contribute to altered mGluR-LTD. </Comment>
+    <Comment>Type your comment here</Comment>
+    <BiopaxRef>fb0</BiopaxRef>
+    <BiopaxRef>d7c</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GRIN2B" GraphId="f003b" Type="GeneProduct">
+    <Comment>N-methyl-D-aspartate (NMDA)-type glutamate receptors (NMDAR) are ionotropic receptors activated by glutamate. NMDAR activation allows Ca2+ influx leading to NMDAR-dependant LTP and LTD</Comment>
+    <BiopaxRef>bfd</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="AP2A1" GraphId="ffb13" Type="GeneProduct" GroupRef="adc57">
+        </DataNode>
+  <DataNode TextLabel="AP2B1" GraphId="ff0b9" Type="GeneProduct" GroupRef="adc57">
+        </DataNode>
+  <DataNode TextLabel="AP2S1" GraphId="d8b47" Type="GeneProduct" GroupRef="adc57">
+        </DataNode>
+  <DataNode TextLabel="AP2M1" GraphId="d0500" Type="GeneProduct" GroupRef="adc57">
+        </DataNode>
+  <DataNode TextLabel="CLTCL1" GraphId="a68e0" Type="GeneProduct" GroupRef="eeb7e">
+        </DataNode>
+  <DataNode TextLabel="CLTC" GraphId="f4fe5" Type="GeneProduct" GroupRef="eeb7e">
+    <Comment>Clathrin mediates the endocytosis of NMDAR by binding to AP-2</Comment>
+    <BiopaxRef>e42</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CLTB" GraphId="c642e" Type="GeneProduct" GroupRef="eeb7e">
+        </DataNode>
+  <DataNode TextLabel="CLTA" GraphId="beb9b" Type="GeneProduct" GroupRef="eeb7e">
+        </DataNode>
+  <DataNode TextLabel="GRIN2B" GraphId="f3f5d" Type="GeneProduct">
+    <Comment>N-methyl-D-aspartate (NMDA)-type glutamate receptors (NMDAR) are ionotropic receptors activated by glutamate. NMDAR activation allows Ca2+ influx leading to NMDAR-dependant LTP and LTD</Comment>
+    <BiopaxRef>bfd</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PTEN" GraphId="ef958" Type="GeneProduct">
+    <Comment>PTEN is enhanced by FMRP and negatively regulates GABA A receptor subunits, this way PTEN has a protective role in reducing GABA A deficiency-indiced incidence of seizures</Comment>
+    <BiopaxRef>d7d</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PTEN" GraphId="ebc84" Type="Rna">
+    <Comment>PTEN is enhanced by FMRP and negatively regulates GABA A receptor subunits, this way PTEN has a protective role in reducing GABA A deficiency-indiced incidence of seizures</Comment>
+    <BiopaxRef>d7d</BiopaxRef>
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="GRIN1" GraphId="e2467" Type="GeneProduct">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="GRIN1" GraphId="c13a6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DUSP3" GraphId="d9192" Type="GeneProduct">
+    <Comment>Also referred to as VHR, a ERK specific phosphatase</Comment>
+    <BiopaxRef>f3d</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="EEF1A1" GraphId="ef97c" Type="GeneProduct">
+    <Comment>Eukarytic translation elongation factor (EF1&#945;) </Comment>
+        </DataNode>
+  <DataNode TextLabel="CYFIP2" GraphId="e2b5d" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="GABRD" GraphId="c68df" Type="Protein">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="GRM5" GraphId="d5fb5" Type="Rna">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="HCN1" GraphId="a8697" Type="GeneProduct">
+    <Comment>Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1 (HCN1)</Comment>
+        </DataNode>
+  <DataNode TextLabel="KCNC1" GraphId="f9182" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="KCND2" GraphId="b9df8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MMP9" GraphId="c875c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PRKCA" GraphId="a3b2c" Type="GeneProduct">
+    <Comment>Protein Kinase C</Comment>
+    <Comment>mGluR activation leads to activation of the PLC pathway which induces release of Ca2+ and PKC. PKC will phohsphorylate and activate RAF1 and tehereby activate RAF1 and thus the ERK pathway</Comment>
+        </DataNode>
+  <DataNode TextLabel="RAP1GAP" GraphId="ae6d6" Type="GeneProduct">
+    <Comment>RAP1 is phsohprylated and activated by PKA and in turn stimulates the activation of B-Raf, thus leading to the activation of the ERK pathway</Comment>
+    <BiopaxRef>d20</BiopaxRef>
+    <BiopaxRef>aae</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="EPS8L1" GraphId="d9562" Type="GeneProduct">
+    <Comment>Epidermal growth factor receptor pathway substrate 8-related protein 1  (EPS8L1) is an FMRP target and important for teh remodelling of actin in response to EGF stimulation.  EPS8L1 gene product EPS8 is needed for  normal spine morphology, synaptic plasticity, and memory formation. EPS8 has been shown to be downregulated in autism, since it's a binding partner of FMRP, it is likely that it is also downregulated in FXS. </Comment>
+    <BiopaxRef>b94</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="SHANK1" GraphId="e5dcd" Type="GeneProduct">
+    <Comment>Shank,  an adapter protein in the PSD of excitatory synapses, is necessary for the structural and functional integrity of dendritic spines and synaptic junction.</Comment>
+    <BiopaxRef>ee2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PTPN5" GraphId="ae436" Type="GeneProduct">
+    <Comment>Tyrosine-protein phosphatase non-receptor type 5 (STEP) is involves to regulate AMPAR trafficking and negatively regulates AMPAR surface expression thereby contributing to mGluR-LTD. STEP promotes LTD by stimulating synaptic weakening by dephosphorylation of ERK1/2 and subunits of NDMA and AMPA receptors. STEP has been shown to promote NMDA internalization.</Comment>
+    <BiopaxRef>f94</BiopaxRef>
+    <BiopaxRef>cf2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MAP1B" GraphId="a0910" Type="GeneProduct">
+    <Comment>Microtubule-associated protein 1B (MAP1B) is involved in mcirotubule assembly and neurogenesis. MAP1b is involved in the regulation of the morphology of dendritic spines in glutamatergic synapses. Furthermore, MAP1b is a negative regulator of AMPAR surface expression thereby contributing to mGluR-LTD.</Comment>
+    <BiopaxRef>f94</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PTPN5" GraphId="dd010" Type="GeneProduct">
+    <Comment>Tyrosine-protein phosphatase non-receptor type 5 (STEP) is involves to regulate AMPAR trafficking and negatively regulates AMPAR surface expression thereby contributing to mGluR-LTD. STEP promotes LTD by stimulating synaptic weakening by dephosphorylation of ERK1/2 and subunits of NDMA and AMPA receptors. STEP has been shown to promote NMDA internalization.</Comment>
+    <BiopaxRef>f94</BiopaxRef>
+    <BiopaxRef>cf2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="DUSP3" GraphId="a2785" Type="GeneProduct">
+    <Comment>Also referred to as VHR, a ERK specific phosphatase</Comment>
+    <BiopaxRef>f3d</BiopaxRef>
+        </DataNode>
+  <Interaction GraphId="c2993">
+    <Graphics>
+      <Point GraphRef="f5337"/>
+      <Point GraphRef="c5c19" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1531d62a">
+    <Graphics>
+      <Point GraphRef="b91f7"/>
+      <Point GraphRef="f003b" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e377b"/>
+      <Anchor Position="0.6518425906595564" Shape="None" GraphId="bb67c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1bbdc298">
+    <Comment>Shank, a major scaffolding protein in the PSD, binds to the EVH1 domain of the  Homer  protein, together they form a mesh-like structure and are involved the recruitment of proteins at the synapse and are required for structural integrity of dendritic spines. </Comment>
+    <BiopaxRef>a61</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e5dcd"/>
+      <Point/>
+      <Point GraphRef="ac4db" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2215b39c">
+    <Graphics>
+      <Point GraphRef="ac5ae"/>
+      <Point GraphRef="f9182" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id236ab5f0">
+    <Graphics>
+      <Point GraphRef="e9258"/>
+      <Point GraphRef="b4869" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2808ee1c">
+    <Graphics>
+      <Point GraphRef="f8758"/>
+      <Point GraphRef="a8697" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2f51b03a">
+    <Graphics>
+      <Point GraphRef="f6832"/>
+      <Point GraphRef="ef97c" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3056638c">
+    <Comment>mGluR mediated mobilization of endocannabinoids activates cannabinoid receptor 1(CNR1) on the presynaptic cholecystokinin interneuron terminal located in the hippocampus. This in turn suppresses GABA release. </Comment>
+    <BiopaxRef>fa0</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d7fc2"/>
+      <Point GraphRef="c324d" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id31f1255b">
+    <Graphics>
+      <Point GraphRef="fcd81"/>
+      <Point GraphRef="d9562" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id34a4b4d3">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="aeb05"/>
+      <Point/>
+      <Point GraphRef="c7dbe" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id351ecd42">
+    <Comment>STEP catalyses the dephosphorylation of NMDA receptor 2B (NR2B or GRIN2B) at the site Y1472. As a consequence, AP-2 can associate with NMDA and mediate clathrin-dependant endocytosis of NMDAR and thus promote NMDA-mediated LTD.</Comment>
+    <BiopaxRef>e42</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="336600">
+      <Point GraphRef="ae436"/>
+      <Point/>
+      <Point GraphRef="e71ff" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id387cfe42">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a2785"/>
+      <Point GraphRef="e678d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3c9d8b3f">
+    <Graphics>
+      <Point GraphRef="db077"/>
+      <Point GraphRef="d9192" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3dbc8f1d">
+    <Graphics Color="ff3333">
+      <Point GraphRef="f20f2"/>
+      <Point GraphRef="a510b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id40bb43f7">
+    <Graphics ConnectorType="Elbow" Color="0033cc">
+      <Point GraphRef="aeb05"/>
+      <Point GraphRef="c7dbe" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4362bcda">
+    <Graphics ConnectorType="Elbow" Color="ff3300">
+      <Point GraphRef="ece9e"/>
+      <Point GraphRef="a264b" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id437824b0">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ef958"/>
+      <Point/>
+      <Point GraphRef="b921f" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id465a2e47">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b129c"/>
+      <Point/>
+      <Point GraphRef="ae6d6" ArrowHead="mim-modification"/>
+      <Anchor Position="0.8743676489414249" Shape="None" GraphId="df7ed"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4899cbb3">
+    <Graphics Color="ff3300">
+      <Point GraphRef="b23f7"/>
+      <Point GraphRef="bb8b9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4a33aa60">
+    <Comment>The MAP3K trier transmits the signal downstream through phosphorylation and activation of the MAPKKs (Mitogen-activated protein kinase kinase) MEK 1 and MEK 2 (MEK 1/2)</Comment>
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fa17c"/>
+      <Point GraphRef="ffd68" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4c78ca44">
+    <Graphics Color="ff3333">
+      <Point GraphRef="f20f2"/>
+      <Point GraphRef="aab06" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id586ad924">
+    <Comment>mGluR activation leads to activation of the PLC IP3 pathway to release Ca2+ and activate PKC alpha which phohphorylates AMPAR subunit GluA2 at Ser880 and induces endocytosis of AMPAR</Comment>
+    <BiopaxRef>a1e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fd5c1"/>
+      <Point GraphRef="a5ba0" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5af54689">
+    <Comment>Scr is activated through mGluR and can activate the ERK pathway through RAF1</Comment>
+    <BiopaxRef>b75</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="daa4e"/>
+      <Point GraphRef="de858" ArrowHead="mim-modification"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a4486"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6a13e51e">
+    <Graphics>
+      <Point GraphRef="a3c40"/>
+      <Point GraphRef="b9df8" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6d06b23c">
+    <Graphics>
+      <Point GraphRef="b7b69"/>
+      <Point GraphRef="cb9d3" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6ee6222b">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b1f46"/>
+      <Point GraphRef="b3674" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id71a70594">
+    <Graphics>
+      <Point GraphRef="f003b"/>
+      <Point GraphRef="b91f7" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6874999999999719" Shape="None" GraphId="e71ff"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id741c4125">
+    <Graphics>
+      <Point GraphRef="df7ed"/>
+      <Point GraphRef="ff791"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7aea312d">
+    <Graphics>
+      <Point GraphRef="b768c"/>
+      <Point GraphRef="b15ca"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7b8ae55a">
+    <Comment/>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c3f9f"/>
+      <Point/>
+      <Point GraphRef="a3b2c" ArrowHead="mim-modification"/>
+      <Anchor Position="0.13832199546484786" Shape="None"/>
+      <Anchor Position="0.6535371430925424" Shape="None" GraphId="b15ca"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8804fd08">
+    <Graphics>
+      <Point GraphRef="e2b5d"/>
+      <Point GraphRef="ad39d" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id95ae74a">
+    <Graphics Color="0033cc">
+      <Point GraphRef="b1f46"/>
+      <Point GraphRef="ea186" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9aa2e278">
+    <Graphics LineStyle="Broken" Color="336600">
+      <Point GraphRef="b91f7"/>
+      <Point GraphRef="f3f5d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9b470ae">
+    <Comment>CAMKIV phosphorylates CREB and thereby regulates the trascription of FMRP. </Comment>
+    <BiopaxRef>de2</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f9f8c"/>
+      <Point/>
+      <Point GraphRef="c411f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9bf5cfb6">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ae6d6"/>
+      <Point GraphRef="fa17c" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9eb991ce">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b6067"/>
+      <Point/>
+      <Point GraphRef="f5ce1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida08013c5">
+    <Graphics Color="ff0000">
+      <Point GraphRef="b7d58"/>
+      <Point GraphRef="fc0e9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida6e1d01b">
+    <Comment>Fyn catalyses the phosphorylation of NMDA receptor 2B at the site Y1472. Phosphorylation of the NMDA receptor will result in dissociation from AP-2 and thus inhibit clathrin-mediated endocytosis and thus LTD. </Comment>
+    <BiopaxRef>e42</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f0fb0"/>
+      <Point GraphRef="bb67c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida758ab4c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a264b"/>
+      <Point/>
+      <Point GraphRef="daa4e" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaf1cb650">
+    <Graphics>
+      <Point GraphRef="df321"/>
+      <Point GraphRef="a15ec" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb409510d">
+    <Graphics>
+      <Point GraphRef="f71d3"/>
+      <Point GraphRef="f5ca1" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb7a11521">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b3674"/>
+      <Point/>
+      <Point GraphRef="c7dbe" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb809dedc">
+    <Graphics>
+      <Point GraphRef="ebc84"/>
+      <Point GraphRef="ef958" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbd71d149">
+    <Graphics>
+      <Point GraphRef="f5e1e"/>
+      <Point GraphRef="a8bc7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc6d0b35d">
+    <Graphics>
+      <Point GraphRef="a4486"/>
+      <Point GraphRef="f4d08"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcd72f7ba">
+    <Graphics>
+      <Point GraphRef="d5fb5"/>
+      <Point GraphRef="b0473" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcfdaba90">
+    <Graphics LineStyle="Broken" Color="669900">
+      <Point GraphRef="f3f5d"/>
+      <Point GraphRef="b91f7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcfe979b6">
+    <Graphics>
+      <Point GraphRef="e5d5c"/>
+      <Point GraphRef="d8a83"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd37db456">
+    <Comment>mGluR activation leads to activation of the PLC pathway which induces release of Ca2+ and PKC. PKC will phohsphorylate and activate RAF1 and tehereby activate RAF1 and thus the ERK pathway</Comment>
+    <BiopaxRef>d20</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a3b2c"/>
+      <Point GraphRef="de858" ArrowHead="mim-modification"/>
+      <Anchor Position="0.6111111111111484" Shape="None" GraphId="a8bc7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd4ab41e5">
+    <Graphics Color="ff3300">
+      <Point GraphRef="fd5c1"/>
+      <Point GraphRef="bdfcb" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd7387c6c">
+    <Graphics Color="ff3300">
+      <Point GraphRef="d0e6c"/>
+      <Point GraphRef="b5f0c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd84c0ffa">
+    <Graphics>
+      <Point GraphRef="c68df"/>
+      <Point GraphRef="aefd4" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd9de0d8f">
+    <Comment>AP2 binds to tyrosine-based internalization motif (YELK) which contains the Y1472 site which results in clathrin mediated endocytosis of NR2B (GRIN2B)</Comment>
+    <BiopaxRef>e42</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="336600">
+      <Point GraphRef="cb9d3"/>
+      <Point GraphRef="b91f7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idece8178a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ee5c2"/>
+      <Point/>
+      <Point GraphRef="ac4db" ArrowHead="mim-modification"/>
+      <Anchor Position="0.9119650564766462" Shape="None" GraphId="e5d5c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf72dbc9c">
+    <Graphics>
+      <Point GraphRef="a9604"/>
+      <Point GraphRef="c875c" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3a11b4ec">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b91f7"/>
+      <Point GraphRef="a88d2" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaff31120">
+    <Comment>Activated, GTP bound Ras, recruits RAF1, BRAF and ARAF, the MAP3K (MAP kinase kinase kinase) trier of the cascade, and stimulates their protein kinase activity </Comment>
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ba06e"/>
+      <Point GraphRef="fa17c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc358245">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fe5c4"/>
+      <Point/>
+      <Point GraphRef="b91f7" ArrowHead="mim-necessary-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id94cd1b3">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="dc475"/>
+      <Point/>
+      <Point GraphRef="e678d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5cc5e16f">
+    <Graphics>
+      <Point GraphRef="bf607"/>
+      <Point GraphRef="f3f22"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6bb0441c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="dfc5c"/>
+      <Point/>
+      <Point GraphRef="c3f9f" ArrowHead="mim-cleavage"/>
+      <Anchor Position="0.1285545023696682" Shape="None" GraphId="cffe0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id76a67dc3">
+    <Graphics>
+      <Point GraphRef="d33a7"/>
+      <Point GraphRef="a7c50" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4451333931630993" Shape="None" GraphId="abbee"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3c77e076">
+    <Graphics>
+      <Point GraphRef="ec363"/>
+      <Point GraphRef="e358b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc06a5bd5">
+    <Comment>CaMKII interacts with with AMPAR subunit GluA2 and catalyzes the phosphorylation of AMPAR, promoting receptor insertion into the synaptic membrane and LTP. </Comment>
+    <BiopaxRef>bfd</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ffcc00">
+      <Point GraphRef="df13f"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="e3910" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id30e5479">
+    <Comment/>
+    <BiopaxRef>b23</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b3e88"/>
+      <Point GraphRef="b8279" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7dd14ab9">
+    <Comment>MEK 1/2 subsequently phosphorylate and activate ERK 1 and 2 (ERK1/2) at their Thr and Tyr residues within the Thr-Glu-Tyr domain of the activation loop</Comment>
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ffca3"/>
+      <Point/>
+      <Point GraphRef="b24ff" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddf325579">
+    <Comment>PI3K catalyzes the phosphorylation of PIP2 into PIP3</Comment>
+    <BiopaxRef>f3c</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b3ff7"/>
+      <Point GraphRef="ab27c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6ebf7936">
+    <Comment>AMPAR receptors can be recycled and re-inserted into the membrane</Comment>
+    <Graphics LineStyle="Broken" Color="ffcc00">
+      <Point GraphRef="ff607"/>
+      <Point GraphRef="d33a7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id836536be">
+    <BiopaxRef>a20</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="af977"/>
+      <Point GraphRef="b805b" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc4ceabf5">
+    <Comment>PSD-95 (postsynaptic density protein 95) is is recruited and interacts with the NR2 subuni of the NMDA receptor upon NDMAR activation. </Comment>
+    <BiopaxRef>a19</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b91f7"/>
+      <Point GraphRef="b6e01" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7ceedc8c">
+    <Graphics>
+      <Point GraphRef="eee9f"/>
+      <Point GraphRef="dcf1f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5261329038381142" Shape="None" GraphId="fce0a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id89b24162">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="dfc5c"/>
+      <Point/>
+      <Point GraphRef="b70e9" ArrowHead="mim-cleavage"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id36968a16">
+    <Comment>Phosphorylated CREB initiates CREB-dependant transcription of the FMR1 gene, thereby CREB upregulates FMRP (FMR1 gene product)</Comment>
+    <BiopaxRef>de2</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bf607"/>
+      <Point GraphRef="acdc1" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9e830c04">
+    <Graphics>
+      <Point GraphRef="db8ff"/>
+      <Point GraphRef="df0e6" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5ba77a9e">
+    <Comment>Glutamate Receptor Interacting Protein (GRIP) interacts with AMPAR binding protein (ABP or GRIP2) to anchor AMPARs at synaptic and intracelluar membranes, thereby inhibiting AMPAR internalization.</Comment>
+    <BiopaxRef>ba9</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d2136"/>
+      <Point GraphRef="a7c50" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idafb07498">
+    <Comment>PIP3 recruits PDK1 and Akt to the membrane</Comment>
+    <BiopaxRef>f3c</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c42c7"/>
+      <Point GraphRef="ddab0" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd85cc5a8">
+    <Comment>ARC interacts with dynamin and isoforms of endophilin (isoform 2 and 3 only) to stimulate AMPAR internalization and thus negatively regulate AMPAR surface expression. Rapid mGluR-mediated synthesis of ARC is required for to maintain decrease in surafce AMPAR  and thereby maintaining LTD. </Comment>
+    <BiopaxRef>b65</BiopaxRef>
+    <BiopaxRef>f94</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c167f"/>
+      <Point/>
+      <Point GraphRef="b2f66" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id33e3a006">
+    <Comment>Calcineurin/Dynamin 1 complex stimulates clathrin-mediated endocytosis of AMPAR</Comment>
+    <BiopaxRef>aa6</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c5ce3"/>
+      <Point GraphRef="e42e2" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9daeda7b">
+    <Graphics>
+      <Point GraphRef="d3036"/>
+      <Point GraphRef="bf607" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c411f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id86164a0c">
+    <Graphics>
+      <Point GraphRef="b09b1"/>
+      <Point GraphRef="d7fe4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idea863590">
+    <Comment>ARC, dynamin and endophilin bind in an cooperative assembly that stimulates AMPAR endocytosis. </Comment>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b2f66"/>
+      <Point GraphRef="c98be" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc076bf35">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e2bb4"/>
+      <Point GraphRef="af92b" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide3b4171b">
+    <Comment>The MAP3K trier transmits the signal downstream through phosphorylation and activation of the MAPKKs (Mitogen-activated protein kinase kinase) MEK 1 and MEK 2 (MEK 1/2)</Comment>
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c49ef"/>
+      <Point GraphRef="ffd68" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb57cdc19">
+    <Comment>Modest activation of NMDAR leads to repeated occurance of a small Ca2+ influx which leads to the activation of NMDA dependant protein phosphatases, protein phosphatase 1 and Calcineurin</Comment>
+    <BiopaxRef>bfd</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a88d2"/>
+      <Point GraphRef="e2fa1" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd5f4cb6e">
+    <Comment>In turn, activated ERK 1/2 phosphorylates MAPKAPK (MAP Kinase Activated Protein Kinase) components such as MNK1 </Comment>
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="df3b8"/>
+      <Point GraphRef="e4cf7" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8c5753f6">
+    <Comment>Maximal influx of Ca2+ through strong activation NMDAR  activates PICK1 (Protein Interacting with C Kinase - 1)</Comment>
+    <BiopaxRef>bfd</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a88d2"/>
+      <Point GraphRef="df13f" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfd8371c7">
+    <Comment>Elevated cAMP levels lead to the activation of cAMP dependant protein kinase (PKA) </Comment>
+    <BiopaxRef>c3b</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fd5c1"/>
+      <Point GraphRef="b129c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4387c677">
+    <Graphics>
+      <Point GraphRef="dcf1f"/>
+      <Point GraphRef="ab17f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbb01aae5">
+    <Comment>Activation of TrkB recruits and activates Shc and adaptor protein Gbr2. PI3K is activated via Gbr2 through Gab1. </Comment>
+    <BiopaxRef>d83</BiopaxRef>
+    <BiopaxRef>a08</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c4403"/>
+      <Point GraphRef="b023c" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2cb6fa60">
+    <Comment>Activation of PLC (phospholipase C) through mGluR or TrkB leads to hydrolysis of membrane bound PIP2 (phosphatidylinositol 4,5-bisphosphate) to generate IP3 and DAG. </Comment>
+    <BiopaxRef>de2</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c6afc"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="cffe0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf3e218d7">
+    <Comment>The MAP3K trier transmits the signal downstream through phosphorylation and activation of the MAPKKs (Mitogen-activated protein kinase kinase) MEK 1 and MEK 2 (MEK 1/2)</Comment>
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="de858"/>
+      <Point GraphRef="ffd68" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7225c00d">
+    <Comment>PDK1 phosphorylates and activates Akt </Comment>
+    <BiopaxRef>f3c</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ddab0"/>
+      <Point GraphRef="aaa9b" ArrowHead="mim-modification"/>
+      <Anchor Position="0.4" Shape="None" GraphId="afcac"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf010f26c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bfc13"/>
+      <Point GraphRef="aeb05" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id24e30e9a">
+    <Graphics>
+      <Point GraphRef="ac8a4"/>
+      <Point GraphRef="ae4e6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida769adba">
+    <Comment>Generation of IP3 from PIP2 via PLC lead to the release of intracellular Ca2+. This leads to the activation CaM (Ca2+-calmodulin) dependant pathways</Comment>
+    <BiopaxRef>de2</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b70e9"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="a4e3c" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.2624821683309518" Shape="None" GraphId="ac8a4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idea98af54">
+    <Comment>Activation adn mobilization of endocannabinoids through mGluR activation negatively regulates GABA release from the synapse. </Comment>
+    <BiopaxRef>a46</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c324d"/>
+      <Point GraphRef="fb109" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideebe7876">
+    <Graphics>
+      <Point GraphRef="f003b"/>
+      <Point GraphRef="a8166"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id593187e">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b1f46"/>
+      <Point GraphRef="bfc13" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7cfda92d">
+    <Graphics>
+      <Point GraphRef="cb3ca"/>
+      <Point GraphRef="ea469" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7278d44d">
+    <Comment>Activated TrkB (tyrosine kinase B) recruits and activates PLC, this triggers PLC intracellular cascades</Comment>
+    <BiopaxRef>d83</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e58ce"/>
+      <Point/>
+      <Point GraphRef="cd617" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5ead9312">
+    <Comment>4E binding protein (4E-BP) associates with eIF4E, thereby inhibits the assembly of the eIF4F complex and represses translation</Comment>
+    <BiopaxRef>eb4</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="eee9f"/>
+      <Point GraphRef="aeb05" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf8140e8c">
+    <Comment>AMPAR internaliztion/endocytosis is clathrin mediated and activated through NMDAR stimulation. Local protein synthesis of postsynaptic, dendritic localized mRNAs, regulated through mGluR receptor activation and FMRP regulation, results in internalization of AMPAR, which is a key step in mGluR-mediated long term depression (LTD). </Comment>
+    <BiopaxRef>c6a</BiopaxRef>
+    <Graphics LineStyle="Broken" Color="ff6600">
+      <Point GraphRef="a7c50"/>
+      <Point GraphRef="ff607" ArrowHead="Arrow"/>
+      <Anchor Position="0.6547609766908219" Shape="None" GraphId="c98be"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ided1b4565">
+    <Comment>Activation of PI3K through activated Ras mediated by the TrkB signalling pathway</Comment>
+    <BiopaxRef>a08</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ba06e"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="b3ff7" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide3680ab5">
+    <Comment>Group I mGluR activation stimulates eCB signalling and leads to actovation and mobilization of endocannabinoids which inhibit the release of GABA. </Comment>
+    <BiopaxRef>a46</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a264b"/>
+      <Point GraphRef="d7fc2" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4cea437a">
+    <Comment>Activated PSD-95 directly interacts with synaptic ras GTPase-activating protein (SynGAP)</Comment>
+    <BiopaxRef>a19</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b6e01"/>
+      <Point GraphRef="a7faf" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4ee88c62">
+    <Graphics>
+      <Point GraphRef="ffca3"/>
+      <Point GraphRef="a6afa" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.22644232065681727" Shape="None" GraphId="e678d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id151021ba">
+    <Graphics>
+      <Point GraphRef="c4403"/>
+      <Point GraphRef="b6067" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcc227db8">
+    <Comment/>
+    <Graphics ConnectorType="Elbow" Color="ff6633">
+      <Point GraphRef="b4869"/>
+      <Point GraphRef="e9e88" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide820744a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a4e3c"/>
+      <Point GraphRef="fd5c1" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb748332b">
+    <Comment>Homer mediates the association between type I mGluR to PIKE-L
+</Comment>
+    <BiopaxRef>c5c</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ac4db"/>
+      <Point GraphRef="c9e48" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf2726c27">
+    <Graphics>
+      <Point GraphRef="a7c50"/>
+      <Point GraphRef="d33a7" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.265464632454911" Shape="None" GraphId="e3910"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6054524f">
+    <Comment>PI3K is activated via Gbr2 through Gab1 by a TrkB dependant manner. </Comment>
+    <BiopaxRef>a08</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b023c"/>
+      <Point GraphRef="b3ff7" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1ac8c210">
+    <Comment>STEP catalyzes the dephosphorylation of AMPAR subunit GluA2 in order to maintain increased AMPAR endocytosis rate. </Comment>
+    <BiopaxRef>f94</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ff6600">
+      <Point GraphRef="dd010"/>
+      <Point GraphRef="abbee" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6f1c4e92">
+    <Comment>Group I mGluRs are coupled to PLC (Phospholipase C) through G&#945;q. Activation of mGluR by glutamate leads to activation of PLC which triggers the PLC signalling pathway</Comment>
+    <BiopaxRef>c99</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a264b"/>
+      <Point/>
+      <Point GraphRef="d36bc" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5cbc62a6">
+    <Graphics>
+      <Point GraphRef="acdc1"/>
+      <Point GraphRef="a3823" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc250ec00">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b1f46"/>
+      <Point GraphRef="b3e88" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd39ac2ad">
+    <Comment>PP1 and Calcineurin dephospharylate AMPAR which stimulates AMPAR internalization and thus, LTD.</Comment>
+    <BiopaxRef>bfd</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ff6600">
+      <Point GraphRef="e2fa1"/>
+      <Point GraphRef="abbee" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb0561b9b">
+    <Comment>Activated, GTP bound Ras, recruits RAF1, BRAF and ARAF, the MAP3K (MAP kinase kinase kinase) trier of the cascade, and stimulates their protein kinase activity </Comment>
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ba06e"/>
+      <Point GraphRef="c49ef" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3284bcda">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a2fd0"/>
+      <Point GraphRef="a264b" ArrowHead="mim-necessary-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id45320e3c">
+    <Comment>Adaptor protein 2 (AP2) interacts with AMPAR and mediates recruitment of clathrin and clathrin-mediated endocytosis of AMPAR. </Comment>
+    <BiopaxRef>ece</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ff6600">
+      <Point GraphRef="f466a"/>
+      <Point GraphRef="a7c50" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id910897e3">
+    <Graphics>
+      <Point GraphRef="f9760"/>
+      <Point GraphRef="d8731" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6fbc3f8a">
+    <Comment>PKC&#945; is recruited by PICK1 and binds to the PDZ domain of PICK1 and subsequently phosphorylates GluR2 subunit of AMPAR. Phosphorylation of GluR2 by PKC&#945; is necessary for PICK1 binding, since GRIP and PICK1 have the same binding site on the domain and GRIP dissociation is necessary for PICK1 binding and consequent endocytosis of AMPAR</Comment>
+    <BiopaxRef>ba9</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a5ba0"/>
+      <Point GraphRef="c3764" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8937b1dc">
+    <Comment>Activation of TrkB and thus autophosphorylation of its Try515 site recruits and phosphorylates Shc. Subsequently, Shc interacts with the adapotor protein Grb2 which recruits and activates SOS (a GEF). </Comment>
+    <BiopaxRef>d83</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e58ce"/>
+      <Point GraphRef="c4403" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf693d30a">
+    <Comment>Calcineurin-dynamin 1 interaction is essential from AMPA clathrin-mediated receptor endocytosis. The formation of the calcineurin-dynamin 1 complex is dependent on Ca2+ influx. </Comment>
+    <BiopaxRef>aa6</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b531b"/>
+      <Point GraphRef="c5ce3" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideafcaadd">
+    <Comment>Activated cAMP-dependant protein kinase (PKA) phosphorylates and activates the transcription factor cAMP response element-binding
+protein (CREB) at Ser133</Comment>
+    <BiopaxRef>de2</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b129c"/>
+      <Point/>
+      <Point GraphRef="c411f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id425fd6ff">
+    <Comment>MAP1b interacts with GRIP and sequesters GRIP and associated AMPAR from the synaptic surface</Comment>
+    <BiopaxRef>f94</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ff6600">
+      <Point GraphRef="a0910"/>
+      <Point GraphRef="d2136" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida85a9a78">
+    <Graphics>
+      <Point GraphRef="a5d72"/>
+      <Point GraphRef="dede9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb9fca401">
+    <Comment>PICK1 recruits PKC&#945; which phophorylates AMPAR subunit GluA2 at Ser880 and thereby dissociates GRIP from AMPAR allowing PICK1 to bind to the GluA2. PICK1/GluA2 interaction induces AMPAR endocytosis. </Comment>
+    <BiopaxRef>f94</BiopaxRef>
+    <BiopaxRef>ba9</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ff6600">
+      <Point GraphRef="c3764"/>
+      <Point/>
+      <Point GraphRef="a7c50" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id85df42f6">
+    <Comment>PIKE-L (Phosphatidylinositol 3-kinase enhancer) binds to PI3K and stimulates PI3K's kinase activity</Comment>
+    <BiopaxRef>c5c</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c9e48"/>
+      <Point GraphRef="b3ff7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide09529b">
+    <Comment>CaM phosphorylates CAMIV</Comment>
+    <BiopaxRef>de2</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a4e3c"/>
+      <Point GraphRef="f9f8c" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id823571c1">
+    <Graphics>
+      <Point GraphRef="c405a"/>
+      <Point GraphRef="b5a23"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfbaa13d2">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cf9d9"/>
+      <Point GraphRef="e58ce" ArrowHead="mim-necessary-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida528e60c">
+    <Graphics>
+      <Point GraphRef="e665d"/>
+      <Point GraphRef="e9258" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida205d761">
+    <Graphics>
+      <Point GraphRef="a824e"/>
+      <Point GraphRef="eec3b" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideafed123">
+    <Graphics>
+      <Point GraphRef="a6afa"/>
+      <Point GraphRef="ffca3" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.638159020006567" Shape="None" GraphId="ffd68"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5e4da64f">
+    <Graphics>
+      <Point GraphRef="f401e"/>
+      <Point GraphRef="df3b8" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b24ff"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1da0271">
+    <Comment>Clathrin mediates AMPAR endocytosis by binding to AP-2 complex. AP-2 complex is bound to AMPAR and recruits clathrin to the receptor to form a clathrin-coated vesicle containg AMPAR. </Comment>
+    <BiopaxRef>c3d</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e42e2"/>
+      <Point/>
+      <Point GraphRef="f466a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8522480f">
+    <Graphics>
+      <Point GraphRef="d478a"/>
+      <Point GraphRef="e1da2" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e4cf7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id85e1f4c6">
+    <Comment>SynGAP is a negtaive regulator of ras and thus also a negative regulator of the ERK1/2 cascade, thereby having a role in neuronal development and plasticity</Comment>
+    <BiopaxRef>a19</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a7faf"/>
+      <Point/>
+      <Point GraphRef="b97a2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2021030e">
+    <Graphics>
+      <Point GraphRef="a8467"/>
+      <Point GraphRef="b0e44" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id65826470">
+    <Graphics>
+      <Point GraphRef="ba06e"/>
+      <Point GraphRef="b2983" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.3974074894748505" Shape="None" GraphId="dede9"/>
+      <Anchor Position="0.7134943496565478" Shape="None" GraphId="b97a2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3c0843cf">
+    <Graphics>
+      <Point GraphRef="a3823"/>
+      <Point GraphRef="b1f46" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a7568"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida706ee19">
+    <Graphics>
+      <Point GraphRef="e9306"/>
+      <Point GraphRef="f02b3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id78e0ba47">
+    <Comment>Activated mTORC1 phophorylates PP2A, thereby inhibiting PP2A's phopsphatase activity </Comment>
+    <BiopaxRef>c6a</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d0da8"/>
+      <Point GraphRef="c4c61" ArrowHead="mim-inhibition"/>
+      <Anchor Position="0.7177597641857029" Shape="None" GraphId="b09b1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbe4f4f3d">
+    <Comment>Ribosomal protein S6 kinase 1 (S6K1) phosphorylates FMRP, allowing phosphorylated FMRP to bind to stalling ribosomes and thereby repress translation</Comment>
+    <BiopaxRef>b85</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f9577"/>
+      <Point GraphRef="a7568" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7a1b768e">
+    <Graphics>
+      <Point GraphRef="b2983"/>
+      <Point GraphRef="ba06e" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f5ce1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id555d5b7c">
+    <Comment>FMRP represses the action PI3K and thereby negatively regulates the mTOR pathway</Comment>
+    <BiopaxRef>c6a</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b1f46"/>
+      <Point/>
+      <Point GraphRef="b3ff7" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3315d84f">
+    <Graphics>
+      <Point GraphRef="d6ade"/>
+      <Point GraphRef="f3077" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id186dec8f">
+    <Graphics>
+      <Point GraphRef="b1f46"/>
+      <Point GraphRef="a3823" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c6bcb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbc5fe0fb">
+    <Comment>Protein phasphatase 2 (PP2) dephosphorylates FMRP. Unphosphorylated FMRP is associated with actively translating polyribosomes. </Comment>
+    <BiopaxRef>bc3</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c4c61"/>
+      <Point GraphRef="c6bcb" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id26caf50a">
+    <Comment>Activation of MNK1  phosphorylates eIF4E of the eIF4E-CYFIP1-FMRP inhibitory complex. The phosphorylation of eIF4E releases the CYFIP1-FMRP complex from the mRNA and enables translation</Comment>
+    <BiopaxRef>c69</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="0033ff">
+      <Point GraphRef="e1da2"/>
+      <Point GraphRef="aeb05" ArrowHead="mim-modification"/>
+      <Anchor Position="0.7373178629249862" Shape="None" GraphId="c4ec5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idca6b4e29">
+    <Graphics>
+      <Point GraphRef="c2bc4"/>
+      <Point GraphRef="b4ed7" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idccbd6f6c">
+    <Comment>Phosphorylation of the 4E-BP by mTORC1 leads to inactivation of 4E-BP and thus induces translation of proteins</Comment>
+    <BiopaxRef>f3c</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="0033ff">
+      <Point GraphRef="d0da8"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="fce0a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide5f86b84">
+    <Comment>TSC2 acts as GAD (GTPase activating protein) towards RHEB, converting it from the active GTP-bound state to the inactive GDP-bound state. This activity is inhibited by phosphorylation of TSC2 through AKT. As a consequence, the conversion of GTP bound RHEB to GDP bound RHEB is inhibited.</Comment>
+    <BiopaxRef>c01</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f384c"/>
+      <Point GraphRef="cd870" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida0ed1893">
+    <Comment>Through inhibition of the TSC complex and thus conversion of RHEB-GTP to RHEB-GDP, there is accumulation of RHEB-GTP which stimulates and activates mTORC1. </Comment>
+    <BiopaxRef>c01</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f3077"/>
+      <Point GraphRef="d0da8" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8744aef8">
+    <Comment>Activated, GTP bound Ras, recruits RAF1, BRAF and ARAF, the MAP3K (MAP kinase kinase kinase) trier of the cascade, and stimulates their protein kinase activity </Comment>
+    <BiopaxRef>a32</BiopaxRef>
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ba06e"/>
+      <Point GraphRef="de858" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id22195d3">
+    <Comment>FMRP represses the action PIKE and thereby negatively regulates the mTOR pathway</Comment>
+    <BiopaxRef>b1b</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b1f46"/>
+      <Point/>
+      <Point GraphRef="c9e48" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id731cd784">
+    <Comment>mTORC1 phosphorylates and activates S6K1 which induces its kinase activity</Comment>
+    <BiopaxRef>c6a</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d0da8"/>
+      <Point GraphRef="f9577" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.339077265147308" Shape="None" GraphId="ec363"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id41bbefae">
+    <Graphics>
+      <Point GraphRef="f3077"/>
+      <Point GraphRef="d6ade" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="cd870"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc625a5ad">
+    <Comment>mGluR is bound to HOMER which mediates activation of the PI3K-Akt-mTOR pathway</Comment>
+    <BiopaxRef>b48</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a264b"/>
+      <Point/>
+      <Point GraphRef="ac4db" ArrowHead="mim-modification"/>
+      <Anchor Position="0.39811172305271547" Shape="None" GraphId="d1a8e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd2e2d64e">
+    <Comment>AKT directly phosphorylates TSC2 on Ser939, Ser981 and Thr1462. This leads to inactivation of TSC2, which inhibits its GAP (GTPase-accelerating protein) activity</Comment>
+    <BiopaxRef>c01</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="aaa9b"/>
+      <Point GraphRef="f7bf9" ArrowHead="mim-binding"/>
+      <Anchor Position="0.579871979245966" Shape="None" GraphId="ca4d4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5abdbf12">
+    <Graphics>
+      <Point GraphRef="c42c7"/>
+      <Point GraphRef="cd6ac" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="fd1c9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6be9dd02">
+    <Graphics>
+      <Point GraphRef="cd6ac"/>
+      <Point GraphRef="c42c7" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.43807339449541033" Shape="None" GraphId="ab27c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3bedb29e">
+    <Comment>PTEN catalyzes the conversion of PIP3 to PIP2</Comment>
+    <BiopaxRef>f3c</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b8ad4"/>
+      <Point GraphRef="fd1c9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="afd25">
+    <Graphics>
+      <Point GraphRef="a8263"/>
+      <Point GraphRef="c167f" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a003b">
+    <Graphics>
+      <Point GraphRef="f473b"/>
+      <Point GraphRef="ee5c2" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ef326">
+    <Graphics>
+      <Point GraphRef="fe57b"/>
+      <Point GraphRef="bb595" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cc7db">
+    <Graphics>
+      <Point GraphRef="e5fba"/>
+      <Point GraphRef="ceef6" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="adaa2">
+    <Graphics>
+      <Point GraphRef="eba48"/>
+      <Point GraphRef="f052f" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eb86f">
+    <Graphics>
+      <Point GraphRef="a327a"/>
+      <Point GraphRef="e8fca" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e34cc">
+    <Graphics>
+      <Point GraphRef="fd84a"/>
+      <Point GraphRef="a14d7" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f7d8b">
+    <Graphics>
+      <Point GraphRef="a279d"/>
+      <Point GraphRef="d7a44" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ead8e">
+    <Graphics>
+      <Point GraphRef="c82be"/>
+      <Point GraphRef="e91f9" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f0e5f">
+    <Graphics>
+      <Point GraphRef="c8c69"/>
+      <Point GraphRef="f0e0d" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ec331">
+    <Graphics>
+      <Point GraphRef="d08d6"/>
+      <Point GraphRef="f0c60" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a315b">
+    <Graphics>
+      <Point GraphRef="bc2be"/>
+      <Point GraphRef="ccf74" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bcb11">
+    <Graphics>
+      <Point GraphRef="cd7a0"/>
+      <Point GraphRef="dc475" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b2605">
+    <Graphics>
+      <Point GraphRef="d055a"/>
+      <Point GraphRef="cd09d" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f224d">
+    <Graphics>
+      <Point GraphRef="d27f0"/>
+      <Point GraphRef="a70a9" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c623c">
+    <Graphics>
+      <Point GraphRef="fc054"/>
+      <Point GraphRef="e3430" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1c7d">
+    <Graphics>
+      <Point GraphRef="d9f72"/>
+      <Point GraphRef="a0794" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f40bf">
+    <Graphics Color="ff0000">
+      <Point GraphRef="b7d58"/>
+      <Point GraphRef="f07bf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d5364">
+    <Graphics Color="ff0000">
+      <Point GraphRef="b7d58"/>
+      <Point GraphRef="e2d51" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="efc20">
+    <Graphics Color="ff0000">
+      <Point GraphRef="b7d58"/>
+      <Point GraphRef="ceb77" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a2f32">
+    <Graphics Color="ff0000">
+      <Point GraphRef="b7d58"/>
+      <Point GraphRef="e7bbc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cdea0">
+    <Graphics Color="ff3333">
+      <Point GraphRef="f20f2"/>
+      <Point GraphRef="b1576" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="db462">
+    <Graphics Color="ff3333">
+      <Point GraphRef="f20f2"/>
+      <Point GraphRef="b5fdb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b96bb">
+    <Graphics Color="ff3333">
+      <Point GraphRef="f20f2"/>
+      <Point GraphRef="c9c06" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d56ea">
+    <Graphics Color="ff3333">
+      <Point GraphRef="f20f2"/>
+      <Point GraphRef="df32e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1ff4">
+    <Graphics Color="ff3333">
+      <Point GraphRef="f20f2"/>
+      <Point GraphRef="f31d0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f395a">
+    <Graphics>
+      <Point GraphRef="e2467"/>
+      <Point GraphRef="c13a6" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c0548">
+    <Graphics Color="ff3300">
+      <Point GraphRef="b23f7"/>
+      <Point GraphRef="ab818" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="a2e75">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a641b">
+    <Comment>Loss of FMRP may be linked to impaired NMDAR LTP</Comment>
+    <BiopaxRef>b0a</BiopaxRef>
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ab13b">
+    <Comment>FXS: disrupted scaffolding of mGluR with Homer, leads to abnormal mGluR activity</Comment>
+    <BiopaxRef>e61</BiopaxRef>
+    <Graphics LineStyle="Broken" Color="ff3333">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="acbe2">
+    <Comment> Hypofunction in the hippocampal dentate gyrus may partly contribute to cognitive impairments in FXS. </Comment>
+    <BiopaxRef>b4e</BiopaxRef>
+    <Graphics Color="ff3300">
+      <Point/>
+      <Point ArrowHead="mim-stimulation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b3362">
+    <Graphics Color="ff3300">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="be809">
+    <Comment>In FMR1 KO, AKT activation is increased</Comment>
+    <BiopaxRef>b94</BiopaxRef>
+    <Graphics Color="ff3300">
+      <Point/>
+      <Point ArrowHead="mim-stimulation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c83a0">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cac17">
+    <Comment>Elevated activity of ERK in FMR1 KO mouse model</Comment>
+    <BiopaxRef>cd6</BiopaxRef>
+    <Graphics Color="ff3300">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ccb10">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="mim-stimulation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dac41">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="mim-stimulation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e1d58">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e6fbe">
+    <Graphics Color="ff3300">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e7a20">
+    <Comment>Reduced insertion of AMPAR into the synaptic membrane leads to impaired synaptic plasticity in FXS and contributes to enhanced mGluR-LTD in FXS</Comment>
+    <BiopaxRef>bbc</BiopaxRef>
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f3426">
+    <Comment>Exaggerated mGluR signalling in FXS results in overactivation of TrkB signalling as a compensatory mechanism in order to physically alter the shape of dendrites to prepare in advance for low postsynaptic activity. Activation of  TrkB receptors by  BDNF initiates intracellular cascades that locally initate the ramification of dendrites and formation of spines. </Comment>
+    <BiopaxRef>a67</BiopaxRef>
+    <Graphics Color="ff3300">
+      <Point/>
+      <Point ArrowHead="mim-stimulation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f72ef">
+    <Comment>Loss of FMRP: increase in synthesis of CAMKII&#945; which hyperphosphorylates Homer and thus leads to Homer dissocation from mGluR</Comment>
+    <BiopaxRef>e61</BiopaxRef>
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c5d4c">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fe217">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ce2bf">
+    <Comment>FMRP loss: enhaced phosphorylation of 4E-BP leading to enhanced inhibition of 4E-BP binding to the eIF4F complex. This leads to elevated levels of eIF4F complex. </Comment>
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id73807507">
+    <Graphics>
+      <Point GraphRef="df3b8"/>
+      <Point GraphRef="d31e3"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id9bb18ccb">
+    <Graphics>
+      <Point GraphRef="f4e23"/>
+      <Point GraphRef="ba06e"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id77db778b">
+    <Graphics>
+      <Point GraphRef="b2983"/>
+      <Point GraphRef="d2fce"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id3d64e7b2">
+    <Graphics>
+      <Point GraphRef="e4f56"/>
+      <Point GraphRef="d060a"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id53fa0c1c">
+    <Graphics Color="0033ff">
+      <Point GraphRef="c4ec5"/>
+      <Point GraphRef="ffaab"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="idbe9863cf">
+    <Graphics>
+      <Point GraphRef="b1f46"/>
+      <Point GraphRef="a50d5"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id13c43af6">
+    <Graphics>
+      <Point GraphRef="e1da2"/>
+      <Point GraphRef="ffee9"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id88f64253">
+    <Graphics>
+      <Point GraphRef="ca4d4"/>
+      <Point GraphRef="f2d94"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id811d4502">
+    <Graphics>
+      <Point GraphRef="f3077"/>
+      <Point GraphRef="dd3c9"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id4d3db901">
+    <Graphics>
+      <Point GraphRef="d6ade"/>
+      <Point GraphRef="ba8eb"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id35d504ad">
+    <Graphics>
+      <Point GraphRef="afcac"/>
+      <Point GraphRef="bb672"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a58db">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dfca0">
+    <Comment>FMRP negatively regulates the mTOR pathway through inhibition of PIKE and PI3K. In FXS, FMRP is lost, this leads to suppression of the negative feedback given to the mTOR pathway and leads to upregulation of PIKE and PI3K. Altogether, the mTOR signalling pathway is upregulated. </Comment>
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a8078">
+    <Comment>Upregulation of PI3K leads to overactivation of mTOR. </Comment>
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d488e">
+    <Comment>Increased activation of PIKE (PIKE is being de-repressed) which promotes enhanced activation of PI3K</Comment>
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ccbe9">
+    <Comment>Enhanced Group I mGluR activity has been reported in FMR1 KO animal models. Overactivation of GluR1/5 mediate most symptomes of FXS. 
+</Comment>
+    <Comment>FXS symptoms linked with Group I mGluR overactivation are illustrated in the above red box</Comment>
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ab504">
+    <Comment>Enhanced cap-mediated translation initiation in FXS leading to excessive protein synthesis. </Comment>
+    <BiopaxRef>ba4</BiopaxRef>
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d1727">
+    <Comment>Loss of FMRP, leads to exaggerated mGluR-LTD which may lead to slowed net synaptic maturation, thereby contributing to developmental delay, dysmorphogenesis of dendritic spines and loss of motor coordination, which are the main features of FXS.  Increased mGluR-LTD leads to slow synaptic maturation, developmental delay, cognitive impairment, epilepsy, increased density of of long thin dendritic spines and loss of motor coordination. </Comment>
+    <BiopaxRef>f83</BiopaxRef>
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ca4d5">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="af50d">
+    <Comment>Loss of FMRP enhances coupling between mGluR and endocannabinoid synthesis and release</Comment>
+    <BiopaxRef>fa0</BiopaxRef>
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="mim-stimulation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c64de">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d90d6">
+    <Comment>Loss of FMRP has as a consequence, reduced expression of GABA A receptors. GABA A receptor deficiency leads to the occurence of epileptic seizure in FXS. </Comment>
+    <BiopaxRef>a8a</BiopaxRef>
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d577d">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b36bd">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ee42a">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fc5d0">
+    <Comment>Loss of FMRP: Increased synthesis of SLC16A1 (a monocarboxylate transporter) may favor hepatic transport  of KB (terminal breakdown product of mitochondrial &#946; oxidation). This may contribute to the elevation of the circulating levels of KB acetone and acetoacetate in FMR1 KO mouse. </Comment>
+    <BiopaxRef>f34</BiopaxRef>
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="eaaaa">
+    <Comment>Overexpression of the transporters ABCD3 and ALDH3A2 may be responsible for increased peroxisomal &#946; oxidation of lipids</Comment>
+    <BiopaxRef>f34</BiopaxRef>
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d20ad">
+    <Comment>Overexpression of the transporters ABCD3 and ALDH3A2 may be responsible for increased peroxisomal &#946; oxidation of lipids</Comment>
+    <BiopaxRef>f34</BiopaxRef>
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c9ccb">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bb1eb">
+    <Comment>In FMR! KO mouse, PTEN activity is decreased</Comment>
+    <BiopaxRef>cd6</BiopaxRef>
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f5cc8">
+    <Comment>Increased activation of mTOR due to upregulation of PIKE and PI3K (negative feedback from experted on PIKE and PI3K by FMRP is abolished)</Comment>
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cdb98">
+    <Comment>FMRP loss: abnormal increase in microtubule stability leading to impaied synaptic maturation, abnormalities in spine maturation and synapse formation and abnormal mGluR-LTD. </Comment>
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c62aa">
+    <Comment>Loss of FMRP: Increased phosphorylation of PP2A</Comment>
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a3e63">
+    <Comment>Loss of FMRP: Invcreased phosphrylation of S6K1</Comment>
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bfac6">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ef8c3">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cafb1">
+    <Comment>FMRP loss and thus upregulation of de novo Shank synthesis leads to enlargment of dendritic spines and contributes to spine dysmorphogenesis observed in FXS.  </Comment>
+    <BiopaxRef>f78</BiopaxRef>
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f3a8b">
+    <Comment>Loss of FMRP leads to upregulation of APP and its metabolites, which is linked to impaired synaptic function, neuronal overgrowth and increase in brain volume (which can be associated with macrocephaly as a symptome of FXS). APP dysregulation is also linked to hyperactivity. </Comment>
+    <BiopaxRef>fb0</BiopaxRef>
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dd059">
+    <Comment>ARC </Comment>
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c3c08">
+    <Comment>STEP promotes LTD by stimulating synaptic weakening by dephosphorylation of ERK1/2 (inactivation of ERK1/2) and subunits of NDMA and AMPA receptors. Thus, loss of FMRP leads to overactivation of STEP protein synthesis and increase in LTD. </Comment>
+    <BiopaxRef>cf2</BiopaxRef>
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d4cef">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cfc6d">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="mim-stimulation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e68a8">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="abce2">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c3be3">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a0dc8">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ac5c2">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cf251">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fd251">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b3fb8">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f0137">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bbbeb">
+    <Comment>VHR tempers and shortens ERK activation through its phosphatase activity. Loss of FMRP upregulates phosphatase activity of VHR</Comment>
+    <BiopaxRef>f3d</BiopaxRef>
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d74b2">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="decf4">
+    <Comment>Decreased expression of GABA A-&#947; is associated with audiogenic seizures, hyperactivity and prepulse inhibition</Comment>
+    <BiopaxRef>cd6</BiopaxRef>
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f4941">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b5cde">
+    <Graphics Color="ff3300">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="da52d">
+    <Graphics Color="ff3300">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f5bbb">
+    <Graphics Color="ff3300">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c41be">
+    <Graphics Color="ff3300">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d127d">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point ArrowHead="mim-stimulation"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="P" GraphId="c8d84">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Anterior cingulate &#10;cortex" GraphId="a510b">
+    <Comment>Loss of FMRP in the anterior cingulate cortex leads to fear memory impairment and synaptic plasticity alterations. This may be responsible for certain types of mental disorders in FXS. </Comment>
+    <BiopaxRef>d35</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" Color="ff3333"/>
+  </Label>
+  <Label TextLabel="NMDAR&#10;internalization" GraphId="abbe7">
+    <Graphics FillColor="ffffff" Color="336600"/>
+  </Label>
+  <Label TextLabel="Other targets" GraphId="ad392">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="FXS:&#10;loss of FMRP&#10;&#10;" GraphId="b31b4">
+    <Graphics FillColor="ffffff" Color="ff3333"/>
+  </Label>
+  <Label TextLabel="stalled&#10; polyribosomes" GraphId="b3674">
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="GABA A &#10;Receptor &#10;Subunits" GraphId="bb69e">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="Defective &#10;cAMP &#10;production" GraphId="bdfcb">
+    <Comment>Dysregulation in cAMP is believed to contribute to the neuropathophysiology of FXS</Comment>
+    <BiopaxRef>a86</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" Color="ff3300"/>
+  </Label>
+  <Label TextLabel="NMDAR&#10;subunits" GraphId="e8408">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NMDA Receptor&#10;Pool&#10;" GraphId="f14f5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Basolateral &#10;Amygdala" GraphId="fc0e9">
+    <Comment>Related FXS phenotypes: Anxiety, autism spectrum disorders, seizures</Comment>
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="RoundedRectangle" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="RISC Complex&#10;&#10;&#10;" GraphId="efb04">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="GABAergic synapse components" GraphId="d00ba">
+    <Comment>Target mRNA regulated are involved in GABA metabolism, GABA membrane transportes and GABA scaffolding protein. FMRP regulates the expression of GABA receptor subunits. GABAergic signalling is essential for the regulation of neuronal maturation and migration and for neuronal circuit formation. </Comment>
+    <BiopaxRef>a46</BiopaxRef>
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="Dysregulated metabolic &#10;homeostasis" GraphId="a733d">
+    <Comment>FXS patients show metabolic anomalies. FXS patients have shown to have significant low levels of plasma cholesterol levels, reduced total choesterol, LDL and HDL. Furthermore, FMR1 Ko models have shown reduced circulating glucose, insulin levels and increased fatty acid levels in the circuitry system. </Comment>
+    <BiopaxRef>c27</BiopaxRef>
+    <BiopaxRef>f34</BiopaxRef>
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="Rectangle" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="TSC complex " GraphId="f6f70">
+    <Comment>The TSC1 complex is a negative regulator of mTORC1, when phosphorylated, its inhibitory activity is repressed</Comment>
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="PKA" GraphId="cf14b">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="eIF4F complex" GraphId="f796b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="mGluR-LTD&#10;&#10;" GraphId="b23f7">
+    <Comment>Upon activation of Group I mGluR, there is rapid translation of proteins which mediate postsynaptic internalization of AMPAR eventually leading to mGluR-dependant LTD. As a consequence, LTD lowers the postsynaptic receptor densisty, thereby allowing the formation of new connection via LTP. LTD mechanisms are essential  for activity-guided synapse elimination. AN important feature of mGluR-LTD is that it is irreversible in contrast to NMDAR-LTD. </Comment>
+    <BiopaxRef>f83</BiopaxRef>
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="Rectangle" Color="ff6600"/>
+  </Label>
+  <Label TextLabel="Receptor subunits" GraphId="b58de">
+    <Comment/>
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="Hippocampus CA1" GraphId="bb8b9">
+    <Comment>Exaggerated mGluR-LTD in CA1 neurons leads to cognitive impairment and developmental delay.  </Comment>
+    <BiopaxRef>f83</BiopaxRef>
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="RoundedRectangle" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="AMPA Receptor" GraphId="b6391">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="Enteric innervation &#10;of the ileum" GraphId="b1576">
+    <Comment>mGluR is expressed in the enteric innervation of the ileum, overactivation of mGluR may affect intesinal mobility, since fragile x patients often complain about loose bowels. </Comment>
+    <BiopaxRef>f83</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="upregulation" GraphId="ba056">
+    <Graphics FillColor="ffffff" Color="ff3333"/>
+  </Label>
+  <Label TextLabel="TrkB Receptor&#10;" GraphId="e8658">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="LTD proteins" GraphId="fa316">
+    <Comment>LTD proteins refers to proteins in dendrites that induce LTD at locally active synapses</Comment>
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="1" GraphId="c1ef2">
+    <Comment>Hypothesis 1: Repression of translation via FMRP is mediated through the RNA interference (RNAi) pathway. FMRP associates with Argonaute 2 and Dicer, components of the RNA-induced silencing complex (RISC), and to specific miRNAs. The KH domains of teh FMRP protein help the miRNA associate on their target mRNA, thus miRNA-RISC comple</Comment>
+    <BiopaxRef>c6a</BiopaxRef>
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="Clathrin&#10;" GraphId="ad70c">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="NMDA&#10; Receptor&#10;" GraphId="a3594">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="AMPAR &#10;internalization" GraphId="ca6bc">
+    <Comment>AMPA internalization is either mediated via te NMDAR pathway or through rapid translation of 'LTD proteins' mediated by mGluR activation. The proteins involved in AMPAR endocytosis and thus LTD, are referred to as 'LTD proteins'. AMPAR endocytosis is triggered by de novo synthesis of LTD proteins. </Comment>
+    <Graphics FillColor="ffffff" FontStyle="Italic" Color="ff6600"/>
+  </Label>
+  <Label TextLabel="AMPA Receptor &#10;Pool" GraphId="b536f">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="Dysregulation of GABAergic &#10;synaptic transmission&#10;" GraphId="b7d58">
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="Rectangle" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="deletion" GraphId="e68fd">
+    <Graphics FillColor="ffffff" Color="ff3333"/>
+  </Label>
+  <Label TextLabel="release of Ca2+" GraphId="ae4e6">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Lipid and glucose metabolsim" GraphId="aa058">
+    <Comment>FMRP contols hepatic/lipid metabolism of key enzymes and transporters through direct translational regulation or through compensatory/adaptive mechanisms. </Comment>
+    <BiopaxRef>f34</BiopaxRef>
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="AP-2" GraphId="ce004">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Group I mGluR" GraphId="f0c38">
+    <Comment>Group I metabotrobic glutamate receptors 1 and 5 are synaptic receptors involved in synaptic plasticity</Comment>
+    <BiopaxRef>c6a</BiopaxRef>
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="mTORC1" GraphId="fcc4b">
+    <Comment>mTORC1 complex directly regulates protein synthesis in mammals</Comment>
+    <BiopaxRef>e4b</BiopaxRef>
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="GDP" GraphId="d48e9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="GTP" GraphId="c333a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P at Ser500&#10;" GraphId="bdbf8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="GDP" GraphId="ce6b0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="GTP" GraphId="e73cb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="e0f68">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="b2f3f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="c84b3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="d952f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="efd50">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="dbd58">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="fd06d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AMPA Receptor" GraphId="cfe33">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="P" GraphId="d610e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="2&#10;" GraphId="d1ec4">
+    <Comment>Hypothesis 2: FMRP inhibits translation of target mRNA through binding to the coding sequence that are associated with actively translating ribosomes, thereby acting as a steric block for ribosome elongation and thus, translation. </Comment>
+    <BiopaxRef>c6a</BiopaxRef>
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="3&#10;&#10;" GraphId="cf6dc">
+    <Comment>Hypothesis 3: FMRP inhibits cap-dependant translation. Cap-dependent translation requires eIF4F complex (comosed of eIFG-eIF4F-eIF4E) for translational initiation and are inhibited when 4E-binding proteins (4E-BP) interfer with the complex.  FMRP inhibits this type of translation by recruiting and binding cytoplasmic FMRP-interacting protein (CYFIP1) to target mRNAs and subsequently associates with eIF4E, thereby forming a FMRP/CYFIP1/eIF4E complex, blocking the recruitment of the translation initation machinery.</Comment>
+    <BiopaxRef>c6a</BiopaxRef>
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="P" GraphId="b7b7b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P at Thr308" GraphId="e211e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="a4e55">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="mGluR-LTP&#10;" GraphId="d0e6c">
+    <Comment/>
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="Rectangle" Color="ffcc66"/>
+  </Label>
+  <Label TextLabel="AMPA Receptor" GraphId="e5965">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="AMPAR &#10;exocytosis" GraphId="c8e17">
+    <Comment>AMPAR exosytosis mediates the increase in synaptic strength during LTP. </Comment>
+    <BiopaxRef>b64</BiopaxRef>
+    <Graphics FillColor="ffffff" FontStyle="Italic" Color="ffcc66"/>
+  </Label>
+  <Label TextLabel="downregulation" GraphId="c0712">
+    <Graphics FillColor="ffffff" Color="ff3333"/>
+  </Label>
+  <Label TextLabel="NMDAR&#10;LTD&#10;&#10;" GraphId="f4a71">
+    <Comment>NMDA-LTD is revesible and induced upon the activation of NMDA receptors. NMDAR-LTD is essential for working and space memory. </Comment>
+    <BiopaxRef>d25</BiopaxRef>
+    <Graphics FillColor="ffffff" FontStyle="Italic" Color="336600"/>
+  </Label>
+  <Label TextLabel="PKA" GraphId="e6721">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="Cerebellar cortex" GraphId="ab818">
+    <Comment>Exaggerated LTD in the cerebellar cortex leads to loss of motor coordination. </Comment>
+    <BiopaxRef>f83</BiopaxRef>
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="RoundedRectangle" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Amygdala" GraphId="b5f0c">
+    <Comment>Fear memory formation and LTP are dependant on mGluR5. FMR1 KO mouse show abnormal contextual and conditional fear responses. mGluR-LTP and NMDA-LTP have been correlated with anxiety-like behaviors in FXS. </Comment>
+    <BiopaxRef>fa6</BiopaxRef>
+    <BiopaxRef>f83</BiopaxRef>
+    <BiopaxRef>de2</BiopaxRef>
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="RoundedRectangle" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Corticostriatal &#10;synapse" GraphId="df32e">
+    <Comment>mGluR-dependant LTP in the corticostriatal synapse is linked to obsessive-compulsive behaviours in FXS. </Comment>
+    <BiopaxRef>f83</BiopaxRef>
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="RoundedRectangle" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Neocortical layer&#10;5 neurons" GraphId="b5fdb">
+    <Comment>Heightened behavioral responses to sensory stimuli</Comment>
+    <BiopaxRef>f83</BiopaxRef>
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="RoundedRectangle" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Audiogenic seizures" GraphId="aab06">
+    <BiopaxRef>f83</BiopaxRef>
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="RoundedRectangle" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="C-fiber innervation" GraphId="f31d0">
+    <Comment>mGluR overactivation in c-fiber innervation of the skin leads to heightened sensitivity to tactile irritation. </Comment>
+    <BiopaxRef>f83</BiopaxRef>
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="RoundedRectangle" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Suprachiasmatic &#10;nucleus" GraphId="c9c06">
+    <Comment>mGluR overactivation in the suprachiasmatic nucleus has shown to disrupt circadian rythm in Drosophila. </Comment>
+    <BiopaxRef>f83</BiopaxRef>
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="RoundedRectangle" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="P &#10;at Y1472" GraphId="aadef">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="b9ab3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AP-2" GraphId="b1364">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Clathrin&#10;" GraphId="bee6e">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="overactivation" GraphId="ce168">
+    <Graphics FillColor="ffffff" Color="ff3333"/>
+  </Label>
+  <Label TextLabel="Somatosensory&#10;Cortex" GraphId="f07bf">
+    <Comment>Related FXS phenotype: Seizures, cognitive dysfunction, sensory hypersensitivity</Comment>
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="RoundedRectangle" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Striatum" GraphId="e2d51">
+    <Comment>Relatred FXS phenotypes: Frontostriatal dysfunction, involved in hyperactivity disorder and repetitive behaviour observed in FXS phenotype </Comment>
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="RoundedRectangle" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Subiculum " GraphId="ceb77">
+    <Comment>Related FXS phenotypes: Seizures, cogniitve impairment</Comment>
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="RoundedRectangle" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Hippocampus &#10;CA1" GraphId="e7bbc">
+    <Comment>Related FXS phenotypes: Seizures, cognitive impairment, circuit hyperplasticity</Comment>
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="RoundedRectangle" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="NMDAR&#10;LTP&#10;&#10;" GraphId="c0b9d">
+    <Comment>NMDA-LTD is revesible and induced upon the activation of NMDA receptors. NMDAR-LTD is essential for working and space memory. mGluR facilitates NMDAR-LTP. </Comment>
+    <Graphics FillColor="ffffff" FontStyle="Italic" Color="669900"/>
+  </Label>
+  <Label TextLabel="NMDAR&#10;intsertion" GraphId="a938f">
+    <Graphics FillColor="ffffff" Color="669900"/>
+  </Label>
+  <Label TextLabel="P" GraphId="df0f7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="ae97f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="b2591">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="e8fb6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="hypofunction" GraphId="cf939">
+    <Graphics FillColor="ffffff" Color="ff3333"/>
+  </Label>
+  <Shape GraphId="fc9aa">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="cccccc"/>
+  </Shape>
+  <Shape GraphId="ea186">
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="ffcccc"/>
+  </Shape>
+  <Shape GraphId="c7dbe">
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="ffcccc"/>
+  </Shape>
+  <Shape GraphId="d8a83">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="fe2fa">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="cccccc"/>
+  </Shape>
+  <Shape GraphId="fccef">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="cccccc"/>
+  </Shape>
+  <Shape GraphId="f20f2">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="cccccc"/>
+  </Shape>
+  <Shape GraphId="e2fa1">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="b805b">
+    <Graphics FillColor="ccccff" ShapeType="RoundedRectangle" Color="ccccff"/>
+  </Shape>
+  <Shape GraphId="af92b">
+    <Graphics FillColor="ccccff" ShapeType="RoundedRectangle" Color="ccccff"/>
+  </Shape>
+  <Shape GraphId="d7fe4">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="e358b">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="ba8eb">
+    <Graphics FillColor="ffcc99" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="a8122">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b107c">
+    <Graphics ShapeType="Brace"/>
+  </Shape>
+  <Shape GraphId="b921f">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="c44df">
+    <Graphics ShapeType="RoundedRectangle" LineStyle="Broken"/>
+  </Shape>
+  <Shape GraphId="da0ab">
+    <Graphics ShapeType="Brace"/>
+  </Shape>
+  <Shape GraphId="a264b">
+    <Comment/>
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="b2f66">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="a15ec">
+    <Graphics FillColor="ccccff" ShapeType="RoundedRectangle" Color="ccccff"/>
+  </Shape>
+  <Shape GraphId="a6afa">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="c6afc">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="bdf59" GroupRef="bb884">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="ff607">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c4403">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="ce1d8">
+    <Graphics ShapeType="mim-degradation" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="f2d94">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="bb672">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="dd3c9">
+    <Graphics FillColor="ffcc00" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="a50d5">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="d2fce">
+    <Graphics FillColor="ffcc99" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="f4e23">
+    <Graphics FillColor="ffcc00" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="f02b3">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="d060a">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="d31e3">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="ffee9">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="ffaab">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="ab17f">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape TextLabel="Influx Ca2+" GraphId="a88d2">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="b5a23">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="ffca3">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="f3f22">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="bca46">
+    <Comment>FMRP gene product is lost</Comment>
+    <Graphics ShapeType="mim-degradation" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="fe3f9">
+    <Comment>With FMRP loss, there is loss of the translational repression activity of FMRP. This leads to overexpression of target mRNAs.</Comment>
+    <Graphics ShapeType="mim-degradation" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="bd92a">
+    <Comment>With FMRP loss, there is loss of the translational repression activity of FMRP. This leads to overexpression of target mRNAs.</Comment>
+    <Graphics ShapeType="mim-degradation" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="a8166">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="a4a58">
+    <Comment>With FMRP loss, there is loss of the enhances protein expression by FMRP to GABAergic system components</Comment>
+    <Graphics ShapeType="mim-degradation" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="f4d08">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="f5e1e">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="b768c">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="ff791">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Group GroupId="abd19" GraphId="a7c50" Style="Complex"/>
+  <Group GroupId="a4311" GraphId="ae386" Style="Complex"/>
+  <Group GroupId="acd3f" GraphId="aeb05" Style="Complex"/>
+  <Group GroupId="fbce9" GraphId="af3f1" Style="Complex"/>
+  <Group GroupId="ceedf" GraphId="b129c" Style="Complex"/>
+  <Group GroupId="eeb7e" GraphId="b7b69" Style="Complex"/>
+  <Group GroupId="bb884" GraphId="b8279" Style="Complex"/>
+  <Group GroupId="cf30a" GraphId="bf43f" Style="Complex"/>
+  <Group GroupId="f9883" GraphId="c7984" Style="Complex">
+    <Comment>Exact subunits which form</Comment>
+  </Group>
+  <Group GroupId="adc57" GraphId="cb9d3" Style="Complex"/>
+  <Group GroupId="caa4b" GraphId="cd97a" Style="Complex"/>
+  <Group GroupId="a806b" GraphId="d0da8" Style="Complex"/>
+  <Group GroupId="f8b08" GraphId="d2136" Style="Complex"/>
+  <Group GroupId="b28cc" GraphId="d33a7" Style="Complex"/>
+  <Group GroupId="ee19f" GraphId="d8174" Style="Complex"/>
+  <Group GroupId="e4320" GraphId="e42e2" Style="Complex">
+    <Comment>Exact subunits which form </Comment>
+  </Group>
+  <Group GroupId="a4a6b" GraphId="e665d" Style="Complex"/>
+  <Group GroupId="bc2f4" GraphId="f384c" Style="Complex"/>
+  <Group GroupId="e75aa" GraphId="f466a" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a10">
+      <bp:ID >P54764</bp:ID>
+      <bp:DB >Uniprot-TrEMBL</bp:DB>
+      <bp:TITLE >P54764 (EPHA4_HUMAN)</bp:TITLE>
+      <bp:SOURCE >https://www.uniprot.org/uniprot/P54764</bp:SOURCE>
+      <bp:YEAR />
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >autism spectrum disorder</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0060041</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="de1">
+      <bp:ID >23641197</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >FMRP: a triple threat to PSD-95.</bp:TITLE>
+      <bp:SOURCE >Front Cell Neurosci</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Westmark CJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f94">
+      <bp:ID >20188650</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Group 1 mGluR-dependent synaptic long-term depression: mechanisms and implications for circuitry and disease.</bp:TITLE>
+      <bp:SOURCE >Neuron</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >L&#252;scher C</bp:AUTHORS>
+      <bp:AUTHORS >Huber KM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a79">
+      <bp:ID >9839441</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Fyn, a Src family tyrosine kinase.</bp:TITLE>
+      <bp:SOURCE >Int J Biochem Cell Biol</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Resh MD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a8a">
+      <bp:ID >24044036</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulation of GABAA receptors by fragile X mental retardation protein.</bp:TITLE>
+      <bp:SOURCE >Int J Physiol Pathophysiol Pharmacol</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Liu B</bp:AUTHORS>
+      <bp:AUTHORS >Li L</bp:AUTHORS>
+      <bp:AUTHORS >Chen J</bp:AUTHORS>
+      <bp:AUTHORS >Wang Z</bp:AUTHORS>
+      <bp:AUTHORS >Li Z</bp:AUTHORS>
+      <bp:AUTHORS >Wan Q</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce2">
+      <bp:ID >28473628</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Molecular mechanisms of Dicer: endonuclease and enzymatic activity.</bp:TITLE>
+      <bp:SOURCE >Biochem J</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Song MS</bp:AUTHORS>
+      <bp:AUTHORS >Rossi JJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba4">
+      <bp:ID >26468183</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Dysregulation of Mammalian Target of Rapamycin Signaling in Mouse Models of Autism.</bp:TITLE>
+      <bp:SOURCE >J Neurosci</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Huber KM</bp:AUTHORS>
+      <bp:AUTHORS >Klann E</bp:AUTHORS>
+      <bp:AUTHORS >Costa-Mattioli M</bp:AUTHORS>
+      <bp:AUTHORS >Zukin RS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e61">
+      <bp:ID >26670047</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Elevated CaMKII&#945; and Hyperphosphorylation of Homer Mediate Circuit Dysfunction in a Fragile X Syndrome Mouse Model.</bp:TITLE>
+      <bp:SOURCE >Cell Rep</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Guo W</bp:AUTHORS>
+      <bp:AUTHORS >Ceolin L</bp:AUTHORS>
+      <bp:AUTHORS >Collins KA</bp:AUTHORS>
+      <bp:AUTHORS >Perroy J</bp:AUTHORS>
+      <bp:AUTHORS >Huber KM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c69">
+      <bp:ID >28859574</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cognitive Dysfunctions in Intellectual Disabilities: The Contributions of the Ras-MAPK and PI3K-AKT-mTOR Pathways.</bp:TITLE>
+      <bp:SOURCE >Annu Rev Genomics Hum Genet</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Borrie SC</bp:AUTHORS>
+      <bp:AUTHORS >Brems H</bp:AUTHORS>
+      <bp:AUTHORS >Legius E</bp:AUTHORS>
+      <bp:AUTHORS >Bagni C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e12">
+      <bp:ID >A7KAX9</bp:ID>
+      <bp:DB >Uniprot-TrEMBL</bp:DB>
+      <bp:TITLE >UniProtKB - A7KAX9 (RHG32_HUMAN)</bp:TITLE>
+      <bp:SOURCE >https://www.uniprot.org/uniprot/A7KAX9</bp:SOURCE>
+      <bp:YEAR />
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="def">
+      <bp:ID >7915</bp:ID>
+      <bp:DB >Entrez Gene</bp:DB>
+      <bp:TITLE >ALDH5A1 aldehyde dehydrogenase 5 family member A1 [ Homo sapiens (human) ]</bp:TITLE>
+      <bp:SOURCE >https://www.ncbi.nlm.nih.gov/gene/7915</bp:SOURCE> 
+      <bp:YEAR >2019</bp:YEAR>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e9d">
+      <bp:ID >28183735</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >New insights into the regulatory function of CYFIP1 in the context of WAVE- and FMRP-containing complexes</bp:TITLE>
+      <bp:SOURCE >Google Scholar</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Sabiha Abekhoukh</bp:AUTHORS>
+      <bp:AUTHORS >H. Bahar Sahin</bp:AUTHORS>
+      <bp:AUTHORS >Mauro Grossi</bp:AUTHORS>
+      <bp:AUTHORS >Samantha Zongaro</bp:AUTHORS>
+      <bp:AUTHORS >Thomas Maurin</bp:AUTHORS>
+      <bp:AUTHORS >Irene Madrigal</bp:AUTHORS>
+      <bp:AUTHORS >Daniele Kazue-Sugioka</bp:AUTHORS>
+      <bp:AUTHORS >Annick Raas-Rothschild</bp:AUTHORS>
+      <bp:AUTHORS >Mohamed Doulazmi</bp:AUTHORS>
+      <bp:AUTHORS >Pilar Carrera</bp:AUTHORS>
+      <bp:AUTHORS >Andrea Stachon</bp:AUTHORS>
+      <bp:AUTHORS >Steven Scherer</bp:AUTHORS>
+      <bp:AUTHORS >Maria Rita Drula Do Nascimento</bp:AUTHORS>
+      <bp:AUTHORS >Alain Trembleau</bp:AUTHORS>
+      <bp:AUTHORS >Ignacio Arroyo</bp:AUTHORS>
+      <bp:AUTHORS >Peter Szatmari</bp:AUTHORS>
+      <bp:AUTHORS >Isabel M. Smith</bp:AUTHORS>
+      <bp:AUTHORS >Montserrat Mil&#224;</bp:AUTHORS>
+      <bp:AUTHORS >Adam C. Smith</bp:AUTHORS>
+      <bp:AUTHORS >Angela Giangrande</bp:AUTHORS>
+      <bp:AUTHORS >Isabelle Caill&#233;</bp:AUTHORS>
+      <bp:AUTHORS >Barbara Bardoni</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac2">
+      <bp:ID >17084704</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulation of ras signaling dynamics by Sos-mediated positive feedback.</bp:TITLE>
+      <bp:SOURCE >Curr Biol</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Boykevisch S</bp:AUTHORS>
+      <bp:AUTHORS >Zhao C</bp:AUTHORS>
+      <bp:AUTHORS >Sondermann H</bp:AUTHORS>
+      <bp:AUTHORS >Philippidou P</bp:AUTHORS>
+      <bp:AUTHORS >Halegoua S</bp:AUTHORS>
+      <bp:AUTHORS >Kuriyan J</bp:AUTHORS>
+      <bp:AUTHORS >Bar-Sagi D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc9">
+      <bp:ID >2571</bp:ID>
+      <bp:DB >Entrez Gene</bp:DB>
+      <bp:TITLE >GAD1 glutamate decarboxylase 1 [ Homo sapiens (human) ]</bp:TITLE>
+      <bp:SOURCE >https://www.ncbi.nlm.nih.gov/gene?Db=gene&amp;Cmd=DetailsSearch&amp;Term=2571</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="db1">
+      <bp:ID >25781681</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Ras activation revisited: role of GEF and GAP systems.</bp:TITLE>
+      <bp:SOURCE >Biol Chem</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Hennig A</bp:AUTHORS>
+      <bp:AUTHORS >Markwart R</bp:AUTHORS>
+      <bp:AUTHORS >Esparza-Franco MA</bp:AUTHORS>
+      <bp:AUTHORS >Ladds G</bp:AUTHORS>
+      <bp:AUTHORS >Rubio I</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f91">
+      <bp:ID >18215622</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Molecular dissociation of the role of PSD-95 in regulating synaptic strength and LTD.</bp:TITLE>
+      <bp:SOURCE >Neuron</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Xu W</bp:AUTHORS>
+      <bp:AUTHORS >Schl&#252;ter OM</bp:AUTHORS>
+      <bp:AUTHORS >Steiner P</bp:AUTHORS>
+      <bp:AUTHORS >Czervionke BL</bp:AUTHORS>
+      <bp:AUTHORS >Sabatini B</bp:AUTHORS>
+      <bp:AUTHORS >Malenka RC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b65">
+      <bp:ID >17088211</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Arc/Arg3.1 interacts with the endocytic machinery to regulate AMPA receptor trafficking.</bp:TITLE>
+      <bp:SOURCE >Neuron</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Chowdhury S</bp:AUTHORS>
+      <bp:AUTHORS >Shepherd JD</bp:AUTHORS>
+      <bp:AUTHORS >Okuno H</bp:AUTHORS>
+      <bp:AUTHORS >Lyford G</bp:AUTHORS>
+      <bp:AUTHORS >Petralia RS</bp:AUTHORS>
+      <bp:AUTHORS >Plath N</bp:AUTHORS>
+      <bp:AUTHORS >Kuhl D</bp:AUTHORS>
+      <bp:AUTHORS >Huganir RL</bp:AUTHORS>
+      <bp:AUTHORS >Worley PF</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d20">
+      <bp:ID >30447757</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >ERK/MAPK signaling and autism spectrum disorders</bp:TITLE>
+      <bp:SOURCE >ScienceDirect</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Joseph Vithayathil</bp:AUTHORS>
+      <bp:AUTHORS >Joanna Pucilowska</bp:AUTHORS>
+      <bp:AUTHORS >Gary E. Landreth</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f8b">
+      <bp:ID >22483044</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The pathophysiology of fragile X (and what it teaches us about synapses).</bp:TITLE>
+      <bp:SOURCE >Annu Rev Neurosci</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Bhakar AL</bp:AUTHORS>
+      <bp:AUTHORS >D&#246;len G</bp:AUTHORS>
+      <bp:AUTHORS >Bear MF</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b94">
+      <bp:ID >10.1186/2040-2392-5-16</bp:ID>
+      <bp:DB >DOI</bp:DB>
+      <bp:TITLE >Divergent dysregulation of gene expression in murine models of fragile X syndrome and tuberous sclerosis</bp:TITLE>
+      <bp:SOURCE >https://doi.org/10.1186/2040-2392-5-16</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Kong, Sek Won</bp:AUTHORS>
+      <bp:AUTHORS >Mustafa Sahin</bp:AUTHORS>
+      <bp:AUTHORS >Christin D. Collins, Mary H. Wertz</bp:AUTHORS>
+      <bp:AUTHORS >Malcolm G. Campbell</bp:AUTHORS>
+      <bp:AUTHORS >Jarrett D. Leech</bp:AUTHORS>
+      <bp:AUTHORS >Dilja Krueger</bp:AUTHORS>
+      <bp:AUTHORS >Mark F. Bear</bp:AUTHORS>
+      <bp:AUTHORS >Louis M. Kunkel</bp:AUTHORS>
+      <bp:AUTHORS >Isaac S. Kohane.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb0">
+      <bp:ID >27573877</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Novel roles of amyloid-beta precursor protein metabolites in fragile X syndrome and autism.</bp:TITLE>
+      <bp:SOURCE >Mol Psychiatry</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Westmark CJ</bp:AUTHORS>
+      <bp:AUTHORS >Sokol DK</bp:AUTHORS>
+      <bp:AUTHORS >Maloney B</bp:AUTHORS>
+      <bp:AUTHORS >Lahiri DK</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e42">
+      <bp:ID >17644144</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulation of NMDA receptors by phosphorylation.</bp:TITLE>
+      <bp:SOURCE >Neuropharmacology</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Chen BS</bp:AUTHORS>
+      <bp:AUTHORS >Roche KW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="de2">
+      <bp:ID >27239350</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Synaptic Plasticity, a Prominent Contributor to the Anxiety in Fragile X Syndrome.</bp:TITLE>
+      <bp:SOURCE >Neural Plast</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Yang T</bp:AUTHORS>
+      <bp:AUTHORS >Zhao H</bp:AUTHORS>
+      <bp:AUTHORS >Lu C</bp:AUTHORS>
+      <bp:AUTHORS >Li X</bp:AUTHORS>
+      <bp:AUTHORS >Xie Y</bp:AUTHORS>
+      <bp:AUTHORS >Fu H</bp:AUTHORS>
+      <bp:AUTHORS >Xu H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d83">
+      <bp:ID >20186705</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Postsynaptic BDNF-TrkB signaling in synapse maturation, plasticity, and disease.</bp:TITLE>
+      <bp:SOURCE >Dev Neurobiol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Yoshii A</bp:AUTHORS>
+      <bp:AUTHORS >Constantine-Paton M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >neuron</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000540</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c01">
+      <bp:ID >27889578</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Molecular Neurobiology of mTOR</bp:TITLE>
+      <bp:SOURCE >Google Scholar</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Katarzyna Switona</bp:AUTHORS>
+      <bp:AUTHORS >Katarzyna Kotulskab</bp:AUTHORS>
+      <bp:AUTHORS >Aleksandra Janusz-Kaminskaa</bp:AUTHORS>
+      <bp:AUTHORS >Justyna Zmorzynskaa</bp:AUTHORS>
+      <bp:AUTHORS >Jacek Jaworski</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d35">
+      <bp:ID >19436069</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Ca2+/calmodulin-dependent protein kinase IV links group I metabotropic glutamate receptors to fragile X mental retardation protein in cingulate cortex.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Wang H</bp:AUTHORS>
+      <bp:AUTHORS >Fukushima H</bp:AUTHORS>
+      <bp:AUTHORS >Kida S</bp:AUTHORS>
+      <bp:AUTHORS >Zhuo M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a67">
+      <bp:ID >25113167</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Activity-dependent alterations in the sensitivity to BDNF-TrkB signaling may promote excessive dendritic arborization and spinogenesis in fragile X syndrome in order to compensate for compromised postsynaptic activity.</bp:TITLE>
+      <bp:SOURCE >Med Hypotheses</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Kim SW</bp:AUTHORS>
+      <bp:AUTHORS >Cho KJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d51">
+      <bp:ID >9783642216497</bp:ID>
+      <bp:DB >ISBN</bp:DB>
+      <bp:TITLE >Modeling Fragile X Syndrome</bp:TITLE>
+      <bp:SOURCE >Springer Books</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Robert B. Denman</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c0d">
+      <bp:ID >24533017</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of ionotropic glutamate receptors in childhood neurodevelopmental disorders: autism spectrum disorders and fragile x syndrome.</bp:TITLE>
+      <bp:SOURCE >Curr Neuropharmacol</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Uzunova G</bp:AUTHORS>
+      <bp:AUTHORS >Hollander E</bp:AUTHORS>
+      <bp:AUTHORS >Shepherd J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a1e">
+      <bp:ID >27847432</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Metabotropic glutamate receptor dependent long-term depression in the cortex.</bp:TITLE>
+      <bp:SOURCE >Korean J Physiol Pharmacol</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Kang SJ</bp:AUTHORS>
+      <bp:AUTHORS >Kaang BK</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf2">
+      <bp:ID >22405502</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Genetic manipulation of STEP reverses behavioral abnormalities in a fragile X syndrome mouse model.</bp:TITLE>
+      <bp:SOURCE >Genes Brain Behav</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Goebel-Goody SM</bp:AUTHORS>
+      <bp:AUTHORS >Wilson-Wallis ED</bp:AUTHORS>
+      <bp:AUTHORS >Royston S</bp:AUTHORS>
+      <bp:AUTHORS >Tagliatela SM</bp:AUTHORS>
+      <bp:AUTHORS >Naegele JR</bp:AUTHORS>
+      <bp:AUTHORS >Lombroso PJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd6">
+      <bp:ID >24346713</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >From FMRP function to potential therapies for fragile X syndrome.</bp:TITLE>
+      <bp:SOURCE >Neurochem Res</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Sethna F</bp:AUTHORS>
+      <bp:AUTHORS >Moon C</bp:AUTHORS>
+      <bp:AUTHORS >Wang H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c5c">
+      <bp:ID >14676271</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >PIKE GTPase: a novel mediator of phosphoinositide signaling.</bp:TITLE>
+      <bp:SOURCE >J Cell Sci</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Ye K</bp:AUTHORS>
+      <bp:AUTHORS >Snyder SH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f78">
+      <bp:ID >19345194.</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The postsynaptic density proteins Homer and Shank form a polymericnetwork structure.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Hayashi MK</bp:AUTHORS>
+      <bp:AUTHORS >Tang C</bp:AUTHORS>
+      <bp:AUTHORS >Verpelli C</bp:AUTHORS>
+      <bp:AUTHORS >Narayanan R</bp:AUTHORS>
+      <bp:AUTHORS >Stearns MH</bp:AUTHORS>
+      <bp:AUTHORS >Xu RM</bp:AUTHORS>
+      <bp:AUTHORS >Li H</bp:AUTHORS>
+      <bp:AUTHORS >Sala C</bp:AUTHORS>
+      <bp:AUTHORS >Hayashi Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa0">
+      <bp:ID >20410124</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Enhanced endocannabinoid signaling elevates neuronal excitability in fragile X syndrome.</bp:TITLE>
+      <bp:SOURCE >J Neurosci</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Zhang L</bp:AUTHORS>
+      <bp:AUTHORS >Alger BE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a61">
+      <bp:ID >19345194</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The postsynaptic density proteins Homer and Shank form a polymeric network structure.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Hayashi MK</bp:AUTHORS>
+      <bp:AUTHORS >Tang C</bp:AUTHORS>
+      <bp:AUTHORS >Verpelli C</bp:AUTHORS>
+      <bp:AUTHORS >Narayanan R</bp:AUTHORS>
+      <bp:AUTHORS >Stearns MH</bp:AUTHORS>
+      <bp:AUTHORS >Xu RM</bp:AUTHORS>
+      <bp:AUTHORS >Li H</bp:AUTHORS>
+      <bp:AUTHORS >Sala C</bp:AUTHORS>
+      <bp:AUTHORS >Hayashi Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a08">
+      <bp:ID >16939974</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Neurotrophin-regulated signalling pathways</bp:TITLE>
+      <bp:SOURCE >Philos Trans R Soc Lond B Biol Sci</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >LF Reichard</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f3c">
+      <bp:ID >14585353</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Targeting the PI3K-Akt pathway in human cancer: rationale and promise.</bp:TITLE>
+      <bp:SOURCE >Cancer Cell</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Luo J</bp:AUTHORS>
+      <bp:AUTHORS >Manning BD</bp:AUTHORS>
+      <bp:AUTHORS >Cantley LC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f83">
+      <bp:ID >15219735</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The mGluR theory of fragile X mental retardation.</bp:TITLE>
+      <bp:SOURCE >Trends Neurosci</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Bear MF</bp:AUTHORS>
+      <bp:AUTHORS >Huber KM</bp:AUTHORS>
+      <bp:AUTHORS >Warren ST</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a20">
+      <bp:ID >24727796</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >FMRP regulates miR196a-mediated repression of HOXB8 via interaction with the AGO2 MID domain.</bp:TITLE>
+      <bp:SOURCE >Mol Biosyst</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Li Y</bp:AUTHORS>
+      <bp:AUTHORS >Tang W</bp:AUTHORS>
+      <bp:AUTHORS >Zhang LR</bp:AUTHORS>
+      <bp:AUTHORS >Zhang CY</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d7c">
+      <bp:ID >17298186</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >FMRP mediates mGluR5-dependent translation of amyloid precursor protein.</bp:TITLE>
+      <bp:SOURCE >PLoS Biol</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Westmark CJ</bp:AUTHORS>
+      <bp:AUTHORS >Malter JS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b64">
+      <bp:ID >23576886</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >AMPA receptor trafficking and the mechanisms underlying synaptic plasticity and cognitive aging.</bp:TITLE>
+      <bp:SOURCE >Dialogues Clin Neurosci</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Henley JM</bp:AUTHORS>
+      <bp:AUTHORS >Wilkinson KA</bp:AUTHORS>
+    </bp:PublicationXref>
+	<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c6a">
+      <bp:ID >22017584</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Molecular Mechanisms of Fragile X Syndrome: A Twenty-Year Perspective</bp:TITLE>
+      <bp:SOURCE >Google Scholar</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Michael R. Santoro</bp:AUTHORS>
+      <bp:AUTHORS >Steven M. Bray</bp:AUTHORS>
+      <bp:AUTHORS >Stephen T. Warren</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b1b">
+      <bp:ID >20505079</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Fragile X Mental Retardation Protein: Regulator of Specific mRNAs or Master Regulator of Global Translation?</bp:TITLE>
+      <bp:SOURCE >Google Scholar</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Denise Cook</bp:AUTHORS>
+      <bp:AUTHORS >Scott A. Cameron</bp:AUTHORS>
+      <bp:AUTHORS >Emma V. Jones</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fd2">
+      <bp:ID >22267161</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Disrupted Homer scaffolds mediate abnormal mGluR5 function in a mouse model of fragile X syndrome.</bp:TITLE>
+      <bp:SOURCE >Nat Neurosci</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Ronesi JA</bp:AUTHORS>
+      <bp:AUTHORS >Collins KA</bp:AUTHORS>
+      <bp:AUTHORS >Hays SA</bp:AUTHORS>
+      <bp:AUTHORS >Tsai NP</bp:AUTHORS>
+      <bp:AUTHORS >Guo W</bp:AUTHORS>
+      <bp:AUTHORS >Birnbaum SG</bp:AUTHORS>
+      <bp:AUTHORS >Hu JH</bp:AUTHORS>
+      <bp:AUTHORS >Worley PF</bp:AUTHORS>
+      <bp:AUTHORS >Gibson JR</bp:AUTHORS>
+      <bp:AUTHORS >Huber KM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b48">
+      <bp:ID >18184796</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Homer interactions are necessary for metabotropic glutamate receptor-induced long-term depression and translational activation.</bp:TITLE>
+      <bp:SOURCE >J Neurosci</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Ronesi JA</bp:AUTHORS>
+      <bp:AUTHORS >Huber KM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d04">
+      <bp:ID >10.5451/unibas-003209151</bp:ID>
+      <bp:DB >DOI</bp:DB>
+      <bp:TITLE >Analysis of the Structure and Function of Protein Phosphatase 2A </bp:TITLE>
+      <bp:SOURCE >http://edoc.unibas.ch/diss/DissB_6695; Institutional Repository of the University of Basel</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Karsten Schmidt</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dfe">
+      <bp:ID >27257628</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Activity-Regulated Cytoskeleton-Associated Protein Controls AMPAR Endocytosis through a Direct Interaction with Clathrin-Adaptor Protein 2.</bp:TITLE>
+      <bp:SOURCE >eNeuro</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >DaSilva LL</bp:AUTHORS>
+      <bp:AUTHORS >Wall MJ</bp:AUTHORS>
+      <bp:AUTHORS >P de Almeida L</bp:AUTHORS>
+      <bp:AUTHORS >Wauters SC</bp:AUTHORS>
+      <bp:AUTHORS >Janu&#225;rio YC</bp:AUTHORS>
+      <bp:AUTHORS >M&#252;ller J</bp:AUTHORS>
+      <bp:AUTHORS >Corr&#234;a SA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f34">
+      <bp:ID >30686771</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The translational regulator FMRP controls lipid and glucose metabolism in mice and humans.</bp:TITLE>
+      <bp:SOURCE >Mol Metab</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Leboucher A</bp:AUTHORS>
+      <bp:AUTHORS >Pisani DF</bp:AUTHORS>
+      <bp:AUTHORS >Martinez-Gili L</bp:AUTHORS>
+      <bp:AUTHORS >Chilloux J</bp:AUTHORS>
+      <bp:AUTHORS >Bermudez-Martin P</bp:AUTHORS>
+      <bp:AUTHORS >Van Dijck A</bp:AUTHORS>
+      <bp:AUTHORS >Ganief T</bp:AUTHORS>
+      <bp:AUTHORS >Macek B</bp:AUTHORS>
+      <bp:AUTHORS >Becker JAJ</bp:AUTHORS>
+      <bp:AUTHORS >Le Merrer J</bp:AUTHORS>
+      <bp:AUTHORS >Kooy RF</bp:AUTHORS>
+      <bp:AUTHORS >Amri EZ</bp:AUTHORS>
+      <bp:AUTHORS >Khandjian EW</bp:AUTHORS>
+      <bp:AUTHORS >Dumas ME</bp:AUTHORS>
+      <bp:AUTHORS >Davidovic L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eb4">
+      <bp:ID >9472019</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >4E-BP1, a repressor of mRNA translation, is phosphorylated and inactivated by the Akt(PKB) signaling pathway.</bp:TITLE>
+      <bp:SOURCE >Genes Dev</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Gingras AC</bp:AUTHORS>
+      <bp:AUTHORS >Kennedy SG</bp:AUTHORS>
+      <bp:AUTHORS >O'Leary MA</bp:AUTHORS>
+      <bp:AUTHORS >Sonenberg N</bp:AUTHORS>
+      <bp:AUTHORS >Hay N</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eb2">
+      <bp:ID >224</bp:ID>
+      <bp:DB >Entrez Gene</bp:DB>
+      <bp:TITLE >ALDH3A2 aldehyde dehydrogenase 3 family member A2 [ Homo sapiens (human) ]</bp:TITLE>
+      <bp:SOURCE >https://www.ncbi.nlm.nih.gov/gene/224</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c99">
+      <bp:ID >9780123750723</bp:ID>
+      <bp:DB >ISBN</bp:DB>
+      <bp:TITLE >Intercellular Communication in the Nervous System</bp:TITLE>
+      <bp:SOURCE >Google Books</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Robert Malenka</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e3a">
+      <bp:ID >6529</bp:ID>
+      <bp:DB >Entrez Gene</bp:DB>
+      <bp:TITLE >SLC6A1 solute carrier family 6 member 1 [ Homo sapiens (human) ]</bp:TITLE>
+      <bp:SOURCE >https://www.ncbi.nlm.nih.gov/gene/6529</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aa6">
+      <bp:ID >10473536</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The calcineurin-dynamin 1 complex as a calcium sensor for synaptic vesicle endocytosis.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Lai MM</bp:AUTHORS>
+      <bp:AUTHORS >Hong JJ</bp:AUTHORS>
+      <bp:AUTHORS >Ruggiero AM</bp:AUTHORS>
+      <bp:AUTHORS >Burnett PE</bp:AUTHORS>
+      <bp:AUTHORS >Slepnev VI</bp:AUTHORS>
+      <bp:AUTHORS >De Camilli P</bp:AUTHORS>
+      <bp:AUTHORS >Snyder SH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a46">
+      <bp:ID >30402088</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Impaired GABA Neural Circuits Are Critical for Fragile X Syndrome.</bp:TITLE>
+      <bp:SOURCE >Neural Plast</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Gao F</bp:AUTHORS>
+      <bp:AUTHORS >Qi L</bp:AUTHORS>
+      <bp:AUTHORS >Yang Z</bp:AUTHORS>
+      <bp:AUTHORS >Yang T</bp:AUTHORS>
+      <bp:AUTHORS >Zhang Y</bp:AUTHORS>
+      <bp:AUTHORS >Xu H</bp:AUTHORS>
+      <bp:AUTHORS >Zhao H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d25">
+      <bp:ID >24966374</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NMDA Receptor-Dependent LTD Is Required for Consolidation But Not Acquisition of Fear Memory</bp:TITLE>
+      <bp:SOURCE >The Journal of Neurosicence</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Xing Liu</bp:AUTHORS>
+      <bp:AUTHORS >Qin-Hua Gu</bp:AUTHORS>
+      <bp:AUTHORS >Kaizheng Duan</bp:AUTHORS>
+      <bp:AUTHORS >Zheng Li</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ee2">
+      <bp:ID >Q9Y566</bp:ID>
+      <bp:DB >Uniprot-TrEMBL	</bp:DB>
+      <bp:TITLE >UniProtKB - Q9Y566 (SHAN1_HUMAN)</bp:TITLE>
+      <bp:SOURCE >https://www.uniprot.org/uniprot/Q9Y566</bp:SOURCE>
+      <bp:YEAR />
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b0a">
+      <bp:ID >21162125</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Fragile X mice: reduced long-term potentiation and N-Methyl-D-Aspartate receptor-mediated neurotransmission in dentate gyrus.</bp:TITLE>
+      <bp:SOURCE >J Neurosci Res</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Yun SH</bp:AUTHORS>
+      <bp:AUTHORS >Trommer BL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dda">
+      <bp:ID >18</bp:ID>
+      <bp:DB >Entrez Gene</bp:DB>
+      <bp:TITLE > ABAT 4-aminobutyrate aminotransferase [ Homo sapiens (human) ]</bp:TITLE>
+      <bp:SOURCE >https://www.ncbi.nlm.nih.gov/gene?Db=gene&amp;Cmd=DetailsSearch&amp;Term=18</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a32">
+      <bp:ID >11237210</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Ras activation of the Raf kinase: tyrosine kinase recruitment of the MAP kinase cascade.</bp:TITLE>
+      <bp:SOURCE >Recent Prog Horm Res</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Avruch J</bp:AUTHORS>
+      <bp:AUTHORS >Khokhlatchev A</bp:AUTHORS>
+      <bp:AUTHORS >Kyriakis JM</bp:AUTHORS>
+      <bp:AUTHORS >Luo Z</bp:AUTHORS>
+      <bp:AUTHORS >Tzivion G</bp:AUTHORS>
+      <bp:AUTHORS >Vavvas D</bp:AUTHORS>
+      <bp:AUTHORS >Zhang XF</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e4c">
+      <bp:ID >27766264</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >ABC Transporter Subfamily D: Distinct Differences in Behavior between ABCD1-3 and ABCD4 in Subcellular Localization, Function, and Human Disease.</bp:TITLE>
+      <bp:SOURCE >Biomed Res Int</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Kawaguchi K</bp:AUTHORS>
+      <bp:AUTHORS >Morita M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b22">
+      <bp:ID >1374</bp:ID>
+      <bp:DB >Entrez Gene</bp:DB>
+      <bp:TITLE >CPT1A gene </bp:TITLE>
+      <bp:SOURCE >https://www.ncbi.nlm.nih.gov/gene/1374</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d7d">
+      <bp:ID >24044036</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulation of GABAA receptors by fragile X mental retardation protein.</bp:TITLE>
+      <bp:SOURCE >Int J Physiol Pathophysiol Pharmacol</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Liu B</bp:AUTHORS>
+      <bp:AUTHORS >Li L</bp:AUTHORS>
+      <bp:AUTHORS >Chen J</bp:AUTHORS>
+      <bp:AUTHORS >Wang Z</bp:AUTHORS>
+      <bp:AUTHORS >Li Z</bp:AUTHORS>
+      <bp:AUTHORS >Wan Q</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c3d">
+      <bp:ID >29410531</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mechanisms of clathrin-mediated endocytosis</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Marko Kaksonen</bp:AUTHORS>
+      <bp:AUTHORS >Aur&#233;lien Roux</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e4b">
+      <bp:ID >12563289</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Tor signalling in bugs, brain and brawn.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Jacinto E</bp:AUTHORS>
+      <bp:AUTHORS >Hall MN</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b75">
+      <bp:ID >19602257</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Src kinase up-regulates the ERK cascade through inactivation of protein phosphatase 2A following cerebral ischemia.</bp:TITLE>
+      <bp:SOURCE >BMC Neurosci</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Hu X</bp:AUTHORS>
+      <bp:AUTHORS >Wu X</bp:AUTHORS>
+      <bp:AUTHORS >Xu J</bp:AUTHORS>
+      <bp:AUTHORS >Zhou J</bp:AUTHORS>
+      <bp:AUTHORS >Han X</bp:AUTHORS>
+      <bp:AUTHORS >Guo J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="afd">
+      <bp:ID >16908410</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Dynamic translational and proteasomal regulation of fragile X mental retardation protein controls mGluR-dependent long-term depression.</bp:TITLE>
+      <bp:SOURCE >Neuron</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Hou L</bp:AUTHORS>
+      <bp:AUTHORS >Antion MD</bp:AUTHORS>
+      <bp:AUTHORS >Hu D</bp:AUTHORS>
+      <bp:AUTHORS >Spencer CM</bp:AUTHORS>
+      <bp:AUTHORS >Paylor R</bp:AUTHORS>
+      <bp:AUTHORS >Klann E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f8c">
+      <bp:ID >11837891</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >GABA and GABA receptors in the central nervous system and other organs.</bp:TITLE>
+      <bp:SOURCE >Int Rev Cytol</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Watanabe M</bp:AUTHORS>
+      <bp:AUTHORS >Maemura K</bp:AUTHORS>
+      <bp:AUTHORS >Kanbara K</bp:AUTHORS>
+      <bp:AUTHORS >Tamayama T</bp:AUTHORS>
+      <bp:AUTHORS >Hayasaki H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d33">
+      <bp:ID >4204</bp:ID>
+      <bp:DB >Entrez Gene</bp:DB>
+      <bp:TITLE >MECP2 Gene</bp:TITLE>
+      <bp:SOURCE >https://www.ncbi.nlm.nih.gov/gene/4204</bp:SOURCE>
+      <bp:YEAR />
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a86">
+      <bp:ID >17895972</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The cyclic AMP cascade is altered in the fragile X nervous system.</bp:TITLE>
+      <bp:SOURCE >PLoS One</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Kelley DJ</bp:AUTHORS>
+      <bp:AUTHORS >Davidson RJ</bp:AUTHORS>
+      <bp:AUTHORS >Elliott JL</bp:AUTHORS>
+      <bp:AUTHORS >Lahvis GP</bp:AUTHORS>
+      <bp:AUTHORS >Yin JC</bp:AUTHORS>
+      <bp:AUTHORS >Bhattacharyya A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bfd">
+      <bp:ID >22510460</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NMDA receptor-dependent long-term potentiation and long-term depression (LTP/LTD).</bp:TITLE>
+      <bp:SOURCE >Cold Spring Harb Perspect Biol</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >L&#252;scher C</bp:AUTHORS>
+      <bp:AUTHORS >Malenka RC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e30">
+      <bp:ID >10243</bp:ID>
+      <bp:DB >Entrez Gene</bp:DB>
+      <bp:TITLE >GPHN gephyrin [ Homo sapiens (human) ]</bp:TITLE>
+      <bp:SOURCE >https://www.ncbi.nlm.nih.gov/gene/10243</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bbc">
+      <bp:ID >23202739</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Fragile X syndrome: causes, diagnosis, mechanisms, and therapeutics.</bp:TITLE>
+      <bp:SOURCE >J Clin Invest</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Bagni C</bp:AUTHORS>
+      <bp:AUTHORS >Tassone F</bp:AUTHORS>
+      <bp:AUTHORS >Neri G</bp:AUTHORS>
+      <bp:AUTHORS >Hagerman R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e89">
+      <bp:ID >21167873</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The MAPK cascades: signaling components, nuclear roles and mechanisms of nuclear translocation.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Plotnikov A</bp:AUTHORS>
+      <bp:AUTHORS >Zehorai E</bp:AUTHORS>
+      <bp:AUTHORS >Procaccia S</bp:AUTHORS>
+      <bp:AUTHORS >Seger R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bc3">
+      <bp:ID >14570712</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Phosphorylation influences the translation state of FMRP-associated polyribosomes.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Ceman S</bp:AUTHORS>
+      <bp:AUTHORS >O'Donnell WT</bp:AUTHORS>
+      <bp:AUTHORS >Reed M</bp:AUTHORS>
+      <bp:AUTHORS >Patton S</bp:AUTHORS>
+      <bp:AUTHORS >Pohl J</bp:AUTHORS>
+      <bp:AUTHORS >Warren ST</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c3b">
+      <bp:ID >16125054</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The cAMP signalling pathway activates CREB through PKA, p38 and MSK1 in NIH 3T3 cells.</bp:TITLE>
+      <bp:SOURCE >Cell Signal</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Delghandi MP</bp:AUTHORS>
+      <bp:AUTHORS >Johannessen M</bp:AUTHORS>
+      <bp:AUTHORS >Moens U</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b4e">
+      <bp:ID >30705620</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Fragile-X Syndrome Is Associated With NMDA Receptor Hypofunction and Reduced Dendritic Complexity in Mature Dentate Granule Cells.</bp:TITLE>
+      <bp:SOURCE >Front Mol Neurosci</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Yau SY</bp:AUTHORS>
+      <bp:AUTHORS >Bettio L</bp:AUTHORS>
+      <bp:AUTHORS >Chiu J</bp:AUTHORS>
+      <bp:AUTHORS >Chiu C</bp:AUTHORS>
+      <bp:AUTHORS >Christie BR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b23">
+      <bp:ID >12368261</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A Drosophila fragile X protein interacts with components of RNAi and ribosomal proteins.</bp:TITLE>
+      <bp:SOURCE >Genes Dev</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Ishizuka A</bp:AUTHORS>
+      <bp:AUTHORS >Siomi MC</bp:AUTHORS>
+      <bp:AUTHORS >Siomi H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aae">
+      <bp:ID >17496911</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >G Protein regulation of MAPK networks</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Z G Goldsmith</bp:AUTHORS>
+      <bp:AUTHORS >D N Dhanasekaran</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f3d">
+      <bp:ID >18332424</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Aberrant early-phase ERK inactivation impedes neuronal function in fragile X syndrome.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Kim SH</bp:AUTHORS>
+      <bp:AUTHORS >Markham JA</bp:AUTHORS>
+      <bp:AUTHORS >Weiler IJ</bp:AUTHORS>
+      <bp:AUTHORS >Greenough WT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c33">
+      <bp:ID >25729352</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Fragile X mental retardation protein: from autism to neurodegenerative disease</bp:TITLE>
+      <bp:SOURCE >Frontiersin</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Hansen Wang</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ece">
+      <bp:ID >30364226</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The Regulation of AMPA Receptor Endocytosis by Dynamic Protein-Protein Interactions.</bp:TITLE>
+      <bp:SOURCE >Front Cell Neurosci</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Hanley JG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >brain disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001414</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d39">
+      <bp:ID >20457613</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Roles of fragile X mental retardation protein in dopaminergic stimulation-induced synapse-associated protein synthesis and subsequent alpha-amino-3-hydroxyl-5-methyl-4-isoxazole-4-propionate (AMPA) receptor internalization.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Wang H</bp:AUTHORS>
+      <bp:AUTHORS >Kim SS</bp:AUTHORS>
+      <bp:AUTHORS >Zhuo M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >fragile X syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:14261</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba9">
+      <bp:ID >16055064</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >PICK1 interacts with ABP/GRIP to regulate AMPA receptor trafficking.</bp:TITLE>
+      <bp:SOURCE >Neuron</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Lu W</bp:AUTHORS>
+      <bp:AUTHORS >Ziff EB</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a19">
+      <bp:ID >15673435</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Differential expression of two NMDA receptor interacting proteins, PSD-95 and SynGAP during mouse development.</bp:TITLE>
+      <bp:SOURCE >Eur J Neurosci</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Porter K</bp:AUTHORS>
+      <bp:AUTHORS >Komiyama NH</bp:AUTHORS>
+      <bp:AUTHORS >Vitalis T</bp:AUTHORS>
+      <bp:AUTHORS >Kind PC</bp:AUTHORS>
+      <bp:AUTHORS >Grant SG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b85">
+      <bp:ID >18474609</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >S6K1 phosphorylates and regulates fragile X mental retardation protein (FMRP) with the neuronal protein synthesis-dependent mammalian target of rapamycin (mTOR) signaling cascade.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Narayanan U</bp:AUTHORS>
+      <bp:AUTHORS >Nalavadi V</bp:AUTHORS>
+      <bp:AUTHORS >Nakamoto M</bp:AUTHORS>
+      <bp:AUTHORS >Thomas G</bp:AUTHORS>
+      <bp:AUTHORS >Ceman S</bp:AUTHORS>
+      <bp:AUTHORS >Bassell GJ</bp:AUTHORS>
+      <bp:AUTHORS >Warren ST</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa6">
+      <bp:ID >10613508</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Fragile X mouse: strain effects of knockout phenotype and evidence suggesting deficient amygdala function.</bp:TITLE>
+      <bp:SOURCE >Neuroscience</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Paradee W</bp:AUTHORS>
+      <bp:AUTHORS >Melikian HE</bp:AUTHORS>
+      <bp:AUTHORS >Rasmussen DL</bp:AUTHORS>
+      <bp:AUTHORS >Kenneson A</bp:AUTHORS>
+      <bp:AUTHORS >Conn PJ</bp:AUTHORS>
+      <bp:AUTHORS >Warren ST</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="edd">
+      <bp:ID >Q9NZ01</bp:ID>
+      <bp:DB >Uniprot-TrEMBL</bp:DB>
+      <bp:TITLE >TECR_HUMAN</bp:TITLE>
+      <bp:SOURCE >UniProt</bp:SOURCE>
+      <bp:YEAR />
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c27">
+      <bp:ID >28334053</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >New insights of altered lipid profile in Fragile X Syndrome.</bp:TITLE>
+      <bp:SOURCE >PLoS One</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >&#199;aku A</bp:AUTHORS>
+      <bp:AUTHORS >Seidah NG</bp:AUTHORS>
+      <bp:AUTHORS >Lortie A</bp:AUTHORS>
+      <bp:AUTHORS >Gagn&#233; N</bp:AUTHORS>
+      <bp:AUTHORS >Perron P</bp:AUTHORS>
+      <bp:AUTHORS >Dub&#233; J</bp:AUTHORS>
+      <bp:AUTHORS >Corbin F</bp:AUTHORS>
+    </bp:PublicationXref>
+	<bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+	  <bp:TERM>disease pathway</bp:TERM>
+	  <bp:ID>PW:0000013</bp:ID>
+	  <bp:Ontology>Pathway Ontology</bp:Ontology>
+	</bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

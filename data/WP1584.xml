@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Type II diabetes mellitus" Last-Modified="2/22/2013" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="WikiPathways-description">Insulin resistance is strongly associated with type II diabetes. "Diabetogenic" factors including FFA, TNFalpha and cellular stress induce insulin resistance through inhibition of IRS1 functions. Serine/threonine phosphorylation, interaction with SOCS, regulation of the expression, modification of the cellular localization, and degradation represent the molecular mechanisms stimulated by them. Various kinases (ERK, JNK, IKKbeta, PKCzeta, PKCtheta and mTOR) are involved in this process.
+
+The development of type II diabetes requires impaired beta-cell function. Chronic hyperglycemia has been shown to induce multiple defects in beta-cells. Hyperglycemia has been proposed to lead to large amounts of reactive oxygen species (ROS) in beta-cells, with subsequent damage to cellular components including PDX-1. Loss of PDX-1, a critical regulator of insulin promoter activity, has also been proposed as an important mechanism leading to beta-cell dysfunction.
+
+ Although there is little doubt as to the importance of genetic factors in type II diabetes, genetic analysis is difficult due to complex interaction among multiple susceptibility genes and between genetic and environmental factors. Genetic studies have therefore given very diverse results. Kir6.2 and IRS are two of the candidate genes. It is known that Kir6.2 and IRS play central roles in insulin secretion and insulin signal transmission, respectively.
+
+Source: [http://www.kegg.jp/dbget-bin/www_bget?pathway+map04930 KEGG]
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP1584 CPTAC Assay Portal].</Comment>
+  <Comment Source="WikiPathways-category">Physiological Process</Comment>
+  <BiopaxRef>f81</BiopaxRef>
+  <BiopaxRef>e75</BiopaxRef>
+  <BiopaxRef>f9e</BiopaxRef>
+  <BiopaxRef>f43</BiopaxRef>
+  <Graphics BoardWidth="1167.0" BoardHeight="1101.0"/>
+  <DataNode TextLabel="Kir6.2" GraphId="a27c1" Type="GeneProduct">
+    <Graphics Color="ff6666"/>
+    </DataNode>
+  <DataNode TextLabel="TNF alpha" GraphId="a6465" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="INSR" GraphId="a8f54" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ERK" GraphId="aa054" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MafA" GraphId="ab37e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GLUT4" GraphId="aedad" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GLUT2" GraphId="af9ea" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PRKCZ" GraphId="b8c9e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="INS" GraphId="bee2d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="P13K" GraphId="c4cd4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Apoptosis" GraphId="c50a6" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="ADIPO" GraphId="c7fef" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PYK" GraphId="ca6d2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Ca2+" GraphId="d0a5c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="JNK" GraphId="d5a0e" Type="GeneProduct" GroupRef="bde7b">
+        </DataNode>
+  <DataNode TextLabel="Pyruvate" GraphId="d8a08" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GK" GraphId="dc8a7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IKK" GraphId="def02" Type="GeneProduct" GroupRef="bde7b">
+        </DataNode>
+  <DataNode TextLabel="VDCC" GraphId="e17a4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ATP" GraphId="e364c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="INS" GraphId="e4bc9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOCS" GraphId="e9385" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="JNK" GraphId="eab9c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IRS" GraphId="ee078" Type="GeneProduct">
+    <Graphics Color="ff3333"/>
+    </DataNode>
+  <DataNode TextLabel="Glucose" GraphId="f4788" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="mTOR" GraphId="f79f5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PDX-1" GraphId="f8821" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="&#9;PRKCD" GraphId="f92d0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SURF1" GraphId="fbecd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IRS" GraphId="ffd77" Type="GeneProduct">
+    <Graphics Color="330033"/>
+    </DataNode>
+  <Interaction GraphId="a3c6d">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a6465"/>
+      <Point GraphRef="d5a0e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b27b2">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="c4cd4"/>
+      <Point GraphRef="ae200" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b95c7">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a6465"/>
+      <Point GraphRef="f79f5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c67fd">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d8a08"/>
+      <Point GraphRef="e364c" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="cf9a5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9649">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="a5046" ArrowHead="Arrow"/>
+      <Point/>
+      <Point GraphRef="f92d0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fac33">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="eace8"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="ae200" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fc809">
+    <Graphics>
+      <Point GraphRef="f63ac"/>
+      <Point GraphRef="bee2d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fcf87">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="c50a6"/>
+      <Point GraphRef="d9cc5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ff5c0">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a5046"/>
+      <Point GraphRef="ab37e" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id127ec11e">
+    <Graphics>
+      <Point GraphRef="f4788"/>
+      <Point GraphRef="dc8a7" ArrowHead="Arrow"/>
+      <Anchor Position="0.5698914435710711" Shape="None" GraphId="fe9f2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1553b3d3">
+    <Graphics>
+      <Point GraphRef="ee078"/>
+      <Point GraphRef="c4cd4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id18a8f0b4">
+    <Graphics>
+      <Point GraphRef="f92d0"/>
+      <Point GraphRef="ffd77" ArrowHead="mim-inhibition"/>
+      <Anchor Position="0.6456696884495605" Shape="None" GraphId="eace8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id23d3a8cd">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="d0a5c"/>
+      <Point GraphRef="bee2d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id407ae2a6">
+    <Graphics>
+      <Point GraphRef="a8f54"/>
+      <Point GraphRef="ee078" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id41a64164">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c436f"/>
+      <Point GraphRef="c1f0e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4751ae6b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bee2d"/>
+      <Point GraphRef="d9cc5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4b7c70df">
+    <Graphics>
+      <Point GraphRef="fe9f2" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="af9ea"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6c1b5b7c">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="aedad"/>
+      <Point GraphRef="ae200" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6cdf13e9">
+    <Graphics>
+      <Point GraphRef="b8c9e"/>
+      <Point GraphRef="ffd77" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id71f56de3">
+    <Graphics>
+      <Point GraphRef="e4bc9"/>
+      <Point GraphRef="a8f54" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7520cec5">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="aa054"/>
+      <Point GraphRef="ffd77" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id79d0b4ea">
+    <Graphics>
+      <Point GraphRef="e17a4"/>
+      <Point GraphRef="dff2e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7d45c111">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ac584"/>
+      <Point GraphRef="ef196" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7de15d1e">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a5046"/>
+      <Point GraphRef="f8821" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8b9d83d">
+    <Graphics>
+      <Point GraphRef="ca6d2"/>
+      <Point GraphRef="d8a08" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8f634bad">
+    <Graphics>
+      <Point GraphRef="c7b29"/>
+      <Point GraphRef="f651d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id93543d4b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a8f54"/>
+      <Point GraphRef="aa054" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9eb8a817">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="c4cd4"/>
+      <Point GraphRef="b8c9e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida6f72efc">
+    <Graphics>
+      <Point GraphRef="e9385"/>
+      <Point GraphRef="a8f54" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida75f3386">
+    <Graphics>
+      <Point GraphRef="e9385"/>
+      <Point GraphRef="ffd77" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida8366209">
+    <Graphics>
+      <Point GraphRef="e88a5"/>
+      <Point GraphRef="c7fef" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idadadada9">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="f63ac" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc1dd4df0">
+    <Graphics>
+      <Point GraphRef="e364c"/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc680d09e">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="cf9a5"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="d9cc5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb7c3135">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="d0a5c" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="dff2e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddef40c28">
+    <Graphics>
+      <Point GraphRef="dae1f"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf49a1289">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="dc8a7"/>
+      <Point GraphRef="ca6d2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf5a57cb4">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c7fef"/>
+      <Point GraphRef="aedad" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf7b9f7a8">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c4cd4"/>
+      <Point GraphRef="aedad" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="a7891">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b8712">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bade0">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cbcde">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ce134">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ce29f">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e1841">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ef568">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f628a">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point GraphRef="c50a6" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id7811dc6">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a4277">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Ca 2+ dependent" GraphId="a13ed">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Pancreatic beta cell" GraphId="a9e33">
+    <Graphics FillColor="ffffff" FontName="Arial Black"/>
+  </Label>
+  <Label TextLabel="transient hyperglycemia hyperinsulinism" GraphId="ac584">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Insulin Resistance" GraphId="ae200">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Adipotocyte, heptocyte, skeletal muscle cell&#10; " GraphId="ae5ad">
+    <Graphics FillColor="ffffff" FontName="Arial Black"/>
+  </Label>
+  <Label TextLabel="Adipoctokine signaling &#10;pathway" GraphId="b1ee0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ROS&#10;&#10;" GraphId="b4632">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Maturity onset&#10;diabetes of the young" GraphId="b4813">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="+ps (serine phosphorylation)" GraphId="c3b97">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="obesity" GraphId="c7b29">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Glucose &#10;( hyperglycemia)" GraphId="cac9f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Impaired Insulin Secretion" GraphId="d9cc5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="K+" GraphId="dd86e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="DNA" GraphId="e6424">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Obesity" GraphId="e88a5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="glycation, hexosamine pathway,&#10;respiratory chain" GraphId="e9168">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Adipocytokine Signaling &#10;Pathway&#10;" GraphId="ee984">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Type II diabetes mellitus" GraphId="ef196">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Prevention of &#10;membrane depolarization" GraphId="f46a6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Insulin signaling &#10;pathway" GraphId="f473e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="FFA" GraphId="f651d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="+py (tyrosine&#10; phosphorylation)" GraphId="f975a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="a5046">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b98d5">
+    <Graphics ShapeType="Brace"/>
+  </Shape>
+  <Shape GraphId="c436f">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cd8e2">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="dae1f">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f0efc">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f63ac">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="bde7b" GraphId="c1f0e" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >hyperglycemia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:4195</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f9e">
+      <bp:ID >11272200</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of apoptosis in pancreatic beta-cell death in diabetes.</bp:TITLE>
+      <bp:SOURCE >Diabetes</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Chandra J</bp:AUTHORS>
+      <bp:AUTHORS >Zhivotovsky B</bp:AUTHORS>
+      <bp:AUTHORS >Zaitsev S</bp:AUTHORS>
+      <bp:AUTHORS >Juntti-Berggren L</bp:AUTHORS>
+      <bp:AUTHORS >Berggren PO</bp:AUTHORS>
+      <bp:AUTHORS >Orrenius S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >pancreatic beta cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000169</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f43">
+      <bp:ID >15759102</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Oxidative stress, ER stress, and the JNK pathway in type 2 diabetes.</bp:TITLE>
+      <bp:SOURCE >J Mol Med (Berl)</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Kaneto H</bp:AUTHORS>
+      <bp:AUTHORS >Matsuoka TA</bp:AUTHORS>
+      <bp:AUTHORS >Nakatani Y</bp:AUTHORS>
+      <bp:AUTHORS >Kawamori D</bp:AUTHORS>
+      <bp:AUTHORS >Miyatsuka T</bp:AUTHORS>
+      <bp:AUTHORS >Matsuhisa M</bp:AUTHORS>
+      <bp:AUTHORS >Yamasaki Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e75">
+      <bp:ID >11078440</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Triggering and amplifying pathways of regulation of insulin secretion by glucose.</bp:TITLE>
+      <bp:SOURCE >Diabetes</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Henquin JC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >type 2 diabetes mellitus pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000208</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f81">
+      <bp:ID >15733744</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Positive and negative regulation of insulin signaling through IRS-1 phosphorylation.</bp:TITLE>
+      <bp:SOURCE >Biochimie</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Gual P</bp:AUTHORS>
+      <bp:AUTHORS >Le Marchand-Brustel Y</bp:AUTHORS>
+      <bp:AUTHORS >Tanti JF</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>disease pathway</bp:TERM><bp:ID>PW:0000013</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>diabetes mellitus</bp:TERM><bp:ID>DOID:9351</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

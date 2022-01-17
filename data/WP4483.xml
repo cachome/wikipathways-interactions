@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Relationship between inflammation, COX-2 and EGFR" Version="20181217" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Arachidonic acid metabolic pathway can be activated by inflammation (stimulus). Arachidonic acid is released from membrane phospholipids by a phospholipase A2 (PLA-2) enzyme and converted to bioactive PGE-2 by COX-2. PGE2 induced transactivation of the EGFR by triggering Src and PGE2, an important regulator of CYP19A1 gene expression, stimulates CYP19A1 activity to increase localized estrogen 17-beta-estradiol (E2). The E2 binds to the classical ER to promote its dimerization and translocation to the nucleus where it modulates the expression of estrogen target genes (COX-2). The interaction of E2 with ER-alpha also activates signaling cascades that promote cell proliferation, such as the activation of c-Src tyrosine kinase (Src). Src activation stimulates a matrix metalloproteinase cascade that culminates in liberating the EGF. The free EGF ligand binds to EGFR family receptors that activates ERK signaling cascade. Cytosolic phospholipase A2 (cPLA) is a substrate for ERK and phosphorylation of cPLA (cPLAp), promoting its association with intracellular membranes such as those of the endoplasmic reticulum and mitochondria releasing lysophospholipids and arachidonic acid from these membranes. COX-2 catalyzes the conversion of arachidonic acid into PGE-2. These key molecules and pathways that connect chronic inflammation with inflammation-associated oncogenic transformation could be targeted by drugs or natural products for novel preventive and therapeutic strategies for malignant mesothelioma.</Comment>
+  <BiopaxRef>d36</BiopaxRef>
+  <Graphics BoardWidth="1453.1545647123676" BoardHeight="1113.792234007042"/>
+  <DataNode TextLabel="ESR1" Type="GeneProduct" GroupRef="bb827">
+        </DataNode>
+  <DataNode TextLabel="KRAS" Type="GeneProduct" GroupRef="c3539">
+        </DataNode>
+  <DataNode TextLabel="NRAS" Type="GeneProduct" GroupRef="c3539">
+        </DataNode>
+  <DataNode TextLabel="HRAS" Type="GeneProduct" GroupRef="c3539">
+        </DataNode>
+  <DataNode TextLabel="PI3KB" Type="GeneProduct" GroupRef="f5ffd">
+        </DataNode>
+  <DataNode TextLabel="PI3KD" Type="GeneProduct" GroupRef="f5ffd">
+        </DataNode>
+  <DataNode TextLabel="PI3KG" Type="GeneProduct" GroupRef="f5ffd">
+        </DataNode>
+  <DataNode TextLabel="AKT1" Type="GeneProduct" GroupRef="ee67e">
+        </DataNode>
+  <DataNode TextLabel="AKT2" Type="GeneProduct" GroupRef="ee67e">
+        </DataNode>
+  <DataNode TextLabel="AKT3" Type="GeneProduct" GroupRef="ee67e">
+        </DataNode>
+  <DataNode TextLabel="ERK1" Type="GeneProduct" GroupRef="eafda">
+        </DataNode>
+  <DataNode TextLabel="ERK2" Type="GeneProduct" GroupRef="eafda">
+        </DataNode>
+  <DataNode TextLabel="CYP19A1" GraphId="b9e58" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PGE2" GraphId="d0b06" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BRAF" GraphId="d23ee" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Arachidonic acid" GraphId="d62cc" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PI3KA" GraphId="dcd86" Type="GeneProduct" GroupRef="f5ffd">
+        </DataNode>
+  <DataNode TextLabel="EGF" GraphId="e2be2" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="COX-2" GraphId="ef113" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EGFR" GraphId="f2e05" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="E2" GraphId="f72e5" Type="Metabolite" GroupRef="bb827">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MMP1" GraphId="fc4d6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Src" GraphId="fd3c8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ESR1" Type="GeneProduct" GroupRef="e3417">
+        </DataNode>
+  <DataNode TextLabel="E2" GraphId="d33e3" Type="Metabolite" GroupRef="e3417">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="E2" GraphId="fe5c4" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="E2" GraphId="a5de1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ESR1" Type="GeneProduct" GroupRef="dc247">
+        </DataNode>
+  <DataNode TextLabel="E2" GraphId="d0019" Type="Metabolite" GroupRef="dc247">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PGE2" GraphId="a9129" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="cPLA" GraphId="dac41" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PTGER3" Type="GeneProduct" GroupRef="df742">
+        </DataNode>
+  <DataNode TextLabel="PTGER2" Type="GeneProduct" GroupRef="df742">
+        </DataNode>
+  <DataNode TextLabel="PTGER1" Type="GeneProduct" GroupRef="df742">
+        </DataNode>
+  <DataNode TextLabel="PTGER4" GraphId="c2527" Type="GeneProduct" GroupRef="df742">
+        </DataNode>
+  <DataNode TextLabel="Arachidonic acid" GraphId="f4bbf" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="id13c38db4">
+    <Graphics>
+      <Point GraphRef="dac41"/>
+      <Point GraphRef="b2f3b" ArrowHead="Arrow"/>
+      <Anchor Position="0.60378097717308" Shape="None" GraphId="e8b04"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id17f347d2">
+    <Graphics>
+      <Point GraphRef="d62cc"/>
+      <Point GraphRef="d0b06" ArrowHead="Arrow"/>
+      <Anchor Position="0.7182523631896663" Shape="None" GraphId="bf201"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id28b8cbe9">
+    <Graphics>
+      <Point GraphRef="a8560"/>
+      <Point GraphRef="c4a2d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4bca421f">
+    <Graphics>
+      <Point GraphRef="a8560"/>
+      <Point GraphRef="d23ee" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4c095417">
+    <Graphics>
+      <Point GraphRef="b2f3b"/>
+      <Point GraphRef="f4bbf" ArrowHead="Arrow"/>
+      <Anchor Position="0.4978412125590139" Shape="None" GraphId="c00cc"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id51d79799">
+    <Graphics>
+      <Point GraphRef="a5de1"/>
+      <Point GraphRef="b10f7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5fba6787">
+    <Graphics>
+      <Point GraphRef="b9e58"/>
+      <Point GraphRef="fe5c4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id69510ebc">
+    <Graphics>
+      <Point GraphRef="f4bbf"/>
+      <Point GraphRef="a9129" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7367e210">
+    <Graphics>
+      <Point GraphRef="ef113"/>
+      <Point GraphRef="c00cc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id73baff2e">
+    <Graphics>
+      <Point GraphRef="c4a2d"/>
+      <Point GraphRef="e8651" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id74429a13">
+    <Graphics>
+      <Point GraphRef="b31eb"/>
+      <Point GraphRef="d62cc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id92a3fdfd">
+    <Graphics>
+      <Point GraphRef="d23ee"/>
+      <Point GraphRef="db1ad" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb444734d">
+    <Graphics>
+      <Point GraphRef="ef113"/>
+      <Point GraphRef="bf201" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc07eeafe">
+    <Graphics>
+      <Point GraphRef="f2e05"/>
+      <Point GraphRef="a8560" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcc5691c3">
+    <Graphics>
+      <Point GraphRef="db1ad"/>
+      <Point GraphRef="ef113" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcf7ad524">
+    <Graphics>
+      <Point GraphRef="db1ad"/>
+      <Point GraphRef="e8b04" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd3b40e5c">
+    <Graphics>
+      <Point GraphRef="e25b9"/>
+      <Point GraphRef="fd3c8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd415666d">
+    <Graphics>
+      <Point GraphRef="c6965"/>
+      <Point GraphRef="fd3c8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd481f113">
+    <Graphics>
+      <Point GraphRef="b9e58"/>
+      <Point GraphRef="a5de1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idde48d08">
+    <Graphics>
+      <Point GraphRef="fe5c4"/>
+      <Point GraphRef="e25b9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide1793f1a">
+    <Graphics>
+      <Point GraphRef="efd8e"/>
+      <Point GraphRef="b9e58" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide8622817">
+    <Graphics>
+      <Point GraphRef="b10f7"/>
+      <Point GraphRef="b3a5a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf1eae5e9">
+    <Graphics>
+      <Point GraphRef="e8651"/>
+      <Point GraphRef="ef113" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfe1f5cfb">
+    <Graphics>
+      <Point GraphRef="fd3c8"/>
+      <Point GraphRef="fc4d6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida5958e07">
+    <Graphics>
+      <Point GraphRef="fc4d6"/>
+      <Point GraphRef="e2be2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="a2ded">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b50b8">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="DNA" GraphId="a071e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Stimulus" GraphId="bee7d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="d9fae">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PLA-2" GraphId="dc29a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="b2f3b">
+    <Graphics ShapeType="Mitochondria" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bcec2">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="efd8e">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b31eb">
+    <Graphics ShapeType="Triangle"/>
+  </Shape>
+  <Group GroupId="eea34" Style="Complex"/>
+  <Group GroupId="c3539" GraphId="a8560" Style="Complex"/>
+  <Group GroupId="dc247" GraphId="b10f7" Style="Complex"/>
+  <Group GroupId="e3417" GraphId="b3a5a" Style="Complex"/>
+  <Group GroupId="f5ffd" GraphId="c4a2d" Style="Complex"/>
+  <Group GroupId="df742" GraphId="c6965" Style="Complex"/>
+  <Group GroupId="eafda" GraphId="db1ad" Style="Complex"/>
+  <Group GroupId="bb827" GraphId="e25b9" Style="Complex"/>
+  <Group GroupId="ee67e" GraphId="e8651" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d36">
+      <bp:ID >23729401</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cyclooxygenase-2, epidermal growth factor receptor, and aromatase signaling in inflammation and mesothelioma.</bp:TITLE>
+      <bp:SOURCE >Mol Cancer Ther</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Nuvoli B</bp:AUTHORS>
+      <bp:AUTHORS >Galati R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >arachidonic acid metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000460</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

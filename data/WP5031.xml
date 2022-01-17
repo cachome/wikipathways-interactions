@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Biotin metabolism, including IEMs" Version="20201224" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">An important cofactor for carboxylation reaction is the vitamin Biotin. Four carboxylase groups (ACC, MCC, PCC and PC) are activated by binding to biotin and forming holocarboxylases, which in turn are responsible for several metabolic conversion in the Fatty Acid Synthesis, Leucine catabolism, propanoate metabolism and gluconeogenesis. Except for the ACC conversion from acetyl-CoA to malonyl-CoA starting the fatty acid synthesis, all other three interactions are connected to disorders. Furthermore, one can distinguish two "multiple carboxylase defects" (MCDs), which are connected to the conversion of biocytin into biotin (BTD), or unbound biotin to one of the apocarboxylases (HCSD).
+
+
+This pathway was inspired by Chapter 14 (edition 4) of the book of Blau (ISBN 3642403360 (978-3642403361)).</Comment>
+  <BiopaxRef>b1a</BiopaxRef>
+  <BiopaxRef>cc1</BiopaxRef>
+  <Graphics BoardWidth="1099.4597574421168" BoardHeight="877.9272326350607"/>
+  <DataNode TextLabel="pyruvate" GraphId="dcdd6" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Apo-ACC" GraphId="edb89" Type="Metabolite">
+    <Comment>aka apo-[methylmalonyl-CoA:pyruvate carboxytransferase]</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="propanoyl-CoA" GraphId="ef122" Type="Metabolite">
+    <Comment>aka propionyl-CoA</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="leucine" GraphId="f15f9" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="oxaloacetate" GraphId="f960d" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PC" GraphId="f9680" Type="Protein">
+    <Comment>aka pyruvate carboxylase</Comment>
+        </DataNode>
+  <DataNode TextLabel="3-methylglutaconyl-CoA" GraphId="dd4c8" Type="Metabolite">
+    <Comment>aka trans-3-methylglutaconyl-CoA</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Fatty Acid &#10;Synthesis" GraphId="a3c9e" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="MCCC1" GraphId="ca7d7" Type="Protein" GroupRef="ec877">
+        </DataNode>
+  <DataNode TextLabel="3-methylcrotonyl-COA" GraphId="c9ff9" Type="Metabolite">
+    <Comment>aka 3-methylbut-2-enoyl-CoA</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Dietary and other&#10;protein-bound biotin" GraphId="f6591" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Proteolysis" GraphId="a1250" Type="Protein">
+    <Graphics Color="404040"/>
+    </DataNode>
+  <DataNode TextLabel="Biocytin" GraphId="bc255" Type="Metabolite">
+    <Comment>biotin covalantly bound to lysine</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Lysine" GraphId="c069d" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Biotinidase (BTD)" GraphId="b2a8e" Type="Protein">
+    <BiopaxRef>ea9</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="free biotin" GraphId="cb7af" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Acetyl-CoA" GraphId="a73f4" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Biotin &#10;(free pool)" GraphId="e89b5" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="HLCS" GraphId="dc212" Type="Protein">
+    <Comment>aka Holocarboxylase Synthetase</Comment>
+    <Graphics Color="404040"/>
+    </DataNode>
+  <DataNode TextLabel="Malonyl-CoA" GraphId="ea81f" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ACC1&#10;(cytosol)" GraphId="bea0b" Type="Protein">
+    <Comment>aka acetyl-CoA carboxylase</Comment>
+        </DataNode>
+  <DataNode TextLabel="ACC2&#10;(mitochondrial)" GraphId="e22b4" Type="Protein">
+    <Comment>aka acetyl-CoA carboxylase</Comment>
+        </DataNode>
+  <DataNode TextLabel="Leucine&#10;Catabolism" GraphId="e6dd7" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Propanoate&#10;metabolism" GraphId="bbc24" Type="Pathway">
+    <Comment>aka Propionate metabolism</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Gluconeogenesis,&#10;Anaplerosis" GraphId="d447d" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="holo-ACC" GraphId="ad23a" Type="Metabolite">
+    <Comment>aka holo-[methylmalonyl-CoA:pyruvate carboxytransferase]</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Apo-PCC" GraphId="e7678" Type="Metabolite">
+    <Comment>aka apo-[propionyl-CoA:carbon-dioxide ligase (ADP-forming)]</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="holo-PCC" GraphId="ad637" Type="Metabolite">
+    <Comment>aka holo-[propionyl-CoA:carbon-dioxide ligase (ADP-forming)]</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Apo-MCC" GraphId="c3296" Type="Metabolite">
+    <Comment>aka apo-[3-methylcrotonoyl-CoA:carbon-dioxide ligase (ADP-forming)]</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="holo-MCC" GraphId="d15c4" Type="Metabolite">
+    <Comment>aka holo-[3-methylcrotonoyl-CoA:carbon-dioxide ligase (ADP-forming)]</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Apo-PC" GraphId="ee7eb" Type="Metabolite">
+    <Comment>aka pyruvate carboxylase</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="holo-PC" GraphId="d861a" Type="Metabolite">
+    <Comment>aka pyruvate carboxylase</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MCCC2" GraphId="f2c12" Type="Protein" GroupRef="ec877">
+        </DataNode>
+  <DataNode TextLabel="Biotin " GraphId="b125d" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PCCA" GraphId="f2940" Type="Protein" GroupRef="e2861">
+        </DataNode>
+  <DataNode TextLabel="PCCB" GraphId="cc97e" Type="Protein" GroupRef="e2861">
+        </DataNode>
+  <DataNode TextLabel="methylmanoyl-CoA" GraphId="d300c" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="id6d43b872">
+    <Graphics>
+      <Point GraphRef="dc212"/>
+      <Point GraphRef="c8178" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id87dae3ee">
+    <Graphics>
+      <Point GraphRef="ef122"/>
+      <Point GraphRef="d300c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.3114601339671511" Shape="None" GraphId="a19cb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc8b2a8da">
+    <Graphics>
+      <Point GraphRef="bf55c"/>
+      <Point GraphRef="a19cb" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide1615831">
+    <Graphics>
+      <Point GraphRef="dcdd6"/>
+      <Point GraphRef="f960d" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.39143528522040155" Shape="None" GraphId="a8921"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf57c627">
+    <Graphics>
+      <Point GraphRef="f9680"/>
+      <Point GraphRef="a8921" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id283054f7">
+    <Graphics>
+      <Point GraphRef="edb89"/>
+      <Point GraphRef="c8178" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1658d517">
+    <Graphics>
+      <Point GraphRef="e7678"/>
+      <Point GraphRef="b28b3" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida5964008">
+    <Graphics>
+      <Point GraphRef="c9ff9"/>
+      <Point GraphRef="dd4c8" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6085647147795967" Shape="None" GraphId="ba4a9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9d3b1d7a">
+    <Graphics>
+      <Point GraphRef="bea0b"/>
+      <Point GraphRef="d6be9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id53d26b5f">
+    <Graphics>
+      <Point GraphRef="ee7eb"/>
+      <Point GraphRef="d2cf2" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id80c7db8b">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="ad23a"/>
+      <Point GraphRef="bc255" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.17136840913947665" Shape="None" GraphId="f4873"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1c329d2e">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e89b5"/>
+      <Point/>
+      <Point GraphRef="d15c4" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4356219663224109" Shape="None" GraphId="bf37c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id97e9f3fd">
+    <Graphics>
+      <Point GraphRef="f2c12"/>
+      <Point GraphRef="ba4a9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide885baf7">
+    <Graphics>
+      <Point GraphRef="a1250"/>
+      <Point GraphRef="a3770" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8b74da4f">
+    <Graphics>
+      <Point GraphRef="f6591"/>
+      <Point GraphRef="a3770" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide357b1e2">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e89b5"/>
+      <Point/>
+      <Point GraphRef="ad637" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7374218245474073" Shape="None" GraphId="b28b3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbebd06ab">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e89b5"/>
+      <Point/>
+      <Point GraphRef="d861a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4404641466263062" Shape="None" GraphId="d2cf2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9bcaea80">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e89b5"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="ad23a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5236691875255259" Shape="None" GraphId="c8178"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc023491b">
+    <Graphics>
+      <Point GraphRef="c3296"/>
+      <Point GraphRef="bf37c" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="da908">
+    <BiopaxRef>ea9</BiopaxRef>
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="bc255"/>
+      <Point GraphRef="e89b5" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bef6b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d3cb8">
+    <BiopaxRef>ea9</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b2a8e"/>
+      <Point GraphRef="bef6b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b8c4c">
+    <Graphics>
+      <Point GraphRef="cb7af"/>
+      <Point GraphRef="e89b5" ArrowHead="mim-translocation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b06e1">
+    <Graphics>
+      <Point GraphRef="a73f4"/>
+      <Point GraphRef="ea81f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.578527808575477" Shape="None" GraphId="d6be9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c324a">
+    <Graphics>
+      <Point GraphRef="bef6b"/>
+      <Point GraphRef="c069d" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b2406">
+    <Graphics>
+      <Point GraphRef="e22b4"/>
+      <Point GraphRef="d6be9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a064e">
+    <Graphics>
+      <Point GraphRef="dc212"/>
+      <Point GraphRef="b28b3" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d4cb7">
+    <Graphics>
+      <Point GraphRef="dc212"/>
+      <Point GraphRef="bf37c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dcf84">
+    <Graphics>
+      <Point GraphRef="dc212"/>
+      <Point GraphRef="d2cf2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fd106">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="ad637"/>
+      <Point GraphRef="bc255" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.428320653545846" Shape="None" GraphId="f9bfb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a0d7c">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="d15c4"/>
+      <Point GraphRef="bc255" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5480592649570979" Shape="None" GraphId="b75c7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a952b">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="d861a"/>
+      <Point/>
+      <Point GraphRef="bc255" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6168447389683896" Shape="None" GraphId="a3770"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3e8a">
+    <Graphics>
+      <Point GraphRef="f6591"/>
+      <Point GraphRef="b75c7" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b1098">
+    <Graphics>
+      <Point GraphRef="f6591"/>
+      <Point GraphRef="f9bfb" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e5725">
+    <Graphics>
+      <Point GraphRef="f6591"/>
+      <Point GraphRef="f4873" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c5b73">
+    <Graphics>
+      <Point GraphRef="a1250"/>
+      <Point GraphRef="b75c7" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f6baa">
+    <Graphics>
+      <Point GraphRef="a1250"/>
+      <Point GraphRef="f9bfb" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a64db">
+    <Graphics>
+      <Point GraphRef="a1250"/>
+      <Point GraphRef="f4873" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9e5f5032">
+    <Graphics>
+      <Point GraphRef="b125d"/>
+      <Point GraphRef="ca7d7" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id249b4880">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ea81f"/>
+      <Point GraphRef="a3c9e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a929b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f15f9"/>
+      <Point GraphRef="c9ff9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a3d13">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="dd4c8"/>
+      <Point GraphRef="e6dd7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ed3a2">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d300c"/>
+      <Point GraphRef="bbc24" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6328">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f960d"/>
+      <Point GraphRef="d447d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="f8c8d">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bef6b"/>
+      <Point GraphRef="e320f" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f2eb0">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c8178"/>
+      <Point GraphRef="bf15d" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fae9b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b28b3"/>
+      <Point GraphRef="bf15d" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a48bb">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bf37c"/>
+      <Point GraphRef="bf15d" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ddf20">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d2cf2"/>
+      <Point GraphRef="bf15d" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a4228">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ca7d7"/>
+      <Point GraphRef="dd027" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f5e10">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ba4a9"/>
+      <Point GraphRef="acfbb" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c5245">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a8921"/>
+      <Point GraphRef="a372c" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a5ddf">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a19cb"/>
+      <Point GraphRef="b655e" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="ACCs:" GraphId="bf063">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Biotinidase &#10;deficiency (BTD)" GraphId="e320f" Href="https://omim.org/entry/253260">
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Holocarboxylases&#10;(ACC, MCC, PCC, PC)" GraphId="bd387">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Apocarboxylases&#10;(ACC, MCC, PCC, PC)" GraphId="a3259">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Holocar-&#10;boxylase &#10;synthetase &#10;deficiency&#10;(HCSD)" GraphId="bf15d" Href="https://omim.org/entry/253270">
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="MCCs:" GraphId="e3d54">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="PCCs:" GraphId="b1292">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="PC:" GraphId="a985f">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="3-methylcrotonyl-&#10;CoA carboxylase 1&#10;deficiency" GraphId="dd027" Href="https://omim.org/entry/210200">
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="3-methylcrotonyl-&#10;CoA carboxylase 2&#10;deficiency" GraphId="acfbb" Href="https://omim.org/entry/210210">
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Pyruvate&#10;carboxylase&#10;deficiency" GraphId="a372c" Href="https://omim.org/entry/266150">
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="propionic-&#10;acedemia" GraphId="b655e" Href="https://omim.org/entry/266150">
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Shape TextLabel="  mitochondria" GraphId="e435c">
+    <Graphics Align="Left" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b241b">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="ec877" GraphId="b082f" Style="Complex"/>
+  <Group GroupId="e2861" GraphId="bf55c" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >3-Methylcrotonyl-CoA carboxylase 2 deficiency</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0080580</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >pyruvate carboxylase deficiency disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:3651</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >3-Methylcrotonyl-CoA carboxylase 1 deficiency</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0080579</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >3-methylcrotonyl CoA carboxylase 2 deficiency pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0002577</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b1a">
+      <bp:ID >9783642403361</bp:ID>
+      <bp:DB >ISBN</bp:DB>
+      <bp:TITLE >Physician's Guide to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases</bp:TITLE>
+      <bp:SOURCE >Springer</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Nenad Blau</bp:AUTHORS>
+      <bp:AUTHORS >Carlo Dionisi Vici</bp:AUTHORS>
+      <bp:AUTHORS >K Michael Gibson</bp:AUTHORS>
+      <bp:AUTHORS >Marinus Duran</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >3-methylcrotonyl CoA carboxylase 1 deficiency pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0002576</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >3-Methylcrotonyl-CoA carboxylase deficiency</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0050710</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >biotin metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000139</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea9">
+      <bp:ID >8930409</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Biotinidase and its roles in biotin metabolism.</bp:TITLE>
+      <bp:SOURCE >Clin Chim Acta</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >Hymes J</bp:AUTHORS>
+      <bp:AUTHORS >Wolf B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >holocarboxylase synthetase deficiency</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:859</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >holocarboxylase synthetase deficiency pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0002255</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >biotinidase deficiency pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0002254</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >biotinidase deficiency</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:856</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cc1">
+      <bp:ID >22116691</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Biotin: biochemical, physiological and clinical aspects.</bp:TITLE>
+      <bp:SOURCE >Subcell Biochem</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Said HM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >pyruvate carboxylase deficiency pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001775</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

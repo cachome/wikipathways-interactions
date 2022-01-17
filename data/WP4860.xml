@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Hijack of ubiquitination by SARS-CoV-2" Version="20200325" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">SARS-CoV-2 includes a novel Orf10 that interacts with muliple members of the Cullin 2 ubiquitin ligase complex as determined by AP-MS (Gordon 2020). The strongest interaction is with ZYG11B, a substrate adaptor for CUL2. By binding this complex, Orf10 might be able to hijack its activity. The hijacking of ubiquitination machinery is a common strategy of viruses to direct the degradation of viral restriction factors, for example. Also depicted here is the required neddylation (N8) of CUL2 by the NAE enzyme complex. The ability of this enzyme to transfer N8 to CUL2 is inhibited by the small molecule Pevonedistat.</Comment>
+  <BiopaxRef>fb1</BiopaxRef>
+  <Graphics BoardWidth="359.642752439586" BoardHeight="259.65335125246156"/>
+  <DataNode TextLabel="Orf10" GraphId="cb26a" Type="Protein" GroupRef="ac59a">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="NAE1" GraphId="d10c6" Type="GeneProduct" GroupRef="a7a86">
+        </DataNode>
+  <DataNode TextLabel="UBA3" GraphId="a87a8" Type="GeneProduct" GroupRef="a7a86">
+        </DataNode>
+  <DataNode TextLabel="Pevonedistat" GraphId="dda75" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Proteasome degradation" GraphId="e5bba" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Substrate" GraphId="d1f64" Type="GeneProduct">
+    <Graphics FontStyle="Italic" Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="CUL2" GraphId="d8af8" Type="GeneProduct" GroupRef="ac59a">
+        </DataNode>
+  <DataNode TextLabel="ELOC" GraphId="e916f" Type="GeneProduct" GroupRef="ac59a">
+        </DataNode>
+  <DataNode TextLabel="ELOB" GraphId="e4a09" Type="GeneProduct" GroupRef="ac59a">
+        </DataNode>
+  <DataNode TextLabel="RBX1" GraphId="a7eea" Type="GeneProduct" GroupRef="ac59a">
+        </DataNode>
+  <DataNode TextLabel="E2" GraphId="ac58a" Type="GeneProduct" GroupRef="ac59a">
+        </DataNode>
+  <DataNode TextLabel="ZYG11B" GraphId="b75da" Type="GeneProduct" GroupRef="ac59a">
+    <BiopaxRef>ed1</BiopaxRef>
+        </DataNode>
+  <State GraphRef="a87a8" TextLabel="N8" GraphId="c08d9">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d1f64" TextLabel="Ub" GraphId="cc693">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d8af8" TextLabel="N8" GraphId="a6b93">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ac58a" TextLabel="Ub" GraphId="fbcac">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id3979ccaf">
+    <Comment>Same citation as  pathway</Comment>
+    <Comment>Type your comment here</Comment>
+    <BiopaxRef>aac</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c08d9"/>
+      <Point GraphRef="a6b93" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id92c39589">
+    <BiopaxRef>a1d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d1f64"/>
+      <Point GraphRef="e5bba" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc583d98b">
+    <BiopaxRef>a1d</BiopaxRef>
+    <Graphics Color="eb0000">
+      <Point GraphRef="dda75"/>
+      <Point GraphRef="c466c" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf1661f52">
+    <BiopaxRef>a1d</BiopaxRef>
+    <Graphics ConnectorType="Curved" LineStyle="Broken">
+      <Point GraphRef="fbcac"/>
+      <Point/>
+      <Point GraphRef="cc693" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="NAE" GraphId="b88fb">
+    <Graphics FillColor="ffffff" Color="666666"/>
+  </Label>
+  <Label TextLabel="CUL2(ZYG11B)" GraphId="bbb9d">
+    <Graphics FillColor="ffffff" Color="666666"/>
+  </Label>
+  <Group GroupId="ac59a" Style="Complex"/>
+  <Group GroupId="a7a86" GraphId="c466c" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aac">
+      <bp:ID >32353859</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE > A SARS-CoV-2-Human Protein-Protein Interaction Map Reveals Drug Targets and Potential Drug Repurposing</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >David E. Gordon</bp:AUTHORS>
+      <bp:AUTHORS >Gwendolyn M. Jang</bp:AUTHORS>
+      <bp:AUTHORS >Mehdi Bouhaddou</bp:AUTHORS>
+      <bp:AUTHORS >Jiewei Xu</bp:AUTHORS>
+      <bp:AUTHORS >et al.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >peripheral blood mononuclear cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:2000001</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >COVID-19</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0080600</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed1">
+      <bp:ID >17304241</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The Caenorhabditis elegans cell-cycle regulator ZYG-11 defines a conserved family of CUL-2 complex components.</bp:TITLE>
+      <bp:SOURCE >EMBO Rep</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Vasudevan S</bp:AUTHORS>
+      <bp:AUTHORS >Starostina NG</bp:AUTHORS>
+      <bp:AUTHORS >Kipreos ET</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb1">
+      <bp:ID >32353859</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE > A SARS-CoV-2-Human Protein-Protein Interaction Map Reveals Drug Targets and Potential Drug Repurposing</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >David E. Gordon</bp:AUTHORS>
+      <bp:AUTHORS >Gwendolyn M. Jang</bp:AUTHORS>
+      <bp:AUTHORS >Mehdi Bouhaddou</bp:AUTHORS>
+      <bp:AUTHORS >Jiewei Xu</bp:AUTHORS>
+      <bp:AUTHORS >et al</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >viral infectious disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:934</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >regulatory pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000004</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a1d">
+      <bp:ID >22088887</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Pharmacological targets in the ubiquitin system offer new ways of treating cancer, neurodegenerative disorders and infectious diseases.</bp:TITLE>
+      <bp:SOURCE >Expert Rev Mol Med</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:ID >22088887</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Pharmacological targets in the ubiquitin system offer new ways of treating cancer, neurodegenerative disorders and infectious diseases.</bp:TITLE>
+      <bp:SOURCE >Expert Rev Mol Med</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Edelmann MJ</bp:AUTHORS>
+      <bp:AUTHORS >Nicholson B</bp:AUTHORS>
+      <bp:AUTHORS >Kessler BM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >altered ubiquitin/proteasome degradation pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000294</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >severe acute respiratory syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:2945</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

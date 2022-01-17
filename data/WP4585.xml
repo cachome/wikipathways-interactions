@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cancer immunotherapy by PD-1 blockade" Version="20190430" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Immune checkpoints are hardwired into the immune system and are crucial for maintaining self-tolerance. Tumors can use these checkpoints to protect themselves from immune system attacks. 
+One such immune checkpoint is PD-1 (programmed cell death 1 protein), which binds to its ligand PD-L1 and inhibits immune cell activity, including T cell activity. By upregulating PD-L1, cancer cells can inhibit T cells that might otherwise attack.  One strategy for cancer immunotherapy is to block this kind of negative feedback, thereby increasing anti-cancer T-cell activity. For the PD-1 checkpoint, cancer immunotherapeutics block either the PD-1 receptor, or the PD-L1 ligand.
+The [https://www.nobelprize.org/prizes/medicine/2018/summary/ 2018 Nobel prize in Physiology or Medicine] was awarded to jointly to James Allison and Tasuku Honjo for their discovery of cancer therapy by inhibition of negative immune regulation.
+
+Based on and figure 4B in the review by [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4856023/ Pardoll] and figure 1 in the review by [https://www.ncbi.nlm.nih.gov/pubmed/28990585 Sharpe and Pauken].
+</Comment>
+  <BiopaxRef>c58</BiopaxRef>
+  <BiopaxRef>f89</BiopaxRef>
+  <BiopaxRef>bda</BiopaxRef>
+  <Graphics BoardWidth="883.0" BoardHeight="880.0"/>
+  <DataNode TextLabel="Tumor-associated&#10;antigen" GraphId="a8e9d" Type="GeneProduct" GroupRef="fcdac">
+        </DataNode>
+  <DataNode TextLabel="Pembrolizumab" GraphId="ac967" Type="Metabolite" GroupRef="b5431">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CD8A" GraphId="ad5ee" Type="GeneProduct" GroupRef="d89f0">
+        </DataNode>
+  <DataNode TextLabel="CD274" GraphId="ae75d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IFNG" GraphId="bbd24" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PDCD1LG2" GraphId="c29ad" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Ras signaling" GraphId="ca322" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Nivolumab" GraphId="cc867" Type="Metabolite" GroupRef="b5431">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MHC I" GraphId="cf68e" Type="Protein" GroupRef="fcdac">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="d1337" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Pidilizumab" GraphId="d9d18" Type="Metabolite" GroupRef="b5431">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TRA" GraphId="dedef" Type="GeneProduct" GroupRef="e28a1">
+        </DataNode>
+  <DataNode TextLabel="JUN" GraphId="e2c2e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Durvalumab" GraphId="e67ee" Type="Metabolite" GroupRef="b6590">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="BATF" GraphId="e8b31" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Avelumab" GraphId="e9da1" Type="Metabolite" GroupRef="b6590">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Atezolizumab" GraphId="e9dc5" Type="Metabolite" GroupRef="b6590">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CD3D" GraphId="ee1ad" Type="GeneProduct" GroupRef="e28a1">
+        </DataNode>
+  <DataNode TextLabel="ZAP70" GraphId="ef0fd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LCK" GraphId="f1abb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MDX-1105" GraphId="f897c" Type="Metabolite" GroupRef="b6590">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NFATC1" GraphId="f9482" Type="GeneProduct" GroupRef="ceb71">
+        </DataNode>
+  <DataNode TextLabel="PDCD1" GraphId="fb005" Type="GeneProduct" GroupRef="d0469">
+        </DataNode>
+  <DataNode TextLabel="AMP-224" GraphId="fb550" Type="Metabolite" GroupRef="b5431">
+    <Comment>https://www.cancer.gov/publications/dictionaries/cancer-drug/def/anti-pd-1-fusion-protein-amp-224</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PTPN11" GraphId="fb739" Type="GeneProduct" GroupRef="d0469">
+        </DataNode>
+  <DataNode TextLabel="Tislelizumab" GraphId="fdb08" Type="Metabolite" GroupRef="b5431">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TRB" GraphId="c44ef" Type="GeneProduct" GroupRef="e28a1">
+        </DataNode>
+  <DataNode TextLabel="MHC II" GraphId="eba63" Type="Protein" GroupRef="fcdac">
+        </DataNode>
+  <DataNode TextLabel="BATF" GraphId="ad8ad" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CD3E" GraphId="de57b" Type="GeneProduct" GroupRef="e28a1">
+        </DataNode>
+  <DataNode TextLabel="CD3G" GraphId="d8903" Type="GeneProduct" GroupRef="e28a1">
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="ce83f" Type="GeneProduct" GroupRef="ceb71">
+        </DataNode>
+  <DataNode TextLabel="PI3K signaling" GraphId="deab0" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="CD8B" GraphId="c5d3d" Type="GeneProduct" GroupRef="d89f0">
+        </DataNode>
+  <DataNode TextLabel="NFATC2" GraphId="c5fef" Type="GeneProduct" GroupRef="ceb71">
+        </DataNode>
+  <DataNode TextLabel="NFATC3" GraphId="d3001" Type="GeneProduct" GroupRef="ceb71">
+        </DataNode>
+  <DataNode TextLabel="NFATC4" GraphId="dd28d" Type="GeneProduct" GroupRef="ceb71">
+        </DataNode>
+  <DataNode TextLabel="NFAT5" GraphId="b49a8" Type="GeneProduct" GroupRef="ceb71">
+        </DataNode>
+  <State GraphRef="fb005" TextLabel="P" GraphId="ac39e">
+    <Comment>parentid=Q15116; parentsymbol=PDCD1; site=CVPEQTEyATIVFPS; position=tyr248; sitegrpid=50293001; ptm=p; direction=u
+</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ef0fd" TextLabel="P" GraphId="d4b68">
+    <Comment>parentid=P43403; parentsymbol=ZAP70; site=tsVyEsPysDPEELk; position=tyr319; sitegrpid=447587; ptm=p; direction=u
+</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ef0fd" TextLabel="P" GraphId="e9c50">
+    <Comment>parentid=P43403; parentsymbol=ZAP70; site=VLLVNRHyAkISDFG; position=tyr474; sitegrpid=455368; ptm=p; direction=u
+</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="fb005" TextLabel="P" GraphId="f35c8">
+    <Comment>parentid=Q15116; parentsymbol=PDCD1; site=VPVFSVDyGELDFQW; position=tyr223; sitegrpid=450293000; ptm=p; direction=u
+</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id12ce76b1">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fb739"/>
+      <Point GraphRef="ef0fd" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id165d1846">
+    <Graphics>
+      <Point GraphRef="ca322"/>
+      <Point GraphRef="d0d3d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1e85e2e8">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cf68e"/>
+      <Point GraphRef="dee64" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id233b9269">
+    <Graphics>
+      <Point GraphRef="ae75d"/>
+      <Point GraphRef="fb005" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3dfabd77">
+    <Graphics>
+      <Point GraphRef="fb739"/>
+      <Point GraphRef="e8b31" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4edd403d">
+    <Graphics>
+      <Point GraphRef="d0d3d"/>
+      <Point GraphRef="d7a36" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id52d664a5">
+    <Graphics>
+      <Point GraphRef="ef0fd"/>
+      <Point GraphRef="deab0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id546b3fb4">
+    <Graphics>
+      <Point GraphRef="d76c9"/>
+      <Point GraphRef="fb005" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7ed4b1c1">
+    <Graphics>
+      <Point GraphRef="ef0fd"/>
+      <Point GraphRef="ca322" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9baa23b1">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fb739"/>
+      <Point GraphRef="bbd24" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida0613b62">
+    <BiopaxRef>abc</BiopaxRef>
+    <BiopaxRef>e61</BiopaxRef>
+    <BiopaxRef>ca1</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cf802"/>
+      <Point GraphRef="ae75d" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd2218871">
+    <Graphics>
+      <Point GraphRef="a8e9d"/>
+      <Point GraphRef="ac0b9" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb7061af">
+    <Graphics>
+      <Point GraphRef="d1337"/>
+      <Point GraphRef="ae75d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddd6753bb">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bbd24"/>
+      <Point GraphRef="d1337" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide1f72d6e">
+    <Graphics>
+      <Point GraphRef="c29ad"/>
+      <Point GraphRef="fb005" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfba37d0">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fb739"/>
+      <Point GraphRef="deab0" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfbed420c">
+    <Graphics>
+      <Point GraphRef="e8b31"/>
+      <Point GraphRef="ad8ad" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d1188">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fb739"/>
+      <Point GraphRef="ca322" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dcb2a">
+    <Graphics>
+      <Point GraphRef="deab0"/>
+      <Point GraphRef="d0d3d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="T cell activation&#10;Growth&#10;Proliferation&#10;Survival" GraphId="d7a36">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="T-cell induced&#10;PDL1 upregulation" GraphId="df06b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape TextLabel="T cell" GraphId="de6ca">
+    <Graphics Align="Left" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Tumor cell" GraphId="f5559">
+    <Graphics Align="Left" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Nucleus" GraphId="e6439">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="e28a1" GraphId="ac0b9" Style="Complex"/>
+  <Group GroupId="fcdac" GraphId="cf5ce" Style="Complex"/>
+  <Group GroupId="b6590" GraphId="cf802" Style="Group"/>
+  <Group GroupId="ceb71" GraphId="d0d3d" Style="Group"/>
+  <Group GroupId="b5431" GraphId="d76c9" Style="Group"/>
+  <Group GroupId="d89f0" GraphId="dee64" Style="Group"/>
+  <Group GroupId="d0469" GraphId="e03e1" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c58">
+      <bp:ID >30511409</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Immune checkpoint blockade opens a new way to cancer immunotherapy.</bp:TITLE>
+      <bp:SOURCE >J Cell Physiol</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Sadreddini S</bp:AUTHORS>
+      <bp:AUTHORS >Baradaran B</bp:AUTHORS>
+      <bp:AUTHORS >Aghebati-Maleki A</bp:AUTHORS>
+      <bp:AUTHORS >Shanehbandi D</bp:AUTHORS>
+      <bp:AUTHORS >Fotouhi A</bp:AUTHORS>
+      <bp:AUTHORS >Aghebati-Maleki L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bda">
+      <bp:ID >22437870</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The blockade of immune checkpoints in cancer immunotherapy.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Cancer</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Pardoll DM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:162</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f89">
+      <bp:ID >28990585</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The diverse functions of the PD1 inhibitory pathway.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Immunol</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Sharpe AH</bp:AUTHORS>
+      <bp:AUTHORS >Pauken KE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca1">
+      <bp:ID >28643244</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Durvalumab: First Global Approval.</bp:TITLE>
+      <bp:SOURCE >Drugs</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Syed YY</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >adaptive immune response pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000235</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="abc">
+      <bp:ID >30345906</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Atezolizumab and Nab-Paclitaxel in Advanced Triple-Negative Breast Cancer.</bp:TITLE>
+      <bp:SOURCE >N Engl J Med</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Schmid P</bp:AUTHORS>
+      <bp:AUTHORS >Adams S</bp:AUTHORS>
+      <bp:AUTHORS >Rugo HS</bp:AUTHORS>
+      <bp:AUTHORS >Schneeweiss A</bp:AUTHORS>
+      <bp:AUTHORS >Barrios CH</bp:AUTHORS>
+      <bp:AUTHORS >Iwata H</bp:AUTHORS>
+      <bp:AUTHORS >Di&#233;ras V</bp:AUTHORS>
+      <bp:AUTHORS >Hegg R</bp:AUTHORS>
+      <bp:AUTHORS >Im SA</bp:AUTHORS>
+      <bp:AUTHORS >Shaw Wright G</bp:AUTHORS>
+      <bp:AUTHORS >Henschel V</bp:AUTHORS>
+      <bp:AUTHORS >Molinero L</bp:AUTHORS>
+      <bp:AUTHORS >Chui SY</bp:AUTHORS>
+      <bp:AUTHORS >Funke R</bp:AUTHORS>
+      <bp:AUTHORS >Husain A</bp:AUTHORS>
+      <bp:AUTHORS >Winer EP</bp:AUTHORS>
+      <bp:AUTHORS >Loi S</bp:AUTHORS>
+      <bp:AUTHORS >Emens LA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >T cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000084</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e61">
+      <bp:ID >29347993</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Updated efficacy of avelumab in patients with previously treated metastatic Merkel cell carcinoma after &#8805;1&#160;year of follow-up: JAVELIN Merkel 200, a phase 2 clinical trial.</bp:TITLE>
+      <bp:SOURCE >J Immunother Cancer</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Kaufman HL</bp:AUTHORS>
+      <bp:AUTHORS >Russell JS</bp:AUTHORS>
+      <bp:AUTHORS >Hamid O</bp:AUTHORS>
+      <bp:AUTHORS >Bhatia S</bp:AUTHORS>
+      <bp:AUTHORS >Terheyden P</bp:AUTHORS>
+      <bp:AUTHORS >D'Angelo SP</bp:AUTHORS>
+      <bp:AUTHORS >Shih KC</bp:AUTHORS>
+      <bp:AUTHORS >Lebb&#233; C</bp:AUTHORS>
+      <bp:AUTHORS >Milella M</bp:AUTHORS>
+      <bp:AUTHORS >Brownell I</bp:AUTHORS>
+      <bp:AUTHORS >Lewis KD</bp:AUTHORS>
+      <bp:AUTHORS >Lorch JH</bp:AUTHORS>
+      <bp:AUTHORS >von Heydebreck A</bp:AUTHORS>
+      <bp:AUTHORS >Hennessy M</bp:AUTHORS>
+      <bp:AUTHORS >Nghiem P</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>cancer pathway</bp:TERM><bp:ID>PW:0000605</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

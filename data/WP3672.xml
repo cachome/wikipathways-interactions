@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="lncRNA-mediated mechanisms of therapeutic resistance" Version="20160617" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">LncRNA-mediated mechanisms of therapeutic resistance. Mechanisms of tumor cell resistance to chemotherapy or hypoxia involving lncRNA include modulation of drug transporters and elimination, survival signaling pathways, cell cycle progression and DNA repair, sensitization to apoptosis, and modulation of intercellular communication mediated by extracellular vesicles.
+
+This pathway is based on Fig 6 from Parasramka et al: http://www.ncbi.nlm.nih.gov/pubmed/27013343
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3672 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>dae</BiopaxRef>
+  <Graphics BoardWidth="1111.0" BoardHeight="552.0"/>
+  <DataNode TextLabel="WNT6" GraphId="a338e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="G0/G1 cell cycle arrest" GraphId="a7a65" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="HIF1A" GraphId="ba68d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MEG3" GraphId="bec8f" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="linc-RoR" GraphId="bfa32" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MRUL" GraphId="c2c9e" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="HOTAIR" GraphId="d8242" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="AK126698" GraphId="dbe60" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="Apoptosis" GraphId="dd467" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="linc-VLDLR" GraphId="df657" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="UCA1" GraphId="efe36" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="Cell proliferation" GraphId="f2599" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="P-gp" GraphId="f39a1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Bcl-xl" GraphId="f416e" Type="GeneProduct" GroupRef="ebace">
+        </DataNode>
+  <DataNode TextLabel="TP53" GraphId="f7d9a" Type="GeneProduct" GroupRef="ebace">
+        </DataNode>
+  <DataNode TextLabel="p21" GraphId="fdf3a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EV linc-RoR" GraphId="ab9dc" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="EV linc-VLDLR" GraphId="b2ab3" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <Interaction GraphId="id2f22336e">
+    <Graphics>
+      <Point GraphRef="bfa32"/>
+      <Point GraphRef="ab9dc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id346077f1">
+    <Graphics>
+      <Point GraphRef="efe36"/>
+      <Point GraphRef="a338e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3ae3a93d">
+    <Graphics>
+      <Point GraphRef="fdf3a"/>
+      <Point GraphRef="a7a65" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4aaf4e61">
+    <Graphics>
+      <Point GraphRef="ce83a"/>
+      <Point GraphRef="f4c40" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5f486e36">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a8700"/>
+      <Point GraphRef="dd467" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6e247d6b">
+    <Graphics>
+      <Point GraphRef="bec8f"/>
+      <Point GraphRef="f416e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6f87634d">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c9d23"/>
+      <Point GraphRef="d1648" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id721b74a1">
+    <Graphics>
+      <Point GraphRef="dbe60"/>
+      <Point GraphRef="c2c9e" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id80f38b4e">
+    <Graphics>
+      <Point GraphRef="f4c40"/>
+      <Point GraphRef="fdd89" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8ca6ace4">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a8700"/>
+      <Point GraphRef="f2599" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida306c88">
+    <Graphics ConnectorType="Curved" LineStyle="Broken">
+      <Point GraphRef="f39a1"/>
+      <Point GraphRef="d13c3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida9750c88">
+    <Graphics>
+      <Point GraphRef="c2c9e"/>
+      <Point GraphRef="f39a1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaf70dc8a">
+    <Graphics>
+      <Point GraphRef="df657"/>
+      <Point GraphRef="b2ab3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb06821ae">
+    <Graphics>
+      <Point GraphRef="d8242"/>
+      <Point GraphRef="fdf3a" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb27af6da">
+    <Graphics>
+      <Point GraphRef="bec8f"/>
+      <Point GraphRef="f7d9a" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbdec057a">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="ba68d"/>
+      <Point GraphRef="d1648" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf53064bd">
+    <Graphics>
+      <Point GraphRef="f39a1"/>
+      <Point GraphRef="fe140" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Chemotherapy" GraphId="c4c6e">
+    <Graphics FillColor="0066ff" ShapeType="Rectangle" Color="ffffff"/>
+  </Label>
+  <Label TextLabel="Transporter&#10;expression" GraphId="c9d23">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" Color="0066ff"/>
+  </Label>
+  <Label TextLabel="Impaired &#10;drug &#10;expulsion" GraphId="d13c3">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" LineStyle="Broken" Color="cc00cc"/>
+  </Label>
+  <Label TextLabel="Cell survival" GraphId="d1648">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="HCC cells" GraphId="def62">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Drug-resistant&#10;cancer cells" GraphId="fe140">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" Color="cc00cc"/>
+  </Label>
+  <Label TextLabel="Hypoxia" GraphId="f6ec1">
+    <Graphics FillColor="00cc33" ShapeType="Rectangle" Color="ffffff"/>
+  </Label>
+  <Label TextLabel="Recipient cells" GraphId="a4d74">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="EVs" GraphId="fb476">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="a43e0">
+    <Graphics FillColor="dedeec" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bc585" GroupRef="c1085">
+    <Graphics FillColor="ffccff" ShapeType="Oval" Color="990066"/>
+  </Shape>
+  <Shape GraphId="ce83a">
+    <Graphics FillColor="ff9999" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="db220" GroupRef="c4a08">
+    <Graphics FillColor="cc3300" ShapeType="Oval" Color="cc3300"/>
+  </Shape>
+  <Shape GraphId="e4693" GroupRef="c4a08">
+    <Graphics FillColor="dedeec" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b25fc" GroupRef="c4a08">
+    <Graphics FillColor="cc3300" ShapeType="Oval" Color="cc3300"/>
+  </Shape>
+  <Shape GraphId="cfbb4" GroupRef="c4a08">
+    <Graphics FillColor="dedeec" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b5df6" GroupRef="c4a08">
+    <Graphics FillColor="cc3300" ShapeType="Oval" Color="cc3300"/>
+  </Shape>
+  <Shape GraphId="fec46" GroupRef="c1085">
+    <Graphics FillColor="dedeec" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ebf11">
+    <Graphics FillColor="cc3300" ShapeType="Oval" Color="cc3300"/>
+  </Shape>
+  <Shape GraphId="e2e86" GroupRef="c1085">
+    <Graphics FillColor="dedeec" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="a146f" GroupRef="c1085">
+    <Graphics FillColor="cc3300" ShapeType="Oval" Color="cc3300"/>
+  </Shape>
+  <Group GroupId="ebace" GraphId="a8700" Style="Group"/>
+  <Group GroupId="a29b7" GraphId="b9863" Style="Group"/>
+  <Group GroupId="aeb1a" GraphId="efb6f" Style="Group"/>
+  <Group GroupId="c4a08" GraphId="f4c40" Style="Group"/>
+  <Group GroupId="eab32" GraphId="f9a3b" Style="Group"/>
+  <Group GroupId="c1085" GraphId="fdd89" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >long non-coding RNA pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001335</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dae">
+      <bp:ID >27013343</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Long non-coding RNAs as novel targets for therapy in hepatocellular carcinoma.</bp:TITLE>
+      <bp:SOURCE >Pharmacol Ther</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Parasramka MA</bp:AUTHORS>
+      <bp:AUTHORS >Maji S</bp:AUTHORS>
+      <bp:AUTHORS >Matsuda A</bp:AUTHORS>
+      <bp:AUTHORS >Yan IK</bp:AUTHORS>
+      <bp:AUTHORS >Patel T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >hepatocellular carcinoma</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:684</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >antineoplastic drug pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0002367</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>cancer pathway</bp:TERM><bp:ID>PW:0000605</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

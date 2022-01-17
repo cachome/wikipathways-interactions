@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Extracellular vesicle-mediated signaling in recipient cells" Version="20141030" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Protein sorting during formation of multivesicular bodies results in packaging of key molecules in exosomes. Exosomes bound-signaling ligands once released from host cells interacts with the receptors on the recipient cells to induce downstream signaling cascades pivotal in the initiation and progression of cancer. This horizontal transfer of proteomic content of exosomes can mediate signaling pathways including Wnt, PI3K and TGF-beta in recipient cells.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2870 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>d50</BiopaxRef>
+  <Graphics BoardWidth="890.7673649393605" BoardHeight="768.0"/>
+  <DataNode TextLabel="SMAD4" GraphId="e6a09" Type="GeneProduct" GroupRef="c48fe">
+        </DataNode>
+  <DataNode TextLabel="SMAD2" GraphId="d848a" Type="GeneProduct" GroupRef="c48fe">
+        </DataNode>
+  <DataNode TextLabel="SMAD3" GraphId="ac90f" Type="GeneProduct" GroupRef="c48fe">
+        </DataNode>
+  <DataNode TextLabel="WNT3A" GraphId="fabd0" Type="GeneProduct" GroupRef="a3c62">
+        </DataNode>
+  <DataNode TextLabel="WNT5A" GraphId="bc90e" Type="GeneProduct" GroupRef="a3c62">
+        </DataNode>
+  <DataNode TextLabel="ERBB2" GraphId="d0740" Type="GeneProduct" GroupRef="a3c62">
+        </DataNode>
+  <DataNode TextLabel="EGFR" GraphId="f6230" Type="GeneProduct" GroupRef="a3c62">
+        </DataNode>
+  <DataNode TextLabel="MFGE8" GraphId="b4eab" Type="GeneProduct" GroupRef="a3c62">
+        </DataNode>
+  <DataNode TextLabel="TSPAN8" GraphId="d6c36" Type="GeneProduct" GroupRef="a3c62">
+        </DataNode>
+  <DataNode TextLabel="DKK4" GraphId="f80a4" Type="GeneProduct" GroupRef="a3c62">
+        </DataNode>
+  <DataNode TextLabel="TGFA" GraphId="abc08" Type="GeneProduct" GroupRef="a3c62">
+        </DataNode>
+  <DataNode TextLabel="TGFB1" GraphId="e2feb" Type="GeneProduct" GroupRef="a3c62">
+        </DataNode>
+  <DataNode TextLabel="CD133" GraphId="ee51b" Type="GeneProduct" GroupRef="a3c62">
+        </DataNode>
+  <DataNode TextLabel="AKT1" GraphId="ff5d2" Type="GeneProduct" GroupRef="a3c62">
+        </DataNode>
+  <DataNode TextLabel="MTOR" GraphId="cbad4" Type="GeneProduct" GroupRef="a3c62">
+        </DataNode>
+  <DataNode TextLabel="HGF" GraphId="f6d69" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HGFR" GraphId="a8103" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PI3K&#10;" GraphId="a8b75" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HRAS" GraphId="e8e63" Type="GeneProduct" GroupRef="c4797">
+        </DataNode>
+  <DataNode TextLabel="NRAS" GraphId="a0810" Type="Protein" GroupRef="c4797">
+        </DataNode>
+  <DataNode TextLabel="KRAS" GraphId="c5645" Type="GeneProduct" GroupRef="c4797">
+        </DataNode>
+  <DataNode TextLabel="RAF1" GraphId="a1d50" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TGFBR1" GraphId="c293e" Type="GeneProduct" GroupRef="c73cf">
+        </DataNode>
+  <DataNode TextLabel="TGFBR2" GraphId="f5478" Type="Protein" GroupRef="c73cf">
+        </DataNode>
+  <DataNode TextLabel="TGFBR3" GraphId="b6e3c" Type="GeneProduct" GroupRef="c73cf">
+        </DataNode>
+  <DataNode TextLabel="TGFB1" GraphId="f30d3" Type="GeneProduct" GroupRef="c3b22">
+        </DataNode>
+  <DataNode TextLabel="TGFB2" GraphId="c75da" Type="GeneProduct" GroupRef="c3b22">
+        </DataNode>
+  <DataNode TextLabel="TGFB3" GraphId="ece8e" Type="GeneProduct" GroupRef="c3b22">
+        </DataNode>
+  <DataNode TextLabel="MAPK" GraphId="b1d17" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WNT" GraphId="ce6bf" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Frizzled" GraphId="d53d0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="APC" GraphId="ae811" Type="GeneProduct" GroupRef="f98b8">
+        </DataNode>
+  <DataNode TextLabel="AXIN1" GraphId="ecc51" Type="GeneProduct" GroupRef="f98b8">
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="b5462" Type="GeneProduct" GroupRef="f98b8">
+        </DataNode>
+  <DataNode TextLabel="AKT1" GraphId="e1649" Type="GeneProduct">
+        </DataNode>
+  <State GraphRef="ff5d2" TextLabel="P" GraphId="a229b">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="cbad4" TextLabel="P" GraphId="f503f">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id1fbbb5de">
+    <Graphics>
+      <Point GraphRef="c1426"/>
+      <Point GraphRef="bbf96" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id91ddafb4">
+    <Graphics>
+      <Point GraphRef="f6d69"/>
+      <Point GraphRef="a8103" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddec4c01d">
+    <Graphics>
+      <Point GraphRef="bd938"/>
+      <Point GraphRef="a8b75" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf158e8ea">
+    <Graphics>
+      <Point GraphRef="a8b75"/>
+      <Point GraphRef="e1649" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9473e1a2">
+    <Graphics>
+      <Point GraphRef="e1649"/>
+      <Point GraphRef="f08cd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbce9308">
+    <Graphics>
+      <Point GraphRef="a8103"/>
+      <Point GraphRef="e35ba" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2da9e318">
+    <Graphics>
+      <Point GraphRef="e35ba"/>
+      <Point GraphRef="a1d50" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf7b64a08">
+    <Graphics>
+      <Point GraphRef="d700e"/>
+      <Point GraphRef="e9f7c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf0857eb">
+    <Graphics>
+      <Point GraphRef="e9f7c"/>
+      <Point GraphRef="c4332" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb393f927">
+    <Graphics>
+      <Point GraphRef="c4332"/>
+      <Point GraphRef="f08cd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8ae409c4">
+    <Graphics>
+      <Point GraphRef="b1d17"/>
+      <Point GraphRef="f08cd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5af121e1">
+    <Graphics>
+      <Point GraphRef="b0961"/>
+      <Point GraphRef="c1426" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfb9b3108">
+    <Graphics>
+      <Point GraphRef="ce6bf"/>
+      <Point GraphRef="d53d0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idca384ed2">
+    <Graphics>
+      <Point GraphRef="d53d0"/>
+      <Point GraphRef="e865b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfc54b649">
+    <Graphics>
+      <Point GraphRef="dde3a"/>
+      <Point GraphRef="bd938" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9c937226">
+    <Graphics>
+      <Point GraphRef="e865b"/>
+      <Point GraphRef="f08cd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ec091">
+    <Graphics>
+      <Point GraphRef="a1d50"/>
+      <Point GraphRef="b1d17" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Recipient cell" GraphId="ccb40">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Host cell" GraphId="a2a7d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="EGFRvIII" GraphId="a6718" GroupRef="a3c62">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Exosome" GraphId="c6844" GroupRef="a3c62">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Packaging of &#10;proteins" GraphId="b79f1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="RTK" GraphId="bd938">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="RTK ligand" GraphId="dde3a">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Multivesicular &#10;bodies" GraphId="cc1d5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Mutant &#10;KRAS" GraphId="b0438" GroupRef="a3c62">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Exosome mediated&#10;signal transduction" GraphId="a1dd0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="ae9c7">
+    <Graphics ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="ffd01">
+    <Graphics ShapeType="Oval" Color="ff6600"/>
+  </Shape>
+  <Shape GraphId="d234c" GroupRef="a3c62">
+    <Graphics ShapeType="Oval" Color="990000"/>
+  </Shape>
+  <Shape GraphId="aaacf" GroupRef="f9464">
+    <Graphics FillColor="0066cc" ShapeType="Rectangle" Color="0066cc"/>
+  </Shape>
+  <Shape GraphId="bbf96" GroupRef="f9464">
+    <Graphics ShapeType="Arc" Color="0066cc"/>
+  </Shape>
+  <Shape GraphId="f08cd">
+    <Graphics ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="b1266">
+    <Graphics ShapeType="Oval" Color="990000"/>
+  </Shape>
+  <Shape GraphId="b0961">
+    <Graphics ShapeType="Oval" Color="990000"/>
+  </Shape>
+  <Shape GraphId="e9cde">
+    <Graphics ShapeType="Oval" Color="990000"/>
+  </Shape>
+  <Shape GraphId="da29b">
+    <Graphics ShapeType="Oval" Color="990000"/>
+  </Shape>
+  <Group GroupId="a3c62" GraphId="c1426" Style="Group"/>
+  <Group GroupId="f9464" GraphId="f896d" Style="Group"/>
+  <Group GroupId="c4797" GraphId="e35ba" Style="Group"/>
+  <Group GroupId="c73cf" GraphId="e9f7c" Style="Group"/>
+  <Group GroupId="c3b22" GraphId="d700e" Style="Group"/>
+  <Group GroupId="c48fe" GraphId="c4332" Style="Group"/>
+  <Group GroupId="f98b8" GraphId="e865b" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d50">
+      <bp:ID >25307053</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Extracellular vesicles including exosomes are mediators of signal transduction: Are they protective or pathogenic?</bp:TITLE>
+      <bp:SOURCE >Proteomics</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Gangoda L</bp:AUTHORS>
+      <bp:AUTHORS >Boukouris S</bp:AUTHORS>
+      <bp:AUTHORS >Liem M</bp:AUTHORS>
+      <bp:AUTHORS >Kalra H</bp:AUTHORS>
+      <bp:AUTHORS >Mathivanan S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:162</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >nervous system disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:863</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>signaling pathway</bp:TERM><bp:ID>PW:0000003</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

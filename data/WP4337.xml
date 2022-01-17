@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="ncRNAs involved in STAT3 signaling in hepatocellular carcinoma" Version="20180907" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway describes the influence of ncRNAs on the STAT3 pathway in hepatocellular carcinoma. The model is based on Fig 4 in Klingenberg et al.</Comment>
+  <BiopaxRef>d81</BiopaxRef>
+  <Graphics BoardWidth="1106.6806722689075" BoardHeight="762.1428571428571"/>
+  <DataNode TextLabel="lncSox4" GraphId="b5a63" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="JAK1" GraphId="c0c5d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RELA" GraphId="c7e10" Type="GeneProduct" GroupRef="aa43f">
+        </DataNode>
+  <DataNode TextLabel="IL6" GraphId="df357" Type="GeneProduct" GroupRef="b5df4">
+        </DataNode>
+  <DataNode TextLabel="IL6ST" GraphId="e76fa" Type="GeneProduct" GroupRef="d33f0">
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="e83dc" Type="GeneProduct" GroupRef="aa43f">
+        </DataNode>
+  <DataNode TextLabel="lncRNA-ATB" GraphId="ecad0" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR21" GraphId="f0375" Type="GeneProduct">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="IL11RA" GraphId="f6a2a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="f9e66" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL11" GraphId="fd0e2" Type="GeneProduct" GroupRef="b5df4">
+        </DataNode>
+  <DataNode TextLabel="IL6R" GraphId="f2f06" Type="GeneProduct" GroupRef="d33f0">
+        </DataNode>
+  <DataNode TextLabel="JAK2" GraphId="d1ac2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="JAK3" GraphId="fa8a5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="JAK1" GraphId="d7996" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="JAK2" GraphId="b4f1c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="JAK3" GraphId="ef877" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL6" GraphId="fc40a" Type="GeneProduct" GroupRef="b7510">
+        </DataNode>
+  <DataNode TextLabel="IL11" GraphId="aafa8" Type="GeneProduct" GroupRef="b7510">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="b3cb4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ZEB1" GraphId="e781b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOX4" GraphId="fd594" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MIR200A" GraphId="fe0b0" Type="GeneProduct" GroupRef="a1be3">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR200B" GraphId="f9325" Type="GeneProduct" GroupRef="a1be3">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR200C" GraphId="a74f6" Type="GeneProduct" GroupRef="a1be3">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR21" GraphId="dfa50" Type="GeneProduct">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="SOX4" GraphId="d1ead" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="UCA1" GraphId="b8ee8" Type="GeneProduct">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="DILC" GraphId="fdd31" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="IL6" GraphId="abd55" Type="GeneProduct">
+        </DataNode>
+  <Interaction>
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e786a"/>
+      <Point/>
+      <Point GraphRef="e7fb8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="f9e66"/>
+      <Point GraphRef="b3cb4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="fd594"/>
+      <Point GraphRef="fe38a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="f0375"/>
+      <Point GraphRef="fd594" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="e781b"/>
+      <Point GraphRef="fe38a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="c8a20"/>
+      <Point GraphRef="e781b" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="ef877"/>
+      <Point GraphRef="f9e66" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="ecad0"/>
+      <Point GraphRef="aafa8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="b3cb4"/>
+      <Point GraphRef="b1c9b" ArrowHead="mim-transcription-translation"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bcb6b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b3cb4"/>
+      <Point GraphRef="dfa50" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="b1c9b"/>
+      <Point GraphRef="fe38a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="dfa50"/>
+      <Point GraphRef="f0375" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b3cb4"/>
+      <Point GraphRef="d1ead" ArrowHead="mim-transcription-translation"/>
+      <Anchor Position="0.6691469878011936" Shape="None" GraphId="c2a80"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="b5a63"/>
+      <Point GraphRef="c2a80" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="b8ee8"/>
+      <Point GraphRef="bcb6b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="ecad0"/>
+      <Point GraphRef="c8a20" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="b3cb4"/>
+      <Point GraphRef="a3436" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="a3436"/>
+      <Point GraphRef="abd55" ArrowHead="mim-transcription-translation"/>
+      <Anchor Position="0.4" Shape="None" GraphId="daca7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="fdd31"/>
+      <Point GraphRef="daca7" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id588b048d">
+    <Graphics>
+      <Point GraphRef="df357"/>
+      <Point GraphRef="c8854" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a2d2a">
+    <Graphics>
+      <Point GraphRef="fd0e2"/>
+      <Point GraphRef="f6a2a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a420b">
+    <Graphics>
+      <Point GraphRef="fa8a5"/>
+      <Point GraphRef="f9e66" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c3cf7">
+    <Graphics>
+      <Point GraphRef="d1ead"/>
+      <Point GraphRef="fd594" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Autocrine signaling&#10;loop" GraphId="ad40f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="STAT3 target genes" GraphId="b1c9b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cancer Stem Cells&#10;Epithelial Mesenchymal Transition" GraphId="fe38a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape TextLabel="nucleus" GraphId="d5dbf">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="fd0c3">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="aa43f" GraphId="a3436" Style="Group"/>
+  <Group GroupId="d33f0" GraphId="c8854" Style="Group"/>
+  <Group GroupId="a1be3" GraphId="c8a20" Style="Group"/>
+  <Group GroupId="b7510" GraphId="e786a" Style="Group"/>
+  <Group GroupId="b5df4" GraphId="e7fb8" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d81">
+      <bp:ID >28438689</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Non-coding RNA in hepatocellular carcinoma: Mechanisms, biomarkers and therapeutic targets.</bp:TITLE>
+      <bp:SOURCE >J Hepatol</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Klingenberg M</bp:AUTHORS>
+      <bp:AUTHORS >Matsuda A</bp:AUTHORS>
+      <bp:AUTHORS >Diederichs S</bp:AUTHORS>
+      <bp:AUTHORS >Patel T</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>hepatocellular carcinoma</bp:TERM><bp:ID>DOID:684</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>altered Jak-Stat signaling pathway</bp:TERM><bp:ID>PW:0000367</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>hepatocyte</bp:TERM><bp:ID>CL:0000182</bp:ID><bp:Ontology>Cell Type</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>cancer pathway</bp:TERM><bp:ID>PW:0000605</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

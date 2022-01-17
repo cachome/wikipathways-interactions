@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cell-type dependent selectivity of CCK2R signaling" Version="20160628" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway is based on Figure 7 of "Cell-Type Specific CCK2 Receptor Signaling Underlies the Cholecystokinin-Mediated Selective Excitation of Hippocampal Parvalbumin-Positive Fast-Spiking Basket Cells."(See Bibliography).The neuropeptide cholecystokinin (CCK) acts through its receptor CCK2R to achieve largely different functions in different types of cells. CCK, CCK2R, and CB1R have all been known to have substantial effects on anxiety and other mood disorders, and the PV+ interneurons have also been shown to be involved i na variety of cognitive functions. However,  In PV+ basket cells and CCK+ basket cells, the CCK2 receptor uses different pathways to exert different effects on the two types of basket cells. For CCK+ basket cells, CCK2 receptors in neighboring pyramidal cells act through the Gq pathway to form endocannabinoids, which, through the cannabinoid receptor type 1 on the CCK+ basket cell, inhibit the release of the neurotransmitter GABA. In contrast, for PV+ basket cells, CCK2 receptors act through the pertussin-toxin sensitive Gi pathway to regulate the intracellular Ca2+ through ryanodine receptors. This pathway ultimately leads to activation of a non-selective cationic conductance to depolarize the PV+ basket cells.</Comment>
+  <BiopaxRef>c18</BiopaxRef>
+  <Graphics BoardWidth="1491.401045056306" BoardHeight="782.6265430020969"/>
+  <DataNode TextLabel="IP3 receptor" GraphId="a43e7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="2-APB" GraphId="a6c5e" Type="Metabolite" GroupRef="e3d69">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DAG" GraphId="a767c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="YM022" GraphId="a8817" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="cyclic ADPR" GraphId="aaded" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Gi/0" GraphId="b0440" Type="GeneProduct" GroupRef="c1989">
+        </DataNode>
+  <DataNode TextLabel="Gq" GraphId="b1304" Type="GeneProduct" GroupRef="d0fdd">
+        </DataNode>
+  <DataNode TextLabel="CCK2R" GraphId="b7013" Type="GeneProduct" GroupRef="d0fdd">
+    <Comment>receptor</Comment>
+        </DataNode>
+  <DataNode TextLabel="8-NH2-cADPR" GraphId="b9df2" Type="Metabolite">
+    <Comment>artifically added antagonist of cyclic ADPR</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Flufenamic acid" GraphId="ba201" Type="Metabolite" GroupRef="e3d69">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GABA&#10;" GraphId="c1e19" Type="Metabolite">
+    <Comment>gamma-Aminobutyric acid</Comment>
+    <Comment>inhibitory neurotransmitter in mammalian CNS
+</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="RYR1" GraphId="c32a7" Type="GeneProduct" GroupRef="e42f6">
+        </DataNode>
+  <DataNode TextLabel="NEM" GraphId="c7e6a" Type="Metabolite" GroupRef="fa2d6">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TRPC1" GraphId="d1efb" Type="GeneProduct">
+    <Comment>likely forms complexes with TRPC4 and TRPC5</Comment>
+    <Comment>transient receptor potential ion channel</Comment>
+        </DataNode>
+  <DataNode TextLabel="DAG lipase" GraphId="d8ae1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Ca 2+" GraphId="dcee2" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ryanodine" GraphId="dcf80" Type="Metabolite">
+    <Comment>artificially added inhibitor of ryanodine receptor</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CCK" GraphId="e6f9a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="U-73122" GraphId="f34d7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PLCB1" GraphId="f5209" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CB1" GraphId="fc303" Type="GeneProduct">
+    <Comment>Cannabinoid receptor 1</Comment>
+        </DataNode>
+  <DataNode TextLabel="YM022" GraphId="fd188" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ADP-Ribose cyclase" GraphId="fd9ba" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CCK" GraphId="aea1d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CCK2R" GraphId="f0ee2" Type="GeneProduct" GroupRef="c1989">
+    <Comment>receptor</Comment>
+        </DataNode>
+  <DataNode TextLabel="Ca 2+" GraphId="d18bd" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ca 2+" GraphId="deec8" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ca 2+" GraphId="c0e2d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="RYR2" GraphId="f5bd2" Type="GeneProduct" GroupRef="e42f6">
+        </DataNode>
+  <DataNode TextLabel="RYR3" GraphId="a3822" Type="GeneProduct" GroupRef="e42f6">
+        </DataNode>
+  <DataNode TextLabel="GABA&#10;" GraphId="c1dbf" Type="Metabolite" GroupRef="b1c9d">
+    <Comment>gamma-Aminobutyric acid</Comment>
+    <Comment>inhibitory neurotransmitter in mammalian CNS</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GABA&#10;" GraphId="c84de" Type="Metabolite" GroupRef="d99be">
+    <Comment>gamma-Aminobutyric acid</Comment>
+    <Comment>inhibitory neurotransmitter in mammalian CNS</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GABA&#10;" GraphId="cdcb5" Type="Metabolite" GroupRef="cb798">
+    <Comment>gamma-Aminobutyric acid</Comment>
+    <Comment>inhibitory neurotransmitter in mammalian CNS</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ca 2+" GraphId="d4aa9" Type="Metabolite" GroupRef="e8f4d">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ca 2+" GraphId="d722d" Type="Metabolite" GroupRef="e3f9e">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Na +" GraphId="d22c6" Type="Metabolite" GroupRef="e8f4d">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Na +" GraphId="de925" Type="Metabolite" GroupRef="e3f9e">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ca 2+" GraphId="c4321" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ca 2+" GraphId="e8003" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="RYR1" GraphId="a3bb7" Type="GeneProduct" GroupRef="fed94">
+        </DataNode>
+  <DataNode TextLabel="RYR2" GraphId="d7e98" Type="GeneProduct" GroupRef="fed94">
+        </DataNode>
+  <DataNode TextLabel="RYR3" GraphId="ddb48" Type="GeneProduct" GroupRef="fed94">
+        </DataNode>
+  <Interaction GraphId="id1abd0d9f">
+    <Graphics>
+      <Point GraphRef="a767c"/>
+      <Point GraphRef="a50e8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id21f3c3e5">
+    <Graphics>
+      <Point GraphRef="aaded"/>
+      <Point GraphRef="f91d2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id22cfa4be">
+    <Graphics>
+      <Point GraphRef="aea1d"/>
+      <Point GraphRef="f4f1f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id32ed8cbf">
+    <Graphics>
+      <Point GraphRef="f34d7"/>
+      <Point GraphRef="f5209" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id41e191b7">
+    <Graphics>
+      <Point GraphRef="ec5b2"/>
+      <Point GraphRef="fb95a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id655e8be6">
+    <Graphics>
+      <Point GraphRef="c4321"/>
+      <Point GraphRef="d1efb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id65c80b61">
+    <Graphics>
+      <Point GraphRef="b1304"/>
+      <Point GraphRef="f5209" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6aaf4812">
+    <Graphics>
+      <Point GraphRef="f91d2"/>
+      <Point GraphRef="d830b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6b0ab544">
+    <Graphics>
+      <Point GraphRef="d1efb"/>
+      <Point GraphRef="f4656" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7549ed51">
+    <Graphics>
+      <Point GraphRef="e200a"/>
+      <Point GraphRef="c8fbf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id78943fe3">
+    <Graphics>
+      <Point GraphRef="a3602"/>
+      <Point GraphRef="d1efb" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7f5a66ae">
+    <Graphics>
+      <Point GraphRef="f4f1f"/>
+      <Point GraphRef="aaded" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a201a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9071c85b">
+    <Graphics>
+      <Point GraphRef="c0e2d"/>
+      <Point GraphRef="deec8" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c8fbf"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9213e38e">
+    <Graphics>
+      <Point GraphRef="dcf80"/>
+      <Point GraphRef="f91d2" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9a8ecce4">
+    <BiopaxRef>ba3</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="fc303"/>
+      <Point GraphRef="c1e19" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9f53f011">
+    <Graphics>
+      <Point GraphRef="f5209"/>
+      <Point GraphRef="a767c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida36b9784">
+    <Graphics>
+      <Point GraphRef="a8817"/>
+      <Point GraphRef="f0ee2" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida3f005a">
+    <Graphics>
+      <Point GraphRef="ad481"/>
+      <Point GraphRef="abf33" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida4f5458d">
+    <Graphics>
+      <Point GraphRef="e8003"/>
+      <Point GraphRef="c4321" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d830b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbace4c4a">
+    <Graphics>
+      <Point GraphRef="e6f9a"/>
+      <Point GraphRef="bcc43" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbe4fea9a">
+    <Graphics>
+      <Point GraphRef="f0fac"/>
+      <Point GraphRef="fc303" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbfce5b97">
+    <Graphics>
+      <Point GraphRef="b9df2"/>
+      <Point GraphRef="f91d2" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc7a052ad">
+    <Graphics>
+      <Point GraphRef="bd67c"/>
+      <Point GraphRef="b0440" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd53c8fe2">
+    <Graphics>
+      <Point GraphRef="fd9ba"/>
+      <Point GraphRef="a201a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddcb9dd99">
+    <Graphics>
+      <Point GraphRef="d18bd"/>
+      <Point GraphRef="dcee2" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a4f7a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddda8a114">
+    <Graphics>
+      <Point GraphRef="a50e8"/>
+      <Point GraphRef="f0fac" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide0f0dcf0">
+    <Graphics>
+      <Point GraphRef="d8ae1"/>
+      <Point GraphRef="a767c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf65f9f23">
+    <Graphics>
+      <Point GraphRef="fd188"/>
+      <Point GraphRef="b7013" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfc0cf358">
+    <Graphics>
+      <Point GraphRef="a43e7"/>
+      <Point GraphRef="a4f7a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="endocannabinoids" GraphId="a50e8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="GABA vesicles" GraphId="d2d7d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Calcium stores" GraphId="e9526">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Pertussis toxin" GraphId="ee1c0" GroupRef="fa2d6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Ca2+ stores" GraphId="ffd9d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="endocannabinoids" GraphId="f0fac">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape TextLabel="    PV+ basket cell" GraphId="f4656">
+    <Graphics Align="Left" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e03ec">
+    <Graphics ShapeType="Endoplasmic Reticulum" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="     Pyramidal cell" GraphId="bdd6b">
+    <Graphics Align="Left" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bcc6a">
+    <Graphics ShapeType="Rectangle" Color="006633"/>
+  </Shape>
+  <Shape GraphId="e5431">
+    <Graphics ShapeType="Endoplasmic Reticulum" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="   CCK+ Basket Cell presynaptic terminal&#10;&#10;&#10;&#10;" GraphId="e6f3b">
+    <Graphics Align="Left" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e7976">
+    <Graphics ShapeType="Rectangle" Color="006633"/>
+  </Shape>
+  <Shape GraphId="ec5b2" GroupRef="b1c9d">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d73b2" GroupRef="d99be">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fb95a" GroupRef="cb798">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="b1c9d" Style="Group"/>
+  <Group GroupId="d99be" Style="Group"/>
+  <Group GroupId="e3d69" GraphId="a3602" Style="Group"/>
+  <Group GroupId="e3f9e" GraphId="abf33" Style="Group"/>
+  <Group GroupId="e8f4d" GraphId="ad481" Style="Group"/>
+  <Group GroupId="d0688" GraphId="b93c2" Style="Group"/>
+  <Group GroupId="d0fdd" GraphId="bcc43" Style="Complex"/>
+  <Group GroupId="fa2d6" GraphId="bd67c" Style="Group"/>
+  <Group GroupId="e42f6" GraphId="e200a" Style="Group"/>
+  <Group GroupId="cb798" GraphId="ec137" Style="Group"/>
+  <Group GroupId="c1989" GraphId="f4f1f" Style="Complex"/>
+  <Group GroupId="fed94" GraphId="f91d2" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >pertussis</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:1116</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >basket cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000118</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c18">
+      <bp:ID >21795548</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cell-type-specific CCK2 receptor signaling underlies the cholecystokinin-mediated selective excitation of hippocampal parvalbumin-positive fast-spiking basket cells.</bp:TITLE>
+      <bp:SOURCE >J Neurosci</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Lee SY</bp:AUTHORS>
+      <bp:AUTHORS >F&#246;ldy C</bp:AUTHORS>
+      <bp:AUTHORS >Szabadics J</bp:AUTHORS>
+      <bp:AUTHORS >Soltesz I</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba3">
+      <bp:ID >21173082</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Requirement for CB1 but not GABAB receptors in the cholecystokinin mediated inhibition of GABA release from cholecystokinin expressing basket cells.</bp:TITLE>
+      <bp:SOURCE >J Physiol</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Lee SH</bp:AUTHORS>
+      <bp:AUTHORS >Soltesz I</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >pyramidal neuron</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000598</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

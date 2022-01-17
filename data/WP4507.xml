@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Molybdenum cofactor (Moco) biosynthesis" Version="20190124" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway visualises the Moco biosynthesis, which is used as a cofactor for several enzymes.
+Several diseases (MoCD type A, B and C) are clinically very similar to sulphite oxidase (SO) deficiency (see [https://www.wikipathways.org/index.php/Pathway:WP4504] for the pathway related to SO-deficiency).
+This pathway was inspired by Chapter 12 of the book of Blau (ISBN 3642403360 (978-3642403361)). </Comment>
+  <BiopaxRef>d1b</BiopaxRef>
+  <BiopaxRef>dcc</BiopaxRef>
+  <Graphics BoardWidth="926.3917910447756" BoardHeight="692.5"/>
+  <DataNode TextLabel="Sulfite oxidase" GraphId="a002c" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="cPMP" GraphId="b435a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Gephyrin&#10;(G domain)" GraphId="b4d98" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Moco" GraphId="bbda9" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="R=N-OH" GraphId="cf606" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MOCS1A" GraphId="d48d4" Type="Protein" GroupRef="beb7a">
+        </DataNode>
+  <DataNode TextLabel="MPT" GraphId="d4e21" Type="Metabolite">
+    <Comment>AKA metal-binding pterin</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GTP" GraphId="d5ba0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Sulfite" GraphId="e2602" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Xanthine" GraphId="f8f83" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MPT-AMP" GraphId="cca8f" Type="Metabolite">
+    <Comment>AKA adenylylated MPT</Comment>
+    <BiopaxRef>dc8</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Amidoxime reducing&#10;component" GraphId="f26b8" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Xanthine oxidase" GraphId="ceacf" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Aldehyde oxidase" GraphId="ca66c" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Sulfate" GraphId="ddbb8" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="R-NH" GraphId="b0eac" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="urate" GraphId="a1a53" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="R-H" GraphId="a578f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="R-OH" GraphId="c7dec" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Sulfite oxidase" GraphId="ba0b0" Type="Protein" GroupRef="d58fc">
+        </DataNode>
+  <DataNode TextLabel="Moco" GraphId="f6b02" Type="Metabolite" GroupRef="d58fc">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Amidoxime reducing&#10;component" GraphId="abdb1" Type="Protein" GroupRef="f0d45">
+        </DataNode>
+  <DataNode TextLabel="Moco" GraphId="c37e6" Type="Metabolite" GroupRef="f0d45">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Xanthine oxidase" GraphId="d3a33" Type="Protein" GroupRef="ffe94">
+        </DataNode>
+  <DataNode TextLabel="Moco" GraphId="c3e8a" Type="Metabolite" GroupRef="ffe94">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Aldehyde oxidase" GraphId="e7568" Type="Protein" GroupRef="c3bf8">
+        </DataNode>
+  <DataNode TextLabel="Moco" GraphId="cb442" Type="Metabolite" GroupRef="c3bf8">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MOCS1AB" GraphId="b0197" Type="Protein" GroupRef="beb7a">
+    <BiopaxRef>c93</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MOCS2A" GraphId="c12c2" Type="Protein" GroupRef="e6ad1">
+        </DataNode>
+  <DataNode TextLabel="MOCS2B" GraphId="ef0fa" Type="Protein" GroupRef="e6ad1">
+        </DataNode>
+  <DataNode TextLabel="Gephyrin&#10;(E domain)" GraphId="ad7b1" Type="Protein">
+        </DataNode>
+  <Interaction GraphId="id282bd339">
+    <Graphics>
+      <Point GraphRef="b4d98"/>
+      <Point GraphRef="e899c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id29426b76">
+    <Graphics>
+      <Point GraphRef="ef838"/>
+      <Point GraphRef="b4cfa" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2a6f9374">
+    <Graphics>
+      <Point GraphRef="ceacf"/>
+      <Point GraphRef="fcf9d" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6823823e">
+    <Graphics>
+      <Point GraphRef="d5ba0"/>
+      <Point GraphRef="b435a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.49404761904761907" Shape="None" GraphId="b4cfa"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id957aed9c">
+    <Graphics>
+      <Point GraphRef="a002c"/>
+      <Point GraphRef="ada61" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9f5b949d">
+    <Graphics>
+      <Point GraphRef="f2e6c"/>
+      <Point GraphRef="a28aa" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida10af676">
+    <Graphics>
+      <Point GraphRef="a42cd"/>
+      <Point GraphRef="ee50f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida6b11e87">
+    <Graphics>
+      <Point GraphRef="ca66c"/>
+      <Point GraphRef="d5b8e" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida829bffd">
+    <Graphics>
+      <Point GraphRef="e2602"/>
+      <Point GraphRef="ddbb8" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f2022"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbfd0a336">
+    <Graphics>
+      <Point GraphRef="c5c47"/>
+      <Point GraphRef="d8160" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd53e6019">
+    <Graphics>
+      <Point GraphRef="c89fe"/>
+      <Point GraphRef="f49d2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddfdce270">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bbda9"/>
+      <Point/>
+      <Point GraphRef="c562f" ArrowHead="mim-binding"/>
+      <Anchor Position="0.779050736497545" Shape="None" GraphId="ada61"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide18e07b8">
+    <Graphics>
+      <Point GraphRef="c562f"/>
+      <Point GraphRef="f2022" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide615776d">
+    <Graphics>
+      <Point GraphRef="f26b8"/>
+      <Point GraphRef="c2657" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c73f2">
+    <Graphics>
+      <Point GraphRef="b435a"/>
+      <Point GraphRef="d4e21" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4596774193548387" Shape="None" GraphId="a28aa"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b58e8">
+    <BiopaxRef>dc8</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d4e21"/>
+      <Point GraphRef="cca8f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4012345679012346" Shape="None" GraphId="e899c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a0518">
+    <BiopaxRef>dc8</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cca8f"/>
+      <Point GraphRef="bbda9" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bd6b6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eafef">
+    <Graphics>
+      <Point GraphRef="cf606"/>
+      <Point GraphRef="b0eac" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.30357142857142855" Shape="None" GraphId="ee50f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d7e2e">
+    <Graphics>
+      <Point GraphRef="f8f83"/>
+      <Point GraphRef="a1a53" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f49d2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8966">
+    <Graphics>
+      <Point GraphRef="a578f"/>
+      <Point GraphRef="c7dec" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d8160"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d68f7">
+    <Graphics>
+      <Point GraphRef="bbda9"/>
+      <Point GraphRef="a42cd" ArrowHead="mim-binding"/>
+      <Anchor Position="0.7061725704265467" Shape="None" GraphId="c2657"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d031d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bbda9"/>
+      <Point/>
+      <Point GraphRef="c89fe" ArrowHead="mim-binding"/>
+      <Anchor Position="0.7762376237623763" Shape="None" GraphId="fcf9d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b9be7">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bbda9"/>
+      <Point/>
+      <Point GraphRef="c5c47" ArrowHead="mim-binding"/>
+      <Anchor Position="0.7970802919708029" Shape="None" GraphId="d5b8e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f2843">
+    <Graphics>
+      <Point GraphRef="ad7b1"/>
+      <Point GraphRef="bd6b6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="aba2c">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f49d2"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d261b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f2022"/>
+      <Point GraphRef="ba56c" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a874d">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="bd6b6"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="bb45c" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c1742">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e899c"/>
+      <Point GraphRef="bb45c" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e60de">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a28aa"/>
+      <Point GraphRef="e80d8" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fc4ba">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b4cfa"/>
+      <Point GraphRef="a96f7" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f44c6">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="fcf9d"/>
+      <Point GraphRef="c03a8" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Xanthinuria Type I" GraphId="cbdfc" Href="https://omim.org/278300" GroupRef="dd3b3">
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Sulphite oxidase &#10;deficiency" GraphId="ba56c" Href="https://omim.org/272300">
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="MoCD type A" GraphId="a96f7" Href="https://omim.org/603707">
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="MoCD type B" GraphId="e80d8" Href="https://omim.org/603708">
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="MoCD type C" GraphId="bb45c" Href="https://omim.org/603930">
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Xanthinuria Type II" GraphId="b3678" Href="https://omim.org/278300" GroupRef="dd3b3">
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Xanthinuria Type I" GraphId="c7687" Href="https://omim.org/278300" GroupRef="ead29">
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Xanthinuria Type II" GraphId="a6e6f" Href="https://omim.org/278300" GroupRef="ead29">
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Group GroupId="f0d45" GraphId="a42cd" Style="Complex"/>
+  <Group GroupId="dd3b3" GraphId="b1518" Style="Group"/>
+  <Group GroupId="ead29" GraphId="c03a8" Style="Group"/>
+  <Group GroupId="d58fc" GraphId="c562f" Style="Complex"/>
+  <Group GroupId="c3bf8" GraphId="c5c47" Style="Complex"/>
+  <Group GroupId="ffe94" GraphId="c89fe" Style="Complex"/>
+  <Group GroupId="ae273" GraphId="ef5bb" Style="Group"/>
+  <Group GroupId="beb7a" GraphId="ef838" Style="Group"/>
+  <Group GroupId="e6ad1" GraphId="f2e6c" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >molybdenum cofactor deficiency type B</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0111163</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d1b">
+      <bp:ID >9783642403361</bp:ID>
+      <bp:DB >ISBN</bp:DB>
+      <bp:TITLE >'Physician's Guide to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases'</bp:TITLE>
+      <bp:SOURCE >Springer-Verlag Berlin Heidelberg</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Nenad Blau</bp:AUTHORS>
+      <bp:AUTHORS >Marinus Duran</bp:AUTHORS>
+      <bp:AUTHORS >K Michael Gibson</bp:AUTHORS>
+      <bp:AUTHORS >Carlo Dionisi-Vici</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >xanthinuria</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0060236</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >molybdenum cofactor biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000427</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >molybdenum cofactor deficiency pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001817</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc8">
+      <bp:ID >15504727</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Synthesis of adenylated molybdopterin: an essential step for molybdenum insertion.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Llamas A</bp:AUTHORS>
+      <bp:AUTHORS >Mendel RR</bp:AUTHORS>
+      <bp:AUTHORS >Schwarz G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >molybdenum cofactor deficiency type C</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0111166</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >xanthinuria  type I pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001591</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >molybdenum cofactor deficiency</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0111165</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >xanthinuria type II pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001592</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >altered molybdenum cofactor biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000428</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c93">
+      <bp:ID >10.1101/429183</bp:ID>
+      <bp:DB >DOI</bp:DB>
+      <bp:TITLE >Alternative splicing of bicistronic MOCS1 defines a novel mitochondrial protein maturation mechanism</bp:TITLE>
+      <bp:SOURCE >https://doi.org/10.1101/429183</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Simon Julius Mayr</bp:AUTHORS>
+      <bp:AUTHORS >Juliane Roeper</bp:AUTHORS>
+      <bp:AUTHORS >Guenter Schwarz</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dcc">
+      <bp:ID >16261263</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Molybdenum cofactor biosynthesis and deficiency.</bp:TITLE>
+      <bp:SOURCE >Cell Mol Life Sci</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Schwarz G</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

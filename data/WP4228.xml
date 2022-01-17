@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Vitamin B6-dependent and responsive disorders" Version="20180115" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Vitamine B6 is absorbed in different vitamers, which undergo several (de)phosphorylation steps, to be able to pas the blood-brain barrier. Within the brain, PLP (Pyridoxal-P) is the only active cofactor for intracellular enzyme reactions. PLP catalyses over 100 reactions, mainly related to amino acids and neurotransmitter metabolism. Bold lines in the Figure show how the major source of PLP is divided in the body.
+A number of genetic defects have been identified as the underlying cause of vitamine B6 dependent epilepsies, particularly occurring in the neonatal life stage, which could lead to irreversible brain damage or could be fatal. 
+The disorders related to this pathway can be divided in two categories: reduced production/availability of PLP or inactivation of PLP by formation of Knoevenagel products.
+Specific biomarkers from urine, plasma or Cerebral Spinal Fluid (CSF) exist to distinguish the disorders.
+Oral treatment with PL or PLP is available, as well as intrauterine treatment with vitamine B6 for mothers in the early stages of pregnancy.
+
+This pathway was inspired by Chapter 11 of the book of Blau (ISBN 3642403360 (978-3642403361)).</Comment>
+  <BiopaxRef>d7f</BiopaxRef>
+  <Graphics BoardWidth="1711.9310688641172" BoardHeight="1171.141458410163"/>
+  <DataNode TextLabel="PNPO" GraphId="d529d" Type="GeneProduct">
+    <Comment>pyridoxamine 5'-phosphate oxidase</Comment>
+        </DataNode>
+  <DataNode TextLabel="2-keto 6-aminocaproic acid" GraphId="f0955" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="L-lysine" GraphId="b80f5" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ALPL" GraphId="e9285" Type="Protein">
+    <Comment>Alkaline phosphatase</Comment>
+        </DataNode>
+  <DataNode TextLabel="IP" GraphId="e6065" Type="Pathway">
+    <Comment>Intestinal alkaline phosphatases</Comment>
+        </DataNode>
+  <DataNode TextLabel="P5C &#10;dehydrogenase" GraphId="b97c6" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="pyridoxal" GraphId="d5dfd" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Pipecolic acid" GraphId="bd0f2" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="P5C" GraphId="ba734" Type="Metabolite">
+    <Comment>delta1-pyrroline-5-carboxylate (P5C)</Comment>
+    <Graphics Color="ff0066"/>
+    </DataNode>
+  <DataNode TextLabel="PLP" GraphId="e874c" Type="Metabolite">
+    <Comment>Pyridoxal-5-Phosphate (=PLP)</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="pyridoxamine-p" GraphId="c709b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Pyridoxal-P" GraphId="cf583" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Antiquitin" GraphId="e3000" Type="Protein">
+    <Comment>Aldehyde dehydrogenase 7 family, member A1, also known as ALDH7A1 or antiquitin</Comment>
+        </DataNode>
+  <DataNode TextLabel="PLP" GraphId="c353f" Type="Metabolite">
+    <Comment>Pyridoxal-5-Phosphate (=PLP)</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="piperideine-2-carboxylate" GraphId="b27c3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Vitamin B6" GraphId="d7571" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="pyridoxal" GraphId="de556" Type="Metabolite">
+    <Comment>AKA PL</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="glutamic semialdehyde" GraphId="a4709" Type="Metabolite">
+    <Comment>Drawing in Chapter 11 Blau contains an error for this metabolite, one carbon is missing from the structure!</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Saccharopine" GraphId="d3679" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PIGV anchor" GraphId="c8eb0" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="pyridoxamine-p" GraphId="c98c7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="L-proline" GraphId="c8cd6" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Pyridoxine-P" GraphId="f0588" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="pyridoxamine" GraphId="bfa7e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Pyridoxal-P" GraphId="cc302" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="glutamic acid" GraphId="ae873" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="alpha aminoadipic semialdehyde" GraphId="dd9ec" Type="Protein">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="pyridoxamine" GraphId="edf98" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="pyridoxamine-p" GraphId="b262b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="alpha aminoadipic acid" GraphId="e48f8" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Pyridoxine" GraphId="f69e3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="pyridoxine-glucoside" GraphId="da44e" Type="Metabolite">
+    <Comment>pyridoxine-5'-beta-D-glucoside aka PNG aka pyridoxine-glucoside</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Pyridoxine-P" GraphId="c6943" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Pyridoxine" GraphId="b0324" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="P6C" GraphId="a41e4" Type="Metabolite">
+    <Comment>piperideine-6-carboxylate</Comment>
+    <Graphics Color="ff0066"/>
+    </DataNode>
+  <DataNode TextLabel="PK" GraphId="f7920" Type="Protein">
+    <Comment>Phosphate kinase</Comment>
+        </DataNode>
+  <DataNode TextLabel="PK" GraphId="a2c34" Type="Protein">
+    <Comment>Phosphate kinase</Comment>
+        </DataNode>
+  <DataNode TextLabel="IP" GraphId="be203" Type="Pathway">
+    <Comment>Intestinal alkaline phosphatases</Comment>
+        </DataNode>
+  <DataNode TextLabel="PK" GraphId="c8035" Type="Protein">
+    <Comment>Phosphate kinase</Comment>
+        </DataNode>
+  <DataNode TextLabel="PK" GraphId="a278d" Type="Protein">
+    <Comment>Phosphate kinase</Comment>
+        </DataNode>
+  <DataNode TextLabel="PK" GraphId="accff" Type="Protein">
+    <Comment>Phosphate kinase</Comment>
+        </DataNode>
+  <DataNode TextLabel="PK" GraphId="acecc" Type="Protein">
+    <Comment>Phosphate kinase</Comment>
+        </DataNode>
+  <DataNode TextLabel="PNPO" GraphId="b6eb1" Type="Protein">
+    <Comment>pyridoxamine 5'-phosphate oxidase</Comment>
+        </DataNode>
+  <State GraphRef="e874c" TextLabel="" GraphId="d715e">
+    <Comment>P</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c709b" TextLabel="" GraphId="a5c40">
+    <Comment>P</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="cf583" TextLabel="" GraphId="acdd8">
+    <Comment>P</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c353f" TextLabel="" GraphId="eca36">
+    <Comment>P</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c98c7" TextLabel="" GraphId="a5712">
+    <Comment>P</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f0588" TextLabel="" GraphId="aa43c">
+    <Comment>P</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="cc302" TextLabel="" GraphId="fa55a">
+    <Comment>P</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b262b" TextLabel="" GraphId="a245f">
+    <Comment>P</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c6943" TextLabel="" GraphId="f0748">
+    <Comment>P</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id30ec2a4b">
+    <Graphics>
+      <Point GraphRef="b6eb1"/>
+      <Point GraphRef="d7d8d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc2279f50">
+    <Graphics>
+      <Point GraphRef="accff"/>
+      <Point GraphRef="a8f54" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd075151a">
+    <Comment>dephosphorylation</Comment>
+    <Graphics>
+      <Point GraphRef="cc302"/>
+      <Point GraphRef="d5dfd" ArrowHead="mim-modification"/>
+      <Anchor Position="0.4999813732569698" Shape="None" GraphId="d1b52"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7cacbb82">
+    <Comment>Knoevenagel condensation</Comment>
+    <Comment>Leads to cerebral PLP deficiency</Comment>
+    <Graphics>
+      <Point GraphRef="a41e4"/>
+      <Point GraphRef="c353f" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf6615d0">
+    <Comment>Sponteneous reaction</Comment>
+    <Graphics>
+      <Point GraphRef="a4709"/>
+      <Point GraphRef="ba734" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd03bdc00">
+    <Graphics>
+      <Point GraphRef="d529d"/>
+      <Point GraphRef="e1dbe" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd7ff1cdc">
+    <Comment>Feedback inhibitions</Comment>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e874c"/>
+      <Point GraphRef="d529d" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idab4861f5">
+    <Graphics>
+      <Point GraphRef="da44e"/>
+      <Point GraphRef="b0324" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id254ead04">
+    <Graphics>
+      <Point GraphRef="b80f5"/>
+      <Point GraphRef="d3679" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id549d3730">
+    <Comment>rephoshorylation</Comment>
+    <Graphics>
+      <Point GraphRef="d5dfd"/>
+      <Point GraphRef="cf583" ArrowHead="mim-modification"/>
+      <Anchor Position="0.4115113276242737" Shape="None" GraphId="a8c8b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idff0c5bbb">
+    <Graphics>
+      <Point GraphRef="b97c6"/>
+      <Point GraphRef="cc516" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8a65f156">
+    <Graphics>
+      <Point GraphRef="bd0f2"/>
+      <Point GraphRef="a41e4" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide5c1c5e7">
+    <Graphics>
+      <Point GraphRef="d3679"/>
+      <Point GraphRef="dd9ec" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcb84f955">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="df49b"/>
+      <Point GraphRef="dbcf6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7582a603">
+    <Graphics>
+      <Point GraphRef="dd9ec"/>
+      <Point GraphRef="e48f8" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="df49b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id66d87941">
+    <Graphics>
+      <Point GraphRef="f0588"/>
+      <Point GraphRef="e874c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6835424774320847" Shape="None" GraphId="e1dbe"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7f72aef2">
+    <Comment>Feedback inhibition</Comment>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c353f"/>
+      <Point GraphRef="b6eb1" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id28a19b02">
+    <Graphics>
+      <Point GraphRef="e9285"/>
+      <Point GraphRef="d29e3" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd1b551a5">
+    <Graphics>
+      <Point GraphRef="c8035"/>
+      <Point GraphRef="cb13c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id747536a">
+    <Graphics>
+      <Point GraphRef="e6065"/>
+      <Point GraphRef="d1b52" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd3bc54c8">
+    <Graphics>
+      <Point GraphRef="d7571"/>
+      <Point GraphRef="da44e" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbb71423f">
+    <Graphics>
+      <Point GraphRef="f7920"/>
+      <Point GraphRef="a8c8b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc79ab0f2">
+    <Graphics>
+      <Point GraphRef="d7571"/>
+      <Point GraphRef="cc302" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idee84c137">
+    <Graphics>
+      <Point GraphRef="d529d"/>
+      <Point GraphRef="ca99f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide9dba89b">
+    <Comment>TNSAP</Comment>
+    <Graphics>
+      <Point GraphRef="cf583"/>
+      <Point GraphRef="e874c" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id933eed8b">
+    <Graphics>
+      <Point GraphRef="e3000"/>
+      <Point GraphRef="df49b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2aef5b5b">
+    <Graphics>
+      <Point GraphRef="be203"/>
+      <Point GraphRef="cc718" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1cbe35b0">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a1731"/>
+      <Point GraphRef="dfd89" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id79e62a61">
+    <Comment>P5C dehydrogenase</Comment>
+    <Graphics>
+      <Point GraphRef="a4709"/>
+      <Point GraphRef="ae873" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="cc516"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9ccdd047">
+    <Graphics>
+      <Point GraphRef="b80f5"/>
+      <Point GraphRef="f0955" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbae01115">
+    <Graphics ConnectorType="Elbow" Color="009999">
+      <Point GraphRef="c52f0"/>
+      <Point GraphRef="c3fd4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide4847f66">
+    <Comment>attachment to cellular membrane by anchor system</Comment>
+    <Graphics>
+      <Point GraphRef="e9285"/>
+      <Point GraphRef="c8eb0" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id88486988">
+    <Graphics>
+      <Point GraphRef="d7571"/>
+      <Point GraphRef="c709b" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide840209f">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d7d8d"/>
+      <Point GraphRef="dfd89" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1515e2a5">
+    <Graphics>
+      <Point GraphRef="b27c3"/>
+      <Point GraphRef="bd0f2" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id13250715">
+    <Comment>Sponteneous reaction</Comment>
+    <Graphics>
+      <Point GraphRef="ba734"/>
+      <Point GraphRef="a4709" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6be8b83a">
+    <Graphics>
+      <Point GraphRef="c98c7"/>
+      <Point GraphRef="e874c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.545051451254012" Shape="None" GraphId="ca99f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1839dd24">
+    <Graphics>
+      <Point GraphRef="a41e4"/>
+      <Point GraphRef="dd9ec" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id21eed9a3">
+    <Graphics>
+      <Point GraphRef="f0955"/>
+      <Point GraphRef="b27c3" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9650f788">
+    <Graphics>
+      <Point GraphRef="b6eb1"/>
+      <Point GraphRef="a1731" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf646f5c6">
+    <Graphics>
+      <Point GraphRef="acecc"/>
+      <Point GraphRef="e6caa" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6f10a1a2">
+    <Graphics>
+      <Point GraphRef="a2c34"/>
+      <Point GraphRef="ecf3d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide3df4da4">
+    <Graphics>
+      <Point GraphRef="a278d"/>
+      <Point GraphRef="ee115" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9cfe2565">
+    <Graphics>
+      <Point GraphRef="c8cd6"/>
+      <Point GraphRef="ba734" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id241ee2e0">
+    <Graphics>
+      <Point GraphRef="dd9ec"/>
+      <Point GraphRef="a41e4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idda752e2f">
+    <Comment>Knoevenagel condensation</Comment>
+    <Graphics>
+      <Point GraphRef="ba734"/>
+      <Point GraphRef="c353f" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd4d6002e">
+    <Graphics ConnectorType="Elbow" Color="cc33ff">
+      <Point GraphRef="e874c"/>
+      <Point GraphRef="c52f0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="db5b9">
+    <Comment>dephosphorylation</Comment>
+    <Graphics>
+      <Point GraphRef="c709b"/>
+      <Point GraphRef="bfa7e" ArrowHead="mim-modification"/>
+      <Anchor Position="0.5075073060595224" Shape="None" GraphId="cc718"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6c47">
+    <Comment>Rephosphorylation</Comment>
+    <Graphics>
+      <Point GraphRef="b0324"/>
+      <Point GraphRef="f0588" ArrowHead="mim-modification"/>
+      <Anchor Position="0.43043442057609693" Shape="None" GraphId="ecf3d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cc7a9">
+    <Comment>rephosphorylation</Comment>
+    <Graphics>
+      <Point GraphRef="bfa7e"/>
+      <Point GraphRef="c98c7" ArrowHead="mim-modification"/>
+      <Anchor Position="0.4115113276242721" Shape="None" GraphId="cb13c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a4744">
+    <Graphics LineStyle="Broken" Color="009999">
+      <Point GraphRef="c98c7"/>
+      <Point GraphRef="edf98" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a1411">
+    <Graphics LineStyle="Broken" Color="009999">
+      <Point GraphRef="f0588"/>
+      <Point GraphRef="f69e3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b2714">
+    <Comment>Phosphate kinase</Comment>
+    <Graphics>
+      <Point GraphRef="f69e3"/>
+      <Point GraphRef="c6943" ArrowHead="mim-modification"/>
+      <Anchor Position="0.408391678752135" Shape="None" GraphId="e6caa"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3feb">
+    <Comment>Phosphate kinase</Comment>
+    <Graphics>
+      <Point GraphRef="edf98"/>
+      <Point GraphRef="b262b" ArrowHead="mim-modification"/>
+      <Anchor Position="0.42294390821226885" Shape="None" GraphId="a8f54"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc784">
+    <Comment>Oxidation</Comment>
+    <Graphics>
+      <Point GraphRef="b262b"/>
+      <Point GraphRef="c353f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d7d8d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b0d36">
+    <Comment>Oxidation</Comment>
+    <Graphics>
+      <Point GraphRef="c6943"/>
+      <Point GraphRef="c353f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6015711264104107" Shape="None" GraphId="a1731"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ccbf3">
+    <Comment>Rephosphorylation</Comment>
+    <Graphics>
+      <Point GraphRef="de556"/>
+      <Point GraphRef="c353f" ArrowHead="mim-modification"/>
+      <Anchor Position="0.11911214495114646" Shape="None" GraphId="ee115"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fb809">
+    <Comment>Transport possible due to hydrolysis</Comment>
+    <Comment>hydrolysis</Comment>
+    <Graphics Color="009999">
+      <Point GraphRef="e874c"/>
+      <Point GraphRef="ead6c" ArrowHead="Arrow"/>
+      <Anchor Position="0.7890575523816145" Shape="None" GraphId="d29e3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ccdbf">
+    <Comment>Transport possible due to hydrolysis</Comment>
+    <Comment>hydrolysis</Comment>
+    <Graphics Color="009999">
+      <Point GraphRef="ead6c"/>
+      <Point GraphRef="de556" ArrowHead="Arrow"/>
+      <Anchor Position="0.6521670728587705" Shape="None" GraphId="c91ca"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e166e">
+    <Graphics ConnectorType="Elbow" Color="009999">
+      <Point GraphRef="c3fd4"/>
+      <Point GraphRef="de556" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d0201">
+    <Comment>attachment to cellular membrane by anchor system</Comment>
+    <Graphics>
+      <Point GraphRef="c8eb0"/>
+      <Point GraphRef="e9285" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="efd7b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="cc516"/>
+      <Point GraphRef="adeb5" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d1b10">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d29e3"/>
+      <Point GraphRef="d4490" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="de471">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e1dbe"/>
+      <Point GraphRef="eb2f6" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dacbf">
+    <Graphics Color="cc33ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f4e43">
+    <Graphics Color="009999">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b5113">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ca99f"/>
+      <Point GraphRef="eb2f6" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="TNSALP" GraphId="d581e">
+    <Comment>tissue non-specific alkaline phosphatase aka TNSALP</Comment>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Pyridoxine dependent&#10;epilepsy (PDE)" GraphId="dbcf6" Href="htpps://omim.org/266100">
+    <Comment>DISEASE</Comment>
+    <Comment>aka Alpha-amino adipic semialdehyde (AASA) dehydrogenase deficiency</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Diet" GraphId="a62bd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Lysine degradation pathway&#10;Fig. 11.2" GraphId="ccd8d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Catabolism of L-proline&#10;Fig. 11.3" GraphId="d8381">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Absorption" GraphId="e6fea">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Hepatic &#10;metabolism" GraphId="fe1b2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Blood" GraphId="c52f0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cell membrane" GraphId="c3fd4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="LEGEND:" GraphId="aaf43">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Release into circulation &#10;(transport out of liver)" GraphId="e69bd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cellular uptake or transport &#10;accross blood-brain barrier" GraphId="f58d7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Blood-brain &#10;barrier" GraphId="ead6c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="(Brain) cell" GraphId="ead46">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Vitamine B6 metabolism&#10;Fig. 11.1" GraphId="b7090">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Hyperprolinaemia type II" GraphId="adeb5" Href="htpps://omim.org/239510">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="PNPO deficiency" GraphId="dfd89" Href="htpps://omim.org/610090">
+    <Comment>DISEASE</Comment>
+    <Comment>Pyridox(am)ine 5'-phosphate oxidase deficiency</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="PNPO deficiency" GraphId="eb2f6" Href="htpps://omim.org/610090">
+    <Comment>DISEASE</Comment>
+    <Comment>Pyridox(am)ine 5'-phosphate oxidase deficiency</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Congential &#10;hypophosphatasia" GraphId="d4490" Href="htpps://omim.org/241500">
+    <Comment>DISEASE</Comment>
+    <Comment>aka Alpha-amino adipic semialdehyde (AASA) dehydrogenase deficiency</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Shape GraphId="e0fb8">
+    <Graphics FillColor="ccffff" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="ed7f2">
+    <Graphics FillColor="ccffcc" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="ee9f1">
+    <Graphics FillColor="ffffcc" ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="b0519">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="a5273">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="cc848">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >hypophosphatasia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:14213</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >neural cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0002319</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >lysine degradation pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000073</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d7f">
+      <bp:ID >9783642403361</bp:ID>
+      <bp:DB >ISBN</bp:DB>
+      <bp:TITLE >Physician's Guide to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases, Chapter 11</bp:TITLE>
+      <bp:SOURCE >SBN 978-3-642-40337-8</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Blau, N.</bp:AUTHORS>
+      <bp:AUTHORS >Duran, M.</bp:AUTHORS>
+      <bp:AUTHORS >Gibson, K.M.</bp:AUTHORS>
+      <bp:AUTHORS >Dionisi-Vici, C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >childhood hypophosphatasia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0110915</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >hyperprolinemia type II disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001932</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >hypophosphatasia disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001881</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >infantile hypophosphatasia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0110914</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >vitamin B6 metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000138</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

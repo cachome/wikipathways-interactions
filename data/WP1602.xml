@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Nicotine effect on dopaminergic neurons" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="WikiPathways-description">Nicotine is an alkaloid found in tobacco plants. It is a substance that acts as a stimulant in humans and is one of the main factors responsible for tobacco dependence. When nicotine enters the body, it is distributed quickly through the bloodstream, and it can cross the blood-brain barrier to enter the central nervous system (CNS). It binds to two main types of nicotinic acetylcholine receptors: the ganglion type and the CNS type.
+
+In dopaminergic neurons in the CNS, nicotine binds to the CNS-type nicotinic acetylcholine receptors. The main type of CNS receptor is composed of alpha 4 beta 2 (CHRNA4, CHRNB2) subunits. It has been shown that alpha 6, alpha 5, and beta 3 can also be in the receptor complex to modulate binding sensitivity. By binding to the receptor, nicotine causes cell depolarization and release of dopamine from the cell through the SNARE complex. Dopamine then binds to dopamine receptors (DRD2, DRD3, DRD4) on dopaminergic terminals and activates Gi alpha (GNAI1), initiating a feedback loop to inhibit dopamine release. One of the key players mediating dopamine signaling is PPP1R1B (also called DARPP-32, dopamine and cyclic AMP-regulated phospho-protein). PPP1R1B is a bifunctional signal transduction molecule which, by distinct mechanisms, inhibits either a serine/threonine kinase (PPKACA or PKA) or a serine/threonine phosphatase (PPP1CA or protein phosphatase 1). When PPP1R1B is phosphorylated by PPKACA at threonine 34, it is an inhibitor of protein phosphatase 1 (PPP1CA), which inhibits dopamine secretion through the SNARE complex. When PPP1R1B is phosphorylated by CDK5 at threonine 75, it is converted to an inhibitor of PPKACA. Binding of dopamine to D2-like dopamine receptors leads to inhibition of adenylate cyclase (ADCY2) via G-protein GNAI1, and decreases PKA-stimulated phosphorylation of DARPP-32 at Thr34. This, in turn, relieves the inhibition of protein phosphatase 1 (PPP1CA), and inhibits further dopamine release.
+
+Sources: [https://www.pharmgkb.org/pathway/PA162355621 Nicotine Pathway in Dopaminergic Neurons (PharmGKB)], [http://en.wikipedia.org/wiki/Nicotine Nicotine (Wikipedia)].
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP1602 CPTAC Assay Portal]</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <BiopaxRef>e10</BiopaxRef>
+  <BiopaxRef>dea</BiopaxRef>
+  <Graphics BoardWidth="914.4537815126054" BoardHeight="869.0"/>
+  <DataNode TextLabel="CHRNA4" GraphId="a15bc" Type="GeneProduct" GroupRef="ce2f7">
+        </DataNode>
+  <DataNode TextLabel="GNAI1" GraphId="a1943" Type="GeneProduct" GroupRef="ec167">
+        </DataNode>
+  <DataNode TextLabel="TH" GraphId="a23a8" Type="GeneProduct" GroupRef="cb3b2">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Na+" GraphId="a539e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PRKACA" GraphId="a70e4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Dopamine" GraphId="a8665" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DRD2" GraphId="a8a53" Type="GeneProduct" GroupRef="dc360">
+        </DataNode>
+  <DataNode TextLabel="SNARE Complex" GraphId="ad212" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CDK5" GraphId="aece2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CHRNA4" GraphId="b1a95" Type="GeneProduct" GroupRef="ee1d2">
+        </DataNode>
+  <DataNode TextLabel="DRD4" GraphId="bb8ac" Type="GeneProduct" GroupRef="dc360">
+        </DataNode>
+  <DataNode TextLabel="CHRNA4" GraphId="bc68c" Type="GeneProduct" GroupRef="cdb3d">
+        </DataNode>
+  <DataNode TextLabel="Tyrosine" GraphId="bc6f0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PPP1R1B" GraphId="bccc3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DRD3" GraphId="bff32" Type="GeneProduct" GroupRef="dc360">
+        </DataNode>
+  <DataNode TextLabel="Dopamine" GraphId="c0992" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ADCY2" GraphId="c26f8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DRD2" GraphId="c2b5c" Type="GeneProduct" GroupRef="f609b">
+        </DataNode>
+  <DataNode TextLabel="ATP" GraphId="c2e81" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PPP1R1B" GraphId="c33b0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DDC" GraphId="c39e4" Type="GeneProduct" GroupRef="cb3b2">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Dopamine" GraphId="c3a4d" Type="Metabolite" GroupRef="dc360">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CHRNA5" GraphId="c3dd9" Type="GeneProduct" GroupRef="cdb3d">
+        </DataNode>
+  <DataNode TextLabel="Dopamine" GraphId="c3f13" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CHRNB2" GraphId="c7688" Type="GeneProduct" GroupRef="ee1d2">
+        </DataNode>
+  <DataNode TextLabel="Ca++" GraphId="c8535" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GNAI1" GraphId="cd4f3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GNB1" GraphId="d2a7c" Type="GeneProduct" GroupRef="ec167">
+        </DataNode>
+  <DataNode TextLabel="K+" GraphId="d2f42" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="K+" GraphId="d7a6f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="K+" GraphId="d7b8f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DOPA" GraphId="db1e8" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="KCNK9" GraphId="e01eb" Type="GeneProduct" GroupRef="f6634">
+        </DataNode>
+  <DataNode TextLabel="CHRNB2" GraphId="e22a2" Type="GeneProduct" GroupRef="ce2f7">
+        </DataNode>
+  <DataNode TextLabel="SLC18A2" GraphId="e36f9" Type="GeneProduct" GroupRef="cb3b2">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="PPP1R1B" GraphId="e5410" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Nicotine" GraphId="e8b55" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DRD4" GraphId="ea3bf" Type="GeneProduct" GroupRef="f609b">
+        </DataNode>
+  <DataNode TextLabel="CHRNA6" GraphId="ea60c" Type="GeneProduct" GroupRef="ee1d2">
+        </DataNode>
+  <DataNode TextLabel="PPP1CA" GraphId="ecf11" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Ca++" GraphId="ee8f8" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GNG2" GraphId="efd21" Type="GeneProduct" GroupRef="d8d3a">
+        </DataNode>
+  <DataNode TextLabel="KCNK3" GraphId="f0162" Type="GeneProduct" GroupRef="f6634">
+        </DataNode>
+  <DataNode TextLabel="CHRNA3" GraphId="f28d0" Type="GeneProduct" GroupRef="ee1d2">
+        </DataNode>
+  <DataNode TextLabel="cAMP" GraphId="f45e7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GNG2" GraphId="f5682" Type="GeneProduct" GroupRef="ec167">
+        </DataNode>
+  <DataNode TextLabel="CHRNB2" GraphId="f7cb0" Type="GeneProduct" GroupRef="cdb3d">
+        </DataNode>
+  <DataNode TextLabel="Na+" GraphId="faf77" Type="Metabolite">
+    <BiopaxRef>d64</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DRD3" GraphId="fc5fe" Type="GeneProduct" GroupRef="f609b">
+        </DataNode>
+  <DataNode TextLabel="K+" GraphId="fca90" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GNB1" GraphId="ffaa4" Type="GeneProduct" GroupRef="d8d3a">
+        </DataNode>
+  <State GraphRef="e5410" TextLabel="P" GraphId="b33d0">
+    <Comment>parentid=Q9UD71; parentsymbol=PPP1R1B; site=MIrRRRPtPAMLFRL; position=thr34; sitegrpid=448047; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e01eb" TextLabel="P" GraphId="e1526">
+    <Comment>parentid=Q9NPC2; parentsymbol=KCNK9; site=RLMKRRKsV______; position=ser373; sitegrpid=18609100; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c33b0" TextLabel="P" GraphId="f10b6">
+    <Comment>parentid=Q9UD71; parentsymbol=PPP1R1B; site=RPNPCAytPPsLKAV; position=thr75; sitegrpid=448048; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="a05ba">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ecf11"/>
+      <Point GraphRef="ad212" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a7150">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d7b8f"/>
+      <Point GraphRef="e5238" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ab366">
+    <Graphics>
+      <Point GraphRef="d7b8f"/>
+      <Point GraphRef="d2f42" ArrowHead="mim-translocation"/>
+      <Anchor Position="0.543289278394233" Shape="None" GraphId="c69ac"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ab4d4">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e8b55"/>
+      <Point/>
+      <Point GraphRef="a5a0c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="af45e">
+    <Graphics>
+      <Point GraphRef="c39e4"/>
+      <Point GraphRef="cc619" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b28a5">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e5238"/>
+      <Point GraphRef="ad212" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b2a1a">
+    <Graphics>
+      <Point GraphRef="a23a8"/>
+      <Point GraphRef="fc4a8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b2b58">
+    <Graphics>
+      <Point GraphRef="d677d"/>
+      <Point GraphRef="c69ac" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b3a7a">
+    <Graphics>
+      <Point GraphRef="bccc3"/>
+      <Point GraphRef="c33b0" ArrowHead="Arrow"/>
+      <Anchor Position="0.47368421052631576" Shape="None" GraphId="e17d9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c38c3">
+    <Graphics>
+      <Point GraphRef="aece2"/>
+      <Point GraphRef="e17d9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cbfc2">
+    <Graphics>
+      <Point GraphRef="fca4e"/>
+      <Point GraphRef="c5aec" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ce593">
+    <Graphics>
+      <Point GraphRef="a70e4"/>
+      <Point GraphRef="e3042" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ce866">
+    <Graphics>
+      <Point GraphRef="c8e44"/>
+      <Point GraphRef="b18e0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cf542">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e5410"/>
+      <Point GraphRef="ecf11" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d1534">
+    <Graphics>
+      <Point GraphRef="c5aec"/>
+      <Point GraphRef="deaa9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d487f">
+    <Graphics>
+      <Point GraphRef="c2e81"/>
+      <Point GraphRef="f45e7" ArrowHead="Arrow"/>
+      <Anchor Position="0.5236320063906271" Shape="None" GraphId="a88d8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d7d3e">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c0992"/>
+      <Point/>
+      <Point GraphRef="fca4e" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d8311">
+    <Graphics>
+      <Point GraphRef="e8b55"/>
+      <Point GraphRef="c8e44" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dd37c">
+    <Graphics>
+      <Point GraphRef="cd4f3"/>
+      <Point GraphRef="c26f8" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dd887">
+    <Graphics>
+      <Point GraphRef="bc6f0"/>
+      <Point GraphRef="db1e8" ArrowHead="Arrow"/>
+      <Anchor Position="0.49495524816924313" Shape="None" GraphId="fc4a8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e7238">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c33b0"/>
+      <Point GraphRef="a70e4" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e91d5">
+    <Graphics>
+      <Point GraphRef="fca4e"/>
+      <Point GraphRef="ecc8b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e97e5">
+    <Graphics>
+      <Point GraphRef="a8665"/>
+      <Point GraphRef="c3f13" ArrowHead="mim-translocation"/>
+      <Anchor Position="0.424393101890232" Shape="None" GraphId="ecbe7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ebdb6">
+    <Graphics>
+      <Point GraphRef="c26f8"/>
+      <Point GraphRef="a88d8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f315f">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e8b55"/>
+      <Point/>
+      <Point GraphRef="f2f17" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f4a27">
+    <Graphics>
+      <Point GraphRef="bccc3"/>
+      <Point GraphRef="e5410" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e3042"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f4f62">
+    <Graphics>
+      <Point GraphRef="f2f17"/>
+      <Point GraphRef="b18e0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f51b0">
+    <Graphics>
+      <Point GraphRef="fca4e"/>
+      <Point GraphRef="cd4f3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8953">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c8535"/>
+      <Point GraphRef="e5238" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f93ee">
+    <Comment/>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a70e4"/>
+      <Point GraphRef="d677d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fc3cf">
+    <Graphics>
+      <Point GraphRef="f45e7"/>
+      <Point GraphRef="a70e4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ff25b">
+    <Graphics>
+      <Point GraphRef="cd4f3"/>
+      <Point GraphRef="a1943" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd046c59e">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a539e"/>
+      <Point GraphRef="e5238" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a4df6">
+    <Graphics>
+      <Point GraphRef="c3f13"/>
+      <Point GraphRef="c0992" ArrowHead="mim-translocation"/>
+      <Anchor Position="0.6960969919204633" Shape="None" GraphId="f29b9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bbb5f">
+    <Graphics>
+      <Point GraphRef="ad212"/>
+      <Point GraphRef="f29b9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="af59d">
+    <BiopaxRef>e38</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e36f9"/>
+      <Point GraphRef="ecbe7" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fe57f">
+    <Graphics>
+      <Point GraphRef="db1e8"/>
+      <Point GraphRef="a8665" ArrowHead="Arrow"/>
+      <Anchor Position="0.3522115061929822" Shape="None" GraphId="cc619"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a5650">
+    <Graphics>
+      <Point GraphRef="a539e" ArrowHead="mim-translocation"/>
+      <Point GraphRef="faf77"/>
+      <Anchor Position="0.6043956043956044" Shape="None" GraphId="a6ead"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cbfeb">
+    <Graphics>
+      <Point GraphRef="d7a6f"/>
+      <Point GraphRef="fca90" ArrowHead="mim-translocation"/>
+      <Anchor Position="0.6153846153846154" Shape="None" GraphId="d5fae"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b8d6c">
+    <Graphics>
+      <Point GraphRef="a5a0c"/>
+      <Point GraphRef="a6ead" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a10c5">
+    <Graphics>
+      <Point GraphRef="a5a0c"/>
+      <Point GraphRef="d5fae" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fca2b">
+    <Graphics>
+      <Point GraphRef="ee8f8"/>
+      <Point GraphRef="c8535" ArrowHead="mim-translocation"/>
+      <Anchor Position="0.39822630318238866" Shape="None" GraphId="b18e0"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Depolarization" GraphId="e5238">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Dopaminergic neuron" GraphId="f1ca1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape TextLabel="Synaptic vesicle" GraphId="b6098">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c12e6">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="ce2f7" GraphId="a5a0c" Style="Group"/>
+  <Group GroupId="d8d3a" GraphId="c5aec" Style="Group"/>
+  <Group GroupId="ee1d2" GraphId="c8e44" Style="Group"/>
+  <Group GroupId="f6634" GraphId="d677d" Style="Group"/>
+  <Group GroupId="cb3b2" GraphId="d840c" Style="Complex">
+    <BiopaxRef>b43</BiopaxRef>
+  </Group>
+  <Group GroupId="ec167" GraphId="deaa9" Style="Group"/>
+  <Group GroupId="dc360" GraphId="ecc8b" Style="Group"/>
+  <Group GroupId="cdb3d" GraphId="f2f17" Style="Group"/>
+  <Group GroupId="f609b" GraphId="fca4e" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >dopaminergic neuron</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000700</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d64">
+      <bp:ID >7888</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >[Conservative therapy of coronary heart disease].</bp:TITLE>
+      <bp:SOURCE >Verh Dtsch Ges Kreislaufforsch</bp:SOURCE>
+      <bp:YEAR >1975</bp:YEAR>
+      <bp:AUTHORS >Kaltenbach M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >nicotine pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000721</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b43">
+      <bp:ID >19903816</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A biochemical and functional protein complex involving dopamine synthesis and transport into synaptic vesicles.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Cartier EA</bp:AUTHORS>
+      <bp:AUTHORS >Parra LA</bp:AUTHORS>
+      <bp:AUTHORS >Baust TB</bp:AUTHORS>
+      <bp:AUTHORS >Quiroz M</bp:AUTHORS>
+      <bp:AUTHORS >Salazar G</bp:AUTHORS>
+      <bp:AUTHORS >Faundez V</bp:AUTHORS>
+      <bp:AUTHORS >Ega&#241;a L</bp:AUTHORS>
+      <bp:AUTHORS >Torres GE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e10">
+      <bp:ID >11908751</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Integrating genotype and phenotype information: an overview of the PharmGKB project. Pharmacogenetics Research Network and Knowledge Base.</bp:TITLE>
+      <bp:SOURCE >Pharmacogenomics J</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Klein TE</bp:AUTHORS>
+      <bp:AUTHORS >Chang JT</bp:AUTHORS>
+      <bp:AUTHORS >Cho MK</bp:AUTHORS>
+      <bp:AUTHORS >Easton KL</bp:AUTHORS>
+      <bp:AUTHORS >Fergerson R</bp:AUTHORS>
+      <bp:AUTHORS >Hewett M</bp:AUTHORS>
+      <bp:AUTHORS >Lin Z</bp:AUTHORS>
+      <bp:AUTHORS >Liu Y</bp:AUTHORS>
+      <bp:AUTHORS >Liu S</bp:AUTHORS>
+      <bp:AUTHORS >Oliver DE</bp:AUTHORS>
+      <bp:AUTHORS >Rubin DL</bp:AUTHORS>
+      <bp:AUTHORS >Shafa F</bp:AUTHORS>
+      <bp:AUTHORS >Stuart JM</bp:AUTHORS>
+      <bp:AUTHORS >Altman RB</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e38">
+      <bp:ID >12827358</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The vesicular amine transporter family (SLC18): amine/proton antiporters required for vesicular accumulation and regulated exocytotic secretion of monoamines and acetylcholine.</bp:TITLE>
+      <bp:SOURCE >Pflugers Arch</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Eiden LE</bp:AUTHORS>
+      <bp:AUTHORS >Sch&#228;fer MK</bp:AUTHORS>
+      <bp:AUTHORS >Weihe E</bp:AUTHORS>
+      <bp:AUTHORS >Sch&#252;tz B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dea">
+      <bp:ID >700</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >mine</bp:TITLE>
+      <bp:SOURCE >wikipathways.org</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:ID >700</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >mine</bp:TITLE>
+      <bp:SOURCE >wikipathways.org</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:ID >700</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >[Circadian variations of the activity and induction of tyrosine aminotransferase after x-irradiation].</bp:TITLE>
+      <bp:SOURCE >Physiologie</bp:SOURCE>
+      <bp:YEAR >1975</bp:YEAR>
+      <bp:AUTHORS >Stefan M</bp:AUTHORS>
+      <bp:AUTHORS >Boerescu J</bp:AUTHORS>
+      <bp:AUTHORS >Gheorghe N</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

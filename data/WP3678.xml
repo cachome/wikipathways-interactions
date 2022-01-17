@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Amplification and expansion of oncogenic pathways as metastatic traits" Version="20160627" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway is based on Figure 4 of "Origins of metastatic traits."(See Bibliography).The majority of cancer cells released from tumors die off, so cancer biologists are trying to figure out exactly what gives certain cells the ability to colonize other distant organs. Specific genes and mediators of metastasis have been identified, but it remains mostly unknown how cancer cells acquire these traits.
+Metastatic traits acquired by a quantitative gain in pathway output: These pathways demonstrate metastatic traits acquired by a quantitative gain in pathway output. The PI3K-Akt signaling pathway, which is augmented by VCAM-1 and SRC, leads to increased cell survival, a significant metastatic trait. Similarly, TCF augments the output of the NOTCH and, along with periostin, Wnt signaling pathways. As the signaling of these pathways increases, the metastatic and oncogenic potential of the cell also increase.
+Metastatic traits acquired by a qualitative expansion of pathway output: This pathway demonstrates metastatic traits acquired by a qualitative expansion of pathway output. Loss of the von Hippel-Lindau tumor suppressor (VHL) in renal cell carcinoma leads to increased activation of hypoxia-inducible transcription factors (HIFs). Histone H3K27 and CYTIP give the VHL-HIF pathway access to new target genes. Each of these new target genes, in this case CXCR4, VEGFA, and CYTIP, lead to an increase in a metastatic trait. Here, the level of metastatic fitness is not linearly proportional to pathway activity; rather, the pathway activates an additional set of factors that affect metastatic fitness.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3678 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>d1d</BiopaxRef>
+  <Graphics BoardWidth="1434.2838018741634" BoardHeight="755.5689424364123"/>
+  <DataNode TextLabel="VCAM1" GraphId="a3926" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SRC" GraphId="a3c5e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Periostin" GraphId="a5211" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="VHL" GraphId="a5f20" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="VEGFA" GraphId="ae6fc" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYTIP" GraphId="b15ca" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="JAGGED" GraphId="b19b1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PI3K" GraphId="bb01c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TCF7" GraphId="bb140" Type="GeneProduct" GroupRef="a3ed3">
+        </DataNode>
+  <DataNode TextLabel="TNC" GraphId="be47f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NOTCH" GraphId="cad8d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CXCR4" GraphId="d9ba8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Wnt" GraphId="e797c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HIF2A" GraphId="ea2b4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PI3K" GraphId="be576" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TCF7L1" GraphId="ad2da" Type="GeneProduct" GroupRef="a3ed3">
+        </DataNode>
+  <DataNode TextLabel="TCF7L2" GraphId="b7dc2" Type="GeneProduct" GroupRef="a3ed3">
+        </DataNode>
+  <DataNode TextLabel="LEF1" GraphId="c0ef1" Type="GeneProduct" GroupRef="a3ed3">
+        </DataNode>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="a4cba"/>
+      <Point GraphRef="b15ca" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1626b60e">
+    <Graphics>
+      <Point GraphRef="f53a9"/>
+      <Point GraphRef="bb01c" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bc350"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id16eb2f8">
+    <Graphics>
+      <Point GraphRef="ea2b4"/>
+      <Point GraphRef="a4cba" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2be1dfe3">
+    <Graphics>
+      <Point GraphRef="a3c5e"/>
+      <Point GraphRef="a2ad1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2cef955c">
+    <Graphics>
+      <Point GraphRef="a3926"/>
+      <Point GraphRef="bc350" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3b84b46c">
+    <Graphics>
+      <Point GraphRef="be47f"/>
+      <Point GraphRef="c4ece" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id41253cf7">
+    <Graphics>
+      <Point GraphRef="cad8d"/>
+      <Point GraphRef="d7a81" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4283b4e1">
+    <Graphics>
+      <Point GraphRef="ea2b4"/>
+      <Point GraphRef="a4cba" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id45cb9535">
+    <Graphics>
+      <Point GraphRef="b15ca"/>
+      <Point GraphRef="ee482" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id47ff15bc">
+    <Graphics>
+      <Point GraphRef="ea2b4"/>
+      <Point GraphRef="a4cba" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id50afed69">
+    <Graphics>
+      <Point GraphRef="b19b1"/>
+      <Point GraphRef="cad8d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id510e3f81">
+    <Graphics>
+      <Point GraphRef="ae6fc"/>
+      <Point GraphRef="ee37b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id79bfbb">
+    <Graphics>
+      <Point GraphRef="d9ba8"/>
+      <Point GraphRef="f2f44" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id89b975e5">
+    <Graphics>
+      <Point GraphRef="e797c"/>
+      <Point GraphRef="c4ece" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8e6edf13">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bb01c"/>
+      <Point GraphRef="b6a36" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9be9c788">
+    <Graphics>
+      <Point GraphRef="d695a"/>
+      <Point GraphRef="be576" ArrowHead="Arrow"/>
+      <Anchor Position="0.4380240373210298" Shape="None" GraphId="a2ad1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9f3cb22b">
+    <Graphics>
+      <Point GraphRef="a5211"/>
+      <Point GraphRef="e797c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida9857630">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="be576"/>
+      <Point GraphRef="e0c7e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idadcad723">
+    <Graphics>
+      <Point GraphRef="c4ece"/>
+      <Point GraphRef="d7a81" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb4cf4be7">
+    <Graphics>
+      <Point GraphRef="a5f20"/>
+      <Point GraphRef="ea2b4" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbf2b360a">
+    <Graphics>
+      <Point GraphRef="be47f"/>
+      <Point GraphRef="cad8d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e8d7e">
+    <Graphics>
+      <Point GraphRef="a4cba"/>
+      <Point GraphRef="ae6fc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f4cdb">
+    <Graphics>
+      <Point GraphRef="a4cba"/>
+      <Point GraphRef="d9ba8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Histone H3K27 &#10;demethylation" GraphId="b1d98" GroupRef="d8840">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cell survival" GraphId="b6a36">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Metastatic traits acquired by a quantitative gain in pathway output" GraphId="d552e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="GPCR" GraphId="d695a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Stemness" GraphId="d7a81">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Metastatic traits acquired by a qualitative expansion of pathway output" GraphId="e0bc1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="TCFs" GraphId="e3728" GroupRef="a3ed3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Tumorigenesis" GraphId="ee37b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Survival" GraphId="ee482">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Chemotaxis" GraphId="f2f44">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Receptor Tyrosine Kinases" GraphId="f53a9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cell survival" GraphId="e0c7e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="DNA&#10;demethylation" GraphId="ffdd3" GroupRef="d8840">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="d3982">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="d149b">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Group GroupId="d8840" GraphId="a4cba"/>
+  <Group GroupId="a3ed3" GraphId="c4ece" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >von Hippel-Lindau disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:14175</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cancer pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000605</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d1d">
+      <bp:ID >24135279</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Origins of metastatic traits.</bp:TITLE>
+      <bp:SOURCE >Cancer Cell</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Vanharanta S</bp:AUTHORS>
+      <bp:AUTHORS >Massagu&#233; J</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>cancer</bp:TERM><bp:ID>DOID:162</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

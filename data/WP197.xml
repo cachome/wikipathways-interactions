@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cholesterol biosynthesis pathway" Last-Modified="2/22/2013" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment Source="WikiPathways-description">Cholesterol is a waxy steroid metabolite found in the cell membranes and transported in the blood plasma of all animals. It is an essential structural component of mammalian cell membranes, where it is required to establish proper membrane permeability and fluidity. In addition, cholesterol is an important component for the manufacture of bile acids, steroid hormones, and several fat-soluble vitamins. Cholesterol is the principal sterol synthesized by animals, but small quantities are synthesized in other eukaryotes, such as plants and fungi. It is almost completely absent among prokaryotes, which include bacteria.
+
+Source: [[wikipedia:Cholesterol|Wikipedia]]
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP197 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>ec9</BiopaxRef>
+  <BiopaxRef>d9b</BiopaxRef>
+  <BiopaxRef>e32</BiopaxRef>
+  <BiopaxRef>c8f</BiopaxRef>
+  <BiopaxRef>ea9</BiopaxRef>
+  <BiopaxRef>cdc</BiopaxRef>
+  <BiopaxRef>e73</BiopaxRef>
+  <BiopaxRef>de6</BiopaxRef>
+  <Graphics BoardWidth="709.6540434669985" BoardHeight="679.0097543709028"/>
+  <DataNode TextLabel="NSDHL" GraphId="a12" Type="GeneProduct" GroupRef="b39b6">
+    <Comment Source="GenMAPP remarks">NAD(P) dependent steroid dehydrogenase-like</Comment>
+        </DataNode>
+  <DataNode TextLabel="(S)-2,3-Epoxysqualene" GraphId="a6667" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Mevalonic acid" GraphId="a6a21" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="farnesyl pyrophosphate" GraphId="a7690" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FDPS" GraphId="aa8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HMGCS1" GraphId="b21" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SC4MOL" GraphId="b31" Type="GeneProduct" GroupRef="b39b6">
+        </DataNode>
+  <DataNode TextLabel="Lathosterol" GraphId="b63" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SQLE" GraphId="b6d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Lanosterin" GraphId="b6fae" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Mevalonic acid 5-pyrophosphate" GraphId="c3220" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="IDI1" GraphId="c3b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MVD" GraphId="c55" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYP51A1" GraphId="d4d" Type="GeneProduct" GroupRef="b39b6">
+        </DataNode>
+  <DataNode TextLabel="HMGCR" GraphId="d8b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="7-Dehydrocholesterol" GraphId="d931a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DHCR7" GraphId="db2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="isopentenyl pyrophosphate" GraphId="db29a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PMVK" GraphId="e5c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HMG-CoA" GraphId="e89f4" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Geranyl-PP" GraphId="e993b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cholesterol" GraphId="e9f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Fatty Acid Beta Oxidation" GraphId="ed255" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Mevalonic acid-5P" GraphId="ef0dc" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Squalene" GraphId="f02" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SC5DL" GraphId="f2b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FDFT1" GraphId="f32" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LSS" GraphId="f92" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MVK" GraphId="fa9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Acetyl-CoA" GraphId="fb3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Dimethylallyl pyrophosphate" GraphId="fce72" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FDPS" GraphId="c9326" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="a76ac">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fce72"/>
+      <Point GraphRef="e993b" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.8765839064207305" Shape="None" GraphId="cd6c7"/>
+      <Anchor Position="0.8088540635526265" Shape="None" GraphId="ba36a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a94b2">
+    <Graphics>
+      <Point GraphRef="fb3"/>
+      <Point GraphRef="e89f4" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.49535226917334824" Shape="None" GraphId="cb45c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="afc8c">
+    <Graphics>
+      <Point GraphRef="ef0dc"/>
+      <Point GraphRef="c3220" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4369638894915777" Shape="None" GraphId="dc2ce"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b48ab">
+    <Graphics>
+      <Point GraphRef="e89f4"/>
+      <Point GraphRef="a6a21" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4947824602368572" Shape="None" GraphId="e92b5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="be91e">
+    <Graphics>
+      <Point GraphRef="d931a"/>
+      <Point GraphRef="e9f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4907190854367465" Shape="None" GraphId="dd885"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c42f1">
+    <Graphics>
+      <Point GraphRef="e993b"/>
+      <Point GraphRef="a7690" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5040812188263585" Shape="None" GraphId="a53c2"/>
+      <Anchor Position="0.1288465111347361" Shape="None" GraphId="ee155"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ce5bf">
+    <Graphics>
+      <Point GraphRef="ed255"/>
+      <Point GraphRef="fb3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d8699">
+    <Graphics>
+      <Point GraphRef="a7690"/>
+      <Point GraphRef="f02" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5049232374455693" Shape="None" GraphId="ca73f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df029">
+    <Graphics>
+      <Point GraphRef="c3220"/>
+      <Point GraphRef="db29a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.48548882699423684" Shape="None" GraphId="a1647"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e49fd">
+    <Graphics>
+      <Point GraphRef="a6667"/>
+      <Point GraphRef="b6fae" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5644271951656887" Shape="None" GraphId="d2256"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e5499">
+    <Graphics>
+      <Point GraphRef="a6a21"/>
+      <Point GraphRef="ef0dc" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="eef33"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e5d42">
+    <Graphics>
+      <Point GraphRef="fce72" ArrowHead="Arrow"/>
+      <Point GraphRef="db29a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.504761824415362" Shape="None" GraphId="fd8da"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ebba8">
+    <Graphics>
+      <Point GraphRef="b63"/>
+      <Point GraphRef="d931a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5076278105082754" Shape="None" GraphId="dff7e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eee2c">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b6fae"/>
+      <Point GraphRef="b63" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5594855305466238" Shape="None" GraphId="bf5b2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8234">
+    <Graphics>
+      <Point GraphRef="f02"/>
+      <Point GraphRef="a6667" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5036778413413407" Shape="None" GraphId="deb3c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id12ff7b65">
+    <Graphics>
+      <Point GraphRef="fa9"/>
+      <Point GraphRef="eef33" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2b67b563">
+    <Graphics>
+      <Point GraphRef="f92"/>
+      <Point GraphRef="d2256" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4032c091">
+    <Graphics>
+      <Point GraphRef="db2"/>
+      <Point GraphRef="dd885" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id45352817">
+    <Graphics>
+      <Point GraphRef="c9326"/>
+      <Point GraphRef="a53c2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5b4cc7bf">
+    <Graphics>
+      <Point GraphRef="aa8"/>
+      <Point GraphRef="cd6c7" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6912472b">
+    <Graphics>
+      <Point GraphRef="f2b"/>
+      <Point GraphRef="dff7e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6b5f2131">
+    <Graphics>
+      <Point GraphRef="c3b"/>
+      <Point GraphRef="fd8da" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9a132862">
+    <Graphics>
+      <Point GraphRef="f32"/>
+      <Point GraphRef="ca73f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9ad632e1">
+    <Graphics>
+      <Point GraphRef="b6d"/>
+      <Point GraphRef="deb3c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaba74c6a">
+    <Graphics>
+      <Point GraphRef="b21"/>
+      <Point GraphRef="cb45c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb6f61ba5">
+    <Graphics>
+      <Point GraphRef="e5c"/>
+      <Point GraphRef="dc2ce" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc15ee323">
+    <Graphics>
+      <Point GraphRef="d8b"/>
+      <Point GraphRef="e92b5" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcd8e2cec">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="db29a"/>
+      <Point/>
+      <Point GraphRef="ba36a" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf473a7c">
+    <Graphics>
+      <Point GraphRef="c55"/>
+      <Point GraphRef="a1647" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf70e1c50">
+    <Graphics>
+      <Point GraphRef="c3e7c"/>
+      <Point GraphRef="bf5b2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c2d37">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="db29a"/>
+      <Point/>
+      <Point GraphRef="ee155" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Group GroupId="b39b6" GraphId="c3e7c" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="de6">
+      <bp:ID >12235098</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Malformation syndromes due to inborn errors of cholesterol synthesis.</bp:TITLE>
+      <bp:SOURCE >J Clin Invest</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Porter FD</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>cholesterol biosynthetic pathway</bp:TERM><bp:ID>PW:0000454</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

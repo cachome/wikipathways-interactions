@@ -1,0 +1,1682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Sphingolipid metabolism: integrated pathway" Version="20180908" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway is inspired by the Lipidmaps&gt;Sphingolipids pathway (all chain lengths) [https://lipidmaps.org/resources/pathways/vanted.php].
+Sphingolipids are a class of lipids, which act as signal transduction and cell recognition molecules.
+This pathway shows all different tail lengths and their conversions into specific products. All products are annotated with lipid-specific identifiers (if available).
+The general overview pathway can be found [https://www.wikipathways.org/index.php/Pathway:WP4344 here].</Comment>
+  <Comment Source="WikiPathways-description">Overview PW</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway [WP4690_107209.gpml] with a 95.0% conversion rate.</Comment>
+  <Comment Source="WikiPathways-description">New PW, homology converted</Comment>
+  <BiopaxRef>f6b</BiopaxRef>
+  <Graphics BoardWidth="2037.649949454143" BoardHeight="1055.4527808526036"/>
+  <DataNode TextLabel="ATP" GraphId="d1d97" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="3-keto-sphinganine" GraphId="e703c" Type="Metabolite">
+    <BiopaxRef>b6c</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ppap2a" GraphId="ccdfa" Type="GeneProduct" GroupRef="c9cc7">
+    <Comment Source="HomologyMapper">No homologues found for original id L:19012</Comment>
+        </DataNode>
+  <DataNode TextLabel="CERK" GraphId="b872c" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:223753</Comment>
+        </DataNode>
+  <DataNode TextLabel="SGPP1" GraphId="a0e59" Type="Protein" GroupRef="aa54a">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:Q9JI99</Comment>
+        </DataNode>
+  <DataNode TextLabel="ASAH1" GraphId="d262d" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:Q9WV54</Comment>
+        </DataNode>
+  <DataNode TextLabel="Palmitoyl-CoA" GraphId="e79a6" Type="Metabolite">
+    <Comment>aka CoA(16:0)</Comment>
+    <BiopaxRef>b6c</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SGMS1" GraphId="fb59f" Type="Protein" GroupRef="dbad2">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:208449</Comment>
+        </DataNode>
+  <DataNode TextLabel="SPHK2" GraphId="ec90a" Type="Protein" GroupRef="e9c94">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:Q9JIA7</Comment>
+        </DataNode>
+  <DataNode TextLabel="SGPL1" GraphId="aacd8" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:20397</Comment>
+        </DataNode>
+  <DataNode TextLabel="UGCG" GraphId="d041a" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22234</Comment>
+        </DataNode>
+  <DataNode TextLabel="Serine" GraphId="bbf76" Type="Metabolite">
+    <BiopaxRef>b6c</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Hexadecanal" GraphId="d8f79" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SPTLC1" GraphId="cc2ed" Type="Protein" GroupRef="ee7e5">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:268656</Comment>
+        </DataNode>
+  <DataNode TextLabel="SPHK1" GraphId="a14a8" Type="Protein" GroupRef="e9c94">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:Q8CI15</Comment>
+        </DataNode>
+  <DataNode TextLabel="DEGS1" GraphId="cf753" Type="Protein" GroupRef="d2b68">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:13244</Comment>
+        </DataNode>
+  <DataNode TextLabel="KDSR" GraphId="cccac" Type="Protein">
+    <Comment>AKA Fvt1</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:Q6GV12</Comment>
+        </DataNode>
+  <DataNode TextLabel="SPTLC2" GraphId="db18a" Type="Protein" GroupRef="ee7e5">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:P97363</Comment>
+        </DataNode>
+  <DataNode TextLabel="Ethanolamine-phosphate" GraphId="ab939" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="H2O" GraphId="dd604" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Sphingosine" GraphId="f6010" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Sphinganine" GraphId="a0809" Type="Metabolite">
+    <BiopaxRef>b6c</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Sphinganine-1-phosphate" GraphId="eb7f3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CERS4" GraphId="b8d4a" Type="Protein" GroupRef="f1b02">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:67260</Comment>
+        </DataNode>
+  <DataNode TextLabel="CERS5" GraphId="d18e8" Type="Protein" GroupRef="ec55e">
+    <Comment>AKA Lass5</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:Q9D6K9</Comment>
+    <BiopaxRef>f88</BiopaxRef>
+    <BiopaxRef>d60</BiopaxRef>
+    <BiopaxRef>b4a</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CERS6" GraphId="f5d48" Type="Protein" GroupRef="ec55e">
+    <Comment>AKA Lass6</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:Q8C172</Comment>
+    <BiopaxRef>b4a</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="C16 CerP" GraphId="e59bc" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C16DH CerP" GraphId="cfdee" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C16 SM" GraphId="f4bbf" Type="Metabolite">
+    <Comment>SM = sphingomyelin</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C16 GlcCer" GraphId="a5ca8" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C16DH SM" GraphId="e0930" Type="Metabolite">
+    <Comment>SM = sphingomyelin</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C16DH GlcCer" GraphId="baf73" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C16 GalCer" GraphId="a9aa0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C16DH GalCer" GraphId="ec374" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SMPD1" GraphId="ee612" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:20597</Comment>
+        </DataNode>
+  <DataNode TextLabel="DEGS2" GraphId="dbbd0" Type="Protein" GroupRef="d2b68">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:70059</Comment>
+        </DataNode>
+  <DataNode TextLabel="SGMS2" GraphId="ee229" Type="Protein" GroupRef="dbad2">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:74442</Comment>
+        </DataNode>
+  <DataNode TextLabel="Sphingosine-1-phosphate" GraphId="f2084" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="1-Hexadecenal" GraphId="cc77f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PLPP3" GraphId="cdd52" Type="Protein" GroupRef="c9cc7">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:67916</Comment>
+        </DataNode>
+  <DataNode TextLabel="Ppap2c" GraphId="c70d1" Type="Protein" GroupRef="c9cc7">
+        </DataNode>
+  <DataNode TextLabel="UGT8" GraphId="dbb07" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22239</Comment>
+        </DataNode>
+  <DataNode TextLabel="CoA(16:0)" GraphId="be53c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CoA(18:0)" GraphId="fadb3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CoA(20:0)" GraphId="dedfd" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CoA(22:0)" GraphId="afb32" Type="Metabolite">
+    <Comment>AKA "Coenzyme A, S-&#8203;docosanoate"</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CoA(24:0)" GraphId="ed529" Type="Metabolite">
+    <Comment>AKA "Coenzyme A, S-&#8203;(tetracosanoate)&#8203;"</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CoA(24:1)" GraphId="e7f29" Type="Metabolite">
+    <Comment>AKA "Coenzyme A, S-&#8203;(15Z)&#8203;-&#8203;15-&#8203;tetracosenoate"</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C16DH-Cer" GraphId="dd764" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CERS1" GraphId="c1570" Type="Protein" GroupRef="f1b02">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:P27545</Comment>
+    <BiopaxRef>b4a</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CERS4" GraphId="f4edd" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:67260</Comment>
+        </DataNode>
+  <DataNode TextLabel="CERS2" GraphId="f9b8e" Type="Protein">
+    <Comment>Original LipidMaps annotation</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:76893</Comment>
+    <BiopaxRef>b4a</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CoA(26:0)" GraphId="d0eaa" Type="Metabolite">
+    <Comment>AKA "Coenzyme A, S-&#8203;hexacosanoate"</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CoA(26:1)" GraphId="ad81f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CERS3" GraphId="e1c24" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:Q1A3B0</Comment>
+        </DataNode>
+  <DataNode TextLabel="ADP" GraphId="e873a" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SGPP2" GraphId="e932e" Type="Protein" GroupRef="aa54a">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:Q810K3</Comment>
+        </DataNode>
+  <DataNode TextLabel="SPHK2" GraphId="cc11d" Type="Protein" GroupRef="a4b6e">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:Q9JIA7</Comment>
+        </DataNode>
+  <DataNode TextLabel="SPHK1" GraphId="c27d1" Type="Protein" GroupRef="a4b6e">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:Q8CI15</Comment>
+        </DataNode>
+  <DataNode TextLabel="SGPL1" GraphId="e9c81" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:20397</Comment>
+        </DataNode>
+  <DataNode TextLabel="CERS4" GraphId="e2f78" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:67260</Comment>
+    <BiopaxRef>b4a</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CERS2" GraphId="d657f" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:76893</Comment>
+        </DataNode>
+  <DataNode TextLabel="CERS4" GraphId="c248e" Type="Protein">
+    <Comment>Protein found in literature (not in original LipidMapsPW)</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:67260</Comment>
+    <BiopaxRef>b4a</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CoA(14:0)" GraphId="a265d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C14DH-Ceramide" GraphId="c0d7e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CERS5" GraphId="c6b8d" Type="Protein" GroupRef="e2566">
+    <Comment>AKA Lass5</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:Q9D6K9</Comment>
+    <BiopaxRef>b4a</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CERS6" GraphId="bf01f" Type="Protein" GroupRef="e2566">
+    <Comment>AKA Lass6</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:Q8C172</Comment>
+    <BiopaxRef>b4a</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="C16 Cer" GraphId="ee093" Type="Metabolite">
+    <BiopaxRef>b6c</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CERK" GraphId="e8f47" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:223753</Comment>
+        </DataNode>
+  <DataNode TextLabel="UGCG" GraphId="c2756" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22234</Comment>
+        </DataNode>
+  <DataNode TextLabel="SMPD1" GraphId="b9085" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:20597</Comment>
+        </DataNode>
+  <DataNode TextLabel="SGMS1" GraphId="d62b9" Type="Protein" GroupRef="ad0f5">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:208449</Comment>
+        </DataNode>
+  <DataNode TextLabel="SGMS2" GraphId="c79e6" Type="Protein" GroupRef="ad0f5">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:74442</Comment>
+        </DataNode>
+  <DataNode TextLabel="UGT8" GraphId="d85dd" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22239</Comment>
+        </DataNode>
+  <DataNode TextLabel="C18 CerP" GraphId="ab23f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C18DH CerP" GraphId="ea9a6" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C18 SM" GraphId="ee08b" Type="Metabolite">
+    <Comment>SM = sphingomyelin</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C18 GlcCer" GraphId="cd624" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C18DH SM" GraphId="c2e38" Type="Metabolite">
+    <Comment>SM = sphingomyelin</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C18DH GlcCer" GraphId="e98fe" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C18 GalCer" GraphId="a518f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C18DH GalCer" GraphId="b4d89" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C18DH-Cer" GraphId="e5f2b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C18 Cer" GraphId="a223b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C20 CerP" GraphId="fe480" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C20DH CerP" GraphId="d302f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C20 SM" GraphId="f03df" Type="Metabolite">
+    <Comment>SM = sphingomyelin</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C20 GlcCer" GraphId="d69bf" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C20DH SM" GraphId="e4386" Type="Metabolite">
+    <Comment>SM = sphingomyelin</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C20DH GlcCer" GraphId="acbd8" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C20 GalCer" GraphId="c65ae" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C20DH GalCer" GraphId="b4b09" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C20DH-Cer" GraphId="e8978" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C20 Cer" GraphId="ac886" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C22 CerP" GraphId="e4e6f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C22DH CerP" GraphId="b25a5" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C22 SM" GraphId="b3f40" Type="Metabolite">
+    <Comment>SM = sphingomyelin</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C22 GlcCer" GraphId="f1efe" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C22DH SM" GraphId="b8d18" Type="Metabolite">
+    <Comment>SM = sphingomyelin</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C22DH GlcCer" GraphId="a84b1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C22 GalCer" GraphId="bae01" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C22DH GalCer" GraphId="aaba9" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C22DH-Cer" GraphId="d12ab" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C22 Cer" GraphId="ec73f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24 CerP" GraphId="ae6a5" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24DH CerP" GraphId="e50cb" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24 SM" GraphId="c23d6" Type="Metabolite">
+    <Comment>SM = sphingomyelin</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24 GlcCer" GraphId="bb0cf" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24DH SM" GraphId="a0374" Type="Metabolite">
+    <Comment>SM = sphingomyelin</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24DH GlcCer" GraphId="ac9b7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24 GalCer" GraphId="f193c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24DH GalCer" GraphId="f97e3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24DH-Cer" GraphId="ba745" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24 Cer" GraphId="b238d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24:1 CerP" GraphId="e703b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24:1DH CerP" GraphId="c44f9" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24:1 SM" GraphId="da8d8" Type="Metabolite">
+    <Comment>SM = sphingomyelin</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24:1 GlcCer" GraphId="ca0d7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24:1DH SM" GraphId="d0c7d" Type="Metabolite">
+    <Comment>SM = sphingomyelin</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24:1DH GlcCer" GraphId="ef3a5" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24:1 GalCer" GraphId="c178a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24:1DH GalCer" GraphId="dc4b5" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24:1DH-Cer" GraphId="aa425" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C24:1 Cer" GraphId="b147c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CERS3" GraphId="db183" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:Q1A3B0</Comment>
+        </DataNode>
+  <DataNode TextLabel="C26:1 CerP" GraphId="bb52c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C26:1DH CerP" GraphId="d0d4c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C26:1 SM" GraphId="df054" Type="Metabolite">
+    <Comment>SM = sphingomyelin</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C26:1 GlcCer" GraphId="ecb03" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C26:1DH SM" GraphId="e22da" Type="Metabolite">
+    <Comment>SM = sphingomyelin</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C26:1DH GlcCer" GraphId="edf56" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C26:1 GalCer" GraphId="ec0f0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C26:1DH GalCer" GraphId="ceab2" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C26:1DH-Cer" GraphId="b9cff" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C26:1 Cer" GraphId="db413" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C26 CerP" GraphId="cdd1b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C26DH CerP" GraphId="ffb08" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C26 SM" GraphId="fce2c" Type="Metabolite">
+    <Comment>SM = sphingomyelin</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C26 GlcCer" GraphId="a2a74" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C26DH SM" GraphId="f30f4" Type="Metabolite">
+    <Comment>SM = sphingomyelin</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C26DH GlcCer" GraphId="ecde5" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C26 GalCer" GraphId="ba3ed" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C26DH GalCer" GraphId="d78eb" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C26DH-Cer" GraphId="a8539" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C26 Cer" GraphId="a0bbe" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ethanolamine-phosphate" GraphId="c1928" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="id740879f">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ee093"/>
+      <Point/>
+      <Point GraphRef="f6010" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.9620065130976787" Shape="None" GraphId="be0a6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8884d516">
+    <Graphics>
+      <Point GraphRef="ec73f"/>
+      <Point GraphRef="f6010" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.852677391022178" Shape="None" GraphId="d779f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6260">
+    <Graphics>
+      <Point GraphRef="e5f2b"/>
+      <Point GraphRef="ea9a6" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d4cfb">
+    <Graphics>
+      <Point GraphRef="e8978"/>
+      <Point GraphRef="d302f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ef11e">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a0809"/>
+      <Point/>
+      <Point GraphRef="e8978" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7953778784155098" Shape="None" GraphId="b1b83"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e4172">
+    <Graphics>
+      <Point GraphRef="dd764"/>
+      <Point GraphRef="ee093" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4273399947995457" Shape="None" GraphId="ca81b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8f73">
+    <Graphics>
+      <Point GraphRef="e703c"/>
+      <Point GraphRef="a0809" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b7b63"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aaa36">
+    <Graphics>
+      <Point GraphRef="abf1d"/>
+      <Point GraphRef="b79c8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0f3e">
+    <Graphics>
+      <Point GraphRef="e648a"/>
+      <Point GraphRef="ab939" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e9240">
+    <Graphics>
+      <Point GraphRef="cccac"/>
+      <Point GraphRef="b7b63" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d31af">
+    <Graphics>
+      <Point GraphRef="ee093"/>
+      <Point GraphRef="f4bbf" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.629218832916282" Shape="None" GraphId="e92a8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bed0d">
+    <Graphics>
+      <Point GraphRef="d5574"/>
+      <Point GraphRef="ada17" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2fdc">
+    <Graphics>
+      <Point GraphRef="a0809"/>
+      <Point GraphRef="d12ab" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7956152146721107" Shape="None" GraphId="f65e8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f369b">
+    <Graphics>
+      <Point GraphRef="d041a"/>
+      <Point GraphRef="f8d93" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fcf44">
+    <Graphics>
+      <Point GraphRef="f5461"/>
+      <Point GraphRef="ca81b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ea5d2">
+    <Graphics>
+      <Point GraphRef="d85dd"/>
+      <Point GraphRef="d1848" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e2c09">
+    <Graphics>
+      <Point GraphRef="e8f47"/>
+      <Point GraphRef="fb9f8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a5b40">
+    <Graphics>
+      <Point GraphRef="dd764"/>
+      <Point GraphRef="cfdee" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bcd9d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f6031">
+    <Graphics>
+      <Point GraphRef="e79a6"/>
+      <Point GraphRef="e703c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.49458111484063105" Shape="None" GraphId="ce1bf"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b75cc">
+    <Comment>Kinetic info: [PMID:17977534]</Comment>
+    <BiopaxRef>d6d</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a0809"/>
+      <Point/>
+      <Point GraphRef="dd764" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.9066868957079606" Shape="None" GraphId="a048f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d8e82">
+    <Graphics>
+      <Point GraphRef="dd764"/>
+      <Point GraphRef="ec374" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5518969452449788" Shape="None" GraphId="a8a00"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a5bd1">
+    <BiopaxRef>b39</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fd838"/>
+      <Point GraphRef="e90b5" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc891">
+    <Graphics>
+      <Point GraphRef="dd764"/>
+      <Point GraphRef="baf73" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.04404697948808509" Shape="None" GraphId="f8d93"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d1e25">
+    <Graphics>
+      <Point GraphRef="dbb07"/>
+      <Point GraphRef="a8a00" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fb44f">
+    <Graphics>
+      <Point GraphRef="a0809"/>
+      <Point GraphRef="eb7f3" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7908523511815057" Shape="None" GraphId="fed8c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dd18c">
+    <Graphics>
+      <Point GraphRef="c2756"/>
+      <Point GraphRef="f4b5d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e63f9">
+    <Graphics>
+      <Point GraphRef="d1d97"/>
+      <Point GraphRef="fed8c" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b5231">
+    <Graphics>
+      <Point GraphRef="f2084"/>
+      <Point GraphRef="cc77f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.42658652583811246" Shape="None" GraphId="f3e06"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c8f5e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b0cfc">
+    <Graphics>
+      <Point GraphRef="bbf76"/>
+      <Point GraphRef="ce1bf" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aec7c">
+    <Graphics>
+      <Point GraphRef="ee093"/>
+      <Point GraphRef="a5ca8" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f4b5d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f5fc4">
+    <Graphics>
+      <Point GraphRef="a265d"/>
+      <Point GraphRef="b79c8" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c997f">
+    <Graphics>
+      <Point GraphRef="e0930"/>
+      <Point GraphRef="dd764" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.44704146812018547" Shape="None" GraphId="facc4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de2d0">
+    <Graphics>
+      <Point GraphRef="ee612"/>
+      <Point GraphRef="facc4" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa967">
+    <Graphics>
+      <Point GraphRef="aacd8"/>
+      <Point GraphRef="f3e06" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ee4db">
+    <Graphics>
+      <Point GraphRef="e9c81"/>
+      <Point GraphRef="e648a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cc2e7">
+    <Graphics>
+      <Point GraphRef="b0652"/>
+      <Point GraphRef="ce1bf" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aa50b">
+    <Graphics>
+      <Point GraphRef="ee093"/>
+      <Point GraphRef="a9aa0" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d1848"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cb15d">
+    <Graphics>
+      <Point GraphRef="eb7f3"/>
+      <Point GraphRef="a0809" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.202108910925927" Shape="None" GraphId="e90b5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c2b51">
+    <Graphics>
+      <Point GraphRef="f6010"/>
+      <Point GraphRef="f2084" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.2640037967228627" Shape="None" GraphId="d07ed"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f118a">
+    <Graphics>
+      <Point GraphRef="eb7f3"/>
+      <Point GraphRef="d8f79" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.41661818886949686" Shape="None" GraphId="e648a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f9a3a">
+    <Graphics>
+      <Point GraphRef="dd764"/>
+      <Point GraphRef="e0930" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bad89"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e755b">
+    <Graphics>
+      <Point GraphRef="f4bbf"/>
+      <Point GraphRef="ee093" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.3439615248693527" Shape="None" GraphId="a7f3a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e75fb">
+    <BiopaxRef>d60</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b2385"/>
+      <Point GraphRef="d18e8" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fae67">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a0809"/>
+      <Point/>
+      <Point GraphRef="c0d7e" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.8952124432840521" Shape="None" GraphId="b79c8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ec23d">
+    <Graphics>
+      <Point GraphRef="b872c"/>
+      <Point GraphRef="bcd9d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bb739">
+    <Graphics>
+      <Point GraphRef="d8439"/>
+      <Point GraphRef="e92a8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e2db5">
+    <Graphics>
+      <Point GraphRef="b9085"/>
+      <Point GraphRef="a7f3a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6980">
+    <Graphics>
+      <Point GraphRef="f2084"/>
+      <Point GraphRef="f6010" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ada17"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6c3a">
+    <Graphics>
+      <Point GraphRef="ee093"/>
+      <Point GraphRef="e59bc" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="fb9f8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a14b7">
+    <Graphics>
+      <Point GraphRef="bc406"/>
+      <Point GraphRef="bad89" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e521b">
+    <Graphics>
+      <Point GraphRef="d262d"/>
+      <Point GraphRef="be0a6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a3731">
+    <Graphics>
+      <Point GraphRef="ee274"/>
+      <Point GraphRef="fed8c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e52d4">
+    <Graphics>
+      <Point GraphRef="a51fb"/>
+      <Point GraphRef="d07ed" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d45e0">
+    <Graphics>
+      <Point GraphRef="fadb3"/>
+      <Point GraphRef="d6c4f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b0fba">
+    <Graphics>
+      <Point GraphRef="dedfd"/>
+      <Point GraphRef="b1b83" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aff6f">
+    <Graphics>
+      <Point GraphRef="afb32"/>
+      <Point GraphRef="f65e8" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c684d">
+    <Graphics>
+      <Point GraphRef="ed529"/>
+      <Point GraphRef="b1db8" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a3e8e">
+    <Graphics>
+      <Point GraphRef="e7f29"/>
+      <Point GraphRef="e7036" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.0" Shape="None" GraphId="e8716"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a7ead">
+    <Graphics>
+      <Point GraphRef="fe195"/>
+      <Point GraphRef="a048f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eec6c">
+    <Graphics>
+      <Point GraphRef="f5e73"/>
+      <Point GraphRef="d6c4f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f567d">
+    <Graphics>
+      <Point GraphRef="f4edd"/>
+      <Point GraphRef="b1b83" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2aa8">
+    <Graphics>
+      <Point GraphRef="e2f78"/>
+      <Point GraphRef="f65e8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ba8c4">
+    <Graphics>
+      <Point GraphRef="f9b8e"/>
+      <Point GraphRef="b1db8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b98ec">
+    <Graphics>
+      <Point GraphRef="d657f"/>
+      <Point GraphRef="e7036" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="be7fb">
+    <Graphics>
+      <Point GraphRef="d0eaa"/>
+      <Point GraphRef="e0deb" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d2816"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cb4c0">
+    <Graphics>
+      <Point GraphRef="ad81f"/>
+      <Point GraphRef="d8f56" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e55a3">
+    <Graphics>
+      <Point GraphRef="e1c24"/>
+      <Point GraphRef="e0deb" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a5436">
+    <Graphics>
+      <Point GraphRef="db183"/>
+      <Point GraphRef="d8f56" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a5792">
+    <Graphics>
+      <Point GraphRef="fed8c"/>
+      <Point GraphRef="e873a" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e2d92">
+    <Graphics>
+      <Point GraphRef="dd604"/>
+      <Point GraphRef="e90b5" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e100c">
+    <Graphics>
+      <Point GraphRef="be53c"/>
+      <Point GraphRef="a048f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="abe3d">
+    <Graphics>
+      <Point GraphRef="c248e"/>
+      <Point GraphRef="b1db8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bdbe0">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a0809"/>
+      <Point/>
+      <Point GraphRef="e5f2b" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7956152146721107" Shape="None" GraphId="c7abb"/>
+      <Anchor Position="0.8691648409735175" Shape="None" GraphId="d6c4f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d680f">
+    <Graphics>
+      <Point GraphRef="e5f2b"/>
+      <Point GraphRef="c2e38" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f4cab">
+    <Graphics>
+      <Point GraphRef="c2e38"/>
+      <Point GraphRef="e5f2b" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dcb7f">
+    <Graphics>
+      <Point GraphRef="e5f2b"/>
+      <Point GraphRef="b4d89" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa4cd">
+    <Graphics>
+      <Point GraphRef="e5f2b"/>
+      <Point GraphRef="e98fe" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e4cf1">
+    <Graphics>
+      <Point GraphRef="e5f2b"/>
+      <Point GraphRef="a223b" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b3537">
+    <Graphics>
+      <Point GraphRef="a223b"/>
+      <Point GraphRef="ab23f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b9ff5">
+    <Graphics>
+      <Point GraphRef="a223b"/>
+      <Point GraphRef="ee08b" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e2e64">
+    <Graphics>
+      <Point GraphRef="ee08b"/>
+      <Point GraphRef="a223b" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f4e6c">
+    <Graphics>
+      <Point GraphRef="a223b"/>
+      <Point GraphRef="a518f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c2167">
+    <Graphics>
+      <Point GraphRef="a223b"/>
+      <Point GraphRef="cd624" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aa497">
+    <Graphics>
+      <Point GraphRef="e8978"/>
+      <Point GraphRef="ac886" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d4ae5">
+    <Graphics>
+      <Point GraphRef="e8978"/>
+      <Point GraphRef="acbd8" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dde07">
+    <Graphics>
+      <Point GraphRef="e8978"/>
+      <Point GraphRef="b4b09" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="edb65">
+    <Graphics>
+      <Point GraphRef="e8978"/>
+      <Point GraphRef="e4386" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6e78">
+    <Graphics>
+      <Point GraphRef="e4386"/>
+      <Point GraphRef="e8978" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c4ae0">
+    <Graphics>
+      <Point GraphRef="ac886"/>
+      <Point GraphRef="d69bf" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b2634">
+    <Graphics>
+      <Point GraphRef="ac886"/>
+      <Point GraphRef="fe480" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a0322">
+    <Graphics>
+      <Point GraphRef="ac886"/>
+      <Point GraphRef="c65ae" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ddcd7">
+    <Graphics>
+      <Point GraphRef="ac886"/>
+      <Point GraphRef="f03df" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ec597">
+    <Graphics>
+      <Point GraphRef="f03df"/>
+      <Point GraphRef="ac886" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fdb4d">
+    <Graphics>
+      <Point GraphRef="d12ab"/>
+      <Point GraphRef="ec73f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c4bd7">
+    <Graphics>
+      <Point GraphRef="d12ab"/>
+      <Point GraphRef="a84b1" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fcbe4">
+    <Graphics>
+      <Point GraphRef="d12ab"/>
+      <Point GraphRef="aaba9" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bd830">
+    <Graphics>
+      <Point GraphRef="b8d18"/>
+      <Point GraphRef="d12ab" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bde79">
+    <Graphics>
+      <Point GraphRef="ec73f"/>
+      <Point GraphRef="f1efe" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bb9ae">
+    <Graphics>
+      <Point GraphRef="ec73f"/>
+      <Point GraphRef="e4e6f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d3bad">
+    <Graphics>
+      <Point GraphRef="ec73f"/>
+      <Point GraphRef="bae01" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d0cc4">
+    <Graphics>
+      <Point GraphRef="ec73f"/>
+      <Point GraphRef="b3f40" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dd234">
+    <Graphics>
+      <Point GraphRef="b3f40"/>
+      <Point GraphRef="ec73f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="debff">
+    <Graphics>
+      <Point GraphRef="d12ab"/>
+      <Point GraphRef="b8d18" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a9a61">
+    <Graphics>
+      <Point GraphRef="d12ab"/>
+      <Point GraphRef="b25a5" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a9446">
+    <Graphics>
+      <Point GraphRef="ba745"/>
+      <Point GraphRef="b238d" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ec847">
+    <Graphics>
+      <Point GraphRef="ba745"/>
+      <Point GraphRef="ac9b7" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cb300">
+    <Graphics>
+      <Point GraphRef="ba745"/>
+      <Point GraphRef="f97e3" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cd1dd">
+    <Graphics>
+      <Point GraphRef="a0374"/>
+      <Point GraphRef="ba745" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9a74">
+    <Graphics>
+      <Point GraphRef="b238d"/>
+      <Point GraphRef="bb0cf" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eaa90">
+    <Graphics>
+      <Point GraphRef="b238d"/>
+      <Point GraphRef="ae6a5" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fe3e1">
+    <Graphics>
+      <Point GraphRef="b238d"/>
+      <Point GraphRef="f193c" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b6b10">
+    <Graphics>
+      <Point GraphRef="b238d"/>
+      <Point GraphRef="c23d6" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cf707">
+    <Graphics>
+      <Point GraphRef="c23d6"/>
+      <Point GraphRef="b238d" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f4261">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a0809"/>
+      <Point/>
+      <Point GraphRef="ba745" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7956152146721107" Shape="None" GraphId="cbec6"/>
+      <Anchor Position="0.8706936231166207" Shape="None" GraphId="b1db8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f6563">
+    <Graphics>
+      <Point GraphRef="aa425"/>
+      <Point GraphRef="b147c" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c28ba">
+    <Graphics>
+      <Point GraphRef="aa425"/>
+      <Point GraphRef="ef3a5" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ce857">
+    <Graphics>
+      <Point GraphRef="aa425"/>
+      <Point GraphRef="dc4b5" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="db5a9">
+    <Graphics>
+      <Point GraphRef="b147c"/>
+      <Point GraphRef="ca0d7" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df2be">
+    <Graphics>
+      <Point GraphRef="b147c"/>
+      <Point GraphRef="e703b" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c70dc">
+    <Graphics>
+      <Point GraphRef="b147c"/>
+      <Point GraphRef="c178a" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e176b">
+    <Graphics>
+      <Point GraphRef="b147c"/>
+      <Point GraphRef="da8d8" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fbfee">
+    <Graphics>
+      <Point GraphRef="da8d8"/>
+      <Point GraphRef="b147c" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d7ebd">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a0809"/>
+      <Point/>
+      <Point GraphRef="aa425" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.659531446958284" Shape="None" GraphId="c9b12"/>
+      <Anchor Position="0.6746801582704974" Shape="None" GraphId="e7036"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3fb8">
+    <Graphics>
+      <Point GraphRef="aa425"/>
+      <Point GraphRef="c44f9" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d90eb">
+    <Graphics>
+      <Point GraphRef="aa425"/>
+      <Point GraphRef="d0c7d" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cf136">
+    <Graphics>
+      <Point GraphRef="d0c7d"/>
+      <Point GraphRef="aa425" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f9caf">
+    <Graphics>
+      <Point GraphRef="ba745"/>
+      <Point GraphRef="a0374" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aba99">
+    <Graphics>
+      <Point GraphRef="ba745"/>
+      <Point GraphRef="e50cb" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c18d7">
+    <Graphics>
+      <Point GraphRef="b9cff"/>
+      <Point GraphRef="db413" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bba8e">
+    <Graphics>
+      <Point GraphRef="b9cff"/>
+      <Point GraphRef="edf56" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c3c1c">
+    <Graphics>
+      <Point GraphRef="b9cff"/>
+      <Point GraphRef="ceab2" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cb663">
+    <Graphics>
+      <Point GraphRef="db413"/>
+      <Point GraphRef="ecb03" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dc5c2">
+    <Graphics>
+      <Point GraphRef="db413"/>
+      <Point GraphRef="bb52c" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c4caa">
+    <Graphics>
+      <Point GraphRef="db413"/>
+      <Point GraphRef="ec0f0" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cb4af">
+    <Graphics>
+      <Point GraphRef="db413"/>
+      <Point GraphRef="df054" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d768a">
+    <Graphics>
+      <Point GraphRef="df054"/>
+      <Point GraphRef="db413" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c834a">
+    <Graphics>
+      <Point GraphRef="a8539"/>
+      <Point GraphRef="a0bbe" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e7314">
+    <Graphics>
+      <Point GraphRef="a8539"/>
+      <Point GraphRef="ecde5" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dbc08">
+    <Graphics>
+      <Point GraphRef="a8539"/>
+      <Point GraphRef="d78eb" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b8ff5">
+    <Graphics>
+      <Point GraphRef="a0bbe"/>
+      <Point GraphRef="a2a74" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a4065">
+    <Graphics>
+      <Point GraphRef="a0bbe"/>
+      <Point GraphRef="cdd1b" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="be603">
+    <Graphics>
+      <Point GraphRef="a0bbe"/>
+      <Point GraphRef="ba3ed" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f0571">
+    <Graphics>
+      <Point GraphRef="a0bbe"/>
+      <Point GraphRef="fce2c" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bec8d">
+    <Graphics>
+      <Point GraphRef="fce2c"/>
+      <Point GraphRef="a0bbe" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a7adb">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a0809"/>
+      <Point/>
+      <Point GraphRef="b9cff" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7956152146721107" Shape="None" GraphId="a0399"/>
+      <Anchor Position="0.6935203559254547" Shape="None" GraphId="be2c6"/>
+      <Anchor Position="0.9308174446622718" Shape="None" GraphId="d8f56"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b7a47">
+    <Graphics>
+      <Point GraphRef="b9cff"/>
+      <Point GraphRef="d0d4c" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b3fae">
+    <Graphics>
+      <Point GraphRef="b9cff"/>
+      <Point GraphRef="e22da" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3201">
+    <Graphics>
+      <Point GraphRef="e22da"/>
+      <Point GraphRef="b9cff" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f59c3">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a0809"/>
+      <Point/>
+      <Point GraphRef="a8539" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6935203559254547" Shape="None" GraphId="b3745"/>
+      <Anchor Position="0.9308174446622718" Shape="None" GraphId="f404e"/>
+      <Anchor Position="0.8828449892254114" Shape="None" GraphId="e0deb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a11e8">
+    <Graphics>
+      <Point GraphRef="a8539"/>
+      <Point GraphRef="ffb08" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d9784">
+    <Graphics>
+      <Point GraphRef="a8539"/>
+      <Point GraphRef="f30f4" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f1693">
+    <Graphics>
+      <Point GraphRef="f30f4"/>
+      <Point GraphRef="a8539" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b92e9">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a223b"/>
+      <Point/>
+      <Point GraphRef="f6010" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.9445806148821072" Shape="None" GraphId="cfb9d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ac6c1">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ac886"/>
+      <Point/>
+      <Point GraphRef="f6010" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.9249320565779622" Shape="None" GraphId="b4bd6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6f6e">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b147c"/>
+      <Point/>
+      <Point GraphRef="f6010" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.9068024881767295" Shape="None" GraphId="da259"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b0eb2">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b238d"/>
+      <Point/>
+      <Point GraphRef="f6010" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.9424247948075754" Shape="None" GraphId="cfbaa"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a8435">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="db413"/>
+      <Point/>
+      <Point GraphRef="f6010" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.9571172334271714" Shape="None" GraphId="b8fdb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d431c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a0bbe"/>
+      <Point/>
+      <Point GraphRef="f6010" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.9610412679222724" Shape="None" GraphId="c167e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ad0a9">
+    <Graphics>
+      <Point GraphRef="d262d"/>
+      <Point GraphRef="cfb9d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b1b6e">
+    <Graphics>
+      <Point GraphRef="d262d"/>
+      <Point GraphRef="b4bd6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d1418">
+    <Graphics>
+      <Point GraphRef="d262d"/>
+      <Point GraphRef="d779f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a3c4f">
+    <Graphics>
+      <Point GraphRef="d262d"/>
+      <Point GraphRef="da259" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a640b">
+    <Graphics>
+      <Point GraphRef="d262d"/>
+      <Point GraphRef="cfbaa" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b75a7">
+    <Graphics>
+      <Point GraphRef="d262d"/>
+      <Point GraphRef="b8fdb" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ff09d">
+    <Graphics>
+      <Point GraphRef="d262d"/>
+      <Point GraphRef="c167e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d23cc">
+    <Graphics>
+      <Point GraphRef="f3e06"/>
+      <Point GraphRef="c1928" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="High fat diet" GraphId="b2385">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Group GroupId="e9c94" GraphId="a51fb" Style="Group"/>
+  <Group GroupId="e2566" GraphId="abf1d" Style="Group"/>
+  <Group GroupId="ee7e5" GraphId="b0652" Style="Group"/>
+  <Group GroupId="dbad2" GraphId="bc406" Style="Group"/>
+  <Group GroupId="b1983" GraphId="d0e3d" Style="Group"/>
+  <Group GroupId="ba48a" GraphId="d253a" Style="Group"/>
+  <Group GroupId="c9cc7" GraphId="d5574" Style="Group"/>
+  <Group GroupId="ad0f5" GraphId="d8439" Style="Group"/>
+  <Group GroupId="bb143" GraphId="e1a56" Style="Group"/>
+  <Group GroupId="a4b6e" GraphId="ee274" Style="Group"/>
+  <Group GroupId="d2b68" GraphId="f5461" Style="Group"/>
+  <Group GroupId="f1b02" GraphId="f5e73" Style="Group"/>
+  <Group GroupId="aa54a" GraphId="fd838" Style="Group"/>
+  <Group GroupId="ec55e" GraphId="fe195" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b4a">
+      <bp:ID >15823095</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mammalian Lass6 and its related family members regulate synthesis of specific ceramides.</bp:TITLE>
+      <bp:SOURCE >Biochem J</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Mizutani Y</bp:AUTHORS>
+      <bp:AUTHORS >Kihara A</bp:AUTHORS>
+      <bp:AUTHORS >Igarashi Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    
+    
+    
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b39">
+      <bp:ID >11756451</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Characterization of murine sphingosine-1-phosphate phosphohydrolase.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Le Stunff H</bp:AUTHORS>
+      <bp:AUTHORS >Peterson C</bp:AUTHORS>
+      <bp:AUTHORS >Thornton R</bp:AUTHORS>
+      <bp:AUTHORS >Milstien S</bp:AUTHORS>
+      <bp:AUTHORS >Mandala SM</bp:AUTHORS>
+      <bp:AUTHORS >Spiegel S</bp:AUTHORS>
+    </bp:PublicationXref>
+    
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f6b">
+      <bp:ID >20923771</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A mouse macrophage lipidome.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Dennis EA</bp:AUTHORS>
+      <bp:AUTHORS >Deems RA</bp:AUTHORS>
+      <bp:AUTHORS >Harkewicz R</bp:AUTHORS>
+      <bp:AUTHORS >Quehenberger O</bp:AUTHORS>
+      <bp:AUTHORS >Brown HA</bp:AUTHORS>
+      <bp:AUTHORS >Milne SB</bp:AUTHORS>
+      <bp:AUTHORS >Myers DS</bp:AUTHORS>
+      <bp:AUTHORS >Glass CK</bp:AUTHORS>
+      <bp:AUTHORS >Hardiman G</bp:AUTHORS>
+      <bp:AUTHORS >Reichart D</bp:AUTHORS>
+      <bp:AUTHORS >Merrill AH Jr</bp:AUTHORS>
+      <bp:AUTHORS >Sullards MC</bp:AUTHORS>
+      <bp:AUTHORS >Wang E</bp:AUTHORS>
+      <bp:AUTHORS >Murphy RC</bp:AUTHORS>
+      <bp:AUTHORS >Raetz CR</bp:AUTHORS>
+      <bp:AUTHORS >Garrett TA</bp:AUTHORS>
+      <bp:AUTHORS >Guan Z</bp:AUTHORS>
+      <bp:AUTHORS >Ryan AC</bp:AUTHORS>
+      <bp:AUTHORS >Russell DW</bp:AUTHORS>
+      <bp:AUTHORS >McDonald JG</bp:AUTHORS>
+      <bp:AUTHORS >Thompson BM</bp:AUTHORS>
+      <bp:AUTHORS >Shaw WA</bp:AUTHORS>
+      <bp:AUTHORS >Sud M</bp:AUTHORS>
+      <bp:AUTHORS >Zhao Y</bp:AUTHORS>
+      <bp:AUTHORS >Gupta S</bp:AUTHORS>
+      <bp:AUTHORS >Maurya MR</bp:AUTHORS>
+      <bp:AUTHORS >Fahy E</bp:AUTHORS>
+      <bp:AUTHORS >Subramaniam S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b6c">
+      <bp:ID >12011104</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >De novo sphingolipid biosynthesis: a necessary, but dangerous, pathway.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Merrill AH Jr</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f88">
+      <bp:ID >16100120</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >LASS5 is a bona fide dihydroceramide synthase that selectively utilizes palmitoyl-CoA as acyl donor.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Lahiri S</bp:AUTHORS>
+      <bp:AUTHORS >Futerman AH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d60">
+      <bp:ID >26853464</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Ceramide Synthase 5 Is Essential to Maintain C16:0-Ceramide Pools and Contributes to the Development of Diet-induced Obesity.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Gosejacob D</bp:AUTHORS>
+      <bp:AUTHORS >J&#228;ger PS</bp:AUTHORS>
+      <bp:AUTHORS >Vom Dorp K</bp:AUTHORS>
+      <bp:AUTHORS >Frejno M</bp:AUTHORS>
+      <bp:AUTHORS >Carstensen AC</bp:AUTHORS>
+      <bp:AUTHORS >K&#246;hnke M</bp:AUTHORS>
+      <bp:AUTHORS >Degen J</bp:AUTHORS>
+      <bp:AUTHORS >D&#246;rmann P</bp:AUTHORS>
+      <bp:AUTHORS >Hoch M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d6d">
+      <bp:ID >17977534</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Kinetic characterization of mammalian ceramide synthases: determination of K(m) values towards sphinganine.</bp:TITLE>
+      <bp:SOURCE >FEBS Lett</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Lahiri S</bp:AUTHORS>
+      <bp:AUTHORS >Lee H</bp:AUTHORS>
+      <bp:AUTHORS >Mesicek J</bp:AUTHORS>
+      <bp:AUTHORS >Fuks Z</bp:AUTHORS>
+      <bp:AUTHORS >Haimovitz-Friedman A</bp:AUTHORS>
+      <bp:AUTHORS >Kolesnick RN</bp:AUTHORS>
+      <bp:AUTHORS >Futerman AH</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>cholesterol biosynthetic pathway</bp:TERM><bp:ID>PW:0000454</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>sphingolipid metabolic pathway</bp:TERM><bp:ID>PW:0000197</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>sphingomyelin metabolic pathway</bp:TERM><bp:ID>PW:0000745</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>sphingolipid biosynthetic pathway</bp:TERM><bp:ID>PW:0000162</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

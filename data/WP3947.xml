@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Serotonin and anxiety" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Benekareddy et al observed the phenomenon that rats who were maternally separated show increased levels of induced anxiety-related behaviour during adulthood. Type 2 serotonin receptors have been implicated in anxiety related behaviour and may be suitable targets for reducing anxiety response. Benekareddy et al report that treatment with ketanserin (a serotonergic antagonist) during postnatal life blocked the long-lasting effects of maternal separation on anxiety behavior in the open field test and the elevated plus maze. Immediate Early Genes such as Arc have been found to be significantly affected in expression (Benekareddy et al). The downstream and upstream gene products of Arc were partly elucidated and presented in a pathway.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3947 CPTAC Assay Portal]</Comment>
+  <Comment>Note that part of this pathway is based on results obtained from research done in rattus norvegicus.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway "Serotonin and anxiety", WP2141 revision 89967, with a 80.0% conversion rate.</Comment>
+  <BiopaxRef>f6d</BiopaxRef>
+  <Graphics BoardWidth="1169.08129453125" BoardHeight="792.874875"/>
+  <DataNode TextLabel="PLCD4" GraphId="a0f85" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000026173</Comment>
+    <BiopaxRef>f6d</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PLEK" GraphId="a6d36" Type="GeneProduct">
+    <Comment>pleckstrin </Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000020120</Comment>
+        </DataNode>
+  <DataNode TextLabel="THDOC" GraphId="aaef1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="POMC" GraphId="ad759" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000020660</Comment>
+        </DataNode>
+  <DataNode TextLabel="GRM1" GraphId="b2fee" Type="GeneProduct" GroupRef="ed9c6">
+    <Comment>G-protein-coupled phosphatidylinositol-calcium second messenger system</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000019828</Comment>
+        </DataNode>
+  <DataNode TextLabel="Ketanserin" GraphId="b4377" Type="Metabolite">
+    <BiopaxRef>f6d</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ca2+" GraphId="b52f7" Type="Metabolite">
+    <BiopaxRef>dc5</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TRPV1" GraphId="b5b95" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000005952</Comment>
+    <BiopaxRef>e32</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PRKCB" GraphId="b7d78" Type="GeneProduct">
+    <Comment>Protein kinase C</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000052889</Comment>
+        </DataNode>
+  <DataNode TextLabel="CAMK2B" GraphId="b910b" Type="GeneProduct" GroupRef="f9b62">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000057897</Comment>
+        </DataNode>
+  <DataNode TextLabel="FMR1" GraphId="bfa80" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000000838</Comment>
+        </DataNode>
+  <DataNode TextLabel="Ca2+" GraphId="c4808" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="eEF2K" GraphId="c979c" Type="GeneProduct" GroupRef="ed9c6">
+        </DataNode>
+  <DataNode TextLabel="eEF2" GraphId="cb4bc" Type="GeneProduct">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CRH" GraphId="d1449" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000049796</Comment>
+        </DataNode>
+  <DataNode TextLabel="eEF2-P" GraphId="d2009" Type="GeneProduct">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ca2+&#10;" GraphId="d2587" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PPP3CA" GraphId="da087" Type="GeneProduct">
+    <Comment>calcineurin</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000028161</Comment>
+    <BiopaxRef>ad0</BiopaxRef>
+    <BiopaxRef>e32</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GABRA1" GraphId="dc811" Type="GeneProduct">
+    <Comment>GABA a receptor</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000010803</Comment>
+        </DataNode>
+  <DataNode TextLabel="eEF2K" GraphId="ef0d5" Type="GeneProduct" GroupRef="f9b62">
+    <Comment>Phosphorylates eEF2</Comment>
+        </DataNode>
+  <DataNode TextLabel="ARC" GraphId="f019d" Type="GeneProduct">
+    <Comment>Calcium ion channel</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000022602</Comment>
+    <BiopaxRef>ad0</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="HTR2C" GraphId="f0ac2" Type="GeneProduct" GroupRef="c83e7">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000041380</Comment>
+        </DataNode>
+  <DataNode TextLabel="FOS" GraphId="f1a8d" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000021250</Comment>
+        </DataNode>
+  <DataNode TextLabel="DOC" GraphId="f2b52" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="HTR1A" GraphId="f663e" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000021721</Comment>
+    <BiopaxRef>e12</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ADRA1A" GraphId="f856c" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000045875</Comment>
+        </DataNode>
+  <DataNode TextLabel="ARC" GraphId="fa8ce" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000022602</Comment>
+    <BiopaxRef>f6d</BiopaxRef>
+    <BiopaxRef>ad0</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="HTR2A" GraphId="fd41a" Type="GeneProduct" GroupRef="c83e7">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000034997</Comment>
+        </DataNode>
+  <DataNode TextLabel="GRM1" GraphId="b2710" Type="GeneProduct">
+    <Comment>G-protein-coupled phosphatidylinositol-calcium second messenger system</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000019828</Comment>
+        </DataNode>
+  <DataNode TextLabel="eEF2-P" GraphId="d0520" Type="GeneProduct">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ARC" GraphId="e895e" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000022602</Comment>
+    <BiopaxRef>dc5</BiopaxRef>
+        </DataNode>
+  <Interaction GraphId="id22f0ce1c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="aa4a4"/>
+      <Point GraphRef="d1449" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id361ac78e">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="da087"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="fa8ce" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id39d86dfc">
+    <Graphics>
+      <Point GraphRef="da087"/>
+      <Point GraphRef="b5b95" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3e96b248">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="e895e"/>
+      <Point GraphRef="fa8ce" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id442e310d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d1449"/>
+      <Point GraphRef="ad759" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id47e37225">
+    <Graphics ConnectorType="Curved" LineStyle="Broken">
+      <Point GraphRef="cf858"/>
+      <Point GraphRef="b2710" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id487ef95f">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f019d"/>
+      <Point GraphRef="c4808" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id53ffe956">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d2587"/>
+      <Point GraphRef="f019d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id55594e2">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bfa80"/>
+      <Point GraphRef="ed919" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id568a8d9a">
+    <Graphics>
+      <Point GraphRef="cb4bc"/>
+      <Point GraphRef="d2009" ArrowHead="Arrow"/>
+      <Anchor Position="0.35010045570332715" Shape="None" GraphId="cafb3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5a038156">
+    <Graphics>
+      <Point GraphRef="fe223"/>
+      <Point GraphRef="ed919" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id606a16f4">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b4377"/>
+      <Point GraphRef="f663e" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id60ccb85d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="aa4a4"/>
+      <Point GraphRef="fa8ce" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6f88a6aa">
+    <BiopaxRef>e12</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b4377"/>
+      <Point GraphRef="f856c" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id710de081">
+    <Graphics>
+      <Point GraphRef="fa8ce"/>
+      <Point GraphRef="da087" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id72d58fdf">
+    <Graphics>
+      <Point GraphRef="ad759"/>
+      <Point GraphRef="ba369" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7daca6d">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="d2009"/>
+      <Point GraphRef="d0520" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id80d9d22b">
+    <Graphics>
+      <Point GraphRef="aaef1"/>
+      <Point GraphRef="a6686" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id84b69182">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d0520"/>
+      <Point GraphRef="ed919" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8a16954a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b4377"/>
+      <Point GraphRef="fd41a" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9ad18900">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="aa4a4"/>
+      <Point/>
+      <Point GraphRef="f1a8d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida5fd7693">
+    <Graphics>
+      <Point GraphRef="b5b95"/>
+      <Point GraphRef="ccb1e" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb46231bd">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b2710"/>
+      <Point GraphRef="bfa80" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb762fb9e">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b52f7"/>
+      <Point GraphRef="cf858" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc9da5a58">
+    <Graphics>
+      <Point GraphRef="b4377"/>
+      <Point GraphRef="f0ac2" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd08e414d">
+    <Graphics>
+      <Point GraphRef="ef0d5"/>
+      <Point GraphRef="cafb3" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd0d604a4">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="aaef1"/>
+      <Point/>
+      <Point GraphRef="dc811" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd6d1ae09">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f663e"/>
+      <Point GraphRef="d1449" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide129478d">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="b2fee"/>
+      <Point GraphRef="b52f7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideaec949e">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="cf858"/>
+      <Point GraphRef="ef0d5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf18235f3">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ed919"/>
+      <Point GraphRef="e895e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfdb19e90">
+    <Graphics>
+      <Point GraphRef="f2b52"/>
+      <Point GraphRef="aaef1" ArrowHead="Arrow"/>
+      <Anchor Position="0.5" Shape="None" GraphId="ba369"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="a5c27">
+    <Graphics Color="666666">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fad6c">
+    <Graphics Color="666666">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="CHRONIC&#10;STRESS" GraphId="a6686">
+    <BiopaxRef>af2</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="cc0033"/>
+  </Label>
+  <Label TextLabel="positive &#10;allosteric &#10;modulation" GraphId="ab369">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Dissociation" GraphId="c691d">
+    <Comment>Ca2+ dissociates eEFK2 and mGluR1</Comment>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ANXIETY" GraphId="ccb1e">
+    <BiopaxRef>e32</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="cc0033"/>
+  </Label>
+  <Label TextLabel="Arc" GraphId="ed919">
+    <BiopaxRef>dc5</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="f0d0c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="de Novo synthesis" GraphId="f1416">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Miscellaneous genes&#10;possibly involved" GraphId="f972a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="E-box" GraphId="fe223">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Shape GraphId="b092a">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="eed31">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="c83e7" GraphId="aa4a4" Style="Group"/>
+  <Group GroupId="f9b62" GraphId="c207f" Style="Complex">
+    <BiopaxRef>dc5</BiopaxRef>
+  </Group>
+  <Group GroupId="ed9c6" GraphId="cf858" Style="Complex">
+    <BiopaxRef>dc5</BiopaxRef>
+  </Group>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="af2">
+      <bp:ID >16325348</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Physiological role of adrenal deoxycorticosterone-derived neuroactive steroids in stress-sensitive conditions.</bp:TITLE>
+      <bp:SOURCE >Neuroscience</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Reddy DS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e32">
+      <bp:ID >22260796</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Calcineurin is required for TRPV1-induced long-term depression of hippocampal interneurons.</bp:TITLE>
+      <bp:SOURCE >Neurosci Lett</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Jensen T</bp:AUTHORS>
+      <bp:AUTHORS >Edwards JG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >calcium/calmodulin dependent kinases pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000316</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >altered calcineurin signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000319</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e12">
+      <bp:ID >2459516</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The alpha-adrenergic receptor blocking effect of ketanserin and the interaction between alpha-adrenergic and S2-serotonergic receptor blockade.</bp:TITLE>
+      <bp:SOURCE >J Cardiovasc Pharmacol</bp:SOURCE>
+      <bp:YEAR >1988</bp:YEAR>
+      <bp:AUTHORS >van der Starre PJ</bp:AUTHORS>
+      <bp:AUTHORS >Reneman RS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc5">
+      <bp:ID >19005037</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The immediate early gene arc/arg3.1: regulation, mechanisms, and function.</bp:TITLE>
+      <bp:SOURCE >J Neurosci</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Bramham CR</bp:AUTHORS>
+      <bp:AUTHORS >Worley PF</bp:AUTHORS>
+      <bp:AUTHORS >Moore MJ</bp:AUTHORS>
+      <bp:AUTHORS >Guzowski JF</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >serotonin signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000854</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f6d">
+      <bp:ID >21959103</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Postnatal serotonin type 2 receptor blockade prevents the emergence of anxiety behavior, dysregulated stress-induced immediate early gene responses, and specific transcriptional changes that arise following early life stress.</bp:TITLE>
+      <bp:SOURCE >Biol Psychiatry</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Benekareddy M</bp:AUTHORS>
+      <bp:AUTHORS >Vadodaria KC</bp:AUTHORS>
+      <bp:AUTHORS >Nair AR</bp:AUTHORS>
+      <bp:AUTHORS >Vaidya VA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >anxiety disorder</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:2030</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad0">
+      <bp:ID >15546853</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >ARC channels: a novel pathway for receptor-activated calcium entry.</bp:TITLE>
+      <bp:SOURCE >Physiology (Bethesda)</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Shuttleworth TJ</bp:AUTHORS>
+      <bp:AUTHORS >Thompson JL</bp:AUTHORS>
+      <bp:AUTHORS >Mignen O</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >serotonergic neuron</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000850</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>serotonergic neuron</bp:TERM><bp:ID>CL:0000850</bp:ID><bp:Ontology>Cell Type</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>anxiety disorder</bp:TERM><bp:ID>DOID:2030</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>serotonin signaling pathway</bp:TERM><bp:ID>PW:0000854</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>altered calcineurin signaling pathway</bp:TERM><bp:ID>PW:0000319</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>calcium/calmodulin dependent kinase 1 signaling pathway</bp:TERM><bp:ID>PW:0001187</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

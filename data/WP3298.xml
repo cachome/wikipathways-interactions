@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Melatonin metabolism and effects" Version="20150730" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Melatonin is an important regulator of circadian rythmus and influences also insulin secretion, immune function, retinal function and neuroprotection. The synthesis starts with the amino acid tryptophan which is catalyzed to serotonin. AANAT and ASMT catalyze the reaction to N-acetylserotonin and melatonin, respectively. Melatonin is mainly discarded by the liver enzyme CYP1A2 but other enzymes from the cytochrome family are also known to metabolize melatonin. Recent investigation show e.g. that melatonin plays an important role in colon cancer growth. 
+
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3298 CPTAC Assay Portal]</Comment>
+  <Graphics BoardWidth="997.0" BoardHeight="836.0336134453764"/>
+  <DataNode TextLabel="MAP2 " GraphId="a0199" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Clock" GraphId="a032b" Type="Protein" GroupRef="ab1c0">
+        </DataNode>
+  <DataNode TextLabel="MTNR1B" GraphId="a18ba" Type="GeneProduct" GroupRef="b0209">
+        </DataNode>
+  <DataNode TextLabel="N-Acetylserotonin" GraphId="a1e51" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Serotonin" GraphId="a20a0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cry" GraphId="a4029" Type="Protein" GroupRef="c475c">
+        </DataNode>
+  <DataNode TextLabel="SULT1A1" GraphId="a45ab" Type="GeneProduct">
+    <BiopaxRef>bb1</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CSNK1D" GraphId="a7233" Type="Protein" GroupRef="abe33">
+        </DataNode>
+  <DataNode TextLabel="edu-1-mRNA" GraphId="a7385" Type="GeneProduct" GroupRef="d823e">
+        </DataNode>
+  <DataNode TextLabel="Lipopolysaccharide" GraphId="a7680" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cytoskeleton rearrangement &#10;Dendrite formation" GraphId="a8539" Type="Pathway">
+    <BiopaxRef>b83</BiopaxRef>
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="EDN1" GraphId="a9d8d" Type="GeneProduct">
+    <BiopaxRef>c94</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Biogenic amine synthesis" GraphId="aa7e2" Type="Pathway" GroupRef="b4bce">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="CAM" GraphId="ad76b" Type="GeneProduct">
+    <Comment>calmodulin 1, CALM1</Comment>
+        </DataNode>
+  <DataNode TextLabel="5-Hydroxyindoleacetic acid" GraphId="ae1e9" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP1B1" GraphId="afe8c" Type="GeneProduct" GroupRef="beeaf">
+    <Comment>Low expression in liver, high expression in (fetal) brain and kidney</Comment>
+    <BiopaxRef>db4</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="free radicals" GraphId="b7680" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ACHE" GraphId="b78df" Type="GeneProduct">
+    <Comment>AAA (aryl-acylamidase) is a subfunction of ACHE</Comment>
+    <BiopaxRef>dd7</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CaMK2 " GraphId="b7ad6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAOA" GraphId="b81bd" Type="Protein">
+    <BiopaxRef>afb</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Arntl" GraphId="b8b9d" Type="Protein" GroupRef="ab1c0">
+        </DataNode>
+  <DataNode TextLabel="ARNTL" GraphId="b9e04" Type="GeneProduct" GroupRef="a9a98">
+        </DataNode>
+  <DataNode TextLabel="Tryptophan metabolism" GraphId="ba260" Type="Pathway" GroupRef="b4bce">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Circadian rhythm" GraphId="bb049" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Pinoline" GraphId="bb2bf" Type="Metabolite" GroupRef="a0c63">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2D6" GraphId="bc56d" Type="GeneProduct">
+    <Comment>proven only for rat</Comment>
+    <BiopaxRef>dd7</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="5-Methoxytryptamine" GraphId="bde96" Type="Metabolite">
+    <Comment>0-methylserotonin</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TRAF6" GraphId="be1de" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IRAK1" GraphId="c36b4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PER2" GraphId="c3a8c" Type="GeneProduct" GroupRef="c1fff">
+        </DataNode>
+  <DataNode TextLabel="hsa-mir-146a" GraphId="c435a" Type="Rna">
+    <BiopaxRef>c50</BiopaxRef>
+    <Graphics Color="9900cc"/>
+    </DataNode>
+  <DataNode TextLabel="MTNR1A" GraphId="c468a" Type="GeneProduct" GroupRef="b0209">
+        </DataNode>
+  <DataNode TextLabel="Melatonin" GraphId="c491a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CLOCK" GraphId="c4db5" Type="GeneProduct" GroupRef="a9a98">
+        </DataNode>
+  <DataNode TextLabel="cyclic 6-hydroxymelatonin" GraphId="c8d1e" Type="Metabolite" GroupRef="c3b50">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Per" GraphId="c9385" Type="Protein" GroupRef="c475c">
+        </DataNode>
+  <DataNode TextLabel="PKC" GraphId="cbb47" Type="GeneProduct">
+    <Comment>PCK - alpha (literature does not give the exact subclass of PCK)</Comment>
+        </DataNode>
+  <DataNode TextLabel="Ethinhyloestradiol" GraphId="cc012" Type="Metabolite">
+    <BiopaxRef>ed3</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="6-Sulfatoxymelatonin" GraphId="cfd8f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AANAT" GraphId="d1d9a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="cAMP" GraphId="d310c" Type="Metabolite" GroupRef="d823e">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GSK3B" GraphId="d3633" Type="GeneProduct" GroupRef="abe33">
+        </DataNode>
+  <DataNode TextLabel="N,N-Dimethyltryptamine" GraphId="d3915" Type="Metabolite" GroupRef="a0c63">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CSNK1E" GraphId="d4669" Type="Protein" GroupRef="abe33">
+        </DataNode>
+  <DataNode TextLabel="SIRT1" GraphId="da834" Type="GeneProduct">
+    <BiopaxRef>c50</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="5-methoxypsoralen" GraphId="dd287" Type="Metabolite">
+    <BiopaxRef>ed3</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ADRB" GraphId="df496" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="dfb08" Type="GeneProduct" GroupRef="d6d84">
+        </DataNode>
+  <DataNode TextLabel="FOXO1" GraphId="dfb19" Type="GeneProduct" GroupRef="d6d84">
+        </DataNode>
+  <DataNode TextLabel="CYP1A1" GraphId="e054d" Type="GeneProduct" GroupRef="beeaf">
+    <BiopaxRef>db4</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PKA" GraphId="e3a4e" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PER3" GraphId="e544f" Type="GeneProduct" GroupRef="c1fff">
+        </DataNode>
+  <DataNode TextLabel="Cancer growth" GraphId="e5647" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="ECE-1" GraphId="e8221" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Noradrenaline" GraphId="f1c98" Type="Metabolite">
+    <BiopaxRef>b4b</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="6-Hydroxymelatonin" GraphId="f2242" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="APOE" GraphId="f386c" Type="GeneProduct">
+    <BiopaxRef>afb</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PER1" GraphId="f42ed" Type="GeneProduct" GroupRef="c1fff">
+        </DataNode>
+  <DataNode TextLabel="CYP1A2" GraphId="f957c" Type="GeneProduct" GroupRef="beeaf">
+    <Comment>Synonym CP12, P3-450</Comment>
+    <Comment>Main melatonin hydroxylating enzyme</Comment>
+    <BiopaxRef>c05</BiopaxRef>
+    <BiopaxRef>db4</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Bufotenin" GraphId="f9a55" Type="Metabolite" GroupRef="a0c63">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ASMT" GraphId="fc1a3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYP2C19" GraphId="fea23" Type="GeneProduct" GroupRef="beeaf">
+    <BiopaxRef>db4</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CRY2" GraphId="bb2b5" Type="GeneProduct" GroupRef="c1fff">
+        </DataNode>
+  <DataNode TextLabel="CRY1" GraphId="ae4d2" Type="GeneProduct" GroupRef="c1fff">
+        </DataNode>
+  <DataNode TextLabel="Per" GraphId="a9de3" Type="Protein" GroupRef="af2b3">
+        </DataNode>
+  <DataNode TextLabel="Cry" GraphId="c1828" Type="Protein" GroupRef="af2b3">
+        </DataNode>
+  <DataNode TextLabel="AANAT" GraphId="c7ef3" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="cAMP" GraphId="c6807" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-mir-126" GraphId="a6b1a" Type="Rna">
+    <BiopaxRef>c50</BiopaxRef>
+    <Graphics Color="9900cc"/>
+    </DataNode>
+  <DataNode TextLabel="cyclic 3-hydroxymelatonin" GraphId="ad3c4" Type="Metabolite" GroupRef="c3b50">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="id158ba0f5">
+    <Graphics>
+      <Point GraphRef="be1de"/>
+      <Point GraphRef="c16a6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id17821318">
+    <Graphics>
+      <Point GraphRef="d63c2"/>
+      <Point GraphRef="cb4f2" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id17e38c20">
+    <Graphics>
+      <Point GraphRef="e911b"/>
+      <Point GraphRef="c3ba3" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1fa9802b">
+    <Graphics>
+      <Point GraphRef="f386c"/>
+      <Point GraphRef="b81bd" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id26624cc5">
+    <Graphics>
+      <Point GraphRef="c3ba3"/>
+      <Point GraphRef="d4750" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id297e6ecb">
+    <Graphics>
+      <Point GraphRef="a7680"/>
+      <Point GraphRef="a6b1a" ArrowHead="mim-inhibition"/>
+      <Anchor Position="0.6798477479382533" Shape="None" GraphId="fd8a7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2cffaa8e">
+    <Graphics>
+      <Point GraphRef="c36b4"/>
+      <Point GraphRef="c16a6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2f67005a">
+    <Graphics>
+      <Point GraphRef="e3a4e"/>
+      <Point GraphRef="c4c3b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id31b30d9">
+    <Graphics>
+      <Point GraphRef="ad76b"/>
+      <Point GraphRef="b7ad6" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id329934ba">
+    <Graphics>
+      <Point GraphRef="bde96"/>
+      <Point GraphRef="c5b51" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id35da8929">
+    <Graphics>
+      <Point GraphRef="c435a"/>
+      <Point GraphRef="be1de" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3b9d19c8">
+    <Graphics>
+      <Point GraphRef="c619d"/>
+      <Point GraphRef="f70be" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3cccad13">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c491a"/>
+      <Point GraphRef="bde96" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5650279188669923" Shape="None" GraphId="db0be"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id405f97c3">
+    <Graphics>
+      <Point GraphRef="d4750"/>
+      <Point GraphRef="e911b" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id409a075a">
+    <Graphics>
+      <Point GraphRef="c619d"/>
+      <Point GraphRef="cbb47" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id441506d7">
+    <Graphics>
+      <Point GraphRef="df496"/>
+      <Point GraphRef="e3a4e" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4c52e079">
+    <Graphics>
+      <Point GraphRef="f957c"/>
+      <Point GraphRef="e1df1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5132d414">
+    <Graphics>
+      <Point GraphRef="b78df"/>
+      <Point GraphRef="db0be" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id517919de">
+    <Graphics>
+      <Point GraphRef="c7ef3"/>
+      <Point GraphRef="a7bd6" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5212e58a">
+    <Graphics>
+      <Point GraphRef="cc012"/>
+      <Point GraphRef="fda14" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5321e5d1">
+    <Graphics>
+      <Point GraphRef="e61fa"/>
+      <Point GraphRef="c3ba3" ArrowHead="mim-transcription-translation"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f70be"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id58769cb5">
+    <Graphics>
+      <Point GraphRef="fea23"/>
+      <Point GraphRef="bd936" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5eff5de5">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c491a"/>
+      <Point GraphRef="cbb47" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id60fee0f8">
+    <Graphics>
+      <Point GraphRef="d22ff"/>
+      <Point GraphRef="f5243" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6b0aa1cd">
+    <Graphics>
+      <Point GraphRef="ec3e2"/>
+      <Point GraphRef="eb83c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6c59654e">
+    <Graphics>
+      <Point GraphRef="ee96f"/>
+      <Point GraphRef="f1c98" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id737f0101">
+    <Graphics>
+      <Point GraphRef="f7c6a"/>
+      <Point GraphRef="a20a0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7be84af">
+    <Graphics>
+      <Point GraphRef="a20a0"/>
+      <Point GraphRef="ae1e9" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6046249822817" Shape="None" GraphId="e1562"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id81034ce2">
+    <Graphics ConnectorType="Segmented">
+      <Point GraphRef="c491a"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="fd8a7" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8634a40b">
+    <Graphics>
+      <Point GraphRef="cbb47"/>
+      <Point GraphRef="ad76b" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8cfd5d0d">
+    <Graphics>
+      <Point GraphRef="b81bd"/>
+      <Point GraphRef="e1562" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8e7d9f8b">
+    <Graphics>
+      <Point GraphRef="a7680"/>
+      <Point GraphRef="c435a" ArrowHead="mim-inhibition"/>
+      <Anchor Position="0.5193929173693089" Shape="None" GraphId="d0059"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id910023eb">
+    <Graphics>
+      <Point GraphRef="da834"/>
+      <Point GraphRef="c16a6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id96016832">
+    <Graphics>
+      <Point GraphRef="e911b"/>
+      <Point GraphRef="d63c2" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="eb83c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id965a2ba2">
+    <Graphics>
+      <Point GraphRef="b7680"/>
+      <Point GraphRef="d1845" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id97d031a8">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c491a"/>
+      <Point GraphRef="d0059" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id984f5517">
+    <Graphics>
+      <Point GraphRef="f957c"/>
+      <Point GraphRef="bd936" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9ba1f89c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c491a"/>
+      <Point GraphRef="e8221" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9e5387df">
+    <Graphics>
+      <Point GraphRef="a7680"/>
+      <Point GraphRef="da834" ArrowHead="mim-inhibition"/>
+      <Anchor Position="0.5454545454545454" Shape="None" GraphId="a45ac"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida15db2c6">
+    <Graphics>
+      <Point GraphRef="c3ba3"/>
+      <Point GraphRef="d4750" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida1b62941">
+    <Graphics>
+      <Point GraphRef="c491a"/>
+      <Point GraphRef="d1d9a" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida43f871e">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c491a"/>
+      <Point GraphRef="a45ac" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida51d7290">
+    <Graphics>
+      <Point GraphRef="f1c98"/>
+      <Point GraphRef="c6807" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida567bfcf">
+    <Graphics>
+      <Point GraphRef="a9de3"/>
+      <Point GraphRef="e2fbc"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idad208629">
+    <Graphics>
+      <Point GraphRef="b7ad6"/>
+      <Point GraphRef="a0199" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaf2ab60d">
+    <Graphics>
+      <Point GraphRef="ccde8"/>
+      <Point GraphRef="ec3e2" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb29483ec">
+    <Graphics>
+      <Point GraphRef="bde96"/>
+      <Point GraphRef="a20a0" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.15198845215325907" Shape="None" GraphId="b71c4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbc1664e3">
+    <Graphics>
+      <Point GraphRef="c7ef3"/>
+      <Point GraphRef="d1d9a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c4c3b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc28a8f4b">
+    <Graphics>
+      <Point GraphRef="c6807"/>
+      <Point GraphRef="df496" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc9c6ec98">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c491a"/>
+      <Point GraphRef="b0d47" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.699055767649883" Shape="None" GraphId="d1845"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd7bbe224">
+    <Graphics>
+      <Point GraphRef="a9d8d"/>
+      <Point GraphRef="e5647" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddce0d483">
+    <Graphics>
+      <Point GraphRef="a45ab"/>
+      <Point GraphRef="dee40" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide078da9e">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c491a"/>
+      <Point GraphRef="c619d" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf127d217">
+    <Graphics>
+      <Point GraphRef="dd287"/>
+      <Point GraphRef="e83a7" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf23c4ac7">
+    <Graphics>
+      <Point GraphRef="a20a0"/>
+      <Point GraphRef="a1e51" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.43498705123070325" Shape="None" GraphId="d3e29"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf34992e3">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c491a"/>
+      <Point GraphRef="d22ff" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfb6aada9">
+    <Graphics>
+      <Point GraphRef="c491a"/>
+      <Point GraphRef="a1e51" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5089707271010402" Shape="None" GraphId="bd936"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfedd84ec">
+    <Graphics>
+      <Point GraphRef="a0199"/>
+      <Point GraphRef="a8539" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cd0c9">
+    <Graphics>
+      <Point GraphRef="a1e51"/>
+      <Point GraphRef="c491a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.22514071294559054" Shape="None" GraphId="fa774"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e78e4">
+    <Graphics>
+      <Point GraphRef="c491a"/>
+      <Point GraphRef="f2242" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4602840610205145" Shape="None" GraphId="e1df1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e988b">
+    <Graphics>
+      <Point GraphRef="f2242"/>
+      <Point GraphRef="cfd8f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.2124478120983526" Shape="None" GraphId="fda14"/>
+      <Anchor Position="0.5915104879831325" Shape="None" GraphId="dee40"/>
+      <Anchor Position="0.23213850690098353" Shape="None" GraphId="cea96"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c77c6">
+    <Graphics>
+      <Point GraphRef="fc1a3"/>
+      <Point GraphRef="fa774" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b46cb">
+    <Graphics>
+      <Point GraphRef="d1d9a"/>
+      <Point GraphRef="d3e29" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b9f03">
+    <Graphics>
+      <Point GraphRef="f5243"/>
+      <Point GraphRef="a9d8d" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a1b9f">
+    <Graphics>
+      <Point GraphRef="f7c6a"/>
+      <Point GraphRef="a20a0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f6604">
+    <Graphics>
+      <Point GraphRef="e054d"/>
+      <Point GraphRef="e1df1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e03cb">
+    <Graphics>
+      <Point GraphRef="fea23"/>
+      <Point GraphRef="e1df1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1ff6">
+    <Graphics>
+      <Point GraphRef="afe8c"/>
+      <Point GraphRef="e1df1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c8c38">
+    <Graphics>
+      <Point GraphRef="bc56d"/>
+      <Point GraphRef="b71c4" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f943c">
+    <Graphics>
+      <Point GraphRef="c435a"/>
+      <Point GraphRef="c36b4" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Light" GraphId="a3cde">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="acd40">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Melatonin effects" GraphId="c06b5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inflammation&#10;Autophagy" GraphId="c16a6">
+    <Graphics FillColor="ffffff" Color="33cc00"/>
+  </Label>
+  <Label TextLabel="Melatonin synthesis and breakdown" GraphId="e2414">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="fbd65">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Light" GraphId="e1f70">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="a7bd6">
+    <Graphics ShapeType="mim-degradation"/>
+  </Shape>
+  <Shape GraphId="cb4f2">
+    <Graphics ShapeType="mim-degradation"/>
+  </Shape>
+  <Shape GraphId="e0c10">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="e2fbc">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ee96f">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f4a87">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ccde8">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="ee6ba" GraphId="a39fd" Style="Group"/>
+  <Group GroupId="c3b50" GraphId="b0d47" Style="Group"/>
+  <Group GroupId="ab1c0" GraphId="c3ba3" Style="Group"/>
+  <Group GroupId="a0c63" GraphId="c5b51" Style="Group"/>
+  <Group GroupId="b0209" GraphId="c619d" Style="Group"/>
+  <Group GroupId="d823e" GraphId="d22ff" Style="Group"/>
+  <Group GroupId="c1fff" GraphId="d4750" Style="Group"/>
+  <Group GroupId="af2b3" GraphId="d63c2" Style="Group"/>
+  <Group GroupId="a9a98" GraphId="e61fa" Style="Group"/>
+  <Group GroupId="beeaf" GraphId="e83a7" Style="Group"/>
+  <Group GroupId="c475c" GraphId="e911b" Style="Group"/>
+  <Group GroupId="abe33" GraphId="ec3e2" Style="Group"/>
+  <Group GroupId="d6d84" GraphId="f5243" Style="Group"/>
+  <Group GroupId="b4bce" GraphId="f7c6a" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >sleep disorder</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:535</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c05">
+      <bp:ID >25059483</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Genetic variation in melatonin pathway enzymes in children with autism spectrum disorder and comorbid sleep onset delay.</bp:TITLE>
+      <bp:SOURCE >J Autism Dev Disord</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Veatch OJ</bp:AUTHORS>
+      <bp:AUTHORS >Pendergast JS</bp:AUTHORS>
+      <bp:AUTHORS >Allen MJ</bp:AUTHORS>
+      <bp:AUTHORS >Leu RM</bp:AUTHORS>
+      <bp:AUTHORS >Johnson CH</bp:AUTHORS>
+      <bp:AUTHORS >Elsea SH</bp:AUTHORS>
+      <bp:AUTHORS >Malow BA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed3">
+      <bp:ID >24732412</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Potential drug interactions with melatonin.</bp:TITLE>
+      <bp:SOURCE >Physiol Behav</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Papagiannidou E</bp:AUTHORS>
+      <bp:AUTHORS >Skene DJ</bp:AUTHORS>
+      <bp:AUTHORS >Ioannides C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b83">
+      <bp:ID >25603176</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Melatonin stimulates dendrite formation and complexity in the hilar zone of the rat hippocampus: participation of the Ca++/Calmodulin complex.</bp:TITLE>
+      <bp:SOURCE >Int J Mol Sci</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Dom&#237;nguez-Alonso A</bp:AUTHORS>
+      <bp:AUTHORS >Vald&#233;s-Tovar M</bp:AUTHORS>
+      <bp:AUTHORS >Sol&#237;s-Chagoy&#225;n H</bp:AUTHORS>
+      <bp:AUTHORS >Ben&#237;tez-King G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb1">
+      <bp:ID >25738837</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Sulfation of melatonin: enzymatic characterization, differences of organs, species and genders, and bioactivity variation.</bp:TITLE>
+      <bp:SOURCE >Biochem Pharmacol</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Tian X</bp:AUTHORS>
+      <bp:AUTHORS >Huo X</bp:AUTHORS>
+      <bp:AUTHORS >Dong P</bp:AUTHORS>
+      <bp:AUTHORS >Wu B</bp:AUTHORS>
+      <bp:AUTHORS >Wang X</bp:AUTHORS>
+      <bp:AUTHORS >Wang C</bp:AUTHORS>
+      <bp:AUTHORS >Liu K</bp:AUTHORS>
+      <bp:AUTHORS >Ma X</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dd7">
+      <bp:ID >12618595</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regeneration of serotonin from 5-methoxytryptamine by polymorphic human CYP2D6</bp:TITLE>
+      <bp:SOURCE >Pharmacogenetics. 2003 Mar;13(3):173-81.</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Yu AM</bp:AUTHORS>
+      <bp:AUTHORS >Idle JR</bp:AUTHORS>
+      <bp:AUTHORS >Byrd LG</bp:AUTHORS>
+      <bp:AUTHORS >Krausz KW</bp:AUTHORS>
+      <bp:AUTHORS >K&#252;pfer A</bp:AUTHORS>
+      <bp:AUTHORS >Gonzalez FJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >hormone signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000465</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b4b">
+      <bp:ID >16399907</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mechanisms regulating melatonin synthesis in the mammalian pineal organ.</bp:TITLE>
+      <bp:SOURCE >Ann N Y Acad Sci</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Schomerus C</bp:AUTHORS>
+      <bp:AUTHORS >Korf HW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="db4">
+      <bp:ID >15616152</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Metabolism of melatonin by human cytochromes p450.</bp:TITLE>
+      <bp:SOURCE >Drug Metab Dispos</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Ma X</bp:AUTHORS>
+      <bp:AUTHORS >Idle JR</bp:AUTHORS>
+      <bp:AUTHORS >Krausz KW</bp:AUTHORS>
+      <bp:AUTHORS >Gonzalez FJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:162</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c94">
+      <bp:ID >24628039</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Melatonin reduces endothelin-1 expression and secretion in colon cancer cells through the inactivation of FoxO-1 and NF-&#954;&#946;</bp:TITLE>
+      <bp:SOURCE >J Pineal Res. 2014 May;56(4):415-26.</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Le&#243;n J</bp:AUTHORS>
+      <bp:AUTHORS >Casado J</bp:AUTHORS>
+      <bp:AUTHORS >Jim&#233;nez Ruiz SM</bp:AUTHORS>
+      <bp:AUTHORS >Zurita MS</bp:AUTHORS>
+      <bp:AUTHORS >Gonz&#225;lez-Puga C</bp:AUTHORS>
+      <bp:AUTHORS >Rej&#243;n JD</bp:AUTHORS>
+      <bp:AUTHORS >Gila A</bp:AUTHORS>
+      <bp:AUTHORS >Mu&#241;oz de Rueda P</bp:AUTHORS>
+      <bp:AUTHORS >Pav&#243;n EJ</bp:AUTHORS>
+      <bp:AUTHORS >Reiter RJ</bp:AUTHORS>
+      <bp:AUTHORS >Ruiz-Extremera A</bp:AUTHORS>
+      <bp:AUTHORS >Salmer&#243;n J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >developmental disorder of mental health</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0060037</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="afb">
+      <bp:ID >22225631</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Apolipoprotein E influences melatonin biosynthesis by regulating NAT and MAOA expression in C6 cells.</bp:TITLE>
+      <bp:SOURCE >J Pineal Res</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Liu YJ</bp:AUTHORS>
+      <bp:AUTHORS >Meng FT</bp:AUTHORS>
+      <bp:AUTHORS >Wang LL</bp:AUTHORS>
+      <bp:AUTHORS >Zhang LF</bp:AUTHORS>
+      <bp:AUTHORS >Cheng XP</bp:AUTHORS>
+      <bp:AUTHORS >Zhou JN</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c50">
+      <bp:ID >27441728</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Melatonin modulates neonatal brain inflammation through ER stress, autophagy and miR-34a/SIRT1 pathway.</bp:TITLE>
+      <bp:SOURCE >J Pineal Res</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Carloni S</bp:AUTHORS>
+      <bp:AUTHORS >Favrais G</bp:AUTHORS>
+      <bp:AUTHORS >Saliba E</bp:AUTHORS>
+      <bp:AUTHORS >Albertini MC</bp:AUTHORS>
+      <bp:AUTHORS >Chalon S</bp:AUTHORS>
+      <bp:AUTHORS >Longini M</bp:AUTHORS>
+      <bp:AUTHORS >Gressens P</bp:AUTHORS>
+      <bp:AUTHORS >Buonocore G</bp:AUTHORS>
+      <bp:AUTHORS >Balduini W</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

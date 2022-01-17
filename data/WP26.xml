@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="S1P receptor signal transduction" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <Comment Source="WikiPathways-description">Metabolism of sphingomyelin by the sphingomyelinase, ceramidase (Cer'ase) and the sphingosine kinase (SK) enzymes results in formation of S1P and receptor activation. Autocrine and paracrine modes of receptor activation have been implied but have yet to be rigorously proven. Critical signaling molecules, such as phospholipase C (PLC), ERK, PI3K, and Akt are activated. Active Akt binds to the receptor and phosphorylates the third intracellular loop, which is essential for Rac activation.  Representation of Figure  2. from T. Hla, et al. 2001, Science, 294, pg. 1877.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP26 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>a60</BiopaxRef>
+  <Graphics BoardWidth="620.0" BoardHeight="644.0"/>
+  <DataNode TextLabel="SPHK1" GraphId="c26" Type="GeneProduct" GroupRef="c438c">
+        </DataNode>
+  <DataNode TextLabel="SPHK2" GraphId="aed" Type="GeneProduct" GroupRef="c438c">
+        </DataNode>
+  <DataNode TextLabel="ASAH1" GraphId="ad2" Type="GeneProduct" GroupRef="c438c">
+        </DataNode>
+  <DataNode TextLabel="SMPD2" GraphId="ac5" Type="GeneProduct" GroupRef="c438c">
+        </DataNode>
+  <DataNode TextLabel="S1PR1" GraphId="c95" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EDG5" GraphId="c06" Type="GeneProduct" GroupRef="ffaf0">
+        </DataNode>
+  <DataNode TextLabel="EDG3" GraphId="f8a" Type="GeneProduct" GroupRef="ffaf0">
+        </DataNode>
+  <DataNode TextLabel="EDG8" GraphId="a2e" Type="GeneProduct" GroupRef="ffaf0">
+        </DataNode>
+  <DataNode TextLabel="PLCB1" GraphId="dd1" Type="GeneProduct" GroupRef="c5929">
+        </DataNode>
+  <DataNode TextLabel="PLCB2" GraphId="a01" Type="GeneProduct" GroupRef="c5929">
+        </DataNode>
+  <DataNode TextLabel="PLCB3" GraphId="f87" Type="GeneProduct" GroupRef="c5929">
+        </DataNode>
+  <DataNode TextLabel="MAPK3" GraphId="bee" Type="GeneProduct" GroupRef="fb4c4">
+        </DataNode>
+  <DataNode TextLabel="MAPK1" GraphId="a1d" Type="GeneProduct" GroupRef="fb4c4">
+        </DataNode>
+  <DataNode TextLabel="MAPK6" GraphId="d4e" Type="GeneProduct" GroupRef="fb4c4">
+        </DataNode>
+  <DataNode TextLabel="MAPK4" GraphId="f57" Type="GeneProduct" GroupRef="fb4c4">
+        </DataNode>
+  <DataNode TextLabel="MAPK7" GraphId="bec" Type="GeneProduct" GroupRef="fb4c4">
+        </DataNode>
+  <DataNode TextLabel="MAPK12" GraphId="f93" Type="GeneProduct" GroupRef="fb4c4">
+        </DataNode>
+  <DataNode TextLabel="GNAI1" GraphId="f8c" Type="GeneProduct" GroupRef="f713d">
+        </DataNode>
+  <DataNode TextLabel="GNAI2" GraphId="cd6" Type="GeneProduct" GroupRef="f713d">
+        </DataNode>
+  <DataNode TextLabel="GNAI3" GraphId="a2d" Type="GeneProduct" GroupRef="f713d">
+        </DataNode>
+  <DataNode TextLabel="AKT1" GraphId="b4c" Type="GeneProduct" GroupRef="ed344">
+        </DataNode>
+  <DataNode TextLabel="AKT2" GraphId="ff6" Type="GeneProduct" GroupRef="ed344">
+        </DataNode>
+  <DataNode TextLabel="AKT3" GraphId="fae" Type="GeneProduct" GroupRef="ed344">
+        </DataNode>
+  <DataNode TextLabel="PIK3C2B" GraphId="d65" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RACGAP1" GraphId="e2b" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="d4d28">
+    <Graphics>
+      <Point GraphRef="c95"/>
+      <Point GraphRef="c5e74" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ddba9">
+    <Graphics>
+      <Point GraphRef="cc31e"/>
+      <Point GraphRef="c95" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b3a5f">
+    <Graphics ConnectorType="Curved" LineStyle="Broken">
+      <Point GraphRef="c95"/>
+      <Point GraphRef="e2b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de12f">
+    <Graphics>
+      <Point GraphRef="d14fe"/>
+      <Point GraphRef="c95" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8dfe">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c5e74"/>
+      <Point GraphRef="d65" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a1696">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="d65"/>
+      <Point GraphRef="cc31e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1d25">
+    <Graphics>
+      <Point GraphRef="c5e74"/>
+      <Point GraphRef="af1f7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="db316">
+    <Graphics>
+      <Point GraphRef="c5e74"/>
+      <Point GraphRef="c16ce" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="GPCRs similar to S1P" GraphId="aaf">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="d97dd">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bcebc">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Group GroupId="c438c" GraphId="d14fe"/>
+  <Group GroupId="ffaf0" GraphId="a2224" Style="Group"/>
+  <Group GroupId="f713d" GraphId="c5e74" Style="Group"/>
+  <Group GroupId="ed344" GraphId="cc31e" Style="Group"/>
+  <Group GroupId="c5929" GraphId="af1f7" Style="Group"/>
+  <Group GroupId="fb4c4" GraphId="c16ce" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >G protein mediated signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000125</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >sphingosine 1-phosphate signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000960</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a60">
+      <bp:ID >11729304</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Lysophospholipids--receptor revelations.</bp:TITLE>
+      <bp:SOURCE >Science</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Hla T</bp:AUTHORS>
+      <bp:AUTHORS >Lee MJ</bp:AUTHORS>
+      <bp:AUTHORS >Ancellin N</bp:AUTHORS>
+      <bp:AUTHORS >Paik JH</bp:AUTHORS>
+      <bp:AUTHORS >Kluk MJ</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>signaling pathway</bp:TERM><bp:ID>PW:0000003</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

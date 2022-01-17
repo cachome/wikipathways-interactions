@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Glycolysis in senescence" Version="20210112" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Glycolysis appears to be upregulated in most senescent phenotypes. This is hypothesized to match with the increased need for proteins and lipids needed for senescence-associated events such as extracellular secretions (SASP) and cell enlargement (Wiley &amp; Campisi, 2016). It is also supposed to cause an increase in NF-&#954;B signalling and cause inflammatory cascades associated with senescence. Glycolysis is also responsible for increased lactate production by producing pyruvate, along with several other mechanisms including upregulated lactate dehydrogenase (LDHA), pyruvate kinase (PKM), serinolysis and glutaminolysis. Pyruvate kinase (PKM) is responsible for the last conversion step of glycolysis, producing pyruvate. The enzyme is upregulated in replicative senescence and leads to increased TCA activity and oxygen consumption rate (Sabbatinelli et al., 2019). Findings were similar in another study on oncogene-induced senescence (OIS) (D&#246;rr et al., 2013). PKM is also thought to increase lactate production indirectly (Zwerschke et al., 2003). In parallel, lactate dehydrogenase (LDHA) is also upregulated, which leads to this increase in lactate levels in senescent cells. Senescence induced by oncogenes also has an impact on serinolysis and glutaminolysis. These are processes in which serine and glutamine are consumed to produce energy. They usually take place in tumour cells as an alternative source of energy, and produce lactate (among others) as a by-product. It has been found that both processes are increased in OIS, and lead to increases in lactate levels (Mazurek et al., 2001). Such increased levels of lactate lead to several events associated with senescence, such as tumorigenesis, wound healing and evasion from immune responses (Nacarelli &amp; Sell, 2017). 
+
+The upregulation of several glycolytic enzymes seems to mediate increased glycolysis in various types of induced senescence. Depending on the stimulus, various proteins and genes influence glycolytic rates. For example, in irradiation-induced senescence, this effect seems to be mediated by AMPK activation and NF-kB signalling (Nacarelli &amp; Sell, 2017). Similarly, in OIS, the retinoblastoma protein appears to upregulate glycolytic genes (Nacarelli &amp; Sell, 2017). The very important p53 is known to be a central mediator of senescence, due to its role in cell cycle regulation. It has been found to negatively affect glycolysis (Gu et al., 2018). However it also has an indirect positive effect on it, by activating G6PDH in stressed cells (Jiang et al., 2011). TP53 is therefore thought to have a regulatory role on glycolysis and is interesting in the context of senescence.
+
+While most glycolytic enzymes are upregulated (Zwerschke et al., 2003), GAPDH seems to decrease. This may partially be explained by the sensitivity of the enzyme to oxidative stress.
+</Comment>
+  <BiopaxRef>bf7</BiopaxRef>
+  <Graphics BoardWidth="962.0000000000003" BoardHeight="736.502500000002"/>
+  <DataNode TextLabel="Enolase" GraphId="a4df1" Type="Protein" GroupRef="ddc11">
+        </DataNode>
+  <DataNode TextLabel="Oxidative&#10;stress" GraphId="a66ac" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Aldolase" GraphId="ac914" Type="Protein" GroupRef="ddc11">
+        </DataNode>
+  <DataNode TextLabel="Lactate" GraphId="b2b89" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="RB1" GraphId="b4b0b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Oncogene induced&#10;senescence" GraphId="b522a" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Pyruvate" GraphId="b59f6" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Glutamine" GraphId="bdca7" Type="Metabolite" GroupRef="a3554">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Hexokinase" GraphId="bfd61" Type="Protein" GroupRef="ddc11">
+        </DataNode>
+  <DataNode TextLabel="TCA&#10;cycle" GraphId="c12d5" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="G6PD" GraphId="c3fc5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LDHA" GraphId="c41bb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SASP" GraphId="c538e" Type="Pathway" GroupRef="e3782">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Oncogene induced&#10;senescence" GraphId="ce50b" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="PGM" GraphId="cf432" Type="Metabolite" GroupRef="ddc11">
+        </DataNode>
+  <DataNode TextLabel="Lipids" GraphId="d29a2" Type="Metabolite" GroupRef="dd5ae">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Serine" GraphId="d545c" Type="Metabolite" GroupRef="a3554">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NF-kB&#10;signaling" GraphId="d6e7c" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Glycolysis" GraphId="e5226" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="AMPK" GraphId="e5486" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PGK1" GraphId="e823d" Type="GeneProduct" GroupRef="ddc11">
+        </DataNode>
+  <DataNode TextLabel="TP53" GraphId="e982a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GAPDH" GraphId="e9884" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PKM" GraphId="f39fc" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Pyruvate kinase" GraphId="f8ac6" Type="Protein" GroupRef="ddc11">
+        </DataNode>
+  <DataNode TextLabel="Proteins" GraphId="f8e1a" Type="Metabolite" GroupRef="dd5ae">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="id12fe59a5">
+    <Graphics>
+      <Point GraphRef="f39fc"/>
+      <Point GraphRef="c8b76" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id145d1ef1">
+    <BiopaxRef>cea</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d5e2a"/>
+      <Point GraphRef="a4025" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id23dabe04">
+    <Comment>GAPDH is sensitive to oxidative stress, and that may explain why this glycolytic enzyme is downregulated instead of upregulated</Comment>
+    <Graphics>
+      <Point GraphRef="a66ac"/>
+      <Point GraphRef="e9884" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id281cddcb">
+    <BiopaxRef>c6d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b522a"/>
+      <Point GraphRef="b6c1c" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2df00515">
+    <Graphics>
+      <Point GraphRef="f045b"/>
+      <Point GraphRef="ac30a" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id33f434e2">
+    <BiopaxRef>fff</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e982a"/>
+      <Point GraphRef="c3fc5" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ac30a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4f623340">
+    <Graphics>
+      <Point GraphRef="b4b0b"/>
+      <Point GraphRef="e5226" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5c826e48">
+    <Graphics>
+      <Point GraphRef="e9884"/>
+      <Point GraphRef="e5226" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6374e7d2">
+    <Graphics>
+      <Point GraphRef="d6e7c"/>
+      <Point GraphRef="aba1a" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id645370fd">
+    <Graphics>
+      <Point GraphRef="f39fc"/>
+      <Point GraphRef="c12d5" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6b6f8778">
+    <BiopaxRef>b47</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b5d51"/>
+      <Point GraphRef="e5486" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id76d7a948">
+    <Graphics>
+      <Point GraphRef="c3fc5"/>
+      <Point GraphRef="e5226" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8aa7fc3c">
+    <BiopaxRef>b47</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ce50b"/>
+      <Point GraphRef="b4b0b" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8f8fca56">
+    <BiopaxRef>b47</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d0da2"/>
+      <Point GraphRef="e7c02" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id90563751">
+    <Graphics>
+      <Point GraphRef="b2b89"/>
+      <Point GraphRef="d0da2" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id919b909b">
+    <Comment>Increased glycolysis is needed to match the demand for lipids and proteins due to the senescent phenotype</Comment>
+    <Graphics>
+      <Point GraphRef="e5226"/>
+      <Point GraphRef="d5e2a" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id97bd60f7">
+    <Graphics>
+      <Point GraphRef="b59f6"/>
+      <Point GraphRef="b2b89" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.4270833333333333" Shape="None" GraphId="cc106"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9d70a75f">
+    <Graphics>
+      <Point GraphRef="f7b72"/>
+      <Point GraphRef="b2b89" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b6c1c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida11007f2">
+    <BiopaxRef>c15</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e982a"/>
+      <Point GraphRef="e5226" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb1361b6a">
+    <Graphics>
+      <Point GraphRef="f39fc"/>
+      <Point GraphRef="a93ae" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb5c45560">
+    <Graphics>
+      <Point GraphRef="d6e7c"/>
+      <Point GraphRef="e5226" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc06f55e9">
+    <Graphics>
+      <Point GraphRef="e5226"/>
+      <Point GraphRef="c12d5" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcec5738b">
+    <Graphics>
+      <Point GraphRef="e5486"/>
+      <Point GraphRef="d6e7c" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb020e33">
+    <Comment>In replicative senescence, PKM1 and PKM2 were upregulated</Comment>
+    <BiopaxRef>a48</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ef78d"/>
+      <Point GraphRef="f39fc" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf23f7c2e">
+    <Graphics>
+      <Point GraphRef="c41bb"/>
+      <Point GraphRef="cc106" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf42f8c44">
+    <Comment>Findings similar to those of replicative senescence were seen with OIS regarding PKM, OCR and TCA activation</Comment>
+    <BiopaxRef>ae1</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ce50b"/>
+      <Point GraphRef="f39fc" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf7565361">
+    <Graphics>
+      <Point GraphRef="e5226"/>
+      <Point GraphRef="b59f6" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.7102369369161226" Shape="None" GraphId="c8b76"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfb610b4b">
+    <Graphics>
+      <Point GraphRef="e5226"/>
+      <Point GraphRef="d6e7c" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfe7953d2">
+    <Graphics>
+      <Point GraphRef="a9eaa"/>
+      <Point GraphRef="e5226" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id36c03769">
+    <BiopaxRef>ee4</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f39fc"/>
+      <Point GraphRef="b2b89" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Oxygen consumption&#10;rate" GraphId="a93ae">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inflammatory&#10;signaling cascade" GraphId="aba1a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cell&#10;enlargement" GraphId="b0bb7" GroupRef="e3782">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Irradiation" GraphId="b5d51">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Wound&#10;healing" GraphId="c46fe" GroupRef="ded35">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Acidification of&#10;cellular environment" GraphId="d0da2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Tumorigenesis" GraphId="d10b7" GroupRef="ded35">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Evading immune&#10;response" GraphId="e0cc1" GroupRef="ded35">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Replicative&#10;senescence" GraphId="ef78d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Stress" GraphId="f045b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="c43fb">
+    <Graphics ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Group GroupId="e3782" GraphId="a4025" Style="Group"/>
+  <Group GroupId="ddc11" GraphId="a9eaa" Style="Group">
+    <Comment>Those glycolytic enzymes were upregulated in senescent phenotypes</Comment>
+  </Group>
+  <Group GroupId="dd5ae" GraphId="d5e2a" Style="Group"/>
+  <Group GroupId="ded35" GraphId="e7c02" Style="Group"/>
+  <Group GroupId="a3554" GraphId="f7b72" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c15">
+      <bp:ID >29362483</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Inhibition of p53 prevents diabetic cardiomyopathy by preventing early-stage apoptosis and cell senescence, reduced glycolysis, and impaired angiogenesis.</bp:TITLE>
+      <bp:SOURCE >Cell Death Dis</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Gu J</bp:AUTHORS>
+      <bp:AUTHORS >Wang S</bp:AUTHORS>
+      <bp:AUTHORS >Guo H</bp:AUTHORS>
+      <bp:AUTHORS >Tan Y</bp:AUTHORS>
+      <bp:AUTHORS >Liang Y</bp:AUTHORS>
+      <bp:AUTHORS >Feng A</bp:AUTHORS>
+      <bp:AUTHORS >Liu Q</bp:AUTHORS>
+      <bp:AUTHORS >Damodaran C</bp:AUTHORS>
+      <bp:AUTHORS >Zhang Z</bp:AUTHORS>
+      <bp:AUTHORS >Keller BB</bp:AUTHORS>
+      <bp:AUTHORS >Zhang C</bp:AUTHORS>
+      <bp:AUTHORS >Cai L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >classic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000002</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ee4">
+      <bp:ID >12943534</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Metabolic analysis of senescent human fibroblasts reveals a role for AMP in cellular senescence.</bp:TITLE>
+      <bp:SOURCE >Biochem J</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Zwerschke W</bp:AUTHORS>
+      <bp:AUTHORS >Mazurek S</bp:AUTHORS>
+      <bp:AUTHORS >St&#246;ckl P</bp:AUTHORS>
+      <bp:AUTHORS >H&#252;tter E</bp:AUTHORS>
+      <bp:AUTHORS >Eigenbrodt E</bp:AUTHORS>
+      <bp:AUTHORS >Jansen-D&#252;rr P</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cea">
+      <bp:ID >27304503</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >From Ancient Pathways to Aging Cells-Connecting Metabolism and Cellular Senescence.</bp:TITLE>
+      <bp:SOURCE >Cell Metab</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Wiley CD</bp:AUTHORS>
+      <bp:AUTHORS >Campisi J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bf7">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Metabolic hallmarks of cellular senescence: highlighting the role of intracellular pathways in various senescent phenotypes</bp:TITLE>
+      <bp:SOURCE />
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Metabolic hallmarks of cellular senescence: highlighting the role of intracellular pathways in various senescent phenotypes</bp:TITLE>
+      <bp:SOURCE >Unpublished</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Birgit Veldman</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae1">
+      <bp:ID >23945590</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Synthetic lethal metabolic targeting of cellular senescence in cancer therapy.</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >D&#246;rr JR</bp:AUTHORS>
+      <bp:AUTHORS >Yu Y</bp:AUTHORS>
+      <bp:AUTHORS >Milanovic M</bp:AUTHORS>
+      <bp:AUTHORS >Beuster G</bp:AUTHORS>
+      <bp:AUTHORS >Zasada C</bp:AUTHORS>
+      <bp:AUTHORS >D&#228;britz JH</bp:AUTHORS>
+      <bp:AUTHORS >Lisec J</bp:AUTHORS>
+      <bp:AUTHORS >Lenze D</bp:AUTHORS>
+      <bp:AUTHORS >Gerhardt A</bp:AUTHORS>
+      <bp:AUTHORS >Schleicher K</bp:AUTHORS>
+      <bp:AUTHORS >Kratzat S</bp:AUTHORS>
+      <bp:AUTHORS >Purf&#252;rst B</bp:AUTHORS>
+      <bp:AUTHORS >Walenta S</bp:AUTHORS>
+      <bp:AUTHORS >Mueller-Klieser W</bp:AUTHORS>
+      <bp:AUTHORS >Gr&#228;ler M</bp:AUTHORS>
+      <bp:AUTHORS >Hummel M</bp:AUTHORS>
+      <bp:AUTHORS >Keller U</bp:AUTHORS>
+      <bp:AUTHORS >Buck AK</bp:AUTHORS>
+      <bp:AUTHORS >D&#246;rken B</bp:AUTHORS>
+      <bp:AUTHORS >Willmitzer L</bp:AUTHORS>
+      <bp:AUTHORS >Reimann M</bp:AUTHORS>
+      <bp:AUTHORS >Kempa S</bp:AUTHORS>
+      <bp:AUTHORS >Lee S</bp:AUTHORS>
+      <bp:AUTHORS >Schmitt CA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >glycolysis pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000640</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fff">
+      <bp:ID >21336310</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >p53 regulates biosynthesis through direct inactivation of glucose-6-phosphate dehydrogenase.</bp:TITLE>
+      <bp:SOURCE >Nat Cell Biol</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Jiang P</bp:AUTHORS>
+      <bp:AUTHORS >Du W</bp:AUTHORS>
+      <bp:AUTHORS >Wang X</bp:AUTHORS>
+      <bp:AUTHORS >Mancuso A</bp:AUTHORS>
+      <bp:AUTHORS >Gao X</bp:AUTHORS>
+      <bp:AUTHORS >Wu M</bp:AUTHORS>
+      <bp:AUTHORS >Yang X</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a48">
+      <bp:ID >31920721</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Where Metabolism Meets Senescence: Focus on Endothelial Cells.</bp:TITLE>
+      <bp:SOURCE >Front Physiol</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Sabbatinelli J</bp:AUTHORS>
+      <bp:AUTHORS >Prattichizzo F</bp:AUTHORS>
+      <bp:AUTHORS >Olivieri F</bp:AUTHORS>
+      <bp:AUTHORS >Procopio AD</bp:AUTHORS>
+      <bp:AUTHORS >Rippo MR</bp:AUTHORS>
+      <bp:AUTHORS >Giuliani A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b47">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Targeting metabolism in cellular senescence, a role for intervention </bp:TITLE>
+      <bp:SOURCE >https://doi.org/10.1016/j.mce.2016.08.049</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:ID >27591812</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Targeting metabolism in cellular senescence, a role for intervention.</bp:TITLE>
+      <bp:SOURCE >Mol Cell Endocrinol</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Nacarelli T</bp:AUTHORS>
+      <bp:AUTHORS >Sell C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c6d">
+      <bp:ID >11687968</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Metabolic cooperation between different oncogenes during cell transformation: interaction between activated ras and HPV-16 E7.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Mazurek S</bp:AUTHORS>
+      <bp:AUTHORS >Zwerschke W</bp:AUTHORS>
+      <bp:AUTHORS >Jansen-D&#252;rr P</bp:AUTHORS>
+      <bp:AUTHORS >Eigenbrodt E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cellular senescence pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000277</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

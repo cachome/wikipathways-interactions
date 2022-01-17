@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Interactions between LOXL4 and oxidative stress pathway" Version="20160625" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway Involved in chemo-resistance of cells in bladder cancer begins with LOXL2 activation of CDC37 and COL2A1. COL2A1 activates the complex NRF1/2 and two other complexes that trigger RTK/MAPK and TGFB pathways. These pathways along with oxidative stress promotes NRF1/2 activation of theoxidative stress pathway. This pathway promotes the transcription of NQO1, ECSIT, EXOC6, and SIRT1. SIRT1 then activates SUV39H1. LOXL2 also activates some of these proteins downstream in the pathway (SUV39H1, EXOC6, ECSIT). This pathway has been modeled after figure 7 in Deng et al.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3670 CPTAC Assay Portal].</Comment>
+  <BiopaxRef>a06</BiopaxRef>
+  <Graphics BoardWidth="1106.1904761904761" BoardHeight="690.0"/>
+  <DataNode TextLabel="SIRT1" GraphId="b740c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ECSIT" GraphId="c654c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LOXL4" GraphId="cd301" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NQO1" GraphId="d6b3c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NRF1" GraphId="d8104" Type="GeneProduct" GroupRef="b0432">
+        </DataNode>
+  <DataNode TextLabel="TGFB1" GraphId="dd79e" Type="GeneProduct" GroupRef="a93b1">
+        </DataNode>
+  <DataNode TextLabel="NFE2L2" GraphId="dd921" Type="GeneProduct" GroupRef="b0432">
+        </DataNode>
+  <DataNode TextLabel="CDC37" GraphId="e39ce" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BMP2" GraphId="e99ae" Type="GeneProduct" GroupRef="a93b1">
+        </DataNode>
+  <DataNode TextLabel="COL2A1" GraphId="ee013" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SUV39H1" GraphId="f2017" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EXOC6" GraphId="fb396" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PKD1" GraphId="b6778" Type="GeneProduct" GroupRef="b8a91">
+        </DataNode>
+  <DataNode TextLabel="FN1" GraphId="f6e10" Type="GeneProduct" GroupRef="b8a91">
+        </DataNode>
+  <DataNode TextLabel="ANXA5" GraphId="ab4ae" Type="GeneProduct" GroupRef="b8a91">
+        </DataNode>
+  <DataNode TextLabel="FGF7" GraphId="ce471" Type="GeneProduct" GroupRef="b8a91">
+        </DataNode>
+  <DataNode TextLabel="DDR1" GraphId="ed814" Type="GeneProduct" GroupRef="b8a91">
+        </DataNode>
+  <DataNode TextLabel="IGFBP7" GraphId="f38f3" Type="GeneProduct" GroupRef="b8a91">
+        </DataNode>
+  <Interaction GraphId="id1b58de81">
+    <Graphics Color="cc0000">
+      <Point GraphRef="cd301"/>
+      <Point GraphRef="fb396"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2f939489">
+    <Graphics Color="cc0000">
+      <Point GraphRef="ee013"/>
+      <Point GraphRef="ce471"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3732242f">
+    <Graphics Color="339900">
+      <Point GraphRef="fa756"/>
+      <Point GraphRef="d6b3c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4aeee5bc">
+    <Graphics Color="660099">
+      <Point GraphRef="fd640"/>
+      <Point GraphRef="e39ce" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id67497d5e">
+    <Graphics Color="339900">
+      <Point GraphRef="fa756"/>
+      <Point GraphRef="b740c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8949480f">
+    <Graphics Color="339900">
+      <Point GraphRef="fa756"/>
+      <Point GraphRef="c654c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8d0990df">
+    <Graphics Color="cc0000">
+      <Point GraphRef="cd301"/>
+      <Point GraphRef="ee013"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8f2f9b9c">
+    <Graphics LineStyle="Broken" Color="339900">
+      <Point GraphRef="fd640"/>
+      <Point GraphRef="fa756" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id99963e12">
+    <Graphics Color="cc0000">
+      <Point GraphRef="cd301"/>
+      <Point GraphRef="c654c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida1fb9c93">
+    <Graphics LineStyle="Broken" Color="339900">
+      <Point GraphRef="be182"/>
+      <Point GraphRef="fa756" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida9c0cec1">
+    <Graphics Color="cc0000">
+      <Point GraphRef="cd301"/>
+      <Point GraphRef="e39ce"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idad664ef9">
+    <Graphics>
+      <Point GraphRef="b740c"/>
+      <Point GraphRef="f2017" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd0469689">
+    <Graphics Color="cc0000">
+      <Point GraphRef="ee013"/>
+      <Point GraphRef="e99ae"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd0bdeddb">
+    <Graphics Color="339900">
+      <Point GraphRef="ee013" ArrowHead="Arrow"/>
+      <Point GraphRef="fa756"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd65c6e3d">
+    <Graphics Color="339900">
+      <Point GraphRef="fa756"/>
+      <Point GraphRef="fb396" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf5be761b">
+    <Graphics LineStyle="Broken" Color="339900">
+      <Point GraphRef="bbb71"/>
+      <Point GraphRef="fa756" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf63fff58">
+    <Graphics Color="cc0000">
+      <Point GraphRef="cd301"/>
+      <Point GraphRef="f2017"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f9af5">
+    <Graphics Color="cc0000">
+      <Point GraphRef="ee013"/>
+      <Point GraphRef="dd79e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6edd">
+    <Graphics Color="cc0000">
+      <Point GraphRef="ee013"/>
+      <Point GraphRef="b6778"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ac964">
+    <Graphics Color="cc0000">
+      <Point GraphRef="ee013"/>
+      <Point GraphRef="f6e10"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a8c4d">
+    <Graphics Color="cc0000">
+      <Point GraphRef="ee013"/>
+      <Point GraphRef="ab4ae"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1d22">
+    <Graphics Color="cc0000">
+      <Point GraphRef="ee013"/>
+      <Point GraphRef="f38f3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dbad9">
+    <Graphics Color="cc0000">
+      <Point GraphRef="ee013"/>
+      <Point GraphRef="ed814"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine>
+    <Graphics Color="cc0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d8e05">
+    <Graphics Color="339900">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b0ee9">
+    <Graphics Color="660099">
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bcca2">
+    <Graphics LineStyle="Broken" Color="339900">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="OS pathway" GraphId="af8f8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Legend" GraphId="b283f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="TGFB Pathway" GraphId="e3ca4" GroupRef="a93b1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="RTK/MAPK Pathway" GraphId="f4f76" GroupRef="b8a91">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Oxidative&#10;Stresses" GraphId="fd640">
+    <Graphics FillColor="ffffff" ShapeType="Hexagon"/>
+  </Label>
+  <Label TextLabel="Direct physical interaction" GraphId="c8785">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Transcriptional activation by OS pathway" GraphId="f1c33">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Impact by OS pathway via phosphorylation, activity or &#10;nuclear-cytoplasmic distribution of Nrf1/2 proteins" GraphId="ba659">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Direct interaction, with repression" GraphId="c49d8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="f27b0">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Group GroupId="b8a91" GraphId="bbb71" Style="Pathway"/>
+  <Group GroupId="a93b1" GraphId="be182" Style="Pathway"/>
+  <Group GroupId="b0432" GraphId="fa756" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >oxidative stress response pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000378</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >bladder cancer pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000610</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a06">
+      <bp:ID >25311867</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >miR-193a-3p regulates the multi-drug resistance of bladder cancer by targeting the LOXL4 gene and the oxidative stress pathway.</bp:TITLE>
+      <bp:SOURCE >Mol Cancer</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Deng H</bp:AUTHORS>
+      <bp:AUTHORS >Lv L</bp:AUTHORS>
+      <bp:AUTHORS >Li Y</bp:AUTHORS>
+      <bp:AUTHORS >Zhang C</bp:AUTHORS>
+      <bp:AUTHORS >Meng F</bp:AUTHORS>
+      <bp:AUTHORS >Pu Y</bp:AUTHORS>
+      <bp:AUTHORS >Xiao J</bp:AUTHORS>
+      <bp:AUTHORS >Qian L</bp:AUTHORS>
+      <bp:AUTHORS >Zhao W</bp:AUTHORS>
+      <bp:AUTHORS >Liu Q</bp:AUTHORS>
+      <bp:AUTHORS >Zhang D</bp:AUTHORS>
+      <bp:AUTHORS >Wang Y</bp:AUTHORS>
+      <bp:AUTHORS >Zhang H</bp:AUTHORS>
+      <bp:AUTHORS >He Y</bp:AUTHORS>
+      <bp:AUTHORS >Zhu J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >regulatory pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000004</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>urinary bladder cancer</bp:TERM><bp:ID>DOID:11054</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="One-carbon metabolism and related pathways" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway shows the carbon metabolism over grey and related pathways around it. Source [https://www.genome.jp/dbget-bin/www_bget?pathway+mmu00270 KEGG].
+
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3940 CPTAC Assay Portal].</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway [http://wikipathways.org/instance/WP1770_r96326 WP1770_96326] with a 100.0% conversion rate.</Comment>
+  <BiopaxRef>bad</BiopaxRef>
+  <Graphics BoardWidth="1225.0" BoardHeight="932.7843137254893"/>
+  <DataNode TextLabel="S-Adenosylhomocysteine" GraphId="a1114" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Total Phospholipids" GraphId="a2024" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="L-Methionine" GraphId="a2be8" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ETNK2" GraphId="a3b7f" Type="GeneProduct" GroupRef="a827f">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:214253</Comment>
+        </DataNode>
+  <DataNode TextLabel="GPX5" GraphId="a794b" Type="GeneProduct" GroupRef="d0df8">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14780</Comment>
+        </DataNode>
+  <DataNode TextLabel="SOD1" GraphId="aa37f" Type="GeneProduct" GroupRef="b0523">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:20655</Comment>
+        </DataNode>
+  <DataNode TextLabel="3-Sulfinoalanine" GraphId="aaf8e" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="L-Cysteine" GraphId="ab4d6" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CSAD" GraphId="ab995" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:246277</Comment>
+        </DataNode>
+  <DataNode TextLabel="CHPT1" GraphId="abec5" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:212862</Comment>
+        </DataNode>
+  <DataNode TextLabel="NADP" GraphId="ac416" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Hypotaurine" GraphId="adf02" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Glutathione (GSH)" GraphId="b0348" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DHFR2" GraphId="b0493" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:13361</Comment>
+        </DataNode>
+  <DataNode TextLabel="Tetrahydrofolic acid" GraphId="b2917" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PCYT1A" GraphId="b308b" Type="GeneProduct" GroupRef="aa34f">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:13026</Comment>
+        </DataNode>
+  <DataNode TextLabel="MAT2A" GraphId="b3972" Type="GeneProduct" GroupRef="ace75">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:232087</Comment>
+        </DataNode>
+  <DataNode TextLabel="GSR" GraphId="b4f03" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14782</Comment>
+        </DataNode>
+  <DataNode TextLabel="Phosphocholine" GraphId="b6194" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PCYT1B" GraphId="b681e" Type="GeneProduct" GroupRef="aa34f">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:236899</Comment>
+        </DataNode>
+  <DataNode TextLabel="Ethanolamine" GraphId="b8b78" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Taurocholic acid" GraphId="ba689" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ETNK1" GraphId="bb692" Type="GeneProduct" GroupRef="a827f">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:75320</Comment>
+        </DataNode>
+  <DataNode TextLabel="Glutathione disulfide (GSSG)" GraphId="bc24f" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="5,10-Methenyltetrahydrofolic acid" GraphId="bd7d1" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CEPT1" GraphId="be9cc" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:99712</Comment>
+        </DataNode>
+  <DataNode TextLabel="SOD3" GraphId="bed8c" Type="GeneProduct" GroupRef="b0523">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:20657</Comment>
+        </DataNode>
+  <DataNode TextLabel="MAT1A" GraphId="bf8ee" Type="GeneProduct" GroupRef="ace75">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:11720</Comment>
+        </DataNode>
+  <DataNode TextLabel="Taurochenodesoxycholic acid" GraphId="c0b74" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GPX7" GraphId="c3448" Type="GeneProduct" GroupRef="d0df8">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:67305</Comment>
+        </DataNode>
+  <DataNode TextLabel="CTH" GraphId="c4c3d" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:107869</Comment>
+        </DataNode>
+  <DataNode TextLabel="Glutamate" GraphId="c524b" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CDP-choline" GraphId="c7224" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GSS" GraphId="c7e00" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14854</Comment>
+        </DataNode>
+  <DataNode TextLabel="CHDH" GraphId="c8696" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:218865</Comment>
+        </DataNode>
+  <DataNode TextLabel="DNMT3A" GraphId="caebc" Type="GeneProduct" GroupRef="f48ae">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:13435</Comment>
+        </DataNode>
+  <DataNode TextLabel="O-Phosphoethanolamine" GraphId="cb345" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="BHMT2" GraphId="cc188" Type="GeneProduct" GroupRef="e4b08">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:64918</Comment>
+        </DataNode>
+  <DataNode TextLabel="Phosphatidylethanolamine" GraphId="cc24e" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MTHFR" GraphId="ce536" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:17769</Comment>
+        </DataNode>
+  <DataNode TextLabel="DNM1" GraphId="ce7b6" Type="GeneProduct" GroupRef="f48ae">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:13429</Comment>
+        </DataNode>
+  <DataNode TextLabel="Dimethylglycine" GraphId="cf3a1" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Betaine" GraphId="cf56a" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PLD1" GraphId="cfaaa" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:18805</Comment>
+        </DataNode>
+  <DataNode TextLabel="SOD2" GraphId="d0d06" Type="GeneProduct" GroupRef="b0523">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:20656</Comment>
+        </DataNode>
+  <DataNode TextLabel="GPX6" GraphId="d2a45" Type="GeneProduct" GroupRef="d0df8">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:75512</Comment>
+        </DataNode>
+  <DataNode TextLabel="Phosphatidylcholines" GraphId="d337f" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CHKB" GraphId="d4f50" Type="GeneProduct" GroupRef="a9a3b">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:12651</Comment>
+        </DataNode>
+  <DataNode TextLabel="GAD1" GraphId="d554b" Type="GeneProduct" GroupRef="fccbd">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14415</Comment>
+        </DataNode>
+  <DataNode TextLabel="CDO1" GraphId="d5bba" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:12583</Comment>
+        </DataNode>
+  <DataNode TextLabel="GAD2" GraphId="d5ff0" Type="GeneProduct" GroupRef="fccbd">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14417</Comment>
+        </DataNode>
+  <DataNode TextLabel="L-Serine" GraphId="d6762" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Taurine" GraphId="d6e5f" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GNMT" GraphId="d7098" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14711</Comment>
+        </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="d7507" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="BHMT" GraphId="d7eef" Type="GeneProduct" GroupRef="e4b08">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:12116</Comment>
+        </DataNode>
+  <DataNode TextLabel="SHMT1" GraphId="d8d2a" Type="GeneProduct" GroupRef="a9359">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:20425</Comment>
+        </DataNode>
+  <DataNode TextLabel="Sarcosine" GraphId="d8d5b" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CDP-Ethanolamine" GraphId="daf14" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PCYT2" GraphId="dc876" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:68671</Comment>
+        </DataNode>
+  <DataNode TextLabel="SARDH" GraphId="dcc5a" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:192166</Comment>
+        </DataNode>
+  <DataNode TextLabel="GPX4" GraphId="dea3b" Type="GeneProduct" GroupRef="d0df8">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:625249</Comment>
+        </DataNode>
+  <DataNode TextLabel="GPX2" GraphId="dec7d" Type="GeneProduct" GroupRef="d0df8">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14776</Comment>
+        </DataNode>
+  <DataNode TextLabel="GPX1" GraphId="df08d" Type="GeneProduct" GroupRef="d0df8">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14775</Comment>
+        </DataNode>
+  <DataNode TextLabel="MTR" GraphId="dfe81" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:238505</Comment>
+        </DataNode>
+  <DataNode TextLabel="GCLM" GraphId="e2789" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14630</Comment>
+        </DataNode>
+  <DataNode TextLabel="10-formyldihydrofolate" GraphId="e288e" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GPX3" GraphId="e467b" Type="GeneProduct" GroupRef="d0df8">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14778</Comment>
+        </DataNode>
+  <DataNode TextLabel="AHCYL1" GraphId="e54c4" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:229709</Comment>
+        </DataNode>
+  <DataNode TextLabel="CBSL" GraphId="e6ae7" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:12411</Comment>
+        </DataNode>
+  <DataNode TextLabel="5-oxoproline" GraphId="e7571" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DMGDH" GraphId="e78fe" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:74129</Comment>
+        </DataNode>
+  <DataNode TextLabel="BAAT" GraphId="e7c8f" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:12012</Comment>
+        </DataNode>
+  <DataNode TextLabel="5-Methyltetrahydrofolic acid" GraphId="e818f" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="L-Cystathionine" GraphId="e9676" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Folic acid" GraphId="ea4c0" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="S-Adenosylmethionine" GraphId="ea735" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Homocysteine" GraphId="ef2cc" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Glycine" GraphId="f247b" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SHMT2" GraphId="f36c4" Type="GeneProduct" GroupRef="a9359">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:108037</Comment>
+        </DataNode>
+  <DataNode TextLabel="CHKA" GraphId="f4d34" Type="GeneProduct" GroupRef="a9a3b">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:12660</Comment>
+        </DataNode>
+  <DataNode TextLabel="Choline" GraphId="f5235" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TYMS" GraphId="f530e" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22171</Comment>
+        </DataNode>
+  <DataNode TextLabel="gamma-Glutamylcysteine" GraphId="f8795" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GCLC" GraphId="f92f1" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14629</Comment>
+        </DataNode>
+  <DataNode TextLabel="L-Serine" GraphId="faa81" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PEMT" GraphId="fbad5" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:18618</Comment>
+        </DataNode>
+  <DataNode TextLabel="Glycine" GraphId="fc273" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="2-oxobutanoate" GraphId="d9aa0" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="(S)-2-Aminobutanoate" GraphId="f8491" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="gamma-L-Glutamyl-L-2-aminobutyrate" GraphId="f5644" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ophthalmate" GraphId="c214b" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="BCAT1" GraphId="e44ef" Type="GeneProduct" GroupRef="d5ccb">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000030268</Comment>
+        </DataNode>
+  <DataNode TextLabel="AGXT2" GraphId="d7ae2" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000089678</Comment>
+        </DataNode>
+  <DataNode TextLabel="GCLC" GraphId="e539c" Type="GeneProduct" GroupRef="ca82c">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000032350</Comment>
+        </DataNode>
+  <DataNode TextLabel="GSS" GraphId="b3d8a" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000027610</Comment>
+        </DataNode>
+  <DataNode TextLabel="BCAT2" GraphId="e6033" Type="GeneProduct" GroupRef="d5ccb">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000030826</Comment>
+        </DataNode>
+  <DataNode TextLabel="GCLM" GraphId="da576" Type="GeneProduct" GroupRef="ca82c">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000028124</Comment>
+        </DataNode>
+  <Interaction GraphId="b1d28">
+    <Graphics>
+      <Point GraphRef="daf14"/>
+      <Point GraphRef="cc24e" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="aea70"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dc954">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="cf56a"/>
+      <Point/>
+      <Point GraphRef="cf3a1" ArrowHead="Arrow"/>
+      <Anchor Position="0.38645162809519196" Shape="None" GraphId="cbc20"/>
+      <Anchor Position="0.5064417314990813" Shape="None" GraphId="bba47"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f605f">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c524b"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="d052e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id105ede33">
+    <Graphics>
+      <Point GraphRef="e124a"/>
+      <Point GraphRef="dfe81"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id13e74ae8">
+    <Graphics ConnectorType="Elbow">
+      <Point/>
+      <Point/>
+      <Point GraphRef="a2be8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id194e5781">
+    <Graphics ConnectorType="Curved" LineStyle="Broken">
+      <Point GraphRef="cc24e"/>
+      <Point/>
+      <Point GraphRef="d337f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1fe7fc53">
+    <Graphics>
+      <Point GraphRef="aaf8e"/>
+      <Point GraphRef="adf02" ArrowHead="Arrow"/>
+      <Anchor Position="0.16145895686180523" Shape="None" GraphId="ddd5a"/>
+      <Anchor Position="0.6781276188195854" Shape="None" GraphId="c2f44"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id26a35bd1">
+    <Graphics>
+      <Point GraphRef="b967f"/>
+      <Point GraphRef="a4c75" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id293d7190">
+    <Graphics>
+      <Point GraphRef="fc273"/>
+      <Point GraphRef="e849b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id29c9a2d8">
+    <Graphics>
+      <Point GraphRef="ea4c0"/>
+      <Point GraphRef="e288e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2aab4c44">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d337f"/>
+      <Point GraphRef="f5235" ArrowHead="Arrow"/>
+      <Anchor Position="0.8989451751530141" Shape="None" GraphId="b4664"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id30d6d0b4">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b2917"/>
+      <Point GraphRef="bd7d1" ArrowHead="Arrow"/>
+      <Anchor Position="0.3943044906900334" Shape="None" GraphId="f5070"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id369cf5b7">
+    <Graphics>
+      <Point GraphRef="d8913"/>
+      <Point GraphRef="abec5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id371bf79">
+    <Graphics>
+      <Point GraphRef="b9998" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="e6ae7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3881012e">
+    <Graphics>
+      <Point GraphRef="e9676"/>
+      <Point GraphRef="ab4d6" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e821a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3d3c6420">
+    <Graphics>
+      <Point GraphRef="d7aac"/>
+      <Point GraphRef="e54c4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3fe3fbce">
+    <Graphics>
+      <Point GraphRef="fa505"/>
+      <Point GraphRef="aa7d4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id41691d6">
+    <Graphics>
+      <Point GraphRef="ba689"/>
+      <Point GraphRef="c5f3b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id42e712e2">
+    <Graphics>
+      <Point GraphRef="e0293"/>
+      <Point GraphRef="fa98a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id43e09fb1">
+    <Graphics>
+      <Point GraphRef="e2789"/>
+      <Point GraphRef="f92f1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4513efb5">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e288e"/>
+      <Point GraphRef="b2917" ArrowHead="Arrow"/>
+      <Anchor Position="0.5686695278969969" Shape="None" GraphId="fd804"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id461bd7be">
+    <Graphics>
+      <Point GraphRef="d6e5f"/>
+      <Point GraphRef="ba689" ArrowHead="Arrow"/>
+      <Anchor Position="0.18990366088632044" Shape="None" GraphId="eff16"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4778f307">
+    <Graphics>
+      <Point GraphRef="d6762"/>
+      <Point GraphRef="b9998" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4a5639a2">
+    <Graphics>
+      <Point GraphRef="d296b"/>
+      <Point GraphRef="fbad5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4da35b56">
+    <Graphics>
+      <Point GraphRef="faa81"/>
+      <Point GraphRef="f247b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id53e5a308">
+    <Graphics>
+      <Point GraphRef="e7571"/>
+      <Point GraphRef="c524b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id57fe6903">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ea735"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="a1114" ArrowHead="Arrow"/>
+      <Anchor Position="0.4001981178801387" Shape="None" GraphId="ffd43"/>
+      <Anchor Position="0.5844477464091133" Shape="None" GraphId="d296b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id592c0433">
+    <Graphics>
+      <Point GraphRef="c4c3d"/>
+      <Point GraphRef="bee34" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5bbdbb9b">
+    <Graphics>
+      <Point GraphRef="ffd43"/>
+      <Point GraphRef="f9ac0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5dbf2bfa">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="f247b"/>
+      <Point/>
+      <Point GraphRef="d8d5b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id60c07e75">
+    <Graphics>
+      <Point GraphRef="e821a" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="c4c3d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id63c84e6b">
+    <Graphics>
+      <Point GraphRef="afa50"/>
+      <Point GraphRef="e7c8f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id640d6963">
+    <Graphics>
+      <Point GraphRef="a1b8a"/>
+      <Point GraphRef="dc876"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id682e24ca">
+    <Graphics>
+      <Point GraphRef="a1114"/>
+      <Point GraphRef="ef2cc" ArrowHead="Arrow"/>
+      <Anchor Position="0.48148148148148145" Shape="None" GraphId="d7aac"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id69575949">
+    <Graphics>
+      <Point GraphRef="d296b"/>
+      <Point GraphRef="d7098"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6b905447">
+    <Graphics>
+      <Point GraphRef="dfe3a"/>
+      <Point GraphRef="e78fe"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6d68e0c7">
+    <Graphics>
+      <Point GraphRef="f8795"/>
+      <Point GraphRef="b0348" ArrowHead="Arrow"/>
+      <Anchor Position="0.5048035454031703" Shape="None" GraphId="e849b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7c734a2e">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ab4d6"/>
+      <Point GraphRef="aaf8e" ArrowHead="Arrow"/>
+      <Anchor Position="0.913145539906103" Shape="None" GraphId="d7c97"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7cb02b5e">
+    <Graphics>
+      <Point GraphRef="d6e5f"/>
+      <Point GraphRef="c0b74" ArrowHead="Arrow"/>
+      <Anchor Position="0.20376787350141445" Shape="None" GraphId="afa50"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id812e5919">
+    <Graphics>
+      <Point GraphRef="c2f44"/>
+      <Point GraphRef="ab995"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8232ef9d">
+    <Graphics>
+      <Point GraphRef="bba89"/>
+      <Point GraphRef="bfecf" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8a613b91">
+    <Graphics>
+      <Point GraphRef="f5070"/>
+      <Point GraphRef="f36c4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8cfa2c39">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bd7d1"/>
+      <Point GraphRef="e288e" ArrowHead="Arrow"/>
+      <Anchor Position="0.7310206133735547" Shape="None" GraphId="a3002"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9252522c">
+    <Graphics>
+      <Point GraphRef="fd804"/>
+      <Point GraphRef="b0493"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id933041d7">
+    <Graphics>
+      <Point GraphRef="e849b"/>
+      <Point GraphRef="c7e00"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9397759b">
+    <Graphics>
+      <Point GraphRef="f6d0e"/>
+      <Point GraphRef="bd6df"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9492a6f9">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ab4d6"/>
+      <Point GraphRef="f8795" ArrowHead="Arrow"/>
+      <Anchor Position="0.2340740740740744" Shape="None" GraphId="d052e"/>
+      <Anchor Position="0.7244444444444444" Shape="None" GraphId="e11f5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9bd2577e">
+    <Graphics>
+      <Point GraphRef="b4f03"/>
+      <Point GraphRef="a904c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9fdd4b9f">
+    <Graphics>
+      <Point GraphRef="a2be8"/>
+      <Point GraphRef="ea735" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="aa7d4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida2f2038">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="fd5c1"/>
+      <Point/>
+      <Point GraphRef="eb25e" ArrowHead="Arrow"/>
+      <Anchor Position="0.5016591712174533" Shape="None" GraphId="c6de0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida42421b7">
+    <Graphics>
+      <Point GraphRef="f5235"/>
+      <Point GraphRef="cf56a" ArrowHead="Arrow"/>
+      <Anchor Position="0.439655172413794" Shape="None" GraphId="cbd9f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida708018f">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bd7d1"/>
+      <Point GraphRef="e818f" ArrowHead="Arrow"/>
+      <Anchor Position="0.19764011799410014" Shape="None" GraphId="a9b4a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida8cc5474">
+    <Graphics>
+      <Point GraphRef="e11f5"/>
+      <Point GraphRef="f92f1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida9ab61ed">
+    <Graphics>
+      <Point GraphRef="f2a55"/>
+      <Point GraphRef="bba47"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaabda47a">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e818f"/>
+      <Point GraphRef="b2917" ArrowHead="Arrow"/>
+      <Anchor Position="0.38645162809519196" Shape="None" GraphId="e124a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb187b31d">
+    <Graphics>
+      <Point GraphRef="ddd5a"/>
+      <Point GraphRef="ef5e5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb62c05f3">
+    <Graphics>
+      <Point GraphRef="a3002"/>
+      <Point GraphRef="f530e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc1397b45">
+    <Graphics>
+      <Point GraphRef="ef2cc"/>
+      <Point GraphRef="e9676" ArrowHead="Arrow"/>
+      <Anchor Position="0.30194026403475965" Shape="None" GraphId="b9998"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc6b7776e">
+    <Graphics>
+      <Point GraphRef="adf02"/>
+      <Point GraphRef="d6e5f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc72dd847">
+    <Graphics>
+      <Point GraphRef="c6de0"/>
+      <Point GraphRef="cead0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc893ecf2">
+    <Graphics>
+      <Point GraphRef="be9cc"/>
+      <Point GraphRef="aea70"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idca897da">
+    <Graphics>
+      <Point GraphRef="c8696"/>
+      <Point GraphRef="cbd9f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcdf92d40">
+    <Graphics>
+      <Point GraphRef="b4664"/>
+      <Point GraphRef="cfaaa"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd01ff420">
+    <Graphics>
+      <Point GraphRef="f5235"/>
+      <Point GraphRef="b6194" ArrowHead="Arrow"/>
+      <Anchor Position="0.5423471325484254" Shape="None" GraphId="f6d0e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd3e6594d">
+    <Graphics>
+      <Point GraphRef="a9b4a"/>
+      <Point GraphRef="ce536"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idda079735">
+    <Graphics>
+      <Point GraphRef="b8b78"/>
+      <Point GraphRef="cb345" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e0293"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddabf0f5d">
+    <Graphics>
+      <Point GraphRef="bc24f"/>
+      <Point GraphRef="b0348" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a904c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idde95c9ce">
+    <Graphics>
+      <Point GraphRef="b6194"/>
+      <Point GraphRef="c7224" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="fd2d5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide20a535c">
+    <Graphics>
+      <Point GraphRef="b0348"/>
+      <Point GraphRef="bc24f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide647e43">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="d7507"/>
+      <Point GraphRef="ac416" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide90c791">
+    <Graphics>
+      <Point GraphRef="a179e"/>
+      <Point GraphRef="dcc5a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideafd6548">
+    <Graphics>
+      <Point GraphRef="c7224"/>
+      <Point GraphRef="d337f" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d8913"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idec6511f2">
+    <Graphics>
+      <Point GraphRef="e7c8f"/>
+      <Point GraphRef="eff16"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idef9967c8">
+    <Graphics>
+      <Point GraphRef="cf3a1"/>
+      <Point GraphRef="d8d5b" ArrowHead="Arrow"/>
+      <Anchor Position="0.49377290328444" Shape="None" GraphId="dfe3a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf118a340">
+    <Graphics>
+      <Point GraphRef="c0b74"/>
+      <Point GraphRef="c5f3b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf992f92d">
+    <Graphics>
+      <Point GraphRef="cb345"/>
+      <Point GraphRef="daf14" ArrowHead="Arrow"/>
+      <Anchor Position="0.35416666666666696" Shape="None" GraphId="a1b8a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfbcd68ff">
+    <Graphics>
+      <Point GraphRef="d8d5b"/>
+      <Point GraphRef="f247b" ArrowHead="Arrow"/>
+      <Anchor Position="0.76775956284153" Shape="None" GraphId="a179e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfc18e11d">
+    <Graphics>
+      <Point GraphRef="fd2d5"/>
+      <Point GraphRef="c3363"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfcbcfede">
+    <Graphics>
+      <Point GraphRef="d5bba"/>
+      <Point GraphRef="d7c97"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfd02ccac">
+    <Graphics>
+      <Point GraphRef="e9676"/>
+      <Point GraphRef="d9aa0" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5860705641986246" Shape="None" GraphId="bee34"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b0c00">
+    <Graphics>
+      <Point GraphRef="f8491"/>
+      <Point GraphRef="d9aa0" ArrowHead="Arrow"/>
+      <Anchor Position="0.3957194511730051" Shape="None" GraphId="c739b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="af133">
+    <Graphics>
+      <Point GraphRef="d9aa0"/>
+      <Point GraphRef="f8491" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="be700"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a4c75"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8db9">
+    <Graphics>
+      <Point GraphRef="f8491"/>
+      <Point GraphRef="f5644" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.38749539104141884" Shape="None" GraphId="bfecf"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="da3e1">
+    <Graphics>
+      <Point GraphRef="f5644"/>
+      <Point GraphRef="c214b" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ce4a2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fd850">
+    <Graphics>
+      <Point GraphRef="d7ae2"/>
+      <Point GraphRef="c739b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b137f">
+    <Graphics>
+      <Point GraphRef="ce4a2"/>
+      <Point GraphRef="b3d8a"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Bile acid biosynthesis" GraphId="c5f3b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="H2O" GraphId="eb25e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Oxidative stress enzymes" GraphId="f5797">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="H2O2" GraphId="fd5c1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="ab289">
+    <Graphics FillColor="ebe7e6" ShapeType="Rectangle" Color="ffffff"/>
+  </Shape>
+  <Group GroupId="b0523" GraphId="b1ebb" Style="Group"/>
+  <Group GroupId="d5ccb" GraphId="b967f" Style="Group"/>
+  <Group GroupId="ca82c" GraphId="bba89" Style="Group"/>
+  <Group GroupId="a9a3b" GraphId="bd6df" Style="Group"/>
+  <Group GroupId="aa34f" GraphId="c3363" Style="Group"/>
+  <Group GroupId="d0df8" GraphId="cead0" Style="Group"/>
+  <Group GroupId="a9359" GraphId="df5a8" Style="Group"/>
+  <Group GroupId="fccbd" GraphId="ef5e5" Style="Group"/>
+  <Group GroupId="e4b08" GraphId="f2a55" Style="Group"/>
+  <Group GroupId="f48ae" GraphId="f9ac0" Style="Group"/>
+  <Group GroupId="ace75" GraphId="fa505" Style="Group"/>
+  <Group GroupId="a827f" GraphId="fa98a" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bad">
+      <bp:ID >mmu00270</bp:ID>
+      <bp:DB >KEGG Pathway</bp:DB>
+      <bp:TITLE />
+      <bp:SOURCE >https://www.genome.jp/dbget-bin/www_bget?pathway+mmu00270</bp:SOURCE>
+      <bp:YEAR />
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >folate mediated one-carbon metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000189</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="SARS coronavirus and innate immunity" Version="20200429" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">SARS-CoV triggers the hosts innate immune system via the type I interferon system in dendritic cells and macrophages, which activate ISRE and IFN-b sentitive promoter elements.</Comment>
+  <BiopaxRef>efa</BiopaxRef>
+  <Graphics BoardWidth="1025.1397326852978" BoardHeight="1045.940635771112"/>
+  <DataNode TextLabel="ISRE &#10;Response element" GraphId="a74fc" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle" Color="cc0000"/>
+    </DataNode>
+  <DataNode TextLabel="Endocytosis" GraphId="cde94" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="IFNA1" Type="GeneProduct" GroupRef="dc7e5">
+        </DataNode>
+  <DataNode TextLabel="IFNA2" Type="GeneProduct" GroupRef="dc7e5">
+        </DataNode>
+  <DataNode TextLabel="IFNA4" Type="GeneProduct" GroupRef="dc7e5">
+        </DataNode>
+  <DataNode TextLabel="IFNA5" Type="GeneProduct" GroupRef="dc7e5">
+        </DataNode>
+  <DataNode TextLabel="IFNA6" Type="GeneProduct" GroupRef="dc7e5">
+        </DataNode>
+  <DataNode TextLabel="IFNA7" Type="GeneProduct" GroupRef="dc7e5">
+        </DataNode>
+  <DataNode TextLabel="IFNA8" Type="GeneProduct" GroupRef="dc7e5">
+        </DataNode>
+  <DataNode TextLabel="IFNA10" Type="GeneProduct" GroupRef="dc7e5">
+        </DataNode>
+  <DataNode TextLabel="IFNA13" Type="GeneProduct" GroupRef="dc7e5">
+        </DataNode>
+  <DataNode TextLabel="IFNA14" Type="GeneProduct" GroupRef="dc7e5">
+        </DataNode>
+  <DataNode TextLabel="IFNA16" Type="GeneProduct" GroupRef="dc7e5">
+        </DataNode>
+  <DataNode TextLabel="IFNA17" Type="GeneProduct" GroupRef="dc7e5">
+        </DataNode>
+  <DataNode TextLabel="IFNA21" Type="GeneProduct" GroupRef="dc7e5">
+        </DataNode>
+  <DataNode TextLabel="JAK1" Type="GeneProduct" GroupRef="ab2f4">
+        </DataNode>
+  <DataNode TextLabel="STAT1" Type="GeneProduct" GroupRef="cd307">
+        </DataNode>
+  <DataNode TextLabel="STAT2" Type="GeneProduct" GroupRef="cd307">
+        </DataNode>
+  <DataNode TextLabel="TBK1" Type="GeneProduct" GroupRef="ee119">
+        </DataNode>
+  <DataNode TextLabel="IKBKE" Type="GeneProduct" GroupRef="ee119">
+    <Comment>IKK-e
+</Comment>
+        </DataNode>
+  <DataNode TextLabel="TLR3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IFNB1" GraphId="a6761" Type="GeneProduct" GroupRef="e640c">
+        </DataNode>
+  <DataNode TextLabel="IFNAR1" GraphId="b6475" Type="GeneProduct" GroupRef="ab2f4">
+        </DataNode>
+  <DataNode TextLabel="TYK2" GraphId="b9059" Type="GeneProduct" GroupRef="ab2f4">
+        </DataNode>
+  <DataNode TextLabel="ACE2" GraphId="c2d8e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="S" GraphId="c8d7f" Type="GeneProduct">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="IRF9" GraphId="cffa4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TRAF3" GraphId="d8e8b" Type="GeneProduct" GroupRef="ee119">
+        </DataNode>
+  <DataNode TextLabel="IFIH1" GraphId="e1fcd" Type="GeneProduct" GroupRef="d1e6d">
+    <Comment>MDA5</Comment>
+        </DataNode>
+  <DataNode TextLabel="IRF3" GraphId="f0053" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAVS" GraphId="f0e60" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IFNAR2" GraphId="f1728" Type="GeneProduct" GroupRef="ab2f4">
+        </DataNode>
+  <DataNode TextLabel="DDX58" GraphId="f1eea" Type="GeneProduct" GroupRef="d1e6d">
+    <Comment>RIG-I</Comment>
+        </DataNode>
+  <DataNode TextLabel="TICAM1" GraphId="f9104" Type="GeneProduct">
+    <Comment>TRIF</Comment>
+        </DataNode>
+  <DataNode TextLabel="IRF3" GraphId="c9166" Type="GeneProduct" GroupRef="f1d9b">
+        </DataNode>
+  <DataNode TextLabel="IRF3" GraphId="ed803" Type="GeneProduct" GroupRef="f1d9b">
+        </DataNode>
+  <DataNode TextLabel="IRF3" GraphId="eef85" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ACE2" GraphId="a136c" Type="GeneProduct" GroupRef="e4209">
+        </DataNode>
+  <DataNode TextLabel="STAT1" GraphId="b6b10" Type="GeneProduct" GroupRef="eb6ef">
+        </DataNode>
+  <DataNode TextLabel="STAT2" GraphId="f360c" Type="GeneProduct" GroupRef="eb6ef">
+        </DataNode>
+  <DataNode TextLabel="IRF9" Type="GeneProduct" GroupRef="eb6ef">
+        </DataNode>
+  <DataNode TextLabel="IFN-beta&#10;Response element" GraphId="c7d27" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle" Color="cc0000"/>
+    </DataNode>
+  <DataNode TextLabel="S" GraphId="db168" Type="GeneProduct" GroupRef="e4209">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+    </DataNode>
+  <State GraphRef="c9166" TextLabel="" GraphId="e1fa3">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ed803" TextLabel="" GraphId="a7107">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="eef85" TextLabel="" GraphId="a2355">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b6b10" TextLabel="" GraphId="fbc1d">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f360c" TextLabel="" GraphId="f348a">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id134a11f0">
+    <Graphics>
+      <Point GraphRef="c8d7f"/>
+      <Point GraphRef="c2d8e" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2489aa99">
+    <Graphics>
+      <Point GraphRef="f278d"/>
+      <Point GraphRef="ed2d7" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ac497"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id27cf2cc3">
+    <Graphics>
+      <Point GraphRef="cde94"/>
+      <Point GraphRef="e1fcd" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3573c07">
+    <Graphics>
+      <Point GraphRef="b9f09"/>
+      <Point GraphRef="f0e60" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e21dd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3e37c065">
+    <Graphics>
+      <Point GraphRef="f5fa0"/>
+      <Point GraphRef="cd056" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5c605d9e">
+    <Graphics>
+      <Point GraphRef="ecbcf"/>
+      <Point GraphRef="e21dd" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id683cbfa3">
+    <Graphics>
+      <Point GraphRef="cd056"/>
+      <Point GraphRef="f278d" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7d3faa93">
+    <Graphics>
+      <Point GraphRef="cffa4"/>
+      <Point GraphRef="ac497" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8d8be581">
+    <Graphics>
+      <Point GraphRef="db168"/>
+      <Point GraphRef="c5c37" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8f7b56e2">
+    <Graphics>
+      <Point GraphRef="d1b60"/>
+      <Point GraphRef="afc75" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id95166c5e">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f9104"/>
+      <Point GraphRef="f0053" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida37bfa65">
+    <Graphics>
+      <Point GraphRef="c8d7f"/>
+      <Point GraphRef="cde94" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb755ca84">
+    <Graphics>
+      <Point GraphRef="c2d8e"/>
+      <Point GraphRef="a5c10" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbcd773be">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f0053"/>
+      <Point GraphRef="ea539" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.8334803661036486" Shape="None" GraphId="afc75"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide4fe418d">
+    <Graphics>
+      <Point GraphRef="b12b5"/>
+      <Point GraphRef="cd056" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ided8e62a3">
+    <BiopaxRef>e0e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ea539"/>
+      <Point GraphRef="c7d27" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf68781f">
+    <Graphics>
+      <Point GraphRef="cde94"/>
+      <Point GraphRef="f1eea" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf94c3c70">
+    <Graphics>
+      <Point GraphRef="f0e60"/>
+      <Point GraphRef="d1b60" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf9e7dc0d">
+    <Graphics>
+      <Point GraphRef="ed2d7"/>
+      <Point GraphRef="a74fc" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="idc991f023">
+    <Graphics Color="cc0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="IFN-alpha group" GraphId="aef77" GroupRef="dc7e5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="S" GraphId="b73ed">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+  </Label>
+  <Label TextLabel="DNA" GraphId="b7796">
+    <Graphics FillColor="ffffff" Color="cc0000"/>
+  </Label>
+  <Label TextLabel="phosphorylized protein" GraphId="d5408">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="e1c90">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cell" GraphId="eb0e7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="IFN-beta" GraphId="a174a" GroupRef="e640c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="SARS virus protein (Spike)" GraphId="cad55">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Mitochondria" GraphId="f71ce">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Vesicle" GraphId="ed30a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="SARS virus (with RNA)" GraphId="dddb8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="a4025">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="a5673">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="adee9">
+    <Graphics ShapeType="Arc" Color="ff0033"/>
+  </Shape>
+  <Shape GraphId="af516">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d8d69">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ec47c">
+    <Graphics ShapeType="Mitochondria" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f5c9b">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c5c37">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ecbcf">
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="c463f">
+    <Graphics ShapeType="Arc" Color="ff0033"/>
+  </Shape>
+  <Shape GraphId="eca39">
+    <Graphics ShapeType="Arc" Color="ff0033"/>
+  </Shape>
+  <Shape GraphId="aca0a">
+    <Graphics ShapeType="Arc" Color="ff0033"/>
+  </Shape>
+  <Shape GraphId="a9476">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="e4209" GraphId="a5c10" Style="Complex"/>
+  <Group GroupId="dc7e5" GraphId="b12b5" Style="Group"/>
+  <Group GroupId="d1e6d" GraphId="b9f09" Style="Complex"/>
+  <Group GroupId="ab2f4" GraphId="cd056" Style="Complex"/>
+  <Group GroupId="ee119" GraphId="d1b60" Style="Complex"/>
+  <Group GroupId="f1d9b" GraphId="ea539" Style="Complex"/>
+  <Group GroupId="eb6ef" GraphId="ed2d7" Style="Complex"/>
+  <Group GroupId="cd307" GraphId="f278d" Style="Complex"/>
+  <Group GroupId="e640c" GraphId="f5fa0" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >severe acute respiratory syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:2945</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >type I interferon signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000895</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >viral infectious disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:934</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efa">
+      <bp:ID >17451827</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >SARS coronavirus and innate immunity.</bp:TITLE>
+      <bp:SOURCE >Virus Res</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Frieman M</bp:AUTHORS>
+      <bp:AUTHORS >Heise M</bp:AUTHORS>
+      <bp:AUTHORS >Baric R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e0e">
+      <bp:ID >15681410</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Inhibition of Beta interferon induction by severe acute respiratory syndrome coronavirus suggests a two-step model for activation of interferon regulatory factor 3.</bp:TITLE>
+      <bp:SOURCE >J Virol</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Spiegel M</bp:AUTHORS>
+      <bp:AUTHORS >Pichlmair A</bp:AUTHORS>
+      <bp:AUTHORS >Mart&#237;nez-Sobrido L</bp:AUTHORS>
+      <bp:AUTHORS >Cros J</bp:AUTHORS>
+      <bp:AUTHORS >Garc&#237;a-Sastre A</bp:AUTHORS>
+      <bp:AUTHORS >Haller O</bp:AUTHORS>
+      <bp:AUTHORS >Weber F</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

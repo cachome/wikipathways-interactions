@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cytosolic DNA-sensing pathway" Version="20190621" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">As part of the innate immune system, specific cytosolic pattern recognition receptors recognize DNA from invading viruses and bacteria. These receptors have specificity for certain pathogens. 
+The three receptors that recognize double-stranded cytosolic DNA are CGAS (GMP-AMP Synthase), ZBP1 (DAI) and AIM. CGAS signals via STING (TREM173) and eventually results in expression of type I interferons. ZBP1 activates NFkb and IRF transcription factors which results in expression of interferons and cytokines/chemokines. Activation of AIM leads to the formation of the inflammasome complex, which activates caspase-1 and triggers a form of apoptosis known as pyroptosis. 
+
+In addition to sensors that directly detect DNA, another mechanism exists where the foreign DNA is first translated into RNA by host polymerase. The RNA is then recognized by the RNA sensor RIG-I, which leads to NFkb and IRF activation. </Comment>
+  <BiopaxRef>cec</BiopaxRef>
+  <BiopaxRef>ffe</BiopaxRef>
+  <BiopaxRef>cb6</BiopaxRef>
+  <BiopaxRef>a8a</BiopaxRef>
+  <BiopaxRef>fdd</BiopaxRef>
+  <BiopaxRef>bad</BiopaxRef>
+  <BiopaxRef>f7d</BiopaxRef>
+  <BiopaxRef>c75</BiopaxRef>
+  <BiopaxRef>a74</BiopaxRef>
+  <BiopaxRef>ca6</BiopaxRef>
+  <BiopaxRef>f52</BiopaxRef>
+  <BiopaxRef>c7e</BiopaxRef>
+  <BiopaxRef>b11</BiopaxRef>
+  <BiopaxRef>fd4</BiopaxRef>
+  <BiopaxRef>f35</BiopaxRef>
+  <Graphics BoardWidth="1602.0" BoardHeight="1372.0"/>
+  <DataNode TextLabel="Pyroptosis" GraphId="c3325" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="5'-ppp-dsRNA" GraphId="ad3ba" Type="GeneProduct">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="POLR2E" GraphId="bb4e4" Type="GeneProduct" GroupRef="eb5cb">
+        </DataNode>
+  <DataNode TextLabel="POLR3GL" GraphId="bf5fb" Type="GeneProduct" GroupRef="eb5cb">
+        </DataNode>
+  <DataNode TextLabel="POLR3F" GraphId="c7d61" Type="GeneProduct" GroupRef="eb5cb">
+        </DataNode>
+  <DataNode TextLabel="POLR3G" GraphId="cacee" Type="GeneProduct" GroupRef="eb5cb">
+        </DataNode>
+  <DataNode TextLabel="POLR3H" GraphId="cf30a" Type="GeneProduct" GroupRef="eb5cb">
+        </DataNode>
+  <DataNode TextLabel="POLR2K" GraphId="d61d1" Type="GeneProduct" GroupRef="eb5cb">
+        </DataNode>
+  <DataNode TextLabel="POLR2H" GraphId="dd2d0" Type="GeneProduct" GroupRef="eb5cb">
+        </DataNode>
+  <DataNode TextLabel="POLR3E" GraphId="de582" Type="GeneProduct" GroupRef="eb5cb">
+        </DataNode>
+  <DataNode TextLabel="cGAMP" GraphId="df85f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="POLR3K" GraphId="dfab1" Type="GeneProduct" GroupRef="eb5cb">
+        </DataNode>
+  <DataNode TextLabel="POLR2F" GraphId="e2b9a" Type="GeneProduct" GroupRef="eb5cb">
+        </DataNode>
+  <DataNode TextLabel="POLR2L" GraphId="e6c94" Type="GeneProduct" GroupRef="eb5cb">
+        </DataNode>
+  <DataNode TextLabel="dsDNA" GraphId="e76e5" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="POLR3A" GraphId="f158a" Type="GeneProduct" GroupRef="eb5cb">
+        </DataNode>
+  <DataNode TextLabel="TREX1" GraphId="f4dcc" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="POLR1C" GraphId="f4f72" Type="GeneProduct" GroupRef="eb5cb">
+        </DataNode>
+  <DataNode TextLabel="POLR3C" GraphId="f6f1d" Type="GeneProduct" GroupRef="eb5cb">
+        </DataNode>
+  <DataNode TextLabel="POLR3D" GraphId="f8c14" Type="GeneProduct" GroupRef="eb5cb">
+        </DataNode>
+  <DataNode TextLabel="POLR3B" GraphId="fafae" Type="GeneProduct" GroupRef="eb5cb">
+        </DataNode>
+  <DataNode TextLabel="POLR1D" GraphId="fd56d" Type="GeneProduct" GroupRef="eb5cb">
+        </DataNode>
+  <DataNode TextLabel="ADAR" GraphId="d5350" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ZBP1" GraphId="e8bff" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RIPK1" GraphId="bdbb1" Type="GeneProduct" GroupRef="c9a57">
+        </DataNode>
+  <DataNode TextLabel="RIPK3" GraphId="b1eaf" Type="GeneProduct" GroupRef="c9a57">
+        </DataNode>
+  <DataNode TextLabel="IKBKG" GraphId="d20b1" Type="GeneProduct" GroupRef="c2707">
+        </DataNode>
+  <DataNode TextLabel="IKBKB" GraphId="ec6ce" Type="GeneProduct" GroupRef="c2707">
+        </DataNode>
+  <DataNode TextLabel="CHUK" GraphId="c3b33" Type="GeneProduct" GroupRef="c2707">
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="b1909" Type="GeneProduct" GroupRef="fbb5c">
+        </DataNode>
+  <DataNode TextLabel="RELA" GraphId="c2c51" Type="GeneProduct" GroupRef="fbb5c">
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="fb387" Type="GeneProduct" GroupRef="c01a7">
+        </DataNode>
+  <DataNode TextLabel="RELA" GraphId="d66e6" Type="GeneProduct" GroupRef="c01a7">
+        </DataNode>
+  <DataNode TextLabel="NFKBIA" GraphId="eced9" Type="GeneProduct" GroupRef="ea1a7">
+        </DataNode>
+  <DataNode TextLabel="NFKBIB" GraphId="f6ba3" Type="GeneProduct" GroupRef="ea1a7">
+        </DataNode>
+  <DataNode TextLabel="NFKBIA" GraphId="c5bd9" Type="GeneProduct" GroupRef="fbb5c">
+        </DataNode>
+  <DataNode TextLabel="NFKBIB" GraphId="b799d" Type="GeneProduct" GroupRef="fbb5c">
+        </DataNode>
+  <DataNode TextLabel="Ubiquitin-mediated &#10;proteolysis" GraphId="eb60d" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="dea5e" Type="GeneProduct" GroupRef="e7b2b">
+        </DataNode>
+  <DataNode TextLabel="RELA" GraphId="d5840" Type="GeneProduct" GroupRef="e7b2b">
+        </DataNode>
+  <DataNode TextLabel="IL6" GraphId="a1710" Type="GeneProduct" GroupRef="a8f42">
+        </DataNode>
+  <DataNode TextLabel="CCL4L2" GraphId="aeed6" Type="GeneProduct" GroupRef="a8f42">
+        </DataNode>
+  <DataNode TextLabel="CCL5" GraphId="befb6" Type="GeneProduct" GroupRef="a8f42">
+        </DataNode>
+  <DataNode TextLabel="CXCL10" GraphId="d20bc" Type="GeneProduct" GroupRef="a8f42">
+        </DataNode>
+  <DataNode TextLabel="AIM2" GraphId="b6732" Type="GeneProduct" GroupRef="e2937">
+        </DataNode>
+  <DataNode TextLabel="CASP1" GraphId="d9c15" Type="GeneProduct" GroupRef="e2937">
+        </DataNode>
+  <DataNode TextLabel="PYCARD" GraphId="a0149" Type="GeneProduct" GroupRef="e2937">
+        </DataNode>
+  <DataNode TextLabel="IL1B" GraphId="b5c4a" Type="GeneProduct" GroupRef="bc8e9">
+        </DataNode>
+  <DataNode TextLabel="IL18" GraphId="b6b0b" Type="GeneProduct" GroupRef="bc8e9">
+        </DataNode>
+  <DataNode TextLabel="IL33" GraphId="a3a84" Type="GeneProduct" GroupRef="bc8e9">
+        </DataNode>
+  <DataNode TextLabel="dsDNA" GraphId="aacf3" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="IRF3" GraphId="f8acc" Type="GeneProduct" GroupRef="b7849">
+        </DataNode>
+  <DataNode TextLabel="IRF7" GraphId="f1411" Type="GeneProduct" GroupRef="b7849">
+        </DataNode>
+  <DataNode TextLabel="IRF3" GraphId="c341e" Type="GeneProduct" GroupRef="a0430">
+        </DataNode>
+  <DataNode TextLabel="IRF7" GraphId="ffe7f" Type="GeneProduct" GroupRef="a0430">
+        </DataNode>
+  <DataNode TextLabel="IFNA10" GraphId="a3c05" Type="GeneProduct" GroupRef="e6fc2">
+    <Comment Source="KeggConverter">Original kegg element: gene;27;hsa:3439 hsa:3440 hsa:3441 hsa:3442 hsa:3443 hsa:3444 hsa:3445 hsa:3446 hsa:3447 hsa:3448 hsa:3449 hsa:3451 hsa:3452</Comment>
+        </DataNode>
+  <DataNode TextLabel="IFNA8" GraphId="ece1e" Type="GeneProduct" GroupRef="e6fc2">
+    <Comment Source="KeggConverter">Original kegg element: gene;27;hsa:3439 hsa:3440 hsa:3441 hsa:3442 hsa:3443 hsa:3444 hsa:3445 hsa:3446 hsa:3447 hsa:3448 hsa:3449 hsa:3451 hsa:3452</Comment>
+        </DataNode>
+  <DataNode TextLabel="IFNA16" GraphId="b4775" Type="GeneProduct" GroupRef="e6fc2">
+    <Comment Source="KeggConverter">Original kegg element: gene;27;hsa:3439 hsa:3440 hsa:3441 hsa:3442 hsa:3443 hsa:3444 hsa:3445 hsa:3446 hsa:3447 hsa:3448 hsa:3449 hsa:3451 hsa:3452</Comment>
+        </DataNode>
+  <DataNode TextLabel="IFNA2" GraphId="b25f7" Type="GeneProduct" GroupRef="e6fc2">
+    <Comment Source="KeggConverter">Original kegg element: gene;27;hsa:3439 hsa:3440 hsa:3441 hsa:3442 hsa:3443 hsa:3444 hsa:3445 hsa:3446 hsa:3447 hsa:3448 hsa:3449 hsa:3451 hsa:3452</Comment>
+        </DataNode>
+  <DataNode TextLabel="IFNA7" GraphId="f6490" Type="GeneProduct" GroupRef="e6fc2">
+    <Comment Source="KeggConverter">Original kegg element: gene;27;hsa:3439 hsa:3440 hsa:3441 hsa:3442 hsa:3443 hsa:3444 hsa:3445 hsa:3446 hsa:3447 hsa:3448 hsa:3449 hsa:3451 hsa:3452</Comment>
+        </DataNode>
+  <DataNode TextLabel="IFNA21" GraphId="d23f9" Type="GeneProduct" GroupRef="e6fc2">
+    <Comment Source="KeggConverter">Original kegg element: gene;27;hsa:3439 hsa:3440 hsa:3441 hsa:3442 hsa:3443 hsa:3444 hsa:3445 hsa:3446 hsa:3447 hsa:3448 hsa:3449 hsa:3451 hsa:3452</Comment>
+        </DataNode>
+  <DataNode TextLabel="IFNA17" GraphId="d5e34" Type="GeneProduct" GroupRef="e6fc2">
+    <Comment Source="KeggConverter">Original kegg element: gene;27;hsa:3439 hsa:3440 hsa:3441 hsa:3442 hsa:3443 hsa:3444 hsa:3445 hsa:3446 hsa:3447 hsa:3448 hsa:3449 hsa:3451 hsa:3452</Comment>
+        </DataNode>
+  <DataNode TextLabel="IFNA14" GraphId="ed2fe" Type="GeneProduct" GroupRef="e6fc2">
+    <Comment Source="KeggConverter">Original kegg element: gene;27;hsa:3439 hsa:3440 hsa:3441 hsa:3442 hsa:3443 hsa:3444 hsa:3445 hsa:3446 hsa:3447 hsa:3448 hsa:3449 hsa:3451 hsa:3452</Comment>
+        </DataNode>
+  <DataNode TextLabel="IFNA4" GraphId="b8b51" Type="GeneProduct" GroupRef="e6fc2">
+    <Comment Source="KeggConverter">Original kegg element: gene;27;hsa:3439 hsa:3440 hsa:3441 hsa:3442 hsa:3443 hsa:3444 hsa:3445 hsa:3446 hsa:3447 hsa:3448 hsa:3449 hsa:3451 hsa:3452</Comment>
+        </DataNode>
+  <DataNode TextLabel="IFNA1" GraphId="d84df" Type="GeneProduct" GroupRef="e6fc2">
+    <Comment Source="KeggConverter">Original kegg element: gene;27;hsa:3439 hsa:3440 hsa:3441 hsa:3442 hsa:3443 hsa:3444 hsa:3445 hsa:3446 hsa:3447 hsa:3448 hsa:3449 hsa:3451 hsa:3452</Comment>
+        </DataNode>
+  <DataNode TextLabel="IFNA13" GraphId="b496c" Type="GeneProduct" GroupRef="e6fc2">
+    <Comment Source="KeggConverter">Original kegg element: gene;27;hsa:3439 hsa:3440 hsa:3441 hsa:3442 hsa:3443 hsa:3444 hsa:3445 hsa:3446 hsa:3447 hsa:3448 hsa:3449 hsa:3451 hsa:3452</Comment>
+        </DataNode>
+  <DataNode TextLabel="IFNA5" GraphId="ab9c3" Type="GeneProduct" GroupRef="e6fc2">
+    <Comment Source="KeggConverter">Original kegg element: gene;27;hsa:3439 hsa:3440 hsa:3441 hsa:3442 hsa:3443 hsa:3444 hsa:3445 hsa:3446 hsa:3447 hsa:3448 hsa:3449 hsa:3451 hsa:3452</Comment>
+        </DataNode>
+  <DataNode TextLabel="IFNA6" GraphId="d43ad" Type="GeneProduct" GroupRef="e6fc2">
+    <Comment Source="KeggConverter">Original kegg element: gene;27;hsa:3439 hsa:3440 hsa:3441 hsa:3442 hsa:3443 hsa:3444 hsa:3445 hsa:3446 hsa:3447 hsa:3448 hsa:3449 hsa:3451 hsa:3452</Comment>
+        </DataNode>
+  <DataNode TextLabel="IFNB1" GraphId="e0ecc" Type="GeneProduct" GroupRef="e6fc2">
+    <Comment Source="KeggConverter">Original kegg element: gene;1;hsa:3456</Comment>
+        </DataNode>
+  <DataNode TextLabel="TBK1" GraphId="b331c" Type="GeneProduct" GroupRef="a4cb6">
+        </DataNode>
+  <DataNode TextLabel="IKBKE" GraphId="b21d3" Type="GeneProduct" GroupRef="a4cb6">
+        </DataNode>
+  <DataNode TextLabel="CGAS" GraphId="e96ca" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DDX58" GraphId="da3cb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TRIM25" GraphId="e2356" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYLD" GraphId="c9eff" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RNF125" GraphId="efda5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ISG15" GraphId="d9fca" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ATG5" GraphId="f5482" Type="GeneProduct" GroupRef="baf7e">
+        </DataNode>
+  <DataNode TextLabel="ATG12" GraphId="a530e" Type="GeneProduct" GroupRef="baf7e">
+        </DataNode>
+  <DataNode TextLabel="NLRX1" GraphId="bed28" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAVS" GraphId="f166e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TMEM173" GraphId="ba30f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TRADD" GraphId="a870d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FADD" GraphId="bf3e3" Type="GeneProduct" GroupRef="d9a7d">
+        </DataNode>
+  <DataNode TextLabel="RIPK1" GraphId="b8107" Type="GeneProduct" GroupRef="d9a7d">
+        </DataNode>
+  <DataNode TextLabel="CASP8" GraphId="fb390" Type="GeneProduct" GroupRef="eee75">
+        </DataNode>
+  <DataNode TextLabel="CASP10" GraphId="b84cb" Type="GeneProduct" GroupRef="eee75">
+        </DataNode>
+  <DataNode TextLabel="CCL4" GraphId="c1b17" Type="GeneProduct" GroupRef="a8f42">
+        </DataNode>
+  <State GraphRef="eced9" TextLabel="P" GraphId="a8434">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f6ba3" TextLabel="P" GraphId="d3987">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id10383f37">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="aacf3"/>
+      <Point GraphRef="ad3ba" ArrowHead="Arrow"/>
+      <Anchor Position="0.8210303805198212" Shape="None" GraphId="a0332"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id12b5f7db">
+    <Graphics>
+      <Point GraphRef="e76e5"/>
+      <Point GraphRef="e8bff" ArrowHead="Arrow"/>
+      <Anchor Position="0.6552680221811474" Shape="None" GraphId="e5d23"/>
+      <Anchor Position="0.21903881700554573" Shape="None" GraphId="b72c9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id19564d1e">
+    <Graphics>
+      <Point GraphRef="e8bff"/>
+      <Point GraphRef="bcd75" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2266a34d">
+    <Graphics>
+      <Point GraphRef="df85f"/>
+      <Point GraphRef="ba30f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id30bb5b12">
+    <Graphics>
+      <Point GraphRef="e8bff"/>
+      <Point GraphRef="c8557"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id41310b1a">
+    <Graphics>
+      <Point GraphRef="c668a"/>
+      <Point GraphRef="d2c65" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id48e3950c">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a79a2"/>
+      <Point GraphRef="c3325" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6ab48856">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f6171"/>
+      <Point GraphRef="aacf3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6d8d74b8">
+    <Graphics>
+      <Point GraphRef="ff0d8"/>
+      <Point GraphRef="fcb1f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6ddb6c62">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="aacf3"/>
+      <Point GraphRef="e96ca" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id73b2698">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bed28"/>
+      <Point/>
+      <Point GraphRef="ba30f" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8406211c">
+    <Graphics>
+      <Point GraphRef="da574"/>
+      <Point GraphRef="a79a2" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id84fc7f0b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b644e"/>
+      <Point GraphRef="e76e5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8b6e92e2">
+    <Graphics>
+      <Point GraphRef="d2767"/>
+      <Point GraphRef="a0332" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9e17b2ca">
+    <Graphics>
+      <Point GraphRef="f4dcc"/>
+      <Point GraphRef="b72c9" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb1c1fa2c">
+    <Graphics>
+      <Point GraphRef="d2c65"/>
+      <Point GraphRef="bd1e7" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb4261e7f">
+    <Graphics>
+      <Point GraphRef="bcd75"/>
+      <Point GraphRef="c8557"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd163b956">
+    <Graphics>
+      <Point GraphRef="e8bff"/>
+      <Point GraphRef="c668a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd7182fa7">
+    <Graphics>
+      <Point GraphRef="ba30f"/>
+      <Point GraphRef="b331c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf200a30c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e76e5"/>
+      <Point GraphRef="da574" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a01ec">
+    <Graphics>
+      <Point GraphRef="d5350"/>
+      <Point GraphRef="e5d23" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f05b5">
+    <Graphics>
+      <Point GraphRef="f85e5"/>
+      <Point GraphRef="c09c3" ArrowHead="Arrow"/>
+      <Anchor Position="0.4942332525629283" Shape="None" GraphId="bd1e7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e6d77">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="bd1e7"/>
+      <Point/>
+      <Point GraphRef="ff0d8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b652a">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="eb60d" ArrowHead="Arrow"/>
+      <Point GraphRef="c09c3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c3a3d">
+    <Graphics>
+      <Point GraphRef="fcb1f"/>
+      <Point GraphRef="ae775" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b691c">
+    <Graphics>
+      <Point GraphRef="c8557"/>
+      <Point GraphRef="e3cb9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ed5fe">
+    <Graphics>
+      <Point GraphRef="e3cb9"/>
+      <Point GraphRef="a9c46" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ffa04">
+    <Graphics>
+      <Point GraphRef="e96ca"/>
+      <Point GraphRef="df85f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e8267">
+    <Graphics>
+      <Point GraphRef="e9179"/>
+      <Point GraphRef="c9ab6" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cca0e">
+    <Graphics>
+      <Point GraphRef="e9179"/>
+      <Point GraphRef="ba30f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bf2fc">
+    <Graphics>
+      <Point GraphRef="c9eff"/>
+      <Point GraphRef="da3cb" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e6dcd">
+    <Graphics>
+      <Point GraphRef="ad3ba"/>
+      <Point GraphRef="da3cb" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f5e2a">
+    <Graphics>
+      <Point GraphRef="da3cb"/>
+      <Point GraphRef="d9fca"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fccd5">
+    <Graphics>
+      <Point GraphRef="da3cb"/>
+      <Point GraphRef="e9179"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b7e04">
+    <Graphics>
+      <Point GraphRef="e2356"/>
+      <Point GraphRef="da3cb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c525e">
+    <Graphics>
+      <Point GraphRef="efda5"/>
+      <Point GraphRef="da3cb" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bb4ed">
+    <Graphics>
+      <Point GraphRef="da3cb"/>
+      <Point GraphRef="f166e" ArrowHead="Arrow"/>
+      <Anchor Position="0.4247671268043656" Shape="None" GraphId="c9ab6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b5bbf">
+    <Graphics>
+      <Point GraphRef="e5282"/>
+      <Point GraphRef="e3919" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d0230">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="e3919"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="ec6ce" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c0bdf">
+    <Graphics>
+      <Point GraphRef="a870d"/>
+      <Point GraphRef="e5282"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e9be3">
+    <Graphics>
+      <Point GraphRef="f166e"/>
+      <Point GraphRef="a870d"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Oligomerization" GraphId="a51af">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Proinflammatory&#10;cytokine processing" GraphId="b1dc5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="DNA polymerase III" GraphId="e90fb" GroupRef="eb5cb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inflammasome" GraphId="e9c4d" GroupRef="e2937">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Vaccinia virus" GraphId="fe460" GroupRef="c28a7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Pro-inflammatory &#10;cytokines / chemokines" GraphId="c337a" GroupRef="a8f42">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Listeria monocytogenes" GraphId="e6582" GroupRef="c28a7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Legionella pneumophila" GraphId="b568a" GroupRef="c28a7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Shigella Flexneri" GraphId="b9477" GroupRef="c28a7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Enteropathic E.coli" GraphId="dcadc" GroupRef="c28a7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Host cells" GraphId="aa5c6" GroupRef="c28a7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Adenovirus" GraphId="d6dbd" GroupRef="f256a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Herpes simplex virus 1" GraphId="e7e1c" GroupRef="f256a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Epstein-Barr virus" GraphId="da65c" GroupRef="f256a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Legionella pneumophila" GraphId="f55d8" GroupRef="f256a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Type I interferons" GraphId="eba4c" GroupRef="e6fc2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Oligomerization" GraphId="d91e1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape TextLabel="Nucleus" GraphId="aeeb7">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bab6e">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="eed0a">
+    <Graphics ShapeType="Endoplasmic Reticulum" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b6bed">
+    <Graphics ShapeType="Mitochondria" Color="cccccc"/>
+  </Shape>
+  <Group GroupId="bc8e9" GraphId="a79a2" Style="Group"/>
+  <Group GroupId="e6fc2" GraphId="a9c46" Style="Group"/>
+  <Group GroupId="a8f42" GraphId="ae775" Style="Group"/>
+  <Group GroupId="c28a7" GraphId="b644e" Style="Group"/>
+  <Group GroupId="a4cb6" GraphId="bcd75" Style="Complex"/>
+  <Group GroupId="ea1a7" GraphId="c09c3" Style="Group"/>
+  <Group GroupId="c9a57" GraphId="c668a" Style="Group"/>
+  <Group GroupId="b7849" GraphId="c8557" Style="Group"/>
+  <Group GroupId="eb5cb" GraphId="d2767" Style="Complex"/>
+  <Group GroupId="c2707" GraphId="d2c65" Style="Complex"/>
+  <Group GroupId="e2937" GraphId="da574" Style="Complex"/>
+  <Group GroupId="eee75" GraphId="e3919" Style="Complex"/>
+  <Group GroupId="a0430" GraphId="e3cb9" Style="Complex"/>
+  <Group GroupId="d9a7d" GraphId="e5282" Style="Complex"/>
+  <Group GroupId="baf7e" GraphId="e9179" Style="Complex"/>
+  <Group GroupId="f256a" GraphId="f6171" Style="Group"/>
+  <Group GroupId="fbb5c" GraphId="f85e5" Style="Complex"/>
+  <Group GroupId="e7b2b" GraphId="fcb1f" Style="Complex"/>
+  <Group GroupId="c01a7" GraphId="ff0d8" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >viral infectious disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:934</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >pattern recognition receptor mediated signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000925</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >bacterial infectious disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:104</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cec">
+      <bp:ID >19362700</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulation of the cytosolic DNA-sensing system in innate immunity: a current view.</bp:TITLE>
+      <bp:SOURCE >Curr Opin Immunol</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Yanai H</bp:AUTHORS>
+      <bp:AUTHORS >Savitsky D</bp:AUTHORS>
+      <bp:AUTHORS >Tamura T</bp:AUTHORS>
+      <bp:AUTHORS >Taniguchi T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ffe">
+      <bp:ID >19497760</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The innate immune response to DNA.</bp:TITLE>
+      <bp:SOURCE >Semin Immunol</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Vilaysane A</bp:AUTHORS>
+      <bp:AUTHORS >Muruve DA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cb6">
+      <bp:ID >18573338</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Intracellular DNA sensors in immunity.</bp:TITLE>
+      <bp:SOURCE >Curr Opin Immunol</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Takeshita F</bp:AUTHORS>
+      <bp:AUTHORS >Ishii KJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a8a">
+      <bp:ID >19122387</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >DNA sensors in innate immune system.</bp:TITLE>
+      <bp:SOURCE >Uirusu</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Takaoka A</bp:AUTHORS>
+      <bp:AUTHORS >Shinohara S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fdd">
+      <bp:ID >18280611</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cytosolic DNA recognition for triggering innate immune responses.</bp:TITLE>
+      <bp:SOURCE >Adv Drug Deliv Rev</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Takaoka A</bp:AUTHORS>
+      <bp:AUTHORS >Taniguchi T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bad">
+      <bp:ID >18941233</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Receptor-interacting protein homotypic interaction motif-dependent control of NF-kappa B activation via the DNA-dependent activator of IFN regulatory factors.</bp:TITLE>
+      <bp:SOURCE >J Immunol</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Kaiser WJ</bp:AUTHORS>
+      <bp:AUTHORS >Upton JW</bp:AUTHORS>
+      <bp:AUTHORS >Mocarski ES</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f7d">
+      <bp:ID >19590578</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >DAI/ZBP1 recruits RIP1 and RIP3 through RIP homotypic interaction motifs to activate NF-kappaB.</bp:TITLE>
+      <bp:SOURCE >EMBO Rep</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Rebsamen M</bp:AUTHORS>
+      <bp:AUTHORS >Heinz LX</bp:AUTHORS>
+      <bp:AUTHORS >Meylan E</bp:AUTHORS>
+      <bp:AUTHORS >Michallet MC</bp:AUTHORS>
+      <bp:AUTHORS >Schroder K</bp:AUTHORS>
+      <bp:AUTHORS >Hofmann K</bp:AUTHORS>
+      <bp:AUTHORS >Vazquez J</bp:AUTHORS>
+      <bp:AUTHORS >Benedict CA</bp:AUTHORS>
+      <bp:AUTHORS >Tschopp J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c75">
+      <bp:ID >18375758</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulation of innate immune responses by DAI (DLM-1/ZBP1) and other DNA-sensing molecules.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Wang Z</bp:AUTHORS>
+      <bp:AUTHORS >Choi MK</bp:AUTHORS>
+      <bp:AUTHORS >Ban T</bp:AUTHORS>
+      <bp:AUTHORS >Yanai H</bp:AUTHORS>
+      <bp:AUTHORS >Negishi H</bp:AUTHORS>
+      <bp:AUTHORS >Lu Y</bp:AUTHORS>
+      <bp:AUTHORS >Tamura T</bp:AUTHORS>
+      <bp:AUTHORS >Takaoka A</bp:AUTHORS>
+      <bp:AUTHORS >Nishikura K</bp:AUTHORS>
+      <bp:AUTHORS >Taniguchi T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a74">
+      <bp:ID >18724932</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Trex1 prevents cell-intrinsic initiation of autoimmunity.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Stetson DB</bp:AUTHORS>
+      <bp:AUTHORS >Ko JS</bp:AUTHORS>
+      <bp:AUTHORS >Heidmann T</bp:AUTHORS>
+      <bp:AUTHORS >Medzhitov R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca6">
+      <bp:ID >19321146</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Innate immunity: cytoplasmic DNA sensing by the AIM2 inflammasome.</bp:TITLE>
+      <bp:SOURCE >Curr Biol</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Schroder K</bp:AUTHORS>
+      <bp:AUTHORS >Muruve DA</bp:AUTHORS>
+      <bp:AUTHORS >Tschopp J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f52">
+      <bp:ID >19567913</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >AIMing 2 detect foreign DNA.</bp:TITLE>
+      <bp:SOURCE >Sci Signal</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Krieg AM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c7e">
+      <bp:ID >19665965</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >DNA makes RNA makes innate immunity.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >O'Neill LA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b11">
+      <bp:ID >16286919</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A Toll-like receptor-independent antiviral response induced by double-stranded B-form DNA.</bp:TITLE>
+      <bp:SOURCE >Nat Immunol</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Ishii KJ</bp:AUTHORS>
+      <bp:AUTHORS >Coban C</bp:AUTHORS>
+      <bp:AUTHORS >Kato H</bp:AUTHORS>
+      <bp:AUTHORS >Takahashi K</bp:AUTHORS>
+      <bp:AUTHORS >Torii Y</bp:AUTHORS>
+      <bp:AUTHORS >Takeshita F</bp:AUTHORS>
+      <bp:AUTHORS >Ludwig H</bp:AUTHORS>
+      <bp:AUTHORS >Sutter G</bp:AUTHORS>
+      <bp:AUTHORS >Suzuki K</bp:AUTHORS>
+      <bp:AUTHORS >Hemmi H</bp:AUTHORS>
+      <bp:AUTHORS >Sato S</bp:AUTHORS>
+      <bp:AUTHORS >Yamamoto M</bp:AUTHORS>
+      <bp:AUTHORS >Uematsu S</bp:AUTHORS>
+      <bp:AUTHORS >Kawai T</bp:AUTHORS>
+      <bp:AUTHORS >Takeuchi O</bp:AUTHORS>
+      <bp:AUTHORS >Akira S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fd4">
+      <bp:ID >19767723</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >New DNA-sensing pathway feeds RIG-I with RNA.</bp:TITLE>
+      <bp:SOURCE >Nat Immunol</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Cao X</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f35">
+      <bp:ID >23258413</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cyclic GMP-AMP synthase is a cytosolic DNA sensor that activates the type I interferon pathway.</bp:TITLE>
+      <bp:SOURCE >Science</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Sun L</bp:AUTHORS>
+      <bp:AUTHORS >Wu J</bp:AUTHORS>
+      <bp:AUTHORS >Du F</bp:AUTHORS>
+      <bp:AUTHORS >Chen X</bp:AUTHORS>
+      <bp:AUTHORS >Chen ZJ</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

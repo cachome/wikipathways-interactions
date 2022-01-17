@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Caffeine and theobromine metabolism" Author="Egon Willighagen" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Metabolism pathway of two compounds commonly found in human samples: caffeine and theobromine.</Comment>
+  <BiopaxRef>e7a</BiopaxRef>
+  <Graphics BoardWidth="912.4546240276577" BoardHeight="424.68712186689726"/>
+  <DataNode TextLabel="theobromine" GraphId="b51be" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Xanthine" GraphId="c4cc8" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AFMU" GraphId="c8b2a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP1A2" GraphId="d6aa3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="XDH" GraphId="da7c9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYP1A2" GraphId="dbd7d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="1-methyluric acid" GraphId="dc28c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Purine metabolism" GraphId="dc81b" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="3,7-dimethyluric acid" GraphId="e047a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NAT2" GraphId="e5605" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="caffeine" GraphId="ece0e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="paraxanthine" GraphId="f6007" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="XDH" GraphId="fdb28" Type="GeneProduct">
+    <Comment>Generally: EC 1.17.3.2</Comment>
+        </DataNode>
+  <DataNode TextLabel="1-methylxanthine" GraphId="b947a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="1,7-dimethyluric acid" GraphId="d30ee" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP1A2" GraphId="cd8a3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="7-methylxanthine" GraphId="f2665" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2A6" GraphId="f8a74" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="7-methyluric acid" GraphId="a407a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="XDH" GraphId="cd21d" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id383afe98">
+    <Graphics>
+      <Point GraphRef="ece0e"/>
+      <Point GraphRef="b51be" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3a458c69">
+    <Graphics>
+      <Point GraphRef="cd8a3"/>
+      <Point GraphRef="d999d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3cc169">
+    <Graphics>
+      <Point GraphRef="ece0e"/>
+      <Point GraphRef="f6007" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.46153846153846156" Shape="None" GraphId="ce1fa"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id43b59a11">
+    <Graphics>
+      <Point GraphRef="b51be"/>
+      <Point GraphRef="e047a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5294117647058824" Shape="None" GraphId="baa3d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id57e0be1e">
+    <Graphics>
+      <Point GraphRef="c4cc8"/>
+      <Point GraphRef="dc81b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id590dddb3">
+    <Graphics>
+      <Point GraphRef="dbd7d"/>
+      <Point GraphRef="ce1fa" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id69aaf63b">
+    <Graphics>
+      <Point GraphRef="b947a"/>
+      <Point GraphRef="c4cc8" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6d9a034f">
+    <Graphics>
+      <Point GraphRef="fdb28"/>
+      <Point GraphRef="baa3d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id74667b56">
+    <Graphics>
+      <Point GraphRef="f6007"/>
+      <Point GraphRef="c8b2a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7381188849701736" Shape="None" GraphId="ed235"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7ff5adbb">
+    <Graphics>
+      <Point GraphRef="f6007"/>
+      <Point GraphRef="b947a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="abe81"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id945d0035">
+    <Graphics>
+      <Point GraphRef="f2665"/>
+      <Point GraphRef="c4cc8" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9b289506">
+    <Graphics>
+      <Point GraphRef="d30ee"/>
+      <Point GraphRef="a407a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c0b22"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9dcf2d96">
+    <Graphics>
+      <Point GraphRef="b51be"/>
+      <Point GraphRef="ece0e" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida64907bf">
+    <Graphics>
+      <Point GraphRef="f6007"/>
+      <Point GraphRef="d30ee" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d999d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida68ac1c3">
+    <Graphics>
+      <Point GraphRef="f6007"/>
+      <Point GraphRef="f2665" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb9aabd56">
+    <Graphics>
+      <Point GraphRef="d6aa3"/>
+      <Point GraphRef="abe81" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc733f645">
+    <Graphics>
+      <Point GraphRef="cd21d"/>
+      <Point GraphRef="c0b22" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd98c8de5">
+    <Graphics>
+      <Point GraphRef="f8a74"/>
+      <Point GraphRef="d999d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide0a7c78f">
+    <Graphics>
+      <Point GraphRef="e5605"/>
+      <Point GraphRef="ed235" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide56cfda3">
+    <Graphics>
+      <Point GraphRef="da7c9"/>
+      <Point GraphRef="ae735" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfb3b7951">
+    <Graphics>
+      <Point GraphRef="b947a"/>
+      <Point GraphRef="dc28c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ae735"/>
+    </Graphics>
+    </Interaction>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e7a">
+      <bp:ID >6687705</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Variability in caffeine metabolism</bp:TITLE>
+      <bp:SOURCE >Clinical Pharmacology and Therapeutics</bp:SOURCE>
+      <bp:YEAR >1983</bp:YEAR>
+      <bp:AUTHORS >Denis M. Grant</bp:AUTHORS>
+      <bp:AUTHORS >Bing K. Tang</bp:AUTHORS>
+      <bp:AUTHORS >Werner Kalow</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >caffeine metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001153</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >xenobiotic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001229</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

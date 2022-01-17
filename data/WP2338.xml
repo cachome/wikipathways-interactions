@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="miRNA biogenesis" Version="20121022" Author="Susan Coort" Last-Modified="10/16/2013" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">microRNA biogenesis + an example of a miRBase entry.
+As an example immature hsa-mir-146a is shown
+ 
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2338 CPTAC Assay Portal].</Comment>
+  <Comment Source="WikiPathways-category">Molecular Function</Comment>
+  <BiopaxRef>dc4</BiopaxRef>
+  <BiopaxRef>ad1</BiopaxRef>
+  <Graphics BoardWidth="1041.9386002255528" BoardHeight="601.6652168525341"/>
+  <DataNode TextLabel="RAN" GraphId="b31ef" Type="GeneProduct" GroupRef="e7d7e">
+        </DataNode>
+  <DataNode TextLabel="XPO5" GraphId="c29d9" Type="GeneProduct" GroupRef="e7d7e">
+        </DataNode>
+  <DataNode TextLabel="GTP" GraphId="c57c3" Type="Metabolite" GroupRef="e7d7e">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DROSHA" GraphId="c6f64" Type="GeneProduct" GroupRef="d1efe">
+        </DataNode>
+  <DataNode TextLabel="DICER1" GraphId="e00ce" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DGCR8" GraphId="aabce" Type="GeneProduct" GroupRef="d1efe">
+        </DataNode>
+  <DataNode TextLabel="DICER1" GraphId="d91e6" Type="GeneProduct" GroupRef="f66ab">
+        </DataNode>
+  <DataNode TextLabel="TRBP" GraphId="f545c" Type="Protein" GroupRef="f66ab">
+        </DataNode>
+  <GraphicalLine GraphId="aca89">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="de115"/>
+      <Point/>
+      <Point GraphRef="dc401" ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b2667">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="ded01"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b5ba4">
+    <Graphics>
+      <Point GraphRef="a6110"/>
+      <Point GraphRef="aec7c" ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c43a1">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="de115"/>
+      <Point/>
+      <Point GraphRef="f2c62" ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c5146" GroupRef="cea53">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c74af">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d0649">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="b8049"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e13d3">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="e00ce"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e2c0f">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="a6110" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f5324">
+    <Graphics>
+      <Point GraphRef="aec7c"/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fa9ba">
+    <Graphics>
+      <Point GraphRef="aafd7"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d953e">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="af51a">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e22fd" GroupRef="a9492">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ffce0" GroupRef="a9492">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ae642" GroupRef="a9492">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a6706" GroupRef="a9492">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dcabc" GroupRef="a9492">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dabcf" GroupRef="a9492">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d1d2f" GroupRef="a9492">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d8f63" GroupRef="a9492">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="be6ad" GroupRef="a9492">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cd46d" GroupRef="a9492">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a7903" GroupRef="a9492">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a062f" GroupRef="a9492">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bf27c" GroupRef="a9492">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="eefc5" GroupRef="a9492">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="db04d" GroupRef="a9492">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="efe2f" GroupRef="a9492">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f52bc" GroupRef="a9492">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b7308" GroupRef="a9492">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d2461" GroupRef="a9492">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c919d" GroupRef="a9492">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d710c" GroupRef="a9492">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c0872" GroupRef="a9492">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="aaf50" GroupRef="a9492">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d6bb2" GroupRef="a9492">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b01a6" GroupRef="a9492">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bc73b" GroupRef="a9492">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d2769" GroupRef="a9492">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a7924" GroupRef="a9492">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cd7fe" GroupRef="a9492">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d5275" GroupRef="a9492">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dd905" GroupRef="a9492">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c577e">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cb60f">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fb415">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c948f">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d2804">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fe584">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a01ec">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="efb1f">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d2682">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d1b2c">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ee217">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c8c26">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c8a89">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ded8a">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c6c88">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dd4a8">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a5e16">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c5401">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cf98d">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fa00e">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a9253">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d6482">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fc1bf">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ffb12">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ced5d">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e9ee8">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f8c2d">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fa8a9">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bfca7">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ad3fb">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d766c">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d9aca">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d8654" GroupRef="cea53">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a30e8">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f448d" GroupRef="cea53">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cef5f" GroupRef="cea53">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e8cc1" GroupRef="cea53">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b31bc" GroupRef="cea53">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f0b44" GroupRef="cea53">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e0b16" GroupRef="cea53">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fde15" GroupRef="cea53">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f2820" GroupRef="cea53">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="efc0e" GroupRef="cea53">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f26ff" GroupRef="cea53">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cec86" GroupRef="cea53">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f70f8" GroupRef="cea53">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="eb4ff" GroupRef="cea53">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d2bf1" GroupRef="cea53">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cf113" GroupRef="cea53">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ea81f" GroupRef="cea53">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f8fc3" GroupRef="cea53">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fb59e" GroupRef="cea53">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cf3a8" GroupRef="cea53">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="af1e8" GroupRef="cea53">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d8d6d" GroupRef="cea53">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b354d" GroupRef="cea53">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ddf6b" GroupRef="cea53">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="eeff2" GroupRef="cea53">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cbfbf" GroupRef="cea53">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cb732" GroupRef="cea53">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a36fe" GroupRef="cea53">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e76f9" GroupRef="cea53">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a9fae" GroupRef="cea53">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d4e07" GroupRef="cea53">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b90d1">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bc09d">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cb95f">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d5629">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a0bb8">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d1397">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c52c2">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="acd59">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ce05a">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f9329">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a3d5f">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e4fce">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c8bf4">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="afcf1">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bbfd3">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d62ee">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f262c">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="db972">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b7ab9">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a6cb4">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f65ba">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dcb12">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c4395">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bd812">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fbb7f">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="be1cf">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cd495">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="caacc">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a5a7b">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e56d6">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fcba4">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Mature sequence hsa-miR-146a-5p &#10;Accession: MIMAT0000449&#10;Previous: hsa-miR-146;hsa-miR-146a" GraphId="d3cd9">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Mature sequence hsa-miR-146a-3p&#10;Accession: MIMAT0004608&#10;Previous: hsa-miR-146a*&#10;&#10;" GraphId="caa6b" GroupRef="a979a">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Stem-loop sequence hsa-mir-146a &#10;Accession: MI0000477 &#10;Previous: hsa-mir-146" GraphId="e716f">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="pri-miRNAs" GraphId="a6110">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Label" GraphId="af623">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="pre-miRNA" GraphId="cd80e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Transcription" GraphId="d5a1a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="RNA polymerase II" GraphId="e6c91">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="fb9e3">
+    <Graphics FillColor="ffffff" Color="009900"/>
+  </Label>
+  <Label TextLabel="Cytoplasm" GraphId="bceab">
+    <Graphics FillColor="ffffff" Color="009900"/>
+  </Label>
+  <Label TextLabel="miRNA duplex" GraphId="bf5c3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="DNA" GraphId="b994b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="pre-miRNA" GraphId="d8c16">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="5'" GraphId="a38e4" GroupRef="a9492">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="3'" GraphId="b9c64" GroupRef="a9492">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="3'" GraphId="f806f" GroupRef="e300b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="5'" GraphId="e5a2d" GroupRef="e300b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="5'" GraphId="a474c" GroupRef="f7ef5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="3'" GraphId="df32a" GroupRef="f7ef5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="5'" GraphId="dee93">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="3'" GraphId="ce9e8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="5'" GraphId="ab951" GroupRef="cea53">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="3'" GraphId="aa9c4" GroupRef="cea53">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="f9495">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bb7ec" GroupRef="a9492">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="ebc81" GroupRef="a9492">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b404a">
+    <Graphics ShapeType="Oval" Color="0000cc"/>
+  </Shape>
+  <Shape GraphId="c1804" GroupRef="a9492">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="b807e" GroupRef="a9492">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="ddf86">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="e76fd">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="e83e9">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c48e4">
+    <Graphics ShapeType="Oval" Color="0000cc"/>
+  </Shape>
+  <Shape GraphId="ab57b">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="a4750">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="f08f6">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="c2fd8">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="b57ac" GroupRef="cea53">
+    <Graphics ShapeType="Oval" Color="0000cc"/>
+  </Shape>
+  <Shape GraphId="ea655">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="e4278" GroupRef="cea53">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="f7e50" GroupRef="cea53">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="acb9f">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="cf8cd">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="b5cd2">
+    <Graphics ShapeType="Oval" Color="0000cc"/>
+  </Shape>
+  <Shape GraphId="d3caa">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ffffff"/>
+  </Shape>
+  <Group GroupId="e7d7e" GraphId="aafd7" Style="Complex"/>
+  <Group GroupId="a9492" GraphId="aec7c" Style="Group"/>
+  <Group GroupId="f66ab" GraphId="b8049" Style="Complex"/>
+  <Group GroupId="f7ef5" GraphId="dc401" Style="Group"/>
+  <Group GroupId="cea53" GraphId="de115" Style="Group"/>
+  <Group GroupId="d1efe" GraphId="ded01" Style="Complex"/>
+  <Group GroupId="bbb84" GraphId="e2d25" Style="Group"/>
+  <Group GroupId="fe332" GraphId="efb0e" Style="Group"/>
+  <Group GroupId="e300b" GraphId="f2c62" Style="Group"/>
+  <Group GroupId="a979a" GraphId="f66e3" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >classic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000002</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad1">
+      <bp:ID >21177881</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Widespread regulatory activity of vertebrate microRNA* species.</bp:TITLE>
+      <bp:SOURCE >RNA</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Yang JS</bp:AUTHORS>
+      <bp:AUTHORS >Phillips MD</bp:AUTHORS>
+      <bp:AUTHORS >Betel D</bp:AUTHORS>
+      <bp:AUTHORS >Mu P</bp:AUTHORS>
+      <bp:AUTHORS >Ventura A</bp:AUTHORS>
+      <bp:AUTHORS >Siepel AC</bp:AUTHORS>
+      <bp:AUTHORS >Chen KC</bp:AUTHORS>
+      <bp:AUTHORS >Lai EC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >microRNA pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000808</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc4">
+      <bp:ID >16111679</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MicroRNA function in animal development.</bp:TITLE>
+      <bp:SOURCE >FEBS Lett</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Wienholds E</bp:AUTHORS>
+      <bp:AUTHORS >Plasterk RH</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

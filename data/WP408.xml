@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Oxidative stress response" Last-Modified="2/22/2013" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="WikiPathways-description">Oxidative stress represents an imbalance between the production and manifestation of reactive oxygen species and a biological system's ability to readily detoxify the reactive intermediates or to repair the resulting damage. Disturbances in the normal redox state of tissues can cause toxic effects through the production of peroxides and free radicals that damage all components of the cell, including proteins, lipids, and DNA. Some reactive oxidative species can even act as messengers through a phenomenon called redox signaling.
+In humans, oxidative stress is involved in many diseases. Examples include Sickle Cell Disease,[1] atherosclerosis, Parkinson's disease, heart failure, myocardial infarction, Alzheimer's disease, Schizophrenia, Bipolar disorder, fragile X syndrome[2] and chronic fatigue syndrome, but short-term oxidative stress may also be important in prevention of aging by induction of a process named mitohormesis.[3] Reactive oxygen species can be beneficial, as they are used by the immune system as a way to attack and kill pathogens.
+Source: Wikipedia ([[wikipedia:Oxidative_stress]])
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP408 CPTAC Assay Portal]</Comment>
+  <Comment Source="WikiPathways-category">Physiological Process</Comment>
+  <BiopaxRef>a03</BiopaxRef>
+  <Graphics BoardWidth="653.3333333333333" BoardHeight="839.3333333333334"/>
+  <DataNode TextLabel="Reactive Oxygen Species" GraphId="fb1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MGST1" GraphId="a22" Type="GeneProduct" GroupRef="af4fd">
+        </DataNode>
+  <DataNode TextLabel="SP1" GraphId="a52" Type="GeneProduct" GroupRef="ab476">
+        </DataNode>
+  <DataNode TextLabel="SOD2" GraphId="a58" Type="GeneProduct" GroupRef="af4fd">
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="a62" Type="GeneProduct" GroupRef="ab476">
+        </DataNode>
+  <DataNode TextLabel="MT1X" GraphId="aa7" Type="GeneProduct" GroupRef="b8e96">
+        </DataNode>
+  <DataNode TextLabel="NFIX" GraphId="ade" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NOX1" GraphId="af67f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAPK10" GraphId="b03" Type="GeneProduct" GroupRef="a56cd">
+        </DataNode>
+  <DataNode TextLabel="NFE2L2" GraphId="b0b" Type="GeneProduct" GroupRef="ab476">
+        </DataNode>
+  <DataNode TextLabel="GCLC" GraphId="b22" Type="GeneProduct" GroupRef="b8e96">
+        </DataNode>
+  <DataNode TextLabel="HMOX1" GraphId="b34" Type="GeneProduct" GroupRef="ed076">
+        </DataNode>
+  <DataNode TextLabel="MAPK14" GraphId="b50" Type="GeneProduct" GroupRef="a56cd">
+        </DataNode>
+  <DataNode TextLabel="TXNRD2" GraphId="c16" Type="GeneProduct" GroupRef="b8e96">
+        </DataNode>
+  <DataNode TextLabel="FOS" GraphId="c1c" Type="GeneProduct" GroupRef="fe952">
+        </DataNode>
+  <DataNode TextLabel="CAT" GraphId="c57" Type="GeneProduct" GroupRef="b8e96">
+        </DataNode>
+  <DataNode TextLabel="CYP1A1" GraphId="d40" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="JUNB" GraphId="d54" Type="GeneProduct" GroupRef="fe952">
+        </DataNode>
+  <DataNode TextLabel="GSTT2" GraphId="d80" Type="GeneProduct" GroupRef="af4fd">
+        </DataNode>
+  <DataNode TextLabel="SOD3" GraphId="dca" Type="GeneProduct" GroupRef="af4fd">
+        </DataNode>
+  <DataNode TextLabel="GPX1" GraphId="de0" Type="GeneProduct" GroupRef="ed076">
+        </DataNode>
+  <DataNode TextLabel="NOX4" GraphId="dfee7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="XDH" GraphId="e21" Type="GeneProduct" GroupRef="d7ea8">
+        </DataNode>
+  <DataNode TextLabel="TXNRD1" GraphId="e42" Type="GeneProduct" GroupRef="b8e96">
+        </DataNode>
+  <DataNode TextLabel="GPX3" GraphId="e75" Type="GeneProduct" GroupRef="ed076">
+        </DataNode>
+  <DataNode TextLabel="UGT1A6" GraphId="ed6" Type="GeneProduct" GroupRef="ed076">
+        </DataNode>
+  <DataNode TextLabel="MAOA" GraphId="f89" Type="GeneProduct" GroupRef="d7ea8">
+        </DataNode>
+  <DataNode TextLabel="GSR" GraphId="fbb" Type="GeneProduct" GroupRef="af4fd">
+        </DataNode>
+  <DataNode TextLabel="TXN2" GraphId="fdc" Type="GeneProduct" GroupRef="b8e96">
+        </DataNode>
+  <DataNode TextLabel="NQO1" GraphId="fed" Type="GeneProduct" GroupRef="ed076">
+        </DataNode>
+  <DataNode TextLabel="SOD1" GraphId="ffa" Type="GeneProduct" GroupRef="af4fd">
+        </DataNode>
+  <DataNode TextLabel="CYBB" GraphId="bc5f5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NOX3" GraphId="c881c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NOX5" GraphId="bc511" Type="GeneProduct">
+        </DataNode>
+  <State GraphRef="ed6" TextLabel="" GraphId="a422c">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e75" TextLabel="" GraphId="ace44">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="de0" TextLabel="" GraphId="b4837">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b34" TextLabel="" GraphId="d6cb6">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="fed" TextLabel="" GraphId="fd34c">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="a89da">
+    <Graphics Color="ff0000">
+      <Point GraphRef="ec0ba"/>
+      <Point GraphRef="c6e7d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ae5cd">
+    <Graphics Color="cc0000">
+      <Point GraphRef="ce9"/>
+      <Point GraphRef="d6c72" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="afa47">
+    <Graphics LineStyle="Broken" Color="ff0000">
+      <Point GraphRef="d6c72"/>
+      <Point GraphRef="c6e7d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c47c7">
+    <Graphics Color="0000ff">
+      <Point GraphRef="fb1"/>
+      <Point GraphRef="c5c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c7839">
+    <Graphics>
+      <Point GraphRef="ade"/>
+      <Point GraphRef="d40" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cd654">
+    <Graphics Color="0000cc">
+      <Point GraphRef="fb1"/>
+      <Point GraphRef="c91c1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dcc39">
+    <Graphics Color="cc0000">
+      <Point GraphRef="ce9"/>
+      <Point GraphRef="ec0ba" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ddcf5">
+    <Graphics LineStyle="Broken" Color="ff0000">
+      <Point GraphRef="d6c72"/>
+      <Point GraphRef="ec0ba" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dfb46">
+    <Graphics Color="cc0000">
+      <Point GraphRef="c5c"/>
+      <Point GraphRef="ce9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e3a81">
+    <Graphics>
+      <Point GraphRef="a87"/>
+      <Point GraphRef="ade" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f5176">
+    <Graphics Color="cc0000">
+      <Point GraphRef="c91c1"/>
+      <Point GraphRef="ce9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f727b">
+    <Graphics Color="008000">
+      <Point GraphRef="c5c"/>
+      <Point GraphRef="a87" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id91b48dbc">
+    <Graphics>
+      <Point GraphRef="dfee7"/>
+      <Point GraphRef="fb1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9e413eb9">
+    <Graphics>
+      <Point GraphRef="a87"/>
+      <Point GraphRef="c05b4" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e72eb">
+    <Graphics>
+      <Point GraphRef="c05b4"/>
+      <Point GraphRef="fb1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c2dff">
+    <Graphics>
+      <Point GraphRef="bc511"/>
+      <Point GraphRef="fb1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Repression" GraphId="a54">
+    <Graphics FillColor="ffffff" Color="008000"/>
+  </Label>
+  <Label TextLabel="Repression of ROS-&#10;producing systems" GraphId="a87">
+    <Graphics FillColor="ffffff" Color="008000"/>
+  </Label>
+  <Label TextLabel="TF activation" GraphId="a90">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Immediate-early&#10;gene induction" GraphId="aa6">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Inhibition of oxidases" GraphId="b17">
+    <Graphics FillColor="ffffff" Color="008000"/>
+  </Label>
+  <Label TextLabel="TF inhibition" GraphId="bb5">
+    <Graphics FillColor="ffffff" Color="008000"/>
+  </Label>
+  <Label TextLabel="Adaptive response" GraphId="c5c">
+    <Graphics FillColor="ffffff" Color="660066"/>
+  </Label>
+  <Label TextLabel="Activation" GraphId="ce9">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Stress-regulated &#10;MAP kinase" GraphId="ed0">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Induction of&#10;antioxidant genes&#10;" GraphId="ed7">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Group GroupId="b8e96" GraphId="a5c6b" Style="Group"/>
+  <Group GroupId="d7ea8" GraphId="c05b4"/>
+  <Group GroupId="af4fd" GraphId="c144a" Style="Group"/>
+  <Group GroupId="ed076" GraphId="c6e7d" Style="Group"/>
+  <Group GroupId="a56cd" GraphId="c91c1"/>
+  <Group GroupId="fe952" GraphId="d6c72"/>
+  <Group GroupId="ab476" GraphId="ec0ba" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >oxidative stress response pathways</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000378</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a03">
+      <bp:ID >10477257</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Repression of gene expression by oxidative stress.</bp:TITLE>
+      <bp:SOURCE >Biochem J</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Morel Y</bp:AUTHORS>
+      <bp:AUTHORS >Barouki R</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

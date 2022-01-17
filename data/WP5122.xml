@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Prostaglandin and leukotriene metabolism in senescence " Version="20210616" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Prostaglandins are active lipid molecules that are shown to have a great impact on cellular senescence (Wiley et al., 2021). Prostaglandins are derived from arachidonic acid, which is cleaved by the enzyme cytosolic phospholipase A2 (cPLA2) from the membrane phospholipids (Yang et al., 2011). 
+
+The cyclooxygenase 2 (COX-2)-prostaglandin E2 (PGE2) pathway takes part in the induction, as well as the maintenance of senescence. COX-2 is the inducing enzyme which causes the conversion of AA into PGH2 and PGG2, which are then readily converted into PGF2&#9082;, PGD2, PGE2, PGI2, and TxA2 through prostaglandin synthases (Cormenier et al., 2017; Martien et al., 2013). The produced active prostaglandins can then act on intracellular receptors and trigger a downward signalling cascade, leading to the stimulation or inhibition of cAMP or the stimulation of Ca2+. The cAMP-dependent pathway leads to the stimulation of the insulin-like growth factor binding protein 5 (IGFBP5) production, which then also activates p53. P53 activation reinforces senescence by stimulating the expression of COX mRNA, thus creating a positive feedback loop (Yang et al., 2011).
+
+Two important active prostaglandins, namely dihomo-15d-PGJ2 and 15d-PGJ2 are highly elevated in senescent cells and induce COX-1 and 2, PTGES and PTGDS production through the activation of RAS and subsequently p53, reinforcing the positive feedback loop. Dihomo-15d-PGJ2 is the most highly elevated senescence-associated prostaglandin and is produced by the elongation of arachidonic acid into adrenic acid, which is then enzymatically converted to yield the prostaglandin. 15d-PGJ2 on the other hand is produced through the dehydration of the active prostaglandin PGD2. In addition, RAS stimulates the secretion of SASP factors, which can consequently affect surrounding cells (Wiley et al., 2021).
+
+Leukotrienes play an important role in the pathogenesis of inflammation. Just like prostaglandins, leukotrienes are synthesized from arachidonic acid that was cleaved from the membrane phospholipids (Wiley et al., 2019). ALOX12, ALOX15, ALOX5AP, LTC4S, LTA4H, ALOX15B and ALOX5, which are enzymes that conversion of arachidonic acid to either leukotriene A4 (LT4A) or Arachidonic acid 5-hydroperoxide (5-HPETE), are upregulated in senescence (Wiley et al., 2019; H&#195;&#402;&#198;&#8217;&#195;&#8218;&#194;&#164;fner et al., 2019). The produced LTA4 can be converted into LTB4 or LTC4. LTC4 can then be consecutively cleaved into LTD4 and LTE4 (Suryadevara et al., 2020). All the mentioned leukotrienes are increased in cellular senescence and are thought to be part of the SASP (Lin &amp; Xu, 2020).
+
+LTD4 is of particular importance in cellular senescence due to its increased interaction with the cysteinyl leukotriene receptor 1 (CysLT1R) (Wei et al., 2018; Song et al., 2019). This interaction has various consequences, such as the release of intracellular Ca2+, an increase of p21 and it also inhibits sirtuin 1 (SIRT1). SIRT1 regulates the cell cycle by inhibiting the phosphorylation of p53 and the release of various cytokines (Wei et al., 2018). Therefore, it increases the release of pro-inflammatory cytokines and induce cellular senescence via the activation of p53 (Song et al., 2019).
+
+ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et al., 2005; Menna et al., 2010). These ROS are thought to activate p53 which binds to ALOX5 and further increases its action (H&#195;&#402;&#198;&#8217;&#195;&#8218;&#194;&#164;fner et al., 2019). Moreover, ALOX5 uses Ca2+ as a cofactor and its increased intracellular concentration further promotes ALOX5's action (Menna et al., 2010). LTB4 is also stimulates the production of ROS. ALOX5 then stimulates the phosphorylation of p53 and activates p21 (Menna et al., 2010; Catalano et al., 2005). This then causes the dephosphorylation of the retinoblastoma protein (RB1). As a consequence, senescence is induced (Catalano et al., 2005).
+</Comment>
+  <Comment Source="WikiPathways-description">Prostaglandin pathway in senescence.</Comment>
+  <Graphics BoardWidth="1766.1651070911707" BoardHeight="1039.8042686490826"/>
+  <DataNode TextLabel="PTGES" GraphId="a2cec" Type="GeneProduct" GroupRef="ccdce">
+        </DataNode>
+  <DataNode TextLabel="Adenylate Cyclase" GraphId="a345e" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Cytosolic phospholipase A2" GraphId="a84d6" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PGH2" GraphId="ad65d" Type="Metabolite" GroupRef="bad6f">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="dihomo-15d-PGJ2" GraphId="b199d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ROS" GraphId="b4175" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Gs" GraphId="b5943" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PGI2" GraphId="bd7b7" Type="Metabolite" GroupRef="bb550">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PGE2" GraphId="c3391" Type="Metabolite" GroupRef="bb550">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cytosolic phospholipase A2" GraphId="cad94" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="TXA2" GraphId="cc149" Type="Metabolite" GroupRef="bb550">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PGG2" GraphId="cf5d0" Type="Metabolite" GroupRef="bad6f">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="IGFBP5" GraphId="d1f21" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Adrenic acid" GraphId="d313f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Arachidonic acid" GraphId="dfd6f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Senescence" GraphId="e8cba" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="EP2 (extracellular)" GraphId="e9346" Type="GeneProduct" GroupRef="be4f3">
+        </DataNode>
+  <DataNode TextLabel="PTGDS" GraphId="eaad6" Type="GeneProduct" GroupRef="ccdce">
+        </DataNode>
+  <DataNode TextLabel="Membrane phospholipids" GraphId="f160f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PLC" GraphId="f2f6e" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PGD2" GraphId="f32af" Type="Metabolite" GroupRef="bb550">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="COX-1" GraphId="f937d" Type="GeneProduct" GroupRef="ccdce">
+        </DataNode>
+  <DataNode TextLabel="cAMP" GraphId="fa674" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="p38 MAPK" GraphId="fc050" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="15d-PGJ2" GraphId="fd8ad" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="RAS" GraphId="feeb9" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="COX-2" GraphId="a279c" Type="GeneProduct" GroupRef="ccdce">
+        </DataNode>
+  <DataNode TextLabel="PGD Synthase" GraphId="dd199" Type="GeneProduct" GroupRef="cf664">
+        </DataNode>
+  <DataNode TextLabel="PGE Synthase" GraphId="cf438" Type="GeneProduct" GroupRef="cf664">
+        </DataNode>
+  <DataNode TextLabel="PGI Synthase" GraphId="be954" Type="GeneProduct" GroupRef="cf664">
+        </DataNode>
+  <DataNode TextLabel="TxA Synthase" GraphId="eead0" Type="GeneProduct" GroupRef="cf664">
+        </DataNode>
+  <DataNode TextLabel="PGF Synthase" GraphId="b3388" Type="GeneProduct" GroupRef="cf664">
+        </DataNode>
+  <DataNode TextLabel="PGF2alpha" GraphId="b390d" Type="Metabolite" GroupRef="bb550">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="EP1 (extracellular)" GraphId="eea0c" Type="GeneProduct" GroupRef="be4f3">
+        </DataNode>
+  <DataNode TextLabel="EP3 (extracellular)" GraphId="e1579" Type="GeneProduct" GroupRef="be4f3">
+        </DataNode>
+  <DataNode TextLabel="EP4 (extracellular)" GraphId="bfa85" Type="GeneProduct" GroupRef="be4f3">
+        </DataNode>
+  <DataNode TextLabel="Gi" GraphId="fed12" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Gq" GraphId="d9713" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Adenylate Cyclase" GraphId="b40bb" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="cAMP" GraphId="de9a6" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="ALOX5AP" GraphId="e9c41" Type="GeneProduct" GroupRef="acfbb">
+        </DataNode>
+  <DataNode TextLabel="Ca2+" GraphId="ea977" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ALOX5" GraphId="be659" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LTC4S" GraphId="add7d" Type="GeneProduct" GroupRef="acfbb">
+        </DataNode>
+  <DataNode TextLabel="LTA4H" GraphId="c8bd7" Type="GeneProduct" GroupRef="acfbb">
+        </DataNode>
+  <DataNode TextLabel="ALOX15B" GraphId="d2672" Type="GeneProduct" GroupRef="acfbb">
+        </DataNode>
+  <DataNode TextLabel="p21" GraphId="a8374" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="LTB4" GraphId="b9d64" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="5-HPETE" GraphId="eedb0" Type="Metabolite" GroupRef="c4b7e">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="LTD4" GraphId="e54ef" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="p53" GraphId="c9c3a" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="RB1" GraphId="a31e4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ALOX15" GraphId="a943a" Type="GeneProduct" GroupRef="acfbb">
+        </DataNode>
+  <DataNode TextLabel="LTA4" GraphId="bd905" Type="Metabolite" GroupRef="c4b7e">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="LTE4" GraphId="cab0c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="LTC4" GraphId="f138f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SIRT1" GraphId="e7d98" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ALOX12" GraphId="ed312" Type="GeneProduct" GroupRef="acfbb">
+        </DataNode>
+  <DataNode TextLabel="CysLT1R" GraphId="bfa0e" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="p53" GraphId="e045b" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="RB1" GraphId="e1f3b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Senescence" GraphId="c2aef" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Ca2+" GraphId="e8622" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="p53" GraphId="beda5" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="SASP" GraphId="ede33" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <State GraphRef="cad94" TextLabel="" GraphId="f95b4">
+    <Comment>Phosphorylation</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e045b" TextLabel="" GraphId="ae63b">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e1f3b" TextLabel="" GraphId="eb5aa">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="beda5" TextLabel="" GraphId="bca2c">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id1396edad">
+    <BiopaxRef>bf3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cde07"/>
+      <Point GraphRef="df54d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id19c86bc3">
+    <BiopaxRef>b68</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cad94"/>
+      <Point GraphRef="a2b54" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1f5d5e8f">
+    <BiopaxRef>bf3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f2f6e"/>
+      <Point GraphRef="e8622" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id248b94f9">
+    <BiopaxRef>ea3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b1910"/>
+      <Point GraphRef="f1b39" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id25a23ea7">
+    <BiopaxRef>bf3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b5943"/>
+      <Point GraphRef="a345e" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id36e56252">
+    <BiopaxRef>ea3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="beda5"/>
+      <Point GraphRef="b1910" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3dd59b9c">
+    <BiopaxRef>b68</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fc050"/>
+      <Point GraphRef="df250" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3de08e29">
+    <BiopaxRef>a33</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fa674"/>
+      <Point GraphRef="d1f21" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3e925643">
+    <BiopaxRef>bf3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b40bb"/>
+      <Point GraphRef="de9a6" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4125d324">
+    <BiopaxRef>ea3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="dfd6f"/>
+      <Point GraphRef="d313f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id557d2d71">
+    <BiopaxRef>bf3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c3391"/>
+      <Point GraphRef="f1774" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5647bb58">
+    <BiopaxRef>bf3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e9346"/>
+      <Point GraphRef="b5943" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5ace924b">
+    <Graphics>
+      <Point GraphRef="feeb9"/>
+      <Point GraphRef="beda5" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5bbab6f2">
+    <BiopaxRef>ea3</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="feeb9"/>
+      <Point/>
+      <Point GraphRef="ede33" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5e4ab49a">
+    <BiopaxRef>b68</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e8cba"/>
+      <Point GraphRef="fc050" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id630e76e5">
+    <BiopaxRef>b68</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f160f"/>
+      <Point GraphRef="dfd6f" ArrowHead="mim-cleavage"/>
+      <Anchor Position="0.45762702392014054" Shape="None" GraphId="a2b54"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id704eaa83">
+    <BiopaxRef>a33</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d1f21"/>
+      <Point/>
+      <Point GraphRef="beda5" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7dab0398">
+    <BiopaxRef>efe</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e045b"/>
+      <Point GraphRef="e8cba" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id98285b77">
+    <BiopaxRef>ea3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f32af"/>
+      <Point GraphRef="fd8ad" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9d99807d">
+    <BiopaxRef>b68</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="dfd6f"/>
+      <Point/>
+      <Point GraphRef="efda8" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.9497496861553639" Shape="None" GraphId="bc92c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida330f07">
+    <BiopaxRef>bf3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fed12"/>
+      <Point GraphRef="b40bb" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida64e6963">
+    <BiopaxRef>ea3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b1910"/>
+      <Point GraphRef="b199d" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida656a1b1">
+    <BiopaxRef>bf3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="dfd6f"/>
+      <Point GraphRef="d8e8a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.512870346813489" Shape="None" GraphId="f1b39"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc57f3635">
+    <BiopaxRef>bf3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d9713"/>
+      <Point GraphRef="f2f6e" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd27ed7a2">
+    <BiopaxRef>b68</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b3a2e"/>
+      <Point GraphRef="e8cba" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd39f1cf">
+    <BiopaxRef>bf3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d8e8a"/>
+      <Point GraphRef="df52d" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.3908494863816917" Shape="None" GraphId="df54d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb9497f9">
+    <BiopaxRef>b68</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a84d6"/>
+      <Point GraphRef="cad94" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.40764674205709583" Shape="None" GraphId="df250"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide12b3097">
+    <BiopaxRef>ea3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b199d"/>
+      <Point GraphRef="feeb9" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf19a80d7">
+    <BiopaxRef>ea3</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fd8ad"/>
+      <Point/>
+      <Point GraphRef="feeb9" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf4c53b47">
+    <BiopaxRef>ea3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fd8ad"/>
+      <Point GraphRef="b1910" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="acba2">
+    <BiopaxRef>ea3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d313f"/>
+      <Point GraphRef="b199d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b29e3">
+    <BiopaxRef>bf3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e1579"/>
+      <Point GraphRef="fed12" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e7e27">
+    <BiopaxRef>bf3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="eea0c"/>
+      <Point GraphRef="d9713" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f55e9">
+    <BiopaxRef>bf3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a345e"/>
+      <Point GraphRef="fa674" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a09cf">
+    <BiopaxRef>fa0</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e54ef"/>
+      <Point GraphRef="cab0c" ArrowHead="mim-cleavage"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e717c">
+    <BiopaxRef>fa0</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f138f"/>
+      <Point GraphRef="e54ef" ArrowHead="mim-cleavage"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cf41d">
+    <BiopaxRef>f3d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e54ef"/>
+      <Point GraphRef="ede33" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d101f">
+    <BiopaxRef>e0e</BiopaxRef>
+    <BiopaxRef>a6d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c9c3a"/>
+      <Point GraphRef="e045b" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5533027477091907" Shape="None" GraphId="ab4a0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a940a">
+    <BiopaxRef>b68</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e8cba"/>
+      <Point GraphRef="fdc7d" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d7a55">
+    <BiopaxRef>a6d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a31e4"/>
+      <Point GraphRef="c2aef" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e5802">
+    <BiopaxRef>a6d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a8374"/>
+      <Point GraphRef="b11c4" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ecb55">
+    <BiopaxRef>efe</BiopaxRef>
+    <BiopaxRef>a6d</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e045b"/>
+      <Point GraphRef="a8374" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fe42a">
+    <BiopaxRef>fa0</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bd905"/>
+      <Point GraphRef="f138f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a3c19">
+    <BiopaxRef>efe</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e54ef"/>
+      <Point GraphRef="bfa0e" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ff142">
+    <BiopaxRef>efe</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bfa0e"/>
+      <Point GraphRef="e7d98" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bbcc3">
+    <BiopaxRef>efe</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bfa0e"/>
+      <Point GraphRef="ea977" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ab455">
+    <BiopaxRef>a6d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="be659"/>
+      <Point GraphRef="bc92c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="edccb">
+    <BiopaxRef>e0e</BiopaxRef>
+    <BiopaxRef>efe</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="be659"/>
+      <Point GraphRef="a8374" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ad546">
+    <BiopaxRef>a6d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e1f3b"/>
+      <Point GraphRef="a31e4" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.28421904195300896" Shape="None" GraphId="b11c4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e69a2">
+    <BiopaxRef>b51</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e045b"/>
+      <Point GraphRef="be659" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d12f1">
+    <BiopaxRef>b68</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fdc7d"/>
+      <Point GraphRef="bc92c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2610">
+    <BiopaxRef>a6d</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b9d64"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="b4175" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f362b">
+    <BiopaxRef>e0e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ea977"/>
+      <Point GraphRef="be659" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df106">
+    <BiopaxRef>a6d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="be659"/>
+      <Point GraphRef="b4175" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f83ce">
+    <BiopaxRef>fa0</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bd905"/>
+      <Point GraphRef="b9d64" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ac78c">
+    <BiopaxRef>f3d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f138f"/>
+      <Point GraphRef="ede33" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c85a5">
+    <BiopaxRef>efe</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e7d98"/>
+      <Point GraphRef="ab4a0" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fc3f6">
+    <BiopaxRef>e0e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="be659"/>
+      <Point GraphRef="ab4a0" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ede7a">
+    <BiopaxRef>f3d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b9d64"/>
+      <Point GraphRef="ede33" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fd01a">
+    <BiopaxRef>f3d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bd905"/>
+      <Point GraphRef="ede33" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d02eb">
+    <BiopaxRef>f3d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cab0c"/>
+      <Point GraphRef="ede33" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bcdc3">
+    <BiopaxRef>b51</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b4175"/>
+      <Point GraphRef="e045b" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c7953">
+    <BiopaxRef>efe</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bfa0e"/>
+      <Point GraphRef="a8374" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b97f8">
+    <BiopaxRef>bf3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bfa85"/>
+      <Point GraphRef="b5943" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Stress" GraphId="b3a2e">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="P" GraphId="d1a70">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="de959">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="edac8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="?" GraphId="bda2e" GroupRef="db913">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Group GroupId="db913" Style="Group"/>
+  <Group GroupId="f71ee" GraphId="a819b" Style="Group"/>
+  <Group GroupId="ccdce" GraphId="b1910" Style="Group"/>
+  <Group GroupId="cf664" GraphId="cde07" Style="Group"/>
+  <Group GroupId="bad6f" GraphId="d8e8a" Style="Group"/>
+  <Group GroupId="bb550" GraphId="df52d" Style="Group"/>
+  <Group GroupId="c4b7e" GraphId="efda8" Style="Group"/>
+  <Group GroupId="be4f3" GraphId="f1774" Style="Group"/>
+  <Group GroupId="acfbb" GraphId="fdc7d" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f3d">
+      <bp:ID >33324646</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Fibroblast Senescence in Idiopathic Pulmonary Fibrosis.</bp:TITLE>
+      <bp:SOURCE >Front Cell Dev Biol</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Lin Y</bp:AUTHORS>
+      <bp:AUTHORS >Xu Z</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efe">
+      <bp:ID >29587204</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Leukotriene D4 induces cellular senescence in osteoblasts.</bp:TITLE>
+      <bp:SOURCE >Int Immunopharmacol</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Wei J</bp:AUTHORS>
+      <bp:AUTHORS >Chen S</bp:AUTHORS>
+      <bp:AUTHORS >Guo W</bp:AUTHORS>
+      <bp:AUTHORS >Feng B</bp:AUTHORS>
+      <bp:AUTHORS >Yang S</bp:AUTHORS>
+      <bp:AUTHORS >Huang C</bp:AUTHORS>
+      <bp:AUTHORS >Chu J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa0">
+      <bp:ID >32549377</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Lipid Mediators Regulate Pulmonary Fibrosis: Potential Mechanisms and Signaling Pathways.</bp:TITLE>
+      <bp:SOURCE >Int J Mol Sci</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Suryadevara V</bp:AUTHORS>
+      <bp:AUTHORS >Ramchandran R</bp:AUTHORS>
+      <bp:AUTHORS >Kamp DW</bp:AUTHORS>
+      <bp:AUTHORS >Natarajan V</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6d">
+      <bp:ID >15616590</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >5-Lipoxygenase regulates senescence-like growth arrest by promoting ROS-dependent p53 activation.</bp:TITLE>
+      <bp:SOURCE >EMBO J</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Catalano A</bp:AUTHORS>
+      <bp:AUTHORS >Rodilossi S</bp:AUTHORS>
+      <bp:AUTHORS >Caprari P</bp:AUTHORS>
+      <bp:AUTHORS >Coppola V</bp:AUTHORS>
+      <bp:AUTHORS >Procopio A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >aging pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000651</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea3">
+      <bp:ID >33811820</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Oxylipin biosynthesis reinforces cellular senescence and allows detection of senolysis.</bp:TITLE>
+      <bp:SOURCE >Cell Metab</bp:SOURCE>
+      <bp:YEAR >2021</bp:YEAR>
+      <bp:AUTHORS >Wiley CD</bp:AUTHORS>
+      <bp:AUTHORS >Sharma R</bp:AUTHORS>
+      <bp:AUTHORS >Davis SS</bp:AUTHORS>
+      <bp:AUTHORS >Lopez-Dominguez JA</bp:AUTHORS>
+      <bp:AUTHORS >Mitchell KP</bp:AUTHORS>
+      <bp:AUTHORS >Wiley S</bp:AUTHORS>
+      <bp:AUTHORS >Alimirah F</bp:AUTHORS>
+      <bp:AUTHORS >Kim DE</bp:AUTHORS>
+      <bp:AUTHORS >Payne T</bp:AUTHORS>
+      <bp:AUTHORS >Rosko A</bp:AUTHORS>
+      <bp:AUTHORS >Aimontche E</bp:AUTHORS>
+      <bp:AUTHORS >Deshpande SM</bp:AUTHORS>
+      <bp:AUTHORS >Neri F</bp:AUTHORS>
+      <bp:AUTHORS >Kuehnemann C</bp:AUTHORS>
+      <bp:AUTHORS >Demaria M</bp:AUTHORS>
+      <bp:AUTHORS >Ramanathan A</bp:AUTHORS>
+      <bp:AUTHORS >Campisi J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bf3">
+      <bp:ID >28803844</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The ATF6&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#226;&#8364;&#166;&#195;&#8218;&#194;&#189;&#195;&#402;&#198;&#8217;&#195;&#162;&#226;&#8218;&#172;&#197;&#161;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#177; arm of the Unfolded Protein Response mediates replicative senescence in human fibroblasts through a COX2/prostaglandin E&lt;sub&gt;2&lt;/sub&gt;intracrine pathway.</bp:TITLE>
+      <bp:SOURCE >Mech Ageing Dev</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Cormenier J</bp:AUTHORS>
+      <bp:AUTHORS >Martin N</bp:AUTHORS>
+      <bp:AUTHORS >Desl&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#226;&#8364;&#160;&#195;&#162;&#226;&#8218;&#172;&#226;&#8222;&#162;&#195;&#402;&#198;&#8217;&#195;&#162;&#226;&#8218;&#172;&#197;&#161;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#169; J</bp:AUTHORS>
+      <bp:AUTHORS >Salazar-Cardozo C</bp:AUTHORS>
+      <bp:AUTHORS >Pourtier A</bp:AUTHORS>
+      <bp:AUTHORS >Abbadie C</bp:AUTHORS>
+      <bp:AUTHORS >Pluquet O</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >leukotriene metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000464</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a33">
+      <bp:ID >21191810</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Involvement of IGF binding protein 5 in prostaglandin E(2)-induced cellular senescence in human fibroblasts.</bp:TITLE>
+      <bp:SOURCE >Biogerontology</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Yang HH</bp:AUTHORS>
+      <bp:AUTHORS >Kim C</bp:AUTHORS>
+      <bp:AUTHORS >Jung B</bp:AUTHORS>
+      <bp:AUTHORS >Kim KS</bp:AUTHORS>
+      <bp:AUTHORS >Kim JR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b51">
+      <bp:ID >30930090</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Beyond leukotriene formation-The noncanonical functions of 5-lipoxygenase.</bp:TITLE>
+      <bp:SOURCE >Prostaglandins Other Lipid Mediat</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:ID >30930090</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Beyond leukotriene formation-The noncanonical functions of 5-lipoxygenase.</bp:TITLE>
+      <bp:SOURCE >Prostaglandins Other Lipid Mediat</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >H&#195;&#402;&#198;&#8217;&#195;&#8224;&#226;&#8364;&#8482;&#195;&#402;&#226;&#8364;&#160;&#195;&#162;&#226;&#8218;&#172;&#226;&#8222;&#162;&#195;&#402;&#198;&#8217;&#195;&#162;&#226;&#8218;&#172;&#197;&#161;&#195;&#402;&#226;&#8364;&#353;&#195;&#8218;&#194;&#164;fner AK</bp:AUTHORS>
+      <bp:AUTHORS >Kahnt AS</bp:AUTHORS>
+      <bp:AUTHORS >Steinhilber D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b68">
+      <bp:ID >31687975</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Secretion of leukotrienes by senescent lung fibroblasts promotes pulmonary fibrosis.</bp:TITLE>
+      <bp:SOURCE >JCI Insight</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Wiley CD</bp:AUTHORS>
+      <bp:AUTHORS >Brumwell AN</bp:AUTHORS>
+      <bp:AUTHORS >Davis SS</bp:AUTHORS>
+      <bp:AUTHORS >Jackson JR</bp:AUTHORS>
+      <bp:AUTHORS >Valdovinos A</bp:AUTHORS>
+      <bp:AUTHORS >Calhoun C</bp:AUTHORS>
+      <bp:AUTHORS >Alimirah F</bp:AUTHORS>
+      <bp:AUTHORS >Castellanos CA</bp:AUTHORS>
+      <bp:AUTHORS >Ruan R</bp:AUTHORS>
+      <bp:AUTHORS >Wei Y</bp:AUTHORS>
+      <bp:AUTHORS >Chapman HA</bp:AUTHORS>
+      <bp:AUTHORS >Ramanathan A</bp:AUTHORS>
+      <bp:AUTHORS >Campisi J</bp:AUTHORS>
+      <bp:AUTHORS >Jourdan Le Saux C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >prostaglandin metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000156</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e0e">
+      <bp:ID >20388082</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Lipoxygenase inhibitors for cancer prevention: promises and risks.</bp:TITLE>
+      <bp:SOURCE >Curr Pharm Des</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Menna C</bp:AUTHORS>
+      <bp:AUTHORS >Olivieri F</bp:AUTHORS>
+      <bp:AUTHORS >Catalano A</bp:AUTHORS>
+      <bp:AUTHORS >Procopio A</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

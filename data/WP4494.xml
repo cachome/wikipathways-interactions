@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Selective expression of chemokine receptors during T-cell polarization" Version="20190114" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Selective expression of chemokine receptors during T-cell polarization.
+Pathway based on Biocarta pathway (M4047).
+https://cgap.nci.nih.gov/Pathways/BioCarta/h_nktPathway
+
+The polarization of T cells into Th1 and Th2 cells is associated with their expression of subsets of chemokine receptors. While not being exposed to antigens, na&#239;ve T cells express CXCR4 and CCR7 receptors. TGF-beta van induce semi-naive T cells, that express a subset of CCR4 and CCR7 receptors. Th1 express CXCR3, CCR1, CCR2 and CCR5 receptors, while Th2 express CCR2, CCR3 and CCR5. However these subsets are not absolute as there is overlap between the expression of receptor subsets and thus between Th1 and Th2 cells. </Comment>
+  <BiopaxRef>dfe</BiopaxRef>
+  <Graphics BoardWidth="1513.4858741718763" BoardHeight="1047.7185159375003"/>
+  <DataNode TextLabel="CCL3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CCR7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CXCR4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL12A" Type="GeneProduct" GroupRef="fba16">
+        </DataNode>
+  <DataNode TextLabel="IL12B" Type="GeneProduct" GroupRef="fba16">
+        </DataNode>
+  <DataNode TextLabel="IL4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TGFB1" Type="GeneProduct" GroupRef="fb7f1">
+        </DataNode>
+  <DataNode TextLabel="TGFB2" Type="GeneProduct" GroupRef="fb7f1">
+        </DataNode>
+  <DataNode TextLabel="TGFB3" Type="GeneProduct" GroupRef="fb7f1">
+        </DataNode>
+  <DataNode TextLabel="CD4" GraphId="b8073" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL2" GraphId="bf2b8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CSF2" GraphId="c0d52" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IFNG" GraphId="d9b39" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CCL4" GraphId="f9f5a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CD28" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CD40LG" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL12RB1" Type="GeneProduct" GroupRef="d5787">
+        </DataNode>
+  <DataNode TextLabel="IL12RB2" Type="GeneProduct" GroupRef="d5787">
+        </DataNode>
+  <DataNode TextLabel="IL18R1" GraphId="daf73" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL12RB1" GraphId="cb3c6" Type="GeneProduct" GroupRef="fdcbc">
+        </DataNode>
+  <DataNode TextLabel="IL12RB2" GraphId="fee86" Type="GeneProduct" GroupRef="fdcbc">
+        </DataNode>
+  <DataNode TextLabel="IL4R" GraphId="a0210" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CD28" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CD40LG" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IFNGR1" Type="GeneProduct" GroupRef="d0bae">
+        </DataNode>
+  <DataNode TextLabel="IFNGR2" Type="GeneProduct" GroupRef="d0bae">
+        </DataNode>
+  <DataNode TextLabel="IL4" GraphId="d4920" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL2" GraphId="ae615" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CCR3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CCR4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CXCR3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CCR2" GraphId="a7a02" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CCR1" GraphId="d5c47" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CCR5" GraphId="f8dda" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CCR3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CCR4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CCR2" GraphId="a9977" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL12B" Type="GeneProduct" GroupRef="b8185">
+        </DataNode>
+  <DataNode TextLabel="IL12A" Type="GeneProduct" GroupRef="b8185">
+        </DataNode>
+  <DataNode TextLabel="IL12B" Type="GeneProduct" GroupRef="bb397">
+        </DataNode>
+  <DataNode TextLabel="IL12A" Type="GeneProduct" GroupRef="bb397">
+        </DataNode>
+  <DataNode TextLabel="IL12B" GraphId="b2151" Type="GeneProduct" GroupRef="fbb22">
+        </DataNode>
+  <DataNode TextLabel="IL12A" GraphId="a9928" Type="GeneProduct" GroupRef="fbb22">
+        </DataNode>
+  <DataNode TextLabel="IFNG" GraphId="c54d2" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id35608279">
+    <Graphics>
+      <Point GraphRef="a9619"/>
+      <Point GraphRef="dcd72" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id86c71c86">
+    <Graphics>
+      <Point GraphRef="e6c9d"/>
+      <Point GraphRef="e7f53" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9daa4fd0">
+    <Graphics>
+      <Point GraphRef="a9619"/>
+      <Point GraphRef="dcd72" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcd7be5ac">
+    <Graphics>
+      <Point GraphRef="e6c9d"/>
+      <Point GraphRef="c71a2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide362af56">
+    <Graphics>
+      <Point GraphRef="b8c8c"/>
+      <Point GraphRef="c54d2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id64c578b2">
+    <Graphics>
+      <Point GraphRef="c265e"/>
+      <Point GraphRef="a006e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbf348a1f">
+    <Graphics>
+      <Point GraphRef="c265e"/>
+      <Point GraphRef="db154" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide8a28fe0">
+    <Graphics>
+      <Point GraphRef="c265e"/>
+      <Point GraphRef="a4e99" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9b111634">
+    <Graphics>
+      <Point GraphRef="db154"/>
+      <Point GraphRef="d4920" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id67a94f97">
+    <Graphics>
+      <Point GraphRef="a006e"/>
+      <Point GraphRef="bf2b8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1ff6595d">
+    <Graphics>
+      <Point GraphRef="a4e99"/>
+      <Point GraphRef="ae615" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4d7c35be">
+    <Graphics>
+      <Point GraphRef="e7f53"/>
+      <Point GraphRef="c265e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idff028c80">
+    <Graphics>
+      <Point GraphRef="c71a2"/>
+      <Point GraphRef="c265e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb90bb3">
+    <Graphics>
+      <Point GraphRef="dcd72"/>
+      <Point GraphRef="c265e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id70aec427">
+    <Graphics>
+      <Point GraphRef="f8921"/>
+      <Point GraphRef="f9f5a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6eb53762">
+    <Graphics>
+      <Point GraphRef="e7f53"/>
+      <Point GraphRef="f8921" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida0ec27bb">
+    <Graphics>
+      <Point GraphRef="e7f53"/>
+      <Point GraphRef="b8c8c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id78fd7c8b">
+    <Graphics>
+      <Point GraphRef="f8921"/>
+      <Point GraphRef="c265e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id644ecfb2">
+    <Graphics>
+      <Point GraphRef="c54d2"/>
+      <Point GraphRef="c265e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida5606ebb">
+    <Graphics>
+      <Point GraphRef="a006e"/>
+      <Point GraphRef="ccf34"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="id613de25d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e6c9d"/>
+      <Point GraphRef="f9f5a"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Th1 cell" GraphId="a5be7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Dendritic cell" GraphId="b8ae9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Th0 cell" GraphId="c15d8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Macrophage" GraphId="cc4b5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Resevoir of semi naive &#10;T cells (Tsn)" GraphId="cf9b2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Tsn cell" GraphId="e9434">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NK1+&#10;CD4+/CD4-8-&#10;TcrAB+" GraphId="faf0c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Th2 cell" GraphId="ff59a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="a4479">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c265e">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ccf34">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="dcfd2">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f8921">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="a4e99">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d30db">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="a006e">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c4ad1">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="db154">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b6c38">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="eed49">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b8c8c">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="babea">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e6c9d">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="fc1c0">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="a9619">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="fba16" Style="Complex"/>
+  <Group GroupId="fb7f1" Style="Complex"/>
+  <Group GroupId="d5787" Style="Complex"/>
+  <Group GroupId="ee76d" Style="Complex"/>
+  <Group GroupId="d0bae" Style="Complex"/>
+  <Group GroupId="ae434" Style="Complex"/>
+  <Group GroupId="a067a" Style="Complex"/>
+  <Group GroupId="e680f" Style="Complex"/>
+  <Group GroupId="b8185" GraphId="c71a2" Style="Complex"/>
+  <Group GroupId="fbb22" GraphId="dcd72" Style="Complex"/>
+  <Group GroupId="fdcbc" GraphId="e6a56" Style="Complex"/>
+  <Group GroupId="bb397" GraphId="e7f53" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dfe">
+      <bp:ID >15609003</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Dendritic cell-mediated T cell polarization.</bp:TITLE>
+      <bp:SOURCE >Springer Semin Immunopathol</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >de Jong EC</bp:AUTHORS>
+      <bp:AUTHORS >Smits HH</bp:AUTHORS>
+      <bp:AUTHORS >Kapsenberg ML</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>T cell</bp:TERM><bp:ID>CL:0000084</bp:ID><bp:Ontology>Cell Type</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>chemokine mediated signaling pathway</bp:TERM><bp:ID>PW:0000829</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

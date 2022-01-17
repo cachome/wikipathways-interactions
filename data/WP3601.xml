@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Lipid particles composition" Author="Egon Willighagen" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This particle describes the chemical composition of various lipid particles. See also [https://www.wikipathways.org/index.php/Pathway:WP430] for a basic overview of cholesterol synthesis, and for the disease related to the lipoproteins in this pathway see [https://www.wikipathways.org/index.php/Pathway:WP4522].
+
+Additional sources
+- A. Goldberg, Overview of Lipid Metabolism, 2015. http://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/lipid-disorders/overview-of-lipid-metabolism</Comment>
+  <Graphics BoardWidth="1091.9747899159668" BoardHeight="438.9523809523808"/>
+  <DataNode TextLabel="ROS" GraphId="a08d9" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="cholesteryl&#10;ester" GraphId="a7738" Type="Metabolite" GroupRef="ce536">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Apo C-III" GraphId="afbdf" Type="Protein" GroupRef="ce536">
+        </DataNode>
+  <DataNode TextLabel="Apo C-II" GraphId="b3f63" Type="Protein" GroupRef="ce536">
+        </DataNode>
+  <DataNode TextLabel="HDL" GraphId="c3a06" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="cholesterol" GraphId="c44d8" Type="Metabolite" GroupRef="ce536">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TG" GraphId="cbadb" Type="Metabolite" GroupRef="d1474">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CETP" GraphId="d1855" Type="GeneProduct" GroupRef="ce536">
+        </DataNode>
+  <DataNode TextLabel="LDLR" GraphId="d8f6c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Apo A-II" GraphId="d9a5a" Type="Protein" GroupRef="ce536">
+        </DataNode>
+  <DataNode TextLabel="Apo E" GraphId="dd634" Type="Protein" GroupRef="ce536">
+        </DataNode>
+  <DataNode TextLabel="FA" GraphId="e2320" Type="Metabolite" GroupRef="cb6c7">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="IDL" GraphId="e3358" Type="Complex">
+        </DataNode>
+  <DataNode TextLabel="LCAT" GraphId="e67ea" Type="GeneProduct" GroupRef="ce536">
+        </DataNode>
+  <DataNode TextLabel="LDL" GraphId="ed5fa" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="Apo A-I" GraphId="f6ce6" Type="Protein" GroupRef="ce536">
+        </DataNode>
+  <DataNode TextLabel="LPL" GraphId="fe999" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Apo B-100" GraphId="ff285" Type="Protein" GroupRef="d1474">
+        </DataNode>
+  <DataNode TextLabel="VLDL" GraphId="ddc4f" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="cholesteryl&#10;ester" GraphId="f5c88" Type="Metabolite" GroupRef="d1474">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Apo E" GraphId="dd474" Type="Protein" GroupRef="d1474">
+        </DataNode>
+  <DataNode TextLabel="Apo C-II" GraphId="b1904" Type="Protein" GroupRef="d1474">
+        </DataNode>
+  <DataNode TextLabel="Apo C-III" GraphId="baae8" Type="Protein" GroupRef="d1474">
+        </DataNode>
+  <DataNode TextLabel="Apo B-48" GraphId="abdd7" Type="Protein" GroupRef="b8989">
+        </DataNode>
+  <DataNode TextLabel="Apo E" GraphId="e41e3" Type="Protein" GroupRef="b8989">
+        </DataNode>
+  <DataNode TextLabel="Apo C-II" GraphId="a9626" Type="Protein" GroupRef="b8989">
+        </DataNode>
+  <DataNode TextLabel="Apo C-III" GraphId="fc008" Type="Protein" GroupRef="b8989">
+        </DataNode>
+  <DataNode TextLabel="Chylomicron" GraphId="c8eb7" Type="Complex">
+        </DataNode>
+  <DataNode TextLabel="TG" GraphId="ffd78" Type="Metabolite" GroupRef="b8989">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="glycerol" GraphId="fbb22" Type="Metabolite" GroupRef="cb6c7">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="cholesterol" GraphId="a8ab0" Type="Metabolite" GroupRef="b8989">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="cholesterol" GraphId="b88d7" Type="Metabolite" GroupRef="dd3c1">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="cholesterol" GraphId="d6a32" Type="Metabolite" GroupRef="d9fbb">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="oxLDL" GraphId="d1cbe" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="cholesterol" GraphId="a8182" Type="Metabolite" GroupRef="d6679">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Apo E" GraphId="b807e" Type="Protein">
+        </DataNode>
+  <Interaction GraphId="id1ddb44b4">
+    <Graphics>
+      <Point GraphRef="fe999"/>
+      <Point GraphRef="ae77e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id311357b6">
+    <Graphics>
+      <Point GraphRef="a9626"/>
+      <Point GraphRef="fe999" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id59ee23b">
+    <Graphics>
+      <Point GraphRef="c44d8"/>
+      <Point GraphRef="a7738" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ecfba"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5bbe403b">
+    <BiopaxRef>d00</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="aafaa"/>
+      <Point GraphRef="acbd2" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f3e55"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6766c5ee">
+    <Graphics>
+      <Point GraphRef="d1855"/>
+      <Point GraphRef="b0325" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6ada6ba6">
+    <BiopaxRef>d9c</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b807e"/>
+      <Point GraphRef="d8f6c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida77e0f70">
+    <Graphics>
+      <Point GraphRef="aafaa"/>
+      <Point GraphRef="d8f6c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd424c752">
+    <Graphics>
+      <Point GraphRef="a7738"/>
+      <Point GraphRef="f5c88" ArrowHead="Arrow"/>
+      <Anchor Position="0.1291866028708134" Shape="None" GraphId="b0325"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideaf9b77c">
+    <Graphics>
+      <Point GraphRef="ffd78"/>
+      <Point GraphRef="a6d31" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.673469387755102" Shape="None" GraphId="ae77e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf4f04973">
+    <Graphics>
+      <Point GraphRef="a08d9"/>
+      <Point GraphRef="f3e55" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfed07c36">
+    <Graphics>
+      <Point GraphRef="e67ea"/>
+      <Point GraphRef="ecfba" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="aka LDL1" GraphId="d8efe">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="aka LDL2" GraphId="a99e3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="b16dd">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="cb6c7" GraphId="a6d31" Style="Group"/>
+  <Group GroupId="d9fbb" GraphId="aafaa" Style="Complex"/>
+  <Group GroupId="d6679" GraphId="acbd2" Style="Complex"/>
+  <Group GroupId="ce536" GraphId="cd43d" Style="Complex"/>
+  <Group GroupId="b8989" GraphId="d92c4" Style="Complex"/>
+  <Group GroupId="d1474" GraphId="d9618" Style="Complex"/>
+  <Group GroupId="dd3c1" GraphId="e8006" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >lipid metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000010</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d00">
+      <bp:ID >9054771</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Lewis A. Conner Memorial Lecture. Oxidative modification of LDL and atherogenesis.</bp:TITLE>
+      <bp:SOURCE >Circulation</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Steinberg D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d9c">
+      <bp:ID >3283935</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Apolipoprotein E: cholesterol transport protein with expanding role in cell biology.</bp:TITLE>
+      <bp:SOURCE >Science</bp:SOURCE>
+      <bp:YEAR >1988</bp:YEAR>
+      <bp:AUTHORS >Mahley RW</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

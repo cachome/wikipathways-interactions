@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Glucose homeostasis" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="WikiPathways-description">An organism-level overview of Glucose homeostasis. At this moment the focus is on metabolites that can be measured in the plasma, but it would be nice to show the interaction between the different organs (Adipose tissue, Liver, Intestine, Muscle) as well as the involvement of hormones other than insulin</Comment>
+  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
+  <BiopaxRef>e75</BiopaxRef>
+  <Graphics BoardWidth="764.0" BoardHeight="561.0"/>
+  <DataNode TextLabel="Glycerol" GraphId="a3695" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Isoleucine" GraphId="a87c1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Methionine" GraphId="a9475" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GCA" GraphId="b3e70" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Glycolysis" GraphId="b4868" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Glucose" GraphId="b4f4c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ornithine" GraphId="b5667" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Lactate" GraphId="b58bf" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Arginine" GraphId="b7e31" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Hypoxanthine" GraphId="c0de7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Histidine" GraphId="c1d43" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="B-OH-butyrate" GraphId="c71cd" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GCDCA" GraphId="c88a9" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Pyruvate" GraphId="c9c56" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TCDCA" GraphId="cae3d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Lipolysis" GraphId="cff47" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Ketogenesis" GraphId="d072b" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Malate" GraphId="d11cf" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Insulin" GraphId="d26d2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Tyrosine" GraphId="e0e6e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Proteolysis" GraphId="e9424" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Phenylalanine" GraphId="ece63" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Citrulline" GraphId="f042a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Lysine" GraphId="f355c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Hippuric acid" GraphId="f3575" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="valine" GraphId="fb26b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="a1e20">
+    <Graphics>
+      <Point GraphRef="b4f4c"/>
+      <Point GraphRef="d26d2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="abf77">
+    <Graphics>
+      <Point GraphRef="d26d2"/>
+      <Point GraphRef="a8c97" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b155b">
+    <Graphics>
+      <Point GraphRef="d26d2"/>
+      <Point GraphRef="e9424" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d965c">
+    <Graphics>
+      <Point GraphRef="d26d2"/>
+      <Point GraphRef="d072b" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e55cf">
+    <Graphics>
+      <Point GraphRef="d26d2"/>
+      <Point GraphRef="b4868" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ead31">
+    <Graphics>
+      <Point GraphRef="d26d2"/>
+      <Point GraphRef="cff47" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="ec177">
+    <Graphics Color="999999">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Bile salts" GraphId="a8c97">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e75">
+      <bp:ID >18682704</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Metabolic profiling of the human response to a glucose challenge reveals distinct axes of insulin sensitivity.</bp:TITLE>
+      <bp:SOURCE >Mol Syst Biol</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Shaham O</bp:AUTHORS>
+      <bp:AUTHORS >Wei R</bp:AUTHORS>
+      <bp:AUTHORS >Wang TJ</bp:AUTHORS>
+      <bp:AUTHORS >Ricciardi C</bp:AUTHORS>
+      <bp:AUTHORS >Lewis GD</bp:AUTHORS>
+      <bp:AUTHORS >Vasan RS</bp:AUTHORS>
+      <bp:AUTHORS >Carr SA</bp:AUTHORS>
+      <bp:AUTHORS >Thadhani R</bp:AUTHORS>
+      <bp:AUTHORS >Gerszten RE</bp:AUTHORS>
+      <bp:AUTHORS >Mootha VK</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >glucose homeostasis pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000553</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

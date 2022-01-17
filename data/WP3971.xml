@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="OSX and miRNAs in tooth development" Version="20170307" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Role of Osx and certain miRNAs in tooth development. 
+
+A &#8211; The role of Osx in dentinogenesis is shown by its regulation on Dspp. 
+
+B &#8211; Osx regulates the differentiation of cementoblasts through Wnt-&#946;-catenin pathway. 
+
+C &#8211; Fine-tuning role of miRNA in tooth development.</Comment>
+  <BiopaxRef>ed9</BiopaxRef>
+  <Graphics BoardWidth="1169.047619047619" BoardHeight="688.2142857142863"/>
+  <DataNode TextLabel="lithium chloride" GraphId="aaf82" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MIR145" GraphId="d2e9b" Type="GeneProduct">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR29C" GraphId="da0a7" Type="Rna" GroupRef="e815a">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="RUNX2" GraphId="df228" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="OSX" GraphId="d20bf" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="KLF4" GraphId="d6015" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DMP1" GraphId="dd831" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DSPP" GraphId="d1019" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BMP7" GraphId="a07ab" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NOTCH1" GraphId="f4161" Type="GeneProduct" GroupRef="f380f">
+        </DataNode>
+  <DataNode TextLabel="NOTCH2" GraphId="b0819" Type="GeneProduct" GroupRef="f380f">
+        </DataNode>
+  <DataNode TextLabel="NOTCH3" GraphId="bf3ff" Type="GeneProduct" GroupRef="f380f">
+        </DataNode>
+  <DataNode TextLabel="NOTCH4" GraphId="f73a9" Type="GeneProduct" GroupRef="f380f">
+        </DataNode>
+  <DataNode TextLabel="ALP" GraphId="ad418" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DKK1" GraphId="fce3a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOST" GraphId="d5705" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TCF-1" GraphId="f3bea" Type="GeneProduct" GroupRef="e96da">
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="cfcd1" Type="GeneProduct" GroupRef="e96da">
+        </DataNode>
+  <DataNode TextLabel="MIR338" GraphId="e64da" Type="GeneProduct">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR32" GraphId="f6667" Type="GeneProduct" GroupRef="c1568">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR586" GraphId="af8f6" Type="GeneProduct" GroupRef="c1568">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR885" GraphId="ac2bf" Type="GeneProduct" GroupRef="c1568">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR29A" GraphId="fb457" Type="GeneProduct" GroupRef="e815a">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR34A" GraphId="deedb" Type="GeneProduct">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIRLET7A1" GraphId="a3413" Type="GeneProduct" GroupRef="c2586">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR143" GraphId="a3c68" Type="GeneProduct">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR204" GraphId="a2a49" Type="GeneProduct" GroupRef="ccde0">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR211" GraphId="e7cab" Type="GeneProduct" GroupRef="ccde0">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIRLET7A2" GraphId="ad5cf" Type="GeneProduct" GroupRef="c2586">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIRLET7C" GraphId="f9065" Type="GeneProduct" GroupRef="c2586">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIRLET7D" GraphId="dc564" Type="GeneProduct" GroupRef="c2586">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIRLET7E" GraphId="d3d58" Type="GeneProduct" GroupRef="c2586">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIRLET7F1" GraphId="a9ab7" Type="GeneProduct" GroupRef="c2586">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIRLET7F2" GraphId="a308c" Type="GeneProduct" GroupRef="c2586">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIRLET7G" GraphId="df1a9" Type="GeneProduct" GroupRef="c2586">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIRLET7I" GraphId="bed1b" Type="GeneProduct" GroupRef="c2586">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR29B1" GraphId="e174f" Type="GeneProduct" GroupRef="e815a">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR29B2" GraphId="cec80" Type="GeneProduct" GroupRef="e815a">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <Interaction GraphId="id111b1c2c">
+    <Graphics>
+      <Point GraphRef="a07ab"/>
+      <Point GraphRef="ad418" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id12402926">
+    <Graphics>
+      <Point GraphRef="d6015"/>
+      <Point GraphRef="dd831" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id127cddd3">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a07ab" ArrowHead="Arrow"/>
+      <Point GraphRef="eaf7e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id19097705">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d5705"/>
+      <Point GraphRef="fc2cf" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id26c02a3e">
+    <Graphics>
+      <Point GraphRef="c91e7"/>
+      <Point GraphRef="d5705" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id297414cf">
+    <Graphics>
+      <Point GraphRef="d20bf"/>
+      <Point GraphRef="fce3a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2d0348a6">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ad418"/>
+      <Point GraphRef="a3327" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id37dee968">
+    <Graphics>
+      <Point GraphRef="d20bf"/>
+      <Point GraphRef="d1019" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3b88bb4e">
+    <Graphics>
+      <Point GraphRef="a3c68"/>
+      <Point GraphRef="d2e9b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id48aba018">
+    <Graphics>
+      <Point GraphRef="e64da"/>
+      <Point GraphRef="df228" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id59847cea">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f98fe"/>
+      <Point GraphRef="d1019" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id67085cfc">
+    <Graphics>
+      <Point GraphRef="a3327"/>
+      <Point GraphRef="c9621" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6f49b8db">
+    <Graphics>
+      <Point GraphRef="d4fb7"/>
+      <Point GraphRef="d6015" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7bbd3690">
+    <Graphics>
+      <Point GraphRef="aaf82"/>
+      <Point GraphRef="fc2cf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id829030ff">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d20bf"/>
+      <Point GraphRef="c91e7" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8d03deb0">
+    <Graphics>
+      <Point GraphRef="dd831"/>
+      <Point GraphRef="d1019" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida6c4bd4b">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c91e7"/>
+      <Point GraphRef="ad418" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb334b561">
+    <Graphics>
+      <Point GraphRef="fc2cf"/>
+      <Point GraphRef="a3327" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb451156b">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="deedb"/>
+      <Point GraphRef="eaf7e" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb54d12a9">
+    <Graphics>
+      <Point GraphRef="d1019"/>
+      <Point GraphRef="d92c4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc9d8a3f9">
+    <Graphics>
+      <Point GraphRef="a07ab"/>
+      <Point GraphRef="d1019" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd410dd84">
+    <Graphics>
+      <Point GraphRef="d2e9b"/>
+      <Point GraphRef="d6015" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idda1d4c5f">
+    <Graphics>
+      <Point GraphRef="eaf7e"/>
+      <Point GraphRef="d1019" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddc3b80b2">
+    <Graphics>
+      <Point GraphRef="eb514"/>
+      <Point GraphRef="dd831" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide43b3e6d">
+    <Graphics>
+      <Point GraphRef="fce3a"/>
+      <Point GraphRef="fc2cf" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idec7d7436">
+    <Graphics>
+      <Point GraphRef="d92c4"/>
+      <Point GraphRef="faecd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf04ba846">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="deedb"/>
+      <Point GraphRef="a07ab" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfd9945c4">
+    <Graphics>
+      <Point GraphRef="df228"/>
+      <Point GraphRef="d20bf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f305d">
+    <Graphics>
+      <Point GraphRef="d2e9b"/>
+      <Point GraphRef="d20bf" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="id440872be" GroupRef="b29b8">
+    <Graphics LineStyle="Broken">
+      <Point ArrowHead="Arrow"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="idb53ff69d" GroupRef="b29b8">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="iddde3b511" GroupRef="b29b8">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Stimulation" GraphId="c82b3" GroupRef="b29b8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cementum" GraphId="c9621">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cementoblast" GraphId="e33e6" GroupRef="e5e27">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="let-7 miRNAs" GraphId="f0fa3" GroupRef="c2586">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Dentin" GraphId="faecd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Odontoblast" GraphId="acdad" GroupRef="e3e94">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="mir-29 miRNAs" GraphId="a533c" GroupRef="e815a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inhibition" GraphId="d70a6" GroupRef="b29b8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Crosstalk" GraphId="d99d4" GroupRef="b29b8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Legend" GraphId="c3d49" GroupRef="b29b8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="B" GraphId="b61df">
+    <Graphics FillColor="ffffff" Color="dd8720"/>
+  </Label>
+  <Label TextLabel="A" GraphId="f7d5d">
+    <Graphics FillColor="ffffff" Color="dd8720"/>
+  </Label>
+  <Label TextLabel="C" GraphId="d97a8">
+    <Graphics FillColor="ffffff" Color="dd8720"/>
+  </Label>
+  <Label TextLabel="C" GraphId="e62bd">
+    <Graphics FillColor="ffffff" Color="dd8720"/>
+  </Label>
+  <Label TextLabel="C" GraphId="bca0c">
+    <Graphics FillColor="ffffff" Color="dd8720"/>
+  </Label>
+  <Label TextLabel="C" GraphId="b0717">
+    <Graphics FillColor="ffffff" Color="dd8720"/>
+  </Label>
+  <Label TextLabel="C" GraphId="c2ddb">
+    <Graphics FillColor="ffffff" Color="dd8720"/>
+  </Label>
+  <Label TextLabel="C" GraphId="df922">
+    <Graphics FillColor="ffffff" Color="dd8720"/>
+  </Label>
+  <Label TextLabel="A, B, C" GraphId="f21e0" GroupRef="b29b8">
+    <Graphics FillColor="ffffff" Color="dd8720"/>
+  </Label>
+  <Label TextLabel="Corresponds to &#10;pathway description" GraphId="e9676" GroupRef="b29b8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="d39a3" GroupRef="e5e27">
+    <Graphics FillColor="927992" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fc4b3" GroupRef="e3e94">
+    <Graphics FillColor="e1edf6" ShapeType="Oval" Color="0b6ad4"/>
+  </Shape>
+  <Shape GraphId="ca3a1" GroupRef="b29b8">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="ce5db" GroupRef="e5e27">
+    <Graphics FillColor="a0ccdb" ShapeType="Oval" Color="1884dc"/>
+  </Shape>
+  <Shape GraphId="d1560" GroupRef="e3e94">
+    <Graphics FillColor="ffbd41" ShapeType="Oval" Color="956813"/>
+  </Shape>
+  <Group GroupId="b29b8" Style="Group"/>
+  <Group GroupId="e5e27" GraphId="a3327" Style="Group"/>
+  <Group GroupId="ccde0" GraphId="c91e7" Style="Group"/>
+  <Group GroupId="ed0cd" GraphId="cd626" Style="Group"/>
+  <Group GroupId="e815a" GraphId="d4fb7" Style="Group"/>
+  <Group GroupId="e3e94" GraphId="d92c4" Style="Group"/>
+  <Group GroupId="f380f" GraphId="eaf7e" Style="Group"/>
+  <Group GroupId="c2586" GraphId="eb514" Style="Group"/>
+  <Group GroupId="c1568" GraphId="f98fe" Style="Group"/>
+  <Group GroupId="e96da" GraphId="fc2cf" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed9">
+      <bp:ID >27543160</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of Osterix and MicroRNAs in Bone Formation and Tooth Development.</bp:TITLE>
+      <bp:SOURCE >Med Sci Monit</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Wang C</bp:AUTHORS>
+      <bp:AUTHORS >Liao H</bp:AUTHORS>
+      <bp:AUTHORS >Cao Z</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>cementoblast</bp:TERM><bp:ID>CL:0000061</bp:ID><bp:Ontology>Cell Type</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>odontoblast</bp:TERM><bp:ID>CL:0000060</bp:ID><bp:Ontology>Cell Type</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>signaling pathway pertinent to development</bp:TERM><bp:ID>PW:0000650</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

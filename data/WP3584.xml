@@ -1,0 +1,1588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="MECP2 and associated Rett syndrome" Version="20150327" Author="Friederike Ehrhart" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">MECP2 (methyl-CpG binding protein 2) is in many mammals an important regulator of neuronal function and development. It affects all cell types, especially neurons but also astrocytes, oligodendrocytes, and glial cells. MECP2 plays an important role in neuronal differentiation, maturation, morphology and function and influences synaptic plasticity. Mutations impairing the proper function of MECP2 are mainly associated with the Rett syndrome but may also contribute to other neurological disorders like schizophrenia, FASD (fetal alcohol syndrome), PPM-X-syndrome, autism, Prader-Will-syndrome, and Angelman-syndrome. Dependant on the cofactors MECP2 acts as an activator or repressor of transcription and micro RNA production. It affects RNA splicing and regulates chromatin structure together with HP1 and interferes in methylation of DNA (epigenetics). The expression of MECP2 itself is highly regulated by promotor elements, cis-regulatory elements, polyadenylation, promotor DNA methylation and miRNA. 
+Please cite this pathways as: http://www.wikipathways.org/instance/WP3584 
+Ehrhart et al. 2016 http://dx.doi.org/10.1186/s13023-016-0545-5 - the pathway version in the paper is 90609.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3584 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>c74</BiopaxRef>
+  <Graphics BoardWidth="1486.062834604024" BoardHeight="1012.6927416280282"/>
+  <DataNode TextLabel="Dopamine" GraphId="a0f0e" Type="Metabolite" GroupRef="cadaf">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NCOR1" GraphId="a15a2" Type="GeneProduct" GroupRef="e5af6">
+    <Comment>nuclear receptor co-repressor 1</Comment>
+    <BiopaxRef>c4f</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="hsa-miR-222-3p" GraphId="a16ab" Type="Rna" GroupRef="e6ef9">
+    <BiopaxRef>c74</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="MYT1" GraphId="a28b8" Type="GeneProduct">
+    <Comment>myelin transcription factor 1</Comment>
+    <Comment>proof of Mecp2 inhibition  in Oligodendrocytes</Comment>
+    <BiopaxRef>d06</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="BRN3" GraphId="a3e8e" Type="GeneProduct" GroupRef="b220f">
+    <Comment>POU domain, class 4, transcription factor 1 </Comment>
+    <BiopaxRef>d06</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="hsa-miR-184 " GraphId="a4696" Type="Rna" GroupRef="d01de">
+    <Comment>The effect of Mecp2 on miR-184 is discussed controversially: Nomura et al. 2008 reports an Mecp2 dependant repression of miR-184 while Liu et al. 2010 reports no effect of Mecp2 but an MBD1 dependant regulation of miR-184</Comment>
+    <BiopaxRef>d7b</BiopaxRef>
+    <BiopaxRef>a0d</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-miR-29b-1-5p " GraphId="a46be" Type="Rna" GroupRef="d01de">
+    <BiopaxRef>f4f</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-miR-193a-5p " GraphId="a4d17" Type="Rna" GroupRef="d01de">
+    <BiopaxRef>c74</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="DLX5" GraphId="a5774" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MTOR" GraphId="a65fd" Type="GeneProduct" GroupRef="de645">
+        </DataNode>
+  <DataNode TextLabel="APOC2" GraphId="a7199" Type="GeneProduct" GroupRef="fd397">
+    <Comment>apolipoprotein C-II</Comment>
+        </DataNode>
+  <DataNode TextLabel="GABA" GraphId="a8349" Type="Metabolite">
+    <BiopaxRef>a0d</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-miR-137" GraphId="a8a41" Type="Rna" GroupRef="d01de">
+    <Comment>influences neuronal stem cell proliferation and differentiation</Comment>
+    <BiopaxRef>bcf</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-miR-329-5p" GraphId="a8da5" Type="Rna" GroupRef="d01de">
+    <BiopaxRef>f4f</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="HDAC1" GraphId="ab195" Type="GeneProduct" GroupRef="aeff6">
+        </DataNode>
+  <DataNode TextLabel="BDNF" GraphId="ab9d2" Type="GeneProduct">
+    <Comment>brain derived neurotrophic factor</Comment>
+    <BiopaxRef>c74</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="SST" GraphId="ae4fd" Type="GeneProduct" GroupRef="a93e1">
+    <Comment>Somatostatin</Comment>
+    <BiopaxRef>cd2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="HB1" GraphId="b0118" Type="GeneProduct" GroupRef="e5af6">
+    <Comment>chromatin factor, data obtained using human cell line and mouse primary tissue</Comment>
+    <BiopaxRef>d46</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NREP" GraphId="b24a7" Type="GeneProduct" GroupRef="fd397">
+    <Comment>neuronal regeneration related protein</Comment>
+        </DataNode>
+  <DataNode TextLabel="TET3" GraphId="b37d3" Type="GeneProduct" GroupRef="c6e99">
+        </DataNode>
+  <DataNode TextLabel="PI3K/MAPK " GraphId="b41f1" Type="Pathway" GroupRef="de645">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-miR-199a-5p" GraphId="b4cc4" Type="Rna" GroupRef="e6ef9">
+    <BiopaxRef>c74</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="Glycine" GraphId="b5147" Type="Metabolite" GroupRef="d36a6">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MECP2" GraphId="b5aaa" Type="GeneProduct">
+    <Comment>methyl CpG binding protein 2</Comment>
+        </DataNode>
+  <DataNode TextLabel="BRN2" GraphId="b7d84" Type="GeneProduct" GroupRef="a8a74">
+    <Comment>POU domain, class 3, transcription factor 2</Comment>
+    <BiopaxRef>c74</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="DLX6" GraphId="b8483" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="hsa-miR-130a" GraphId="b8c45" Type="Rna" GroupRef="e6ef9">
+    <Comment>Base sequence! It is unclear which mature miRNA was tested.</Comment>
+    <BiopaxRef>f4f</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="HP1" GraphId="b9462" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SMC3" GraphId="b9de1" Type="GeneProduct" GroupRef="e5af6">
+    <Comment>tructural maintenance of chromosomes 3</Comment>
+        </DataNode>
+  <DataNode TextLabel="hsa-miR-199a-3p" GraphId="ba667" Type="Rna" GroupRef="abb00">
+    <BiopaxRef>bee</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-miR-130b-3p" GraphId="baa04" Type="Rna">
+    <Comment>reported for human only</Comment>
+    <Comment>binding site at 3'UTR of Mecp2 reported, regulative effect unclear</Comment>
+    <BiopaxRef>bfa</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-miR-146b-3p " GraphId="bd0e7" Type="Rna" GroupRef="e6ef9">
+    <BiopaxRef>f4f</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="Norepinephrine" GraphId="be393" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-miR-483-5p" GraphId="bf2a3" Type="Rna" GroupRef="abb00">
+    <Comment>inhibition of Mecp2 expression only reported for human!</Comment>
+    <BiopaxRef>c20</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="MEF2C" GraphId="c199c" Type="GeneProduct" GroupRef="abf1e">
+    <Comment>myocyte enhancer factor 2C</Comment>
+    <BiopaxRef>cd2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TAP1" GraphId="c1bed" Type="GeneProduct" GroupRef="b6aa3">
+    <Comment>transporter 1, ATP-binding cassette, sub-family B (MDR/TAP) </Comment>
+    <BiopaxRef>c74</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Norepinephrine" GraphId="c2002" Type="Metabolite" GroupRef="cadaf">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UBE3A" GraphId="c2fec" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NMDA" GraphId="c3eba" Type="Metabolite" GroupRef="d36a6">
+    <Comment>N-Methyl-D-aspartic acid</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="RBFOX1" GraphId="c41f0" Type="GeneProduct" GroupRef="abf1e">
+    <Comment>ataxin 2 binding protein 1, Rbfox1</Comment>
+    <BiopaxRef>cd2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CNP" GraphId="c497b" Type="GeneProduct" GroupRef="cac1c">
+    <Comment>2',3'-cyclic nucleotide 3' phosphodiesterase</Comment>
+    <BiopaxRef>bf3</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Glutamate" GraphId="c50c6" Type="Metabolite">
+    <BiopaxRef>d5e</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TET2" GraphId="c5abd" Type="GeneProduct" GroupRef="c6e99">
+        </DataNode>
+  <DataNode TextLabel="SGK1" GraphId="c5d67" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Serotonin" GraphId="c629d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FKBP5" GraphId="c7721" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RPS6" GraphId="c79bb" Type="GeneProduct">
+    <BiopaxRef>d35</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="hsa-miR-132-5p" GraphId="c9f62" Type="Rna" GroupRef="abb00">
+    <BiopaxRef>d4c</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ak087060" GraphId="cb49e" Type="GeneProduct" GroupRef="e4c86">
+    <BiopaxRef>bd9</BiopaxRef>
+    <Graphics Color="ff0066"/>
+    </DataNode>
+  <DataNode TextLabel="EZH2" GraphId="cb4d2" Type="GeneProduct">
+    <Comment>histone H3 lysine 27 methyltransferase</Comment>
+    <BiopaxRef>bcf</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GAMT" GraphId="cba67" Type="GeneProduct" GroupRef="a93e1">
+    <Comment>guanidinoacetate methyltransferase</Comment>
+    <BiopaxRef>cd2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="hsa-miR-197-3p " GraphId="cbe45" Type="Rna" GroupRef="e6ef9">
+    <BiopaxRef>c74</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-miR-199b-5p " GraphId="cbf40" Type="Rna" GroupRef="d01de">
+    <BiopaxRef>f4f</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="AKT1" GraphId="cc356" Type="GeneProduct" GroupRef="de645">
+        </DataNode>
+  <DataNode TextLabel="H3" GraphId="cc402" Type="GeneProduct">
+    <Comment>Histone 3</Comment>
+    <BiopaxRef>bcf</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MPP1" GraphId="ce046" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="OPRK1" GraphId="cee4b" Type="GeneProduct" GroupRef="a93e1">
+    <Comment>opioid receptor, kappa 1</Comment>
+    <BiopaxRef>cd2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Trofinetide" GraphId="cfb6a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-miR-296-5p" GraphId="d230e" Type="Rna" GroupRef="d01de">
+    <BiopaxRef>f4f</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="ARHGEF26" GraphId="d39d3" Type="GeneProduct">
+    <Comment>Rho guanine nucleotide exchange factor (GEF) 26</Comment>
+    <BiopaxRef>bd9</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="SIN3A" GraphId="d49cf" Type="GeneProduct" GroupRef="aeff6">
+    <BiopaxRef>c74</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="IGF2" GraphId="d4c72" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Ak081227" GraphId="d4dc9" Type="GeneProduct" GroupRef="e4c86">
+    <BiopaxRef>bd9</BiopaxRef>
+    <Graphics Color="ff0066"/>
+    </DataNode>
+  <DataNode TextLabel="Dopamine" GraphId="d5d5b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SP1" GraphId="d6cbd" Type="GeneProduct" GroupRef="b6aa3">
+    <Comment>trans-acting transcription factor 1</Comment>
+    <BiopaxRef>ecf</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GAD1" GraphId="d775a" Type="GeneProduct">
+    <BiopaxRef>a0d</BiopaxRef>
+    <BiopaxRef>b72</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TAF1" GraphId="d7a4f" Type="GeneProduct" GroupRef="b6aa3">
+    <Comment>TAF1 RNA polymerase II, TATA box binding protein (TBP)-associated factor</Comment>
+    <BiopaxRef>ecf</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="HNRNPH1" GraphId="d8ecd" Type="GeneProduct">
+    <Comment>HNRNPH1</Comment>
+    <BiopaxRef>e66</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="hsa-miR-342-3p" GraphId="da74a" Type="Rna" GroupRef="e6ef9">
+    <BiopaxRef>f4f</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="CSRP1" GraphId="dab81" Type="GeneProduct" GroupRef="fd397">
+    <Comment>cysteine and glycine-rich protein 1</Comment>
+        </DataNode>
+  <DataNode TextLabel="hsa-miR-382-3p" GraphId="dc13b" Type="Rna" GroupRef="d01de">
+    <BiopaxRef>f4f</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-miR-221-5p" GraphId="deffb" Type="Rna" GroupRef="d01de">
+    <BiopaxRef>f4f</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-miR-30a-3p " GraphId="dfe42" Type="Rna" GroupRef="abb00">
+    <Comment>reported for human umbilical vein endothelial cells only</Comment>
+    <BiopaxRef>c56</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="GRID1" GraphId="e2907" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="hsa-miR-409-3p" GraphId="e4aed" Type="Rna" GroupRef="e6ef9">
+    <BiopaxRef>f4f</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="CDON" GraphId="e502b" Type="GeneProduct" GroupRef="fd397">
+    <Comment>cell adhesion molecule-related/down-regulated by oncogenes</Comment>
+        </DataNode>
+  <DataNode TextLabel="MYT1" GraphId="e5a77" Type="GeneProduct" GroupRef="b220f">
+    <Comment>Myelin transcription factor 1</Comment>
+    <BiopaxRef>d06</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="C/EBP" GraphId="e5f4a" Type="GeneProduct" GroupRef="b6aa3">
+    <Comment>CCAAT/enhancer binding protein (Cebpd), delta</Comment>
+    <BiopaxRef>c74</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="hsa-miR-146a-5p " GraphId="e7be3" Type="Rna" GroupRef="e6ef9">
+    <BiopaxRef>f4f</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="CAMK2A" GraphId="e7c53" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MBP" GraphId="e9615" Type="GeneProduct" GroupRef="cac1c">
+    <Comment>myelin basic protein</Comment>
+    <BiopaxRef>be3</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="hsa-miR-221-3p" GraphId="eb387" Type="Rna" GroupRef="e6ef9">
+    <BiopaxRef>c74</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="Melatonin" GraphId="ec904" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="BCL6" GraphId="ec9b2" Type="GeneProduct" GroupRef="a8a74">
+    <Comment>B cell leukemia/lymphoma 6</Comment>
+    <BiopaxRef>d06</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GABRR2" GraphId="f15bd" Type="GeneProduct">
+    <Comment>gamma-aminobutyric acid (GABA) C receptor, subunit rho 2</Comment>
+    <BiopaxRef>bd9</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CTCF" GraphId="f287d" Type="GeneProduct" GroupRef="b6aa3">
+    <Comment>CCCTC-binding factor </Comment>
+    <BiopaxRef>ecf</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="SP3" GraphId="f2b4f" Type="GeneProduct" GroupRef="b6aa3">
+    <Comment>trans-acting transcription factor 3</Comment>
+    <BiopaxRef>c74</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="hsa-miR-187-5p " GraphId="f3048" Type="Rna" GroupRef="d01de">
+    <Comment>no connection between Mecp2 and miR-187 in other sources than [3]</Comment>
+    <BiopaxRef>c74</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-miR-152-3p " GraphId="f388b" Type="Rna" GroupRef="abb00">
+    <BiopaxRef>bee</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="PRPF3" GraphId="f497a" Type="GeneProduct" GroupRef="f9e99">
+    <Comment>PRP3 pre-mRNA processing factor 3 homolog (yeast)</Comment>
+    <BiopaxRef>f56</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="E2F1" GraphId="f5e35" Type="GeneProduct" GroupRef="b6aa3">
+    <Comment>E2F transcription factor 1 </Comment>
+    <BiopaxRef>c74</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="AMPA" GraphId="f5eb8" Type="GeneProduct">
+    <Comment>Glutamate receptor</Comment>
+    <BiopaxRef>d9e</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="REST" GraphId="f743a" Type="GeneProduct" GroupRef="a8a74">
+    <Comment>RE1-silencing transcription factor</Comment>
+    <Comment>Silences Mecp2 in non-neuronal tissue</Comment>
+    <BiopaxRef>d06</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MAG" GraphId="f74be" Type="GeneProduct" GroupRef="cac1c">
+    <Comment>myelin-associated glycoprotein</Comment>
+    <BiopaxRef>be3</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GPRIN1" GraphId="f9894" Type="GeneProduct" GroupRef="a93e1">
+    <Comment>G protein-regulated inducer of neurite outgrowth 1</Comment>
+    <BiopaxRef>cd2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Serotonin" GraphId="f9a1e" Type="Metabolite" GroupRef="cadaf">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TET1" GraphId="f9bc0" Type="GeneProduct" GroupRef="c6e99">
+    <Comment>tet methylcytosine dioxygenase 1</Comment>
+    <BiopaxRef>b51</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="IGF1R" GraphId="fa248" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="hsa-miR-92a-3p " GraphId="faac1" Type="Rna" GroupRef="d01de">
+    <Comment/>
+    <BiopaxRef>f4f</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="HNRNPF" GraphId="fcec3" Type="GeneProduct">
+    <Comment>Hnrnpf</Comment>
+    <Comment>heterogeneous nuclear ribonucleoprotein F</Comment>
+    <BiopaxRef>e66</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="hsa-miR-122-5p" GraphId="fe842" Type="Rna" GroupRef="e6ef9">
+    <BiopaxRef>f4f</BiopaxRef>
+    <Graphics Color="9900ff"/>
+    </DataNode>
+  <DataNode TextLabel="Myoinositol" GraphId="ff3d5" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cytosine methylation " GraphId="ff5d7" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="YB1" GraphId="d6b6c" Type="GeneProduct" GroupRef="f9e99">
+    <Comment>data obtained with human cell line and mouse primary tissue</Comment>
+    <Comment>Y box protein 1</Comment>
+    <BiopaxRef>d46</BiopaxRef>
+    <BiopaxRef>e24</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MECP2" GraphId="cfdc1" Type="GeneProduct" GroupRef="aeff6">
+    <Comment>methyl CpG binding protein 2</Comment>
+        </DataNode>
+  <DataNode TextLabel="MECP2" GraphId="f18a3" Type="GeneProduct">
+    <Comment>methyl CpG binding protein 2</Comment>
+        </DataNode>
+  <DataNode TextLabel="SP1" GraphId="bc2e4" Type="GeneProduct" GroupRef="b220f">
+    <Comment>trans-acting transcription factor 1</Comment>
+    <BiopaxRef>ecf</BiopaxRef>
+    <BiopaxRef>d06</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Glutamate" GraphId="ff12a" Type="Metabolite">
+    <BiopaxRef>d5e</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GABA" GraphId="e0993" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CREB1" GraphId="d20c1" Type="GeneProduct" GroupRef="d0e6f">
+        </DataNode>
+  <DataNode TextLabel="RPS6" GraphId="d47bb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BDNF" GraphId="df330" Type="GeneProduct">
+    <Comment>brain derived neurotrophic factor</Comment>
+    <BiopaxRef>c74</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GAMT" GraphId="dd398" Type="GeneProduct">
+    <Comment>guanidinoacetate methyltransferase</Comment>
+    <BiopaxRef>cd2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Glutamate" GraphId="f5a86" Type="Metabolite">
+    <BiopaxRef>d5e</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GABA" GraphId="c3063" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MECP2" GraphId="fed1a" Type="GeneProduct" GroupRef="d0e6f">
+    <Comment>methyl CpG binding protein 2</Comment>
+        </DataNode>
+  <DataNode TextLabel="D-serine" GraphId="ff3e4" Type="Metabolite" GroupRef="d36a6">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="IGF1" GraphId="f44f9" Type="GeneProduct">
+    <Comment>Glutamate receptor</Comment>
+        </DataNode>
+  <DataNode TextLabel="FOXG1" GraphId="e0a45" Type="GeneProduct">
+    <Comment>Glutamate receptor</Comment>
+        </DataNode>
+  <DataNode TextLabel="PI3K" GraphId="fbf10" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PTEN" GraphId="f3a01" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DHX9" GraphId="e1ef8" Type="GeneProduct" GroupRef="c92c5">
+    <Comment>binding to MECP2 confirmed in mice</Comment>
+        </DataNode>
+  <DataNode TextLabel="FUS" GraphId="f9617" Type="GeneProduct" GroupRef="c92c5">
+    <Comment>binding to MECP2 confirmed in mice</Comment>
+        </DataNode>
+  <DataNode TextLabel="HNRNPF" GraphId="ea645" Type="GeneProduct" GroupRef="c92c5">
+    <Comment>binding to MECP2 confirmed in mice</Comment>
+    <Comment>also known as hnRNPH+F</Comment>
+        </DataNode>
+  <DataNode TextLabel="TARDBP" GraphId="f0d50" Type="GeneProduct" GroupRef="c92c5">
+    <Comment>binding to MECP2 confirmed in mice</Comment>
+    <Comment>also known as TDP-43</Comment>
+        </DataNode>
+  <DataNode TextLabel="PSIP1" GraphId="f4e2f" Type="GeneProduct" GroupRef="c92c5">
+    <Comment>binding to MECP2 confirmed in mice</Comment>
+    <Comment>also known as LEDGF</Comment>
+        </DataNode>
+  <DataNode TextLabel="FUT8" GraphId="b3358" Type="GeneProduct" GroupRef="b25e5">
+    <Comment>fucosyltransferase 8</Comment>
+    <BiopaxRef>c74</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="FGF2" GraphId="f88be" Type="GeneProduct" GroupRef="b25e5">
+    <Comment>fibroblast growth factor 2</Comment>
+    <BiopaxRef>c74</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GRIN1" GraphId="bb048" Type="GeneProduct" GroupRef="b25e5">
+    <Comment>related to FASD (fetal alcohole spectrum disorder)</Comment>
+    <Comment>NMDA receptor subunit: There are 8 different variants of NR1, produced by alternative splicing of GRIN1</Comment>
+    <BiopaxRef>e24</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="FGF3" GraphId="b8240" Type="GeneProduct" GroupRef="b25e5">
+    <Comment>fibroblast growth factor 3</Comment>
+    <BiopaxRef>c74</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="FGF4" GraphId="a7283" Type="GeneProduct" GroupRef="b25e5">
+    <BiopaxRef>c74</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="FGF5" GraphId="f6047" Type="GeneProduct" GroupRef="b25e5">
+    <BiopaxRef>c74</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NF1" GraphId="ad28c" Type="GeneProduct" GroupRef="b25e5">
+    <Comment>neurofibromatosis 1</Comment>
+    <BiopaxRef>a12</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="DLX5" GraphId="dc752" Type="GeneProduct" GroupRef="b25e5">
+    <Comment>distal-less homeobox 5</Comment>
+    <Comment>controls GABA production</Comment>
+    <BiopaxRef>e24</BiopaxRef>
+    <BiopaxRef>a0d</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GRIA1" GraphId="e5453" Type="GeneProduct" GroupRef="b25e5">
+    <Comment>effect of MECP2 via  LEDGF/PSIP1 influenced change of splice variants proven for mice</Comment>
+    <Comment>Subpart of AMPAR receptor</Comment>
+    <BiopaxRef>b6e</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GRIA3" GraphId="ab30c" Type="GeneProduct" GroupRef="b25e5">
+    <Comment>effect of MECP2 via  LEDGF/PSIP1 influenced change of splice variants proven for mice</Comment>
+    <Comment>Subpart of AMPAR receptor</Comment>
+    <BiopaxRef>b6e</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GRIA4" GraphId="da69f" Type="GeneProduct" GroupRef="b25e5">
+    <Comment>effect of MECP2 via  LEDGF/PSIP1 influenced change of splice variants proven for mice</Comment>
+    <Comment>Subpart of AMPAR receptor</Comment>
+    <BiopaxRef>b6e</BiopaxRef>
+        </DataNode>
+  <Interaction>
+    <BiopaxRef>dc1</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f44f9"/>
+      <Point GraphRef="fa248" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <BiopaxRef>e45</BiopaxRef>
+    <BiopaxRef>d10</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cfb6a"/>
+      <Point GraphRef="fa248" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id12c8ab8c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f4c47"/>
+      <Point GraphRef="b5aaa" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id15723cb8">
+    <Graphics>
+      <Point GraphRef="a339f"/>
+      <Point GraphRef="e7c53" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1573ec9c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a8a41"/>
+      <Point GraphRef="cb4d2" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id18d6cba1">
+    <BiopaxRef>f89</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b5aaa"/>
+      <Point/>
+      <Point GraphRef="e0a45" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id18f3352e">
+    <Graphics>
+      <Point GraphRef="d39d3"/>
+      <Point GraphRef="ed348" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1c3def3d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fcec3"/>
+      <Point/>
+      <Point GraphRef="b5aaa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2450addf">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="eb94b"/>
+      <Point/>
+      <Point GraphRef="b5aaa" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2564ade6">
+    <BiopaxRef>f89</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f44f9"/>
+      <Point GraphRef="b5aaa" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2d0bb18c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b5aaa"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="df08e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2e73b98">
+    <Graphics>
+      <Point GraphRef="db9d2"/>
+      <Point GraphRef="ab9d2" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3094d8c7">
+    <Graphics>
+      <Point GraphRef="ff12a"/>
+      <Point GraphRef="d775a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id362bb104">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f0209"/>
+      <Point GraphRef="b5aaa" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id369d65eb">
+    <Graphics>
+      <Point GraphRef="cc402"/>
+      <Point GraphRef="e30b7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id36da2ee0">
+    <Graphics>
+      <Point GraphRef="aa42d"/>
+      <Point GraphRef="d0c19" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id398efdb3">
+    <Graphics>
+      <Point GraphRef="cb4d2"/>
+      <Point GraphRef="cc402" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3bcd32">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b5aaa"/>
+      <Point GraphRef="f5eb8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3fa9ee95">
+    <BiopaxRef>f89</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fbf10"/>
+      <Point GraphRef="cc356" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id47c0ce45">
+    <Graphics>
+      <Point GraphRef="f18a3"/>
+      <Point GraphRef="c3ce4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4a259c62">
+    <Graphics>
+      <Point GraphRef="f18a3"/>
+      <Point GraphRef="ab9d2" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4d764634">
+    <Graphics>
+      <Point GraphRef="db9d2"/>
+      <Point GraphRef="da209" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4f207df3">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b5aaa"/>
+      <Point/>
+      <Point GraphRef="ff12a" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id575dcf88">
+    <Graphics>
+      <Point GraphRef="eecef"/>
+      <Point GraphRef="ff5d7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id621c1ed1">
+    <Graphics>
+      <Point GraphRef="cc402"/>
+      <Point GraphRef="de831" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6398fcdc">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b5aaa"/>
+      <Point/>
+      <Point GraphRef="f15e6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6db451c9">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b5aaa"/>
+      <Point/>
+      <Point GraphRef="b7b18" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6df7811">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="baa04"/>
+      <Point GraphRef="b5aaa"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6f471503">
+    <Graphics>
+      <Point GraphRef="db9d2"/>
+      <Point GraphRef="f18a3" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7890571101575878" Shape="None" GraphId="b2b0b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id703b03b">
+    <Comment>influences alternative splicing, changes ratio of splice variants</Comment>
+    <BiopaxRef>b6e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f4e2f"/>
+      <Point GraphRef="da69f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id71c6c3ab">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b5aaa"/>
+      <Point GraphRef="db9d2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id74b2c575">
+    <Graphics>
+      <Point GraphRef="cb49e"/>
+      <Point GraphRef="d39d3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id75cc558e">
+    <Graphics>
+      <Point GraphRef="f18a3"/>
+      <Point GraphRef="e5190" ArrowHead="mim-covalent-bond"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id76583f54">
+    <BiopaxRef>f89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fa248"/>
+      <Point GraphRef="fbf10" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7d7e28a3">
+    <Graphics>
+      <Point GraphRef="c2119"/>
+      <Point GraphRef="a339f" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8106cf36">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cb407"/>
+      <Point GraphRef="b5aaa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id83a11120">
+    <Graphics>
+      <Point GraphRef="dc752"/>
+      <Point GraphRef="d775a" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8a62b5a0">
+    <Graphics>
+      <Point GraphRef="db9d2"/>
+      <Point GraphRef="b991b" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8dba0bea">
+    <BiopaxRef>f89</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f3a01"/>
+      <Point GraphRef="fbf10" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8e7af5c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a28b8"/>
+      <Point/>
+      <Point GraphRef="b5aaa" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id93a34dd9">
+    <Graphics>
+      <Point GraphRef="d775a"/>
+      <Point GraphRef="a8349" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id93a784b4">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b5aaa"/>
+      <Point GraphRef="b5f42" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id94d9f609">
+    <Graphics>
+      <Point GraphRef="ef854"/>
+      <Point GraphRef="e51ba" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id98880116">
+    <BiopaxRef>e24</BiopaxRef>
+    <BiopaxRef>d46</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b5aaa"/>
+      <Point/>
+      <Point GraphRef="d6b6c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id99c43cea">
+    <Graphics>
+      <Point GraphRef="a6834"/>
+      <Point GraphRef="c3ce4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9df6cf26">
+    <Graphics>
+      <Point GraphRef="e1a3c"/>
+      <Point GraphRef="ba0d8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida2e46ea4">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ff12a"/>
+      <Point GraphRef="bb048" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida3312ec1">
+    <Graphics>
+      <Point GraphRef="e7c53"/>
+      <Point GraphRef="b2b0b" ArrowHead="mim-catalysis"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ba0d8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida4a8b443">
+    <Graphics>
+      <Point GraphRef="b5aaa"/>
+      <Point GraphRef="d20c1" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida6a9fa9d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d8ecd"/>
+      <Point/>
+      <Point GraphRef="b5aaa" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida74df2c8">
+    <Graphics>
+      <Point GraphRef="d4dc9"/>
+      <Point GraphRef="f15bd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb3b2615b">
+    <Graphics>
+      <Point GraphRef="f88be"/>
+      <Point GraphRef="fe0e1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb9aa4a32">
+    <Graphics>
+      <Point GraphRef="d47bb"/>
+      <Point GraphRef="da976" ArrowHead="mim-covalent-bond"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb9b67eed">
+    <BiopaxRef>f89</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cc356"/>
+      <Point/>
+      <Point GraphRef="e0a45" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc2aac5b0">
+    <Graphics>
+      <Point GraphRef="ff12a"/>
+      <Point GraphRef="f5eb8" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc676aee3">
+    <BiopaxRef>f56</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b5aaa"/>
+      <Point/>
+      <Point GraphRef="f497a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc854287">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b5aaa"/>
+      <Point GraphRef="a9612" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idccdef421">
+    <Graphics>
+      <Point GraphRef="b5aaa"/>
+      <Point GraphRef="eecef" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcd318e8b">
+    <Graphics>
+      <Point GraphRef="f18a3"/>
+      <Point GraphRef="baf71" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd3611ba6">
+    <BiopaxRef>f89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f44f9"/>
+      <Point GraphRef="e0a45" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd651faa1">
+    <Graphics>
+      <Point GraphRef="b9462"/>
+      <Point GraphRef="de831" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd7ce9853">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b5aaa"/>
+      <Point GraphRef="b9462" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide63237c3">
+    <Graphics>
+      <Point GraphRef="f15e6"/>
+      <Point GraphRef="d5847" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide73511df">
+    <Graphics>
+      <Point GraphRef="b9ad5"/>
+      <Point GraphRef="bb048" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide7765a90">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b5aaa"/>
+      <Point/>
+      <Point GraphRef="f127d" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf2a25a0b">
+    <Graphics>
+      <Point GraphRef="c79bb"/>
+      <Point GraphRef="d47bb" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d5847"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de16a">
+    <Graphics>
+      <Point GraphRef="e0993"/>
+      <Point GraphRef="f15bd" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e73a4">
+    <BiopaxRef>b6e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b5aaa"/>
+      <Point/>
+      <Point GraphRef="eacf2" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cbbc2">
+    <Comment>influences alternative splicing, changes ratio of splice variants</Comment>
+    <BiopaxRef>b6e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f4e2f"/>
+      <Point GraphRef="ab30c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c57cc">
+    <Comment>influences alternative splicing, changes ratio of splice variants</Comment>
+    <BiopaxRef>b6e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f4e2f"/>
+      <Point GraphRef="e5453" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="neuronal activity&#10;leads to increase of Ca2+  " GraphId="a339f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="effects on specific cells" GraphId="abefe">
+    <Graphics FillColor="ffffff" Color="009966"/>
+  </Label>
+  <Label TextLabel="regulation by miRNA (mostly&#10;posttranscriptional repression)" GraphId="b06b5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Oligodendrocytes" GraphId="b560f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Activation of transcription&#10;(stop of inhibition, res. from&#10;phosphorylated MECP2)" GraphId="c3ce4">
+    <Graphics FillColor="ffffff" Color="009933"/>
+  </Label>
+  <Label TextLabel="List of genes and metabolites which are up or downregulated in Rett syndrome " GraphId="c4483">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="MECP2 influences&#10;protein synthesis via&#10;AKT/mTOR pathway" GraphId="ce4c5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="regulation of&#10;miRNA" GraphId="cf2b2">
+    <Graphics FillColor="ffffff" Color="000066"/>
+  </Label>
+  <Label TextLabel="trimethyl lysine 27" GraphId="d0145" GroupRef="fa8b2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="cofactors" GraphId="d0cf9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="transcriptional and translational&#10;regulation of MECP2" GraphId="d14ca">
+    <Graphics FillColor="ffffff" Color="660066"/>
+  </Label>
+  <Label TextLabel="Microglia" GraphId="d42fb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="alternative&#10;splicing " GraphId="da742">
+    <Graphics FillColor="ffffff" Color="000066"/>
+  </Label>
+  <Label TextLabel="DNA binding" GraphId="de831">
+    <Graphics FillColor="ffffff" Color="000066"/>
+  </Label>
+  <Label TextLabel="upregulated&#10;by MECP2" GraphId="e239b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Histone deacetylation" GraphId="e51ba">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="MECP2 - HDAC complex " GraphId="e6bdb">
+    <Graphics FillColor="ffffff" Color="000066"/>
+  </Label>
+  <Label TextLabel="Trans-regulator Elements stimulate/inhibit&#10;by Polyadenylation of Mecp2 " GraphId="e7b2a">
+    <Graphics FillColor="ffffff" Align="Right"/>
+  </Label>
+  <Label TextLabel="regulation of&#10;long noncoding RNA" GraphId="e93ee">
+    <Graphics FillColor="ffffff" Color="000066"/>
+  </Label>
+  <Label TextLabel="Astrocytes" GraphId="e9e5d">
+    <BiopaxRef>b5e</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="macropinocytosis " GraphId="ed348">
+    <Comment>actin-driven endocytic process 
+contributes to repulsive turning 
+in the axons of neurons and retinal 
+cone growth</Comment>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="DNA condensing" GraphId="ee947">
+    <Graphics FillColor="ffffff" Color="000066"/>
+  </Label>
+  <Label TextLabel="Promotor elements" GraphId="eef7f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cis-Regulatory Elements" GraphId="f5349">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="cell proliferation" GraphId="fe0e1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="e1a3c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="e5190">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="da976">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="down regulated&#10;by MECP2" GraphId="a2149">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="upregulated&#10;by MECP2" GraphId="b8cd7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="down regulated&#10;by MECP2" GraphId="a5268">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="d501d">
+    <Graphics FillColor="ccffff" ShapeType="Rectangle" Color="ccffff"/>
+  </Shape>
+  <Shape GraphId="d8f6d">
+    <Graphics FillColor="ffcccc" ShapeType="Rectangle" Color="ffcccc"/>
+  </Shape>
+  <Shape GraphId="f3817" GroupRef="bedfd">
+    <Graphics FillColor="ccffcc" ShapeType="Rectangle" Color="ccffcc"/>
+  </Shape>
+  <Shape GraphId="ac818">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b61a2">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e30b7" GroupRef="fa8b2">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="eb4de">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ef854">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Group GroupId="d0e6f" GraphId="a6834" Style="Complex"/>
+  <Group GroupId="fd397" GraphId="a9612" Style="Group"/>
+  <Group GroupId="f9e99" GraphId="aa42d" Style="Group"/>
+  <Group GroupId="e4c86" GraphId="b5f42" Style="Group"/>
+  <Group GroupId="d01de" GraphId="b7b18" Style="Group"/>
+  <Group GroupId="e5af6" GraphId="b991b" Style="Group"/>
+  <Group GroupId="d36a6" GraphId="b9ad5" Style="Group"/>
+  <Group GroupId="a93e1" GraphId="baf71" Style="Group"/>
+  <Group GroupId="cadaf" GraphId="c2119" Style="Group"/>
+  <Group GroupId="b220f" GraphId="cb407" Style="Group"/>
+  <Group GroupId="b25e5" GraphId="d0c19" Style="Group"/>
+  <Group GroupId="abf1e" GraphId="da209" Style="Group"/>
+  <Group GroupId="aeff6" GraphId="db9d2" Style="Complex"/>
+  <Group GroupId="fa8b2" GraphId="dc890" Style="Group"/>
+  <Group GroupId="cac1c" GraphId="df08e" Style="Group"/>
+  <Group GroupId="bedfd" GraphId="e51f8" Style="Group"/>
+  <Group GroupId="c92c5" GraphId="eacf2" Style="Group"/>
+  <Group GroupId="abb00" GraphId="eb94b" Style="Group"/>
+  <Group GroupId="c6e99" GraphId="eecef" Style="Complex"/>
+  <Group GroupId="b6aa3" GraphId="f0209" Style="Group"/>
+  <Group GroupId="e6ef9" GraphId="f127d" Style="Group"/>
+  <Group GroupId="de645" GraphId="f15e6" Style="Group"/>
+  <Group GroupId="a8a74" GraphId="f4c47" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bcf">
+      <bp:ID >20368621</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cross talk between microRNA and epigenetic regulation in adult neurogenesis.</bp:TITLE>
+      <bp:SOURCE >J Cell Biol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Szulwach KE</bp:AUTHORS>
+      <bp:AUTHORS >Li X</bp:AUTHORS>
+      <bp:AUTHORS >Smrt RD</bp:AUTHORS>
+      <bp:AUTHORS >Li Y</bp:AUTHORS>
+      <bp:AUTHORS >Luo Y</bp:AUTHORS>
+      <bp:AUTHORS >Lin L</bp:AUTHORS>
+      <bp:AUTHORS >Santistevan NJ</bp:AUTHORS>
+      <bp:AUTHORS >Li W</bp:AUTHORS>
+      <bp:AUTHORS >Zhao X</bp:AUTHORS>
+      <bp:AUTHORS >Jin P</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c74">
+      <bp:ID >24615633</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Rett syndrome and MeCP2.</bp:TITLE>
+      <bp:SOURCE >Neuromolecular Med</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Liyanage VR</bp:AUTHORS>
+      <bp:AUTHORS >Rastegar M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d4c">
+      <bp:ID >20010955</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Ischemic preconditioning regulates expression of microRNAs and a predicted target, MeCP2, in mouse cortex.</bp:TITLE>
+      <bp:SOURCE >J Cereb Blood Flow Metab</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Lusardi TA</bp:AUTHORS>
+      <bp:AUTHORS >Farr CD</bp:AUTHORS>
+      <bp:AUTHORS >Faulkner CL</bp:AUTHORS>
+      <bp:AUTHORS >Pignataro G</bp:AUTHORS>
+      <bp:AUTHORS >Yang T</bp:AUTHORS>
+      <bp:AUTHORS >Lan J</bp:AUTHORS>
+      <bp:AUTHORS >Simon RP</bp:AUTHORS>
+      <bp:AUTHORS >Saugstad JA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bee">
+      <bp:ID >22141737</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Chronic intermittent ethanol exposure and its removal induce a different miRNA expression pattern in primary cortical neuronal cultures.</bp:TITLE>
+      <bp:SOURCE >Alcohol Clin Exp Res</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Guo Y</bp:AUTHORS>
+      <bp:AUTHORS >Chen Y</bp:AUTHORS>
+      <bp:AUTHORS >Carreon S</bp:AUTHORS>
+      <bp:AUTHORS >Qiang M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f56">
+      <bp:ID >21070191</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A brain-derived MeCP2 complex supports a role for MeCP2 in RNA processing.</bp:TITLE>
+      <bp:SOURCE >Biosci Rep</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Long SW</bp:AUTHORS>
+      <bp:AUTHORS >Ooi JY</bp:AUTHORS>
+      <bp:AUTHORS >Yau PM</bp:AUTHORS>
+      <bp:AUTHORS >Jones PL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bf3">
+      <bp:ID >22334035</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Downregulation of CNPase in a MeCP2 deficient mouse model of Rett syndrome</bp:TITLE>
+      <bp:SOURCE >Neurol Res</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Wu W</bp:AUTHORS>
+      <bp:AUTHORS >Gu W</bp:AUTHORS>
+      <bp:AUTHORS >Xu X</bp:AUTHORS>
+      <bp:AUTHORS >Shang S</bp:AUTHORS>
+      <bp:AUTHORS >Zhao Z</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c4f">
+      <bp:ID >23770565</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Rett syndrome mutations abolish the interaction of MeCP2 with the NCoR/SMRT co-repressor.</bp:TITLE>
+      <bp:SOURCE >Nat Neurosci</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Lyst MJ</bp:AUTHORS>
+      <bp:AUTHORS >Ekiert R</bp:AUTHORS>
+      <bp:AUTHORS >Ebert DH</bp:AUTHORS>
+      <bp:AUTHORS >Merusi C</bp:AUTHORS>
+      <bp:AUTHORS >Nowak J</bp:AUTHORS>
+      <bp:AUTHORS >Selfridge J</bp:AUTHORS>
+      <bp:AUTHORS >Guy J</bp:AUTHORS>
+      <bp:AUTHORS >Kastan NR</bp:AUTHORS>
+      <bp:AUTHORS >Robinson ND</bp:AUTHORS>
+      <bp:AUTHORS >de Lima Alves F</bp:AUTHORS>
+      <bp:AUTHORS >Rappsilber J</bp:AUTHORS>
+      <bp:AUTHORS >Greenberg ME</bp:AUTHORS>
+      <bp:AUTHORS >Bird A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be3">
+      <bp:ID >20697302</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A novel transcriptional regulator of myelin gene expression: implications for neurodevelopmental disorders.</bp:TITLE>
+      <bp:SOURCE >Neuroreport</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Vora P</bp:AUTHORS>
+      <bp:AUTHORS >Mina R</bp:AUTHORS>
+      <bp:AUTHORS >Namaka M</bp:AUTHORS>
+      <bp:AUTHORS >Frost EE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a0d">
+      <bp:ID >18203756</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MeCP2-dependent repression of an imprinted miR-184 released by depolarization.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Nomura T</bp:AUTHORS>
+      <bp:AUTHORS >Kimura M</bp:AUTHORS>
+      <bp:AUTHORS >Horii T</bp:AUTHORS>
+      <bp:AUTHORS >Morita S</bp:AUTHORS>
+      <bp:AUTHORS >Soejima H</bp:AUTHORS>
+      <bp:AUTHORS >Kudo S</bp:AUTHORS>
+      <bp:AUTHORS >Hatada I</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c20">
+      <bp:ID >23431031</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Human-specific regulation of MeCP2 levels in fetal brains by microRNA miR-483-5p.</bp:TITLE>
+      <bp:SOURCE >Genes Dev</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Han K</bp:AUTHORS>
+      <bp:AUTHORS >Gennarino VA</bp:AUTHORS>
+      <bp:AUTHORS >Lee Y</bp:AUTHORS>
+      <bp:AUTHORS >Pang K</bp:AUTHORS>
+      <bp:AUTHORS >Hashimoto-Torii K</bp:AUTHORS>
+      <bp:AUTHORS >Choufani S</bp:AUTHORS>
+      <bp:AUTHORS >Raju CS</bp:AUTHORS>
+      <bp:AUTHORS >Oldham MC</bp:AUTHORS>
+      <bp:AUTHORS >Weksberg R</bp:AUTHORS>
+      <bp:AUTHORS >Rakic P</bp:AUTHORS>
+      <bp:AUTHORS >Liu Z</bp:AUTHORS>
+      <bp:AUTHORS >Zoghbi HY</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bfa">
+      <bp:ID >17573714</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MicroRNA in schizophrenia: genetic and expression analysis of miR-130b (22q11).</bp:TITLE>
+      <bp:SOURCE >Biochemistry (Mosc)</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Burmistrova OA</bp:AUTHORS>
+      <bp:AUTHORS >Goltsov AY</bp:AUTHORS>
+      <bp:AUTHORS >Abramova LI</bp:AUTHORS>
+      <bp:AUTHORS >Kaleda VG</bp:AUTHORS>
+      <bp:AUTHORS >Orlova VA</bp:AUTHORS>
+      <bp:AUTHORS >Rogaev EI</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a12">
+      <bp:ID >21423409</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Synaptic signaling and aberrant RNA splicing in autism spectrum disorders.</bp:TITLE>
+      <bp:SOURCE >Front Synaptic Neurosci</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Smith RM</bp:AUTHORS>
+      <bp:AUTHORS >Sadee W</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f89">
+      <bp:ID >24662006</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Dysregulation of the IGF-I/PI3K/AKT/mTOR signaling pathway in autism spectrum disorders.</bp:TITLE>
+      <bp:SOURCE >Int J Dev Neurosci</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Chen J</bp:AUTHORS>
+      <bp:AUTHORS >Alberts I</bp:AUTHORS>
+      <bp:AUTHORS >Li X</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d46">
+      <bp:ID >22615490</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Phosphorylation of distinct sites in MeCP2 modifies cofactor associations and the dynamics of transcriptional regulation.</bp:TITLE>
+      <bp:SOURCE >Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Gonzales ML</bp:AUTHORS>
+      <bp:AUTHORS >Adams S</bp:AUTHORS>
+      <bp:AUTHORS >Dunaway KW</bp:AUTHORS>
+      <bp:AUTHORS >LaSalle JM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd9">
+      <bp:ID >23611944</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Dysregulation of the long non-coding RNA transcriptome in a Rett syndrome mouse model.</bp:TITLE>
+      <bp:SOURCE >RNA Biol</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Petazzi P</bp:AUTHORS>
+      <bp:AUTHORS >Sandoval J</bp:AUTHORS>
+      <bp:AUTHORS >Szczesna K</bp:AUTHORS>
+      <bp:AUTHORS >Jorge OC</bp:AUTHORS>
+      <bp:AUTHORS >Roa L</bp:AUTHORS>
+      <bp:AUTHORS >Sayols S</bp:AUTHORS>
+      <bp:AUTHORS >Gomez A</bp:AUTHORS>
+      <bp:AUTHORS >Huertas D</bp:AUTHORS>
+      <bp:AUTHORS >Esteller M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ecf">
+      <bp:ID >18820302</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MECP2 genomic structure and function: insights from ENCODE.</bp:TITLE>
+      <bp:SOURCE >Nucleic Acids Res</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Singh J</bp:AUTHORS>
+      <bp:AUTHORS >Saxena A</bp:AUTHORS>
+      <bp:AUTHORS >Christodoulou J</bp:AUTHORS>
+      <bp:AUTHORS >Ravine D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd2">
+      <bp:ID >18511691</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MeCP2, a key contributor to neurological disease, activates and represses transcription.</bp:TITLE>
+      <bp:SOURCE >Science</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Chahrour M</bp:AUTHORS>
+      <bp:AUTHORS >Jung SY</bp:AUTHORS>
+      <bp:AUTHORS >Shaw C</bp:AUTHORS>
+      <bp:AUTHORS >Zhou X</bp:AUTHORS>
+      <bp:AUTHORS >Wong ST</bp:AUTHORS>
+      <bp:AUTHORS >Qin J</bp:AUTHORS>
+      <bp:AUTHORS >Zoghbi HY</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c56">
+      <bp:ID >23960241</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MicroRNA-mediated epigenetic silencing of sirtuin1 contributes to impaired angiogenic responses.</bp:TITLE>
+      <bp:SOURCE >Circ Res</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Volkmann I</bp:AUTHORS>
+      <bp:AUTHORS >Kumarswamy R</bp:AUTHORS>
+      <bp:AUTHORS >Pfaff N</bp:AUTHORS>
+      <bp:AUTHORS >Fiedler J</bp:AUTHORS>
+      <bp:AUTHORS >Dangwal S</bp:AUTHORS>
+      <bp:AUTHORS >Holzmann A</bp:AUTHORS>
+      <bp:AUTHORS >Batkai S</bp:AUTHORS>
+      <bp:AUTHORS >Geffers R</bp:AUTHORS>
+      <bp:AUTHORS >Lother A</bp:AUTHORS>
+      <bp:AUTHORS >Hein L</bp:AUTHORS>
+      <bp:AUTHORS >Thum T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b72">
+      <bp:ID >25458568</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Transcriptional regulation of GAD1 GABA synthesis gene in the prefrontal cortex of subjects with schizophrenia.</bp:TITLE>
+      <bp:SOURCE >Schizophr Res</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Mitchell AC</bp:AUTHORS>
+      <bp:AUTHORS >Jiang Y</bp:AUTHORS>
+      <bp:AUTHORS >Peter C</bp:AUTHORS>
+      <bp:AUTHORS >Akbarian S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Rett syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:1206</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f4f">
+      <bp:ID >20716963</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Disrupted microRNA expression caused by Mecp2 loss in a mouse model of Rett syndrome.</bp:TITLE>
+      <bp:SOURCE >Epigenetics</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Urdinguio RG</bp:AUTHORS>
+      <bp:AUTHORS >Fernandez AF</bp:AUTHORS>
+      <bp:AUTHORS >Lopez-Nieva P</bp:AUTHORS>
+      <bp:AUTHORS >Rossi S</bp:AUTHORS>
+      <bp:AUTHORS >Huertas D</bp:AUTHORS>
+      <bp:AUTHORS >Kulis M</bp:AUTHORS>
+      <bp:AUTHORS >Liu CG</bp:AUTHORS>
+      <bp:AUTHORS >Croce CM</bp:AUTHORS>
+      <bp:AUTHORS >Calin GA</bp:AUTHORS>
+      <bp:AUTHORS >Esteller M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b51">
+      <bp:ID >24069510</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification of TET1 Partners That Control Its DNA-Demethylating Function.</bp:TITLE>
+      <bp:SOURCE >Genes Cancer</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Cartron PF</bp:AUTHORS>
+      <bp:AUTHORS >Nadaradjane A</bp:AUTHORS>
+      <bp:AUTHORS >Lepape F</bp:AUTHORS>
+      <bp:AUTHORS >Lalier L</bp:AUTHORS>
+      <bp:AUTHORS >Gardie B</bp:AUTHORS>
+      <bp:AUTHORS >Vallette FM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b5e">
+      <bp:ID >23351786</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MeCP2 modulates gene expression pathways in astrocytes</bp:TITLE>
+      <bp:SOURCE >Mol Autism</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Dag H Yasui</bp:AUTHORS>
+      <bp:AUTHORS >Huichun Xu</bp:AUTHORS>
+      <bp:AUTHORS >Keith W Dunaway</bp:AUTHORS>
+      <bp:AUTHORS >Janine M LaSalle</bp:AUTHORS>
+      <bp:AUTHORS >Lee-Way Jin</bp:AUTHORS>
+      <bp:AUTHORS >Izumi Maezawa</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d06">
+      <bp:ID >16613900</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification of cis-regulatory elements for MECP2 expression.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Liu J</bp:AUTHORS>
+      <bp:AUTHORS >Francke U</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d7b">
+      <bp:ID >20452318</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Epigenetic regulation of miR-184 by MBD1 governs neural stem cell proliferation and differentiation.</bp:TITLE>
+      <bp:SOURCE >Cell Stem Cell</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Liu C</bp:AUTHORS>
+      <bp:AUTHORS >Teng ZQ</bp:AUTHORS>
+      <bp:AUTHORS >Santistevan NJ</bp:AUTHORS>
+      <bp:AUTHORS >Szulwach KE</bp:AUTHORS>
+      <bp:AUTHORS >Guo W</bp:AUTHORS>
+      <bp:AUTHORS >Jin P</bp:AUTHORS>
+      <bp:AUTHORS >Zhao X</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d35">
+      <bp:ID >21212100</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Reduced AKT/mTOR signaling and protein synthesis dysregulation in a Rett syndrome animal model.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Ricciardi S</bp:AUTHORS>
+      <bp:AUTHORS >Boggio EM</bp:AUTHORS>
+      <bp:AUTHORS >Grosso S</bp:AUTHORS>
+      <bp:AUTHORS >Lonetti G</bp:AUTHORS>
+      <bp:AUTHORS >Forlani G</bp:AUTHORS>
+      <bp:AUTHORS >Stefanelli G</bp:AUTHORS>
+      <bp:AUTHORS >Calcagno E</bp:AUTHORS>
+      <bp:AUTHORS >Morello N</bp:AUTHORS>
+      <bp:AUTHORS >Landsberger N</bp:AUTHORS>
+      <bp:AUTHORS >Biffo S</bp:AUTHORS>
+      <bp:AUTHORS >Pizzorusso T</bp:AUTHORS>
+      <bp:AUTHORS >Giustetto M</bp:AUTHORS>
+      <bp:AUTHORS >Broccoli V</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b6e">
+      <bp:ID >27352031</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Misregulation of Alternative Splicing in a Mouse Model of Rett Syndrome.</bp:TITLE>
+      <bp:SOURCE >PLoS Genet</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Li R</bp:AUTHORS>
+      <bp:AUTHORS >Dong Q</bp:AUTHORS>
+      <bp:AUTHORS >Yuan X</bp:AUTHORS>
+      <bp:AUTHORS >Zeng X</bp:AUTHORS>
+      <bp:AUTHORS >Gao Y</bp:AUTHORS>
+      <bp:AUTHORS >Chiao C</bp:AUTHORS>
+      <bp:AUTHORS >Li H</bp:AUTHORS>
+      <bp:AUTHORS >Zhao X</bp:AUTHORS>
+      <bp:AUTHORS >Keles S</bp:AUTHORS>
+      <bp:AUTHORS >Wang Z</bp:AUTHORS>
+      <bp:AUTHORS >Chang Q</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e66">
+      <bp:ID >20400852</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Alternative polyadenylation of MeCP2: Influence of cis-acting elements and trans-acting factors.</bp:TITLE>
+      <bp:SOURCE >RNA Biol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Newnham CM</bp:AUTHORS>
+      <bp:AUTHORS >Hall-Pogar T</bp:AUTHORS>
+      <bp:AUTHORS >Liang S</bp:AUTHORS>
+      <bp:AUTHORS >Wu J</bp:AUTHORS>
+      <bp:AUTHORS >Tian B</bp:AUTHORS>
+      <bp:AUTHORS >Hu J</bp:AUTHORS>
+      <bp:AUTHORS >Lutz CS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e24">
+      <bp:ID >16251272</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulation of RNA splicing by the methylation-dependent transcriptional repressor methyl-CpG binding protein 2.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Young JI</bp:AUTHORS>
+      <bp:AUTHORS >Hong EP</bp:AUTHORS>
+      <bp:AUTHORS >Castle JC</bp:AUTHORS>
+      <bp:AUTHORS >Crespo-Barreto J</bp:AUTHORS>
+      <bp:AUTHORS >Bowman AB</bp:AUTHORS>
+      <bp:AUTHORS >Rose MF</bp:AUTHORS>
+      <bp:AUTHORS >Kang D</bp:AUTHORS>
+      <bp:AUTHORS >Richman R</bp:AUTHORS>
+      <bp:AUTHORS >Johnson JM</bp:AUTHORS>
+      <bp:AUTHORS >Berget S</bp:AUTHORS>
+      <bp:AUTHORS >Zoghbi HY</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d9e">
+      <bp:ID >24916645</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >GluD1 is a common altered player in neuronal differentiation from both MECP2-mutated and CDKL5-mutated iPS cells.</bp:TITLE>
+      <bp:SOURCE >Eur J Hum Genet</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Livide G</bp:AUTHORS>
+      <bp:AUTHORS >Patriarchi T</bp:AUTHORS>
+      <bp:AUTHORS >Amenduni M</bp:AUTHORS>
+      <bp:AUTHORS >Amabile S</bp:AUTHORS>
+      <bp:AUTHORS >Yasui D</bp:AUTHORS>
+      <bp:AUTHORS >Calcagno E</bp:AUTHORS>
+      <bp:AUTHORS >Lo Rizzo C</bp:AUTHORS>
+      <bp:AUTHORS >De Falco G</bp:AUTHORS>
+      <bp:AUTHORS >Ulivieri C</bp:AUTHORS>
+      <bp:AUTHORS >Ariani F</bp:AUTHORS>
+      <bp:AUTHORS >Mari F</bp:AUTHORS>
+      <bp:AUTHORS >Mencarelli MA</bp:AUTHORS>
+      <bp:AUTHORS >Hell JW</bp:AUTHORS>
+      <bp:AUTHORS >Renieri A</bp:AUTHORS>
+      <bp:AUTHORS >Meloni I</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d5e">
+      <bp:ID >20392956</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Rett syndrome microglia damage dendrites and synapses by the elevated release of glutamate.</bp:TITLE>
+      <bp:SOURCE >J Neurosci</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Maezawa I</bp:AUTHORS>
+      <bp:AUTHORS >Jin LW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc1">
+      <bp:ID >10490655</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Multiple signaling pathways of the insulin-like growth factor 1 receptor in protection from apoptosis.</bp:TITLE>
+      <bp:SOURCE >Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Peruzzi F</bp:AUTHORS>
+      <bp:AUTHORS >Prisco M</bp:AUTHORS>
+      <bp:AUTHORS >Dews M</bp:AUTHORS>
+      <bp:AUTHORS >Salomoni P</bp:AUTHORS>
+      <bp:AUTHORS >Grassilli E</bp:AUTHORS>
+      <bp:AUTHORS >Romano G</bp:AUTHORS>
+      <bp:AUTHORS >Calabretta B</bp:AUTHORS>
+      <bp:AUTHORS >Baserga R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e45">
+      <bp:ID >19157421</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NNZ-2566: a Gly-Pro-Glu analogue with neuroprotective efficacy in a rat model of acute focal stroke.</bp:TITLE>
+      <bp:SOURCE >J Neurol Sci</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Bickerdike MJ</bp:AUTHORS>
+      <bp:AUTHORS >Thomas GB</bp:AUTHORS>
+      <bp:AUTHORS >Batchelor DC</bp:AUTHORS>
+      <bp:AUTHORS >Sirimanne ES</bp:AUTHORS>
+      <bp:AUTHORS >Leong W</bp:AUTHORS>
+      <bp:AUTHORS >Lin H</bp:AUTHORS>
+      <bp:AUTHORS >Sieg F</bp:AUTHORS>
+      <bp:AUTHORS >Wen J</bp:AUTHORS>
+      <bp:AUTHORS >Brimble MA</bp:AUTHORS>
+      <bp:AUTHORS >Harris PW</bp:AUTHORS>
+      <bp:AUTHORS >Gluckman PD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d10">
+      <bp:ID >28522374</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Population pharmacokinetics of NNZ-2566 in healthy subjects.</bp:TITLE>
+      <bp:SOURCE >Eur J Pharm Sci</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Oosterholt SP</bp:AUTHORS>
+      <bp:AUTHORS >Horrigan J</bp:AUTHORS>
+      <bp:AUTHORS >Jones N</bp:AUTHORS>
+      <bp:AUTHORS >Glass L</bp:AUTHORS>
+      <bp:AUTHORS >Della Pasqua O</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

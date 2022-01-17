@@ -1,0 +1,2040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Heart development" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-category">Physiological Process</Comment>
+  <Comment Source="WikiPathways-description">This pathway has been largely adapted from an article by Deepak Srivastava, Cell. 2006 Sep 22;126(6):1037-48. In this pathway are known transcription factors, miRNAs, and regulatory proteins that impact the regional specificity of the human heart. Activating signals are indicated by arrows while inhibitory signals are indicated by T-bars. Special thanks to Kim Cordes for her assistance in revising this pathway, based on recent heart development research.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP1591 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>fba</BiopaxRef>
+  <BiopaxRef>d64</BiopaxRef>
+  <Graphics BoardWidth="1695.0" BoardHeight="836.1524500907423"/>
+  <DataNode TextLabel="HEY2" GraphId="a3a1a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="VEGFC" GraphId="a4fa7" Type="GeneProduct" GroupRef="ab647">
+        </DataNode>
+  <DataNode TextLabel="MAPK1" GraphId="a7e2c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SMAD1" GraphId="aaa88" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FGF8" GraphId="acc16" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FOXH1" GraphId="ad570" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GATA4" GraphId="addb0" Type="GeneProduct" GroupRef="e8d2f">
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="b4a10" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NKX2-5" GraphId="b4b54" Type="GeneProduct" GroupRef="bdc37">
+        </DataNode>
+  <DataNode TextLabel="ERBB3" GraphId="b54af" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IRX4" GraphId="b5f20" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PTPN11" GraphId="b679f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TBX5" GraphId="b6c7d" Type="GeneProduct" GroupRef="c8841">
+        </DataNode>
+  <DataNode TextLabel="NOTCH1" GraphId="b7739" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NKX2-5" GraphId="b8ef4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BMPR2" GraphId="b90f7" Type="GeneProduct" GroupRef="b812a">
+        </DataNode>
+  <DataNode TextLabel="TBX20" GraphId="ba0ce" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BHLHE40" GraphId="ba959" Type="GeneProduct">
+    <Comment>In other species, this is BHLHB2</Comment>
+        </DataNode>
+  <DataNode TextLabel="MEF2C" GraphId="bab20" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SMYD1" GraphId="bb656" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BMP2" GraphId="bcec2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MEF2C" GraphId="bfdd3" Type="GeneProduct" GroupRef="f2bcb">
+        </DataNode>
+  <DataNode TextLabel="NKX2-5" GraphId="c0017" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FOXC1" GraphId="c0475" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TBX5" GraphId="c120a" Type="GeneProduct" GroupRef="f2bcb">
+        </DataNode>
+  <DataNode TextLabel="BMP10" GraphId="c16db" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NKX2-5" GraphId="c3689" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MIR145" GraphId="c3762" Type="GeneProduct" GroupRef="a6c11">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="FOXC2" GraphId="c6a5a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HEY1" GraphId="c8da1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MIR1-1" GraphId="ca2da" Type="GeneProduct">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="GATA4" GraphId="cb1bf" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NFATC4" GraphId="cb637" Type="GeneProduct" GroupRef="ff841">
+        </DataNode>
+  <DataNode TextLabel="ISL1" GraphId="ce068" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MIR143" GraphId="cfde6" Type="GeneProduct" GroupRef="a6c11">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="NFATC1" GraphId="d39f4" Type="GeneProduct" GroupRef="ff841">
+        </DataNode>
+  <DataNode TextLabel="TBX2" GraphId="d3e57" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="VEGFA" GraphId="d4fb8" Type="GeneProduct" GroupRef="ab647">
+        </DataNode>
+  <DataNode TextLabel="NOTCH1" GraphId="d53af" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GATA4" GraphId="da35b" Type="GeneProduct" GroupRef="f2bcb">
+        </DataNode>
+  <DataNode TextLabel="BMPR1A" GraphId="dd100" Type="GeneProduct" GroupRef="b812a">
+        </DataNode>
+  <DataNode TextLabel="SHH" GraphId="ddccf" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="VEGFB" GraphId="ded3d" Type="GeneProduct" GroupRef="ab647">
+        </DataNode>
+  <DataNode TextLabel="FGF10" GraphId="dee12" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GATA6" GraphId="dfcf6" Type="GeneProduct" GroupRef="e8d2f">
+        </DataNode>
+  <DataNode TextLabel="GATA4" GraphId="e0c01" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SRF" GraphId="e36ca" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TBX20" GraphId="e4024" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SMAD4" GraphId="e4286" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HAND2" GraphId="e67d4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NFATC2" GraphId="ea8fb" Type="GeneProduct" GroupRef="ff841">
+        </DataNode>
+  <DataNode TextLabel="MEF2C" GraphId="eb125" Type="GeneProduct" GroupRef="c8841">
+        </DataNode>
+  <DataNode TextLabel="TBX1" GraphId="eb211" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TBX2" GraphId="ed6dd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FOXA2" GraphId="ee70c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BMP4" GraphId="eeaa5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BMP2" GraphId="f02db" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NKX2-5" GraphId="f04e9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PITX2" GraphId="f2186" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SRF" GraphId="f491c" Type="GeneProduct" GroupRef="bdc37">
+        </DataNode>
+  <DataNode TextLabel="NFATC3" GraphId="f7f21" Type="GeneProduct" GroupRef="ff841">
+        </DataNode>
+  <DataNode TextLabel="TBX5" GraphId="fc9ee" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TBX5" GraphId="fe1d7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HAND1" GraphId="feb08" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="a57ab">
+    <Graphics>
+      <Point GraphRef="c0017"/>
+      <Point GraphRef="b5f20" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a7098">
+    <Graphics>
+      <Point GraphRef="ad570"/>
+      <Point GraphRef="bab20" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b2aea">
+    <Graphics>
+      <Point GraphRef="c0017"/>
+      <Point GraphRef="feb08" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bff49">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e9633"/>
+      <Point GraphRef="fe1d7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c68c0">
+    <Graphics>
+      <Point GraphRef="d3e57"/>
+      <Point GraphRef="c0017" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c90f6">
+    <Graphics>
+      <Point GraphRef="eb211"/>
+      <Point GraphRef="dee12" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cff80">
+    <Graphics>
+      <Point GraphRef="e4024"/>
+      <Point GraphRef="bab20" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6a6c">
+    <Graphics>
+      <Point GraphRef="d53af"/>
+      <Point GraphRef="a3a1a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d76d1">
+    <Graphics>
+      <Point GraphRef="ddccf"/>
+      <Point GraphRef="c6a5a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0a92">
+    <Graphics>
+      <Point GraphRef="bab20"/>
+      <Point GraphRef="bb656" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e68f6">
+    <Graphics>
+      <Point GraphRef="eb211"/>
+      <Point GraphRef="acc16" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e6ef2">
+    <Graphics>
+      <Point GraphRef="bb656"/>
+      <Point GraphRef="e67d4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e94ad">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f04e9"/>
+      <Point GraphRef="fe1d7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f50c0">
+    <Graphics>
+      <Point GraphRef="e0c01"/>
+      <Point GraphRef="bab20" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f6cbc">
+    <Graphics>
+      <Point GraphRef="e0c01"/>
+      <Point GraphRef="e67d4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f6f0c">
+    <Graphics>
+      <Point GraphRef="eb211"/>
+      <Point GraphRef="ee70c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fdbd7">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c3689"/>
+      <Point GraphRef="ad570"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1083d9aa">
+    <BiopaxRef>c48</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b7739"/>
+      <Point GraphRef="b4a10" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id342ecf7c">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b8ef4"/>
+      <Point GraphRef="eb211"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4b9218c7">
+    <Graphics>
+      <Point GraphRef="f9e1d"/>
+      <Point GraphRef="aaa88" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5a30d688">
+    <BiopaxRef>d11</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="aaa88"/>
+      <Point GraphRef="e4286" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id65553ec5">
+    <BiopaxRef>c48</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b4a10"/>
+      <Point GraphRef="ba959" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id71015447">
+    <Graphics>
+      <Point GraphRef="ba959"/>
+      <Point GraphRef="bb656" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7333093c">
+    <Graphics>
+      <Point GraphRef="ddccf"/>
+      <Point GraphRef="c0475" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id78d3bad9">
+    <Graphics>
+      <Point GraphRef="eb211"/>
+      <Point GraphRef="f2186" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7ade4abe">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c8da1"/>
+      <Point/>
+      <Point GraphRef="e0c01" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7b65c87f">
+    <Graphics>
+      <Point GraphRef="c0475"/>
+      <Point GraphRef="eb211" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7f29fdf4">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c0017"/>
+      <Point GraphRef="fc9ee"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id92e3ec0c">
+    <Graphics>
+      <Point GraphRef="ac3d7"/>
+      <Point GraphRef="b92d7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9c0ef9a8">
+    <BiopaxRef>e36</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b54af"/>
+      <Point GraphRef="a7e2c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9c5f114f">
+    <Graphics>
+      <Point GraphRef="b3871"/>
+      <Point GraphRef="d1359" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida2d1932">
+    <BiopaxRef>ceb</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f02db"/>
+      <Point GraphRef="f9e1d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida4729837">
+    <Graphics>
+      <Point GraphRef="d53af"/>
+      <Point GraphRef="c8da1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbfc5c96a">
+    <BiopaxRef>c48</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b4a10"/>
+      <Point GraphRef="ce068" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc00dc16d">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e9633"/>
+      <Point GraphRef="f04e9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc4bab1c9">
+    <Graphics>
+      <Point GraphRef="b8ef4"/>
+      <Point GraphRef="ac3d7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcbfe10b3">
+    <Graphics>
+      <Point GraphRef="eeaa5"/>
+      <Point GraphRef="f9e1d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcff71729">
+    <BiopaxRef>d11</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="eb211"/>
+      <Point GraphRef="aaa88" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd4119ea4">
+    <BiopaxRef>e36</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cb1bf"/>
+      <Point GraphRef="b54af" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd47a2a4a">
+    <Graphics>
+      <Point GraphRef="e36ca"/>
+      <Point GraphRef="ca2da" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd6bff2b">
+    <Graphics>
+      <Point GraphRef="ce068"/>
+      <Point GraphRef="bab20" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddbd06129">
+    <Graphics>
+      <Point GraphRef="ba0ce"/>
+      <Point GraphRef="d3e57" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idddb62001">
+    <Graphics>
+      <Point GraphRef="bcec2"/>
+      <Point GraphRef="ed6dd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idddd4b8c0">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a3a1a"/>
+      <Point GraphRef="e0c01"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddec9ee26">
+    <Graphics>
+      <Point GraphRef="ca2da"/>
+      <Point GraphRef="e67d4" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide21e151f">
+    <Graphics>
+      <Point GraphRef="c0017"/>
+      <Point GraphRef="c16db" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idead8c040">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a9346"/>
+      <Point GraphRef="bfdd3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideba7867b">
+    <BiopaxRef>ceb</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b8ef4"/>
+      <Point GraphRef="aaa88" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idef59ebbc">
+    <Graphics>
+      <Point GraphRef="c6a5a"/>
+      <Point GraphRef="eb211" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf928c389">
+    <Graphics>
+      <Point GraphRef="b679f"/>
+      <Point GraphRef="b3871" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c5617">
+    <Graphics LineStyle="Broken" Color="ff9900">
+      <Point GraphRef="b7d54"/>
+      <Point GraphRef="ad5a0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a043d">
+    <Graphics>
+      <Point GraphRef="ee70c"/>
+      <Point GraphRef="eb211" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="id71ba89ff">
+    <Graphics Color="ff66ff">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ide4cd1cac">
+    <Graphics ConnectorType="Curved" LineStyle="Broken">
+      <Point GraphRef="c1ce6"/>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fa05f">
+    <Graphics LineStyle="Broken" Color="ff9900">
+      <Point/>
+      <Point GraphRef="ad5a0"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dbd55">
+    <Graphics Color="ff66ff">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ce6de">
+    <Graphics Color="ff66ff">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c8d99">
+    <Graphics Color="ff66ff">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ae328">
+    <Graphics Color="66ff66">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c7886">
+    <Graphics Color="66ff66">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a55af">
+    <Graphics Color="66ff66">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c9fa4">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c4a07">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cdef7">
+    <Graphics Color="ff3333">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f6c0d">
+    <Graphics Color="ffff00">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dcbf2">
+    <Graphics Color="ffff00">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b1baa">
+    <Graphics Color="ffff00">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e54bc">
+    <Graphics Color="3333ff">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cdd92">
+    <Graphics Color="3333ff">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="efdd4">
+    <Graphics Color="3333ff">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Fibroblast" GraphId="a9346">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AS" GraphId="bc597">
+      </Label>
+  <Label TextLabel="LA" GraphId="be5cd">
+    <Graphics Color="ffffff"/>
+  </Label>
+  <Label TextLabel="RA" GraphId="c04ef">
+    <Graphics Color="ffffff"/>
+  </Label>
+  <Label TextLabel="First Heart Field" GraphId="c0d6e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cardiac Neural Crest" GraphId="c31ad">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Day 28" GraphId="cbf33">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="LV" GraphId="cf816">
+    <Graphics Color="ffffff"/>
+  </Label>
+  <Label TextLabel="CT" GraphId="d0a4c">
+    <Graphics Color="ffffff"/>
+  </Label>
+  <Label TextLabel="Second Heart Field" GraphId="dd592">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="RV" GraphId="eae9b">
+      </Label>
+  <Label TextLabel="Cardiac Reprogramming Factors " GraphId="f6309">
+    <Graphics FillColor="ffffff" FontStyle="Italic" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Sternal Genes" GraphId="a229b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Combination of First and Second" GraphId="bbc80">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Heart Fields (Heart Valves)" GraphId="d20ae">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="fa16f">
+    <Graphics FillColor="ffffc8" ShapeType="Rectangle" Color="ffffc8"/>
+  </Shape>
+  <Shape GraphId="fb82a">
+    <Graphics FillColor="ffbebe" ShapeType="Rectangle" Color="ffe6e6"/>
+  </Shape>
+  <Shape GraphId="c83d6">
+    <Graphics FillColor="ebebff" ShapeType="Rectangle" Color="ebebff"/>
+  </Shape>
+  <Shape GraphId="ad5a0">
+    <Graphics FillColor="ffdfac" ShapeType="Rectangle" Color="ffdfac"/>
+  </Shape>
+  <Shape GraphId="bdabc">
+    <Graphics FillColor="c8ffc8" ShapeType="Rectangle" Color="c8ffc8"/>
+  </Shape>
+  <Shape GraphId="ebb17">
+    <Graphics FillColor="c8ffc8" ShapeType="Rectangle" Color="c8ffc8"/>
+  </Shape>
+  <Shape GraphId="a51b7">
+    <Graphics FillColor="ffbeff" ShapeType="Rectangle" Color="ffe6ff"/>
+  </Shape>
+  <Shape GraphId="c49f9">
+    <Graphics FillColor="ffbeff" ShapeType="Rectangle" Color="ffbeff"/>
+  </Shape>
+  <Shape GraphId="d70b8">
+    <Graphics FillColor="000066" ShapeType="Oval" Color="000066"/>
+  </Shape>
+  <Shape GraphId="e3c60">
+    <Graphics FillColor="0000cc" ShapeType="Oval" Color="0000cc"/>
+  </Shape>
+  <Shape GraphId="ea1f8">
+    <Graphics FillColor="0000cc" ShapeType="Oval" Color="0000cc"/>
+  </Shape>
+  <Shape GraphId="baf30">
+    <Graphics FillColor="000066" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="aa363">
+    <Graphics FillColor="0000cc" ShapeType="Oval" Color="0000cc"/>
+  </Shape>
+  <Shape GraphId="ca802">
+    <Graphics FillColor="000066" ShapeType="Oval" Color="000066"/>
+  </Shape>
+  <Shape GraphId="e8a4d">
+    <Graphics FillColor="0000cc" ShapeType="Oval" Color="0000cc"/>
+  </Shape>
+  <Shape GraphId="e43c9">
+    <Graphics FillColor="0000cc" ShapeType="Oval" Color="0000cc"/>
+  </Shape>
+  <Shape GraphId="dc384">
+    <Graphics FillColor="0000cc" ShapeType="Oval" Color="0000cc"/>
+  </Shape>
+  <Shape GraphId="a37dd">
+    <Graphics FillColor="000066" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="e7d45">
+    <Graphics FillColor="990000" ShapeType="Oval" Color="990000"/>
+  </Shape>
+  <Shape GraphId="c8ff2">
+    <Graphics FillColor="ff3333" ShapeType="Oval" Color="ff3333"/>
+  </Shape>
+  <Shape GraphId="fb74b">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="00ff00"/>
+  </Shape>
+  <Shape GraphId="d544f">
+    <Graphics FillColor="990000" ShapeType="Oval" Color="990000"/>
+  </Shape>
+  <Shape GraphId="acb64">
+    <Graphics FillColor="990000" ShapeType="Oval" Color="990000"/>
+  </Shape>
+  <Shape GraphId="ec9f9">
+    <Graphics FillColor="990000" ShapeType="Oval" Color="990000"/>
+  </Shape>
+  <Shape GraphId="d4747">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="d41a4">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="c93a2">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="ebcf1">
+    <Graphics FillColor="000066" ShapeType="Oval" Color="000066"/>
+  </Shape>
+  <Shape GraphId="d8c74">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="dabbd">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="c16ca">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="baafc">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="cd91c">
+    <Graphics FillColor="ff00ff" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="d107c">
+    <Graphics FillColor="00ff00" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="edc7d">
+    <Graphics FillColor="0000ff" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="f5e02">
+    <Graphics FillColor="ff0000" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="be68a">
+    <Graphics FillColor="006600" ShapeType="Oval" Color="006600"/>
+  </Shape>
+  <Shape GraphId="f5d9e">
+    <Graphics FillColor="006600" ShapeType="Oval" Color="006600"/>
+  </Shape>
+  <Shape GraphId="f98b9">
+    <Graphics FillColor="006600" ShapeType="Oval" Color="006600"/>
+  </Shape>
+  <Shape GraphId="d0fce">
+    <Graphics FillColor="006600" ShapeType="Oval" Color="006600"/>
+  </Shape>
+  <Shape GraphId="ec668">
+    <Graphics FillColor="006600" ShapeType="Oval" Color="006600"/>
+  </Shape>
+  <Shape GraphId="eaf69">
+    <Graphics FillColor="006600" ShapeType="Oval" Color="006600"/>
+  </Shape>
+  <Shape GraphId="cc4fe">
+    <Graphics FillColor="006600" ShapeType="Oval" Color="006600"/>
+  </Shape>
+  <Shape GraphId="dc3ed">
+    <Graphics FillColor="006600" ShapeType="Oval" Color="006600"/>
+  </Shape>
+  <Shape GraphId="efa39">
+    <Graphics FillColor="006600" ShapeType="Oval" Color="006600"/>
+  </Shape>
+  <Shape GraphId="b8324">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="afba3">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="d848f">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="dcef6">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="a57e1">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="d1cd4">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="ca5b2">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="ddbfe">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="f9b17">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="e7e6c">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="f4526">
+    <Graphics FillColor="33ff00" ShapeType="Oval" Color="00ff00"/>
+  </Shape>
+  <Shape GraphId="d4087">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="b85ef">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="b3f1d">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="c716b">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="e6646">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="aa587">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="a67b1">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="f3562">
+    <Graphics FillColor="33ff00" ShapeType="Oval" Color="00ff00"/>
+  </Shape>
+  <Shape GraphId="e26e7">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="a2e34">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="d3b6b">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="b09fd">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="f055e">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="a3b3b">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="bc7c6">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="de9dc">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="f07aa">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="cf10a">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="fe3d2">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="fd6c6">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="ffdc8">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="e3fb2">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="bff32">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="e881d">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="ed936">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="d48e0">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="cfdf3">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="eb88b">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="b2073">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="e9788">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="d141d">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="f9d08">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="c1993">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="ca3c1">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="fe7d8">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="d8f3d">
+    <Graphics FillColor="33ff00" ShapeType="Oval" Color="00ff00"/>
+  </Shape>
+  <Shape GraphId="c0c8b">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="d829d">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="33cc00"/>
+  </Shape>
+  <Shape GraphId="a0b20">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="d8235">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="ec730">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="d511e">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="f9002">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="ead78">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="a88d4">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="d11bf">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="d9c43">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="f5f90">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="da8f5">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="fce20">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="d8f3c">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="dccb5">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="a0ac4">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="d81d9">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="fd025">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="f925d">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="b155d">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="d9e48">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="a22d3">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="d99e8">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="f6eec">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="bf7d8">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="b49d5">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="f4059">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="c42a7">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="ecb92">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="a2544">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="d51d1">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="d2acf">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="bc964">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="b2965">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="d4b7a">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="bead1">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="c52a9">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="a13c4">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="a7527">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="a9c29">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="fdcc2">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="ce9fa">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="bb7ab">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="f56d0">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="cb07d">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="a424b">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="e87b4">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="c8315">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="d8ee2">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="a81aa">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="bb3f9">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="da7a6">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="f260b">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="e9322">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="cd88a">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="a5eb0">
+    <Graphics ShapeType="Arc" Color="ff66ff"/>
+  </Shape>
+  <Shape GraphId="f2c62">
+    <Graphics FillColor="33ff00" ShapeType="Oval" Color="00ff00"/>
+  </Shape>
+  <Shape GraphId="f6cbf">
+    <Graphics FillColor="33ff00" ShapeType="Oval" Color="00ff00"/>
+  </Shape>
+  <Shape GraphId="d60f2">
+    <Graphics FillColor="33ff00" ShapeType="Oval" Color="00ff00"/>
+  </Shape>
+  <Shape GraphId="f6591">
+    <Graphics FillColor="33ff00" ShapeType="Oval" Color="00ff00"/>
+  </Shape>
+  <Shape GraphId="b2029">
+    <Graphics FillColor="33ff00" ShapeType="Oval" Color="00ff00"/>
+  </Shape>
+  <Shape GraphId="b66fc">
+    <Graphics FillColor="33ff00" ShapeType="Oval" Color="00ff00"/>
+  </Shape>
+  <Shape GraphId="d6dfa">
+    <Graphics FillColor="33ff00" ShapeType="Oval" Color="00ff00"/>
+  </Shape>
+  <Shape GraphId="c6b04">
+    <Graphics FillColor="cc00cc" ShapeType="Oval" Color="cc00cc"/>
+  </Shape>
+  <Shape GraphId="fe219">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="f9666">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="de0ae">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="f9749">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="a2178">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="d95df">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="ae98e">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="dd5a5">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="b4cba">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="c0544">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="efee9">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="d4a7c">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="fd367">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="c124b">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="bd4d2">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="d0b1d">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="a6bf8">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="b19fa">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="b9573">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="a2128">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="d983d">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="cf30e">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="b4a6c">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="b236a">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="e972e">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="ba465">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="b3442">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="f2fa3">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="d9e0f">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="d982c">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="a447d">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="a5ae5">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="c797d">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="f86b4">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="b414c">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="db222">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="c7fd4">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="a72f5">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="eb85d">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="f7a23">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="dbf8b">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="ab254">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="c1b5e">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="f6d1b">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="d6096">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="a6dce">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="c2865">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="f4553">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="a08ae">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="ab6b0">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="af42a">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="aada6">
+    <Graphics FillColor="66ff66" ShapeType="Oval" Color="66ff66"/>
+  </Shape>
+  <Shape GraphId="bdff4">
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="f2d43">
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="dab64">
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="d8462">
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="afb77">
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="f436d">
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="efa0c">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="a88a6">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="d34f7">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="a422e">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="bfcc6">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="f5d63">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="be64e">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="e2533">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="f51e2">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="c311e">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="e5910">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="f0713">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="c7e27">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="dc1da">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="b38ef">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="f05f5">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="b8ee0">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="aee20">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="c87b2">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="bd9b0">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="e629b">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="eb01e">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="d7dd0">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="f74f9">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="b45f6">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="e7c91">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="f448b">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="cbba0">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="c949e">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="fc623">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="d2ca5">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="b720e">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="f6d6f">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="d6622">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="d1f9e">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="fae14">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="db3b5">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="f6e4d">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="db41d">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="e82d1">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="e8cac">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="c4208">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="c88da">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="e4372">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="fb7ef">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="db0f1">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="d6a1e">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="e9c6c">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="faae7">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="d22ca">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="a9663">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="edbcb">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="f4b37">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="d2921">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="a5cda">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="f2a8c">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="ed0d6">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="c048f">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="aee39">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="e4baf">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="e2cfc">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="df51a">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="ae7e3">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="a3f77">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="dbbeb">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="c0153">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="ef41b">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="e2567">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="ee72d">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="afc6b">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="a4e69">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="fe7a0">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="eda26">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="df38c">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="dedaa">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="cbb5b">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="a1bf8">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="f91ca">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="ee3c8">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="e934d">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="a2900">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="d4e15">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="a1d78">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="e62e0">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="e3bde">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="e7957">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="c3a73">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="fb188">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="f84c4">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="eb8b6">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="e9948">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="e5b80">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="d5b1b">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="c676b">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="ea64f">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="ed0c6">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="d9a7a">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="b8dce">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="adfcc">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="c9749">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="b60fd">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="f5150">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="fbb3a">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="dbbda">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="f7275">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="ffca4">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="d710b">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="ae820">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="a2bc9">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="ef97a">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="ebfb3">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="afae5">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="cff83">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="af97e">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="f4d54">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="e1b06">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="cf375">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="af328">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="aac55">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="c2459">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="a1fba">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="f9ade">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="aebb4">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="f509e">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="c0fb1">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="e989c">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="b2435">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="a9a06">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="ee36b">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="ff6666"/>
+  </Shape>
+  <Shape GraphId="e93a9">
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="d17fc">
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="fa0e7">
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="feb4f">
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="c9fe2">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="b4ce2">
+    <Graphics FillColor="0000cc" ShapeType="Oval" Color="0000cc"/>
+  </Shape>
+  <Shape GraphId="e75a5">
+    <Graphics FillColor="0000cc" ShapeType="Oval" Color="0000cc"/>
+  </Shape>
+  <Shape GraphId="a07a9">
+    <Graphics FillColor="0000cc" ShapeType="Oval" Color="0000cc"/>
+  </Shape>
+  <Shape GraphId="d7ebe">
+    <Graphics FillColor="000066" ShapeType="Oval" Color="000066"/>
+  </Shape>
+  <Shape GraphId="b3fda">
+    <Graphics FillColor="000066" ShapeType="Oval" Color="000066"/>
+  </Shape>
+  <Shape GraphId="b7d54">
+    <Graphics FillColor="000066" ShapeType="Oval" Color="000066"/>
+  </Shape>
+  <Shape GraphId="d33ef">
+    <Graphics FillColor="000066" ShapeType="Oval" Color="000066"/>
+  </Shape>
+  <Shape GraphId="dbe1d">
+    <Graphics FillColor="000066" ShapeType="Oval" Color="000066"/>
+  </Shape>
+  <Shape GraphId="f93e1">
+    <Graphics FillColor="000066" ShapeType="Oval" Color="000066"/>
+  </Shape>
+  <Shape GraphId="ea999">
+    <Graphics FillColor="000066" ShapeType="Oval" Color="000066"/>
+  </Shape>
+  <Shape GraphId="a8cb3">
+    <Graphics FillColor="000066" ShapeType="Oval" Color="000066"/>
+  </Shape>
+  <Shape GraphId="ac902">
+    <Graphics FillColor="000066" ShapeType="Oval" Color="000066"/>
+  </Shape>
+  <Shape GraphId="e4be9">
+    <Graphics FillColor="000066" ShapeType="Oval" Color="000066"/>
+  </Shape>
+  <Shape GraphId="a5336">
+    <Graphics FillColor="000066" ShapeType="Oval" Color="000066"/>
+  </Shape>
+  <Shape GraphId="c57d5">
+    <Graphics FillColor="6666ff" ShapeType="Oval" Color="6666ff"/>
+  </Shape>
+  <Shape GraphId="ebaf8">
+    <Graphics FillColor="6666ff" ShapeType="Oval" Color="6666ff"/>
+  </Shape>
+  <Shape GraphId="badc0">
+    <Graphics FillColor="6666ff" ShapeType="Oval" Color="6666ff"/>
+  </Shape>
+  <Shape GraphId="a598d">
+    <Graphics FillColor="6666ff" ShapeType="Oval" Color="6666ff"/>
+  </Shape>
+  <Shape GraphId="ab4ee">
+    <Graphics FillColor="6666ff" ShapeType="Oval" Color="6666ff"/>
+  </Shape>
+  <Shape GraphId="be73d">
+    <Graphics FillColor="6666ff" ShapeType="Oval" Color="6666ff"/>
+  </Shape>
+  <Shape GraphId="f1fbb">
+    <Graphics FillColor="6666ff" ShapeType="Oval" Color="6666ff"/>
+  </Shape>
+  <Shape GraphId="d186e">
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="de133">
+    <Graphics FillColor="0000cc" ShapeType="Oval" Color="0000cc"/>
+  </Shape>
+  <Shape GraphId="c25cb">
+    <Graphics FillColor="0000cc" ShapeType="Oval" Color="0000cc"/>
+  </Shape>
+  <Shape GraphId="f3302">
+    <Graphics FillColor="6666ff" ShapeType="Oval" Color="6666ff"/>
+  </Shape>
+  <Shape GraphId="b3a4f">
+    <Graphics FillColor="6666ff" ShapeType="Oval" Color="6666ff"/>
+  </Shape>
+  <Shape GraphId="a2bd4">
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="ef986">
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="df943">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="e617e">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="e8880">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="b116b">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="cafb0">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="d12d6">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="d63ef">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="fecda">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="ac128">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="ff658">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="c95bb">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="a0cd0">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="dcdeb">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="cbb00">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="fc200">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="a4c2e">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="d05d0">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="f8ebb">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="e4b08">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="be9a8">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="cdd60">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="dab8b">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="ee1d7">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="d287d">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="d5c1d">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="cd1ef">
+    <Graphics FillColor="990099" ShapeType="Oval" Color="990099"/>
+  </Shape>
+  <Shape GraphId="db6c5">
+    <Graphics ShapeType="Oval" LineStyle="Broken" Color="ff9900"/>
+  </Shape>
+  <Shape GraphId="ab226">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="d024b">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="d845c">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="b3acf">
+    <Graphics FillColor="33ff00" ShapeType="Oval" Color="00ff00"/>
+  </Shape>
+  <Shape GraphId="d36ed">
+    <Graphics FillColor="33ff00" ShapeType="Oval" Color="00ff00"/>
+  </Shape>
+  <Shape GraphId="e5b06">
+    <Graphics FillColor="33ff00" ShapeType="Oval" Color="00ff00"/>
+  </Shape>
+  <Shape GraphId="a5835">
+    <Graphics ShapeType="Oval" LineStyle="Broken" Color="ff9900"/>
+  </Shape>
+  <Shape GraphId="c3288">
+    <Graphics ShapeType="Oval" LineStyle="Broken" Color="ff9900"/>
+  </Shape>
+  <Shape GraphId="a8162">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="cff73">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="b4fde">
+    <Graphics FillColor="33ff00" ShapeType="Oval" Color="00ff00"/>
+  </Shape>
+  <Shape GraphId="fc756">
+    <Graphics FillColor="33ff00" ShapeType="Oval" Color="00ff00"/>
+  </Shape>
+  <Shape GraphId="e4781">
+    <Graphics FillColor="33ff00" ShapeType="Oval" Color="00ff00"/>
+  </Shape>
+  <Shape GraphId="c8c67">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="cfb45">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="dc8e2">
+    <Graphics FillColor="ff0000" ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="aea77">
+    <Graphics FillColor="ffff00" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="b4260">
+    <Graphics FillColor="ff6600" ShapeType="Rectangle"/>
+  </Shape>
+  <Group GroupId="bdc37" GraphId="ac3d7" Style="Group">
+    <BiopaxRef>f47</BiopaxRef>
+  </Group>
+  <Group GroupId="ff841" GraphId="b3871" Style="Group"/>
+  <Group GroupId="a6c11" GraphId="b92d7" Style="Group">
+    <BiopaxRef>f47</BiopaxRef>
+  </Group>
+  <Group GroupId="f2bcb" GraphId="c1ce6" Style="Group"/>
+  <Group GroupId="ab647" GraphId="d1359" Style="Group"/>
+  <Group GroupId="c8841" GraphId="d2d6a" Style="Group"/>
+  <Group GroupId="e8d2f" GraphId="e9633" Style="Group"/>
+  <Group GroupId="b812a" GraphId="f9e1d" Style="Group">
+    <BiopaxRef>eb0</BiopaxRef>
+  </Group>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d64">
+      <bp:ID >20691899</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Direct reprogramming of fibroblasts into functional cardiomyocytes by defined factors.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Ieda M</bp:AUTHORS>
+      <bp:AUTHORS >Fu JD</bp:AUTHORS>
+      <bp:AUTHORS >Delgado-Olguin P</bp:AUTHORS>
+      <bp:AUTHORS >Vedantham V</bp:AUTHORS>
+      <bp:AUTHORS >Hayashi Y</bp:AUTHORS>
+      <bp:AUTHORS >Bruneau BG</bp:AUTHORS>
+      <bp:AUTHORS >Srivastava D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c48">
+      <bp:ID >19620969</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A regulatory pathway involving Notch1/beta-catenin/Isl1 determines cardiac progenitor cell fate.</bp:TITLE>
+      <bp:SOURCE >Nat Cell Biol</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Kwon C</bp:AUTHORS>
+      <bp:AUTHORS >Qian L</bp:AUTHORS>
+      <bp:AUTHORS >Cheng P</bp:AUTHORS>
+      <bp:AUTHORS >Nigam V</bp:AUTHORS>
+      <bp:AUTHORS >Arnold J</bp:AUTHORS>
+      <bp:AUTHORS >Srivastava D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fba">
+      <bp:ID >16990131</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Making or breaking the heart: from lineage determination to morphogenesis.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Srivastava D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eb0">
+      <bp:ID >19393343</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >BMP and BMP receptor expression during murine organogenesis.</bp:TITLE>
+      <bp:SOURCE >Gene Expr Patterns</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Danesh SM</bp:AUTHORS>
+      <bp:AUTHORS >Villasenor A</bp:AUTHORS>
+      <bp:AUTHORS >Chong D</bp:AUTHORS>
+      <bp:AUTHORS >Soukup C</bp:AUTHORS>
+      <bp:AUTHORS >Cleaver O</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ceb">
+      <bp:ID >17350578</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >An Nkx2-5/Bmp2/Smad1 negative feedback loop controls heart progenitor specification and proliferation.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Prall OW</bp:AUTHORS>
+      <bp:AUTHORS >Menon MK</bp:AUTHORS>
+      <bp:AUTHORS >Solloway MJ</bp:AUTHORS>
+      <bp:AUTHORS >Watanabe Y</bp:AUTHORS>
+      <bp:AUTHORS >Zaffran S</bp:AUTHORS>
+      <bp:AUTHORS >Bajolle F</bp:AUTHORS>
+      <bp:AUTHORS >Biben C</bp:AUTHORS>
+      <bp:AUTHORS >McBride JJ</bp:AUTHORS>
+      <bp:AUTHORS >Robertson BR</bp:AUTHORS>
+      <bp:AUTHORS >Chaulet H</bp:AUTHORS>
+      <bp:AUTHORS >Stennard FA</bp:AUTHORS>
+      <bp:AUTHORS >Wise N</bp:AUTHORS>
+      <bp:AUTHORS >Schaft D</bp:AUTHORS>
+      <bp:AUTHORS >Wolstein O</bp:AUTHORS>
+      <bp:AUTHORS >Furtado MB</bp:AUTHORS>
+      <bp:AUTHORS >Shiratori H</bp:AUTHORS>
+      <bp:AUTHORS >Chien KR</bp:AUTHORS>
+      <bp:AUTHORS >Hamada H</bp:AUTHORS>
+      <bp:AUTHORS >Black BL</bp:AUTHORS>
+      <bp:AUTHORS >Saga Y</bp:AUTHORS>
+      <bp:AUTHORS >Robertson EJ</bp:AUTHORS>
+      <bp:AUTHORS >Buckingham ME</bp:AUTHORS>
+      <bp:AUTHORS >Harvey RP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d11">
+      <bp:ID >19557177</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Tbx1 regulates the BMP-Smad1 pathway in a transcription independent manner.</bp:TITLE>
+      <bp:SOURCE >PLoS One</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Fulcoli FG</bp:AUTHORS>
+      <bp:AUTHORS >Huynh T</bp:AUTHORS>
+      <bp:AUTHORS >Scambler PJ</bp:AUTHORS>
+      <bp:AUTHORS >Baldini A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >vascular associated smooth muscle cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000359</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e36">
+      <bp:ID >16914500</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Development of heart valves requires Gata4 expression in endothelial-derived cells.</bp:TITLE>
+      <bp:SOURCE >Development</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Rivera-Feliciano J</bp:AUTHORS>
+      <bp:AUTHORS >Lee KH</bp:AUTHORS>
+      <bp:AUTHORS >Kong SW</bp:AUTHORS>
+      <bp:AUTHORS >Rajagopal S</bp:AUTHORS>
+      <bp:AUTHORS >Ma Q</bp:AUTHORS>
+      <bp:AUTHORS >Springer Z</bp:AUTHORS>
+      <bp:AUTHORS >Izumo S</bp:AUTHORS>
+      <bp:AUTHORS >Tabin CJ</bp:AUTHORS>
+      <bp:AUTHORS >Pu WT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >heart disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:114</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >smooth muscle cell neural crest derived</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000027</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >regulatory pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000004</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f47">
+      <bp:ID >19578358</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >miR-145 and miR-143 regulate smooth muscle cell fate and plasticity.</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Cordes KR</bp:AUTHORS>
+      <bp:AUTHORS >Sheehy NT</bp:AUTHORS>
+      <bp:AUTHORS >White MP</bp:AUTHORS>
+      <bp:AUTHORS >Berry EC</bp:AUTHORS>
+      <bp:AUTHORS >Morton SU</bp:AUTHORS>
+      <bp:AUTHORS >Muth AN</bp:AUTHORS>
+      <bp:AUTHORS >Lee TH</bp:AUTHORS>
+      <bp:AUTHORS >Miano JM</bp:AUTHORS>
+      <bp:AUTHORS >Ivey KN</bp:AUTHORS>
+      <bp:AUTHORS >Srivastava D</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

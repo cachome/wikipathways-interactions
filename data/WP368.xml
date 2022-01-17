@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Mitochondrial long chain fatty acid beta-oxidation" Last-Modified="10/17/2013" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment Source="WikiPathways-description">Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP368 CPTAC Assay Portal]</Comment>
+  <Graphics BoardWidth="817.0" BoardHeight="918.0"/>
+  <DataNode TextLabel="ACSL4" GraphId="a3a" Type="GeneProduct" GroupRef="cde96">
+        </DataNode>
+  <DataNode TextLabel="SCP2" GraphId="a3e" Type="GeneProduct">
+    <Comment Source="GenMAPP remarks"/>
+        </DataNode>
+  <DataNode TextLabel="CPT2" GraphId="a42" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Long chain Acyl-CoA" GraphId="a4a4c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="3-Ketoacyl-CoA" GraphId="a8cba" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="EHHADH" GraphId="ba9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ACSL1" GraphId="bac" Type="GeneProduct" GroupRef="cde96">
+        </DataNode>
+  <DataNode TextLabel="DCI" GraphId="bb1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="cis-D3-Enoyl-CoA" GraphId="bbe3a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ACADS" GraphId="bd1" Type="GeneProduct" GroupRef="a30d6">
+        </DataNode>
+  <DataNode TextLabel="HADHA" GraphId="bd8" Type="GeneProduct" GroupRef="c87b1">
+    <Comment Source="GenMAPP remarks">similiar to: ECHA RAT</Comment>
+        </DataNode>
+  <DataNode TextLabel="Long chain Acyl-CoA" GraphId="c239f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CPT1A" GraphId="c56" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ACSL2" GraphId="c72" Type="GeneProduct" GroupRef="cde96">
+        </DataNode>
+  <DataNode TextLabel="ACSL3" GraphId="c85" Type="GeneProduct" GroupRef="cde96">
+        </DataNode>
+  <DataNode TextLabel="Long chain acyl-carnitine" GraphId="ceed1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ACADL" GraphId="d0f" Type="GeneProduct" GroupRef="a30d6">
+        </DataNode>
+  <DataNode TextLabel="Long chain acyl-carnitine" GraphId="d19e3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ACADM" GraphId="d6a" Type="GeneProduct" GroupRef="a30d6">
+        </DataNode>
+  <DataNode TextLabel="ACADVL" GraphId="dd6" Type="GeneProduct" GroupRef="a30d6">
+        </DataNode>
+  <DataNode TextLabel="HADHSC" GraphId="df2" Type="GeneProduct" GroupRef="c87b1">
+        </DataNode>
+  <DataNode TextLabel="Acetyl-CoA" GraphId="e27" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SLC25A20" GraphId="e4f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="3-L-Hydroxyacyl-CoA" GraphId="eba97" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Long Chain Fatty Acid" GraphId="f129e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="trans-D2-Enoyl-CoA" GraphId="f6680" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Acyl-CoA (n-2)" GraphId="fad" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PECR" GraphId="fc8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="2,4 Dienoyl-CoA" GraphId="fd93b" Type="Metabolite">
+    <Comment>Type your comment here</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="a13c7">
+    <Graphics>
+      <Point GraphRef="a4a4c"/>
+      <Point GraphRef="ceed1" ArrowHead="Arrow"/>
+      <Anchor Position="0.38486767126757004" Shape="None" GraphId="eb009"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a2212">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a8cba"/>
+      <Point GraphRef="fad" ArrowHead="Arrow"/>
+      <Anchor Position="0.7081732650232716" Shape="None" GraphId="e1f1b"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f692e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aef24">
+    <Graphics>
+      <Point GraphRef="ba9"/>
+      <Point GraphRef="c95ac" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b8b2a">
+    <Graphics>
+      <Point GraphRef="f6680"/>
+      <Point GraphRef="eba97" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c95ac"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bf7d4">
+    <Graphics>
+      <Point GraphRef="bb1"/>
+      <Point GraphRef="cbe97" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c04bc">
+    <Graphics>
+      <Point GraphRef="b89fc" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="a42"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c62d7">
+    <Graphics>
+      <Point GraphRef="f649b" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="b700b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9cc7">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bbe3a"/>
+      <Point GraphRef="f6680" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="cbe97"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cad4a">
+    <Graphics>
+      <Point GraphRef="e2d29"/>
+      <Point GraphRef="a349b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d1157">
+    <Graphics>
+      <Point GraphRef="a68f6"/>
+      <Point GraphRef="f7cac" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d21c3">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e1f1b"/>
+      <Point GraphRef="e27" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dbeeb">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ceed1"/>
+      <Point GraphRef="d19e3" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d0915"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dc6c7">
+    <Graphics>
+      <Point GraphRef="d0915" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="e4f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dd81f">
+    <Graphics>
+      <Point GraphRef="eb009" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="c56"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de5dc">
+    <Graphics>
+      <Point GraphRef="fc8"/>
+      <Point GraphRef="f91b4" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df0f1">
+    <Graphics>
+      <Point GraphRef="f129e"/>
+      <Point GraphRef="a4a4c" ArrowHead="Arrow"/>
+      <Anchor Position="0.49107142857142855" Shape="None" GraphId="a349b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df27a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fd93b"/>
+      <Point GraphRef="bbe3a" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f91b4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e9db6">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c239f"/>
+      <Point/>
+      <Point GraphRef="f6680" ArrowHead="Arrow"/>
+      <Anchor Position="0.09130689782828416" Shape="None" GraphId="a6d76"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ee8e7">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c239f"/>
+      <Point/>
+      <Point GraphRef="fd93b" ArrowHead="Arrow"/>
+      <Anchor Position="0.10162234193658344" Shape="None" GraphId="f7cac"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3039">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fad"/>
+      <Point GraphRef="c239f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f90b9">
+    <Graphics>
+      <Point GraphRef="d19e3"/>
+      <Point GraphRef="c239f" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b89fc"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fe41f">
+    <Graphics>
+      <Point GraphRef="a3e"/>
+      <Point GraphRef="f692e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ff4c7">
+    <Graphics>
+      <Point GraphRef="a68f6"/>
+      <Point GraphRef="a6d76" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ffb7e">
+    <Graphics>
+      <Point GraphRef="eba97"/>
+      <Point GraphRef="a8cba" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f649b"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="cytosol" GraphId="a08">
+    <Graphics FillColor="ffffff" FontStyle="Italic" Color="800000"/>
+  </Label>
+  <Label TextLabel="saturated" GraphId="a66">
+    <Graphics FillColor="ffffff" FontStyle="Italic" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="mitochondrial matrix" GraphId="c1d">
+    <Graphics FillColor="ffffff" FontStyle="Italic" Color="800000"/>
+  </Label>
+  <Label TextLabel="Acyl-CoA dehydrogenases:" GraphId="f49">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="unsaturated" GraphId="fc7">
+    <Graphics FillColor="ffffff" FontStyle="Italic" Color="0000ff"/>
+  </Label>
+  <Shape GraphId="ce41f">
+    <Graphics ShapeType="Mitochondria" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="a30d6" GraphId="a68f6"/>
+  <Group GroupId="c87b1" GraphId="b700b"/>
+  <Group GroupId="cde96" GraphId="e2d29"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >classic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000002</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >fatty acid beta oxidation pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000738</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >fatty acid beta degradation pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000738</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

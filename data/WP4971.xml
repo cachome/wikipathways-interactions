@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Phosphoinositides metabolism" Version="20190617" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Phosphatidylinositols are a family of lipids under the phosphatidylglyceride class. This pathway specifies several metabolic conversions between PIP, PIP2, PIP3 and other metabolites. Phosphorylation sites on the individual metabolites are drawn as states, with the location added as a number.
+
+The main interactions within this pathway are based on Figure 1 of [https://doi.org/10.1038/nmeth867 Rusten et al], annotated with biochemical interaction database [https://www.rhea-db.org/ Rhea], and diseases (depicted in pink) with corresponding [https://www.omim.org/ OMIM-identifiers.]. Dashed lines depict proposed interactions which have not been characterised (yet)</Comment>
+  <BiopaxRef>c9f</BiopaxRef>
+  <Graphics BoardWidth="1963.9468852222822" BoardHeight="740.7384122509876"/>
+  <DataNode TextLabel="PI-3 kinase III" GraphId="c377a" Type="Protein" GroupRef="fa70c">
+    <Graphics Color="404040"/>
+    </DataNode>
+  <DataNode TextLabel="PIP-5 kinase alpha" GraphId="a33c5" Type="Protein" GroupRef="cf919">
+        </DataNode>
+  <DataNode TextLabel="PtdIns(5)P" GraphId="a87e2" Type="Metabolite">
+    <Comment>aka phosphatidylinositol 5-phosphate</Comment>
+    <Comment>phosphorylated on position 1 and 5; position 1 connected to DAG.</Comment>
+    <Comment>Localization: Nucleus</Comment>
+    <Comment>Function: Apoptosis</Comment>
+    <Graphics Color="0033cc"/>
+    </DataNode>
+  <DataNode TextLabel="DAG" GraphId="aacdc" Type="Metabolite">
+    <Comment>Diacylglycerol</Comment>
+    <Graphics Color="0033cc"/>
+    </DataNode>
+  <DataNode TextLabel="4-phosphatase" GraphId="ad866" Type="Protein" GroupRef="c9ac5">
+    <Comment>From [https://www.qmul.ac.uk/sbcs/iubmb/enzyme/EC3/1/3/78.html and https://enzyme.expasy.org/EC/3.1.3.78] :"Two pathways exist in mammalian cells to degrade 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate [PtdIns(4,5)P2] [2]. One is catalysed by this enzyme... The enzyme from human is specific for PtdIns(4,5)P2 as substrate, as it cannot use PtdIns(3,4,5)P3, PtdIns(3,4)P2, PtdIns(3,5)P2, PtdIns5P, PtdIns4P or PtdIns3P [2].In humans, the enzyme is localized to late endosomal/lysosomal membranes [2]." [2]: [PMID: 16365287]</Comment>
+    <BiopaxRef>b64</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PTEN" GraphId="af3a9" Type="Protein">
+    <BiopaxRef>a01</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="SACM1L" GraphId="b30e5" Type="Protein">
+    <Comment>Annotation based on Uniprot " Can also catalyze the hydrolysis of phosphatidylinositol 3-phosphate (PtdIns3P)" and EC.3.1.3.64</Comment>
+        </DataNode>
+  <DataNode TextLabel="PIP-4 kinase" GraphId="bbb05" Type="Protein" GroupRef="e9176">
+    <Comment>According to Rhea, this is the EC class.</Comment>
+        </DataNode>
+  <DataNode TextLabel="ATP" GraphId="cdf54" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PLCB2" GraphId="cea18" Type="Protein" GroupRef="fdefd">
+        </DataNode>
+  <DataNode TextLabel="MTMR1" GraphId="d2648" Type="Protein" GroupRef="ad3fc">
+    <Graphics Color="999900"/>
+    </DataNode>
+  <DataNode TextLabel="H2O" GraphId="d4216" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PIKfyve" GraphId="d4d9b" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PLCH1" GraphId="de989" Type="Protein" GroupRef="fdefd">
+        </DataNode>
+  <DataNode TextLabel="Phosphate" GraphId="dfdac" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PI3K-C2&#945;" GraphId="e7002" Type="Protein" GroupRef="b4bb6">
+        </DataNode>
+  <DataNode TextLabel="PTEN" GraphId="e7975" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PLCG1" GraphId="e95dc" Type="Protein" GroupRef="fdefd">
+        </DataNode>
+  <DataNode TextLabel="MTM1" GraphId="ec36c" Type="Protein">
+    <Comment>aka Myotubularin; gene name given in Fig. 1 of [PMID:16554828].</Comment>
+    <Graphics Color="999900"/>
+    </DataNode>
+  <DataNode TextLabel="OCRL" GraphId="f5232" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PLCB1" GraphId="f677d" Type="Protein" GroupRef="fdefd">
+        </DataNode>
+  <DataNode TextLabel="PIK3CG" GraphId="f6874" Type="Protein" GroupRef="ae369">
+        </DataNode>
+  <DataNode TextLabel="PtdIns(4,5)P2" GraphId="f6b50" Type="Metabolite">
+    <Comment>phosphatidylinositol 4,5-bisphosphate</Comment>
+    <Comment>Localization: Plasma membrane, Nucleus</Comment>
+    <Comment>Function: Endocytosis, cytoskeletal dynamics</Comment>
+    <Graphics Color="0033cc"/>
+    </DataNode>
+  <DataNode TextLabel="PI-3 kinase I" GraphId="feee2" Type="Protein" GroupRef="ae369">
+        </DataNode>
+  <DataNode TextLabel="PIP4P1" GraphId="fefff" Type="Protein" GroupRef="c9ac5">
+        </DataNode>
+  <DataNode TextLabel="SHIP (1)" GraphId="ff2c6" Type="Protein">
+    <Comment>EC:3.1.3.86. Annotated based on caption of Fig. 1 [PMID:16554828] and "Src homology 2 (SH2) domain containing inositol polyphosphate 5-phosphatase 1 (SHIP1)" [https://en.wikipedia.org/wiki/INPP5D]</Comment>
+    <BiopaxRef>a0c</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PIP-5 kinase gamma" GraphId="d670c" Type="Protein" GroupRef="cf919">
+    <Comment>"PIP5K&#947;, has three splicing variance; PIP5K&#947;635, PIP5&#947;661, and PIP5K&#947;687, making it one of the key regulators for producing PI(4,5)P2" [https://en.wikipedia.org/wiki/Phosphatidylinositol-4-phosphate_5-_kinases_(PIP5K)_in_neuronal_development]</Comment>
+        </DataNode>
+  <DataNode TextLabel="PIP4K2A" GraphId="d2ce4" Type="Protein" GroupRef="e9176">
+    <Comment/>
+        </DataNode>
+  <DataNode TextLabel="PIP4K2C" GraphId="c0fb3" Type="Protein" GroupRef="e9176">
+    <Comment/>
+        </DataNode>
+  <DataNode TextLabel="PIP4K2B" GraphId="bc33d" Type="Protein" GroupRef="e9176">
+    <Comment/>
+        </DataNode>
+  <DataNode TextLabel="PtdIns(3,5)P2" GraphId="b20cc" Type="Metabolite">
+    <Comment>phosphorylated on position 1, 3 and 5; position 1 connected to DAG.</Comment>
+    <Comment>Localization: Endosomes</Comment>
+    <Comment>Function: Osmotic stress responses, signaling, vacuole homeostasis</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PtdIns" GraphId="e1f13" Type="Metabolite">
+    <Comment>phosphorylated on position 1; position 1 connected to DAG.</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PtdIns(3)P" GraphId="adfe2" Type="Metabolite">
+    <Comment>phosphorylated on position 1 and 3; position 1 connected to DAG.</Comment>
+    <Comment>Localization: Endosomes</Comment>
+    <Comment>Function: Endocytic membrane traffic, autophagy, phagosome maturation</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PtdIns(3,4)P2" GraphId="a6246" Type="Metabolite">
+    <Comment>phosphorylated on position 1, 3 and 4; position 1 connected to DAG.</Comment>
+    <Comment>Localization: Plasma membrane</Comment>
+    <Comment>Function: Signaling, phagocyte oxidase, cytoskeletal dynamics</Comment>
+    <Graphics Color="0033cc"/>
+    </DataNode>
+  <DataNode TextLabel="PtdIns(4)P" GraphId="d61d9" Type="Metabolite">
+    <Comment>phosphorylated on position 1 and 4; position 1 connected to DAG.</Comment>
+    <Comment>Localization: Golgi</Comment>
+    <Comment>Function: Golgi-to-PM traffic</Comment>
+    <Graphics Color="0033cc"/>
+    </DataNode>
+  <DataNode TextLabel="PtdIns(3,4,5)P3" GraphId="a6b7e" Type="Metabolite">
+    <Comment>phosphorylated on position 1, 3, 4 and 5; position 1 connected to DAG.</Comment>
+    <Comment>Localization: Plasma membrane</Comment>
+    <Comment>Function: Signaling, cytoskeletal dynamics</Comment>
+    <Graphics Color="0033cc"/>
+    </DataNode>
+  <DataNode TextLabel="Ins(1,4,5)P3" GraphId="ffdf6" Type="Metabolite">
+    <Comment>phosphorylated on position 1,4 and 5.</Comment>
+    <Graphics Color="0033cc"/>
+    </DataNode>
+  <DataNode TextLabel="PIP4P2" GraphId="d8f04" Type="Protein" GroupRef="c9ac5">
+        </DataNode>
+  <DataNode TextLabel="PIP-5 kinase beta" GraphId="cd2c1" Type="Protein" GroupRef="cf919">
+        </DataNode>
+  <DataNode TextLabel="PIK3CB" GraphId="c5ebd" Type="Protein" GroupRef="ae369">
+        </DataNode>
+  <DataNode TextLabel="PIK3CA" GraphId="d75a3" Type="Protein" GroupRef="ae369">
+        </DataNode>
+  <DataNode TextLabel="PIK3CD" GraphId="d5b68" Type="Protein" GroupRef="ae369">
+        </DataNode>
+  <DataNode TextLabel="Phospholipase C" GraphId="a104e" Type="Protein" GroupRef="fdefd">
+        </DataNode>
+  <DataNode TextLabel="PLCB3" GraphId="f3dce" Type="Protein" GroupRef="fdefd">
+        </DataNode>
+  <DataNode TextLabel="PLCB4" GraphId="f81cf" Type="Protein" GroupRef="fdefd">
+        </DataNode>
+  <DataNode TextLabel="PLCG2" GraphId="ca6d3" Type="Protein" GroupRef="fdefd">
+        </DataNode>
+  <DataNode TextLabel="PLCE1" GraphId="be0a1" Type="Protein" GroupRef="fdefd">
+        </DataNode>
+  <DataNode TextLabel="PLCD1" GraphId="eccb2" Type="Protein" GroupRef="fdefd">
+        </DataNode>
+  <DataNode TextLabel="PLCD3" GraphId="c83ca" Type="Protein" GroupRef="fdefd">
+        </DataNode>
+  <DataNode TextLabel="PLCD4" GraphId="f9b36" Type="Protein" GroupRef="fdefd">
+        </DataNode>
+  <DataNode TextLabel="PLCH2" GraphId="a446a" Type="Protein" GroupRef="fdefd">
+        </DataNode>
+  <DataNode TextLabel="PLCZ1" GraphId="fcea9" Type="Protein" GroupRef="fdefd">
+        </DataNode>
+  <DataNode TextLabel="PIK3CG" GraphId="afb36" Type="Protein" GroupRef="c9b19">
+        </DataNode>
+  <DataNode TextLabel="PI-3 kinase I" GraphId="df0be" Type="Protein" GroupRef="c9b19">
+        </DataNode>
+  <DataNode TextLabel="PIK3CB" GraphId="acf95" Type="Protein" GroupRef="c9b19">
+        </DataNode>
+  <DataNode TextLabel="PIK3CA" GraphId="f59ab" Type="Protein" GroupRef="c9b19">
+        </DataNode>
+  <DataNode TextLabel="PIK3CD" GraphId="e8925" Type="Protein" GroupRef="c9b19">
+        </DataNode>
+  <DataNode TextLabel="PIP-5 kinase alpha" GraphId="b94a6" Type="Protein" GroupRef="abe76">
+        </DataNode>
+  <DataNode TextLabel="PIP-5 kinase gamma" GraphId="dafb8" Type="Protein" GroupRef="abe76">
+    <Comment>"PIP5K&#947;, has three splicing variance; PIP5K&#947;635, PIP5&#947;661, and PIP5K&#947;687, making it one of the key regulators for producing PI(4,5)P2" [https://en.wikipedia.org/wiki/Phosphatidylinositol-4-phosphate_5-_kinases_(PIP5K)_in_neuronal_development]</Comment>
+        </DataNode>
+  <DataNode TextLabel="PIP-5 kinase beta" GraphId="d699a" Type="Protein" GroupRef="abe76">
+        </DataNode>
+  <DataNode TextLabel="4-phosphatase" GraphId="a39d8" Type="Protein" GroupRef="f8397">
+    <Comment>From [https://www.qmul.ac.uk/sbcs/iubmb/enzyme/EC3/1/3/78.html and https://enzyme.expasy.org/EC/3.1.3.78] :"Two pathways exist in mammalian cells to degrade 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate [PtdIns(4,5)P2] [2]. One is catalysed by this enzyme... The enzyme from human is specific for PtdIns(4,5)P2 as substrate, as it cannot use PtdIns(3,4,5)P3, PtdIns(3,4)P2, PtdIns(3,5)P2, PtdIns5P, PtdIns4P or PtdIns3P [2].In humans, the enzyme is localized to late endosomal/lysosomal membranes [2]." [2]: [PMID: 16365287]</Comment>
+        </DataNode>
+  <DataNode TextLabel="PIP4P1" GraphId="d0a81" Type="Protein" GroupRef="f8397">
+        </DataNode>
+  <DataNode TextLabel="PIP4P2" GraphId="d2933" Type="Protein" GroupRef="f8397">
+        </DataNode>
+  <DataNode TextLabel="PIP-4 kinase" GraphId="e958d" Type="Protein" GroupRef="a91af">
+    <Comment>According to Rhea, this is the EC class.</Comment>
+        </DataNode>
+  <DataNode TextLabel="PIP4K2A" GraphId="a8754" Type="Protein" GroupRef="a91af">
+    <Comment/>
+        </DataNode>
+  <DataNode TextLabel="PIP4K2C" GraphId="a1ff2" Type="Protein" GroupRef="a91af">
+    <Comment/>
+        </DataNode>
+  <DataNode TextLabel="PIP4K2B" GraphId="e4e59" Type="Protein" GroupRef="a91af">
+    <Comment/>
+        </DataNode>
+  <DataNode TextLabel="MTMR10" GraphId="a71bd" Type="Protein" GroupRef="ad3fc">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="MTMR11" GraphId="bf78e" Type="Protein" GroupRef="ad3fc">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="MTMR12" GraphId="f2dbf" Type="Protein" GroupRef="ad3fc">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="MTMR2" GraphId="b9b0f" Type="Protein" GroupRef="ad3fc">
+    <Graphics Color="999900"/>
+    </DataNode>
+  <DataNode TextLabel="MTMR3" GraphId="e0f6d" Type="Protein" GroupRef="ad3fc">
+    <Graphics Color="999900"/>
+    </DataNode>
+  <DataNode TextLabel="MTMR4" GraphId="c6bab" Type="Protein" GroupRef="ad3fc">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="MTMR6" GraphId="ac829" Type="Protein" GroupRef="ad3fc">
+    <Graphics Color="999900"/>
+    </DataNode>
+  <DataNode TextLabel="MTMR7" GraphId="cff95" Type="Protein" GroupRef="ad3fc">
+    <Graphics Color="999900"/>
+    </DataNode>
+  <DataNode TextLabel="MTMR8" GraphId="a4e60" Type="Protein" GroupRef="ad3fc">
+    <Graphics Color="999900"/>
+    </DataNode>
+  <DataNode TextLabel="MTMR9" GraphId="df6b2" Type="Protein" GroupRef="ad3fc">
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="SBF2" GraphId="cdcd2" Type="Protein" GroupRef="ad3fc">
+    <Comment>aka Myotubularin-related protein 13</Comment>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="SBF1" GraphId="c83a8" Type="Protein" GroupRef="ad3fc">
+    <Comment>aka Myotubularin-related protein 5</Comment>
+    <Graphics Color="ff9900"/>
+    </DataNode>
+  <DataNode TextLabel="PIK3CG" GraphId="f36df" Type="Protein" GroupRef="e98cd">
+        </DataNode>
+  <DataNode TextLabel="PI-3 kinase I" GraphId="b1586" Type="Protein" GroupRef="e98cd">
+        </DataNode>
+  <DataNode TextLabel="PIK3CB" GraphId="bfd86" Type="Protein" GroupRef="e98cd">
+        </DataNode>
+  <DataNode TextLabel="PIK3CA" GraphId="a7b48" Type="Protein" GroupRef="e98cd">
+        </DataNode>
+  <DataNode TextLabel="PIK3CD" GraphId="fd920" Type="Protein" GroupRef="e98cd">
+        </DataNode>
+  <DataNode TextLabel="PI-3 kinase II" GraphId="a0d34" Type="Protein" GroupRef="b4bb6">
+    <Comment>See also https://en.wikipedia.org/wiki/Class_II_PI_3-kinases</Comment>
+        </DataNode>
+  <DataNode TextLabel="PI3K-C2&#946;" GraphId="ad0ce" Type="Protein" GroupRef="b4bb6">
+        </DataNode>
+  <DataNode TextLabel="PI3K-C2&#947;" GraphId="f3cad" Type="Protein" GroupRef="b4bb6">
+        </DataNode>
+  <DataNode TextLabel="PIK3C3" GraphId="c79cb" Type="Protein" GroupRef="fa70c">
+        </DataNode>
+  <DataNode TextLabel="PIK3R4" GraphId="e1e70" Type="Protein" GroupRef="fa70c">
+    <BiopaxRef>dbb</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ADP" GraphId="d67e4" Type="Metabolite" GroupRef="a7921">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="H+" GraphId="fb3ed" Type="Metabolite" GroupRef="a7921">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MTM1" GraphId="fcc50" Type="Protein">
+    <Comment>aka Myotubularin; gene name given in Fig. 1 of [PMID:16554828].</Comment>
+    <Graphics Color="999900"/>
+    </DataNode>
+  <State GraphRef="f6b50" TextLabel="P1" GraphId="ba89c">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a87e2" TextLabel="P5" GraphId="c7d9b">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a87e2" TextLabel="P1" GraphId="deede">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f6b50" TextLabel="P4" GraphId="e3424">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f6b50" TextLabel="P5" GraphId="f63db">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b20cc" TextLabel="P1" GraphId="af720">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b20cc" TextLabel="P5" GraphId="dcefc">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b20cc" TextLabel="P3" GraphId="e4ec2">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e1f13" TextLabel="P1" GraphId="b2fee">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="adfe2" TextLabel="P3" GraphId="e0f87">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="adfe2" TextLabel="P1" GraphId="f2ae8">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a6246" TextLabel="P4" GraphId="c0be4">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a6246" TextLabel="P1" GraphId="f1309">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a6246" TextLabel="P3" GraphId="fe393">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d61d9" TextLabel="P4" GraphId="a1b92">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d61d9" TextLabel="P1" GraphId="cce7e">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a6b7e" TextLabel="P3" GraphId="b56f0">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a6b7e" TextLabel="P4" GraphId="d8748">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a6b7e" TextLabel="P5" GraphId="e096e">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a6b7e" TextLabel="P1" GraphId="e9231">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ffdf6" TextLabel="P1" GraphId="d2d3a">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ffdf6" TextLabel="P5" GraphId="d9a41">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ffdf6" TextLabel="P4" GraphId="df8c9">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id1329b9e0">
+    <BiopaxRef>a01</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="da968"/>
+      <Point GraphRef="bdbe8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id16059930">
+    <Graphics>
+      <Point GraphRef="a6b7e"/>
+      <Point GraphRef="a6246" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="eb48d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id258f298a">
+    <Graphics>
+      <Point GraphRef="a6b7e"/>
+      <Point GraphRef="f6b50" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5732424485549562" Shape="None" GraphId="c2cd0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id25f4d717">
+    <Graphics>
+      <Point GraphRef="d61d9"/>
+      <Point GraphRef="f6b50" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5015650011823897" Shape="None" GraphId="a6804"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id27fd394c">
+    <Graphics>
+      <Point GraphRef="d61d9"/>
+      <Point GraphRef="a6246" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="deff4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id35bfcae2">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d1094"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="dde6b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id36ffbc3f">
+    <BiopaxRef>a6d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f4855"/>
+      <Point GraphRef="f26b1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3934985d">
+    <Graphics>
+      <Point GraphRef="e7975"/>
+      <Point GraphRef="c2cd0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id44a279d0">
+    <Comment>The addition of a third phosphate to obtain PtdIns(4,5)P2 can be performed by two enzymes, which either add the phosphate at the D4 or D5 position in the inositol ring. This last phosphorylation step is depending on where the second phosphphate is located (D5 or D4 repectively). Rephrased from [PMID: 9367159]: "The type I enzyme PIP-4-kinase phosphorylates PtdIns-4-P at the D-5 position (of the inositol ring).The type II enzyme however ( abundant in some tissues), phosphorylates PtdIns-5-P at the D-4 position, and thus should be considered as a 4-OH kinase, or PIP(4)K." </Comment>
+    <BiopaxRef>a6d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a87e2"/>
+      <Point GraphRef="f6b50" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5006506032069337" Shape="None" GraphId="f26b1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id47e580a6">
+    <Graphics>
+      <Point GraphRef="af3a9"/>
+      <Point GraphRef="c39c6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id503e90bf">
+    <Graphics>
+      <Point GraphRef="a6246"/>
+      <Point GraphRef="a6b7e" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.41340659160547316" Shape="None" GraphId="fc9c9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id54810803">
+    <Graphics>
+      <Point GraphRef="dfdac"/>
+      <Point GraphRef="b6429" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id563f655a">
+    <Graphics>
+      <Point GraphRef="f9450"/>
+      <Point GraphRef="aa2e3" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id579a5cd1">
+    <Graphics>
+      <Point GraphRef="d4d9b"/>
+      <Point GraphRef="a7540" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5eb0532e">
+    <Graphics>
+      <Point GraphRef="d9ede"/>
+      <Point GraphRef="b6429" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5f48fbe">
+    <Graphics>
+      <Point GraphRef="a6246"/>
+      <Point GraphRef="adfe2" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4616749156042946" Shape="None" GraphId="ea7d8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6c3340b">
+    <Graphics>
+      <Point GraphRef="dea4a"/>
+      <Point GraphRef="deff4" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7170c556">
+    <Graphics>
+      <Point GraphRef="d61d9"/>
+      <Point GraphRef="e1f13" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.3069790701165785" Shape="None" GraphId="aa2e3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id741db54d">
+    <Graphics>
+      <Point GraphRef="b20cc"/>
+      <Point GraphRef="a87e2" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6379700199501245" Shape="None" GraphId="a19f6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id798f0010">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cf038"/>
+      <Point/>
+      <Point GraphRef="b6429" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7ccaa0ad">
+    <Graphics>
+      <Point GraphRef="f9450"/>
+      <Point GraphRef="c3a63" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id88e07046">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a87e2"/>
+      <Point GraphRef="e1f13" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8a3aba31">
+    <Graphics>
+      <Point GraphRef="f6b50"/>
+      <Point GraphRef="a6b7e" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.3247937649587224" Shape="None" GraphId="a2fc1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8c9035b0">
+    <Graphics>
+      <Point GraphRef="e1f13"/>
+      <Point GraphRef="d61d9" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.39000835682980756" Shape="None" GraphId="e0980"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8e1e9e6b">
+    <Graphics>
+      <Point GraphRef="d51c9"/>
+      <Point GraphRef="a19f6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id949592bc">
+    <Graphics>
+      <Point GraphRef="da968"/>
+      <Point GraphRef="e0980" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id97188e21">
+    <Graphics>
+      <Point GraphRef="e1f13"/>
+      <Point GraphRef="adfe2" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7370543837106861" Shape="None" GraphId="d59c9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9bdbb488">
+    <Graphics>
+      <Point GraphRef="e1f13"/>
+      <Point GraphRef="adfe2" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5095320804912963" Shape="None" GraphId="b6429"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9da4df60">
+    <Graphics>
+      <Point GraphRef="a6f36"/>
+      <Point GraphRef="fc9c9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida71271cc">
+    <Graphics>
+      <Point GraphRef="a54c9"/>
+      <Point GraphRef="dfdac" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb4f9a2fd">
+    <Graphics>
+      <Point GraphRef="f7393"/>
+      <Point GraphRef="a2fc1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb76ba86a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f6b50"/>
+      <Point GraphRef="ffdf6" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="dde6b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbb285b02">
+    <Graphics>
+      <Point GraphRef="ec36c"/>
+      <Point GraphRef="a54c9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbd109e69">
+    <Graphics>
+      <Point GraphRef="b30e5"/>
+      <Point GraphRef="b7a3d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc6bff518">
+    <Graphics>
+      <Point GraphRef="adfe2"/>
+      <Point GraphRef="a6246" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6909671236807664" Shape="None" GraphId="c3a63"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcd7f92b3">
+    <Graphics>
+      <Point GraphRef="b8d3e"/>
+      <Point GraphRef="a6804" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idce77ef5b">
+    <Graphics>
+      <Point GraphRef="c79cb"/>
+      <Point GraphRef="d59c9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idda7a54c1">
+    <Graphics>
+      <Point GraphRef="dde6b"/>
+      <Point GraphRef="aacdc" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb6948f0">
+    <Graphics>
+      <Point GraphRef="c6a79"/>
+      <Point GraphRef="ea7d8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddfa2f862">
+    <Graphics>
+      <Point GraphRef="adfe2"/>
+      <Point GraphRef="e1f13" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6215756080020247" Shape="None" GraphId="a54c9"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b7a3d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide21e0126">
+    <Graphics>
+      <Point GraphRef="d51c9"/>
+      <Point GraphRef="a54c9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideba742b7">
+    <Graphics>
+      <Point GraphRef="cdf54"/>
+      <Point GraphRef="d59c9" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ided0890cb">
+    <Graphics>
+      <Point GraphRef="ff2c6"/>
+      <Point GraphRef="eb48d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf1ccf22b">
+    <Graphics>
+      <Point GraphRef="f5232"/>
+      <Point GraphRef="c65de" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf46796ac">
+    <Comment>"PTEN protein acts as a phosphatase to dephosphorylate phosphatidylinositol (3,4,5)-trisphosphate (PtdIns (3,4,5)P3 or PIP3)." [https://en.wikipedia.org/wiki/PTEN_(gene)]</Comment>
+    <Graphics>
+      <Point GraphRef="a6246"/>
+      <Point GraphRef="d61d9" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.49626126653920744" Shape="None" GraphId="c39c6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf5b5da68">
+    <Graphics>
+      <Point GraphRef="d4216"/>
+      <Point GraphRef="a54c9" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfb679763">
+    <Graphics>
+      <Point GraphRef="f6b50"/>
+      <Point GraphRef="d61d9" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.46811555936907306" Shape="None" GraphId="c65de"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfb8ce1eb">
+    <Graphics>
+      <Point GraphRef="adfe2"/>
+      <Point GraphRef="b20cc" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a7540"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc391">
+    <BiopaxRef>b64</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f6b50"/>
+      <Point GraphRef="a87e2" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5144290582711839" Shape="None" GraphId="bdbe8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c8434">
+    <Graphics>
+      <Point GraphRef="b6429"/>
+      <Point GraphRef="d4216" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a591b">
+    <Graphics>
+      <Point GraphRef="d59c9"/>
+      <Point GraphRef="f3636" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ffbc0">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e1f13"/>
+      <Point GraphRef="a87e2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e2161">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a87e2"/>
+      <Point GraphRef="b20cc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc89b">
+    <Graphics>
+      <Point GraphRef="fcc50"/>
+      <Point GraphRef="a19f6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0fdb">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b20cc"/>
+      <Point GraphRef="adfe2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="cbab2">
+    <Graphics>
+      <Point GraphRef="c65de"/>
+      <Point GraphRef="fffc2" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id2ddcb487">
+    <Graphics>
+      <Point GraphRef="fea7e"/>
+      <Point GraphRef="cce7e"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id53836e2e">
+    <Graphics>
+      <Point GraphRef="cb0cf"/>
+      <Point GraphRef="deede"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id8ea18bf6">
+    <Graphics>
+      <Point GraphRef="b5566"/>
+      <Point GraphRef="e9231"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="idb0670b43">
+    <Graphics>
+      <Point GraphRef="aaacf"/>
+      <Point GraphRef="b2fee"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="idf0f9ba93">
+    <Graphics>
+      <Point GraphRef="a3211"/>
+      <Point GraphRef="f1309"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="idfe391501">
+    <Graphics>
+      <Point GraphRef="ceff6"/>
+      <Point GraphRef="f2ae8"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="adf33">
+    <Graphics>
+      <Point GraphRef="db56d"/>
+      <Point GraphRef="ba89c"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d2037">
+    <Graphics>
+      <Point GraphRef="ca657"/>
+      <Point GraphRef="af720"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b9a53">
+    <Graphics>
+      <Point GraphRef="a54c9"/>
+      <Point GraphRef="a7eae" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ea4b8">
+    <Graphics>
+      <Point GraphRef="b9b0f"/>
+      <Point GraphRef="a6058" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="aa25f">
+    <Graphics>
+      <Point GraphRef="a7540"/>
+      <Point GraphRef="baa62" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="MTMRs" GraphId="ad35e" GroupRef="ad3fc">
+    <Comment>Annotations based on: Rhea links to enzymes from UniProt [https://uniprot.org/uniprot/?query=reviewed%3Ayes+and+annotation%3A%28type%3A%22catalytic+activity%22+rhea%3A12316%29&amp;sort=score],
+Node border in yellow; additional proteins from [https://en.wikipedia.org/wiki/Myotubularin], Node Border in orange.</Comment>
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="DAG" GraphId="cb0cf">
+    <Graphics FillColor="ffffff" Color="ff6666"/>
+  </Label>
+  <Label TextLabel="Beta isotypes:" GraphId="f7d4d" GroupRef="fdefd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Oculocerebrorenal &#10;syndrome of Lowe" GraphId="fffc2" Href="https://www.omim.org/entry/309000">
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="DAG" GraphId="db56d">
+    <Graphics FillColor="ffffff" Color="ff6666"/>
+  </Label>
+  <Label TextLabel="DAG" GraphId="ca657">
+    <Graphics FillColor="ffffff" Color="ff6666"/>
+  </Label>
+  <Label TextLabel="DAG" GraphId="aaacf">
+    <Graphics FillColor="ffffff" Color="ff6666"/>
+  </Label>
+  <Label TextLabel="DAG" GraphId="ceff6">
+    <Graphics FillColor="ffffff" Color="ff6666"/>
+  </Label>
+  <Label TextLabel="DAG" GraphId="a3211">
+    <Graphics FillColor="ffffff" Color="ff6666"/>
+  </Label>
+  <Label TextLabel="DAG" GraphId="fea7e">
+    <Graphics FillColor="ffffff" Color="ff6666"/>
+  </Label>
+  <Label TextLabel="DAG" GraphId="b5566">
+    <Graphics FillColor="ffffff" Color="ff6666"/>
+  </Label>
+  <Label TextLabel="Gamma isotypes:" GraphId="b263e" GroupRef="fdefd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Epsilon isotype:" GraphId="d2b18" GroupRef="fdefd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Delta isotypes:" GraphId="d96c7" GroupRef="fdefd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Eta isotypes:" GraphId="bf80b" GroupRef="fdefd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Zeta isotype:" GraphId="b4512" GroupRef="fdefd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="myotubular &#10;myopathy" GraphId="a7eae" Href="https://omim.org/entry/310400">
+    <BiopaxRef>b03</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Charcot-Marie-Tooth &#10;type 4B syndrome" GraphId="a6058" Href="https://omim.org/entry/601382">
+    <BiopaxRef>c41</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Francois-Neetens fleck &#10;corneal dystrophy" GraphId="baa62" Href="https://omim.org/entry/121850">
+    <BiopaxRef>bac</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Group GroupId="abe76" GraphId="a6f36" Style="Group"/>
+  <Group GroupId="c7121" GraphId="b3d27" Style="Complex"/>
+  <Group GroupId="cf919" GraphId="b8d3e" Style="Group"/>
+  <Group GroupId="f8397" GraphId="c6a79" Style="Group"/>
+  <Group GroupId="b4bb6" GraphId="cf038" Style="Group"/>
+  <Group GroupId="fa70c" GraphId="d01f4" Style="Complex">
+    <Comment>More details on the complex (known for yeast) can be found on the COmplex portal: https://www.ebi.ac.uk/complexportal/complex/CPX-1881</Comment>
+  </Group>
+  <Group GroupId="fdefd" GraphId="d1094" Style="Group"/>
+  <Group GroupId="ad3fc" GraphId="d51c9" Style="Group"/>
+  <Group GroupId="e98cd" GraphId="d9ede" Style="Group"/>
+  <Group GroupId="c9ac5" GraphId="da968" Style="Group"/>
+  <Group GroupId="c9b19" GraphId="dea4a" Style="Group"/>
+  <Group GroupId="a7921" GraphId="f3636" Style="Group"/>
+  <Group GroupId="e9176" GraphId="f4855" Style="Group"/>
+  <Group GroupId="ae369" GraphId="f7393" Style="Group"/>
+  <Group GroupId="a91af" GraphId="f9450" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c9f">
+      <bp:ID >16554828</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Analyzing phosphoinositides and their interacting proteins.</bp:TITLE>
+      <bp:SOURCE >Nat Methods</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Rusten TE</bp:AUTHORS>
+      <bp:AUTHORS >Stenmark H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dbb">
+      <bp:ID >18215151</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The regulation and function of Class III PI3Ks:novel roles for Vps34.</bp:TITLE>
+      <bp:SOURCE >Biochem J</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Backer JM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be3">
+      <bp:ID >31035587</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Phosphatidylinositol 5 Phosphate (PI5P): From Behind the Scenes to the Front (Nuclear) Stage.</bp:TITLE>
+      <bp:SOURCE >Int J Mol Sci</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Poli A</bp:AUTHORS>
+      <bp:AUTHORS >Zaurito AE</bp:AUTHORS>
+      <bp:AUTHORS >Abdul-Hamid S</bp:AUTHORS>
+      <bp:AUTHORS >Fiume R</bp:AUTHORS>
+      <bp:AUTHORS >Faenza I</bp:AUTHORS>
+      <bp:AUTHORS >Divecha N</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a0c">
+      <bp:ID >10716940</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Structure, function, and biology of SHIP proteins.</bp:TITLE>
+      <bp:SOURCE >Genes Dev</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Rohrschneider LR</bp:AUTHORS>
+      <bp:AUTHORS >Fuller JF</bp:AUTHORS>
+      <bp:AUTHORS >Wolf I</bp:AUTHORS>
+      <bp:AUTHORS >Liu Y</bp:AUTHORS>
+      <bp:AUTHORS >Lucas DM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b64">
+      <bp:ID >16365287</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE />
+      <bp:SOURCE />
+      <bp:YEAR />
+      <bp:ID >16365287</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The identification and characterization of two phosphatidylinositol-4,5-bisphosphate 4-phosphatases.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Ungewickell A</bp:AUTHORS>
+      <bp:AUTHORS >Hugge C</bp:AUTHORS>
+      <bp:AUTHORS >Kisseleva M</bp:AUTHORS>
+      <bp:AUTHORS >Chang SC</bp:AUTHORS>
+      <bp:AUTHORS >Zou J</bp:AUTHORS>
+      <bp:AUTHORS >Feng Y</bp:AUTHORS>
+      <bp:AUTHORS >Galyov EE</bp:AUTHORS>
+      <bp:AUTHORS >Wilson M</bp:AUTHORS>
+      <bp:AUTHORS >Majerus PW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6d">
+      <bp:ID >9367159</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A new pathway for synthesis of phosphatidylinositol-4,5-bisphosphate.</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Rameh LE</bp:AUTHORS>
+      <bp:AUTHORS >Tolias KF</bp:AUTHORS>
+      <bp:AUTHORS >Duckworth BC</bp:AUTHORS>
+      <bp:AUTHORS >Cantley LC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >oculocerebrorenal syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:1056</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >phosphatidylinositol metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0002417</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a01">
+      <bp:ID >29056325</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >PTEN Regulates PI(3,4)P&lt;sub&gt;2&lt;/sub&gt;Signaling Downstream of Class I PI3K.</bp:TITLE>
+      <bp:SOURCE >Mol Cell</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Malek M</bp:AUTHORS>
+      <bp:AUTHORS >Kielkowska A</bp:AUTHORS>
+      <bp:AUTHORS >Chessa T</bp:AUTHORS>
+      <bp:AUTHORS >Anderson KE</bp:AUTHORS>
+      <bp:AUTHORS >Barneda D</bp:AUTHORS>
+      <bp:AUTHORS >Pir P</bp:AUTHORS>
+      <bp:AUTHORS >Nakanishi H</bp:AUTHORS>
+      <bp:AUTHORS >Eguchi S</bp:AUTHORS>
+      <bp:AUTHORS >Koizumi A</bp:AUTHORS>
+      <bp:AUTHORS >Sasaki J</bp:AUTHORS>
+      <bp:AUTHORS >Juvin V</bp:AUTHORS>
+      <bp:AUTHORS >Kiselev VY</bp:AUTHORS>
+      <bp:AUTHORS >Niewczas I</bp:AUTHORS>
+      <bp:AUTHORS >Gray A</bp:AUTHORS>
+      <bp:AUTHORS >Valayer A</bp:AUTHORS>
+      <bp:AUTHORS >Spensberger D</bp:AUTHORS>
+      <bp:AUTHORS >Imbert M</bp:AUTHORS>
+      <bp:AUTHORS >Felisbino S</bp:AUTHORS>
+      <bp:AUTHORS >Habuchi T</bp:AUTHORS>
+      <bp:AUTHORS >Beinke S</bp:AUTHORS>
+      <bp:AUTHORS >Cosulich S</bp:AUTHORS>
+      <bp:AUTHORS >Le Nov&#232;re N</bp:AUTHORS>
+      <bp:AUTHORS >Sasaki T</bp:AUTHORS>
+      <bp:AUTHORS >Clark J</bp:AUTHORS>
+      <bp:AUTHORS >Hawkins PT</bp:AUTHORS>
+      <bp:AUTHORS >Stephens LR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c41">
+      <bp:ID >10802647</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Charcot-Marie-Tooth type 4B is caused by mutations in the gene encoding myotubularin-related protein-2.</bp:TITLE>
+      <bp:SOURCE >Nat Genet</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Bolino A</bp:AUTHORS>
+      <bp:AUTHORS >Muglia M</bp:AUTHORS>
+      <bp:AUTHORS >Conforti FL</bp:AUTHORS>
+      <bp:AUTHORS >LeGuern E</bp:AUTHORS>
+      <bp:AUTHORS >Salih MA</bp:AUTHORS>
+      <bp:AUTHORS >Georgiou DM</bp:AUTHORS>
+      <bp:AUTHORS >Christodoulou K</bp:AUTHORS>
+      <bp:AUTHORS >Hausmanowa-Petrusewicz I</bp:AUTHORS>
+      <bp:AUTHORS >Mandich P</bp:AUTHORS>
+      <bp:AUTHORS >Schenone A</bp:AUTHORS>
+      <bp:AUTHORS >Gambardella A</bp:AUTHORS>
+      <bp:AUTHORS >Bono F</bp:AUTHORS>
+      <bp:AUTHORS >Quattrone A</bp:AUTHORS>
+      <bp:AUTHORS >Devoto M</bp:AUTHORS>
+      <bp:AUTHORS >Monaco AP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b03">
+      <bp:ID >8640223</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A gene mutated in X-linked myotubular myopathy definesa new putative tyrosine phosphatase family conserved in yeast.</bp:TITLE>
+      <bp:SOURCE >Nat Genet</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >Laporte J</bp:AUTHORS>
+      <bp:AUTHORS >Hu LJ</bp:AUTHORS>
+      <bp:AUTHORS >Kretz C</bp:AUTHORS>
+      <bp:AUTHORS >Mandel JL</bp:AUTHORS>
+      <bp:AUTHORS >Kioschis P</bp:AUTHORS>
+      <bp:AUTHORS >Coy JF</bp:AUTHORS>
+      <bp:AUTHORS >Klauck SM</bp:AUTHORS>
+      <bp:AUTHORS >Poustka A</bp:AUTHORS>
+      <bp:AUTHORS >Dahl N</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bac">
+      <bp:ID >15902656</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mutations in PIP5K3 are associated with Fran&#231;ois-Neetens mouchet&#233;e fleck corneal dystrophy.</bp:TITLE>
+      <bp:SOURCE >Am J Hum Genet</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Li S</bp:AUTHORS>
+      <bp:AUTHORS >Tiab L</bp:AUTHORS>
+      <bp:AUTHORS >Jiao X</bp:AUTHORS>
+      <bp:AUTHORS >Munier FL</bp:AUTHORS>
+      <bp:AUTHORS >Zografos L</bp:AUTHORS>
+      <bp:AUTHORS >Frueh BE</bp:AUTHORS>
+      <bp:AUTHORS >Sergeev Y</bp:AUTHORS>
+      <bp:AUTHORS >Smith J</bp:AUTHORS>
+      <bp:AUTHORS >Rubin B</bp:AUTHORS>
+      <bp:AUTHORS >Meallet MA</bp:AUTHORS>
+      <bp:AUTHORS >Forster RK</bp:AUTHORS>
+      <bp:AUTHORS >Hejtmancik JF</bp:AUTHORS>
+      <bp:AUTHORS >Schorderet DF</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>Charcot-Marie-Tooth disease type 4B1</bp:TERM><bp:ID>DOID:0110191</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>Fleck corneal dystrophy</bp:TERM><bp:ID>DOID:0060448</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>centronuclear myopathy</bp:TERM><bp:ID>DOID:14717</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

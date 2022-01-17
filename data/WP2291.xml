@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Deregulation of Rab and Rab effector genes in bladder cancer" Version="20120830" Last-Modified="2/21/2013" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-category">Physiological Process</Comment>
+  <Comment Source="WikiPathways-description">Example of the Rab27 cluster. The Rab27 cluster is comprised of the two RAB27 isoforms (RAB27A and RAB27B), the GEF MADD, the GAP TBC1D10A and 12 effector proteins</Comment>
+  <BiopaxRef>be3</BiopaxRef>
+  <Graphics BoardWidth="1053.0" BoardHeight="567.0"/>
+  <DataNode TextLabel="MADD" GraphId="dc738" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MLPH" GraphId="d046b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MYRIP" GraphId="cd817" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RPH3A" GraphId="a602b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RPH3AL" GraphId="d93a9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SYTL1" GraphId="e15f8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="UNC13D" GraphId="fa015" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SYTL2" GraphId="a9cad" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EXPH5" GraphId="f224d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SYTL3" GraphId="d0bcd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SYTL4" GraphId="d06bd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SYTL5" GraphId="aabce" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TBC1D10A" GraphId="a77f8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RAB27A" GraphId="eed99" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RAB27B" GraphId="c3366" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GCC2" GraphId="b9fae" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id7be645e7">
+    <Graphics>
+      <Point GraphRef="a77f8"/>
+      <Point GraphRef="eed99" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3132a57f">
+    <Graphics>
+      <Point GraphRef="eed99"/>
+      <Point GraphRef="f224d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id11ed4856">
+    <Graphics>
+      <Point GraphRef="eed99"/>
+      <Point GraphRef="a9cad" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id22ae7c5a">
+    <Graphics>
+      <Point GraphRef="eed99"/>
+      <Point GraphRef="d0bcd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3691f31">
+    <Graphics>
+      <Point GraphRef="eed99"/>
+      <Point GraphRef="d06bd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id142a5335">
+    <Graphics>
+      <Point GraphRef="eed99"/>
+      <Point GraphRef="aabce" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id50c36ff3">
+    <Graphics>
+      <Point GraphRef="eed99"/>
+      <Point GraphRef="d046b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2d7fa1a9">
+    <Graphics>
+      <Point GraphRef="eed99"/>
+      <Point GraphRef="cd817" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3e40d5ad">
+    <Graphics>
+      <Point GraphRef="eed99"/>
+      <Point GraphRef="a602b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1fc2e804">
+    <Graphics>
+      <Point GraphRef="eed99"/>
+      <Point GraphRef="e15f8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf01b400">
+    <Graphics>
+      <Point GraphRef="eed99"/>
+      <Point GraphRef="d93a9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id98a60d81">
+    <Graphics>
+      <Point GraphRef="eed99"/>
+      <Point GraphRef="fa015" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida9578ba1">
+    <Graphics>
+      <Point GraphRef="dc738"/>
+      <Point GraphRef="eed99" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idece07237">
+    <Graphics>
+      <Point GraphRef="dc738"/>
+      <Point GraphRef="c3366" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7e00465d">
+    <Graphics>
+      <Point GraphRef="c3366"/>
+      <Point GraphRef="d046b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5abc7813">
+    <Graphics>
+      <Point GraphRef="c3366"/>
+      <Point GraphRef="cd817" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6b7dac17">
+    <Graphics>
+      <Point GraphRef="c3366"/>
+      <Point GraphRef="a602b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3c3e8a6a">
+    <Graphics>
+      <Point GraphRef="c3366"/>
+      <Point GraphRef="d93a9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4cffbe6e">
+    <Graphics>
+      <Point GraphRef="c3366"/>
+      <Point GraphRef="e15f8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc5e2e3eb">
+    <Graphics>
+      <Point GraphRef="c3366"/>
+      <Point GraphRef="fa015" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5ec20d64">
+    <Graphics>
+      <Point GraphRef="c3366"/>
+      <Point GraphRef="b9fae" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" rdf:id="be3">
+      <bp:ID >22724020</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Deregulation of Rab and Rab effector genes in bladder cancer.</bp:TITLE>
+      <bp:SOURCE >PLoS One</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Ho JR</bp:AUTHORS>
+      <bp:AUTHORS >Chapeaublanc E</bp:AUTHORS>
+      <bp:AUTHORS >Kirkwood L</bp:AUTHORS>
+      <bp:AUTHORS >Nicolle R</bp:AUTHORS>
+      <bp:AUTHORS >Benhamou S</bp:AUTHORS>
+      <bp:AUTHORS >Lebret T</bp:AUTHORS>
+      <bp:AUTHORS >Allory Y</bp:AUTHORS>
+      <bp:AUTHORS >Southgate J</bp:AUTHORS>
+      <bp:AUTHORS >Radvanyi F</bp:AUTHORS>
+      <bp:AUTHORS >Goud B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >bladder cancer pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000610</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >urinary bladder cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:11054</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>cancer pathway</bp:TERM><bp:ID>PW:0000605</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

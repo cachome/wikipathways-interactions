@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="MicroRNA for targeting cancer growth and vascularization in glioblastoma" Version="20151214" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">miR-148a and miR-31 target the factor inhibiting hypoxia (FIH1) to promote downstream HIF1&#945; and Notch signaling</Comment>
+  <BiopaxRef>cd0</BiopaxRef>
+  <Graphics BoardWidth="724.7004608294931" BoardHeight="723.0"/>
+  <DataNode TextLabel="HES1" GraphId="a1278" Type="GeneProduct" GroupRef="a2f54">
+        </DataNode>
+  <DataNode TextLabel="MIR31" GraphId="a5c7d" Type="GeneProduct" GroupRef="b8e35">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="VEGFA" GraphId="a9fc2" Type="GeneProduct" GroupRef="dd341">
+        </DataNode>
+  <DataNode TextLabel="HIF1AN" GraphId="b4193" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MIR148A" GraphId="be13d" Type="Rna" GroupRef="b8e35">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="HEY1" GraphId="c3813" Type="GeneProduct" GroupRef="a2f54">
+        </DataNode>
+  <DataNode TextLabel="HIF1A" GraphId="c1945" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="VEGFB" GraphId="b3047" Type="GeneProduct" GroupRef="dd341">
+        </DataNode>
+  <DataNode TextLabel="VEGFC" GraphId="bd27c" Type="GeneProduct" GroupRef="dd341">
+        </DataNode>
+  <DataNode TextLabel="HIF1A" GraphId="a9e99" Type="GeneProduct" GroupRef="ede45">
+        </DataNode>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="d8648"/>
+      <Point GraphRef="e06bc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4c607dd0">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c1945"/>
+      <Point GraphRef="d8648" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4f6bb02a">
+    <Graphics Color="ff0033">
+      <Point GraphRef="b4193"/>
+      <Point GraphRef="c1945" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id79dc72a3">
+    <Graphics Color="ff0033">
+      <Point GraphRef="b4193"/>
+      <Point GraphRef="f5d7d" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide662591b">
+    <Graphics Color="ff0033">
+      <Point GraphRef="d315c"/>
+      <Point GraphRef="b4193" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b02a9">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f5d7d"/>
+      <Point GraphRef="b7592" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bcc50">
+    <Graphics>
+      <Point GraphRef="b7592"/>
+      <Point GraphRef="e06bc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Notch Intracellular domain" GraphId="d704d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Tumor growth&#10;Stem cell maintenance&#10;Abnormal angiogenesis" GraphId="e06bc">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NICD" GraphId="de258" GroupRef="ede45">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Group GroupId="a2f54" GraphId="b7592" Style="Group"/>
+  <Group GroupId="b8e35" GraphId="d315c" Style="Group"/>
+  <Group GroupId="dd341" GraphId="d8648" Style="Group"/>
+  <Group GroupId="ede45" GraphId="f5d7d" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    
+    
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >glioma pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000711</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd0">
+      <bp:ID >25903473</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The Cancer Genome Atlas Analysis Predicts MicroRNA for Targeting Cancer Growth and Vascularization in Glioblastoma.</bp:TITLE>
+      <bp:SOURCE >Mol Ther</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Wong HK</bp:AUTHORS>
+      <bp:AUTHORS >Fatimy RE</bp:AUTHORS>
+      <bp:AUTHORS >Onodera C</bp:AUTHORS>
+      <bp:AUTHORS >Wei Z</bp:AUTHORS>
+      <bp:AUTHORS >Yi M</bp:AUTHORS>
+      <bp:AUTHORS >Mohan A</bp:AUTHORS>
+      <bp:AUTHORS >Gowrisankaran S</bp:AUTHORS>
+      <bp:AUTHORS >Karmali P</bp:AUTHORS>
+      <bp:AUTHORS >Marcusson E</bp:AUTHORS>
+      <bp:AUTHORS >Wakimoto H</bp:AUTHORS>
+      <bp:AUTHORS >Stephens R</bp:AUTHORS>
+      <bp:AUTHORS >Uhlmann EJ</bp:AUTHORS>
+      <bp:AUTHORS >Song JS</bp:AUTHORS>
+      <bp:AUTHORS >Tannous B</bp:AUTHORS>
+      <bp:AUTHORS >Krichevsky AM</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>glioblastoma</bp:TERM><bp:ID>DOID:3068</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>microRNA pathway</bp:TERM><bp:ID>PW:0000808</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

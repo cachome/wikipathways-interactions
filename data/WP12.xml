@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Osteoclast signaling" Last-Modified="2/21/2013" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="WikiPathways-description">Signaling pathways involved in osteoclast activation. 
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP12 CPTAC Assay Portal]</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <BiopaxRef>c32</BiopaxRef>
+  <Graphics BoardWidth="873.0" BoardHeight="549.0"/>
+  <DataNode TextLabel="Ca2+" GraphId="b2d25" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="OPG" GraphId="b5e" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="H+" GraphId="b96e7" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PDGFB" GraphId="bc3" Type="Protein" GroupRef="ebf27">
+        </DataNode>
+  <DataNode TextLabel="Pi" GraphId="c0f" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="H+" GraphId="c3b03" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TRPV" GraphId="c3d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RANK ligand" GraphId="c68" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Ca2+" GraphId="cc086" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="H+" GraphId="cf3" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="H+" GraphId="d02b2" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AIMP2" GraphId="d062f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TRAP" GraphId="d2e" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Cathepsin K" GraphId="d7366" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="IFN-b" GraphId="e2f" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="H+" GraphId="e918b" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Na+/H+ transporter" GraphId="ea3" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Na+" GraphId="ed298" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="H+ ATPase" GraphId="edf" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MAPK8" GraphId="ee596" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Na+" GraphId="ef6" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="RANK" GraphId="f00" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="TRAP" GraphId="f080e" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Type 1 interferon receptor" GraphId="f27" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="b3 integrin" GraphId="f56" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Cathepsin K" GraphId="f78" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="OGR1" GraphId="fbe" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Osteopontin" GraphId="fc5" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PDGFB" GraphId="fd0" Type="Protein" GroupRef="ebf27">
+        </DataNode>
+  <Interaction GraphId="id6251ac9">
+    <Graphics>
+      <Point GraphRef="c68"/>
+      <Point GraphRef="f00" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8c09da4b">
+    <Graphics>
+      <Point GraphRef="fbe"/>
+      <Point GraphRef="bdf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id95a3cc31">
+    <Graphics>
+      <Point GraphRef="f080e"/>
+      <Point GraphRef="d2e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id97d6c00c">
+    <Graphics>
+      <Point GraphRef="e2f"/>
+      <Point GraphRef="f27" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9b9d3cf3">
+    <Graphics>
+      <Point GraphRef="ed298"/>
+      <Point GraphRef="ef6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd042eb8a">
+    <Graphics>
+      <Point GraphRef="cf3"/>
+      <Point GraphRef="fbe" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd251fdd6">
+    <Graphics>
+      <Point GraphRef="d7366"/>
+      <Point GraphRef="f78" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd2de7709">
+    <Graphics>
+      <Point GraphRef="e918b"/>
+      <Point GraphRef="c3b03" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide0d8b590">
+    <Graphics>
+      <Point GraphRef="b5e"/>
+      <Point GraphRef="c68" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfd71dced">
+    <Graphics>
+      <Point GraphRef="b96e7"/>
+      <Point GraphRef="d02b2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idff22054c">
+    <Graphics>
+      <Point GraphRef="cc086"/>
+      <Point GraphRef="b2d25" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idffa65a8b">
+    <Graphics>
+      <Point GraphRef="f00"/>
+      <Point GraphRef="d062f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f49c2">
+    <Graphics>
+      <Point GraphRef="f00"/>
+      <Point GraphRef="ee596" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="daded">
+    <Graphics Color="999999">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="PDGF-BB complex" GraphId="b7e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Osteoclast activation" GraphId="bdf">
+    <Graphics FillColor="ffffff" Color="990099"/>
+  </Label>
+  <Label TextLabel="Osteoclast" GraphId="c7c">
+    <Graphics FillColor="ffffff" Color="999999"/>
+  </Label>
+  <Label TextLabel="Bone" GraphId="f53">
+    <Graphics FillColor="ffffff" Color="999999"/>
+  </Label>
+  <Shape GraphId="f0652">
+    <Graphics ShapeType="Arc" Color="999999"/>
+  </Shape>
+  <Group GroupId="ebf27" GraphId="ae22d" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c32">
+      <bp:ID >12748652</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Osteoclast differentiation and activation.</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Boyle WJ</bp:AUTHORS>
+      <bp:AUTHORS >Simonet WS</bp:AUTHORS>
+      <bp:AUTHORS >Lacey DL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >signaling pathway pertinent to development</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000650</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >osteoclast</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000092</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

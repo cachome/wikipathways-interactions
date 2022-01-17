@@ -1,0 +1,1876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Aryl hydrocarbon receptor pathway" Version="20131024" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The Aryl Hydrocarbon receptor (AhR) is ligand activated transcription factor that regulates wide spectrum of gene expression. The main mediator of AhR is 2,3,7,8-Tetrachlorodibenzo-p-dioxin (TCDD) or polycyclic aromatic hydrocarbons which are widespread environmental pollutant causing a variety of severe health effects, e.g. immunosuppression, carcinogenesis and hepatotoxicity. 
+
+AhR is a member of basic helix-loop-helix-Per-Arnt-Sim (bHLH-PAS) superfamily of transcription factors. In the absence of ligand, the AhR can be found in the cytosol, bound to a dimer of the heat shock protein of 90 kDa (Hsp90) and the immunophilin-like protein, AIP (also known as XAP2 and ARA9). Upon ligand binding, the AHR translocates to the nucleus and binds with ARNT. The AHR/ARNT heterodimer binds to xenobiotic response elements and regulates a diverse set of genes.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2586 CPTAC Assay Portal]</Comment>
+  <Graphics BoardWidth="2116.5469255663456" BoardHeight="1651.9839142091153"/>
+  <DataNode TextLabel="KLF6" GraphId="a59c1" Type="GeneProduct">
+    <BiopaxRef>b72</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="VEGF" GraphId="a75a4" Type="GeneProduct">
+    <BiopaxRef>e7e</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CCL1" GraphId="a8343" Type="GeneProduct">
+    <Comment>PMID: 16679317   PAHs induce expression of the chemokine CCL1 in an AhR- and calcium-dependent manner.</Comment>
+    <BiopaxRef>e3d</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Nqo1" GraphId="a9a74" Type="Protein" GroupRef="bb505">
+        </DataNode>
+  <DataNode TextLabel="p27Kip1" GraphId="ab320" Type="GeneProduct">
+    <BiopaxRef>d68</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Hsp90" GraphId="aba94" Type="Protein" GroupRef="a6e33">
+        </DataNode>
+  <DataNode TextLabel="ER" GraphId="acbf4" Type="Protein">
+    <Comment>Estrogen Receptor</Comment>
+    <BiopaxRef>b2f</BiopaxRef>
+    <BiopaxRef>dc5</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="" GraphId="b102a">
+    <Graphics ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="DRE region" GraphId="b328d" Type="Complex">
+        </DataNode>
+  <DataNode TextLabel="XRE" GraphId="b3edf" GroupRef="e17aa">
+    <Comment>xenobiotic responsive element </Comment>
+        </DataNode>
+  <DataNode TextLabel="ARNT" GraphId="b4ed1" Type="GeneProduct" GroupRef="b601d">
+    <BiopaxRef>e06</BiopaxRef>
+    <BiopaxRef>ad6</BiopaxRef>
+    <BiopaxRef>a8a</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="AIP" GraphId="bee4e" Type="GeneProduct" GroupRef="f22e7">
+        </DataNode>
+  <DataNode TextLabel="TCDD" GraphId="c3a80" Type="Metabolite">
+    <BiopaxRef>d5c</BiopaxRef>
+    <BiopaxRef>f03</BiopaxRef>
+    <BiopaxRef>f41</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Calcium Channel" GraphId="c47aa">
+    <BiopaxRef>e26</BiopaxRef>
+    <Graphics ShapeType="None" Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CYP1A1" GraphId="c52eb" Type="GeneProduct">
+    <BiopaxRef>e5d</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="EGFR" GraphId="c9150" Type="GeneProduct">
+    <BiopaxRef>b3d</BiopaxRef>
+    <BiopaxRef>b18</BiopaxRef>
+    <BiopaxRef>a78</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="p300" GraphId="cc9aa" Type="Protein" GroupRef="b84cb">
+        </DataNode>
+  <DataNode TextLabel="PAH" GraphId="d9b90" Type="Metabolite">
+    <BiopaxRef>d24</BiopaxRef>
+    <BiopaxRef>eaa</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="pRb" GraphId="da5d7" Type="Protein" GroupRef="a8484">
+    <BiopaxRef>e2e</BiopaxRef>
+    <BiopaxRef>d88</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="proliferation and tumorigenesis " GraphId="de1a6" Type="Pathway">
+    <Graphics ShapeType="None" Color="ff3333"/>
+    </DataNode>
+  <DataNode TextLabel="EBNA-3" GraphId="e1169" Type="Protein">
+    <BiopaxRef>a6f</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ZAC1" GraphId="e95c9" Type="Protein">
+    <BiopaxRef>c90</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="RET" GraphId="eccb3" Type="Protein">
+    <BiopaxRef>c67</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Nrf2" GraphId="edf9e" Type="Rna">
+        </DataNode>
+  <DataNode TextLabel="AIP" GraphId="f39b7" Type="GeneProduct" GroupRef="ba2a5">
+        </DataNode>
+  <DataNode TextLabel="AHR" GraphId="a8e72" Type="GeneProduct" GroupRef="f22e7">
+        </DataNode>
+  <DataNode TextLabel="P23" GraphId="dacc1" Type="GeneProduct" GroupRef="f22e7">
+    <BiopaxRef>b48</BiopaxRef>
+    <BiopaxRef>da2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="AHR" GraphId="ece46" Type="GeneProduct" GroupRef="ba2a5">
+        </DataNode>
+  <DataNode TextLabel="AHR" GraphId="bb43a" Type="GeneProduct" GroupRef="b601d">
+    <BiopaxRef>e06</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="HSP90" GraphId="f39f6" Type="GeneProduct" GroupRef="f22e7">
+    <BiopaxRef>f49</BiopaxRef>
+    <BiopaxRef>c93</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="HSP90" GraphId="ec4c1" Type="GeneProduct" GroupRef="f22e7">
+    <BiopaxRef>b0f</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="C-myc" GraphId="ab635" Type="Protein">
+    <BiopaxRef>f60</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="TATA" GraphId="c3d69" Type="Complex" GroupRef="e17aa">
+        </DataNode>
+  <DataNode TextLabel="EGFR Pathway" GraphId="e867d" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="ff3333"/>
+    </DataNode>
+  <DataNode TextLabel="TNF-&#195;&#381;&#194;&#177;" GraphId="e7e7a" Type="GeneProduct">
+    <BiopaxRef>e80</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CDC37" GraphId="bd60d" Type="GeneProduct" GroupRef="a6e33">
+        </DataNode>
+  <DataNode TextLabel="c-src" GraphId="b426e" Type="Protein" GroupRef="a6e33">
+    <BiopaxRef>c10</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="RAF1" GraphId="e5823" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAP2K1" GraphId="b98df" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ERK1/2&#10;" GraphId="fca81" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="COX-2" GraphId="ca04f" Type="GeneProduct">
+    <BiopaxRef>f04</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="SRC-1" GraphId="f1d0b" Type="GeneProduct" GroupRef="b84cb">
+        </DataNode>
+  <DataNode TextLabel="Rel A" GraphId="aaceb" Type="GeneProduct" GroupRef="f4daa">
+        </DataNode>
+  <DataNode TextLabel="p50" GraphId="f369f" Type="GeneProduct" GroupRef="f4daa">
+        </DataNode>
+  <DataNode TextLabel="Rel A" GraphId="b2d82" Type="GeneProduct" GroupRef="afca1">
+        </DataNode>
+  <DataNode TextLabel="p50" GraphId="e7f53" Type="GeneProduct" GroupRef="afca1">
+        </DataNode>
+  <DataNode TextLabel="p300" GraphId="b68c6" Type="Protein" GroupRef="afca1">
+    <BiopaxRef>e2f</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="SRC-1" GraphId="dac5e" Type="GeneProduct" GroupRef="afca1">
+        </DataNode>
+  <DataNode TextLabel="Angiogenesis" GraphId="c3719" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="ff3333"/>
+    </DataNode>
+  <DataNode TextLabel="ERAP140" GraphId="f147b" Type="Protein" GroupRef="a8484">
+    <Comment>Official Symbol= NCOA7</Comment>
+        </DataNode>
+  <DataNode TextLabel="RIP140" GraphId="da145" Type="Protein" GroupRef="a8484">
+        </DataNode>
+  <DataNode TextLabel="CYP1A1" GraphId="fba25" Type="Protein" GroupRef="cbd53">
+        </DataNode>
+  <DataNode TextLabel="CD36" GraphId="cb96c" Type="GeneProduct" GroupRef="cbd53">
+        </DataNode>
+  <DataNode TextLabel="Lpl" GraphId="a97b0" Type="Protein" GroupRef="cbd53">
+    <Comment>lipoprotein lipase</Comment>
+    <BiopaxRef>c7e</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Nrf2" GraphId="b6a53" Type="GeneProduct" GroupRef="cbd53">
+        </DataNode>
+  <DataNode TextLabel="Fgf21" GraphId="d3431" Type="Protein" GroupRef="cbd53">
+        </DataNode>
+  <DataNode TextLabel="Gsts" GraphId="d11a8" Type="Protein" GroupRef="bb505">
+        </DataNode>
+  <DataNode TextLabel="Gclc" GraphId="e6a72" Type="Protein" GroupRef="bb505">
+        </DataNode>
+  <DataNode TextLabel="Oxidative Stress&#10;" GraphId="c854d" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="ff3333"/>
+    </DataNode>
+  <DataNode TextLabel="RIP140" GraphId="d8ae0" Type="Protein" GroupRef="d7c0e">
+        </DataNode>
+  <DataNode TextLabel="NF-1" GraphId="ffa48" Type="Protein" GroupRef="d7c0e">
+        </DataNode>
+  <DataNode TextLabel="NCOA7" GraphId="cdf5c" Type="Protein" GroupRef="d7c0e">
+    <BiopaxRef>d82</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="SMRT" GraphId="d7eb6" Type="Protein" GroupRef="d7c0e">
+        </DataNode>
+  <DataNode TextLabel="CYP1A2" GraphId="a80d6" Type="GeneProduct">
+    <BiopaxRef>ca3</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CYP1B1" GraphId="c2cc5" Type="GeneProduct">
+    <BiopaxRef>a4f</BiopaxRef>
+    <BiopaxRef>a45</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Estrogen Metabolism" GraphId="fed0f" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="ff3333"/>
+    </DataNode>
+  <DataNode TextLabel="p21cip1" GraphId="f841e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CDK2" GraphId="f6591" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Rb" GraphId="b8267" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="E2F1" GraphId="e1c52" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Cell cycle inhibition" GraphId="ba575" Type="Pathway">
+    <Graphics ShapeType="None" Color="ff3333"/>
+    </DataNode>
+  <DataNode TextLabel="Detoxification of Xenobiotics and  metabolism of xenobiotics&#10;" GraphId="e435b" Type="Pathway">
+    <Graphics ShapeType="None" LineStyle="Broken" Color="ff3333"/>
+    </DataNode>
+  <DataNode TextLabel="Cell Survival" GraphId="a4114" Type="Pathway">
+    <Graphics ShapeType="None" LineStyle="Broken" Color="ff3333"/>
+    </DataNode>
+  <DataNode TextLabel="AHRR" GraphId="a3f83" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="p300" GraphId="f2dca" Type="Protein" GroupRef="d7c0e">
+        </DataNode>
+  <DataNode TextLabel="FAS/ FAS-L (Apoptosis)" GraphId="f34fd" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" LineStyle="Broken" Color="ff3333"/>
+    </DataNode>
+  <DataNode TextLabel="NRAS" GraphId="bfbc2" Type="GeneProduct" GroupRef="c874b">
+        </DataNode>
+  <DataNode TextLabel="HRAS" GraphId="b0732" Type="GeneProduct" GroupRef="c874b">
+        </DataNode>
+  <DataNode TextLabel="KRAS" GraphId="cc14a" Type="GeneProduct" GroupRef="c874b">
+        </DataNode>
+  <DataNode TextLabel="TCDD" GraphId="ea90f" Type="Metabolite">
+    <BiopaxRef>d5c</BiopaxRef>
+    <BiopaxRef>f03</BiopaxRef>
+    <BiopaxRef>f41</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PAH" GraphId="d3a00" Type="Metabolite">
+    <BiopaxRef>d24</BiopaxRef>
+    <BiopaxRef>eaa</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cell Survival&#10;" GraphId="c5a48" Type="Pathway">
+    <Graphics ShapeType="None" LineStyle="Broken" Color="ff3333"/>
+    </DataNode>
+  <DataNode TextLabel="modulation of Estrogen receptor signalling" GraphId="a5018" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="ff3333"/>
+    </DataNode>
+  <State GraphRef="b4ed1" TextLabel="L" GraphId="b8345">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c9150" TextLabel="P" GraphId="c6b49">
+    <Graphics FillColor="ffff33" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b426e" TextLabel="P" GraphId="d5d56">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e5823" TextLabel="P" GraphId="a88ac">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b98df" TextLabel="P" GraphId="a3d29">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id10ad7889">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="cf6c8"/>
+      <Point/>
+      <Point GraphRef="a8343" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id15def619" GroupRef="e17aa">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1b4fbca5">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="df20e"/>
+      <Point GraphRef="ab635" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id32bbf543">
+    <Graphics>
+      <Point GraphRef="ca04f"/>
+      <Point GraphRef="c5a48" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3a659ad7">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="dd14c"/>
+      <Point/>
+      <Point GraphRef="c52eb" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4018eca7">
+    <Graphics>
+      <Point GraphRef="c3a80"/>
+      <Point GraphRef="a8e72" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id40d6bab3">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="cf6c8"/>
+      <Point GraphRef="acbf4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id421faf29">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="da145"/>
+      <Point GraphRef="dd14c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id425bb75a">
+    <BiopaxRef>b71</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="df20e"/>
+      <Point/>
+      <Point GraphRef="c52eb" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4d5f1705">
+    <BiopaxRef>e80</BiopaxRef>
+    <BiopaxRef>b18</BiopaxRef>
+    <BiopaxRef>d10</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="0033cc">
+      <Point GraphRef="c3bdd"/>
+      <Point GraphRef="c9150" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id545746f1">
+    <Graphics>
+      <Point GraphRef="e7e7a"/>
+      <Point GraphRef="cdac9" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id55918c82">
+    <Graphics>
+      <Point GraphRef="ea83a"/>
+      <Point GraphRef="e5823" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5779dcee">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a8219"/>
+      <Point/>
+      <Point GraphRef="dd14c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5faf7b50">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="edf9e"/>
+      <Point GraphRef="e435b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id63262d87">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e435b"/>
+      <Point GraphRef="a4114" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id68a8b321">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a3f83"/>
+      <Point GraphRef="dd14c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6a20edc9">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="edf9e"/>
+      <Point GraphRef="cf474" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id72845f06">
+    <BiopaxRef>dd7</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="f841e"/>
+      <Point GraphRef="f6591" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id731096a5">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="f39b7"/>
+      <Point GraphRef="acbf4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id741ef049">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="dd14c"/>
+      <Point/>
+      <Point GraphRef="ab320"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7494f075">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="dd14c"/>
+      <Point/>
+      <Point GraphRef="c2cc5" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7509871d">
+    <BiopaxRef>c10</BiopaxRef>
+    <BiopaxRef>c1d</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="3333ff">
+      <Point GraphRef="cf6c8"/>
+      <Point GraphRef="c3bdd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id78cc6536">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bca0b"/>
+      <Point/>
+      <Point GraphRef="dd14c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id79d077a3">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e867d" ArrowHead="Arrow"/>
+      <Point GraphRef="ea83a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7bd0c467">
+    <BiopaxRef>c67</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="f39b7"/>
+      <Point GraphRef="eccb3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id837ace05">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ab635"/>
+      <Point GraphRef="de1a6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8cff4ef7">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="c52eb"/>
+      <Point GraphRef="a80d6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8f1e2d05">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="dd14c"/>
+      <Point/>
+      <Point GraphRef="b3edf" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id950da59f">
+    <Graphics>
+      <Point GraphRef="cf474"/>
+      <Point GraphRef="c854d" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9c5c3411">
+    <BiopaxRef>b72</BiopaxRef>
+    <Graphics LineStyle="Broken" Color="66ff00">
+      <Point GraphRef="a59c1"/>
+      <Point GraphRef="dd14c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9dac79fb">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e1c52"/>
+      <Point GraphRef="ba575" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9df6f7ca">
+    <BiopaxRef>e3f</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b328d"/>
+      <Point GraphRef="f34fd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9f884584">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="dd14c"/>
+      <Point/>
+      <Point GraphRef="f841e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idabee82eb">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="cf6c8"/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idac09c4e3">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="a3f83" ArrowHead="Arrow"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="c52eb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idac598c28">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="cf6c8"/>
+      <Point/>
+      <Point GraphRef="a75a4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idacb2b077">
+    <Graphics>
+      <Point GraphRef="b98df"/>
+      <Point GraphRef="fca81" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idadb132a">
+    <BiopaxRef>e3f</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="df20e"/>
+      <Point GraphRef="b328d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb1d30fa">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="ece46"/>
+      <Point/>
+      <Point GraphRef="cf6c9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb5568ae7">
+    <BiopaxRef>a6f</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="f39b7"/>
+      <Point GraphRef="e1169" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb5bc6905">
+    <Graphics>
+      <Point GraphRef="bca0b"/>
+      <Point GraphRef="cdac9" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbc089a2a">
+    <Graphics>
+      <Point GraphRef="d9b90"/>
+      <Point GraphRef="a8e72" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbd129eca">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a75a4"/>
+      <Point GraphRef="c3719" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbde415e6">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e7e7a"/>
+      <Point GraphRef="df20e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc0137c29">
+    <Graphics>
+      <Point GraphRef="c9150"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc40b6454">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f6591"/>
+      <Point GraphRef="b8267" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc533fdab">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="00ffff">
+      <Point GraphRef="cf6c8"/>
+      <Point/>
+      <Point GraphRef="dd14c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc77daae1">
+    <BiopaxRef>f04</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fca81"/>
+      <Point GraphRef="ca04f" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idce381ffc">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="edf9e"/>
+      <Point GraphRef="b4164" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcfc279cb">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c41f0"/>
+      <Point GraphRef="dd14c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd912d667">
+    <BiopaxRef>be5</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="edf9e"/>
+      <Point GraphRef="dd14c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idded8d7ad">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e560f"/>
+      <Point GraphRef="dd14c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide42a71c">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide5ae84bd">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b63ad"/>
+      <Point GraphRef="cf6c8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide7513ed4">
+    <BiopaxRef>d70</BiopaxRef>
+    <BiopaxRef>afb</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cf6c8"/>
+      <Point/>
+      <Point GraphRef="edf9e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf75e0041">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="acbf4"/>
+      <Point GraphRef="a8219" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf8007aad">
+    <BiopaxRef>d88</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="33ff00">
+      <Point GraphRef="da5d7"/>
+      <Point/>
+      <Point GraphRef="dd14c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfb358ab4">
+    <Graphics>
+      <Point GraphRef="e5823"/>
+      <Point GraphRef="b98df" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfdca4d95">
+    <Graphics ConnectorType="Elbow">
+      <Point/>
+      <Point/>
+      <Point GraphRef="dd14c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idff773eff">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f39b7"/>
+      <Point GraphRef="e95c9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f5b47" GroupRef="e566f">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ce1f9" GroupRef="e566f">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c4b06" GroupRef="e163a">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d3683" GroupRef="e163a">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cd878">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e5cf3">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b21ae">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e8388">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f695c">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e867d"/>
+      <Point GraphRef="e7e7a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b29ae">
+    <BiopaxRef>c6c</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ff0033">
+      <Point GraphRef="acbf4"/>
+      <Point GraphRef="dd14c" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f7486">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="dd14c"/>
+      <Point/>
+      <Point GraphRef="a80d6" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a5d40">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a80d6"/>
+      <Point GraphRef="fed0f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa583">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c2cc5"/>
+      <Point GraphRef="fed0f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d04b0" GroupRef="e40c0">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c4880" GroupRef="e40c0">
+    <Graphics Color="ff0033">
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dab48" GroupRef="e40c0">
+    <Graphics Color="9900cc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a3ae2" GroupRef="e40c0">
+    <Graphics Color="cc00cc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c8523" GroupRef="e40c0">
+    <Graphics Color="999900">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d9aa7" GroupRef="e40c0">
+    <Graphics LineStyle="Broken" Color="00cccc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c97b7" GroupRef="e40c0">
+    <Graphics Color="00ffff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a92ff" GroupRef="e40c0">
+    <Graphics Color="ffcc33">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de447" GroupRef="e40c0">
+    <Graphics>
+      <Point GraphRef="b240f"/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="baf56" GroupRef="e40c0">
+    <Graphics Color="0000ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b3e3f" GroupRef="e40c0">
+    <Graphics Color="ff9933">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e76d2" GroupRef="e40c0">
+    <Graphics Color="cccc00">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc828" GroupRef="e40c0">
+    <Graphics Color="770000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c02d0" GroupRef="e40c0">
+    <Graphics Color="775200">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e8882" GroupRef="e40c0">
+    <Graphics Color="ff6666">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cbc7e" GroupRef="e40c0">
+    <Graphics Color="999999">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dd7d7" GroupRef="e40c0">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b9b53" GroupRef="e40c0">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f1f0f" GroupRef="e40c0">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e4b6c" GroupRef="e40c0">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f1c79" GroupRef="e40c0">
+    <Graphics Color="0000cc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ac2bb" GroupRef="e40c0">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8197" GroupRef="e40c0">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d1896" GroupRef="e40c0">
+    <Graphics Color="ff3399">
+      <Point GraphRef="ecf3c"/>
+      <Point GraphRef="f3181"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="faf4e">
+    <BiopaxRef>fb3</BiopaxRef>
+    <BiopaxRef>e86</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="ab320"/>
+      <Point GraphRef="f6591" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b6820">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b8267"/>
+      <Point GraphRef="e1c52" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f1509">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="a80d6"/>
+      <Point/>
+      <Point GraphRef="c2cc5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e840d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f147b"/>
+      <Point/>
+      <Point GraphRef="dd14c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9443">
+    <BiopaxRef>a5e</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="e7e7a"/>
+      <Point/>
+      <Point GraphRef="c2cc5" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a27af">
+    <BiopaxRef>d37</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="df20e"/>
+      <Point/>
+      <Point GraphRef="a80d6" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b5103">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c52eb"/>
+      <Point GraphRef="a5018" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a321a">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a80d6"/>
+      <Point GraphRef="a5018" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a897d">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c2cc5"/>
+      <Point GraphRef="a5018" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="id88042fe1">
+    <Graphics>
+      <Point GraphRef="e154e"/>
+      <Point GraphRef="a8e72"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Protein" GraphId="c30ed">
+    <Graphics FillColor="00cccc" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Protein" GraphId="c9c58">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="dbaba">
+    <Graphics FillColor="ffffff" Color="999999"/>
+  </Label>
+  <Label TextLabel="Enzyme Complex" GraphId="a03dc" GroupRef="e40c0">
+    <Graphics FillColor="99ff33" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Protein" GraphId="bb3cd" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Receptor" GraphId="d36da" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Ligand" GraphId="ecf3c" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="mRNA" GraphId="fe01c" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Small molecule" GraphId="b3f54" GroupRef="e40c0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Induced activation" GraphId="be5c0" GroupRef="e40c0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inhibition" GraphId="cb314" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Auto catalysis" GraphId="ecff6" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Transport" GraphId="f3f84" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Positive regulation of gene expression" GraphId="b626e" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Leads to through unknown mechanism" GraphId="ea62d" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Negative regulation of gene expression" GraphId="a75a1" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Translocation " GraphId="c8f7c" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Ubiquitination" GraphId="b0620" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Deubiquitination" GraphId="e4904" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Sumoylation" GraphId="a3d41" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Induced catalysis" GraphId="a8941" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Protein-protein interaction" GraphId="b42d0" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Acetylation" GraphId="cc32b" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Dephosphorylation" GraphId="b66b1" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="LEGEND" GraphId="ab648" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif" Color="3333ff"/>
+  </Label>
+  <Label TextLabel="Phosphorylation" GraphId="e052a" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Deacetylation" GraphId="a773c" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Golgi apparatus" GraphId="d956b" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Endosome" GraphId="d3168" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="f14ed" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Mitochondrion" GraphId="da251" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Desumoylation" GraphId="fa314" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Methylation" GraphId="efc70" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Demethylation" GraphId="cb6e0" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Palmitoylation" GraphId="e8d65" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="Cytoplasm" GraphId="d65b0" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="EC" GraphId="a4554" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Plasma membrane" GraphId="c78b6" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="MT" GraphId="a697c" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Endoplasmic reticulum" GraphId="aaad9" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="CY" GraphId="eee57" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="PM" GraphId="f0bf4" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="GO" GraphId="dacbc" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="NU" GraphId="f58bd" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Extracellular" GraphId="cecbf" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Label TextLabel="ER" GraphId="a1b02" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="EN" GraphId="cca1a" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Proteolytic cleavage" GraphId="fd6ae" GroupRef="e40c0">
+    <Graphics FillColor="ffffff" FontName="SansSerif"/>
+  </Label>
+  <Shape GraphId="d674b">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e11a3">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e154e">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="f55e7">
+    <Graphics FillColor="ff00ff" ShapeType="Oval" Color="ff33ff"/>
+  </Shape>
+  <Shape TextLabel="STAT1" GraphId="cf6c9">
+    <BiopaxRef>c06</BiopaxRef>
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="Cy" GraphId="f55bc" GroupRef="e566f">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="Nu" GraphId="b4f29" GroupRef="e566f">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="HSP90" GraphId="c190e" GroupRef="ba2a5">
+    <BiopaxRef>b48</BiopaxRef>
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="Activation&#10;" GraphId="f0f00">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ff0033"/>
+  </Shape>
+  <Shape TextLabel="TCDD" GraphId="e560f" GroupRef="a8484">
+    <BiopaxRef>e06</BiopaxRef>
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="Cy" GraphId="f297b" GroupRef="e163a">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="Nu" GraphId="a02d8" GroupRef="e163a">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="NEDD8&#10;" GraphId="c41f0" GroupRef="a8484">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="SUMO7&#10;" GraphId="e65ae" GroupRef="a8484">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="Cy" GraphId="e5211">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="Nu" GraphId="ee393">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="Cy" GraphId="c6222">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="Nu" GraphId="c2040">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="b240f" GroupRef="e40c0">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="c8347" GroupRef="e40c0">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="f229d" GroupRef="e40c0">
+    <Graphics ShapeType="Arc" Color="0000cc"/>
+  </Shape>
+  <Shape TextLabel="Molecule" GraphId="a42c3" GroupRef="e40c0">
+    <Graphics FillColor="ffccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f3181" GroupRef="e40c0">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff0066"/>
+  </Shape>
+  <Group GroupId="d7c0e" GraphId="a8219" Style="Complex"/>
+  <Group GroupId="f4a59" GraphId="b0836" Style="Group"/>
+  <Group GroupId="cbd53" GraphId="b4164" Style="Complex"/>
+  <Group GroupId="ba2a5" GraphId="b63ad" Style="Complex">
+    <BiopaxRef>aba</BiopaxRef>
+  </Group>
+  <Group GroupId="e992a" GraphId="ba407" Style="Group"/>
+  <Group GroupId="b84cb" GraphId="bca0b" Style="Complex"/>
+  <Group GroupId="a6e33" GraphId="c3bdd" Style="Complex"/>
+  <Group GroupId="a8484" GraphId="c6964" Style="Group"/>
+  <Group GroupId="bc882" GraphId="c738c" Style="Group"/>
+  <Group GroupId="e17aa" GraphId="c8f3c" Style="Group"/>
+  <Group GroupId="f4daa" GraphId="cdac9" Style="Complex"/>
+  <Group GroupId="bb505" GraphId="cf474" Style="Complex">
+    <BiopaxRef>d5c</BiopaxRef>
+  </Group>
+  <Group GroupId="f22e7" GraphId="cf6c8" Style="Complex"/>
+  <Group GroupId="e566f" GraphId="d7f0c" Style="Group"/>
+  <Group GroupId="b601d" GraphId="dd14c" Style="Group">
+    <BiopaxRef>e06</BiopaxRef>
+    <BiopaxRef>ad6</BiopaxRef>
+  </Group>
+  <Group GroupId="afca1" GraphId="df20e" Style="Complex"/>
+  <Group GroupId="f0da7" GraphId="e1ebf" Style="Group"/>
+  <Group GroupId="c8ff7" GraphId="e9d29" Style="Group"/>
+  <Group GroupId="c874b" GraphId="ea83a" Style="Group"/>
+  <Group GroupId="e40c0" GraphId="ef7e1" Style="Group"/>
+  <Group GroupId="e163a" GraphId="f4bd3" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e80">
+      <bp:ID >17934341</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Signaling pathway for 2,3,7,8-tetrachlorodibenzo-p-dioxin-induced TNF-alpha production in differentiated THP-1 human macrophages.</bp:TITLE>
+      <bp:SOURCE >Exp Mol Med</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Cheon H</bp:AUTHORS>
+      <bp:AUTHORS >Woo YS</bp:AUTHORS>
+      <bp:AUTHORS >Lee JY</bp:AUTHORS>
+      <bp:AUTHORS >Kim HS</bp:AUTHORS>
+      <bp:AUTHORS >Kim HJ</bp:AUTHORS>
+      <bp:AUTHORS >Cho S</bp:AUTHORS>
+      <bp:AUTHORS >Won NH</bp:AUTHORS>
+      <bp:AUTHORS >Sohn J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c1d">
+      <bp:ID >8937476</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification of c-Src as the integral component of the cytosolic Ah receptor complex, transducing the signal of 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) through the protein phosphorylation pathway.</bp:TITLE>
+      <bp:SOURCE >Biochem Pharmacol</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >Enan E</bp:AUTHORS>
+      <bp:AUTHORS >Matsumura F</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f41">
+      <bp:ID >956169</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Stereospecific, high affinity binding of 2,3,7,8-tetrachlorodibenzo-p-dioxin by hepatic cytosol. Evidence that the binding species is receptor for induction of aryl hydrocarbon hydroxylase.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1976</bp:YEAR>
+      <bp:AUTHORS >Poland A</bp:AUTHORS>
+      <bp:AUTHORS >Glover E</bp:AUTHORS>
+      <bp:AUTHORS >Kende AS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b0f">
+      <bp:ID >2843537</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Association of the Ah receptor with the 90-kDa heat shock protein.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1988</bp:YEAR>
+      <bp:AUTHORS >Perdew GH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d68">
+      <bp:ID >10398686</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >p27(Kip1) induction and inhibition of proliferation by the intracellular Ah receptor in developing thymus and hepatoma cells.</bp:TITLE>
+      <bp:SOURCE >Genes Dev</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Kolluri SK</bp:AUTHORS>
+      <bp:AUTHORS >Weiss C</bp:AUTHORS>
+      <bp:AUTHORS >Koff A</bp:AUTHORS>
+      <bp:AUTHORS >G&#195;&#732;&#194;&#163;&#195;&#8218;&#194;&#182;ttlicher M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c06">
+      <bp:ID >18607004</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Aryl hydrocarbon receptor regulates Stat1 activation and participates in the development of Th17 cells.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Kimura A</bp:AUTHORS>
+      <bp:AUTHORS >Naka T</bp:AUTHORS>
+      <bp:AUTHORS >Nohara K</bp:AUTHORS>
+      <bp:AUTHORS >Fujii-Kuriyama Y</bp:AUTHORS>
+      <bp:AUTHORS >Kishimoto T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d37">
+      <bp:ID >7557864</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Differential effects of cytokines on the inducible expression of CYP1A1, CYP1A2, and CYP3A4 in human hepatocytes in primary culture.</bp:TITLE>
+      <bp:SOURCE >Hepatology</bp:SOURCE>
+      <bp:YEAR >1995</bp:YEAR>
+      <bp:AUTHORS >Muntan&#195;&#732;&#194;&#163;&#195;&#8218;&#194;&#169;-Relat J</bp:AUTHORS>
+      <bp:AUTHORS >Ourlin JC</bp:AUTHORS>
+      <bp:AUTHORS >Domergue J</bp:AUTHORS>
+      <bp:AUTHORS >Maurel P</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e3f">
+      <bp:ID >16940415</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of dioxin response element and nuclear factor-kappaB motifs in 2,3,7,8-tetrachlorodibenzo-p-dioxin-mediated regulation of Fas and Fas ligand expression.</bp:TITLE>
+      <bp:SOURCE >Mol Pharmacol</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Singh NP</bp:AUTHORS>
+      <bp:AUTHORS >Nagarkatti M</bp:AUTHORS>
+      <bp:AUTHORS >Nagarkatti PS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e86">
+      <bp:ID >10074425</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A new pathway for mitogen-dependent cdk2 regulation uncovered in p27(Kip1)-deficient cells.</bp:TITLE>
+      <bp:SOURCE >Curr Biol</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Coats S</bp:AUTHORS>
+      <bp:AUTHORS >Whyte P</bp:AUTHORS>
+      <bp:AUTHORS >Fero ML</bp:AUTHORS>
+      <bp:AUTHORS >Lacy S</bp:AUTHORS>
+      <bp:AUTHORS >Chung G</bp:AUTHORS>
+      <bp:AUTHORS >Randel E</bp:AUTHORS>
+      <bp:AUTHORS >Firpo E</bp:AUTHORS>
+      <bp:AUTHORS >Roberts JM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f60">
+      <bp:ID >11114727</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The RelA NF-kappaB subunit and the aryl hydrocarbon receptor (AhR) cooperate to transactivate the c-myc promoter in mammary cells.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Kim DW</bp:AUTHORS>
+      <bp:AUTHORS >Gazourian L</bp:AUTHORS>
+      <bp:AUTHORS >Quadri SA</bp:AUTHORS>
+      <bp:AUTHORS >Romieu-Mourez R</bp:AUTHORS>
+      <bp:AUTHORS >Sherr DH</bp:AUTHORS>
+      <bp:AUTHORS >Sonenshein GE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e5d">
+      <bp:ID >1844873</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Human AH locus polymorphism and cancer: inducibility of CYP1A1 and other genes by combustion products and dioxin.</bp:TITLE>
+      <bp:SOURCE >Pharmacogenetics</bp:SOURCE>
+      <bp:YEAR >1991</bp:YEAR>
+      <bp:AUTHORS >Nebert DW</bp:AUTHORS>
+      <bp:AUTHORS >Petersen DD</bp:AUTHORS>
+      <bp:AUTHORS >Puga A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c10">
+      <bp:ID >9380030</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >2,3,7,8-Tetrachlorodibenzo-p-dioxin-induced activation of a protein tyrosine kinase, pp60src, in murine hepatic cytosol using a cell-free system.</bp:TITLE>
+      <bp:SOURCE >Mol Pharmacol</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Blankenship A</bp:AUTHORS>
+      <bp:AUTHORS >Matsumura F</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e06">
+      <bp:ID >22903824</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >High-resolution genome-wide mapping of AHR and ARNT binding sites by ChIP-Seq.</bp:TITLE>
+      <bp:SOURCE >Toxicol Sci</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Lo R</bp:AUTHORS>
+      <bp:AUTHORS >Matthews J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eaa">
+      <bp:ID >12223212</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Binding of polycyclic aromatic hydrocarbons (PAHs) to teleost aryl hydrocarbon receptors (AHRs).</bp:TITLE>
+      <bp:SOURCE >Comp Biochem Physiol B Biochem Mol Biol</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Billiard SM</bp:AUTHORS>
+      <bp:AUTHORS >Hahn ME</bp:AUTHORS>
+      <bp:AUTHORS >Franks DG</bp:AUTHORS>
+      <bp:AUTHORS >Peterson RE</bp:AUTHORS>
+      <bp:AUTHORS >Bols NC</bp:AUTHORS>
+      <bp:AUTHORS >Hodson PV</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a78">
+      <bp:ID >3266253</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >2,3,7,8-Tetrachlorodibenzo-p-dioxin causes an increase in protein kinases associated with epidermal growth factor receptor in the hepatic plasma membrane.</bp:TITLE>
+      <bp:SOURCE >J Biochem Toxicol</bp:SOURCE>
+      <bp:YEAR >1988</bp:YEAR>
+      <bp:AUTHORS >Madhukar BV</bp:AUTHORS>
+      <bp:AUTHORS >Ebner K</bp:AUTHORS>
+      <bp:AUTHORS >Matsumura F</bp:AUTHORS>
+      <bp:AUTHORS >Bombick DW</bp:AUTHORS>
+      <bp:AUTHORS >Brewster DW</bp:AUTHORS>
+      <bp:AUTHORS >Kawamoto T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c67">
+      <bp:ID >19366855</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The tyrosine kinase receptor RET interacts in vivo with aryl hydrocarbon receptor-interacting protein to alter survivin availability.</bp:TITLE>
+      <bp:SOURCE >J Clin Endocrinol Metab</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Vargiolu M</bp:AUTHORS>
+      <bp:AUTHORS >Fusco D</bp:AUTHORS>
+      <bp:AUTHORS >Kurelac I</bp:AUTHORS>
+      <bp:AUTHORS >Dirnberger D</bp:AUTHORS>
+      <bp:AUTHORS >Baumeister R</bp:AUTHORS>
+      <bp:AUTHORS >Morra I</bp:AUTHORS>
+      <bp:AUTHORS >Melcarne A</bp:AUTHORS>
+      <bp:AUTHORS >Rimondini R</bp:AUTHORS>
+      <bp:AUTHORS >Romeo G</bp:AUTHORS>
+      <bp:AUTHORS >Bonora E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f04">
+      <bp:ID >19203995</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Epidermal growth factor-activated aryl hydrocarbon receptor nuclear translocator/HIF-1{beta} signal pathway up-regulates cyclooxygenase-2 gene expression associated with squamous cell carcinoma.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Chang KY</bp:AUTHORS>
+      <bp:AUTHORS >Shen MR</bp:AUTHORS>
+      <bp:AUTHORS >Lee MY</bp:AUTHORS>
+      <bp:AUTHORS >Wang WL</bp:AUTHORS>
+      <bp:AUTHORS >Su WC</bp:AUTHORS>
+      <bp:AUTHORS >Chang WC</bp:AUTHORS>
+      <bp:AUTHORS >Chen BK</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d82">
+      <bp:ID >10395741</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Interactions of nuclear receptor coactivator/corepressor proteins with the aryl hydrocarbon receptor complex.</bp:TITLE>
+      <bp:SOURCE >Arch Biochem Biophys</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Nguyen TA</bp:AUTHORS>
+      <bp:AUTHORS >Hoivik D</bp:AUTHORS>
+      <bp:AUTHORS >Lee JE</bp:AUTHORS>
+      <bp:AUTHORS >Safe S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e2f">
+      <bp:ID >19255421</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >EGF receptor signaling blocks aryl hydrocarbon receptor-mediated transcription and cell differentiation in human epidermal keratinocytes.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Sutter CH</bp:AUTHORS>
+      <bp:AUTHORS >Yin H</bp:AUTHORS>
+      <bp:AUTHORS >Li Y</bp:AUTHORS>
+      <bp:AUTHORS >Mammen JS</bp:AUTHORS>
+      <bp:AUTHORS >Bodreddigari S</bp:AUTHORS>
+      <bp:AUTHORS >Stevens G</bp:AUTHORS>
+      <bp:AUTHORS >Cole JA</bp:AUTHORS>
+      <bp:AUTHORS >Sutter TR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6f">
+      <bp:ID >10777214</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Epstein-Barr virus encoded nuclear protein EBNA-3 binds XAP-2, a protein associated with Hepatitis B virus X antigen.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Kashuba E</bp:AUTHORS>
+      <bp:AUTHORS >Kashuba V</bp:AUTHORS>
+      <bp:AUTHORS >Pokrovskaja K</bp:AUTHORS>
+      <bp:AUTHORS >Klein G</bp:AUTHORS>
+      <bp:AUTHORS >Szekely L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c93">
+      <bp:ID >19158084</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >HDAC6 modulates Hsp90 chaperone activity and regulates activation of aryl hydrocarbon receptor signaling.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Kekatpure VD</bp:AUTHORS>
+      <bp:AUTHORS >Dannenberg AJ</bp:AUTHORS>
+      <bp:AUTHORS >Subbaramaiah K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da2">
+      <bp:ID >10224120</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Evidence that the co-chaperone p23 regulates ligand responsiveness of the dioxin (Aryl hydrocarbon) receptor.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Kazlauskas A</bp:AUTHORS>
+      <bp:AUTHORS >Poellinger L</bp:AUTHORS>
+      <bp:AUTHORS >Pongratz I</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b72">
+      <bp:ID >23512538</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The tumor suppressor Kruppel-like factor 6 is a novel aryl hydrocarbon receptor DNA binding partner.</bp:TITLE>
+      <bp:SOURCE >J Pharmacol Exp Ther</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Wilson SR</bp:AUTHORS>
+      <bp:AUTHORS >Joshi AD</bp:AUTHORS>
+      <bp:AUTHORS >Elferink CJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f03">
+      <bp:ID >12727795</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >TCDD-mediated alterations in the AhR-dependent pathway in Seveso, Italy, 20 years after the accident.</bp:TITLE>
+      <bp:SOURCE >Carcinogenesis</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Landi MT</bp:AUTHORS>
+      <bp:AUTHORS >Bertazzi PA</bp:AUTHORS>
+      <bp:AUTHORS >Baccarelli A</bp:AUTHORS>
+      <bp:AUTHORS >Consonni D</bp:AUTHORS>
+      <bp:AUTHORS >Masten S</bp:AUTHORS>
+      <bp:AUTHORS >Lucier G</bp:AUTHORS>
+      <bp:AUTHORS >Mocarelli P</bp:AUTHORS>
+      <bp:AUTHORS >Needham L</bp:AUTHORS>
+      <bp:AUTHORS >Caporaso N</bp:AUTHORS>
+      <bp:AUTHORS >Grassman J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c90">
+      <bp:ID >22659247</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Somatostatin analogs modulate AIP in somatotroph adenomas: the role of the ZAC1 pathway.</bp:TITLE>
+      <bp:SOURCE >J Clin Endocrinol Metab</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Chahal HS</bp:AUTHORS>
+      <bp:AUTHORS >Trivellin G</bp:AUTHORS>
+      <bp:AUTHORS >Leontiou CA</bp:AUTHORS>
+      <bp:AUTHORS >Alband N</bp:AUTHORS>
+      <bp:AUTHORS >Fowkes RC</bp:AUTHORS>
+      <bp:AUTHORS >Tahir A</bp:AUTHORS>
+      <bp:AUTHORS >Igreja SC</bp:AUTHORS>
+      <bp:AUTHORS >Chapple JP</bp:AUTHORS>
+      <bp:AUTHORS >Jordan S</bp:AUTHORS>
+      <bp:AUTHORS >Lupp A</bp:AUTHORS>
+      <bp:AUTHORS >Schulz S</bp:AUTHORS>
+      <bp:AUTHORS >Ansorge O</bp:AUTHORS>
+      <bp:AUTHORS >Karavitaki N</bp:AUTHORS>
+      <bp:AUTHORS >Carlsen E</bp:AUTHORS>
+      <bp:AUTHORS >Wass JA</bp:AUTHORS>
+      <bp:AUTHORS >Grossman AB</bp:AUTHORS>
+      <bp:AUTHORS >Korbonits M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d88">
+      <bp:ID >9712901</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A direct interaction between the aryl hydrocarbon receptor and retinoblastoma protein. Linking dioxin signaling to the cell cycle.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Ge NL</bp:AUTHORS>
+      <bp:AUTHORS >Elferink CJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc5">
+      <bp:ID >19574409</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Dioxin increases the interaction between aryl hydrocarbon receptor and estrogen receptor alpha at human promoters.</bp:TITLE>
+      <bp:SOURCE >Toxicol Sci</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Ahmed S</bp:AUTHORS>
+      <bp:AUTHORS >Valen E</bp:AUTHORS>
+      <bp:AUTHORS >Sandelin A</bp:AUTHORS>
+      <bp:AUTHORS >Matthews J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b2f">
+      <bp:ID >10620335</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The aryl hydrocarbon receptor interacts with estrogen receptor alpha and orphan receptors COUP-TFI and ERRalpha1.</bp:TITLE>
+      <bp:SOURCE >Arch Biochem Biophys</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Klinge CM</bp:AUTHORS>
+      <bp:AUTHORS >Kaur K</bp:AUTHORS>
+      <bp:AUTHORS >Swanson HI</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a8a">
+      <bp:ID >9704006</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Transcriptionally active heterodimer formation of an Arnt-like PAS protein, Arnt3, with HIF-1a, HLF, and clock.</bp:TITLE>
+      <bp:SOURCE >Biochem Biophys Res Commun</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Takahata S</bp:AUTHORS>
+      <bp:AUTHORS >Sogawa K</bp:AUTHORS>
+      <bp:AUTHORS >Kobayashi A</bp:AUTHORS>
+      <bp:AUTHORS >Ema M</bp:AUTHORS>
+      <bp:AUTHORS >Mimura J</bp:AUTHORS>
+      <bp:AUTHORS >Ozaki N</bp:AUTHORS>
+      <bp:AUTHORS >Fujii-Kuriyama Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e26">
+      <bp:ID >18089838</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Dioxin-mediated up-regulation of aryl hydrocarbon receptor target genes is dependent on the calcium/calmodulin/CaMKIalpha pathway.</bp:TITLE>
+      <bp:SOURCE >Mol Pharmacol</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Monteiro P</bp:AUTHORS>
+      <bp:AUTHORS >Gilot D</bp:AUTHORS>
+      <bp:AUTHORS >Le Ferrec E</bp:AUTHORS>
+      <bp:AUTHORS >Rauch C</bp:AUTHORS>
+      <bp:AUTHORS >Lagadic-Gossmann D</bp:AUTHORS>
+      <bp:AUTHORS >Fardel O</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad6">
+      <bp:ID >8396713</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of the aryl hydrocarbon receptor nuclear translocator protein in aryl hydrocarbon (dioxin) receptor action.</bp:TITLE>
+      <bp:SOURCE >Mol Pharmacol</bp:SOURCE>
+      <bp:YEAR >1993</bp:YEAR>
+      <bp:AUTHORS >Probst MR</bp:AUTHORS>
+      <bp:AUTHORS >Reisz-Porszasz S</bp:AUTHORS>
+      <bp:AUTHORS >Agbunag RV</bp:AUTHORS>
+      <bp:AUTHORS >Ong MS</bp:AUTHORS>
+      <bp:AUTHORS >Hankinson O</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb3">
+      <bp:ID >9488039</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification of cdk2 binding sites on the p27Kip1 cyclin-dependent kinase inhibitor.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Kwon TK</bp:AUTHORS>
+      <bp:AUTHORS >Nordin AA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a5e">
+      <bp:ID >18336843</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Tumor necrosis factor-alpha potentiates genotoxic effects of benzo[a]pyrene in rat liver epithelial cells through upregulation of cytochrome P450 1B1 expression.</bp:TITLE>
+      <bp:SOURCE >Mutat Res</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Umannov&#195;&#732;&#194;&#163;&#195;&#732;&#197;&#8217; L</bp:AUTHORS>
+      <bp:AUTHORS >Machala M</bp:AUTHORS>
+      <bp:AUTHORS >Topinka J</bp:AUTHORS>
+      <bp:AUTHORS >Nov&#195;&#732;&#194;&#163;&#195;&#732;&#197;&#8217;kov&#195;&#732;&#194;&#163;&#195;&#732;&#197;&#8217; Z</bp:AUTHORS>
+      <bp:AUTHORS >Milcov&#195;&#732;&#194;&#163;&#195;&#732;&#197;&#8217; A</bp:AUTHORS>
+      <bp:AUTHORS >Kozub&#195;&#732;&#194;&#163;&#195;&#8218;&#194;&#173;k A</bp:AUTHORS>
+      <bp:AUTHORS >Vondr&#195;&#732;&#194;&#163;&#195;&#732;&#197;&#8217;cek J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca3">
+      <bp:ID >8120057</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The human CYP1A2 gene and induction by 3-methylcholanthrene. A region of DNA that supports AH-receptor binding and promoter-specific induction.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1994</bp:YEAR>
+      <bp:AUTHORS >Quattrochi LC</bp:AUTHORS>
+      <bp:AUTHORS >Vu T</bp:AUTHORS>
+      <bp:AUTHORS >Tukey RH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a45">
+      <bp:ID >8910454</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Isolation and characterization of the human cytochrome P450 CYP1B1 gene.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >Tang YM</bp:AUTHORS>
+      <bp:AUTHORS >Wo YY</bp:AUTHORS>
+      <bp:AUTHORS >Stewart J</bp:AUTHORS>
+      <bp:AUTHORS >Hawkins AL</bp:AUTHORS>
+      <bp:AUTHORS >Griffin CA</bp:AUTHORS>
+      <bp:AUTHORS >Sutter TR</bp:AUTHORS>
+      <bp:AUTHORS >Greenlee WF</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >regulatory pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000004</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ddc">
+      <bp:ID >21846477</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Nrf2 protects against 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)-induced oxidative injury and steatohepatitis.</bp:TITLE>
+      <bp:SOURCE >Toxicol Appl Pharmacol</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Lu H</bp:AUTHORS>
+      <bp:AUTHORS >Cui W</bp:AUTHORS>
+      <bp:AUTHORS >Klaassen CD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a7e">
+      <bp:ID >17223712</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Rapid activation of c-Src kinase by dioxin is mediated by the Cdc37-HSP90 complex as part of Ah receptor signaling in MCF10A cells.</bp:TITLE>
+      <bp:SOURCE >Biochemistry</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Park S</bp:AUTHORS>
+      <bp:AUTHORS >Dong B</bp:AUTHORS>
+      <bp:AUTHORS >Matsumura F</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a4f">
+      <bp:ID >11502724</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Metabolic activation of polycyclic aromatic hydrocarbons and other procarcinogens by cytochromes P450 1A1 and P450 1B1 allelic variants and other human cytochromes P450 in Salmonella typhimurium NM2009.</bp:TITLE>
+      <bp:SOURCE >Drug Metab Dispos</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Shimada T</bp:AUTHORS>
+      <bp:AUTHORS >Oda Y</bp:AUTHORS>
+      <bp:AUTHORS >Gillam EM</bp:AUTHORS>
+      <bp:AUTHORS >Guengerich FP</bp:AUTHORS>
+      <bp:AUTHORS >Inoue K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3d">
+      <bp:ID >9504046</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Specificity within the EGF family/ErbB receptor family signaling network.</bp:TITLE>
+      <bp:SOURCE >Bioessays</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Riese DJ 2nd</bp:AUTHORS>
+      <bp:AUTHORS >Stern DF</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e3d">
+      <bp:ID >16679317</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Aryl hydrocarbon receptor- and calcium-dependent induction of the chemokine CCL1 by the environmental contaminant benzo[a]pyrene.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >N'Diaye M</bp:AUTHORS>
+      <bp:AUTHORS >Le Ferrec E</bp:AUTHORS>
+      <bp:AUTHORS >Lagadic-Gossmann D</bp:AUTHORS>
+      <bp:AUTHORS >Corre S</bp:AUTHORS>
+      <bp:AUTHORS >Gilot D</bp:AUTHORS>
+      <bp:AUTHORS >Lecureur V</bp:AUTHORS>
+      <bp:AUTHORS >Monteiro P</bp:AUTHORS>
+      <bp:AUTHORS >Rauch C</bp:AUTHORS>
+      <bp:AUTHORS >Galibert MD</bp:AUTHORS>
+      <bp:AUTHORS >Fardel O</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="afb">
+      <bp:ID >15790560</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Transcriptional regulation of NF-E2 p45-related factor (NRF2) expression by the aryl hydrocarbon receptor-xenobiotic response element signaling pathway: direct cross-talk between phase I and II drug-metabolizing enzymes.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Miao W</bp:AUTHORS>
+      <bp:AUTHORS >Hu L</bp:AUTHORS>
+      <bp:AUTHORS >Scrivens PJ</bp:AUTHORS>
+      <bp:AUTHORS >Batist G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be5">
+      <bp:ID >17709388</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NRF2 modulates aryl hydrocarbon receptor signaling: influence on adipogenesis.</bp:TITLE>
+      <bp:SOURCE >Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Shin S</bp:AUTHORS>
+      <bp:AUTHORS >Wakabayashi N</bp:AUTHORS>
+      <bp:AUTHORS >Misra V</bp:AUTHORS>
+      <bp:AUTHORS >Biswal S</bp:AUTHORS>
+      <bp:AUTHORS >Lee GH</bp:AUTHORS>
+      <bp:AUTHORS >Agoston ES</bp:AUTHORS>
+      <bp:AUTHORS >Yamamoto M</bp:AUTHORS>
+      <bp:AUTHORS >Kensler TW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b48">
+      <bp:ID >15322122</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The aryl hydrocarbon (Ah) receptor transcriptional regulator hepatitis B virus X-associated protein 2 antagonizes p23 binding to Ah receptor-Hsp90 complexes and is dispensable for receptor function.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Hollingshead BD</bp:AUTHORS>
+      <bp:AUTHORS >Petrulis JR</bp:AUTHORS>
+      <bp:AUTHORS >Perdew GH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d24">
+      <bp:ID >11097088</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Expression of the aryl hydrocarbon receptor/transcription factor (AhR) and AhR-regulated CYP1 gene transcripts in a rat model of mammary tumorigenesis.</bp:TITLE>
+      <bp:SOURCE >Breast Cancer Res Treat</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Trombino AF</bp:AUTHORS>
+      <bp:AUTHORS >Near RI</bp:AUTHORS>
+      <bp:AUTHORS >Matulka RA</bp:AUTHORS>
+      <bp:AUTHORS >Yang S</bp:AUTHORS>
+      <bp:AUTHORS >Hafer LJ</bp:AUTHORS>
+      <bp:AUTHORS >Toselli PA</bp:AUTHORS>
+      <bp:AUTHORS >Kim DW</bp:AUTHORS>
+      <bp:AUTHORS >Rogers AE</bp:AUTHORS>
+      <bp:AUTHORS >Sonenshein GE</bp:AUTHORS>
+      <bp:AUTHORS >Sherr DH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dd7">
+      <bp:ID >14597617</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Decreased p21 levels are required for efficient restart of DNA synthesis after S phase block.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Gottifredi V</bp:AUTHORS>
+      <bp:AUTHORS >McKinney K</bp:AUTHORS>
+      <bp:AUTHORS >Poyurovsky MV</bp:AUTHORS>
+      <bp:AUTHORS >Prives C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b29">
+      <bp:ID >22167199</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Induction of intracellular calcium concentration by environmental benzo(a)pyrene involves a &#195;&#732;&#194;&#174;&#195;&#8218;&#194;&#178;2-adrenergic receptor/adenylyl cyclase/Epac-1/inositol 1,4,5-trisphosphate pathway in endothelial cells.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Mayati A</bp:AUTHORS>
+      <bp:AUTHORS >Levoin N</bp:AUTHORS>
+      <bp:AUTHORS >Paris H</bp:AUTHORS>
+      <bp:AUTHORS >N'Diaye M</bp:AUTHORS>
+      <bp:AUTHORS >Courtois A</bp:AUTHORS>
+      <bp:AUTHORS >Uriac P</bp:AUTHORS>
+      <bp:AUTHORS >Lagadic-Gossmann D</bp:AUTHORS>
+      <bp:AUTHORS >Fardel O</bp:AUTHORS>
+      <bp:AUTHORS >Le Ferrec E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b18">
+      <bp:ID >6095293</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Effects of in vivo-administered 2,3,7,8-tetrachlorodibenzo-p-dioxin on receptor binding of epidermal growth factor in the hepatic plasma membrane of rat, guinea pig, mouse, and hamster.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >1984</bp:YEAR>
+      <bp:AUTHORS >Madhukar BV</bp:AUTHORS>
+      <bp:AUTHORS >Brewster DW</bp:AUTHORS>
+      <bp:AUTHORS >Matsumura F</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d10">
+      <bp:ID >10075741</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >c-Src-mediated phosphorylation of the epidermal growth factor receptor on Tyr845 and Tyr1101 is associated with modulation of receptor function.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Biscardi JS</bp:AUTHORS>
+      <bp:AUTHORS >Maa MC</bp:AUTHORS>
+      <bp:AUTHORS >Tice DA</bp:AUTHORS>
+      <bp:AUTHORS >Cox ME</bp:AUTHORS>
+      <bp:AUTHORS >Leu TH</bp:AUTHORS>
+      <bp:AUTHORS >Parsons SJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c7e">
+      <bp:ID >18827440</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulation of insulin-like growth factor binding protein-1 and lipoprotein lipase by the aryl hydrocarbon receptor.</bp:TITLE>
+      <bp:SOURCE >J Toxicol Sci</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Minami K</bp:AUTHORS>
+      <bp:AUTHORS >Nakajima M</bp:AUTHORS>
+      <bp:AUTHORS >Fujiki Y</bp:AUTHORS>
+      <bp:AUTHORS >Katoh M</bp:AUTHORS>
+      <bp:AUTHORS >Gonzalez FJ</bp:AUTHORS>
+      <bp:AUTHORS >Yokoi T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b71">
+      <bp:ID >11470802</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mechanism of suppression of cytochrome P-450 1A1 expression by tumor necrosis factor-alpha and lipopolysaccharide.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Ke S</bp:AUTHORS>
+      <bp:AUTHORS >Rabson AB</bp:AUTHORS>
+      <bp:AUTHORS >Germino JF</bp:AUTHORS>
+      <bp:AUTHORS >Gallo MA</bp:AUTHORS>
+      <bp:AUTHORS >Tian Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f49">
+      <bp:ID >21856752</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Ligand displaces heat shock protein 90 from overlapping binding sites within the aryl hydrocarbon receptor ligand-binding domain.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Soshilov A</bp:AUTHORS>
+      <bp:AUTHORS >Denison MS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e2e">
+      <bp:ID >11259609</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Maximal aryl hydrocarbon receptor activity depends on an interaction with the retinoblastoma protein.</bp:TITLE>
+      <bp:SOURCE >Mol Pharmacol</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Elferink CJ</bp:AUTHORS>
+      <bp:AUTHORS >Ge NL</bp:AUTHORS>
+      <bp:AUTHORS >Levine A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e7e">
+      <bp:ID >19617630</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Dioxin receptor deficiency impairs angiogenesis by a mechanism involving VEGF-A depletion in the endothelium and transforming growth factor-beta overexpression in the stroma.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Roman AC</bp:AUTHORS>
+      <bp:AUTHORS >Carvajal-Gonzalez JM</bp:AUTHORS>
+      <bp:AUTHORS >Rico-Leo EM</bp:AUTHORS>
+      <bp:AUTHORS >Fernandez-Salguero PM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d5c">
+      <bp:ID >19474220</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Introducing the "TCDD-inducible AhR-Nrf2 gene battery".</bp:TITLE>
+      <bp:SOURCE >Toxicol Sci</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Yeager RL</bp:AUTHORS>
+      <bp:AUTHORS >Reisman SA</bp:AUTHORS>
+      <bp:AUTHORS >Aleksunes LM</bp:AUTHORS>
+      <bp:AUTHORS >Klaassen CD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d70">
+      <bp:ID >20395535</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Aryl hydrocarbon receptor and NF-E2-related factor 2 are key regulators of human MRP4 expression.</bp:TITLE>
+      <bp:SOURCE >Am J Physiol Gastrointest Liver Physiol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Xu S</bp:AUTHORS>
+      <bp:AUTHORS >Weerachayaphorn J</bp:AUTHORS>
+      <bp:AUTHORS >Cai SY</bp:AUTHORS>
+      <bp:AUTHORS >Soroka CJ</bp:AUTHORS>
+      <bp:AUTHORS >Boyer JL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aba">
+      <bp:ID >10961990</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Binding of aryl hydrocarbon receptor (AhR) to AhR-interacting protein. The role of hsp90.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Bell DR</bp:AUTHORS>
+      <bp:AUTHORS >Poland A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c6c">
+      <bp:ID >15837795</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >ER alpha-AHR-ARNT protein-protein interactions mediate estradiol-dependent transrepression of dioxin-inducible gene transcription.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Beischlag TV</bp:AUTHORS>
+      <bp:AUTHORS >Perdew GH</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

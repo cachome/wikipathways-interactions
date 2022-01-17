@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Nanoparticle triggered regulated necrosis" Author="Egon Willighagen" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Programmed cell death: regulated necrosis. During regulated necrosis, different stimuli are recognized or sensed by specific receptors on the cell surface or inside cells. The activation of the necrosome stimulates different signaling pathways leading to mitochondrial hyperpolarization, lysosomal membrane permeabilization, and generation of reactive oxygen species (ROS), leading to cellular disintegration. A recent study revealed that germanium nanoparticles trigger necrostatin-1-inhibitable cell death with a reduction of the mitochondrial membrane potential.
+
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2513 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>b1c</BiopaxRef>
+  <Graphics BoardWidth="936.1296296296293" BoardHeight="743.3333333333335"/>
+  <DataNode TextLabel="Iron" GraphId="a331f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TNFR1" GraphId="b0b03" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Necroptosis" GraphId="b7784" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="CASP8" GraphId="b7c26" Type="GeneProduct" GroupRef="ae8e8">
+        </DataNode>
+  <DataNode TextLabel="TRADD" GraphId="bd9cf" Type="GeneProduct" GroupRef="ae8e8">
+        </DataNode>
+  <DataNode TextLabel="ROS" GraphId="c4878" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TRIF" GraphId="c4da6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Arachidonic acid" GraphId="cbd1a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="RIPK1" GraphId="d0a17" Type="GeneProduct" GroupRef="ae8e8">
+        </DataNode>
+  <DataNode TextLabel="PAMPs" GraphId="d1eaa">
+        </DataNode>
+  <DataNode TextLabel="FADD" GraphId="d2a9b" Type="GeneProduct" GroupRef="ae8e8">
+        </DataNode>
+  <DataNode TextLabel="SMases" GraphId="d4c5b" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Calpains" GraphId="d54ac" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Glutaminolysis" GraphId="d6156" Type="Pathway" GroupRef="febc8">
+    <Graphics ShapeType="RoundedRectangle" Color="009933"/>
+    </DataNode>
+  <DataNode TextLabel="TNF" GraphId="d81de" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Ge NP" GraphId="db0dc" Type="Metabolite">
+    <BiopaxRef>d9c</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ATP" GraphId="dd587" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Calcium" GraphId="de358" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ceramide" GraphId="e0f4c" Type="Metabolite">
+    <Graphics Color="0033cc"/>
+    </DataNode>
+  <DataNode TextLabel="Nec-1" GraphId="e6df9" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="PARP1" GraphId="ed523" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="lipoxygenase" GraphId="f5060" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="cPLA2" GraphId="f59c8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="JNK" GraphId="f7f7a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RIPK3" GraphId="f001b" Type="GeneProduct" GroupRef="ae8e8">
+        </DataNode>
+  <DataNode TextLabel="TLRs" GraphId="b17d7" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Ferritin" GraphId="e6d23" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Labile iron pool" GraphId="adeee" Type="Metabolite">
+    <Graphics Color="0033cc"/>
+    </DataNode>
+  <DataNode TextLabel="Glycogenolysis" GraphId="f2453" Type="Pathway" GroupRef="febc8">
+    <Graphics ShapeType="RoundedRectangle" Color="009933"/>
+    </DataNode>
+  <DataNode TextLabel="Glycolysis" GraphId="d31b9" Type="Pathway" GroupRef="febc8">
+    <Graphics ShapeType="RoundedRectangle" Color="009933"/>
+    </DataNode>
+  <DataNode TextLabel="Iron" GraphId="e6328" Type="Metabolite" GroupRef="fa3e9">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="id119c0eda">
+    <Graphics>
+      <Point GraphRef="b74ab"/>
+      <Point GraphRef="f7f7a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id155653dd">
+    <Graphics>
+      <Point GraphRef="f7f7a"/>
+      <Point GraphRef="e6d23" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id255bd77a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="dd587"/>
+      <Point GraphRef="b7784" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id33710ccd">
+    <Graphics>
+      <Point GraphRef="d4c5b"/>
+      <Point GraphRef="e0f4c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id377a7ef">
+    <Graphics>
+      <Point GraphRef="d54ac"/>
+      <Point GraphRef="a4afb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3bebf36c">
+    <Graphics>
+      <Point GraphRef="f59c8"/>
+      <Point GraphRef="cbd1a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3fa6ac31">
+    <Graphics>
+      <Point GraphRef="b74ab"/>
+      <Point GraphRef="de358" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id451aabed">
+    <Graphics>
+      <Point GraphRef="d1eaa"/>
+      <Point GraphRef="b17d7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id482ce5a6">
+    <Graphics>
+      <Point GraphRef="b74ab"/>
+      <Point GraphRef="d4716" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id54282776">
+    <Graphics>
+      <Point GraphRef="db0dc"/>
+      <Point GraphRef="e8e10" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id595c361c">
+    <Graphics>
+      <Point GraphRef="c4878"/>
+      <Point GraphRef="b7784" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6776928d">
+    <Graphics>
+      <Point GraphRef="cbd1a"/>
+      <Point GraphRef="f5060" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6d2aba5e">
+    <Graphics>
+      <Point GraphRef="d4716"/>
+      <Point GraphRef="e8e10" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7a79c8d8">
+    <Graphics>
+      <Point GraphRef="b74ab"/>
+      <Point GraphRef="d4c5b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id81f53c22">
+    <Graphics>
+      <Point GraphRef="e6df9"/>
+      <Point GraphRef="d0a17" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8a723284">
+    <Graphics>
+      <Point GraphRef="ed523"/>
+      <Point GraphRef="b74ab" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id90021668">
+    <Graphics>
+      <Point GraphRef="a4afb"/>
+      <Point GraphRef="e6117" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id92df436d">
+    <Graphics>
+      <Point GraphRef="de358"/>
+      <Point GraphRef="f59c8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9b491c9b">
+    <Graphics>
+      <Point GraphRef="e8e10"/>
+      <Point GraphRef="c4878" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9cbeefd8">
+    <Graphics>
+      <Point GraphRef="b0b03"/>
+      <Point GraphRef="b74ab" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9f0baa91">
+    <Graphics>
+      <Point GraphRef="a331f"/>
+      <Point GraphRef="c4878" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9f63d0a1">
+    <Graphics>
+      <Point GraphRef="f19ee"/>
+      <Point GraphRef="ed523" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida7803ccf">
+    <Graphics>
+      <Point GraphRef="e6117"/>
+      <Point GraphRef="b7784" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida90d8bb3">
+    <Graphics>
+      <Point GraphRef="e0f4c"/>
+      <Point GraphRef="a4afb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc1eadb2c">
+    <Graphics>
+      <Point GraphRef="de358"/>
+      <Point GraphRef="d54ac" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc522b731">
+    <Graphics>
+      <Point GraphRef="adeee"/>
+      <Point GraphRef="c4878" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc5fddca8">
+    <Graphics>
+      <Point GraphRef="e6d23"/>
+      <Point GraphRef="adeee" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idccc65bbe">
+    <Graphics>
+      <Point GraphRef="c4da6"/>
+      <Point GraphRef="b74ab" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idda31ea5f">
+    <Graphics>
+      <Point GraphRef="f5060"/>
+      <Point GraphRef="a4afb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idda4527cb">
+    <Graphics>
+      <Point GraphRef="a4afb"/>
+      <Point GraphRef="a331f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddbc55e1e">
+    <Graphics>
+      <Point GraphRef="e8e10"/>
+      <Point GraphRef="dd587" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddd0294e0">
+    <Graphics>
+      <Point GraphRef="d81de"/>
+      <Point GraphRef="b0b03" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide7c79201">
+    <Graphics>
+      <Point GraphRef="e0f4c"/>
+      <Point GraphRef="c4878" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfe119ae4">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a4afb"/>
+      <Point/>
+      <Point GraphRef="f59c8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="e21e8">
+    <Graphics Color="0033ff">
+      <Point/>
+      <Point ArrowHead="mim-binding"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Mitochondria" GraphId="b33ab">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NECROSOME" GraphId="b563d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Lipid peroxidation" GraphId="b69f2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Lowered pH" GraphId="e6117">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Lysosome" GraphId="edb09">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="DNA damage" GraphId="f19ee">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="ad9b4">
+    <Graphics ShapeType="Brace"/>
+  </Shape>
+  <Shape GraphId="c8396">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e8e10">
+    <Graphics ShapeType="Mitochondria" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f5fe1" GroupRef="fa3e9">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="fa3e9" GraphId="a4afb" Style="Group"/>
+  <Group GroupId="ae8e8" GraphId="b74ab" Style="Group"/>
+  <Group GroupId="febc8" GraphId="d4716" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >nanomaterial response pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001435</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b1c">
+      <bp:ID >22720979</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Programmed Cell Death: Molecular Mechanisms and Implications for Safety Assessment of Nanomaterials.</bp:TITLE>
+      <bp:SOURCE >Acc Chem Res</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >And&#243;n FT</bp:AUTHORS>
+      <bp:AUTHORS >Fadeel B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >necrosis pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000279</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d9c">
+      <bp:ID >21979174</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Water-soluble germanium nanoparticles cause necrotic cell death and the damage can be attenuated by blocking the transduction of necrotic signaling pathway.</bp:TITLE>
+      <bp:SOURCE >Toxicol Lett</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Ma YH</bp:AUTHORS>
+      <bp:AUTHORS >Huang CP</bp:AUTHORS>
+      <bp:AUTHORS >Tsai JS</bp:AUTHORS>
+      <bp:AUTHORS >Shen MY</bp:AUTHORS>
+      <bp:AUTHORS >Li YK</bp:AUTHORS>
+      <bp:AUTHORS >Lin LY</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="COVID-19, thrombosis and anticoagulation" Version="20200513" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Several hospitals and researchers have reported links between thrombosis and anticoagulation quite regularly for Covid-19 patients.
+
+This pathways combines this information, including biological mechanisms involved, in one graphical overview. The D-dimer is one of the protein fragments produced when a blood clot dissolves within the (human) body; when not properly degraded could lead to thrombosis.
+
+The graphical visualisation of (crosslinked) fibrin mesh leading to D-dimers is inspired by [https://en.wikipedia.org/wiki/D-dimer Wikipedia].</Comment>
+  <BiopaxRef>bfd</BiopaxRef>
+  <BiopaxRef>ba8</BiopaxRef>
+  <Graphics BoardWidth="1677.6003406241853" BoardHeight="1196.0"/>
+  <DataNode TextLabel="Leupeptin" GraphId="aa25f" Type="Metabolite" GroupRef="bc97b">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Chloroquine" GraphId="aa6bf" Type="Metabolite" GroupRef="bc97b">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Lactacystin" GraphId="add79" Type="Metabolite" GroupRef="fe0ec">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NH4Cl" GraphId="c8acb" Type="Metabolite" GroupRef="bc97b">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MG132" GraphId="e9c4f" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FGB (B&#946;)" GraphId="e5d3d" Type="Protein" GroupRef="d3ccd">
+    <Comment>"FGB is not alternatively spliced"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGA" GraphId="a4aba" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Fibrinogen" GraphId="d0b3d" Type="Metabolite">
+    <Comment>Fibrinogen is a so-called Acute Phase Reactant, a class of proteins whose plasma concentrations increase or decrease at least 25 percent during inflammation.</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Plasmin" GraphId="f1440" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="FGG (&#947;)" GraphId="e46f4" Type="Protein" GroupRef="f349a">
+    <Comment>"fibrinogen gamma chain (also termed the &#947; chain) encoded by the FGG gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGB (B&#946;)" GraphId="d9a72" Type="Protein" GroupRef="f349a">
+    <Comment>"the fibrinogen beta chain (also termed the B&#946; or &#946; chain) encoded by the FGB gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="Fibrinogen" GraphId="f3c75" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FGA (A&#945;)" GraphId="f7650" Type="Protein" GroupRef="f349a">
+    <Comment>"fibrinogen alpha chain (also termed the A&#945; or &#945; chain) encoded by the FGA gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="Formation of fibrin clot &#10;(clotting cascade)" GraphId="ef4b2" Type="Pathway" GroupRef="d9a5a">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Blood clotting &#10;cascade" GraphId="a5c4c" Type="Pathway" GroupRef="d9a5a">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="FGA (A&#945;E)" GraphId="d3c11" Type="Protein" GroupRef="d3ccd">
+    <Comment>"Alternate splicing of the FGA gene produces a minor expanded isoform of A&#945; termed A&#945;E which replaces A&#945; in 1&#8211;3% of circulating fibrinogen"</Comment>
+        </DataNode>
+  <DataNode TextLabel="Blood clotting &#10;and drug effects" GraphId="baa0a" Type="Pathway" GroupRef="d9a5a">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Factor XIII A chain" GraphId="c1095" Type="Protein" GroupRef="aef85">
+    <Comment>Catalytically active</Comment>
+    <BiopaxRef>f3d</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Complement and &#10;coagulation cascades" GraphId="fe491" Type="Pathway" GroupRef="d9a5a">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Platelet-mediated interactions with &#10;vascular and circulating cells" GraphId="f1370" Type="Pathway" GroupRef="d9a5a">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Fibrin" GraphId="b71c1" Type="Metabolite" GroupRef="bc8f1">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Fibrin degradation &#10;products (FDPs)" GraphId="b02e2" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Fibrin" GraphId="a868a" Type="Metabolite" GroupRef="bc8f1">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Thrombin" GraphId="af109" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Fibrin" GraphId="d46df" Type="Metabolite" GroupRef="bc8f1">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Fibrin" GraphId="ddd67" Type="Metabolite" GroupRef="bc8f1">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Fibrin" GraphId="c2cf1" Type="Metabolite" GroupRef="a6456">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Fibrin" GraphId="ccbe8" Type="Metabolite" GroupRef="a6456">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Fibrin" GraphId="bacfd" Type="Metabolite" GroupRef="a6456">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Fibrin" GraphId="eeb61" Type="Metabolite" GroupRef="a6456">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Factor XIII B chain" GraphId="a3bd1" Type="Protein" GroupRef="aef85">
+    <Comment>Not catalytically active, believed to stabilise A chain</Comment>
+    <BiopaxRef>c14</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="D-Dimer" GraphId="fc137" Type="Metabolite">
+    <BiopaxRef>c2a</BiopaxRef>
+    <BiopaxRef>bfd</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FGG (&#947;')" GraphId="bde6b" Type="Protein" GroupRef="d3ccd">
+    <Comment>"alternate splicing of FGG produces a minor isoform of &#947; termed &#947;' which replaces &#947; in 8&#8211;10% of circulating fibrinogen"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGG (&#947;)" GraphId="c5467" Type="Protein">
+    <Comment>"fibrinogen gamma chain (also termed the &#947; chain) encoded by the FGG gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGB (B&#946;)" GraphId="d8eb7" Type="Protein">
+    <Comment>"the fibrinogen beta chain (also termed the B&#946; or &#946; chain) encoded by the FGB gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGA (A&#945;)" GraphId="f5a20" Type="Protein">
+    <Comment>"fibrinogen alpha chain (also termed the A&#945; or &#945; chain) encoded by the FGA gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGB" GraphId="dd369" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FGG" GraphId="b0c94" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FGG (&#947;)" GraphId="c1685" Type="Protein">
+    <Comment>"fibrinogen gamma chain (also termed the &#947; chain) encoded by the FGG gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGB (B&#946;)" GraphId="bd1cb" Type="Protein">
+    <Comment>"the fibrinogen beta chain (also termed the B&#946; or &#946; chain) encoded by the FGB gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGA (A&#945;)" GraphId="d7d71" Type="Protein">
+    <Comment>"fibrinogen alpha chain (also termed the A&#945; or &#945; chain) encoded by the FGA gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGA (A&#945;)" GraphId="b033d" Type="Protein" GroupRef="dfeb4">
+    <Comment>"fibrinogen alpha chain (also termed the A&#945; or &#945; chain) encoded by the FGA gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGG (&#947;)" GraphId="f865f" Type="Protein" GroupRef="dfeb4">
+    <Comment>"fibrinogen gamma chain (also termed the &#947; chain) encoded by the FGG gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGB (B&#946;)" GraphId="c852c" Type="Protein" GroupRef="fe361">
+    <Comment>"the fibrinogen beta chain (also termed the B&#946; or &#946; chain) encoded by the FGB gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGG (&#947;)" GraphId="e7b86" Type="Protein" GroupRef="fe361">
+    <Comment>"fibrinogen gamma chain (also termed the &#947; chain) encoded by the FGG gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGA (A&#945;)" GraphId="ed893" Type="Protein" GroupRef="e856d">
+    <Comment>"fibrinogen alpha chain (also termed the A&#945; or &#945; chain) encoded by the FGA gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGG (&#947;)" GraphId="a482a" Type="Protein" GroupRef="e856d">
+    <Comment>"fibrinogen gamma chain (also termed the &#947; chain) encoded by the FGG gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGB (B&#946;)" GraphId="e0508" Type="Protein" GroupRef="e856d">
+    <Comment>"the fibrinogen beta chain (also termed the B&#946; or &#946; chain) encoded by the FGB gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGA (A&#945;)" GraphId="c897a" Type="Protein" GroupRef="d2319">
+    <Comment>"fibrinogen alpha chain (also termed the A&#945; or &#945; chain) encoded by the FGA gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGG (&#947;)" GraphId="e3160" Type="Protein" GroupRef="d2319">
+    <Comment>"fibrinogen gamma chain (also termed the &#947; chain) encoded by the FGG gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGB (B&#946;)" GraphId="d9ab7" Type="Protein" GroupRef="d2319">
+    <Comment>"the fibrinogen beta chain (also termed the B&#946; or &#946; chain) encoded by the FGB gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGA (A&#945;)" GraphId="f8b3b" Type="Protein" GroupRef="f912e">
+    <Comment>"fibrinogen alpha chain (also termed the A&#945; or &#945; chain) encoded by the FGA gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGG (&#947;)" GraphId="dcbc5" Type="Protein" GroupRef="f912e">
+    <Comment>"fibrinogen gamma chain (also termed the &#947; chain) encoded by the FGG gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGB (B&#946;)" GraphId="f0fc7" Type="Protein" GroupRef="f912e">
+    <Comment>"the fibrinogen beta chain (also termed the B&#946; or &#946; chain) encoded by the FGB gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGA (A&#945;)" GraphId="da2b6" Type="Protein" GroupRef="f912e">
+    <Comment>"fibrinogen alpha chain (also termed the A&#945; or &#945; chain) encoded by the FGA gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGG (&#947;)" GraphId="a1272" Type="Protein" GroupRef="f912e">
+    <Comment>"fibrinogen gamma chain (also termed the &#947; chain) encoded by the FGG gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGB (B&#946;)" GraphId="f16bc" Type="Protein" GroupRef="f912e">
+    <Comment>"the fibrinogen beta chain (also termed the B&#946; or &#946; chain) encoded by the FGB gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGA (A&#945;)" GraphId="eb717" Type="Protein" GroupRef="f7bfa">
+    <Comment>"fibrinogen alpha chain (also termed the A&#945; or &#945; chain) encoded by the FGA gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGG (&#947;)" GraphId="e6f92" Type="Protein" GroupRef="f7bfa">
+    <Comment>"fibrinogen gamma chain (also termed the &#947; chain) encoded by the FGG gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGB (B&#946;)" GraphId="da513" Type="Protein" GroupRef="f7bfa">
+    <Comment>"the fibrinogen beta chain (also termed the B&#946; or &#946; chain) encoded by the FGB gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGA (A&#945;)" GraphId="a6dd0" Type="Protein" GroupRef="f7bfa">
+    <Comment>"fibrinogen alpha chain (also termed the A&#945; or &#945; chain) encoded by the FGA gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGG (&#947;)" GraphId="fd486" Type="Protein" GroupRef="f7bfa">
+    <Comment>"fibrinogen gamma chain (also termed the &#947; chain) encoded by the FGG gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGB (B&#946;)" GraphId="cc133" Type="Protein" GroupRef="f7bfa">
+    <Comment>"the fibrinogen beta chain (also termed the B&#946; or &#946; chain) encoded by the FGB gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGA (A&#945;)" GraphId="bbec1" Type="Protein" GroupRef="c6aa4">
+    <Comment>"fibrinogen alpha chain (also termed the A&#945; or &#945; chain) encoded by the FGA gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGG (&#947;)" GraphId="e5172" Type="Protein" GroupRef="c6aa4">
+    <Comment>"fibrinogen gamma chain (also termed the &#947; chain) encoded by the FGG gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGG (&#947;)" GraphId="efb81" Type="Protein">
+    <Comment>"fibrinogen gamma chain (also termed the &#947; chain) encoded by the FGG gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGG" GraphId="b543a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FGA (A&#945;)" GraphId="a38e8" Type="Protein">
+    <Comment>"fibrinogen alpha chain (also termed the A&#945; or &#945; chain) encoded by the FGA gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGG (&#947;)" GraphId="f949f" Type="Protein">
+    <Comment>"fibrinogen gamma chain (also termed the &#947; chain) encoded by the FGG gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGA" GraphId="ef261" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FGB (B&#946;)" GraphId="cab41" Type="Protein">
+    <Comment>"the fibrinogen beta chain (also termed the B&#946; or &#946; chain) encoded by the FGB gene"</Comment>
+        </DataNode>
+  <DataNode TextLabel="FGB" GraphId="fef9d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Leupeptin" GraphId="e6d55" Type="Metabolite" GroupRef="f5f97">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MG132" GraphId="e34f1" Type="Metabolite" GroupRef="f5f97">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MG132" GraphId="a10f8" Type="Metabolite" GroupRef="fe0ec">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <State GraphRef="f3c75" TextLabel="D" GraphId="ded48">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f3c75" TextLabel="D" GraphId="ec7fd">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f3c75" TextLabel="E" GraphId="fd2bb">
+    <Graphics FillColor="3399ff" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d3c11" TextLabel="1-3%" GraphId="d1d4a">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b71c1" TextLabel="D" GraphId="bdd59">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b71c1" TextLabel="E" GraphId="c4a42">
+    <Graphics FillColor="3399ff" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b71c1" TextLabel="D" GraphId="e1bb1">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a868a" TextLabel="E" GraphId="a70df">
+    <Graphics FillColor="3399ff" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a868a" TextLabel="D" GraphId="bab44">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a868a" TextLabel="D" GraphId="fb26f">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d46df" TextLabel="D" GraphId="aed09">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d46df" TextLabel="E" GraphId="b7e68">
+    <Graphics FillColor="3399ff" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d46df" TextLabel="D" GraphId="e22ea">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ddd67" TextLabel="E" GraphId="a0836">
+    <Graphics FillColor="3399ff" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ddd67" TextLabel="D" GraphId="e9066">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ddd67" TextLabel="D" GraphId="f82b1">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c2cf1" TextLabel="D" GraphId="be569">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c2cf1" TextLabel="E" GraphId="c298f">
+    <Graphics FillColor="3399ff" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c2cf1" TextLabel="D" GraphId="eb197">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ccbe8" TextLabel="E" GraphId="aa53f">
+    <Graphics FillColor="3399ff" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ccbe8" TextLabel="D" GraphId="bb2fa">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ccbe8" TextLabel="D" GraphId="f214c">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="bacfd" TextLabel="D" GraphId="b8270">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="bacfd" TextLabel="D" GraphId="bf8c6">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="bacfd" TextLabel="E" GraphId="fa067">
+    <Graphics FillColor="3399ff" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="eeb61" TextLabel="D" GraphId="bbd53">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="eeb61" TextLabel="D" GraphId="c1b32">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="eeb61" TextLabel="E" GraphId="cb8a6">
+    <Graphics FillColor="3399ff" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="fc137" TextLabel="D" GraphId="c6fc0">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="fc137" TextLabel="D" GraphId="c8969">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="fc137" TextLabel="E" GraphId="f3c12">
+    <Graphics FillColor="3399ff" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="bde6b" TextLabel="8&#8211;10%" GraphId="fb656">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id11a5da44">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c43f2"/>
+      <Point GraphRef="af687" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5e482a09">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="dea90"/>
+      <Point GraphRef="a38e8" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="af687"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc381d3da">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a38e8"/>
+      <Point GraphRef="ef261" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="faf6c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f9232">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a870c"/>
+      <Point GraphRef="afcd3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ad0b7">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d0b3d"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="c1ef1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eabf8">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bb70e"/>
+      <Point GraphRef="bbecc" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d91d8">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="00cc99">
+      <Point GraphRef="bd1cb"/>
+      <Point/>
+      <Point GraphRef="d9474" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c4da9">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="afcd3"/>
+      <Point GraphRef="d0b3d" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="efc91">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bd1cb"/>
+      <Point GraphRef="bb70e" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e100c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d0b3d"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="f3c75"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c203e">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c579f"/>
+      <Point GraphRef="d9474" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d69c7">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d9474"/>
+      <Point GraphRef="a870c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d7615">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f5a20"/>
+      <Point GraphRef="d7d71"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="acd27">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a4aba"/>
+      <Point GraphRef="f5a20" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d83d6">
+    <BiopaxRef>e10</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f3c75"/>
+      <Point GraphRef="d483c" ArrowHead="Arrow"/>
+      <Anchor Position="0.4488569000351369" Shape="None" GraphId="d2cb6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b1dd1">
+    <BiopaxRef>e10</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="af109"/>
+      <Point GraphRef="d2cb6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f5786">
+    <BiopaxRef>d6e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a8861"/>
+      <Point GraphRef="b02e2" ArrowHead="Arrow"/>
+      <Anchor Position="0.7771889797512247" Shape="None" GraphId="bc674"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ae1d1">
+    <BiopaxRef>f3d</BiopaxRef>
+    <BiopaxRef>ea6</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c1095"/>
+      <Point GraphRef="fcdbd" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eeb05">
+    <BiopaxRef>d6e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f1440"/>
+      <Point GraphRef="bc674" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a3d56">
+    <BiopaxRef>f3d</BiopaxRef>
+    <BiopaxRef>ea6</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d483c"/>
+      <Point GraphRef="a8861" ArrowHead="Arrow"/>
+      <Anchor Position="0.5182816061402303" Shape="None" GraphId="fcdbd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d27d4">
+    <BiopaxRef>d6e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a8861"/>
+      <Point GraphRef="fc137" ArrowHead="Arrow"/>
+      <Anchor Position="0.7445042950387472" Shape="None" GraphId="d0c3d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b1c84">
+    <BiopaxRef>d6e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f1440"/>
+      <Point GraphRef="d0c3d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f47dc">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="dd369"/>
+      <Point GraphRef="d8eb7" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a9600">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b0c94"/>
+      <Point GraphRef="c5467" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f02cd">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d8eb7"/>
+      <Point GraphRef="bd1cb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="db5f6">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c5467"/>
+      <Point GraphRef="c1685"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="efe48">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c1685"/>
+      <Point GraphRef="bb70e" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eb5be">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c1685"/>
+      <Point GraphRef="c579f" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6e53">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d7d71"/>
+      <Point GraphRef="c579f" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bf206">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ff6600">
+      <Point GraphRef="d7d71"/>
+      <Point/>
+      <Point GraphRef="bbecc" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a51f3">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bbecc"/>
+      <Point GraphRef="a870c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b068e">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="dea90"/>
+      <Point GraphRef="f949f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d8845"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="faf78">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="efb81"/>
+      <Point GraphRef="b543a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a81d3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b8553">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f949f"/>
+      <Point GraphRef="b543a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bbcbf"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a4b70">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c43f2"/>
+      <Point GraphRef="d8845" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e95f9">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e9c4f"/>
+      <Point GraphRef="a81d3" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bec0a">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e9c4f"/>
+      <Point GraphRef="bbcbf" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e202f">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cab41"/>
+      <Point GraphRef="fef9d" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c1cae"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e0c06"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dc1b1">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a4d07"/>
+      <Point GraphRef="faf6c" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ade43">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ef073"/>
+      <Point GraphRef="e0c06" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="bf421">
+    <Graphics>
+      <Point GraphRef="f7650"/>
+      <Point GraphRef="d3c11"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c3f7f">
+    <Graphics>
+      <Point GraphRef="b0fab"/>
+      <Point GraphRef="c1ef1"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e5890">
+    <Graphics>
+      <Point GraphRef="c298f"/>
+      <Point GraphRef="bbd53"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bbb8e" GroupRef="bc8f1">
+    <Graphics>
+      <Point GraphRef="c4a42"/>
+      <Point GraphRef="e22ea"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b601b" GroupRef="bc8f1">
+    <Graphics>
+      <Point GraphRef="bab44"/>
+      <Point GraphRef="e1bb1"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e46d9" GroupRef="bc8f1">
+    <Graphics>
+      <Point GraphRef="bdd59"/>
+      <Point GraphRef="b7e68"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b6756" GroupRef="bc8f1">
+    <Graphics>
+      <Point GraphRef="f82b1"/>
+      <Point GraphRef="e22ea"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c05ca" GroupRef="bc8f1">
+    <Graphics>
+      <Point GraphRef="bab44"/>
+      <Point GraphRef="a0836"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="aac86">
+    <Graphics>
+      <Point GraphRef="ec7fd"/>
+      <Point GraphRef="fd2bb"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f9d13">
+    <Graphics>
+      <Point GraphRef="fd2bb"/>
+      <Point GraphRef="ded48"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e6678" GroupRef="bc8f1">
+    <Graphics>
+      <Point GraphRef="bdd59"/>
+      <Point GraphRef="c4a42"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f0af1" GroupRef="bc8f1">
+    <Graphics>
+      <Point GraphRef="c4a42"/>
+      <Point GraphRef="e1bb1"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="faf89" GroupRef="bc8f1">
+    <Graphics>
+      <Point GraphRef="aed09"/>
+      <Point GraphRef="b7e68"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fa372" GroupRef="bc8f1">
+    <Graphics>
+      <Point GraphRef="b7e68"/>
+      <Point GraphRef="e22ea"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b5a2b" GroupRef="bc8f1">
+    <Graphics>
+      <Point GraphRef="bab44"/>
+      <Point GraphRef="a70df"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f5a5e" GroupRef="bc8f1">
+    <Graphics>
+      <Point GraphRef="a70df"/>
+      <Point GraphRef="fb26f"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d0900" GroupRef="bc8f1">
+    <Graphics>
+      <Point GraphRef="a0836"/>
+      <Point GraphRef="e9066"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ff526" GroupRef="bc8f1">
+    <Graphics>
+      <Point GraphRef="f82b1"/>
+      <Point GraphRef="a0836"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="db59f" GroupRef="bc8f1">
+    <Graphics>
+      <Point GraphRef="a70df"/>
+      <Point GraphRef="e9066"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ced32" GroupRef="a6456">
+    <Graphics>
+      <Point GraphRef="c298f"/>
+      <Point GraphRef="b8270"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a0462" GroupRef="a6456">
+    <Graphics>
+      <Point GraphRef="bb2fa"/>
+      <Point GraphRef="eb197"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ea0a3" GroupRef="a6456">
+    <Graphics>
+      <Point GraphRef="be569"/>
+      <Point GraphRef="fa067"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="afa44" GroupRef="a6456">
+    <Graphics>
+      <Point GraphRef="bbd53"/>
+      <Point GraphRef="b8270"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c6c73" GroupRef="a6456">
+    <Graphics>
+      <Point GraphRef="bb2fa"/>
+      <Point GraphRef="cb8a6"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="abe1b" GroupRef="a6456">
+    <Graphics>
+      <Point GraphRef="be569"/>
+      <Point GraphRef="c298f"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c52e4" GroupRef="a6456">
+    <Graphics>
+      <Point GraphRef="c298f"/>
+      <Point GraphRef="eb197"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a1146" GroupRef="a6456">
+    <Graphics>
+      <Point GraphRef="bf8c6"/>
+      <Point GraphRef="fa067"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d1e90" GroupRef="a6456">
+    <Graphics>
+      <Point GraphRef="fa067"/>
+      <Point GraphRef="b8270"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a9d16" GroupRef="a6456">
+    <Graphics>
+      <Point GraphRef="bb2fa"/>
+      <Point GraphRef="aa53f"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bc5c2" GroupRef="a6456">
+    <Graphics>
+      <Point GraphRef="aa53f"/>
+      <Point GraphRef="f214c"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bf282" GroupRef="a6456">
+    <Graphics>
+      <Point GraphRef="cb8a6"/>
+      <Point GraphRef="c1b32"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dc51c" GroupRef="a6456">
+    <Graphics>
+      <Point GraphRef="bbd53"/>
+      <Point GraphRef="cb8a6"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e6031" GroupRef="a6456">
+    <Graphics>
+      <Point GraphRef="aa53f"/>
+      <Point GraphRef="c1b32"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b3452">
+    <Graphics>
+      <Point GraphRef="f3c12"/>
+      <Point GraphRef="c8969"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b07b5">
+    <Graphics>
+      <Point GraphRef="f3c12"/>
+      <Point GraphRef="c6fc0"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c32eb">
+    <Graphics>
+      <Point GraphRef="c6fc0"/>
+      <Point GraphRef="c8969"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ddc79">
+    <Graphics>
+      <Point GraphRef="c1ef1"/>
+      <Point GraphRef="f6688"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d57b5">
+    <Graphics>
+      <Point GraphRef="f82b1"/>
+      <Point GraphRef="e22ea"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cfad8">
+    <Graphics>
+      <Point GraphRef="bab44"/>
+      <Point GraphRef="e1bb1"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f63e0">
+    <Graphics>
+      <Point GraphRef="bb2fa"/>
+      <Point GraphRef="eb197"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d18d7">
+    <Graphics>
+      <Point GraphRef="eeb61"/>
+      <Point GraphRef="b8270"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fba2d">
+    <Graphics>
+      <Point GraphRef="c6fc0"/>
+      <Point GraphRef="c8969"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Lysosomes&#10;HepG2" GraphId="e2180">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Degradation of surplus chains&#10;by proteasomes and lysosomes" GraphId="e6e61">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Transfer to blood" GraphId="b7f05">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="&quot;The two end nodules (D regions/domains) &#10;consist out of B&#946; and &#947; chains, &#10;In the center a slightly smaller nodule (E region/domain) &#10;consists out of two intertwined A&#945; alpha chains&quot;" GraphId="d5794">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Transfer to Golgi &#10;" GraphId="b5615">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Start in ER, completed in Golgi:&#10;- N-linked Glycosylation of &#10;B&#946; and &#947; chains&#10;&#10;Hydroxylation&#10;&#10;Post ER stage:&#10;- Tyrosine sulfation of the &#947;&#8242; variant&#10;- Phosphorylation of A&#945;&#10;&#10;&#10;" GraphId="db189">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="ER" GraphId="a7522">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Coordinated transcription and&#10;translation on ER" GraphId="ee07a">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="D-domain:" GraphId="b2f3b">
+    <Comment>" fibrinogen alpha chain (also termed the A&#945; or &#945; chain) encoded by the FGA gene, the fibrinogen beta chain (also termed the B&#946; or &#946; chain) encoded by the FGB gene, and the fibrinogen gamma chain (also termed the &#947; chain) encoded by the FGG gene." [[https://en.wikipedia.org/wiki/Fibrinogen]]</Comment>
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Relevant other pathways:" GraphId="c6ba0" GroupRef="d9a5a">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Fibrin mesh" GraphId="bb334">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Factor XIII:" GraphId="b4767">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Crosslinked&#10;fibrin mesh" GraphId="f93ab">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="D-domain &#10;(alternative splicing):" GraphId="b7388">
+    <Comment>" Alternate splicing of the FGA gene produces a minor expanded isoform of A&#945; termed A&#945;E which replaces A&#945; in 1&#8211;3% of circulating fibrinogen; alternate splicing of FGG produces a minor isoform of &#947; termed &#947;' which replaces &#947; in 8&#8211;10% of circulating fibrinogen; FGB is not alternatively spliced. Hence, the final fibrinogen product is composed principally of A&#945;, B&#946;, and &#947; chains with a small percentage of it containing A&#945;E and/or &#947;' chains in place of A&#945; and/or &#947; chains, respectively. " [[https://en.wikipedia.org/wiki/Fibrinogen]]</Comment>
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Translocation into ER" GraphId="b25a9">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Within ER lumen: A&#945;&#947; &#10;and B&#946;&#947; dimer formation" GraphId="d22ca">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Within ER lumen: A&#945;B&#946;&#947;&#10;trimer formation" GraphId="f84a8">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Within ER lumen: (A&#945;B&#946;&#947;)2&#10;heximer formation" GraphId="aa510">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Golgi" GraphId="f2ea0">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Details on D+E regions" GraphId="af10f">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Proteasomes&#10;HepG2" GraphId="f8e29">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Lysosomes and&#10;proteasomes COS" GraphId="dda9a">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Proteasomes&#10;COS" GraphId="e4b22">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="Proteasomes&#10;COS" GraphId="fa482">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Shape GraphId="a291e">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f5ed2">
+    <Graphics FillColor="0099ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c5d38">
+    <Graphics FillColor="ff66ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f5142">
+    <Graphics ShapeType="Golgi Apparatus" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c9d02">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+  </Shape>
+  <Shape TextLabel="Mainly hepatocytes,&#10;HepG2 cells" GraphId="e6b8e">
+    <BiopaxRef>e89</BiopaxRef>
+    <Graphics Align="Right" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="E" GraphId="c1ef1">
+    <Graphics FillColor="0099ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape TextLabel="D" GraphId="b0fab">
+    <Comment>"The two end nodules (termed D regions or domains) are alike in consisting of B&#946; and &#947; chains, while the center slightly smaller nodule (termed the E region or domain) consists of two intertwined A&#945; alpha chains." [https://en.wikipedia.org/wiki/Fibrinogen]</Comment>
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+  </Shape>
+  <Shape TextLabel="D" GraphId="f6688">
+    <Graphics FillColor="ff0033" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e171e">
+    <Graphics ShapeType="Endoplasmic Reticulum" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="a595a">
+    <Graphics ShapeType="Endoplasmic Reticulum" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d32e5">
+    <Graphics ShapeType="Endoplasmic Reticulum" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b264c">
+    <Graphics FillColor="ff66ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bbf47">
+    <Graphics FillColor="ff66ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="eed59">
+    <Graphics ShapeType="Endoplasmic Reticulum" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c5c4f">
+    <Graphics FillColor="ff66ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="aad86">
+    <Graphics ShapeType="Endoplasmic Reticulum" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b5cf5">
+    <Graphics FillColor="ff66ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fd08e">
+    <Graphics ShapeType="Golgi Apparatus" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ee345">
+    <Graphics FillColor="ff66ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f43df">
+    <Graphics FillColor="ff66ff" ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="d9a5a" Style="Group"/>
+  <Group GroupId="d3ccd" GraphId="a46a8" Style="Complex"/>
+  <Group GroupId="f5f97" GraphId="a4d07" Style="Group"/>
+  <Group GroupId="f912e" GraphId="a870c" Style="Complex"/>
+  <Group GroupId="a6456" GraphId="a8861" Style="Group"/>
+  <Group GroupId="f7bfa" GraphId="afcd3" Style="Complex"/>
+  <Group GroupId="f349a" GraphId="afd4a" Style="Complex"/>
+  <Group GroupId="fe361" GraphId="bb70e" Style="Complex"/>
+  <Group GroupId="d2319" GraphId="bbecc" Style="Complex"/>
+  <Group GroupId="bc97b" GraphId="c43f2" Style="Group"/>
+  <Group GroupId="dfeb4" GraphId="c579f" Style="Complex"/>
+  <Group GroupId="bc8f1" GraphId="d483c" Style="Group"/>
+  <Group GroupId="aef85" GraphId="d6df2" Style="Complex">
+    <BiopaxRef>ea6</BiopaxRef>
+  </Group>
+  <Group GroupId="e856d" GraphId="d9474" Style="Complex"/>
+  <Group GroupId="c6aa4" GraphId="dea90" Style="Complex"/>
+  <Group GroupId="fe0ec" GraphId="ef073" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d6e">
+      <bp:ID >2143188</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A unique proteolytic fragment of human fibrinogen containing the A alpha COOH-terminal domain of the native molecule.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1990</bp:YEAR>
+      <bp:AUTHORS >Kirschbaum NE</bp:AUTHORS>
+      <bp:AUTHORS >Budzynski AZ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >severe acute respiratory syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:2945</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >COVID-19</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0080600</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bfd">
+      <bp:ID >32344011</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mild versus severe COVID-19: Laboratory markers.</bp:TITLE>
+      <bp:SOURCE >Int J Infect Dis</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Velavan TP</bp:AUTHORS>
+      <bp:AUTHORS >Meyer CG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f3d">
+      <bp:ID >27363989</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Coagulation Factor XIIIA Subunit Missense Mutations Affect Structure and Function at the Various Steps of Factor XIII Action.</bp:TITLE>
+      <bp:SOURCE >Hum Mutat</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Thomas A</bp:AUTHORS>
+      <bp:AUTHORS >Biswas A</bp:AUTHORS>
+      <bp:AUTHORS >Dodt J</bp:AUTHORS>
+      <bp:AUTHORS >Philippou H</bp:AUTHORS>
+      <bp:AUTHORS >Hethershaw E</bp:AUTHORS>
+      <bp:AUTHORS >Ensikat HJ</bp:AUTHORS>
+      <bp:AUTHORS >Ivaskevicius V</bp:AUTHORS>
+      <bp:AUTHORS >Oldenburg J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e10">
+      <bp:ID >2856554</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Synthetic peptides bind to high-affinity thrombin receptors and modulate thrombin mitogenesis.</bp:TITLE>
+      <bp:SOURCE >Pept Res</bp:SOURCE>
+      <bp:YEAR >1988</bp:YEAR>
+      <bp:AUTHORS >Glenn KC</bp:AUTHORS>
+      <bp:AUTHORS >Frost GH</bp:AUTHORS>
+      <bp:AUTHORS >Bergmann JS</bp:AUTHORS>
+      <bp:AUTHORS >Carney DH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea6">
+      <bp:ID >21742792</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Factor XIII: a coagulation factor with multiple plasmatic and cellular functions.</bp:TITLE>
+      <bp:SOURCE >Physiol Rev</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Muszbek L</bp:AUTHORS>
+      <bp:AUTHORS >Bereczky Z</bp:AUTHORS>
+      <bp:AUTHORS >Bagoly Z</bp:AUTHORS>
+      <bp:AUTHORS >Kom&#225;romi I</bp:AUTHORS>
+      <bp:AUTHORS >Katona &#201;</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >thrombosis</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0060903</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e89">
+      <bp:ID >11460506</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Fibrinogen biosynthesis. Assembly, intracellular degradation, and association with lipid synthesis and secretion.</bp:TITLE>
+      <bp:SOURCE >Ann N Y Acad Sci</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Redman CM</bp:AUTHORS>
+      <bp:AUTHORS >Xia H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >hepatocyte</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000182</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c14">
+      <bp:ID >3021194</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Amino acid sequence of the b subunit of human factor XIII, a protein composed of ten repetitive segments.</bp:TITLE>
+      <bp:SOURCE >Biochemistry</bp:SOURCE>
+      <bp:YEAR >1986</bp:YEAR>
+      <bp:AUTHORS >Ichinose A</bp:AUTHORS>
+      <bp:AUTHORS >McMullen BA</bp:AUTHORS>
+      <bp:AUTHORS >Fujikawa K</bp:AUTHORS>
+      <bp:AUTHORS >Davie EW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c2a">
+      <bp:ID >19008457</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >D-dimer antigen: current concepts and future prospects.</bp:TITLE>
+      <bp:SOURCE >Blood</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Adam SS</bp:AUTHORS>
+      <bp:AUTHORS >Key NS</bp:AUTHORS>
+      <bp:AUTHORS >Greenberg CS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba8">
+      <bp:ID >32339221</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >COVID-19 and its implications for thrombosis and anticoagulation.</bp:TITLE>
+      <bp:SOURCE >Blood</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Connors JM</bp:AUTHORS>
+      <bp:AUTHORS >Levy JH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >blood coagulation disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:1247</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cells and molecules involved in local acute inflammatory response " Version="20190114" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Cells and Molecules involved in local acute inflammatory response.
+Pathway based on Biocarta pathway (M3952)
+https://cgap.nci.nih.gov/Pathways/BioCarta/h_LairPathway
+
+Tissue damage induces the release of inflammatory signaling molecules. Additionally, bacterial infection stimulates an immune response. Bacterial infection can activate macrophages and induce the release of pro-inflammatory cytokines such as TNF, IL-6 and IL-1. Both tissue damage and bacterial infection can induce complement activation, either via the alternative or classical pathway. Leukocytes can be attracted via pro-inflammatory cytokines and chemokines released by mast cells and activated macrophages. Leukocytes can also induce complement activation.  The combined response can result in a more permeable endothelium of blood vessels, induce swelling and activate immune cells.  </Comment>
+  <BiopaxRef>e20</BiopaxRef>
+  <BiopaxRef>e4a</BiopaxRef>
+  <BiopaxRef>b04</BiopaxRef>
+  <Graphics BoardWidth="1351.1499999999958" BoardHeight="921.9999999999991"/>
+  <DataNode TextLabel="C3" Type="GeneProduct" GroupRef="eba75">
+        </DataNode>
+  <DataNode TextLabel="C5" Type="GeneProduct" GroupRef="eba75">
+        </DataNode>
+  <DataNode TextLabel="C6" Type="GeneProduct" GroupRef="eba75">
+        </DataNode>
+  <DataNode TextLabel="C7" Type="GeneProduct" GroupRef="eba75">
+        </DataNode>
+  <DataNode TextLabel="IL1A" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="KNG1" GraphId="a8083" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL6" GraphId="b5dc8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL8" GraphId="c5dd7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TNF" GraphId="d2052" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Complement activation" GraphId="f23de" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="SELPLG" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SELP" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ICAM1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ITGAL" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ITGB2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="C5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="C3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="VCAM1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ITGB1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ITGA4" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id114f2242">
+    <Graphics>
+      <Point GraphRef="cb17c"/>
+      <Point GraphRef="f23de" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2f973b38">
+    <Graphics>
+      <Point GraphRef="ac7af"/>
+      <Point GraphRef="ec4db" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5679060d">
+    <Graphics>
+      <Point GraphRef="eb422"/>
+      <Point GraphRef="dd9ec" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id662d01ba">
+    <Graphics>
+      <Point GraphRef="ec4db"/>
+      <Point GraphRef="dda24" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6981ccb">
+    <Graphics>
+      <Point GraphRef="cb716"/>
+      <Point GraphRef="c0d17" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id70f85720">
+    <Graphics>
+      <Point GraphRef="cb716"/>
+      <Point GraphRef="c58b6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id94f1229d">
+    <Graphics>
+      <Point GraphRef="eb422"/>
+      <Point GraphRef="f23de" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id979a7260">
+    <Graphics>
+      <Point GraphRef="cb17c"/>
+      <Point GraphRef="ac7af" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida5e1a238">
+    <Graphics>
+      <Point GraphRef="ac7af"/>
+      <Point GraphRef="dda24" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd9fe0b4e">
+    <Graphics>
+      <Point GraphRef="eb422"/>
+      <Point GraphRef="ed5de" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id200c9b6f">
+    <Graphics>
+      <Point GraphRef="ed5de"/>
+      <Point GraphRef="b5dc8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9a4d674f">
+    <Graphics>
+      <Point GraphRef="fa9e9"/>
+      <Point GraphRef="c5dd7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4a74dee9">
+    <Graphics>
+      <Point GraphRef="c5dd7"/>
+      <Point GraphRef="ca785" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd59a3380">
+    <Graphics>
+      <Point GraphRef="ed5de"/>
+      <Point GraphRef="e73cf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id94bc74a1">
+    <Graphics>
+      <Point GraphRef="cc776"/>
+      <Point GraphRef="eb0c9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idac1aa880">
+    <Graphics>
+      <Point GraphRef="ac7af"/>
+      <Point GraphRef="a8083" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6fd70b5e">
+    <Graphics>
+      <Point GraphRef="ed5de"/>
+      <Point GraphRef="c0d17" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id64664549">
+    <Graphics>
+      <Point GraphRef="ca785"/>
+      <Point GraphRef="cb716" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb0f1ae1a">
+    <Graphics>
+      <Point GraphRef="cf0b9"/>
+      <Point GraphRef="ca785" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4133510a">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="dda24"/>
+      <Point/>
+      <Point GraphRef="cbbe6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd9d2bd31">
+    <Graphics>
+      <Point GraphRef="c00c5"/>
+      <Point GraphRef="f9898" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf0068460">
+    <Graphics>
+      <Point GraphRef="f5794"/>
+      <Point GraphRef="d7c7b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3574c90d">
+    <Graphics>
+      <Point GraphRef="f23de"/>
+      <Point GraphRef="bde79" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb17cf13f">
+    <Graphics>
+      <Point GraphRef="bde79"/>
+      <Point GraphRef="c0bc9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcf43228b">
+    <Graphics>
+      <Point GraphRef="bde79"/>
+      <Point GraphRef="cbe2e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf62fe2c8">
+    <Graphics>
+      <Point GraphRef="cbe2e"/>
+      <Point GraphRef="bc459" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id43a711c5">
+    <Graphics>
+      <Point GraphRef="a2efb"/>
+      <Point GraphRef="db83e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcfec9e77">
+    <Graphics>
+      <Point GraphRef="d2052"/>
+      <Point GraphRef="fa9e9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida262294c">
+    <Graphics>
+      <Point GraphRef="dd9ec"/>
+      <Point GraphRef="c58b6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="id7149e893">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id91bd62ea">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ida7ed83c0">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ide03977ff">
+    <Graphics>
+      <Point GraphRef="a8083"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ed914">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d6d2c">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ce11f">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d3f92">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f59a7">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bd330">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cb7c2">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c1a21">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d3991">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dd8da">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d5644">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f6721">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d6861">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fb18d">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a688c">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c01ce">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f6bf7">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e758c">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d0368">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bdfcc">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d156d">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Bacteria" GraphId="a1dc5">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="Activated macrophage" GraphId="ab9f4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Endothelial damage" GraphId="ac7af">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Chemokines" GraphId="c0d17">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Lymphocyte" GraphId="c5880">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Tissue damage" GraphId="cb17c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Chemotaxis" GraphId="cb716">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Histamine" GraphId="cbe2e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Neutophil" GraphId="cc144">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Leukotrienes" GraphId="cc776">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Alternative or&#10;Classical pathway" GraphId="dd9ec">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Fibrin&#10;Fribinopeptides" GraphId="dda24">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="BLOOD" GraphId="e3a7d">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="Prostaglandins" GraphId="e73cf">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Plasmin" GraphId="ec4db">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Monocyte" GraphId="f5d3f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Mast cell" GraphId="f80bc">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Leukotrienes" GraphId="a2efb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Prostaglandins" GraphId="c0bc9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Neutophil" GraphId="ed02c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Lymphocyte" GraphId="cb0bb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Monocyte" GraphId="fbee8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="a3f9a">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="a6335">
+    <Graphics ShapeType="Triangle"/>
+  </Shape>
+  <Shape GraphId="bea51">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ca785">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d8fda">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="dbb55">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="ea05c">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="eb422">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ed5de">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f4d0c">
+    <Graphics ShapeType="Hexagon"/>
+  </Shape>
+  <Shape GraphId="bde79">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e5ddc">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bc459">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="db83e">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b34a0">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="eb0c9">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cbbe6">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c6d6f">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d4d53">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d297e">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cff12">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="dc071">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="a5cb7">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bc890">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ff4f2">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="df5f8">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bca03">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ddb83">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c380a">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e327b">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="fa9e9">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cf0b9">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cfc97">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e748e">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f5794">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e09c3">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c00c5">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="fb6fa">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f9898">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b6871">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d7c7b">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="eba75" GraphId="c58b6" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e20">
+      <bp:ID >24161035</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Overview of complement activation and regulation.</bp:TITLE>
+      <bp:SOURCE >Semin Nephrol</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Noris M</bp:AUTHORS>
+      <bp:AUTHORS >Remuzzi G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e4a">
+      <bp:ID >25212687</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mechanisms of tissue damage in arthritis.</bp:TITLE>
+      <bp:SOURCE >Semin Immunopathol</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Bl&#195;&#402;&#194;&#188;ml S</bp:AUTHORS>
+      <bp:AUTHORS >Redlich K</bp:AUTHORS>
+      <bp:AUTHORS >Smolen JS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b04">
+      <bp:ID >15212335</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mechanisms of the inflammatory response.</bp:TITLE>
+      <bp:SOURCE >Best Pract Res Clin Anaesthesiol</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Sherwood ER</bp:AUTHORS>
+      <bp:AUTHORS >Toliver-Kinsky T</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

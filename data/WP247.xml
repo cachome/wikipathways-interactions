@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Small ligand GPCRs" Last-Modified="2/22/2013" Organism="Homo sapiens" License="CC BY 2.0"><Comment Source="WikiPathways-description">G protein&#8211;coupled receptors (GPCRs) which are also known as seven-(pass)-transmembrane domain receptors, 7TM receptors, heptahelical receptors, serpentine receptor, and G protein&#8211;linked receptors (GPLR), constitute a large protein family of receptors that detect molecules outside the cell and activate internal signal transduction pathways and, ultimately, cellular responses. Coupling with G proteins, they are called seven-transmembrane receptors because they pass through the cell membrane seven times. Source: [https://en.wikipedia.org/wiki/G_protein&#8211;coupled_receptor Wikipedia]
+
+These small ligand receptors are part of the Rhodopsin-like family of GPCRs. Source: [https://en.wikipedia.org/wiki/Rhodopsin-like_receptors Wikipedia]</Comment>
+  <Comment Source="GenMAPP notes"/>
+  <Comment Source="GenMAPP remarks"/>
+  <Comment Source="WikiPathways-category">Molecular Function</Comment>
+  <Graphics BoardWidth="831.0" BoardHeight="527.0"/>
+  <DataNode TextLabel="Prostanoids" GraphId="cd7" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="Melatonin" GraphId="e4b" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="Lysophosphatidic&#10;Acid" GraphId="b44" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="Cannabinoid" GraphId="e0b" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="CNR1" GraphId="cce" Type="GeneProduct" GroupRef="a44c4">
+        </DataNode>
+  <DataNode TextLabel="CNR2" GraphId="a28" Type="GeneProduct" GroupRef="a44c4">
+        </DataNode>
+  <DataNode TextLabel="EDG1" GraphId="c6a" Type="GeneProduct" GroupRef="a364e">
+        </DataNode>
+  <DataNode TextLabel="EDG2" GraphId="e1a" Type="GeneProduct" GroupRef="a364e">
+        </DataNode>
+  <DataNode TextLabel="EDG3" GraphId="bd1" Type="GeneProduct" GroupRef="a364e">
+        </DataNode>
+  <DataNode TextLabel="EDG5" GraphId="a99" Type="GeneProduct" GroupRef="a364e">
+        </DataNode>
+  <DataNode TextLabel="EDG6" GraphId="f7b" Type="GeneProduct" GroupRef="a364e">
+        </DataNode>
+  <DataNode TextLabel="MTNR1A" GraphId="a12" Type="GeneProduct" GroupRef="da978">
+        </DataNode>
+  <DataNode TextLabel="PTAFR" GraphId="d3e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PTGDR" GraphId="eed" Type="GeneProduct" GroupRef="c973e">
+        </DataNode>
+  <DataNode TextLabel="PTGER1" GraphId="a7a" Type="GeneProduct" GroupRef="c973e">
+        </DataNode>
+  <DataNode TextLabel="PTGER2" GraphId="a80" Type="GeneProduct" GroupRef="c973e">
+        </DataNode>
+  <DataNode TextLabel="PTGER3" GraphId="f41" Type="GeneProduct" GroupRef="c973e">
+        </DataNode>
+  <DataNode TextLabel="PTGER4" GraphId="b5c" Type="GeneProduct" GroupRef="c973e">
+        </DataNode>
+  <DataNode TextLabel="PTGFR" GraphId="fbb" Type="GeneProduct" GroupRef="c973e">
+        </DataNode>
+  <DataNode TextLabel="PTGIR" GraphId="e39" Type="GeneProduct" GroupRef="c973e">
+        </DataNode>
+  <DataNode TextLabel="TBXA2R" GraphId="cfc" Type="GeneProduct" GroupRef="c973e">
+        </DataNode>
+  <DataNode TextLabel="MTNR1B" GraphId="f9d" Type="GeneProduct" GroupRef="da978">
+        </DataNode>
+  <DataNode TextLabel="GPR50" GraphId="a41" Type="GeneProduct" GroupRef="da978">
+        </DataNode>
+  <DataNode TextLabel="Gi Pathway" GraphId="c4302" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Gq/G11 Pathway" GraphId="ed692" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Gq/G11 Pathway" GraphId="cf3ba" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <Interaction GraphId="fb705">
+    <Graphics ConnectorType="Elbow" Color="ff8000">
+      <Point GraphRef="f41"/>
+      <Point GraphRef="c4302" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d0ca0">
+    <Graphics ConnectorType="Elbow" Color="0000ff">
+      <Point GraphRef="b5c"/>
+      <Point GraphRef="cf3ba" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ded81">
+    <Graphics ConnectorType="Elbow" Color="ff8000">
+      <Point GraphRef="a41"/>
+      <Point GraphRef="c4302" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f87c3">
+    <Graphics ConnectorType="Elbow" Color="00ff00">
+      <Point GraphRef="cfc"/>
+      <Point GraphRef="ed692" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b52b6">
+    <Graphics ConnectorType="Elbow" Color="ff8000">
+      <Point GraphRef="cce"/>
+      <Point GraphRef="c4302" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ea98c">
+    <Graphics ConnectorType="Elbow" Color="00ff00">
+      <Point GraphRef="d3e"/>
+      <Point GraphRef="ed692" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a948b">
+    <Graphics ConnectorType="Elbow" Color="ff8000">
+      <Point GraphRef="a12"/>
+      <Point GraphRef="c4302" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fc8d9">
+    <Graphics ConnectorType="Elbow" Color="00ff00">
+      <Point GraphRef="fbb"/>
+      <Point GraphRef="ed692" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d3552">
+    <Graphics ConnectorType="Elbow" Color="00ff00">
+      <Point GraphRef="eed"/>
+      <Point GraphRef="ed692" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ad62f">
+    <Graphics ConnectorType="Elbow" Color="0000ff">
+      <Point GraphRef="a80"/>
+      <Point GraphRef="cf3ba" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f1f27">
+    <Graphics ConnectorType="Elbow" Color="0000ff">
+      <Point GraphRef="eed"/>
+      <Point GraphRef="cf3ba" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="cd7"/>
+      <Point GraphRef="d6d0d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="e4b"/>
+      <Point GraphRef="a70c0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="e0b"/>
+      <Point GraphRef="ec94f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="b44"/>
+      <Point GraphRef="f5e6a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Platelet Activating" GraphId="a15">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Group GroupId="a44c4" GraphId="ec94f"/>
+  <Group GroupId="a364e" GraphId="f5e6a"/>
+  <Group GroupId="da978" GraphId="a70c0"/>
+  <Group GroupId="c973e" GraphId="d6d0d"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >G protein mediated signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000125</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

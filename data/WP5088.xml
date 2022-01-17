@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Prostaglandin signaling" Version="20210421" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway describes elements of Prostaglandin signaling in Homo sapiens affected by COVID-19. Prostaglandins are amongst the many inflammatory mediators that incite a cytokine storm in COVID-19 after Bradykinin receptor B1 (BDKRB1) activation. This pathway mainly focuses on PGE2 and PGI2 and their interactions that lead to hyperinflammation via cytokine storms, immunothrombosis as well as the recruitment of fibrosis-mediating factors (VEGF, TGFB1, AREG). These pathways take place in multiple cell types such as: Monocytes, Macrophages, Fibroblasts, Th17 cells, Nk cells, et cetera.</Comment>
+  <BiopaxRef>f55</BiopaxRef>
+  <Graphics BoardWidth="4608.800154320987" BoardHeight="2482.9610805810335"/>
+  <DataNode TextLabel="" GraphId="ac39d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="cAMP" GraphId="b0c49" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="" GraphId="b946c" GroupRef="fc9d3">
+        </DataNode>
+  <DataNode TextLabel="" GraphId="c776b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="" GraphId="c794d" GroupRef="fc9d3">
+        </DataNode>
+  <DataNode TextLabel="pro-IL1B" GraphId="fedb5" Type="GeneProduct" GroupRef="d9a90">
+        </DataNode>
+  <DataNode TextLabel="IRF7" GraphId="fda44" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Ca2+ efflux" GraphId="e91d7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Prostaglandin E2 receptor" GraphId="daa85" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Prostaglandin E2" GraphId="f33f0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Prostaglandin E receptor 4" GraphId="bb476" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="IFNA1" GraphId="ac2ea" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="VEGFA" GraphId="e7a54" Type="GeneProduct" GroupRef="e470c">
+        </DataNode>
+  <DataNode TextLabel="IL6" GraphId="c350c" Type="GeneProduct" GroupRef="e470c">
+        </DataNode>
+  <DataNode TextLabel="Prostaglandin E receptor 4" GraphId="debd2" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CSF1" GraphId="c1385" Type="GeneProduct" GroupRef="e470c">
+        </DataNode>
+  <DataNode TextLabel="IL6" GraphId="e5ac1" Type="GeneProduct" GroupRef="dc94d">
+        </DataNode>
+  <DataNode TextLabel="IL8&#10;" GraphId="d909a" Type="GeneProduct" GroupRef="dc94d">
+        </DataNode>
+  <DataNode TextLabel="COX2" GraphId="c10b1" Type="GeneProduct" GroupRef="b91f9">
+        </DataNode>
+  <DataNode TextLabel="Prostaglandin E2" GraphId="a9af4" Type="Metabolite" GroupRef="b91f9">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MMP9" GraphId="fbc20" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL17A" GraphId="cb911" Type="GeneProduct" GroupRef="dcdc3">
+        </DataNode>
+  <DataNode TextLabel="IL6" GraphId="c9de1" Type="GeneProduct" GroupRef="e6a12">
+        </DataNode>
+  <DataNode TextLabel="IL8&#10;" GraphId="ef764" Type="GeneProduct" GroupRef="e6a12">
+        </DataNode>
+  <DataNode TextLabel="IL1B" GraphId="c593c" Type="GeneProduct" GroupRef="e6a12">
+        </DataNode>
+  <DataNode TextLabel="Prostaglandin E2 receptor" GraphId="ed041" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CCL2" GraphId="c4c40" Type="GeneProduct" GroupRef="e9f44">
+        </DataNode>
+  <DataNode TextLabel="CXCL1" GraphId="f2af2" Type="GeneProduct" GroupRef="e9f44">
+        </DataNode>
+  <DataNode TextLabel="AREG" GraphId="fa121" Type="GeneProduct" GroupRef="a757f">
+        </DataNode>
+  <DataNode TextLabel="VEGFA" GraphId="b2935" Type="GeneProduct" GroupRef="a757f">
+        </DataNode>
+  <DataNode TextLabel="TGFB1" GraphId="df301" Type="GeneProduct" GroupRef="a757f">
+        </DataNode>
+  <DataNode TextLabel="Prostaglandin E2 receptor" GraphId="acdd4" Type="Protein" GroupRef="cf11e">
+        </DataNode>
+  <DataNode TextLabel="Prostaglandin E receptor 4" GraphId="ec51f" Type="Protein" GroupRef="cf11e">
+        </DataNode>
+  <DataNode TextLabel="Prostaglandin E2 receptor" GraphId="d101b" Type="Protein" GroupRef="fbfad">
+        </DataNode>
+  <DataNode TextLabel="Prostaglandin E receptor 4" GraphId="d4fc0" Type="Protein" GroupRef="fbfad">
+        </DataNode>
+  <DataNode TextLabel="PKA" GraphId="fdf8d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="IL17A" GraphId="fd7cb" Type="GeneProduct" GroupRef="a0514">
+        </DataNode>
+  <DataNode TextLabel="IL17F" GraphId="dc392" Type="GeneProduct" GroupRef="a0514">
+        </DataNode>
+  <DataNode TextLabel="AHR  " GraphId="a19c4" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="IFNG" GraphId="f9125" Type="Protein" GroupRef="f5fec">
+        </DataNode>
+  <DataNode TextLabel="IL12A" GraphId="d99bf" Type="GeneProduct" GroupRef="f5fec">
+        </DataNode>
+  <DataNode TextLabel="Prostaglandin E receptor 4" GraphId="cd21c" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Natural killer cells antigen CD94" GraphId="c804a" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CXCL9" GraphId="caf16" Type="GeneProduct" GroupRef="be247">
+        </DataNode>
+  <DataNode TextLabel="CXCL10" GraphId="b57ac" Type="GeneProduct" GroupRef="be247">
+        </DataNode>
+  <DataNode TextLabel="cAMP" GraphId="c680c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="cAMP" GraphId="db885" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="fe15f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL1B" GraphId="ece3d" Type="GeneProduct" GroupRef="d9a90">
+        </DataNode>
+  <DataNode TextLabel="Prostaglandin I2" GraphId="a8541" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="IFNA1" GraphId="a8718" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL1B" GraphId="a823b" Type="GeneProduct" GroupRef="cfb16">
+        </DataNode>
+  <DataNode TextLabel="IL6" GraphId="c5c9e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TNF" GraphId="efe02" Type="GeneProduct" GroupRef="cfb16">
+        </DataNode>
+  <DataNode TextLabel="TNF" GraphId="b07ab" Type="GeneProduct" GroupRef="e73a5">
+        </DataNode>
+  <DataNode TextLabel="CCL2" GraphId="caf04" Type="GeneProduct" GroupRef="e73a5">
+        </DataNode>
+  <DataNode TextLabel="IL17A" GraphId="f286a" Type="GeneProduct" GroupRef="aef3e">
+        </DataNode>
+  <DataNode TextLabel="IFNG" GraphId="f4b2a" Type="Protein" GroupRef="aef3e">
+        </DataNode>
+  <DataNode TextLabel="IP-activated &#10;cAMP" GraphId="d176c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Prostaglandin E synthase" GraphId="aadf9" Type="Protein" GroupRef="a08f8">
+        </DataNode>
+  <DataNode TextLabel="COX2" GraphId="bfe24" Type="GeneProduct" GroupRef="a08f8">
+        </DataNode>
+  <DataNode TextLabel="Prostaglandin E2" GraphId="bce81" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="IL6" GraphId="ef0f5" Type="GeneProduct" GroupRef="d77bd">
+        </DataNode>
+  <DataNode TextLabel="IL8&#10;" GraphId="c6bec" Type="GeneProduct" GroupRef="d77bd">
+        </DataNode>
+  <DataNode TextLabel="TNF" GraphId="c6e80" Type="GeneProduct" GroupRef="d77bd">
+        </DataNode>
+  <DataNode TextLabel="IL1A" GraphId="b8afe" Type="GeneProduct" GroupRef="d77bd">
+        </DataNode>
+  <DataNode TextLabel="CCL2" GraphId="d225d" Type="GeneProduct" GroupRef="d77bd">
+        </DataNode>
+  <DataNode TextLabel="CXCL10" GraphId="cee47" Type="GeneProduct" GroupRef="d77bd">
+        </DataNode>
+  <DataNode TextLabel="CCL3" GraphId="b957e" Type="GeneProduct" GroupRef="d77bd">
+        </DataNode>
+  <DataNode TextLabel="IL1B" GraphId="e834c" Type="GeneProduct" GroupRef="d77bd">
+        </DataNode>
+  <DataNode TextLabel="Prostaglandin E receptor 4" GraphId="db0a1" Type="Protein" GroupRef="d94d6">
+        </DataNode>
+  <DataNode TextLabel="Prostaglandin E2 receptor" GraphId="abc32" Type="Protein" GroupRef="d94d6">
+        </DataNode>
+  <DataNode TextLabel="ASC" GraphId="b809f" Type="GeneProduct" GroupRef="f5fee">
+        </DataNode>
+  <DataNode TextLabel="NLRP3" GraphId="c742b" Type="GeneProduct" GroupRef="f5fee">
+        </DataNode>
+  <DataNode TextLabel="pro-CASP1" GraphId="fe786" Type="GeneProduct" GroupRef="f5fee">
+        </DataNode>
+  <DataNode TextLabel="CCR2" GraphId="e714f" Type="GeneProduct" GroupRef="f72ef">
+        </DataNode>
+  <DataNode TextLabel="PI3K" GraphId="dc9ed" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CD28" GraphId="a2470" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CASP1" GraphId="f8c3d" Type="GeneProduct">
+        </DataNode>
+  <Interaction>
+    <BiopaxRef>c01</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bce81"/>
+      <Point GraphRef="fe15f" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="ea54e"/>
+      <Point GraphRef="f3d1c" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="cea62"/>
+      <Point GraphRef="b30ef" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="f8c3d"/>
+      <Point GraphRef="f7063" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <BiopaxRef>a8e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a2470"/>
+      <Point GraphRef="dc9ed" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <BiopaxRef>deb</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fdf8d"/>
+      <Point GraphRef="a19c4" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id57cadc02">
+    <Graphics>
+      <Point GraphRef="c804a"/>
+      <Point GraphRef="bef69" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id99b10952">
+    <Graphics>
+      <Point GraphRef="f33f0"/>
+      <Point GraphRef="adff5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id35a5f331">
+    <BiopaxRef>d80</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f33f0"/>
+      <Point GraphRef="ab534" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4c05f781">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f33f0"/>
+      <Point GraphRef="ed041" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6ea6825">
+    <BiopaxRef>f56</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a3fb3"/>
+      <Point GraphRef="f8c3d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide2741a35">
+    <Graphics>
+      <Point GraphRef="a9af4"/>
+      <Point GraphRef="fbc20" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb0660d91">
+    <Graphics>
+      <Point GraphRef="adff5"/>
+      <Point GraphRef="c680c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddffcb9d6">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bb476"/>
+      <Point GraphRef="fda44" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfe08dd12">
+    <BiopaxRef>c28</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a8541"/>
+      <Point GraphRef="fbe23" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd17840fb">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f33f0"/>
+      <Point GraphRef="d10bc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idddd659ae">
+    <Graphics>
+      <Point GraphRef="c680c"/>
+      <Point GraphRef="bd9b6" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb3a3de02">
+    <Graphics>
+      <Point GraphRef="fe15f"/>
+      <Point GraphRef="d9a29" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id870a646c">
+    <BiopaxRef>b7b</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a8541"/>
+      <Point GraphRef="a8718" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7977a52a">
+    <Graphics>
+      <Point GraphRef="a8718"/>
+      <Point GraphRef="fd670" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5256da7f">
+    <Graphics>
+      <Point GraphRef="debd2"/>
+      <Point GraphRef="da085" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb6103d72">
+    <BiopaxRef>a8e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fdf8d"/>
+      <Point GraphRef="f7daa" ArrowHead="TBar"/>
+      <Anchor Position="0.5618426647748264" Shape="None" GraphId="db1f3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a9c23">
+    <Graphics>
+      <Point GraphRef="daa85"/>
+      <Point GraphRef="fda44" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="baa58">
+    <Graphics>
+      <Point GraphRef="fda44"/>
+      <Point GraphRef="ac2ea" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="baa24">
+    <Graphics>
+      <Point GraphRef="f7c02"/>
+      <Point GraphRef="b0c49" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ccd90">
+    <Graphics>
+      <Point GraphRef="b0c49"/>
+      <Point GraphRef="fdf8d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2a2a">
+    <Graphics>
+      <Point GraphRef="a19c4"/>
+      <Point GraphRef="bf8e0" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d8dcf">
+    <Graphics>
+      <Point GraphRef="db885"/>
+      <Point GraphRef="c804a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e5ab7">
+    <BiopaxRef>a62</BiopaxRef>
+    <BiopaxRef>ac5</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f33f0"/>
+      <Point/>
+      <Point GraphRef="cd21c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0ebb">
+    <Graphics>
+      <Point GraphRef="b57ac"/>
+      <Point GraphRef="d2946" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5258a616">
+    <BiopaxRef>f11</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f33f0"/>
+      <Point GraphRef="fdd1c" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id43e44158">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f33f0"/>
+      <Point GraphRef="d101b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d8cb8">
+    <Graphics>
+      <Point GraphRef="cd21c"/>
+      <Point GraphRef="db885" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="be034">
+    <BiopaxRef>fd5</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f33f0"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="b6eb8" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7e2dd0fa">
+    <BiopaxRef>c01</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ed041"/>
+      <Point GraphRef="e9a73" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5f951814">
+    <BiopaxRef>bf9</BiopaxRef>
+    <BiopaxRef>b3e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fdf8d"/>
+      <Point GraphRef="d20b9" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f94ba">
+    <Graphics>
+      <Point GraphRef="e2c95"/>
+      <Point GraphRef="c5c9e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ab352">
+    <BiopaxRef>a68</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a8541"/>
+      <Point GraphRef="e2c95" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ee6ae">
+    <Graphics>
+      <Point GraphRef="fbe23"/>
+      <Point GraphRef="a4238" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ec020">
+    <Graphics>
+      <Point GraphRef="a8541"/>
+      <Point GraphRef="db4c1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c7a16">
+    <Graphics>
+      <Point GraphRef="a8541"/>
+      <Point GraphRef="d176c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a8639">
+    <Graphics>
+      <Point GraphRef="d176c"/>
+      <Point GraphRef="e91d7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b2ef6">
+    <Graphics>
+      <Point GraphRef="e91d7"/>
+      <Point GraphRef="fab80" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6bac">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f33f0"/>
+      <Point GraphRef="daa85" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida221afda">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f33f0"/>
+      <Point GraphRef="bb476" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ef841">
+    <BiopaxRef>aec</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f33f0"/>
+      <Point GraphRef="debd2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cfb63">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f33f0"/>
+      <Point GraphRef="ea54e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="af307">
+    <Graphics>
+      <Point GraphRef="d9a29"/>
+      <Point GraphRef="bce81" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9489">
+    <Graphics>
+      <Point GraphRef="fe15f"/>
+      <Point GraphRef="ea54e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f0fa8">
+    <BiopaxRef>b93</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f33f0"/>
+      <Point GraphRef="cea62" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a12be">
+    <BiopaxRef>ae5</BiopaxRef>
+    <BiopaxRef>b11</BiopaxRef>
+    <BiopaxRef>e8b</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d10bc"/>
+      <Point GraphRef="b39aa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b0c55">
+    <BiopaxRef>d84</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e5ac1"/>
+      <Point GraphRef="fb5de" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a55e7">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f33f0"/>
+      <Point GraphRef="ab1ed" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a140b">
+    <Graphics>
+      <Point GraphRef="e9a73"/>
+      <Point GraphRef="b9690" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b0897">
+    <BiopaxRef>a8e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="dc9ed"/>
+      <Point GraphRef="db1f3" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d7784">
+    <Graphics>
+      <Point GraphRef="f7c02"/>
+      <Point GraphRef="dc9ed" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eb479">
+    <Graphics>
+      <Point GraphRef="d20b9"/>
+      <Point GraphRef="bf8e0" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GroupRef="d9a90">
+    <Graphics>
+      <Point GraphRef="fedb5"/>
+      <Point GraphRef="ece3d" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f7063"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Fibroblasts" GraphId="a02bb" GroupRef="e6a12">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NK cells" GraphId="a20e5" GroupRef="f5fec">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Legend" GraphId="e6479">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Gene/Protein" GraphId="fbe5b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Protection against viral infection" GraphId="fd670">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Decreased recruitment of CCR2 expressing &#10;monocytes and macrophages" GraphId="a4238">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Decreased platelet activation" GraphId="fab80">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Human Plasmacytoid Dendritic Cells" GraphId="bebae">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Monocytes, macrophages, &#10;fibroblasts, airway epithelial cells" GraphId="b5ebb" GroupRef="dc94d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Th17 cells" GraphId="c09e2" GroupRef="dcdc3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Macrophage" GraphId="dea37" GroupRef="e9f44">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="M2 Macrophage" GraphId="abc00" GroupRef="a757f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Tissue repair, potential lung fibrosis" GraphId="e5261" GroupRef="a757f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NET formation" GraphId="bd9b6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="T cell activation &#10;and proliferation" GraphId="f7daa">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Th17 cells" GraphId="fda51" GroupRef="a0514">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inflammatory Th17 cell expansion" GraphId="bf8e0">
+    <BiopaxRef>cbd</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NK and CD8+ T cell &#10;cytolytic activity" GraphId="bef69">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NK cell migration&#10;" GraphId="d2946">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cytokine storm, hyperinflammation &#10;(postive feedback loop)" GraphId="f3d1c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Th17 cells" GraphId="bf414" GroupRef="aef3e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Th1 cells" GraphId="df8b1" GroupRef="aef3e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="IFN Signaling" GraphId="d51e2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NF-&#954;B signaling" GraphId="f11e5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Epithelial cells, monocytes, macrophages" GraphId="bf39d" GroupRef="d77bd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Fibroblasts" GraphId="fb556" GroupRef="e470c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="IL6 Signaling" GraphId="b74e1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Macrophages and monocytes" GraphId="d8f9b" GroupRef="d9a90">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inflammasome Activation" GraphId="a9f0b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Monocytes and neutrophils" GraphId="c78a4" GroupRef="f72ef">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Monocyte and Macrophage Functions" GraphId="a1738">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Neutrophil Extracellular Trap (NET) Release" GraphId="a775b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="T Cell Function" GraphId="f5c58">
+    <BiopaxRef>cbd</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Myeloid cells" GraphId="acbc6" GroupRef="f5fec">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NK Cell Functions&#10;" GraphId="d7673">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="T Cell Responses" GraphId="fd293">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Metabolite" GraphId="dbeff">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Complex" GraphId="f12c3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Activation" GraphId="e9bd3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Stimulation" GraphId="e7669">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Conversion" GraphId="c9828">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inhibition" GraphId="d9783">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="efbb8">
+    <Graphics FillColor="ffff99" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="ef349" GroupRef="d9a90">
+    <Graphics FillColor="cccccc" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d4e88">
+    <Graphics FillColor="ffcc33" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="da91d" GroupRef="f5fec">
+    <Graphics FillColor="cccccc" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c7503">
+    <Graphics FillColor="ccff66" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="ab6d8">
+    <BiopaxRef>a4c</BiopaxRef>
+    <Graphics FillColor="ccffcc" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="cf93f">
+    <Graphics FillColor="66ccff" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="f4995">
+    <Graphics FillColor="ccffff" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="d91c7" GroupRef="dc94d">
+    <Graphics FillColor="cccccc" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cea62" GroupRef="dcdc3">
+    <Graphics FillColor="cccccc" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f6813">
+    <Graphics FillColor="ccccff" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="bb404">
+    <Graphics FillColor="ff9999" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="d04fb">
+    <BiopaxRef>d2f</BiopaxRef>
+    <Graphics FillColor="cccccc" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b4ac5" GroupRef="e6a12">
+    <Graphics FillColor="cccccc" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cbf23" GroupRef="d77bd">
+    <BiopaxRef>baf</BiopaxRef>
+    <Graphics FillColor="cccccc" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ae11f">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="b1884" GroupRef="f5fec">
+    <Graphics FillColor="cccccc" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ca937">
+    <Graphics FillColor="99ff99" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="becaa" GroupRef="e470c">
+    <Graphics FillColor="cccccc" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cdaeb" GroupRef="a757f">
+    <BiopaxRef>fa1</BiopaxRef>
+    <Graphics FillColor="cccccc" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="a7981" GroupRef="e9f44">
+    <BiopaxRef>ad8</BiopaxRef>
+    <BiopaxRef>c7d</BiopaxRef>
+    <Graphics FillColor="cccccc" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="af36f" GroupRef="a0514">
+    <Graphics FillColor="cccccc" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="afb84" GroupRef="aef3e">
+    <BiopaxRef>f9a</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ff371" GroupRef="aef3e">
+    <BiopaxRef>c05</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f1317" GroupRef="f72ef">
+    <Graphics FillColor="cccccc" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="fc9d3" Style="Complex"/>
+  <Group GroupId="f5fee" GraphId="a3fb3" Style="Complex"/>
+  <Group GroupId="a757f" GraphId="ab1ed" Style="Group"/>
+  <Group GroupId="d9a90" GraphId="ab534" Style="Group"/>
+  <Group GroupId="cf11e" GraphId="adff5" Style="Group"/>
+  <Group GroupId="e6a12" GraphId="b30ef" Style="Group"/>
+  <Group GroupId="dc94d" GraphId="b39aa" Style="Group"/>
+  <Group GroupId="be247" GraphId="b6eb8" Style="Group"/>
+  <Group GroupId="f72ef" GraphId="b9690" Style="Group"/>
+  <Group GroupId="d94d6" GraphId="d10bc" Style="Group"/>
+  <Group GroupId="a0514" GraphId="d20b9" Style="Group"/>
+  <Group GroupId="a08f8" GraphId="d9a29" Style="Group"/>
+  <Group GroupId="e470c" GraphId="da085" Style="Group"/>
+  <Group GroupId="aef3e" GraphId="db4c1" Style="Group"/>
+  <Group GroupId="cfb16" GraphId="e2c95" Style="Group"/>
+  <Group GroupId="e9f44" GraphId="e9a73" Style="Group"/>
+  <Group GroupId="d77bd" GraphId="ea54e" Style="Group"/>
+  <Group GroupId="dcdc3" GraphId="ef500" Style="Group"/>
+  <Group GroupId="fbfad" GraphId="f7c02" Style="Group"/>
+  <Group GroupId="b91f9" GraphId="fb5de" Style="Group"/>
+  <Group GroupId="e73a5" GraphId="fbe23" Style="Group"/>
+  <Group GroupId="f5fec" GraphId="fdd1c" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a68">
+      <bp:ID >16446378</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Prostacyclin-IP signaling and prostaglandin E2-EP2/EP4 signaling both mediate joint inflammation in mouse collagen-induced arthritis.</bp:TITLE>
+      <bp:SOURCE >J Exp Med</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Honda T</bp:AUTHORS>
+      <bp:AUTHORS >Segi-Nishida E</bp:AUTHORS>
+      <bp:AUTHORS >Miyachi Y</bp:AUTHORS>
+      <bp:AUTHORS >Narumiya S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a4c">
+      <bp:ID >26505736</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Prostaglandin E2 inhibits neutrophil extracellular trap formation through production of cyclic AMP.</bp:TITLE>
+      <bp:SOURCE >Br J Pharmacol</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Shishikura K</bp:AUTHORS>
+      <bp:AUTHORS >Horiuchi T</bp:AUTHORS>
+      <bp:AUTHORS >Sakata N</bp:AUTHORS>
+      <bp:AUTHORS >Trinh DA</bp:AUTHORS>
+      <bp:AUTHORS >Shirakawa R</bp:AUTHORS>
+      <bp:AUTHORS >Kimura T</bp:AUTHORS>
+      <bp:AUTHORS >Asada Y</bp:AUTHORS>
+      <bp:AUTHORS >Horiuchi H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d2f">
+      <bp:ID >20018632</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Prostaglandin E2 inhibits IFN-alpha secretion and Th1 costimulation by human plasmacytoid dendritic cells via E-prostanoid 2 and E-prostanoid 4 receptor engagement.</bp:TITLE>
+      <bp:SOURCE >J Immunol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Fabricius D</bp:AUTHORS>
+      <bp:AUTHORS >Neubauer M</bp:AUTHORS>
+      <bp:AUTHORS >Mandel B</bp:AUTHORS>
+      <bp:AUTHORS >Sch&#252;tz C</bp:AUTHORS>
+      <bp:AUTHORS >Viardot A</bp:AUTHORS>
+      <bp:AUTHORS >Vollmer A</bp:AUTHORS>
+      <bp:AUTHORS >Jahrsd&#246;rfer B</bp:AUTHORS>
+      <bp:AUTHORS >Debatin KM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac5">
+      <bp:ID >21681369</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE />
+      <bp:SOURCE />
+      <bp:YEAR />
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f55">
+      <bp:ID >32700336</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Non-steroidal anti-inflammatory drugs, prostaglandins, and COVID-19.</bp:TITLE>
+      <bp:SOURCE >Br J Pharmacol</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Robb CT</bp:AUTHORS>
+      <bp:AUTHORS >Goepp M</bp:AUTHORS>
+      <bp:AUTHORS >Rossi AG</bp:AUTHORS>
+      <bp:AUTHORS >Yao C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f9a">
+      <bp:ID >22590492</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Prostaglandin I2 signaling drives Th17 differentiation and exacerbates experimental autoimmune encephalomyelitis.</bp:TITLE>
+      <bp:SOURCE >PLoS One</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Zhou W</bp:AUTHORS>
+      <bp:AUTHORS >Dowell DR</bp:AUTHORS>
+      <bp:AUTHORS >Huckabee MM</bp:AUTHORS>
+      <bp:AUTHORS >Newcomb DC</bp:AUTHORS>
+      <bp:AUTHORS >Boswell MG</bp:AUTHORS>
+      <bp:AUTHORS >Goleniewska K</bp:AUTHORS>
+      <bp:AUTHORS >Lotz MT</bp:AUTHORS>
+      <bp:AUTHORS >Toki S</bp:AUTHORS>
+      <bp:AUTHORS >Yin H</bp:AUTHORS>
+      <bp:AUTHORS >Yao S</bp:AUTHORS>
+      <bp:AUTHORS >Natarajan C</bp:AUTHORS>
+      <bp:AUTHORS >Wu P</bp:AUTHORS>
+      <bp:AUTHORS >Sriram S</bp:AUTHORS>
+      <bp:AUTHORS >Breyer RM</bp:AUTHORS>
+      <bp:AUTHORS >Fitzgerald GA</bp:AUTHORS>
+      <bp:AUTHORS >Peebles RS Jr</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f11">
+      <bp:ID >21715307</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Inflammation-restraining effects of prostaglandin E2 on natural killer-dendritic cell (NK-DC) interaction are imprinted during DC maturation.</bp:TITLE>
+      <bp:SOURCE >Blood</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Van Elssen CH</bp:AUTHORS>
+      <bp:AUTHORS >Vanderlocht J</bp:AUTHORS>
+      <bp:AUTHORS >Oth T</bp:AUTHORS>
+      <bp:AUTHORS >Senden-Gijsbers BL</bp:AUTHORS>
+      <bp:AUTHORS >Germeraad WT</bp:AUTHORS>
+      <bp:AUTHORS >Bos GM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c01">
+      <bp:ID >30381825</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Prostaglandin-cytokine crosstalk in chronic inflammation.</bp:TITLE>
+      <bp:SOURCE >Br J Pharmacol</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Yao C</bp:AUTHORS>
+      <bp:AUTHORS >Narumiya S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >COVID-19</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0080600</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="baf">
+      <bp:ID >32192578</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >COVID-19: consider cytokine storm syndromes and immunosuppression.</bp:TITLE>
+      <bp:SOURCE >Lancet</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Mehta P</bp:AUTHORS>
+      <bp:AUTHORS >McAuley DF</bp:AUTHORS>
+      <bp:AUTHORS >Brown M</bp:AUTHORS>
+      <bp:AUTHORS >Sanchez E</bp:AUTHORS>
+      <bp:AUTHORS >Tattersall RS</bp:AUTHORS>
+      <bp:AUTHORS >Manson JJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f56">
+      <bp:ID >31034780</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Severe acute respiratory syndrome coronavirus ORF3a protein activates the NLRP3 inflammasome by promoting TRAF3-dependent ubiquitination of ASC.</bp:TITLE>
+      <bp:SOURCE >FASEB J</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Siu KL</bp:AUTHORS>
+      <bp:AUTHORS >Yuen KS</bp:AUTHORS>
+      <bp:AUTHORS >Casta&#241;o-Rodriguez C</bp:AUTHORS>
+      <bp:AUTHORS >Ye ZW</bp:AUTHORS>
+      <bp:AUTHORS >Yeung ML</bp:AUTHORS>
+      <bp:AUTHORS >Fung SY</bp:AUTHORS>
+      <bp:AUTHORS >Yuan S</bp:AUTHORS>
+      <bp:AUTHORS >Chan CP</bp:AUTHORS>
+      <bp:AUTHORS >Yuen KY</bp:AUTHORS>
+      <bp:AUTHORS >Enjuanes L</bp:AUTHORS>
+      <bp:AUTHORS >Jin DY</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >prostaglandin E2 signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001529</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >prostaglandin I2 signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001531</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e8b">
+      <bp:ID >16785567</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Peptidoglycan-induced IL-6 production in RAW 264.7 macrophages is mediated by cyclooxygenase-2, PGE2/PGE4 receptors, protein kinase A, I kappa B kinase, and NF-kappa B.</bp:TITLE>
+      <bp:SOURCE >J Immunol</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Chen BC</bp:AUTHORS>
+      <bp:AUTHORS >Liao CC</bp:AUTHORS>
+      <bp:AUTHORS >Hsu MJ</bp:AUTHORS>
+      <bp:AUTHORS >Liao YT</bp:AUTHORS>
+      <bp:AUTHORS >Lin CC</bp:AUTHORS>
+      <bp:AUTHORS >Sheu JR</bp:AUTHORS>
+      <bp:AUTHORS >Lin CH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa1">
+      <bp:ID >26982353</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Macrophages in Tissue Repair, Regeneration, and Fibrosis.</bp:TITLE>
+      <bp:SOURCE >Immunity</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Wynn TA</bp:AUTHORS>
+      <bp:AUTHORS >Vannella KM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="deb">
+      <bp:ID >28583370</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Prostaglandin E&lt;sub&gt;2&lt;/sub&gt;stimulates adaptive IL-22 production and promotes allergic contact dermatitis.</bp:TITLE>
+      <bp:SOURCE >J Allergy Clin Immunol</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Robb CT</bp:AUTHORS>
+      <bp:AUTHORS >McSorley HJ</bp:AUTHORS>
+      <bp:AUTHORS >Lee J</bp:AUTHORS>
+      <bp:AUTHORS >Aoki T</bp:AUTHORS>
+      <bp:AUTHORS >Yu C</bp:AUTHORS>
+      <bp:AUTHORS >Crittenden S</bp:AUTHORS>
+      <bp:AUTHORS >Astier A</bp:AUTHORS>
+      <bp:AUTHORS >Felton JM</bp:AUTHORS>
+      <bp:AUTHORS >Parkinson N</bp:AUTHORS>
+      <bp:AUTHORS >Ayele A</bp:AUTHORS>
+      <bp:AUTHORS >Breyer RM</bp:AUTHORS>
+      <bp:AUTHORS >Anderton SM</bp:AUTHORS>
+      <bp:AUTHORS >Narumiya S</bp:AUTHORS>
+      <bp:AUTHORS >Rossi AG</bp:AUTHORS>
+      <bp:AUTHORS >Howie SE</bp:AUTHORS>
+      <bp:AUTHORS >Guttman-Yassky E</bp:AUTHORS>
+      <bp:AUTHORS >Weller RB</bp:AUTHORS>
+      <bp:AUTHORS >Yao C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b11">
+      <bp:ID >20970516</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Activation of the EP&#8324; prostanoid receptor induces prostaglandin E&#8322; and pro-inflammatory cytokine production in human airway epithelial cells.</bp:TITLE>
+      <bp:SOURCE >Pulm Pharmacol Ther</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Li T</bp:AUTHORS>
+      <bp:AUTHORS >Qi J</bp:AUTHORS>
+      <bp:AUTHORS >Cowley EA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bf9">
+      <bp:ID >19273625</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Prostaglandin E2 regulates Th17 cell differentiation and function through cyclic AMP and EP2/EP4 receptor signaling.</bp:TITLE>
+      <bp:SOURCE >J Exp Med</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Boniface K</bp:AUTHORS>
+      <bp:AUTHORS >Bak-Jensen KS</bp:AUTHORS>
+      <bp:AUTHORS >Li Y</bp:AUTHORS>
+      <bp:AUTHORS >Blumenschein WM</bp:AUTHORS>
+      <bp:AUTHORS >McGeachy MJ</bp:AUTHORS>
+      <bp:AUTHORS >McClanahan TK</bp:AUTHORS>
+      <bp:AUTHORS >McKenzie BS</bp:AUTHORS>
+      <bp:AUTHORS >Kastelein RA</bp:AUTHORS>
+      <bp:AUTHORS >Cua DJ</bp:AUTHORS>
+      <bp:AUTHORS >de Waal Malefyt R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad8">
+      <bp:ID >32398875</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Single-cell landscape of bronchoalveolar immune cells in patients with COVID-19.</bp:TITLE>
+      <bp:SOURCE >Nat Med</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Liao M</bp:AUTHORS>
+      <bp:AUTHORS >Liu Y</bp:AUTHORS>
+      <bp:AUTHORS >Yuan J</bp:AUTHORS>
+      <bp:AUTHORS >Wen Y</bp:AUTHORS>
+      <bp:AUTHORS >Xu G</bp:AUTHORS>
+      <bp:AUTHORS >Zhao J</bp:AUTHORS>
+      <bp:AUTHORS >Cheng L</bp:AUTHORS>
+      <bp:AUTHORS >Li J</bp:AUTHORS>
+      <bp:AUTHORS >Wang X</bp:AUTHORS>
+      <bp:AUTHORS >Wang F</bp:AUTHORS>
+      <bp:AUTHORS >Liu L</bp:AUTHORS>
+      <bp:AUTHORS >Amit I</bp:AUTHORS>
+      <bp:AUTHORS >Zhang S</bp:AUTHORS>
+      <bp:AUTHORS >Zhang Z</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cbd">
+      <bp:ID >32407669</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Heightened Innate Immune Responses in the Respiratory Tract of COVID-19 Patients.</bp:TITLE>
+      <bp:SOURCE >Cell Host Microbe</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Zhou Z</bp:AUTHORS>
+      <bp:AUTHORS >Ren L</bp:AUTHORS>
+      <bp:AUTHORS >Zhang L</bp:AUTHORS>
+      <bp:AUTHORS >Zhong J</bp:AUTHORS>
+      <bp:AUTHORS >Xiao Y</bp:AUTHORS>
+      <bp:AUTHORS >Jia Z</bp:AUTHORS>
+      <bp:AUTHORS >Guo L</bp:AUTHORS>
+      <bp:AUTHORS >Yang J</bp:AUTHORS>
+      <bp:AUTHORS >Wang C</bp:AUTHORS>
+      <bp:AUTHORS >Jiang S</bp:AUTHORS>
+      <bp:AUTHORS >Yang D</bp:AUTHORS>
+      <bp:AUTHORS >Zhang G</bp:AUTHORS>
+      <bp:AUTHORS >Li H</bp:AUTHORS>
+      <bp:AUTHORS >Chen F</bp:AUTHORS>
+      <bp:AUTHORS >Xu Y</bp:AUTHORS>
+      <bp:AUTHORS >Chen M</bp:AUTHORS>
+      <bp:AUTHORS >Gao Z</bp:AUTHORS>
+      <bp:AUTHORS >Dong J</bp:AUTHORS>
+      <bp:AUTHORS >Liu B</bp:AUTHORS>
+      <bp:AUTHORS >Zhang X</bp:AUTHORS>
+      <bp:AUTHORS >Wang W</bp:AUTHORS>
+      <bp:AUTHORS >He K</bp:AUTHORS>
+      <bp:AUTHORS >Jin Q</bp:AUTHORS>
+      <bp:AUTHORS >Li M</bp:AUTHORS>
+      <bp:AUTHORS >Wang J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3e">
+      <bp:ID >29935220</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >T cell-intrinsic prostaglandin E&lt;sub&gt;2&lt;/sub&gt;-EP2/EP4 signaling is critical in pathogenic T&lt;sub&gt;H&lt;/sub&gt;17 cell-driven inflammation.</bp:TITLE>
+      <bp:SOURCE >J Allergy Clin Immunol</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Lee J</bp:AUTHORS>
+      <bp:AUTHORS >Aoki T</bp:AUTHORS>
+      <bp:AUTHORS >Thumkeo D</bp:AUTHORS>
+      <bp:AUTHORS >Siriwach R</bp:AUTHORS>
+      <bp:AUTHORS >Yao C</bp:AUTHORS>
+      <bp:AUTHORS >Narumiya S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fd5">
+      <bp:ID >21595737</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Tumour-loaded &#945;-type 1-polarized dendritic cells from patients with chronic lymphocytic leukaemia produce a superior NK-, NKT- and CD8+ T cell-attracting chemokine profile.</bp:TITLE>
+      <bp:SOURCE >Scand J Immunol</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Gustafsson K</bp:AUTHORS>
+      <bp:AUTHORS >Junevik K</bp:AUTHORS>
+      <bp:AUTHORS >Werlenius O</bp:AUTHORS>
+      <bp:AUTHORS >Holmgren S</bp:AUTHORS>
+      <bp:AUTHORS >Karlsson-Parra A</bp:AUTHORS>
+      <bp:AUTHORS >Andersson PO</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b7b">
+      <bp:ID >15367596</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Signaling through the prostaglandin I2 receptor IP protects against respiratory syncytial virus-induced illness.</bp:TITLE>
+      <bp:SOURCE >J Virol</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Hashimoto K</bp:AUTHORS>
+      <bp:AUTHORS >Graham BS</bp:AUTHORS>
+      <bp:AUTHORS >Geraci MW</bp:AUTHORS>
+      <bp:AUTHORS >FitzGerald GA</bp:AUTHORS>
+      <bp:AUTHORS >Egan K</bp:AUTHORS>
+      <bp:AUTHORS >Zhou W</bp:AUTHORS>
+      <bp:AUTHORS >Goleniewska K</bp:AUTHORS>
+      <bp:AUTHORS >O'Neal JF</bp:AUTHORS>
+      <bp:AUTHORS >Morrow JD</bp:AUTHORS>
+      <bp:AUTHORS >Durbin RK</bp:AUTHORS>
+      <bp:AUTHORS >Wright PF</bp:AUTHORS>
+      <bp:AUTHORS >Collins RD</bp:AUTHORS>
+      <bp:AUTHORS >Suzutani T</bp:AUTHORS>
+      <bp:AUTHORS >Peebles RS Jr</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b93">
+      <bp:ID >23817417</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Synovial fibroblasts directly induce Th17 pathogenicity via the cyclooxygenase/prostaglandin E2 pathway, independent of IL-23.</bp:TITLE>
+      <bp:SOURCE >J Immunol</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Paulissen SM</bp:AUTHORS>
+      <bp:AUTHORS >van Hamburg JP</bp:AUTHORS>
+      <bp:AUTHORS >Davelaar N</bp:AUTHORS>
+      <bp:AUTHORS >Asmawidjaja PS</bp:AUTHORS>
+      <bp:AUTHORS >Hazes JM</bp:AUTHORS>
+      <bp:AUTHORS >Lubberts E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aec">
+      <bp:ID >12010778</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulation by PGE2 of the production of interleukin-6, macrophage colony stimulating factor, and vascular endothelial growth factor in human synovial fibroblasts.</bp:TITLE>
+      <bp:SOURCE >Br J Pharmacol</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Inoue H</bp:AUTHORS>
+      <bp:AUTHORS >Takamori M</bp:AUTHORS>
+      <bp:AUTHORS >Shimoyama Y</bp:AUTHORS>
+      <bp:AUTHORS >Ishibashi H</bp:AUTHORS>
+      <bp:AUTHORS >Yamamoto S</bp:AUTHORS>
+      <bp:AUTHORS >Koshihara Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a62">
+      <bp:ID >15978547</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Prostaglandin E2 induces the expression of functional inhibitory CD94/NKG2A receptors in human CD8+ T lymphocytes bya cAMP-dependent protein kinase A type I pathway.</bp:TITLE>
+      <bp:SOURCE >Biochem Pharmacol</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Zeddou M</bp:AUTHORS>
+      <bp:AUTHORS >Greimers R</bp:AUTHORS>
+      <bp:AUTHORS >de Valensart N</bp:AUTHORS>
+      <bp:AUTHORS >Nayjib B</bp:AUTHORS>
+      <bp:AUTHORS >Tasken K</bp:AUTHORS>
+      <bp:AUTHORS >Boniver J</bp:AUTHORS>
+      <bp:AUTHORS >Moutschen M</bp:AUTHORS>
+      <bp:AUTHORS >Rahmouni S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a8e">
+      <bp:ID >23575689</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Prostaglandin E&#8322; promotes Th1 differentiation via synergistic amplification of IL-12 signalling by cAMP and PI3-kinase.</bp:TITLE>
+      <bp:SOURCE >Nat Commun</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Yao C</bp:AUTHORS>
+      <bp:AUTHORS >Hirata T</bp:AUTHORS>
+      <bp:AUTHORS >Soontrapa K</bp:AUTHORS>
+      <bp:AUTHORS >Ma X</bp:AUTHORS>
+      <bp:AUTHORS >Takemori H</bp:AUTHORS>
+      <bp:AUTHORS >Narumiya S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae5">
+      <bp:ID >25229003</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Prostaglandin E2 Induces IL-6 and IL-8 Production by the EP Receptors/Akt/NF-&#954;B Pathways in Nasal Polyp-Derived Fibroblasts.</bp:TITLE>
+      <bp:SOURCE >Allergy Asthma Immunol Res</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Cho JS</bp:AUTHORS>
+      <bp:AUTHORS >Han IH</bp:AUTHORS>
+      <bp:AUTHORS >Lee HR</bp:AUTHORS>
+      <bp:AUTHORS >Lee HM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d84">
+      <bp:ID >24285838</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >IL-6-mediated induction of matrix metalloproteinase-9 is modulated by JAK-dependent IL-10 expression in macrophages.</bp:TITLE>
+      <bp:SOURCE >J Immunol</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Kothari P</bp:AUTHORS>
+      <bp:AUTHORS >Pestana R</bp:AUTHORS>
+      <bp:AUTHORS >Mesraoua R</bp:AUTHORS>
+      <bp:AUTHORS >Elchaki R</bp:AUTHORS>
+      <bp:AUTHORS >Khan KM</bp:AUTHORS>
+      <bp:AUTHORS >Dannenberg AJ</bp:AUTHORS>
+      <bp:AUTHORS >Falcone DJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c05">
+      <bp:ID >20400695</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Prostaglandin I2-IP signaling promotes Th1 differentiation in a mouse model of contact hypersensitivity.</bp:TITLE>
+      <bp:SOURCE >J Immunol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Nakajima S</bp:AUTHORS>
+      <bp:AUTHORS >Honda T</bp:AUTHORS>
+      <bp:AUTHORS >Sakata D</bp:AUTHORS>
+      <bp:AUTHORS >Egawa G</bp:AUTHORS>
+      <bp:AUTHORS >Tanizaki H</bp:AUTHORS>
+      <bp:AUTHORS >Otsuka A</bp:AUTHORS>
+      <bp:AUTHORS >Moniaga CS</bp:AUTHORS>
+      <bp:AUTHORS >Watanabe T</bp:AUTHORS>
+      <bp:AUTHORS >Miyachi Y</bp:AUTHORS>
+      <bp:AUTHORS >Narumiya S</bp:AUTHORS>
+      <bp:AUTHORS >Kabashima K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d80">
+      <bp:ID >28298525</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The Induction of Pro-IL-1&#946; by Lipopolysaccharide Requires Endogenous Prostaglandin E&lt;sub&gt;2&lt;/sub&gt;Production.</bp:TITLE>
+      <bp:SOURCE >J Immunol</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Zas&#322;ona Z</bp:AUTHORS>
+      <bp:AUTHORS >P&#229;lsson-McDermott EM</bp:AUTHORS>
+      <bp:AUTHORS >Menon D</bp:AUTHORS>
+      <bp:AUTHORS >Haneklaus M</bp:AUTHORS>
+      <bp:AUTHORS >Flis E</bp:AUTHORS>
+      <bp:AUTHORS >Prendeville H</bp:AUTHORS>
+      <bp:AUTHORS >Corcoran SE</bp:AUTHORS>
+      <bp:AUTHORS >Peters-Golden M</bp:AUTHORS>
+      <bp:AUTHORS >O'Neill LAJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c7d">
+      <bp:ID >32228226</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Transcriptomic characteristics of bronchoalveolar lavage fluid and peripheral blood mononuclear cells in COVID-19 patients.</bp:TITLE>
+      <bp:SOURCE >Emerg Microbes Infect</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Xiong Y</bp:AUTHORS>
+      <bp:AUTHORS >Liu Y</bp:AUTHORS>
+      <bp:AUTHORS >Cao L</bp:AUTHORS>
+      <bp:AUTHORS >Wang D</bp:AUTHORS>
+      <bp:AUTHORS >Guo M</bp:AUTHORS>
+      <bp:AUTHORS >Jiang A</bp:AUTHORS>
+      <bp:AUTHORS >Guo D</bp:AUTHORS>
+      <bp:AUTHORS >Hu W</bp:AUTHORS>
+      <bp:AUTHORS >Yang J</bp:AUTHORS>
+      <bp:AUTHORS >Tang Z</bp:AUTHORS>
+      <bp:AUTHORS >Wu H</bp:AUTHORS>
+      <bp:AUTHORS >Lin Y</bp:AUTHORS>
+      <bp:AUTHORS >Zhang M</bp:AUTHORS>
+      <bp:AUTHORS >Zhang Q</bp:AUTHORS>
+      <bp:AUTHORS >Shi M</bp:AUTHORS>
+      <bp:AUTHORS >Zhou Y</bp:AUTHORS>
+      <bp:AUTHORS >Lan K</bp:AUTHORS>
+      <bp:AUTHORS >Chen Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c28">
+      <bp:ID >29247122</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Prostaglandin I&lt;sub&gt;2&lt;/sub&gt;suppresses the development of diet-induced nonalcoholic steatohepatitis in mice.</bp:TITLE>
+      <bp:SOURCE >FASEB J</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Kumei S</bp:AUTHORS>
+      <bp:AUTHORS >Yuhki KI</bp:AUTHORS>
+      <bp:AUTHORS >Kojima F</bp:AUTHORS>
+      <bp:AUTHORS >Kashiwagi H</bp:AUTHORS>
+      <bp:AUTHORS >Imamichi Y</bp:AUTHORS>
+      <bp:AUTHORS >Okumura T</bp:AUTHORS>
+      <bp:AUTHORS >Narumiya S</bp:AUTHORS>
+      <bp:AUTHORS >Ushikubi F</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

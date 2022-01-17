@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Mammary gland development pathway - Embryonic development (Stage 1 of 4)" Version="20140417" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The mammary gland development can be subdivided into four stages of development: (1) embryonic development, (2) puberty, (3) pregnancy and lactation and (4) involution. In the embryonic development, a pair of mammary lines (ectoderm) arises, which gives origin to a pair of placodes. Then, each placode penetrates the underlying mesoderm. This results in the formation of the primary mammary gland [http://www.ncbi.nlm.nih.gov/pubmed/14668814 3].
+NRG3 is a signal for placode formation. Besides that, it influences cell fate: it binds to its receptor, ERBB4, and induces MYC, which decreases expression of the integrins ITGA6 and ITGB1. The result is a change in cell adhesion and proliferation and consequent exit from the stem cell compartment [http://www.ncbi.nlm.nih.gov/pubmed/17880691 1].
+Another process that should be highlighted in the embryonic development is the epithelial to mesenchymal transition (EMT). ZEB2 is an EMT regulator. It represses many genes (eg. CCND1, SFRP1, MIR200A, MIR200B, MIR429, TERT, CDH1, CLDN4 and ALPL), and also upregulates mesenchymal markers [http://www.ncbi.nlm.nih.gov/pubmed/19424592 2]. CCND1 and SFRP1 are related to cell proliferation, and SFRP1 are also related to WNT signaling pathway. MIR200A, MIR200B and MIR429 are microRNAs. TERT is responsible for elongation of telomere ends. CDH1 and CLDN4 are associated with cell adhesion, and ALPL may play a role in skeletal mineralization. Many genes modulate ZEB2. Some of these are shown in the figure [http://www.ncbi.nlm.nih.gov/pubmed/19424592 2]. TGFB1, TNF and IL1 are cytokines and AKT1 plays a role in many processes like cell proliferation, survival and growth. Hedgehog signals upregulate ZEB2 via TGFB1 [http://www.ncbi.nlm.nih.gov/pubmed/19424592 2].</Comment>
+  <BiopaxRef>b73</BiopaxRef>
+  <Graphics BoardWidth="820.5" BoardHeight="630.0"/>
+  <DataNode TextLabel="MIR429" GraphId="a39ec" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MIR200B" GraphId="a53a8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MYC" GraphId="b9ff0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL1" GraphId="baf55" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SFRP1" GraphId="be06c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ITGA6" GraphId="be934" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Mesenchymal markers" GraphId="c0589" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ALPL" GraphId="c2a61" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ZEB2" GraphId="c2c71" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CLDN4" GraphId="c4e34" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TERT" GraphId="d3604" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Hypoxia signals" GraphId="db499" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ERBB4" GraphId="de529" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ITGB1" GraphId="e370e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TGFB1" GraphId="e4149" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NRG3" GraphId="e9314" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MIR200A" GraphId="ef5b1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CCND1" GraphId="f17fe" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AKT1" GraphId="f4a65" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CDH1" GraphId="fbcd7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DNA" GraphId="fbcf9" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="TNF" GraphId="fe7da" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Hedgehog signals" GraphId="ffbb8" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id18d6867f">
+    <Graphics>
+      <Point GraphRef="b0262"/>
+      <Point GraphRef="b3fe9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1aac8138">
+    <BiopaxRef>e3e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fbcf9"/>
+      <Point/>
+      <Point GraphRef="a39ec" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id21da69f4">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="fbcd7"/>
+      <Point/>
+      <Point GraphRef="f1022" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id24c31193">
+    <BiopaxRef>e3e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fbcf9"/>
+      <Point/>
+      <Point GraphRef="fbcd7" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id29b1814a">
+    <Graphics>
+      <Point GraphRef="c2c71"/>
+      <Point GraphRef="fbcf9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2ab32d01">
+    <BiopaxRef>f99</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="b9ff0"/>
+      <Point/>
+      <Point GraphRef="be934" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2f2e0ed5">
+    <BiopaxRef>e3e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fbcf9"/>
+      <Point/>
+      <Point GraphRef="c4e34" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id35d1982a">
+    <BiopaxRef>e3e</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="db499"/>
+      <Point/>
+      <Point GraphRef="c2c71" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3ef4167f">
+    <Graphics>
+      <Point GraphRef="b3fe9"/>
+      <Point GraphRef="ad3ca" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3f3420e">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="c4e34"/>
+      <Point/>
+      <Point GraphRef="f1022" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id45a0e36b">
+    <BiopaxRef>f99</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e9314"/>
+      <Point GraphRef="de529" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id52d26212">
+    <BiopaxRef>e3e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fbcf9"/>
+      <Point/>
+      <Point GraphRef="c0589" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5b89ae88">
+    <BiopaxRef>f99</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="b9ff0"/>
+      <Point/>
+      <Point GraphRef="e370e" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5dd91c8e">
+    <BiopaxRef>e3e</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="fe7da"/>
+      <Point/>
+      <Point GraphRef="c2c71" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7bde5174">
+    <BiopaxRef>e3e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fbcf9"/>
+      <Point/>
+      <Point GraphRef="a53a8" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id896466d2">
+    <BiopaxRef>e3e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fbcf9"/>
+      <Point/>
+      <Point GraphRef="ef5b1" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8a530b78">
+    <BiopaxRef>e3e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fbcf9"/>
+      <Point/>
+      <Point GraphRef="be06c" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida3e58876">
+    <BiopaxRef>e3e</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="baf55"/>
+      <Point/>
+      <Point GraphRef="c2c71" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idadeab32b">
+    <BiopaxRef>e3e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fbcf9"/>
+      <Point/>
+      <Point GraphRef="f17fe" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb769c6e6">
+    <BiopaxRef>e3e</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ffbb8"/>
+      <Point GraphRef="e4149" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb7af60b8">
+    <BiopaxRef>e3e</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f4a65"/>
+      <Point GraphRef="c2c71" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb966722">
+    <BiopaxRef>e3e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fbcf9"/>
+      <Point/>
+      <Point GraphRef="c2a61" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide8178db0">
+    <BiopaxRef>e3e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fbcf9"/>
+      <Point/>
+      <Point GraphRef="d3604" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide93edc51">
+    <BiopaxRef>e3e</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="e4149"/>
+      <Point/>
+      <Point GraphRef="c2c71" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf2b8f67f">
+    <Graphics>
+      <Point GraphRef="ad4df"/>
+      <Point GraphRef="b0262" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfb1f312f">
+    <BiopaxRef>f99</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="de529"/>
+      <Point GraphRef="b9ff0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="bb8f0">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c7a35">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cbb82">
+    <Graphics LineStyle="Broken" Color="999999">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Cell junction" GraphId="d3ad5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="b8bef">
+    <Graphics FillColor="333333" ShapeType="Oval" Color="333333"/>
+  </Shape>
+  <Shape GraphId="f1022">
+    <Graphics FillColor="333333" ShapeType="Oval" Color="333333"/>
+  </Shape>
+  <Shape TextLabel="Involution" GraphId="ad3ca">
+    <Graphics ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape TextLabel="Puberty" GraphId="b0262">
+    <Graphics ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape TextLabel="Embryonic development" GraphId="ad4df">
+    <Graphics ShapeType="Rectangle" Color="ff0000"/>
+  </Shape>
+  <Shape TextLabel="MAMMARY GLAND DEVELOPMENT&#10;PATHWAY&#10;" GraphId="b7af7">
+    <Graphics ShapeType="Rectangle" Color="ff0000"/>
+  </Shape>
+  <Shape TextLabel="Pregnancy and lactation" GraphId="b3fe9">
+    <Graphics ShapeType="RoundedRectangle"/>
+  </Shape>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >germ line stem cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000014</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e3e">
+      <bp:ID >19424592</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Integrative genomic analyses of ZEB2: Transcriptional regulation of ZEB2 based on SMADs, ETS1, HIF1alpha, POU/OCT, and NF-kappaB.</bp:TITLE>
+      <bp:SOURCE >Int J Oncol</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Katoh M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >regulatory pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000004</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b73">
+      <bp:ID >14668814</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Stem cells and breast cancer: A field in transit.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Cancer</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Smalley M</bp:AUTHORS>
+      <bp:AUTHORS >Ashworth A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f99">
+      <bp:ID >17880691</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Neuregulin3 alters cell fate in the epidermis and mammary gland.</bp:TITLE>
+      <bp:SOURCE >BMC Dev Biol</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Panchal H</bp:AUTHORS>
+      <bp:AUTHORS >Wansbury O</bp:AUTHORS>
+      <bp:AUTHORS >Parry S</bp:AUTHORS>
+      <bp:AUTHORS >Ashworth A</bp:AUTHORS>
+      <bp:AUTHORS >Howard B</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>milk secreting cell</bp:TERM><bp:ID>CL:0000314</bp:ID><bp:Ontology>Cell Type</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

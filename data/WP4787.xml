@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Osteoblast differentiation and related diseases" Version="20200115" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Taken from:
+Building stronger bones: molecular regulation of the osteoblast lineage by Fanxin Long [https://www.ncbi.nlm.nih.gov/pubmed/22189423].
+Osteoblast differentiation at a glance, Arkady Rutkovskiy, K&#229;re-Olav Stensl&#248;kken, Ingvar Jarle Vaage [https://www.ncbi.nlm.nih.gov/pubmed/27667570].
+Development of the endochondral skeleton by Fanxin Long, David Ornitz [https://www.ncbi.nlm.nih.gov/pubmed/23284041].
+
+Mesenchymal stem cells can give rise to 4 lineages by expressing corresponding transcriptional regulators: PPARg for adipogenic, MyoD for myogenic, Runx2 for osteoblastic, and Sox9 for chondrocytic lineages. In intramembranous ossification (osteogenesis in the scull and clavicles), preosteoblasts stem directly from mesenchymal stem cells, while in endochondral (osteogenesis of the axial skeleton and the limbs) a common osteo-chondro progenitor gives rise to both cell types.
+
+Extracellular signals regulating osteoblast differentiation: Model is based on studies of the mouse limb skeleton. Osteoblasts differentiate from mesenchymal progenitors (MP) through distinct developmental stages marked by expression of key transcription factors including SOX9, RUNX2, and OSX. Mature osteoblasts (OB) can further differentiate to osteocytes (OCY) or bone lining cells (not depicted) or undergo apoptosis (not depicted).
+
+Indian hedgehog (IHH) signaling is required for osteoblast differentiation during endochondral bone development. IHH binding to the receptor Patched homolog 1 (PTCH1) activates signaling through Smoothened (SMO), thereby inhibiting the generation of the proteolytically cleaved GLI3 repressor (GLI3R) and promoting the generation of the full-length GLI2 activator (GLI2A). Whereas derepression of GLI3R is sufficient to generate RUNX2+ cells, both derepression of GLI3R and activation of GLI2A are necessary for progression to the RUNX2+OSX+ stage. NOTCH signaling inhibits osteoblast differentiation. Following binding to their ligands, Jagged (JAG) or Delta-like (DLL), Notch receptors are proteolytically cleaved by the g-secretase complex, leading to release of the Notch intracellular domain (NICD) from the plasma membrane. NICD interacts with RBPJk and together they activate downstream target genes, including HES (Hairy and Enhancer of Split) and HEY (HES-related with YRPW motif) family transcription factors, ultimately leading to inhibition of osteoblast differentiation, seemingly at a stage before OSX activation.
+
+WNT signaling promotes osteoblast differentiation. During b-catenin-dependent WNT signaling, b-catenin is stabilized following binding of WNT to its receptors Frizzled (FZD) and lipoprotein receptor-related protein 5 (LRP5) or LRP6, leading to the transcription of b-catenin target genes and ultimately stimulating progression from the RUNX2+ stage to the RUNX2+OSX+ stage, and from RUNX2+OSX+ cells to mature osteoblasts. WNTcan also signal independently of LRP5/6 and b-catenin through protein kinase Cd (PKCd), promoting progression to the RUNX2+OSX+ stage through an unknown mechanism.
+
+Bone morphogenetic protein (BMP) signaling stimulates osteoblast differentiation and function. Binding of BMP2 or BMP4 to their receptors results in phosphorylation of SMAD1, SMAD5, or SMAD8. These can then form a complex with their partner, SMAD4, and enter the nucleus to regulate gene expression, ultimately promoting the transition to RUNX2+OSX+ cells and enhancing the function of mature osteoblasts; however, a direct role for SMAD signaling in osteoblast differentiation remains to be shown.
+
+Fibroblast growth factor (FGF) signaling has diverse roles in osteoblast lineage cells. FGFs function by binding to cell surface Tyr kinase FGF receptors (FGFR1&#8211;FGFR4 in humans and mice), leading to the activation of multiple signaling modules. FGF signaling regulates preosteoblast proliferation and osteoblast differentiation, as well as the function of mature osteoblasts. However, the precise stages at which FGFs regulate proliferation and differentiation, and the intracellular signaling cascades responsible for each function, remain to be elucidated. BMPR, BMP receptor; MAPK, mitogen-activated protein kinase; PI3K, phosphoinositide 3-kinase; STAT1, signal transducer and activator of transcription 1.
+
+Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutation in the respective gene.</Comment>
+  <BiopaxRef>c65</BiopaxRef>
+  <BiopaxRef>f81</BiopaxRef>
+  <BiopaxRef>f5f</BiopaxRef>
+  <Graphics BoardWidth="3981.6957599136103" BoardHeight="2278.204665250083"/>
+  <DataNode TextLabel="LRP5" GraphId="a03b6" Type="GeneProduct" GroupRef="dafb6">
+        </DataNode>
+  <DataNode TextLabel="GLI2" GraphId="a5a51" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HEY1" GraphId="a5da4" Type="GeneProduct" GroupRef="eb4ef">
+        </DataNode>
+  <DataNode TextLabel="SMO" GraphId="aa706" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HES3" GraphId="af34c" Type="GeneProduct" GroupRef="eb4ef">
+        </DataNode>
+  <DataNode TextLabel="LRP6" GraphId="af7ef" Type="GeneProduct" GroupRef="dafb6">
+        </DataNode>
+  <DataNode TextLabel="STAT1" GraphId="b63c1" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="NOTCH1" GraphId="b8586" Type="GeneProduct" GroupRef="a3b0f">
+        </DataNode>
+  <DataNode TextLabel="JAG2" GraphId="babd3" Type="GeneProduct" GroupRef="f8f33">
+        </DataNode>
+  <DataNode TextLabel="HES2" GraphId="bc283" Type="GeneProduct" GroupRef="eb4ef">
+        </DataNode>
+  <DataNode TextLabel="SMAD1" GraphId="c5720" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MYOD1" GraphId="c980e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DLL1" GraphId="cb67e" Type="GeneProduct" GroupRef="f8f33">
+        </DataNode>
+  <DataNode TextLabel="GLI3" GraphId="d14e0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BMP2" GraphId="db0f0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FGFR1" GraphId="db10b" Type="GeneProduct" GroupRef="faa4d">
+        </DataNode>
+  <DataNode TextLabel="JAG1" GraphId="e0273" Type="GeneProduct" GroupRef="f8f33">
+        </DataNode>
+  <DataNode TextLabel="IHH" GraphId="e0898" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GeneProduct" GraphId="e5049" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BMP4" GraphId="e5c3b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RBPJ" GraphId="ee585" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PRKCD" GraphId="f21bd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PTCH1" GraphId="f406f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BMPR1A" GraphId="f7016" Type="GeneProduct" GroupRef="ab697">
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="f9faf" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DLL3" GraphId="fb383" Type="GeneProduct" GroupRef="f8f33">
+        </DataNode>
+  <DataNode TextLabel="DLL4" GraphId="d6bb5" Type="GeneProduct" GroupRef="f8f33">
+        </DataNode>
+  <DataNode TextLabel="NOTCH2" GraphId="d0aee" Type="GeneProduct" GroupRef="a3b0f">
+        </DataNode>
+  <DataNode TextLabel="NOTCH3" GraphId="dda00" Type="GeneProduct" GroupRef="a3b0f">
+        </DataNode>
+  <DataNode TextLabel="NOTCH4" GraphId="bf0ca" Type="GeneProduct" GroupRef="a3b0f">
+        </DataNode>
+  <DataNode TextLabel="HES6" GraphId="e0865" Type="GeneProduct" GroupRef="eb4ef">
+        </DataNode>
+  <DataNode TextLabel="HEY2" GraphId="b8afd" Type="GeneProduct" GroupRef="eb4ef">
+        </DataNode>
+  <DataNode TextLabel="BMPR1B" GraphId="a587a" Type="GeneProduct" GroupRef="ab697">
+        </DataNode>
+  <DataNode TextLabel="BMPR2" GraphId="e31b1" Type="GeneProduct" GroupRef="ab697">
+        </DataNode>
+  <DataNode TextLabel="SMAD5" GraphId="be565" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SMAD9" GraphId="c2ebe" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SMAD1" GraphId="ee8e9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SMAD5" GraphId="b88b9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SMAD9" GraphId="a477c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SMAD4" GraphId="f1082" Type="GeneProduct" GroupRef="deba0">
+        </DataNode>
+  <DataNode TextLabel="SMAD1" GraphId="efff1" Type="GeneProduct" GroupRef="deba0">
+        </DataNode>
+  <DataNode TextLabel="SMAD4" GraphId="dbe4d" Type="GeneProduct" GroupRef="fc79a">
+        </DataNode>
+  <DataNode TextLabel="SMAD4" GraphId="df693" Type="GeneProduct" GroupRef="f2fc8">
+        </DataNode>
+  <DataNode TextLabel="SMAD5" GraphId="ba188" Type="GeneProduct" GroupRef="f2fc8">
+        </DataNode>
+  <DataNode TextLabel="SMAD9" GraphId="d5be1" Type="GeneProduct" GroupRef="fc79a">
+        </DataNode>
+  <DataNode TextLabel="FGFR3" GraphId="fec34" Type="GeneProduct" GroupRef="faa4d">
+        </DataNode>
+  <DataNode TextLabel="FGFR2" GraphId="ad785" Type="GeneProduct" GroupRef="faa4d">
+        </DataNode>
+  <DataNode TextLabel="FGFR4" GraphId="a88bf" Type="GeneProduct" GroupRef="faa4d">
+        </DataNode>
+  <DataNode TextLabel="PPARG" GraphId="bdca9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RUNX2" GraphId="ccb66" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOX9" GraphId="d2588" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FZD9" GraphId="ea6dd" Type="GeneProduct" GroupRef="a9403">
+        </DataNode>
+  <DataNode TextLabel="FZD6" Type="GeneProduct" GroupRef="a9403">
+        </DataNode>
+  <DataNode TextLabel="FZD7" Type="GeneProduct" GroupRef="a9403">
+        </DataNode>
+  <DataNode TextLabel="FZD4" GraphId="f30fc" Type="GeneProduct" GroupRef="a9403">
+        </DataNode>
+  <DataNode TextLabel="FZD1" Type="GeneProduct" GroupRef="a9403">
+        </DataNode>
+  <DataNode TextLabel="FZD8" Type="GeneProduct" GroupRef="a9403">
+        </DataNode>
+  <DataNode TextLabel="FZD10" Type="GeneProduct" GroupRef="a9403">
+        </DataNode>
+  <DataNode TextLabel="FZD2" GraphId="a6b6b" Type="GeneProduct" GroupRef="a9403">
+        </DataNode>
+  <DataNode TextLabel="FZD3" Type="GeneProduct" GroupRef="a9403">
+        </DataNode>
+  <DataNode TextLabel="FZD5" Type="GeneProduct" GroupRef="a9403">
+        </DataNode>
+  <DataNode TextLabel="FZD9" GraphId="ad69f" Type="GeneProduct" GroupRef="dafb6">
+        </DataNode>
+  <DataNode TextLabel="FZD6" Type="GeneProduct" GroupRef="dafb6">
+        </DataNode>
+  <DataNode TextLabel="FZD7" Type="GeneProduct" GroupRef="dafb6">
+        </DataNode>
+  <DataNode TextLabel="FZD4" Type="GeneProduct" GroupRef="dafb6">
+        </DataNode>
+  <DataNode TextLabel="FZD1" Type="GeneProduct" GroupRef="dafb6">
+        </DataNode>
+  <DataNode TextLabel="FZD8" GraphId="e270e" Type="GeneProduct" GroupRef="dafb6">
+        </DataNode>
+  <DataNode TextLabel="FZD10" GraphId="a8fab" Type="GeneProduct" GroupRef="dafb6">
+        </DataNode>
+  <DataNode TextLabel="FZD2" GraphId="ce9e0" Type="GeneProduct" GroupRef="dafb6">
+        </DataNode>
+  <DataNode TextLabel="FZD3" Type="GeneProduct" GroupRef="dafb6">
+        </DataNode>
+  <DataNode TextLabel="FZD5" Type="GeneProduct" GroupRef="dafb6">
+        </DataNode>
+  <DataNode TextLabel="WNT16" Type="GeneProduct" GroupRef="dbca3">
+        </DataNode>
+  <DataNode TextLabel="WNT3A" Type="GeneProduct" GroupRef="dbca3">
+        </DataNode>
+  <DataNode TextLabel="WNT7A" GraphId="fd01f" Type="GeneProduct" GroupRef="dbca3">
+        </DataNode>
+  <DataNode TextLabel="WNT10B" GraphId="a02fb" Type="GeneProduct" GroupRef="dbca3">
+        </DataNode>
+  <DataNode TextLabel="WNT6" GraphId="c8ae3" Type="GeneProduct" GroupRef="dbca3">
+        </DataNode>
+  <DataNode TextLabel="WNT9B" GraphId="df73b" Type="GeneProduct" GroupRef="dbca3">
+        </DataNode>
+  <DataNode TextLabel="WNT11" GraphId="de45b" Type="GeneProduct" GroupRef="dbca3">
+        </DataNode>
+  <DataNode TextLabel="WNT7B" Type="GeneProduct" GroupRef="dbca3">
+        </DataNode>
+  <DataNode TextLabel="WNT10A" Type="GeneProduct" GroupRef="dbca3">
+        </DataNode>
+  <DataNode TextLabel="WNT2B" Type="GeneProduct" GroupRef="dbca3">
+        </DataNode>
+  <DataNode TextLabel="WNT5B" Type="GeneProduct" GroupRef="dbca3">
+        </DataNode>
+  <DataNode TextLabel="WNT8A" Type="GeneProduct" GroupRef="dbca3">
+        </DataNode>
+  <DataNode TextLabel="WNT1" GraphId="b1490" Type="GeneProduct" GroupRef="dbca3">
+        </DataNode>
+  <DataNode TextLabel="WNT5A" GraphId="a13df" Type="GeneProduct" GroupRef="dbca3">
+        </DataNode>
+  <DataNode TextLabel="WNT9A" Type="GeneProduct" GroupRef="dbca3">
+        </DataNode>
+  <DataNode TextLabel="WNT3" GraphId="ed121" Type="GeneProduct" GroupRef="dbca3">
+        </DataNode>
+  <DataNode TextLabel="WNT4" Type="GeneProduct" GroupRef="dbca3">
+        </DataNode>
+  <DataNode TextLabel="WNT2" GraphId="adea1" Type="GeneProduct" GroupRef="dbca3">
+        </DataNode>
+  <DataNode TextLabel="WNT8B" Type="GeneProduct" GroupRef="dbca3">
+        </DataNode>
+  <DataNode TextLabel="PRKCI" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PRKDC" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PIK3C2A" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PIK3R6" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PRKCE" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PIK3R3" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PIK3R4" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PIK3R5" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PRKCH" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PRKCG" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PIK3C3" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PRKCZ" GraphId="bdb34" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PIK3CB" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PIK3CA" GraphId="b021e" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PRKCA" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PRKCB" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PRKCD" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PIK3CD" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PRKCQ" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PIK3C2B" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PIK3C2G" GraphId="d5d00" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PIK3CG" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PIK3R2" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PRKD1" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="PIK3R1" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="FGF1" Type="GeneProduct" GroupRef="e5b75">
+        </DataNode>
+  <DataNode TextLabel="FGF10" Type="GeneProduct" GroupRef="e5b75">
+        </DataNode>
+  <DataNode TextLabel="FGF6" GraphId="a6d64" Type="GeneProduct" GroupRef="e5b75">
+        </DataNode>
+  <DataNode TextLabel="FGF2" Type="GeneProduct" GroupRef="e5b75">
+        </DataNode>
+  <DataNode TextLabel="FGF4" Type="GeneProduct" GroupRef="e5b75">
+        </DataNode>
+  <DataNode TextLabel="FGF3" GraphId="d716f" Type="GeneProduct" GroupRef="e5b75">
+        </DataNode>
+  <DataNode TextLabel="FGF7" Type="GeneProduct" GroupRef="e5b75">
+        </DataNode>
+  <DataNode TextLabel="FGF8" Type="GeneProduct" GroupRef="e5b75">
+        </DataNode>
+  <DataNode TextLabel="FGF9" GraphId="c5e98" Type="GeneProduct" GroupRef="e5b75">
+        </DataNode>
+  <DataNode TextLabel="FGF5" Type="GeneProduct" GroupRef="e5b75">
+        </DataNode>
+  <DataNode TextLabel="FGF18" GraphId="a13b7" Type="GeneProduct" GroupRef="e5b75">
+        </DataNode>
+  <DataNode TextLabel="MAPK9" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="MAPK3" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="MAPK13" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="MAPK6" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="MAPK10" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="MAPK4" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="MAPK1" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="MAPK8" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="MAPK11" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="MAPK12" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="MAPK7" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="MAPK14" Type="GeneProduct" GroupRef="c495b">
+        </DataNode>
+  <DataNode TextLabel="WNT16" Type="GeneProduct" GroupRef="c037a">
+        </DataNode>
+  <DataNode TextLabel="WNT3A" Type="GeneProduct" GroupRef="c037a">
+        </DataNode>
+  <DataNode TextLabel="WNT7A" GraphId="bd90d" Type="GeneProduct" GroupRef="c037a">
+        </DataNode>
+  <DataNode TextLabel="WNT10B" GraphId="dbc5e" Type="GeneProduct" GroupRef="c037a">
+        </DataNode>
+  <DataNode TextLabel="WNT6" GraphId="e860d" Type="GeneProduct" GroupRef="c037a">
+        </DataNode>
+  <DataNode TextLabel="WNT9B" GraphId="cebf8" Type="GeneProduct" GroupRef="c037a">
+        </DataNode>
+  <DataNode TextLabel="WNT11" GraphId="decc0" Type="GeneProduct" GroupRef="c037a">
+        </DataNode>
+  <DataNode TextLabel="WNT7B" Type="GeneProduct" GroupRef="c037a">
+        </DataNode>
+  <DataNode TextLabel="WNT10A" Type="GeneProduct" GroupRef="c037a">
+        </DataNode>
+  <DataNode TextLabel="WNT2B" Type="GeneProduct" GroupRef="c037a">
+        </DataNode>
+  <DataNode TextLabel="WNT5B" Type="GeneProduct" GroupRef="c037a">
+        </DataNode>
+  <DataNode TextLabel="WNT8A" Type="GeneProduct" GroupRef="c037a">
+        </DataNode>
+  <DataNode TextLabel="WNT1" GraphId="a29b6" Type="GeneProduct" GroupRef="c037a">
+        </DataNode>
+  <DataNode TextLabel="WNT5A" GraphId="e8285" Type="GeneProduct" GroupRef="c037a">
+        </DataNode>
+  <DataNode TextLabel="WNT9A" Type="GeneProduct" GroupRef="c037a">
+        </DataNode>
+  <DataNode TextLabel="WNT3" GraphId="ead8f" Type="GeneProduct" GroupRef="c037a">
+        </DataNode>
+  <DataNode TextLabel="WNT4" Type="GeneProduct" GroupRef="c037a">
+        </DataNode>
+  <DataNode TextLabel="WNT2" GraphId="c598a" Type="GeneProduct" GroupRef="c037a">
+        </DataNode>
+  <DataNode TextLabel="WNT8B" Type="GeneProduct" GroupRef="c037a">
+        </DataNode>
+  <State GraphRef="ee8e9" TextLabel="P" GraphId="b31fe">
+    <Comment>parentid=ENSG00000170365; parentsymbol=SMAD1; site=HNPIssVs_______; position=ser465; sitegrpid=448363; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ee8e9" TextLabel="P" GraphId="d633d">
+    <Comment>parentid=ENSG00000170365; parentsymbol=SMAD1; site=SPHNPIssVs_____; position=ser463; sitegrpid=448362; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b88b9" TextLabel="P" GraphId="c4218">
+    <Comment>parentid=ENSG00000113658; parentsymbol=SMAD5; site=SPLNPIssVs_____; position=ser463; sitegrpid=448455; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b88b9" TextLabel="P" GraphId="c49e8">
+    <Comment>parentid=ENSG00000113658; parentsymbol=SMAD5; site=LNPIssVs_______; position=ser465; sitegrpid=448456; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a477c" TextLabel="P" GraphId="ace8e">
+    <Comment>parentid=ENSG00000120693; parentsymbol=SMAD9; site=SPHNPIssVs_____; position=ser465; sitegrpid=449927; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a477c" TextLabel="P" GraphId="c26ff">
+    <Comment>parentid=ENSG00000120693; parentsymbol=SMAD9; site=HNPIssVs_______; position=ser467; sitegrpid=449928; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="efff1" TextLabel="P" GraphId="ba403">
+    <Comment>parentid=ENSG00000170365; parentsymbol=SMAD1; site=HNPIssVs_______; position=ser465; sitegrpid=448363; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="efff1" TextLabel="P" GraphId="ffb7f">
+    <Comment>parentid=ENSG00000170365; parentsymbol=SMAD1; site=SPHNPIssVs_____; position=ser463; sitegrpid=448362; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ba188" TextLabel="P" GraphId="bdf46">
+    <Comment>parentid=ENSG00000113658; parentsymbol=SMAD5; site=SPLNPIssVs_____; position=ser463; sitegrpid=448455; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ba188" TextLabel="P" GraphId="de2f2">
+    <Comment>parentid=ENSG00000113658; parentsymbol=SMAD5; site=LNPIssVs_______; position=ser465; sitegrpid=448456; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d5be1" TextLabel="P" GraphId="d15a4">
+    <Comment>parentid=ENSG00000120693; parentsymbol=SMAD9; site=HNPIssVs_______; position=ser467; sitegrpid=449928; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d5be1" TextLabel="P" GraphId="ffc40">
+    <Comment>parentid=ENSG00000120693; parentsymbol=SMAD9; site=SPHNPIssVs_____; position=ser465; sitegrpid=449927; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id1883053d">
+    <Graphics>
+      <Point GraphRef="c9c34"/>
+      <Point GraphRef="aaf15" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1a0e607">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ac99c"/>
+      <Point GraphRef="b31df" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1a8cc638">
+    <Graphics>
+      <Point GraphRef="f21bd"/>
+      <Point GraphRef="bfdce" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1d2484cf">
+    <Graphics>
+      <Point GraphRef="b88b9"/>
+      <Point GraphRef="fbb29" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1e124159">
+    <Graphics>
+      <Point GraphRef="fbb29"/>
+      <Point GraphRef="da9b8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1e869b27">
+    <Graphics>
+      <Point GraphRef="fa75d"/>
+      <Point GraphRef="bbcc4" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1f2ad9be">
+    <Graphics>
+      <Point GraphRef="ff887"/>
+      <Point GraphRef="eed50" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id209d1006">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="db64d"/>
+      <Point/>
+      <Point GraphRef="dbca1" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6469019818606089" Shape="None" GraphId="c9200"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id21a60468">
+    <Graphics>
+      <Point GraphRef="aa706"/>
+      <Point GraphRef="d14e0" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2368b160">
+    <Graphics>
+      <Point GraphRef="c2ebe"/>
+      <Point GraphRef="a477c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a30f4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id24f3042e">
+    <Graphics>
+      <Point GraphRef="db0f0"/>
+      <Point GraphRef="ac99c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id35ce6a1c">
+    <Graphics>
+      <Point GraphRef="a7a7c"/>
+      <Point GraphRef="f21bd" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id371977e9">
+    <Graphics>
+      <Point GraphRef="e5c3b"/>
+      <Point GraphRef="ac99c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4801d7d3">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ac99c"/>
+      <Point/>
+      <Point GraphRef="d1fb1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id49c66937">
+    <Graphics>
+      <Point GraphRef="a5a51"/>
+      <Point GraphRef="ac8f5" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4b7946b6">
+    <Graphics>
+      <Point GraphRef="b3ddc"/>
+      <Point GraphRef="f9faf" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id62ef2d0c">
+    <Graphics>
+      <Point GraphRef="b50c2"/>
+      <Point GraphRef="ac8f5" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6e11ee48">
+    <Graphics>
+      <Point GraphRef="ff539"/>
+      <Point GraphRef="a7a7c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id714244d2">
+    <Graphics>
+      <Point GraphRef="c0a2f"/>
+      <Point GraphRef="b3ddc" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id71cff1be">
+    <Graphics>
+      <Point GraphRef="ed28d"/>
+      <Point GraphRef="f9554" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7224f01">
+    <Graphics>
+      <Point GraphRef="ee585"/>
+      <Point GraphRef="d5325" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id78ebdd83">
+    <Graphics>
+      <Point GraphRef="be565"/>
+      <Point GraphRef="b88b9" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b31df"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7b178297">
+    <Graphics>
+      <Point GraphRef="b9988"/>
+      <Point GraphRef="c27f3" ArrowHead="Arrow"/>
+      <Anchor Position="0.4696831173666558" Shape="None" GraphId="bfdce"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id80918d7f">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="db64d"/>
+      <Point/>
+      <Point GraphRef="a576b" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6673386777973332" Shape="None" GraphId="bba4a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id80d48ddc">
+    <Graphics>
+      <Point GraphRef="f9faf"/>
+      <Point GraphRef="f5ac5" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8177b387">
+    <Graphics>
+      <Point GraphRef="ee8e9"/>
+      <Point GraphRef="bf7cb" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id866dc1a8">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="db64d"/>
+      <Point/>
+      <Point GraphRef="ea262" ArrowHead="Arrow"/>
+      <Anchor Position="0.6826621641436136" Shape="None" GraphId="f2e76"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id87d92ae0">
+    <Graphics>
+      <Point GraphRef="f9faf"/>
+      <Point GraphRef="bfdce" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8a290c66">
+    <Graphics>
+      <Point GraphRef="d5eca"/>
+      <Point GraphRef="b9988" ArrowHead="Arrow"/>
+      <Anchor Position="0.4416152466910809" Shape="None" GraphId="ac8f5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8ab8eeed">
+    <Graphics>
+      <Point GraphRef="eed50"/>
+      <Point GraphRef="d9440" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id92aef2e">
+    <Graphics>
+      <Point GraphRef="c5720"/>
+      <Point GraphRef="ee8e9" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d1fb1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id94e43e9c">
+    <Graphics>
+      <Point GraphRef="b24f2"/>
+      <Point GraphRef="f4f29" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id962fb3e5">
+    <Graphics>
+      <Point GraphRef="a477c"/>
+      <Point GraphRef="c7982" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9a04d7de">
+    <Graphics>
+      <Point GraphRef="bf7cb"/>
+      <Point GraphRef="da9b8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9bbcc6fd">
+    <Graphics>
+      <Point GraphRef="c980e"/>
+      <Point GraphRef="c9200" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida42ac7bd">
+    <Graphics>
+      <Point GraphRef="ccb66"/>
+      <Point GraphRef="bc387" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idacd78233">
+    <Graphics>
+      <Point GraphRef="b9988"/>
+      <Point GraphRef="ed28d" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a430a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idad6ed724">
+    <Graphics>
+      <Point GraphRef="c27f3"/>
+      <Point GraphRef="ed28d" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4747161537265485" Shape="None" GraphId="bbcc4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaf28d56c">
+    <Graphics>
+      <Point GraphRef="e3d35"/>
+      <Point GraphRef="ed28d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb0290d79">
+    <Graphics>
+      <Point GraphRef="a548b"/>
+      <Point GraphRef="f5ac5" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f4f29"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb1d74bab">
+    <Graphics>
+      <Point GraphRef="c27f3"/>
+      <Point GraphRef="c2507" ArrowHead="Arrow"/>
+      <Anchor Position="0.6739458711012862" Shape="None" GraphId="f5ac5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb25746cd">
+    <Graphics>
+      <Point GraphRef="ea262"/>
+      <Point GraphRef="de89e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb3d95cd">
+    <Graphics>
+      <Point GraphRef="c2507"/>
+      <Point GraphRef="bc86b" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbc9bc876">
+    <Graphics>
+      <Point GraphRef="d5eca"/>
+      <Point GraphRef="ed28d" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbfd85d10">
+    <Graphics>
+      <Point GraphRef="a548b"/>
+      <Point GraphRef="c2507" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.48706807545262787" Shape="None" GraphId="ab7dd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc0fd244">
+    <Graphics>
+      <Point GraphRef="c7982"/>
+      <Point GraphRef="da9b8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc379df1e">
+    <Graphics>
+      <Point GraphRef="d14e0"/>
+      <Point GraphRef="b382d" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc44f58f3">
+    <Graphics>
+      <Point GraphRef="e7f6a"/>
+      <Point GraphRef="a548b" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc49a5582">
+    <Graphics>
+      <Point GraphRef="aa706"/>
+      <Point GraphRef="a5a51" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcbcdee57">
+    <Graphics>
+      <Point GraphRef="dffd9"/>
+      <Point GraphRef="a430a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd4aadb0b">
+    <Graphics>
+      <Point GraphRef="aaf15"/>
+      <Point GraphRef="b50c2" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7706594924436134" Shape="None" GraphId="b9999"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d5325"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idda5d2078">
+    <Graphics>
+      <Point GraphRef="da9b8"/>
+      <Point GraphRef="c2507" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idda941445">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ac99c"/>
+      <Point GraphRef="a30f4" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb6d3f1a">
+    <Graphics>
+      <Point GraphRef="ea262"/>
+      <Point GraphRef="e3d35" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddbb2d2ca">
+    <Graphics>
+      <Point GraphRef="bdca9"/>
+      <Point GraphRef="bba4a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddec5f62a">
+    <Graphics>
+      <Point GraphRef="eed50"/>
+      <Point GraphRef="d893f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide45ac3bb">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="db64d"/>
+      <Point/>
+      <Point GraphRef="ff887" ArrowHead="Arrow"/>
+      <Anchor Position="0.7005399856452049" Shape="None" GraphId="bc387"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide7717e77">
+    <Graphics>
+      <Point GraphRef="b24f2"/>
+      <Point GraphRef="ab7dd" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idea37e643">
+    <Graphics>
+      <Point GraphRef="c0a2f"/>
+      <Point GraphRef="b3ddc" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idedf3741">
+    <Graphics>
+      <Point GraphRef="de89e"/>
+      <Point GraphRef="d5eca" ArrowHead="Arrow"/>
+      <Anchor Position="0.4689918469127461" Shape="None" GraphId="b382d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideed33d21">
+    <Graphics>
+      <Point GraphRef="e0898"/>
+      <Point GraphRef="f406f" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf65fb019">
+    <Graphics>
+      <Point GraphRef="c2507"/>
+      <Point GraphRef="d893f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf8016d4">
+    <Graphics>
+      <Point GraphRef="d2588"/>
+      <Point GraphRef="f2e76" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id97626065">
+    <Graphics>
+      <Point GraphRef="f406f"/>
+      <Point GraphRef="aa706" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="id27626b16">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="bfdce" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.0" Shape="None" GraphId="da9b8"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id2a027a87">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="b021e"/>
+      <Point GraphRef="dc999" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="idf605a7c4">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ccb66"/>
+      <Point GraphRef="b6788" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a9b7d">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d2588"/>
+      <Point GraphRef="bf961" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d3a71">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e0898"/>
+      <Point GraphRef="d06f5" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e02e5">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d14e0"/>
+      <Point GraphRef="f1a5a" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f3871">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="fb383"/>
+      <Point GraphRef="de273" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bc62f">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d6bb5"/>
+      <Point GraphRef="a0f3d" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a2d17">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b8586"/>
+      <Point GraphRef="b61fd" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ac5fc">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d0aee"/>
+      <Point GraphRef="e2449" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a56f5">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="ee585"/>
+      <Point GraphRef="c9fac" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f8ff9">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a6b6b"/>
+      <Point GraphRef="c0208" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b66c5">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="ce9e0"/>
+      <Point/>
+      <Point GraphRef="c097f" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c6f5f">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="fec34"/>
+      <Point/>
+      <Point GraphRef="c6cce" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bcb76">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="ad785"/>
+      <Point/>
+      <Point GraphRef="b5f5c" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f7211">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="db10b"/>
+      <Point/>
+      <Point GraphRef="bfd33" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d737c">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="c5e98"/>
+      <Point/>
+      <Point GraphRef="d6681" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d892f">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="db0f0"/>
+      <Point GraphRef="fa988" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f65d6">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="a03b6"/>
+      <Point/>
+      <Point GraphRef="e6cef" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ca563">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="a02fb"/>
+      <Point/>
+      <Point GraphRef="df274" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fdfb0">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="fd01f"/>
+      <Point/>
+      <Point GraphRef="c599b" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f39ac">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="c8ae3"/>
+      <Point/>
+      <Point GraphRef="a1bde" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cb08b">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="ed121"/>
+      <Point/>
+      <Point GraphRef="d2749" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e0de8">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="b1490"/>
+      <Point/>
+      <Point GraphRef="f3332" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f66c8">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a13df"/>
+      <Point GraphRef="bef30" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d48d0">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="dbc5e"/>
+      <Point/>
+      <Point GraphRef="f4c08" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e290a">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="bd90d"/>
+      <Point/>
+      <Point GraphRef="d99ab" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e2dc9">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="e860d"/>
+      <Point/>
+      <Point GraphRef="a5248" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bbccf">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="ead8f"/>
+      <Point/>
+      <Point GraphRef="fcd78" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="af4cc">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="a29b6"/>
+      <Point GraphRef="c2051" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f6c9e">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="e8285"/>
+      <Point/>
+      <Point GraphRef="b4f54" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b5621">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="a587a"/>
+      <Point GraphRef="ecabf" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ea29c">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="f1082"/>
+      <Point GraphRef="e4475" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e7875">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="df693"/>
+      <Point GraphRef="e4475" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="df15f">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="dbe4d"/>
+      <Point GraphRef="e4475" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Endochondral ossification" GraphId="bc7f5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="SOX9+ cells are&#10;bipontential" GraphId="bde72">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Mesenchymal progenitor/&#10;Mesenchymal stem cell" GraphId="db64d">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Deletion of OSX" GraphId="dffd9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Deletion of beta-catenin gene" GraphId="fa75d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Osteo-chondro progenitor" GraphId="ea262">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Preosteoblast" GraphId="ff887">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Chondroblast" GraphId="e3d35">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Perichondral cell" GraphId="de89e">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Chondrocyte" GraphId="ed28d">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Hypertrophic chondrocyte" GraphId="f9554">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Osteoblast" GraphId="c2507">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Intramembranous" GraphId="daa12">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="SOX9+" GraphId="d5eca">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="RUNX2+" GraphId="b9988">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="RUNX2+&#10;OSX+" GraphId="c27f3">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Osteoblast" GraphId="eed50">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Adipogenic lineage" GraphId="a576b">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Myogenic lineage" GraphId="dbca1">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Osteocyte" GraphId="d893f">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Calvarian bones, clavicles" GraphId="d9440">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Axial skeleton, extremities" GraphId="bc86b">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="OMIM:101600&#10;Pfeiffer Syndrome" Href="https://omim.org/entry/101600" GroupRef="a326d">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:164745&#10;Omodysplasia 2" GraphId="c0208" Href="https://omim.org/entry/164745">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:612247&#10;Crouzon Syndrome With Acanthosis Nigricans" Href="https://omim.org/entry/612247" GroupRef="ba3fd">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:146510&#10;Pallister-Hall Syndrome" Href="https://omim.org/entry/146510" GroupRef="b58b9">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:114290&#10;Campomelic Dysplasia" GraphId="bf961" Href="https://omim.org/entry/114290">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:101200&#10;Apert Syndrome" GraphId="b4f68" Href="https://omim.org/entry/101200" GroupRef="a326d">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:616482&#10;Achondroplasia, Severe, With Developmental &#10;Delay And Acanthosis Nigricans" Href="https://omim.org/entry/616482" GroupRef="ba3fd">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:156510&#10;Metaphyseal Dysplasia With Maxillary &#10;Hypoplasia With Or Without Brachydactyly" Href="https://omim.org/entry/156510" GroupRef="ff5d0">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:609441&#10;Acromesomelic Dysplasia, Demirhan Type" Href="https://omim.org/entry/609441" GroupRef="e2532">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:149730&#10;Lacrimoauriculodentodigital Syndrome" Href="https://omim.org/entry/149730" GroupRef="a326d">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:616028&#10;Adams-Oliver Syndrome 5" GraphId="b61fd" Href="https://omim.org/entry/616028">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:102500&#10;Hajdu-Cheney Syndrome" GraphId="e2449" Href="https://omim.org/entry/102500">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:273395&#10;Tetraamelia Syndrome 1" GraphId="d2749" Href="https://omim.org/entry/273395">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:139210&#10;Myhre Syndrome" GraphId="e4475" Href="https://omim.org/entry/139210">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:123790&#10;Beare-Stevenson Cutis Gyrata Syndrome" GraphId="bf6a3" Href="https://omim.org/entry/123790" GroupRef="a326d">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:612918&#10;Congenital Lipomatous Overgrowth, Vascular &#10;Malformations, And Epidermal Nevi" GraphId="dc999" Href="https://omim.org/entry/612918">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:174700&#10;Polydactyly, Preaxial Iv" GraphId="e5f69" Href="https://omim.org/entry/174700" GroupRef="b58b9">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:614814&#10;Adams-Oliver Syndrome 3" GraphId="c9fac" Href="https://omim.org/entry/614814">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:166710&#10;Osteoporosis" GraphId="b99a6" Href="https://omim.org/entry/166710" GroupRef="df669">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:175700&#10;Greig Cephalopolysyndactyly Syndrome" GraphId="ab2b4" Href="https://omim.org/entry/175700" GroupRef="b58b9">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:187600&#10;Thanatophoric Dysplasia, Type I" Href="https://omim.org/entry/187600" GroupRef="ba3fd">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:123500&#10;Crouzon Syndrome" Href="https://omim.org/entry/123500" GroupRef="a326d">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:228930&#10;Fibular Aplasia Or Hypoplasia, Femoral Bowing And Poly-, Syn-, And Oligodactyly" GraphId="eaf5b" Href="https://omim.org/entry/228930" GroupRef="c0447">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:180700&#10;Robinow Syndrome, Autosomal Dominant 1" GraphId="bef30" Href="https://omim.org/entry/180700">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:607778&#10;Acrocapitofemoral Dysplasia" Href="https://omim.org/entry/607778" GroupRef="dbd39">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:144750&#10;Endosteal Hyperostosis, Autosomal Dominant" Href="https://omim.org/entry/144750" GroupRef="df669">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:277300&#10;Spondylocostal Dysostosis 1, Autosomal Recessive" GraphId="de273" Href="https://omim.org/entry/277300">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:146000&#10;Hypochondroplasia" Href="https://omim.org/entry/146000" GroupRef="ba3fd">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:185900&#10;Chromosome 2q35 Duplication Syndrome" Href="https://omim.org/entry/185900" GroupRef="dbd39">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:101600&#10;Pfeiffer Syndrome" GraphId="bf8b4" Href="https://omim.org/entry/101600" GroupRef="f9e4a">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:614592&#10;Bent Bone Dysplasia Syndrome" Href="https://omim.org/entry/614592" GroupRef="a326d">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:112500&#10;Brachydactyly, Type A1" GraphId="ebf06" Href="https://omim.org/entry/112500" GroupRef="dbd39">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:602849&#10;Muenke Syndrome" Href="https://omim.org/entry/602849" GroupRef="ba3fd">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:166250&#10;Osteoglophonic Dysplasia" Href="https://omim.org/entry/166250" GroupRef="f9e4a">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:100800&#10;Achondroplasia" Href="https://omim.org/entry/100800" GroupRef="ba3fd">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:119600&#10;Cleidocranial Dysplasia" Href="https://omim.org/entry/119600" GroupRef="ff5d0">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:102510&#10;Acropectorovertebral Dysplasia" GraphId="a1bde" Href="https://omim.org/entry/102510">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:276820&#10;Ulna And Fibula, Absence Of, With Severe Limb Deficiency" GraphId="bdcaf" Href="https://omim.org/entry/276820" GroupRef="c0447">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:615220&#10;Osteogenesis Imperfecta, Type XV" GraphId="f3332" Href="https://omim.org/entry/615220">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:112600&#10;Brachydactyly, Type A2" GraphId="fa988" Href="https://omim.org/entry/112600">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:225300&#10;Split-Hand/foot Malformation 6" GraphId="df274" Href="https://omim.org/entry/225300">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:112600&#10;Brachydactyly, Type A2" Href="https://omim.org/entry/112600" GroupRef="e2532">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:164745&#10;Omodysplasia 2" GraphId="c097f" Href="https://omim.org/entry/164745">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:616589&#10;Adams-Oliver Syndrome 6" GraphId="a0f3d" Href="https://omim.org/entry/616589">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:610474&#10;Camptodactyly, Tall Stature, &#10;And Hearing Loss Syndrome" Href="https://omim.org/entry/610474" GroupRef="ba3fd">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:259770&#10;Osteoporosis-Pseudoglioma Syndrome" GraphId="ae075" Href="https://omim.org/entry/259770" GroupRef="df669">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:187601&#10;Thanatophoric Dysplasia, Type II" Href="https://omim.org/entry/187601" GroupRef="ba3fd">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:615465&#10;Hartsfield Syndrome" GraphId="e4d74" Href="https://omim.org/entry/615465" GroupRef="f9e4a">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:612961&#10;Multiple Synostoses Syndrome 3" GraphId="d6681" Href="https://omim.org/entry/612961">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:273395&#10;Tetraamelia Syndrome 1" GraphId="fcd78" Href="https://omim.org/entry/273395">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:228930&#10;Fibular Aplasia Or Hypoplasia, Femoral &#10;Bowing And Poly-, Syn-, And Oligodactyly" GraphId="e48c3" Href="https://omim.org/entry/228930" GroupRef="d6b0a">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:180700&#10;Robinow Syndrome, Autosomal Dominant 1" GraphId="b4f54" Href="https://omim.org/entry/180700">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:102510&#10;Acropectorovertebral Dysplasia" GraphId="a5248" Href="https://omim.org/entry/102510">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:276820&#10;Ulna And Fibula, Absence Of, &#10;With Severe Limb Deficiency" GraphId="fa517" Href="https://omim.org/entry/276820" GroupRef="d6b0a">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:615220&#10;Osteogenesis Imperfecta, Type XV" GraphId="c2051" Href="https://omim.org/entry/615220">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:225300&#10;Split-Hand/foot Malformation 6" GraphId="f4c08" Href="https://omim.org/entry/225300">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Shape GraphId="b25ae">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ee7ab">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Group GroupId="a6cc3" Style="Group"/>
+  <Group GroupId="faa4d" GraphId="a548b" Style="Group"/>
+  <Group GroupId="a9403" GraphId="a7a7c" Style="Group"/>
+  <Group GroupId="a3b0f" GraphId="aaf15" Style="Group"/>
+  <Group GroupId="ab697" GraphId="ac99c" Style="Group"/>
+  <Group GroupId="c495b" GraphId="b24f2" Style="Group"/>
+  <Group GroupId="dafb6" GraphId="b3ddc" Style="Group"/>
+  <Group GroupId="eb4ef" GraphId="b50c2" Style="Group"/>
+  <Group GroupId="a326d" GraphId="b5f5c" Style="Group"/>
+  <Group GroupId="ff5d0" GraphId="b6788" Style="Group"/>
+  <Group GroupId="c1f6b" GraphId="b7bc6" Style="Group"/>
+  <Group GroupId="deba0" GraphId="bf7cb" Style="Complex"/>
+  <Group GroupId="f9e4a" GraphId="bfd33" Style="Group"/>
+  <Group GroupId="dbca3" GraphId="c0a2f" Style="Group"/>
+  <Group GroupId="c0447" GraphId="c599b" Style="Group"/>
+  <Group GroupId="ba3fd" GraphId="c6cce" Style="Group"/>
+  <Group GroupId="fc79a" GraphId="c7982" Style="Complex"/>
+  <Group GroupId="f8f33" GraphId="c9c34" Style="Group"/>
+  <Group GroupId="dbd39" GraphId="d06f5" Style="Group"/>
+  <Group GroupId="d6b0a" GraphId="d99ab" Style="Group"/>
+  <Group GroupId="f87d3" GraphId="e3fb4" Style="Group"/>
+  <Group GroupId="a104b" GraphId="e5684" Style="Group"/>
+  <Group GroupId="df669" GraphId="e6cef" Style="Group"/>
+  <Group GroupId="e5b75" GraphId="e7f6a" Style="Group"/>
+  <Group GroupId="e2532" GraphId="ecabf" Style="Group"/>
+  <Group GroupId="b58b9" GraphId="f1a5a" Style="Group"/>
+  <Group GroupId="ec132" GraphId="f34a3" Style="Group"/>
+  <Group GroupId="f2fc8" GraphId="fbb29" Style="Complex"/>
+  <Group GroupId="c037a" GraphId="ff539" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f5f">
+      <bp:ID >23284041</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Development of the endochondral skeleton.</bp:TITLE>
+      <bp:SOURCE >Cold Spring Harb Perspect Biol</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Long F</bp:AUTHORS>
+      <bp:AUTHORS >Ornitz DM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c65">
+      <bp:ID >22189423</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Building strong bones: molecular regulation of the osteoblast lineage.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Long F</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f81">
+      <bp:ID >27667570</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Osteoblast Differentiation at a Glance.</bp:TITLE>
+      <bp:SOURCE >Med Sci Monit Basic Res</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Rutkovskiy A</bp:AUTHORS>
+      <bp:AUTHORS >Stensl&#248;kken KO</bp:AUTHORS>
+      <bp:AUTHORS >Vaage IJ</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>osteoblast</bp:TERM><bp:ID>CL:0000062</bp:ID><bp:Ontology>Cell Type</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>Adams-Oliver syndrome</bp:TERM><bp:ID>DOID:0060227</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>bone disease</bp:TERM><bp:ID>DOID:0080001</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>bone disease pathway</bp:TERM><bp:ID>PW:0002588</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

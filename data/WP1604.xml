@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Codeine and morphine metabolism" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The principal pathways for the metabolism of codeine occur in the liver, although some metabolism occurs in the intestine and brain. Approximately 50-70% of codeine is converted to codeine-6-glucuronide by UGT2B7. Codeine-6-glucuronide has a similar affinity to codeine for the mu-opioid receptor, coded for by the OPRM1 gene. Approximately 10-15% of codeine is N-demethylated to norcodeine by CYP3A4. Norcodeine also has a similar affinity to codeine for the mu-opioid receptor. Between 0-15% of codeine is O-demethylated to morphine, the most active metabolite, which has a 200 fold greater affinity for the mu-opioid receptor compared to codeine. This metabolic reaction is performed by CYP2D6.
+
+Approximately 60% of morphine is glucuronidated to morphine-3-glucuronide (M3G) while 5-10% is glucuronidated to morphine-6-glucuronide (M6G). These reactions are principally catalyzed by UGT2B7 in the liver. UGT1A1 may have a minor role in the formation of M3G, and UGT1A1 and UGT1A8 are capable of catalyzing the formation of M6G in vitro and so contribute to this pathway, although UGT1A8 is minimally expressed in the liver and so is not depicted here. M6G has a higher affinity for OPRM1 than morphine and M3G and so the ratio of morphine to M6G is considered an important indicator of analgesic effect.
+
+Transporters are also depicted in this pathway, as they influence the clearance of codeine, morphine, and their metabolites. Some of the evidence for the involvement of these transporters was derived from experiments done in mice and may or may not be translatable to human pharmacokinetics. The transporters present at the blood-brain barrier, not depicted in this pathway, as well as metabolic enzymes and transporters in the brain and GI tract, likely also play an important role in the pharmacokinetics of codeine and morphine.
+
+A disease linked to this pathway is Gilbert syndrome (visualised in pink), which is characterized by impaired glucuronidation due to a polymorphism in the gene encoding UGT1A1.</Comment>
+  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
+  <BiopaxRef>b66</BiopaxRef>
+  <BiopaxRef>a66</BiopaxRef>
+  <BiopaxRef>cd3</BiopaxRef>
+  <BiopaxRef>e96</BiopaxRef>
+  <BiopaxRef>df0</BiopaxRef>
+  <Graphics BoardWidth="845.348659003831" BoardHeight="822.5"/>
+  <DataNode TextLabel="Codeine" GraphId="a05b6" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP3A4" GraphId="a15cc" Type="GeneProduct">
+    <Comment> N-demethylation</Comment>
+    <BiopaxRef>a16</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2D6" GraphId="a5cfa" Type="GeneProduct">
+    <Comment>O-dealkylation</Comment>
+    <BiopaxRef>bfc</BiopaxRef>
+    <BiopaxRef>a16</BiopaxRef>
+    <BiopaxRef>d03</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Normorphine" GraphId="a83fd" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UGT2B7" GraphId="a9a36" Type="GeneProduct">
+    <Comment>Conjugation</Comment>
+    <BiopaxRef>b36</BiopaxRef>
+    <BiopaxRef>abc</BiopaxRef>
+    <BiopaxRef>bbd</BiopaxRef>
+    <BiopaxRef>c58</BiopaxRef>
+    <BiopaxRef>f03</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="UGT2B7" GraphId="ae2b0" Type="GeneProduct">
+    <Comment>major enzyme involved </Comment>
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Morphine-3-glucuronide" GraphId="b05ff" Type="Metabolite">
+    <Comment>Iinactive metabolite, a.k.a. M3G</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Codeine-6-glucuronide" GraphId="b1b59" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Morphine" GraphId="b59b1" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SLCO1B1" GraphId="c7695" Type="GeneProduct" GroupRef="dcc54">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="UGT2B7" GraphId="c78b0" Type="GeneProduct" GroupRef="ae35b">
+    <Comment>major enzyme involved </Comment>
+    <BiopaxRef>d03</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A1" GraphId="ca599" Type="GeneProduct" GroupRef="ae35b">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Morphine-3-glucuronide" GraphId="caaed" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Morphine-6-glucuronide" GraphId="cd587" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ABCC2" GraphId="cf2f5" Type="GeneProduct" GroupRef="dcc54">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Morphine-6-glucuronide" GraphId="dad0a" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ABCB1" GraphId="ddbf0" Type="GeneProduct" GroupRef="dcc54">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Norcodeine" GraphId="e46d4" Type="Metabolite">
+    <BiopaxRef>b2a</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Codeine-6-glucuronide" GraphId="e9b6a" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A1" GraphId="f3c5f" Type="GeneProduct">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2D7P1" GraphId="f8ef0" Type="GeneProduct">
+    <BiopaxRef>b66</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="ABCC3" GraphId="fb1c5" Type="GeneProduct" GroupRef="dcc54">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="CYP3A4" GraphId="aaf79" Type="Protein" GroupRef="bca71">
+    <Comment>N-demethylation, major protein</Comment>
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2C8" GraphId="ae0d5" Type="Protein" GroupRef="bca71">
+    <BiopaxRef>d03</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A3" GraphId="d07ba" Type="GeneProduct" GroupRef="f0d18">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A6" GraphId="a2799" Type="Protein" GroupRef="f0d18">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A8" GraphId="a52da" Type="GeneProduct" GroupRef="f0d18">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A9" GraphId="a52f7" Type="GeneProduct" GroupRef="f0d18">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A10" GraphId="e34cb" Type="GeneProduct" GroupRef="f0d18">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="UGT2B4" GraphId="f957d" Type="Protein">
+    <Comment> conjugation</Comment>
+    <BiopaxRef>d03</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <Interaction GraphId="id157a3ce3">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="a05b6"/>
+      <Point/>
+      <Point GraphRef="e46d4" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c6ae6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1f1fc9a3">
+    <BiopaxRef>d03</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bd808"/>
+      <Point GraphRef="c2b71" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2647e419">
+    <Graphics>
+      <Point GraphRef="f8ef0"/>
+      <Point GraphRef="e9ce0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3295267">
+    <Graphics>
+      <Point GraphRef="ae2b0"/>
+      <Point GraphRef="a03e2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id35379b93">
+    <Graphics>
+      <Point GraphRef="a05b6"/>
+      <Point GraphRef="b59b1" ArrowHead="Arrow"/>
+      <Anchor Position="0.47345132743362833" Shape="None" GraphId="e9ce0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4e7cb6a3">
+    <Graphics>
+      <Point GraphRef="b05ff"/>
+      <Point GraphRef="caaed" ArrowHead="Arrow"/>
+      <Anchor Position="0.47169706125832234" Shape="None" GraphId="d4c3f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id642d9ee1">
+    <Graphics>
+      <Point GraphRef="dbbd0"/>
+      <Point GraphRef="de3a5" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id67727403">
+    <BiopaxRef>dac</BiopaxRef>
+    <BiopaxRef>a2f</BiopaxRef>
+    <BiopaxRef>a8d</BiopaxRef>
+    <BiopaxRef>d03</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a5cfa"/>
+      <Point GraphRef="e9ce0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6a688998">
+    <Graphics>
+      <Point GraphRef="a05b6"/>
+      <Point GraphRef="b1b59" ArrowHead="Arrow"/>
+      <Anchor Position="0.517763814669094" Shape="None" GraphId="fc5ea"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7b019058">
+    <Graphics>
+      <Point GraphRef="dbbd0"/>
+      <Point GraphRef="d4c3f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id892fc659">
+    <Graphics>
+      <Point GraphRef="b1b59"/>
+      <Point GraphRef="e9b6a" ArrowHead="Arrow"/>
+      <Anchor Position="0.34132005479699534" Shape="None" GraphId="c7538"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id917ac615">
+    <Graphics>
+      <Point GraphRef="dad0a"/>
+      <Point GraphRef="cd587" ArrowHead="Arrow"/>
+      <Anchor Position="0.6058542791452703" Shape="None" GraphId="de3a5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id96151173">
+    <Graphics>
+      <Point GraphRef="dbbd0"/>
+      <Point GraphRef="c7538" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9e976b05">
+    <Graphics>
+      <Point GraphRef="cd587"/>
+      <Point GraphRef="a7025" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida20009c6">
+    <Graphics>
+      <Point GraphRef="a15cc"/>
+      <Point GraphRef="c6ae6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaa161f3f">
+    <Graphics>
+      <Point GraphRef="b59b1"/>
+      <Point GraphRef="b05ff" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.746764833889453" Shape="None" GraphId="a03e2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idad0b415a">
+    <BiopaxRef>d49</BiopaxRef>
+    <BiopaxRef>e96</BiopaxRef>
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b59b1"/>
+      <Point/>
+      <Point GraphRef="dad0a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5624085389283288" Shape="None" GraphId="c2166"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc7d7facd">
+    <Graphics>
+      <Point GraphRef="caaed"/>
+      <Point GraphRef="a7025" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc8d059f6">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b59b1"/>
+      <Point/>
+      <Point GraphRef="a83fd" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6740697514884283" Shape="None" GraphId="c2b71"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcabfc5d">
+    <BiopaxRef>f80</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f3c5f"/>
+      <Point GraphRef="c918d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide74120">
+    <Graphics>
+      <Point GraphRef="b962e"/>
+      <Point GraphRef="c2166" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide74ddb3f">
+    <Graphics>
+      <Point GraphRef="e9b6a"/>
+      <Point GraphRef="a7025" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide804ace8">
+    <BiopaxRef>d03</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d7c1a"/>
+      <Point GraphRef="a03e2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide9ecbfc1">
+    <BiopaxRef>deb</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f3c5f"/>
+      <Point GraphRef="a03e2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ided88d85f">
+    <Graphics>
+      <Point GraphRef="f957d"/>
+      <Point GraphRef="fc5ea" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idedd99414">
+    <BiopaxRef>f90</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a9a36"/>
+      <Point GraphRef="fc5ea" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Elimination via bile" GraphId="a7025">
+    <Graphics FillColor="ffffff" Color="990099"/>
+  </Label>
+  <Label TextLabel="Liver cell" GraphId="aa6c4">
+    <Graphics FillColor="ffffff" Color="666666"/>
+  </Label>
+  <Label TextLabel="Gilbert &#10;syndrome" GraphId="c918d">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" Color="cc00cc"/>
+  </Label>
+  <Shape GraphId="c1586">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="ae35b" GraphId="b962e" Style="Group"/>
+  <Group GroupId="bca71" GraphId="bd808" Style="Group"/>
+  <Group GroupId="f0d18" GraphId="d7c1a" Style="Group">
+    <BiopaxRef>d03</BiopaxRef>
+  </Group>
+  <Group GroupId="dcc54" GraphId="dbbd0" Style="Group">
+    <BiopaxRef>f1a</BiopaxRef>
+    <BiopaxRef>dbd</BiopaxRef>
+    <BiopaxRef>b6b</BiopaxRef>
+    <BiopaxRef>b74</BiopaxRef>
+    <BiopaxRef>f58</BiopaxRef>
+  </Group>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dbd">
+      <bp:ID >15886284</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mice lacking multidrug resistance protein 3 show altered morphine pharmacokinetics and morphine-6-glucuronide antinociception.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Zelcer N</bp:AUTHORS>
+      <bp:AUTHORS >van de Wetering K</bp:AUTHORS>
+      <bp:AUTHORS >Hillebrand M</bp:AUTHORS>
+      <bp:AUTHORS >Sarton E</bp:AUTHORS>
+      <bp:AUTHORS >Kuil A</bp:AUTHORS>
+      <bp:AUTHORS >Wielinga PR</bp:AUTHORS>
+      <bp:AUTHORS >Tephly T</bp:AUTHORS>
+      <bp:AUTHORS >Dahan A</bp:AUTHORS>
+      <bp:AUTHORS >Beijnen JH</bp:AUTHORS>
+      <bp:AUTHORS >Borst P</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f90">
+      <bp:ID >9010622</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Human UGT2B7 catalyzes morphine glucuronidation.</bp:TITLE>
+      <bp:SOURCE >Drug Metab Dispos</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Coffman BL</bp:AUTHORS>
+      <bp:AUTHORS >Rios GR</bp:AUTHORS>
+      <bp:AUTHORS >King CD</bp:AUTHORS>
+      <bp:AUTHORS >Tephly TR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b66">
+      <bp:ID >15051713</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A frameshift mutation and alternate splicing in human brain generate a functional form of the pseudogene cytochrome P4502D7 that demethylates codeine to morphine.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Pai HV</bp:AUTHORS>
+      <bp:AUTHORS >Kommaddi RP</bp:AUTHORS>
+      <bp:AUTHORS >Chinta SJ</bp:AUTHORS>
+      <bp:AUTHORS >Mori T</bp:AUTHORS>
+      <bp:AUTHORS >Boyd MR</bp:AUTHORS>
+      <bp:AUTHORS >Ravindranath V</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d49">
+      <bp:ID >8841154</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Pharmacokinetics of morphine and its glucuronides after intravenous infusion of morphine and morphine-6-glucuronide in healthy volunteers.</bp:TITLE>
+      <bp:SOURCE >Clin Pharmacol Ther</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >Loetsch J</bp:AUTHORS>
+      <bp:AUTHORS >Stockmann A</bp:AUTHORS>
+      <bp:AUTHORS >Kobal G</bp:AUTHORS>
+      <bp:AUTHORS >Brune K</bp:AUTHORS>
+      <bp:AUTHORS >Waibel R</bp:AUTHORS>
+      <bp:AUTHORS >Schmidt N</bp:AUTHORS>
+      <bp:AUTHORS >Geisslinger G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a8d">
+      <bp:ID >18781855</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Pharmacogenetic insights into codeine analgesia: implications to pediatric codeine use.</bp:TITLE>
+      <bp:SOURCE >Pharmacogenomics</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Madadi P</bp:AUTHORS>
+      <bp:AUTHORS >Koren G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="abc">
+      <bp:ID >11186130</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Genetic polymorphism of UDP-glucuronosyltransferase 2B7 (UGT2B7) at amino acid 268: ethnic diversity of alleles and potential clinical significance.</bp:TITLE>
+      <bp:SOURCE >Pharmacogenetics</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Bhasker CR</bp:AUTHORS>
+      <bp:AUTHORS >McKinnon W</bp:AUTHORS>
+      <bp:AUTHORS >Stone A</bp:AUTHORS>
+      <bp:AUTHORS >Lo AC</bp:AUTHORS>
+      <bp:AUTHORS >Kubota T</bp:AUTHORS>
+      <bp:AUTHORS >Ishizaki T</bp:AUTHORS>
+      <bp:AUTHORS >Miners JO</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bbd">
+      <bp:ID >12811366</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A pharmacogenetic study of uridine diphosphate-glucuronosyltransferase 2B7 in patients receiving morphine.</bp:TITLE>
+      <bp:SOURCE >Clin Pharmacol Ther</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Sawyer MB</bp:AUTHORS>
+      <bp:AUTHORS >Innocenti F</bp:AUTHORS>
+      <bp:AUTHORS >Das S</bp:AUTHORS>
+      <bp:AUTHORS >Cheng C</bp:AUTHORS>
+      <bp:AUTHORS >Ramirez J</bp:AUTHORS>
+      <bp:AUTHORS >Pantle-Fisher FH</bp:AUTHORS>
+      <bp:AUTHORS >Wright C</bp:AUTHORS>
+      <bp:AUTHORS >Badner J</bp:AUTHORS>
+      <bp:AUTHORS >Pei D</bp:AUTHORS>
+      <bp:AUTHORS >Boyett JM</bp:AUTHORS>
+      <bp:AUTHORS >Cook E Jr</bp:AUTHORS>
+      <bp:AUTHORS >Ratain MJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b2a">
+      <bp:ID >8818573</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Microsomal codeine N-demethylation: cosegregation with cytochrome P4503A4 activity.</bp:TITLE>
+      <bp:SOURCE >Drug Metab Dispos</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >Caraco Y</bp:AUTHORS>
+      <bp:AUTHORS >Tateishi T</bp:AUTHORS>
+      <bp:AUTHORS >Guengerich FP</bp:AUTHORS>
+      <bp:AUTHORS >Wood AJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="deb">
+      <bp:ID >12185559</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Morphine glucuronide-to-morphine plasma ratios are unaffected by the UGT2B7 H268Y and UGT1A1*28 polymorphisms in cancer patients on chronic morphine therapy.</bp:TITLE>
+      <bp:SOURCE >Eur J Clin Pharmacol</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Holthe M</bp:AUTHORS>
+      <bp:AUTHORS >Klepstad P</bp:AUTHORS>
+      <bp:AUTHORS >Zahlsen K</bp:AUTHORS>
+      <bp:AUTHORS >Borchgrevink PC</bp:AUTHORS>
+      <bp:AUTHORS >Hagen L</bp:AUTHORS>
+      <bp:AUTHORS >Dale O</bp:AUTHORS>
+      <bp:AUTHORS >Kaasa S</bp:AUTHORS>
+      <bp:AUTHORS >Krokan HE</bp:AUTHORS>
+      <bp:AUTHORS >Skorpen F</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bfc">
+      <bp:ID >1782973</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Impact of environmental and genetic factors on codeine analgesia.</bp:TITLE>
+      <bp:SOURCE >Eur J Clin Pharmacol</bp:SOURCE>
+      <bp:YEAR >1991</bp:YEAR>
+      <bp:AUTHORS >Desmeules J</bp:AUTHORS>
+      <bp:AUTHORS >Gascon MP</bp:AUTHORS>
+      <bp:AUTHORS >Dayer P</bp:AUTHORS>
+      <bp:AUTHORS >Magistris M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f03">
+      <bp:ID >18622261</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Single nucleotide polymorphism discovery and functional assessment of variation in the UDP-glucuronosyltransferase 2B7 gene.</bp:TITLE>
+      <bp:SOURCE >Pharmacogenet Genomics</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Innocenti F</bp:AUTHORS>
+      <bp:AUTHORS >Liu W</bp:AUTHORS>
+      <bp:AUTHORS >Fackenthal D</bp:AUTHORS>
+      <bp:AUTHORS >Ramirez J</bp:AUTHORS>
+      <bp:AUTHORS >Chen P</bp:AUTHORS>
+      <bp:AUTHORS >Ye X</bp:AUTHORS>
+      <bp:AUTHORS >Wu X</bp:AUTHORS>
+      <bp:AUTHORS >Zhang W</bp:AUTHORS>
+      <bp:AUTHORS >Mirkov S</bp:AUTHORS>
+      <bp:AUTHORS >Das S</bp:AUTHORS>
+      <bp:AUTHORS >Cook E Jr</bp:AUTHORS>
+      <bp:AUTHORS >Ratain MJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f80">
+      <bp:ID >12895198</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Pharmacokinetics of morphine are not altered in subjects with Gilbert's syndrome.</bp:TITLE>
+      <bp:SOURCE >Br J Clin Pharmacol</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Skarke C</bp:AUTHORS>
+      <bp:AUTHORS >Schmidt H</bp:AUTHORS>
+      <bp:AUTHORS >Geisslinger G</bp:AUTHORS>
+      <bp:AUTHORS >Darimont J</bp:AUTHORS>
+      <bp:AUTHORS >Loetsch J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >codeine and morphine drug pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001244</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >xenobiotics biodegradation pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000107</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="df0">
+      <bp:ID >8875123</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The disposition of morphine and its 3- and 6-glucuronide metabolites in humans and animals, and the importance of the metabolites to the pharmacological effects of morphine.</bp:TITLE>
+      <bp:SOURCE >Drug Metab Rev</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >Milne RW</bp:AUTHORS>
+      <bp:AUTHORS >Nation RL</bp:AUTHORS>
+      <bp:AUTHORS >Somogyi AA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a66">
+      <bp:ID >16920476</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Pharmacogenetics of morphine poisoning in a breastfed neonate of a codeine-prescribed mother.</bp:TITLE>
+      <bp:SOURCE >Lancet</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Koren G</bp:AUTHORS>
+      <bp:AUTHORS >Cairns J</bp:AUTHORS>
+      <bp:AUTHORS >Chitayat D</bp:AUTHORS>
+      <bp:AUTHORS >Gaedigk A</bp:AUTHORS>
+      <bp:AUTHORS >Leeder SJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Gilbert syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:2739</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f58">
+      <bp:ID >15530129</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Genetic predictors of the clinical response to opioid analgesics: clinical utility and future perspectives.</bp:TITLE>
+      <bp:SOURCE >Clin Pharmacokinet</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Loetsch J</bp:AUTHORS>
+      <bp:AUTHORS >Skarke C</bp:AUTHORS>
+      <bp:AUTHORS >Liefhold J</bp:AUTHORS>
+      <bp:AUTHORS >Geisslinger G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dac">
+      <bp:ID >2049245</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Disposition and metabolism of codeine after single and chronic doses in one poor and seven extensive metabolisers.</bp:TITLE>
+      <bp:SOURCE >Br J Clin Pharmacol</bp:SOURCE>
+      <bp:YEAR >1991</bp:YEAR>
+      <bp:AUTHORS >Chen ZR</bp:AUTHORS>
+      <bp:AUTHORS >Somogyi AA</bp:AUTHORS>
+      <bp:AUTHORS >Reynolds G</bp:AUTHORS>
+      <bp:AUTHORS >Bochner F</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e96">
+      <bp:ID >18187562</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Contribution of UDP-glucuronosyltransferase 1A1 and 1A8 to morphine-6-glucuronidation and its kinetic properties.</bp:TITLE>
+      <bp:SOURCE >Drug Metab Dispos</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Ohno S</bp:AUTHORS>
+      <bp:AUTHORS >Kawana K</bp:AUTHORS>
+      <bp:AUTHORS >Nakajin S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd3">
+      <bp:ID >18719619</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Pharmacogenetics of neonatal opioid toxicity following maternal use of codeine during breastfeeding: a case-control study.</bp:TITLE>
+      <bp:SOURCE >Clin Pharmacol Ther</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Madadi P</bp:AUTHORS>
+      <bp:AUTHORS >Ross CJ</bp:AUTHORS>
+      <bp:AUTHORS >Hayden MR</bp:AUTHORS>
+      <bp:AUTHORS >Carleton BC</bp:AUTHORS>
+      <bp:AUTHORS >Gaedigk A</bp:AUTHORS>
+      <bp:AUTHORS >Leeder JS</bp:AUTHORS>
+      <bp:AUTHORS >Koren G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b6b">
+      <bp:ID >12950465</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Evidence for an active transport of morphine-6-beta-d-glucuronide but not P-glycoprotein-mediated at the blood-brain barrier.</bp:TITLE>
+      <bp:SOURCE >J Neurochem</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Bourasset F</bp:AUTHORS>
+      <bp:AUTHORS >Cisternino S</bp:AUTHORS>
+      <bp:AUTHORS >Temsamani J</bp:AUTHORS>
+      <bp:AUTHORS >Scherrmann JM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a2f">
+      <bp:ID >1867957</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Pharmacokinetics of codeine and its metabolites in Caucasian healthy volunteers: comparisons between extensive and poor hydroxylators of debrisoquine.</bp:TITLE>
+      <bp:SOURCE >Br J Clin Pharmacol</bp:SOURCE>
+      <bp:YEAR >1991</bp:YEAR>
+      <bp:AUTHORS >Yue QY</bp:AUTHORS>
+      <bp:AUTHORS >Hasselstroem J</bp:AUTHORS>
+      <bp:AUTHORS >Svensson JO</bp:AUTHORS>
+      <bp:AUTHORS >Saewe J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f1a">
+      <bp:ID >12492606</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Pharmacokinetic modelling of morphine, morphine-3-glucuronide and morphine-6-glucuronide in plasma and cerebrospinal fluid of neurosurgical patients after short-term infusion of morphine.</bp:TITLE>
+      <bp:SOURCE >Br J Clin Pharmacol</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Meineke I</bp:AUTHORS>
+      <bp:AUTHORS >Freudenthaler S</bp:AUTHORS>
+      <bp:AUTHORS >Hofmann U</bp:AUTHORS>
+      <bp:AUTHORS >Schaeffeler E</bp:AUTHORS>
+      <bp:AUTHORS >Mikus G</bp:AUTHORS>
+      <bp:AUTHORS >Schwab M</bp:AUTHORS>
+      <bp:AUTHORS >Prange HW</bp:AUTHORS>
+      <bp:AUTHORS >Gleiter CH</bp:AUTHORS>
+      <bp:AUTHORS >Brockmoeller J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b74">
+      <bp:ID >10516633</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of P-glycoprotein in blood-brain barrier transport of morphine: transcortical microdialysis studies in mdr1a (-/-) and mdr1a (+/+) mice.</bp:TITLE>
+      <bp:SOURCE >Br J Pharmacol</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Xie R</bp:AUTHORS>
+      <bp:AUTHORS >Hammarlund-Udenaes M</bp:AUTHORS>
+      <bp:AUTHORS >de Boer AG</bp:AUTHORS>
+      <bp:AUTHORS >de Lange EC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >drug pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000754</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d03">
+      <bp:ID >16778732</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Toxicokinetics of drugs of abuse: current knowledge of the isoenzymes involved in the human metabolism of tetrahydrocannabinol, cocaine, heroin, morphine, and codeine.</bp:TITLE>
+      <bp:SOURCE >Ther Drug Monit</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Maurer HH</bp:AUTHORS>
+      <bp:AUTHORS >Sauer C</bp:AUTHORS>
+      <bp:AUTHORS >Theobald DS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b36">
+      <bp:ID >12920168</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Evaluation of 3'-azido-3'-deoxythymidine, morphine, and codeine as probe substrates for UDP-glucuronosyltransferase 2B7 (UGT2B7) in human liver microsomes: specificity and influence of the UGT2B7*2 polymorphism.</bp:TITLE>
+      <bp:SOURCE >Drug Metab Dispos</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Court MH</bp:AUTHORS>
+      <bp:AUTHORS >Krishnaswamy S</bp:AUTHORS>
+      <bp:AUTHORS >Hao Q</bp:AUTHORS>
+      <bp:AUTHORS >Duan SX</bp:AUTHORS>
+      <bp:AUTHORS >Patten CJ</bp:AUTHORS>
+      <bp:AUTHORS >Von Moltke LL</bp:AUTHORS>
+      <bp:AUTHORS >Greenblatt DJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a16">
+      <bp:ID >15625333</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Codeine intoxication associated with ultrarapid CYP2D6 metabolism.</bp:TITLE>
+      <bp:SOURCE >N Engl J Med</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Gasche Y</bp:AUTHORS>
+      <bp:AUTHORS >Daali Y</bp:AUTHORS>
+      <bp:AUTHORS >Fathi M</bp:AUTHORS>
+      <bp:AUTHORS >Chiappe A</bp:AUTHORS>
+      <bp:AUTHORS >Cottini S</bp:AUTHORS>
+      <bp:AUTHORS >Dayer P</bp:AUTHORS>
+      <bp:AUTHORS >Desmeules J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c58">
+      <bp:ID >17724700</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >UGT2B7 promoter variant -840G&gt;A contributes to the variability in hepatic clearance of morphine in patients with sickle cell disease.</bp:TITLE>
+      <bp:SOURCE >Am J Hematol</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Darbari DS</bp:AUTHORS>
+      <bp:AUTHORS >van Schaik RH</bp:AUTHORS>
+      <bp:AUTHORS >Capparelli EV</bp:AUTHORS>
+      <bp:AUTHORS >Rana S</bp:AUTHORS>
+      <bp:AUTHORS >McCarter R</bp:AUTHORS>
+      <bp:AUTHORS >van den Anker J</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

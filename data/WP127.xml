@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="IL-5 signaling pathway" Organism="Homo sapiens" License="Freely available under Creative Commons license">
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <Comment Source="WikiPathways-description">Interleukin 5 (IL-5) ligand belongs to the cytokine superfamily. IL-5 is a glycoprotein which belongs to the cytokine superfamily. It possesses the four helical bundle motifs that is conserved among several hematopoietic cytokines. IL-5 plays an important role in the proliferation and differentiation of eosinophils. IL-5 induces terminal maturation of eosinophils, prolongs eosinophils survival by delaying apoptotic death, increases eosinophils adhesion to endothelial cells and enhances eosinophils effector function. IL-5 plays important roles in the pathogenesis of asthma, hypereosinophilic syndromes and eosinophil-dependent inflammatory diseases. IL-5 is produced by eosinophils, mast cells, Th2 cells, Tc2 cells and gamma delta T cells. IL-5 exerts influence on different biological activities by associating with the IL-5 receptor. This receptor is a heterodimeric complex consisting of an alpha chain-IL5RA and a beta chain, CSF2RB, which is shared between IL-5 receptor, IL-3 receptor and granulocyte macrophage colony stimulating factor receptor. Binding of IL-5 to the receptor complex results in the recruitment of adapter proteins including SHC1, GRB2 and SOS1. This leads to the activation of the Ras/Raf/MEK/ERK cascade. Subsequent activation of transcription factors including JUN and ELK-1 regulates the expression of genes involved in the control of cell growth and differentiation. IL-5 stimulation also resulted in the activation of PI3K/AKT/RPS6K pathway resulting in the phosphorylation of RPS6 and regulation of gene expression. JAK phosphorylation and activation is also brought about by IL-5, which in turn results in the activation and nuclear translocation of STAT proteins. The STAT transcription factors are responsible for the expression of early response genes and feedback inhibitor of JAK/STAT pathway. In addition, IL-5 is known to activate various tyrosine kinases such as LYN, BTK and SYK. The interactions and intersections between canonical and non-canonical IL-5 signaling systems are depicted in the pathway map.
+
+
+Please access this pathway at [http://www.netpath.org/netslim/IL_5_pathway.html NetSlim] database.
+
+If you use this pathway, please cite the following paper:
+Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugopal, A. K., Telikicherla, D., Navarro, J. D., Mathivanan, S., Pecquet, C., Gollapudi, S. K., Tattikota, S. G., Mohan, S., Padhukasahasram, H., Subbannayya, Y., Goel, R., Jacob, H. K. C., Zhong, J., Sekhar, R., Nanjappa, V., Balakrishnan, L., Subbaiah, R., Ramachandra, Y. L., Rahiman, B. A., Prasad, T. S. K., Lin, J., Houtman, J. C. D., Desiderio, S., Renauld, J., Constantinescu, S. N., Ohara, O., Hirano, T., Kubo, M., Singh, S., Khatri, P., Draghici, S., Bader, G. D., Sander, C., Leonard, W. J. and Pandey, A. (2010). NetPath: A public resource of curated signal transduction pathways. &lt;i&gt;Genome Biology&lt;/i&gt;. 11:R3.</Comment>
+  <BiopaxRef>fbd</BiopaxRef>
+  <Graphics BoardWidth="939.0" BoardHeight="1252.0"/>
+  <DataNode TextLabel="STAT5B" GraphId="d1592" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="STAT5A" GraphId="d6daa" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RPS6KB1" GraphId="fab0c" Type="Protein" GroupRef="f6907">
+        </DataNode>
+  <DataNode TextLabel="MAPK3" GraphId="f143e" Type="Protein" GroupRef="c9347">
+        </DataNode>
+  <DataNode TextLabel="AKT1" GraphId="f76d4" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="HRAS" GraphId="e7e8c" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PIK3R2" GraphId="aa3da" Type="Protein" GroupRef="f1df1">
+        </DataNode>
+  <DataNode TextLabel="BTK" GraphId="af7e1" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PIK3R1" GraphId="b377d" Type="Protein" GroupRef="f1df1">
+        </DataNode>
+  <DataNode TextLabel="RPS6KA1" GraphId="c8220" Type="Protein" GroupRef="f6907">
+        </DataNode>
+  <DataNode TextLabel="JAK1&#10;" GraphId="cfddd" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="GSK3A" GraphId="d23ea" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="GSK3B" GraphId="d5d91" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PIK3CG" GraphId="d9a40" Type="GeneProduct" GroupRef="f1df1">
+        </DataNode>
+  <DataNode TextLabel="JAK2" GraphId="de508" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="LYN" GraphId="e614f" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="SPRED1" GraphId="e7209" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PTPN11" GraphId="f224d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="ELK1" GraphId="f8e9d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MAP2K2" GraphId="c8df0" Type="Protein" GroupRef="d4355">
+        </DataNode>
+  <DataNode TextLabel="SHC1" GraphId="f9bd1" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="IL5" GraphId="c1e37" Type="Protein" GroupRef="a0055">
+        </DataNode>
+  <DataNode TextLabel="IL5" GraphId="ddd6a" Type="Protein" GroupRef="a0055">
+        </DataNode>
+  <DataNode TextLabel="STAT5B" GraphId="aa754" Type="Protein" GroupRef="ebbdb">
+        </DataNode>
+  <DataNode TextLabel="JUN" GraphId="a41e8" Type="Rna">
+    <Graphics FontStyle="Italic"/>
+    </DataNode>
+  <DataNode TextLabel="BCL2" GraphId="a77de" Type="Rna">
+    <Graphics FontStyle="Italic"/>
+    </DataNode>
+  <DataNode TextLabel="RPS6" GraphId="a8736" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="FOS" GraphId="ad6ed" Type="Rna">
+    <Graphics FontStyle="Italic"/>
+    </DataNode>
+  <DataNode TextLabel="JUN" GraphId="dfa33" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MTOR" GraphId="ef1ea" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="SOS1" GraphId="d6d4d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RAF1" GraphId="c4e09" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MAP2K1" GraphId="b52d2" Type="Protein" GroupRef="d4355">
+        </DataNode>
+  <DataNode TextLabel="IL5RA" GraphId="bad8b" Type="Protein" GroupRef="a0055">
+        </DataNode>
+  <DataNode TextLabel="IL5RA" GraphId="d1cf1" Type="Protein" GroupRef="a0055">
+        </DataNode>
+  <DataNode TextLabel="CSF2RB" GraphId="d3ce8" Type="Protein" GroupRef="a0055">
+        </DataNode>
+  <DataNode TextLabel="CSF2RB" GraphId="fec1b" Type="Protein" GroupRef="a0055">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="b5eb5" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MAPK1" GraphId="c5702" Type="Protein" GroupRef="c9347">
+        </DataNode>
+  <DataNode TextLabel="FOXO3A" GraphId="a53b0" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="STAT1" GraphId="c6848" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="GRB2" GraphId="f426f" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RPS6KB2" GraphId="f8aae" Type="Protein" GroupRef="f6907">
+        </DataNode>
+  <DataNode TextLabel="STAT5A" GraphId="aba30" Type="Protein" GroupRef="ebbdb">
+        </DataNode>
+  <DataNode TextLabel="SYK" GraphId="ed17c" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PIM1" GraphId="f7f5c" Type="Rna">
+    <Graphics FontStyle="Italic"/>
+    </DataNode>
+  <DataNode TextLabel="MYC" GraphId="e3f23" Type="Rna">
+    <Graphics FontStyle="Italic"/>
+    </DataNode>
+  <State GraphRef="d1592" TextLabel="P" GraphId="ce44f">
+    <Comment>IL-5 stimulation leads to phosphorylation of STAT5B by Jak2 in eosinophils.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d6daa" TextLabel="P" GraphId="b90ef">
+    <Comment>IL-5 stimulation leads to tyrosine phosphorylation of STAT5A on tyrosine residue 694 in eosinophils.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f143e" TextLabel="P" GraphId="e704d">
+    <Comment>IL-5 stimulation leads to rapid phosphorylation of ERK1 in eosinophils and MC-9 cells.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f76d4" TextLabel="P" GraphId="d6ae8">
+    <Comment>IL-5 stimulation leads to phosphorylation and subsequent activation of AKT1  in eosinophils.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e7e8c" TextLabel="GTP" GraphId="da34f">
+    <Comment>IL_5 stimulated the binding of GTP to RAS</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f8e9d" TextLabel="P" GraphId="ad9e2">
+    <Comment>IL-5 stimulation leads to phosphorylation of transcription factor Elk1 in TF-1 cell line.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="cfddd" TextLabel="P" GraphId="c38d9">
+    <Comment>IL-5 stimulation leads to phosphorylation of JAK1 in COS7 &amp; YY-Bu cells.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="af7e1" TextLabel="P" GraphId="c75e5">
+    <Comment>IL-5 stimulation induces autophosphorylation of Btk on tyrosine residue 223 in Y16 cells.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d5d91" TextLabel="P" GraphId="cc2ae">
+    <Comment>IL-5 stimulation leads to tyrosine phosphorylation of GSK3-beta on Ser 9 residue in TF-1 cell line.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="de508" TextLabel="P" GraphId="cedbb">
+    <Comment>IL-5 stimulation leads to phosphorylation of JAK2.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f224d" TextLabel="P" GraphId="d0f93">
+    <Comment>IL-5 stimulation leads to tyrosine phosphorylation of PTPN11 in human eosinophils.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b377d" TextLabel="P" GraphId="d35a0">
+    <Comment>IL-5 stimulation leads to rapid tyrosine phosphorylation of PI3-kinase p85 alpha and beta subunits in Y16 cells.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="aa3da" TextLabel="P" GraphId="df9d3">
+    <Comment>IL-5 stimulation leads to rapid tyrosine phosphorylation of PI3-kinase p85 alpha and beta subunits in Y16 cells.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c8220" TextLabel="P" GraphId="e205d">
+    <Comment>IL-5 stimulation leads to phosphorylation of ERK substrate RPS6KA1 in eosinophils.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d23ea" TextLabel="P" GraphId="f0551">
+    <Comment>IL-5 stimulation leads to phosphorylation of GSK3-alpha on Serine 21 residue in TF-1 cell line.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c8df0" TextLabel="P" GraphId="c06cd">
+    <Comment>IL-5 stimulation leads to autophosphorylation of p45 MEK in human eosinophils.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f9bd1" TextLabel="P" GraphId="e0a50">
+    <Comment>IL-5 stimulation leads to tyrosine phosphorylation of Shc in Eosinophils, Y16 and FDCP1 cells respectively.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="dfa33" TextLabel="P" GraphId="a182e">
+    <Comment>IL-5 stimulation leads to tyrosine phosphorylation of c-Jun via the JNK/SAPK pathway in TF-1 cell line.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c4e09" TextLabel="P" GraphId="f0a17">
+    <Comment>IL-5 stimulation leads to tyrosine phosphorylation of Raf-1 and subsequent activation in human eosinophils.</Comment>
+    <Graphics FillColor="ffff33" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d1cf1" TextLabel="P" GraphId="b571c">
+    <Comment>IL-5 stimulation leads to tyrosine phosphorylation of the IL5 receptor alpha subunit in eosinophils.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d3ce8" TextLabel="P" GraphId="d3d49">
+    <Comment>IL-5 stimulation induces tyrosine phosphorylation of the GM-CSF/IL-3/IL-5 receptor beta chain in TF-1 cells.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="fec1b" TextLabel="Ub" GraphId="facf1">
+    <Comment>IL-5 stimulation induces ubiquitination on lysine residues 566 and 603 of the GM-CSF/IL-3/IL-5 receptor beta chain in TF-1 cells.</Comment>
+    <Graphics FillColor="cc00cc" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b5eb5" TextLabel="P" GraphId="f225a">
+    <Comment>IL-5 stimulation leads to phosphorylation at tyrosine 705 of STAT3 in human eosinophils.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c5702" TextLabel="P" GraphId="cfda9">
+    <Comment>IL-5 stimulation leads to rapid phosphorylation of ERK2 in eosinophils and MC-9 cells.</Comment>
+    <Graphics FillColor="ffff33" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a53b0" TextLabel="P" GraphId="e9fd4">
+    <Comment>IL-5 stimulation leads to phosphorylation of FOXO3A on Thr 32 residue in TF-1 cells.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c6848" TextLabel="P" GraphId="c5d9f">
+    <Comment>IL-5 stimulation leads to tyrosine phosphorylation of STAT1 in eosinophils.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ed17c" TextLabel="P" GraphId="adfc5">
+    <Comment>IL-5 receptor interacts with cytoplasmic tyrosine kinases like SYK to induce phosphorylation and activation in human eosinophils.</Comment>
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="b738e">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a8736"/>
+      <Point GraphRef="ae48a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1828">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point GraphRef="c4ec6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d52f7">
+    <Comment>Raf-1 on activation regulates ERKs through activation of MEKs. ERK is a positive regulator of c-fos induction.</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f143e"/>
+      <Point GraphRef="cfcd9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ed396">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point GraphRef="a1aeb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id14b1ced3">
+    <Comment>IL5 activation induces JUN expression through the ras/MAPK pathway in human airway smooth muscle cells.</Comment>
+    <Graphics>
+      <Point GraphRef="d2c0d"/>
+      <Point GraphRef="a41e8" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id21d534c6">
+    <Graphics Color="00cc00">
+      <Point GraphRef="f426f"/>
+      <Point GraphRef="d6d4d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id23800434">
+    <Comment>IL-5 stimulation induces activation of BTK in Y16 cells.</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d3ce8"/>
+      <Point GraphRef="af7e1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2c8f53cf">
+    <Comment>IL5 activation induces BCL2 expression in eosinophils.</Comment>
+    <Graphics>
+      <Point GraphRef="be8c6"/>
+      <Point GraphRef="a77de" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3c3d1a8">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="bad8b"/>
+      <Point/>
+      <Point GraphRef="cfddd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id41e0f25d">
+    <Comment>SPRED-1 interacts with RAF-1 and inhibits it in Y-16 cells.</Comment>
+    <Graphics Color="ff0033">
+      <Point GraphRef="e7209"/>
+      <Point GraphRef="c4e09" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id457f7b39">
+    <Comment>IL-5 stimulation leads to activation of constitutively associated JAK1 and GM-CSF/IL-3/IL-5 receptor common beta chain in TF-h5R alpha cells.
+</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="fec1b"/>
+      <Point GraphRef="cfddd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4664e8e6">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="d9a40"/>
+      <Point/>
+      <Point GraphRef="f76d4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5852fd8b">
+    <Comment>IL-5 stimulation causes the activation of PI3K in eosinophils.</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d1cf1"/>
+      <Point GraphRef="b377d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5e4b019a">
+    <Graphics Color="00cc00">
+      <Point GraphRef="d6daa"/>
+      <Point GraphRef="d1592" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5f928d74">
+    <Comment>IL5 activation induces JAK2 mediated induction of MYC in he</Comment>
+    <Graphics>
+      <Point GraphRef="aa754"/>
+      <Point GraphRef="e3f23" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id64330c6e">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="de508"/>
+      <Point GraphRef="c6848" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6a48a8b">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="f01d0"/>
+      <Point/>
+      <Point GraphRef="a53b0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6c1b12b8">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="de508"/>
+      <Point GraphRef="d6daa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6f1af4ea">
+    <Comment>IL5 activation induces upregulation of FOS expression through the ras/MAPK pathway in human airway smooth muscle cells.</Comment>
+    <Graphics>
+      <Point GraphRef="d2c0d"/>
+      <Point GraphRef="ad6ed" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id895fa1e7">
+    <Comment>IL-5 stimulation leads to upregulation of PIM-1 through JAK/STAT pathway in eosinophils.</Comment>
+    <Graphics>
+      <Point GraphRef="aa754"/>
+      <Point GraphRef="f7f5c" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8df00d4f">
+    <Comment>Binding of IL-5 to receptor stimulates STAT3 activation.Cytoplasmic proline-rich region of IL-5R&#206;&#177; and the box1 region of the &#206;&#178;c subunit are essential for STAT3 activation. </Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="fec1b"/>
+      <Point GraphRef="b5eb5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9762f4ab">
+    <Comment>IL-5 stimulation leads to association of Lyn with IL-5 receptor beta subunit and subsequent phosphorylation in human eosinophils.</Comment>
+    <Comment>IL-5 stimulation leads to binding of Lyn with the GM-CSF/IL-3/IL-5 receptor common beta chain in eosinophils.</Comment>
+    <Graphics Color="0000ff">
+      <Point GraphRef="e614f"/>
+      <Point GraphRef="fec1b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9d672680">
+    <Comment>IL-5 stimulation leads to tyrosine phosphorylation of SHP-2 and subsequent association with Grb2 through its SH2 domain in eosinophils.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="f224d"/>
+      <Point GraphRef="f426f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb0b9a7e0">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="e614f"/>
+      <Point GraphRef="ed17c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc216af12">
+    <Comment>IL-5 stimulation leads to binding of JAK2 with the IL5 receptor alpha subunit in eosinophils.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="bad8b"/>
+      <Point GraphRef="de508" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc48d5cc3">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="f426f"/>
+      <Point GraphRef="f9bd1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide6e374de">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="f143e"/>
+      <Point/>
+      <Point GraphRef="dfa33" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf97218f">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="d3ce8"/>
+      <Point/>
+      <Point GraphRef="f224d" ArrowHead="Arrow"/>
+      <Anchor Position="0.3294753836997247" Shape="None" GraphId="a3261"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cbb4a">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f76d4"/>
+      <Point GraphRef="ef1ea" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aa109">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ef1ea"/>
+      <Point GraphRef="c8220" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e83d1">
+    <Comment>IL-5 stimulation leads to activation and translocation of STAT5A from the cytoplasm to the nucleus in eosinophil- differentiated cell line AML14.3D10.</Comment>
+    <Graphics LineStyle="Broken" Color="00cccc">
+      <Point GraphRef="d1592"/>
+      <Point GraphRef="aba30" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d0da9">
+    <Graphics Color="00cc00">
+      <Point GraphRef="d6d4d"/>
+      <Point GraphRef="e7e8c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c5500">
+    <Comment>Raf-1 on activation regulates ERKs through activation of MEKs. ERK is a positive regulator of c-fos induction.</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c8df0"/>
+      <Point GraphRef="c5702" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d29dd">
+    <Graphics Color="0000ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6502" GroupRef="a0055">
+    <Graphics>
+      <Point GraphRef="dcea2"/>
+      <Point GraphRef="d3ce8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c679c" GroupRef="a0055">
+    <Graphics>
+      <Point GraphRef="a4cbc"/>
+      <Point GraphRef="fec1b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6750" GroupRef="a0055">
+    <Comment>IL-5 binds to human IL5 receptor alpha subunit with much higher affinity.</Comment>
+    <Graphics>
+      <Point GraphRef="de430"/>
+      <Point GraphRef="bad8b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f14c8" GroupRef="a0055">
+    <Graphics>
+      <Point GraphRef="a1f32"/>
+      <Point GraphRef="d1cf1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a8dfa">
+    <Comment>IL-5 stimulation leads to activation and association of H-Ras with Raf-1 in eosinophils.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="e7e8c"/>
+      <Point GraphRef="c4e09" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b2763">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f8aae"/>
+      <Point GraphRef="a8736" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de860">
+    <Comment>Activation of RAF induces the phosphorylation and activation of MEKs</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c4e09"/>
+      <Point GraphRef="b52d2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bfb6f" GroupRef="a0055">
+    <Graphics Color="ff3399">
+      <Point GraphRef="c1e37"/>
+      <Point GraphRef="dc9d1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df4b1" GroupRef="a0055">
+    <Graphics Color="ff3399">
+      <Point GraphRef="ddd6a"/>
+      <Point GraphRef="ed1fc"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e6195">
+    <Graphics Color="0000ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de467">
+    <Comment>IL-5 stimulation leads to association of SYK with CSF2RB in eosinophils.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="a3261"/>
+      <Point GraphRef="ed17c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d3745">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="f143e"/>
+      <Point/>
+      <Point GraphRef="f8e9d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f6544">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="f76d4"/>
+      <Point GraphRef="d23ea" ArrowHead="Arrow"/>
+      <Anchor Position="0.43347140923394867" Shape="None" GraphId="f01d0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8f49">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="f76d4"/>
+      <Point GraphRef="d5d91" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a7a7e">
+    <Graphics Color="ff3399">
+      <Point GraphRef="c6cda"/>
+      <Point GraphRef="e0907"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="ad296">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="TBar"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ec92f">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c4902">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a0bc2">
+    <Graphics Color="ff0033">
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d16c3">
+    <Graphics Color="9900cc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fc09a">
+    <Graphics Color="cc00cc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dff1a">
+    <Graphics Color="999900">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ffabf">
+    <Graphics LineStyle="Broken" Color="00cccc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a7810">
+    <Graphics Color="00ffff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ac724">
+    <Graphics Color="ffcc33">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c102c">
+    <Graphics>
+      <Point GraphRef="e6a27"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="df210">
+    <Graphics Color="0000ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f9b7e">
+    <Graphics Color="ff9933">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f4149">
+    <Graphics Color="cccc00">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fb95b">
+    <Graphics Color="770000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fcae2">
+    <Graphics Color="775200">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f35b8">
+    <Graphics Color="ff6666">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a350e">
+    <Graphics Color="999999">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cff6c">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="df2ad">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ab76b">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f0dc7">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f8b5b">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="af02f">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a1bc3">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="NU" GraphId="a1aeb">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="AKT dependent" GraphId="ae48a" GroupRef="b1a9d">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="gene expression" GraphId="be8c6" GroupRef="b1a9d">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="CY" GraphId="c4ec6">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Ras-MAPK cascade dependent" GraphId="cfcd9" GroupRef="f6fde">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="gene expression" GraphId="d2c0d" GroupRef="f6fde">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="IL-5 signaling pathway" GraphId="d3ba7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Protein" GraphId="eff8c">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Protein" GraphId="cdd0e">
+    <Graphics FillColor="99ffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="mRNA" GraphId="d86bf">
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Ligand" GraphId="c6cda">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Receptor" GraphId="a3d72">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Protein" GraphId="e4122">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Protein - protein dissociation" GraphId="b3452">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Enzyme complex" GraphId="e28b8">
+    <Graphics FillColor="99ff33" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Small molecule" GraphId="c05f1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Induced activation" GraphId="e158e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inhibition" GraphId="c9423">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Auto catalysis" GraphId="dfb3c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Transport" GraphId="c6026">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Positive regulation of gene expression" GraphId="a3da9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Leads to through unknown mechanism" GraphId="ea677">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Negative regulation of gene expression" GraphId="c4def">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Translocation " GraphId="cfc59">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Ubiquitination" GraphId="ef856">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Deubiquitination" GraphId="ce3f0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Sumoylation" GraphId="ae79f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Induced catalysis" GraphId="a6e15">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Protein-protein interaction" GraphId="f9308">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Acetylation" GraphId="bc2ac">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Dephosphorylation" GraphId="ae6f0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="LEGEND" GraphId="f48bf">
+    <Graphics FillColor="ffffff" Color="3333ff"/>
+  </Label>
+  <Label TextLabel="Phosphorylation" GraphId="fc376">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Deacetylation" GraphId="ec835">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Golgi apparatus" GraphId="bbc9b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Endosome" GraphId="e89d0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="fe617">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Mitochondrion" GraphId="f3c66">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Desumoylation" GraphId="ec0ed">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Methylation" GraphId="aff69">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Demethylation" GraphId="a1584">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Palmitoylation" GraphId="d2254">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cytoplasm" GraphId="bd110">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="EC" GraphId="c830f">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Plasma membrane" GraphId="ac8df">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="MT" GraphId="b2e78">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Endoplasmic reticulum" GraphId="d050c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CY" GraphId="f4842">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="PM" GraphId="e7dd9">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="GO" GraphId="feaf5">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="NU" GraphId="e84aa">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Extracellular" GraphId="ce994">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ER" GraphId="ac716">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="EN" GraphId="ed01c">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Proteolytic cleavage" GraphId="ecfc0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="dc9d1" GroupRef="a0055">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff0066"/>
+  </Shape>
+  <Shape GraphId="ed1fc" GroupRef="a0055">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff0066"/>
+  </Shape>
+  <Shape GraphId="a1f32" GroupRef="a0055">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="a4cbc" GroupRef="a0055">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="dcea2" GroupRef="a0055">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="de430" GroupRef="a0055">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="f431d">
+    <Comment>IL-5 stimulation leads to autophosphorylation of JAK2 in eosinophils.</Comment>
+    <Graphics ShapeType="Arc" Color="0000ff"/>
+  </Shape>
+  <Shape GraphId="fc3c8">
+    <Comment>IL-5 stimulation leads to autophosphorylation of Lyn in eosinophils.</Comment>
+    <Graphics ShapeType="Arc" Color="0000ff"/>
+  </Shape>
+  <Shape GraphId="e6a27">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="ecb22">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="ca4f4">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape TextLabel="Molecule" GraphId="c6df2">
+    <Graphics FillColor="ffccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e0907">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff0066"/>
+  </Shape>
+  <Shape GraphId="d5e21">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="ebbdb" GraphId="a4d63" Style="Group"/>
+  <Group GroupId="c9347" GraphId="e343f" Style="Group"/>
+  <Group GroupId="f1df1" GraphId="e5d81" Style="Group"/>
+  <Group GroupId="a0055" GraphId="e9ec4" Style="Group"/>
+  <Group GroupId="d4355" GraphId="eb31a" Style="Group"/>
+  <Group GroupId="b1a9d" GraphId="eb6c5" Style="Group"/>
+  <Group GroupId="f6907" GraphId="f8fbb" Style="Group"/>
+  <Group GroupId="f6fde" GraphId="fadb6" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fbd">
+      <bp:ID >20067622</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NetPath: a public resource of curated signal transduction pathways.</bp:TITLE>
+      <bp:SOURCE >Genome Biol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Kandasamy K</bp:AUTHORS>
+      <bp:AUTHORS >Mohan SS</bp:AUTHORS>
+      <bp:AUTHORS >Raju R</bp:AUTHORS>
+      <bp:AUTHORS >Keerthikumar S</bp:AUTHORS>
+      <bp:AUTHORS >Kumar GS</bp:AUTHORS>
+      <bp:AUTHORS >Venugopal AK</bp:AUTHORS>
+      <bp:AUTHORS >Telikicherla D</bp:AUTHORS>
+      <bp:AUTHORS >Navarro JD</bp:AUTHORS>
+      <bp:AUTHORS >Mathivanan S</bp:AUTHORS>
+      <bp:AUTHORS >Pecquet C</bp:AUTHORS>
+      <bp:AUTHORS >Gollapudi SK</bp:AUTHORS>
+      <bp:AUTHORS >Tattikota SG</bp:AUTHORS>
+      <bp:AUTHORS >Mohan S</bp:AUTHORS>
+      <bp:AUTHORS >Padhukasahasram H</bp:AUTHORS>
+      <bp:AUTHORS >Subbannayya Y</bp:AUTHORS>
+      <bp:AUTHORS >Goel R</bp:AUTHORS>
+      <bp:AUTHORS >Jacob HK</bp:AUTHORS>
+      <bp:AUTHORS >Zhong J</bp:AUTHORS>
+      <bp:AUTHORS >Sekhar R</bp:AUTHORS>
+      <bp:AUTHORS >Nanjappa V</bp:AUTHORS>
+      <bp:AUTHORS >Balakrishnan L</bp:AUTHORS>
+      <bp:AUTHORS >Subbaiah R</bp:AUTHORS>
+      <bp:AUTHORS >Ramachandra YL</bp:AUTHORS>
+      <bp:AUTHORS >Rahiman BA</bp:AUTHORS>
+      <bp:AUTHORS >Prasad TS</bp:AUTHORS>
+      <bp:AUTHORS >Lin JX</bp:AUTHORS>
+      <bp:AUTHORS >Houtman JC</bp:AUTHORS>
+      <bp:AUTHORS >Desiderio S</bp:AUTHORS>
+      <bp:AUTHORS >Renauld JC</bp:AUTHORS>
+      <bp:AUTHORS >Constantinescu SN</bp:AUTHORS>
+      <bp:AUTHORS >Ohara O</bp:AUTHORS>
+      <bp:AUTHORS >Hirano T</bp:AUTHORS>
+      <bp:AUTHORS >Kubo M</bp:AUTHORS>
+      <bp:AUTHORS >Singh S</bp:AUTHORS>
+      <bp:AUTHORS >Khatri P</bp:AUTHORS>
+      <bp:AUTHORS >Draghici S</bp:AUTHORS>
+      <bp:AUTHORS >Bader GD</bp:AUTHORS>
+      <bp:AUTHORS >Sander C</bp:AUTHORS>
+      <bp:AUTHORS >Leonard WJ</bp:AUTHORS>
+      <bp:AUTHORS >Pandey A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Interleukin mediated signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000512</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >interleukin-5 signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000969</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

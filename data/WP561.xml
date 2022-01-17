@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Heme biosynthesis" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="GenMAPP notes"/>
+  <Comment Source="GenMAPP remarks"/>
+  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment Source="WikiPathways-description">The enzymatic process that produces heme is properly called porphyrin synthesis, as all the intermediates are tetrapyrroles that are chemically classified are porphyrins. The process is highly conserved across biology. In humans, this pathway serves almost exclusively to form heme. In other species, it also produces similar substances such as cobalamin (vitamin B12).
+
+The pathway is initiated by the synthesis of D-Aminolevulinic acid (dALA or &#206;&#180;ALA) from the amino acid glycine and succinyl-CoA from the citric acid cycle (Krebs cycle). The rate-limiting enzyme responsible for this reaction, ALA synthase, is strictly regulated by intracellular iron levels and heme concentration. A low-iron level, e.g., in iron deficiency, leads to decreased porphyrin synthesis, which prevents accumulation of the toxic intermediates. This mechanism is of therapeutic importance: infusion of heme arginate or hematin can abort attacks of porphyria in patients with an inborn error of metabolism of this process, by reducing transcription of ALA synthase.
+
+The organs mainly involved in heme synthesis are the liver and the bone marrow, although every cell requires heme to function properly. Heme is seen as an intermediate molecule in catabolism of haemoglobin in the process of bilirubin metabolism.
+
+Source: Wikipedia http://en.wikipedia.org/wiki/Heme</Comment>
+  <BiopaxRef>c4d</BiopaxRef>
+  <Graphics BoardWidth="825.0546218487395" BoardHeight="815.8151260504202"/>
+  <DataNode TextLabel="protoporphyrinogen IX" GraphId="a5906" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="delta-aminolevulinate" GraphId="dd8" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="delta-aminolevulinate" GraphId="e69" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="ALAS2" GraphId="a6e" Type="GeneProduct" GroupRef="a5999">
+        </DataNode>
+  <DataNode TextLabel="O2" GraphId="a9b4a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="porphobilinogen" GraphId="ad4" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NH3" GraphId="ae090" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="H+" GraphId="b7f31" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="H2O2" GraphId="b813b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="O2" GraphId="c0252" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FECH" GraphId="c3a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CoA" GraphId="c8776" Type="Metabolite" GroupRef="ce75f">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PPOX" GraphId="ca1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="uroporphyrinogen III" GraphId="cae" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CO2" GraphId="cd108" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="succinyl-CoA" GraphId="d6e60" Type="Metabolite" GroupRef="a8777">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CPOX" GraphId="d76" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Glycine" GraphId="d77b3" Type="Metabolite" GroupRef="a8777">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="H2O" GraphId="d789f" Type="Metabolite">
+    <Comment>Type your comment here</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="HMBS" GraphId="d81" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="coproporphyrinogen III" GraphId="d92" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Porphobilinogen" GraphId="da9f5" Type="Metabolite" GroupRef="f0d04">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="hydroxymethylbilane" GraphId="db0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CO2" GraphId="dc8bb" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ALAS1" GraphId="dd6" Type="GeneProduct" GroupRef="a5999">
+        </DataNode>
+  <DataNode TextLabel="ALAD" GraphId="de3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="H2O" GraphId="dfd99" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UROS" GraphId="e16" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Fe2+" GraphId="ee779" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="H2O" GraphId="efc67" Type="Metabolite" GroupRef="f0d04">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="protoheme" GraphId="f4c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CO2" GraphId="f73dc" Type="Metabolite" GroupRef="ce75f">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="protoporphyrin IX" GraphId="fb1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UROD" GraphId="fe4" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="a0113">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="ee779"/>
+      <Point GraphRef="ac767"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a2adf">
+    <Graphics ConnectorType="Curved" Color="ff0000">
+      <Point GraphRef="f2969"/>
+      <Point/>
+      <Point GraphRef="d789f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a383f">
+    <Graphics ConnectorType="Curved" Color="ff0000">
+      <Point GraphRef="def10"/>
+      <Point/>
+      <Point GraphRef="b813b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6b7b">
+    <Graphics>
+      <Point GraphRef="fb1"/>
+      <Point GraphRef="f4c" ArrowHead="Arrow"/>
+      <Anchor Position="0.23893805309734514" Shape="None" GraphId="ac767"/>
+      <Anchor Position="0.6504424778761062" Shape="None" GraphId="e2404"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e561f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a7a61">
+    <Graphics>
+      <Point GraphRef="d103a"/>
+      <Point GraphRef="dd8" ArrowHead="Arrow"/>
+      <Anchor Position="0.44958496224878525" Shape="None" GraphId="d232f"/>
+      <Anchor Position="0.5681818181818182" Shape="None" GraphId="f790b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a86f8">
+    <Graphics ConnectorType="Curved" Color="ff0000">
+      <Point GraphRef="e2404"/>
+      <Point/>
+      <Point GraphRef="b7f31" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ab3e9">
+    <Graphics ConnectorType="Curved" Color="ff0000">
+      <Point GraphRef="b86b9"/>
+      <Point/>
+      <Point GraphRef="dc8bb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ada86">
+    <Graphics ConnectorType="Curved" Color="ff0000">
+      <Point GraphRef="f790b"/>
+      <Point/>
+      <Point GraphRef="b51ed" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b0495">
+    <Graphics>
+      <Point GraphRef="cae"/>
+      <Point GraphRef="d92" ArrowHead="Arrow"/>
+      <Anchor Position="0.6294675663036944" Shape="None" GraphId="cf333"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f4405"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bacc2">
+    <Graphics>
+      <Point GraphRef="ad4"/>
+      <Point GraphRef="db0" ArrowHead="Arrow"/>
+      <Anchor Position="0.3453815261044177" Shape="None" GraphId="cedb2"/>
+      <Anchor Position="0.6853087990603894" Shape="None" GraphId="e2782"/>
+      <Anchor Position="0.4865811882157188" Shape="None" GraphId="a0d08"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bcfc0">
+    <Graphics ConnectorType="Curved" Color="ff0000">
+      <Point GraphRef="e2782"/>
+      <Point/>
+      <Point GraphRef="ae090" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c00a3">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="aab29"/>
+      <Point/>
+      <Point GraphRef="cedb2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cc7d5">
+    <Graphics ConnectorType="Curved" Color="ff0000">
+      <Point GraphRef="cf333"/>
+      <Point/>
+      <Point GraphRef="cd108" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d3bbc">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="a9b4a"/>
+      <Point/>
+      <Point GraphRef="ff867"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d64e8">
+    <Graphics>
+      <Point GraphRef="dd8"/>
+      <Point GraphRef="ad4" ArrowHead="Arrow"/>
+      <Anchor Position="0.27303117968498875" Shape="None" GraphId="dde29"/>
+      <Anchor Position="0.5229829636772745" Shape="None" GraphId="cbee4"/>
+      <Anchor Position="0.6896174863387976" Shape="None" GraphId="f2969"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d73d0">
+    <Graphics>
+      <Point GraphRef="e16"/>
+      <Point GraphRef="a3fb8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dc8e0">
+    <Graphics>
+      <Point GraphRef="d6a95"/>
+      <Point GraphRef="d232f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ddd8c">
+    <Graphics>
+      <Point GraphRef="d76"/>
+      <Point GraphRef="dce16" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="def97">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e69"/>
+      <Point/>
+      <Point GraphRef="dde29"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e2071">
+    <Graphics>
+      <Point GraphRef="a5906"/>
+      <Point GraphRef="fb1" ArrowHead="Arrow"/>
+      <Anchor Position="0.2638888888888889" Shape="None" GraphId="ff867"/>
+      <Anchor Position="0.7222222222222222" Shape="None" GraphId="def10"/>
+      <Anchor Position="0.5001607200257155" Shape="None" GraphId="d2208"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e2bdd">
+    <Graphics>
+      <Point GraphRef="de3"/>
+      <Point GraphRef="cbee4" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e30ff">
+    <Graphics>
+      <Point GraphRef="c3a"/>
+      <Point GraphRef="e561f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e4a2e">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c0252"/>
+      <Point/>
+      <Point GraphRef="a7930"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e81fa">
+    <Graphics>
+      <Point GraphRef="d92"/>
+      <Point GraphRef="a5906" ArrowHead="Arrow"/>
+      <Anchor Position="0.3108108108108108" Shape="None" GraphId="a7930"/>
+      <Anchor Position="0.7162162162162162" Shape="None" GraphId="b86b9"/>
+      <Anchor Position="0.47297297297297297" Shape="None" GraphId="dce16"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eb348">
+    <Graphics>
+      <Point GraphRef="db0"/>
+      <Point GraphRef="cae" ArrowHead="Arrow"/>
+      <Anchor Position="0.5724137931034483" Shape="None" GraphId="bbc6e"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a3fb8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ee591">
+    <Graphics>
+      <Point GraphRef="d81"/>
+      <Point GraphRef="a0d08" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eead2">
+    <Graphics>
+      <Point GraphRef="ca1"/>
+      <Point GraphRef="d2208" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f55f1">
+    <Graphics>
+      <Point GraphRef="fe4"/>
+      <Point GraphRef="f4405" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa447">
+    <Graphics ConnectorType="Curved" Color="ff0000">
+      <Point GraphRef="bbc6e"/>
+      <Point/>
+      <Point GraphRef="dfd99" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Black - reactants" GraphId="a73">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="rate limiting step" GraphId="dbf">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Red - side products" GraphId="fd6">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Group GroupId="f0d04" GraphId="aab29"/>
+  <Group GroupId="ce75f" GraphId="b51ed"/>
+  <Group GroupId="a8777" GraphId="d103a" Style="Group"/>
+  <Group GroupId="a5999" GraphId="d6a95"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >heme biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000218</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >bone marrow cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0002092</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c4d">
+      <bp:ID >1451437</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Heme biosynthesis pathway regulation in a model of hepatocarcinogenesis pre-initiation.</bp:TITLE>
+      <bp:SOURCE >Comp Biochem Physiol B</bp:SOURCE>
+      <bp:YEAR >1992</bp:YEAR>
+      <bp:AUTHORS >Polo CF</bp:AUTHORS>
+      <bp:AUTHORS >Vazquez ES</bp:AUTHORS>
+      <bp:AUTHORS >Caballero F</bp:AUTHORS>
+      <bp:AUTHORS >Gerez E</bp:AUTHORS>
+      <bp:AUTHORS >Battle AM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >hematopoietic cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000988</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

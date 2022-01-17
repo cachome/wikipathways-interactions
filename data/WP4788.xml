@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Autosomal recessive osteopetrosis pathways" Version="20200120" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Taken from Osteopetrosis: genetics, treatment and new insights into osteoclast function by Cristina Sobacchi, Ansgar Schulz, Fraser P. Coxon, Anna Villa and Miep H. Helfrich [https://www.ncbi.nlm.nih.gov/pubmed/23877423].
+
+The osteopetroses are genetic diseases characterized by increased bone mass and density due to a failure in bone resorption. Two major forms can be distinguished on the basis of their mode of inheritance: autosomal dominant osteopetrosis (ADO, formerly known as Albers-Sch&#246;nberg disease), is usually considered an adult-onset, more benign form (and has been comprehensively reviewed elsewhere); whereas autosomal recessive osteopetrosis (ARO), also termed malignant infantile osteopetrosis, presents soon after birth, is often severe and leads to death if left untreated.
+
+Mechanisms underlying osteoclast-&#8209;rich ARO:
+Ruffled border formation and bone resorption by osteoclasts are dependent on secretory lysosome trafficking. Genes implicated in osteoclast-&#8209;rich autosomal recessive osteopetrosis encode proteins that localize to secretory lysosomes in osteoclasts. TCIRG1 encodes the a3 subunit of the V0 complex, part of the V&#8209;ATPase proton pump that acidifies endosomes and lysosomes; CLCN7 encodes ClC&#8209;7, the Cl&#8211; antiporter responsible for increasing lumenal Cl&#8211; concentration; OSTM1 encodes the &#946;&#8209;subunit of CIC&#8209;7; PLEKHM1 encodes a cytosolic protein that binds to the active (GTP-&#8209;bound) form of Rab7, which is associated with late endosomes and lysosomes; and SNX10 encodes sorting nexin 10, which localizes to endosomes via a phosphoinositide-&#8209;binding PX domain. This domain also interacts with the V1 complex D subunit of V&#8209;ATPase, raising the possibility that SNX10 is involved in trafficking of V&#8209;ATPase. ARO-&#8209;causing mutations in all five genes disrupt trafficking of secretory lysosomes, thereby impairing ruffled-&#8209;border formation and bone resorption. Osteoclast formation and adhesion to bone through the sealing zone are unaffected.
+
+Mechanisms underlying osteoclast-&#8209;poor ARO:
+Osteoclastogenesis is dependent on the RANK signalling pathway. In normal osteoclasts, binding of RANKL recruits TRAF6, which releases NF&#954;B from its phosphorylated inhibitor I&#954;B. NF&#954;B translocates to the nucleus and regulates transcription of key osteoclast genes. Osteopetrosis-&#8209;causing mutations in TNFRSF11A (which encodes RANK) either reduce protein expression at the plasma membrane  or impair RANKL binding, which leads to the loss of NF&#954;B signalling and prevents differentiation and fusion of osteoclast precursors. Similarly, osteoclast differentiation defects are seen if osteopetrosis-&#8209;causing mutations in TNFSF11 (which encodes RANKL) are present. Mutations identified so far lead to reduced RANKL trimerization or impaired RANK binding. Osteoclast formation studies in vitro reveal these two distinct osteoclast-&#8209;poor forms of ARO: those in which osteoclastogenesis cannot be induced by synthetic RANKL (TNFRSF11A-&#8209;related ARO) and those in which osteoclastogenesis can be induced by synthetic RANKL, resulting in osteoclasts that function normally (TNFSF11-&#8209;related ARO). 
+
+Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutation in the respective gene.</Comment>
+  <BiopaxRef>bef</BiopaxRef>
+  <Graphics BoardWidth="1800" BoardHeight="900"/>
+  <DataNode TextLabel="H+" GraphId="a6803" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TRAF6" GraphId="aa089" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="aa480" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TNFRSF11A" GraphId="abe79" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Cl-" GraphId="addfb" Type="Metabolite" GroupRef="f8f5c">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SNX10" GraphId="c3cfe" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IKBKB" GraphId="c59f3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PLEKHM1" GraphId="cda25" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="OSTM1" GraphId="cec9f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TNFSF11" GraphId="e034a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RAB7A" GraphId="e2f77" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CLCN7" GraphId="f7d8b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TCIRG1" GraphId="fa363" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="H+" GraphId="db3de" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="H+" GraphId="a7478" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cl-" GraphId="c6f62" Type="Metabolite" GroupRef="bc7c6">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cl-" GraphId="a92f2" Type="Metabolite" GroupRef="bc7c6">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cl-" GraphId="f6c55" Type="Metabolite" GroupRef="f8f5c">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="H+" GraphId="cff5d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="id1525bbdb">
+    <Graphics>
+      <Point GraphRef="cff5d"/>
+      <Point GraphRef="a7478" ArrowHead="mim-translocation"/>
+      <Anchor Position="0.46653038935549834" Shape="None" GraphId="d0c9a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1e2db4ed">
+    <Graphics>
+      <Point GraphRef="cec9f"/>
+      <Point GraphRef="d0c9a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id220af52a">
+    <Graphics>
+      <Point GraphRef="abe79"/>
+      <Point GraphRef="aa089" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id39f53c5c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="aa480"/>
+      <Point/>
+      <Point GraphRef="b9eab" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id534c15b6">
+    <Graphics>
+      <Point GraphRef="fa363"/>
+      <Point GraphRef="c2daa" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id66b704a5">
+    <Graphics>
+      <Point GraphRef="cda25"/>
+      <Point GraphRef="e2f77" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7a00b39d">
+    <Graphics>
+      <Point GraphRef="aa089"/>
+      <Point GraphRef="d8934" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id915d0542">
+    <Graphics>
+      <Point GraphRef="e99da"/>
+      <Point GraphRef="e923a" ArrowHead="mim-translocation"/>
+      <Anchor Position="0.5366744534154321" Shape="None" GraphId="fe4cb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaad39b1f">
+    <Graphics>
+      <Point GraphRef="f7d8b"/>
+      <Point GraphRef="fe4cb" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd8e74b14">
+    <Graphics>
+      <Point GraphRef="a6803"/>
+      <Point GraphRef="db3de" ArrowHead="mim-translocation"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c2daa"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf36c00e1">
+    <Graphics>
+      <Point GraphRef="e034a"/>
+      <Point GraphRef="abe79" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf85cf360">
+    <Graphics>
+      <Point GraphRef="c59f3"/>
+      <Point GraphRef="aa480" ArrowHead="mim-inhibition"/>
+      <Anchor Position="0.4703813402443541" Shape="None" GraphId="d8934"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="idd20fec3f">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="f7d8b"/>
+      <Point GraphRef="a2fa9" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c03a0">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="cec9f"/>
+      <Point GraphRef="aacf7" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b0a12">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="c3cfe"/>
+      <Point GraphRef="ce419" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a540c">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="cda25"/>
+      <Point GraphRef="f7860" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d6f4b">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="fa363"/>
+      <Point GraphRef="f5cc1" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c2950">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e034a"/>
+      <Point GraphRef="d2cb7" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="db0f2">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="abe79"/>
+      <Point/>
+      <Point GraphRef="c0455" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Regulates transcription&#10;of key osteoclast genes" GraphId="b9eab">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Osteoblast-rich ARO" GraphId="f1e4f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Osteoblast-poor ARO" GraphId="ce51c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="OMIM:174810&#10;Familial Expansile Osteolysis" GraphId="ab25a" Href="https://omim.org/entry/174810" GroupRef="b82a6">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:259710&#10;Osteopetrosis, Autosomal Recessive 2" Href="https://omim.org/entry/259710" GroupRef="a6edf">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:615085&#10;Osteopetrosis, Autosomal Recessive 8" GraphId="ce419" Href="https://omim.org/entry/615085">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:259720&#10;Osteopetrosis, Autosomal Recessive 5" GraphId="aacf7" Href="https://omim.org/entry/259720">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:611490&#10;Osteopetrosis,  Autosomal Recessive 4" Href="https://omim.org/entry/611490" GroupRef="a6edf">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:612301&#10;Osteopetrosis, Autosomal Recessive 7" Href="https://omim.org/entry/612301" GroupRef="b82a6">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:224300&#10;Dysosteosclerosis" Href="https://omim.org/entry/224300" GroupRef="b82a6">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:259710&#10;Osteopetrosis, Autosomal Recessive 2" GraphId="d2cb7" Href="https://omim.org/entry/259710">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:259700&#10;Osteopetrosis, Autosomal Recessive 1" GraphId="f5cc1" Href="https://omim.org/entry/259700">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:611497&#10;Osteopetrosis, Autosomal Recessive 6" GraphId="f7860" Href="https://omim.org/entry/611497">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:166600&#10;Osteopetrosis, Autosomal Dominant 2" GraphId="c4615" Href="https://omim.org/entry/166600" GroupRef="a6edf">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Shape TextLabel="Nucleus" GraphId="b65fb">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Osteoclast" GraphId="cce30">
+    <Graphics Align="Left" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Secretory lysosome" GraphId="cd73a">
+    <Graphics Align="Right" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="a6edf" GraphId="a2fa9" Style="Group"/>
+  <Group GroupId="b82a6" GraphId="c0455" Style="Group"/>
+  <Group GroupId="f8f5c" GraphId="e923a" Style="Group"/>
+  <Group GroupId="bc7c6" GraphId="e99da" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bef">
+      <bp:ID >23877423</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Osteopetrosis: genetics, treatment and new insights into osteoclast function.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Endocrinol</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Sobacchi C</bp:AUTHORS>
+      <bp:AUTHORS >Schulz A</bp:AUTHORS>
+      <bp:AUTHORS >Coxon FP</bp:AUTHORS>
+      <bp:AUTHORS >Villa A</bp:AUTHORS>
+      <bp:AUTHORS >Helfrich MH</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>autosomal recessive osteopetrosis 1</bp:TERM><bp:ID>DOID:0110942</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>autosomal recessive osteopetrosis 2</bp:TERM><bp:ID>DOID:0110943</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>autosomal recessive osteopetrosis 3</bp:TERM><bp:ID>DOID:0110941</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>autosomal recessive osteopetrosis 4</bp:TERM><bp:ID>DOID:0110944</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>autosomal recessive osteopetrosis 5</bp:TERM><bp:ID>DOID:0110939</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>autosomal recessive osteopetrosis 6</bp:TERM><bp:ID>DOID:0110945</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>autosomal recessive osteopetrosis 7</bp:TERM><bp:ID>DOID:0110946</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>autosomal recessive osteopetrosis 8</bp:TERM><bp:ID>DOID:0110940</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>signaling pathway</bp:TERM><bp:ID>PW:0000003</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Hypoxia-mediated EMT and stemness" Version="20150603" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Model of hypoxia mediated EMT and stemness.</Comment>
+  <BiopaxRef>aea</BiopaxRef>
+  <Graphics BoardWidth="646.6666666666673" BoardHeight="485.33333333333223"/>
+  <DataNode TextLabel="DICER1" GraphId="a5e3d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="hsa-miR-200a-3p" GraphId="e8574" Type="Rna" GroupRef="e8455">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-miR-200b-3p" GraphId="d0147" Type="Rna" GroupRef="e8455">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-miR-200c-3p" GraphId="c13ed" Type="Rna" GroupRef="e8455">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="ZEB1" GraphId="d0b22" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id3fdb2042">
+    <Graphics>
+      <Point GraphRef="aaa80"/>
+      <Point GraphRef="e9cdc" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ee3a0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id285ee7f2">
+    <Graphics>
+      <Point GraphRef="aba38"/>
+      <Point GraphRef="a5e3d" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id67b13f5d">
+    <Graphics>
+      <Point GraphRef="a5e3d"/>
+      <Point GraphRef="ee3a0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7136e97e">
+    <Graphics>
+      <Point GraphRef="d3b0f"/>
+      <Point GraphRef="d0b22" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id604fcd2c">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d0b22"/>
+      <Point GraphRef="f052c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Hypoxia" GraphId="aba38">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Epithelial-Mesenchymal Transition (EMT) / Stemness" GraphId="f052c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Pre-miRNA" GraphId="aaa80">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Mature miRNA" GraphId="e9cdc" GroupRef="e8455">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Group GroupId="e8455" GraphId="d3b0f" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aea">
+      <bp:ID >25351418</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Hypoxia promotes stem cell phenotypes and poor prognosis through epigenetic regulation of DICER.</bp:TITLE>
+      <bp:SOURCE >Nat Commun</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >van den Beucken T</bp:AUTHORS>
+      <bp:AUTHORS >Koch E</bp:AUTHORS>
+      <bp:AUTHORS >Chu K</bp:AUTHORS>
+      <bp:AUTHORS >Rupaimoole R</bp:AUTHORS>
+      <bp:AUTHORS >Prickaerts P</bp:AUTHORS>
+      <bp:AUTHORS >Adriaens M</bp:AUTHORS>
+      <bp:AUTHORS >Voncken JW</bp:AUTHORS>
+      <bp:AUTHORS >Harris AL</bp:AUTHORS>
+      <bp:AUTHORS >Buffa FM</bp:AUTHORS>
+      <bp:AUTHORS >Haider S</bp:AUTHORS>
+      <bp:AUTHORS >Starmans MH</bp:AUTHORS>
+      <bp:AUTHORS >Yao CQ</bp:AUTHORS>
+      <bp:AUTHORS >Ivan M</bp:AUTHORS>
+      <bp:AUTHORS >Ivan C</bp:AUTHORS>
+      <bp:AUTHORS >Pecot CV</bp:AUTHORS>
+      <bp:AUTHORS >Boutros PC</bp:AUTHORS>
+      <bp:AUTHORS >Sood AK</bp:AUTHORS>
+      <bp:AUTHORS >Koritzinsky M</bp:AUTHORS>
+      <bp:AUTHORS >Wouters BG</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>regulatory pathway</bp:TERM><bp:ID>PW:0000004</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

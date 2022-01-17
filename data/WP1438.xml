@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Influenza A virus infection" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The Influenza A virus infection pathway provides an overview of the key steps in the infection including virus assembly and release and viral transcription and replication.</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <Graphics BoardWidth="850.0" BoardHeight="767.0"/>
+  <DataNode TextLabel="matrix protein 1" GraphId="a2656" Type="GeneProduct" GroupRef="a0c46">
+        </DataNode>
+  <DataNode TextLabel="PB1-F2 protein" GraphId="a59c3" Type="GeneProduct" GroupRef="a0c46">
+        </DataNode>
+  <DataNode TextLabel="neuraminidase" GraphId="a84e3" Type="GeneProduct" GroupRef="a0c46">
+        </DataNode>
+  <DataNode TextLabel="haemagglutinin " GraphId="b421e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BCL2" GraphId="b804b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Glutathione" GraphId="b8f5b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NP" GraphId="bff43" Type="GeneProduct" GroupRef="db9b4">
+        </DataNode>
+  <DataNode TextLabel="NS1" GraphId="c8013" Type="GeneProduct" GroupRef="a0c46">
+        </DataNode>
+  <DataNode TextLabel="polymerase 1" GraphId="c95e3" Type="GeneProduct" GroupRef="a0c46">
+        </DataNode>
+  <DataNode TextLabel="PB2" GraphId="ce79f" Type="GeneProduct" GroupRef="db9b4">
+        </DataNode>
+  <DataNode TextLabel="PB2" GraphId="d374b" Type="GeneProduct" GroupRef="a0c46">
+        </DataNode>
+  <DataNode TextLabel="NS2" GraphId="db55d" Type="GeneProduct" GroupRef="a0c46">
+        </DataNode>
+  <DataNode TextLabel="nucleocapsid protein" GraphId="dc619" Type="GeneProduct" GroupRef="a0c46">
+        </DataNode>
+  <DataNode TextLabel="PB1" GraphId="e15c6" Type="GeneProduct" GroupRef="db9b4">
+        </DataNode>
+  <DataNode TextLabel="MIR34C" GraphId="e36c8" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="N-Acetylneuraminic acid" GraphId="ebff7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="haemagglutinin " GraphId="f0c1f" Type="GeneProduct" GroupRef="a0c46">
+        </DataNode>
+  <DataNode TextLabel="PA" GraphId="f6421" Type="GeneProduct" GroupRef="db9b4">
+        </DataNode>
+  <DataNode TextLabel="matrix protein 2" GraphId="f83bc" Type="GeneProduct" GroupRef="a0c46">
+        </DataNode>
+  <DataNode TextLabel="vRNPs" GraphId="f9487" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PA" GraphId="fa294" Type="GeneProduct" GroupRef="a0c46">
+        </DataNode>
+  <Interaction GraphId="id10940e34">
+    <Graphics>
+      <Point GraphRef="aee9f"/>
+      <Point GraphRef="e708e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2ad9cb40">
+    <BiopaxRef>f27</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e36c8"/>
+      <Point GraphRef="b804b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5513b39d">
+    <Graphics>
+      <Point GraphRef="fa957"/>
+      <Point GraphRef="e7dc8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6043f424">
+    <Graphics>
+      <Point GraphRef="bccdb"/>
+      <Point GraphRef="aee9f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7569d541">
+    <Graphics>
+      <Point GraphRef="e7dc8"/>
+      <Point GraphRef="aee9f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id942c98a8">
+    <Graphics>
+      <Point GraphRef="bc404"/>
+      <Point GraphRef="fa957" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id976f8730">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b804b"/>
+      <Point GraphRef="c6318" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9c3ee376">
+    <Graphics>
+      <Point GraphRef="b8f5b"/>
+      <Point GraphRef="a2803" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9c966022">
+    <Graphics>
+      <Point GraphRef="a2803"/>
+      <Point GraphRef="bc404" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idae1f2f94">
+    <Graphics>
+      <Point GraphRef="a999f"/>
+      <Point GraphRef="bc404" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd06b26af">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a2803"/>
+      <Point GraphRef="a999f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide7f80473">
+    <Graphics>
+      <Point GraphRef="a89f1"/>
+      <Point GraphRef="bc404" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idec44d2dc">
+    <Graphics>
+      <Point GraphRef="b804b"/>
+      <Point GraphRef="a999f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf919ddd">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b8f5b"/>
+      <Point GraphRef="c6318" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="a12c8">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ae225">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="e91e1"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b008e">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ba036">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="e91e1"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ba699">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ba716">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ccae1">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cf0b3">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cfb59">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="e708e"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d0e07">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="e91e1"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d4ddf">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d5ccd">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="da47f">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="daf1a">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e6881">
+    <Graphics>
+      <Point GraphRef="e91e1"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ea050">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="e91e1"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f4e4c" GroupRef="f6928">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="e74e1"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f5d36">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f72d5">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fc65f">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="e91e1"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fdc4c">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="e708e"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f10f6" GroupRef="f6928">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="e74e1"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d3fb6" GroupRef="f6928">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="e74e1"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b805e" GroupRef="f6928">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="e74e1"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c1675" GroupRef="f6928">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="e74e1"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ec301" GroupRef="f6928">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="e74e1"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a7e8d" GroupRef="f6928">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="e74e1"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d9464" GroupRef="f6928">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="e74e1"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d3e02" GroupRef="cd3f0">
+    <Graphics>
+      <Point GraphRef="d7f3f"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b863e" GroupRef="cd3f0">
+    <Graphics>
+      <Point GraphRef="d7f3f"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ba12b" GroupRef="cd3f0">
+    <Graphics>
+      <Point GraphRef="d7f3f"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e53cc" GroupRef="cd3f0">
+    <Graphics>
+      <Point GraphRef="d7f3f"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a4fd9" GroupRef="cd3f0">
+    <Graphics>
+      <Point GraphRef="d7f3f"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b8dcf" GroupRef="cd3f0">
+    <Graphics>
+      <Point GraphRef="d7f3f"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d9c2d" GroupRef="cd3f0">
+    <Graphics>
+      <Point GraphRef="d7f3f"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d46f8" GroupRef="cd3f0">
+    <Graphics>
+      <Point GraphRef="d7f3f"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bf1d0" GroupRef="cd3f0">
+    <Graphics>
+      <Point GraphRef="d7f3f"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="expression of late viral protein&#10;" GraphId="a2803">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="vRNP translocation" GraphId="a999f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="(-)" GraphId="b128e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="H+" GraphId="b1318">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Influenza A virus" GraphId="ba1f6" GroupRef="a0c46">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Pathway: Viral Transcription and Replication" GraphId="bc404">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="(-)" GraphId="bcf44">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="(-)" GraphId="c4184">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="vRNPs" GraphId="c507c" GroupRef="db9b4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="mRNA export" GraphId="c6318">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Influenza A virus" GraphId="dbbd2" GroupRef="f6928">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleus&#10;" GraphId="f1d29">
+    <Graphics FillColor="ffffff" Color="666666"/>
+  </Label>
+  <Label TextLabel="(-)" GraphId="f3aab">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Pathway: Virus Assembly and Release" GraphId="fa957">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cytoplasm&#10;" GraphId="c9ad5">
+    <Graphics FillColor="ffffff" Color="666666"/>
+  </Label>
+  <Label TextLabel="Endosome&#10;" GraphId="e5721">
+    <Graphics FillColor="ffffff" Color="666666"/>
+  </Label>
+  <Label TextLabel="Influenza A virus" GraphId="ae157" GroupRef="cd3f0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="a7461">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="a89f1">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="aee9f">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e708e">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="e74e1" GroupRef="f6928">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e91e1">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ea4e5">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d7f3f" GroupRef="cd3f0">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="cd3f0" GraphId="bccdb" Style="Group"/>
+  <Group GroupId="db9b4" GraphId="dbbfd" Style="Complex"/>
+  <Group GroupId="f6928" GraphId="e7dc8" Style="Group"/>
+  <Group GroupId="a0c46" GraphId="eb78f" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f27">
+      <bp:ID >18803879</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Restoration of tumor suppressor miR-34 inhibits human p53-mutant gastric cancer tumorspheres.</bp:TITLE>
+      <bp:SOURCE >BMC Cancer</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Ji Q</bp:AUTHORS>
+      <bp:AUTHORS >Hao X</bp:AUTHORS>
+      <bp:AUTHORS >Meng Y</bp:AUTHORS>
+      <bp:AUTHORS >Zhang M</bp:AUTHORS>
+      <bp:AUTHORS >Desano J</bp:AUTHORS>
+      <bp:AUTHORS >Fan D</bp:AUTHORS>
+      <bp:AUTHORS >Xu L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >influenza A virus infection pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001054</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>disease pathway</bp:TERM><bp:ID>PW:0000013</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

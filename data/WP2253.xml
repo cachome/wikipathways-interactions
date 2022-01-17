@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Pilocytic astrocytoma" Author="devi" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway shows the relationship between BRAF signalling and the development and behavior of pilocytic astrocytoma (PA), normally induced by MAPK pathway activation. 
+
+BRAF is related in two alternative mechanisms in MAPK activation; first oncogenic fusion between SRGAP3 and RAF1 (highlighted in yellow); second a 3 basepair insertion in BRAF (KIAA1549, again in yellow). 
+
+This pathway is based on Figure 3" An overview of MAPK pathway alterations in PAs" from [https://doi.org/10.1038/onc.2009.73 Jones et al].</Comment>
+  <BiopaxRef>a4c</BiopaxRef>
+  <Graphics BoardWidth="809.673063255153" BoardHeight="628.0"/>
+  <DataNode TextLabel="Regular MAPK &#10;Cascade pathway" GraphId="c142a" Type="Pathway">
+    <Graphics Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="ERK" GraphId="c82b8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOS1" GraphId="d3463" Type="GeneProduct" GroupRef="ff5af">
+        </DataNode>
+  <DataNode TextLabel="GRB2" GraphId="dc7bd" Type="GeneProduct" GroupRef="ff5af">
+        </DataNode>
+  <DataNode TextLabel="RAF1" GraphId="df578" Type="GeneProduct" GroupRef="e11c2">
+        </DataNode>
+  <DataNode TextLabel="MEK" GraphId="e45b8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PTPN11" GraphId="e9996" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NF1" GraphId="f3f73" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RAS:GTP" GraphId="f822f" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="GDP" GraphId="f83c4" Type="Metabolite" GroupRef="c8e77">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="RTK" GraphId="f8fc1" Type="Protein">
+    <Comment>RTKs have to be activated first</Comment>
+        </DataNode>
+  <DataNode TextLabel="BRAF" GraphId="fef72" Type="GeneProduct" GroupRef="e11c2">
+        </DataNode>
+  <DataNode TextLabel="RAS" GraphId="ec569" Type="Protein" GroupRef="c8e77">
+        </DataNode>
+  <Interaction GraphId="id384c1b43">
+    <Graphics>
+      <Point GraphRef="f3f73"/>
+      <Point GraphRef="a8827" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6f06ce26">
+    <Graphics>
+      <Point GraphRef="c82b8"/>
+      <Point GraphRef="a6336" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id72891f69">
+    <Comment>"RTK promotes Ras activation through recruitement of Grb2/Sos complexes" [PMID:17496910]</Comment>
+    <BiopaxRef>de1</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f8fc1"/>
+      <Point GraphRef="ccbf0" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.7668237796900897" Shape="None" GraphId="e6fad"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id796209fa">
+    <Graphics>
+      <Point GraphRef="c9baa"/>
+      <Point GraphRef="f822f" ArrowHead="mim-modification"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ccbf0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id85fe4a68">
+    <Graphics>
+      <Point GraphRef="f822f"/>
+      <Point GraphRef="fa6b3" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9705e63">
+    <Graphics>
+      <Point GraphRef="c82b8"/>
+      <Point GraphRef="f27e8" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbc5bfa27">
+    <Graphics>
+      <Point GraphRef="d076f"/>
+      <Point GraphRef="e6fad" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbd105391">
+    <Graphics>
+      <Point GraphRef="f27e8"/>
+      <Point GraphRef="ace94" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc3b05e2a">
+    <Graphics>
+      <Point GraphRef="fa6b3"/>
+      <Point GraphRef="e45b8" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcafb89a0">
+    <Graphics>
+      <Point GraphRef="a6336"/>
+      <Point GraphRef="ace94" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idedaaa89d">
+    <Graphics>
+      <Point GraphRef="e45b8"/>
+      <Point GraphRef="c82b8" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d5161">
+    <Graphics>
+      <Point GraphRef="f822f"/>
+      <Point GraphRef="c9baa" ArrowHead="mim-modification"/>
+      <Anchor Position="0.0" Shape="None" GraphId="f7fd1"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a8827"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="SRGAP3:RAF1&#10;Fusion protein" GraphId="a478f">
+    <Graphics FillColor="ffff99" ShapeType="Oval" Color="404040"/>
+  </Label>
+  <Label TextLabel="Plasma Membrane" GraphId="ac00f">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="KIAA1549:BRAF&#10;fusion protein" GraphId="af2fa">
+    <Graphics FillColor="ffff99" ShapeType="Oval" Color="404040"/>
+  </Label>
+  <Label TextLabel="RAS in &quot;on&quot; state" GraphId="ea739">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Label TextLabel="RAS in &quot;off&quot; state" GraphId="fc9e7">
+    <Graphics FillColor="ffffff" Color="404040"/>
+  </Label>
+  <Shape TextLabel="&#10;NUCLEUS" GraphId="f20af">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Cytoplasmic &#10;targets" GraphId="a6336">
+    <Graphics ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape TextLabel="Cell growth,&#10;survival,motility" GraphId="ace94">
+    <Graphics ShapeType="Hexagon"/>
+  </Shape>
+  <Shape TextLabel="CYTOPLASAM" GraphId="b0d93">
+    <Graphics Align="Right" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Transcription Factors" GraphId="f27e8">
+    <Graphics ShapeType="Pentagon"/>
+  </Shape>
+  <Group GroupId="c8e77" GraphId="c9baa" Style="Complex"/>
+  <Group GroupId="ff5af" GraphId="d076f" Style="Complex"/>
+  <Group GroupId="e11c2" GraphId="fa6b3" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >mitogen activated protein kinase signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000007</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >pilocytic astrocytoma</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:4851</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >glioma pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000711</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="de1">
+      <bp:ID >17496910</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Integrating signals from RTKs to ERK/MAPK.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >McKay MM</bp:AUTHORS>
+      <bp:AUTHORS >Morrison DK</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >astrocytoma</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:3069</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a4c">
+      <bp:ID >19363522</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Oncogenic RAF1 rearrangement and a novel BRAF mutation as alternatives to KIAA1549:BRAF fusion in activating the MAPK pathway in pilocytic astrocytoma.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Jones DT</bp:AUTHORS>
+      <bp:AUTHORS >Kocialkowski S</bp:AUTHORS>
+      <bp:AUTHORS >Liu L</bp:AUTHORS>
+      <bp:AUTHORS >Pearson DM</bp:AUTHORS>
+      <bp:AUTHORS >Ichimura K</bp:AUTHORS>
+      <bp:AUTHORS >Collins VP</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

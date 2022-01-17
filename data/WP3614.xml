@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Photodynamic therapy-induced HIF-1 survival signaling" Version="20131008" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Photodynamic therapy may induce a hypoxic survival response mediated by HIF-1.
+
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3614 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>d70</BiopaxRef>
+  <BiopaxRef>c11</BiopaxRef>
+  <Graphics BoardWidth="802.8674203494347" BoardHeight="661.7880897726562"/>
+  <DataNode TextLabel="ARNT" GraphId="b7031" Type="GeneProduct" GroupRef="d0b94">
+        </DataNode>
+  <DataNode TextLabel="PFKL" GraphId="aec88" Type="GeneProduct" GroupRef="fa7da">
+        </DataNode>
+  <DataNode TextLabel="SLC16A1" GraphId="e10bc" Type="GeneProduct" GroupRef="fa7da">
+        </DataNode>
+  <DataNode TextLabel="LDHA" GraphId="ae787" Type="GeneProduct" GroupRef="fa7da">
+        </DataNode>
+  <DataNode TextLabel="PDHA1" GraphId="d2670" Type="Protein" GroupRef="fa7da">
+        </DataNode>
+  <DataNode TextLabel="HIF1AN" GraphId="eaa7b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PKM2" GraphId="f3db9" Type="GeneProduct" GroupRef="fa7da">
+        </DataNode>
+  <DataNode TextLabel="PGK1" GraphId="abd1a" Type="GeneProduct" GroupRef="fa7da">
+        </DataNode>
+  <DataNode TextLabel="SLC2A1" GraphId="c27b5" Type="GeneProduct" GroupRef="fa7da">
+        </DataNode>
+  <DataNode TextLabel="EGLN1" GraphId="ad64c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HK1" GraphId="c0d52" Type="GeneProduct" GroupRef="fa7da">
+        </DataNode>
+  <DataNode TextLabel="SLC2A3" GraphId="bfdee" Type="GeneProduct" GroupRef="fa7da">
+        </DataNode>
+  <DataNode TextLabel="HIF1A" GraphId="dc97d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HIF1A" GraphId="b6d72" Type="GeneProduct" GroupRef="d0b94">
+        </DataNode>
+  <DataNode TextLabel="SERPINE1" GraphId="a7684" Type="GeneProduct" GroupRef="f30d6">
+        </DataNode>
+  <DataNode TextLabel="EDN1" GraphId="d8774" Type="GeneProduct" GroupRef="f30d6">
+        </DataNode>
+  <DataNode TextLabel="NOS2" GraphId="d2a7d" Type="GeneProduct" GroupRef="f30d6">
+        </DataNode>
+  <DataNode TextLabel="PTGS2" GraphId="c0d7a" Type="GeneProduct" GroupRef="f30d6">
+        </DataNode>
+  <DataNode TextLabel="ANGPT1" GraphId="da7d9" Type="GeneProduct" GroupRef="f30d6">
+        </DataNode>
+  <DataNode TextLabel="VEGFA" GraphId="aa750" Type="GeneProduct" GroupRef="f30d6">
+        </DataNode>
+  <DataNode TextLabel="IGFBP1" GraphId="b3f19" Type="GeneProduct" GroupRef="cad5d">
+        </DataNode>
+  <DataNode TextLabel="IGFBP2" GraphId="a947a" Type="GeneProduct" GroupRef="cad5d">
+        </DataNode>
+  <DataNode TextLabel="VEGFA" GraphId="e44c3" Type="GeneProduct" GroupRef="cad5d">
+        </DataNode>
+  <DataNode TextLabel="TGFA" GraphId="fa71c" Type="GeneProduct" GroupRef="cad5d">
+        </DataNode>
+  <DataNode TextLabel="TGFB3" GraphId="ba211" Type="GeneProduct" GroupRef="cad5d">
+        </DataNode>
+  <DataNode TextLabel="IGFBP3" GraphId="dcf42" Type="GeneProduct" GroupRef="cad5d">
+        </DataNode>
+  <DataNode TextLabel="TGFB3" GraphId="b3907" Type="GeneProduct" GroupRef="f30d6">
+        </DataNode>
+  <DataNode TextLabel="TGFA" GraphId="f5c95" Type="GeneProduct" GroupRef="f30d6">
+        </DataNode>
+  <DataNode TextLabel="EPO" GraphId="acb5c" Type="GeneProduct" GroupRef="f30d6">
+        </DataNode>
+  <DataNode TextLabel="ANGPT2" GraphId="c6799" Type="GeneProduct" GroupRef="f30d6">
+        </DataNode>
+  <DataNode TextLabel="BIRC5" GraphId="b91ce" Type="GeneProduct" GroupRef="ca32c">
+        </DataNode>
+  <DataNode TextLabel="PTGS2" GraphId="ba314" Type="GeneProduct" GroupRef="ca32c">
+        </DataNode>
+  <DataNode TextLabel="BCL2A1" GraphId="d798f" Type="GeneProduct" GroupRef="ca32c">
+        </DataNode>
+  <DataNode TextLabel="MCL1" GraphId="e6aea" Type="GeneProduct" GroupRef="ca32c">
+        </DataNode>
+  <DataNode TextLabel="BCL2L1" GraphId="b4d88" Type="GeneProduct" GroupRef="ca32c">
+        </DataNode>
+  <DataNode TextLabel="BNIP3" GraphId="d556e" Type="GeneProduct" GroupRef="f9db0">
+        </DataNode>
+  <DataNode TextLabel="BNIP3L" GraphId="ccef3" Type="GeneProduct" GroupRef="f9db0">
+        </DataNode>
+  <DataNode TextLabel="BID" GraphId="e578a" Type="GeneProduct" GroupRef="f9db0">
+        </DataNode>
+  <DataNode TextLabel="PMAIP1" GraphId="fe53b" Type="GeneProduct" GroupRef="f9db0">
+        </DataNode>
+  <DataNode TextLabel="TP53" GraphId="cc180" Type="GeneProduct" GroupRef="f9db0">
+        </DataNode>
+  <DataNode TextLabel="BAX" GraphId="cf9b5" Type="GeneProduct" GroupRef="f9db0">
+        </DataNode>
+  <DataNode TextLabel="BAK1" GraphId="fe756" Type="GeneProduct" GroupRef="f9db0">
+        </DataNode>
+  <Interaction GraphId="id53ae9bbe">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f986b"/>
+      <Point GraphRef="eaa7b" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id86232cd6">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="eaa7b"/>
+      <Point GraphRef="dc97d" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfa401099">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b0e4c" ArrowHead="Arrow"/>
+      <Point GraphRef="d83e2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idabf6117a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d83e2"/>
+      <Point GraphRef="ea0f3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id24174dad">
+    <Graphics>
+      <Point GraphRef="d83e2"/>
+      <Point GraphRef="ee7a4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2a76a8d5">
+    <Graphics>
+      <Point GraphRef="dc97d"/>
+      <Point GraphRef="d83e2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3c4750fe">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d83e2"/>
+      <Point GraphRef="b9ed5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida27970a0">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ad64c"/>
+      <Point GraphRef="dc97d" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7698367c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d83e2"/>
+      <Point GraphRef="bae14" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id65795fb4">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f986b"/>
+      <Point GraphRef="ad64c" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="X" GraphId="c4366">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Survival" GraphId="e03eb" GroupRef="ca32c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ROS / Hypoxia" GraphId="f986b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="X" GraphId="d86ab">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Glycolysis" GraphId="e1ba8" GroupRef="fa7da">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Proliferation" GraphId="e537a" GroupRef="cad5d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Gene &#10;transcription" GraphId="fa73f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Apoptosis&#10;" GraphId="c2031" GroupRef="f9db0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Angiogenesis&#10;" GraphId="f4ed7" GroupRef="f30d6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="d09ad">
+    <Graphics FillColor="ccffff" ShapeType="Oval" Color="009999"/>
+  </Shape>
+  <Shape GraphId="eb4a8">
+    <Graphics ShapeType="RoundedRectangle" Color="006666"/>
+  </Shape>
+  <Group GroupId="ca32c" GraphId="bae14" Style="Group"/>
+  <Group GroupId="cad5d" GraphId="ea0f3" Style="Group"/>
+  <Group GroupId="fa7da" GraphId="ee7a4" Style="Group"/>
+  <Group GroupId="f30d6" GraphId="b0e4c" Style="Group"/>
+  <Group GroupId="f9db0" GraphId="b9ed5" Style="Group"/>
+  <Group GroupId="d0b94" GraphId="d83e2" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c11">
+      <bp:ID >26516076</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Tumor cell survival pathways activated by photodynamic therapy: a molecular basis for pharmacological inhibition strategies.</bp:TITLE>
+      <bp:SOURCE >Cancer Metastasis Rev</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Broekgaarden M</bp:AUTHORS>
+      <bp:AUTHORS >Weijer R</bp:AUTHORS>
+      <bp:AUTHORS >van Gulik TM</bp:AUTHORS>
+      <bp:AUTHORS >Hamblin MR</bp:AUTHORS>
+      <bp:AUTHORS >Heger M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d70">
+      <bp:ID >26705830</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Low-power photodynamic therapy induces survival signaling in perihilar cholangiocarcinoma cells.</bp:TITLE>
+      <bp:SOURCE >BMC Cancer</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Weijer R</bp:AUTHORS>
+      <bp:AUTHORS >Broekgaarden M</bp:AUTHORS>
+      <bp:AUTHORS >van Golen RF</bp:AUTHORS>
+      <bp:AUTHORS >Bulle E</bp:AUTHORS>
+      <bp:AUTHORS >Nieuwenhuis E</bp:AUTHORS>
+      <bp:AUTHORS >Jongejan A</bp:AUTHORS>
+      <bp:AUTHORS >Moerland PD</bp:AUTHORS>
+      <bp:AUTHORS >van Kampen AH</bp:AUTHORS>
+      <bp:AUTHORS >van Gulik TM</bp:AUTHORS>
+      <bp:AUTHORS >Heger M</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>cancer</bp:TERM><bp:ID>DOID:162</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>altered regulatory pathway</bp:TERM><bp:ID>PW:0000263</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

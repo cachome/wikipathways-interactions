@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Familial hyperlipidemia type 3" Version="20210520" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Familial hyperlipidemias are classified according to the Fredrickson classification. Type III is also known is familial dysbetalipoproteinemia. It is mainly linked to an increase of IDL. This is caused by APOE. APOE has multiple types, and is part of LDL, IDL, VLDL and chylomicrons. APOE also binds to LDLR, which is required for normal catabolism of triglycerid-rich proteins. Specifically APOE2 is linked with to IDL and because of this, mutations in APOE2 will lead to dysbetalipoproteinemia. </Comment>
+  <Graphics BoardWidth="1236.4452756938044" BoardHeight="711.7115129098631"/>
+  <DataNode TextLabel="VLDLR" GraphId="d39aa" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="VLDL" GraphId="a6511" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="APOA2" GraphId="cbe11" Type="GeneProduct" GroupRef="ce31d">
+        </DataNode>
+  <DataNode TextLabel="Cholesterol" GraphId="c68ae" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="HDL" GraphId="ba0ef" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="LDL" GraphId="d6717" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Familial dysbetalipoproteinemia" GraphId="fb919">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="APOA4" GraphId="c99af" Type="GeneProduct" GroupRef="ce31d">
+        </DataNode>
+  <DataNode TextLabel="Familial hyperlipidemia" GraphId="d33d9">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Lipoprotein" GraphId="c4aed" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="IDL" GraphId="d7759" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="APOE" GraphId="acaf7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CETP" GraphId="a97d1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LIPC" GraphId="ef11c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="APOA1" GraphId="c565e" Type="GeneProduct" GroupRef="ce31d">
+        </DataNode>
+  <DataNode TextLabel="SCARB1" GraphId="d8c7c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LCAT" GraphId="aed48" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LPL" GraphId="bf3f2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LDLR" GraphId="a3cc3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PLTP" GraphId="d8f64" Type="GeneProduct" GroupRef="ce31d">
+        </DataNode>
+  <DataNode TextLabel="CETP" GraphId="bc88b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LRP1" GraphId="df009" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CETP" GraphId="ad747" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Cholesterol" GraphId="cbf3c" Type="Metabolite" GroupRef="b05b0">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Triglyceride" GraphId="a94ee" Type="Metabolite" GroupRef="b05b0">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Phospholipid" GraphId="a89dd" Type="Metabolite" GroupRef="b05b0">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="idd6b32ab2">
+    <BiopaxRef>fe9</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="acaf7"/>
+      <Point GraphRef="a6511" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5043522a">
+    <Comment>transport</Comment>
+    <BiopaxRef>ff2</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="df009"/>
+      <Point GraphRef="bc143" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3366baaa">
+    <Comment>transport</Comment>
+    <BiopaxRef>e5a</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="a6511"/>
+      <Point/>
+      <Point GraphRef="d39aa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideac42eb3">
+    <BiopaxRef>fe9</BiopaxRef>
+    <BiopaxRef>c0f</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="acaf7"/>
+      <Point GraphRef="a3cc3" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide04fef6f">
+    <BiopaxRef>fe9</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="acaf7"/>
+      <Point GraphRef="d7759" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c82f3">
+    <BiopaxRef>b79</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="aed48"/>
+      <Point GraphRef="ad16d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fada6">
+    <BiopaxRef>f2e</BiopaxRef>
+    <BiopaxRef>b34</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a97d1"/>
+      <Point GraphRef="e1d72" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aa022">
+    <Comment>transport</Comment>
+    <BiopaxRef>e79</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="d8c7c"/>
+      <Point GraphRef="bc143" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a57cf">
+    <BiopaxRef>b79</BiopaxRef>
+    <BiopaxRef>d68</BiopaxRef>
+    <BiopaxRef>c97</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c4aed"/>
+      <Point/>
+      <Point GraphRef="ba0ef" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5097089953272537" Shape="None" GraphId="ef4f1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c2498">
+    <BiopaxRef>f2e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a6511"/>
+      <Point GraphRef="d7759" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e0108"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a78b8">
+    <Comment>transport</Comment>
+    <BiopaxRef>f89</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d7759"/>
+      <Point GraphRef="df009" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bd53f">
+    <BiopaxRef>b79</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c68ae"/>
+      <Point/>
+      <Point GraphRef="ba0ef" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5007888323026902" Shape="None" GraphId="ad16d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dd119">
+    <BiopaxRef>b79</BiopaxRef>
+    <BiopaxRef>d41</BiopaxRef>
+    <BiopaxRef>d68</BiopaxRef>
+    <BiopaxRef>f43</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e10ad"/>
+      <Point GraphRef="ef4f1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c27d8">
+    <BiopaxRef>f2e</BiopaxRef>
+    <BiopaxRef>eef</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bf3f2"/>
+      <Point GraphRef="e0108" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bb41c">
+    <BiopaxRef>f2e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ba0ef"/>
+      <Point GraphRef="d7759" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.47782961620782677" Shape="None" GraphId="e1d72"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d7ded">
+    <Comment>Transport</Comment>
+    <BiopaxRef>ff2</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="a3cc3"/>
+      <Point GraphRef="bc143" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ec09c">
+    <Comment>transport</Comment>
+    <BiopaxRef>f89</BiopaxRef>
+    <BiopaxRef>c81</BiopaxRef>
+    <BiopaxRef>e79</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="ba0ef"/>
+      <Point GraphRef="d8c7c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cda05">
+    <BiopaxRef>f2e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ba0ef"/>
+      <Point GraphRef="a6511" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5024060810356783" Shape="None" GraphId="b83e5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9a18">
+    <Comment>transport</Comment>
+    <BiopaxRef>f89</BiopaxRef>
+    <BiopaxRef>ff2</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d6717"/>
+      <Point GraphRef="a3cc3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e5620">
+    <BiopaxRef>f2e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d7759"/>
+      <Point GraphRef="d6717" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ae037"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d5860">
+    <BiopaxRef>afd</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ef11c"/>
+      <Point GraphRef="ae037" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3030">
+    <Comment>transport</Comment>
+    <BiopaxRef>e5a</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="d39aa"/>
+      <Point GraphRef="bc143" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a2279">
+    <BiopaxRef>f2e</BiopaxRef>
+    <BiopaxRef>b34</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bc88b"/>
+      <Point GraphRef="b83e5" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e3a0d">
+    <BiopaxRef>f2e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d7759"/>
+      <Point GraphRef="ba0ef" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.34587827037097996" Shape="None" GraphId="a44c1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bcfbc">
+    <BiopaxRef>f2e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a6511"/>
+      <Point GraphRef="ba0ef" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.3327218481637752" Shape="None" GraphId="c515a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cc688">
+    <BiopaxRef>f2e</BiopaxRef>
+    <BiopaxRef>b34</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ad747"/>
+      <Point GraphRef="c515a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c2799">
+    <BiopaxRef>f2e</BiopaxRef>
+    <BiopaxRef>b34</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ad747"/>
+      <Point GraphRef="a44c1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f7123">
+    <BiopaxRef>fe9</BiopaxRef>
+    <BiopaxRef>c0f</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="acaf7"/>
+      <Point GraphRef="d6717" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="deb50">
+    <BiopaxRef>c9f</BiopaxRef>
+    <BiopaxRef>c0f</BiopaxRef>
+    <Graphics Color="ff0000">
+      <Point GraphRef="acaf7"/>
+      <Point GraphRef="fb919" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e7e44">
+    <Graphics>
+      <Point GraphRef="d33d9"/>
+      <Point GraphRef="fc112" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="be17a">
+    <Graphics>
+      <Point GraphRef="fc112"/>
+      <Point GraphRef="fb919" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bc6b4">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point GraphRef="c34b9" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c9451">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="a5208" ArrowHead="mim-binding"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c5c02">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="e6c2e" ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e6700">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="f0936" ArrowHead="mim-stimulation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="de3da">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="d55d5" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b4bfa">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point GraphRef="ff33e" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Liver" GraphId="dd661">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Plasma&#10;" GraphId="fd0e0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Type III&#10;" GraphId="fc112">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Transport&#10;" GraphId="c34b9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Binding" GraphId="a5208">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Conversion" GraphId="e6c2e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Gene/protein" GraphId="d68e3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Metabolite" GraphId="ffbb5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Catalysis" GraphId="d55d5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Stimulation" GraphId="f0936">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Mutations" GraphId="ff33e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Legend" GraphId="e85a8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="d9dc8">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="x" GraphId="c474e">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="b9074">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="x" GraphId="f74ad">
+    <Graphics ShapeType="Rectangle" Color="0000ff"/>
+  </Shape>
+  <Group GroupId="b05b0" GraphId="bc143" Style="Group"/>
+  <Group GroupId="ce31d" GraphId="e10ad" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f43">
+      <bp:ID >31462513</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification of ApoA4 as a sphingosine 1-phosphate chaperone in ApoM- and albumin-deficient mice.</bp:TITLE>
+      <bp:SOURCE >J Lipid Res</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Obinata H</bp:AUTHORS>
+      <bp:AUTHORS >Kuo A</bp:AUTHORS>
+      <bp:AUTHORS >Wada Y</bp:AUTHORS>
+      <bp:AUTHORS >Swendeman S</bp:AUTHORS>
+      <bp:AUTHORS >Liu CH</bp:AUTHORS>
+      <bp:AUTHORS >Blaho VA</bp:AUTHORS>
+      <bp:AUTHORS >Nagumo R</bp:AUTHORS>
+      <bp:AUTHORS >Satoh K</bp:AUTHORS>
+      <bp:AUTHORS >Izumi T</bp:AUTHORS>
+      <bp:AUTHORS >Hla T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c72">
+      <bp:ID >22474067</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Constitutive inhibition of plasma CETP by apolipoprotein C1 is blunted indyslipidemic patients with coronary artery disease.</bp:TITLE>
+      <bp:SOURCE >J Lipid Res</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Pillois X</bp:AUTHORS>
+      <bp:AUTHORS >Gautier T</bp:AUTHORS>
+      <bp:AUTHORS >Bouillet B</bp:AUTHORS>
+      <bp:AUTHORS >Pais de Barros JP</bp:AUTHORS>
+      <bp:AUTHORS >Jeannin A</bp:AUTHORS>
+      <bp:AUTHORS >Verg&#195;&#402;&#194;&#168;s B</bp:AUTHORS>
+      <bp:AUTHORS >Bonnet J</bp:AUTHORS>
+      <bp:AUTHORS >Lagrost L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c65">
+      <bp:ID >30249788</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >N-terminal mutation of apoA-I and interaction with ABCA1 reveal mechanisms of nascent HDL biogenesis.</bp:TITLE>
+      <bp:SOURCE >J Lipid Res</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Liu M</bp:AUTHORS>
+      <bp:AUTHORS >Mei X</bp:AUTHORS>
+      <bp:AUTHORS >Herscovitz H</bp:AUTHORS>
+      <bp:AUTHORS >Atkinson D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b34">
+      <bp:ID >23055695</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cholesteryl ester transfer protein inhibitors for dyslipidemia: focus on dalcetrapib.</bp:TITLE>
+      <bp:SOURCE >Drug Des Devel Ther</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Goldberg AS</bp:AUTHORS>
+      <bp:AUTHORS >Hegele RA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c0f">
+      <bp:ID >25328986</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Apolipoprotein E isoforms and lipoprotein metabolism.</bp:TITLE>
+      <bp:SOURCE >IUBMB Life</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Phillips MC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fdd">
+      <bp:ID >29100061</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Apolipoprotein C-II: New findings related to genetics, biochemistry, and role in triglyceride metabolism.</bp:TITLE>
+      <bp:SOURCE >Atherosclerosis</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Wolska A</bp:AUTHORS>
+      <bp:AUTHORS >Dunbar RL</bp:AUTHORS>
+      <bp:AUTHORS >Freeman LA</bp:AUTHORS>
+      <bp:AUTHORS >Ueda M</bp:AUTHORS>
+      <bp:AUTHORS >Amar MJ</bp:AUTHORS>
+      <bp:AUTHORS >Sviridov DO</bp:AUTHORS>
+      <bp:AUTHORS >Remaley AT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eef">
+      <bp:ID >29100061</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Apolipoprotein C-II: New findings related to genetics, biochemistry, and role in triglyceride metabolism.</bp:TITLE>
+      <bp:SOURCE >Atherosclerosis</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Wolska A</bp:AUTHORS>
+      <bp:AUTHORS >Dunbar RL</bp:AUTHORS>
+      <bp:AUTHORS >Freeman LA</bp:AUTHORS>
+      <bp:AUTHORS >Ueda M</bp:AUTHORS>
+      <bp:AUTHORS >Amar MJ</bp:AUTHORS>
+      <bp:AUTHORS >Sviridov DO</bp:AUTHORS>
+      <bp:AUTHORS >Remaley AT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d68">
+      <bp:ID >30249788</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >N-terminal mutation of apoA-I and interaction with ABCA1 reveal mechanisms of nascent HDL biogenesis.</bp:TITLE>
+      <bp:SOURCE >J Lipid Res</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Liu M</bp:AUTHORS>
+      <bp:AUTHORS >Mei X</bp:AUTHORS>
+      <bp:AUTHORS >Herscovitz H</bp:AUTHORS>
+      <bp:AUTHORS >Atkinson D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dd8">
+      <bp:ID >14592533</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of scavenger receptor class B type I (SR-BI) in lipid trafficking. defining the rules for lipid traders.</bp:TITLE>
+      <bp:SOURCE >Int J Biochem Cell Biol</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Rhainds D</bp:AUTHORS>
+      <bp:AUTHORS >Brissette L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b52">
+      <bp:ID >31462513</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification of ApoA4 as a sphingosine 1-phosphate chaperone in ApoM- and albumin-deficient mice.</bp:TITLE>
+      <bp:SOURCE >J Lipid Res</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Obinata H</bp:AUTHORS>
+      <bp:AUTHORS >Kuo A</bp:AUTHORS>
+      <bp:AUTHORS >Wada Y</bp:AUTHORS>
+      <bp:AUTHORS >Swendeman S</bp:AUTHORS>
+      <bp:AUTHORS >Liu CH</bp:AUTHORS>
+      <bp:AUTHORS >Blaho VA</bp:AUTHORS>
+      <bp:AUTHORS >Nagumo R</bp:AUTHORS>
+      <bp:AUTHORS >Satoh K</bp:AUTHORS>
+      <bp:AUTHORS >Izumi T</bp:AUTHORS>
+      <bp:AUTHORS >Hla T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="afd">
+      <bp:ID >24426196</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Association of CETP and LIPC Gene Polymorphisms with HDL and LDL Sub-fraction Levels in a Group of Indian Subjects: A Cross-Sectional Study.</bp:TITLE>
+      <bp:SOURCE >Indian J Clin Biochem</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Todur SP</bp:AUTHORS>
+      <bp:AUTHORS >Ashavaid TF</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e79">
+      <bp:ID >14592533</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of scavenger receptor class B type I (SR-BI) in lipid trafficking. defining the rules for lipid traders.</bp:TITLE>
+      <bp:SOURCE >Int J Biochem Cell Biol</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Rhainds D</bp:AUTHORS>
+      <bp:AUTHORS >Brissette L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >familial hyperlipidemia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:1168</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c9f">
+      <bp:ID >28098593</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Familial dysbetalipoproteinemia: an underdiagnosed lipid disorder.</bp:TITLE>
+      <bp:SOURCE >Curr Opin Endocrinol Diabetes Obes</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Koopal C</bp:AUTHORS>
+      <bp:AUTHORS >Marais AD</bp:AUTHORS>
+      <bp:AUTHORS >Visseren FL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e5a">
+      <bp:ID >29057873</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Macrophage VLDLR mediates obesity-induced insulin resistance with adipose tissue inflammation.</bp:TITLE>
+      <bp:SOURCE >Nat Commun</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Shin KC</bp:AUTHORS>
+      <bp:AUTHORS >Hwang I</bp:AUTHORS>
+      <bp:AUTHORS >Choe SS</bp:AUTHORS>
+      <bp:AUTHORS >Park J</bp:AUTHORS>
+      <bp:AUTHORS >Ji Y</bp:AUTHORS>
+      <bp:AUTHORS >Kim JI</bp:AUTHORS>
+      <bp:AUTHORS >Lee GY</bp:AUTHORS>
+      <bp:AUTHORS >Choi SH</bp:AUTHORS>
+      <bp:AUTHORS >Ching J</bp:AUTHORS>
+      <bp:AUTHORS >Kovalik JP</bp:AUTHORS>
+      <bp:AUTHORS >Kim JB</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b79">
+      <bp:ID >28766509</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >High-density lipoprotein metabolism and reverse cholesterol transport: strategies for raising HDL cholesterol.</bp:TITLE>
+      <bp:SOURCE >Anatol J Cardiol</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Tosheska Trajkovska K</bp:AUTHORS>
+      <bp:AUTHORS >Topuzovska S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fe9">
+      <bp:ID >27457486</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >APOE genotype and stress response - a mini review.</bp:TITLE>
+      <bp:SOURCE >Lipids Health Dis</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Dose J</bp:AUTHORS>
+      <bp:AUTHORS >Huebbe P</bp:AUTHORS>
+      <bp:AUTHORS >Nebel A</bp:AUTHORS>
+      <bp:AUTHORS >Rimbach G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f2e">
+      <bp:ID >26247089</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Introduction to Lipids and Lipoproteins</bp:TITLE>
+      <bp:SOURCE />
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Feingold KR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d41">
+      <bp:ID >32120838</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Association between the&lt;i&gt;APOA2&lt;/i&gt;rs3813627 Single Nucleotide Polymorphism and HDL and APOA1 Levels Through BMI.</bp:TITLE>
+      <bp:SOURCE >Biomedicines</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Boughanem H</bp:AUTHORS>
+      <bp:AUTHORS >Bandera-Merch&#195;&#402;&#194;&#161;n B</bp:AUTHORS>
+      <bp:AUTHORS >Hern&#195;&#402;&#194;&#161;ndez-Alonso P</bp:AUTHORS>
+      <bp:AUTHORS >Moreno-Morales N</bp:AUTHORS>
+      <bp:AUTHORS >Tinahones FJ</bp:AUTHORS>
+      <bp:AUTHORS >Lozano J</bp:AUTHORS>
+      <bp:AUTHORS >Morcillo S</bp:AUTHORS>
+      <bp:AUTHORS >Macias-Gonzalez M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c97">
+      <bp:ID >30333156</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Genetic and secondary causes of severe HDL deficiency and cardiovascular disease.</bp:TITLE>
+      <bp:SOURCE >J Lipid Res</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Geller AS</bp:AUTHORS>
+      <bp:AUTHORS >Polisecki EY</bp:AUTHORS>
+      <bp:AUTHORS >Diffenderfer MR</bp:AUTHORS>
+      <bp:AUTHORS >Asztalos BF</bp:AUTHORS>
+      <bp:AUTHORS >Karathanasis SK</bp:AUTHORS>
+      <bp:AUTHORS >Hegele RA</bp:AUTHORS>
+      <bp:AUTHORS >Schaefer EJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f89">
+      <bp:ID >31676439</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Interleukin 10 promotes macrophage uptake of HDL and LDL bystimulating fluid-phase endocytosis.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta Mol Cell Biol Lipids</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Lucero D</bp:AUTHORS>
+      <bp:AUTHORS >Islam P</bp:AUTHORS>
+      <bp:AUTHORS >Freeman LA</bp:AUTHORS>
+      <bp:AUTHORS >Jin X</bp:AUTHORS>
+      <bp:AUTHORS >Pryor M</bp:AUTHORS>
+      <bp:AUTHORS >Tang J</bp:AUTHORS>
+      <bp:AUTHORS >Kruth HS</bp:AUTHORS>
+      <bp:AUTHORS >Remaley AT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e51">
+      <bp:ID >20301485</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Familial Lipoprotein Lipase Deficiency</bp:TITLE>
+      <bp:SOURCE />
+      <bp:YEAR >1993</bp:YEAR>
+      <bp:AUTHORS >Burnett JR</bp:AUTHORS>
+      <bp:AUTHORS >Hooper AJ</bp:AUTHORS>
+      <bp:AUTHORS >Hegele RA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b37">
+      <bp:ID >30333156</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Genetic and secondary causes of severe HDL deficiency and cardiovascular disease.</bp:TITLE>
+      <bp:SOURCE >J Lipid Res</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Geller AS</bp:AUTHORS>
+      <bp:AUTHORS >Polisecki EY</bp:AUTHORS>
+      <bp:AUTHORS >Diffenderfer MR</bp:AUTHORS>
+      <bp:AUTHORS >Asztalos BF</bp:AUTHORS>
+      <bp:AUTHORS >Karathanasis SK</bp:AUTHORS>
+      <bp:AUTHORS >Hegele RA</bp:AUTHORS>
+      <bp:AUTHORS >Schaefer EJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f4b">
+      <bp:ID >28882953</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >&lt;i&gt;SCARB1&lt;/i&gt;Gene Polymorphisms and HDL Subfractions in Coronary Artery Disease.</bp:TITLE>
+      <bp:SOURCE >In Vivo</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Ayhan H</bp:AUTHORS>
+      <bp:AUTHORS >Gormus U</bp:AUTHORS>
+      <bp:AUTHORS >Isbir S</bp:AUTHORS>
+      <bp:AUTHORS >Yilmaz SG</bp:AUTHORS>
+      <bp:AUTHORS >Isbir T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >hyperlipoproteinemia type III</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:3145</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c81">
+      <bp:ID >28882953</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >&lt;i&gt;SCARB1&lt;/i&gt;Gene Polymorphisms and HDL Subfractions in Coronary Artery Disease.</bp:TITLE>
+      <bp:SOURCE >In Vivo</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Ayhan H</bp:AUTHORS>
+      <bp:AUTHORS >Gormus U</bp:AUTHORS>
+      <bp:AUTHORS >Isbir S</bp:AUTHORS>
+      <bp:AUTHORS >Yilmaz SG</bp:AUTHORS>
+      <bp:AUTHORS >Isbir T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ff2">
+      <bp:ID >22461740</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Low-density lipoprotein receptor (LDLR) family orchestrates cholesterol homeostasis.</bp:TITLE>
+      <bp:SOURCE >Yale J Biol Med</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Go GW</bp:AUTHORS>
+      <bp:AUTHORS >Mani A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d5e">
+      <bp:ID >24426196</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Association of CETP and LIPC Gene Polymorphisms with HDL and LDL Sub-fraction Levels in a Group of Indian Subjects: A Cross-Sectional Study.</bp:TITLE>
+      <bp:SOURCE >Indian J Clin Biochem</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Todur SP</bp:AUTHORS>
+      <bp:AUTHORS >Ashavaid TF</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bab">
+      <bp:ID >28766509</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >High-density lipoprotein metabolism and reverse cholesterol transport: strategies for raising HDL cholesterol.</bp:TITLE>
+      <bp:SOURCE >Anatol J Cardiol</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Tosheska Trajkovska K</bp:AUTHORS>
+      <bp:AUTHORS >Topuzovska S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e47">
+      <bp:ID >30420806</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Sexually Dimorphic Regulation of EET Synthesis and Metabolism: Roles of Estrogen.</bp:TITLE>
+      <bp:SOURCE >Front Pharmacol</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Huang A</bp:AUTHORS>
+      <bp:AUTHORS >Sun D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="edb">
+      <bp:ID >23055695</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cholesteryl ester transfer protein inhibitors for dyslipidemia: focus on dalcetrapib.</bp:TITLE>
+      <bp:SOURCE >Drug Des Devel Ther</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Goldberg AS</bp:AUTHORS>
+      <bp:AUTHORS >Hegele RA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bbc">
+      <bp:ID >32120838</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Association between the&lt;i&gt;APOA2&lt;/i&gt;rs3813627 Single Nucleotide Polymorphism and HDL and APOA1 Levels Through BMI.</bp:TITLE>
+      <bp:SOURCE >Biomedicines</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Boughanem H</bp:AUTHORS>
+      <bp:AUTHORS >Bandera-Merch&#195;&#402;&#194;&#161;n B</bp:AUTHORS>
+      <bp:AUTHORS >Hern&#195;&#402;&#194;&#161;ndez-Alonso P</bp:AUTHORS>
+      <bp:AUTHORS >Moreno-Morales N</bp:AUTHORS>
+      <bp:AUTHORS >Tinahones FJ</bp:AUTHORS>
+      <bp:AUTHORS >Lozano J</bp:AUTHORS>
+      <bp:AUTHORS >Morcillo S</bp:AUTHORS>
+      <bp:AUTHORS >Macias-Gonzalez M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d2a">
+      <bp:ID >22461740</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Low-density lipoprotein receptor (LDLR) family orchestrates cholesterol homeostasis.</bp:TITLE>
+      <bp:SOURCE >Yale J Biol Med</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Go GW</bp:AUTHORS>
+      <bp:AUTHORS >Mani A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cbc">
+      <bp:ID >31676439</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Interleukin 10 promotes macrophage uptake of HDL and LDL by stimulating fluid-phase endocytosis.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta Mol Cell Biol Lipids</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Lucero D</bp:AUTHORS>
+      <bp:AUTHORS >Islam P</bp:AUTHORS>
+      <bp:AUTHORS >Freeman LA</bp:AUTHORS>
+      <bp:AUTHORS >Jin X</bp:AUTHORS>
+      <bp:AUTHORS >Pryor M</bp:AUTHORS>
+      <bp:AUTHORS >Tang J</bp:AUTHORS>
+      <bp:AUTHORS >Kruth HS</bp:AUTHORS>
+      <bp:AUTHORS >Remaley AT</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

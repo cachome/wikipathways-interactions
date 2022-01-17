@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="MicroRNA network associated with chronic lymphocytic leukemia" Version="20181019" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">MicroRNA network associated with Chronic lymphocytic leukemia (CLL). The pink interactions represent effects of deletions/mutations. The mir15/16-p53 feedback circuit was originally described in Fabbri et al. </Comment>
+  <BiopaxRef>ba3</BiopaxRef>
+  <Graphics BoardWidth="1097.0" BoardHeight="466.5"/>
+  <DataNode TextLabel="ZAP70" GraphId="c509f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BCL2" GraphId="f74c6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TP53" GraphId="ba180" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MIR34A" GraphId="e1311" Type="Rna" GroupRef="dc54f">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR34B" GraphId="a91d3" Type="Rna" GroupRef="dc54f">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR34C" GraphId="ab62c" Type="Rna" GroupRef="dc54f">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR15A" GraphId="e6245" Type="GeneProduct" GroupRef="b9067">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR16-1" GraphId="af064" Type="GeneProduct" GroupRef="b9067">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MCL1" GraphId="e54d9" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id36f8ab8c">
+    <Graphics>
+      <Point GraphRef="c75b7"/>
+      <Point GraphRef="c509f" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id75d44810">
+    <Graphics Color="ff0066">
+      <Point GraphRef="b74fa"/>
+      <Point GraphRef="ba180" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8cead32f">
+    <Graphics>
+      <Point GraphRef="e48d0"/>
+      <Point GraphRef="ba180" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida7060f8f">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ba180"/>
+      <Point/>
+      <Point GraphRef="e48d0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaf585fc4">
+    <BiopaxRef>fe3</BiopaxRef>
+    <Graphics Color="ff0066">
+      <Point GraphRef="acfde"/>
+      <Point GraphRef="e48d0" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc114cff9">
+    <Graphics>
+      <Point GraphRef="e48d0"/>
+      <Point GraphRef="f74c6" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcb04114d">
+    <Graphics>
+      <Point GraphRef="ba180"/>
+      <Point GraphRef="c75b7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf7862cab">
+    <BiopaxRef>c63</BiopaxRef>
+    <Graphics Color="ff0066">
+      <Point GraphRef="b8843"/>
+      <Point GraphRef="c75b7" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e9d11">
+    <Graphics>
+      <Point GraphRef="e48d0"/>
+      <Point GraphRef="e54d9" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="dcce5" GroupRef="c47df">
+    <Graphics Color="ff0066">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="del17p" GraphId="b74fa">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Indolent CLL" GraphId="c398b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Effect of deletion/mutation" GraphId="e7bfa" GroupRef="c47df">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="del11q" GraphId="b8843">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="del13q" GraphId="acfde">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Aggressive CLL" GraphId="becd0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape TextLabel="B cell" GraphId="a1e78">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Legend" GraphId="b4f44" GroupRef="c47df">
+    <Graphics Align="Left" ShapeType="Rectangle"/>
+  </Shape>
+  <Group GroupId="c47df" Style="Group"/>
+  <Group GroupId="dc54f" GraphId="c75b7" Style="Group"/>
+  <Group GroupId="b9067" GraphId="e48d0" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba3">
+      <bp:ID >27568792</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MicroRNAs in Chronic Lymphocytic Leukemia: An Old Disease with New Genetic Insights.</bp:TITLE>
+      <bp:SOURCE >Microrna</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Ciccone M</bp:AUTHORS>
+      <bp:AUTHORS >Calin GA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fe3">
+      <bp:ID >21205967</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Association of a microRNA/TP53 feedback circuitry with pathogenesis and outcome of B-cell chronic lymphocytic leukemia.</bp:TITLE>
+      <bp:SOURCE >JAMA</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Fabbri M</bp:AUTHORS>
+      <bp:AUTHORS >Bottoni A</bp:AUTHORS>
+      <bp:AUTHORS >Shimizu M</bp:AUTHORS>
+      <bp:AUTHORS >Spizzo R</bp:AUTHORS>
+      <bp:AUTHORS >Nicoloso MS</bp:AUTHORS>
+      <bp:AUTHORS >Rossi S</bp:AUTHORS>
+      <bp:AUTHORS >Barbarotto E</bp:AUTHORS>
+      <bp:AUTHORS >Cimmino A</bp:AUTHORS>
+      <bp:AUTHORS >Adair B</bp:AUTHORS>
+      <bp:AUTHORS >Wojcik SE</bp:AUTHORS>
+      <bp:AUTHORS >Valeri N</bp:AUTHORS>
+      <bp:AUTHORS >Calore F</bp:AUTHORS>
+      <bp:AUTHORS >Sampath D</bp:AUTHORS>
+      <bp:AUTHORS >Fanini F</bp:AUTHORS>
+      <bp:AUTHORS >Vannini I</bp:AUTHORS>
+      <bp:AUTHORS >Musuraca G</bp:AUTHORS>
+      <bp:AUTHORS >Dell'Aquila M</bp:AUTHORS>
+      <bp:AUTHORS >Alder H</bp:AUTHORS>
+      <bp:AUTHORS >Davuluri RV</bp:AUTHORS>
+      <bp:AUTHORS >Rassenti LZ</bp:AUTHORS>
+      <bp:AUTHORS >Negrini M</bp:AUTHORS>
+      <bp:AUTHORS >Nakamura T</bp:AUTHORS>
+      <bp:AUTHORS >Amadori D</bp:AUTHORS>
+      <bp:AUTHORS >Kay NE</bp:AUTHORS>
+      <bp:AUTHORS >Rai KR</bp:AUTHORS>
+      <bp:AUTHORS >Keating MJ</bp:AUTHORS>
+      <bp:AUTHORS >Kipps TJ</bp:AUTHORS>
+      <bp:AUTHORS >Calin GA</bp:AUTHORS>
+      <bp:AUTHORS >Croce CM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >B cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000236</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >chronic lymphocytic leukemia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:1040</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >altered p53 signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000720</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c63">
+      <bp:ID >17488487</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The 13q and 11q B-cell chronic lymphocytic leukaemia-associated regions derive from a common ancestral region in the zebrafish.</bp:TITLE>
+      <bp:SOURCE >Br J Haematol</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Auer RL</bp:AUTHORS>
+      <bp:AUTHORS >Riaz S</bp:AUTHORS>
+      <bp:AUTHORS >Cotter FE</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

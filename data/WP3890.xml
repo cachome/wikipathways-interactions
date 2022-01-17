@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Nanomaterial-induced inflammasome activation" Version="20160826" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This is a schematic diagram illustrating putative pathways for NAMP (nanomaterial-associated molecular patters)-induced NLRP3 inflammasome activation. Pathogen-associated molecular patterns (PAMPs) eg. lipopolysaccharides (LPS) are recognized by Toll-like receptors (TLRs) on the cell membrane, which leads to NF-&#954;B activation and upregulation of pro-interleukin (IL)-1&#946; and NLRP3 expression. High aspect radio nanomaterials (i.e. long multiwalled carbon nanotubes) are thought to trigger &#8220;frustrated phagocytosis&#8221; in macrophages, leading to NADPH oxidase activation, reactive oxygen species (ROS) generation and inflammasome activation. Smaller nanomaterials (i.e. short carbon nanotubes or silver nanoparticles of 28 nm), on the other hand, could be phagocytosed and once inside the cell induce lysosomal damage leading to release of cathepsins which cause mitochondrial damage and ROS production. In both cases, interaction of phagocytes with NAMPs induces an overproduction of ROS which results in assembly of NLRP3, ASC (apoptosis-associated speck-like protein containing a CARD), and pro-caspase-1 into the multimeric inflammasome complex, resulting in activation of caspase-1, and release of mature IL-1&#946;, a key pro-inflammatory mediator.</Comment>
+  <BiopaxRef>f72</BiopaxRef>
+  <BiopaxRef>d00</BiopaxRef>
+  <Graphics BoardWidth="1260.9145890732102" BoardHeight="822.0195982736805"/>
+  <DataNode TextLabel="IL1B" GraphId="ad754" Type="Rna">
+    <Graphics Color="6600cc"/>
+    </DataNode>
+  <DataNode TextLabel="NLRP3" GraphId="b120d" Type="Protein" GroupRef="d1033">
+        </DataNode>
+  <DataNode TextLabel="CTSB" GraphId="c038a" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="pro-IL-1b" GraphId="c27c4" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="IL1B" GraphId="c904c" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="c947b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ROS" GraphId="d9043" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TLR4" GraphId="e1177" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Potassium" GraphId="e7d9a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CASP1" GraphId="f1d2c" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="pro-CASP1" GraphId="f75d5" Type="Protein" GroupRef="d1033">
+        </DataNode>
+  <DataNode TextLabel="ASC" GraphId="fbb21" Type="GeneProduct" GroupRef="d1033">
+        </DataNode>
+  <DataNode TextLabel="NOX1" GraphId="fcf99" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Potassium" GraphId="f6aef" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="id31e19899">
+    <Graphics>
+      <Point GraphRef="a5af2"/>
+      <Point GraphRef="d9043" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id35e1a91c">
+    <Graphics>
+      <Point GraphRef="f6aef"/>
+      <Point GraphRef="e7d9a" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4908e08e">
+    <Graphics>
+      <Point GraphRef="e1177"/>
+      <Point GraphRef="c947b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5fed56b9">
+    <Graphics>
+      <Point GraphRef="c947b"/>
+      <Point GraphRef="e6b97" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7c59eff">
+    <Graphics>
+      <Point GraphRef="fdfa9"/>
+      <Point GraphRef="d9043" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id81aa4240">
+    <Graphics>
+      <Point GraphRef="fcf99"/>
+      <Point GraphRef="d9043" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8f485b96">
+    <Graphics>
+      <Point GraphRef="c038a"/>
+      <Point GraphRef="a5af2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id95dc76e4">
+    <Graphics>
+      <Point GraphRef="ad754"/>
+      <Point GraphRef="c27c4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id98a10f43">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c947b"/>
+      <Point GraphRef="ad754" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9a1397d8">
+    <Graphics>
+      <Point GraphRef="fec77"/>
+      <Point GraphRef="fcf99" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9a5da6ad">
+    <Graphics>
+      <Point GraphRef="c27c4"/>
+      <Point GraphRef="c904c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b886f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaa1229e0">
+    <Graphics>
+      <Point GraphRef="c87a0"/>
+      <Point GraphRef="e1177" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcf9ce2dc">
+    <Graphics>
+      <Point GraphRef="fdfa9"/>
+      <Point GraphRef="c038a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb8a1656">
+    <Graphics>
+      <Point GraphRef="d9043"/>
+      <Point GraphRef="e6b97" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idedb77a59">
+    <Graphics>
+      <Point GraphRef="e7d9a"/>
+      <Point GraphRef="e6b97" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf30ce855">
+    <Graphics>
+      <Point GraphRef="fec77"/>
+      <Point GraphRef="fdfa9" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf731d80f">
+    <Graphics>
+      <Point GraphRef="f1d2c"/>
+      <Point GraphRef="b886f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf9e9011a">
+    <Graphics>
+      <Point GraphRef="f75d5"/>
+      <Point GraphRef="f1d2c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Inflammasome" GraphId="c4b85">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PAMPs" GraphId="c87a0">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="c9548">
+    <Graphics FillColor="ffffff" Color="666666"/>
+  </Label>
+  <Label TextLabel="Nanomaterial-Associated Molecular Patterns " GraphId="fec77">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="a5af2">
+    <Graphics ShapeType="Mitochondria" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b54fa">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="fafeb">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Lysosome" GraphId="fdfa9">
+    <Comment>Lysosome</Comment>
+    <Comment>Type your comment here</Comment>
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="999999"/>
+  </Shape>
+  <Group GroupId="d1033" GraphId="e6b97" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >xenobiotic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001229</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d00">
+      <bp:ID >25770769</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >It takes two to tango: Understanding the interactions between engineered nanomaterials and the immune system.</bp:TITLE>
+      <bp:SOURCE >Eur J Pharm Biopharm</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Farrera C</bp:AUTHORS>
+      <bp:AUTHORS >Fadeel B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f72">
+      <bp:ID >23751779</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mechanisms of carbon nanotube-induced toxicity: focus on pulmonary inflammation.</bp:TITLE>
+      <bp:SOURCE >Adv Drug Deliv Rev</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Bhattacharya K</bp:AUTHORS>
+      <bp:AUTHORS >And&#243;n FT</bp:AUTHORS>
+      <bp:AUTHORS >El-Sayed R</bp:AUTHORS>
+      <bp:AUTHORS >Fadeel B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >macrophage</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000235</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >regulatory pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000004</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >nanomaterial response pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001435</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >innate immune response pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000234</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

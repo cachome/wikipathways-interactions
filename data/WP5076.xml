@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Soluble ACE2-mediated cell entry of SARS-CoV-2" Version="20210401" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">ACE2 is a regulator of the renin-angiotensin system. To perform this function, ACE2 is transported to the cell surface, where it is cleaved by disintegrin and ADAM17 to produce an enzymatically active soluble form of ACE2. This soluble form retains the SARS-CoV-2 binding site. SARS-CoV-2 bound to either soluble ACE2 or soluble ACE2 and vasopressin then uses receptor-mediated endocytosis by through either AT1 or AVPR1B, respectively. 
+
+This figure is based on the graphical abstract from [https://www.cell.com/cell/fulltext/S0092-8674(21)00283-X Yeung et al.].</Comment>
+  <BiopaxRef>b15</BiopaxRef>
+  <Graphics BoardWidth="1137.0" BoardHeight="691.0"/>
+  <DataNode TextLabel="Vasopressin" GraphId="d63a3" Type="Metabolite" GroupRef="a8fe2">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="sACE2" GraphId="faf44" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ADAM17" GraphId="fc900" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AGTR1" GraphId="fcbf8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AVPR1B" GraphId="b6ae4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ACE2" GraphId="e6ff7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="S1" GraphId="e3dda" Type="Protein" GroupRef="e4ee6">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="S1" GraphId="e6625" Type="Protein" GroupRef="db15d">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="sACE2" GraphId="b70c4" Type="GeneProduct" GroupRef="a8fe2">
+        </DataNode>
+  <DataNode TextLabel="S1" GraphId="e3b14" Type="Protein" GroupRef="a8fe2">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="Vasopressin" GraphId="fec48" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="S1" GraphId="d6ca7" Type="Protein" GroupRef="a81e6">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="sACE2" GraphId="d5a00" Type="GeneProduct" GroupRef="a81e6">
+        </DataNode>
+  <DataNode TextLabel="S1" GraphId="f39b1" Type="Protein" GroupRef="afaab">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="sACE2" GraphId="e16f6" Type="GeneProduct" GroupRef="afaab">
+        </DataNode>
+  <DataNode TextLabel="Vasopressin" GraphId="c696f" Type="Metabolite" GroupRef="e93fe">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="sACE2" GraphId="a86a2" Type="GeneProduct" GroupRef="e93fe">
+        </DataNode>
+  <DataNode TextLabel="S1" GraphId="adc3a" Type="Protein" GroupRef="e93fe">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+    </DataNode>
+  <Interaction GraphId="id5e025fa9" GroupRef="afaab">
+    <Graphics>
+      <Point GraphRef="f3ca4"/>
+      <Point GraphRef="f39b1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5f19df3b" GroupRef="e93fe">
+    <Graphics>
+      <Point GraphRef="af1c2"/>
+      <Point GraphRef="adc3a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6f724aae">
+    <Graphics>
+      <Point GraphRef="a97b4"/>
+      <Point GraphRef="c7481" ArrowHead="Arrow"/>
+      <Anchor Position="0.5256073718445325" Shape="None" GraphId="f69fe"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7040e5c9">
+    <Graphics>
+      <Point GraphRef="e6ff7"/>
+      <Point GraphRef="faf44" ArrowHead="Arrow"/>
+      <Anchor Position="0.17148760330578514" Shape="None" GraphId="d686a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id80abc9b3">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="faf44"/>
+      <Point/>
+      <Point GraphRef="f69fe" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9a5d06ea">
+    <Graphics>
+      <Point GraphRef="c7481"/>
+      <Point GraphRef="fcbf8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida9d4e59b">
+    <Graphics>
+      <Point GraphRef="c1962"/>
+      <Point GraphRef="b6ae4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idab71275d">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="fec48"/>
+      <Point/>
+      <Point GraphRef="f2bfe" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idadc90074">
+    <Graphics>
+      <Point GraphRef="efa1d"/>
+      <Point GraphRef="e3dda"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbda85ec8">
+    <Graphics>
+      <Point GraphRef="f9994"/>
+      <Point GraphRef="e6625"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc8983763" GroupRef="a8fe2">
+    <Graphics>
+      <Point GraphRef="b5377"/>
+      <Point GraphRef="e3b14"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddf79e4e8">
+    <Graphics>
+      <Point GraphRef="e3dda"/>
+      <Point GraphRef="c1962" ArrowHead="Arrow"/>
+      <Anchor Position="0.6301467334061366" Shape="None" GraphId="f2bfe"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide4497430">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="faf44"/>
+      <Point/>
+      <Point GraphRef="f2bfe" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide74f1465">
+    <Graphics>
+      <Point GraphRef="fcbf8"/>
+      <Point GraphRef="d878a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idea3369fd">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fc900"/>
+      <Point GraphRef="d686a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideab72c9e">
+    <Graphics>
+      <Point GraphRef="b6ae4"/>
+      <Point GraphRef="bb08d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf2233645" GroupRef="a81e6">
+    <Graphics>
+      <Point GraphRef="b12bd"/>
+      <Point GraphRef="d6ca7"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Receptor-mediated &#10;endocytosis" GraphId="bdbe9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Receptor-mediated &#10;endocytosis" GraphId="bdf21">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="b6c92">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cfe9a" GroupRef="e93fe">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ef043" GroupRef="afaab">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="SARS-CoV-2" GraphId="efa1d" GroupRef="e4ee6">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="SARS-CoV-2" GraphId="f9994" GroupRef="db15d">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="SARS-CoV-2" GraphId="b5377" GroupRef="a8fe2">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="SARS-CoV-2" GraphId="b12bd" GroupRef="a81e6">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="SARS-CoV-2" GraphId="f3ca4" GroupRef="afaab">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="SARS-CoV-2" GraphId="af1c2" GroupRef="e93fe">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="e4ee6" Style="Group"/>
+  <Group GroupId="db15d" GraphId="a97b4" Style="Group"/>
+  <Group GroupId="a6b18" GraphId="aab50" Style="Group"/>
+  <Group GroupId="e93fe" GraphId="bb08d" Style="Group"/>
+  <Group GroupId="a8fe2" GraphId="c1962" Style="Group"/>
+  <Group GroupId="a81e6" GraphId="c7481" Style="Group"/>
+  <Group GroupId="d87ce" GraphId="c8b1c" Style="Group"/>
+  <Group GroupId="afaab" GraphId="d878a" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >viral infectious disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:934</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >severe acute respiratory syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:2945</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b15">
+      <bp:ID >33713620</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Soluble ACE2-mediated cell entry of SARS-CoV-2 via interaction with proteins related to the renin-angiotensin system.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2021</bp:YEAR>
+      <bp:AUTHORS >Yeung ML</bp:AUTHORS>
+      <bp:AUTHORS >Teng JLL</bp:AUTHORS>
+      <bp:AUTHORS >Jia L</bp:AUTHORS>
+      <bp:AUTHORS >Zhang C</bp:AUTHORS>
+      <bp:AUTHORS >Huang C</bp:AUTHORS>
+      <bp:AUTHORS >Cai JP</bp:AUTHORS>
+      <bp:AUTHORS >Zhou R</bp:AUTHORS>
+      <bp:AUTHORS >Chan KH</bp:AUTHORS>
+      <bp:AUTHORS >Zhao H</bp:AUTHORS>
+      <bp:AUTHORS >Zhu L</bp:AUTHORS>
+      <bp:AUTHORS >Siu KL</bp:AUTHORS>
+      <bp:AUTHORS >Fung SY</bp:AUTHORS>
+      <bp:AUTHORS >Yung S</bp:AUTHORS>
+      <bp:AUTHORS >Chan TM</bp:AUTHORS>
+      <bp:AUTHORS >To KK</bp:AUTHORS>
+      <bp:AUTHORS >Chan JF</bp:AUTHORS>
+      <bp:AUTHORS >Cai Z</bp:AUTHORS>
+      <bp:AUTHORS >Lau SKP</bp:AUTHORS>
+      <bp:AUTHORS >Chen Z</bp:AUTHORS>
+      <bp:AUTHORS >Jin DY</bp:AUTHORS>
+      <bp:AUTHORS >Woo PCY</bp:AUTHORS>
+      <bp:AUTHORS >Yuen KY</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>COVID-19</bp:TERM><bp:ID>DOID:0080600</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>endocytosis pathway</bp:TERM><bp:ID>PW:0000281</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

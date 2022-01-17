@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Primary focal segmental glomerulosclerosis (FSGS)" Version="20130916" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Primary or idiopathic focal segmental glomerulosclerosis (FSGS) a cause of nephrotic syndrome in children and adolescents, as well as an important cause of end stage renal disease in adults. FSGS is mainly associated with foot process effacement, proliferation of mesangial, endothelial and epithelial cells in the early stages followed by collapse of glomerular capillaries leading to scarring. It may lead to dramatic manifestations such as proteinuria, hypoaluminemia, and hypertension. Also, there are many inheritable genetic abnormalities that can cause podocyte damage of FSGS caused by mutations in proteins that are important for podocyte function. The genes include CD2AP, MYO1E, WNT1, and LAMB2.
+On the far left, the diagram illustrates molecular interactions between a normal podocyte and matrix interactions. ACTN4 and SYNPO and DAG1 interacting with AGRN associate with the actin cytoskeleton; these actin associated proteins might play a role in maintaining podocyte and GBM architecture. DAG1 binds to UTRN, which in turn binds an actin filament, thus completing the link between the actin-based cytoskeleton and the extracellular matrix. Podocyte foot processes are anchored to the glomerular basement membrane (GBM) via ITGB1 and ITGA3 integrin complex and DAG1-UTRN complex. Transmembrane proteins such as LAMA5 and CD151 bind to ITGB1 and ITGA3, respectively. The intracellular integrins combine with cytoskeletal via intermediates which include TLN1, VCL, and PAX complex and the ILK, PARVA, and LIMS1 complex. (Guanghua Hu et. al 2013 - Biomedicine and Aging Pathology vol 3)
+Upon primary podocyte injury, there are multiple pathways involved in podocyte injury. "Sustaining NPHS1 and phosphorylation might contribute to both anti-apoptotic signaling and actin polymerization. The CD80 pathway may be targeted by TLR4 or blocking the binding of B7-1 to slit diaphragm structure proteins such as KIRREL2/3. PLAUR could be inhibited by interfering with binding of PLAUR and ITGAV/B3 integrin, inhibiting ITGB3 integrin activation, or inhibiting binding of ITGAV/B3 integrin to VTN. The notch pathway can be targeted by interfering with its upstream activation by blocking the TGF-&#946;1 effect, inhibiting &#947;-secretase, which is required for proteolytic receptor activation, or interfering with target gene transcription." (Reiser J. et al 2010 - Kidney Int vol 77) Post podocyte development, increased activation of NOTCH1 and WNT/CTNNB1 activities contribute to glomerulosclerosis. Expression of JAG1 on the ligand-expressing cell induces proteolytic cleavage of the Notch receptor on the signal-receiving cell, releasing the NOTCH1. DKK1 inhibits WNT1 binding to LRP5/6. By inhibiting the destruction of CTNNB1, CTNNB1 is stablilized. "The CTSL pathway could be targeted by specifically inhibiting CTSL expression or activity, shifting the equilibrium of SYNPO toward the phosphorylated form by inhibiting calcineurin-mediated dephosphorylation or enhancing PKA or CAMK2B-mediated phosphorylation, protecting SYNPO and DNM1 by compounds that bind to the CTSL cleavage site, or delivering cleavage-resistant SYNPO and DNM1 mutants." (Reiser J. et al 2010 - Kidney Int vol 77)
+The destruction of podocyte's cytoskeleton architecture leads to lose of normal podocyte epitopes such as VIM, SYNPO, and WT1, and lose of cyclin-dependent kinase inhibitors CDKN1C and CDKN1B. Also, podocytes acquire proliferation of CDKN1A. This leads to podocytopenia which have been shown to cause primary FSGS and then followed by end-stage renal disease (ESRD). FSGS is also induced by microRNA-193a and its downregulation of WT1, destroying podocyte foot processes.
+There is insufficient evidence that segmental glomerular lesions can be caused by other drugs or toxins, apart from some used experimentally such as doxorubicin and puromycin aminonucleoside. 
+Treatments such as steroids, high-dose cyclosporine, ritxuximab can reduce proteinuria based on their immunosuppressive properties and through stabilization of the podocyte actin cytoskeleton. 
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2572 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>f04</BiopaxRef>
+  <BiopaxRef>f3c</BiopaxRef>
+  <BiopaxRef>c7e</BiopaxRef>
+  <BiopaxRef>f59</BiopaxRef>
+  <BiopaxRef>b0a</BiopaxRef>
+  <BiopaxRef>b9b</BiopaxRef>
+  <BiopaxRef>db3</BiopaxRef>
+  <BiopaxRef>ed0</BiopaxRef>
+  <Graphics BoardWidth="3538.233481633219" BoardHeight="1369.8083211465942"/>
+  <DataNode TextLabel="ITGAV" GraphId="a26ff" Type="GeneProduct">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TLR4" GraphId="abe13" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CAMK2B" GraphId="ad1d2" Type="GeneProduct">
+    <Graphics Color="cc0033"/>
+    </DataNode>
+  <DataNode TextLabel="AKT1" GraphId="ae3c2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DNM1" GraphId="aefb1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="KIRREL3" GraphId="b2d57" Type="GeneProduct" GroupRef="f41fa">
+        </DataNode>
+  <DataNode TextLabel="ITGB3" GraphId="b37a8" Type="GeneProduct">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="VCL" GraphId="b959b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="JAG1" GraphId="ba4ed" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="KIRREL2" GraphId="bf441" Type="GeneProduct" GroupRef="f41fa">
+        </DataNode>
+  <DataNode TextLabel="NCK1" GraphId="bf733" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CD151" GraphId="c989e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CTSL" GraphId="cc8e4" Type="GeneProduct">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PTPRO" GraphId="d3bec" Type="GeneProduct">
+    <Graphics Color="cc0033"/>
+    </DataNode>
+  <DataNode TextLabel="LAMA5" GraphId="d6687" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DKK1" GraphId="d6ede" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FYN" GraphId="db538" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PLAUR" GraphId="dd89c" Type="GeneProduct">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FAK" GraphId="deea7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IRF6" GraphId="e0083" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="VTN" GraphId="e4234" Type="GeneProduct">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="14-3-3" GraphId="e6470" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SYNPO" GraphId="effa5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TGFB1" GraphId="f4d9d" Type="GeneProduct">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AGRN" GraphId="fa41a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CD2AP" GraphId="fc4b6" Type="GeneProduct">
+    <Graphics Color="cc0033"/>
+    </DataNode>
+  <DataNode TextLabel="CsA" GraphId="bd638" Type="Metabolite">
+    <Graphics Color="33ff00"/>
+    </DataNode>
+  <DataNode TextLabel="KRT8" GraphId="f6b75" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NPHS2" GraphId="ab414" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LAMB2" GraphId="f6521" Type="GeneProduct" GroupRef="c0e2e">
+        </DataNode>
+  <DataNode TextLabel="NPHS1" GraphId="b7ee9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PLCG1" GraphId="d8fdc" Type="GeneProduct">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CDKN1B" GraphId="b514b" Type="GeneProduct">
+    <Graphics Color="cc0033"/>
+    </DataNode>
+  <DataNode TextLabel="RITUXIMAB" GraphId="d084a" Type="Metabolite">
+    <Graphics Color="33ff00"/>
+    </DataNode>
+  <DataNode TextLabel="CR1" GraphId="c8b23" Type="GeneProduct">
+    <Graphics Color="cc0033"/>
+    </DataNode>
+  <DataNode TextLabel="PAX2" GraphId="fa5c3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PODXL" GraphId="e7d67" Type="GeneProduct">
+    <Graphics Color="cc0033"/>
+    </DataNode>
+  <DataNode TextLabel="LMX1B" GraphId="ec5dd" Type="GeneProduct" GroupRef="c0e2e">
+        </DataNode>
+  <DataNode TextLabel="MYO1E" GraphId="eafc9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SCARB2" GraphId="f5f6a" Type="GeneProduct" GroupRef="c0e2e">
+        </DataNode>
+  <DataNode TextLabel="MT-TL1" GraphId="d79c9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NON-MUSCLE MYOSIN-1E" GraphId="fc446" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FAT1" GraphId="f0f50" Type="GeneProduct">
+    <Graphics Color="cc0033"/>
+    </DataNode>
+  <DataNode TextLabel="LMX1B" GraphId="fd580" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ITGB4" GraphId="f09c4" Type="GeneProduct" GroupRef="c0e2e">
+        </DataNode>
+  <DataNode TextLabel="MT-TL1" GraphId="cf231" Type="GeneProduct" GroupRef="c0e2e">
+        </DataNode>
+  <DataNode TextLabel="COL4A5" GraphId="c5731" Type="GeneProduct" GroupRef="b2bdb">
+        </DataNode>
+  <DataNode TextLabel="CDKN1C" GraphId="b6e60" Type="GeneProduct">
+    <Graphics Color="cc0033"/>
+    </DataNode>
+  <DataNode TextLabel="MME" GraphId="c191d" Type="GeneProduct">
+    <Graphics Color="cc0033"/>
+    </DataNode>
+  <DataNode TextLabel="MYCOPHENOLATE MOFETIL" GraphId="c22be" Type="Metabolite">
+    <Graphics Color="33ff00"/>
+    </DataNode>
+  <DataNode TextLabel="VIM" GraphId="b7153" Type="GeneProduct">
+    <Graphics Color="cc0033"/>
+    </DataNode>
+  <DataNode TextLabel="CDKN1A" GraphId="baa92" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CD151" GraphId="c4671" Type="GeneProduct" GroupRef="c0e2e">
+        </DataNode>
+  <DataNode TextLabel="PODXL" GraphId="cab55" Type="GeneProduct">
+    <Graphics Color="cc0033"/>
+    </DataNode>
+  <DataNode TextLabel="NPHS1" GraphId="b82a2" Type="GeneProduct">
+    <Graphics Color="cc0033"/>
+    </DataNode>
+  <DataNode TextLabel="PLCE1" GraphId="dd725" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CD2AP" GraphId="f0ea4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ACTN4" GraphId="d6bfd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NMMHC" GraphId="a93c3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HHARP" GraphId="ffe32" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WT1" GraphId="cef82" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FORMIN INF2&#10;" GraphId="f112b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TRPC6" GraphId="c9711" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AACTININ4" GraphId="daa11" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CD2AP" GraphId="a0ce4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PHOSPHOLIPASE CE1" GraphId="be3ec" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PODOCIN" GraphId="bcb45" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NEPHRIN&#10;" GraphId="ce7a7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MYH9" GraphId="e7a03" Type="GeneProduct" GroupRef="c0e2e">
+        </DataNode>
+  <DataNode TextLabel="SMARCAL1" GraphId="e8937" Type="GeneProduct" GroupRef="c0e2e">
+        </DataNode>
+  <DataNode TextLabel="WT1" GraphId="b4364" Type="GeneProduct" GroupRef="c0e2e">
+        </DataNode>
+  <DataNode TextLabel="INF2" GraphId="dba4f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TRPC6" GraphId="bf320" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LAMB2" GraphId="ca985" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ITGB4" GraphId="b3274" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CD151" GraphId="c1da7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SCARB2" GraphId="ed694" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WT1" GraphId="e1fec" Type="GeneProduct">
+    <Graphics Color="cc0033"/>
+    </DataNode>
+  <DataNode TextLabel="PCNA" GraphId="d7392" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MKI67" GraphId="dcceb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CADHERIN" GraphId="f5f03" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CLDN1" GraphId="eb6ca" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WT1" GraphId="f75f7" Type="GeneProduct">
+    <Graphics Color="cc0033"/>
+    </DataNode>
+  <DataNode TextLabel="SYNPO" GraphId="c4b62" Type="GeneProduct">
+    <Graphics Color="cc0033"/>
+    </DataNode>
+  <DataNode TextLabel="COL4A3" GraphId="f8391" Type="GeneProduct" GroupRef="b2bdb">
+        </DataNode>
+  <DataNode TextLabel="COL4A4" GraphId="d2fa8" Type="GeneProduct" GroupRef="b2bdb">
+        </DataNode>
+  <DataNode TextLabel="ACTN4" GraphId="d23c9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LIMS1" GraphId="e2ff6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NPHS1" GraphId="b15cc" Type="GeneProduct" GroupRef="f41fa">
+        </DataNode>
+  <DataNode TextLabel="PODOCIN" GraphId="daf2f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CD80" GraphId="d2edd" Type="GeneProduct">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NOTCH1" GraphId="adc80" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SYNPO" GraphId="cec0f" Type="GeneProduct">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="f437e" Type="GeneProduct">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NOTCH1" GraphId="a2529" Type="GeneProduct">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="LRP6" GraphId="b6499" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LRP5" GraphId="dfef6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TRPC6" GraphId="c774c" Type="GeneProduct">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TLN1" GraphId="bc00c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ILK" GraphId="b721a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ITGB1" GraphId="e04c8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ITGA3" GraphId="b4849" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DAG1" GraphId="d806b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PARVA" GraphId="d04b5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ILK" GraphId="df45e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="UTRN" GraphId="fc4a8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WNT1" GraphId="e01f0" Type="GeneProduct">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="idd84cc815">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="ae3c2"/>
+      <Point/>
+      <Point GraphRef="c6ff3" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1635d5c8">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f437e"/>
+      <Point GraphRef="a2529" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id19c85700">
+    <Graphics>
+      <Point GraphRef="d6ede"/>
+      <Point GraphRef="e01f0" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2e278833">
+    <Graphics>
+      <Point GraphRef="a0668"/>
+      <Point GraphRef="c4421" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id32fee6c2">
+    <Graphics>
+      <Point GraphRef="ac049"/>
+      <Point GraphRef="ae3c2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4276fa10">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="ee69f"/>
+      <Point GraphRef="c6ff3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id445518aa">
+    <Graphics>
+      <Point GraphRef="d1789"/>
+      <Point GraphRef="d2a6c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id536cf51e">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6ce2fcfa">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bf733"/>
+      <Point GraphRef="cc73b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id865022">
+    <Graphics>
+      <Point GraphRef="bf733"/>
+      <Point GraphRef="ac049" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9df5185f">
+    <Graphics>
+      <Point GraphRef="c6a5c"/>
+      <Point GraphRef="eab16" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida506e6cf">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a2529"/>
+      <Point GraphRef="f437e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc663d672">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddbe1455b">
+    <Graphics>
+      <Point GraphRef="db538"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide6cf272f">
+    <Graphics>
+      <Point GraphRef="f042a"/>
+      <Point GraphRef="b9a0e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide7a6b2a7">
+    <Graphics>
+      <Point GraphRef="c3bb8"/>
+      <Point GraphRef="d1789" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf1ce1fa1">
+    <Graphics>
+      <Point GraphRef="e1fec"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf5736671">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="a1b1e"/>
+      <Point GraphRef="cc39b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9cc50d75" GroupRef="c0e2e">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e7a03"/>
+      <Point GraphRef="ec5dd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5a29e421" GroupRef="c0e2e">
+    <Graphics>
+      <Point GraphRef="b5cf0"/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6bea2aa7">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="e1fec" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id58af252">
+    <Graphics>
+      <Point GraphRef="d6ede"/>
+      <Point GraphRef="d5200" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfcb1fad4">
+    <Graphics>
+      <Point GraphRef="c7c6a"/>
+      <Point GraphRef="fc4b9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide41f4467">
+    <Graphics>
+      <Point GraphRef="bd638"/>
+      <Point GraphRef="a0668" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id87fc3147">
+    <Graphics>
+      <Point GraphRef="b9c64"/>
+      <Point GraphRef="c6a5c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cbfda">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="eafc9"/>
+      <Point GraphRef="b7ee9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d4548">
+    <Graphics>
+      <Point GraphRef="c59e7"/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b5e71">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="d2edd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ed3f3">
+    <Graphics>
+      <Point GraphRef="d084a"/>
+      <Point GraphRef="eab16" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eb656">
+    <Graphics>
+      <Point GraphRef="e26fd"/>
+      <Point GraphRef="d2edd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a958d">
+    <Graphics Color="990000">
+      <Point/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2fb861f0">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="d4eac"/>
+      <Point GraphRef="ba4ed" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cc625">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="f8670"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="a7e51" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a274f">
+    <Graphics Color="000099">
+      <Point/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b8c90">
+    <Graphics Color="990000">
+      <Point/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2f5d">
+    <Graphics Color="990000">
+      <Point/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="efc80">
+    <Graphics Color="990000">
+      <Point/>
+      <Point/>
+      <Anchor Position="0.4" Shape="None" GraphId="f042a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ca543">
+    <Graphics>
+      <Point GraphRef="d2a6c"/>
+      <Point GraphRef="f2d34" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f2300">
+    <Graphics>
+      <Point GraphRef="d5200"/>
+      <Point GraphRef="c4b62" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="a3c31">
+    <Graphics Color="cccc00">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d2035">
+    <Graphics Color="66cc00">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d5129">
+    <Graphics Color="66cc00">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ec5a3">
+    <Graphics Color="66cc00">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c1a56">
+    <Graphics Color="66cc00">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a5ad2">
+    <Graphics Color="cc0033">
+      <Point/>
+      <Point GraphRef="d6687"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ac504">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b1a1c">
+    <Graphics Color="cc00ff">
+      <Point GraphRef="b0b0f"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c7455">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id133f61aa">
+    <Graphics Color="000099">
+      <Point GraphRef="e5bae"/>
+      <Point GraphRef="deea7"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id3632e821">
+    <Graphics Color="66cc00">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id7eb1ce80">
+    <Graphics Color="000099">
+      <Point/>
+      <Point GraphRef="f6e63"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="iddc1d507d">
+    <Graphics Color="0000ff">
+      <Point/>
+      <Point/>
+      <Anchor Position="0.8440366972477031" Shape="None"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c0700">
+    <Graphics Color="000099">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ed144">
+    <Graphics Color="000099">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e2610">
+    <Graphics Color="0000ff">
+      <Point/>
+      <Point/>
+      <Anchor Position="0.9934244985665172" Shape="None"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f9896">
+    <Graphics Color="990000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e614a">
+    <Graphics Color="990000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a98ff">
+    <Graphics Color="990000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b9c77">
+    <Graphics Color="990000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e44c8">
+    <Graphics Color="66cc00">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ea375">
+    <Graphics Color="66cc00">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d583d">
+    <Graphics Color="66cc00">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e9631">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f4ce5">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="aefb1"/>
+      <Point/>
+      <Point GraphRef="be3a3" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f8774">
+    <Graphics Color="cc00ff">
+      <Point GraphRef="e715d"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bc6f2">
+    <Graphics>
+      <Point GraphRef="a2529"/>
+      <Point ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fd977">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ecbad">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e9279">
+    <Graphics>
+      <Point GraphRef="a2529"/>
+      <Point ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c8ac1">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c75f0"/>
+      <Point/>
+      <Point GraphRef="fa41a"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d8be9">
+    <Graphics ConnectorType="Curved" Color="003333">
+      <Point/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="c989e"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="CALCIUM" GraphId="a1b1e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ACTIN" GraphId="a1cd6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P13K" GraphId="ac049">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="TT: Therapeutic Target (decrease)" GraphId="b2ec3">
+    <Graphics FillColor="ffffff" Color="0000cc"/>
+  </Label>
+  <Label TextLabel="APOPTOSIS" GraphId="c6ff3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AR:Autosomal Recessive" GraphId="cb328">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CALCINEURIN" GraphId="cc39b">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="ACTIN" GraphId="cc73b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PKA" GraphId="d0558">
+    <Graphics FillColor="ffffff" Color="cc0033"/>
+  </Label>
+  <Label TextLabel="+" GraphId="edbfa">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AD: Autosomal Dominant" GraphId="efcf7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="SLIT &#10;DIAPHRAGM&#10;DISRUPTION" GraphId="f1394">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="TT: Therapeutic Target (increase)" GraphId="f4f70">
+    <Graphics FillColor="ffffff" Color="cc0000"/>
+  </Label>
+  <Label TextLabel="Legend" GraphId="f817c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="F-ACTIN" GraphId="fd3e0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="MICRORNA 193A" GraphId="fe11a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="3P21" GraphId="a0535">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PODOCYTOPENIA" GraphId="d1789">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Podocyte-Associated Genetic Glomerular Diseases" GraphId="b1fd2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PROTEIN" GraphId="cfb38">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="17Q25" GraphId="a39d5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="GENE" GraphId="d8a63">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AR" GraphId="b8536">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="STABILIZES &#10;PODOCYTE&#10;CYTOSKELETON" GraphId="fc4b9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="MATERNAL" GraphId="a9f7e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="10Q23" GraphId="c2ae3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PRIMARY &#10;INJURY" GraphId="c6a5c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ESRD" GraphId="f2d34">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AR" GraphId="e81e8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AR" GraphId="febfe">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NUCLEUS" GraphId="bbcd1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="11P15.5" GraphId="bffd8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nonsyndromic" GraphId="c59e7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Syndromic" GraphId="b5cf0" GroupRef="c0e2e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PRIMARY &#10;FSGS" GraphId="d2a6c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AR" GraphId="cc466">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="15Q21-Q22" GraphId="bf812">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="9Q33.3" GraphId="ad0f2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="TYPE" GraphId="c883f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="4Q21.1" GraphId="e83ea">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="1Q25-Q31" GraphId="b5517">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="19Q13&#10;" GraphId="d11df">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="6P12.3" GraphId="e1e7e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="11P13" GraphId="ac525">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="2Q35" GraphId="db120">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="19Q13.1" GraphId="a7b40">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="22Q12.3" GraphId="cb20a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="11Q21-22" GraphId="b96f4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="14Q" GraphId="b462f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CHROMOSOME" GraphId="ca3f5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="TRANSMISSION" GraphId="f94e0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AR" GraphId="c186c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AR" GraphId="edefb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AD" GraphId="c270e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AD/AR" GraphId="c5415">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AD" GraphId="f7aae">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AD" GraphId="c2de5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AD" GraphId="a39a1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AR" GraphId="d6a64">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="COMPLEX" GraphId="dcc6f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AR" GraphId="fd6bd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AR" GraphId="a7483">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AD" GraphId="be2ea">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="DESTRUCTION OF&#10;PODOCYTE&#10;ARCHITECTURE" GraphId="d5200">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NUCLEUS" GraphId="a57ee">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PODOCYTE" GraphId="b3a1d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="efab3">
+    <Graphics FillColor="ffffff" Color="cc0033"/>
+  </Label>
+  <Label TextLabel="GLOMERULAR &#10;BASEMENT &#10;MEMBRANE" GraphId="e4985">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NORMAL &#10;PODOCYTE" GraphId="f9249">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="GLOMERULAR &#10;BASEMENT &#10;MEMBRANE" GraphId="bafb9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="f3a3a">
+    <Graphics FillColor="ffffff" Color="cc0033"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="a57f6">
+    <Graphics FillColor="ffffff" Color="cc0033"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="ce4f0">
+    <Graphics FillColor="ffffff" Color="cc0033"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="c152e">
+    <Graphics FillColor="ffffff" Color="cc0033"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="cc72b">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="ede3b">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="e24fc">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="b7ec8">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="a8831">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="d3f7c">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="a889f">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="de076">
+    <Graphics FillColor="ffffff" Color="cc0033"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="d3cd0">
+    <Graphics FillColor="ffffff" Color="cc0033"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="ccdc8">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="c4000">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="fbe2a">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="f51f5">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="f568c">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="f8d6c">
+    <Graphics FillColor="ffffff" Color="cc0033"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="ab2bd">
+    <Graphics FillColor="ffffff" Color="cc0033"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="c3f64">
+    <Graphics FillColor="ffffff" Color="cc0033"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="c8d08">
+    <Graphics FillColor="ffffff" Color="cc0033"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="d45c7">
+    <Graphics FillColor="ffffff" Color="cc0033"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="d91a8">
+    <Graphics FillColor="ffffff" Color="cc0033"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="e2d2e">
+    <Graphics FillColor="ffffff" Color="cc0033"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="d428e">
+    <Graphics FillColor="ffffff" Color="cc0033"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="f653b">
+    <Graphics FillColor="ffffff" Color="cc0033"/>
+  </Label>
+  <Label TextLabel="GLOMERULAR &#10;BASEMENT &#10;MEMBRANE" GraphId="d025e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NORMAL&#10;EPITOPES" GraphId="c3709">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PAX" GraphId="aec40">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="ed59b">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="ANTICLA4" GraphId="e26fd">
+    <Graphics FillColor="ffffff" Color="37ff00"/>
+  </Label>
+  <Label TextLabel="TT" GraphId="d6693">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Proteins involved in Podocyte cytoskeleton" GraphId="a0f59">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Y-SECRETASE" GraphId="d259d">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Shape GraphId="c0905">
+    <Graphics ShapeType="RoundedRectangle" LineStyle="Broken" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ce62c">
+    <Graphics ShapeType="Oval" Color="cc0000"/>
+  </Shape>
+  <Shape GraphId="c271a">
+    <Graphics ShapeType="Arc" Color="cc0033"/>
+  </Shape>
+  <Shape GraphId="b9c64">
+    <Graphics ShapeType="Oval" Color="cc0000"/>
+  </Shape>
+  <Shape GraphId="a3f82">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="a87e5">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="b0b0f">
+    <Graphics FillColor="cc00ff" ShapeType="Oval" Color="cc00ff"/>
+  </Shape>
+  <Shape TextLabel="P" GraphId="b9a0e">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c8a91">
+    <Graphics FillColor="0000ff" ShapeType="Oval" Color="0000ff"/>
+  </Shape>
+  <Shape GraphId="cbad2">
+    <Graphics ShapeType="Arc" Color="0000ff"/>
+  </Shape>
+  <Shape GraphId="d4eac">
+    <Graphics FillColor="000099" ShapeType="RoundedRectangle" Color="000099"/>
+  </Shape>
+  <Shape GraphId="d6aab">
+    <Graphics FillColor="cc00ff" ShapeType="RoundedRectangle" Color="cc00ff"/>
+  </Shape>
+  <Shape GraphId="d9e7f">
+    <Graphics FillColor="66cc00" ShapeType="Rectangle" Color="66cc00"/>
+  </Shape>
+  <Shape GraphId="db50a">
+    <Graphics FillColor="0000ff" ShapeType="Oval" Color="0000ff"/>
+  </Shape>
+  <Shape GraphId="eab16">
+    <Graphics ShapeType="Arc" Color="cc0033"/>
+  </Shape>
+  <Shape GraphId="f60fb">
+    <Graphics FillColor="66cc00" ShapeType="RoundedRectangle" Color="66cc00"/>
+  </Shape>
+  <Shape GraphId="ff6e7">
+    <Graphics FillColor="66cc00" ShapeType="RoundedRectangle" Color="66cc00"/>
+  </Shape>
+  <Shape GraphId="e5710">
+    <Graphics ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="c3bb8">
+    <Graphics ShapeType="Oval" Color="cc0000"/>
+  </Shape>
+  <Shape GraphId="c7c6a">
+    <Graphics ShapeType="Oval" Color="cc0000"/>
+  </Shape>
+  <Shape GraphId="a14f0">
+    <Graphics ShapeType="Oval" Color="ff00ff"/>
+  </Shape>
+  <Shape GraphId="e64c3">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="e5bae">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="b1b8b">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="c89ec">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="ec2ae">
+    <Graphics FillColor="663300" ShapeType="Oval" Color="663300"/>
+  </Shape>
+  <Shape GraphId="f0a6f">
+    <Graphics FillColor="663300" ShapeType="Oval" Color="663300"/>
+  </Shape>
+  <Shape GraphId="dbe07">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="b97da">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="c5e2b">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="a8a03">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="ffff00"/>
+  </Shape>
+  <Shape GraphId="c9094">
+    <Graphics FillColor="663300" ShapeType="Oval" Color="663300"/>
+  </Shape>
+  <Shape GraphId="e9e44">
+    <Graphics FillColor="663300" ShapeType="Oval" Color="663300"/>
+  </Shape>
+  <Shape GraphId="ec356">
+    <Graphics FillColor="663300" ShapeType="Oval" Color="663300"/>
+  </Shape>
+  <Shape GraphId="a8042">
+    <Graphics FillColor="0000ff" ShapeType="Oval" Color="0000ff"/>
+  </Shape>
+  <Shape GraphId="be68c">
+    <Graphics ShapeType="Rectangle" Color="00cccc"/>
+  </Shape>
+  <Shape GraphId="a06f7">
+    <Graphics FillColor="66cc00" ShapeType="Rectangle" Color="66cc00"/>
+  </Shape>
+  <Shape GraphId="a2700">
+    <Graphics FillColor="66cc00" ShapeType="Rectangle" Color="66cc00"/>
+  </Shape>
+  <Shape GraphId="be3a3">
+    <Graphics FillColor="66cc00" ShapeType="Rectangle" Color="66cc00"/>
+  </Shape>
+  <Shape GraphId="b88b8">
+    <Graphics FillColor="cc00ff" ShapeType="Rectangle" Color="cc00ff"/>
+  </Shape>
+  <Shape GraphId="e06a5">
+    <Graphics FillColor="cc00ff" ShapeType="Oval" Color="cc00ff"/>
+  </Shape>
+  <Shape GraphId="ff33b">
+    <Graphics FillColor="cc00ff" ShapeType="Oval" Color="cc00ff"/>
+  </Shape>
+  <Shape GraphId="a46ab">
+    <Graphics FillColor="cc00ff" ShapeType="Rectangle" Color="cc00ff"/>
+  </Shape>
+  <Shape GraphId="cd57d">
+    <Graphics FillColor="cc00ff" ShapeType="RoundedRectangle" Color="cc00ff"/>
+  </Shape>
+  <Shape GraphId="afd87">
+    <Graphics FillColor="cc00ff" ShapeType="Rectangle" Color="cc00ff"/>
+  </Shape>
+  <Shape GraphId="a439e">
+    <Graphics FillColor="cc00ff" ShapeType="Oval" Color="cc00ff"/>
+  </Shape>
+  <Shape GraphId="ad97b">
+    <Graphics FillColor="cc00ff" ShapeType="Rectangle" Color="cc00ff"/>
+  </Shape>
+  <Shape GraphId="b5592">
+    <Graphics FillColor="cc00ff" ShapeType="Oval" Color="cc00ff"/>
+  </Shape>
+  <Shape GraphId="e715d">
+    <Graphics FillColor="cc00ff" ShapeType="Oval" Color="cc00ff"/>
+  </Shape>
+  <Shape GraphId="c9dad">
+    <Graphics FillColor="000099" ShapeType="RoundedRectangle" Color="000099"/>
+  </Shape>
+  <Shape GraphId="a7e51">
+    <Graphics FillColor="000099" ShapeType="RoundedRectangle" Color="000099"/>
+  </Shape>
+  <Shape GraphId="ee69f">
+    <Graphics FillColor="000099" ShapeType="RoundedRectangle" Color="000099"/>
+  </Shape>
+  <Shape TextLabel="+" GraphId="a0f9a">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape TextLabel="P" GraphId="a7015">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a0668">
+    <Graphics FillColor="66cc00" ShapeType="RoundedRectangle" Color="66cc00"/>
+  </Shape>
+  <Shape TextLabel="-" GraphId="cd612">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c4421">
+    <Graphics FillColor="66cc00" ShapeType="Rectangle" Color="66cc00"/>
+  </Shape>
+  <Shape GraphId="c3bd2">
+    <Graphics FillColor="66cc00" ShapeType="Rectangle" Color="66cc00"/>
+  </Shape>
+  <Shape GraphId="ddd67">
+    <Graphics FillColor="66cc00" ShapeType="Rectangle" Color="66cc00"/>
+  </Shape>
+  <Shape GraphId="f8670">
+    <Graphics FillColor="000099" ShapeType="RoundedRectangle" Color="000099"/>
+  </Shape>
+  <Shape GraphId="c510c">
+    <Graphics ShapeType="Rectangle" Color="00cccc"/>
+  </Shape>
+  <Shape GraphId="fa8f3">
+    <Graphics ShapeType="Rectangle" Color="00cccc"/>
+  </Shape>
+  <Shape GraphId="f6e63">
+    <Graphics FillColor="cc00ff" ShapeType="Rectangle" Color="cc00ff"/>
+  </Shape>
+  <Shape GraphId="ca73c">
+    <Graphics FillColor="cc00ff" ShapeType="Rectangle" Color="cc00ff"/>
+  </Shape>
+  <Shape GraphId="e16bc">
+    <Graphics FillColor="cc00ff" ShapeType="Rectangle" Color="cc00ff"/>
+  </Shape>
+  <Shape GraphId="b2f2c">
+    <Graphics FillColor="cc00ff" ShapeType="Rectangle" Color="cc00ff"/>
+  </Shape>
+  <Shape GraphId="c75f0">
+    <Graphics FillColor="009999" ShapeType="Rectangle" Color="009999"/>
+  </Shape>
+  <Shape GraphId="ff0a8">
+    <Graphics FillColor="cc00ff" ShapeType="Rectangle" Color="cc00ff"/>
+  </Shape>
+  <Shape GraphId="bb8cc">
+    <Graphics FillColor="cc00ff" ShapeType="Rectangle" Color="cc00ff"/>
+  </Shape>
+  <Group GroupId="f41fa" GraphId="b4cb3" Style="Group"/>
+  <Group GroupId="c0e2e" GraphId="dccd4" Style="Group"/>
+  <Group GroupId="fc280" GraphId="ec9d8" Style="Group"/>
+  <Group GroupId="b2bdb" GraphId="fb721" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f04">
+      <bp:ID >21839365</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Focal and segmental glomerulosclerosis: multiple pathways are involved.</bp:TITLE>
+      <bp:SOURCE >Semin Nephrol</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Meyrier A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b9b">
+      <bp:ID >20130528</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Toward the development of podocyte-specific drugs.</bp:TITLE>
+      <bp:SOURCE >Kidney Int</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Reiser J</bp:AUTHORS>
+      <bp:AUTHORS >Gupta V</bp:AUTHORS>
+      <bp:AUTHORS >Kistler AD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >glomerular capillary endothelial cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:1001005</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f3c">
+      <bp:ID >23502960</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Focal segmental glomerulosclerosis is induced by microRNA-193a and its downregulation of WT1.</bp:TITLE>
+      <bp:SOURCE >Nat Med</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Gebeshuber CA</bp:AUTHORS>
+      <bp:AUTHORS >Kornauth C</bp:AUTHORS>
+      <bp:AUTHORS >Dong L</bp:AUTHORS>
+      <bp:AUTHORS >Sierig R</bp:AUTHORS>
+      <bp:AUTHORS >Seibler J</bp:AUTHORS>
+      <bp:AUTHORS >Reiss M</bp:AUTHORS>
+      <bp:AUTHORS >Tauber S</bp:AUTHORS>
+      <bp:AUTHORS >Bilban M</bp:AUTHORS>
+      <bp:AUTHORS >Wang S</bp:AUTHORS>
+      <bp:AUTHORS >Kain R</bp:AUTHORS>
+      <bp:AUTHORS >B&#1591;&#183;&#1570;&#163;&#1591;&#162;&#1570;&#182;hmig GA</bp:AUTHORS>
+      <bp:AUTHORS >Moeller MJ</bp:AUTHORS>
+      <bp:AUTHORS >Gr&#1591;&#183;&#1570;&#163;&#1591;&#162;&#1570;&#182;ne HJ</bp:AUTHORS>
+      <bp:AUTHORS >Englert C</bp:AUTHORS>
+      <bp:AUTHORS >Martinez J</bp:AUTHORS>
+      <bp:AUTHORS >Kerjaschki D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c7e">
+      <bp:ID >20537521</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Therapeutic approach to focal and segmental glomerulosclerosis recurrence in kidney transplant recipients.</bp:TITLE>
+      <bp:SOURCE >Transplant Rev (Orlando)</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Canaud G</bp:AUTHORS>
+      <bp:AUTHORS >Martinez F</bp:AUTHORS>
+      <bp:AUTHORS >No&#1591;&#183;&#1570;&#163;&#1591;&#162;&#1570;&#171;l LH</bp:AUTHORS>
+      <bp:AUTHORS >Mamzer MF</bp:AUTHORS>
+      <bp:AUTHORS >Niaudet P</bp:AUTHORS>
+      <bp:AUTHORS >Legendre C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b0a">
+      <bp:ID >21125407</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Problems with 'focal segmental glomerulosclerosis'.</bp:TITLE>
+      <bp:SOURCE >Pediatr Nephrol</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Howie AJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed0">
+      <bp:ID >22958489</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Repair problems in podocytes: Wnt, Notch, and glomerulosclerosis.</bp:TITLE>
+      <bp:SOURCE >Semin Nephrol</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Kato H</bp:AUTHORS>
+      <bp:AUTHORS >Susztak K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="db3">
+      <bp:ID >doi.org/10.1016/j.biomag.2013.01.007</bp:ID>
+      <bp:DB >DOI</bp:DB>
+      <bp:TITLE >Mechanism of podocyte detachment: Targeting transmembrane molecules between podocytes and glomerular basement membrane</bp:TITLE>
+      <bp:SOURCE >Biomedicine &amp; Aging Pathology</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Hu, G</bp:AUTHORS>
+      <bp:AUTHORS >Jiao,B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >focal segmental glomerulosclerosis</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:1312</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >renal failure pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000301</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f59">
+      <bp:ID >22334613</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Genetic causes of focal segmental glomerulosclerosis: implications for clinical practice.</bp:TITLE>
+      <bp:SOURCE >Nephrol Dial Transplant</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Rood IM</bp:AUTHORS>
+      <bp:AUTHORS >Deegens JK</bp:AUTHORS>
+      <bp:AUTHORS >Wetzels JF</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

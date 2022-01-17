@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Unfolded protein response" Version="20200509" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The Unfolded Protein Response (UPR) pathway regulates and protects the cell from improperly folded protein overload in the Endoplasmic Reticulum (ER). The UPR can result in the slowing of protein synthesis, which gives the cell time to translate more chaperones to help process the proteins. If the stress is too high, the UPR can eventually trigger apoptosis.</Comment>
+  <BiopaxRef>f66</BiopaxRef>
+  <Graphics BoardWidth="1200.3521126760663" BoardHeight="928.0734590245489"/>
+  <DataNode TextLabel="BCL2" GraphId="a2e15" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ROS" GraphId="a3c55" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="NFE2L2" GraphId="a5e9c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PMAIP1" GraphId="a871c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EIF2S1" GraphId="ab080" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CHOP" GraphId="b0985" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TNFRSF10B" GraphId="b137c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ATF4" GraphId="c3bfd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Caspase-8" GraphId="c562d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="BBC3" GraphId="c5925" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GADD35" GraphId="ce0b7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IRE1&#945;" GraphId="d97f7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MBTPS1" GraphId="db5d4" Type="GeneProduct" GroupRef="b48e3">
+        </DataNode>
+  <DataNode TextLabel="IL1B" GraphId="e02bf" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="XBP1" GraphId="e41de" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BiP" GraphId="e8cff" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Caspase-1" GraphId="e95d3" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RTCB" GraphId="ed59d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TXNIP" GraphId="f18dd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ATF4" GraphId="f4bf8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Caspase-2" GraphId="f7a1d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MBTPS2" GraphId="f9ac9" Type="GeneProduct" GroupRef="b48e3">
+        </DataNode>
+  <DataNode TextLabel="ATF6" GraphId="f9f27" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Apoptosis" GraphId="fc521" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="BCL2L11" GraphId="fdad8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BID" GraphId="fdb62" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PERK" GraphId="fdf1d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="p53" GraphId="feb38" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ATF6" GraphId="b76fd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GADD35" GraphId="ba3bd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PMAIP1" GraphId="a7802" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BBC3" GraphId="bae6c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BCL2L11" GraphId="ff910" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TNFRSF10B" GraphId="d7669" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TNFRSF10B" GraphId="f3501" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id1942147">
+    <Graphics>
+      <Point GraphRef="c24a1"/>
+      <Point GraphRef="fc521" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1be6b1b">
+    <Graphics>
+      <Point GraphRef="c3bfd"/>
+      <Point GraphRef="f4bf8" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2392b864">
+    <Graphics>
+      <Point GraphRef="f3501"/>
+      <Point GraphRef="c562d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id24bc9498">
+    <Graphics>
+      <Point GraphRef="fdf1d"/>
+      <Point GraphRef="ab080" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3012fc29">
+    <Graphics>
+      <Point GraphRef="c5925"/>
+      <Point GraphRef="bae6c" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3914c319">
+    <Graphics>
+      <Point GraphRef="dc34f"/>
+      <Point GraphRef="a1249" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id407f2004">
+    <Graphics>
+      <Point GraphRef="ba3bd"/>
+      <Point GraphRef="ce0b7" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id491c03df">
+    <Graphics>
+      <Point GraphRef="dc34f"/>
+      <Point GraphRef="f3501" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5795a895">
+    <Graphics>
+      <Point GraphRef="ed59d"/>
+      <Point GraphRef="ecd14" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id59cfaa39">
+    <Graphics>
+      <Point GraphRef="b0985"/>
+      <Point GraphRef="a2e15" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5b7aa56b">
+    <Graphics>
+      <Point GraphRef="a871c"/>
+      <Point GraphRef="a7802" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id668c60c7">
+    <Graphics>
+      <Point GraphRef="feb38"/>
+      <Point GraphRef="fdad8" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id66a6e534">
+    <Graphics>
+      <Point GraphRef="feb38"/>
+      <Point GraphRef="a871c" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6733ce8c">
+    <Graphics>
+      <Point GraphRef="e8cff"/>
+      <Point GraphRef="d97f7" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6cbf95da">
+    <Graphics>
+      <Point GraphRef="e02bf"/>
+      <Point GraphRef="c24a1" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id721eacc7">
+    <Graphics>
+      <Point GraphRef="b0985"/>
+      <Point GraphRef="ba3bd" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7b6f62b8">
+    <Graphics>
+      <Point GraphRef="b0985"/>
+      <Point GraphRef="b137c" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8d72fe7b">
+    <Graphics>
+      <Point GraphRef="f18dd"/>
+      <Point GraphRef="cf514" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id92dc91c1">
+    <Graphics>
+      <Point GraphRef="f7a1d"/>
+      <Point GraphRef="fdb62" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida2dd8dbd">
+    <Graphics>
+      <Point GraphRef="a1249"/>
+      <Point GraphRef="f7a1d" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida551bc98">
+    <Graphics>
+      <Point GraphRef="b137c"/>
+      <Point GraphRef="d7669" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaf7860fb">
+    <Graphics>
+      <Point GraphRef="d97f7"/>
+      <Point GraphRef="e41de" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb115a0a2">
+    <Graphics>
+      <Point GraphRef="d2626"/>
+      <Point GraphRef="dc34f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb6d8431a">
+    <Graphics>
+      <Point GraphRef="e95d3"/>
+      <Point GraphRef="e02bf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idba493009">
+    <Graphics>
+      <Point GraphRef="c562d"/>
+      <Point GraphRef="fdb62" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbceddc28">
+    <Graphics>
+      <Point GraphRef="feb38"/>
+      <Point GraphRef="c5925" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc50a42bf">
+    <Graphics>
+      <Point GraphRef="b76fd"/>
+      <Point GraphRef="f0493" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc7985c92">
+    <Graphics>
+      <Point GraphRef="b0985"/>
+      <Point GraphRef="feb38" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc87e5fc3">
+    <Graphics>
+      <Point GraphRef="d7669"/>
+      <Point GraphRef="fdb62" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd9020f7">
+    <Graphics>
+      <Point GraphRef="cf514"/>
+      <Point GraphRef="e95d3" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd9819078">
+    <Graphics>
+      <Point GraphRef="e41de"/>
+      <Point GraphRef="ed59d" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb7b1382">
+    <Graphics>
+      <Point GraphRef="f4bf8"/>
+      <Point GraphRef="b0985" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddcc1e5e3">
+    <Graphics>
+      <Point GraphRef="ce0b7"/>
+      <Point GraphRef="ab080" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddf2d6bd6">
+    <Graphics>
+      <Point GraphRef="fdad8"/>
+      <Point GraphRef="ff910" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddfaa94a4">
+    <Graphics>
+      <Point GraphRef="fdf1d"/>
+      <Point GraphRef="a5e9c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide5c36cb2">
+    <Graphics>
+      <Point GraphRef="d97f7"/>
+      <Point GraphRef="d2626" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide6826a4a">
+    <Graphics>
+      <Point GraphRef="ea698"/>
+      <Point GraphRef="b76fd" ArrowHead="mim-cleavage"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide7294b9a">
+    <Graphics>
+      <Point GraphRef="f9f27"/>
+      <Point GraphRef="ea698" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idea6a2b06">
+    <Graphics>
+      <Point GraphRef="ab080"/>
+      <Point GraphRef="c3bfd" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfd6b9fff">
+    <Graphics>
+      <Point GraphRef="dc34f"/>
+      <Point GraphRef="f18dd" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="id41901a54">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="miRNAs" GraphId="a1249">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Sterile&#10;inflammation" GraphId="c24a1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cytosol" GraphId="cc5be">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NLRP3&#10;inflammasome" GraphId="cf514">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="mRNAs&#10;miRNAs" GraphId="d2626">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ER" GraphId="d4e21">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Regulated &#10;IRE1-dependent &#10;decay" GraphId="dc34f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="XBP1(s) activated chaperone genes" GraphId="ecd14">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ATF6 activated chaperone genes" GraphId="f0493">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="af991">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="fa33c">
+    <Graphics ShapeType="Golgi Apparatus" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="b48e3" GraphId="ea698" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >endoplasmic reticulum stress  - the unfolded protein response pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000379</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f66">
+      <bp:ID >29107536</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The Unfolded Protein Response and Cell Fate Control.</bp:TITLE>
+      <bp:SOURCE >Mol Cell</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Hetz C</bp:AUTHORS>
+      <bp:AUTHORS >Papa FR</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

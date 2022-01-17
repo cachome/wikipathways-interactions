@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Interactions of natural killer cells in pancreatic cancer" Version="20210426" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway shows the interaction between a Natural Killer cell and a pancreatic tumor cell. With the specific cell receptors found on the NK cell, it is able to recognize malignant cells and secrete cytokines and chemokines to create an enhanced immune response. Their ability to activate both innate- as well as adaptive immune cells makes the NK cell an excellent target for novel immunotherapy treatments against pancreatic cancer. The pathway curation is mainly based on a systemic review by Van Audenaerde et al. in 2018 (10.1016/j.pharmthera.2018.04.003).</Comment>
+  <BiopaxRef>baa</BiopaxRef>
+  <Graphics BoardWidth="1346.5436859379827" BoardHeight="1764.3036106923296"/>
+  <DataNode TextLabel="NCR1" GraphId="a12dd" Type="GeneProduct">
+    <BiopaxRef>baa</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="BMI1" GraphId="c1543" Type="GeneProduct">
+    <BiopaxRef>c28</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ULBP1" GraphId="c34a2" Type="Protein">
+    <Comment>UL16</Comment>
+    <BiopaxRef>f13</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MICB" GraphId="c95f4" Type="Protein" GroupRef="b08cb">
+    <BiopaxRef>c7b</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GATA2" GraphId="d62ad" Type="Protein">
+    <BiopaxRef>c28</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NCR3" GraphId="e3eb0" Type="GeneProduct">
+    <BiopaxRef>baa</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Apoptosis" GraphId="ed4ab" Type="Pathway">
+    <BiopaxRef>ce6</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" LineStyle="Broken" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="GATA2" GraphId="f9915" Type="GeneProduct">
+    <BiopaxRef>c28</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MICA" GraphId="f9eeb" Type="Protein" GroupRef="b08cb">
+    <BiopaxRef>c7b</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NCR3LG1" GraphId="ff979" Type="GeneProduct" GroupRef="dc2c6">
+        </DataNode>
+  <DataNode TextLabel="MICB" GraphId="e2bbf" Type="Protein" GroupRef="d25c4">
+        </DataNode>
+  <DataNode TextLabel="MICA" GraphId="b383e" Type="Protein" GroupRef="d25c4">
+    <BiopaxRef>c7b</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ADAM17" GraphId="cb2ca" Type="GeneProduct">
+    <BiopaxRef>f13</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ADAM10" GraphId="af72a" Type="GeneProduct">
+    <BiopaxRef>f13</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NCR3LG1" GraphId="c91df" Type="Protein">
+    <Comment>B7H6</Comment>
+    <BiopaxRef>f13</BiopaxRef>
+    <BiopaxRef>cf2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MYC" GraphId="b4bce" Type="GeneProduct" GroupRef="dc2c6">
+        </DataNode>
+  <DataNode TextLabel="NCR3LG1" GraphId="fcc61" Type="Protein">
+    <Comment>B7H6</Comment>
+    <BiopaxRef>cf2</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PVR" GraphId="f578c" Type="Protein">
+    <Comment>CD155</Comment>
+    <BiopaxRef>f13</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PVR" GraphId="c6bdb" Type="GeneProduct">
+    <BiopaxRef>baa</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="IGHG1" GraphId="c919f" Type="GeneProduct">
+    <BiopaxRef>b60</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="IGHG1" GraphId="af393" Type="Protein">
+    <BiopaxRef>baa</BiopaxRef>
+    <BiopaxRef>b60</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Glycolysis" GraphId="f14ea" Type="Pathway">
+    <BiopaxRef>baa</BiopaxRef>
+    <BiopaxRef>c9b</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" LineStyle="Broken" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="glucose" GraphId="c75e0" Type="Metabolite">
+    <BiopaxRef>c28</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="IgE" GraphId="cbd93" Type="Protein">
+    <BiopaxRef>bea</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="lactate" GraphId="f31c1" Type="Metabolite">
+    <BiopaxRef>baa</BiopaxRef>
+    <BiopaxRef>c9b</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="KLRK1" GraphId="da66e" Type="Protein">
+    <Comment>NKG2-D</Comment>
+    <BiopaxRef>c28</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="KLRK1" GraphId="fb1d8" Type="GeneProduct">
+    <BiopaxRef>baa</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PRF1" GraphId="a8f1c" Type="Protein">
+    <Comment>Perforin-1</Comment>
+    <BiopaxRef>e11</BiopaxRef>
+    <BiopaxRef>ce6</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GZMB" GraphId="d5f4b" Type="Protein">
+    <Comment>Granzyme B</Comment>
+    <BiopaxRef>e11</BiopaxRef>
+    <BiopaxRef>ce6</BiopaxRef>
+    <Graphics FillColor="Transparent"/>
+    </DataNode>
+  <DataNode TextLabel="CCL1" GraphId="c2c9a" Type="GeneProduct" GroupRef="c64a5">
+        </DataNode>
+  <DataNode TextLabel="CCL4" GraphId="c79ee" Type="GeneProduct" GroupRef="c64a5">
+        </DataNode>
+  <DataNode TextLabel="CCL5" GraphId="cba4d" Type="GeneProduct" GroupRef="c64a5">
+        </DataNode>
+  <DataNode TextLabel="CCL3" GraphId="f66ae" Type="GeneProduct" GroupRef="c64a5">
+        </DataNode>
+  <DataNode TextLabel="GM-CSF" GraphId="d2d67" Type="Protein" GroupRef="c64a5">
+        </DataNode>
+  <DataNode TextLabel="TNF" GraphId="b0a9b" Type="GeneProduct" GroupRef="c64a5">
+    <Comment>TNF&#195;&#402;&#197;&#189;&#195;&#8218;&#194;&#177;</Comment>
+        </DataNode>
+  <DataNode TextLabel="CCL2" GraphId="e7f85" Type="GeneProduct" GroupRef="c64a5">
+        </DataNode>
+  <DataNode TextLabel="CXCL8" GraphId="a0a57" Type="Metabolite" GroupRef="c64a5">
+        </DataNode>
+  <DataNode TextLabel="NCR3" GraphId="ee4f6" Type="Protein">
+    <Comment>NKp30</Comment>
+    <BiopaxRef>f13</BiopaxRef>
+    <BiopaxRef>b32</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CD226" GraphId="db89a" Type="Protein">
+    <Comment>DNAM1</Comment>
+    <BiopaxRef>f13</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="FOXO1" GraphId="f6aa4" Type="GeneProduct">
+    <BiopaxRef>e08</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CD96" GraphId="a2263" Type="Protein">
+    <Comment>TACTILE</Comment>
+    <BiopaxRef>f13</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="IFNG" GraphId="f7078" Type="GeneProduct" GroupRef="c64a5">
+    <Comment>IFN&#195;&#402;&#197;&#189;&#195;&#8218;&#194;&#179;</Comment>
+        </DataNode>
+  <DataNode TextLabel="TIGIT" GraphId="a40c1" Type="Protein">
+    <BiopaxRef>f13</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NCR1" GraphId="af6ac" Type="Protein">
+    <Comment>NKp46</Comment>
+    <BiopaxRef>b32</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="FCGR3A" GraphId="cd3c9" Type="Protein">
+    <Comment>Fc&#195;&#402;&#197;&#189;&#195;&#8218;&#194;&#179;RIII</Comment>
+    <BiopaxRef>f13</BiopaxRef>
+    <BiopaxRef>c2c</BiopaxRef>
+    <BiopaxRef>b60</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="KLRK1" GraphId="dd5cf" Type="Protein" GroupRef="d25c4">
+    <Comment>NKG2-D</Comment>
+    <BiopaxRef>c28</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GZMB" GraphId="d99e3" Type="Protein">
+    <Comment>Granzyme B</Comment>
+    <BiopaxRef>e11</BiopaxRef>
+    <BiopaxRef>ce6</BiopaxRef>
+    <Graphics FillColor="Transparent"/>
+    </DataNode>
+  <DataNode TextLabel="PRF1" GraphId="efc10" Type="Protein">
+    <Comment>Perforin-1</Comment>
+    <BiopaxRef>e11</BiopaxRef>
+    <BiopaxRef>ce6</BiopaxRef>
+        </DataNode>
+  <Interaction GraphId="id1018903f">
+    <BiopaxRef>baa</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a2263"/>
+      <Point GraphRef="f578c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id145c748b">
+    <BiopaxRef>baa</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="af6ac"/>
+      <Point GraphRef="e5f6d" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1d9b8a98">
+    <Graphics>
+      <Point GraphRef="da66e"/>
+      <Point GraphRef="f5727" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1f42c14b">
+    <BiopaxRef>b60</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cd3c9"/>
+      <Point GraphRef="af393" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id231f9fd5">
+    <Graphics>
+      <Point GraphRef="ee4f6"/>
+      <Point GraphRef="fcc61" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2376cc56">
+    <Graphics>
+      <Point GraphRef="d62ad"/>
+      <Point GraphRef="f40de" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2a4d919f">
+    <Graphics>
+      <Point GraphRef="fb1d8"/>
+      <Point GraphRef="da66e" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2d04d624">
+    <Graphics>
+      <Point GraphRef="bf797"/>
+      <Point GraphRef="c91df" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2f82d7b6">
+    <Graphics>
+      <Point GraphRef="f14ea"/>
+      <Point GraphRef="f31c1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3037117d">
+    <BiopaxRef>baa</BiopaxRef>
+    <BiopaxRef>c7b</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="af72a"/>
+      <Point/>
+      <Point GraphRef="f94bc" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3d816571">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="da66e"/>
+      <Point GraphRef="ba650" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id45912b71">
+    <Graphics>
+      <Point GraphRef="cd3c9"/>
+      <Point GraphRef="d5f4b" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id459d87ac">
+    <Graphics>
+      <Point GraphRef="c1543"/>
+      <Point GraphRef="f9915" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id496f8aeb">
+    <BiopaxRef>baa</BiopaxRef>
+    <BiopaxRef>c7b</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cb2ca"/>
+      <Point GraphRef="f3a1d" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5167efb3">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cd3c9"/>
+      <Point GraphRef="f7078" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id540d8c1">
+    <BiopaxRef>e08</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f6aa4"/>
+      <Point GraphRef="a8f1c" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id55583988">
+    <BiopaxRef>c93</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a8f1c"/>
+      <Point GraphRef="efc10" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id56019ef9">
+    <BiopaxRef>baa</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="db89a"/>
+      <Point GraphRef="e5f6d" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5711f73b">
+    <Graphics>
+      <Point GraphRef="d99e3"/>
+      <Point GraphRef="ed4ab" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5b64b0e9">
+    <BiopaxRef>b60</BiopaxRef>
+    <BiopaxRef>baa</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c919f"/>
+      <Point GraphRef="af393" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5b75c969">
+    <Graphics>
+      <Point GraphRef="a12dd"/>
+      <Point GraphRef="af6ac" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5fd6a0e9">
+    <Graphics>
+      <Point GraphRef="cd3c9"/>
+      <Point GraphRef="a8f1c" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id66c875dd">
+    <BiopaxRef>cf2</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="af72a"/>
+      <Point/>
+      <Point GraphRef="d9aa2" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id69b9a613">
+    <Graphics>
+      <Point GraphRef="f9915"/>
+      <Point GraphRef="d62ad" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id69ec9071">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c75e0"/>
+      <Point GraphRef="f14ea" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7789940f">
+    <BiopaxRef>c7b</BiopaxRef>
+    <BiopaxRef>baa</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="da66e"/>
+      <Point GraphRef="c34a2" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7f00284">
+    <Graphics>
+      <Point GraphRef="c75e0"/>
+      <Point GraphRef="c1543" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7f142a63">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c75e0"/>
+      <Point GraphRef="f40de" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id81f7b5d8">
+    <BiopaxRef>f13</BiopaxRef>
+    <BiopaxRef>c7b</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f40de"/>
+      <Point GraphRef="f5727" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.24744052053187715" Shape="None" GraphId="f94bc"/>
+      <Anchor Position="0.5484544871684058" Shape="None" GraphId="f3a1d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id968667de">
+    <BiopaxRef>c93</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d5f4b"/>
+      <Point GraphRef="d99e3" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida38f0fcc">
+    <Graphics>
+      <Point GraphRef="c6bdb"/>
+      <Point GraphRef="f578c" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb155247a">
+    <BiopaxRef>e08</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f6aa4"/>
+      <Point GraphRef="d5f4b" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idba19f9c0">
+    <BiopaxRef>cf2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c91df"/>
+      <Point GraphRef="fcc61" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d9aa2"/>
+      <Anchor Position="0.7908219054979149" Shape="None" GraphId="fa4c1"/>
+      <Anchor Position="0.4" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idba69f41">
+    <BiopaxRef>bea</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cd3c9"/>
+      <Point GraphRef="cbd93" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbc270982">
+    <BiopaxRef>baa</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ee4f6"/>
+      <Point GraphRef="e5f6d" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbc4e62c2">
+    <BiopaxRef>e08</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="db89a"/>
+      <Point GraphRef="f6aa4" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbe8f423f">
+    <BiopaxRef>cf2</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cb2ca"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="fa4c1" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc0c8e6d5">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a40c1"/>
+      <Point/>
+      <Point GraphRef="f7078" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc2e8a480">
+    <BiopaxRef>c7b</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="da66e"/>
+      <Point/>
+      <Point GraphRef="f40de" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd7846796">
+    <BiopaxRef>baa</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a2263"/>
+      <Point GraphRef="e5f6d" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf7d995e3">
+    <BiopaxRef>baa</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a40c1"/>
+      <Point GraphRef="f578c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf88ebc51">
+    <BiopaxRef>baa</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="db89a"/>
+      <Point GraphRef="f578c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf92ff4d2">
+    <Graphics>
+      <Point GraphRef="e3eb0"/>
+      <Point GraphRef="ee4f6" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfdb52e76">
+    <BiopaxRef>baa</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f31c1"/>
+      <Point GraphRef="af6ac" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfdd73929">
+    <Graphics>
+      <Point GraphRef="ba650"/>
+      <Point GraphRef="e31b9" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Shedding of MICA/B&#10;complex prevents&#10; binding of KLRK1&#10; to tumor cell" GraphId="a4552">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="IGHG1 and&#10;IgE bind&#10;competitively&#10;to FCGR3A" GraphId="c82d8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Natural killer cell adhesion" GraphId="e5f6d">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" LineStyle="Broken" Color="14961e"/>
+  </Label>
+  <Label TextLabel="Innate immune response&#10;" GraphId="b0d92" GroupRef="e3a42">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" LineStyle="Broken" Color="14961e"/>
+  </Label>
+  <Label TextLabel="Adaptive immune response&#10;" GraphId="f9e2e" GroupRef="e3a42">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" LineStyle="Broken" Color="14961e"/>
+  </Label>
+  <Shape TextLabel="Nucleus&#10;" GraphId="a98cc">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="   Natural killer cell   " GraphId="cd6e7">
+    <Graphics Align="Left" ShapeType="RoundedRectangle" Color="ccccff"/>
+  </Shape>
+  <Shape GraphId="fc7a1">
+    <Graphics ShapeType="Mitochondria" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Nucleus" GraphId="d64c6">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="&#10;   Tumor cell" GraphId="e1475">
+    <Graphics Align="Left" ShapeType="RoundedRectangle" Color="99ccff"/>
+  </Shape>
+  <Group GroupId="a8e75" GraphId="a6dc7" Style="Group"/>
+  <Group GroupId="c64a5" GraphId="ba650" Style="Group">
+    <BiopaxRef>baa</BiopaxRef>
+  </Group>
+  <Group GroupId="dc2c6" GraphId="bf797" Style="Complex">
+    <BiopaxRef>aea</BiopaxRef>
+    <BiopaxRef>baa</BiopaxRef>
+  </Group>
+  <Group GroupId="e3a42" GraphId="e31b9">
+    <BiopaxRef>baa</BiopaxRef>
+    <BiopaxRef>f13</BiopaxRef>
+  </Group>
+  <Group GroupId="b08cb" GraphId="f40de" Style="Complex"/>
+  <Group GroupId="d25c4" GraphId="f5727" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >malignant cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0001064</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b32">
+      <bp:ID >31134055</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The Natural Cytotoxicity Receptors in Health and Disease.</bp:TITLE>
+      <bp:SOURCE >Front Immunol</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Barrow AD</bp:AUTHORS>
+      <bp:AUTHORS >Martin CJ</bp:AUTHORS>
+      <bp:AUTHORS >Colonna M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c9b">
+      <bp:ID >28477742</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Drug resistance in pancreatic cancer: Impact of altered energy metabolism.</bp:TITLE>
+      <bp:SOURCE >Crit Rev Oncol Hematol</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Grasso C</bp:AUTHORS>
+      <bp:AUTHORS >Jansen G</bp:AUTHORS>
+      <bp:AUTHORS >Giovannetti E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c28">
+      <bp:ID >31088566</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >High glucose promotes pancreatic cancer cells to escape from immune surveillance via AMPK-Bmi1-GATA2-MICA/B pathway.</bp:TITLE>
+      <bp:SOURCE >J Exp Clin Cancer Res</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Duan Q</bp:AUTHORS>
+      <bp:AUTHORS >Li H</bp:AUTHORS>
+      <bp:AUTHORS >Gao C</bp:AUTHORS>
+      <bp:AUTHORS >Zhao H</bp:AUTHORS>
+      <bp:AUTHORS >Wu S</bp:AUTHORS>
+      <bp:AUTHORS >Wu H</bp:AUTHORS>
+      <bp:AUTHORS >Wang C</bp:AUTHORS>
+      <bp:AUTHORS >Shen Q</bp:AUTHORS>
+      <bp:AUTHORS >Yin T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f13">
+      <bp:ID >29660367</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Natural killer cells and their therapeutic role in pancreatic cancer: A systematic review.</bp:TITLE>
+      <bp:SOURCE >Pharmacol Ther</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Van Audenaerde JRM</bp:AUTHORS>
+      <bp:AUTHORS >Roeyen G</bp:AUTHORS>
+      <bp:AUTHORS >Darcy PK</bp:AUTHORS>
+      <bp:AUTHORS >Kershaw MH</bp:AUTHORS>
+      <bp:AUTHORS >Peeters M</bp:AUTHORS>
+      <bp:AUTHORS >Smits ELJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aea">
+      <bp:ID >27622013</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The proto-oncogene Myc drives expression of the NK cell-activating NKp30 ligand B7-H6 in tumor cells.</bp:TITLE>
+      <bp:SOURCE >Oncoimmunology</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Textor S</bp:AUTHORS>
+      <bp:AUTHORS >Bossler F</bp:AUTHORS>
+      <bp:AUTHORS >Henrich KO</bp:AUTHORS>
+      <bp:AUTHORS >Gartlgruber M</bp:AUTHORS>
+      <bp:AUTHORS >Pollmann J</bp:AUTHORS>
+      <bp:AUTHORS >Fiegler N</bp:AUTHORS>
+      <bp:AUTHORS >Arnold A</bp:AUTHORS>
+      <bp:AUTHORS >Westermann F</bp:AUTHORS>
+      <bp:AUTHORS >Waldburger N</bp:AUTHORS>
+      <bp:AUTHORS >Breuhahn K</bp:AUTHORS>
+      <bp:AUTHORS >Golfier S</bp:AUTHORS>
+      <bp:AUTHORS >Witzens-Harig M</bp:AUTHORS>
+      <bp:AUTHORS >Cerwenka A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce6">
+      <bp:ID >12355441</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Granzymes are essential for natural killer cell-mediated and perf-facilitated tumor control.</bp:TITLE>
+      <bp:SOURCE >Eur J Immunol</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Pardo J</bp:AUTHORS>
+      <bp:AUTHORS >Balkow S</bp:AUTHORS>
+      <bp:AUTHORS >Anel A</bp:AUTHORS>
+      <bp:AUTHORS >Simon MM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf2">
+      <bp:ID >24780758</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Metalloprotease-mediated tumor cell shedding of B7-H6, the ligand of the natural killer cell-activating receptor NKp30.</bp:TITLE>
+      <bp:SOURCE >Cancer Res</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Schlecker E</bp:AUTHORS>
+      <bp:AUTHORS >Fiegler N</bp:AUTHORS>
+      <bp:AUTHORS >Arnold A</bp:AUTHORS>
+      <bp:AUTHORS >Altevogt P</bp:AUTHORS>
+      <bp:AUTHORS >Rose-John S</bp:AUTHORS>
+      <bp:AUTHORS >Moldenhauer G</bp:AUTHORS>
+      <bp:AUTHORS >Sucker A</bp:AUTHORS>
+      <bp:AUTHORS >Paschen A</bp:AUTHORS>
+      <bp:AUTHORS >von Strandmann EP</bp:AUTHORS>
+      <bp:AUTHORS >Textor S</bp:AUTHORS>
+      <bp:AUTHORS >Cerwenka A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e08">
+      <bp:ID >30504141</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >CD226 regulates natural killer cell antitumor responses via phosphorylation-mediated inactivation of transcription factor FOXO1.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Du X</bp:AUTHORS>
+      <bp:AUTHORS >de Almeida P</bp:AUTHORS>
+      <bp:AUTHORS >Manieri N</bp:AUTHORS>
+      <bp:AUTHORS >de Almeida Nagata D</bp:AUTHORS>
+      <bp:AUTHORS >Wu TD</bp:AUTHORS>
+      <bp:AUTHORS >Harden Bowles K</bp:AUTHORS>
+      <bp:AUTHORS >Arumugam V</bp:AUTHORS>
+      <bp:AUTHORS >Schartner J</bp:AUTHORS>
+      <bp:AUTHORS >Cubas R</bp:AUTHORS>
+      <bp:AUTHORS >Mittman S</bp:AUTHORS>
+      <bp:AUTHORS >Javinal V</bp:AUTHORS>
+      <bp:AUTHORS >Anderson KR</bp:AUTHORS>
+      <bp:AUTHORS >Warming S</bp:AUTHORS>
+      <bp:AUTHORS >Grogan JL</bp:AUTHORS>
+      <bp:AUTHORS >Chiang EY</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="baa">
+      <bp:ID >29660367</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Natural killer cells and their therapeutic role in pancreatic cancer: A systematic review.</bp:TITLE>
+      <bp:SOURCE >Pharmacol Ther</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Van Audenaerde JRM</bp:AUTHORS>
+      <bp:AUTHORS >Roeyen G</bp:AUTHORS>
+      <bp:AUTHORS >Darcy PK</bp:AUTHORS>
+      <bp:AUTHORS >Kershaw MH</bp:AUTHORS>
+      <bp:AUTHORS >Peeters M</bp:AUTHORS>
+      <bp:AUTHORS >Smits ELJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >pancreatic cancer pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000626</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >natural killer cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000623</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c7b">
+      <bp:ID >33363734</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NKG2D and MICA/B shedding: a 'tag game' between NK cells and malignant cells.</bp:TITLE>
+      <bp:SOURCE >Clin Transl Immunology</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Xing S</bp:AUTHORS>
+      <bp:AUTHORS >Ferrari de Andrade L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >pancreatic cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:1793</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b60">
+      <bp:ID >21654544</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The presence of IGHG1 in human pancreatic carcinomas is associated with immune evasion mechanisms.</bp:TITLE>
+      <bp:SOURCE >Pancreas</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Li X</bp:AUTHORS>
+      <bp:AUTHORS >Ni R</bp:AUTHORS>
+      <bp:AUTHORS >Chen J</bp:AUTHORS>
+      <bp:AUTHORS >Liu Z</bp:AUTHORS>
+      <bp:AUTHORS >Xiao M</bp:AUTHORS>
+      <bp:AUTHORS >Jiang F</bp:AUTHORS>
+      <bp:AUTHORS >Lu C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c2c">
+      <bp:ID >11698225</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The biology of human natural killer-cell subsets.</bp:TITLE>
+      <bp:SOURCE >Trends Immunol</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Cooper MA</bp:AUTHORS>
+      <bp:AUTHORS >Fehniger TA</bp:AUTHORS>
+      <bp:AUTHORS >Caligiuri MA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e11">
+      <bp:ID >20536554</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Perforin: structure, function, and role in human immunopathology.</bp:TITLE>
+      <bp:SOURCE >Immunol Rev</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Voskoboinik I</bp:AUTHORS>
+      <bp:AUTHORS >Dunstone MA</bp:AUTHORS>
+      <bp:AUTHORS >Baran K</bp:AUTHORS>
+      <bp:AUTHORS >Whisstock JC</bp:AUTHORS>
+      <bp:AUTHORS >Trapani JA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bea">
+      <bp:ID >18803764</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Immunoglobulin E antibodies from pancreatic cancer patients mediate antibody-dependent cell-mediated cytotoxicity against pancreatic cancer cells.</bp:TITLE>
+      <bp:SOURCE >Clin Exp Immunol</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Fu SL</bp:AUTHORS>
+      <bp:AUTHORS >Pierre J</bp:AUTHORS>
+      <bp:AUTHORS >Smith-Norowitz TA</bp:AUTHORS>
+      <bp:AUTHORS >Hagler M</bp:AUTHORS>
+      <bp:AUTHORS >Bowne W</bp:AUTHORS>
+      <bp:AUTHORS >Pincus MR</bp:AUTHORS>
+      <bp:AUTHORS >Mueller CM</bp:AUTHORS>
+      <bp:AUTHORS >Zenilman ME</bp:AUTHORS>
+      <bp:AUTHORS >Bluth MH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c93">
+      <bp:ID >23162553</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Human NK cell lytic granules and regulation of their exocytosis.</bp:TITLE>
+      <bp:SOURCE >Front Immunol</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Krzewski K</bp:AUTHORS>
+      <bp:AUTHORS >Coligan JE</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

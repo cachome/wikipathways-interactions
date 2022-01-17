@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Clear cell renal cell carcinoma pathways" Version="20170505" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Inactivation of VHL due to mutation or DNA methylation is an early event in ccRCC that leads to accumulation of the transcription factor HIF-&#945;, which dimerizes with HIF-&#946; and translocates to the nucleus. The resulting HIF-&#945;&#8211;HIF-&#946;-induced up-regulation of downstream genes promotes cell proliferation, glucose uptake, glycolysis, and angiogenesis. 
+
+Mutations in chromatin remodelers and histone modifiers including PBRM1, SETD2, BAP1 and KDM5C lead to global abnormal gene expression patterns, and deficiency in DNA repair, which contributes to genomic instability. 
+
+Activation of PI3K&#8211;mTOR signaling promotes cell proliferation and tumor aggression, and increases translation of HIF-&#945;, leading to enhanced HIF-&#945;-mediated gene expression. The proposed development pattern of ccRCC is based on tumor evolution analyses and current understanding of genomic variation.
+
+Description adapted from "Precision medicine from the renal cancer genome", Riazalhosseini and Lathrop.
+
+Additional sources of information:
+mTORC1 complex is based on [https://en.wikipedia.org/wiki/Mechanistic_target_of_rapamycin#mTORC1 Wikipedia]. PDGFB and TGFB as targets of HIF1A based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]. </Comment>
+  <BiopaxRef>aed</BiopaxRef>
+  <Graphics BoardWidth="1573.778801843318" BoardHeight="1359.4930875576038"/>
+  <DataNode TextLabel="DEPTOR" GraphId="f5863" Type="GeneProduct" GroupRef="c3551">
+        </DataNode>
+  <DataNode TextLabel="ACACA" GraphId="a5393" Type="GeneProduct" GroupRef="eb98d">
+        </DataNode>
+  <DataNode TextLabel="KCNJ2" GraphId="a5575" Type="GeneProduct" GroupRef="fcb03">
+        </DataNode>
+  <DataNode TextLabel="EFCAB3" GraphId="a97e6" Type="GeneProduct" GroupRef="fcb03">
+        </DataNode>
+  <DataNode TextLabel="glucose" GraphId="ac000" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FASN" GraphId="b7dd9" Type="GeneProduct" GroupRef="ad109">
+        </DataNode>
+  <DataNode TextLabel="ENPP3" GraphId="ba5a4" Type="GeneProduct" GroupRef="fcb03">
+        </DataNode>
+  <DataNode TextLabel="Fatty Acid Synthesis" GraphId="c1f52" Type="Pathway" GroupRef="ad109">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="HK3" GraphId="c4d64" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="AMPK" GraphId="dc837" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Cell proliferation" GraphId="e2cf4" Type="Pathway" GroupRef="fcb03">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Glycolysis" GraphId="e4344" Type="Pathway" GroupRef="c1ebb">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="PDGFRA" GraphId="e5c0b" Type="GeneProduct" GroupRef="dd72f">
+        </DataNode>
+  <DataNode TextLabel="Protein Translation" GraphId="e672e" Type="Pathway" GroupRef="d0a61">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="FLT1" GraphId="e9ada" Type="GeneProduct" GroupRef="dd72f">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="eecbd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EGFR" GraphId="f771e" Type="GeneProduct" GroupRef="b06d9">
+        </DataNode>
+  <DataNode TextLabel="CAMK1" GraphId="f7941" Type="GeneProduct" GroupRef="fcb03">
+        </DataNode>
+  <DataNode TextLabel="Angiogenesis" GraphId="bf38a" Type="Pathway" GroupRef="dd72f">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="AKT1" GraphId="d601d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MLST8" GraphId="aa5bc" Type="GeneProduct" GroupRef="c3551">
+        </DataNode>
+  <DataNode TextLabel="SQSTM1" GraphId="b3650" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MTOR" GraphId="b28fa" Type="GeneProduct" GroupRef="c3551">
+        </DataNode>
+  <DataNode TextLabel="RPTOR" GraphId="da670" Type="GeneProduct" GroupRef="c3551">
+        </DataNode>
+  <DataNode TextLabel="TSC1" GraphId="ac53e" Type="GeneProduct" GroupRef="e3534">
+        </DataNode>
+  <DataNode TextLabel="p300" GraphId="d0be2" Type="GeneProduct" GroupRef="ab128">
+        </DataNode>
+  <DataNode TextLabel="GRB10" GraphId="efc7f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PI3K" GraphId="ce0d9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MIR21" GraphId="ea405" Type="Rna">
+    <Graphics Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="RTKs" GraphId="e9ef2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PTEN" GraphId="d9c76" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GLUT1" GraphId="edd01" Type="GeneProduct" GroupRef="b06d9">
+        </DataNode>
+  <DataNode TextLabel="VEGFA" GraphId="e15ce" Type="GeneProduct" GroupRef="b06d9">
+        </DataNode>
+  <DataNode TextLabel="RHEB" GraphId="df2b6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="VHL" GraphId="ad59d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HIF1A" GraphId="eb435" Type="GeneProduct" GroupRef="b5482">
+        </DataNode>
+  <DataNode TextLabel="HIF1B" GraphId="e72ae" Type="GeneProduct" GroupRef="b5482">
+        </DataNode>
+  <DataNode TextLabel="PBRM1" GraphId="f8e16" Type="GeneProduct" GroupRef="eedb6">
+    <Comment/>
+        </DataNode>
+  <DataNode TextLabel="SETD2" GraphId="d00eb" Type="GeneProduct" GroupRef="dea19">
+    <Comment/>
+        </DataNode>
+  <DataNode TextLabel="BAP1" GraphId="bdb1e" Type="GeneProduct" GroupRef="eedb6">
+    <Comment/>
+        </DataNode>
+  <DataNode TextLabel="KDM5C" GraphId="c94cb" Type="GeneProduct" GroupRef="dea19">
+    <Comment/>
+        </DataNode>
+  <DataNode TextLabel="H2" GraphId="fc670" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="H3" GraphId="e2943" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="H3" GraphId="ab0a6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="H2" GraphId="ca20e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TSC2" GraphId="fb35a" Type="GeneProduct" GroupRef="e3534">
+        </DataNode>
+  <DataNode TextLabel="HIF1B" GraphId="b5ac1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HIF1A" GraphId="e4125" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HIF1A" GraphId="bfc6a" Type="GeneProduct" GroupRef="f4fcd">
+        </DataNode>
+  <DataNode TextLabel="HIF1B" GraphId="cc7c7" Type="GeneProduct" GroupRef="f4fcd">
+        </DataNode>
+  <DataNode TextLabel="HIF1A" GraphId="dadc5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PDGFB" GraphId="e7282" Type="GeneProduct" GroupRef="b06d9">
+        </DataNode>
+  <DataNode TextLabel="TGFB1" GraphId="c4d27" Type="GeneProduct" GroupRef="b06d9">
+        </DataNode>
+  <DataNode TextLabel="TGFB2" GraphId="f5b9b" Type="GeneProduct" GroupRef="b06d9">
+        </DataNode>
+  <DataNode TextLabel="TGFB3" GraphId="ee95d" Type="GeneProduct" GroupRef="b06d9">
+        </DataNode>
+  <DataNode TextLabel="CBP" GraphId="d89ab" Type="GeneProduct" GroupRef="ab128">
+        </DataNode>
+  <DataNode TextLabel="p300" GraphId="f28a6" Type="GeneProduct" GroupRef="b5482">
+        </DataNode>
+  <DataNode TextLabel="CBP" GraphId="b16d6" Type="GeneProduct" GroupRef="b5482">
+        </DataNode>
+  <DataNode TextLabel="AKT1S1" GraphId="e8631" Type="GeneProduct" GroupRef="c3551">
+        </DataNode>
+  <DataNode TextLabel="ACACB" GraphId="b3d25" Type="GeneProduct" GroupRef="eb98d">
+        </DataNode>
+  <DataNode TextLabel="ACLY" GraphId="bbb5d" Type="GeneProduct" GroupRef="ad109">
+        </DataNode>
+  <DataNode TextLabel="MDH1" GraphId="dc842" Type="GeneProduct" GroupRef="ad109">
+        </DataNode>
+  <DataNode TextLabel="ME1" GraphId="ec611" Type="GeneProduct" GroupRef="ad109">
+        </DataNode>
+  <DataNode TextLabel="HK1" GraphId="b97fc" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="HK2" GraphId="bb0bb" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="GPI" GraphId="ecf8d" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="PFKL" GraphId="a54fc" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="PFKP" GraphId="caca8" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="PFKM" GraphId="ca4ea" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="ALDOA" GraphId="c0284" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="ALDOB" GraphId="b2ee4" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="ALDOC" GraphId="ae86f" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="TPI1" GraphId="e9c0f" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="GAPDH" GraphId="f23d2" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="PGK1" GraphId="e7e84" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="PGK2" GraphId="b0a10" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="PGM1" GraphId="bc07d" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="PGM2" GraphId="f5afe" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="ENO1" GraphId="cbc2f" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="ENO2" GraphId="b956a" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="ENO3" GraphId="f7ddb" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="PHGDH" GraphId="a9c32" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="PSAT1" GraphId="ce73c" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="PSPH" GraphId="b4ba3" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="SHMT1" GraphId="f3c5c" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="SHMT2" GraphId="a089f" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="SDS" GraphId="daa83" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="SDSL" GraphId="e44ca" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="PKLR" GraphId="d86e3" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="LDHA" GraphId="a08a1" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="LDHB" GraphId="c5530" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="LDHD" GraphId="d9a83" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="LDHC" GraphId="c293c" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="PKM" GraphId="d0044" Type="GeneProduct" GroupRef="c1ebb">
+        </DataNode>
+  <DataNode TextLabel="HIF1A" GraphId="e91a4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PKM2" GraphId="faf77" Type="GeneProduct" GroupRef="b06d9">
+        </DataNode>
+  <DataNode TextLabel="PDGFRB" GraphId="ef92f" Type="GeneProduct" GroupRef="dd72f">
+        </DataNode>
+  <DataNode TextLabel="KDR" GraphId="ecedf" Type="GeneProduct" GroupRef="dd72f">
+        </DataNode>
+  <DataNode TextLabel="BHLHE41" GraphId="e60ef" Type="GeneProduct" GroupRef="fcb03">
+        </DataNode>
+  <DataNode TextLabel="CDH13" GraphId="ed855" Type="GeneProduct" GroupRef="fcb03">
+        </DataNode>
+  <DataNode TextLabel="CEP290" GraphId="e7c2e" Type="GeneProduct" GroupRef="fcb03">
+        </DataNode>
+  <DataNode TextLabel="KSR1" GraphId="bd896" Type="GeneProduct" GroupRef="fcb03">
+        </DataNode>
+  <DataNode TextLabel="PGBD5" GraphId="aab12" Type="GeneProduct" GroupRef="fcb03">
+        </DataNode>
+  <DataNode TextLabel="PLOD2" GraphId="e145a" Type="GeneProduct" GroupRef="fcb03">
+        </DataNode>
+  <DataNode TextLabel="SSPN" GraphId="c310b" Type="GeneProduct" GroupRef="fcb03">
+        </DataNode>
+  <DataNode TextLabel="RAPGEF5" GraphId="c789a" Type="GeneProduct" GroupRef="fcb03">
+        </DataNode>
+  <DataNode TextLabel="ZEB1" GraphId="df596" Type="GeneProduct" GroupRef="fcb03">
+        </DataNode>
+  <DataNode TextLabel="TOX2" GraphId="d6a35" Type="GeneProduct" GroupRef="fcb03">
+        </DataNode>
+  <State GraphRef="eecbd" TextLabel="P" GraphId="f06ea">
+    <Comment>parent=G8JLH9; position=Y705; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d601d" TextLabel="" GraphId="b2c17">
+    <Comment>Activating mutation</Comment>
+    <Graphics ShapeType="Triangle"/>
+    </State>
+  <State GraphRef="b28fa" TextLabel="" GraphId="ca787">
+    <Comment>Activating mutation</Comment>
+    <Graphics ShapeType="Triangle"/>
+    </State>
+  <State GraphRef="ac53e" TextLabel="" GraphId="f4979">
+    <Comment>Inactivating mutation</Comment>
+    <Graphics ShapeType="Hexagon"/>
+    </State>
+  <State GraphRef="efc7f" TextLabel="Me" GraphId="eba88">
+    <Comment>Promoter methylation</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ea405" TextLabel="Me" GraphId="a537f">
+    <Comment>Promoter methylation</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e9ef2" TextLabel="" GraphId="fc274">
+    <Comment>Activating mutation</Comment>
+    <Graphics ShapeType="Triangle"/>
+    </State>
+  <State GraphRef="d9c76" TextLabel="" GraphId="ac13e">
+    <Comment>inactivating mutation</Comment>
+    <Graphics ShapeType="Hexagon"/>
+    </State>
+  <State GraphRef="ad59d" TextLabel="" GraphId="a4d4e">
+    <Comment>Mutation or methylation (inactivation)</Comment>
+    <Graphics ShapeType="Hexagon"/>
+    </State>
+  <State GraphRef="f8e16" TextLabel="" GraphId="c16a3">
+    <Comment>Inactivating mutation</Comment>
+    <Graphics ShapeType="Hexagon"/>
+    </State>
+  <State GraphRef="d00eb" TextLabel="" GraphId="e1733">
+    <Comment>Inactivating mutation</Comment>
+    <Graphics ShapeType="Hexagon"/>
+    </State>
+  <State GraphRef="bdb1e" TextLabel="" GraphId="f64da">
+    <Comment>Inactivating mutation</Comment>
+    <Graphics ShapeType="Hexagon"/>
+    </State>
+  <State GraphRef="c94cb" TextLabel="" GraphId="cb6de">
+    <Comment>Inactivating mutation</Comment>
+    <Graphics ShapeType="Hexagon"/>
+    </State>
+  <State GraphRef="fc670" TextLabel="Ub" GraphId="c2c3b">
+    <Comment>position=K119; ptm=u;</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ab0a6" TextLabel="Me" GraphId="b8761">
+    <Comment>position=K9; ptm=m;</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ab0a6" TextLabel="Me" GraphId="c002b">
+    <Comment>position=K36; ptm=m;</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="fb35a" TextLabel="" GraphId="bbbcd">
+    <Comment>Inactivating mutation</Comment>
+    <Graphics ShapeType="Hexagon"/>
+    </State>
+  <State GraphRef="dadc5" TextLabel="Ub" GraphId="bae59">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id1abccd8d">
+    <Graphics>
+      <Point GraphRef="d2a36"/>
+      <Point GraphRef="c813d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3345ea96">
+    <BiopaxRef>a50</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ac000"/>
+      <Point GraphRef="ea405" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id59a03ee4">
+    <Graphics>
+      <Point GraphRef="eecbd"/>
+      <Point GraphRef="cfec7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6c8f6c1b">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="eecbd"/>
+      <Point GraphRef="e6209" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id76fe39b8">
+    <Graphics>
+      <Point GraphRef="dadc5"/>
+      <Point GraphRef="f24d7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id779571da">
+    <BiopaxRef>ec4</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="dc837"/>
+      <Point GraphRef="d2a36" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7e461c1b">
+    <BiopaxRef>d25</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="f8e16"/>
+      <Point GraphRef="eecbd" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida8b7388">
+    <BiopaxRef>d06</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e91a4"/>
+      <Point/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="e4125" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb133fbea">
+    <BiopaxRef>d06</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="eecbd"/>
+      <Point GraphRef="e91a4" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc84d00c8">
+    <BiopaxRef>be8</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="faf77"/>
+      <Point GraphRef="eecbd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf9dded06">
+    <Comment>AMPK phosphorylates TSC2 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2735030/)</Comment>
+    <BiopaxRef>ec4</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="dc837"/>
+      <Point GraphRef="fb35a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb8fda056">
+    <Graphics>
+      <Point GraphRef="eb376"/>
+      <Point GraphRef="efdba" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="cfec7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id113942e4">
+    <Graphics>
+      <Point GraphRef="edd01"/>
+      <Point GraphRef="b5d23" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida67f7091">
+    <Graphics>
+      <Point GraphRef="e4125"/>
+      <Point GraphRef="bfc6a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide308fea3">
+    <Graphics>
+      <Point GraphRef="ad59d"/>
+      <Point GraphRef="a1e58" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf75c1c60">
+    <Graphics>
+      <Point GraphRef="b5ac1"/>
+      <Point GraphRef="cc7c7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc71384ee">
+    <BiopaxRef>ec4</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="efc7f"/>
+      <Point GraphRef="ce0d9" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbedb57c">
+    <Graphics>
+      <Point GraphRef="b7dfd"/>
+      <Point GraphRef="efdba" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1ed59f7d">
+    <BiopaxRef>ec4</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ea405"/>
+      <Point GraphRef="d9c76" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id70f99aae">
+    <Graphics>
+      <Point GraphRef="e9ef2"/>
+      <Point GraphRef="ce0d9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideaba08aa">
+    <Graphics>
+      <Point GraphRef="d9c76"/>
+      <Point GraphRef="ce0d9" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida1c08b30">
+    <BiopaxRef>ec4</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b3650"/>
+      <Point GraphRef="aa979"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idedbf4f63">
+    <Comment>PDGFB and TGFB1,2,3 as targets of HIF1A based on KEGG (http://www.genome.jp/kegg-bin/show_pathway?hsa05211)</Comment>
+    <Graphics>
+      <Point GraphRef="efdba"/>
+      <Point GraphRef="d9098" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id170e920c">
+    <Graphics>
+      <Point GraphRef="d601d"/>
+      <Point GraphRef="c3f28" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4785c2e4">
+    <Graphics>
+      <Point GraphRef="c476b"/>
+      <Point GraphRef="e4125" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id65fc455">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="fe3c7"/>
+      <Point GraphRef="e73c4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6d4cf6b6">
+    <BiopaxRef>ec4</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c3f28"/>
+      <Point GraphRef="df2b6" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9cc40d42">
+    <Graphics>
+      <Point GraphRef="e4125"/>
+      <Point GraphRef="dadc5" ArrowHead="Arrow"/>
+      <Anchor Position="0.718960181425936" Shape="None" GraphId="a1e58"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1bb15496">
+    <Graphics>
+      <Point GraphRef="ce0d9"/>
+      <Point GraphRef="d601d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id72c61b7c">
+    <BiopaxRef>ec4</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="df2b6"/>
+      <Point GraphRef="c476b" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="aa979"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fe44b">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e15ce"/>
+      <Point GraphRef="e6209" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fc59a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f771e"/>
+      <Point GraphRef="fd254" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b4cce">
+    <Graphics>
+      <Point GraphRef="ab0a6"/>
+      <Point GraphRef="e2943" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.49250708788983044" Shape="None" GraphId="e73c4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b0b5a">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c476b"/>
+      <Point GraphRef="f7325" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a8620">
+    <Graphics>
+      <Point GraphRef="d601d"/>
+      <Point GraphRef="c476b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ab0f1">
+    <Graphics>
+      <Point GraphRef="fc670"/>
+      <Point GraphRef="ca20e" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4923113278706204" Shape="None" GraphId="fa022"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="afd16">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="cc1a2"/>
+      <Point GraphRef="fa022" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ecf0b">
+    <Comment>http://www.genome.jp/kegg-bin/show_pathway?hsa05211</Comment>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e7282"/>
+      <Point GraphRef="e6209" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ddede">
+    <Comment>http://www.genome.jp/kegg-bin/show_pathway?hsa05211</Comment>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c4d27"/>
+      <Point GraphRef="e6209" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e4a00">
+    <Comment>http://www.genome.jp/kegg-bin/show_pathway?hsa05211</Comment>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f5b9b"/>
+      <Point GraphRef="e6209" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aa654">
+    <Comment>http://www.genome.jp/kegg-bin/show_pathway?hsa05211</Comment>
+    <Graphics>
+      <Point GraphRef="ee95d"/>
+      <Point GraphRef="e6209" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cda29">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="c476b"/>
+      <Point GraphRef="fd254" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Malfunction of epigenetic machinery" GraphId="aaf6b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Legend" GraphId="e2291">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Activation of PI3K-mTOR pathway" GraphId="d6e66">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cell migration&#10;and invasion" GraphId="f0c81" GroupRef="d0a61">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Activating mutation" GraphId="f1d02">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inactivating mutation" GraphId="d8a9a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Proteasome degradation" GraphId="ec194">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="b6b9d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="a4df6">
+    <Graphics ShapeType="Hexagon"/>
+  </Shape>
+  <Shape GraphId="ad4ea">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="add41">
+    <Graphics ShapeType="Triangle"/>
+  </Shape>
+  <Shape GraphId="e8ede">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f24d7">
+    <Graphics ShapeType="mim-degradation"/>
+  </Shape>
+  <Shape GraphId="bea30">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="cea42" Style="Group"/>
+  <Group GroupId="f9feb" Style="Group"/>
+  <Group GroupId="c7790" Style="Group"/>
+  <Group GroupId="abb06" Style="Group"/>
+  <Group GroupId="f223f" Style="Group"/>
+  <Group GroupId="e10cc" Style="Group"/>
+  <Group GroupId="f13a7" Style="Group"/>
+  <Group GroupId="e8977" Style="Group"/>
+  <Group GroupId="af241" Style="Group"/>
+  <Group GroupId="c34e8" Style="Group"/>
+  <Group GroupId="c92cc" GraphId="b09eb" Style="Group"/>
+  <Group GroupId="f943f" GraphId="b3e47" Style="Group"/>
+  <Group GroupId="c1ebb" GraphId="b5d23" Style="Pathway"/>
+  <Group GroupId="f4fcd" GraphId="b7dfd" Style="Complex"/>
+  <Group GroupId="bdf0a" GraphId="bebe9" Style="Group"/>
+  <Group GroupId="e3534" GraphId="c3f28" Style="Complex"/>
+  <Group GroupId="c3551" GraphId="c476b" Style="Complex">
+    <Comment>mTORC1 complex based on Wikipedia (https://en.wikipedia.org/wiki/Mechanistic_target_of_rapamycin)</Comment>
+  </Group>
+  <Group GroupId="ad109" GraphId="c813d" Style="Pathway"/>
+  <Group GroupId="eedb6" GraphId="cc1a2" Style="Group"/>
+  <Group GroupId="eb98d" GraphId="d2a36" Style="Group"/>
+  <Group GroupId="a68f7" GraphId="d4eb0" Style="Group"/>
+  <Group GroupId="b06d9" GraphId="d9098" Style="Group"/>
+  <Group GroupId="dd72f" GraphId="e6209" Style="Pathway"/>
+  <Group GroupId="ab128" GraphId="eb376" Style="Group"/>
+  <Group GroupId="e43ba" GraphId="ebdaf" Style="Group"/>
+  <Group GroupId="b5482" GraphId="efdba" Style="Complex">
+    <Comment>p300/CBP added based on KEGG (http://www.genome.jp/kegg-bin/show_pathway?hsa05211)</Comment>
+  </Group>
+  <Group GroupId="d0a61" GraphId="f7325" Style="Group"/>
+  <Group GroupId="a7d5c" GraphId="fac6c" Style="Group"/>
+  <Group GroupId="fcb03" GraphId="fd254" Style="Pathway">
+    <BiopaxRef>ce4</BiopaxRef>
+  </Group>
+  <Group GroupId="a11fe" GraphId="fd29c" Style="Group"/>
+  <Group GroupId="dea19" GraphId="fe3c7" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >renal clear cell carcinoma</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:4467</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aed">
+      <bp:ID >27694978</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Precision medicine from the renal cancer genome.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Nephrol</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Riazalhosseini Y</bp:AUTHORS>
+      <bp:AUTHORS >Lathrop M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d25">
+      <bp:ID >28329682</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The SWI/SNF Protein PBRM1 Restrains VHL-Loss-Driven Clear Cell Renal Cell Carcinoma.</bp:TITLE>
+      <bp:SOURCE >Cell Rep</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Nargund AM</bp:AUTHORS>
+      <bp:AUTHORS >Pham CG</bp:AUTHORS>
+      <bp:AUTHORS >Dong Y</bp:AUTHORS>
+      <bp:AUTHORS >Wang PI</bp:AUTHORS>
+      <bp:AUTHORS >Osmangeyoglu HU</bp:AUTHORS>
+      <bp:AUTHORS >Xie Y</bp:AUTHORS>
+      <bp:AUTHORS >Aras O</bp:AUTHORS>
+      <bp:AUTHORS >Han S</bp:AUTHORS>
+      <bp:AUTHORS >Oyama T</bp:AUTHORS>
+      <bp:AUTHORS >Takeda S</bp:AUTHORS>
+      <bp:AUTHORS >Ray CE</bp:AUTHORS>
+      <bp:AUTHORS >Dong Z</bp:AUTHORS>
+      <bp:AUTHORS >Berge M</bp:AUTHORS>
+      <bp:AUTHORS >Hakimi AA</bp:AUTHORS>
+      <bp:AUTHORS >Monette S</bp:AUTHORS>
+      <bp:AUTHORS >Lekaye CL</bp:AUTHORS>
+      <bp:AUTHORS >Koutcher JA</bp:AUTHORS>
+      <bp:AUTHORS >Leslie CS</bp:AUTHORS>
+      <bp:AUTHORS >Creighton CJ</bp:AUTHORS>
+      <bp:AUTHORS >Weinhold N</bp:AUTHORS>
+      <bp:AUTHORS >Lee W</bp:AUTHORS>
+      <bp:AUTHORS >Tickoo SK</bp:AUTHORS>
+      <bp:AUTHORS >Wang Z</bp:AUTHORS>
+      <bp:AUTHORS >Cheng EH</bp:AUTHORS>
+      <bp:AUTHORS >Hsieh JJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >kidney cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:1000497</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a50">
+      <bp:ID >21613227</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MicroRNA-21 orchestrates high glucose-induced signals to TOR complex 1, resulting in renal cell pathology in diabetes.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Dey N</bp:AUTHORS>
+      <bp:AUTHORS >Das F</bp:AUTHORS>
+      <bp:AUTHORS >Mariappan MM</bp:AUTHORS>
+      <bp:AUTHORS >Mandal CC</bp:AUTHORS>
+      <bp:AUTHORS >Ghosh-Choudhury N</bp:AUTHORS>
+      <bp:AUTHORS >Kasinath BS</bp:AUTHORS>
+      <bp:AUTHORS >Choudhury GG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce4">
+      <bp:ID >24979721</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Functional genomics identifies novel genes essential for clear cell renal cell carcinoma tumor cell proliferation and migration.</bp:TITLE>
+      <bp:SOURCE >Oncotarget</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Von Roemeling CA</bp:AUTHORS>
+      <bp:AUTHORS >Marlow LA</bp:AUTHORS>
+      <bp:AUTHORS >Radisky DC</bp:AUTHORS>
+      <bp:AUTHORS >Rohl A</bp:AUTHORS>
+      <bp:AUTHORS >Larsen HE</bp:AUTHORS>
+      <bp:AUTHORS >Wei J</bp:AUTHORS>
+      <bp:AUTHORS >Sasinowska H</bp:AUTHORS>
+      <bp:AUTHORS >Zhu H</bp:AUTHORS>
+      <bp:AUTHORS >Drake R</bp:AUTHORS>
+      <bp:AUTHORS >Sasinowski M</bp:AUTHORS>
+      <bp:AUTHORS >Tun HW</bp:AUTHORS>
+      <bp:AUTHORS >Copland JA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d06">
+      <bp:ID >24058770</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >PKM2, STAT3 and HIF-1&#945;: The Warburg's vicious circle.</bp:TITLE>
+      <bp:SOURCE >JAKSTAT</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Demaria M</bp:AUTHORS>
+      <bp:AUTHORS >Poli V</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >kidney proximal convoluted tubule epithelial cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:1000838</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be8">
+      <bp:ID >22306293</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Pyruvate kinase M2 regulates gene transcription by acting as a protein kinase.</bp:TITLE>
+      <bp:SOURCE >Mol Cell</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Gao X</bp:AUTHORS>
+      <bp:AUTHORS >Wang H</bp:AUTHORS>
+      <bp:AUTHORS >Yang JJ</bp:AUTHORS>
+      <bp:AUTHORS >Liu X</bp:AUTHORS>
+      <bp:AUTHORS >Liu ZR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec4">
+      <bp:ID >23792563</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Comprehensive molecular characterization of clear cell renal cell carcinoma.</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

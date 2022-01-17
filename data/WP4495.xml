@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="IL-10 anti-inflammatory signaling pathway " Version="20190114" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">IL-10 Anti-inflammatory Signaling Pathway.
+Pathway based on Biocarta pathway (M6778).
+https://cgap.nci.nih.gov/Pathways/BioCarta/h_il10Pathway
+
+IL-10 binds to its respective IL-10 receptor which activates the JAK/STAT pathway and MAPK pathway involving the p38 kinases. This leads to the induction of the enzyme heme oxygenase-1 (HMOX1) which is involved in the biosynthesis of heme, and catalyzes the reaction producing the heme precursor biliverdin. The ani-inflammatory actions of HMOX appear to be the result of signaling by carbon monoxide which inhibits pro-inflammatory cytokine production. </Comment>
+  <BiopaxRef>e91</BiopaxRef>
+  <BiopaxRef>a57</BiopaxRef>
+  <Graphics BoardWidth="931.0" BoardHeight="790.9999999999997"/>
+  <DataNode TextLabel="BLVRA" Type="GeneProduct" GroupRef="a5f5e">
+        </DataNode>
+  <DataNode TextLabel="BLVRB" Type="GeneProduct" GroupRef="a5f5e">
+        </DataNode>
+  <DataNode TextLabel="IL10RA" Type="GeneProduct" GroupRef="f2130">
+        </DataNode>
+  <DataNode TextLabel="IL10RB" Type="GeneProduct" GroupRef="f2130">
+        </DataNode>
+  <DataNode TextLabel="IL1A" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="JAK1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="STAT1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="STAT2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="ad5f7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TNF" GraphId="ae557" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Bilirubin" GraphId="bfb74" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Heme" GraphId="c659a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="IL10" GraphId="d3143" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="p38 MAPK pathway" GraphId="d5661" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Biliverdin" GraphId="d6031" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="HMOX1" GraphId="ea211" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CO" GraphId="fa567" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="HMOX1" GraphId="dfb97" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id240c331f">
+    <Graphics>
+      <Point GraphRef="d3143"/>
+      <Point GraphRef="d7ac9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2529e526">
+    <Graphics>
+      <Point GraphRef="d6031"/>
+      <Point GraphRef="bfb74" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2a8a799">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b9101"/>
+      <Point GraphRef="dfb97" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3f27954d">
+    <Graphics>
+      <Point GraphRef="ad5f7"/>
+      <Point GraphRef="d4e00" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id44baffd2">
+    <Graphics>
+      <Point GraphRef="fa567"/>
+      <Point ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id89b220a1">
+    <Graphics>
+      <Point GraphRef="ad5f7"/>
+      <Point GraphRef="d5661" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9b175f7c">
+    <Graphics>
+      <Point GraphRef="c659a"/>
+      <Point GraphRef="d6031" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd8062047">
+    <Graphics>
+      <Point GraphRef="d4e00"/>
+      <Point GraphRef="ea211" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id15260aef">
+    <Graphics>
+      <Point GraphRef="d5661"/>
+      <Point GraphRef="ea211" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id29c2a376">
+    <Graphics>
+      <Point GraphRef="d8e16"/>
+      <Point GraphRef="b2e83" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideca6586e">
+    <Graphics>
+      <Point GraphRef="b2e83"/>
+      <Point GraphRef="ae557" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="id541c170c">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id960cfab1">
+    <Graphics>
+      <Point GraphRef="cf13f"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id9d40498a">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="idd07cefe7">
+    <Graphics>
+      <Point GraphRef="dfb97"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f0d50">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c4758">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Nucleus" GraphId="a1446">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inflammatory cytokine&#10;genes" GraphId="b2e83">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="DNA" GraphId="b9101">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="JAK/STAT induced&#10;genes" GraphId="d4e00">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="LPS induced pathway" GraphId="d8e16">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="+" GraphId="f1938">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Macrophage cytoplasm" GraphId="f4149">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="DNA" GraphId="ab74e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="c89d3">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f9ff8">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="a5f5e" GraphId="cf13f" Style="Complex"/>
+  <Group GroupId="f2130" GraphId="d7ac9" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e91">
+      <bp:ID >23943603</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The IL-10/STAT3-mediated anti-inflammatory response: recent developments and future challenges.</bp:TITLE>
+      <bp:SOURCE >Brief Funct Genomics</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Hutchins AP</bp:AUTHORS>
+      <bp:AUTHORS >Diez D</bp:AUTHORS>
+      <bp:AUTHORS >Miranda-Saavedra D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a57">
+      <bp:ID >26253919</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A network map of Interleukin-10 signaling pathway.</bp:TITLE>
+      <bp:SOURCE >J Cell Commun Signal</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Verma R</bp:AUTHORS>
+      <bp:AUTHORS >Balakrishnan L</bp:AUTHORS>
+      <bp:AUTHORS >Sharma K</bp:AUTHORS>
+      <bp:AUTHORS >Khan AA</bp:AUTHORS>
+      <bp:AUTHORS >Advani J</bp:AUTHORS>
+      <bp:AUTHORS >Gowda H</bp:AUTHORS>
+      <bp:AUTHORS >Tripathy SP</bp:AUTHORS>
+      <bp:AUTHORS >Suar M</bp:AUTHORS>
+      <bp:AUTHORS >Pandey A</bp:AUTHORS>
+      <bp:AUTHORS >Gandotra S</bp:AUTHORS>
+      <bp:AUTHORS >Prasad TS</bp:AUTHORS>
+      <bp:AUTHORS >Shankar S</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>signaling pathway</bp:TERM><bp:ID>PW:0000003</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

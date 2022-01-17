@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="GPR40 pathway" Version="20161204" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">G-protein-coupled receptor GPR40 (also known as Free fatty acid receptor 1(FFAR1)) is a seven trans-membrane domain receptor which is predominantly expressed in pancreatic beta cells. It plays an essential role in fatty acid ampli&#239;&#172;&#65533;cation of glucose induced insulin secretion. GPR40 agonists are in second phase of preclinical trials for treatment of diabetes because of their role in improved glucose control. 
+ 
+Binding of free fatty acids to GPR40 initiates a downstream signaling cascade which involves activation of a transducer protein &#226;&#8364;&#339;guanine nucleotide-binding protein subunit alpha-11&#226;&#8364;&#65533;  (GNA11). Next phospholipase c (PLC) hormone is activated which hydrolyzes membrane phospholipids (such as phosphatidylinositol-4-5-biphosphate) into second messenger molecules inositol-1-4-5-trophosphate (IP3) and Diacylglycerol (DAG). IP3 initiates calcium efflux from endoplasmic reticulum and increase intracellular calcium concentration.  Increased intracellular calcium concentration is involved in activating the insulin exocytosis machinery. DAG on the other hand activates PKD1. PKD1 initiates F-actin remodeling and supports second phase of insulin exocytosis. 
+
+</Comment>
+  <Graphics BoardWidth="935.9999999999985" BoardHeight="813.8367170489091"/>
+  <DataNode TextLabel="inositol-3-phosphate" GraphId="a7fd5" Type="Metabolite">
+    <Graphics FillColor="ffcc00" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PLCH1" GraphId="b1103" Type="GeneProduct" GroupRef="afe5d">
+        </DataNode>
+  <DataNode TextLabel="DAG" GraphId="b2db0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PLCD3" GraphId="b3675" Type="GeneProduct" GroupRef="afe5d">
+        </DataNode>
+  <DataNode TextLabel="PLCG2" GraphId="b5b09" Type="GeneProduct" GroupRef="afe5d">
+        </DataNode>
+  <DataNode TextLabel="PKD1" GraphId="c032b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IP3R" GraphId="c6e66" Type="GeneProduct">
+    <Graphics FillColor="ff00ff"/>
+    </DataNode>
+  <DataNode TextLabel="PLCD1" GraphId="ce8d6" Type="GeneProduct" GroupRef="afe5d">
+        </DataNode>
+  <DataNode TextLabel="PLCZ1" GraphId="cf542" Type="GeneProduct" GroupRef="afe5d">
+        </DataNode>
+  <DataNode TextLabel="PLCB1" GraphId="d456d" Type="GeneProduct" GroupRef="afe5d">
+        </DataNode>
+  <DataNode TextLabel="Ca2+" GraphId="d72fe" Type="Metabolite">
+    <Graphics FillColor="00cc00" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GNA11" GraphId="de8cc" Type="GeneProduct" GroupRef="ed030">
+        </DataNode>
+  <DataNode TextLabel="PLCE1" GraphId="ea286" Type="GeneProduct" GroupRef="afe5d">
+        </DataNode>
+  <DataNode TextLabel="PLCL1" GraphId="eb2be" Type="GeneProduct" GroupRef="afe5d">
+        </DataNode>
+  <DataNode TextLabel="PLCB2" GraphId="eb68c" Type="GeneProduct" GroupRef="afe5d">
+        </DataNode>
+  <DataNode TextLabel="PLCB3" GraphId="ec30e" Type="GeneProduct" GroupRef="afe5d">
+        </DataNode>
+  <DataNode TextLabel="GPR40" GraphId="f6c25" Type="GeneProduct" GroupRef="ed030">
+        </DataNode>
+  <DataNode TextLabel="PLCG1" GraphId="fac49" Type="GeneProduct" GroupRef="afe5d">
+        </DataNode>
+  <DataNode TextLabel="Unknown target &#10;genes" GraphId="feb85" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id1f9b296c">
+    <BiopaxRef>a5f</BiopaxRef>
+    <BiopaxRef>cb2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a7fd5"/>
+      <Point GraphRef="c6e66" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id37a0d4b2">
+    <BiopaxRef>a5f</BiopaxRef>
+    <BiopaxRef>cb2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c6e66"/>
+      <Point GraphRef="d72fe" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id494cebe4">
+    <BiopaxRef>a5f</BiopaxRef>
+    <BiopaxRef>cb2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a68b4"/>
+      <Point GraphRef="b2db0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id78bdb5ac">
+    <BiopaxRef>a5f</BiopaxRef>
+    <BiopaxRef>cb2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d72fe"/>
+      <Point GraphRef="f8ff0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9e44b705">
+    <BiopaxRef>a5f</BiopaxRef>
+    <BiopaxRef>cb2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c0f53"/>
+      <Point GraphRef="a68b4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida6e3a37e">
+    <BiopaxRef>a5f</BiopaxRef>
+    <BiopaxRef>cb2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a68b4"/>
+      <Point GraphRef="a7fd5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd6084d95">
+    <BiopaxRef>a5f</BiopaxRef>
+    <BiopaxRef>cb2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="feb85"/>
+      <Point GraphRef="ef688" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd86c3eba">
+    <BiopaxRef>a5f</BiopaxRef>
+    <BiopaxRef>cb2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c032b"/>
+      <Point GraphRef="feb85" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd9c2dd2">
+    <BiopaxRef>a5f</BiopaxRef>
+    <BiopaxRef>cb2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b2db0"/>
+      <Point GraphRef="c032b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Pancreatic Beta cell" GraphId="c4f25">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel=" F-actin &#10;filaments" GraphId="db9e1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Endoplasmic Reticulum" GraphId="dea94">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Insulin containing &#10;     vesicle" GraphId="edf78">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Factin Remodeling&#10;enabling insulin &#10;  exocytosis" GraphId="ef688">
+    <Graphics FillColor="ffcccc"/>
+  </Label>
+  <Label TextLabel=" Insulin &#10;Exocytosis&#10;" GraphId="f8ff0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="c2140" GroupRef="ce823">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c247c">
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="c42bb" GroupRef="de64d">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="caba4">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e002f">
+    <Graphics FillColor="ff00ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ea4a2">
+    <Graphics ShapeType="Oval" Color="ffffff"/>
+  </Shape>
+  <Shape GraphId="fe99b">
+    <Graphics FillColor="cccccc" ShapeType="Endoplasmic Reticulum" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="fef36">
+    <Graphics FillColor="ffffff" ShapeType="Arc" Color="cccccc"/>
+  </Shape>
+  <Shape GraphId="a8b3d">
+    <Graphics FillColor="ff9900" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="a55fa">
+    <Graphics FillColor="ff9900" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="eddaf">
+    <Graphics FillColor="ff9900" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="cc49c">
+    <Graphics FillColor="ff9900" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="daa30">
+    <Graphics FillColor="ff9900" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="daaf7">
+    <Graphics FillColor="ff00ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="dc6c9">
+    <Graphics FillColor="ff00ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a62a5">
+    <Graphics FillColor="ff00ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ecb7a">
+    <Graphics FillColor="ff00ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e2693">
+    <Graphics FillColor="ff00ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="dcbb4">
+    <Graphics FillColor="ff9900" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="b89a0">
+    <Graphics FillColor="ff9900" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="a3cea">
+    <Graphics FillColor="00cc00" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="d3ce9">
+    <Graphics FillColor="00cc00" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="a6f17">
+    <Graphics FillColor="00cc00" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="d5041">
+    <Graphics FillColor="00cc00" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="a5cd5">
+    <Graphics FillColor="00cc00" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="cf3b7" GroupRef="ce823">
+    <Graphics FillColor="3300cc" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="c6e02" GroupRef="ce823">
+    <Graphics FillColor="3300cc" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="a349a" GroupRef="ce823">
+    <Graphics FillColor="3300cc" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="bf25f" GroupRef="ce823">
+    <Graphics FillColor="3300cc" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="c9a02" GroupRef="ce823">
+    <Graphics FillColor="3300cc" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="ef423">
+    <Graphics FillColor="3300cc" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="a7aa9">
+    <Graphics FillColor="3300cc" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="c875d">
+    <Graphics FillColor="3300cc" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="a41e5">
+    <Graphics FillColor="3300cc" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="e7f17">
+    <Graphics FillColor="3300cc" ShapeType="Oval" Color="6600ff"/>
+  </Shape>
+  <Shape GraphId="c171a" GroupRef="de64d">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a9d54" GroupRef="de64d">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d82c2" GroupRef="b27ef">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="df2c1" GroupRef="b27ef">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="da578" GroupRef="b27ef">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="b27ef" Style="Group"/>
+  <Group GroupId="afe5d" GraphId="a68b4"/>
+  <Group GroupId="ed030" GraphId="c0f53" Style="Group"/>
+  <Group GroupId="ce823" GraphId="d3af0" Style="Group"/>
+  <Group GroupId="de64d" GraphId="eb9a6" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >G protein mediated signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000125</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a5f">
+      <bp:ID >24051395</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Modulating GPR40: therapeutic promise and potential in diabetes</bp:TITLE>
+      <bp:SOURCE />
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Poitout V</bp:AUTHORS>
+      <bp:AUTHORS >Lin DC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cb2">
+      <bp:ID >23631851</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The fatty acid receptor FFA1/GPR40 a decade later: how much do we know? Mancini AD1, Poitout V.</bp:TITLE>
+      <bp:SOURCE />
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Mancini AD</bp:AUTHORS>
+      <bp:AUTHORS >Poitout V</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >insulin secretion pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000674</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

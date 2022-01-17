@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Inhibition of exosome biogenesis and secretion by Manumycin A in CRPC cells" Version="20180509" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Schematic representation of inhibition of exosome biogenesis and secretion by Manumycin A (MA) in castration-resistant prostate cancer cells (CRPC) cells. The inhibition of Ras/Raf/ERK1/2 pathway by MA leads to transcriptional down-regulation of hnRNP H1. A decrease in hnRNP H1 transcripts leads to inhibition of exosome biogenesis and secretion by suppressing ALIX and Rab27a. 
+Description from Datta et al.</Comment>
+  <BiopaxRef>fef</BiopaxRef>
+  <Graphics BoardWidth="1243.75" BoardHeight="897.0833333333334"/>
+  <DataNode TextLabel="Manamycin" GraphId="c96d2" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="RAB27A" GraphId="f5425" Type="GeneProduct" GroupRef="a38b6">
+        </DataNode>
+  <DataNode TextLabel="ARAF" GraphId="bba91" Type="GeneProduct" GroupRef="d29f7">
+        </DataNode>
+  <DataNode TextLabel="MAPK1" GraphId="a18aa" Type="GeneProduct" GroupRef="d29f7">
+        </DataNode>
+  <DataNode TextLabel="ALIX" GraphId="dfca3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HNRNPH1" GraphId="d335c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BRAF" GraphId="abfcb" Type="GeneProduct" GroupRef="d29f7">
+        </DataNode>
+  <DataNode TextLabel="RAF1" GraphId="bc3bf" Type="GeneProduct" GroupRef="d29f7">
+        </DataNode>
+  <DataNode TextLabel="RRAS" GraphId="f21f8" Type="GeneProduct" GroupRef="d29f7">
+        </DataNode>
+  <DataNode TextLabel="RRAS2" GraphId="db24a" Type="GeneProduct" GroupRef="d29f7">
+        </DataNode>
+  <DataNode TextLabel="MRAS" GraphId="ddebb" Type="GeneProduct" GroupRef="d29f7">
+        </DataNode>
+  <DataNode TextLabel="HRAS" GraphId="f0fb9" Type="GeneProduct" GroupRef="d29f7">
+        </DataNode>
+  <DataNode TextLabel="KRAS" GraphId="a39bf" Type="GeneProduct" GroupRef="d29f7">
+        </DataNode>
+  <DataNode TextLabel="NRAS" GraphId="f3404" Type="GeneProduct" GroupRef="d29f7">
+        </DataNode>
+  <DataNode TextLabel="MAPK3" GraphId="dce58" Type="GeneProduct" GroupRef="d29f7">
+        </DataNode>
+  <DataNode TextLabel="RAB5A" GraphId="b8603" Type="GeneProduct" GroupRef="f7a7d">
+        </DataNode>
+  <DataNode TextLabel="RAB5B" GraphId="ba321" Type="GeneProduct" GroupRef="f7a7d">
+        </DataNode>
+  <DataNode TextLabel="RAB5C" GraphId="a23f0" Type="GeneProduct" GroupRef="f7a7d">
+        </DataNode>
+  <DataNode TextLabel="HGS" GraphId="bfe13" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RRAS" GraphId="f022a" Type="GeneProduct" GroupRef="a38b6">
+        </DataNode>
+  <DataNode TextLabel="RRAS2" GraphId="cbd74" Type="GeneProduct" GroupRef="a38b6">
+        </DataNode>
+  <DataNode TextLabel="MRAS" GraphId="aba84" Type="GeneProduct" GroupRef="a38b6">
+        </DataNode>
+  <DataNode TextLabel="HRAS" GraphId="bc192" Type="GeneProduct" GroupRef="a38b6">
+        </DataNode>
+  <DataNode TextLabel="KRAS" GraphId="d1c87" Type="GeneProduct" GroupRef="a38b6">
+        </DataNode>
+  <DataNode TextLabel="NRAS" GraphId="ae397" Type="GeneProduct" GroupRef="a38b6">
+        </DataNode>
+  <DataNode TextLabel="ALIX" GraphId="f27e1" Type="GeneProduct" GroupRef="a38b6">
+        </DataNode>
+  <DataNode TextLabel="RAB27A" GraphId="c2e1e" Type="GeneProduct">
+        </DataNode>
+  <Interaction>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ad1cc"/>
+      <Point GraphRef="c01f2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="db92c"/>
+      <Point GraphRef="c01f2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1398b704">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a52aa"/>
+      <Point/>
+      <Point GraphRef="e4be6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2efca21c">
+    <Graphics>
+      <Point GraphRef="bad39"/>
+      <Point GraphRef="eb207" ArrowHead="Arrow"/>
+      <Anchor Position="0.5202492211838006" Shape="None" GraphId="ba2f7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4c6327b5">
+    <Graphics>
+      <Point GraphRef="aef61"/>
+      <Point GraphRef="bad39" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a2e80"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id60307a67">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ca10c"/>
+      <Point GraphRef="a52aa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6076bbaa">
+    <Graphics>
+      <Point GraphRef="e4be6"/>
+      <Point GraphRef="d335c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id61f8f4c6">
+    <Graphics>
+      <Point GraphRef="bfe13"/>
+      <Point GraphRef="ba2f7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6ca5340c">
+    <Graphics>
+      <Point GraphRef="f27e1"/>
+      <Point GraphRef="dfca3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id876f3397">
+    <Graphics>
+      <Point GraphRef="d335c"/>
+      <Point GraphRef="ca10c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id96fcf61c">
+    <Graphics>
+      <Point GraphRef="dfca3"/>
+      <Point GraphRef="ba2f7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida0038df7">
+    <Graphics>
+      <Point GraphRef="b76cd"/>
+      <Point GraphRef="ad1cc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida9f76e3a">
+    <Graphics>
+      <Point GraphRef="f7a2d"/>
+      <Point GraphRef="a2e80" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idab17735c">
+    <Graphics Color="00cccc">
+      <Point GraphRef="f0d8b"/>
+      <Point GraphRef="db92c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idad559093">
+    <Graphics>
+      <Point GraphRef="c2e1e"/>
+      <Point GraphRef="c230f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbb556591">
+    <Graphics>
+      <Point GraphRef="eb207"/>
+      <Point GraphRef="b76cd" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c230f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ided1b6034">
+    <Graphics>
+      <Point GraphRef="c96d2"/>
+      <Point GraphRef="a52aa" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf4eabb08">
+    <Graphics>
+      <Point GraphRef="f5425"/>
+      <Point GraphRef="c2e1e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6f8b">
+    <Graphics Color="00cccc">
+      <Point GraphRef="bad39"/>
+      <Point GraphRef="feab5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f22b1">
+    <Graphics Color="00cccc">
+      <Point GraphRef="feab5"/>
+      <Point GraphRef="f0d8b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GroupRef="b21db">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fc713" GroupRef="b21db">
+    <Graphics Color="00cccc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Enhanced tumor growth&#10;Chemoresistance&#10;Promotes EMT&#10;Inhibited apoptosis" GraphId="c01f2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ESCRT-dependent pathway" GraphId="e1326" GroupRef="b21db">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Proliferation" GraphId="e4be6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ESCRT-independent pathway" GraphId="dd9f0" GroupRef="b21db">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="ae53a">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Legend" GraphId="b2153" GroupRef="b21db">
+    <Graphics Align="Left" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="Late&#10;endosome" GraphId="bad39">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c82d7">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ce216">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="MVB" GraphId="d0ac3" GroupRef="b26f5">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f3b00" GroupRef="b26f5">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f8976">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f8e21" GroupRef="b26f5">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d54f9" GroupRef="b26f5">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Early&#10;endosome" GraphId="aef61">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="MVB" GraphId="eb207">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="df3ad">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c1ca3">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e59e6">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b99a8">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bc78b">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e6efb">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bfda0">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="acc8e" GroupRef="a3ebc">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b83ad" GroupRef="a3ebc">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c3c62" GroupRef="a3ebc">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="beeda" GroupRef="c4d3c">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f4cfd" GroupRef="c4d3c">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="a9f2e" GroupRef="c4d3c">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d95ec" GroupRef="f7120">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d802a" GroupRef="f7120">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c4d10" GroupRef="f7120">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f590f" GroupRef="e498f">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f15d7" GroupRef="e498f">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f603d" GroupRef="e498f">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="abb4a" Style="Group"/>
+  <Group GroupId="b21db" Style="Group"/>
+  <Group GroupId="d29f7" GraphId="a52aa" Style="Group"/>
+  <Group GroupId="c4d3c" GraphId="ad1cc" Style="Group"/>
+  <Group GroupId="a3ebc" GraphId="b76cd" Style="Group"/>
+  <Group GroupId="a38b6" GraphId="ca10c" Style="Group"/>
+  <Group GroupId="c9c22" GraphId="cadc2" Style="Group"/>
+  <Group GroupId="c760c" GraphId="ccf28" Style="Group"/>
+  <Group GroupId="ea509" GraphId="ce245" Style="Group"/>
+  <Group GroupId="e498f" GraphId="db92c" Style="Group"/>
+  <Group GroupId="f7120" GraphId="f0d8b" Style="Group"/>
+  <Group GroupId="f7a7d" GraphId="f7a2d" Style="Group"/>
+  <Group GroupId="b26f5" GraphId="feab5" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fef">
+      <bp:ID >28844715</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Manumycin A suppresses exosome biogenesis and secretion via targeted inhibition of Ras/Raf/ERK1/2 signaling and hnRNP H1 in castration-resistant prostate cancer cells.</bp:TITLE>
+      <bp:SOURCE >Cancer Lett</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Datta A</bp:AUTHORS>
+      <bp:AUTHORS >Kim H</bp:AUTHORS>
+      <bp:AUTHORS >Lal M</bp:AUTHORS>
+      <bp:AUTHORS >McGee L</bp:AUTHORS>
+      <bp:AUTHORS >Johnson A</bp:AUTHORS>
+      <bp:AUTHORS >Moustafa AA</bp:AUTHORS>
+      <bp:AUTHORS >Jones JC</bp:AUTHORS>
+      <bp:AUTHORS >Mondal D</bp:AUTHORS>
+      <bp:AUTHORS >Ferrer M</bp:AUTHORS>
+      <bp:AUTHORS >Abdel-Mageed AB</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>prostate cancer</bp:TERM><bp:ID>DOID:10283</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>Ras family mediated signaling pathway</bp:TERM><bp:ID>PW:0000158</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

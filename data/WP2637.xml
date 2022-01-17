@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Interleukin-1 (IL-1) structural pathway" Version="20140219" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">IL-1 signaling pathway reconstructed by combining related pathways and information from the literature. This detailed map of IL-1 signaling presents the protein-protein interactions and the resulting cellular events. The colored nodes represent proteins having experimentally identified 3D structures and the white nodes are the proteins without 3D structures. The edges represent protein-protein interactions (straight/dashed arrows relate to available/unavailable 3D structures of proteins) or associations leading to cellular events such as cell cycle or gene expression (dashed arrows beginning with circular heads).
+doi:10.1371/journal.pcbi.1003470.g002
+
+Pathway published in http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003470
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2637 CPTAC Assay Portal].</Comment>
+  <BiopaxRef>efa</BiopaxRef>
+  <BiopaxRef>de0</BiopaxRef>
+  <BiopaxRef>e07</BiopaxRef>
+  <BiopaxRef>b7f</BiopaxRef>
+  <BiopaxRef>b0a</BiopaxRef>
+  <BiopaxRef>f88</BiopaxRef>
+  <BiopaxRef>f39</BiopaxRef>
+  <Graphics BoardWidth="1228.095238095238" BoardHeight="658.3851309523805"/>
+  <DataNode TextLabel="IL1A" GraphId="a1a44" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL1R1" GraphId="e1129" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IRAK1" GraphId="bb288" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IRAK2" GraphId="d94c2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MYD88" GraphId="a3c9b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IRAK4" GraphId="b73e0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TOLLIP" GraphId="ce36c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TRAF6" GraphId="cc164" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IRF7" GraphId="bc979" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IFNalpha/beta" GraphId="d5151" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="MEKK3" GraphId="f6aa8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MEKK1" GraphId="af01d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TAB1" GraphId="f3859" Type="GeneProduct" GroupRef="d6d09">
+        </DataNode>
+  <DataNode TextLabel=" TAK1" GraphId="c2ec5" Type="GeneProduct" GroupRef="d6d09">
+        </DataNode>
+  <DataNode TextLabel="NF-kappaB p105" GraphId="c64b9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MKK3&#10;" GraphId="e4f05" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NIK" GraphId="ea240" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IKKalpha" GraphId="b560d" Type="GeneProduct" GroupRef="e341c">
+        </DataNode>
+  <DataNode TextLabel="MAPKp38beta" GraphId="f6bc8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="JNK1" GraphId="d2165" Type="GeneProduct" GroupRef="d0ef3">
+        </DataNode>
+  <DataNode TextLabel="ERK1" GraphId="dbcb5" Type="GeneProduct" GroupRef="eee95">
+        </DataNode>
+  <DataNode TextLabel="IkapaBalpha" GraphId="b8063" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TPL2" GraphId="ae019" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAPKAPK2" GraphId="f31e5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MSK1" GraphId="c7177" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ELK1" GraphId="b17f3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MBP" GraphId="f7e28" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HSP27" GraphId="e6592" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL1,8,6, TNFa, &#10;IFNg, COX2, iNOS" GraphId="b8118" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="B-defensin2&#10; etc&#10;" GraphId="b9963" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="cyclinD1&#10;etc." GraphId="ab597" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Modification" GraphId="a910f" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Cell&#10;Cycle" GraphId="f41db" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Translation" GraphId="a8032" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="NF-kappaB p50" GraphId="a98ff" Type="GeneProduct" GroupRef="a004a">
+        </DataNode>
+  <DataNode TextLabel="NF-kappaB p65" GraphId="e73ef" Type="GeneProduct" GroupRef="a004a">
+        </DataNode>
+  <DataNode TextLabel="IL1B" GraphId="eeeae" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL1RAP" GraphId="e841c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TAB2" GraphId="e064f" Type="GeneProduct" GroupRef="d6d09">
+        </DataNode>
+  <DataNode TextLabel="TAB3" GraphId="aef45" Type="GeneProduct" GroupRef="d6d09">
+        </DataNode>
+  <DataNode TextLabel="MKK6" GraphId="bcf83" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MKK4&#10;" GraphId="f02cd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MKK7&#10;" GraphId="a132d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MKK1&#10;" GraphId="b31e1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MKK2&#10;" GraphId="f8d1a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IKKgamma" GraphId="c812c" Type="GeneProduct" GroupRef="e341c">
+        </DataNode>
+  <DataNode TextLabel="IKKbeta" GraphId="c0bc1" Type="GeneProduct" GroupRef="e341c">
+        </DataNode>
+  <DataNode TextLabel="MAPKp38alpha" GraphId="c1c1c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="JNK2" GraphId="f19cd" Type="GeneProduct" GroupRef="d0ef3">
+        </DataNode>
+  <DataNode TextLabel="JNK3" GraphId="ce063" Type="GeneProduct" GroupRef="d0ef3">
+        </DataNode>
+  <DataNode TextLabel="ERK2" GraphId="f7cd4" Type="GeneProduct" GroupRef="eee95">
+        </DataNode>
+  <DataNode TextLabel="IkappaBbeta" GraphId="b17f8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ATF2" GraphId="e5b73" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Mnk1" GraphId="c7f9c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="c-Jun" GraphId="d1f30" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="c-Fos" GraphId="fc461" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="c-Myc" GraphId="c0970" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Mnk2" GraphId="fdd5b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CREB341" GraphId="dc3ac" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Histone H3" GraphId="a2f72" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="eIF-4E" GraphId="d5f09" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="idfe035f7e">
+    <Graphics>
+      <Point GraphRef="a1a44"/>
+      <Point GraphRef="e1129" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2de131ae">
+    <Graphics>
+      <Point GraphRef="eeeae"/>
+      <Point GraphRef="e841c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id80fc801a">
+    <Graphics>
+      <Point GraphRef="e1129"/>
+      <Point GraphRef="e841c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd36a4a4e">
+    <Graphics>
+      <Point GraphRef="eeeae"/>
+      <Point GraphRef="e1129" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id351dd2de">
+    <Graphics>
+      <Point GraphRef="a1a44"/>
+      <Point GraphRef="e841c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9957f4f1">
+    <Graphics>
+      <Point GraphRef="e1129"/>
+      <Point GraphRef="a3c9b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbae50891">
+    <Graphics>
+      <Point GraphRef="e841c"/>
+      <Point GraphRef="a3c9b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb00abe4">
+    <Graphics>
+      <Point GraphRef="a3c9b"/>
+      <Point GraphRef="d94c2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd2f8a610">
+    <Graphics>
+      <Point GraphRef="b73e0"/>
+      <Point GraphRef="cc164"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id92c71c51">
+    <Graphics>
+      <Point GraphRef="a3c9b"/>
+      <Point GraphRef="b73e0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide31e4724">
+    <Graphics>
+      <Point GraphRef="d94c2"/>
+      <Point GraphRef="cc164"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb05b3b58">
+    <Graphics>
+      <Point GraphRef="a3c9b"/>
+      <Point GraphRef="cc164"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id48531d6f">
+    <Graphics>
+      <Point GraphRef="b73e0"/>
+      <Point GraphRef="d94c2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb3001e15">
+    <Graphics>
+      <Point GraphRef="e1129"/>
+      <Point GraphRef="bb288" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide9280ad6">
+    <Graphics>
+      <Point GraphRef="e841c"/>
+      <Point GraphRef="bb288" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id838f1b62">
+    <Graphics>
+      <Point GraphRef="a3c9b"/>
+      <Point GraphRef="bb288"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide7467d37">
+    <Graphics>
+      <Point GraphRef="bb288"/>
+      <Point GraphRef="d94c2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id69004962">
+    <Graphics>
+      <Point GraphRef="cc164"/>
+      <Point GraphRef="ce36c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4439d4c5">
+    <Graphics>
+      <Point GraphRef="bc979"/>
+      <Point GraphRef="d5151" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id396e95fd">
+    <Graphics>
+      <Point GraphRef="cc164"/>
+      <Point GraphRef="bc979" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3e26d4fe">
+    <Graphics>
+      <Point GraphRef="e841c"/>
+      <Point GraphRef="ce36c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id56abda5b">
+    <Graphics>
+      <Point GraphRef="e1129"/>
+      <Point GraphRef="ce36c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id73da4778">
+    <Graphics>
+      <Point GraphRef="a3c9b"/>
+      <Point GraphRef="bc979" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcb2fe87c">
+    <BiopaxRef>f85</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f3859"/>
+      <Point GraphRef="c2ec5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id64da7c4f">
+    <Graphics>
+      <Point GraphRef="c2ec5"/>
+      <Point GraphRef="e064f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5f364a4e">
+    <Graphics>
+      <Point GraphRef="e064f"/>
+      <Point GraphRef="aef45"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd3a924ac">
+    <Graphics>
+      <Point GraphRef="cc164"/>
+      <Point GraphRef="ec627" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id257b0e44">
+    <Graphics>
+      <Point GraphRef="cc164"/>
+      <Point GraphRef="af01d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf7c8e015">
+    <Graphics>
+      <Point GraphRef="cc164"/>
+      <Point GraphRef="f6aa8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id19530267">
+    <Graphics>
+      <Point GraphRef="ea240"/>
+      <Point GraphRef="b560d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida68949cc">
+    <Graphics>
+      <Point GraphRef="b560d"/>
+      <Point GraphRef="c812c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id61739e90">
+    <Graphics>
+      <Point GraphRef="c812c"/>
+      <Point GraphRef="c0bc1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbee315e9">
+    <Graphics>
+      <Point GraphRef="f6aa8"/>
+      <Point GraphRef="e4f05" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf44192a5">
+    <Graphics>
+      <Point GraphRef="f6aa8"/>
+      <Point GraphRef="bcf83" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2af4dcab">
+    <Graphics>
+      <Point GraphRef="f6aa8"/>
+      <Point GraphRef="f02cd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idde9a3dbf">
+    <Graphics>
+      <Point GraphRef="f6aa8"/>
+      <Point GraphRef="a132d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id11b8716">
+    <Graphics>
+      <Point GraphRef="af01d"/>
+      <Point GraphRef="bcf83" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcbbd0a5a">
+    <Graphics>
+      <Point GraphRef="af01d"/>
+      <Point GraphRef="e4f05" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id37ced11c">
+    <Graphics>
+      <Point GraphRef="af01d"/>
+      <Point GraphRef="f02cd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideb743230">
+    <Graphics>
+      <Point GraphRef="af01d"/>
+      <Point GraphRef="a132d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id57a686da">
+    <Graphics>
+      <Point GraphRef="af01d"/>
+      <Point GraphRef="b31e1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id83de591b">
+    <Graphics>
+      <Point GraphRef="c2ec5"/>
+      <Point GraphRef="ea240" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idda209787">
+    <Graphics>
+      <Point GraphRef="af01d"/>
+      <Point GraphRef="b560d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id697d0621">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b560d"/>
+      <Point GraphRef="c0bc1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idedce1ab6">
+    <Graphics>
+      <Point GraphRef="ae019"/>
+      <Point GraphRef="f8d1a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id90faea4b">
+    <Graphics>
+      <Point GraphRef="c0bc1"/>
+      <Point GraphRef="ae019" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3be769a0">
+    <Graphics>
+      <Point GraphRef="c64b9"/>
+      <Point GraphRef="ae019" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf1085f3">
+    <Graphics>
+      <Point GraphRef="f86a9"/>
+      <Point GraphRef="c64b9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf638fb62">
+    <Graphics>
+      <Point GraphRef="f86a9"/>
+      <Point GraphRef="b8063" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id202de63">
+    <Graphics>
+      <Point GraphRef="f86a9"/>
+      <Point GraphRef="b17f8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id150108c2">
+    <Graphics>
+      <Point GraphRef="e4f05"/>
+      <Point GraphRef="f6bc8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc9e2f8b4">
+    <Graphics>
+      <Point GraphRef="e4f05"/>
+      <Point GraphRef="c1c1c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf6ed567e">
+    <Graphics>
+      <Point GraphRef="bcf83"/>
+      <Point GraphRef="f6bc8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idabcf4670">
+    <Graphics>
+      <Point GraphRef="bcf83"/>
+      <Point GraphRef="c1c1c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd1629f04">
+    <Graphics>
+      <Point GraphRef="f02cd"/>
+      <Point GraphRef="f6bc8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id86448ef6">
+    <Graphics>
+      <Point GraphRef="f02cd"/>
+      <Point GraphRef="c1c1c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida50bb91a">
+    <Graphics>
+      <Point GraphRef="f02cd"/>
+      <Point GraphRef="f50b2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5907d52e">
+    <Graphics>
+      <Point GraphRef="a132d"/>
+      <Point GraphRef="f50b2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idde486844">
+    <Graphics>
+      <Point GraphRef="b31e1"/>
+      <Point GraphRef="e7f6f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc526adea">
+    <Graphics>
+      <Point GraphRef="f8d1a"/>
+      <Point GraphRef="e7f6f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbe179795">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="f6bc8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id72f98787">
+    <Graphics>
+      <Point GraphRef="ae019"/>
+      <Point GraphRef="c1c1c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id91c0b1ab">
+    <Graphics>
+      <Point GraphRef="ae019"/>
+      <Point GraphRef="f50b2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id16297cce">
+    <Graphics>
+      <Point GraphRef="ae019"/>
+      <Point GraphRef="e7f6f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3d5ffcc9">
+    <Graphics>
+      <Point GraphRef="d1f30"/>
+      <Point GraphRef="fc461"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8af09187">
+    <Graphics>
+      <Point GraphRef="f31e5"/>
+      <Point GraphRef="e6592" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id63b48b1">
+    <Graphics>
+      <Point GraphRef="f6bc8"/>
+      <Point GraphRef="f31e5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4c6a908e">
+    <Graphics>
+      <Point GraphRef="f6bc8"/>
+      <Point GraphRef="c7177" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf128bafb">
+    <Graphics>
+      <Point GraphRef="f6bc8"/>
+      <Point GraphRef="e5b73" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id58dd6193">
+    <Graphics>
+      <Point GraphRef="f6bc8"/>
+      <Point GraphRef="b17f3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1162f2e5">
+    <Graphics>
+      <Point GraphRef="f6bc8"/>
+      <Point GraphRef="f7e28" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf1a0f89c">
+    <Graphics>
+      <Point GraphRef="f6bc8"/>
+      <Point GraphRef="c7f9c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb91e7c09">
+    <Graphics>
+      <Point GraphRef="e7f6f"/>
+      <Point GraphRef="fdd5b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1c52e8d4">
+    <Graphics>
+      <Point GraphRef="e7f6f"/>
+      <Point GraphRef="c0970" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8033e1c4">
+    <Graphics>
+      <Point GraphRef="e7f6f"/>
+      <Point GraphRef="fc461" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idceda09d2">
+    <Graphics>
+      <Point GraphRef="e7f6f"/>
+      <Point GraphRef="c7f9c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idee9c041b">
+    <Graphics>
+      <Point GraphRef="e7f6f"/>
+      <Point GraphRef="f7e28" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id22c6771d">
+    <Graphics>
+      <Point GraphRef="e7f6f"/>
+      <Point GraphRef="b17f3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbb11d085">
+    <Graphics>
+      <Point GraphRef="e7f6f"/>
+      <Point GraphRef="e5b73" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd77b42c4">
+    <Graphics>
+      <Point GraphRef="e7f6f"/>
+      <Point GraphRef="c7177" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7b390520">
+    <Graphics>
+      <Point GraphRef="f50b2"/>
+      <Point GraphRef="e5b73" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide2edabb8">
+    <Graphics>
+      <Point GraphRef="f50b2"/>
+      <Point GraphRef="b17f3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide1f39c6e">
+    <Graphics>
+      <Point GraphRef="f50b2"/>
+      <Point GraphRef="d1f30" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id44562dc9">
+    <Graphics>
+      <Point GraphRef="f50b2"/>
+      <Point GraphRef="fc461" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id471e437f">
+    <Graphics>
+      <Point GraphRef="c1c1c"/>
+      <Point GraphRef="f31e5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id23821f00">
+    <Graphics>
+      <Point GraphRef="c1c1c"/>
+      <Point GraphRef="c7177" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id320bb5c9">
+    <Graphics>
+      <Point GraphRef="c1c1c"/>
+      <Point GraphRef="e5b73" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id99c05c61">
+    <Graphics>
+      <Point GraphRef="c1c1c"/>
+      <Point GraphRef="b17f3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide1ee6657">
+    <Graphics>
+      <Point GraphRef="c1c1c"/>
+      <Point GraphRef="f7e28" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc22c6c0e">
+    <Graphics>
+      <Point GraphRef="c1c1c"/>
+      <Point GraphRef="c7f9c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id851274b6">
+    <Graphics>
+      <Point GraphRef="c7177"/>
+      <Point GraphRef="dc3ac" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf399fd71">
+    <Graphics>
+      <Point GraphRef="c7177"/>
+      <Point GraphRef="a2f72" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfa2e9e0d">
+    <Graphics>
+      <Point GraphRef="c7f9c"/>
+      <Point GraphRef="d5f09" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id55bb853">
+    <Graphics>
+      <Point GraphRef="d5f09"/>
+      <Point GraphRef="a8032" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd1411a72">
+    <Graphics>
+      <Point GraphRef="c0970"/>
+      <Point GraphRef="f41db" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id346e8239">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="d1f30"/>
+      <Point GraphRef="b9963" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd1f8fcd4">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="fc461"/>
+      <Point GraphRef="b9963" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc6e64906">
+    <Graphics>
+      <Point GraphRef="a98ff"/>
+      <Point GraphRef="e73ef"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1595fa60">
+    <Graphics>
+      <Point GraphRef="f86a9"/>
+      <Point GraphRef="f38f9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id18e4eb7c">
+    <Graphics>
+      <Point GraphRef="b17f8"/>
+      <Point GraphRef="f38f9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id10bceec6">
+    <Graphics>
+      <Point GraphRef="b8063"/>
+      <Point GraphRef="f38f9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id43f7711c">
+    <Graphics>
+      <Point GraphRef="f38f9"/>
+      <Point GraphRef="b8118" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id53bf41f3">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e5b73"/>
+      <Point GraphRef="a910f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idabe1850a">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="dc3ac"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id23920adb">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="ab597" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Shape GraphId="a0ea6">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ea3bf">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="d6d09" GraphId="ec627" Style="Group"/>
+  <Group GroupId="e341c" GraphId="f86a9" Style="Group"/>
+  <Group GroupId="d0ef3" GraphId="f50b2" Style="Group"/>
+  <Group GroupId="eee95" GraphId="e7f6f" Style="Group"/>
+  <Group GroupId="a004a" GraphId="f38f9" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b7f">
+      <bp:ID >11574262</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A new nomenclature for IL-1-family genes.</bp:TITLE>
+      <bp:SOURCE >Trends Immunol</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Sims JE</bp:AUTHORS>
+      <bp:AUTHORS >Nicklin MJ</bp:AUTHORS>
+      <bp:AUTHORS >Bazan JF</bp:AUTHORS>
+      <bp:AUTHORS >Barton JL</bp:AUTHORS>
+      <bp:AUTHORS >Busfield SJ</bp:AUTHORS>
+      <bp:AUTHORS >Ford JE</bp:AUTHORS>
+      <bp:AUTHORS >Kastelein RA</bp:AUTHORS>
+      <bp:AUTHORS >Kumar S</bp:AUTHORS>
+      <bp:AUTHORS >Lin H</bp:AUTHORS>
+      <bp:AUTHORS >Mulero JJ</bp:AUTHORS>
+      <bp:AUTHORS >Pan J</bp:AUTHORS>
+      <bp:AUTHORS >Pan Y</bp:AUTHORS>
+      <bp:AUTHORS >Smith DE</bp:AUTHORS>
+      <bp:AUTHORS >Young PR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="de0">
+      <bp:ID >11574261</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Annotating genes with potential roles in the immune system: six new members of the IL-1 family.</bp:TITLE>
+      <bp:SOURCE >Trends Immunol</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Dunn E</bp:AUTHORS>
+      <bp:AUTHORS >Sims JE</bp:AUTHORS>
+      <bp:AUTHORS >Nicklin MJ</bp:AUTHORS>
+      <bp:AUTHORS >O'Neill LA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f88">
+      <bp:ID >17244752</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Increased expression of interleukin-1 receptor type 1 in active endometriotic lesions.</bp:TITLE>
+      <bp:SOURCE >Reproduction</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Lawson C</bp:AUTHORS>
+      <bp:AUTHORS >Al-Akoum M</bp:AUTHORS>
+      <bp:AUTHORS >Maheux R</bp:AUTHORS>
+      <bp:AUTHORS >Akoum A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efa">
+      <bp:ID >11242034</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mammalian MAP kinase signalling cascades.</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Chang L</bp:AUTHORS>
+      <bp:AUTHORS >Karin M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b0a">
+      <bp:ID >19302040</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The inflammasomes: guardians of the body.</bp:TITLE>
+      <bp:SOURCE >Annu Rev Immunol</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Martinon F</bp:AUTHORS>
+      <bp:AUTHORS >Mayor A</bp:AUTHORS>
+      <bp:AUTHORS >Tschopp J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e07">
+      <bp:ID >17442919</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cloning IL-1 and the birth of a new era in cytokine biology.</bp:TITLE>
+      <bp:SOURCE >J Immunol</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Pizarro TT</bp:AUTHORS>
+      <bp:AUTHORS >Cominelli F</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f39">
+      <bp:ID >24550720</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The Structural Pathway of Interleukin 1 (IL-1) Initiated Signaling Reveals Mechanisms of Oncogenic Mutations and SNPs in Inflammation and Cancer.</bp:TITLE>
+      <bp:SOURCE >PLoS Comput Biol</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Acuner Ozbabacan SE</bp:AUTHORS>
+      <bp:AUTHORS >Gursoy A</bp:AUTHORS>
+      <bp:AUTHORS >Nussinov R</bp:AUTHORS>
+      <bp:AUTHORS >Keskin O</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f85">
+      <bp:ID >22307082</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >O-GlcNAcylation of TAB1 modulates TAK1-mediated cytokine release.</bp:TITLE>
+      <bp:SOURCE >EMBO J</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Pathak S</bp:AUTHORS>
+      <bp:AUTHORS >Borodkin VS</bp:AUTHORS>
+      <bp:AUTHORS >Albarbarawi O</bp:AUTHORS>
+      <bp:AUTHORS >Campbell DG</bp:AUTHORS>
+      <bp:AUTHORS >Ibrahim A</bp:AUTHORS>
+      <bp:AUTHORS >van Aalten DM</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>signaling pathway</bp:TERM><bp:ID>PW:0000003</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>interleukin-1 signaling pathway</bp:TERM><bp:ID>PW:0000883</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

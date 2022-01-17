@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="NAD metabolism, sirtuins and aging" Author="Kristina Hanspers" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">A model for DNA damage, inflammation, NAD+, and aging.
+Two key events, the activation of PARP by DNA damage and the decreased NAMPT expression associated with inflammation, lead to decreased SIRT1 and SIRT3 activity in the nucleus and mitochondria, respectively. Decreased SIRT1 activity is associated with further PARP activation and increased DNA damage. Decreased SIRT1 also leads to NF-kB activation and decreased FOXO3a activity, two factors that lead to increased inflammation. These contribute to the establishment of two parallel feed-forward self reinforcing loops that further accelerate the aging process. This process is initiated earlier and faster in patients with DNA damage repair defects (such as CS, XPA, and AT). Mitochondrial function is diminished as a result of decreased SIRT3 activity, leading to mitochondrial protein hyperacetylation, whereas decreased SIRT1 is associated with decreased TFAM (necessary for mitochondrial DNA replication and transcription) and decreased PGC-1a (necessary for mitochondrial biogenesis). Possible therapeutic interventions to restore NAD+ levels are illustrated for each of the key enzymes (red arrows). Based on fig 4 from http://science.sciencemag.org/content/350/6265/1208.long.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3630 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>f2f</BiopaxRef>
+  <Graphics BoardWidth="973.9999999999998" BoardHeight="587.0"/>
+  <DataNode TextLabel="PARP1" GraphId="a1e1d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TFAM" GraphId="abfa0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="b1532" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Nicotinamide riboside" GraphId="b2746" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NAMPT" GraphId="b74eb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="P7C3" GraphId="c0187" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NAD" GraphId="d2ede" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Resveratrol" GraphId="e2d46" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FOXO1" GraphId="ef291" Type="GeneProduct" GroupRef="e3706">
+        </DataNode>
+  <DataNode TextLabel="HIF1A" GraphId="fc541" Type="GeneProduct" GroupRef="b6348">
+        </DataNode>
+  <DataNode TextLabel="SIRT1" GraphId="d9366" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ROS1" GraphId="f3fd2" Type="GeneProduct" GroupRef="b6348">
+        </DataNode>
+  <DataNode TextLabel="FOXO3" GraphId="d3b0f" Type="GeneProduct" GroupRef="e3706">
+        </DataNode>
+  <DataNode TextLabel="PGC-1a" GraphId="c0597" Type="GeneProduct" GroupRef="e3706">
+        </DataNode>
+  <DataNode TextLabel="TORC2" GraphId="fa463" Type="GeneProduct" GroupRef="e3706">
+        </DataNode>
+  <DataNode TextLabel="PPARG" GraphId="e570f" Type="GeneProduct" GroupRef="e3706">
+        </DataNode>
+  <DataNode TextLabel="PARP inhibitors" GraphId="d367c" Type="Metabolite">
+    <Comment>Identifier of Olaparib (known approved PARP inhibitor)</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SIRT3" GraphId="bdb6e" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id1549585d">
+    <Graphics Color="009999">
+      <Point GraphRef="a1e1d"/>
+      <Point GraphRef="d2ede" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3c940720">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d2ede"/>
+      <Point/>
+      <Point GraphRef="d9366" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id51a6de8f">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f83b2"/>
+      <Point GraphRef="d538c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id647ea175">
+    <Graphics ConnectorType="Elbow" Color="ff9900">
+      <Point GraphRef="d9366"/>
+      <Point/>
+      <Point GraphRef="b1532" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id68473c22">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b74eb"/>
+      <Point GraphRef="d2ede" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb0edb154">
+    <Graphics>
+      <Point GraphRef="d49ba"/>
+      <Point GraphRef="f5a65" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb53f1655">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ef303"/>
+      <Point/>
+      <Point GraphRef="d538c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idba629f1a">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="ef291"/>
+      <Point GraphRef="b74eb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd9b01f7">
+    <Graphics ConnectorType="Elbow" Color="ff9900">
+      <Point GraphRef="bdb6e"/>
+      <Point/>
+      <Point GraphRef="abfa0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb37003a">
+    <BiopaxRef>a72</BiopaxRef>
+    <BiopaxRef>c17</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="ff9900">
+      <Point GraphRef="d9366"/>
+      <Point/>
+      <Point GraphRef="a1e1d" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide61fe032">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b2fc4"/>
+      <Point/>
+      <Point GraphRef="d538c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide7a6c22">
+    <Graphics Color="cc0066">
+      <Point GraphRef="e2d46"/>
+      <Point GraphRef="d9366" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idedd953c8">
+    <Graphics Color="cc0066">
+      <Point GraphRef="b2746"/>
+      <Point GraphRef="d2ede" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf1fbe4ee">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="b1532"/>
+      <Point/>
+      <Point GraphRef="f5a65" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a1de6">
+    <Graphics>
+      <Point GraphRef="d538c"/>
+      <Point GraphRef="a1e1d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b1f69">
+    <Graphics>
+      <Point GraphRef="f5a65"/>
+      <Point GraphRef="b74eb" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e67d5">
+    <Graphics Color="cc0066">
+      <Point GraphRef="c0187"/>
+      <Point GraphRef="b74eb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e2982">
+    <Graphics Color="cc0066">
+      <Point GraphRef="d367c"/>
+      <Point GraphRef="a1e1d" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ae3ab">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d2ede"/>
+      <Point/>
+      <Point GraphRef="bdb6e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e4cc8">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="d9366"/>
+      <Point/>
+      <Point GraphRef="d538c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d0993">
+    <Graphics ConnectorType="Elbow" Color="ff9900">
+      <Point GraphRef="d9366"/>
+      <Point/>
+      <Point GraphRef="aa34f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df457">
+    <Graphics ConnectorType="Elbow" Color="ff9900">
+      <Point GraphRef="bdb6e"/>
+      <Point/>
+      <Point GraphRef="bdc90" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a4271">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="d3b0f"/>
+      <Point GraphRef="b74eb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="idf1dfc86b" GroupRef="ddc74">
+    <Graphics Color="cc0066">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ecc52" GroupRef="ddc74">
+    <Graphics Color="009999">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dbb6f" GroupRef="ddc74">
+    <Graphics Color="ff9900">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="High-fat diet" GraphId="d49ba">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Possible therapeutic intervention" GraphId="dbf57" GroupRef="ddc74">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Increased inflammation" GraphId="e5fe5" GroupRef="f00ca">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cockayne syndrome" GraphId="ef303">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Decreased insulin secretion" GraphId="f8e4b" GroupRef="f00ca">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inflammation" GraphId="f5a65">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="DNA Damage" GraphId="d538c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Aging" GraphId="f83b2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Pancreas" GraphId="ad499" GroupRef="f00ca">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Xeroderma pigmentosum" GraphId="fa525">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Ataxia telangiectasia" GraphId="b2fc4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Brain" GraphId="c67fd" GroupRef="f00ca">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Skeletal muscle" GraphId="a6c43" GroupRef="f00ca">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Liver" GraphId="cc0c9" GroupRef="f00ca">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Decreased cognitive function" GraphId="c9fc9" GroupRef="f00ca">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Decreased mitochondrial&#10; function" GraphId="f838c" GroupRef="f00ca">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Decreased insulin sensitivity " GraphId="ee4bb" GroupRef="f00ca">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Depletion" GraphId="ca320" GroupRef="ddc74">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Deacetylation" GraphId="f7b0f" GroupRef="ddc74">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="a3fcd" GroupRef="ddc74">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="e4ccf" GroupRef="f00ca">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Group GroupId="ddc74" Style="Group"/>
+  <Group GroupId="e3706" GraphId="aa34f" Style="Group"/>
+  <Group GroupId="f00ca" GraphId="ac809" Style="Group"/>
+  <Group GroupId="b6348" GraphId="bdc90" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >classic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000002</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f2f">
+      <bp:ID >26785480</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NAD&#8314; in aging, metabolism, and neurodegeneration.</bp:TITLE>
+      <bp:SOURCE >Science</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Verdin E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a72">
+      <bp:ID >16628003</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Control of AIF-mediated cell death by the functional interplay of SIRT1 and PARP-1 in response to DNA damage.</bp:TITLE>
+      <bp:SOURCE >Cell Cycle</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Kolthur-Seetharam U</bp:AUTHORS>
+      <bp:AUTHORS >Dantzer F</bp:AUTHORS>
+      <bp:AUTHORS >McBurney MW</bp:AUTHORS>
+      <bp:AUTHORS >de Murcia G</bp:AUTHORS>
+      <bp:AUTHORS >Sassone-Corsi P</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c17">
+      <bp:ID >19470756</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >SIRT1 promotes cell survival under stress by deacetylation-dependent deactivation of poly(ADP-ribose) polymerase 1.</bp:TITLE>
+      <bp:SOURCE >Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Rajamohan SB</bp:AUTHORS>
+      <bp:AUTHORS >Pillai VB</bp:AUTHORS>
+      <bp:AUTHORS >Gupta M</bp:AUTHORS>
+      <bp:AUTHORS >Sundaresan NR</bp:AUTHORS>
+      <bp:AUTHORS >Birukov KG</bp:AUTHORS>
+      <bp:AUTHORS >Samant S</bp:AUTHORS>
+      <bp:AUTHORS >Hottiger MO</bp:AUTHORS>
+      <bp:AUTHORS >Gupta MP</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>Sirtuin mediated pathway</bp:TERM><bp:ID>PW:0002584</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>aging pathway</bp:TERM><bp:ID>PW:0000651</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

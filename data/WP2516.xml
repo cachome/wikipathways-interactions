@@ -1,0 +1,3379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="ATM signaling pathway" Author="Arturo Manzo-Fontes" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Ataxia-telangiectasia (A-T) is a highly pleiotropic, autosomal recessive disease that leads to multisystem defects and has an intricate cellular phenotype, all linked to the functional inactivation of a single gene. Extensive research on the phenotype and the recent discovery and cloning of the responsible gene point to a defect as a central biochemical locus which links several signal transduction pathways that operate under stress as well as in normal physiological conditions.
+
+Ataxia is the first symptom in all patients and is predominantly truncal, first manifested in swaying of the head and trunk on standing and even sitting. Truncal ataxia precedes appendicular cerebellar disease. In the first years of life, certain manifestations are present such as dysarthria, muscular hypotonia, the slow initiation and performance of all voluntary movements, characteristic hypotonic facies and postures, and drooling. Dyssynergia and intention tremor of the upper extremities become a major feature after the fifth year of life. The tendon reflexes are diminished or lost, but may be normal or even hyperactive in the early stages. All these observations show a clear ataxia of cerebellar type, initially of station and gait, and later of intention. Early observations of brains from patients with A-T showed neurodegenerative changes, particularly in the Purkinje and granular cells of the cerebellum. Neuronal degeneration is also present in the brainstem, and dentate and olivary nuclei atrophy. Neuronal loss occurs in the substantial nigra and oculomotor nuclei, dorsal root ganglia, and degenerative changes are evident in spinal motor neurons, and dorsal root and sympathetic motor neurons. Moreover, multiple abnormalities in Purkinje cell development have been observed in an Atm-deficient mouse model. Misplaced Purkinje cells have been observed in both the granular and molecular cell layers. In addition, Purkinje cell dendrites tend to grow laterally instead of extending towards the surface of the cerebellum.
+
+ATM (for Ataxia-telangiectasia mutated) has been located by restriction-fragment length polymorphism in the chromosome 11, location: 108,093,211-108,239,829. Interestingly, the site of ATM is the same or adjacent to the region occupied by CD3 (Antigen, Delta subunit), THY1 (T-Cell antigen), and NCAM (Cell Adhesion Molecule, Neural, 1) genes, all of which are members of the immunoglobulin-gene superfamily and consequently may be subject to the same defect that afflicts the T-cell receptor and immunoglobulin molecules in A-T. The ATM gene presents an open reading frame (ORF) of 9,165 kb cDNA and is constituted by 66 exons spread over 150 kb of genomic DNA which has a transcript of 12 kb. The ORF of this transcript predicts a 370-kDa protein composed of 3056 amino acids. Over 300 mutations have been found in A-T patients, distributed across the full length (150 kb of genomic DNA) of the ATM gene.
+
+Sequence homology indicates that the atm gene product falls into a family of proteins that are related to the catalytic subunit of phosphatidylinositol 3-kinase (PI 3-kinase). This family includes TEL1, MEC1, TOR1, and TOR2 of the budding yeast Saccharomyces cerevisiae, RAD3 of the fission yeast Schizosaccharomyces pombe, and MEI-41 of Drosophila melanogaster. The mammalian family member most closely related to ATM is the ATR/FRP1 protein and, like its yeast homologs, it mediates cellular responses to unreplicated or damaged DNA. In humans the PI 3-kinase family includes the catalytic subunit of the DNA-dependent protein kinase (DNA-PKcs) and FRAP. These sequence homologies appear to reflect functional homology because many of the PI 3-kinase family members are involved in DNA repair, recombination and cell cycle control. Despite the resemblance to lipid kinases, members of this family, including ATM, possess a serine/threonine protein kinase activity, which is wortmannin sensitive.
+
+ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei of proliferating cells, but subcellular fractionation and immunofluorescence revealed that 10-20% of the protein is present in cytoplasmic vesicles, including peroxisomes and endosomes and a prominent cytoplasmic fraction in mouse oocytes. ATM is endosome-bound in mouse neurons, suggesting molecular sorting of the protein occurs in the cytoplasm. In Purkinje cells, distribution of ATM protein is primarily in cytoplasm, and this may be related to the differentiation state of the cells. ATM mRNA is present in all human and mouse tissues. In situ hybridization shows that ATM mRNA is expressed throughout the whole mouse embryo. Furthermore, ATM has been associated with beta-adaptin in lymphoblast vesicles indicating that it may play a role in intracellular vesicle and/or protein transport mechanisms. No obvious nuclear localization signals have been detected in ATM. Neither an ectopically expressed N-terminal fragment of the protein nor a C-terminal fragment is capable of entering the nucleus.</Comment>
+  <Graphics BoardWidth="1147.4353856445682" BoardHeight="1009.4964838255978"/>
+  <DataNode TextLabel="Chk2" GraphId="ed2e6" Type="Protein" GroupRef="fa5b3">
+    <BiopaxRef>c00</BiopaxRef>
+    <BiopaxRef>f8d</BiopaxRef>
+    <BiopaxRef>ec6</BiopaxRef>
+    <BiopaxRef>f92</BiopaxRef>
+    <BiopaxRef>c47</BiopaxRef>
+    <BiopaxRef>e2a</BiopaxRef>
+    <BiopaxRef>a9a</BiopaxRef>
+    <Graphics FillColor="66ccff" ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="CDC25A" GraphId="d12a1" Type="GeneProduct" GroupRef="dc3df">
+    <Graphics FillColor="990099" ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="DNA Repair" GraphId="cf170" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="003399"/>
+    </DataNode>
+  <DataNode TextLabel="Cyclin B" GraphId="ffa91" Type="GeneProduct">
+    <BiopaxRef>a23</BiopaxRef>
+    <BiopaxRef>c1b</BiopaxRef>
+    <BiopaxRef>d45</BiopaxRef>
+    <BiopaxRef>e3f</BiopaxRef>
+    <BiopaxRef>fe4</BiopaxRef>
+    <Graphics FillColor="00ffff" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="GADD45A" GraphId="e19a3" Type="GeneProduct">
+    <BiopaxRef>d0e</BiopaxRef>
+    <BiopaxRef>d3d</BiopaxRef>
+    <BiopaxRef>bd3</BiopaxRef>
+    <BiopaxRef>c38</BiopaxRef>
+    <BiopaxRef>fc4</BiopaxRef>
+    <BiopaxRef>c91</BiopaxRef>
+    <Graphics FillColor="cc9900" ShapeType="Hexagon"/>
+    </DataNode>
+  <DataNode TextLabel="CREB1" GraphId="ee34e" Type="GeneProduct" GroupRef="ea2e9">
+    <BiopaxRef>f37</BiopaxRef>
+    <Graphics FillColor="66ff66" ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="p21" GraphId="c552b" Type="GeneProduct">
+    <BiopaxRef>b43</BiopaxRef>
+    <BiopaxRef>e9a</BiopaxRef>
+    <BiopaxRef>cf3</BiopaxRef>
+    <BiopaxRef>bfb</BiopaxRef>
+    <BiopaxRef>caa</BiopaxRef>
+    <BiopaxRef>ded</BiopaxRef>
+    <Graphics FillColor="66ccff" Align="Left" ShapeType="Pentagon"/>
+    </DataNode>
+  <DataNode TextLabel="TP73" GraphId="ed559" Type="GeneProduct">
+    <BiopaxRef>f03</BiopaxRef>
+    <BiopaxRef>e12</BiopaxRef>
+    <BiopaxRef>dc4</BiopaxRef>
+    <BiopaxRef>d7a</BiopaxRef>
+    <BiopaxRef>e7f</BiopaxRef>
+    <BiopaxRef>a13</BiopaxRef>
+    <Graphics FillColor="00cccc" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="NEMO" GraphId="b6896" Type="Protein" GroupRef="b6ccd">
+    <BiopaxRef>b67</BiopaxRef>
+    <BiopaxRef>e40</BiopaxRef>
+    <Graphics FillColor="00cc00" ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="CDC25C" GraphId="d1775" Type="GeneProduct" GroupRef="bd7e4">
+    <BiopaxRef>f20</BiopaxRef>
+    <BiopaxRef>baf</BiopaxRef>
+    <BiopaxRef>c15</BiopaxRef>
+    <BiopaxRef>d31</BiopaxRef>
+    <BiopaxRef>ed4</BiopaxRef>
+    <BiopaxRef>cad</BiopaxRef>
+    <Graphics FillColor="ff00ff" ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="SMC1A" GraphId="b6c07" Type="Protein">
+    <BiopaxRef>b80</BiopaxRef>
+    <Graphics FillColor="00cc00" ShapeType="Oval" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="Apoptosis" GraphId="cca26" Type="Pathway">
+    <BiopaxRef>b0a</BiopaxRef>
+    <BiopaxRef>c88</BiopaxRef>
+    <BiopaxRef>e65</BiopaxRef>
+    <BiopaxRef>dca</BiopaxRef>
+    <BiopaxRef>dec</BiopaxRef>
+    <BiopaxRef>f18</BiopaxRef>
+    <BiopaxRef>b29</BiopaxRef>
+    <BiopaxRef>ad1</BiopaxRef>
+    <BiopaxRef>d3a</BiopaxRef>
+    <BiopaxRef>dfc</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="003399"/>
+    </DataNode>
+  <DataNode TextLabel="AP3B2" GraphId="a4eab" Type="Protein">
+    <Graphics FillColor="ffff00" ShapeType="RoundedRectangle" Color="003399"/>
+    </DataNode>
+  <DataNode TextLabel="Apoptosis" GraphId="f4c60" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="003399"/>
+    </DataNode>
+  <DataNode TextLabel="G2/M Transition" GraphId="e75f4" Type="Pathway">
+    <BiopaxRef>d8e</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="003399"/>
+    </DataNode>
+  <DataNode TextLabel="CDK1" GraphId="aa362" Type="GeneProduct">
+    <BiopaxRef>eb2</BiopaxRef>
+    <BiopaxRef>d93</BiopaxRef>
+    <BiopaxRef>ae2</BiopaxRef>
+    <BiopaxRef>ecc</BiopaxRef>
+    <BiopaxRef>f9d</BiopaxRef>
+    <BiopaxRef>d75</BiopaxRef>
+    <Graphics FillColor="990099" ShapeType="RoundedRectangle" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="ATM" GraphId="c6daf" Type="GeneProduct" GroupRef="ff136">
+    <BiopaxRef>df4</BiopaxRef>
+    <BiopaxRef>be6</BiopaxRef>
+    <BiopaxRef>c96</BiopaxRef>
+    <BiopaxRef>b19</BiopaxRef>
+    <BiopaxRef>a3e</BiopaxRef>
+    <BiopaxRef>c42</BiopaxRef>
+    <Graphics FillColor="333333" ShapeType="RoundedRectangle" Color="ffff00"/>
+    </DataNode>
+  <DataNode TextLabel="H2AX" GraphId="ce4b5" Type="Protein">
+    <BiopaxRef>b9e</BiopaxRef>
+    <BiopaxRef>b5d</BiopaxRef>
+    <BiopaxRef>a8b</BiopaxRef>
+    <BiopaxRef>ea3</BiopaxRef>
+    <BiopaxRef>b2b</BiopaxRef>
+    <BiopaxRef>b59</BiopaxRef>
+    <Graphics FillColor="66ccff" ShapeType="Hexagon" Color="333333"/>
+    </DataNode>
+  <DataNode TextLabel="RAD9A" GraphId="c46cc" Type="GeneProduct" GroupRef="fea99">
+    <BiopaxRef>ad2</BiopaxRef>
+    <BiopaxRef>eaa</BiopaxRef>
+    <Graphics FillColor="990099" ShapeType="Hexagon" Color="ffff00"/>
+    </DataNode>
+  <DataNode TextLabel="PIDD" GraphId="afc0e" Type="GeneProduct" GroupRef="c6f5d">
+    <BiopaxRef>a7e</BiopaxRef>
+    <BiopaxRef>c3d</BiopaxRef>
+    <BiopaxRef>bd5</BiopaxRef>
+    <BiopaxRef>de4</BiopaxRef>
+    <BiopaxRef>fa9</BiopaxRef>
+    <BiopaxRef>bf0</BiopaxRef>
+    <Graphics FillColor="ff0033" ShapeType="RoundedRectangle" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="RAD51" GraphId="c079d" Type="GeneProduct" GroupRef="e4b72">
+    <BiopaxRef>b20</BiopaxRef>
+    <BiopaxRef>b90</BiopaxRef>
+    <BiopaxRef>d72</BiopaxRef>
+    <BiopaxRef>bad</BiopaxRef>
+    <BiopaxRef>ef8</BiopaxRef>
+    <BiopaxRef>e91</BiopaxRef>
+    <BiopaxRef>cb9</BiopaxRef>
+    <BiopaxRef>ba9</BiopaxRef>
+    <BiopaxRef>eeb</BiopaxRef>
+    <Graphics FillColor="ff9933" Align="Left" ShapeType="Pentagon"/>
+    </DataNode>
+  <DataNode TextLabel="TLK1" GraphId="c332a" Type="Protein">
+    <BiopaxRef>e88</BiopaxRef>
+    <BiopaxRef>d91</BiopaxRef>
+    <BiopaxRef>cd0</BiopaxRef>
+    <Graphics FillColor="999999"/>
+    </DataNode>
+  <DataNode TextLabel="CDC2" GraphId="a92fb" Type="GeneProduct">
+    <BiopaxRef>d78</BiopaxRef>
+    <BiopaxRef>b3c</BiopaxRef>
+    <BiopaxRef>a88</BiopaxRef>
+    <BiopaxRef>e3b</BiopaxRef>
+    <BiopaxRef>c31</BiopaxRef>
+    <Graphics FillColor="339900" ShapeType="RoundedRectangle" Color="ffff00"/>
+    </DataNode>
+  <DataNode TextLabel="IKBA" GraphId="ef6e7" Type="Protein" GroupRef="b5dbd">
+    <BiopaxRef>cab</BiopaxRef>
+    <BiopaxRef>a61</BiopaxRef>
+    <Graphics FillColor="cc9900" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="RIP1" GraphId="b1ae8" Type="GeneProduct" GroupRef="b6ccd">
+    <BiopaxRef>b95</BiopaxRef>
+    <BiopaxRef>b18</BiopaxRef>
+    <BiopaxRef>b12</BiopaxRef>
+    <Graphics FillColor="ffff00" ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="CCNE1" GraphId="fb62b" Type="GeneProduct" GroupRef="d3610">
+    <BiopaxRef>d5e</BiopaxRef>
+    <BiopaxRef>c58</BiopaxRef>
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="339900"/>
+    </DataNode>
+  <DataNode TextLabel="c-Abl" GraphId="e7db6" Type="GeneProduct" GroupRef="b96fc">
+    <BiopaxRef>def</BiopaxRef>
+    <BiopaxRef>ac0</BiopaxRef>
+    <BiopaxRef>deb</BiopaxRef>
+    <BiopaxRef>ee3</BiopaxRef>
+    <Graphics FillColor="00ffff" ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Chk1" GraphId="f80b9" Type="Protein" GroupRef="b8842">
+    <BiopaxRef>c00</BiopaxRef>
+    <BiopaxRef>fcc</BiopaxRef>
+    <BiopaxRef>ab1</BiopaxRef>
+    <BiopaxRef>bf1</BiopaxRef>
+    <BiopaxRef>c32</BiopaxRef>
+    <BiopaxRef>ffa</BiopaxRef>
+    <Graphics FillColor="666666" ShapeType="Oval" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="BRCA1" GraphId="e795d" Type="Protein">
+    <BiopaxRef>d5d</BiopaxRef>
+    <BiopaxRef>bb2</BiopaxRef>
+    <BiopaxRef>a10</BiopaxRef>
+    <BiopaxRef>d7d</BiopaxRef>
+    <BiopaxRef>a0a</BiopaxRef>
+    <BiopaxRef>ac2</BiopaxRef>
+    <BiopaxRef>b7b</BiopaxRef>
+    <Graphics FillColor="cccc00"/>
+    </DataNode>
+  <DataNode TextLabel="SAPK (MAPK9)" GraphId="c722f" Type="GeneProduct">
+    <BiopaxRef>dbb</BiopaxRef>
+    <BiopaxRef>bd1</BiopaxRef>
+    <Graphics FillColor="cc9900" ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Cell Death" GraphId="f9753" Type="Pathway">
+    <BiopaxRef>fa3</BiopaxRef>
+    <BiopaxRef>ed9</BiopaxRef>
+    <BiopaxRef>de0</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="003399"/>
+    </DataNode>
+  <DataNode TextLabel="FANCD2" GraphId="a7664" Type="Protein" GroupRef="fe3dc">
+    <BiopaxRef>c9f</BiopaxRef>
+    <BiopaxRef>d2f</BiopaxRef>
+    <BiopaxRef>d18</BiopaxRef>
+    <BiopaxRef>a99</BiopaxRef>
+    <BiopaxRef>ae8</BiopaxRef>
+    <BiopaxRef>fca</BiopaxRef>
+    <Graphics FillColor="ffffcc" ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Senescence" GraphId="e3b92" Type="Pathway">
+    <BiopaxRef>fd0</BiopaxRef>
+    <BiopaxRef>b0d</BiopaxRef>
+    <BiopaxRef>e93</BiopaxRef>
+    <BiopaxRef>d8a</BiopaxRef>
+    <BiopaxRef>c61</BiopaxRef>
+    <BiopaxRef>c1d</BiopaxRef>
+    <BiopaxRef>c89</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="003399"/>
+    </DataNode>
+  <DataNode TextLabel="MDMX (MDM4)" GraphId="ad995" Type="GeneProduct" GroupRef="dabbe">
+    <BiopaxRef>e3c</BiopaxRef>
+    <BiopaxRef>e83</BiopaxRef>
+    <BiopaxRef>f09</BiopaxRef>
+    <BiopaxRef>af3</BiopaxRef>
+    <BiopaxRef>ca4</BiopaxRef>
+    <BiopaxRef>e94</BiopaxRef>
+    <BiopaxRef>c86</BiopaxRef>
+    <Graphics FillColor="cccccc" ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="S Phase Arrest" GraphId="da824" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="003399"/>
+    </DataNode>
+  <DataNode TextLabel="TP53" GraphId="d5bed" Type="GeneProduct" GroupRef="cf482">
+    <BiopaxRef>a54</BiopaxRef>
+    <BiopaxRef>a14</BiopaxRef>
+    <BiopaxRef>de7</BiopaxRef>
+    <BiopaxRef>bb5</BiopaxRef>
+    <Graphics FillColor="ff9933" ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="DNA Repair" GraphId="cae06" Type="Pathway" GroupRef="eaba8">
+    <Graphics ShapeType="RoundedRectangle" Color="003399"/>
+    </DataNode>
+  <DataNode TextLabel="MDM2" GraphId="dc880" Type="Protein" GroupRef="dabbe">
+    <BiopaxRef>c7d</BiopaxRef>
+    <BiopaxRef>f45</BiopaxRef>
+    <BiopaxRef>a17</BiopaxRef>
+    <BiopaxRef>a39</BiopaxRef>
+    <BiopaxRef>f0a</BiopaxRef>
+    <BiopaxRef>d61</BiopaxRef>
+    <Graphics FillColor="ccffcc" ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="CDK2" GraphId="d72c4" Type="Protein">
+    <BiopaxRef>b62</BiopaxRef>
+    <BiopaxRef>e3b</BiopaxRef>
+    <BiopaxRef>c31</BiopaxRef>
+    <BiopaxRef>c20</BiopaxRef>
+    <BiopaxRef>ef9</BiopaxRef>
+    <BiopaxRef>ad3</BiopaxRef>
+    <Graphics FillColor="ff9900" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="MDC1" GraphId="a1e93" Type="Protein">
+    <BiopaxRef>e9c</BiopaxRef>
+    <BiopaxRef>f21</BiopaxRef>
+    <BiopaxRef>f2b</BiopaxRef>
+    <BiopaxRef>b02</BiopaxRef>
+    <Graphics FillColor="0000ff" ShapeType="Hexagon" Color="ffff00"/>
+    </DataNode>
+  <DataNode TextLabel="RAIDD" GraphId="e417c" Type="GeneProduct">
+    <BiopaxRef>f6f</BiopaxRef>
+    <BiopaxRef>df7</BiopaxRef>
+    <BiopaxRef>b94</BiopaxRef>
+    <BiopaxRef>f7e</BiopaxRef>
+    <BiopaxRef>b85</BiopaxRef>
+    <BiopaxRef>c90</BiopaxRef>
+    <Graphics FillColor="999999" Align="Left" ShapeType="Pentagon" Color="ffff00"/>
+    </DataNode>
+  <DataNode TextLabel="NF kappa B Pathway" GraphId="c909a" Type="Pathway">
+    <BiopaxRef>e40</BiopaxRef>
+    <BiopaxRef>efc</BiopaxRef>
+    <BiopaxRef>b76</BiopaxRef>
+    <BiopaxRef>c01</BiopaxRef>
+    <Graphics ShapeType="None" Color="003399"/>
+    </DataNode>
+  <DataNode TextLabel="G2/M Checkpoint Arrest" GraphId="fecb6" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="003399"/>
+    </DataNode>
+  <DataNode TextLabel="Caspase 2" GraphId="bacbc" Type="GeneProduct">
+    <BiopaxRef>c64</BiopaxRef>
+    <BiopaxRef>a70</BiopaxRef>
+    <BiopaxRef>de0</BiopaxRef>
+    <BiopaxRef>adb</BiopaxRef>
+    <BiopaxRef>be3</BiopaxRef>
+    <BiopaxRef>e1b</BiopaxRef>
+    <BiopaxRef>a6a</BiopaxRef>
+    <BiopaxRef>f2f</BiopaxRef>
+    <BiopaxRef>fa5</BiopaxRef>
+    <Graphics FillColor="ffff00" Color="cc3300"/>
+    </DataNode>
+  <DataNode TextLabel="S Phase&#10;Progression" GraphId="aa2ee" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="003399"/>
+    </DataNode>
+  <DataNode TextLabel="G1/S Checkpoint Arrest " GraphId="aafe9" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="003399"/>
+    </DataNode>
+  <DataNode TextLabel="ATF2" GraphId="fa9dc" Type="GeneProduct" GroupRef="b096a">
+    <BiopaxRef>c74</BiopaxRef>
+    <BiopaxRef>bc1</BiopaxRef>
+    <BiopaxRef>be8</BiopaxRef>
+    <Graphics FillColor="990099" ShapeType="Oval" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="DNA Repair" GraphId="ef9f0" Type="Pathway">
+    <BiopaxRef>d9e</BiopaxRef>
+    <BiopaxRef>af7</BiopaxRef>
+    <BiopaxRef>dcb</BiopaxRef>
+    <BiopaxRef>f7d</BiopaxRef>
+    <BiopaxRef>a60</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="003399"/>
+    </DataNode>
+  <DataNode TextLabel="BID" GraphId="dd7fb" Type="Protein" GroupRef="a227d">
+    <BiopaxRef>b10</BiopaxRef>
+    <BiopaxRef>a27</BiopaxRef>
+    <Graphics FillColor="cccccc" Align="Left" ShapeType="Pentagon"/>
+    </DataNode>
+  <DataNode TextLabel="c-Jun" GraphId="c6362" Type="GeneProduct">
+    <Graphics FillColor="cccccc"/>
+    </DataNode>
+  <DataNode TextLabel="TP53BP1" GraphId="b9d0c" Type="GeneProduct">
+    <BiopaxRef>dae</BiopaxRef>
+    <Graphics FillColor="cc00cc" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="S Phase Progression" GraphId="e5ea0" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="003399"/>
+    </DataNode>
+  <DataNode TextLabel="ATM" GraphId="dd224" Type="GeneProduct" GroupRef="a25e3">
+    <BiopaxRef>df4</BiopaxRef>
+    <BiopaxRef>be6</BiopaxRef>
+    <BiopaxRef>c96</BiopaxRef>
+    <BiopaxRef>b19</BiopaxRef>
+    <BiopaxRef>a3e</BiopaxRef>
+    <BiopaxRef>c42</BiopaxRef>
+    <Graphics FillColor="333333" ShapeType="RoundedRectangle" Color="ffff00"/>
+    </DataNode>
+  <DataNode TextLabel="ATM" GraphId="eaa4a" Type="GeneProduct" GroupRef="e93f4">
+    <BiopaxRef>df4</BiopaxRef>
+    <BiopaxRef>be6</BiopaxRef>
+    <BiopaxRef>c96</BiopaxRef>
+    <BiopaxRef>b19</BiopaxRef>
+    <BiopaxRef>a3e</BiopaxRef>
+    <BiopaxRef>c42</BiopaxRef>
+    <Graphics FillColor="333333" ShapeType="RoundedRectangle" Color="ffff00"/>
+    </DataNode>
+  <DataNode TextLabel="ATM" GraphId="ae34b" Type="GeneProduct" GroupRef="e93f4">
+    <BiopaxRef>df4</BiopaxRef>
+    <BiopaxRef>be6</BiopaxRef>
+    <BiopaxRef>c96</BiopaxRef>
+    <BiopaxRef>b19</BiopaxRef>
+    <BiopaxRef>a3e</BiopaxRef>
+    <BiopaxRef>c42</BiopaxRef>
+    <Graphics FillColor="333333" ShapeType="RoundedRectangle" Color="ffff00"/>
+    </DataNode>
+  <DataNode TextLabel="Cell Cycle Checkpoint Activation" GraphId="f9925" Type="Pathway">
+    <BiopaxRef>c83</BiopaxRef>
+    <BiopaxRef>fc0</BiopaxRef>
+    <BiopaxRef>ede</BiopaxRef>
+    <BiopaxRef>e11</BiopaxRef>
+    <BiopaxRef>da2</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="003399"/>
+    </DataNode>
+  <DataNode TextLabel="MRE11" GraphId="a80c3" Type="Protein" GroupRef="fe75d">
+    <Graphics FillColor="ff0099"/>
+    </DataNode>
+  <DataNode TextLabel="NBS1" GraphId="dfdcc" Type="Protein" GroupRef="fe75d">
+    <Graphics FillColor="ccffff"/>
+    </DataNode>
+  <DataNode TextLabel="RAD50" GraphId="f97a1" Type="Protein" GroupRef="fe75d">
+    <Graphics FillColor="0000ff" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="DNA DAMAGE" GraphId="d8bf7" Type="Pathway">
+    <BiopaxRef>b21</BiopaxRef>
+    <BiopaxRef>ff4</BiopaxRef>
+    <BiopaxRef>b79</BiopaxRef>
+    <BiopaxRef>aaa</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="003399"/>
+    </DataNode>
+  <DataNode TextLabel="CDK2" GraphId="ea9cc" Type="Protein" GroupRef="d3610">
+    <BiopaxRef>b62</BiopaxRef>
+    <BiopaxRef>e3b</BiopaxRef>
+    <BiopaxRef>c31</BiopaxRef>
+    <BiopaxRef>c20</BiopaxRef>
+    <BiopaxRef>ef9</BiopaxRef>
+    <BiopaxRef>ad3</BiopaxRef>
+    <Graphics FillColor="ff9900" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="MDM2" GraphId="fb8fa" Type="Protein" GroupRef="c0a35">
+    <BiopaxRef>c7d</BiopaxRef>
+    <BiopaxRef>f45</BiopaxRef>
+    <BiopaxRef>a17</BiopaxRef>
+    <BiopaxRef>a39</BiopaxRef>
+    <BiopaxRef>f0a</BiopaxRef>
+    <BiopaxRef>d61</BiopaxRef>
+    <Graphics FillColor="ccffcc" ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="RAD50" GraphId="da313" Type="Protein" GroupRef="ffc64">
+    <Graphics FillColor="0000ff" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="MRE11" GraphId="beb86" Type="Protein" GroupRef="ffc64">
+    <Graphics FillColor="ff0099"/>
+    </DataNode>
+  <DataNode TextLabel="NBS1" GraphId="fbd96" Type="Protein" GroupRef="ffc64">
+    <Graphics FillColor="ccffff"/>
+    </DataNode>
+  <DataNode TextLabel="Recombination" GraphId="d322c" Type="Pathway" GroupRef="eaba8">
+    <Graphics ShapeType="RoundedRectangle" Color="003399"/>
+    </DataNode>
+  <Interaction GraphId="id4a00e28c">
+    <Graphics ConnectorType="Elbow" Color="009900">
+      <Point GraphRef="c6daf"/>
+      <Point/>
+      <Point GraphRef="fa9dc" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id93be2059">
+    <Graphics ConnectorType="Elbow" Color="009900">
+      <Point GraphRef="c6daf"/>
+      <Point/>
+      <Point GraphRef="a4eab" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida37f0fc3">
+    <Graphics ConnectorType="Elbow" Color="009900">
+      <Point GraphRef="c6daf"/>
+      <Point/>
+      <Point GraphRef="dd224" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddfd80fa6">
+    <Graphics ConnectorType="Segmented" Color="009900">
+      <Point GraphRef="d8bf7"/>
+      <Point/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="c6daf" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df85c">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="d0872"/>
+      <Point/>
+      <Point GraphRef="c6daf"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eaf62">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="003399">
+      <Point GraphRef="d5bed"/>
+      <Point/>
+      <Point GraphRef="e3b92" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c577c">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="d5bed"/>
+      <Point/>
+      <Point GraphRef="c552b" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a4b7e">
+    <Graphics LineStyle="Broken" Color="003399">
+      <Point GraphRef="ed559"/>
+      <Point GraphRef="f4c60" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ab1e3">
+    <Graphics LineStyle="Broken" Color="003399">
+      <Point GraphRef="c6362"/>
+      <Point GraphRef="c7b53" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f9565">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="c6daf"/>
+      <Point/>
+      <Point GraphRef="f80b9" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b05b6">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="003399">
+      <Point GraphRef="ee34e"/>
+      <Point GraphRef="c5d19" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="abfb4">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="ad196"/>
+      <Point GraphRef="ba679" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b025a">
+    <Graphics LineStyle="Broken" Color="003399">
+      <Point GraphRef="a7664"/>
+      <Point GraphRef="da824" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f6cbe">
+    <Graphics Color="339900">
+      <Point GraphRef="e7db6"/>
+      <Point GraphRef="c079d" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fcd13">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="b9d0c"/>
+      <Point GraphRef="c6daf" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e2710">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="c4461"/>
+      <Point GraphRef="b9d0c" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dd267">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="003399">
+      <Point GraphRef="aa362"/>
+      <Point/>
+      <Point GraphRef="fecb6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a14d9">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="f80b9"/>
+      <Point/>
+      <Point GraphRef="d1775" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bb302">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="c6daf"/>
+      <Point/>
+      <Point GraphRef="e795d" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a7bfd">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="c6daf"/>
+      <Point/>
+      <Point GraphRef="ed2e6" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a5ac6">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="ed2e6"/>
+      <Point/>
+      <Point GraphRef="ad995" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e6f1a">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="ed2e6"/>
+      <Point/>
+      <Point GraphRef="d12a1" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c182a">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="c6daf"/>
+      <Point/>
+      <Point GraphRef="e7db6" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="da45c">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="003399">
+      <Point GraphRef="ef6e7"/>
+      <Point GraphRef="c909a" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa70f">
+    <Graphics Color="ff0033">
+      <Point GraphRef="f80b9"/>
+      <Point GraphRef="c332a" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a5aea">
+    <Graphics LineStyle="Broken" Color="003399">
+      <Point GraphRef="bacbc"/>
+      <Point GraphRef="f9753" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0398">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="000099">
+      <Point GraphRef="e795d"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="cf170" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cad51">
+    <Graphics Color="339900">
+      <Point GraphRef="e417c"/>
+      <Point GraphRef="bacbc" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fd47a">
+    <Graphics LineStyle="Broken" Color="003399">
+      <Point GraphRef="c332a"/>
+      <Point GraphRef="aa2ee" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b1c90">
+    <Graphics ConnectorType="Elbow" Color="ff0033">
+      <Point GraphRef="e19a3"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="aa362" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1385">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="d72c4"/>
+      <Point GraphRef="ea9cc" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="abeb5">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="ad196"/>
+      <Point GraphRef="c6daf" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dedf5">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="003399">
+      <Point GraphRef="d5bed"/>
+      <Point GraphRef="cca26" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fee0a">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="c6daf"/>
+      <Point/>
+      <Point GraphRef="fb8fa" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc666">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="f80b9"/>
+      <Point GraphRef="afc0e" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b6c1d">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="ffa91"/>
+      <Point GraphRef="aa362" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e5834">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="e7db6"/>
+      <Point GraphRef="c722f" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cce33">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="003399">
+      <Point GraphRef="ce4b5"/>
+      <Point GraphRef="ef9f0" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dc4ee">
+    <Graphics Color="ff0033">
+      <Point GraphRef="d5bed"/>
+      <Point GraphRef="ffa91" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bd32b">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="c722f"/>
+      <Point GraphRef="c6362" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a8d56">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="ed2e6"/>
+      <Point/>
+      <Point GraphRef="d1775" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ba29c">
+    <Graphics Color="ff0033">
+      <Point GraphRef="d12a1"/>
+      <Point GraphRef="d72c4" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e3834">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="003399">
+      <Point GraphRef="a4eab"/>
+      <Point/>
+      <Point GraphRef="dc7c0" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ffb63">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="c6daf"/>
+      <Point/>
+      <Point GraphRef="d5bed" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d7e26">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="003399">
+      <Point GraphRef="d91f9"/>
+      <Point GraphRef="cc9e9" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eae49">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="003399">
+      <Point GraphRef="af980"/>
+      <Point GraphRef="dca06" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f4398">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="c6daf"/>
+      <Point/>
+      <Point GraphRef="a7664" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e14eb">
+    <Graphics ConnectorType="Elbow" Color="ff0033">
+      <Point GraphRef="d5bed"/>
+      <Point/>
+      <Point GraphRef="aa362" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b5342">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="afc0e"/>
+      <Point/>
+      <Point GraphRef="e417c" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d20b7">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="003399">
+      <Point GraphRef="b84f3"/>
+      <Point GraphRef="aafe9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d7c22">
+    <Graphics ConnectorType="Elbow" Color="ff0033">
+      <Point GraphRef="c552b"/>
+      <Point GraphRef="aa362" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b13c9">
+    <Graphics ConnectorType="Elbow" Color="ff0033">
+      <Point GraphRef="afc0e"/>
+      <Point GraphRef="af980" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d94d8">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="c6daf"/>
+      <Point/>
+      <Point GraphRef="c46cc" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9c1d">
+    <Graphics Color="ff0033">
+      <Point GraphRef="d1775"/>
+      <Point GraphRef="a92fb" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="caef7">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="c6daf"/>
+      <Point/>
+      <Point GraphRef="ef6e7" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b8e48">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="a1e93"/>
+      <Point GraphRef="ed2e6" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="beaf3">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="003399">
+      <Point GraphRef="c079d"/>
+      <Point GraphRef="c5700" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="abb38">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="e7db6"/>
+      <Point GraphRef="ed559" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d5861">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="afc0e"/>
+      <Point/>
+      <Point GraphRef="af980" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b5c2a">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="003399">
+      <Point GraphRef="c46cc"/>
+      <Point GraphRef="f9925" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="deb56">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="003399">
+      <Point GraphRef="d72c4"/>
+      <Point/>
+      <Point GraphRef="e5ea0" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b56d4">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="d5bed"/>
+      <Point/>
+      <Point GraphRef="e19a3" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e984d">
+    <Graphics LineStyle="Broken" Color="003399">
+      <Point GraphRef="dd7fb"/>
+      <Point GraphRef="f9925" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a326a">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="c6daf"/>
+      <Point GraphRef="ee34e" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c8fd5">
+    <Graphics ConnectorType="Elbow" Color="ff0033">
+      <Point GraphRef="c552b"/>
+      <Point GraphRef="b84f3" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a87cc">
+    <Graphics ConnectorType="Elbow" Color="333333">
+      <Point GraphRef="b692e"/>
+      <Point GraphRef="c4461" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a11e5">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="ed2e6"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="d5bed" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="be773">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="fb8fa"/>
+      <Point/>
+      <Point GraphRef="d5bed" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e9472">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="c6daf"/>
+      <Point/>
+      <Point GraphRef="dd7fb" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b26c8">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="c6daf"/>
+      <Point/>
+      <Point GraphRef="a1e93" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c203c">
+    <Graphics ConnectorType="Elbow" Color="333333">
+      <Point GraphRef="b692e"/>
+      <Point GraphRef="d8bf7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bd31a">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="003399">
+      <Point GraphRef="b6c07"/>
+      <Point/>
+      <Point GraphRef="ef9f0" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d7f5b">
+    <Graphics ConnectorType="Elbow" Color="339900">
+      <Point GraphRef="dd224"/>
+      <Point GraphRef="b6c07" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b0c77">
+    <Graphics Color="339900">
+      <Point GraphRef="fa9dc"/>
+      <Point GraphRef="ce4b5" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f6780">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="003399">
+      <Point GraphRef="a92fb"/>
+      <Point/>
+      <Point GraphRef="e75f4" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="dbe0f" GroupRef="bfda5">
+    <Graphics LineStyle="Broken" Color="003399">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c54fc" GroupRef="fc773">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fceb8" GroupRef="fc773">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e41bc" GroupRef="fc773">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c0fa0" GroupRef="fc773">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c96c4" GroupRef="fc773">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cb272" GroupRef="fc773">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fc669" GroupRef="fc773">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c9c6b" GroupRef="fc773">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="be61f" GroupRef="fc773">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dddc7" GroupRef="fc773">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dd27e" GroupRef="fc773">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ae8b7" GroupRef="fc773">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ed352" GroupRef="fc773">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a30a1" GroupRef="fc773">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ea3f1" GroupRef="bfda5">
+    <Graphics Color="339900">
+      <Point/>
+      <Point ArrowHead="mim-stimulation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a3142" GroupRef="bfda5">
+    <Graphics Color="ff0066">
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f2fa6" GroupRef="bfda5">
+    <Graphics Color="333333">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Cell response" GraphId="d2463" GroupRef="bfda5">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Label TextLabel="P" GraphId="bc294" GroupRef="c0a35">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="c4e11" GroupRef="ff136">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="c958b" GroupRef="fa5b3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="b6133" GroupRef="c6f5d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="e11ac" GroupRef="b8842">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="b8abd" GroupRef="fe3dc">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="bbba7" GroupRef="b96fc">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="b90d8" GroupRef="b5dbd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="f4ff6" GroupRef="a25e3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="IR Radiation" GraphId="b5afc">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="MDMX Ubiquitination &amp; Degradation" GraphId="cc9e9">
+    <Graphics FillColor="ffffff" Color="003399"/>
+  </Label>
+  <Label TextLabel="STRUCTURAL CHANGE OF CHROMATIN" GraphId="c4461">
+    <Graphics FillColor="ffffff" Color="003399"/>
+  </Label>
+  <Label TextLabel="Inactive Dimer" GraphId="d5690">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cell Survival" GraphId="c5d19">
+    <Graphics FillColor="ffffff" Color="003399"/>
+  </Label>
+  <Label TextLabel="MRN Complex" GraphId="c5090">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="aae5f" GroupRef="a227d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cell Survival" GraphId="c7b53">
+    <Graphics FillColor="ffffff" Color="003399"/>
+  </Label>
+  <Label TextLabel="Synaptic Vesicle Transport" GraphId="dc7c0">
+    <Graphics FillColor="ffffff" Color="003399"/>
+  </Label>
+  <Label TextLabel="Cell Survival" GraphId="dca06">
+    <Graphics FillColor="ffffff" Color="003399"/>
+  </Label>
+  <Label TextLabel="P" GraphId="c3821" GroupRef="be4c7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="d3a66" GroupRef="b096a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="e116a" GroupRef="fea99">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="e3091" GroupRef="e4b72">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="fc979">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="caf78" GroupRef="dc3df">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="c95a9" GroupRef="bd7e4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="c04f7" GroupRef="cf482">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="d4804" GroupRef="ea2e9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Activation path" GraphId="e0884" GroupRef="bfda5">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Label TextLabel="Inhibition path" GraphId="c7000" GroupRef="bfda5">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Label TextLabel="Triggered Damage" GraphId="b83de" GroupRef="bfda5">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Shape GraphId="d1a55" GroupRef="bfda5">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="f3789" GroupRef="c0a35">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b37e1" GroupRef="ff136">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ea31e" GroupRef="fa5b3">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bf128" GroupRef="c6f5d">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d1aba" GroupRef="b8842">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="aeb39" GroupRef="fe3dc">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c78ec" GroupRef="b96fc">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c5528" GroupRef="b5dbd">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c4385" GroupRef="a25e3">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ce487">
+    <Graphics ShapeType="RoundedRectangle" Color="999999"/>
+  </Shape>
+  <Shape GraphId="c40e8" GroupRef="a227d">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fd96e" GroupRef="be4c7">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a2964" GroupRef="b096a">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ed4f9" GroupRef="fea99">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cc305" GroupRef="e4b72">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b874b">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cee07" GroupRef="dc3df">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b9638" GroupRef="bd7e4">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fdd73" GroupRef="cf482">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e5e60" GroupRef="ea2e9">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="bfda5" Style="Group"/>
+  <Group GroupId="ed5c4" GraphId="a0527" Style="Group"/>
+  <Group GroupId="af54a" GraphId="a23bd" Style="Group"/>
+  <Group GroupId="c0a35" GraphId="a470a" Style="Group"/>
+  <Group GroupId="dc9fc" GraphId="a533a" Style="Group"/>
+  <Group GroupId="cf482" GraphId="aa169" Style="Group"/>
+  <Group GroupId="d6a58" GraphId="aabc7" Style="Group"/>
+  <Group GroupId="ffc64" GraphId="ad196" Style="Complex"/>
+  <Group GroupId="ee4b1" GraphId="adc0d" Style="Group"/>
+  <Group GroupId="b05b2" GraphId="aeb35" Style="Group"/>
+  <Group GroupId="b5dbd" GraphId="af4e7" Style="Group"/>
+  <Group GroupId="b6ccd" GraphId="af980" Style="Complex"/>
+  <Group GroupId="c6c7d" GraphId="afdd6" Style="Group"/>
+  <Group GroupId="b4e1b" GraphId="afea1" Style="Group"/>
+  <Group GroupId="d42e9" GraphId="b0d28" Style="Group"/>
+  <Group GroupId="aefa2" GraphId="b1428" Style="Group"/>
+  <Group GroupId="bd0e9" GraphId="b15bb" Style="Group"/>
+  <Group GroupId="a9971" GraphId="b1fa0" Style="Group"/>
+  <Group GroupId="bec27" GraphId="b5ceb" Style="Group"/>
+  <Group GroupId="b3a1a" GraphId="b5e01" Style="Group"/>
+  <Group GroupId="ca7a7" GraphId="b65f4" Style="Group"/>
+  <Group GroupId="fc773" GraphId="b692e" Style="Group"/>
+  <Group GroupId="d3610" GraphId="b84f3" Style="Complex"/>
+  <Group GroupId="fe75d" GraphId="ba679" Style="Complex"/>
+  <Group GroupId="ff136" GraphId="ba74c" Style="Group"/>
+  <Group GroupId="e7034" GraphId="bb7c9" Style="Group"/>
+  <Group GroupId="dc3df" GraphId="bbcee" Style="Group"/>
+  <Group GroupId="a23f3" GraphId="bd93c" Style="Group"/>
+  <Group GroupId="a227d" GraphId="be8f0" Style="Group"/>
+  <Group GroupId="fbdba" GraphId="c038e" Style="Group"/>
+  <Group GroupId="e407b" GraphId="c16f7" Style="Group"/>
+  <Group GroupId="fea99" GraphId="c267d" Style="Group"/>
+  <Group GroupId="f750c" GraphId="c2b82" Style="Group"/>
+  <Group GroupId="fe3dc" GraphId="c2b95" Style="Group"/>
+  <Group GroupId="c9cd4" GraphId="c3390" Style="Group"/>
+  <Group GroupId="aa26c" GraphId="c4032" Style="Group"/>
+  <Group GroupId="eaba8" GraphId="c5700" Style="Group"/>
+  <Group GroupId="c8c78" GraphId="c57ef" Style="Group"/>
+  <Group GroupId="c55ab" GraphId="c91f5" Style="Group"/>
+  <Group GroupId="bd7e4" GraphId="cb081" Style="Group"/>
+  <Group GroupId="b9d6c" GraphId="cd0c5" Style="Group"/>
+  <Group GroupId="e130c" GraphId="ceabe" Style="Group"/>
+  <Group GroupId="d51cb" GraphId="cf18a" Style="Group"/>
+  <Group GroupId="e93f4" GraphId="d0872" Style="Group"/>
+  <Group GroupId="bb0ed" GraphId="d1e39" Style="Group"/>
+  <Group GroupId="b096a" GraphId="d4106" Style="Group"/>
+  <Group GroupId="b96fc" GraphId="d6f08" Style="Group"/>
+  <Group GroupId="dabbe" GraphId="d91f9" Style="Complex"/>
+  <Group GroupId="d200c" GraphId="d9531" Style="Group"/>
+  <Group GroupId="c9a4e" GraphId="d9ac0" Style="Group"/>
+  <Group GroupId="d88b3" GraphId="db9eb" Style="Group"/>
+  <Group GroupId="a2af3" GraphId="dd4e3" Style="Group"/>
+  <Group GroupId="c37f7" GraphId="dde15" Style="Group"/>
+  <Group GroupId="f9075" GraphId="df01e" Style="Group"/>
+  <Group GroupId="d7078" GraphId="e0a7e" Style="Group"/>
+  <Group GroupId="df25d" GraphId="e1583" Style="Group"/>
+  <Group GroupId="f1ee1" GraphId="e3384" Style="Group"/>
+  <Group GroupId="c6f5d" GraphId="e36e7" Style="Group"/>
+  <Group GroupId="be4c7" GraphId="e59fe" Style="Group"/>
+  <Group GroupId="db6e7" GraphId="e6798" Style="Group"/>
+  <Group GroupId="fa5b3" GraphId="e710f" Style="Group"/>
+  <Group GroupId="f47e4" GraphId="e7d58" Style="Group"/>
+  <Group GroupId="b8842" GraphId="e7d6e" Style="Group"/>
+  <Group GroupId="aa666" GraphId="e7e92" Style="Group"/>
+  <Group GroupId="a25e3" GraphId="e8a56" Style="Group"/>
+  <Group GroupId="b24d1" GraphId="ed713" Style="Group"/>
+  <Group GroupId="d6f3e" GraphId="eeffd" Style="Group"/>
+  <Group GroupId="eccc4" GraphId="f28c1" Style="Group"/>
+  <Group GroupId="d3a18" GraphId="f2c4f" Style="Group"/>
+  <Group GroupId="a7738" GraphId="f3add" Style="Group"/>
+  <Group GroupId="a3e24" GraphId="f4586" Style="Group"/>
+  <Group GroupId="ce945" GraphId="f5b17" Style="Group"/>
+  <Group GroupId="ea2e9" GraphId="f5fb5" Style="Group"/>
+  <Group GroupId="a1030" GraphId="f630e" Style="Group"/>
+  <Group GroupId="e4b72" GraphId="f69ac" Style="Group"/>
+  <Group GroupId="d4316" GraphId="f7cd2" Style="Group"/>
+  <Group GroupId="d4371" GraphId="f8450" Style="Group"/>
+  <Group GroupId="b61e6" GraphId="f9b7e" Style="Group"/>
+  <Group GroupId="bda33" GraphId="fbe71" Style="Group"/>
+  <Group GroupId="e722c" GraphId="ffa28" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d18">
+      <bp:ID >21089513</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >[Fanconi anemia and DNA-damage response network].</bp:TITLE>
+      <bp:SOURCE >Tanpakushitsu Kakusan Koso</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Matsushita N</bp:AUTHORS>
+      <bp:AUTHORS >Kitao H</bp:AUTHORS>
+      <bp:AUTHORS >Ishiai M</bp:AUTHORS>
+      <bp:AUTHORS >Takata M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d31">
+      <bp:ID >19075563</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cell cycle control by the CDC25 phosphatases.</bp:TITLE>
+      <bp:SOURCE >Anticancer Agents Med Chem</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Aressy B</bp:AUTHORS>
+      <bp:AUTHORS >Ducommun B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd0">
+      <bp:ID >10092119</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Tlk, a novel evolutionarily conserved murine serine threonine kinase, encodes multiple testis transcripts.</bp:TITLE>
+      <bp:SOURCE >Mol Reprod Dev</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Shalom S</bp:AUTHORS>
+      <bp:AUTHORS >Don J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b10">
+      <bp:ID >12207176</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The roles of Bid.</bp:TITLE>
+      <bp:SOURCE >Apoptosis</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Esposti MD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a99">
+      <bp:ID >18047734</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The Fanconi anemia pathway and ubiquitin.</bp:TITLE>
+      <bp:SOURCE >BMC Biochem</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Jacquemont C</bp:AUTHORS>
+      <bp:AUTHORS >Taniguchi T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d7a">
+      <bp:ID >15254416</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >p73 and p63: why do we still need them?</bp:TITLE>
+      <bp:SOURCE >Cell Cycle</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Blandino G</bp:AUTHORS>
+      <bp:AUTHORS >Dobbelstein M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f2b">
+      <bp:ID >20224865</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MDC1: The art of keeping things in focus.</bp:TITLE>
+      <bp:SOURCE >Chromosoma</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Jungmichel S</bp:AUTHORS>
+      <bp:AUTHORS >Stucki M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fc4">
+      <bp:ID >12214253</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Genomic instability, centrosome amplification, cell cycle checkpoints and Gadd45a.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Hollander MC</bp:AUTHORS>
+      <bp:AUTHORS >Fornace AJ Jr</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c00">
+      <bp:ID >21034966</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The ATM-Chk2 and ATR-Chk1 pathways in DNA damage signaling and cancer.</bp:TITLE>
+      <bp:SOURCE >Adv Cancer Res</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Smith J</bp:AUTHORS>
+      <bp:AUTHORS >Tho LM</bp:AUTHORS>
+      <bp:AUTHORS >Xu N</bp:AUTHORS>
+      <bp:AUTHORS >Gillespie DA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bf0">
+      <bp:ID >16360026</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >PIDD: a switch hitter.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Wu ZH</bp:AUTHORS>
+      <bp:AUTHORS >Mabb A</bp:AUTHORS>
+      <bp:AUTHORS >Miyamoto S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ede">
+      <bp:ID >20515729</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mechanisms of ATR-mediated checkpoint signalling.</bp:TITLE>
+      <bp:SOURCE >Front Biosci</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Smits VA</bp:AUTHORS>
+      <bp:AUTHORS >Warmerdam DO</bp:AUTHORS>
+      <bp:AUTHORS >Martin Y</bp:AUTHORS>
+      <bp:AUTHORS >Freire R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bf1">
+      <bp:ID >19400965</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulation of chk1.</bp:TITLE>
+      <bp:SOURCE >Cell Div</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Tapia-Alveal C</bp:AUTHORS>
+      <bp:AUTHORS >Calonge TM</bp:AUTHORS>
+      <bp:AUTHORS >O'Connell MJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c91">
+      <bp:ID >12171872</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Gadd45a: an elusive yet attractive candidate gene in pancreatic cancer.</bp:TITLE>
+      <bp:SOURCE >Clin Cancer Res</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Hildesheim J</bp:AUTHORS>
+      <bp:AUTHORS >Fornace AJ Jr</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eb2">
+      <bp:ID >19683496</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cdk1 participates in BRCA1-dependent S phase checkpoint control in response to DNA damage.</bp:TITLE>
+      <bp:SOURCE >Mol Cell</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Johnson N</bp:AUTHORS>
+      <bp:AUTHORS >Cai D</bp:AUTHORS>
+      <bp:AUTHORS >Kennedy RD</bp:AUTHORS>
+      <bp:AUTHORS >Pathania S</bp:AUTHORS>
+      <bp:AUTHORS >Arora M</bp:AUTHORS>
+      <bp:AUTHORS >Li YC</bp:AUTHORS>
+      <bp:AUTHORS >D'Andrea AD</bp:AUTHORS>
+      <bp:AUTHORS >Parvin JD</bp:AUTHORS>
+      <bp:AUTHORS >Shapiro GI</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c15">
+      <bp:ID >19075564</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >CDC25A: a rebel within the CDC25 phosphatases family?</bp:TITLE>
+      <bp:SOURCE >Anticancer Agents Med Chem</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Fernandez-Vidal A</bp:AUTHORS>
+      <bp:AUTHORS >Mazars A</bp:AUTHORS>
+      <bp:AUTHORS >Manenti S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e83">
+      <bp:ID >23150759</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mdm2 and MdmX as Regulators of Gene Expression.</bp:TITLE>
+      <bp:SOURCE >Genes Cancer</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Biderman L</bp:AUTHORS>
+      <bp:AUTHORS >Manley JL</bp:AUTHORS>
+      <bp:AUTHORS >Prives C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c01">
+      <bp:ID >21196225</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NF-kappaB in lung cancer, a carcinogenesis mediator and a prevention and therapy target.</bp:TITLE>
+      <bp:SOURCE >Front Biosci</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Chen W</bp:AUTHORS>
+      <bp:AUTHORS >Li Z</bp:AUTHORS>
+      <bp:AUTHORS >Bai L</bp:AUTHORS>
+      <bp:AUTHORS >Lin Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b90">
+      <bp:ID >18243065</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The consequences of Rad51 overexpression for normal and tumor cells.</bp:TITLE>
+      <bp:SOURCE >DNA Repair (Amst)</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Klein HL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d45">
+      <bp:ID >11089869</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Factors controlling cyclin B expression.</bp:TITLE>
+      <bp:SOURCE >Plant Mol Biol</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Ito M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf3">
+      <bp:ID >9418909</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Effects of p21(Cip1/Waf1) at both the G1/S and the G2/M cell cycle transitions: pRb is a critical determinant in blocking DNA replication and in preventing endoreduplication.</bp:TITLE>
+      <bp:SOURCE >Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Niculescu AB 3rd</bp:AUTHORS>
+      <bp:AUTHORS >Chen X</bp:AUTHORS>
+      <bp:AUTHORS >Smeets M</bp:AUTHORS>
+      <bp:AUTHORS >Hengst L</bp:AUTHORS>
+      <bp:AUTHORS >Prives C</bp:AUTHORS>
+      <bp:AUTHORS >Reed SI</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b7b">
+      <bp:ID >22522501</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of BRCA1 and BRCA2 in prostate cancer.</bp:TITLE>
+      <bp:SOURCE >Asian J Androl</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Castro E</bp:AUTHORS>
+      <bp:AUTHORS >Eeles R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd3">
+      <bp:ID >17611403</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Radiation to control transgene expression in tumors.</bp:TITLE>
+      <bp:SOURCE >Cancer Biol Ther</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Marignol L</bp:AUTHORS>
+      <bp:AUTHORS >Coffey M</bp:AUTHORS>
+      <bp:AUTHORS >Hollywood D</bp:AUTHORS>
+      <bp:AUTHORS >Lawler M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e7f">
+      <bp:ID >11859406</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of p73 in malignancy: tumor suppressor or oncogene?</bp:TITLE>
+      <bp:SOURCE >Cell Death Differ</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Stiewe T</bp:AUTHORS>
+      <bp:AUTHORS >Putzer BM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed4">
+      <bp:ID >16682204</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cdc25: mechanisms of checkpoint inhibition and recovery.</bp:TITLE>
+      <bp:SOURCE >Trends Cell Biol</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Karlsson-Rosenthal C</bp:AUTHORS>
+      <bp:AUTHORS >Millar JB</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b0e">
+      <bp:ID >18772547 </bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Dancing on damaged chromatin: functions of ATM and the RAD50/MRE11/NBS1 complex in cellular responses to DNA damage.</bp:TITLE>
+      <bp:SOURCE >J Radiat Res</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Iijima K</bp:AUTHORS>
+      <bp:AUTHORS >Ohara M</bp:AUTHORS>
+      <bp:AUTHORS >Seki R</bp:AUTHORS>
+      <bp:AUTHORS >Tauchi H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fe4">
+      <bp:ID >8948422</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cyclins and cyclin-dependent kinases: a biochemical view.</bp:TITLE>
+      <bp:SOURCE >Biochem J</bp:SOURCE>
+      <bp:YEAR >1995</bp:YEAR>
+      <bp:AUTHORS >Pines J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b94">
+      <bp:ID >19125251</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >RAIDD expression is impaired in multidrug resistant osteosarcoma cell lines.</bp:TITLE>
+      <bp:SOURCE >Cancer Chemother Pharmacol</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Yang C</bp:AUTHORS>
+      <bp:AUTHORS >Hornicek FJ</bp:AUTHORS>
+      <bp:AUTHORS >Wood KB</bp:AUTHORS>
+      <bp:AUTHORS >Schwab JH</bp:AUTHORS>
+      <bp:AUTHORS >Mankin H</bp:AUTHORS>
+      <bp:AUTHORS >Duan Z</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6a">
+      <bp:ID >19023332</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The enigma of caspase-2: the laymen's view.</bp:TITLE>
+      <bp:SOURCE >Cell Death Differ</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Krumschnabel G</bp:AUTHORS>
+      <bp:AUTHORS >Sohm B</bp:AUTHORS>
+      <bp:AUTHORS >Bock F</bp:AUTHORS>
+      <bp:AUTHORS >Manzl C</bp:AUTHORS>
+      <bp:AUTHORS >Villunger A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b29">
+      <bp:ID >8533012</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >p53: DNA damage, DNA repair, and apoptosis.</bp:TITLE>
+      <bp:SOURCE >Rev Physiol Biochem Pharmacol</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >Gotz C</bp:AUTHORS>
+      <bp:AUTHORS >Montenarh M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e65">
+      <bp:ID >7948950</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Relationship of p53 to the control of apoptotic cell death.</bp:TITLE>
+      <bp:SOURCE >Semin Cancer Biol</bp:SOURCE>
+      <bp:YEAR >1994</bp:YEAR>
+      <bp:AUTHORS >Oren M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef8">
+      <bp:ID >15723711</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The RAD51 gene family, genetic instability and cancer.</bp:TITLE>
+      <bp:SOURCE >Cancer Lett</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Thacker J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca4">
+      <bp:ID >17251377</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MDMX: from bench to bedside.</bp:TITLE>
+      <bp:SOURCE >J Cell Sci</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Marine JC</bp:AUTHORS>
+      <bp:AUTHORS >Dyer MA</bp:AUTHORS>
+      <bp:AUTHORS >Jochemsen AG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da2">
+      <bp:ID >16903208</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Checkpoint and coordinated cellular responses to DNA damage.</bp:TITLE>
+      <bp:SOURCE >Results Probl Cell Differ</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Yang XH</bp:AUTHORS>
+      <bp:AUTHORS >Zou L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c32">
+      <bp:ID >18424430</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Expanded roles for Chk1 in genome maintenance.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Enders GH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa3">
+      <bp:ID >9261102</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Activation of caspase-2 in apoptosis.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Li H</bp:AUTHORS>
+      <bp:AUTHORS >Bergeron L</bp:AUTHORS>
+      <bp:AUTHORS >Cryns V</bp:AUTHORS>
+      <bp:AUTHORS >Pasternack MS</bp:AUTHORS>
+      <bp:AUTHORS >Zhu H</bp:AUTHORS>
+      <bp:AUTHORS >Shi L</bp:AUTHORS>
+      <bp:AUTHORS >Greenberg A</bp:AUTHORS>
+      <bp:AUTHORS >Yuan J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c58">
+      <bp:ID >15082921</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cyclins and breast cancer.</bp:TITLE>
+      <bp:SOURCE >J Mammary Gland Biol Neoplasia</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Sutherland RL</bp:AUTHORS>
+      <bp:AUTHORS >Musgrove EA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d0e">
+      <bp:ID >22150313</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Gadd45 stress sensors in malignancy and leukemia.</bp:TITLE>
+      <bp:SOURCE >Crit Rev Oncog</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Liebermann DA</bp:AUTHORS>
+      <bp:AUTHORS >Tront JS</bp:AUTHORS>
+      <bp:AUTHORS >Sha X</bp:AUTHORS>
+      <bp:AUTHORS >Mukherjee K</bp:AUTHORS>
+      <bp:AUTHORS >Mohamed-Hadley A</bp:AUTHORS>
+      <bp:AUTHORS >Hoffman B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a8b">
+      <bp:ID >19707781</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >H2AX: functional roles and potential applications.</bp:TITLE>
+      <bp:SOURCE >Chromosoma</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Dickey JS</bp:AUTHORS>
+      <bp:AUTHORS >Redon CE</bp:AUTHORS>
+      <bp:AUTHORS >Nakamura AJ</bp:AUTHORS>
+      <bp:AUTHORS >Baird BJ</bp:AUTHORS>
+      <bp:AUTHORS >Sedelnikova OA</bp:AUTHORS>
+      <bp:AUTHORS >Bonner WM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bc1">
+      <bp:ID >18677098</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >ATF2: a transcription factor that elicits oncogenic or tumor suppressor activities.</bp:TITLE>
+      <bp:SOURCE >Cell Cycle</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Bhoumik A</bp:AUTHORS>
+      <bp:AUTHORS >Ronai Z</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a13">
+      <bp:ID >11595834</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >p73 in apoptosis.</bp:TITLE>
+      <bp:SOURCE >Apoptosis</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Stiewe T</bp:AUTHORS>
+      <bp:AUTHORS >Putzer BM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a14">
+      <bp:ID >23717325</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Tumor Protein 53-Induced Nuclear Protein 1 Enhances p53 Function and Represses Tumorigenesis.</bp:TITLE>
+      <bp:SOURCE >Front Genet</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Shahbazi J</bp:AUTHORS>
+      <bp:AUTHORS >Lock R</bp:AUTHORS>
+      <bp:AUTHORS >Liu T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b62">
+      <bp:ID >20445224</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cdk2: a key regulator of the senescence control function of Myc.</bp:TITLE>
+      <bp:SOURCE >Aging (Albany NY)</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Hydbring P</bp:AUTHORS>
+      <bp:AUTHORS >Larsson LG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d5e">
+      <bp:ID >15147722</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cyclin E.</bp:TITLE>
+      <bp:SOURCE >Int J Biochem Cell Biol</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Moroy T</bp:AUTHORS>
+      <bp:AUTHORS >Geisen C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="adb">
+      <bp:ID >20061149</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The unpredictable caspase-2: what can it do?</bp:TITLE>
+      <bp:SOURCE >Trends Cell Biol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Vakifahmetoglu-Norberg H</bp:AUTHORS>
+      <bp:AUTHORS >Zhivotovsky B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d93">
+      <bp:ID >20465793</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >An overview of Cdk1-controlled targets and processes.</bp:TITLE>
+      <bp:SOURCE >Cell Div</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Enserink JM</bp:AUTHORS>
+      <bp:AUTHORS >Kolodner RD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b0d">
+      <bp:ID >23296650</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Senescence regulation by the p53 protein family.</bp:TITLE>
+      <bp:SOURCE >Methods Mol Biol</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Qian Y</bp:AUTHORS>
+      <bp:AUTHORS >Chen X</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bfb">
+      <bp:ID >8939883</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Novel form of p21(WAF1/CIP1/SDI1) protein in phorbol ester-induced G2/M arrest.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >Tchou WW</bp:AUTHORS>
+      <bp:AUTHORS >Rom WN</bp:AUTHORS>
+      <bp:AUTHORS >Tchou-Wong KM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d9e">
+      <bp:ID >22743550</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Recognition, signaling, and repair of DNA double-strand breaks produced by ionizing radiation in mammalian cells: the molecular choreography.</bp:TITLE>
+      <bp:SOURCE >Mutat Res</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Thompson LH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f18">
+      <bp:ID >7554031</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Apoptosis, cancer and the p53 tumour suppressor gene.</bp:TITLE>
+      <bp:SOURCE >Cancer Metastasis Rev</bp:SOURCE>
+      <bp:YEAR >1995</bp:YEAR>
+      <bp:AUTHORS >Lee JM</bp:AUTHORS>
+      <bp:AUTHORS >Bernstein A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f92">
+      <bp:ID >18508566</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The multiple checkpoint functions of CHK1 and CHK2 in maintenance of genome stability.</bp:TITLE>
+      <bp:SOURCE >Front Biosci</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Chen Y</bp:AUTHORS>
+      <bp:AUTHORS >Poon RY</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f20">
+      <bp:ID >22263797</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of Cdc25A in the regulation of cell proliferation and apoptosis.</bp:TITLE>
+      <bp:SOURCE >Anticancer Agents Med Chem</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Shen T</bp:AUTHORS>
+      <bp:AUTHORS >Huang S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="baf">
+      <bp:ID >19364923</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The decision to enter mitosis: feedback and redundancy in the mitotic entry network.</bp:TITLE>
+      <bp:SOURCE >J Cell Biol</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Lindqvist A</bp:AUTHORS>
+      <bp:AUTHORS >Rodriguez-Bravo V</bp:AUTHORS>
+      <bp:AUTHORS >Medema RH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b2b">
+      <bp:ID >17622968</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cytometry of ATM activation and histone H2AX phosphorylation to estimate extent of DNA damage induced by exogenous agents.</bp:TITLE>
+      <bp:SOURCE >Cytometry A</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Tanaka T</bp:AUTHORS>
+      <bp:AUTHORS >Huang X</bp:AUTHORS>
+      <bp:AUTHORS >Halicka HD</bp:AUTHORS>
+      <bp:AUTHORS >Zhao H</bp:AUTHORS>
+      <bp:AUTHORS >Traganos F</bp:AUTHORS>
+      <bp:AUTHORS >Albino AP</bp:AUTHORS>
+      <bp:AUTHORS >Dai W</bp:AUTHORS>
+      <bp:AUTHORS >Darzynkiewicz Z</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f03">
+      <bp:ID >21903324</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Targeting p73 in cancer.</bp:TITLE>
+      <bp:SOURCE >Cancer Lett</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Maas AM</bp:AUTHORS>
+      <bp:AUTHORS >Bretz AC</bp:AUTHORS>
+      <bp:AUTHORS >Mack E</bp:AUTHORS>
+      <bp:AUTHORS >Stiewe T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f7e">
+      <bp:ID >16183742</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Apoptosis caused by p53-induced protein with death domain (PIDD) depends on the death adapter protein RAIDD.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Berube C</bp:AUTHORS>
+      <bp:AUTHORS >Boucher LM</bp:AUTHORS>
+      <bp:AUTHORS >Ma W</bp:AUTHORS>
+      <bp:AUTHORS >Wakeham A</bp:AUTHORS>
+      <bp:AUTHORS >Salmena L</bp:AUTHORS>
+      <bp:AUTHORS >Hakem R</bp:AUTHORS>
+      <bp:AUTHORS >Yeh WC</bp:AUTHORS>
+      <bp:AUTHORS >Mak TW</bp:AUTHORS>
+      <bp:AUTHORS >Benchimol S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a9a">
+      <bp:ID >16314342</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >DNA damage checkpoints in mammals.</bp:TITLE>
+      <bp:SOURCE >Mutagenesis</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Niida H</bp:AUTHORS>
+      <bp:AUTHORS >Nakanishi M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c47">
+      <bp:ID >18075314</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Phosphatases, DNA damage checkpoints and checkpoint deactivation.</bp:TITLE>
+      <bp:SOURCE >Cell Cycle</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Heideker J</bp:AUTHORS>
+      <bp:AUTHORS >Lis ET</bp:AUTHORS>
+      <bp:AUTHORS >Romesberg FE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dec">
+      <bp:ID >7606818</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >P53, cell cycle control and apoptosis: implications for cancer.</bp:TITLE>
+      <bp:SOURCE >Cancer Metastasis Rev</bp:SOURCE>
+      <bp:YEAR >1995</bp:YEAR>
+      <bp:AUTHORS >Kastan MB</bp:AUTHORS>
+      <bp:AUTHORS >Canman CE</bp:AUTHORS>
+      <bp:AUTHORS >Leonard CJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >aging pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000651</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c1b">
+      <bp:ID >16397206</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cyclin B1 and other cyclins as tumor antigens in immunosurveillance and immunotherapy of cancer.</bp:TITLE>
+      <bp:SOURCE >Cancer Res</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Egloff AM</bp:AUTHORS>
+      <bp:AUTHORS >Vella LA</bp:AUTHORS>
+      <bp:AUTHORS >Finn OJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e2a">
+      <bp:ID >16998506</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The CHEK2 gene and inherited breast cancer susceptibility.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Nevanlinna H</bp:AUTHORS>
+      <bp:AUTHORS >Bartek J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a7e">
+      <bp:ID >22854598</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >PIDD death-domain phosphorylation by ATM controls prodeath versus prosurvival PIDDosome signaling.</bp:TITLE>
+      <bp:SOURCE >Mol Cell</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Ando K</bp:AUTHORS>
+      <bp:AUTHORS >Kernan JL</bp:AUTHORS>
+      <bp:AUTHORS >Liu PH</bp:AUTHORS>
+      <bp:AUTHORS >Sanda T</bp:AUTHORS>
+      <bp:AUTHORS >Logette E</bp:AUTHORS>
+      <bp:AUTHORS >Tschopp J</bp:AUTHORS>
+      <bp:AUTHORS >Look AT</bp:AUTHORS>
+      <bp:AUTHORS >Wang J</bp:AUTHORS>
+      <bp:AUTHORS >Bouchier-Hayes L</bp:AUTHORS>
+      <bp:AUTHORS >Sidi S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="df4">
+      <bp:ID >9735376</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >ATM: from gene to function.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Rotman G</bp:AUTHORS>
+      <bp:AUTHORS >Shiloh Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e93">
+      <bp:ID >22588366</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Axis of ageing: telomeres, p53 and mitochondria.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Sahin E</bp:AUTHORS>
+      <bp:AUTHORS >DePinho RA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef9">
+      <bp:ID >8301538</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >[The characterization of human cdc2 kinase and CDK2].</bp:TITLE>
+      <bp:SOURCE >Yakugaku Zasshi</bp:SOURCE>
+      <bp:YEAR >1993</bp:YEAR>
+      <bp:AUTHORS >Yasuda H</bp:AUTHORS>
+      <bp:AUTHORS >Kamijo M</bp:AUTHORS>
+      <bp:AUTHORS >Ohba Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >altered apoptotic cell death</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000287</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3d">
+      <bp:ID >21050828 </bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Making the best of the loose ends: Mre11/Rad50 complexes and Sae2 promote DNA double-strand break resection.</bp:TITLE>
+      <bp:SOURCE >DNA Repair (Amst)</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Paull TT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b0c">
+      <bp:ID >21252998 </bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The MRE11 complex: starting from the ends.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Stracker TH</bp:AUTHORS>
+      <bp:AUTHORS >Petrini JH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed0">
+      <bp:ID >17713585 </bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mre11-Rad50-Nbs1 is a keystone complex connecting DNA repair machinery, double-strand break signaling, and the chromatin template.</bp:TITLE>
+      <bp:SOURCE >Biochem Cell Biol</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Williams RS</bp:AUTHORS>
+      <bp:AUTHORS >Williams JS</bp:AUTHORS>
+      <bp:AUTHORS >Tainer JA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aaa">
+      <bp:ID >22844074</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >DNA damage repair pathways in cancer stem cells.</bp:TITLE>
+      <bp:SOURCE >Mol Cancer Ther</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Maugeri-Sacca&#160; M</bp:AUTHORS>
+      <bp:AUTHORS >Bartucci M</bp:AUTHORS>
+      <bp:AUTHORS >De Maria R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f0a">
+      <bp:ID >23150753</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The Regulation of Multiple p53 Stress Responses is Mediated through MDM2.</bp:TITLE>
+      <bp:SOURCE >Genes Cancer</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Hu W</bp:AUTHORS>
+      <bp:AUTHORS >Feng Z</bp:AUTHORS>
+      <bp:AUTHORS >Levine AJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e9a">
+      <bp:ID >21722344</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of p21 in regulating mammalian regeneration.</bp:TITLE>
+      <bp:SOURCE >Stem Cell Res Ther</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Arthur LM</bp:AUTHORS>
+      <bp:AUTHORS >Heber-Katz E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dfc">
+      <bp:ID >8617251</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Apoptosis: molecular regulation of cell death.</bp:TITLE>
+      <bp:SOURCE >Eur J Biochem</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >Hale AJ</bp:AUTHORS>
+      <bp:AUTHORS >Smith CA</bp:AUTHORS>
+      <bp:AUTHORS >Sutherland LC</bp:AUTHORS>
+      <bp:AUTHORS >Stoneman VE</bp:AUTHORS>
+      <bp:AUTHORS >Longthorne VL</bp:AUTHORS>
+      <bp:AUTHORS >Culhane AC</bp:AUTHORS>
+      <bp:AUTHORS >Williams GT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b67">
+      <bp:ID >21187855</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Nuclear initiated NF-kB signaling: NEMO and ATM take center stage.</bp:TITLE>
+      <bp:SOURCE >Cell Res</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Miyamoto S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e11">
+      <bp:ID >20006736</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Dealing with DNA damage: relationships between checkpoint and repair pathways.</bp:TITLE>
+      <bp:SOURCE >Mutat Res</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Warmerdam DO</bp:AUTHORS>
+      <bp:AUTHORS >Kanaar R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d3a">
+      <bp:ID >10887490</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >P53, apoptosis, and breast cancer.</bp:TITLE>
+      <bp:SOURCE >J Mammary Gland Biol Neoplasia</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >Barnes DM</bp:AUTHORS>
+      <bp:AUTHORS >Camplejohn RS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d91">
+      <bp:ID >12660173</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Human Tousled like kinases are targeted by an ATM- and Chk1-dependent DNA damage checkpoint.</bp:TITLE>
+      <bp:SOURCE >EMBO J</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Groth A</bp:AUTHORS>
+      <bp:AUTHORS >Lukas J</bp:AUTHORS>
+      <bp:AUTHORS >Nigg EA</bp:AUTHORS>
+      <bp:AUTHORS >Sillje HH</bp:AUTHORS>
+      <bp:AUTHORS >Wernstedt C</bp:AUTHORS>
+      <bp:AUTHORS >Bartek J</bp:AUTHORS>
+      <bp:AUTHORS >Hansen K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac0">
+      <bp:ID >15865930</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >C-Abl as a modulator of p53.</bp:TITLE>
+      <bp:SOURCE >Biochem Biophys Res Commun</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Levav-Cohen Y</bp:AUTHORS>
+      <bp:AUTHORS >Goldberg Z</bp:AUTHORS>
+      <bp:AUTHORS >Zuckerman V</bp:AUTHORS>
+      <bp:AUTHORS >Grossman T</bp:AUTHORS>
+      <bp:AUTHORS >Haupt S</bp:AUTHORS>
+      <bp:AUTHORS >Haupt Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b79">
+      <bp:ID >23070009</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The intersection between DNA damage response and cell death pathways.</bp:TITLE>
+      <bp:SOURCE >Exp Oncol</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Nowsheen S</bp:AUTHORS>
+      <bp:AUTHORS >Yang ES</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f9d">
+      <bp:ID >14593728</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cyclin B1 and CDK1: nuclear localization and upstream regulators.</bp:TITLE>
+      <bp:SOURCE >Prog Cell Cycle Res</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Porter LA</bp:AUTHORS>
+      <bp:AUTHORS >Donoghue DJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3c">
+      <bp:ID >2147521</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cell cycle control in eukaryotes: molecular mechanisms of cdc2 activation.</bp:TITLE>
+      <bp:SOURCE >Trends Biochem Sci</bp:SOURCE>
+      <bp:YEAR >1990</bp:YEAR>
+      <bp:AUTHORS >Draetta G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a27">
+      <bp:ID >16582605</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >BID as a double agent in cell life and death.</bp:TITLE>
+      <bp:SOURCE >Cell Cycle</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Gross A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa9">
+      <bp:ID >16360037</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >PIDD mediates NF-kappaB activation in response to DNA damage.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Janssens S</bp:AUTHORS>
+      <bp:AUTHORS >Tinel A</bp:AUTHORS>
+      <bp:AUTHORS >Lippens S</bp:AUTHORS>
+      <bp:AUTHORS >Tschopp J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d61">
+      <bp:ID >20679392</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The Mdm2-p53 relationship evolves: Mdm2 swings both ways as an oncogene and a tumor suppressor.</bp:TITLE>
+      <bp:SOURCE >Genes Dev</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Manfredi JJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fca">
+      <bp:ID >15136767</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Fanconi anemia proteins and the s phase checkpoint.</bp:TITLE>
+      <bp:SOURCE >Cell Cycle</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Pichierri P</bp:AUTHORS>
+      <bp:AUTHORS >Rosselli F</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f8d">
+      <bp:ID >19230643</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Kinases that control the cell cycle in response to DNA damage: Chk1, Chk2, and MK2.</bp:TITLE>
+      <bp:SOURCE >Curr Opin Cell Biol</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Reinhardt HC</bp:AUTHORS>
+      <bp:AUTHORS >Yaffe MB</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea3">
+      <bp:ID >18804552</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of H2AX in DNA damage response and human cancers.</bp:TITLE>
+      <bp:SOURCE >Mutat Res</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Srivastava N</bp:AUTHORS>
+      <bp:AUTHORS >Gochhait S</bp:AUTHORS>
+      <bp:AUTHORS >de Boer P</bp:AUTHORS>
+      <bp:AUTHORS >Bamezai RN</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d5d">
+      <bp:ID >23802008</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >BRCA1 in the DNA damage response and at telomeres.</bp:TITLE>
+      <bp:SOURCE >Front Genet</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Rosen EM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ee3">
+      <bp:ID >10713716</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >c-Abl: activation and nuclear targets.</bp:TITLE>
+      <bp:SOURCE >Cell Death Differ</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Shaul Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cb9">
+      <bp:ID >14599770</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Homologous recombination and cell cycle checkpoints: Rad51 in tumour progression and therapy resistance.</bp:TITLE>
+      <bp:SOURCE >Toxicology</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Henning W</bp:AUTHORS>
+      <bp:AUTHORS >Sturzbecher HW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f52">
+      <bp:ID >18066087 </bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >ATM and the Mre11 complex combine to recognize and signal DNA double-strand breaks.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Lavin MF</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b95">
+      <bp:ID >22038529</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >RIP1-mediated regulation of lymphocyte survival and death responses.</bp:TITLE>
+      <bp:SOURCE >Immunol Res</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Zhang J</bp:AUTHORS>
+      <bp:AUTHORS >Zhang H</bp:AUTHORS>
+      <bp:AUTHORS >Li J</bp:AUTHORS>
+      <bp:AUTHORS >Rosenberg S</bp:AUTHORS>
+      <bp:AUTHORS >Zhang EC</bp:AUTHORS>
+      <bp:AUTHORS >Zhou X</bp:AUTHORS>
+      <bp:AUTHORS >Qin F</bp:AUTHORS>
+      <bp:AUTHORS >Farabaugh M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="df7">
+      <bp:ID >19582216</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Purification, crystallization and preliminary x-ray crystallographic studies of RAIDD Death-Domain (DD).</bp:TITLE>
+      <bp:SOURCE >Int J Mol Sci</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Jang TH</bp:AUTHORS>
+      <bp:AUTHORS >Park HH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ff4">
+      <bp:ID >23239948</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of the DNA damage response kinase ataxia telangiectasia mutated in neuroprotection.</bp:TITLE>
+      <bp:SOURCE >Yale J Biol Med</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Marinoglou K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d75">
+      <bp:ID >12045216</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >From Cdc2 to Cdk1: when did the cell cycle kinase join its cyclin partner?</bp:TITLE>
+      <bp:SOURCE >J Cell Sci</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Doree M</bp:AUTHORS>
+      <bp:AUTHORS >Hunt T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a23">
+      <bp:ID >22084390</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Translational regulation of the cell cycle: when, where, how and why?</bp:TITLE>
+      <bp:SOURCE >Philos Trans R Soc Lond B Biol Sci</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Kronja I</bp:AUTHORS>
+      <bp:AUTHORS >Orr-Weaver TL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c64">
+      <bp:ID >23808152</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >[Caspase-2: what do we know today?].</bp:TITLE>
+      <bp:SOURCE >Mol Biol (Mosk)</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b76">
+      <bp:ID >22435545</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NF-kB: where did it come from and why?</bp:TITLE>
+      <bp:SOURCE >Immunol Rev</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Gilmore TD</bp:AUTHORS>
+      <bp:AUTHORS >Wolenski FS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae8">
+      <bp:ID >16115458</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >[Fanconi anemia: genes and function(s) revisited].</bp:TITLE>
+      <bp:SOURCE >Med Sci (Paris)</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Papadopoulo D</bp:AUTHORS>
+      <bp:AUTHORS >Moustacchi E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e88">
+      <bp:ID >18940270</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Tousled homolog, TLK1, binds and phosphorylates Rad9; TLK1 acts as a molecular chaperone in DNA repair.</bp:TITLE>
+      <bp:SOURCE >DNA Repair (Amst)</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Sunavala-Dossabhoy G</bp:AUTHORS>
+      <bp:AUTHORS >De Benedetti A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba9">
+      <bp:ID >10526213</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Rad51/RecA protein families and the associated proteins in eukaryotes.</bp:TITLE>
+      <bp:SOURCE >Mutat Res</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Shinohara A</bp:AUTHORS>
+      <bp:AUTHORS >Ogawa T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be8">
+      <bp:ID >17935492</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >ATF2 on the double - activating transcription factor and DNA damage response protein.</bp:TITLE>
+      <bp:SOURCE >Pigment Cell Res</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Bhoumik A</bp:AUTHORS>
+      <bp:AUTHORS >Lopez-Bergami P</bp:AUTHORS>
+      <bp:AUTHORS >Ronai Z</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f7d">
+      <bp:ID >20004154</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >HMGNs, DNA repair and cancer.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Gerlitz G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be6">
+      <bp:ID >9363685</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Ataxia-telangiectasia: is ATM a sensor of oxidative damage and stress?</bp:TITLE>
+      <bp:SOURCE >Bioessays</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Rotman G</bp:AUTHORS>
+      <bp:AUTHORS >Shiloh Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efc">
+      <bp:ID >22435546</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NF-kB regulation: lessons from structures.</bp:TITLE>
+      <bp:SOURCE >Immunol Rev</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Ghosh G</bp:AUTHORS>
+      <bp:AUTHORS >Wang VY</bp:AUTHORS>
+      <bp:AUTHORS >Huang DB</bp:AUTHORS>
+      <bp:AUTHORS >Fusco A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="de7">
+      <bp:ID >23416979</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Senescence and aging: the critical roles of p53.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Rufini A</bp:AUTHORS>
+      <bp:AUTHORS >Tucci P</bp:AUTHORS>
+      <bp:AUTHORS >Celardo I</bp:AUTHORS>
+      <bp:AUTHORS >Melino G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c88">
+      <bp:ID >7587079</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >DNA damage responses: p53 induction, cell cycle perturbations, and apoptosis.</bp:TITLE>
+      <bp:SOURCE >Cold Spring Harb Symp Quant Biol</bp:SOURCE>
+      <bp:YEAR >1994</bp:YEAR>
+      <bp:AUTHORS >Canman CE</bp:AUTHORS>
+      <bp:AUTHORS >Chen CY</bp:AUTHORS>
+      <bp:AUTHORS >Lee MH</bp:AUTHORS>
+      <bp:AUTHORS >Kastan MB</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >ATM signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001361</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c3d">
+      <bp:ID >23238565</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Loss of PIDD limits NF-kB activation and cytokine production but not cell survival or transformation after DNA damage.</bp:TITLE>
+      <bp:SOURCE >Cell Death Differ</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Bock FJ</bp:AUTHORS>
+      <bp:AUTHORS >Krumschnabel G</bp:AUTHORS>
+      <bp:AUTHORS >Manzl C</bp:AUTHORS>
+      <bp:AUTHORS >Peintner L</bp:AUTHORS>
+      <bp:AUTHORS >Tanzer MC</bp:AUTHORS>
+      <bp:AUTHORS >Hermann-Kleiter N</bp:AUTHORS>
+      <bp:AUTHORS >Baier G</bp:AUTHORS>
+      <bp:AUTHORS >Llacuna L</bp:AUTHORS>
+      <bp:AUTHORS >Yelamos J</bp:AUTHORS>
+      <bp:AUTHORS >Villunger A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e9c">
+      <bp:ID >21326949</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The cellular response to DNA damage: a focus on MDC1 and its interacting proteins.</bp:TITLE>
+      <bp:SOURCE >Nucleus</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Coster G</bp:AUTHORS>
+      <bp:AUTHORS >Goldberg M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >altered DNA repair pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000292</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c96">
+      <bp:ID >11665719</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >ATM: genome stability, neuronal development, and cancer cross paths.</bp:TITLE>
+      <bp:SOURCE >Adv Cancer Res</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Shiloh Y</bp:AUTHORS>
+      <bp:AUTHORS >Kastan MB</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b43">
+      <bp:ID >21593588</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Downstream of human NDR kinases: impacting on c-myc and p21 protein stability to control cell cycle progression.</bp:TITLE>
+      <bp:SOURCE >Cell Cycle</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Cornils H</bp:AUTHORS>
+      <bp:AUTHORS >Kohler RS</bp:AUTHORS>
+      <bp:AUTHORS >Hergovich A</bp:AUTHORS>
+      <bp:AUTHORS >Hemmings BA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad1">
+      <bp:ID >8533157</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cellular responses to DNA damage: cell-cycle checkpoints, apoptosis and the roles of p53 and ATM.</bp:TITLE>
+      <bp:SOURCE >Trends Biochem Sci</bp:SOURCE>
+      <bp:YEAR >1995</bp:YEAR>
+      <bp:AUTHORS >Enoch T</bp:AUTHORS>
+      <bp:AUTHORS >Norbury C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f37">
+      <bp:ID >2142119</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Assignment of the human gene for CREB1 to chromosome 2q32.3-q34.</bp:TITLE>
+      <bp:SOURCE >Genomics</bp:SOURCE>
+      <bp:YEAR >1990</bp:YEAR>
+      <bp:AUTHORS >Taylor AK</bp:AUTHORS>
+      <bp:AUTHORS >Klisak I</bp:AUTHORS>
+      <bp:AUTHORS >Mohandas T</bp:AUTHORS>
+      <bp:AUTHORS >Sparkes RS</bp:AUTHORS>
+      <bp:AUTHORS >Li C</bp:AUTHORS>
+      <bp:AUTHORS >Gaynor R</bp:AUTHORS>
+      <bp:AUTHORS >Lusis AJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b02">
+      <bp:ID >16101442</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Targeting chk2 kinase: molecular interaction maps and therapeutic rationale.</bp:TITLE>
+      <bp:SOURCE >Curr Pharm Des</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Pommier Y</bp:AUTHORS>
+      <bp:AUTHORS >Sordet O</bp:AUTHORS>
+      <bp:AUTHORS >Rao VA</bp:AUTHORS>
+      <bp:AUTHORS >Zhang H</bp:AUTHORS>
+      <bp:AUTHORS >Kohn KW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ffa">
+      <bp:ID >15483403</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Chk1 versus Cdc25: chking one's levels of cellular proliferation.</bp:TITLE>
+      <bp:SOURCE >Cell Cycle</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Lam MH</bp:AUTHORS>
+      <bp:AUTHORS >Rosen JM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d8a">
+      <bp:ID >22265392</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The p53 network: cellular and systemic DNA damage responses in aging and cancer.</bp:TITLE>
+      <bp:SOURCE >Trends Genet</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Reinhardt HC</bp:AUTHORS>
+      <bp:AUTHORS >Schumacher B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a60">
+      <bp:ID >7488937</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cell cycle checkpoints and repair of ionizing radiation damage.</bp:TITLE>
+      <bp:SOURCE >Stem Cells</bp:SOURCE>
+      <bp:YEAR >1995</bp:YEAR>
+      <bp:AUTHORS >Liu VF</bp:AUTHORS>
+      <bp:AUTHORS >Boubnov NV</bp:AUTHORS>
+      <bp:AUTHORS >Weaver DT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c8f">
+      <bp:ID >21900052 </bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Brca2, Rad51 and Mre11: performing balancing acts on replication forks.</bp:TITLE>
+      <bp:SOURCE >DNA Repair (Amst)</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Costanzo V</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c74">
+      <bp:ID >22260696</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The roles of ATF2 (activating transcription factor 2) in tumorigenesis.</bp:TITLE>
+      <bp:SOURCE >Biochem Soc Trans</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Gozdecka M</bp:AUTHORS>
+      <bp:AUTHORS >Breitwieser W</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f45">
+      <bp:ID >15254415</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Dynamics in the p53-Mdm2 ubiquitination pathway.</bp:TITLE>
+      <bp:SOURCE >Cell Cycle</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Brooks CL</bp:AUTHORS>
+      <bp:AUTHORS >Gu W</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="de0">
+      <bp:ID >20158568</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of caspase-2 in stress-induced apoptosis.</bp:TITLE>
+      <bp:SOURCE >J Cell Mol Med</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Bouchier-Hayes L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fcc">
+      <bp:ID >20813042</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Chk1 suppressed cell death.</bp:TITLE>
+      <bp:SOURCE >Cell Div</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Meuth M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c89">
+      <bp:ID >19181515</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cellular senescence: hot or what?</bp:TITLE>
+      <bp:SOURCE >Curr Opin Genet Dev</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Evan GI</bp:AUTHORS>
+      <bp:AUTHORS >d'Adda di Fagagna F</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd1">
+      <bp:ID >9681884</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of the stress-activated protein kinase (SAPK/JNK) signaling pathway in radiation-induced apoptosis.</bp:TITLE>
+      <bp:SOURCE >Radiother Oncol</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Verheij M</bp:AUTHORS>
+      <bp:AUTHORS >Ruiter GA</bp:AUTHORS>
+      <bp:AUTHORS >Zerp SF</bp:AUTHORS>
+      <bp:AUTHORS >van Blitterswijk WJ</bp:AUTHORS>
+      <bp:AUTHORS >Fuks Z</bp:AUTHORS>
+      <bp:AUTHORS >Haimovitz-Friedman A</bp:AUTHORS>
+      <bp:AUTHORS >Bartelink H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dae">
+      <bp:ID >16024119</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >ATM signaling and 53BP1.</bp:TITLE>
+      <bp:SOURCE >Radiother Oncol</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Zgheib O</bp:AUTHORS>
+      <bp:AUTHORS >Huyen Y</bp:AUTHORS>
+      <bp:AUTHORS >DiTullio RA Jr</bp:AUTHORS>
+      <bp:AUTHORS >Snyder A</bp:AUTHORS>
+      <bp:AUTHORS >Venere M</bp:AUTHORS>
+      <bp:AUTHORS >Stavridi ES</bp:AUTHORS>
+      <bp:AUTHORS >Halazonetis TD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c38">
+      <bp:ID >15603758</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Gadd45a, a p53- and BRCA1-regulated stress protein, in cellular response to DNA damage.</bp:TITLE>
+      <bp:SOURCE >Mutat Res</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Zhan Q</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="af7">
+      <bp:ID >21737170</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of homologous recombination in radiation-induced double-strand break repair.</bp:TITLE>
+      <bp:SOURCE >Radiother Oncol</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Jeggo PA</bp:AUTHORS>
+      <bp:AUTHORS >Geuting V</bp:AUTHORS>
+      <bp:AUTHORS >Lobrich M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa5">
+      <bp:ID >12655298</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Caspase-2 redux.</bp:TITLE>
+      <bp:SOURCE >Cell Death Differ</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Troy CM</bp:AUTHORS>
+      <bp:AUTHORS >Shelanski ML</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bad">
+      <bp:ID >15902993</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of recA/RAD51 family proteins in mammals.</bp:TITLE>
+      <bp:SOURCE >Acta Med Okayama</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Kawabata M</bp:AUTHORS>
+      <bp:AUTHORS >Kawabata T</bp:AUTHORS>
+      <bp:AUTHORS >Nishibori M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cab">
+      <bp:ID >10340377</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mutations in the IkBa gene in Hodgkin's disease suggest a tumour suppressor role for IkappaBalpha.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Cabannes E</bp:AUTHORS>
+      <bp:AUTHORS >Khan G</bp:AUTHORS>
+      <bp:AUTHORS >Aillet F</bp:AUTHORS>
+      <bp:AUTHORS >Jarrett RF</bp:AUTHORS>
+      <bp:AUTHORS >Hay RT</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c83">
+      <bp:ID >22083606</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Eukaryotic DNA damage checkpoint activation in response to double-strand breaks.</bp:TITLE>
+      <bp:SOURCE >Cell Mol Life Sci</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Finn K</bp:AUTHORS>
+      <bp:AUTHORS >Lowndes NF</bp:AUTHORS>
+      <bp:AUTHORS >Grenon M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cad">
+      <bp:ID >12963843</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cdc25A regulation: to destroy or not to destroy--is that the only question?</bp:TITLE>
+      <bp:SOURCE >Cell Cycle</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Neely KE</bp:AUTHORS>
+      <bp:AUTHORS >Piwnica-Worms H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e3c">
+      <bp:ID >23303139</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MDM2, MDMX and p53 in oncogenesis and cancer therapy.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Cancer</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Wade M</bp:AUTHORS>
+      <bp:AUTHORS >Li YC</bp:AUTHORS>
+      <bp:AUTHORS >Wahl GM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a17">
+      <bp:ID >23308042</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >p53-independent roles of MDM2 in NF-kB signaling: implications for cancer therapy, wound healing, and autoimmune diseases.</bp:TITLE>
+      <bp:SOURCE >Neoplasia</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Thomasova D</bp:AUTHORS>
+      <bp:AUTHORS >Mulay SR</bp:AUTHORS>
+      <bp:AUTHORS >Bruns H</bp:AUTHORS>
+      <bp:AUTHORS >Anders HJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d8e">
+      <bp:ID >18368919</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The G2/M transition in eukaryotes.</bp:TITLE>
+      <bp:SOURCE >SEB Exp Biol Ser</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Francis D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b0a">
+      <bp:ID >7787878</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Apoptosis and the cell cycle.</bp:TITLE>
+      <bp:SOURCE >Cell Mol Biol Res</bp:SOURCE>
+      <bp:YEAR >1994</bp:YEAR>
+      <bp:AUTHORS >Chiarugi V</bp:AUTHORS>
+      <bp:AUTHORS >Magnelli L</bp:AUTHORS>
+      <bp:AUTHORS >Cinelli M</bp:AUTHORS>
+      <bp:AUTHORS >Basi G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e1b">
+      <bp:ID >19581929</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Caspase-2: killer, savior and safeguard--emerging versatile roles for an ill-defined caspase.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Krumschnabel G</bp:AUTHORS>
+      <bp:AUTHORS >Manzl C</bp:AUTHORS>
+      <bp:AUTHORS >Villunger A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c93">
+      <bp:ID >21035407 </bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mre11-Rad50-Nbs1 conformations and the control of sensing, signaling, and effector responses at DNA double-strand breaks.</bp:TITLE>
+      <bp:SOURCE >DNA Repair (Amst)</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Williams GJ</bp:AUTHORS>
+      <bp:AUTHORS >Lees-Miller SP</bp:AUTHORS>
+      <bp:AUTHORS >Tainer JA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc4">
+      <bp:ID >17626635</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Overexpressed TP73 induces apoptosis in medulloblastoma.</bp:TITLE>
+      <bp:SOURCE >BMC Cancer</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Castellino RC</bp:AUTHORS>
+      <bp:AUTHORS >De Bortoli M</bp:AUTHORS>
+      <bp:AUTHORS >Lin LL</bp:AUTHORS>
+      <bp:AUTHORS >Skapura DG</bp:AUTHORS>
+      <bp:AUTHORS >Rajan JA</bp:AUTHORS>
+      <bp:AUTHORS >Adesina AM</bp:AUTHORS>
+      <bp:AUTHORS >Perlaky L</bp:AUTHORS>
+      <bp:AUTHORS >Irwin MS</bp:AUTHORS>
+      <bp:AUTHORS >Kim JY</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f6f">
+      <bp:ID >22515271</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Neuronal caspase 2 activity and function requires RAIDD, but not PIDD.</bp:TITLE>
+      <bp:SOURCE >Biochem J</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Ribe EM</bp:AUTHORS>
+      <bp:AUTHORS >Jean YY</bp:AUTHORS>
+      <bp:AUTHORS >Goldstein RL</bp:AUTHORS>
+      <bp:AUTHORS >Manzl C</bp:AUTHORS>
+      <bp:AUTHORS >Stefanis L</bp:AUTHORS>
+      <bp:AUTHORS >Villunger A</bp:AUTHORS>
+      <bp:AUTHORS >Troy CM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="de4">
+      <bp:ID >17151078</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >PIDD: database for Protein Inter-atomic Distance Distributions.</bp:TITLE>
+      <bp:SOURCE >Nucleic Acids Res</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Wu D</bp:AUTHORS>
+      <bp:AUTHORS >Cui F</bp:AUTHORS>
+      <bp:AUTHORS >Jernigan R</bp:AUTHORS>
+      <bp:AUTHORS >Wu Z</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a3e">
+      <bp:ID >9108147</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Ataxia-telangiectasia: structural diversity of untranslated sequences suggests complex post-transcriptional regulation of ATM gene expression.</bp:TITLE>
+      <bp:SOURCE >Nucleic Acids Res</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Savitsky K</bp:AUTHORS>
+      <bp:AUTHORS >Platzer M</bp:AUTHORS>
+      <bp:AUTHORS >Uziel T</bp:AUTHORS>
+      <bp:AUTHORS >Gilad S</bp:AUTHORS>
+      <bp:AUTHORS >Sartiel A</bp:AUTHORS>
+      <bp:AUTHORS >Rosenthal A</bp:AUTHORS>
+      <bp:AUTHORS >Elroy-Stein O</bp:AUTHORS>
+      <bp:AUTHORS >Shiloh Y</bp:AUTHORS>
+      <bp:AUTHORS >Rotman G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed9">
+      <bp:ID >11832478</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Caspase-2 induces apoptosis by releasing proapoptotic proteins from mitochondria.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Guo Y</bp:AUTHORS>
+      <bp:AUTHORS >Srinivasula SM</bp:AUTHORS>
+      <bp:AUTHORS >Druilhe A</bp:AUTHORS>
+      <bp:AUTHORS >Fernandes-Alnemri T</bp:AUTHORS>
+      <bp:AUTHORS >Alnemri ES</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a39">
+      <bp:ID >23208375</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Integration of DNA damage and repair with murine double-minute 2 (mdm2) in tumorigenesis.</bp:TITLE>
+      <bp:SOURCE >Int J Mol Sci</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Lehman JA</bp:AUTHORS>
+      <bp:AUTHORS >Mayo LD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac2">
+      <bp:ID >22991823</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >[BRCA1 and DNA damage response].</bp:TITLE>
+      <bp:SOURCE >Seikagaku</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Sedukhina A</bp:AUTHORS>
+      <bp:AUTHORS >Fukuda T</bp:AUTHORS>
+      <bp:AUTHORS >Ohta T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c1d">
+      <bp:ID >19586837</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >[Aging or tumor: the crosstalk between telomerase and p53].</bp:TITLE>
+      <bp:SOURCE >Yi Chuan</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Zhang XF</bp:AUTHORS>
+      <bp:AUTHORS >Tang WR</bp:AUTHORS>
+      <bp:AUTHORS >Luo Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="caa">
+      <bp:ID >10037143</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Involvement of p21 in the PKC-induced regulation of the G2/M cell cycle transition.</bp:TITLE>
+      <bp:SOURCE >FEBS Lett</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Barboule N</bp:AUTHORS>
+      <bp:AUTHORS >Lafon C</bp:AUTHORS>
+      <bp:AUTHORS >Chadebech P</bp:AUTHORS>
+      <bp:AUTHORS >Vidal S</bp:AUTHORS>
+      <bp:AUTHORS >Valette A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b19">
+      <bp:ID >10673629</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >[Role of the ATM gene in genetic predisposition to cancer].</bp:TITLE>
+      <bp:SOURCE >Bull Cancer</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Bay JO</bp:AUTHORS>
+      <bp:AUTHORS >Uhrhammer N</bp:AUTHORS>
+      <bp:AUTHORS >Stoppa-Lyonnet D</bp:AUTHORS>
+      <bp:AUTHORS >Hall J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f09">
+      <bp:ID >23002429</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MDM2 and MDMX: Alone and together in regulation of p53.</bp:TITLE>
+      <bp:SOURCE >Transl Cancer Res</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Shadfan M</bp:AUTHORS>
+      <bp:AUTHORS >Lopez-Pajares V</bp:AUTHORS>
+      <bp:AUTHORS >Yuan ZM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae2">
+      <bp:ID >18497029</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cdk1, Plks, Auroras, and Neks: the mitotic bodyguards.</bp:TITLE>
+      <bp:SOURCE >Adv Exp Med Biol</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Salaun P</bp:AUTHORS>
+      <bp:AUTHORS >Rannou Y</bp:AUTHORS>
+      <bp:AUTHORS >Prigent C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e3b">
+      <bp:ID >16258277</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cell cycle sibling rivalry: Cdc2 vs. Cdk2.</bp:TITLE>
+      <bp:SOURCE >Cell Cycle</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Kaldis P</bp:AUTHORS>
+      <bp:AUTHORS >Aleem E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d3d">
+      <bp:ID >18760377</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Growth arrest and DNA damage-45 alpha (GADD45alpha).</bp:TITLE>
+      <bp:SOURCE >Int J Biochem Cell Biol</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Rosemary Siafakas A</bp:AUTHORS>
+      <bp:AUTHORS >Richardson DR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a54">
+      <bp:ID >22911014</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >New insights into p53 signaling and cancer cell response to DNA damage: implications for cancer therapy.</bp:TITLE>
+      <bp:SOURCE >J Biomed Biotechnol</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Mirzayans R</bp:AUTHORS>
+      <bp:AUTHORS >Andrais B</bp:AUTHORS>
+      <bp:AUTHORS >Scott A</bp:AUTHORS>
+      <bp:AUTHORS >Murray D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a0a">
+      <bp:ID >23200932</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of BRCA1 in DNA double-strand repair: past and present.</bp:TITLE>
+      <bp:SOURCE >Exp Cell Res</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Caestecker KW</bp:AUTHORS>
+      <bp:AUTHORS >Van de Walle GR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e12">
+      <bp:ID >21391908</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >p73 as a pharmaceutical target for cancer therapy.</bp:TITLE>
+      <bp:SOURCE >Curr Pharm Des</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Bisso A</bp:AUTHORS>
+      <bp:AUTHORS >Collavin L</bp:AUTHORS>
+      <bp:AUTHORS >Del Sal G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b80">
+      <bp:ID >23638217</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Knocking down SMC1A inhibits growth and leads to G2/M arrest in human glioma cells.</bp:TITLE>
+      <bp:SOURCE >Int J Clin Exp Pathol</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Ma Z</bp:AUTHORS>
+      <bp:AUTHORS >Lin M</bp:AUTHORS>
+      <bp:AUTHORS >Li K</bp:AUTHORS>
+      <bp:AUTHORS >Fu Y</bp:AUTHORS>
+      <bp:AUTHORS >Liu X</bp:AUTHORS>
+      <bp:AUTHORS >Yang D</bp:AUTHORS>
+      <bp:AUTHORS >Zhao Y</bp:AUTHORS>
+      <bp:AUTHORS >Zheng J</bp:AUTHORS>
+      <bp:AUTHORS >Sun B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b18">
+      <bp:ID >20354226</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of the kinases RIP1 and RIP3 in TNF-induced necrosis.</bp:TITLE>
+      <bp:SOURCE >Sci Signal</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Vandenabeele P</bp:AUTHORS>
+      <bp:AUTHORS >Declercq W</bp:AUTHORS>
+      <bp:AUTHORS >Van Herreweghe F</bp:AUTHORS>
+      <bp:AUTHORS >Vanden Berghe T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eaa">
+      <bp:ID >20305300</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Rad9A is required for G2 decatenation checkpoint and to prevent endoreduplication in response to topoisomerase II inhibition.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Greer Card DA</bp:AUTHORS>
+      <bp:AUTHORS >Sierant ML</bp:AUTHORS>
+      <bp:AUTHORS >Davey S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c90">
+      <bp:ID >8985253</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >RAIDD is a new 'death' adaptor molecule.</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Duan H</bp:AUTHORS>
+      <bp:AUTHORS >Dixit VM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ded">
+      <bp:ID >10362249</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >p21Waf1/Cip1/Sdi1 induces permanent growth arrest with markers of replicative senescence in human tumor cells lacking functional p53.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Fang L</bp:AUTHORS>
+      <bp:AUTHORS >Igarashi M</bp:AUTHORS>
+      <bp:AUTHORS >Leung J</bp:AUTHORS>
+      <bp:AUTHORS >Sugrue MM</bp:AUTHORS>
+      <bp:AUTHORS >Lee SW</bp:AUTHORS>
+      <bp:AUTHORS >Aaronson SA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b9e">
+      <bp:ID >22704343</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >H2AX phosphorylation at the sites of DNA double-strand breaks in cultivated mammalian cells and tissues.</bp:TITLE>
+      <bp:SOURCE >Clin Epigenetics</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Firsanov DV</bp:AUTHORS>
+      <bp:AUTHORS >Solovjeva LV</bp:AUTHORS>
+      <bp:AUTHORS >Svetlova MP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c61">
+      <bp:ID >22073591</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >[Mechanisms of cellular senescence by tumor suppressor p53].</bp:TITLE>
+      <bp:SOURCE >Nihon Rinsho</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Tanaka T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c9f">
+      <bp:ID >22160080</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Fanconi anemia.</bp:TITLE>
+      <bp:SOURCE >Hematology Am Soc Hematol Educ Program</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Soulier J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d2f">
+      <bp:ID >19686080</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >How the fanconi anemia pathway guards the genome.</bp:TITLE>
+      <bp:SOURCE >Annu Rev Genet</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Moldovan GL</bp:AUTHORS>
+      <bp:AUTHORS >D'Andrea AD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd5">
+      <bp:ID >22980457</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Janus-faced PIDD: a sensor for DNA damage-induced cell death or survival?</bp:TITLE>
+      <bp:SOURCE >Mol Cell</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >McCoy F</bp:AUTHORS>
+      <bp:AUTHORS >Eckard L</bp:AUTHORS>
+      <bp:AUTHORS >Nutt LK</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad2">
+      <bp:ID >23788429</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The DNA damage checkpoint protein RAD9A is essential for male meiosis in the mouse.</bp:TITLE>
+      <bp:SOURCE >J Cell Sci</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Vasileva A</bp:AUTHORS>
+      <bp:AUTHORS >Hopkins KM</bp:AUTHORS>
+      <bp:AUTHORS >Wang X</bp:AUTHORS>
+      <bp:AUTHORS >Weissbach MM</bp:AUTHORS>
+      <bp:AUTHORS >Friedman RA</bp:AUTHORS>
+      <bp:AUTHORS >Wolgemuth DJ</bp:AUTHORS>
+      <bp:AUTHORS >Lieberman HB</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a10">
+      <bp:ID >23519070</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Seventeen years after BRCA1: what is the BRCA mutation status of the breast cancer patients in Africa? - a systematic review.</bp:TITLE>
+      <bp:SOURCE >Springerplus</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Oluwagbemiga LA</bp:AUTHORS>
+      <bp:AUTHORS >Oluwole A</bp:AUTHORS>
+      <bp:AUTHORS >Kayode AA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="af3">
+      <bp:ID >22410433</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulation of p53: a collaboration between Mdm2 and Mdmx.</bp:TITLE>
+      <bp:SOURCE >Oncotarget</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Pei D</bp:AUTHORS>
+      <bp:AUTHORS >Zhang Y</bp:AUTHORS>
+      <bp:AUTHORS >Zheng J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab1">
+      <bp:ID >20023404</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Targeting the checkpoint kinase Chk1 in cancer therapy.</bp:TITLE>
+      <bp:SOURCE >Cell Cycle</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Merry C</bp:AUTHORS>
+      <bp:AUTHORS >Fu K</bp:AUTHORS>
+      <bp:AUTHORS >Wang J</bp:AUTHORS>
+      <bp:AUTHORS >Yeh IJ</bp:AUTHORS>
+      <bp:AUTHORS >Zhang Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dcb">
+      <bp:ID >21329706</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Induction and repair of DNA double strand breaks: the increasing spectrum of non-homologous end joining pathways.</bp:TITLE>
+      <bp:SOURCE >Mutat Res</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Mladenov E</bp:AUTHORS>
+      <bp:AUTHORS >Iliakis G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dca">
+      <bp:ID >7672812</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of p53 in cell-cycle control and apoptosis: implications for cancer.</bp:TITLE>
+      <bp:SOURCE >Important Adv Oncol</bp:SOURCE>
+      <bp:YEAR >1995</bp:YEAR>
+      <bp:AUTHORS >Leonard CJ</bp:AUTHORS>
+      <bp:AUTHORS >Canman CE</bp:AUTHORS>
+      <bp:AUTHORS >Kastan MB</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c7d">
+      <bp:ID >15254433</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mdmx and Mdm2: brothers in arms?</bp:TITLE>
+      <bp:SOURCE >Cell Cycle</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Marine JC</bp:AUTHORS>
+      <bp:AUTHORS >Jochemsen AG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="deb">
+      <bp:ID >15686624</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of c-Abl in the DNA damage stress response.</bp:TITLE>
+      <bp:SOURCE >Cell Res</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Shaul Y</bp:AUTHORS>
+      <bp:AUTHORS >Ben-Yehoyada M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a70">
+      <bp:ID >22075987</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Caspase-2: the orphan caspase.</bp:TITLE>
+      <bp:SOURCE >Cell Death Differ</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Bouchier-Hayes L</bp:AUTHORS>
+      <bp:AUTHORS >Green DR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb2">
+      <bp:ID >23747889</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Breast cancer genes: beyond BRCA1 and BRCA2.</bp:TITLE>
+      <bp:SOURCE >Front Biosci</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Filippini1 SE</bp:AUTHORS>
+      <bp:AUTHORS >Vega A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c86">
+      <bp:ID >21541195</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Functions of MDMX in the modulation of the p53-response.</bp:TITLE>
+      <bp:SOURCE >J Biomed Biotechnol</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Lenos K</bp:AUTHORS>
+      <bp:AUTHORS >Jochemsen AG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eeb">
+      <bp:ID >9466696</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mammalian Rad51 protein: a RecA homologue with pleiotropic functions.</bp:TITLE>
+      <bp:SOURCE >Biochimie</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Vispe S</bp:AUTHORS>
+      <bp:AUTHORS >Defais M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be3">
+      <bp:ID >19890334</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Caspase 2 in apoptosis, the DNA damage response and tumour suppression: enigma no more?</bp:TITLE>
+      <bp:SOURCE >Nat Rev Cancer</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Kumar S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fc0">
+      <bp:ID >21963855</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Checkpoint control and cancer.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Medema RH</bp:AUTHORS>
+      <bp:AUTHORS >Macurek L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb5">
+      <bp:ID >23263379</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >p53 mutations in cancer.</bp:TITLE>
+      <bp:SOURCE >Nat Cell Biol</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Muller PA</bp:AUTHORS>
+      <bp:AUTHORS >Vousden KH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b85">
+      <bp:ID >15947787</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >RAIDD is required for apoptosis of PC12 cells and sympathetic neurons induced by trophic factor withdrawal.</bp:TITLE>
+      <bp:SOURCE >Cell Death Differ</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Wang Q</bp:AUTHORS>
+      <bp:AUTHORS >Maniati M</bp:AUTHORS>
+      <bp:AUTHORS >Jabado O</bp:AUTHORS>
+      <bp:AUTHORS >Pavlaki M</bp:AUTHORS>
+      <bp:AUTHORS >Troy CM</bp:AUTHORS>
+      <bp:AUTHORS >Greene LA</bp:AUTHORS>
+      <bp:AUTHORS >Stefanis L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ecc">
+      <bp:ID >17581279</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >'... The end of the beginning': cdk1 thresholds and exit from mitosis.</bp:TITLE>
+      <bp:SOURCE >Cell Cycle</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Wolf F</bp:AUTHORS>
+      <bp:AUTHORS >Sigl R</bp:AUTHORS>
+      <bp:AUTHORS >Geley S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b59">
+      <bp:ID >12963833</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Focusing on foci: H2AX and the recruitment of DNA-damage response factors.</bp:TITLE>
+      <bp:SOURCE >Cell Cycle</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Fernandez-Capetillo O</bp:AUTHORS>
+      <bp:AUTHORS >Celeste A</bp:AUTHORS>
+      <bp:AUTHORS >Nussenzweig A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f2f">
+      <bp:ID >15865942</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Caspase-2 function in response to DNA damage.</bp:TITLE>
+      <bp:SOURCE >Biochem Biophys Res Commun</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Zhivotovsky B</bp:AUTHORS>
+      <bp:AUTHORS >Orrenius S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b21">
+      <bp:ID >23721719</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The repair and signaling responses to DNA double-strand breaks.</bp:TITLE>
+      <bp:SOURCE >Adv Genet</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Goodarzi AA</bp:AUTHORS>
+      <bp:AUTHORS >Jeggo PA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b5d">
+      <bp:ID >20493860</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Focus on histone variant H2AX: to be or not to be.</bp:TITLE>
+      <bp:SOURCE >FEBS Lett</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Yuan J</bp:AUTHORS>
+      <bp:AUTHORS >Adamski R</bp:AUTHORS>
+      <bp:AUTHORS >Chen J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d78">
+      <bp:ID >21535261</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cdc2: a monopotent or pluripotent CDK?</bp:TITLE>
+      <bp:SOURCE >Cell Prolif</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Hu X</bp:AUTHORS>
+      <bp:AUTHORS >Moscinski LC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e94">
+      <bp:ID >16082221</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >ATM-mediated phosphorylations inhibit Mdmx/Mdm2 stabilization by HAUSP in favor of p53 activation.</bp:TITLE>
+      <bp:SOURCE >Cell Cycle</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Meulmeester E</bp:AUTHORS>
+      <bp:AUTHORS >Pereg Y</bp:AUTHORS>
+      <bp:AUTHORS >Shiloh Y</bp:AUTHORS>
+      <bp:AUTHORS >Jochemsen AG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e40">
+      <bp:ID >22435563</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >DNA damage-dependent NF-kB activation: NEMO turns nuclear signaling inside out.</bp:TITLE>
+      <bp:SOURCE >Immunol Rev</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >McCool KW</bp:AUTHORS>
+      <bp:AUTHORS >Miyamoto S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="def">
+      <bp:ID >22761618</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Oxidative Stress, DNA Damage, and c-Abl Signaling: At the Crossroad in Neurodegenerative Diseases?</bp:TITLE>
+      <bp:SOURCE >Int J Cell Biol</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Gonfloni S</bp:AUTHORS>
+      <bp:AUTHORS >Maiani E</bp:AUTHORS>
+      <bp:AUTHORS >Di Bartolomeo C</bp:AUTHORS>
+      <bp:AUTHORS >Diederich M</bp:AUTHORS>
+      <bp:AUTHORS >Cesareni G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c20">
+      <bp:ID >12214244</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Two for two: Cdk2 and its role in centrosome doubling.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Hinchcliffe EH</bp:AUTHORS>
+      <bp:AUTHORS >Sluder G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fd0">
+      <bp:ID >23425920</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Recent discoveries in the cycling, growing and aging of the p53 field.</bp:TITLE>
+      <bp:SOURCE >Aging (Albany NY)</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >McCubrey J</bp:AUTHORS>
+      <bp:AUTHORS >Demidenko Z</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d72">
+      <bp:ID >16398215</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Characterisation of the promoter region of the human DNA-repair gene Rad51.</bp:TITLE>
+      <bp:SOURCE >Eur J Gynaecol Oncol</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Hasselbach L</bp:AUTHORS>
+      <bp:AUTHORS >Haase S</bp:AUTHORS>
+      <bp:AUTHORS >Fischer D</bp:AUTHORS>
+      <bp:AUTHORS >Kolberg HC</bp:AUTHORS>
+      <bp:AUTHORS >Sturzbecher HW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e62">
+      <bp:ID >19029686 </bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mystery of DNA repair: the role of the MRN complex and ATM kinase in DNA damage repair.</bp:TITLE>
+      <bp:SOURCE >J Appl Genet</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Czornak K</bp:AUTHORS>
+      <bp:AUTHORS >Chughtai S</bp:AUTHORS>
+      <bp:AUTHORS >Chrzanowska KH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e3f">
+      <bp:ID >10582242</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mechanisms and regulation of the degradation of cyclin B.</bp:TITLE>
+      <bp:SOURCE >Philos Trans R Soc Lond B Biol Sci</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Hershko A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dbb">
+      <bp:ID >15496581</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Physiological roles of SAPK/JNK signaling pathway.</bp:TITLE>
+      <bp:SOURCE >J Biochem</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Nishina H</bp:AUTHORS>
+      <bp:AUTHORS >Wada T</bp:AUTHORS>
+      <bp:AUTHORS >Katada T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec6">
+      <bp:ID >18796370</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of CHK2 in cancer development.</bp:TITLE>
+      <bp:SOURCE >Clin Transl Oncol</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Perona R</bp:AUTHORS>
+      <bp:AUTHORS >Moncho-Amor V</bp:AUTHORS>
+      <bp:AUTHORS >Machado-Pinilla R</bp:AUTHORS>
+      <bp:AUTHORS >Belda-Iniesta C</bp:AUTHORS>
+      <bp:AUTHORS >Sanchez Perez I</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f21">
+      <bp:ID >23554604</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Reading, writing, and repair: the role of ubiquitin and the ubiquitin-like proteins in DNA damage signaling and repair.</bp:TITLE>
+      <bp:SOURCE >Front Genet</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Pinder JB</bp:AUTHORS>
+      <bp:AUTHORS >Attwood KM</bp:AUTHORS>
+      <bp:AUTHORS >Dellaire G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d7d">
+      <bp:ID >23388117</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of BRCA1 in homologous recombination repair in response to replication stress: significance in tumorigenesis and cancer therapy.</bp:TITLE>
+      <bp:SOURCE >Cell Biosci</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Zhang J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c31">
+      <bp:ID >12726855</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cdk2 dethroned as master of S phase entry.</bp:TITLE>
+      <bp:SOURCE >Cancer Cell</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Hinds PW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a88">
+      <bp:ID >1535095</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >[Regulation of cell cycle by cdc2 kinase in mammalian cells].</bp:TITLE>
+      <bp:SOURCE >Seikagaku</bp:SOURCE>
+      <bp:YEAR >1992</bp:YEAR>
+      <bp:AUTHORS >Yasuda H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c42">
+      <bp:ID >8782982</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Ataxia telangiectasia: cell signaling, cell death and the cell cycle.</bp:TITLE>
+      <bp:SOURCE >Curr Opin Neurol</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >Heintz N</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a61">
+      <bp:ID >8666399</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Structure and evolution of the human IKBA gene.</bp:TITLE>
+      <bp:SOURCE >Genomics</bp:SOURCE>
+      <bp:YEAR >1995</bp:YEAR>
+      <bp:AUTHORS >Ito CY</bp:AUTHORS>
+      <bp:AUTHORS >Adey N</bp:AUTHORS>
+      <bp:AUTHORS >Bautch VL</bp:AUTHORS>
+      <bp:AUTHORS >Baldwin AS Jr</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fac">
+      <bp:ID >20655309 </bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The MRN complex in double-strand break repair and telomere maintenance.</bp:TITLE>
+      <bp:SOURCE >FEBS Lett</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Lamarche BJ</bp:AUTHORS>
+      <bp:AUTHORS >Orazio NI</bp:AUTHORS>
+      <bp:AUTHORS >Weitzman MD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b12">
+      <bp:ID >17301840</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >RIP1, a kinase on the crossroads of a cell's decision to live or die.</bp:TITLE>
+      <bp:SOURCE >Cell Death Differ</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Festjens N</bp:AUTHORS>
+      <bp:AUTHORS >Vanden Berghe T</bp:AUTHORS>
+      <bp:AUTHORS >Cornelis S</bp:AUTHORS>
+      <bp:AUTHORS >Vandenabeele P</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad5">
+      <bp:ID >22525466 </bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Ataxia-telangiectasia mutated and the Mre11-Rad50-NBS1 complex: promising targets for radiosensitization.</bp:TITLE>
+      <bp:SOURCE >Acta Med Okayama</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Kuroda S</bp:AUTHORS>
+      <bp:AUTHORS >Urata Y</bp:AUTHORS>
+      <bp:AUTHORS >Fujiwara T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad3">
+      <bp:ID >1653904</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Isolation of the human cdk2 gene that encodes the cyclin A- and adenovirus E1A-associated p33 kinase.</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >1991</bp:YEAR>
+      <bp:AUTHORS >Tsai LH</bp:AUTHORS>
+      <bp:AUTHORS >Harlow E</bp:AUTHORS>
+      <bp:AUTHORS >Meyerson M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b20">
+      <bp:ID >21807066</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >RAD51 as a potential biomarker and therapeutic target for pancreatic cancer.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Nagathihalli NS</bp:AUTHORS>
+      <bp:AUTHORS >Nagaraju G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e91">
+      <bp:ID >15670890</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >RAD51, genomic stability, and tumorigenesis.</bp:TITLE>
+      <bp:SOURCE >Cancer Lett</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Richardson C</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

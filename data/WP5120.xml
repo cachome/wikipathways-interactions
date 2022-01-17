@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Inclusion body myositis" Version="20210622" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Inclusion body myositis is a rare muscle degeneration diseases. It is caused by presumably both genetic risk factors and environmental factors stimulated by increasing age. The mechanism of pathogenicity includes inflammation, ER stress/unfolded protein response, and disturbed autophagy, which leads to an accumulation of inclusions. The mechanism is similar to Alzheimer's disease and Parkinson's disease in neurons. This pathway is based on Figure 1 of Askanas V. et al. 2015. </Comment>
+  <BiopaxRef>ecd</BiopaxRef>
+  <Graphics BoardWidth="1194.3490581214983" BoardHeight="654.7202887256487"/>
+  <DataNode TextLabel="BACE1" GraphId="a2e06" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Risk gene" GraphId="a5722">
+    <Comment>Generalized, unknown risk genes</Comment>
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Paired helical filaments" GraphId="a78e9">
+    <Comment>biological concept</Comment>
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="MSTN" GraphId="a7f23" Type="GeneProduct">
+    <Comment>Myostatin</Comment>
+        </DataNode>
+  <DataNode TextLabel="Proteasome degradation" GraphId="a9544" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Inflammatory response pathway" GraphId="add5c" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Congophilic inclusions" GraphId="af9d2">
+    <Comment>biological concept</Comment>
+    <BiopaxRef>c9f</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Mitophagy" GraphId="b02f0" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="SIRT1" GraphId="b5d8c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Autophagosome" GraphId="ba747">
+    <Comment>biological concept</Comment>
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="PSEN1" GraphId="bfb5f" Type="GeneProduct" GroupRef="fb093">
+        </DataNode>
+  <DataNode TextLabel="Neuromuscular &#10;junction" GraphId="c48ad">
+    <Comment>biological concept</Comment>
+    <BiopaxRef>b0e</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Non-congophilic diffuse inclusions" GraphId="c6fee">
+    <Comment>biological concept</Comment>
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Transcription" GraphId="cad96" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="NCSTN" GraphId="cae6f" Type="GeneProduct" GroupRef="fb093">
+        </DataNode>
+  <DataNode TextLabel="Unfolded Protein Response (UPR)" GraphId="cd7ef" Type="Pathway">
+    <Comment>ER stress</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="MAPT" GraphId="cdd52" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PSENEN" GraphId="cf3b4" Type="GeneProduct" GroupRef="fb093">
+        </DataNode>
+  <DataNode TextLabel="Aging" GraphId="d5278">
+    <Comment>biological process</Comment>
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Environmental factor" GraphId="daebe">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="PSEN2" GraphId="db499" Type="GeneProduct" GroupRef="fb093">
+        </DataNode>
+  <DataNode TextLabel="AbPP-mRNA" GraphId="ddc13" Type="Rna">
+    <Comment>APP, amyloid beta precursor protein</Comment>
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="Autoimmunity" GraphId="de5e2">
+    <Comment>biological concept</Comment>
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="beta-APP" GraphId="e274b" Type="GeneProduct">
+    <Comment>group of toxic Ab42 oligomers</Comment>
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="e3560" Type="GeneProduct" GroupRef="a19b1">
+        </DataNode>
+  <DataNode TextLabel="Calcium mediated T-cell apoptosis involved in inclusion body myositis" GraphId="e8707" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Autophagy" GraphId="ed17a" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Signal transduction" GraphId="ed1d3">
+    <Comment>biological concept</Comment>
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Y-sectretase complex" GraphId="f3b21" Type="Complex" GroupRef="fb093">
+    <Graphics ShapeType="RoundedRectangle"/>
+    </DataNode>
+  <DataNode TextLabel="Oxidative stress" GraphId="f66ca" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="NFKB2" GraphId="cef73" Type="GeneProduct" GroupRef="a19b1">
+        </DataNode>
+  <DataNode TextLabel="AbPP" GraphId="ddb2e" Type="Protein">
+    <Comment>APP, amyloid beta precursor protein</Comment>
+        </DataNode>
+  <DataNode TextLabel="fibrillar beta-APP" GraphId="a4b35" Type="GeneProduct">
+    <Comment>group of toxic Ab42 oligomers</Comment>
+        </DataNode>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="e8707"/>
+      <Point GraphRef="de5e2" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id17602bde">
+    <Graphics>
+      <Point GraphRef="ddb2e"/>
+      <Point GraphRef="e274b" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id181430db">
+    <Graphics>
+      <Point GraphRef="cdd52"/>
+      <Point GraphRef="a78e9" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1bb171a4">
+    <Graphics>
+      <Point GraphRef="a4b35"/>
+      <Point GraphRef="c48ad" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1bfea7e0">
+    <Graphics>
+      <Point GraphRef="a4b35"/>
+      <Point GraphRef="f66ca" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1c100b24">
+    <Graphics>
+      <Point GraphRef="ed17a"/>
+      <Point GraphRef="ba747" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id22fcbdb7">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a78e9"/>
+      <Point GraphRef="af9d2" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2586fd04">
+    <Graphics>
+      <Point GraphRef="cd7ef"/>
+      <Point GraphRef="b5d8c" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id322d4bc3">
+    <Graphics>
+      <Point GraphRef="d5278"/>
+      <Point GraphRef="ddc13" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id35ff82ec">
+    <Graphics>
+      <Point GraphRef="cd7ef"/>
+      <Point GraphRef="add5c" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3bd279cc">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d5278"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="ed17a" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4a2e36a3">
+    <Graphics>
+      <Point GraphRef="cdc61"/>
+      <Point GraphRef="cd7ef" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id52409c95">
+    <Graphics>
+      <Point GraphRef="e274b"/>
+      <Point GraphRef="ed1d3" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id532025e6">
+    <Graphics Color="cc0000">
+      <Point GraphRef="a5722"/>
+      <Point GraphRef="daebe" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id55f8e210">
+    <Graphics>
+      <Point GraphRef="de5e2"/>
+      <Point GraphRef="add5c" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5bfc829e">
+    <Graphics>
+      <Point GraphRef="a2e06"/>
+      <Point GraphRef="ddb2e" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6c6f15c3">
+    <Graphics>
+      <Point GraphRef="e274b"/>
+      <Point GraphRef="c6fee" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6e311362">
+    <Graphics Color="cc0000">
+      <Point GraphRef="d5278"/>
+      <Point GraphRef="daebe" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7182346b">
+    <Graphics>
+      <Point GraphRef="e274b"/>
+      <Point GraphRef="a4b35" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id72fc8afd">
+    <Graphics Color="cc0000">
+      <Point GraphRef="daebe"/>
+      <Point GraphRef="a5722" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id78b8cb92">
+    <Graphics Color="cc0000">
+      <Point GraphRef="d5278"/>
+      <Point GraphRef="a5722" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8185eab1">
+    <Graphics>
+      <Point GraphRef="bdfa3"/>
+      <Point GraphRef="ddb2e" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id89b3423d">
+    <Graphics>
+      <Point GraphRef="a4b35"/>
+      <Point GraphRef="cad96" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8bf14d88">
+    <Graphics>
+      <Point GraphRef="daebe"/>
+      <Point GraphRef="de5e2" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8d63e4ce">
+    <Graphics>
+      <Point GraphRef="cdc61"/>
+      <Point GraphRef="ed17a" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id91b26609">
+    <Graphics>
+      <Point GraphRef="cdc61"/>
+      <Point GraphRef="add5c" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9278e6">
+    <Graphics>
+      <Point GraphRef="ed17a"/>
+      <Point GraphRef="cdc61" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id97683934">
+    <Graphics Color="cc0000">
+      <Point GraphRef="a5722"/>
+      <Point GraphRef="d5278" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida27b0a18">
+    <Graphics>
+      <Point GraphRef="cdc61"/>
+      <Point GraphRef="af9d2" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida3ebffcf">
+    <Graphics>
+      <Point GraphRef="a9544"/>
+      <Point GraphRef="cdc61" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida7bc7f35">
+    <Graphics>
+      <Point GraphRef="cc5e4"/>
+      <Point GraphRef="a7f23" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idad930593">
+    <Graphics Color="cc0000">
+      <Point GraphRef="daebe"/>
+      <Point GraphRef="d5278" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb78c84ea">
+    <Graphics>
+      <Point GraphRef="add5c"/>
+      <Point GraphRef="cd7ef" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb85d35b1">
+    <Graphics>
+      <Point GraphRef="a5722"/>
+      <Point GraphRef="add5c" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc815e401">
+    <Graphics>
+      <Point GraphRef="daebe"/>
+      <Point GraphRef="add5c" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcaaa6813">
+    <Graphics>
+      <Point GraphRef="a4b35"/>
+      <Point GraphRef="ed1d3" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcc370d7a">
+    <Graphics>
+      <Point GraphRef="e274b"/>
+      <Point GraphRef="c48ad" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idce2dbe70">
+    <Graphics>
+      <Point GraphRef="a5722"/>
+      <Point GraphRef="de5e2" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idde0a7e5d">
+    <Graphics>
+      <Point GraphRef="cd7ef"/>
+      <Point GraphRef="ed17a" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide4f32925">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a4b35"/>
+      <Point GraphRef="af9d2" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf11305e5">
+    <Graphics>
+      <Point GraphRef="ddc13"/>
+      <Point GraphRef="ddb2e" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf5e49c74">
+    <Graphics>
+      <Point GraphRef="e274b"/>
+      <Point GraphRef="f66ca" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfb529bfa">
+    <Graphics>
+      <Point GraphRef="b5d8c"/>
+      <Point GraphRef="cc5e4" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfeb8f43d">
+    <Graphics>
+      <Point GraphRef="e274b"/>
+      <Point GraphRef="cdd52" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aca39">
+    <Graphics>
+      <Point GraphRef="e274b"/>
+      <Point GraphRef="cad96" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eff88">
+    <Graphics>
+      <Point GraphRef="a4b35"/>
+      <Point GraphRef="b02f0" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="daf60">
+    <Graphics>
+      <Point GraphRef="e274b"/>
+      <Point GraphRef="b02f0" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="f287d">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-stimulation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fba51">
+    <Graphics Color="cc0000">
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cf493">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a7aaf">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fa25e">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="abnormal" GraphId="c646c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Misfolded&#10;proteins" GraphId="cdc61">
+    <Comment>biological concept</Comment>
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Legend&#10;Interaction&#10;Conversion&#10;Translation&#10;Stimulation&#10;Inhibition&#10;" GraphId="e8d3a">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Label TextLabel="abnormal" GraphId="d7c74">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="abnormal" GraphId="e33bd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="abnormal" GraphId="a5a11">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Group GroupId="fb093" GraphId="bdfa3" Style="Complex"/>
+  <Group GroupId="a19b1" GraphId="cc5e4" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >muscle cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000187</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ecd">
+      <bp:ID >25241263</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Sporadic inclusion-body myositis: A degenerative muscle disease associated with aging, impaired muscle protein homeostasis and abnormal mitophagy.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Askanas V</bp:AUTHORS>
+      <bp:AUTHORS >Engel WK</bp:AUTHORS>
+      <bp:AUTHORS >Nogalska A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b0e">
+      <bp:ID >10901230</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Novel immunolocalization of alpha-synuclein in human muscle of inclusion-body myositis, regenerating and necrotic muscle fibers, and at neuromuscular junctions.</bp:TITLE>
+      <bp:SOURCE >J Neuropathol Exp Neurol</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Askanas V</bp:AUTHORS>
+      <bp:AUTHORS >Engel WK</bp:AUTHORS>
+      <bp:AUTHORS >Alvarez RB</bp:AUTHORS>
+      <bp:AUTHORS >McFerrin J</bp:AUTHORS>
+      <bp:AUTHORS >Broccolini A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c9f">
+      <bp:ID >9483513</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Age-related congophilic inclusions in the brains of apolipoprotein E-deficient mice.</bp:TITLE>
+      <bp:SOURCE >Neuroscience</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Robertson TA</bp:AUTHORS>
+      <bp:AUTHORS >Dutton NS</bp:AUTHORS>
+      <bp:AUTHORS >Martins RN</bp:AUTHORS>
+      <bp:AUTHORS >Roses AD</bp:AUTHORS>
+      <bp:AUTHORS >Kakulas BA</bp:AUTHORS>
+      <bp:AUTHORS >Papadimitriou JM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >inclusion body myositis</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:3429</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

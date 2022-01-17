@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Peroxiredoxin 2 induced ovarian failure" Version="20200217" Organism="Homo sapiens"><Comment Source="WikiPathways-description">This pathway summarizes the influence of reactive oxygen species on ovarian aging, ovarian failure and therefore female infertility. </Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway [WP4835_109250.gpml] with a 62.0% conversion rate.</Comment>
+  <BiopaxRef>dc3</BiopaxRef>
+  <Graphics BoardWidth="1198.8504638671875" BoardHeight="611.5"/>
+  <DataNode TextLabel="Cytochrome C" GraphId="a1f8e" Type="Metabolite">
+    <Comment>Somatic</Comment>
+    <Comment Source="HomologyMapper">Multiple homologues found: En:ENSG00000172115;En:ENSG00000172115;</Comment>
+        </DataNode>
+  <DataNode TextLabel="Reactive oxygen species " GraphId="a6f19" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Estradiol-17beta" GraphId="b083e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP11A1" GraphId="c4211" Type="Protein">
+    <Comment>Mitochondrial</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:Q9QZ82</Comment>
+        </DataNode>
+  <DataNode TextLabel="HSD3B2" GraphId="cc2ba" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:E9PXG7</Comment>
+        </DataNode>
+  <DataNode TextLabel="JNK" GraphId="cd5d4" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CASP3" GraphId="d23ce" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:A0A1B0GRX1</Comment>
+        </DataNode>
+  <DataNode TextLabel="Progesterone" GraphId="d8428" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="STAR" GraphId="ea72e" Type="Protein">
+    <Comment>Mitichondrial</Comment>
+    <Comment>Type your comment here</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:P51557</Comment>
+        </DataNode>
+  <DataNode TextLabel="Peroxiredoxin-2" GraphId="eb976" Type="Protein">
+    <Comment Source="HomologyMapper">No homologues found for original id S:Q61171</Comment>
+        </DataNode>
+  <DataNode TextLabel="BAX" GraphId="f41fa" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000003873</Comment>
+        </DataNode>
+  <DataNode TextLabel="PARP2" GraphId="f4449" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id10124fd4">
+    <Graphics>
+      <Point GraphRef="d23ce"/>
+      <Point GraphRef="f4449" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1418adc4">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d8428"/>
+      <Point GraphRef="ebcbc" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2cbd58c0">
+    <Graphics>
+      <Point GraphRef="cc2ba"/>
+      <Point GraphRef="b083e" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2e6105e0">
+    <Graphics>
+      <Point GraphRef="adf8b"/>
+      <Point GraphRef="fe0fc" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3f71da5c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="eb976"/>
+      <Point GraphRef="a6f19" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id44d52bb5">
+    <Graphics>
+      <Point GraphRef="cc2ba"/>
+      <Point GraphRef="d8428" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4adee89e">
+    <Graphics>
+      <Point GraphRef="fe0fc"/>
+      <Point GraphRef="c024c" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id54382d09">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cd5d4"/>
+      <Point GraphRef="ea72e" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id54a1040f">
+    <Graphics>
+      <Point GraphRef="c4211"/>
+      <Point GraphRef="cc2ba" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5d551692">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cd5d4"/>
+      <Point GraphRef="adf8b" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5deb3406">
+    <Graphics>
+      <Point GraphRef="c024c"/>
+      <Point GraphRef="d8a87" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id634a73f">
+    <Graphics>
+      <Point GraphRef="a6f19"/>
+      <Point GraphRef="cd5d4" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6fea2213">
+    <Graphics>
+      <Point GraphRef="ebcbc"/>
+      <Point GraphRef="d8a87" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id747654a0">
+    <Graphics>
+      <Point GraphRef="b1fd6"/>
+      <Point GraphRef="a6f19" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7b48ef25">
+    <Graphics>
+      <Point GraphRef="f4449"/>
+      <Point GraphRef="d8a87" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id833ac72">
+    <Graphics>
+      <Point GraphRef="cd5d4"/>
+      <Point GraphRef="f41fa" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id84d71cc8">
+    <Graphics>
+      <Point GraphRef="b083e"/>
+      <Point GraphRef="ebcbc" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida46367e5">
+    <Graphics>
+      <Point GraphRef="d8a87"/>
+      <Point GraphRef="e3dd9" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaf9273b6">
+    <Graphics>
+      <Point GraphRef="f41fa"/>
+      <Point GraphRef="a1f8e" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb838ec6d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c024c"/>
+      <Point GraphRef="e3dd9" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc2d6981b">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ebcbc"/>
+      <Point GraphRef="e3dd9" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idceab5a06">
+    <Graphics>
+      <Point GraphRef="a1f8e"/>
+      <Point GraphRef="d23ce" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide447ff4a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="eb976"/>
+      <Point GraphRef="cd5d4" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideeb25a8a">
+    <Graphics>
+      <Point GraphRef="ea72e"/>
+      <Point GraphRef="c4211" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="The number of follicles and Corpora lutea declines" GraphId="adf8b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Aging" GraphId="b1fd6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Ovarian structural degeneration" GraphId="c024c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Apoptosis" GraphId="d8a87">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Ovarian failure" GraphId="e3dd9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Ovarian functional degeneration" GraphId="ebcbc">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Size of ovaries decline" GraphId="fe0fc">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="a9fb9">
+    <Graphics ShapeType="Mitochondria" Color="c0c0c0"/>
+  </Shape>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc3">
+      <bp:ID >29778464</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Peroxiredoxin 2 deficiency accelerates age-related ovarian failure through the reactive oxygen species-mediated JNK pathway in mice.</bp:TITLE>
+      <bp:SOURCE >Free Radic Biol Med</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Park SJ</bp:AUTHORS>
+      <bp:AUTHORS >Kim JH</bp:AUTHORS>
+      <bp:AUTHORS >Lee DG</bp:AUTHORS>
+      <bp:AUTHORS >Kim JM</bp:AUTHORS>
+      <bp:AUTHORS >Lee DS</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>c-Jun N-terminal kinases MAPK signaling pathway</bp:TERM><bp:ID>PW:0000313</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>ovarian dysfunction</bp:TERM><bp:ID>DOID:1414</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

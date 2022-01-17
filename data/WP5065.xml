@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="SARS-CoV-2 altering angiogenesis via NRP1" Version="20210217" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Mechanism of how the SARS-cov-2 virus is involved in altering angiogenesis and how NRP1 might play a role as an entry factor for the virus. </Comment>
+  <Graphics BoardWidth="949.5349999999986" BoardHeight="606.2525000000005"/>
+  <DataNode TextLabel="S2" GraphId="a43e4" Type="Protein">
+    <Graphics FillColor="ff9999" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="FURIN" GraphId="ab236" Type="GeneProduct">
+    <BiopaxRef>bac</BiopaxRef>
+    <BiopaxRef>e34</BiopaxRef>
+    <BiopaxRef>e47</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Surface glycoprotein S" GraphId="b32ee" Type="Protein">
+    <Graphics FillColor="ff9999" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="NRP1" GraphId="b9e81" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="KDR" GraphId="be74d" Type="GeneProduct" GroupRef="f2297">
+        </DataNode>
+  <DataNode TextLabel="S1" GraphId="c363c" Type="Protein">
+    <Graphics FillColor="ff9999" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="ACE2" GraphId="d17ac" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="VEGFA" GraphId="ecd5d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Angiogenesis" GraphId="f5b86" Type="Pathway">
+    <BiopaxRef>bac</BiopaxRef>
+    <BiopaxRef>b75</BiopaxRef>
+    <BiopaxRef>fe2</BiopaxRef>
+    <Graphics ShapeType="Oval" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Membrane fusion" GraphId="f84bf" Type="Pathway">
+    <Graphics ShapeType="Oval" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="NRP1" GraphId="c92a9" Type="GeneProduct" GroupRef="f2297">
+        </DataNode>
+  <Interaction GraphId="id19622e55">
+    <Graphics>
+      <Point GraphRef="c363c"/>
+      <Point GraphRef="c2f06" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id30105322">
+    <Graphics>
+      <Point GraphRef="b32ee"/>
+      <Point GraphRef="d17ac" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id34540c1c">
+    <Graphics>
+      <Point GraphRef="a43e4"/>
+      <Point GraphRef="f84bf" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3790eadf">
+    <Graphics>
+      <Point GraphRef="b9e81"/>
+      <Point GraphRef="e0e95" ArrowHead="mim-binding"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c2f06"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id43cd660f">
+    <Graphics>
+      <Point GraphRef="ecd5d"/>
+      <Point GraphRef="b9e81" ArrowHead="mim-binding"/>
+      <Anchor Position="0.5974902314931949" Shape="None" GraphId="b7f6f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4e2d6c6e">
+    <Graphics>
+      <Point GraphRef="e0e95"/>
+      <Point GraphRef="f5b86" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9a9099b7">
+    <BiopaxRef>e47</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c363c"/>
+      <Point GraphRef="b7f6f" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida9ef11ca">
+    <BiopaxRef>d75</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c363c"/>
+      <Point GraphRef="b9e81" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb065e73b">
+    <Graphics>
+      <Point GraphRef="ab236"/>
+      <Point GraphRef="c4f7c" ArrowHead="mim-cleavage"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc047fb67">
+    <Graphics>
+      <Point GraphRef="b32ee"/>
+      <Point GraphRef="a43e4" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a898d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcb5a79c6">
+    <Graphics>
+      <Point GraphRef="b32ee"/>
+      <Point GraphRef="c363c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6783166625370018" Shape="None" GraphId="c4f7c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf5f63b5b">
+    <Graphics>
+      <Point GraphRef="ab236"/>
+      <Point GraphRef="a898d" ArrowHead="mim-cleavage"/>
+    </Graphics>
+    </Interaction>
+  <Shape TextLabel="Host cell" GraphId="f49b9">
+    <Graphics ShapeType="RoundedRectangle" Color="999999"/>
+  </Shape>
+  <Shape TextLabel="SARS-CoV-2" GraphId="fb84f">
+    <Graphics ShapeType="Oval" Color="ff9933"/>
+  </Shape>
+  <Group GroupId="f2297" GraphId="e0e95" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d75">
+      <bp:ID >32869019</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >SARS-CoV-2 Spike protein co-opts VEGF-A/Neuropilin-1 receptor signaling to induce analgesia.</bp:TITLE>
+      <bp:SOURCE >bioRxiv</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Moutal A</bp:AUTHORS>
+      <bp:AUTHORS >Martin LF</bp:AUTHORS>
+      <bp:AUTHORS >Boinon L</bp:AUTHORS>
+      <bp:AUTHORS >Gomez K</bp:AUTHORS>
+      <bp:AUTHORS >Ran D</bp:AUTHORS>
+      <bp:AUTHORS >Zhou Y</bp:AUTHORS>
+      <bp:AUTHORS >Stratton HJ</bp:AUTHORS>
+      <bp:AUTHORS >Cai S</bp:AUTHORS>
+      <bp:AUTHORS >Luo S</bp:AUTHORS>
+      <bp:AUTHORS >Gonzalez KB</bp:AUTHORS>
+      <bp:AUTHORS >Perez-Miller S</bp:AUTHORS>
+      <bp:AUTHORS >Patwardhan A</bp:AUTHORS>
+      <bp:AUTHORS >Ibrahim MM</bp:AUTHORS>
+      <bp:AUTHORS >Khanna R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bac">
+      <bp:ID >33395426</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The role of Neuropilin-1 in COVID-19.</bp:TITLE>
+      <bp:SOURCE >PLoS Pathog</bp:SOURCE>
+      <bp:YEAR >2021</bp:YEAR>
+      <bp:AUTHORS >Mayi BS</bp:AUTHORS>
+      <bp:AUTHORS >Leibowitz JA</bp:AUTHORS>
+      <bp:AUTHORS >Woods AT</bp:AUTHORS>
+      <bp:AUTHORS >Ammon KA</bp:AUTHORS>
+      <bp:AUTHORS >Liu AE</bp:AUTHORS>
+      <bp:AUTHORS >Raja A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e34">
+      <bp:ID >33458558</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Neurobiology of SARS-CoV-2 interactions with the peripheral nervous system: implications for COVID-19 and pain.</bp:TITLE>
+      <bp:SOURCE >Pain Rep</bp:SOURCE>
+      <bp:YEAR >2021</bp:YEAR>
+      <bp:AUTHORS >McFarland AJ</bp:AUTHORS>
+      <bp:AUTHORS >Yousuf MS</bp:AUTHORS>
+      <bp:AUTHORS >Shiers S</bp:AUTHORS>
+      <bp:AUTHORS >Price TJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e47">
+      <bp:ID >33442700</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Neuropilin-1 Assists SARS-CoV-2 Infection by Stimulating the Separation of Spike Protein Domains S1 and S2.</bp:TITLE>
+      <bp:SOURCE >bioRxiv</bp:SOURCE>
+      <bp:YEAR >2021</bp:YEAR>
+      <bp:AUTHORS >Li ZL</bp:AUTHORS>
+      <bp:AUTHORS >Buck M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b75">
+      <bp:ID >33082294</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Neuropilin-1 is a host factor for SARS-CoV-2 infection.</bp:TITLE>
+      <bp:SOURCE >Science</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Daly JL</bp:AUTHORS>
+      <bp:AUTHORS >Simonetti B</bp:AUTHORS>
+      <bp:AUTHORS >Klein K</bp:AUTHORS>
+      <bp:AUTHORS >Chen KE</bp:AUTHORS>
+      <bp:AUTHORS >Williamson MK</bp:AUTHORS>
+      <bp:AUTHORS >Ant&#195;&#179;n-Pl&#195;&#161;garo C</bp:AUTHORS>
+      <bp:AUTHORS >Shoemark DK</bp:AUTHORS>
+      <bp:AUTHORS >Sim&#195;&#179;n-Gracia L</bp:AUTHORS>
+      <bp:AUTHORS >Bauer M</bp:AUTHORS>
+      <bp:AUTHORS >Hollandi R</bp:AUTHORS>
+      <bp:AUTHORS >Greber UF</bp:AUTHORS>
+      <bp:AUTHORS >Horvath P</bp:AUTHORS>
+      <bp:AUTHORS >Sessions RB</bp:AUTHORS>
+      <bp:AUTHORS >Helenius A</bp:AUTHORS>
+      <bp:AUTHORS >Hiscox JA</bp:AUTHORS>
+      <bp:AUTHORS >Teesalu T</bp:AUTHORS>
+      <bp:AUTHORS >Matthews DA</bp:AUTHORS>
+      <bp:AUTHORS >Davidson AD</bp:AUTHORS>
+      <bp:AUTHORS >Collins BM</bp:AUTHORS>
+      <bp:AUTHORS >Cullen PJ</bp:AUTHORS>
+      <bp:AUTHORS >Yamauchi Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fe2">
+      <bp:ID >9529250</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Neuropilin-1 is expressed by endothelial and tumor cells as an isoform-specific receptor for vascular endothelial growth factor.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Soker S</bp:AUTHORS>
+      <bp:AUTHORS >Takashima S</bp:AUTHORS>
+      <bp:AUTHORS >Miao HQ</bp:AUTHORS>
+      <bp:AUTHORS >Neufeld G</bp:AUTHORS>
+      <bp:AUTHORS >Klagsbrun M</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>disease pathway</bp:TERM><bp:ID>PW:0000013</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>severe acute respiratory syndrome</bp:TERM><bp:ID>DOID:2945</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>COVID-19</bp:TERM><bp:ID>DOID:0080600</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

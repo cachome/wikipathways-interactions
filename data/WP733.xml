@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Serotonin receptor 2 and STAT3 signaling" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Source: Ariadne Genomics Pathway Studio.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP733 CPTAC Assay Portal]</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <Graphics BoardWidth="353.0" BoardHeight="444.0"/>
+  <DataNode TextLabel="HTR2A" GraphId="afa00" Type="GeneProduct">
+    <Comment>5-hydroxytryptamine (serotonin) receptor 2A</Comment>
+        </DataNode>
+  <DataNode TextLabel="JAK2" GraphId="cacda" Type="GeneProduct">
+    <Comment>Janus kinase 2</Comment>
+        </DataNode>
+  <DataNode TextLabel="GNAQ" GraphId="cafea" Type="GeneProduct">
+    <Comment>guanine nucleotide binding protein, alpha q polypeptide</Comment>
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="ce8ce" Type="GeneProduct">
+    <Comment>signal transducer and activator of transcription</Comment>
+        </DataNode>
+  <DataNode TextLabel="Serotonin" GraphId="d4a3b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="b5b37">
+    <Comment>Regulation GNAQ --+&gt; JAK2</Comment>
+    <Comment>15640156 (CellLineName: COS-7) Indeed, transfection of a constitutively activated mutant of Galpha(q) (Q209L) in COS-7 cells demonstrated that Galpha(q) is able to associate and activate JAK2. 
+</Comment>
+    <BiopaxRef>f9a</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="cafea"/>
+      <Point GraphRef="cacda" ArrowHead="mim-necessary-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ba2f3">
+    <Comment>DirectRegulation HTR2A --+&gt; GNAQ</Comment>
+    <Comment>9439849 (Organ: hypothalamic, Tissue: cortex) These results suggest that fluoxetine gradually increases the G-protein coupling of 5-HT2A/2C receptors without altering the levels of Gq- or G11-proteins. 
+
+12721328 (Organ: hypothalamic, Tissue: cortex, CellType: neural) These fluoxetine-induced changes in 5-HT2A receptor signaling occur without changing the levels of Galphaq or RGS4 proteins. 
+</Comment>
+    <BiopaxRef>cd8</BiopaxRef>
+    <BiopaxRef>d9a</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="afa00"/>
+      <Point GraphRef="cafea" ArrowHead="mim-necessary-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="be6b0">
+    <Comment>Direct Regulation serotonin --+&gt; HTR2A</Comment>
+    <Comment>8808177 (Organ: blood vessel, CellType: neural) Stimulation of the 5-HT2A receptors by serotonin has been reported to exert an excitatory effect on neocortical neurons in rats and mice, to facilitate ischaemia-induced release of excitatory amino acids and to mediate the vasomotor constrictor component of the response of blood vessels to 5-HT. 5-HT2A receptor antagonists have, therefore, been proposed as potential protectants against the effects of cerebral ischaemia. 
+
+14654098 (Organ: hippocampal, CellType: neural) High doses of 5-HT also recruited both 5-HT2 and 5-HT3 receptors, causing an increase in the rate and amplitude of sIPSCs. cOA (1 microM), in the presence of Y 25130, failed to potentiate the 5-HT2 receptor induced enhancement of sIPSCs. 
+
+11157082 Since 5-HT enhances GABA release ( Liu and Alreja 1997 ), 5-HT2A receptor blockade of clozapine may directly reduce pallidal GABA release. 
+
+10431683 Mirtazapine is an atypical antidepressant with alpha 2 adrenergic antagonist and serotonin 5-HT2 and 5-HT3 receptor-blocking activity. 
+
+8627578 Neomycin (3 mM) inhibited maximal 5-HT-induced contraction by approximately 50% without inhibiting [3H]5-HT binding to 5-HT2A receptors. 
+
+9016798 (Tissue: crypt) Superfusing 5-HT (10 microM) in the bath solution increased both K+ and Cl- currents, which were antagonized by the presence of ketanserin (1 microM), a selective 5-HT2A antagonist, in the bath solution. 
+
+9272731 (Tissue: mesangia) The L-type channel blocker verapamil, however, dose-dependently (0.1-10 microM) and specifically inhibited 5-HT-elicited Ca2+ signals by interference with binding of 5-HT to 5-HT2A receptors. 5-HT-mediated Ca2+ release was reduced by 80% when protein kinase C was activated by the phorbolester TPA (0.1 microM). 
+
+</Comment>
+    <BiopaxRef>c21</BiopaxRef>
+    <BiopaxRef>c0c</BiopaxRef>
+    <BiopaxRef>fee</BiopaxRef>
+    <BiopaxRef>f4e</BiopaxRef>
+    <BiopaxRef>d34</BiopaxRef>
+    <BiopaxRef>f11</BiopaxRef>
+    <BiopaxRef>afb</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d4a3b"/>
+      <Point GraphRef="afa00" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2154">
+    <Comment>Binding HTR2A ---- JAK2</Comment>
+    <Comment>9169451 The blot showing 5-HT 2A receptor-Jak2 kinase association (Fig. 3 A ) was stripped and reprobed with anti-STAT3 antibody. 
+</Comment>
+    <BiopaxRef>b19</BiopaxRef>
+    <Graphics Color="cc00cc">
+      <Point GraphRef="afa00"/>
+      <Point GraphRef="cacda" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fe91c">
+    <Comment>Prot Modification JAK2 --+&gt; STAT3</Comment>
+    <Comment>15156153 Hes proteins associate with JAK2 and STAT3, and facilitate complex formation between JAK2 and STAT3, thus promoting STAT3 phosphorylation and activation. 
+
+15688010 Tkip also inhibited constitutive (DU145) and IL-6-induced (LNCaP) activation of STAT3, consistent with the fact that STAT3 activation is mediated by JAK2. 
+
+11708838 (Organ: heart, CellLineName: IPC) The results demonstrated extensive phosphorylation of JAK2 and STAT3 in the IPC hearts which was almost completely abolished by an inhibitor of JAK2, AG490. 
+
+15155836 (Organ: kidney, CellLineName: 293) Inhibition of c-Src and Janus kinase 2 and 3 activities abolished STAT3 activation induced by Galpha14QL, but no physical association between Galpha14QL and c-Src could be detected by coimmunoprecipitation. 
+
+15650183 (Organ: liver) Using a series of inhibitors and dominant negative mutants, we show that HCV-induced activation of STAT-3 is mediated by oxidative stress and influenced by the activation of cellular kinases, including p38 mitogen-activated protein kinase, JNK, JAK-2, and Src. 
+
+15151905 (Tissue: endothelial) IL-6 treatment increased the phosphorylation of JAK2, an upstream activator of STAT3. 
+
+10891587 (Organ: brain, Tissue: glia, CellType: neural) The PSD fraction also had a janus kinase 2 (Jak2)-like molecule, Jak2, believed to phosphorylate Stat3. 
+
+</Comment>
+    <BiopaxRef>bfb</BiopaxRef>
+    <BiopaxRef>d8d</BiopaxRef>
+    <BiopaxRef>fe9</BiopaxRef>
+    <BiopaxRef>a3c</BiopaxRef>
+    <BiopaxRef>aa9</BiopaxRef>
+    <BiopaxRef>e0c</BiopaxRef>
+    <BiopaxRef>e51</BiopaxRef>
+    <Graphics Color="999900">
+      <Point GraphRef="cacda"/>
+      <Point GraphRef="ce8ce" ArrowHead="mim-necessary-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd8">
+      <bp:ID >9439849</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Fluoxetine gradually increases [125I]DOI-labelled 5-HT2A/2C receptors in the hypothalamus without changing the levels of Gq- and G11-proteins.</bp:TITLE>
+      <bp:SOURCE >Brain Res</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Li Q</bp:AUTHORS>
+      <bp:AUTHORS >Muma NA</bp:AUTHORS>
+      <bp:AUTHORS >Battaglia G</bp:AUTHORS>
+      <bp:AUTHORS >Van de Kar LD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b19">
+      <bp:ID >9169451</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification and localization of a skeletal muscle secrotonin 5-HT2A receptor coupled to the Jak/STAT pathway.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Guillet-Deniau I</bp:AUTHORS>
+      <bp:AUTHORS >Burnol AF</bp:AUTHORS>
+      <bp:AUTHORS >Girard J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d9a">
+      <bp:ID >12721328</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Chronic fluoxetine differentially affects 5-hydroxytryptamine (2A) receptor signaling in frontal cortex, oxytocin- and corticotropin-releasing factor-containing neurons in rat paraventricular nucleus.</bp:TITLE>
+      <bp:SOURCE >J Pharmacol Exp Ther</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Damjanoska KJ</bp:AUTHORS>
+      <bp:AUTHORS >Van de Kar LD</bp:AUTHORS>
+      <bp:AUTHORS >Kindel GH</bp:AUTHORS>
+      <bp:AUTHORS >Zhang Y</bp:AUTHORS>
+      <bp:AUTHORS >D'Souza DN</bp:AUTHORS>
+      <bp:AUTHORS >Garcia F</bp:AUTHORS>
+      <bp:AUTHORS >Battaglia G</bp:AUTHORS>
+      <bp:AUTHORS >Muma NA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >neuron</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000540</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="afb">
+      <bp:ID >9272731</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mechanisms of serotonin-induced Ca2+ responses in mesangial cells.</bp:TITLE>
+      <bp:SOURCE >Naunyn Schmiedebergs Arch Pharmacol</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Goppelt-Struebe M</bp:AUTHORS>
+      <bp:AUTHORS >Stroebel M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c0c">
+      <bp:ID >14654098</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The sleep inducing brain lipid cis-oleamide (cOA) does not modulate serotonergic transmission in the CA1 pyramidal neurons of the hippocampus in vitro.</bp:TITLE>
+      <bp:SOURCE >Neuropharmacology</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Dougalis A</bp:AUTHORS>
+      <bp:AUTHORS >Lees G</bp:AUTHORS>
+      <bp:AUTHORS >Ganellin CR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fe9">
+      <bp:ID >11708838</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of STAT3 in ischemic preconditioning.</bp:TITLE>
+      <bp:SOURCE >J Mol Cell Cardiol</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Hattori R</bp:AUTHORS>
+      <bp:AUTHORS >Maulik N</bp:AUTHORS>
+      <bp:AUTHORS >Otani H</bp:AUTHORS>
+      <bp:AUTHORS >Zhu L</bp:AUTHORS>
+      <bp:AUTHORS >Cordis G</bp:AUTHORS>
+      <bp:AUTHORS >Engelman RM</bp:AUTHORS>
+      <bp:AUTHORS >Siddiqui MA</bp:AUTHORS>
+      <bp:AUTHORS >Das DK</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >serotonin signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000854</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a3c">
+      <bp:ID >15155836</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Signal transducer and activator of transcription 3 activation by the delta-opioid receptor via Galpha14 involves multiple intermediates.</bp:TITLE>
+      <bp:SOURCE >Mol Pharmacol</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Lo RK</bp:AUTHORS>
+      <bp:AUTHORS >Wong YH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aa9">
+      <bp:ID >15650183</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Hepatitis C virus (HCV) constitutively activates STAT-3 via oxidative stress: role of STAT-3 in HCV replication.</bp:TITLE>
+      <bp:SOURCE >J Virol</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Waris G</bp:AUTHORS>
+      <bp:AUTHORS >Turkson J</bp:AUTHORS>
+      <bp:AUTHORS >Hassanein T</bp:AUTHORS>
+      <bp:AUTHORS >Siddiqui A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e0c">
+      <bp:ID >15151905</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Interleukin-6-induced JAK2/STAT3 signaling pathway in endothelial cells is suppressed by hemodynamic flow.</bp:TITLE>
+      <bp:SOURCE >Am J Physiol Cell Physiol</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Ni CW</bp:AUTHORS>
+      <bp:AUTHORS >Hsieh HJ</bp:AUTHORS>
+      <bp:AUTHORS >Chao YJ</bp:AUTHORS>
+      <bp:AUTHORS >Wang DL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fee">
+      <bp:ID >11157082</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The information content of spontaneous retinal waves.</bp:TITLE>
+      <bp:SOURCE >J Neurosci</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Butts DA</bp:AUTHORS>
+      <bp:AUTHORS >Rokhsar DS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f11">
+      <bp:ID >9016798</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Serotonin activates electrolyte transport via 5-HT2A receptor in rat colonic crypt cells.</bp:TITLE>
+      <bp:SOURCE >Biochem Biophys Res Commun</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Imada-Shirakata Y</bp:AUTHORS>
+      <bp:AUTHORS >Kotera T</bp:AUTHORS>
+      <bp:AUTHORS >Ueda S</bp:AUTHORS>
+      <bp:AUTHORS >Okuma M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c21">
+      <bp:ID >8808177</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Lack of efficacy of 5-HT2A receptor antagonists to reduce brain damage after 3 minutes of transient global cerebral ischaemia in gerbils.</bp:TITLE>
+      <bp:SOURCE >Fundam Clin Pharmacol</bp:SOURCE>
+      <bp:YEAR >1995</bp:YEAR>
+      <bp:AUTHORS >Piera MJ</bp:AUTHORS>
+      <bp:AUTHORS >Beaughard M</bp:AUTHORS>
+      <bp:AUTHORS >Michelin MT</bp:AUTHORS>
+      <bp:AUTHORS >Winslow E</bp:AUTHORS>
+      <bp:AUTHORS >Massingham R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f9a">
+      <bp:ID >15640156</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A novel mechanism for JAK2 activation by a G protein-coupled receptor, the CCK2R: implication of this signaling pathway in pancreatic tumor models.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Ferrand A</bp:AUTHORS>
+      <bp:AUTHORS >Kowalski-Chauvel A</bp:AUTHORS>
+      <bp:AUTHORS >Bertrand C</bp:AUTHORS>
+      <bp:AUTHORS >Escrieut C</bp:AUTHORS>
+      <bp:AUTHORS >Mathieu A</bp:AUTHORS>
+      <bp:AUTHORS >Portolan G</bp:AUTHORS>
+      <bp:AUTHORS >Pradayrol L</bp:AUTHORS>
+      <bp:AUTHORS >Fourmy D</bp:AUTHORS>
+      <bp:AUTHORS >Dufresne M</bp:AUTHORS>
+      <bp:AUTHORS >Seva C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e51">
+      <bp:ID >10891587</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Occurrence of a transcription factor, signal transducer and activators of transcription 3 (Stat3), in the postsynaptic density of the rat brain.</bp:TITLE>
+      <bp:SOURCE >Brain Res Mol Brain Res</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Murata S</bp:AUTHORS>
+      <bp:AUTHORS >Usuda N</bp:AUTHORS>
+      <bp:AUTHORS >Okano A</bp:AUTHORS>
+      <bp:AUTHORS >Kobayashi S</bp:AUTHORS>
+      <bp:AUTHORS >Suzuki T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f4e">
+      <bp:ID >10431683</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Sexual functioning in depressed outpatients taking mirtazapine.</bp:TITLE>
+      <bp:SOURCE >Depress Anxiety</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Boyarsky BK</bp:AUTHORS>
+      <bp:AUTHORS >Haque W</bp:AUTHORS>
+      <bp:AUTHORS >Rouleau MR</bp:AUTHORS>
+      <bp:AUTHORS >Hirschfeld RM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d34">
+      <bp:ID >8627578</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Neomycin selectively inhibits 5-hydroxytryptamine-induced contraction in the guinea pig trachea.</bp:TITLE>
+      <bp:SOURCE >J Pharmacol Exp Ther</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >Cox DA</bp:AUTHORS>
+      <bp:AUTHORS >Watts SW</bp:AUTHORS>
+      <bp:AUTHORS >Cohen ML</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d8d">
+      <bp:ID >15688010</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A SOCS-1 peptide mimetic inhibits both constitutive and IL-6 induced activation of STAT3 in prostate cancer cells.</bp:TITLE>
+      <bp:SOURCE >Oncogene</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Flowers LO</bp:AUTHORS>
+      <bp:AUTHORS >Subramaniam PS</bp:AUTHORS>
+      <bp:AUTHORS >Johnson HM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bfb">
+      <bp:ID >15156153</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Hes binding to STAT3 mediates crosstalk between Notch and JAK-STAT signalling.</bp:TITLE>
+      <bp:SOURCE >Nat Cell Biol</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Kamakura S</bp:AUTHORS>
+      <bp:AUTHORS >Oishi K</bp:AUTHORS>
+      <bp:AUTHORS >Yoshimatsu T</bp:AUTHORS>
+      <bp:AUTHORS >Nakafuku M</bp:AUTHORS>
+      <bp:AUTHORS >Masuyama N</bp:AUTHORS>
+      <bp:AUTHORS >Gotoh Y</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Robo4 and VEGF signaling pathways crosstalk" Version="20160719" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway is based on Figure 2 of "Robo4" (http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2637482/). The gene Robo4 plays a role in regulating vascular stability in mice. Robo4 inhibits the gene Notch1, which regulates tip cell formation, in order to create more tip cells. Robo4 also inhibits cell migration, decreasing vessel complexity. The combination of Slit2 and Robo4 inhibits the activation of Src by VEGF-165 and VEGFR2. This inhibition reduces vascular leakage of Evans Blue from retinal blood vessels. More experimentation is necessary to determine whether Robo4 will inhibit other members of the Src family. 
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3943 CPTAC Assay Portal]</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway "Robo4 and VEGF Signaling Pathways Crosstalk", WP3864 revision 89750, with a 100.0% conversion rate.</Comment>
+  <BiopaxRef>bb0</BiopaxRef>
+  <Graphics BoardWidth="558.0" BoardHeight="457.0"/>
+  <DataNode TextLabel="ROBO4" GraphId="ad17e" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000032125</Comment>
+        </DataNode>
+  <DataNode TextLabel="SLIT2" GraphId="b955c" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000031558</Comment>
+        </DataNode>
+  <DataNode TextLabel="KDR" GraphId="bb178" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000062960</Comment>
+        </DataNode>
+  <DataNode TextLabel="RAC1" GraphId="bbf12" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000001847</Comment>
+        </DataNode>
+  <DataNode TextLabel="VEGFA" GraphId="c98ea" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000023951</Comment>
+        </DataNode>
+  <DataNode TextLabel="SRC" GraphId="e9a5f" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000027646</Comment>
+        </DataNode>
+  <Interaction GraphId="id14447c5">
+    <Graphics>
+      <Point GraphRef="e9a5f"/>
+      <Point GraphRef="bbf12" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8f6175b1">
+    <Graphics>
+      <Point GraphRef="bb178"/>
+      <Point GraphRef="e9a5f" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a2fea"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9cf5d153">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bbf12"/>
+      <Point GraphRef="ea02d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida7aa2972">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bbf12"/>
+      <Point GraphRef="e7330" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc600851e">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ad17e"/>
+      <Point GraphRef="a2fea" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc96ead42">
+    <Graphics>
+      <Point GraphRef="b955c"/>
+      <Point GraphRef="ad17e" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideee2e4f0">
+    <Graphics>
+      <Point GraphRef="c98ea"/>
+      <Point GraphRef="bb178" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Angiogenesis" GraphId="e7330">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Permeability" GraphId="ea02d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="b417d">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >regulatory pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000004</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb0">
+      <bp:ID >19270536</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Robo4: a guidance receptor that regulates angiogenesis.</bp:TITLE>
+      <bp:SOURCE >Cell Adh Migr</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Weitzman M</bp:AUTHORS>
+      <bp:AUTHORS >Bayley EB</bp:AUTHORS>
+      <bp:AUTHORS >Naik UP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Notch signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000204</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>regulatory pathway</bp:TERM><bp:ID>PW:0000004</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>Notch signaling pathway</bp:TERM><bp:ID>PW:0000204</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

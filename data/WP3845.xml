@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Canonical and non-canonical Notch signaling" Version="20160704" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway is based on figure 1 of "Alteration of Notch signaling in skeletal development and disease" (see bibliography). In the NOTCH signaling pathway, mammals have 11 ligands (JAG, DLL, DLK, etc.) and 4 NOTCH receptors (NOTCH1,2,3,4). The pathway is activated by the interaction between a ligand in a ligand expressing cell and a NOTCH receptor in an adjacent, receptor expressing cell.  At this point, proteases (ADAM10 and PSEN1/2) cleave the intracellular domain (NICD) of the NOTCH protein from the extracellular domain (NECD). In the canonical pathway, NICD travels into the nucleus where it forms a transcription complex with other proteins (RBPJ and MAML1,2,3). This transcriptional complex regulates the transcription of downstream canonical target genes, such as HES1 and HEY1. In the non-canonical pathway, otherwise known as RBPJ-independent NOTCH signaling, NOTCH can activate through R-Ras to promote cell adhesion. Alternatively, NOTCH may interact with IKKa in the NF-kB pathway, or LEF1 in the Wnt pathway.While the role that the canonical NOTCH pathway plays in skeletal biology is well understood, our understanding of the role of the non-canonical pathway remains primitive.</Comment>
+  <BiopaxRef>db7</BiopaxRef>
+  <Graphics BoardWidth="1176.666666666667" BoardHeight="1047.333333333333"/>
+  <DataNode TextLabel="MAML2" GraphId="a1d14" Type="GeneProduct" GroupRef="dc1f8">
+        </DataNode>
+  <DataNode TextLabel="DLL4" GraphId="a240b" Type="GeneProduct" GroupRef="b4b3d">
+        </DataNode>
+  <DataNode TextLabel="NOTCH3" GraphId="a82a0" Type="GeneProduct" GroupRef="b92fe">
+        </DataNode>
+  <DataNode TextLabel="JAG2" GraphId="aff6b" Type="GeneProduct" GroupRef="b4b3d">
+        </DataNode>
+  <DataNode TextLabel="JAG1" GraphId="b04fc" Type="GeneProduct" GroupRef="b4b3d">
+        </DataNode>
+  <DataNode TextLabel="NOTCH1" GraphId="b4922" Type="GeneProduct" GroupRef="b92fe">
+        </DataNode>
+  <DataNode TextLabel="NF-kB Pathway" GraphId="b9fd4" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="DLL3" GraphId="ba134" Type="GeneProduct" GroupRef="b4b3d">
+        </DataNode>
+  <DataNode TextLabel="Unknown" GraphId="bd8ac" Type="Pathway">
+    <Comment>Identifier Not Found</Comment>
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="DLK1" GraphId="bef13" Type="GeneProduct" GroupRef="b4b3d">
+        </DataNode>
+  <DataNode TextLabel="RBPJ" GraphId="bfca6" Type="GeneProduct" GroupRef="dc1f8">
+        </DataNode>
+  <DataNode TextLabel="NOTCH2" GraphId="c2eab" Type="GeneProduct" GroupRef="b92fe">
+        </DataNode>
+  <DataNode TextLabel="Cell Adhesion" GraphId="c5788" Type="Pathway">
+    <Comment>Identifier Not Found</Comment>
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="NICD" GraphId="cf52a" Type="Protein" GroupRef="c1c86">
+        </DataNode>
+  <DataNode TextLabel="NECD" GraphId="d0f38" Type="Protein" GroupRef="c1c86">
+        </DataNode>
+  <DataNode TextLabel="HES1" GraphId="d12fb" Type="GeneProduct" GroupRef="dace6">
+        </DataNode>
+  <DataNode TextLabel="LEF1" GraphId="d14e1" Type="GeneProduct" GroupRef="e0f14">
+        </DataNode>
+  <DataNode TextLabel="DLK2" GraphId="d23a5" Type="GeneProduct" GroupRef="b4b3d">
+        </DataNode>
+  <DataNode TextLabel="RRAS" GraphId="d61f2" Type="GeneProduct" GroupRef="af709">
+        </DataNode>
+  <DataNode TextLabel="MAGP1" GraphId="d68a1" Type="GeneProduct" GroupRef="b4b3d">
+        </DataNode>
+  <DataNode TextLabel="DLL1" GraphId="d6e61" Type="GeneProduct" GroupRef="b4b3d">
+        </DataNode>
+  <DataNode TextLabel="PSEN2" GraphId="da670" Type="GeneProduct" GroupRef="a523c">
+        </DataNode>
+  <DataNode TextLabel="MAGP2&#10;" GraphId="e1bbe" Type="GeneProduct" GroupRef="b4b3d">
+        </DataNode>
+  <DataNode TextLabel="IKKa" GraphId="f2a16" Type="GeneProduct" GroupRef="c20ae">
+        </DataNode>
+  <DataNode TextLabel="NOTCH4" GraphId="f6338" Type="GeneProduct" GroupRef="b92fe">
+        </DataNode>
+  <DataNode TextLabel="NB3" GraphId="f6b46" Type="GeneProduct" GroupRef="b4b3d">
+        </DataNode>
+  <DataNode TextLabel="MAML1" GraphId="f7b0f" Type="GeneProduct" GroupRef="dc1f8">
+        </DataNode>
+  <DataNode TextLabel="HEY1" GraphId="fa5f9" Type="GeneProduct" GroupRef="dace6">
+        </DataNode>
+  <DataNode TextLabel="DNER" GraphId="fbe96" Type="GeneProduct" GroupRef="b4b3d">
+        </DataNode>
+  <DataNode TextLabel="MAML3" GraphId="fe3f7" Type="GeneProduct" GroupRef="dc1f8">
+        </DataNode>
+  <DataNode TextLabel="PSEN1" GraphId="ff496" Type="GeneProduct" GroupRef="a523c">
+        </DataNode>
+  <DataNode TextLabel="ADAM10" GraphId="ffc4c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NECD" GraphId="f8d41" Type="Protein" GroupRef="ceb0e">
+        </DataNode>
+  <DataNode TextLabel="NICD" GraphId="cf9ed" Type="GeneProduct" GroupRef="ceb0e">
+        </DataNode>
+  <DataNode TextLabel="NICD" GraphId="ea7bf" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="NICD" GraphId="c5bbc" Type="Protein" GroupRef="e0f14">
+        </DataNode>
+  <DataNode TextLabel="NICD" GraphId="f809f" Type="Protein" GroupRef="c20ae">
+        </DataNode>
+  <DataNode TextLabel="NICD" GraphId="f6845" Type="Protein" GroupRef="af709">
+        </DataNode>
+  <DataNode TextLabel="NICD" GraphId="d6e26" GroupRef="dc1f8" Type="Protein">
+        </DataNode>
+  <Interaction GraphId="id11104769">
+    <Graphics>
+      <Point GraphRef="ec254"/>
+      <Point GraphRef="d0f38"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id16f7bf17">
+    <Graphics>
+      <Point GraphRef="bd8ac"/>
+      <Point GraphRef="fb0ee"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1c944292">
+    <Graphics>
+      <Point GraphRef="cfa87"/>
+      <Point GraphRef="b5257" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2357c4b1">
+    <Graphics>
+      <Point GraphRef="e31b4"/>
+      <Point GraphRef="ea7bf" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b5257"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id23929921">
+    <Graphics>
+      <Point GraphRef="ea7bf"/>
+      <Point GraphRef="c39f1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id294e5c4c">
+    <Graphics>
+      <Point GraphRef="c4842"/>
+      <Point GraphRef="e31b4" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4094c772">
+    <Graphics>
+      <Point GraphRef="ea7bf"/>
+      <Point GraphRef="c6204" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4a51842b">
+    <Graphics>
+      <Point GraphRef="c6204"/>
+      <Point GraphRef="b9fd4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6a3343e">
+    <Graphics>
+      <Point GraphRef="a37ef"/>
+      <Point GraphRef="bd8ac" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6f887b88">
+    <Graphics>
+      <Point GraphRef="fa7d1"/>
+      <Point GraphRef="ca0fc"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7b34faa7">
+    <Graphics>
+      <Point GraphRef="cf52a"/>
+      <Point GraphRef="a9a94"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8b540517">
+    <Graphics>
+      <Point GraphRef="ea7bf"/>
+      <Point GraphRef="a37ef" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id92d104fc">
+    <Graphics>
+      <Point GraphRef="c5788"/>
+      <Point GraphRef="fb0ee"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9adda3db">
+    <Graphics>
+      <Point GraphRef="ba12c"/>
+      <Point GraphRef="c5788" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb9b31eae">
+    <Graphics>
+      <Point GraphRef="ffc4c"/>
+      <Point GraphRef="b5257" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb9e5f71e">
+    <Graphics>
+      <Point GraphRef="b9fd4"/>
+      <Point GraphRef="fb0ee"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc90f1fb1">
+    <Graphics>
+      <Point GraphRef="ea7bf"/>
+      <Point GraphRef="ba12c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd14bfee4">
+    <Graphics>
+      <Point GraphRef="c39f1"/>
+      <Point GraphRef="d8d9b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Canonical target genes" GraphId="a0b56" GroupRef="dace6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="a8dd4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NOTCH intra-cellular domain" GraphId="a9a94">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Signal sending cell" GraphId="b5587">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Ligands" GraphId="c10d8" GroupRef="b4b3d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Signal receiving cell" GraphId="c236c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NOTCH extra-cellular domain" GraphId="ec254">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cytoplasm" GraphId="f8c98">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NOTCH non-canonical targets" GraphId="fb0ee">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="c4651">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cb6d8">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cfa64">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="e9c04">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="e0f14" GraphId="a37ef" Style="Complex"/>
+  <Group GroupId="a5e88" GraphId="a3bd4" Style="Complex"/>
+  <Group GroupId="af709" GraphId="ba12c" Style="Complex"/>
+  <Group GroupId="dc1f8" GraphId="c39f1" Style="Complex"/>
+  <Group GroupId="b4b3d" GraphId="c4842" Style="Group"/>
+  <Group GroupId="c20ae" GraphId="c6204" Style="Complex"/>
+  <Group GroupId="c1c86" GraphId="ca0fc" Style="Complex"/>
+  <Group GroupId="a523c" GraphId="cfa87" Style="Group"/>
+  <Group GroupId="dace6" GraphId="d8d9b" Style="Group"/>
+  <Group GroupId="ceb0e" GraphId="e31b4" Style="Complex"/>
+  <Group GroupId="b92fe" GraphId="fa7d1" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="db7">
+      <bp:ID >20392245</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Alteration of Notch signaling in skeletal development and disease.</bp:TITLE>
+      <bp:SOURCE >Ann N Y Acad Sci</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Tao J</bp:AUTHORS>
+      <bp:AUTHORS >Chen S</bp:AUTHORS>
+      <bp:AUTHORS >Lee B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Notch signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000204</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

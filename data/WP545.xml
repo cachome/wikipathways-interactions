@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Complement activation" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="GenMAPP notes"/>
+  <Comment Source="GenMAPP remarks"/>
+  <Comment Source="WikiPathways-category">Physiological Process</Comment>
+  <Comment Source="WikiPathways-description">The complement system is a biochemical cascade that helps, or complements, the ability of antibodies to clear pathogens from an organism. It is part of the immune system called the innate immune system that is not adaptable and does not change over the course of an individual's lifetime. However, it can be recruited and brought into action by the adaptive immune system. The Classical pathway of activation of the complement system is a group of blood proteins that mediate the specific antibody response. [source: Wikipedia]
+
+The Classical pathway begins with circulating C1Q binding to an antigen on the surface of a pathogen, which goes on to active and recruit 2 copies of each C1R and C1S, forming a C1 complex. The activated C1 complex cleaves C2 and C4. Activated cleavage products C2A and C4B combine to form  C3 convertase, which cleaves C3. The cleavage product C3B joins the complex to form C5 convertase, which cleaves C5. The cleavage product C5B joins C6, C7, C8 and multiple copies of C9 to form the Membrane Attack Complex, which forms a channel for water to flood into the target cell, leading to osmotic lysis. The Decay accelerating factor (DAF) inhibits C3 convertase.
+
+The Lectin pathway involves mannose-binding lectin (MBL) binding the surface of the pathogen instead of C1Q. MBL-associated serine proteases MASP1 and MASP1 can cleave C2 and C4 in place of the C1 complex, leading to the formation of C3 convertase and the subsequent cascade.
+
+The Alternative pathway relies on the spontaneous hydrolysis of C3 and the cleavage of factor B (CFB) by factor D (CFD), which form an alternative C3 convertase stabilized by factor P (CFP). Additional copies of the cleavage product C3B are recruited to the complex, resulting in an alternative C5 convertase, which cleaves C5 and contributes C5B to the formation of the Membrane Attack Complex.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP545 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>a6c</BiopaxRef>
+  <Graphics BoardWidth="913.0202020202033" BoardHeight="611.2121212121205"/>
+  <DataNode TextLabel="C1S" GraphId="a0b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="C1QB" GraphId="a29" Type="GeneProduct" GroupRef="a8b12">
+        </DataNode>
+  <DataNode TextLabel="C1R" GraphId="a35" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="C1QA" GraphId="a79" Type="GeneProduct" GroupRef="a8b12">
+    <Comment Source="GenMAPP remarks">update: C1QA HUMAN</Comment>
+        </DataNode>
+  <DataNode TextLabel="C1QG" GraphId="b02" Type="GeneProduct" GroupRef="a8b12">
+    <Comment Source="GenMAPP remarks">update C1QC HUMAN</Comment>
+        </DataNode>
+  <DataNode TextLabel="C8A" GraphId="b55" Type="GeneProduct" GroupRef="ffb70">
+        </DataNode>
+  <DataNode TextLabel="MASP2" GraphId="b73" Type="GeneProduct" GroupRef="ef1f6">
+        </DataNode>
+  <DataNode TextLabel="C2A" GraphId="c86" Type="GeneProduct" GroupRef="a1561">
+        </DataNode>
+  <DataNode TextLabel="C3" GraphId="c99" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="C9" GraphId="d72" Type="GeneProduct" GroupRef="ffb70">
+        </DataNode>
+  <DataNode TextLabel="H2O" GraphId="d956b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="C8B" GraphId="e26" Type="GeneProduct" GroupRef="ffb70">
+        </DataNode>
+  <DataNode TextLabel="C6" GraphId="e77" Type="GeneProduct" GroupRef="ffb70">
+        </DataNode>
+  <DataNode TextLabel="C4B" GraphId="ee8" Type="GeneProduct" GroupRef="a44f8">
+        </DataNode>
+  <DataNode TextLabel="DAF" GraphId="eed" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="C4A" GraphId="f70" Type="GeneProduct" GroupRef="a44f8">
+        </DataNode>
+  <DataNode TextLabel="C7" GraphId="fb7" Type="GeneProduct" GroupRef="ffb70">
+        </DataNode>
+  <DataNode TextLabel="C5" GraphId="fcc" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="C2" GraphId="b602b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="C4B" GraphId="ebcd1" Type="GeneProduct" GroupRef="a1561">
+        </DataNode>
+  <DataNode TextLabel="C3B" GraphId="fbf96" Type="GeneProduct" GroupRef="ac038">
+        </DataNode>
+  <DataNode TextLabel="C2A" GraphId="e1ff2" Type="GeneProduct" GroupRef="ac038">
+        </DataNode>
+  <DataNode TextLabel="C4B" GraphId="f2b78" Type="GeneProduct" GroupRef="ac038">
+        </DataNode>
+  <DataNode TextLabel="C5B" GraphId="b64ca" Type="GeneProduct" GroupRef="ffb70">
+        </DataNode>
+  <DataNode TextLabel="C1QB" GraphId="a403d" Type="GeneProduct" GroupRef="cd925">
+        </DataNode>
+  <DataNode TextLabel="C1QG" GraphId="c7a07" Type="GeneProduct" GroupRef="cd925">
+    <Comment Source="GenMAPP remarks">update C1QC HUMAN</Comment>
+        </DataNode>
+  <DataNode TextLabel="C1QA" GraphId="e04a1" Type="GeneProduct" GroupRef="cd925">
+    <Comment Source="GenMAPP remarks">update: C1QA HUMAN</Comment>
+        </DataNode>
+  <DataNode TextLabel="C1R" GraphId="c0d09" Type="GeneProduct" GroupRef="cd925">
+        </DataNode>
+  <DataNode TextLabel="C1S" GraphId="c3770" Type="GeneProduct" GroupRef="cd925">
+        </DataNode>
+  <DataNode TextLabel="C8G" GraphId="ac3c9" Type="GeneProduct" GroupRef="ffb70">
+        </DataNode>
+  <DataNode TextLabel="H2O" GraphId="f8805" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MASP1" GraphId="d549e" Type="GeneProduct" GroupRef="ef1f6">
+        </DataNode>
+  <DataNode TextLabel="C3B" GraphId="f2180" Type="GeneProduct" GroupRef="c6bbe">
+        </DataNode>
+  <DataNode TextLabel="CFBb" GraphId="eb60b" Type="GeneProduct" GroupRef="c6bbe">
+        </DataNode>
+  <DataNode TextLabel="C3" GraphId="b7269" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="C3" GraphId="fe126" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CFB" GraphId="cc359" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CFD" GraphId="c20da" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="C3B" GraphId="f5f37" Type="GeneProduct" GroupRef="e15db">
+        </DataNode>
+  <DataNode TextLabel="CFP" GraphId="e0087" Type="GeneProduct" GroupRef="c6bbe">
+        </DataNode>
+  <DataNode TextLabel="C3B" GraphId="f1fef" Type="GeneProduct" GroupRef="e15db">
+        </DataNode>
+  <DataNode TextLabel="CFBb" GraphId="b7fb1" Type="GeneProduct" GroupRef="e15db">
+        </DataNode>
+  <DataNode TextLabel="CFP" GraphId="a6c78" Type="GeneProduct" GroupRef="e15db">
+        </DataNode>
+  <DataNode TextLabel="C5" GraphId="f5f68" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="a7195">
+    <Graphics Color="0033cc">
+      <Point GraphRef="a763c"/>
+      <Point GraphRef="c99" ArrowHead="Arrow"/>
+      <Anchor Position="0.6375395884789608" Shape="None" GraphId="aae66"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c47ac">
+    <Graphics ConnectorType="Curved" Color="0033cc">
+      <Point GraphRef="e3fa8"/>
+      <Point GraphRef="b602b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ccc0f">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e6284"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="a2ca4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d5da7">
+    <Graphics Color="0033cc">
+      <Point GraphRef="c7cd0"/>
+      <Point GraphRef="feb6b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d67e0">
+    <Graphics>
+      <Point GraphRef="b6056"/>
+      <Point GraphRef="c7cd0" ArrowHead="mim-binding"/>
+      <Anchor Position="0.17371711201740742" Shape="None" GraphId="e6284"/>
+      <Anchor Position="0.7830487358831837" Shape="None" GraphId="c1415"/>
+      <Anchor Position="0.5955778256141867" Shape="None" GraphId="d1fac"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ec986">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d956b"/>
+      <Point GraphRef="f8805" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f1659">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="a0b"/>
+      <Point/>
+      <Point GraphRef="c1415"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f797f">
+    <Graphics ConnectorType="Curved" Color="0033cc">
+      <Point GraphRef="db24d"/>
+      <Point GraphRef="fcc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f9a28">
+    <Graphics Color="cc0000">
+      <Point GraphRef="aae66" ArrowHead="TBar"/>
+      <Point GraphRef="eed"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5172417b">
+    <Graphics>
+      <Point GraphRef="a763c"/>
+      <Point GraphRef="db24d" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id702d7365">
+    <Graphics>
+      <Point GraphRef="c99"/>
+      <Point GraphRef="db24d" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id89fed5e4">
+    <Graphics>
+      <Point GraphRef="fcc"/>
+      <Point GraphRef="e64bd" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id99bfa2e1">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="a35"/>
+      <Point/>
+      <Point GraphRef="d1fac"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcfbcefa0">
+    <Graphics>
+      <Point GraphRef="b602b"/>
+      <Point GraphRef="a763c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideebb3f19">
+    <Graphics>
+      <Point GraphRef="ee8"/>
+      <Point GraphRef="a763c" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="baf33">
+    <Graphics ConnectorType="Curved" Color="0033cc">
+      <Point GraphRef="c7cd0"/>
+      <Point GraphRef="b602b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8e62">
+    <Graphics ConnectorType="Curved" Color="0033cc">
+      <Point GraphRef="e3fa8"/>
+      <Point GraphRef="feb6b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d3aa1">
+    <Graphics Color="0033cc">
+      <Point GraphRef="be82e"/>
+      <Point GraphRef="b7269" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a7de2">
+    <Graphics Color="0033cc">
+      <Point GraphRef="ce30d"/>
+      <Point GraphRef="fe126" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e8d13">
+    <Graphics>
+      <Point GraphRef="fe126"/>
+      <Point GraphRef="be82e" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e22eb">
+    <Graphics>
+      <Point GraphRef="cc359"/>
+      <Point GraphRef="be82e" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0e8f">
+    <Graphics Color="0033cc">
+      <Point GraphRef="c20da"/>
+      <Point GraphRef="cc359" ArrowHead="Arrow"/>
+      <Anchor Position="0.6375395884789608" Shape="None" GraphId="da51e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de21b">
+    <Graphics>
+      <Point GraphRef="b7269"/>
+      <Point GraphRef="a6e0b" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ee9b3">
+    <Graphics>
+      <Point GraphRef="f5f68"/>
+      <Point GraphRef="e64bd" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b752f">
+    <Graphics ConnectorType="Curved" Color="0033cc">
+      <Point GraphRef="a6e0b"/>
+      <Point GraphRef="f5f68" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="id6df4b8b1" GroupRef="e1326">
+    <Graphics Color="cc0000">
+      <Point/>
+      <Point ArrowHead="TBar"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ide33cfbf1" GroupRef="e1326">
+    <Graphics Color="0033cc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="aggregated IgG,&#10;IgM-antigen complex,&#10;polyanions, RNA, DNA&#10;lipopolysaccharides" GraphId="aa8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="antigen/antibody&#10;complex" GraphId="b8d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Pathogenic Bacterial Cell" GraphId="bb4">
+    <Graphics FillColor="ffffff" Color="666666"/>
+  </Label>
+  <Label TextLabel="Proteolytic Cleavage &amp; Activation" GraphId="d6b" GroupRef="e1326">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Membrane&#10;Attack Complex" GraphId="e3c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Prevents Complement Attack" GraphId="f25" GroupRef="e1326">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="C3 convertase" GraphId="d739d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="C5 convertase" GraphId="f5964">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="C1 complex" GraphId="dec48">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Osmotic lysis" GraphId="d99b5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Classical pathway" GraphId="bf0fb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Lectin pathway" GraphId="dbae5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Alternative pathway" GraphId="e6e49">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="C3 convertase" GraphId="bf2a1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Hydrolysis" GraphId="ce30d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="C5 convertase" GraphId="fe0ea">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="ae2" GroupRef="dc284">
+    <Graphics FillColor="c0c0c0" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b00" GroupRef="dc284">
+    <Graphics FillColor="c0c0c0" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d62" GroupRef="dc284">
+    <Graphics FillColor="808080" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e1f3a">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f091d" GroupRef="e1326">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="f6b" GroupRef="dc284">
+    <Graphics FillColor="dfdfdf" ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="dc284" GraphId="a2ca4" Style="Group"/>
+  <Group GroupId="e15db" GraphId="a6e0b" Style="Complex"/>
+  <Group GroupId="a1561" GraphId="a763c" Style="Complex"/>
+  <Group GroupId="a8b12" GraphId="b6056" Style="Complex"/>
+  <Group GroupId="c6bbe" GraphId="be82e" Style="Complex"/>
+  <Group GroupId="cd925" GraphId="c7cd0" Style="Complex"/>
+  <Group GroupId="ac038" GraphId="db24d" Style="Complex"/>
+  <Group GroupId="ef1f6" GraphId="e3fa8" Style="Group"/>
+  <Group GroupId="ffb70" GraphId="e64bd" Style="Complex"/>
+  <Group GroupId="e1326" GraphId="f9522" Style="Group"/>
+  <Group GroupId="a44f8" GraphId="feb6b" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >classical complement pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000503</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6c">
+      <bp:ID >16387686 </bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Opportunities for new therapies based on the natural regulators of complement activation.</bp:TITLE>
+      <bp:SOURCE >Ann N Y Acad Sci</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Brook E</bp:AUTHORS>
+      <bp:AUTHORS >Herbert AP</bp:AUTHORS>
+      <bp:AUTHORS >Jenkins HT</bp:AUTHORS>
+      <bp:AUTHORS >Soares DC</bp:AUTHORS>
+      <bp:AUTHORS >Barlow PN</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

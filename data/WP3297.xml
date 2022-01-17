@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="EV release from cardiac cells and their functional effects" Version="20150605" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Summary of reported EV release from cardiac cells in culture and their functional effects. EV release has been reported in numerous cell lines and primary cultures, both at baseline and in response to stimuli. Transfer of EVs between cell types has been demonstrated as well as delivery of cargo.
+
+Note that this pathway represents a review of multiple studies in multiple organisms. This pathway displays the human orthologs.
+
+HUVEC: human aortic endothelial cell
+
+HMEC-1: human microvascular endothelial cell
+
+HASMC: human aortic smooth muscle cell
+
+NRVM: neonatal rat ventricular myocyte.
+
+
+Adapted from Danielson KM, Das S. Extracellular Vesicles in Heart Disease: Excitement for the Future? Exosomes Microvesicles, 2014. http://www.ncbi.nlm.nih.gov/pubmed/25429310</Comment>
+  <BiopaxRef>bf3</BiopaxRef>
+  <Graphics BoardWidth="1148.0" BoardHeight="851.5"/>
+  <DataNode TextLabel="Homocysteine" GraphId="aeae7" Type="Metabolite" GroupRef="a2f5f">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ox-LDL" GraphId="b2f10" Type="Metabolite" GroupRef="a2f5f">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TNFalpha&#10;mRNA" GraphId="c27e5" Type="Rna" GroupRef="c5070">
+        </DataNode>
+  <DataNode TextLabel="ERBB4" GraphId="c8f0a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MIR126" GraphId="bd93d" Type="Rna" GroupRef="bd7c0">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR146A" GraphId="ba43e" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR150" GraphId="c16a4" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="MIR143" GraphId="b0b42" Type="GeneProduct" GroupRef="e9098">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="KLF2" GraphId="fdb5f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Ethanol" GraphId="a0fef" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CXCL12" GraphId="d6295" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Prolactin" GraphId="afa3f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RGS16" GraphId="f363f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="C-Myb" GraphId="a6ab0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="hsa-miR-146a-5p" GraphId="ae8d8" Type="Rna" GroupRef="b8ce5">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="Ethanol" GraphId="af87a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="hsa-miR-145-5p" GraphId="f4341" Type="GeneProduct" GroupRef="e9098">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <Interaction GraphId="id34017bd">
+    <BiopaxRef>eab</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f57c3"/>
+      <Point GraphRef="df9bb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3fa83bc0">
+    <Graphics>
+      <Point GraphRef="e111d"/>
+      <Point GraphRef="a66b5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id431e598e">
+    <BiopaxRef>b5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b1382"/>
+      <Point GraphRef="cd661" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id467d8a3">
+    <BiopaxRef>b37</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b1f65"/>
+      <Point GraphRef="e47cf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7805c596">
+    <BiopaxRef>a21</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f57c3"/>
+      <Point GraphRef="d5047" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb87368f9">
+    <Graphics>
+      <Point GraphRef="b1f65"/>
+      <Point GraphRef="bd717" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide1d26d18">
+    <BiopaxRef>c18</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fdb5f"/>
+      <Point GraphRef="ff228" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf24dfb94">
+    <BiopaxRef>f12</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ea7ea"/>
+      <Point GraphRef="d4fa1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id378bba00">
+    <BiopaxRef>fb1</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="afa5f"/>
+      <Point GraphRef="c8f0a" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id669fb5e3">
+    <Graphics>
+      <Point GraphRef="c8f0a"/>
+      <Point GraphRef="d5372" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb3912a04">
+    <Graphics>
+      <Point GraphRef="a6ab0"/>
+      <Point GraphRef="afbe9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id23304253">
+    <BiopaxRef>c52</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ad00a"/>
+      <Point GraphRef="c16a4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd539262">
+    <BiopaxRef>c18</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ff228"/>
+      <Point GraphRef="ef37e" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id931b1306">
+    <BiopaxRef>f12</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c615f"/>
+      <Point GraphRef="d4fa1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8dc821cd">
+    <BiopaxRef>f12</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d4fa1"/>
+      <Point GraphRef="f363f" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5b71f0f7">
+    <Graphics>
+      <Point GraphRef="c16a4"/>
+      <Point GraphRef="a6ab0" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id30aefcaf">
+    <BiopaxRef>fb1</BiopaxRef>
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="ba43e"/>
+      <Point GraphRef="afa5f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcf81ed9e">
+    <Graphics>
+      <Point GraphRef="a0fef"/>
+      <Point GraphRef="af87a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc1010c2e">
+    <Graphics>
+      <Point GraphRef="d4fa1"/>
+      <Point GraphRef="baa1e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id274c462a">
+    <BiopaxRef>fb1</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="afa3f"/>
+      <Point GraphRef="ba43e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc01508b1">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="f363f"/>
+      <Point GraphRef="d6295" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dfaa5">
+    <BiopaxRef>b5f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cd661"/>
+      <Point GraphRef="ff986" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ce333">
+    <Graphics>
+      <Point GraphRef="bd717"/>
+      <Point GraphRef="e4935" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="id6f8cc5ce">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c5600">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d64c4">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c7176">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a475d">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b1dd8">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="HSP70" GraphId="b9d4d" GroupRef="ab5e0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="DNA&#10;RNA" GraphId="cef74">
+    <Graphics FillColor="ffffff" Color="ff3333"/>
+  </Label>
+  <Label TextLabel="Multiple targets" GraphId="ef37e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Apoptotic body" GraphId="fa875">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Serum starvation" GraphId="c615f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Monocyte&#10;(THP-1)" GraphId="e3921">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Decreased metabolic activity" GraphId="d5372">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Hypoxia" GraphId="f57c3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Migration" GraphId="afbe9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Serum starvation" GraphId="ea7ea">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Endothelial cells&#10;(HUVECs, HMEC-1, and rat&#10;aortic endothelial cells)" GraphId="c1a5e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Sheer stress" GraphId="fec02">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Smooth muscle cells&#10;(HASMCs)" GraphId="a6d14">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cardiomyocyte&#10;(NRVM, adult rat&#10;cardiomyocyte, HL-1)" GraphId="ca781">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cardiomyocyte&#10;(NRVM)" GraphId="f6351">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="DNA&#10;RNA" GraphId="b66f2" GroupRef="b26f4">
+    <Graphics FillColor="ffffff" Color="ff3333"/>
+  </Label>
+  <Label TextLabel="Fibroblast&#10;(NIH-3T3)" GraphId="e6cb8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Apoptosis" GraphId="a66b5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CD63" GraphId="f8685" GroupRef="ab5e0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="HSP60" GraphId="a895e" GroupRef="ab5e0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="HSC70" GraphId="bd4ae" GroupRef="ab5e0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="HSC90" GraphId="b2a97" GroupRef="ab5e0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="dc91d">
+    <Graphics FillColor="ccccff" ShapeType="RoundedRectangle" Color="666666"/>
+  </Shape>
+  <Shape GraphId="ff228" GroupRef="e9098">
+    <Graphics FillColor="f2e3e3" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d4fa1" GroupRef="bd7c0">
+    <Graphics FillColor="ebeaea" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b17bf" GroupRef="b8ce5">
+    <Graphics FillColor="f2e3e3" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a5e03" GroupRef="f70f1">
+    <Graphics FillColor="f2e3e3" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ca77e">
+    <Graphics FillColor="f2e3e3" ShapeType="RoundedRectangle" Color="666666"/>
+  </Shape>
+  <Shape GraphId="df9bb" GroupRef="c5070">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bd717">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b1f65">
+    <Graphics FillColor="ccccff" ShapeType="RoundedRectangle" Color="666666"/>
+  </Shape>
+  <Shape GraphId="cd661">
+    <Graphics FillColor="f2e3e3" ShapeType="RoundedRectangle" Color="666666"/>
+  </Shape>
+  <Shape GraphId="f239b" GroupRef="f9e46">
+    <Graphics FillColor="99ccff" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d30d0">
+    <Graphics FillColor="99ccff" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="a0089">
+    <Graphics FillColor="f2e3e3" ShapeType="RoundedRectangle" Color="666666"/>
+  </Shape>
+  <Shape GraphId="baa1e" GroupRef="b4547">
+    <Graphics FillColor="99ccff" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bb8cd">
+    <Graphics FillColor="f2e3e3" ShapeType="RoundedRectangle" Color="666666"/>
+  </Shape>
+  <Shape GraphId="c4b8a">
+    <Graphics FillColor="f2e3e3" ShapeType="RoundedRectangle" Color="666666"/>
+  </Shape>
+  <Shape GraphId="f7e37" GroupRef="b69a3">
+    <Graphics FillColor="99ccff" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="aa9b3">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="ac26e" GroupRef="f70f1">
+    <Graphics FillColor="ff00cc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c3f7a" GroupRef="ab5e0">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="ea7a7">
+    <Graphics FillColor="ffffcc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f5c13" GroupRef="c6374">
+    <Graphics FillColor="99ccff" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ad00a">
+    <Graphics FillColor="00cc99" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="f7b78" GroupRef="c6374">
+    <Graphics FillColor="3366ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bac04" GroupRef="f9e46">
+    <Graphics FillColor="3366ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c01d1" GroupRef="f3274">
+    <Graphics FillColor="99ccff" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cfa3f" GroupRef="f3274">
+    <Graphics FillColor="3366ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e8d7e" GroupRef="cf1ee">
+    <Graphics FillColor="99ccff" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cde32" GroupRef="cf1ee">
+    <Graphics FillColor="3366ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ceba2" GroupRef="b4547">
+    <Graphics FillColor="3366ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d1e48" GroupRef="a464c">
+    <Graphics FillColor="99ccff" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e9de9" GroupRef="b69a3">
+    <Graphics FillColor="3366ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bd96e" GroupRef="a464c">
+    <Graphics FillColor="3366ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d3f9e" GroupRef="f454d">
+    <Graphics FillColor="99ccff" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d940a" GroupRef="f454d">
+    <Graphics FillColor="3366ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="be37e">
+    <Graphics FillColor="660066" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ee07b">
+    <Graphics FillColor="660066" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e2e5a">
+    <Graphics FillColor="660066" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c50e3">
+    <Graphics FillColor="660066" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ebdda">
+    <Graphics FillColor="00cccc" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="d19e6">
+    <Graphics FillColor="3366ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="df6be">
+    <Graphics FillColor="99ccff" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="a5a3b">
+    <Graphics FillColor="3366ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="be883">
+    <Graphics FillColor="99ccff" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e0a7d">
+    <Graphics FillColor="3366ff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c7002">
+    <Graphics FillColor="660066" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e7824" GroupRef="f70f1">
+    <Graphics FillColor="ff00cc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fad73" GroupRef="f70f1">
+    <Graphics FillColor="ff00cc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fda67" GroupRef="f70f1">
+    <Graphics FillColor="ff00cc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e4935" GroupRef="b26f4">
+    <Graphics FillColor="ffff00" ShapeType="Oval" Color="cccc00"/>
+  </Shape>
+  <Shape GraphId="d8b51">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="b1567" GroupRef="c5070">
+    <Graphics FillColor="990033" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="eed01" GroupRef="c5070">
+    <Graphics FillColor="990033" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e0cc5" GroupRef="c5070">
+    <Graphics FillColor="990033" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d81e0" GroupRef="c5070">
+    <Graphics FillColor="990033" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ea2ce" GroupRef="c5070">
+    <Graphics FillColor="990033" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d82db" GroupRef="c5070">
+    <Graphics FillColor="990033" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cbf13" GroupRef="a0961">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c0f31" GroupRef="a0961">
+    <Graphics FillColor="0000cc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fe52d" GroupRef="a0961">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c732f" GroupRef="a0961">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ee07c" GroupRef="a0961">
+    <Graphics FillColor="009933" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fe566" GroupRef="bdee5">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a7194" GroupRef="bdee5">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fadd7" GroupRef="bdee5">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d6660" GroupRef="bdee5">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fee09" GroupRef="bdee5">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f8919" GroupRef="bdee5">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d0ab2" GroupRef="bdee5">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e23c4" GroupRef="bdee5">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="af6bf" GroupRef="bdee5">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ea665">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b2e40" GroupRef="bdee5">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d95ba" GroupRef="bdee5">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e6b63" GroupRef="bdee5">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cbb73" GroupRef="bdee5">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="abc57" GroupRef="bdee5">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d92f7" GroupRef="ab5e0">
+    <Graphics FillColor="ff00cc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f885a" GroupRef="ab5e0">
+    <Graphics FillColor="990033" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e6c21" GroupRef="ab5e0">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e3b0d" GroupRef="a0961">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ea269" GroupRef="a0961">
+    <Graphics FillColor="0000cc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="afae6" GroupRef="a0961">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c7837" GroupRef="a0961">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f7ed2" GroupRef="a0961">
+    <Graphics FillColor="009933" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="abc68" GroupRef="a0961">
+    <Graphics FillColor="ccccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="db400" GroupRef="a0961">
+    <Graphics FillColor="0000cc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cd93e" GroupRef="a0961">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f3b53" GroupRef="a0961">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a029c" GroupRef="a0961">
+    <Graphics FillColor="009933" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="dbee5" GroupRef="ab5e0">
+    <Graphics FillColor="0000cc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ca11a" GroupRef="ab5e0">
+    <Graphics FillColor="009933" ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="b6e9f" GraphId="a1260" Style="Group"/>
+  <Group GroupId="a464c" GraphId="a13ff" Style="Group"/>
+  <Group GroupId="a4def" GraphId="a420c" Style="Group"/>
+  <Group GroupId="add45" GraphId="a64e4" Style="Group"/>
+  <Group GroupId="b26f4" GraphId="a9c10" Style="Group"/>
+  <Group GroupId="abb1c" GraphId="a9cb6" Style="Group"/>
+  <Group GroupId="ab5e0" GraphId="acd9d" Style="Group"/>
+  <Group GroupId="b8ce5" GraphId="afa5f" Style="Group"/>
+  <Group GroupId="a2f5f" GraphId="b1382" Style="Group"/>
+  <Group GroupId="a7e16" GraphId="b3fe3" Style="Group"/>
+  <Group GroupId="cf1ee" GraphId="b8699" Style="Group"/>
+  <Group GroupId="f454d" GraphId="c4c04" Style="Group"/>
+  <Group GroupId="b4547" GraphId="cd0b7" Style="Group"/>
+  <Group GroupId="bd7c0" GraphId="d046a" Style="Group"/>
+  <Group GroupId="a0961" GraphId="d5047" Style="Group"/>
+  <Group GroupId="bc542" GraphId="d6b90" Style="Group"/>
+  <Group GroupId="ced87" GraphId="d6de9" Style="Group"/>
+  <Group GroupId="b6495" GraphId="db91b" Style="Group"/>
+  <Group GroupId="b69a3" GraphId="dbe61" Style="Group"/>
+  <Group GroupId="c6374" GraphId="e040d" Style="Group"/>
+  <Group GroupId="c5070" GraphId="e111d" Style="Group"/>
+  <Group GroupId="ef2a5" GraphId="e2ef6" Style="Group"/>
+  <Group GroupId="bdee5" GraphId="e47cf" Style="Group"/>
+  <Group GroupId="a1312" GraphId="e974c" Style="Group"/>
+  <Group GroupId="a5770" GraphId="eabe4" Style="Group"/>
+  <Group GroupId="f3274" GraphId="eb6ee" Style="Group"/>
+  <Group GroupId="e9098" GraphId="f0e06" Style="Group"/>
+  <Group GroupId="f9e46" GraphId="fa3c4" Style="Group"/>
+  <Group GroupId="fe489" GraphId="fb488" Style="Group"/>
+  <Group GroupId="f70f1" GraphId="ff986" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bf3">
+      <bp:ID >25429310</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Extracellular Vesicles in Heart Disease: Excitement for the Future ?</bp:TITLE>
+      <bp:SOURCE >Exosomes Microvesicles</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Danielson KM</bp:AUTHORS>
+      <bp:AUTHORS >Das S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb1">
+      <bp:ID >23619365</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MicroRNA-146a is a therapeutic target and biomarker for peripartum cardiomyopathy.</bp:TITLE>
+      <bp:SOURCE >J Clin Invest</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Halkein J</bp:AUTHORS>
+      <bp:AUTHORS >Tabruyn SP</bp:AUTHORS>
+      <bp:AUTHORS >Ricke-Hoch M</bp:AUTHORS>
+      <bp:AUTHORS >Haghikia A</bp:AUTHORS>
+      <bp:AUTHORS >Nguyen NQ</bp:AUTHORS>
+      <bp:AUTHORS >Scherr M</bp:AUTHORS>
+      <bp:AUTHORS >Castermans K</bp:AUTHORS>
+      <bp:AUTHORS >Malvaux L</bp:AUTHORS>
+      <bp:AUTHORS >Lambert V</bp:AUTHORS>
+      <bp:AUTHORS >Thiry M</bp:AUTHORS>
+      <bp:AUTHORS >Sliwa K</bp:AUTHORS>
+      <bp:AUTHORS >Noel A</bp:AUTHORS>
+      <bp:AUTHORS >Martial JA</bp:AUTHORS>
+      <bp:AUTHORS >Hilfiker-Kleiner D</bp:AUTHORS>
+      <bp:AUTHORS >Struman I</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >regulatory pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000004</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c18">
+      <bp:ID >22327366</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Atheroprotective communication between endothelial cells and smooth muscle cells through miRNAs.</bp:TITLE>
+      <bp:SOURCE >Nat Cell Biol</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Hergenreider E</bp:AUTHORS>
+      <bp:AUTHORS >Heydt S</bp:AUTHORS>
+      <bp:AUTHORS >Tr&#233;guer K</bp:AUTHORS>
+      <bp:AUTHORS >Boettger T</bp:AUTHORS>
+      <bp:AUTHORS >Horrevoets AJ</bp:AUTHORS>
+      <bp:AUTHORS >Zeiher AM</bp:AUTHORS>
+      <bp:AUTHORS >Scheffer MP</bp:AUTHORS>
+      <bp:AUTHORS >Frangakis AS</bp:AUTHORS>
+      <bp:AUTHORS >Yin X</bp:AUTHORS>
+      <bp:AUTHORS >Mayr M</bp:AUTHORS>
+      <bp:AUTHORS >Braun T</bp:AUTHORS>
+      <bp:AUTHORS >Urbich C</bp:AUTHORS>
+      <bp:AUTHORS >Boon RA</bp:AUTHORS>
+      <bp:AUTHORS >Dimmeler S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eab">
+      <bp:ID >23085511</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mechanism of TNF-&#945; autocrine effects in hypoxic cardiomyocytes: initiated by hypoxia inducible factor 1&#945;, presented by exosomes.</bp:TITLE>
+      <bp:SOURCE >J Mol Cell Cardiol</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Yu X</bp:AUTHORS>
+      <bp:AUTHORS >Deng L</bp:AUTHORS>
+      <bp:AUTHORS >Wang D</bp:AUTHORS>
+      <bp:AUTHORS >Li N</bp:AUTHORS>
+      <bp:AUTHORS >Chen X</bp:AUTHORS>
+      <bp:AUTHORS >Cheng X</bp:AUTHORS>
+      <bp:AUTHORS >Yuan J</bp:AUTHORS>
+      <bp:AUTHORS >Gao X</bp:AUTHORS>
+      <bp:AUTHORS >Liao M</bp:AUTHORS>
+      <bp:AUTHORS >Wang M</bp:AUTHORS>
+      <bp:AUTHORS >Liao Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b37">
+      <bp:ID >23376832</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cardiac myocyte exosomes: stability, HSP60, and proteomics.</bp:TITLE>
+      <bp:SOURCE >Am J Physiol Heart Circ Physiol</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Malik ZA</bp:AUTHORS>
+      <bp:AUTHORS >Kott KS</bp:AUTHORS>
+      <bp:AUTHORS >Poe AJ</bp:AUTHORS>
+      <bp:AUTHORS >Kuo T</bp:AUTHORS>
+      <bp:AUTHORS >Chen L</bp:AUTHORS>
+      <bp:AUTHORS >Ferrara KW</bp:AUTHORS>
+      <bp:AUTHORS >Knowlton AA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f12">
+      <bp:ID >19996457</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Delivery of microRNA-126 by apoptotic bodies induces CXCL12-dependent vascular protection.</bp:TITLE>
+      <bp:SOURCE >Sci Signal</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Zernecke A</bp:AUTHORS>
+      <bp:AUTHORS >Bidzhekov K</bp:AUTHORS>
+      <bp:AUTHORS >Noels H</bp:AUTHORS>
+      <bp:AUTHORS >Shagdarsuren E</bp:AUTHORS>
+      <bp:AUTHORS >Gan L</bp:AUTHORS>
+      <bp:AUTHORS >Denecke B</bp:AUTHORS>
+      <bp:AUTHORS >Hristov M</bp:AUTHORS>
+      <bp:AUTHORS >K&#246;ppel T</bp:AUTHORS>
+      <bp:AUTHORS >Jahantigh MN</bp:AUTHORS>
+      <bp:AUTHORS >Lutgens E</bp:AUTHORS>
+      <bp:AUTHORS >Wang S</bp:AUTHORS>
+      <bp:AUTHORS >Olson EN</bp:AUTHORS>
+      <bp:AUTHORS >Schober A</bp:AUTHORS>
+      <bp:AUTHORS >Weber C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a21">
+      <bp:ID >17307989</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >HSP60 trafficking in adult cardiac myocytes: role of the exosomal pathway.</bp:TITLE>
+      <bp:SOURCE >Am J Physiol Heart Circ Physiol</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Gupta S</bp:AUTHORS>
+      <bp:AUTHORS >Knowlton AA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c52">
+      <bp:ID >20603081</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Secreted monocytic miR-150 enhances targeted endothelial cell migration.</bp:TITLE>
+      <bp:SOURCE >Mol Cell</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Zhang Y</bp:AUTHORS>
+      <bp:AUTHORS >Liu D</bp:AUTHORS>
+      <bp:AUTHORS >Chen X</bp:AUTHORS>
+      <bp:AUTHORS >Li J</bp:AUTHORS>
+      <bp:AUTHORS >Li L</bp:AUTHORS>
+      <bp:AUTHORS >Bian Z</bp:AUTHORS>
+      <bp:AUTHORS >Sun F</bp:AUTHORS>
+      <bp:AUTHORS >Lu J</bp:AUTHORS>
+      <bp:AUTHORS >Yin Y</bp:AUTHORS>
+      <bp:AUTHORS >Cai X</bp:AUTHORS>
+      <bp:AUTHORS >Sun Q</bp:AUTHORS>
+      <bp:AUTHORS >Wang K</bp:AUTHORS>
+      <bp:AUTHORS >Ba Y</bp:AUTHORS>
+      <bp:AUTHORS >Wang Q</bp:AUTHORS>
+      <bp:AUTHORS >Wang D</bp:AUTHORS>
+      <bp:AUTHORS >Yang J</bp:AUTHORS>
+      <bp:AUTHORS >Liu P</bp:AUTHORS>
+      <bp:AUTHORS >Xu T</bp:AUTHORS>
+      <bp:AUTHORS >Yan Q</bp:AUTHORS>
+      <bp:AUTHORS >Zhang J</bp:AUTHORS>
+      <bp:AUTHORS >Zen K</bp:AUTHORS>
+      <bp:AUTHORS >Zhang CY</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b5f">
+      <bp:ID >19555663</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Heat shock protein 70 is secreted from endothelial cells by a non-classical pathway involving exosomes.</bp:TITLE>
+      <bp:SOURCE >Biochem Biophys Res Commun</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Zhan R</bp:AUTHORS>
+      <bp:AUTHORS >Leng X</bp:AUTHORS>
+      <bp:AUTHORS >Liu X</bp:AUTHORS>
+      <bp:AUTHORS >Wang X</bp:AUTHORS>
+      <bp:AUTHORS >Gong J</bp:AUTHORS>
+      <bp:AUTHORS >Yan L</bp:AUTHORS>
+      <bp:AUTHORS >Wang L</bp:AUTHORS>
+      <bp:AUTHORS >Wang Y</bp:AUTHORS>
+      <bp:AUTHORS >Qian LJ</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

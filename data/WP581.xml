@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="EPO receptor signaling" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The erythropoietin receptor is a 66 kDa peptide and is a member of the cytokine receptor family. The receptor is tyrosine phosphorylated upon binding by erythropoietin and associates with and activates the tyrosine kinase, JAK2, which activates different intracellular pathways including: Ras/MAP kinase, phosphatidylinositol 3-kinase and STAT transcription factors. The stimulated erythropoietin receptor appears to have a role in erythroid cell survival. Defects in the erythropoietin receptor may produce erythroleukemia and familial erythrocytosis. ''Source: [[wikipedia:Erythropoietin_receptor|Wikipedia]]''
+
+This pathway is based on ScienceSlides.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP581 CPTAC Assay Portal]</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <BiopaxRef>c55</BiopaxRef>
+  <BiopaxRef>b16</BiopaxRef>
+  <Graphics BoardWidth="1102.0" BoardHeight="822.0"/>
+  <DataNode TextLabel="EPOR" GraphId="eda83" Type="GeneProduct" GroupRef="df8a7">
+        </DataNode>
+  <DataNode TextLabel="JAK2" GraphId="cff3e" Type="GeneProduct" GroupRef="df8a7">
+        </DataNode>
+  <DataNode TextLabel="SRC" GraphId="c4243" Type="GeneProduct" GroupRef="df8a7">
+        </DataNode>
+  <DataNode TextLabel="EPOR" GraphId="ae673" Type="GeneProduct" GroupRef="d829a">
+        </DataNode>
+  <DataNode TextLabel="STAT1" GraphId="d3f46" Type="GeneProduct" GroupRef="ce0f4">
+        </DataNode>
+  <DataNode TextLabel="SHC1" GraphId="b79de" Type="GeneProduct" GroupRef="b4157">
+        </DataNode>
+  <DataNode TextLabel="GRB2" GraphId="b0bea" Type="GeneProduct" GroupRef="b4157">
+        </DataNode>
+  <DataNode TextLabel="MEK1" GraphId="e9a48" Type="GeneProduct" GroupRef="b4157">
+        </DataNode>
+  <DataNode TextLabel="ERK1" GraphId="e49ea" Type="GeneProduct" GroupRef="b4157">
+        </DataNode>
+  <DataNode TextLabel="ERK2" GraphId="fe42f" Type="GeneProduct" GroupRef="b4157">
+        </DataNode>
+  <DataNode TextLabel="MEK2" GraphId="ec2ce" Type="GeneProduct" GroupRef="b4157">
+        </DataNode>
+  <DataNode TextLabel="PDK1" GraphId="d1fdf" Type="GeneProduct" GroupRef="a6e19">
+        </DataNode>
+  <DataNode TextLabel="PKB" GraphId="fc2b9" Type="GeneProduct" GroupRef="a6e19">
+        </DataNode>
+  <DataNode TextLabel="PI3K" GraphId="ab227" Type="GeneProduct" GroupRef="a6e19">
+        </DataNode>
+  <DataNode TextLabel="EPO" GraphId="b3cbc" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EPO" GraphId="f5813" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOCS1" GraphId="aa3f5" Type="GeneProduct" GroupRef="e49e1">
+        </DataNode>
+  <DataNode TextLabel="STAT5B" GraphId="dcf6d" Type="GeneProduct" GroupRef="d0755">
+        </DataNode>
+  <DataNode TextLabel="CISH" GraphId="f14c4" Type="GeneProduct" GroupRef="e49e1">
+        </DataNode>
+  <DataNode TextLabel="STAT5A" GraphId="ccc1a" Type="GeneProduct" GroupRef="d0755">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="f64b4" Type="GeneProduct" GroupRef="b128c">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="e22d7" Type="GeneProduct" GroupRef="b128c">
+        </DataNode>
+  <DataNode TextLabel="STAT1" GraphId="a6b33" Type="GeneProduct" GroupRef="ce0f4">
+        </DataNode>
+  <DataNode TextLabel="CD45" GraphId="d4530" Type="GeneProduct" GroupRef="e2ef6">
+        </DataNode>
+  <DataNode TextLabel="PTP" GraphId="aacad" Type="GeneProduct" GroupRef="e2ef6">
+        </DataNode>
+  <DataNode TextLabel="GRB2" GraphId="c9c65" Type="GeneProduct" GroupRef="c9c1c">
+        </DataNode>
+  <DataNode TextLabel="RAF1" GraphId="b1bb8" Type="GeneProduct" GroupRef="c9c1c">
+        </DataNode>
+  <DataNode TextLabel="SOS1" GraphId="b4884" Type="GeneProduct" GroupRef="c9c1c">
+        </DataNode>
+  <DataNode TextLabel="IRS2" GraphId="c5f46" Type="GeneProduct" GroupRef="c9c1c">
+        </DataNode>
+  <DataNode TextLabel="JAK2" GraphId="ce795" Type="GeneProduct" GroupRef="c9c1c">
+        </DataNode>
+  <DataNode TextLabel="IRS1" GraphId="f4068" Type="GeneProduct" GroupRef="c9c1c">
+        </DataNode>
+  <DataNode TextLabel="RASA1" GraphId="b7cdf" Type="GeneProduct" GroupRef="c9c1c">
+        </DataNode>
+  <DataNode TextLabel="RAF1" GraphId="e7de4" Type="GeneProduct" GroupRef="b4157">
+        </DataNode>
+  <DataNode TextLabel="SOS1" GraphId="d2bbc" Type="GeneProduct" GroupRef="b4157">
+        </DataNode>
+  <DataNode TextLabel="RAS" GraphId="c5a9b" Type="GeneProduct" GroupRef="b4157">
+        </DataNode>
+  <Interaction GraphId="df3ad">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="be2db"/>
+      <Point GraphRef="cbd49" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0ae1">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bb6fc"/>
+      <Point GraphRef="e9a48" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b7b57">
+    <Graphics>
+      <Point GraphRef="da768"/>
+      <Point GraphRef="efe03" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a99b4">
+    <Graphics>
+      <Point GraphRef="a7cb0"/>
+      <Point GraphRef="ffc01" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ed80d">
+    <Graphics>
+      <Point GraphRef="b3cbc"/>
+      <Point GraphRef="eda83" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ec0d9">
+    <Graphics>
+      <Point GraphRef="f5813"/>
+      <Point GraphRef="ae673" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e9cfb">
+    <Graphics>
+      <Point GraphRef="f97e7"/>
+      <Point GraphRef="d7f65" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e97e0">
+    <Graphics>
+      <Point GraphRef="cbd49"/>
+      <Point GraphRef="faaf2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d1f7b">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e3bcf"/>
+      <Point GraphRef="cff3e" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eebc8">
+    <Graphics>
+      <Point GraphRef="ee500"/>
+      <Point GraphRef="fb4d7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d7ace">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="cff3e"/>
+      <Point GraphRef="ee500" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ae35e">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b7191"/>
+      <Point GraphRef="f97e7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c0f03">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="aacad"/>
+      <Point/>
+      <Point GraphRef="cff3e" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="P" GraphId="d9320" GroupRef="d829a">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Box-1" GraphId="ed410" GroupRef="df8a7">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="P" GraphId="ed225" GroupRef="b128c">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="P" GraphId="a5151" GroupRef="d829a">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="P" GraphId="d236a" GroupRef="b4157">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="P" GraphId="ffb01" GroupRef="b4157">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="P" GraphId="e07c7" GroupRef="b4157">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="P" GraphId="b4af2" GroupRef="d0755">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="P" GraphId="cf2f6" GroupRef="ce0f4">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="P" GraphId="b7249" GroupRef="b128c">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="P" GraphId="a969a" GroupRef="ce0f4">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="P" GraphId="eda09" GroupRef="d829a">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Y343" GraphId="bfe09" GroupRef="d829a">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Y479" GraphId="c2764" GroupRef="d829a">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Box-2" GraphId="c6a73" GroupRef="df8a7">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="" GraphId="b53a4" GroupRef="d829a">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="DNA" GraphId="eaea2" GroupRef="d6c58">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Cell membrane" GraphId="fb6e0" GroupRef="b7148">
+    <Graphics FillColor="ffffff" Color="ff6600"/>
+  </Label>
+  <Label TextLabel="" GraphId="dd0fb" GroupRef="d829a">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Y343" GraphId="cddc3" GroupRef="df8a7">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Y460" GraphId="a7db2" GroupRef="d829a">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="P" GraphId="be2db" GroupRef="df8a7">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="P" GraphId="b7191" GroupRef="df8a7">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Box-2" GraphId="fc140" GroupRef="d829a">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Box-1" GraphId="b93b3" GroupRef="d829a">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="P" GraphId="eaeb3" GroupRef="d0755">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Y431" GraphId="a74c3" GroupRef="df8a7">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="P" GraphId="bdc08" GroupRef="df8a7">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="P" GraphId="b1bdf" GroupRef="c9c1c">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="P" GraphId="ea249">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Shape GraphId="ffc01" GroupRef="d6c58">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="d7f65" GroupRef="d6c58">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="faaf2" GroupRef="d6c58">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="fb4d7" GroupRef="d6c58">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="efe03" GroupRef="d6c58">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="feef5" GroupRef="d6c58">
+    <Graphics FillColor="ccccff" ShapeType="Rectangle" Color="0000cc"/>
+  </Shape>
+  <Shape GraphId="cead5" GroupRef="b7148">
+    <Graphics FillColor="ffff99" ShapeType="Rectangle" Color="ff6600"/>
+  </Shape>
+  <Group GroupId="d0755" GraphId="cbd49" Style="Complex">
+    <Comment>Not sure if complex consists of both A and B isoforms [thomas-081110]</Comment>
+  </Group>
+  <Group GroupId="b4157" GraphId="da768" Style="Complex"/>
+  <Group GroupId="a6e19" GraphId="a7cb0" Style="Complex"/>
+  <Group GroupId="d6c58" GraphId="f473a" Style="Group"/>
+  <Group GroupId="d829a" GraphId="bc2b8" Style="Group"/>
+  <Group GroupId="ce0f4" GraphId="ee500" Style="Complex"/>
+  <Group GroupId="e49e1" GraphId="e3bcf" Style="Complex"/>
+  <Group GroupId="b128c" GraphId="f97e7" Style="Complex"/>
+  <Group GroupId="e2ef6" GraphId="cfbf2" Style="Complex"/>
+  <Group GroupId="df8a7" GraphId="e7fae" Style="Group"/>
+  <Group GroupId="c9c1c" GraphId="bb6fc" Style="Complex"/>
+  <Group GroupId="b7148" GraphId="c92c3" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c55">
+      <bp:ID >10334664</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The molecular biology of erythropoietin.</bp:TITLE>
+      <bp:SOURCE >Nephrol Dial Transplant</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Lacombe C</bp:AUTHORS>
+      <bp:AUTHORS >Mayeux P</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b16">
+      <bp:ID >9371269</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The molecular physiology of erythropoietin and the erythropoietin receptor.</bp:TITLE>
+      <bp:SOURCE >Curr Opin Hematol</bp:SOURCE>
+      <bp:YEAR >1994</bp:YEAR>
+      <bp:AUTHORS >Zhu Y</bp:AUTHORS>
+      <bp:AUTHORS >D'Andrea AD</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>erythropoietin signaling pathway</bp:TERM><bp:ID>PW:0000987</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>oxidative phosphorylation pathway</bp:TERM><bp:ID>PW:0001059</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

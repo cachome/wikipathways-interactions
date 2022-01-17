@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Pre-implantation embryo" Version="20150930" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The source of this pathway is RNA-Seq data from single-cell pre-implantation embryos, Supplemental Table 1 from [http://www.nature.com/nsmb/journal/v20/n9/full/nsmb.2660.html Yan et al.]
+
+Analysis options for running the single-cell analysis workflow in AltAnalyze (ICGS):
+* For optimal filtering (not too restrictive), change the Fold change filter cutoff from 10 to 100 and the Minimum number of samples differing from 3 to 2.
+* Change the Select the column clustering method to hopach.
+* The final ICGS cell cluster groups (hopach) were further analyzed to identify genes with restricted expression in one of the identified sub-populations using the MarkerFinder algorithm in AltAnalyze (RPKM&gt;1). 
+* MarkerFinder identified genes for each sub-population (e.g., 8-cell pattern 1) were further filtered for DNA-binding and RNA-binding factors, that are reported in this pathway.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3527 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>b12</BiopaxRef>
+  <BiopaxRef>dcd</BiopaxRef>
+  <Graphics BoardWidth="1296.3333333333323" BoardHeight="730.8086253369272"/>
+  <DataNode TextLabel="H2AFY2" GraphId="a09bb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BARX2" GraphId="a09f7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TEAD4" GraphId="a3c28" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DDIT3" GraphId="a52dc" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IRX5" GraphId="a6f36" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NR3C2" GraphId="a7e86" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SIX3" GraphId="a91f4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="E2F5" GraphId="abd15" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="KHSRP" GraphId="ac422" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DPPA3" GraphId="b0fbb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ZFP36L2" GraphId="b15b7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NLRP5" GraphId="b376a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CELF3" GraphId="ba6fc" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NANOGNB" GraphId="bc588" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MIR290" GraphId="c0dfb" Type="Rna" GroupRef="db135">
+    <BiopaxRef>e10</BiopaxRef>
+    <Graphics Color="9900cc"/>
+    </DataNode>
+  <DataNode TextLabel="BATF3" GraphId="c110b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FOXD1" GraphId="c12a8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PADI6" GraphId="c1e7d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NKX2-1" GraphId="c694b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GATA3" GraphId="ca3e4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ELAVL1" GraphId="cb6d0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ZAR1" GraphId="cc020" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ZSCAN4" GraphId="cd487" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EGR1" GraphId="d1cf4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ARGFX" GraphId="d46d8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HNRNPAB" GraphId="d7729" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ESRRA" GraphId="e9ad7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GATA2" GraphId="ea8f8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MYBL1" GraphId="ec367" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IRF4" GraphId="f0342" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TPRX1" GraphId="f1be7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DPRX" GraphId="f580a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MOS" GraphId="f7930" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LEUTX" GraphId="f9b8b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ZFP36" GraphId="fad79" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DLX2" GraphId="ff128" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MXD1" GraphId="ef014" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FOXQ1" GraphId="aa767" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TFAP2B" GraphId="f20ad" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HMGA1" GraphId="a8f37" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PBX1" GraphId="b4f35" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOX11" GraphId="c5c65" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TCF7L1" GraphId="a8e32" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FOSB" GraphId="d5cba" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MTA3" GraphId="afa6f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOX8" GraphId="beff5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SOX2" GraphId="eb934" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="POU5F1" GraphId="cfe68" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NANOG" GraphId="e0504" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="KLF4" GraphId="a793d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DPPA3" GraphId="bd31c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DNMT3L" GraphId="b5f31" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="KLF4" GraphId="cbdf6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ZFP42" GraphId="fbb1e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TBX3" GraphId="b40bd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CDX2" GraphId="f9d36" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SMARCA4" GraphId="cca6a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CDH1" GraphId="b1665" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ATP1A1" GraphId="cb03e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AQP3" GraphId="b5428" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AQP9" GraphId="f0fb3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MIR302A" GraphId="f4a54" Type="Rna">
+    <BiopaxRef>b6b</BiopaxRef>
+    <Graphics Color="9900cc"/>
+    </DataNode>
+  <DataNode TextLabel="MIR295" GraphId="c4124" Type="Rna" GroupRef="db135">
+    <Graphics Color="9900cc"/>
+    </DataNode>
+  <Interaction>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d4049"/>
+      <Point GraphRef="acf33" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d4049"/>
+      <Point GraphRef="a6ec9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d4049"/>
+      <Point GraphRef="da0ec" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d4049"/>
+      <Point GraphRef="a5ac3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f5948">
+    <Graphics ConnectorType="Curved" LineStyle="Broken">
+      <Point GraphRef="df427"/>
+      <Point/>
+      <Point GraphRef="d4049" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="id3006abb4">
+    <Graphics Color="0000ff">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id3c203a85">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id66939fdc">
+    <Graphics Color="0000ff">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id77bb51b2">
+    <BiopaxRef>c2a</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a3c28"/>
+      <Point GraphRef="a8961" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d357f">
+    <BiopaxRef>c2a</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f9d36"/>
+      <Point/>
+      <Point GraphRef="a9d9d" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d6082">
+    <Graphics Color="0000ff">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id90010c38">
+    <Graphics>
+      <Point ArrowHead="Arrow"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e2296">
+    <Graphics>
+      <Point ArrowHead="Arrow"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d2f3b">
+    <Graphics>
+      <Point ArrowHead="Arrow"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e6b82">
+    <Graphics>
+      <Point ArrowHead="Arrow"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="DNA-binding" GraphId="a06bc">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Oocyte" GraphId="cdeeb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="single-cell&#10;RNA-Seq&#10;Defined" GraphId="ffa1f">
+    <Comment>Preimplantation-SingleCel dataset GSE36552
+
+Source Deep Human Preimplantation single-cell data (Supplemental Table 1):  http://www.nature.com/nsmb/journal/v20/n9/full/nsmb.2660.html
+
+Analysis options for running the single-cell analysis workflow in AltAnalyze (ICGS):
+1. For optimal filtering (not too restrictive), change the Fold change filter cutoff from 10 to 100 and the Minimum number of samples differing from 3 to 2.
+2. Change the Select the column clustering method to hopach.
+3. The final ICGS cell cluster groups (hopach) were further analyzed to identify genes with restricted expression in one of the identified sub-populations using the MarkerFinder algorithm in AltAnalyze (RPKM&gt;1). 
+4. MarkerFinder identified genes for each sub-population (e.g., 8-cell pattern 1) were further filtered for DNA-binding and RNA-binding factors, that are reported in this pathway.</Comment>
+    <Graphics FillColor="ffffff" FontName="Arial Black" Align="Right" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="1-cell" GraphId="c0557">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="2-cell" GraphId="a2105">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="4-cell" GraphId="c24e9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="8-16-cell" GraphId="f663a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="16-32-cell" GraphId="e2a74">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Early blastocyst" GraphId="b76f0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Late blastocyst" GraphId="ad958">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="TE" GraphId="f4d17">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ICM" GraphId="eac0c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PE" GraphId="a7590">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="EPI" GraphId="f941e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ESC" GraphId="bb503">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="DNA-binding" GraphId="db092">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="8-cell pattern 1" GraphId="b0fda">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="8-cell pattern 2" GraphId="bcfe2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="8-cell pattern 3" GraphId="a0f59">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Morulae pattern 1" GraphId="c1ba9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Morulae pattern 2" GraphId="bceb2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Late blastocyst" GraphId="bc26b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="hESC Early Passage" GraphId="da0ec">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="hESC Late Passage" GraphId="a6ec9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Core Pluripotency" GraphId="acf33">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Naive PSC" GraphId="a5ac3">
+    <BiopaxRef>c27</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Maternal" GraphId="eddbb">
+    <BiopaxRef>f9d</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Embryonic Genome&#10;Activation" GraphId="f5786">
+    <BiopaxRef>f9d</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="RNA Stabilization&#10;by RBPs" GraphId="ca4bb">
+    <BiopaxRef>f9d</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="c91a5">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f2bbd" GroupRef="aa2ef">
+    <Graphics FillColor="cccccc" ShapeType="Rectangle" Color="999999"/>
+  </Shape>
+  <Shape GraphId="a3c72">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="afadf">
+    <Graphics FillColor="999999" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="bea73">
+    <Graphics FillColor="6600ff" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="c9ba1">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ad61a">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bbe36">
+    <Graphics FillColor="999999" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="fb93c">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="f643c">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="c8291">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="baac7">
+    <Graphics FillColor="999999" ShapeType="Oval" Color="cccccc"/>
+  </Shape>
+  <Shape GraphId="e4863">
+    <Graphics FillColor="999999" ShapeType="Oval" Color="cccccc"/>
+  </Shape>
+  <Shape GraphId="aaab4">
+    <Graphics FillColor="666666" ShapeType="Oval" Color="999999"/>
+  </Shape>
+  <Shape GraphId="efb48">
+    <Graphics FillColor="666666" ShapeType="Oval" Color="999999"/>
+  </Shape>
+  <Shape GraphId="c30fe">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="be8e1">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b8f2a">
+    <Graphics FillColor="999999" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="b2877">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b64ea">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bb7b8">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="eb3d1">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e10ef">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="fdd2e">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="aa5e0">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d6ca8">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b42f4">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="bc110">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c4ddd">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d40a7">
+    <Graphics FillColor="009933" ShapeType="Oval" Color="006666"/>
+  </Shape>
+  <Shape GraphId="f7f8e">
+    <Graphics FillColor="009933" ShapeType="Oval" Color="006666"/>
+  </Shape>
+  <Shape GraphId="e9232">
+    <Graphics FillColor="cccc00" ShapeType="Oval" Color="999900"/>
+  </Shape>
+  <Shape GraphId="ed549">
+    <Graphics FillColor="009933" ShapeType="Oval" Color="006666"/>
+  </Shape>
+  <Shape GraphId="a8961">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f593b">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d13fc">
+    <Graphics FillColor="999999" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="f8162">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c9b30">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e6464">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b0fa7">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e9e35">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="fe3b7">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="a643e">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cfc26">
+    <Graphics FillColor="cccc00" ShapeType="Oval" Color="999900"/>
+  </Shape>
+  <Shape GraphId="f374a">
+    <Graphics FillColor="cccc00" ShapeType="Oval" Color="999900"/>
+  </Shape>
+  <Shape GraphId="c38d4">
+    <Graphics FillColor="cccc00" ShapeType="Oval" Color="999900"/>
+  </Shape>
+  <Shape GraphId="b5c7c">
+    <Graphics FillColor="cccc00" ShapeType="Oval" Color="999900"/>
+  </Shape>
+  <Shape GraphId="fb814">
+    <Graphics FillColor="cccc00" ShapeType="Oval" Color="999900"/>
+  </Shape>
+  <Shape GraphId="b91c4">
+    <Graphics FillColor="999999" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="f72a1">
+    <Graphics FillColor="009933" ShapeType="Oval" Color="006666"/>
+  </Shape>
+  <Shape GraphId="b9302">
+    <Graphics FillColor="009933" ShapeType="Oval" Color="006666"/>
+  </Shape>
+  <Shape GraphId="f0649">
+    <Graphics FillColor="009933" ShapeType="Oval" Color="006666"/>
+  </Shape>
+  <Shape GraphId="df427">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f11a2">
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="009933"/>
+  </Shape>
+  <Shape GraphId="f11f5">
+    <Graphics FillColor="009933" ShapeType="Oval" Color="009933"/>
+  </Shape>
+  <Shape GraphId="a9d9d">
+    <Graphics FillColor="009933" ShapeType="Oval" Color="009933"/>
+  </Shape>
+  <Shape GraphId="f11d3">
+    <Graphics FillColor="009933" ShapeType="Oval" Color="009933"/>
+  </Shape>
+  <Shape GraphId="d8e42">
+    <Graphics FillColor="009933" ShapeType="Oval" Color="009933"/>
+  </Shape>
+  <Shape GraphId="b1ee2">
+    <Graphics FillColor="cccc00" ShapeType="Oval" Color="999900"/>
+  </Shape>
+  <Shape GraphId="cc742">
+    <Graphics FillColor="cccc00" ShapeType="Oval" Color="999900"/>
+  </Shape>
+  <Shape GraphId="e26dd">
+    <Graphics FillColor="cccc00" ShapeType="Oval" Color="999900"/>
+  </Shape>
+  <Shape GraphId="fd8ae">
+    <Graphics FillColor="cccc00" ShapeType="Oval" Color="999900"/>
+  </Shape>
+  <Shape GraphId="a0aac">
+    <Graphics FillColor="cccc00" ShapeType="Oval" Color="999900"/>
+  </Shape>
+  <Shape GraphId="bd7ae">
+    <Graphics FillColor="cccc00" ShapeType="Oval" Color="999900"/>
+  </Shape>
+  <Shape GraphId="ef5ce">
+    <Graphics FillColor="cccc00" ShapeType="Oval" Color="999900"/>
+  </Shape>
+  <Shape GraphId="eb2b4">
+    <Graphics FillColor="cccc00" ShapeType="Oval" Color="999900"/>
+  </Shape>
+  <Shape GraphId="f337a">
+    <Graphics FillColor="cccc00" ShapeType="Oval" Color="999900"/>
+  </Shape>
+  <Shape GraphId="a631b">
+    <Graphics FillColor="999999" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Shape GraphId="cd4ec">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ef9ff">
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="009933"/>
+  </Shape>
+  <Shape GraphId="af661">
+    <Graphics FillColor="6666ff" ShapeType="Oval" Color="0000ff"/>
+  </Shape>
+  <Shape GraphId="a81fc">
+    <Graphics FillColor="6666ff" ShapeType="Oval" Color="0000ff"/>
+  </Shape>
+  <Shape GraphId="cb01a">
+    <Graphics FillColor="6666ff" ShapeType="Oval" Color="0000ff"/>
+  </Shape>
+  <Shape GraphId="c9d95">
+    <Graphics FillColor="6666ff" ShapeType="Oval" Color="0000ff"/>
+  </Shape>
+  <Shape GraphId="f17ae">
+    <Graphics FillColor="6666ff" ShapeType="Oval" Color="0000ff"/>
+  </Shape>
+  <Shape GraphId="a578a">
+    <Graphics FillColor="6666ff" ShapeType="Oval" Color="0000ff"/>
+  </Shape>
+  <Shape GraphId="cf583">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="cc0000"/>
+  </Shape>
+  <Shape GraphId="da727">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="cc0000"/>
+  </Shape>
+  <Shape GraphId="cc224">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="cc0000"/>
+  </Shape>
+  <Shape GraphId="c35ec">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="cc0000"/>
+  </Shape>
+  <Shape GraphId="d3acd">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="cc0000"/>
+  </Shape>
+  <Shape GraphId="f4a82">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="cc0000"/>
+  </Shape>
+  <Shape GraphId="d3cd5">
+    <Graphics FillColor="ff6666" ShapeType="Oval" Color="cc0000"/>
+  </Shape>
+  <Shape GraphId="be87e">
+    <Graphics FillColor="6666ff" ShapeType="Oval" Color="0000ff"/>
+  </Shape>
+  <Shape GraphId="dd5fd">
+    <Graphics FillColor="cccc00" ShapeType="Oval" Color="999900"/>
+  </Shape>
+  <Shape GraphId="b2394">
+    <Graphics FillColor="009933" ShapeType="Oval" Color="006666"/>
+  </Shape>
+  <Shape GraphId="de292">
+    <Graphics FillColor="ffcc66" ShapeType="Oval" Color="cc9900"/>
+  </Shape>
+  <Shape GraphId="e96d2" GroupRef="aa2ef">
+    <Graphics FillColor="cccccc" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cd223" GroupRef="aa2ef">
+    <Graphics FillColor="ffffff" ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="da240">
+    <Graphics FillColor="ffcc66" ShapeType="Oval" Color="cc9900"/>
+  </Shape>
+  <Shape GraphId="fbbf7">
+    <Graphics FillColor="ffcc66" ShapeType="Oval" Color="cc9900"/>
+  </Shape>
+  <Shape GraphId="ac1a9">
+    <Graphics FillColor="ffcc66" ShapeType="Oval" Color="cc9900"/>
+  </Shape>
+  <Shape GraphId="fd5c2">
+    <Graphics FillColor="ffcc66" ShapeType="Oval" Color="cc9900"/>
+  </Shape>
+  <Shape GraphId="c86b2">
+    <Graphics FillColor="ffcc66" ShapeType="Oval" Color="cc9900"/>
+  </Shape>
+  <Shape GraphId="c56b2">
+    <Graphics FillColor="ffcc66" ShapeType="Oval" Color="cc9900"/>
+  </Shape>
+  <Shape GraphId="b06e4">
+    <Graphics FillColor="999999" ShapeType="Oval" Color="666666"/>
+  </Shape>
+  <Group GroupId="db135" GraphId="bb7d6" Style="Group"/>
+  <Group GroupId="aa2ef" GraphId="d4049" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e10">
+      <bp:ID >12919684</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Embryonic stem cell-specific MicroRNAs.</bp:TITLE>
+      <bp:SOURCE >Dev Cell</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Houbaviy HB</bp:AUTHORS>
+      <bp:AUTHORS >Murray MF</bp:AUTHORS>
+      <bp:AUTHORS >Sharp PA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f9d">
+      <bp:ID >19043080</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Genomic RNA profiling and the programme controlling preimplantation mammalian development.</bp:TITLE>
+      <bp:SOURCE >Mol Hum Reprod</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Bell CE</bp:AUTHORS>
+      <bp:AUTHORS >Calder MD</bp:AUTHORS>
+      <bp:AUTHORS >Watson AJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b12">
+      <bp:ID >19536196</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Making a firm decision: multifaceted regulation of cell fate in the early mouse embryo.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Genet</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Zernicka-Goetz M</bp:AUTHORS>
+      <bp:AUTHORS >Morris SA</bp:AUTHORS>
+      <bp:AUTHORS >Bruce AW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >regulatory pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000004</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c27">
+      <bp:ID >25090446</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Systematic identification of culture conditions for induction and maintenance of naive human pluripotency.</bp:TITLE>
+      <bp:SOURCE >Cell Stem Cell</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Theunissen TW</bp:AUTHORS>
+      <bp:AUTHORS >Powell BE</bp:AUTHORS>
+      <bp:AUTHORS >Wang H</bp:AUTHORS>
+      <bp:AUTHORS >Mitalipova M</bp:AUTHORS>
+      <bp:AUTHORS >Faddah DA</bp:AUTHORS>
+      <bp:AUTHORS >Reddy J</bp:AUTHORS>
+      <bp:AUTHORS >Fan ZP</bp:AUTHORS>
+      <bp:AUTHORS >Maetzel D</bp:AUTHORS>
+      <bp:AUTHORS >Ganz K</bp:AUTHORS>
+      <bp:AUTHORS >Shi L</bp:AUTHORS>
+      <bp:AUTHORS >Lungjangwa T</bp:AUTHORS>
+      <bp:AUTHORS >Imsoonthornruksa S</bp:AUTHORS>
+      <bp:AUTHORS >Stelzer Y</bp:AUTHORS>
+      <bp:AUTHORS >Rangarajan S</bp:AUTHORS>
+      <bp:AUTHORS >D'Alessio A</bp:AUTHORS>
+      <bp:AUTHORS >Zhang J</bp:AUTHORS>
+      <bp:AUTHORS >Gao Q</bp:AUTHORS>
+      <bp:AUTHORS >Dawlaty MM</bp:AUTHORS>
+      <bp:AUTHORS >Young RA</bp:AUTHORS>
+      <bp:AUTHORS >Gray NS</bp:AUTHORS>
+      <bp:AUTHORS >Jaenisch R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dcd">
+      <bp:ID >23934149</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Single-cell RNA-Seq profiling of human preimplantation embryos and embryonic stem cells.</bp:TITLE>
+      <bp:SOURCE >Nat Struct Mol Biol</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Yan L</bp:AUTHORS>
+      <bp:AUTHORS >Yang M</bp:AUTHORS>
+      <bp:AUTHORS >Guo H</bp:AUTHORS>
+      <bp:AUTHORS >Yang L</bp:AUTHORS>
+      <bp:AUTHORS >Wu J</bp:AUTHORS>
+      <bp:AUTHORS >Li R</bp:AUTHORS>
+      <bp:AUTHORS >Liu P</bp:AUTHORS>
+      <bp:AUTHORS >Lian Y</bp:AUTHORS>
+      <bp:AUTHORS >Zheng X</bp:AUTHORS>
+      <bp:AUTHORS >Yan J</bp:AUTHORS>
+      <bp:AUTHORS >Huang J</bp:AUTHORS>
+      <bp:AUTHORS >Li M</bp:AUTHORS>
+      <bp:AUTHORS >Wu X</bp:AUTHORS>
+      <bp:AUTHORS >Wen L</bp:AUTHORS>
+      <bp:AUTHORS >Lao K</bp:AUTHORS>
+      <bp:AUTHORS >Qiao J</bp:AUTHORS>
+      <bp:AUTHORS >Tang F</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c2a">
+      <bp:ID >16484492</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cdx2 gene expression and trophectoderm lineage specification in mouse embryos.</bp:TITLE>
+      <bp:SOURCE >Science</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Deb K</bp:AUTHORS>
+      <bp:AUTHORS >Sivaguru M</bp:AUTHORS>
+      <bp:AUTHORS >Yong HY</bp:AUTHORS>
+      <bp:AUTHORS >Roberts RM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b6b">
+      <bp:ID >20870751</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulation of somatic cell reprogramming through inducible mir-302 expression.</bp:TITLE>
+      <bp:SOURCE >Nucleic Acids Res</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Lin SL</bp:AUTHORS>
+      <bp:AUTHORS >Chang DC</bp:AUTHORS>
+      <bp:AUTHORS >Lin CH</bp:AUTHORS>
+      <bp:AUTHORS >Ying SY</bp:AUTHORS>
+      <bp:AUTHORS >Leu D</bp:AUTHORS>
+      <bp:AUTHORS >Wu DT</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

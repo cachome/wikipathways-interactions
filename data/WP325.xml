@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Triacylglyceride synthesis" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="WikiPathways-description">Originally created by Magali Jaillard, Marijke Vermeer, Michiel Adrieans, Ron Schormans and Chris Evelo.</Comment>
+  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
+  <Graphics BoardWidth="976.0" BoardHeight="1114.6666666666665"/>
+  <DataNode TextLabel="PPAP2B" GraphId="a2f" Type="GeneProduct" GroupRef="b2e4b">
+        </DataNode>
+  <DataNode TextLabel="GPD1" GraphId="a3c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DGAT2" GraphId="a92" Type="GeneProduct" GroupRef="efebb">
+        </DataNode>
+  <DataNode TextLabel="LIPF" GraphId="ac8" Type="GeneProduct" GroupRef="bf3c6">
+        </DataNode>
+  <DataNode TextLabel="Diacylglycerol" GraphId="b037f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AGPAT1" GraphId="b0c" Type="GeneProduct" GroupRef="cdca6">
+        </DataNode>
+  <DataNode TextLabel="Acyl dihydroxyacetone phosphate" GraphId="b114e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Fatty acyl CoA" GraphId="b1fe6" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PPAP2A" GraphId="b21" Type="GeneProduct" GroupRef="b2e4b">
+        </DataNode>
+  <DataNode TextLabel="Fatty acyl CoA" GraphId="b237b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Glycerol" GraphId="b27" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Fatty acyl CoA" GraphId="b4d7e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Triacylglycerol" GraphId="b687d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Monoacylglycerol" GraphId="b7a8b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Phosphatidic acid" GraphId="be5b1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Dihydroxyacetone phosphate" GraphId="bfc" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MOGAT1" GraphId="c33" Type="GeneProduct" GroupRef="ce563">
+    <Comment/>
+        </DataNode>
+  <DataNode TextLabel="GNPAT" GraphId="c49" Type="GeneProduct" GroupRef="b14c8">
+        </DataNode>
+  <DataNode TextLabel="GK" GraphId="c58" Type="GeneProduct" GroupRef="db1f4">
+        </DataNode>
+  <DataNode TextLabel="PPAP2C" GraphId="cca" Type="GeneProduct" GroupRef="b2e4b">
+        </DataNode>
+  <DataNode TextLabel="AGPAT2" GraphId="cec" Type="GeneProduct" GroupRef="cdca6">
+        </DataNode>
+  <DataNode TextLabel="Fatty Acid Synthesis" GraphId="cff84" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Lysophosphatidic acid" GraphId="d8780" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="LPL" GraphId="d8a" Type="GeneProduct" GroupRef="bf3c6">
+        </DataNode>
+  <DataNode TextLabel="Dihydroxyacetone phosphate" GraphId="dbe78" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GPAM" GraphId="e2b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AYR1" GraphId="e32" Type="GeneProduct">
+    <Comment Source="GenMAPP remarks">Yeast</Comment>
+        </DataNode>
+  <DataNode TextLabel="MOGAT2" GraphId="ea3" Type="GeneProduct" GroupRef="ce563">
+        </DataNode>
+  <DataNode TextLabel="PNPLA2" GraphId="ee4" Type="GeneProduct" GroupRef="bf3c6">
+        </DataNode>
+  <DataNode TextLabel="AGPS" GraphId="f0c" Type="GeneProduct" GroupRef="b14c8">
+        </DataNode>
+  <DataNode TextLabel="AGPAT5" GraphId="f3b" Type="GeneProduct" GroupRef="cdca6">
+        </DataNode>
+  <DataNode TextLabel="GK2" GraphId="f4c" Type="GeneProduct" GroupRef="db1f4">
+        </DataNode>
+  <DataNode TextLabel="DGAT1" GraphId="f79" Type="GeneProduct" GroupRef="efebb">
+        </DataNode>
+  <DataNode TextLabel="LIPC" GraphId="f89" Type="GeneProduct" GroupRef="bf3c6">
+        </DataNode>
+  <DataNode TextLabel="MOGAT3" GraphId="fab" Type="GeneProduct" GroupRef="ce563">
+        </DataNode>
+  <DataNode TextLabel="Glycerol-3-phosphate" GraphId="fb23e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AGPAT3" GraphId="fc0" Type="GeneProduct" GroupRef="cdca6">
+        </DataNode>
+  <DataNode TextLabel="LIPE" GraphId="fd7" Type="GeneProduct" GroupRef="bf3c6">
+        </DataNode>
+  <DataNode TextLabel="AGPAT4" GraphId="ffc" Type="GeneProduct" GroupRef="cdca6">
+        </DataNode>
+  <Interaction GraphId="a0b3d">
+    <Graphics>
+      <Point GraphRef="e98d1"/>
+      <Point GraphRef="b3db3" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a92aa">
+    <Graphics ConnectorType="Curved" LineStyle="Broken">
+      <Point GraphRef="cff84"/>
+      <Point GraphRef="b4d7e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ab28d">
+    <Graphics ConnectorType="Curved" LineStyle="Broken">
+      <Point GraphRef="b687d"/>
+      <Point/>
+      <Point GraphRef="b7a8b" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4974025974025974" Shape="None" GraphId="ae10d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ac313">
+    <Graphics>
+      <Point GraphRef="a3c"/>
+      <Point GraphRef="b713f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bb7ea">
+    <Graphics ConnectorType="Curved" LineStyle="Broken">
+      <Point GraphRef="cff84"/>
+      <Point GraphRef="b237b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="be6cd">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b7a8b"/>
+      <Point GraphRef="b037f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.1758614406608092" Shape="None" GraphId="b3db3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c0970">
+    <Graphics>
+      <Point GraphRef="da0f7"/>
+      <Point GraphRef="ceccb" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c5cee">
+    <Graphics>
+      <Point GraphRef="e2b"/>
+      <Point GraphRef="e9e31" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c5ef2">
+    <Graphics>
+      <Point GraphRef="a8fda"/>
+      <Point GraphRef="a1600" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cef81">
+    <Graphics>
+      <Point GraphRef="b114e"/>
+      <Point GraphRef="d8780" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f87e8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cfb91">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b237b"/>
+      <Point GraphRef="b114e" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7564697509634918" Shape="None" GraphId="a1600"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2239">
+    <Graphics>
+      <Point GraphRef="cf4ec"/>
+      <Point GraphRef="ae10d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d5b9c">
+    <Graphics>
+      <Point GraphRef="be5b1"/>
+      <Point GraphRef="b037f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="fa4d2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6c55">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b27"/>
+      <Point GraphRef="fb23e" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.16771301312192044" Shape="None" GraphId="a5d10"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dc020">
+    <Graphics ConnectorType="Curved" LineStyle="Broken">
+      <Point GraphRef="cff84"/>
+      <Point GraphRef="b1fe6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dc989">
+    <Graphics>
+      <Point GraphRef="a7a34"/>
+      <Point GraphRef="fa4d2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dee2f">
+    <Graphics>
+      <Point GraphRef="e62c2"/>
+      <Point GraphRef="a5d10" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0971">
+    <Graphics>
+      <Point GraphRef="d8780"/>
+      <Point GraphRef="be5b1" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ceccb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e4eb3">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="fb23e"/>
+      <Point GraphRef="d8780" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e63f7">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="dbe78"/>
+      <Point GraphRef="fb23e" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.20358400986976988" Shape="None" GraphId="b713f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e9e14">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b037f"/>
+      <Point GraphRef="b687d" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.8211725414282369" Shape="None" GraphId="cd8ad"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ef59b">
+    <Graphics>
+      <Point GraphRef="ef351"/>
+      <Point GraphRef="dd1b8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f76da">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b1fe6"/>
+      <Point GraphRef="b687d" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.753552365400083" Shape="None" GraphId="dd1b8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f9a91">
+    <Graphics>
+      <Point GraphRef="a8fda"/>
+      <Point GraphRef="ca59a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa261">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="bfc"/>
+      <Point GraphRef="b114e" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.8079794172621018" Shape="None" GraphId="ca59a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa98f">
+    <Graphics>
+      <Point GraphRef="e32"/>
+      <Point GraphRef="f87e8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fc390">
+    <Graphics>
+      <Point GraphRef="ef351"/>
+      <Point GraphRef="cd8ad" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fe8f4">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b4d7e"/>
+      <Point GraphRef="d8780" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.2765875720215598" Shape="None" GraphId="e9e31"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Only 1 of these &#10;enzymes is needed" GraphId="c21">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Only 1 of these &#10;enzymes is needed" GraphId="c3dbc">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Degradation&#10;Path" GraphId="f8b">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Group GroupId="b2e4b" GraphId="a7a34"/>
+  <Group GroupId="b14c8" GraphId="a8fda"/>
+  <Group GroupId="bf3c6" GraphId="cf4ec"/>
+  <Group GroupId="cdca6" GraphId="da0f7"/>
+  <Group GroupId="db1f4" GraphId="e62c2"/>
+  <Group GroupId="ce563" GraphId="e98d1"/>
+  <Group GroupId="efebb" GraphId="ef351"/>
+  <InfoBox/>
+  <Legend/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >triacylglycerol biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000736</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="One-carbon metabolism" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This one-carbon metabolism pathway is centered around folate. Folate has two key carbon-carbon double bonds. Saturating one of them yields dihydrofolate (DHF) and adding an additional molecule of hydrogen across the second yields tetrahydrofolate (THF). Folates serve as donors of single carbons in any one of three oxidation states: 5-methyl-THF (CH3THF; reduced), 5,10 methylene-THF (CH2THF; intermediate) and 10-formyl-THF (CHOTHF; oxidized). The single carbon donor CH3THF is used to convert homocysteine into methionine which can then be used to methylate DNA, the donor CH2THF is used (along with a molecule of hydrogen at the site of one of the double bonds) to convert dUMP (deoxyuridylate) into dTMP (thymidylate) and the donor CHOTHF is used to set up ring closure reactions in de novo purine synthesis. CH3THF is the primary methyl-group donor for processes such as DNA methylation reactions. Purines are used both in RNA synthesis and in DNA synthesis and dTMP is synthesized srtictly for DNA synthesis, be it for DNA repair or DNA replication.
+The folate pathway is central to any study related to DNA methylation, dTMP synthesis or purine synthesis.
+
+Differential methylation (e.g. hypermethylation of tumor suppressors) as well as disturbances in nucleotide synthesis and repair, are associated with several forms of cancer. There are also indications that hypermethylation is involved in the progression of adenomas to cancer. 
+
+The pathway is also illustrative of the role of a number of B vitamins, including vitamin B12 (cobalamine) which is important for the sythesis of folate (vitamin B9) and of methionine. 
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP241 CPTAC Assay Portal]</Comment>
+  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
+  <Graphics BoardWidth="1678.261878109454" BoardHeight="789.0"/>
+  <DataNode TextLabel="Deoxyuridine monophosphate" GraphId="a47" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Deoxythymidine monophosphate" GraphId="c8c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MAT1A" GraphId="a0b" Type="GeneProduct" GroupRef="b93bd">
+    <Comment>KEGG Database Methionine metabolism - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="BHMT" GraphId="a0c" Type="GeneProduct">
+    <BiopaxRef>cf5</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Tetrahydrofolate" GraphId="a19" Type="Metabolite">
+    <BiopaxRef>cf5</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="5-Methyl Tetrahydrofolate" GraphId="a42" Type="Metabolite">
+    <BiopaxRef>cf5</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GRX1" GraphId="a4e12" Type="GeneProduct">
+    <BiopaxRef>ba1</BiopaxRef>
+    <BiopaxRef>ecf</BiopaxRef>
+    <BiopaxRef>a48</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MTHFS" GraphId="a74" Type="GeneProduct">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="DHFR" GraphId="a74c2" Type="GeneProduct">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="MTHFD2" GraphId="a7b" Type="GeneProduct" GroupRef="f96c6">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="MTHFD1" GraphId="a92" Type="GeneProduct" GroupRef="f96c6">
+    <BiopaxRef>cf5</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MTHFD1L" GraphId="aa1" Type="GeneProduct" GroupRef="b5249">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="Alcohol" GraphId="abd76" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FOLH1" GraphId="adf" Type="GeneProduct">
+    <BiopaxRef>cf5</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Betaine" GraphId="aeb" Type="Metabolite">
+    <BiopaxRef>cf5</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="glycine" GraphId="b1439" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MTFMT" GraphId="b1b" Type="GeneProduct" GroupRef="f4484">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="DNMT1" GraphId="b3b" Type="GeneProduct" GroupRef="c9cb9">
+    <BiopaxRef>cf5</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MTHFD1" GraphId="ba6" Type="GeneProduct" GroupRef="b5249">
+    <BiopaxRef>cf5</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Thymidylate Synthesis" GraphId="bb282" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="CHDH" GraphId="bc738" Type="GeneProduct">
+    <BiopaxRef>d81</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="5-Formyl Tetrahydrofolate" GraphId="bce0f" Type="Metabolite">
+    <BiopaxRef>cf5</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Zn" GraphId="be5fb" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Riboflavin&#10;Vitamin B2" GraphId="bed71" Type="Metabolite" GroupRef="cffba">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="10-Formyl Tetrahydrofolate" GraphId="c01" Type="Metabolite">
+    <BiopaxRef>cf5</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MTR" GraphId="c04" Type="GeneProduct">
+    <BiopaxRef>cf5</BiopaxRef>
+    <BiopaxRef>fd6</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="5,10-Methenyl Tetrahydrofolate" GraphId="c07" Type="Metabolite">
+    <BiopaxRef>cf5</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MTHFR" GraphId="c0a" Type="GeneProduct" GroupRef="cffba">
+    <BiopaxRef>cf5</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="MTHFD1L" GraphId="c1d" Type="GeneProduct" GroupRef="f4484">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="FTCD" GraphId="c5a" Type="GeneProduct">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="Choline" GraphId="c6261" Type="Metabolite">
+    <BiopaxRef>c4c</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="5-Formimino Tetrahydrofolate" GraphId="c6a43" Type="Metabolite">
+    <BiopaxRef>cf5</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DNMT3b" GraphId="c78" Type="GeneProduct" GroupRef="c9cb9">
+    <Comment>KEGG database: Methionine metabolism - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="Non-homologous end joining" GraphId="c9047" Type="Pathway" GroupRef="ebfa0">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="KIAA0828" GraphId="ca3" Type="GeneProduct" GroupRef="c1374">
+    <Comment>KEGG Database Methionine metabolism - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="ALDH1L1" GraphId="cb2" Type="GeneProduct" GroupRef="f4484">
+    <BiopaxRef>cf5</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="AMT" GraphId="cc5" Type="GeneProduct" GroupRef="e81fe">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="MTRR" GraphId="ccb" Type="GeneProduct">
+    <BiopaxRef>cf5</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Folate" GraphId="ccf" Type="Metabolite">
+    <BiopaxRef>cf5</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Dihydrofolate&#10;Vitamin B9" GraphId="d00" Type="Metabolite">
+    <BiopaxRef>cf5</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MAT2B" GraphId="d10" Type="GeneProduct" GroupRef="b93bd">
+    <Comment>KEGG Database Methionine metabolism - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="5,10-Methylene Tetrahydrofolate" GraphId="d13" Type="Metabolite">
+    <BiopaxRef>cf5</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Methionine" GraphId="d31" Type="Metabolite">
+    <BiopaxRef>cf5</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FTCD" GraphId="d37" Type="GeneProduct">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="SHMT1" GraphId="d3d" Type="GeneProduct" GroupRef="e81fe">
+    <BiopaxRef>cf5</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="AMT" GraphId="d76" Type="GeneProduct">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="MIsmatch repair" GraphId="d833e" Type="Pathway" GroupRef="ebfa0">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="S-adenosylhomocysteine" GraphId="d97" Type="Metabolite">
+    <BiopaxRef>cf5</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="S-Adenosylmethionine" GraphId="dd1" Type="Metabolite">
+    <BiopaxRef>cf5</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TYMS" GraphId="df4" Type="GeneProduct">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="MTHFD1" GraphId="e02" Type="GeneProduct" GroupRef="f4484">
+    <BiopaxRef>cf5</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Cobalamin" GraphId="e31b6" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="serine" GraphId="e3cdb" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Methylcobalamin&#10;B12" GraphId="e3df5" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GART" GraphId="e4e" Type="GeneProduct">
+    <BiopaxRef>cf5</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="SHMT2" GraphId="e55" Type="GeneProduct" GroupRef="e81fe">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="MTHFD1L" GraphId="e94" Type="GeneProduct" GroupRef="f96c6">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="DNMT3a" GraphId="eb3" Type="GeneProduct" GroupRef="c9cb9">
+    <Comment>KEGG Database Methionine metabolism - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="Homocystine" GraphId="ecab7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Pyridoxal 5'-phosphate&#10;Vitamin B6" GraphId="edfe5" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ATIC" GraphId="ef6" Type="GeneProduct" GroupRef="f4484">
+    <BiopaxRef>cf5</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Homocysteine" GraphId="f77" Type="Metabolite">
+    <BiopaxRef>cf5</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MTHFD2" GraphId="f83" Type="GeneProduct" GroupRef="b5249">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="AHCY" GraphId="fa9" Type="GeneProduct" GroupRef="c1374">
+    <Comment>KEGG Database Methionine metabolism - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="TCN II" GraphId="fc6" Type="GeneProduct">
+    <BiopaxRef>cf5</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="GART" GraphId="fd1" Type="GeneProduct" GroupRef="f4484">
+    <BiopaxRef>cf5</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="DHFR" GraphId="fe0c8" Type="GeneProduct">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="DHFR" GraphId="fea" Type="GeneProduct">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+        </DataNode>
+  <DataNode TextLabel="Polyglutamate" GraphId="fed" Type="Metabolite">
+    <BiopaxRef>cf5</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="a1142">
+    <Graphics>
+      <Point GraphRef="fed"/>
+      <Point GraphRef="ccf" ArrowHead="Arrow"/>
+      <Anchor Position="0.35562141137247644" Shape="None" GraphId="bfef1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a2acf">
+    <Graphics>
+      <Point GraphRef="c07"/>
+      <Point GraphRef="bce0f" ArrowHead="Arrow"/>
+      <Anchor Position="0.4857698961937715" Shape="None" GraphId="a444a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a9b29">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a19"/>
+      <Point GraphRef="c01" ArrowHead="Arrow"/>
+      <Anchor Position="0.23169978712595904" Shape="None" GraphId="b64ca"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a9d7b">
+    <Graphics>
+      <Point GraphRef="bf619" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="c4413"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a9e5b">
+    <Graphics>
+      <Point GraphRef="a15fa" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="c5a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aaa13">
+    <Graphics>
+      <Point GraphRef="c241c" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="ff813"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ab125">
+    <Graphics>
+      <Point GraphRef="a74c2"/>
+      <Point GraphRef="c19fb" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b0a38">
+    <Graphics>
+      <Point GraphRef="b64ca" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="cbe1d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b2f2f">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d13"/>
+      <Point GraphRef="a42" ArrowHead="Arrow"/>
+      <Anchor Position="0.3054526328380802" Shape="None" GraphId="f7edf"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b4fcc">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c07"/>
+      <Point GraphRef="d13" ArrowHead="Arrow"/>
+      <Anchor Position="0.7911450703894298" Shape="None" GraphId="cd89d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ba53a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f77"/>
+      <Point/>
+      <Point GraphRef="d31" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bb8fd">
+    <Graphics>
+      <Point GraphRef="aeb"/>
+      <Point GraphRef="f77" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bf7db"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bba99">
+    <Graphics>
+      <Point GraphRef="a6d38" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="e4e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bcb04">
+    <Graphics>
+      <Point GraphRef="a19"/>
+      <Point GraphRef="bce0f" ArrowHead="Arrow"/>
+      <Anchor Position="0.27079245283018877" Shape="None" GraphId="e62e2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bdeb7">
+    <Graphics>
+      <Point GraphRef="abd76"/>
+      <Point GraphRef="bfef1" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bdf2b">
+    <Graphics>
+      <Point GraphRef="fea"/>
+      <Point GraphRef="f4a4a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bf2ef">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d97"/>
+      <Point GraphRef="f77" ArrowHead="Arrow"/>
+      <Anchor Position="0.21831739619589857" Shape="None" GraphId="c241c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bf7ea">
+    <Graphics>
+      <Point GraphRef="d37"/>
+      <Point GraphRef="e3bf2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c200a">
+    <Graphics>
+      <Point GraphRef="cd89d" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="ee605"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c3964">
+    <Graphics>
+      <Point GraphRef="cfb9e" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="a74"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9467">
+    <Graphics ConnectorType="Curved" LineStyle="Broken">
+      <Point GraphRef="c8c"/>
+      <Point/>
+      <Point GraphRef="bb282" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ca6d9">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ccf"/>
+      <Point GraphRef="a19" ArrowHead="Arrow"/>
+      <Anchor Position="0.5620534748879915" Shape="None" GraphId="f4a4a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cdd14">
+    <Graphics>
+      <Point GraphRef="bce0f"/>
+      <Point GraphRef="c07" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="cfb9e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ce830">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d31"/>
+      <Point GraphRef="dd1" ArrowHead="Arrow"/>
+      <Anchor Position="0.4014349243294872" Shape="None" GraphId="dce76"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d660d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c6a43"/>
+      <Point GraphRef="c07" ArrowHead="Arrow"/>
+      <Anchor Position="0.23362483108264856" Shape="None" GraphId="e3bf2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d8a14">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c07"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="a19" ArrowHead="Arrow"/>
+      <Anchor Position="0.6547068675376538" Shape="None" GraphId="a6d38"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dfbce">
+    <Graphics>
+      <Point GraphRef="e62e2" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="c5a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e2c91">
+    <Graphics>
+      <Point GraphRef="f7edf" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="ea0db"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e3b89">
+    <Graphics>
+      <Point GraphRef="fc6"/>
+      <Point GraphRef="a330b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e4a7c">
+    <Graphics ConnectorType="Curved" LineStyle="Broken">
+      <Point GraphRef="c8c"/>
+      <Point/>
+      <Point GraphRef="e7ee4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e795d">
+    <Graphics>
+      <Point GraphRef="bf7db" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="a0c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e8fdb">
+    <Graphics>
+      <Point GraphRef="d00"/>
+      <Point GraphRef="a19" ArrowHead="Arrow"/>
+      <Anchor Position="0.49282392130426794" Shape="None" GraphId="f1164"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e9680">
+    <Graphics>
+      <Point GraphRef="a36c3" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="e013b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ea837">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c01"/>
+      <Point GraphRef="c07" ArrowHead="Arrow"/>
+      <Anchor Position="0.15995607200672132" Shape="None" GraphId="bc5d1"/>
+      <Anchor Position="0.21807697297115256" Shape="None" GraphId="a36c3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ed12d">
+    <Graphics>
+      <Point GraphRef="bfef1" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="adf"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ee083">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e3df5"/>
+      <Point/>
+      <Point GraphRef="e31b6" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f11c5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eecbe">
+    <Graphics>
+      <Point GraphRef="fe0c8"/>
+      <Point GraphRef="f1164" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f114b">
+    <Graphics>
+      <Point GraphRef="a19"/>
+      <Point GraphRef="c6a43" ArrowHead="Arrow"/>
+      <Anchor Position="0.3550492434589194" Shape="None" GraphId="a15fa"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f1d72">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e3df5"/>
+      <Point GraphRef="e31b6" ArrowHead="Arrow"/>
+      <Anchor Position="0.4955519838248123" Shape="None" GraphId="f9a14"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f52d5">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a42"/>
+      <Point/>
+      <Point GraphRef="a19" ArrowHead="Arrow"/>
+      <Anchor Position="0.3920524495527438" Shape="None" GraphId="a330b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f66da">
+    <Graphics>
+      <Point GraphRef="d76"/>
+      <Point GraphRef="a444a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fac19">
+    <Graphics>
+      <Point GraphRef="dce76" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="d6d9d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="faff4">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ccf"/>
+      <Point GraphRef="d00" ArrowHead="Arrow"/>
+      <Anchor Position="0.51138546448186" Shape="None" GraphId="c19fb"/>
+      <Anchor Position="0.338474844441228" Shape="None" GraphId="d4ce4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fc0e7">
+    <Graphics>
+      <Point GraphRef="a96b5" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="a71c2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fc168">
+    <Graphics>
+      <Point GraphRef="df4"/>
+      <Point GraphRef="cba34" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id28a21609">
+    <Graphics>
+      <Point GraphRef="aaddb" ArrowHead="mim-catalysis"/>
+      <Point GraphRef="a4e12"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2a447c04">
+    <Graphics>
+      <Point GraphRef="c6261"/>
+      <Point GraphRef="aeb" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="cd4de"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2d7f0158">
+    <Graphics>
+      <Point GraphRef="a96b5"/>
+      <Point GraphRef="b1439"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id36efcfa9">
+    <Graphics>
+      <Point GraphRef="bc738"/>
+      <Point GraphRef="cd4de" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3e1dd780">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a19"/>
+      <Point GraphRef="edfe5" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7017023878370812" Shape="None" GraphId="a96b5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5e90d8d7">
+    <Graphics>
+      <Point GraphRef="bf619"/>
+      <Point GraphRef="a84" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id67e7177a">
+    <Graphics>
+      <Point GraphRef="a47" ArrowHead="mim-conversion"/>
+      <Point GraphRef="cba34"/>
+      <Anchor Position="1.0" Shape="None" GraphId="a54e8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6a964360">
+    <Graphics>
+      <Point GraphRef="f77" ArrowHead="Arrow"/>
+      <Point GraphRef="ecab7" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="aaddb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6bd6286">
+    <Graphics>
+      <Point GraphRef="bf619"/>
+      <Point GraphRef="c93"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8a932132">
+    <Graphics>
+      <Point GraphRef="ccb"/>
+      <Point GraphRef="f11c5" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id97f892de">
+    <Graphics>
+      <Point GraphRef="c04"/>
+      <Point GraphRef="f9a14" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida598ea4b">
+    <Graphics>
+      <Point GraphRef="c8c"/>
+      <Point GraphRef="cba34"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idabeb15">
+    <Graphics>
+      <Point GraphRef="a96b5"/>
+      <Point GraphRef="d13" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idae7d27b4">
+    <Graphics>
+      <Point GraphRef="dd1"/>
+      <Point GraphRef="d97" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bf619"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb175817">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d00"/>
+      <Point/>
+      <Point GraphRef="d13" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6836087761238878" Shape="None" GraphId="cba34"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddef44681">
+    <Graphics>
+      <Point GraphRef="be5fb"/>
+      <Point GraphRef="f9a14" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="DNA repair pathways" GraphId="a2285" GroupRef="ebfa0">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="DNA 5-methylcytosine" GraphId="a84">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="DNA" GraphId="c93">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Group GroupId="e81fe" GraphId="a71c2"/>
+  <Group GroupId="c9cb9" GraphId="c4413"/>
+  <Group GroupId="f4484" GraphId="cbe1d"/>
+  <Group GroupId="b93bd" GraphId="d6d9d"/>
+  <Group GroupId="f96c6" GraphId="e013b"/>
+  <Group GroupId="ebfa0" GraphId="e7ee4" Style="Group"/>
+  <Group GroupId="cffba" GraphId="ea0db" Style="Complex"/>
+  <Group GroupId="b5249" GraphId="ee605"/>
+  <Group GroupId="c1374" GraphId="ff813"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf5">
+      <bp:ID >17389618</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Twenty-four non-synonymous polymorphisms in the one-carbon metabolic pathway and riskof colorectal adenoma in the Nurses' Health Study.</bp:TITLE>
+      <bp:SOURCE >Carcinogenesis</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Hazra A</bp:AUTHORS>
+      <bp:AUTHORS >Wu K</bp:AUTHORS>
+      <bp:AUTHORS >Kraft P</bp:AUTHORS>
+      <bp:AUTHORS >Fuchs CS</bp:AUTHORS>
+      <bp:AUTHORS >Giovannucci EL</bp:AUTHORS>
+      <bp:AUTHORS >Hunter DJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ecf">
+      <bp:ID >22634633</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Glutaredoxin serves as a reductant for methionine sulfoxide reductases with or without resolving cysteine.</bp:TITLE>
+      <bp:SOURCE >Acta Biochim Biophys Sin (Shanghai)</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Kim HY</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d81">
+      <bp:ID >8752328</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Synthesis of the osmoprotectant glycine betaine in Bacillus subtilis: characterization of the gbsAB genes.</bp:TITLE>
+      <bp:SOURCE >J Bacteriol</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >Boch J</bp:AUTHORS>
+      <bp:AUTHORS >Kempf B</bp:AUTHORS>
+      <bp:AUTHORS >Schmid R</bp:AUTHORS>
+      <bp:AUTHORS >Bremer E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba1">
+      <bp:ID >13271447</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Glutathione-homocystine transhydrogenase.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1955</bp:YEAR>
+      <bp:AUTHORS >RACKER E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a48">
+      <bp:ID >8019414</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The primary structure and properties of thioltransferase (glutaredoxin) from human red blood cells.</bp:TITLE>
+      <bp:SOURCE >Protein Sci</bp:SOURCE>
+      <bp:YEAR >1994</bp:YEAR>
+      <bp:AUTHORS >Papov VV</bp:AUTHORS>
+      <bp:AUTHORS >Gravina SA</bp:AUTHORS>
+      <bp:AUTHORS >Mieyal JJ</bp:AUTHORS>
+      <bp:AUTHORS >Biemann K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c4c">
+      <bp:ID >12466265</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Isolation and functional characterization of N-methyltransferases that catalyze betaine synthesis from glycine in a halotolerant photosynthetic organism Aphanothece halophytica.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Waditee R</bp:AUTHORS>
+      <bp:AUTHORS >Tanaka Y</bp:AUTHORS>
+      <bp:AUTHORS >Aoki K</bp:AUTHORS>
+      <bp:AUTHORS >Hibino T</bp:AUTHORS>
+      <bp:AUTHORS >Jikuya H</bp:AUTHORS>
+      <bp:AUTHORS >Takano J</bp:AUTHORS>
+      <bp:AUTHORS >Takabe T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fd6">
+      <bp:ID >9242908</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Structure-based perspectives on B12-dependent enzymes.</bp:TITLE>
+      <bp:SOURCE >Annu Rev Biochem</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Ludwig ML</bp:AUTHORS>
+      <bp:AUTHORS >Matthews RG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >folate mediated one-carbon metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000189</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

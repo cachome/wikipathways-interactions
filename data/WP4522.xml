@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Metabolic pathway of LDL, HDL and TG, including diseases" Version="20161102" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway shows genetic disorders related to lipoprotein metabolism. Two plasmalipoproteins, LDL and HDL, and one plasma lipid, triglyceride (TG), play an important role in this pathway. Hydrophobic lipids and fat-soluble vitamins are normally transported to the site of their uptake by transporters called lipoproteins, and any deregulation of the plasma concentrations of these proteins can cause dyslipidemias. Disorders resulting from an enzyme deficiency are highlighted in pink. More details on the composition of the various lipoproteins in this pathway are visualised in [https://www.wikipathways.org/index.php/Pathway:WP3601].
+
+This pathway was inspired by Chapter 43 of the book of Blau (ISBN 3642403360 (978-3642403361)).
+</Comment>
+  <BiopaxRef>e64</BiopaxRef>
+  <Graphics BoardWidth="1715.4190750975954" BoardHeight="1126.3721657952603"/>
+  <DataNode TextLabel="LPL" GraphId="a2fe4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Cholesterol" GraphId="a7196" Type="Metabolite" GroupRef="c112d">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Oxysterols" GraphId="aa2cd" Type="Pathway" GroupRef="b2e01">
+    <Comment>"Oxysterols are oxygenated derivatives of cholesterol or its sterol precursors, e.g. 7-dehydrocholesterol (7-DHC) or desmosterol" [ PubMed 27068984].</Comment>
+    <Comment>See https://www.wikipathways.org/index.php/Pathway:WP4346 for mouse version (Human will be created at some point).</Comment>
+    <BiopaxRef>a5e</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="LDLR" GraphId="abfde" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="SR-B1" GraphId="b15ec" Type="Protein">
+    <Comment>AKA SCARB1; Receptor for HDL, mediating selective uptake of cholesteryl ether and HDL-dependent cholesterol efflux.</Comment>
+    <BiopaxRef>e62</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="LCAT" GraphId="b485e" Type="GeneProduct">
+    <Comment>AKA Lecithin-cholesterol acyl transferase</Comment>
+        </DataNode>
+  <DataNode TextLabel="LDLRAP1" GraphId="c3d61" Type="Protein">
+    <Comment>AKA Low density lipoprotein receptor adapter protein 1; ARH1</Comment>
+    <Comment>"Adapter protein (clathrin-associated sorting protein (CLASP)) required for efficient endocytosis of the LDL receptor (LDLR) in polarized cells such as hepatocytes and lymphocytes, but not in non-polarized cells (fibroblasts). May be required for LDL binding and internalization but not for receptor clustering in coated pits. May facilitate the endocytocis of LDLR and LDLR-LDL complexes from coated pits by stabilizing the interaction between the receptor and the structural components of the pits. May also be involved in the internalization of other LDLR family members." [https://www.uniprot.org/uniprot/Q5SW96]</Comment>
+    <BiopaxRef>a69</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Nuclear hormone receptors&#10;(involved in sterol metabolism)" GraphId="c7e11" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Vit. D pathway" GraphId="cf557" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Steroid Biosynthesis&#10;(general overview)" GraphId="d4389" Type="Pathway" GroupRef="e793e">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="HL " GraphId="d6f30" Type="GeneProduct">
+    <Comment>EC 3.1.1.3</Comment>
+        </DataNode>
+  <DataNode TextLabel="HL" GraphId="d820d" Type="GeneProduct">
+    <Comment>EC 3.1.1.3 aka LIPC</Comment>
+        </DataNode>
+  <DataNode TextLabel="CETP" GraphId="db111" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Annexin A2" GraphId="dd4e5" Type="Protein">
+    <BiopaxRef>caa</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="LDL-receptor" GraphId="e84e1" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MTP" GraphId="efd64" Type="GeneProduct">
+    <Comment>"Catalyzes the transport of triglyceride, cholesteryl ester, and phospholipid between phospholipid surfaces. Required for the secretion of plasma lipoproteins that contain apolipoprotein B." [https://www.uniprot.org/uniprot/P55157]</Comment>
+        </DataNode>
+  <DataNode TextLabel="C-II" GraphId="f4600" Type="Protein" GroupRef="dc6a8">
+    <Comment>AKA Apolipoprotein C2; cofactor for lipoprotein lipase (LPL) enzyme.</Comment>
+        </DataNode>
+  <DataNode TextLabel="PCSK9" GraphId="f5c32" Type="GeneProduct">
+    <BiopaxRef>ca1</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Cyclic fatty acids" GraphId="f6188" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ABCA1" GraphId="f63e5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Remnant receptor" GraphId="f9700" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="LPL" GraphId="fb57d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Cholesterol" GraphId="f8747" Type="Metabolite" GroupRef="c112d">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cholesterol" GraphId="db79a" Type="Metabolite" GroupRef="c112d">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cholesterol" GraphId="cd187" Type="Metabolite" GroupRef="c112d">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Classical steroidogenesis&#10;(including diseases)" GraphId="e10f4" Type="Pathway" GroupRef="e793e">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Alternative steroidogenesis&#10;(including diseases)" GraphId="d862d" Type="Pathway" GroupRef="e793e">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Bile Acids" GraphId="d0127" Type="Pathway" GroupRef="b2e01">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="B48" GraphId="fbfee" Type="Protein" GroupRef="dc6a8">
+    <Comment>"Apolipoprotein B(apo B) occurs in the plasma in 2 main isoforms, ApoB48 and ApoB100. ApoB48 is generated when a stop codon (UAA) is created by RNA editing.
+
+As a result of the RNA editing, ApoB48 and ApoB100 share a common N-terminal sequence, but ApoB48 lacks ApoB100's C-terminal LDL receptor binding region. In fact, ApoB48 is so called because it constitutes 48% of the sequence for ApoB100.
+
+ApoB 48 is a unique protein to chylomicrons from the small intestine. After most of the lipids in the chylomicron have been absorbed, ApoB48 returns to the liver as part of the chylomicron remnant, where it is endocytosed and degraded." [https://en.wikipedia.org/wiki/Apolipoprotein_B]</Comment>
+    <Comment>Synthesized in small intestine.</Comment>
+    <Comment>Transcript ID: ENST00000233242.4</Comment>
+        </DataNode>
+  <DataNode TextLabel="E" GraphId="dda82" Type="Protein" GroupRef="dc6a8">
+    <Comment>AKA APo E, a ligand for receptor mediated endocytosis.</Comment>
+        </DataNode>
+  <DataNode TextLabel="VLDL" GraphId="ea312" Type="Metabolite" GroupRef="d4ee4">
+    <Comment>Very low-density lipoprotein (VLDL) is one of the two main TG (triglyceride or triacylglycerol) carrying lipoproteins, which are spheroidal macromolecular complexes responsible for transporting lipids through plasma.</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="B100" GraphId="a7aed" Type="Protein" GroupRef="d4ee4">
+    <Comment>"Apoprotein B100 (ApoB-100) is embedded in the outer phospholipid layer of LDL particles." [https://en.wikipedia.org/wiki/LDL_receptor]</Comment>
+    <Comment>Synthesized in liver.</Comment>
+        </DataNode>
+  <DataNode TextLabel="B48" GraphId="f94ed" Type="Protein" GroupRef="f6a07">
+    <Comment>"Apolipoprotein B(apo B) occurs in the plasma in 2 main isoforms, ApoB48 and ApoB100. ApoB48 is generated when a stop codon (UAA) is created by RNA editing.
+
+As a result of the RNA editing, ApoB48 and ApoB100 share a common N-terminal sequence, but ApoB48 lacks ApoB100's C-terminal LDL receptor binding region. In fact, ApoB48 is so called because it constitutes 48% of the sequence for ApoB100.
+
+ApoB 48 is a unique protein to chylomicrons from the small intestine. After most of the lipids in the chylomicron have been absorbed, ApoB48 returns to the liver as part of the chylomicron remnant, where it is endocytosed and degraded." [https://en.wikipedia.org/wiki/Apolipoprotein_B]</Comment>
+    <Comment>Synthesized in small intestine.</Comment>
+        </DataNode>
+  <DataNode TextLabel="E" GraphId="b1def" Type="Protein" GroupRef="f6a07">
+    <Comment>AKA APo E, a ligand for receptor mediated endocytosis.</Comment>
+        </DataNode>
+  <DataNode TextLabel="A-I" GraphId="c0ca0" Type="Protein" GroupRef="a45d1">
+    <Comment>AKA Apo A-I; activator of lecithin-cholesterol acyl transferase (LCAT).</Comment>
+        </DataNode>
+  <DataNode TextLabel="A-II" GraphId="c3dbf" Type="Protein" GroupRef="a45d1">
+    <Comment>AKA Apolipoprotein A-II</Comment>
+        </DataNode>
+  <DataNode TextLabel="A-I" GraphId="e2d25" Type="Protein" GroupRef="b0c05">
+    <Comment>AKA Apo A-I; activator of lecithin-cholesterol acyl transferase (LCAT).</Comment>
+        </DataNode>
+  <DataNode TextLabel="IDL" GraphId="fdfe8" Type="Metabolite" GroupRef="f503f">
+    <Comment>Itermediate-density lipoprotein (IDL), physiologically a short lived species, containd around equimolar amounts of cholesterol and Triglycerides (TG).</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="B100" GraphId="a05f3" Type="Protein" GroupRef="f503f">
+    <Comment>"Apoprotein B100 (ApoB-100) is embedded in the outer phospholipid layer of LDL particles." [https://en.wikipedia.org/wiki/LDL_receptor]</Comment>
+    <Comment>Synthesized in liver.</Comment>
+        </DataNode>
+  <DataNode TextLabel="LDL" GraphId="f04bd" Type="Metabolite" GroupRef="f29db">
+    <Comment>Low-density lipoprotein (LDL) is one of the two main cholesterol carrying lipoproteins,  which are spheroidal macromolecular complexes responsible for transporting lipids through plasma.</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="B100" GraphId="d572e" Type="Protein" GroupRef="f29db">
+    <Comment>"Apoprotein B100 (ApoB-100) is embedded in the outer phospholipid layer of LDL particles." [https://en.wikipedia.org/wiki/LDL_receptor]</Comment>
+    <Comment>Synthesized in liver.</Comment>
+        </DataNode>
+  <DataNode TextLabel="C-II" GraphId="e94ad" Type="Protein" GroupRef="d4ee4">
+    <Comment>AKA Apolipoprotein C2; cofactor for lipoprotein lipase (LPL) enzyme.</Comment>
+        </DataNode>
+  <DataNode TextLabel="E" GraphId="caa9a" Type="Protein" GroupRef="d4ee4">
+    <Comment>AKA APo E, a ligand for receptor mediated endocytosis.</Comment>
+        </DataNode>
+  <DataNode TextLabel="E" GraphId="bbbcf" Type="Protein" GroupRef="f503f">
+    <Comment>AKA APo E, a ligand for receptor mediated endocytosis.</Comment>
+        </DataNode>
+  <DataNode TextLabel="MTP" GraphId="c741d" Type="GeneProduct">
+    <Comment>"Catalyzes the transport of triglyceride, cholesteryl ester, and phospholipid between phospholipid surfaces. Required for the secretion of plasma lipoproteins that contain apolipoprotein B." [https://www.uniprot.org/uniprot/P55157]</Comment>
+        </DataNode>
+  <Interaction GraphId="id100161b9">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="f5c32"/>
+      <Point GraphRef="e42eb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id444e240b">
+    <BiopaxRef>a67</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a3d29"/>
+      <Point GraphRef="a3424" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4367816091954018" Shape="None" GraphId="b78b2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id44587cee">
+    <Graphics>
+      <Point GraphRef="a2fe4"/>
+      <Point GraphRef="eff88" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id486de70c">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e463c"/>
+      <Point GraphRef="ed33b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5498245e">
+    <Graphics>
+      <Point GraphRef="db111"/>
+      <Point GraphRef="a582b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id56204ee1">
+    <Graphics>
+      <Point GraphRef="e14d8"/>
+      <Point GraphRef="b3f75" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4776320411384771" Shape="None" GraphId="c7033"/>
+      <Anchor Position="0.483067829139724" Shape="None" GraphId="d380b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7417e119">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ab814"/>
+      <Point/>
+      <Point GraphRef="abfde" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id76d8bd1c">
+    <Graphics>
+      <Point GraphRef="fddb5"/>
+      <Point GraphRef="a3d29" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5207814686147749" Shape="None" GraphId="be1d6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7a3039f6">
+    <Comment>Oxysterols and Bile acids are activators of nuclear hormone receptors, which are involved in sterol metabolism.</Comment>
+    <Graphics>
+      <Point GraphRef="e6032"/>
+      <Point GraphRef="c7e11" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id87db2526">
+    <Graphics>
+      <Point GraphRef="c3d61"/>
+      <Point GraphRef="abfde" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id90f3ee49">
+    <BiopaxRef>d07</BiopaxRef>
+    <BiopaxRef>eae</BiopaxRef>
+    <BiopaxRef>abb</BiopaxRef>
+    <BiopaxRef>b7c</BiopaxRef>
+    <BiopaxRef>fb8</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="efd64"/>
+      <Point GraphRef="ded1b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9179eec7">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a3424"/>
+      <Point GraphRef="da60c" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id91aacfc3">
+    <Graphics>
+      <Point GraphRef="b3f75"/>
+      <Point GraphRef="f9700" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id91c1e8bf">
+    <Graphics>
+      <Point GraphRef="fb57d"/>
+      <Point GraphRef="c7033" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id94bd6c4">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b15ec"/>
+      <Point/>
+      <Point GraphRef="a3d29" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9d374fe4">
+    <Comment>Transport of cholesterol-rich LDL into cell.</Comment>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="bf5f3"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="cbbd7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaa974573">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="abfde"/>
+      <Point GraphRef="da60c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6840279813403296" Shape="None" GraphId="e463c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaebe7fca">
+    <Graphics>
+      <Point GraphRef="d820d"/>
+      <Point GraphRef="b78b2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idafce192">
+    <Graphics>
+      <Point GraphRef="e7489"/>
+      <Point GraphRef="e14d8" ArrowHead="Arrow"/>
+      <Anchor Position="0.3632296009663078" Shape="None" GraphId="ded1b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcc399a35">
+    <Graphics>
+      <Point GraphRef="da60c"/>
+      <Point GraphRef="e2a67" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5709232722655543" Shape="None" GraphId="aa5ce"/>
+      <Anchor Position="0.5619444948304005" Shape="None" GraphId="eff88"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idce5366f8">
+    <Graphics>
+      <Point GraphRef="b485e"/>
+      <Point GraphRef="b6414" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcebb4f45">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a3424"/>
+      <Point/>
+      <Point GraphRef="b15ec" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd9cbf02b">
+    <BiopaxRef>ca1</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f5c32"/>
+      <Point GraphRef="abfde" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddcf88dc3">
+    <Graphics>
+      <Point GraphRef="bf0f8"/>
+      <Point GraphRef="a3424" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.32602633800025693" Shape="None" GraphId="a582b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide5250c6b">
+    <Graphics>
+      <Point GraphRef="f63e5"/>
+      <Point GraphRef="be1d6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide571e679">
+    <Graphics>
+      <Point GraphRef="a3424"/>
+      <Point GraphRef="a3d29" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4757458237856051" Shape="None" GraphId="b6414"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide60b483a">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="be1d6"/>
+      <Point GraphRef="e932c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideb2222c1">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e7489"/>
+      <Point GraphRef="a3d29" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf0c2e3ad">
+    <BiopaxRef>b5a</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f5c32"/>
+      <Point GraphRef="ea312" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a02a4">
+    <BiopaxRef>e4a</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e2a67"/>
+      <Point GraphRef="ab814" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7407407407407409" Shape="None" GraphId="bdde7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="deee1">
+    <Graphics>
+      <Point GraphRef="d6f30"/>
+      <Point GraphRef="bdde7" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida765c91">
+    <BiopaxRef>caa</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="dd4e5"/>
+      <Point GraphRef="f5c32" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id10ce9d03">
+    <Comment>Cholesterol is the precursor for steroid hormones.</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="cd187"/>
+      <Point GraphRef="ab550" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f16ca">
+    <Comment>Cholesterol is the precursor for Vitamin D.</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a7196"/>
+      <Point GraphRef="cf557" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f4a63">
+    <Comment>Cholesterol is the precursor for Oxysterols and Bile acids.</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="db79a"/>
+      <Point GraphRef="e6032" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9b79643f">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d572e"/>
+      <Point GraphRef="e84e1" ArrowHead="mim-binding"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bf5f3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8c6ae5bf">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d572e"/>
+      <Point GraphRef="ce526" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f1eb8">
+    <BiopaxRef>b5a</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f5c32"/>
+      <Point GraphRef="caa9a" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8ceb">
+    <BiopaxRef>b5a</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f5c32"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="c3dbf" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eddd3">
+    <BiopaxRef>d07</BiopaxRef>
+    <BiopaxRef>eae</BiopaxRef>
+    <BiopaxRef>abb</BiopaxRef>
+    <BiopaxRef>b7c</BiopaxRef>
+    <BiopaxRef>fb8</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c741d"/>
+      <Point GraphRef="e463c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6e2a">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a7aed"/>
+      <Point GraphRef="e1132" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="a6710">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="abfde"/>
+      <Point GraphRef="a6b6b" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="aced1">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a582b"/>
+      <Point GraphRef="cb2e7" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b5cf8">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c0ca0"/>
+      <Point GraphRef="bd09a" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c8487">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ded1b"/>
+      <Point GraphRef="a72da" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d1cb3">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c7033"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e9b02">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b1def"/>
+      <Point GraphRef="a0bf7" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="efcd3">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b6414"/>
+      <Point GraphRef="a1ae8" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f66be">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b15ec"/>
+      <Point GraphRef="c49bb" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fb97c">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bdde7"/>
+      <Point GraphRef="e941a" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d7069">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f4600"/>
+      <Point GraphRef="ec9f4" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="db8bd">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="fbfee"/>
+      <Point GraphRef="e7e8d" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c4a1f">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b78b2"/>
+      <Point GraphRef="b792f" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d3934">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c3d61"/>
+      <Point GraphRef="a891c" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="43.2.1" GraphId="a72da" Href="https://www.omim.org/entry/200100">
+    <Comment>Abetalipoproteinemia (MTP)</Comment>
+    <BiopaxRef>cbd</BiopaxRef>
+    <BiopaxRef>afb</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Chyclomicron" GraphId="bcd5d" GroupRef="dc6a8">
+    <Comment>Chyclomicron (CM) is one of the two main TG (triglyceride or triacylglycerol) carrying lipoproteins, which are spheroidal macromolecular complexes responsible for transporting lipids through plasma. </Comment>
+    <Comment>See also [https://en.wikipedia.org/wiki/Chylomicron]</Comment>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Endocytosis" GraphId="ce2e5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cholesterol is the precursor &#10;for steroid hormones." GraphId="e68bd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="43.2.2" GraphId="e7e8d" Href="https://www.omim.org/entry/605019">
+    <Comment>Hypobetalipoproteinemia (APOB)</Comment>
+    <BiopaxRef>cb2</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="43.5.1&#10;" GraphId="b2b1c" Href="https://www.omim.org/entry/238600">
+    <Comment>Lipoprotein lipase deficiency (LPL)</Comment>
+    <BiopaxRef>eff</BiopaxRef>
+    <BiopaxRef>dbe</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="43.5.2" GraphId="ec9f4" Href="https://www.omim.org/entry/207750">
+    <Comment>Apolipoprotein C2 deficiency (APOC2)</Comment>
+    <BiopaxRef>e53</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="43.6.2" GraphId="a0bf7" Href="https://www.omim.org/entry/107741">
+    <Comment>Dysbetalipoproteinemia (APOE)</Comment>
+    <BiopaxRef>c29</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="43.3.2" GraphId="e941a" Href="https://www.omim.org/entry/614025">
+    <Comment>Hepatic lipase deficiency (LIPC)</Comment>
+    <BiopaxRef>ac6</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="43.1.1" GraphId="dfcc9" Href="https://www.omim.org/entry/143890" GroupRef="e92a0">
+    <Comment>Familial hypercholesterolemia heterozygous (LDLR)</Comment>
+    <BiopaxRef>cda</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="43.1.2" GraphId="b6a77" Href="https://www.omim.org/entry/143890" GroupRef="e92a0">
+    <Comment>Familial hypercholesterolemia homozygous (LDLR)</Comment>
+    <BiopaxRef>cda</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="43.3.1" GraphId="cb2e7" Href="https://www.omim.org/entry/143470">
+    <Comment>Cholesteryl ester transfer protein deficiency (CETP)</Comment>
+    <BiopaxRef>d51</BiopaxRef>
+    <BiopaxRef>a02</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="43.4.1" GraphId="e932c" Href="https://www.omim.org/entry/205400">
+    <Comment>Tangier disease (ABCA1)</Comment>
+    <BiopaxRef>cea</BiopaxRef>
+    <BiopaxRef>aa3</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="43.4.4" GraphId="f13c8" Href="https://www.omim.org/entry/136120" GroupRef="ab98e">
+    <Comment>Familial LCAT deficiency (partial)</Comment>
+    <BiopaxRef>c91</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="43.4.3" GraphId="f1373" Href="https://www.omim.org/entry/245900" GroupRef="ab98e">
+    <Comment>Familial LCAT deficiency (complete)</Comment>
+    <BiopaxRef>a07</BiopaxRef>
+    <BiopaxRef>f5b</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="43.4.2" GraphId="bd09a" Href="https://www.omim.org/entry/107680">
+    <Comment>Apolipoprotein A-1 deficiency (APOA1)</Comment>
+    <BiopaxRef>ab5</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="43.3.3" GraphId="c49bb" Href="https://www.omim.org/entry/601040">
+    <Comment>Scavenger receptor B1 deficiency (SCARB1)</Comment>
+    <BiopaxRef>a25</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="43.1.4" GraphId="f0f87" Href="https://www.omim.org/entry/603776" GroupRef="e944e">
+    <Comment>Autosomal dominant hypercholesterolemia</Comment>
+    <BiopaxRef>b1e</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="43.2.3" GraphId="df921" Href="https://www.omim.org/entry/607786" GroupRef="e944e">
+    <Comment>PCSK9 deficiency with low LDL</Comment>
+    <BiopaxRef>b1e</BiopaxRef>
+    <BiopaxRef>bf2</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="43.2.1" GraphId="ed33b" Href="https://www.omim.org/entry/200100">
+    <Comment>Abetalipoproteinemia (MTP)</Comment>
+    <BiopaxRef>cbd</BiopaxRef>
+    <BiopaxRef>afb</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="43.2.2" GraphId="e1132" Href="https://www.omim.org/entry/144010">
+    <Comment>Hypobetalipoproteinemia (APOB)</Comment>
+    <BiopaxRef>f3f</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="43.1.3" GraphId="ce526" Href="https://www.omim.org/entry/144010">
+    <Comment>Familial defective apolipoprotein B (APOB)</Comment>
+    <BiopaxRef>ef6</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Remnant" GraphId="afe1e" GroupRef="f6a07">
+    <Comment/>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="HDL3" GraphId="edc2b" GroupRef="a45d1">
+    <Comment>High-density lipoprotein (HDL) is one of the two main cholesterol carrying lipoproteins,  which are spheroidal macromolecular complexes responsible for transporting lipids through plasma.</Comment>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="HDL2" GraphId="b8bd1" GroupRef="b0c05">
+    <Comment>High-density lipoprotein (HDL) is one of the two main cholesterol carrying lipoproteins,  which are spheroidal macromolecular complexes responsible for transporting lipids through plasma.</Comment>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="43.3.2" GraphId="b792f" Href="https://www.omim.org/entry/614025">
+    <Comment>Hepatic lipase deficiency (LIPC)</Comment>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="43.1.5" GraphId="a891c" Href="https://www.omim.org/entry/603813">
+    <Comment>Autosomal recessive hypercholesterolemia (ARH)</Comment>
+    <BiopaxRef>a69</BiopaxRef>
+    <BiopaxRef>c7b</BiopaxRef>
+    <Graphics FillColor="ffccff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Shape GraphId="bf0f8" GroupRef="d4ee4">
+    <Graphics FillColor="cccccc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a462e" GroupRef="f503f">
+    <Graphics FillColor="cccccc" ShapeType="Oval"/>
+  </Shape>
+  <Shape TextLabel="Liver" GraphId="c2a08">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cf0ce" GroupRef="dc6a8">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape TextLabel="Intestine&#10;" GraphId="e7489">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Cholesterol pool" GraphId="e881e" GroupRef="c112d">
+    <Graphics ShapeType="Sarcoplasmic Reticulum" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Cell" GraphId="fddb5">
+    <Comment>~ 80% of circulation cholesterol is produces endogenously by liver and extrahepatic tissues.</Comment>
+    <BiopaxRef>edc</BiopaxRef>
+    <Graphics Align="Left" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c4e24" GroupRef="f6a07">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e4f87" GroupRef="a45d1">
+    <Graphics FillColor="999999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ff771" GroupRef="b0c05">
+    <Graphics FillColor="999999" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bd933" GroupRef="f29db">
+    <Graphics FillColor="cccccc" ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="c95e7" Style="Group"/>
+  <Group GroupId="b4fd5" Style="Group"/>
+  <Group GroupId="e919d" Style="Group"/>
+  <Group GroupId="a99e0" GraphId="a1239" Style="Group"/>
+  <Group GroupId="ab98e" GraphId="a1ae8" Style="Group"/>
+  <Group GroupId="b0c05" GraphId="a3424" Style="Group"/>
+  <Group GroupId="a45d1" GraphId="a3d29" Style="Group"/>
+  <Group GroupId="e92a0" GraphId="a6b6b" Style="Group"/>
+  <Group GroupId="e793e" GraphId="ab550" Style="Group"/>
+  <Group GroupId="f29db" GraphId="ab814" Style="Group"/>
+  <Group GroupId="f6a07" GraphId="b3f75" Style="Group"/>
+  <Group GroupId="c112d" GraphId="cbbd7" Style="Group"/>
+  <Group GroupId="d4ee4" GraphId="da60c" Style="Group"/>
+  <Group GroupId="dc6a8" GraphId="e14d8" Style="Group"/>
+  <Group GroupId="f503f" GraphId="e2a67" Style="Group"/>
+  <Group GroupId="e944e" GraphId="e42eb" Style="Group"/>
+  <Group GroupId="b2e01" GraphId="e6032" Style="Group"/>
+  <Group GroupId="bd323" GraphId="ec9af" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a69">
+      <bp:ID >15728179</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Functional dissection of an AP-2 beta2 appendage-binding sequence within the autosomal recessive hypercholesterolemia protein.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Mishra SK</bp:AUTHORS>
+      <bp:AUTHORS >Keyel PA</bp:AUTHORS>
+      <bp:AUTHORS >Edeling MA</bp:AUTHORS>
+      <bp:AUTHORS >Dupin AL</bp:AUTHORS>
+      <bp:AUTHORS >Owen DJ</bp:AUTHORS>
+      <bp:AUTHORS >Traub LM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac6">
+      <bp:ID >6961921</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Lipoprotein abnormalities associated with a familial deficiency of hepatic lipase.</bp:TITLE>
+      <bp:SOURCE >Atherosclerosis</bp:SOURCE>
+      <bp:YEAR >1982</bp:YEAR>
+      <bp:AUTHORS >Breckenridge WC</bp:AUTHORS>
+      <bp:AUTHORS >Little JA</bp:AUTHORS>
+      <bp:AUTHORS >Alaupovic P</bp:AUTHORS>
+      <bp:AUTHORS >Wang CS</bp:AUTHORS>
+      <bp:AUTHORS >Kuksis A</bp:AUTHORS>
+      <bp:AUTHORS >Kakis G</bp:AUTHORS>
+      <bp:AUTHORS >Lindgren F</bp:AUTHORS>
+      <bp:AUTHORS >Gardiner G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eff">
+      <bp:ID >2511019</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Defective enzyme protein in lipoprotein lipase deficiency.</bp:TITLE>
+      <bp:SOURCE >Eur J Clin Invest</bp:SOURCE>
+      <bp:YEAR >1989</bp:YEAR>
+      <bp:AUTHORS >Auwerx JH</bp:AUTHORS>
+      <bp:AUTHORS >Babirak SP</bp:AUTHORS>
+      <bp:AUTHORS >Fujimoto WY</bp:AUTHORS>
+      <bp:AUTHORS >Iverius PH</bp:AUTHORS>
+      <bp:AUTHORS >Brunzell JD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b7c">
+      <bp:ID >25108285</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Novel missense MTTP gene mutations causing abetalipoproteinemia.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Miller SA</bp:AUTHORS>
+      <bp:AUTHORS >Burnett JR</bp:AUTHORS>
+      <bp:AUTHORS >Leonis MA</bp:AUTHORS>
+      <bp:AUTHORS >McKnight CJ</bp:AUTHORS>
+      <bp:AUTHORS >van Bockxmeer FM</bp:AUTHORS>
+      <bp:AUTHORS >Hooper AJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d51">
+      <bp:ID >15071125</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Effects of an inhibitor of cholesteryl ester transfer protein on HDL cholesterol.</bp:TITLE>
+      <bp:SOURCE >N Engl J Med</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Brousseau ME</bp:AUTHORS>
+      <bp:AUTHORS >Schaefer EJ</bp:AUTHORS>
+      <bp:AUTHORS >Wolfe ML</bp:AUTHORS>
+      <bp:AUTHORS >Bloedon LT</bp:AUTHORS>
+      <bp:AUTHORS >Digenio AG</bp:AUTHORS>
+      <bp:AUTHORS >Clark RW</bp:AUTHORS>
+      <bp:AUTHORS >Mancuso JP</bp:AUTHORS>
+      <bp:AUTHORS >Rader DJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb8">
+      <bp:ID >22236406</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Molecular and functional analysis of two new MTTP gene mutations in an atypical case of abetalipoproteinemia.</bp:TITLE>
+      <bp:SOURCE >J Lipid Res</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Di Filippo M</bp:AUTHORS>
+      <bp:AUTHORS >Cr&#233;halet H</bp:AUTHORS>
+      <bp:AUTHORS >Samson-Bouma ME</bp:AUTHORS>
+      <bp:AUTHORS >Bonnet V</bp:AUTHORS>
+      <bp:AUTHORS >Aggerbeck LP</bp:AUTHORS>
+      <bp:AUTHORS >Rab&#232;s JP</bp:AUTHORS>
+      <bp:AUTHORS >Gottrand F</bp:AUTHORS>
+      <bp:AUTHORS >Luc G</bp:AUTHORS>
+      <bp:AUTHORS >Bozon D</bp:AUTHORS>
+      <bp:AUTHORS >Sassolas A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b5a">
+      <bp:ID >18039658</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The proprotein convertase PCSK9 induces the degradation of low density lipoprotein receptor (LDLR) and its closest family members VLDLR and ApoER2.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Poirier S</bp:AUTHORS>
+      <bp:AUTHORS >Mayer G</bp:AUTHORS>
+      <bp:AUTHORS >Benjannet S</bp:AUTHORS>
+      <bp:AUTHORS >Bergeron E</bp:AUTHORS>
+      <bp:AUTHORS >Marcinkiewicz J</bp:AUTHORS>
+      <bp:AUTHORS >Nassoury N</bp:AUTHORS>
+      <bp:AUTHORS >Mayer H</bp:AUTHORS>
+      <bp:AUTHORS >Nimpf J</bp:AUTHORS>
+      <bp:AUTHORS >Prat A</bp:AUTHORS>
+      <bp:AUTHORS >Seidah NG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="abb">
+      <bp:ID >26224785</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Novel Abetalipoproteinemia Missense Mutation Highlights the Importance of the N-Terminal &#946;-Barrel in Microsomal Triglyceride Transfer Protein Function.</bp:TITLE>
+      <bp:SOURCE >Circ Cardiovasc Genet</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Walsh MT</bp:AUTHORS>
+      <bp:AUTHORS >Iqbal J</bp:AUTHORS>
+      <bp:AUTHORS >Josekutty J</bp:AUTHORS>
+      <bp:AUTHORS >Soh J</bp:AUTHORS>
+      <bp:AUTHORS >Di Leo E</bp:AUTHORS>
+      <bp:AUTHORS >&#214;zaydin E</bp:AUTHORS>
+      <bp:AUTHORS >G&#252;nd&#252;z M</bp:AUTHORS>
+      <bp:AUTHORS >Tarugi P</bp:AUTHORS>
+      <bp:AUTHORS >Hussain MM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aa3">
+      <bp:ID >190272</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The lipoprotein abnormality in Tangier disease: quantitation of A apoproteins.</bp:TITLE>
+      <bp:SOURCE >J Clin Invest</bp:SOURCE>
+      <bp:YEAR >1977</bp:YEAR>
+      <bp:AUTHORS >Assmann G</bp:AUTHORS>
+      <bp:AUTHORS >Smootz E</bp:AUTHORS>
+      <bp:AUTHORS >Adler K</bp:AUTHORS>
+      <bp:AUTHORS >Capurso A</bp:AUTHORS>
+      <bp:AUTHORS >Oette K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef6">
+      <bp:ID >3477815</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Familial defective apolipoprotein B-100: low density lipoproteins with abnormal receptor binding.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >1987</bp:YEAR>
+      <bp:AUTHORS >Innerarity TL</bp:AUTHORS>
+      <bp:AUTHORS >Weisgraber KH</bp:AUTHORS>
+      <bp:AUTHORS >Arnold KS</bp:AUTHORS>
+      <bp:AUTHORS >Mahley RW</bp:AUTHORS>
+      <bp:AUTHORS >Krauss RM</bp:AUTHORS>
+      <bp:AUTHORS >Vega GL</bp:AUTHORS>
+      <bp:AUTHORS >Grundy SM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c91">
+      <bp:ID >4061122</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Evidence for deficiency of high density lipoprotein lecithin: cholesterol acyltransferase activity (alpha-LCAT) in fish eye disease.</bp:TITLE>
+      <bp:SOURCE >Acta Med Scand</bp:SOURCE>
+      <bp:YEAR >1985</bp:YEAR>
+      <bp:AUTHORS >Carlson LA</bp:AUTHORS>
+      <bp:AUTHORS >Holmquist L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cbd">
+      <bp:ID >24288038</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Abetalipoproteinemia and homozygous hypobetalipoproteinemia: a framework for diagnosis and management.</bp:TITLE>
+      <bp:SOURCE >J Inherit Metab Dis</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Lee J</bp:AUTHORS>
+      <bp:AUTHORS >Hegele RA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a07">
+      <bp:ID >7327552</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Familial lecithin-cholesterol acyltransferase: identification of heterozygotes with half-normal enzyme activity and mass.</bp:TITLE>
+      <bp:SOURCE >Hum Genet</bp:SOURCE>
+      <bp:YEAR >1981</bp:YEAR>
+      <bp:AUTHORS >Albers JJ</bp:AUTHORS>
+      <bp:AUTHORS >Chen C</bp:AUTHORS>
+      <bp:AUTHORS >Adolphson JL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="afb">
+      <bp:ID >6403642</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Plasma lipoproteins in familial combined hyperlipidemia and monogenic familial hypertriglyceridemia.</bp:TITLE>
+      <bp:SOURCE >J Lipid Res</bp:SOURCE>
+      <bp:YEAR >1983</bp:YEAR>
+      <bp:AUTHORS >Brunzell JD</bp:AUTHORS>
+      <bp:AUTHORS >Albers JJ</bp:AUTHORS>
+      <bp:AUTHORS >Chait A</bp:AUTHORS>
+      <bp:AUTHORS >Grundy SM</bp:AUTHORS>
+      <bp:AUTHORS >Groszek E</bp:AUTHORS>
+      <bp:AUTHORS >McDonald GB</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >lipoprotein metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000482</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >hypobetalipoproteinemia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:1390</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f3f">
+      <bp:ID >52771</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A new type of familial hypercholesterolaemia.</bp:TITLE>
+      <bp:SOURCE >Lancet</bp:SOURCE>
+      <bp:YEAR >1975</bp:YEAR>
+      <bp:AUTHORS >Higgins MJ</bp:AUTHORS>
+      <bp:AUTHORS >Lecamwasam DS</bp:AUTHORS>
+      <bp:AUTHORS >Galton DJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >familial combined hyperlipidemia pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000175</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c7b">
+      <bp:ID >12016260</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mutation in the ARH gene and a chromosome 13q locus influence cholesterol levels in a new form of digenic-recessive familial hypercholesterolemia.</bp:TITLE>
+      <bp:SOURCE >Circ Res</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Al-Kateb H</bp:AUTHORS>
+      <bp:AUTHORS >B&#228;hring D</bp:AUTHORS>
+      <bp:AUTHORS >Hoffmann K</bp:AUTHORS>
+      <bp:AUTHORS >Strauch K</bp:AUTHORS>
+      <bp:AUTHORS >Busjahn A</bp:AUTHORS>
+      <bp:AUTHORS >N&#252;rnberg G</bp:AUTHORS>
+      <bp:AUTHORS >Jouma M</bp:AUTHORS>
+      <bp:AUTHORS >Bautz EK</bp:AUTHORS>
+      <bp:AUTHORS >Dresel HA</bp:AUTHORS>
+      <bp:AUTHORS >Luft FC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cb2">
+      <bp:ID >28538136</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Genetic and Pharmacologic Inactivation of ANGPTL3 and Cardiovascular Disease.</bp:TITLE>
+      <bp:SOURCE >N Engl J Med</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Dewey FE</bp:AUTHORS>
+      <bp:AUTHORS >Gusarova V</bp:AUTHORS>
+      <bp:AUTHORS >Dunbar RL</bp:AUTHORS>
+      <bp:AUTHORS >O'Dushlaine C</bp:AUTHORS>
+      <bp:AUTHORS >Schurmann C</bp:AUTHORS>
+      <bp:AUTHORS >Gottesman O</bp:AUTHORS>
+      <bp:AUTHORS >McCarthy S</bp:AUTHORS>
+      <bp:AUTHORS >Van Hout CV</bp:AUTHORS>
+      <bp:AUTHORS >Bruse S</bp:AUTHORS>
+      <bp:AUTHORS >Dansky HM</bp:AUTHORS>
+      <bp:AUTHORS >Leader JB</bp:AUTHORS>
+      <bp:AUTHORS >Murray MF</bp:AUTHORS>
+      <bp:AUTHORS >Ritchie MD</bp:AUTHORS>
+      <bp:AUTHORS >Kirchner HL</bp:AUTHORS>
+      <bp:AUTHORS >Habegger L</bp:AUTHORS>
+      <bp:AUTHORS >Lopez A</bp:AUTHORS>
+      <bp:AUTHORS >Penn J</bp:AUTHORS>
+      <bp:AUTHORS >Zhao A</bp:AUTHORS>
+      <bp:AUTHORS >Shao W</bp:AUTHORS>
+      <bp:AUTHORS >Stahl N</bp:AUTHORS>
+      <bp:AUTHORS >Murphy AJ</bp:AUTHORS>
+      <bp:AUTHORS >Hamon S</bp:AUTHORS>
+      <bp:AUTHORS >Bouzelmat A</bp:AUTHORS>
+      <bp:AUTHORS >Zhang R</bp:AUTHORS>
+      <bp:AUTHORS >Shumel B</bp:AUTHORS>
+      <bp:AUTHORS >Pordy R</bp:AUTHORS>
+      <bp:AUTHORS >Gipe D</bp:AUTHORS>
+      <bp:AUTHORS >Herman GA</bp:AUTHORS>
+      <bp:AUTHORS >Sheu WHH</bp:AUTHORS>
+      <bp:AUTHORS >Lee IT</bp:AUTHORS>
+      <bp:AUTHORS >Liang KW</bp:AUTHORS>
+      <bp:AUTHORS >Guo X</bp:AUTHORS>
+      <bp:AUTHORS >Rotter JI</bp:AUTHORS>
+      <bp:AUTHORS >Chen YI</bp:AUTHORS>
+      <bp:AUTHORS >Kraus WE</bp:AUTHORS>
+      <bp:AUTHORS >Shah SH</bp:AUTHORS>
+      <bp:AUTHORS >Damrauer S</bp:AUTHORS>
+      <bp:AUTHORS >Small A</bp:AUTHORS>
+      <bp:AUTHORS >Rader DJ</bp:AUTHORS>
+      <bp:AUTHORS >Wulff AB</bp:AUTHORS>
+      <bp:AUTHORS >Nordestgaard BG</bp:AUTHORS>
+      <bp:AUTHORS >Tybj&#195;&#166;rg-Hansen A</bp:AUTHORS>
+      <bp:AUTHORS >van den Hoek AM</bp:AUTHORS>
+      <bp:AUTHORS >Princen HMG</bp:AUTHORS>
+      <bp:AUTHORS >Ledbetter DH</bp:AUTHORS>
+      <bp:AUTHORS >Carey DJ</bp:AUTHORS>
+      <bp:AUTHORS >Overton JD</bp:AUTHORS>
+      <bp:AUTHORS >Reid JG</bp:AUTHORS>
+      <bp:AUTHORS >Sasiela WJ</bp:AUTHORS>
+      <bp:AUTHORS >Banerjee P</bp:AUTHORS>
+      <bp:AUTHORS >Shuldiner AR</bp:AUTHORS>
+      <bp:AUTHORS >Borecki IB</bp:AUTHORS>
+      <bp:AUTHORS >Teslovich TM</bp:AUTHORS>
+      <bp:AUTHORS >Yancopoulos GD</bp:AUTHORS>
+      <bp:AUTHORS >Mellis SJ</bp:AUTHORS>
+      <bp:AUTHORS >Gromada J</bp:AUTHORS>
+      <bp:AUTHORS >Baras A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cda">
+      <bp:ID >7426196</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cadiovascular complications of homozygous familial hypercholesterolaemia.</bp:TITLE>
+      <bp:SOURCE >Br Heart J</bp:SOURCE>
+      <bp:YEAR >1980</bp:YEAR>
+      <bp:AUTHORS >Allen JM</bp:AUTHORS>
+      <bp:AUTHORS >Thompson GR</bp:AUTHORS>
+      <bp:AUTHORS >Myant NB</bp:AUTHORS>
+      <bp:AUTHORS >Steiner R</bp:AUTHORS>
+      <bp:AUTHORS >Oakley CM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a5e">
+      <bp:ID >27068984</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Current trends in oxysterol research.</bp:TITLE>
+      <bp:SOURCE >Biochem Soc Trans</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Griffiths WJ</bp:AUTHORS>
+      <bp:AUTHORS >Abdel-Khalik J</bp:AUTHORS>
+      <bp:AUTHORS >Hearn T</bp:AUTHORS>
+      <bp:AUTHORS >Yutuc E</bp:AUTHORS>
+      <bp:AUTHORS >Morgan AH</bp:AUTHORS>
+      <bp:AUTHORS >Wang Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca1">
+      <bp:ID >17215125</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Molecular biology of PCSK9: its role in LDL metabolism.</bp:TITLE>
+      <bp:SOURCE >Trends Biochem Sci</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Horton JD</bp:AUTHORS>
+      <bp:AUTHORS >Cohen JC</bp:AUTHORS>
+      <bp:AUTHORS >Hobbs HH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b1e">
+      <bp:ID >12730697</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mutations in PCSK9 cause autosomal dominant hypercholesterolemia.</bp:TITLE>
+      <bp:SOURCE >Nat Genet</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Abifadel M</bp:AUTHORS>
+      <bp:AUTHORS >Varret M</bp:AUTHORS>
+      <bp:AUTHORS >Rab&#195;&#168;s</bp:AUTHORS>
+      <bp:AUTHORS >Allard D</bp:AUTHORS>
+      <bp:AUTHORS >Ouguerram K</bp:AUTHORS>
+      <bp:AUTHORS >Devillers M</bp:AUTHORS>
+      <bp:AUTHORS >Cruaud C</bp:AUTHORS>
+      <bp:AUTHORS >Benjannet S</bp:AUTHORS>
+      <bp:AUTHORS >Wickham L</bp:AUTHORS>
+      <bp:AUTHORS >Erlich D</bp:AUTHORS>
+      <bp:AUTHORS >Derr&#195;&#169; A</bp:AUTHORS>
+      <bp:AUTHORS >Vill&#195;&#169;ger L</bp:AUTHORS>
+      <bp:AUTHORS >Farnier M</bp:AUTHORS>
+      <bp:AUTHORS >Beucler I</bp:AUTHORS>
+      <bp:AUTHORS >Bruckert E</bp:AUTHORS>
+      <bp:AUTHORS >Chambaz J</bp:AUTHORS>
+      <bp:AUTHORS >Chanu B</bp:AUTHORS>
+      <bp:AUTHORS >Lecerf JM</bp:AUTHORS>
+      <bp:AUTHORS >Luc G</bp:AUTHORS>
+      <bp:AUTHORS >Moulin P</bp:AUTHORS>
+      <bp:AUTHORS >Weissenbach J</bp:AUTHORS>
+      <bp:AUTHORS >Prat A</bp:AUTHORS>
+      <bp:AUTHORS >Krempf M</bp:AUTHORS>
+      <bp:AUTHORS >Junien C</bp:AUTHORS>
+      <bp:AUTHORS >Seidah NG</bp:AUTHORS>
+      <bp:AUTHORS >Boileau C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d07">
+      <bp:ID >23475612</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Loss of both phospholipid and triglyceride transfer activities of microsomal triglyceride transfer protein in abetalipoproteinemia.</bp:TITLE>
+      <bp:SOURCE >J Lipid Res</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Khatun I</bp:AUTHORS>
+      <bp:AUTHORS >Walsh MT</bp:AUTHORS>
+      <bp:AUTHORS >Hussain MM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a67">
+      <bp:ID >23066022</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Studies on the substrate and stereo/regioselectivity of adipose triglyceride lipase, hormone-sensitive lipase, and diacylglycerol-O-acyltransferases.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Eichmann TO</bp:AUTHORS>
+      <bp:AUTHORS >Kumari M</bp:AUTHORS>
+      <bp:AUTHORS >Haas JT</bp:AUTHORS>
+      <bp:AUTHORS >Farese RV Jr</bp:AUTHORS>
+      <bp:AUTHORS >Zimmermann R</bp:AUTHORS>
+      <bp:AUTHORS >Lass A</bp:AUTHORS>
+      <bp:AUTHORS >Zechner R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bf2">
+      <bp:ID >18499582</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A PCSK9 missense variant associated with a reduced risk of early-onset myocardial infarction.</bp:TITLE>
+      <bp:SOURCE >N Engl J Med</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Kathiresan S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eae">
+      <bp:ID >8939939</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A novel abetalipoproteinemia genotype. Identification of a missense mutation in the 97-kDa subunit of the microsomal triglyceride transfer protein that prevents complex formation with protein disulfide isomerase.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >Rehberg EF</bp:AUTHORS>
+      <bp:AUTHORS >Samson-Bouma ME</bp:AUTHORS>
+      <bp:AUTHORS >Kienzle B</bp:AUTHORS>
+      <bp:AUTHORS >Blinderman L</bp:AUTHORS>
+      <bp:AUTHORS >Jamil H</bp:AUTHORS>
+      <bp:AUTHORS >Wetterau JR</bp:AUTHORS>
+      <bp:AUTHORS >Aggerbeck LP</bp:AUTHORS>
+      <bp:AUTHORS >Gordon DA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e64">
+      <bp:ID >9783642403361</bp:ID>
+      <bp:DB >ISBN</bp:DB>
+      <bp:TITLE >Physician's Guide to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases</bp:TITLE>
+      <bp:SOURCE >9783642403361</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Blau Nenad</bp:AUTHORS>
+      <bp:AUTHORS >Duran Marinus</bp:AUTHORS>
+      <bp:AUTHORS >Gibson, K,  Michael</bp:AUTHORS>
+      <bp:AUTHORS >Dionisi-Vici, Carlo</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dbe">
+      <bp:ID >3630977</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >An incomplete form of familial lipoprotein lipase deficiency presenting with type I hyperlipoproteinemia.</bp:TITLE>
+      <bp:SOURCE >Am J Clin Pathol</bp:SOURCE>
+      <bp:YEAR >1987</bp:YEAR>
+      <bp:AUTHORS >Berger GM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e4a">
+      <bp:ID >11717312</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Hormone-sensitive lipase deficiency in mice causes diglyceride accumulation in adipose tissue, muscle, and testis.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Haemmerle G</bp:AUTHORS>
+      <bp:AUTHORS >Zimmermann R</bp:AUTHORS>
+      <bp:AUTHORS >Hayn M</bp:AUTHORS>
+      <bp:AUTHORS >Theussl C</bp:AUTHORS>
+      <bp:AUTHORS >Waeg G</bp:AUTHORS>
+      <bp:AUTHORS >Wagner E</bp:AUTHORS>
+      <bp:AUTHORS >Sattler W</bp:AUTHORS>
+      <bp:AUTHORS >Magin TM</bp:AUTHORS>
+      <bp:AUTHORS >Wagner EF</bp:AUTHORS>
+      <bp:AUTHORS >Zechner R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab5">
+      <bp:ID >16452169</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Crystal structure of human apolipoprotein A-I: insights into its protective effect against cardiovascular diseases.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Ajees AA</bp:AUTHORS>
+      <bp:AUTHORS >Anantharamaiah GM</bp:AUTHORS>
+      <bp:AUTHORS >Mishra VK</bp:AUTHORS>
+      <bp:AUTHORS >Hussain MM</bp:AUTHORS>
+      <bp:AUTHORS >Murthy HM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >altered lipoprotein metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000484</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >triacylglycerol metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000153</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e62">
+      <bp:ID >26965621</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Rare variant in scavenger receptor BI raises HDL cholesterol and increases risk of coronary heart disease.</bp:TITLE>
+      <bp:SOURCE >Science</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Zanoni P</bp:AUTHORS>
+      <bp:AUTHORS >Khetarpal SA</bp:AUTHORS>
+      <bp:AUTHORS >Larach DB</bp:AUTHORS>
+      <bp:AUTHORS >Hancock-Cerutti WF</bp:AUTHORS>
+      <bp:AUTHORS >Millar JS</bp:AUTHORS>
+      <bp:AUTHORS >Cuchel M</bp:AUTHORS>
+      <bp:AUTHORS >DerOhannessian S</bp:AUTHORS>
+      <bp:AUTHORS >Kontush A</bp:AUTHORS>
+      <bp:AUTHORS >Surendran P</bp:AUTHORS>
+      <bp:AUTHORS >Saleheen D</bp:AUTHORS>
+      <bp:AUTHORS >Trompet S</bp:AUTHORS>
+      <bp:AUTHORS >Jukema JW</bp:AUTHORS>
+      <bp:AUTHORS >De Craen A</bp:AUTHORS>
+      <bp:AUTHORS >Deloukas P</bp:AUTHORS>
+      <bp:AUTHORS >Sattar N</bp:AUTHORS>
+      <bp:AUTHORS >Ford I</bp:AUTHORS>
+      <bp:AUTHORS >Packard C</bp:AUTHORS>
+      <bp:AUTHORS >Majumder Aa</bp:AUTHORS>
+      <bp:AUTHORS >Alam DS</bp:AUTHORS>
+      <bp:AUTHORS >Di Angelantonio E</bp:AUTHORS>
+      <bp:AUTHORS >Abecasis G</bp:AUTHORS>
+      <bp:AUTHORS >Chowdhury R</bp:AUTHORS>
+      <bp:AUTHORS >Erdmann J</bp:AUTHORS>
+      <bp:AUTHORS >Nordestgaard BG</bp:AUTHORS>
+      <bp:AUTHORS >Nielsen SF</bp:AUTHORS>
+      <bp:AUTHORS >Tybj&#230;rg-Hansen A</bp:AUTHORS>
+      <bp:AUTHORS >Schmidt RF</bp:AUTHORS>
+      <bp:AUTHORS >Kuulasmaa K</bp:AUTHORS>
+      <bp:AUTHORS >Liu DJ</bp:AUTHORS>
+      <bp:AUTHORS >Perola M</bp:AUTHORS>
+      <bp:AUTHORS >Blankenberg S</bp:AUTHORS>
+      <bp:AUTHORS >Salomaa V</bp:AUTHORS>
+      <bp:AUTHORS >M&#228;nnist&#246; S</bp:AUTHORS>
+      <bp:AUTHORS >Amouyel P</bp:AUTHORS>
+      <bp:AUTHORS >Arveiler D</bp:AUTHORS>
+      <bp:AUTHORS >Ferrieres J</bp:AUTHORS>
+      <bp:AUTHORS >M&#252;ller-Nurasyid M</bp:AUTHORS>
+      <bp:AUTHORS >Ferrario M</bp:AUTHORS>
+      <bp:AUTHORS >Kee F</bp:AUTHORS>
+      <bp:AUTHORS >Willer CJ</bp:AUTHORS>
+      <bp:AUTHORS >Samani N</bp:AUTHORS>
+      <bp:AUTHORS >Schunkert H</bp:AUTHORS>
+      <bp:AUTHORS >Butterworth AS</bp:AUTHORS>
+      <bp:AUTHORS >Howson JM</bp:AUTHORS>
+      <bp:AUTHORS >Peloso GM</bp:AUTHORS>
+      <bp:AUTHORS >Stitziel NO</bp:AUTHORS>
+      <bp:AUTHORS >Danesh J</bp:AUTHORS>
+      <bp:AUTHORS >Kathiresan S</bp:AUTHORS>
+      <bp:AUTHORS >Rader DJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c29">
+      <bp:ID >3004475</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >ApoE deficiency: markedly decreased levels of cellular ApoE mRNA.</bp:TITLE>
+      <bp:SOURCE >Biochem Biophys Res Commun</bp:SOURCE>
+      <bp:YEAR >1986</bp:YEAR>
+      <bp:AUTHORS >Anchors JM</bp:AUTHORS>
+      <bp:AUTHORS >Gregg RE</bp:AUTHORS>
+      <bp:AUTHORS >Law SW</bp:AUTHORS>
+      <bp:AUTHORS >Brewer HB Jr</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="edc">
+      <bp:ID >19139765</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Plasma lipoproteins: geneticinfluences and clinical implications.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Genet</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Hegele RA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a25">
+      <bp:ID >21480869</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Novel mutations in scavenger receptor BI associated with high HDL cholesterol in humans.</bp:TITLE>
+      <bp:SOURCE >Clin Genet</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Brunham LR</bp:AUTHORS>
+      <bp:AUTHORS >Tietjen I</bp:AUTHORS>
+      <bp:AUTHORS >Bochem AE</bp:AUTHORS>
+      <bp:AUTHORS >Singaraja RR</bp:AUTHORS>
+      <bp:AUTHORS >Franchini PL</bp:AUTHORS>
+      <bp:AUTHORS >Radomski C</bp:AUTHORS>
+      <bp:AUTHORS >Mattice M</bp:AUTHORS>
+      <bp:AUTHORS >Legendre A</bp:AUTHORS>
+      <bp:AUTHORS >Hovingh GK</bp:AUTHORS>
+      <bp:AUTHORS >Kastelein JJ</bp:AUTHORS>
+      <bp:AUTHORS >Hayden MR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="caa">
+      <bp:ID >24808179</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Annexin A2 reduces PCSK9 protein levels via a translational mechanism and interacts with the M1 and M2 domains of PCSK9.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Ly K</bp:AUTHORS>
+      <bp:AUTHORS >Saavedra YG</bp:AUTHORS>
+      <bp:AUTHORS >Canuel M</bp:AUTHORS>
+      <bp:AUTHORS >Routhier S</bp:AUTHORS>
+      <bp:AUTHORS >Desjardins R</bp:AUTHORS>
+      <bp:AUTHORS >Hamelin J</bp:AUTHORS>
+      <bp:AUTHORS >Mayne J</bp:AUTHORS>
+      <bp:AUTHORS >Lazure C</bp:AUTHORS>
+      <bp:AUTHORS >Seidah NG</bp:AUTHORS>
+      <bp:AUTHORS >Day R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cea">
+      <bp:ID >194920</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Isolation and characterization of an abnormal high density lipoprotein in Tangier Diesase.</bp:TITLE>
+      <bp:SOURCE >J Clin Invest</bp:SOURCE>
+      <bp:YEAR >1977</bp:YEAR>
+      <bp:AUTHORS >Assmann G</bp:AUTHORS>
+      <bp:AUTHORS >Herbert PN</bp:AUTHORS>
+      <bp:AUTHORS >Fredrickson DS</bp:AUTHORS>
+      <bp:AUTHORS >Forte T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Tangier disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:1388</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >familial combined hyperlipidemia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:13809</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >autosomal recessive hypercholesterolemia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0090105</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e53">
+      <bp:ID >3944267</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Apolipoprotein C-II deficiency syndrome. Clinical features, lipoprotein characterization, lipase activity, and correction of hypertriglyceridemia after apolipoprotein C-II administration in two affected patients.</bp:TITLE>
+      <bp:SOURCE >J Clin Invest</bp:SOURCE>
+      <bp:YEAR >1986</bp:YEAR>
+      <bp:AUTHORS >Baggio G</bp:AUTHORS>
+      <bp:AUTHORS >Manzato E</bp:AUTHORS>
+      <bp:AUTHORS >Gabelli C</bp:AUTHORS>
+      <bp:AUTHORS >Fellin R</bp:AUTHORS>
+      <bp:AUTHORS >Martini S</bp:AUTHORS>
+      <bp:AUTHORS >Enzi GB</bp:AUTHORS>
+      <bp:AUTHORS >Verlato F</bp:AUTHORS>
+      <bp:AUTHORS >Baiocchi MR</bp:AUTHORS>
+      <bp:AUTHORS >Sprecher DL</bp:AUTHORS>
+      <bp:AUTHORS >Kashyap ML</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a02">
+      <bp:ID >168823</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Familial hyperalphalipoproteinemia.</bp:TITLE>
+      <bp:SOURCE >Arch Intern Med</bp:SOURCE>
+      <bp:YEAR >1975</bp:YEAR>
+      <bp:AUTHORS >Glueck CJ</bp:AUTHORS>
+      <bp:AUTHORS >Fallat RW</bp:AUTHORS>
+      <bp:AUTHORS >Millett F</bp:AUTHORS>
+      <bp:AUTHORS >Steiner PM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f5b">
+      <bp:ID >6805319</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Detection of heterozygotes for familial lecithin: cholesterol acyltransferase (LCAT) deficiency.</bp:TITLE>
+      <bp:SOURCE >Am J Hum Genet</bp:SOURCE>
+      <bp:YEAR >1982</bp:YEAR>
+      <bp:AUTHORS >Frohlich J</bp:AUTHORS>
+      <bp:AUTHORS >Hon K</bp:AUTHORS>
+      <bp:AUTHORS >McLeod R</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

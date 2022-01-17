@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Riboflavin and CoQ disorders" Version="20210108" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Riboflavin (aka Vitamin B2) is used as molecular precursor for the formation of FAD and FMN, which are both essential cofactors in beta-oxidation, branched-chain-amino-acid catabolism and the mitochondrial electron transport of the TCA cycle.
+
+Coenzyme Q10 (aka ubiquinone or CoQ10) functions as a electron carrier, antioxidant and influences pyrimidine metabolism directly.
+
+This pathway was inspired by Chapter 16 (ed. 4) from the book of Blau (ISBN 3642403360 (978-3642403361)).</Comment>
+  <BiopaxRef>ffd</BiopaxRef>
+  <Graphics BoardWidth="1663.6842105263158" BoardHeight="670.5237512860848"/>
+  <DataNode TextLabel="One carbon&#10;metabolism" GraphId="a01da" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="a ubiquinone" GraphId="a3236" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Mevalonate&#10;pathway" GraphId="a5fe4" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="PDSS1" GraphId="aa7cf" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Riboflavin &#10;kinase" GraphId="ac0e7" Type="Protein">
+    <Comment>EC: 2.7.1.26 (according to Rhea)</Comment>
+        </DataNode>
+  <DataNode TextLabel="Pyrimidine metabolism&#10;and related disorders" GraphId="b02df" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="FADH2" GraphId="b13e0" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CABC1" GraphId="b363d" Type="Protein">
+    <Comment>aka COQ8A, ADCK3.</Comment>
+    <Comment>atypical kinase, substrate specificity unknown [https://www.uniprot.org/uniprot/Q8NI60]</Comment>
+    <BiopaxRef>e4d</BiopaxRef>
+    <BiopaxRef>c0d</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="6 PP" GraphId="ba063" Type="Metabolite">
+    <Comment>diphosphate</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="OXPHOS" GraphId="bd37c" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="FMN" GraphId="ca3b4" Type="Metabolite">
+    <Comment>aka flavin mononucleotide</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="APTX" GraphId="d3c8f" Type="Protein">
+    <BiopaxRef>f4e</BiopaxRef>
+    <BiopaxRef>ce5</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="trans-deca&#10;prenyl-PP" GraphId="d557f" Type="Metabolite">
+    <Comment>aka all-trans-decaprenyl diphosphate</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CETF" GraphId="d9b01" Type="GeneProduct" GroupRef="a8e6c">
+    <Comment>aka electron transfer flavoprotein complex</Comment>
+        </DataNode>
+  <DataNode TextLabel="FAD &#10;synthetase" GraphId="e1024" Type="Protein">
+    <Comment>aka FLAD1, EC 2.7.7.2 [https://en.wikipedia.org/wiki/FMN_adenylyltransferase]</Comment>
+    <BiopaxRef>fb8</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CoQ10" GraphId="e286c" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ETFDH gene" GraphId="ebea8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="6 IPP" GraphId="f1137" Type="Metabolite">
+    <Comment>aka isopentenyl diphosphate</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ETFDH" GraphId="f2452" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Farnesyl-PP" GraphId="f394e" Type="Metabolite">
+    <Comment>aka Farnesyl PyroPhosphate</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AMP" GraphId="f73ee" Type="Metabolite" GroupRef="a8e6c">
+    <Comment>cofactor [https://en.wikipedia.org/wiki/Electron-transferring_flavoprotein]</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="RIB" GraphId="d417e" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SLC52A1" GraphId="b350d" Type="Protein" GroupRef="cf537">
+        </DataNode>
+  <DataNode TextLabel="FMN" GraphId="c44b3" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="RIB" GraphId="ac1e2" Type="Metabolite">
+    <Comment>aka riboflavin</Comment>
+    <BiopaxRef>fb8</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FAD" GraphId="ce039" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SLC52A2" GraphId="f4ae6" Type="Protein" GroupRef="cf537">
+        </DataNode>
+  <DataNode TextLabel="SLC52A3" GraphId="f110f" Type="Protein" GroupRef="cf537">
+        </DataNode>
+  <DataNode TextLabel="ETFA" GraphId="ca42c" Type="Protein" GroupRef="a8e6c">
+        </DataNode>
+  <DataNode TextLabel="ETFB" GraphId="b4f58" Type="Protein" GroupRef="a8e6c">
+        </DataNode>
+  <DataNode TextLabel="FAD" GraphId="dd02d" Type="Metabolite">
+    <Comment>aka flavin adenine dinucleotide</Comment>
+    <BiopaxRef>fb8</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="a ubiquinol" GraphId="ab788" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FAD" GraphId="fb260" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FAD" GraphId="a4c5a" Type="Metabolite" GroupRef="a8e6c">
+    <Comment>aka flavin adenine dinucleotide</Comment>
+    <Comment>cofactor [https://en.wikipedia.org/wiki/Electron-transferring_flavoprotein]</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PHB" GraphId="c8c1f" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DHB" GraphId="ff11f" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="all-E-10PrP2" GraphId="f0f9d" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="COQ2" GraphId="ee311" Type="Protein">
+    <BiopaxRef>c40</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PPi" GraphId="cd9fc" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FAD " GraphId="ebdd6" Type="Metabolite" GroupRef="b8610">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="COQ6 " GraphId="bb28f" Type="Protein" GroupRef="b8610">
+        </DataNode>
+  <DataNode TextLabel="DHDB" GraphId="b4d97" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Q10H2" GraphId="a9482" Type="Metabolite">
+    <Comment>aka ubiquinol-10</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DMQ10H2" GraphId="bf0e0" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DeMQ10H2" GraphId="ca17a" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MHDB" GraphId="c0cfe" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DMPhOH" GraphId="d6c0e" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MDMQ10H2" GraphId="e2aba" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="COQ7 " GraphId="f51b6" Type="Protein" GroupRef="d0551">
+        </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="b3423" Type="Metabolite" GroupRef="d0551">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="COQ9 " GraphId="b90a8" Type="Protein" GroupRef="d0551">
+        </DataNode>
+  <DataNode TextLabel="PDSS2" GraphId="e92de" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="trans-nona&#10;prenyl-PP" GraphId="a9cc5" Type="Metabolite">
+    <Comment>aka all-trans-nonaprenyl diphosphate</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7 PP" GraphId="a7cbb" Type="Metabolite">
+    <Comment>diphosphate</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7 IPP" GraphId="b964f" Type="Metabolite">
+    <Comment>aka isopentenyl diphosphate</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="id103fc351">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e286c"/>
+      <Point GraphRef="b02df" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2284bc05">
+    <Graphics>
+      <Point GraphRef="ac0e7"/>
+      <Point GraphRef="de81d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3343dfba">
+    <Graphics>
+      <Point GraphRef="ff05f"/>
+      <Point GraphRef="e6dbf" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3774f519">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ac1e2"/>
+      <Point GraphRef="a01da" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id38c38332">
+    <Graphics>
+      <Point GraphRef="ee311"/>
+      <Point GraphRef="d1377" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3f0a15fb">
+    <Graphics>
+      <Point GraphRef="a3236" ArrowHead="mim-conversion"/>
+      <Point GraphRef="ab788" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b0a5a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id531d4253">
+    <Graphics>
+      <Point GraphRef="ebea8"/>
+      <Point GraphRef="f2452" ArrowHead="mim-transcription-translation"/>
+      <Anchor Position="0.21233280101057173" Shape="None" GraphId="a6176"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6d862aa1">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a5fe4"/>
+      <Point GraphRef="e286c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id712285a9">
+    <Graphics>
+      <Point GraphRef="b4594"/>
+      <Point GraphRef="ecc4c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id768cdc78">
+    <Graphics>
+      <Point GraphRef="f394e"/>
+      <Point GraphRef="a9cc5" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.26732452126939477" Shape="None" GraphId="a6ae3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8bc5fdee">
+    <BiopaxRef>fb8</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ca3b4"/>
+      <Point GraphRef="dd02d" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.40756000702472023" Shape="None" GraphId="a2f16"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8e9a4175">
+    <BiopaxRef>fb8</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ac1e2"/>
+      <Point GraphRef="ca3b4" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.37282183347551123" Shape="None" GraphId="de81d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9fc8c21d">
+    <Comment>The ETFDH protein contains FAD in the region 71 - 85 [https://www.uniprot.org/uniprot/Q16134].</Comment>
+    <Graphics>
+      <Point GraphRef="dd02d"/>
+      <Point GraphRef="a6176" ArrowHead="mim-necessary-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida62d94e4">
+    <Graphics>
+      <Point GraphRef="aa7cf"/>
+      <Point GraphRef="a6ae3" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb14b0578">
+    <Graphics>
+      <Point GraphRef="f0f9d"/>
+      <Point GraphRef="ff11f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d1377"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbbaf64e">
+    <Graphics>
+      <Point GraphRef="f394e"/>
+      <Point GraphRef="d557f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.2822005290495348" Shape="None" GraphId="fa6fc"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc44ae7e2">
+    <Graphics>
+      <Point GraphRef="f2452"/>
+      <Point GraphRef="b0a5a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcd6d33">
+    <Graphics>
+      <Point GraphRef="b4d97"/>
+      <Point GraphRef="c0cfe" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd41328ef">
+    <Graphics>
+      <Point GraphRef="e1024"/>
+      <Point GraphRef="a2f16" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd7625b35">
+    <Graphics>
+      <Point GraphRef="b13e0"/>
+      <Point GraphRef="b0a5a" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddc1ae2be">
+    <Graphics>
+      <Point GraphRef="c8c1f"/>
+      <Point GraphRef="d1377" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide76bb914">
+    <Graphics>
+      <Point GraphRef="a9482" ArrowHead="Arrow"/>
+      <Point GraphRef="e286c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf8860dfe">
+    <Graphics>
+      <Point GraphRef="ff11f"/>
+      <Point GraphRef="b4d97" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.44509939279581745" Shape="None" GraphId="ecc4c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="db51f">
+    <Graphics ConnectorType="Segmented">
+      <Point GraphRef="df411"/>
+      <Point GraphRef="f7428" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b33ce">
+    <Comment Source="Reactome"/>
+    <BiopaxRef>e1e</BiopaxRef>
+    <BiopaxRef>b09</BiopaxRef>
+    <BiopaxRef>be5</BiopaxRef>
+    <BiopaxRef>c35</BiopaxRef>
+    <BiopaxRef>fb4</BiopaxRef>
+    <BiopaxRef>c36</BiopaxRef>
+    <BiopaxRef>a53</BiopaxRef>
+    <Graphics ConnectorType="Segmented">
+      <Point GraphRef="d417e"/>
+      <Point GraphRef="ac1e2"/>
+      <Anchor Position="0.5" Shape="None" GraphId="c76a5"/>
+      <Anchor Position="0.5" Shape="None" GraphId="a91bc"/>
+      <Anchor Position="0.17224176632091076" Shape="None" GraphId="f7428"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b76ca">
+    <Graphics ConnectorType="Segmented">
+      <Point GraphRef="ce039"/>
+      <Point GraphRef="f7428" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b589d">
+    <Graphics ConnectorType="Segmented">
+      <Point GraphRef="c44b3"/>
+      <Point GraphRef="f7428" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a3b65">
+    <Graphics>
+      <Point GraphRef="b0a5a"/>
+      <Point GraphRef="fb260" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ceeed">
+    <Graphics>
+      <Point GraphRef="d1377"/>
+      <Point GraphRef="cd9fc" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f473c">
+    <Graphics>
+      <Point GraphRef="c0cfe"/>
+      <Point GraphRef="d6c0e" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b9195">
+    <Graphics>
+      <Point GraphRef="d6c0e"/>
+      <Point GraphRef="e2aba" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ef95c">
+    <Graphics>
+      <Point GraphRef="e2aba"/>
+      <Point GraphRef="bf0e0" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.44712526589088447" Shape="None" GraphId="e6dbf"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="addc1">
+    <Graphics>
+      <Point GraphRef="bf0e0"/>
+      <Point GraphRef="ca17a" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b0bbf">
+    <Graphics>
+      <Point GraphRef="ca17a"/>
+      <Point GraphRef="a9482" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f86cf">
+    <Graphics>
+      <Point GraphRef="f1137"/>
+      <Point GraphRef="fa6fc" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ed024">
+    <Graphics>
+      <Point GraphRef="fa6fc"/>
+      <Point GraphRef="ba063" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e7d52">
+    <Graphics>
+      <Point GraphRef="b964f"/>
+      <Point GraphRef="a6ae3" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a1407">
+    <Graphics>
+      <Point GraphRef="a6ae3"/>
+      <Point GraphRef="a7cbb" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="adda1">
+    <Graphics>
+      <Point GraphRef="aa7cf"/>
+      <Point GraphRef="fa6fc" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fe78a">
+    <Graphics>
+      <Point GraphRef="e92de"/>
+      <Point GraphRef="a6ae3" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2124">
+    <Graphics>
+      <Point GraphRef="e92de"/>
+      <Point GraphRef="fa6fc" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b03ca">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e286c"/>
+      <Point GraphRef="bd37c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="f72da">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f7428"/>
+      <Point GraphRef="ca2a9" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d4201">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f110f"/>
+      <Point GraphRef="ca2a9" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b5bff">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f7428"/>
+      <Point GraphRef="c84ae" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f1019">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f4ae6"/>
+      <Point GraphRef="c84ae" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a77be">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f7428"/>
+      <Point GraphRef="c2d23" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bf6ae">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f110f"/>
+      <Point GraphRef="c2d23" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fdc04">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f7428"/>
+      <Point GraphRef="df38f" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f522e">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b350d"/>
+      <Point GraphRef="df38f" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fea96">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="df1a5">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e4965">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a37da">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-stimulation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b8e91">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b0a5a"/>
+      <Point GraphRef="e008a" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c3f6c">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="adee8"/>
+      <Point GraphRef="e008a" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a6143">
+    <BiopaxRef>c40</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d1377"/>
+      <Point GraphRef="d3092" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f0183">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ecc4c"/>
+      <Point GraphRef="ab41e" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f79c7">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e6dbf"/>
+      <Point GraphRef="e7aad" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="abd9a">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a6ae3"/>
+      <Point GraphRef="e8e7b" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e9f9b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="fa6fc"/>
+      <Point GraphRef="f00c2" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c0b16">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a6ae3"/>
+      <Point GraphRef="f00c2" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f0e06">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="fa6fc"/>
+      <Point GraphRef="e8e7b" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e14bf">
+    <BiopaxRef>c0d</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b363d"/>
+      <Point GraphRef="bd8fb" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f78de">
+    <BiopaxRef>f4e</BiopaxRef>
+    <BiopaxRef>ce5</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d3c8f"/>
+      <Point GraphRef="a936c" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="BVVLS1" GraphId="ca2a9" Href="https://omim.org/entry/211530">
+    <Comment>aka BROWN-VIALETTO-VAN LAERE SYNDROME 1</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="BVVLS2" GraphId="c84ae" Href="https://omim.org/entry/614707">
+    <Comment>aka BROWN-VIALETTO-VAN LAERE SYNDROME 2</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Fazio-Londe&#10;Syndrome" GraphId="c2d23" Href="https://omim.org/entry/211500">
+    <Comment/>
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Riboflavin &#10;Deficiency" GraphId="df38f" Href="https://omim.org/entry/614707">
+    <Comment>aka BROWN-VIALETTO-VAN LAERE SYNDROME 2</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Disease" GraphId="a7768">
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Catalysis" GraphId="f2663">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Pathway" GraphId="f454a">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" Color="009933"/>
+  </Label>
+  <Label TextLabel="Stimulation" GraphId="aaa6b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Protein" GraphId="c0edb">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Metabolite" GraphId="adc52">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Conversion" GraphId="afeb3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Connection &#10;to disease&#10;" GraphId="ede22">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Legend" GraphId="d944e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="MADD" GraphId="e008a" Href="https://omim.org/entry/231680">
+    <Comment>aka MULTIPLE ACYL-CoA DEHYDROGENASE DEFICIENCY, Glutaric acidemia type 2</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="CoQ2 deficiency " GraphId="d3092" Href="https://omim.org/entry/607426">
+    <Comment>aka CoQ10D1</Comment>
+    <BiopaxRef>c40</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="CoQ6 deficiency " GraphId="ab41e" Href="https://omim.org/entry/614650">
+    <Comment>aka CoQ10D6</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="CoQ9 deficiency " GraphId="e7aad" Href="https://omim.org/entry/614654">
+    <Comment>aka CoQ10D5</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="PDSS1 deficiency " GraphId="e8e7b" Href="https://omim.org/entry/614651">
+    <Comment>aka CoQ10D2</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="PDSS2 deficiency " GraphId="f00c2" Href="https://omim.org/entry/614652">
+    <Comment>aka CoQ10D3</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="CABC1/ADCK3 &#10;deficiency " GraphId="bd8fb" Href="https://omim.org/entry/607426">
+    <Comment>aka CoQ10D4</Comment>
+    <BiopaxRef>c0d</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Ataxia oculomotor&#10;Apraxia 1 (AOA1)" GraphId="a936c" Href="https://omim.org/entry/208920">
+    <Comment>aka Aprataxin (APTX) deficiency; secondary coenxyme Q10 deficiency</Comment>
+    <BiopaxRef>f4e</BiopaxRef>
+    <BiopaxRef>ce5</BiopaxRef>
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Shape TextLabel="&#10;   mitochondria" GraphId="efd47">
+    <Graphics Align="Left" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d1950">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel=" &#10;   Cytosol" GraphId="a24d2">
+    <Graphics Align="Left" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ef440">
+    <Graphics ShapeType="RoundedRectangle" LineStyle="Broken" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="a8e6c" GraphId="adee8" Style="Complex"/>
+  <Group GroupId="b8610" GraphId="b4594" Style="Complex">
+    </Group>
+  <Group GroupId="cf537" GraphId="df411" Style="Complex"/>
+  <Group GroupId="d0551" GraphId="ff05f" Style="Complex">
+    </Group>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >primary coenzyme Q10 deficiency 2</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0070239</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Brown-Vialetto-Van Laere syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0050694</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Fazio-Londe disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0080632</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a53">
+      <bp:ID >21110228</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Brown-Vialetto-Van Laere and Fazio Londe syndrome is associated with a riboflavin transporter defect mimicking mild MADD: a new inborn error of metabolism with potential treatment.</bp:TITLE>
+      <bp:SOURCE >J Inherit Metab Dis</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Bosch AM</bp:AUTHORS>
+      <bp:AUTHORS >Abeling NG</bp:AUTHORS>
+      <bp:AUTHORS >Ijlst L</bp:AUTHORS>
+      <bp:AUTHORS >Knoester H</bp:AUTHORS>
+      <bp:AUTHORS >van der Pol WL</bp:AUTHORS>
+      <bp:AUTHORS >Stroomer AE</bp:AUTHORS>
+      <bp:AUTHORS >Wanders RJ</bp:AUTHORS>
+      <bp:AUTHORS >Visser G</bp:AUTHORS>
+      <bp:AUTHORS >Wijburg FA</bp:AUTHORS>
+      <bp:AUTHORS >Duran M</bp:AUTHORS>
+      <bp:AUTHORS >Waterham HR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb4">
+      <bp:ID >24264046</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Functional involvement of RFVT3/SLC52A3 in intestinal riboflavin absorption.</bp:TITLE>
+      <bp:AUTHORS >Yoshimatsu H, Yonezawa A, Yao Y, Sugano K, Nakagawa S, Omura T, Matsubara K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >primary coenzyme Q10 deficiency 3</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0070240</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be5">
+      <bp:ID >21110228</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Brown-Vialetto-Van Laere and Fazio Londe syndrome is associated with a riboflavin transporter defect mimicking mild MADD: a new inborn error of metabolism with potential treatment.</bp:TITLE>
+      <bp:AUTHORS >Bosch AM, Abeling NG, Ijlst L, Knoester H, van der Pol WL, Stroomer AE, Wanders RJ, Visser G, Wijburg FA, Duran M, Waterham HR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c37">
+      <bp:ID >17916383</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Investigation of coenzyme Q biosynthesis in human fibroblast and HepG2 cells.</bp:TITLE>
+      <bp:AUTHORS >Tekle M, Turunen M, Dallner G, Chojnacki T, Swiezewska E.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >primary coenzyme Q10 deficiency 1</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0070238</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >coenzyme Q10 deficiency disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0050730</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >primary coenzyme Q10 deficiency 4</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0070241</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce5">
+      <bp:ID >17242337</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Muscle coenzyme Q10 deficiencies in ataxia with oculomotor apraxia 1.</bp:TITLE>
+      <bp:SOURCE >Neurology</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Le Ber I</bp:AUTHORS>
+      <bp:AUTHORS >Dubourg O</bp:AUTHORS>
+      <bp:AUTHORS >Benoist JF</bp:AUTHORS>
+      <bp:AUTHORS >Jardel C</bp:AUTHORS>
+      <bp:AUTHORS >Mochel F</bp:AUTHORS>
+      <bp:AUTHORS >Koenig M</bp:AUTHORS>
+      <bp:AUTHORS >Brice A</bp:AUTHORS>
+      <bp:AUTHORS >Lomb&#232;s A</bp:AUTHORS>
+      <bp:AUTHORS >D&#252;rr A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f4e">
+      <bp:ID >15699391</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Coenzyme Q deficiency and cerebellar ataxia associated with an aprataxin mutation.</bp:TITLE>
+      <bp:SOURCE >Neurology</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Quinzii CM</bp:AUTHORS>
+      <bp:AUTHORS >Kattah AG</bp:AUTHORS>
+      <bp:AUTHORS >Naini A</bp:AUTHORS>
+      <bp:AUTHORS >Akman HO</bp:AUTHORS>
+      <bp:AUTHORS >Mootha VK</bp:AUTHORS>
+      <bp:AUTHORS >DiMauro S</bp:AUTHORS>
+      <bp:AUTHORS >Hirano M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c40">
+      <bp:ID >16400613</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A mutation in para-hydroxybenzoate-polyprenyl transferase (COQ2) causes primary coenzyme Q10 deficiency.</bp:TITLE>
+      <bp:SOURCE >Am J Hum Genet</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Quinzii C</bp:AUTHORS>
+      <bp:AUTHORS >Naini A</bp:AUTHORS>
+      <bp:AUTHORS >Salviati L</bp:AUTHORS>
+      <bp:AUTHORS >Trevisson E</bp:AUTHORS>
+      <bp:AUTHORS >Navas P</bp:AUTHORS>
+      <bp:AUTHORS >Dimauro S</bp:AUTHORS>
+      <bp:AUTHORS >Hirano M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b09">
+      <bp:ID >20206331</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Brown-Vialetto-Van Laere syndrome, a ponto-bulbar palsy with deafness, is caused by mutations in c20orf54.</bp:TITLE>
+      <bp:AUTHORS >Green P, Wiseman M, Crow YJ, Houlden H, Riphagen S, Lin JP, Raymond FL, Childs AM, Sheridan E, Edwards S, Josifova DJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >riboflavin metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000137</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e4d">
+      <bp:ID >25498144</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mitochondrial ADCK3 employs an atypical protein kinase-like fold to enable coenzyme Q biosynthesis.</bp:TITLE>
+      <bp:SOURCE >Mol Cell</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Stefely JA</bp:AUTHORS>
+      <bp:AUTHORS >Reidenbach AG</bp:AUTHORS>
+      <bp:AUTHORS >Ulbrich A</bp:AUTHORS>
+      <bp:AUTHORS >Oruganty K</bp:AUTHORS>
+      <bp:AUTHORS >Floyd BJ</bp:AUTHORS>
+      <bp:AUTHORS >Jochem A</bp:AUTHORS>
+      <bp:AUTHORS >Saunders JM</bp:AUTHORS>
+      <bp:AUTHORS >Johnson IE</bp:AUTHORS>
+      <bp:AUTHORS >Minogue CE</bp:AUTHORS>
+      <bp:AUTHORS >Wrobel RL</bp:AUTHORS>
+      <bp:AUTHORS >Barber GE</bp:AUTHORS>
+      <bp:AUTHORS >Lee D</bp:AUTHORS>
+      <bp:AUTHORS >Li S</bp:AUTHORS>
+      <bp:AUTHORS >Kannan N</bp:AUTHORS>
+      <bp:AUTHORS >Coon JJ</bp:AUTHORS>
+      <bp:AUTHORS >Bingman CA</bp:AUTHORS>
+      <bp:AUTHORS >Pagliarini DJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >riboflavin deficiency</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:8454</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb8">
+      <bp:ID >23116402</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Biosynthesis of flavin cofactors in man: implications in health and disease.</bp:TITLE>
+      <bp:SOURCE >Curr Pharm Des</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Barile M</bp:AUTHORS>
+      <bp:AUTHORS >Giancaspero TA</bp:AUTHORS>
+      <bp:AUTHORS >Brizio C</bp:AUTHORS>
+      <bp:AUTHORS >Panebianco C</bp:AUTHORS>
+      <bp:AUTHORS >Indiveri C</bp:AUTHORS>
+      <bp:AUTHORS >Galluccio M</bp:AUTHORS>
+      <bp:AUTHORS >Vergani L</bp:AUTHORS>
+      <bp:AUTHORS >Eberini I</bp:AUTHORS>
+      <bp:AUTHORS >Gianazza E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Brown-Vialetto-Van Laere syndrome 2</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0080786</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >primary coenzyme Q10 deficiency 6</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0070243</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e1e">
+      <bp:ID >20463145</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification and comparative functional characterization of a new human riboflavin transporter hRFT3 expressed in the brain.</bp:TITLE>
+      <bp:AUTHORS >Yao Y, Yonezawa A, Yoshimatsu H, Masuda S, Katsura T, Inui K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >primary coenzyme Q10 deficiency 5</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0070242</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Brown-Vialetto-Van Laere syndrome 1</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0080785</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aed">
+      <bp:ID >15153069</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Isolation and functional expression of human COQ2, a gene encoding a polyprenyl transferase involved in the synthesis of CoQ.</bp:TITLE>
+      <bp:AUTHORS >Forsgren M, Attersand A, Lake S, Gr&#252;nler J, Swiezewska E, Dallner G, Climent I.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >ubiquinone biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000142</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ffd">
+      <bp:ID >9783642403361</bp:ID>
+      <bp:DB >ISBN</bp:DB>
+      <bp:TITLE >Physician's Guide to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases</bp:TITLE>
+      <bp:SOURCE >Springer</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Nenad Blau</bp:AUTHORS>
+      <bp:AUTHORS >Carlo Dionisi Vici</bp:AUTHORS>
+      <bp:AUTHORS >K Michael Gibson</bp:AUTHORS>
+      <bp:AUTHORS >Marinus Duran</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c35">
+      <bp:ID >18632736</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification and functional characterization of a novel human and rat riboflavin transporter, RFT1.</bp:TITLE>
+      <bp:AUTHORS >Yonezawa A, Masuda S, Katsura T, Inui K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c36">
+      <bp:ID >20206331</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Brown-Vialetto-Van Laere syndrome, a ponto-bulbar palsy with deafness, is caused by mutations in c20orf54.</bp:TITLE>
+      <bp:SOURCE >Am J Hum Genet</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Green P</bp:AUTHORS>
+      <bp:AUTHORS >Wiseman M</bp:AUTHORS>
+      <bp:AUTHORS >Crow YJ</bp:AUTHORS>
+      <bp:AUTHORS >Houlden H</bp:AUTHORS>
+      <bp:AUTHORS >Riphagen S</bp:AUTHORS>
+      <bp:AUTHORS >Lin JP</bp:AUTHORS>
+      <bp:AUTHORS >Raymond FL</bp:AUTHORS>
+      <bp:AUTHORS >Childs AM</bp:AUTHORS>
+      <bp:AUTHORS >Sheridan E</bp:AUTHORS>
+      <bp:AUTHORS >Edwards S</bp:AUTHORS>
+      <bp:AUTHORS >Josifova DJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c0d">
+      <bp:ID >18319072</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >CABC1 gene mutations cause ubiquinone deficiency with cerebellar ataxia and seizures.</bp:TITLE>
+      <bp:SOURCE >Am J Hum Genet</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Mollet J</bp:AUTHORS>
+      <bp:AUTHORS >Delahodde A</bp:AUTHORS>
+      <bp:AUTHORS >Serre V</bp:AUTHORS>
+      <bp:AUTHORS >Chretien D</bp:AUTHORS>
+      <bp:AUTHORS >Schlemmer D</bp:AUTHORS>
+      <bp:AUTHORS >Lombes A</bp:AUTHORS>
+      <bp:AUTHORS >Boddaert N</bp:AUTHORS>
+      <bp:AUTHORS >Desguerre I</bp:AUTHORS>
+      <bp:AUTHORS >de Lonlay P</bp:AUTHORS>
+      <bp:AUTHORS >de Baulny HO</bp:AUTHORS>
+      <bp:AUTHORS >Munnich A</bp:AUTHORS>
+      <bp:AUTHORS >R&#246;tig A</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

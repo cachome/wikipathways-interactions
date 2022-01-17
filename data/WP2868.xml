@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="TCA cycle nutrient use and invasiveness of ovarian cancer" Version="20141029" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Schematic showing the shift in nutrient utilization in TCA cycle with increasing degree of invasiveness. Low-invasive ovarian cancer (OVCA) cells are glucose dependent for their TCA cycle pool. With increasing invasiveness in cancer cells, dominant nutrient which feeds the TCA cycle shifts from glucose to Gln. In high-invasive OVCA cells, Gln dominates the TCA cycle. In low-invasive OVCA cells, glucose activates Jak1, which activates STAT3 by tyrosine phosphorylation, thereby regulating glycolysis in cancer cells. In highinvasive OVCA cells, besides glucose's role in activating STAT3 tyrosine phosphorylation, glutamine activates JAK1 through TCA cycle to further activate STAT3 by tyrosine phosphorylation and thus regulate glycolysis. Further, Gln activates Erk1/2, which subsequently activates STAT3 by serine phosphorylation selectively in high-invasive OVCA cells. The serine phosphorylation of STAT3 enhances oxidative phosphorylation in mitochondria by interaction with mitochondrial complexes I and II, thereby increasing TCA cycle activity in high-invasive OVCA cells.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2868 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>cca</BiopaxRef>
+  <Graphics BoardWidth="949.831223628692" BoardHeight="613.0"/>
+  <DataNode TextLabel="STAT3" GraphId="a2a4a" Type="GeneProduct">
+    <BiopaxRef>cca</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Lactate" GraphId="c34c9" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ERK1" GraphId="c3e6f" Type="GeneProduct" GroupRef="b5238">
+        </DataNode>
+  <DataNode TextLabel="JAK1" GraphId="cc42b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="D-Glutamine" GraphId="cf7ed" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ERK2" GraphId="d3a8b" Type="GeneProduct" GroupRef="b5238">
+        </DataNode>
+  <DataNode TextLabel="Pyruvate" GraphId="d632b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Glucose" GraphId="e0064" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="EGFR" GraphId="ed313" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TCA Cycle" GraphId="f133c" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Glucose" GraphId="c1502" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="dd827" Type="GeneProduct">
+    <BiopaxRef>cca</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Glucose" GraphId="fd7c3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="EGFR" GraphId="cda95" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="JAK1" GraphId="b0e72" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="a3dd3" Type="GeneProduct">
+    <BiopaxRef>cca</BiopaxRef>
+        </DataNode>
+  <State GraphRef="a2a4a" TextLabel="P" GraphId="d439a">
+    <Comment>parentid=P40763; parentsymbol=STAT3; site=DPGsAAPyLktKFIC; position=tyr705; sitegrpid=448192; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="dd827" TextLabel="P" GraphId="bcf9c">
+    <Comment>parentid=P40763; parentsymbol=STAT3; site=NtIDLPMsPRTLDSL; position=ser727; sitegrpid=448191; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a3dd3" TextLabel="P" GraphId="c6512">
+    <Comment>parentid=P40763; parentsymbol=STAT3; site=DPGsAAPyLktKFIC; position=tyr705; sitegrpid=448192; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id20dcdc6a">
+    <Graphics Color="ff0000">
+      <Point GraphRef="cc42b"/>
+      <Point GraphRef="a2a4a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5e1188a0">
+    <Graphics>
+      <Point GraphRef="c1502"/>
+      <Point GraphRef="d632b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id882e8822">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cf7ed"/>
+      <Point/>
+      <Point GraphRef="f133c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id96ef6249">
+    <Graphics Color="ff0000">
+      <Point GraphRef="ed313"/>
+      <Point GraphRef="cc42b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida1fffb24">
+    <Graphics Color="00cc00">
+      <Point GraphRef="cf7ed"/>
+      <Point GraphRef="ade37" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcc5e48b2">
+    <Graphics>
+      <Point GraphRef="d04eb"/>
+      <Point GraphRef="ce657" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f830a">
+    <Graphics Color="ff0000">
+      <Point GraphRef="a2a4a"/>
+      <Point GraphRef="c1502" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="da63f">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="a2a4a"/>
+      <Point GraphRef="d476a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b15f8">
+    <Graphics>
+      <Point GraphRef="d632b"/>
+      <Point GraphRef="c34c9" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d476a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ed5aa">
+    <Graphics Color="00cc00">
+      <Point GraphRef="ade37"/>
+      <Point GraphRef="dd827" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bd041">
+    <Graphics Color="ff0000">
+      <Point GraphRef="e0064"/>
+      <Point GraphRef="ed313" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a83a5">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="f133c"/>
+      <Point/>
+      <Point GraphRef="a3dd3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b2bf0">
+    <Graphics Color="00cc00">
+      <Point GraphRef="dd827"/>
+      <Point GraphRef="f133c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eee04">
+    <Graphics Color="ff0000">
+      <Point GraphRef="fd7c3"/>
+      <Point GraphRef="cda95" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f64fd">
+    <Graphics Color="ff0000">
+      <Point GraphRef="cda95"/>
+      <Point GraphRef="b0e72" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c4cb0">
+    <Graphics Color="ff0000">
+      <Point GraphRef="b0e72"/>
+      <Point GraphRef="a3dd3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="id15287e87">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a6fd8">
+    <Graphics Color="00cc66">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="db540">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Tyrosine phosphorylation pathway" GraphId="a7ac8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Complex I&#10;NADH-Ubiquinone" GraphId="ab466">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Complex II&#10;Succinate-Ubiquinone" GraphId="c9ca7">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Low-invasive Ovarian Cancer" GraphId="d04eb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cancer stage" GraphId="e72fa">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Legend" GraphId="fc5a8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="High-invasive Ovarian Cancer" GraphId="ce657">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Serine phosphorylation pathway" GraphId="ee7e2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Metabolix flux" GraphId="bb4cd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="c350e">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cb2f9">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="Mitochondria" GraphId="f3a30">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ebd9f">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="b5238" GraphId="ade37" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cca">
+      <bp:ID >24799285</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Metabolic shifts toward glutamine regulate tumor growth, invasion and bioenergetics in ovarian cancer.</bp:TITLE>
+      <bp:SOURCE >Mol Syst Biol</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Yang L</bp:AUTHORS>
+      <bp:AUTHORS >Moss T</bp:AUTHORS>
+      <bp:AUTHORS >Mangala LS</bp:AUTHORS>
+      <bp:AUTHORS >Marini J</bp:AUTHORS>
+      <bp:AUTHORS >Zhao H</bp:AUTHORS>
+      <bp:AUTHORS >Wahlig S</bp:AUTHORS>
+      <bp:AUTHORS >Armaiz-Pena G</bp:AUTHORS>
+      <bp:AUTHORS >Jiang D</bp:AUTHORS>
+      <bp:AUTHORS >Achreja A</bp:AUTHORS>
+      <bp:AUTHORS >Win J</bp:AUTHORS>
+      <bp:AUTHORS >Roopaimoole R</bp:AUTHORS>
+      <bp:AUTHORS >Rodriguez-Aguayo C</bp:AUTHORS>
+      <bp:AUTHORS >Mercado-Uribe I</bp:AUTHORS>
+      <bp:AUTHORS >Lopez-Berestein G</bp:AUTHORS>
+      <bp:AUTHORS >Liu J</bp:AUTHORS>
+      <bp:AUTHORS >Tsukamoto T</bp:AUTHORS>
+      <bp:AUTHORS >Sood AK</bp:AUTHORS>
+      <bp:AUTHORS >Ram PT</bp:AUTHORS>
+      <bp:AUTHORS >Nagrath D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >altered citric acid cycle pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001119</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:162</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cancer pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000605</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >reproductive system disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:15</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>ovarian cancer</bp:TERM><bp:ID>DOID:2394</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

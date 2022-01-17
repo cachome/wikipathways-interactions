@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Inflammatory response pathway" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Inflammation is a protective response of cells to pathogens, infection or tissue damage. It involves the coordinated communication of different immune cells and blood vessels through an intricate cascade of molecular signals. Inflammation can cause fever, cardiovascular pathology, allergy anaphylaxis, fibrosis, autoimmunity, etc.
+
+The inflammatory response has four phases: inflammatory inducers (infection or tissue damage), inflammatory sensors (mast cells and macrophages), inflammatory mediators (cytokines, chemokines, etc.) and the tissues that are affected. Each phase has many options that are triggered based on the type pathogen introduced.
+
+In addition, chronic inflammatory conditions, where an inducer is not well defined, are becoming more common. These conditions are of particular interest because they coincide with other diseases such as obesity, type 2 diabetes, atherosclerosis, neurodegenerative diseases and cancer. [http://www.thermofisher.com/ls/en/home/life-science/cell-analysis/signaling-pathways/inflammatory-response-pathway.html#]
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP453 CPTAC Assay Portal]</Comment>
+  <Comment Source="GenMAPP notes"/>
+  <Comment Source="GenMAPP remarks"/>
+  <Comment Source="WikiPathways-category">Physiological Process</Comment>
+  <BiopaxRef>ecb</BiopaxRef>
+  <BiopaxRef>a7b</BiopaxRef>
+  <Graphics BoardWidth="862.1666666666667" BoardHeight="629.5666666666667"/>
+  <DataNode TextLabel="IGHA2" GraphId="a11" Type="GeneProduct" GroupRef="a919a">
+        </DataNode>
+  <DataNode TextLabel="IGHA1" GraphId="a20" Type="GeneProduct" GroupRef="a919a">
+        </DataNode>
+  <DataNode TextLabel="CD86" GraphId="a4f" Type="GeneProduct" GroupRef="db7b7">
+        </DataNode>
+  <DataNode TextLabel="TNFRSF1B" GraphId="a62" Type="GeneProduct" GroupRef="d5e7d">
+        </DataNode>
+  <DataNode TextLabel="LAMB2" GraphId="a98" Type="GeneProduct" GroupRef="a2400">
+        </DataNode>
+  <DataNode TextLabel="IFNG" GraphId="a9b" Type="GeneProduct" GroupRef="fe5a7">
+        </DataNode>
+  <DataNode TextLabel="IGHM" GraphId="aca" Type="GeneProduct" GroupRef="a919a">
+        </DataNode>
+  <DataNode TextLabel="THBS3" GraphId="af8" Type="GeneProduct" GroupRef="a2400">
+        </DataNode>
+  <DataNode TextLabel="VTN" GraphId="b06" Type="GeneProduct" GroupRef="a2400">
+        </DataNode>
+  <DataNode TextLabel="IL2" GraphId="b39" Type="GeneProduct" GroupRef="fe5a7">
+        </DataNode>
+  <DataNode TextLabel="IL4R" GraphId="b5f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL2RB" GraphId="b68" Type="GeneProduct" GroupRef="e8cf0">
+        </DataNode>
+  <DataNode TextLabel="LCK" GraphId="bb5" Type="GeneProduct" GroupRef="d1a64">
+        </DataNode>
+  <DataNode TextLabel="LAMB1" GraphId="bdd" Type="GeneProduct" GroupRef="a2400">
+        </DataNode>
+  <DataNode TextLabel="IL2RG" GraphId="bea" Type="GeneProduct" GroupRef="e8cf0">
+        </DataNode>
+  <DataNode TextLabel="IL4" GraphId="bfd" Type="GeneProduct" GroupRef="fe5a7">
+        </DataNode>
+  <DataNode TextLabel="COL3A1" GraphId="c3a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CD40" GraphId="c4c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="COL1A1" GraphId="ccd" Type="GeneProduct" GroupRef="bf54b">
+        </DataNode>
+  <DataNode TextLabel="LAMC2" GraphId="cfd" Type="GeneProduct" GroupRef="a2400">
+        </DataNode>
+  <DataNode TextLabel="COL1A2" GraphId="d0c" Type="GeneProduct" GroupRef="bf54b">
+        </DataNode>
+  <DataNode TextLabel="CD28" GraphId="d21" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CD40LG" GraphId="d35" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TNFRSF1A" GraphId="d42" Type="GeneProduct" GroupRef="d5e7d">
+        </DataNode>
+  <DataNode TextLabel="FN1" GraphId="dbd" Type="GeneProduct" GroupRef="a2400">
+        </DataNode>
+  <DataNode TextLabel="CD80" GraphId="e0a" Type="GeneProduct" GroupRef="db7b7">
+        </DataNode>
+  <DataNode TextLabel="IL2RA" GraphId="e9e" Type="GeneProduct" GroupRef="e8cf0">
+        </DataNode>
+  <DataNode TextLabel="LAMC1" GraphId="eb1" Type="GeneProduct" GroupRef="a2400">
+        </DataNode>
+  <DataNode TextLabel="ZAP70" GraphId="f05" Type="GeneProduct" GroupRef="d1a64">
+        </DataNode>
+  <DataNode TextLabel="LAMA5" GraphId="f37" Type="GeneProduct" GroupRef="a2400">
+        </DataNode>
+  <DataNode TextLabel="THBS1" GraphId="f76" Type="GeneProduct" GroupRef="a2400">
+        </DataNode>
+  <DataNode TextLabel="IL5" GraphId="fa1" Type="GeneProduct" GroupRef="fe5a7">
+        </DataNode>
+  <DataNode TextLabel="IL5RA" GraphId="fe4" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="a4322">
+    <Graphics>
+      <Point GraphRef="e9c0d"/>
+      <Point GraphRef="c9fd4" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6ace">
+    <Graphics>
+      <Point GraphRef="c913c"/>
+      <Point GraphRef="c3a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="abd84">
+    <Graphics>
+      <Point GraphRef="b92"/>
+      <Point GraphRef="f7c11" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b099a">
+    <Graphics>
+      <Point GraphRef="c4c"/>
+      <Point GraphRef="b92"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b3333">
+    <Graphics>
+      <Point GraphRef="af7"/>
+      <Point GraphRef="d21"/>
+      <Anchor Position="0.50224415039429" Shape="None" GraphId="c9fd4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1df7">
+    <Graphics>
+      <Point GraphRef="b92"/>
+      <Point GraphRef="f7f3b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6ea5">
+    <Graphics>
+      <Point GraphRef="df965"/>
+      <Point GraphRef="ac152"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d40e1">
+    <Graphics>
+      <Point GraphRef="b92"/>
+      <Point GraphRef="d92fd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6398">
+    <Graphics>
+      <Point GraphRef="d35"/>
+      <Point GraphRef="c4c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d7ff1">
+    <Graphics>
+      <Point GraphRef="c913c"/>
+      <Point GraphRef="a4c8d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dc78c">
+    <Graphics>
+      <Point GraphRef="c913c"/>
+      <Point GraphRef="fc69e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e00b0">
+    <Graphics>
+      <Point GraphRef="af7"/>
+      <Point GraphRef="e553c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e773e">
+    <Graphics>
+      <Point GraphRef="af7"/>
+      <Point GraphRef="fe4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f0615">
+    <Graphics>
+      <Point GraphRef="d21"/>
+      <Point GraphRef="b92"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fc8a2">
+    <Graphics>
+      <Point GraphRef="af7"/>
+      <Point GraphRef="b5f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ffa39">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="af7"/>
+      <Point GraphRef="d35"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="B-cell" GraphId="af7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="TH-cell" GraphId="b92">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Fibroblast" GraphId="ba1" GroupRef="d1f86">
+    <Graphics FillColor="ffffff" Color="999999"/>
+  </Label>
+  <Label TextLabel="Blood or Lymph" GraphId="c46">
+    <Graphics FillColor="ffffff" Color="999999"/>
+  </Label>
+  <Label TextLabel="Fibrotic Response" GraphId="c64">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inflammation" GraphId="e4f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Epithelium" GraphId="f86">
+    <Graphics FillColor="ffffff" Color="999999"/>
+  </Label>
+  <Label TextLabel="Early Response" GraphId="fd7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="a04d5" GroupRef="ae9be">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="af6e0" GroupRef="ae9be">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b11a2" GroupRef="ae9be">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b396b" GroupRef="ae9be">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c913c">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ca39e" GroupRef="ae9be">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="cdf1c" GroupRef="ae9be">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d2133" GroupRef="ae9be">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d91af" GroupRef="ae9be">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="dbc5b" GroupRef="ae9be">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="f4c88" GroupRef="ae9be">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="fcb3c" GroupRef="ae9be">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ff4c3" GroupRef="ae9be">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ff7f9" GroupRef="ae9be">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="d1f86" GraphId="a1a66" Style="Group" TextLabel="Group object"/>
+  <Group GroupId="a2400" GraphId="a4c8d"/>
+  <Group GroupId="d5e7d" GraphId="ac152"/>
+  <Group GroupId="d1a64" GraphId="d92fd"/>
+  <Group GroupId="ae9be" GraphId="df965" Style="Group"/>
+  <Group GroupId="a919a" GraphId="e553c"/>
+  <Group GroupId="db7b7" GraphId="e9c0d"/>
+  <Group GroupId="fe5a7" GraphId="f7c11"/>
+  <Group GroupId="e8cf0" GraphId="f7f3b"/>
+  <Group GroupId="bf54b" GraphId="fc69e"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ecb">
+      <bp:ID >9378992</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Attenuation of IL-5-mediated signal transduction, eosinophil survival, and inflammatory mediator release by a soluble human IL-5 receptor.</bp:TITLE>
+      <bp:SOURCE >J Immunol</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Monahan J</bp:AUTHORS>
+      <bp:AUTHORS >Siegel N</bp:AUTHORS>
+      <bp:AUTHORS >Keith R</bp:AUTHORS>
+      <bp:AUTHORS >Caparon M</bp:AUTHORS>
+      <bp:AUTHORS >Christine L</bp:AUTHORS>
+      <bp:AUTHORS >Compton R</bp:AUTHORS>
+      <bp:AUTHORS >Cusik S</bp:AUTHORS>
+      <bp:AUTHORS >Hirsch J</bp:AUTHORS>
+      <bp:AUTHORS >Huynh M</bp:AUTHORS>
+      <bp:AUTHORS >Devine C</bp:AUTHORS>
+      <bp:AUTHORS >Polazzi J</bp:AUTHORS>
+      <bp:AUTHORS >Rangwala S</bp:AUTHORS>
+      <bp:AUTHORS >Tsai B</bp:AUTHORS>
+      <bp:AUTHORS >Portanova J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a7b">
+      <bp:ID >19028820</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Polymorphisms in inflammatory genes and the risk of ischemic stroke and transient ischemic attack: results of a multilocus genotyping assay.</bp:TITLE>
+      <bp:SOURCE >Clin Chem</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Greisenegger S</bp:AUTHORS>
+      <bp:AUTHORS >Zehetmayer S</bp:AUTHORS>
+      <bp:AUTHORS >Bauer P</bp:AUTHORS>
+      <bp:AUTHORS >Endler G</bp:AUTHORS>
+      <bp:AUTHORS >Ferrari J</bp:AUTHORS>
+      <bp:AUTHORS >Lang W</bp:AUTHORS>
+      <bp:AUTHORS >Janisiw M</bp:AUTHORS>
+      <bp:AUTHORS >Steiner L</bp:AUTHORS>
+      <bp:AUTHORS >Cheng S</bp:AUTHORS>
+      <bp:AUTHORS >Lalouschek W</bp:AUTHORS>
+      <bp:AUTHORS >Mannhalter C</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

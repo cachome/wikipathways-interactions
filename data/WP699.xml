@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Aflatoxin B1 metabolism" Last-Modified="2/21/2013" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment Source="WikiPathways-description">'''Aflatoxins''' are naturally occurring [[wikipedia:mycotoxin|mycotoxin]]s that are produced by many species of ''[[wikipedia:Aspergillus|Aspergillus]]'', a [[wikipedia:fungus|fungus]], most notably ''[[wikipedia:Aspergillus flavus|Aspergillus flavus]]'' and ''[[wikipedia:Aspergillus parasiticus|Aspergillus parasiticus]]''. After entering the body, aflatoxins are metabolized by the liver to a reactive intermediate, aflatoxin M&lt;sub&gt;1&lt;/sub&gt;, an [[wikipedia:epoxide|epoxide]]. Aflatoxin B1 is considered the most toxic and is produced by both Aspergillus flavus and Aspergillus parasiticus.
+
+Source: [[wikipedia:Aflatoxin|Wikipedia]]
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP699 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>c71</BiopaxRef>
+  <BiopaxRef>b3a</BiopaxRef>
+  <BiopaxRef>b7a</BiopaxRef>
+  <BiopaxRef>ae4</BiopaxRef>
+  <BiopaxRef>fe0</BiopaxRef>
+  <BiopaxRef>ee4</BiopaxRef>
+  <BiopaxRef>a84</BiopaxRef>
+  <BiopaxRef>cb5</BiopaxRef>
+  <Graphics BoardWidth="845.0" BoardHeight="685.0"/>
+  <DataNode TextLabel="Aflatoxin B1 C8-monoalcohol" GraphId="a12e7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Aflatoxin-endo-B1-8,9-epoxide" GraphId="a238f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AKR7A2" GraphId="a5f5e" Type="GeneProduct" GroupRef="f8433">
+        </DataNode>
+  <DataNode TextLabel="CYP1A2" GraphId="a6499" Type="GeneProduct" GroupRef="e7296">
+        </DataNode>
+  <DataNode TextLabel="AKR7A3" GraphId="ae411" Type="GeneProduct" GroupRef="f8433">
+        </DataNode>
+  <DataNode TextLabel="GSTT1" GraphId="b6f29" Type="GeneProduct" GroupRef="d98bb">
+        </DataNode>
+  <DataNode TextLabel="GSTM1" GraphId="b8659" Type="GeneProduct" GroupRef="d98bb">
+        </DataNode>
+  <DataNode TextLabel="CYP2A13" GraphId="c2cd3" Type="GeneProduct" GroupRef="e7296">
+        </DataNode>
+  <DataNode TextLabel="Aflatoxin B1 exo-8,9-epoxide-GSH" GraphId="c3289" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="EPHX1" GraphId="c48fb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYP1A2" GraphId="ca92d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Aflatoxin B1-6,8-dialcohol" GraphId="d1240" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Aflatoxin B1 8,9-dihydrodiol" GraphId="d35ce" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Aflatoxin B1 dialdehyde" GraphId="d4505" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP1A2" GraphId="d7dec" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="aflatoxin B1" GraphId="df622" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Aflatoxin B1 exo-8,9-epoxide" GraphId="e2f80" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Aflatoxin M1" GraphId="e3b9e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Aflatoxin B1 C8-monoaldehyde" GraphId="e42c7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Aflatoxin M1 epoxide" GraphId="e85a1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2A13" GraphId="e99d8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Aflatoxin B1 C6-monoalcohol" GraphId="ebc2f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Aflatoxin Q1" GraphId="ebd78" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP3A4" GraphId="f7dca" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Aflatoxin B1 C6-monoaldehyde" GraphId="fb5f1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP3A4" GraphId="fc4a1" Type="GeneProduct" GroupRef="e7296">
+        </DataNode>
+  <Interaction GraphId="a0ddb">
+    <Graphics>
+      <Point GraphRef="c62a4"/>
+      <Point GraphRef="be322" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a0fce">
+    <Graphics>
+      <Point GraphRef="d35ce" ArrowHead="Arrow"/>
+      <Point GraphRef="d4505" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a9ec0">
+    <Graphics>
+      <Point GraphRef="df622"/>
+      <Point GraphRef="ebd78" ArrowHead="Arrow"/>
+      <Anchor Position="0.4939759036144578" Shape="None" GraphId="cd543"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ab5fb">
+    <Graphics>
+      <Point GraphRef="d7dec"/>
+      <Point GraphRef="c3a65" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ae829">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e2f80"/>
+      <Point GraphRef="e8dd5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b30fd">
+    <Graphics>
+      <Point GraphRef="e42c7"/>
+      <Point GraphRef="a12e7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b5af9">
+    <Graphics>
+      <Point GraphRef="f7dca"/>
+      <Point GraphRef="cd543" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="badb2">
+    <Graphics>
+      <Point GraphRef="a12e7"/>
+      <Point GraphRef="d1240" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bb58c">
+    <Graphics>
+      <Point GraphRef="e99d8"/>
+      <Point GraphRef="e8310" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bcf85">
+    <Graphics>
+      <Point GraphRef="df622"/>
+      <Point GraphRef="a238f" ArrowHead="Arrow"/>
+      <Anchor Position="0.47992700729927024" Shape="None" GraphId="c3a65"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c0f6f">
+    <Graphics>
+      <Point GraphRef="ca92d"/>
+      <Point GraphRef="a1ef3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c5b41">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c48fb"/>
+      <Point GraphRef="c8e9a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c8ae1">
+    <Graphics>
+      <Point GraphRef="e2f80"/>
+      <Point GraphRef="c3289" ArrowHead="Arrow"/>
+      <Anchor Position="0.6139240506329114" Shape="None" GraphId="be322"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ca368">
+    <BiopaxRef>e9f</BiopaxRef>
+    <BiopaxRef>ce3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e3b9e"/>
+      <Point GraphRef="e85a1" ArrowHead="Arrow"/>
+      <Anchor Position="0.46875" Shape="None" GraphId="e8310"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ccbaa">
+    <Graphics>
+      <Point GraphRef="d4505"/>
+      <Point GraphRef="fb5f1" ArrowHead="Arrow"/>
+      <Anchor Position="0.6831769234863133" Shape="None" GraphId="b34a7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cfb30">
+    <Graphics>
+      <Point GraphRef="d4505"/>
+      <Point GraphRef="e42c7" ArrowHead="Arrow"/>
+      <Anchor Position="0.7104967108399276" Shape="None" GraphId="c6d45"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2ea3">
+    <BiopaxRef>e9f</BiopaxRef>
+    <BiopaxRef>ce3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="df622"/>
+      <Point GraphRef="e2f80" ArrowHead="Arrow"/>
+      <Anchor Position="0.49008800202803043" Shape="None" GraphId="cdc80"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d407b">
+    <Graphics>
+      <Point GraphRef="a440e"/>
+      <Point GraphRef="b34a7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dccb8">
+    <Graphics>
+      <Point GraphRef="fb5f1"/>
+      <Point GraphRef="ebc2f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dea95">
+    <Graphics>
+      <Point GraphRef="bf33d"/>
+      <Point GraphRef="cdc80" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f1e7e">
+    <Graphics>
+      <Point GraphRef="ebc2f"/>
+      <Point GraphRef="d1240" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f316a">
+    <Graphics>
+      <Point GraphRef="df622"/>
+      <Point GraphRef="e3b9e" ArrowHead="Arrow"/>
+      <Anchor Position="0.48" Shape="None" GraphId="a1ef3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f6ba5">
+    <Graphics>
+      <Point GraphRef="a440e"/>
+      <Point GraphRef="c6d45" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fcfc8">
+    <Graphics>
+      <Point GraphRef="e2f80"/>
+      <Point GraphRef="d35ce" ArrowHead="Arrow"/>
+      <Anchor Position="0.7028386451384478" Shape="None" GraphId="c8e9a"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="nonenzymatic" GraphId="b5013">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="nonenzymatic&#10;(pH-dependent)" GraphId="e7cdd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="DNA adducts" GraphId="e8dd5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Group GroupId="f8433" GraphId="a440e" Style="Complex"/>
+  <Group GroupId="e7296" GraphId="bf33d" Style="Complex"/>
+  <Group GroupId="d98bb" GraphId="c62a4" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c71">
+      <bp:ID >16584116</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cytochrome P450s and other enzymes in drug metabolism and toxicity.</bp:TITLE>
+      <bp:SOURCE >AAPS J</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Guengerich FP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ee4">
+      <bp:ID >10506113</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Glutathione S-transferase-catalyzed conjugation of bioactivated aflatoxin B(1) in human lung: differential cellular distribution and lack of significance of the GSTM1 genetic polymorphism.</bp:TITLE>
+      <bp:SOURCE >Carcinogenesis</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Stewart RK</bp:AUTHORS>
+      <bp:AUTHORS >Smith GB</bp:AUTHORS>
+      <bp:AUTHORS >Donnelly PJ</bp:AUTHORS>
+      <bp:AUTHORS >Reid KR</bp:AUTHORS>
+      <bp:AUTHORS >Petsikas D</bp:AUTHORS>
+      <bp:AUTHORS >Conlan AA</bp:AUTHORS>
+      <bp:AUTHORS >Massey TE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a84">
+      <bp:ID >18949601</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The aldo-keto reductase superfamily and its role in drug metabolism and detoxification.</bp:TITLE>
+      <bp:SOURCE >Drug Metab Rev</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Barski OA</bp:AUTHORS>
+      <bp:AUTHORS >Tipparaju SM</bp:AUTHORS>
+      <bp:AUTHORS >Bhatnagar A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cb5">
+      <bp:ID >16970545</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Aldo-keto reductases and bioactivation/detoxication.</bp:TITLE>
+      <bp:SOURCE >Annu Rev Pharmacol Toxicol</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Jin Y</bp:AUTHORS>
+      <bp:AUTHORS >Penning TM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e9f">
+      <bp:ID >16815959</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >CYP2A13 in human respiratory tissues and lung cancers: an immunohistochemical study with a new peptide-specific antibody.</bp:TITLE>
+      <bp:SOURCE >Drug Metab Dispos</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Zhu LR</bp:AUTHORS>
+      <bp:AUTHORS >Thomas PE</bp:AUTHORS>
+      <bp:AUTHORS >Lu G</bp:AUTHORS>
+      <bp:AUTHORS >Reuhl KR</bp:AUTHORS>
+      <bp:AUTHORS >Yang GY</bp:AUTHORS>
+      <bp:AUTHORS >Wang LD</bp:AUTHORS>
+      <bp:AUTHORS >Wang SL</bp:AUTHORS>
+      <bp:AUTHORS >Yang CS</bp:AUTHORS>
+      <bp:AUTHORS >He XY</bp:AUTHORS>
+      <bp:AUTHORS >Hong JY</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce3">
+      <bp:ID >16385575</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Efficient activation of aflatoxin B1 by cytochrome P450 2A13, an enzyme predominantly expressed in human respiratory tract.</bp:TITLE>
+      <bp:SOURCE >Int J Cancer</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >He XY</bp:AUTHORS>
+      <bp:AUTHORS >Tang L</bp:AUTHORS>
+      <bp:AUTHORS >Wang SL</bp:AUTHORS>
+      <bp:AUTHORS >Cai QS</bp:AUTHORS>
+      <bp:AUTHORS >Wang JS</bp:AUTHORS>
+      <bp:AUTHORS >Hong JY</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fe0">
+      <bp:ID >11409944</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Reduction of aflatoxin B1 dialdehyde by rat and human aldo-keto reductases.</bp:TITLE>
+      <bp:SOURCE >Chem Res Toxicol</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Guengerich FP</bp:AUTHORS>
+      <bp:AUTHORS >Cai H</bp:AUTHORS>
+      <bp:AUTHORS >McMahon M</bp:AUTHORS>
+      <bp:AUTHORS >Hayes JD</bp:AUTHORS>
+      <bp:AUTHORS >Sutter TR</bp:AUTHORS>
+      <bp:AUTHORS >Groopman JD</bp:AUTHORS>
+      <bp:AUTHORS >Deng Z</bp:AUTHORS>
+      <bp:AUTHORS >Harris TM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:162</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cellular detoxification pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000124</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3a">
+      <bp:ID >11440964</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of genetic polymorphism of glutathione-S-transferase T1 and microsomal epoxide hydrolase in aflatoxin-associated hepatocellular carcinoma.</bp:TITLE>
+      <bp:SOURCE >Cancer Epidemiol Biomarkers Prev</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Tiemersma EW</bp:AUTHORS>
+      <bp:AUTHORS >Omer RE</bp:AUTHORS>
+      <bp:AUTHORS >Bunschoten A</bp:AUTHORS>
+      <bp:AUTHORS >van't Veer P</bp:AUTHORS>
+      <bp:AUTHORS >Kok FJ</bp:AUTHORS>
+      <bp:AUTHORS >Idris MO</bp:AUTHORS>
+      <bp:AUTHORS >Kadaru AM</bp:AUTHORS>
+      <bp:AUTHORS >Fedail SS</bp:AUTHORS>
+      <bp:AUTHORS >Kampman E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >aflatoxin metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001366</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b7a">
+      <bp:ID >12724730</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Translational strategies for cancer prevention in liver.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Cancer</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Kensler TW</bp:AUTHORS>
+      <bp:AUTHORS >Qian GS</bp:AUTHORS>
+      <bp:AUTHORS >Chen JG</bp:AUTHORS>
+      <bp:AUTHORS >Groopman JD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae4">
+      <bp:ID >12067245</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Reaction of aflatoxin B(1) oxidation products with lysine.</bp:TITLE>
+      <bp:SOURCE >Chem Res Toxicol</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Guengerich FP</bp:AUTHORS>
+      <bp:AUTHORS >Arneson KO</bp:AUTHORS>
+      <bp:AUTHORS >Williams KM</bp:AUTHORS>
+      <bp:AUTHORS >Deng Z</bp:AUTHORS>
+      <bp:AUTHORS >Harris TM</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

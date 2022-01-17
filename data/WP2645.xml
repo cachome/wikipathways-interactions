@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Heroin metabolism" Author="Egon Willighagen" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Pathway complementing the morphine metabolism pathway around heroin. The catalytic efficiency is substantially greater for CES2 (a.k.a. hCE-2) compared to other esterases.</Comment>
+  <BiopaxRef>cca</BiopaxRef>
+  <Graphics BoardWidth="643.0" BoardHeight="482.0"/>
+  <DataNode TextLabel="morphine metabolism" GraphId="a7fb5" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Pseudo-ChE" GraphId="b4932" Type="Protein">
+    <Comment>pseudocholinesterase; catalysation takes place in serum</Comment>
+    <BiopaxRef>db5</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="morphine" GraphId="be981" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CES1" GraphId="c446d" Type="GeneProduct">
+    <Comment>catalyzed in liver</Comment>
+    <BiopaxRef>c81</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="heroin" GraphId="cdf04" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="6-acetylmorphine" GraphId="cfe59" Type="Metabolite">
+    <Comment>6-monoacetylmorphine</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CES2" GraphId="ec2c5" Type="GeneProduct">
+    <Comment>catalyzed in liver; catalytic efficiency is substantially greater for hCE-2 compared to other esterases.</Comment>
+    <Graphics Color="00cc00"/>
+    </DataNode>
+  <DataNode TextLabel="Pseudo-ChE" GraphId="a5b38" Type="Protein">
+    <Comment>pseudocholinesterase</Comment>
+    <BiopaxRef>db5</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CES2" GraphId="fe3b3" Type="GeneProduct">
+    <Comment>catalyzed in liver; catalytic efficiency is substantially greater for hCE-2 compared to other esterases.</Comment>
+    <BiopaxRef>db5</BiopaxRef>
+    <Graphics Color="00cc00"/>
+    </DataNode>
+  <Interaction>
+    <BiopaxRef>db5</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cdf04"/>
+      <Point/>
+      <Point GraphRef="cfe59" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.48088684919065844" Shape="None" GraphId="db077"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="b4932"/>
+      <Point GraphRef="db077" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <BiopaxRef>db5</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a5b38"/>
+      <Point GraphRef="fb7ba" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Comment>Catalysis can take place nonenzymatically in the serum as well.</Comment>
+    <BiopaxRef>db5</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cdf04"/>
+      <Point GraphRef="be981" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <BiopaxRef>db5</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fe3b3"/>
+      <Point GraphRef="fb7ba" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id294e530e">
+    <Graphics>
+      <Point GraphRef="c446d"/>
+      <Point GraphRef="fd293" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id295fda1b">
+    <BiopaxRef>ca0</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cdf04"/>
+      <Point/>
+      <Point GraphRef="cfe59" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4842963441002159" Shape="None" GraphId="a1143"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3ad34204">
+    <BiopaxRef>c81</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cfe59"/>
+      <Point GraphRef="be981" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5710533228263731" Shape="None" GraphId="fb7ba"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id827ed290">
+    <Graphics>
+      <Point GraphRef="ec2c5"/>
+      <Point GraphRef="a1143" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8f564c1a">
+    <Graphics>
+      <Point GraphRef="be981"/>
+      <Point GraphRef="a7fb5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide473476">
+    <Graphics>
+      <Point GraphRef="c446d"/>
+      <Point GraphRef="fb7ba" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idee25ceb0">
+    <BiopaxRef>ca0</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cdf04"/>
+      <Point GraphRef="cfe59" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5052767821585022" Shape="None" GraphId="fd293"/>
+    </Graphics>
+    </Interaction>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >xenobiotic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001229</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca0">
+      <bp:ID >20649590</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Biochemical and molecular analysis of carboxylesterase-mediated hydrolysis of cocaine and heroin.</bp:TITLE>
+      <bp:SOURCE >Br J Pharmacol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Hatfield MJ</bp:AUTHORS>
+      <bp:AUTHORS >Tsurkan L</bp:AUTHORS>
+      <bp:AUTHORS >Hyatt JL</bp:AUTHORS>
+      <bp:AUTHORS >Yu X</bp:AUTHORS>
+      <bp:AUTHORS >Edwards CC</bp:AUTHORS>
+      <bp:AUTHORS >Hicks LD</bp:AUTHORS>
+      <bp:AUTHORS >Wadkins RM</bp:AUTHORS>
+      <bp:AUTHORS >Potter PM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="db5">
+      <bp:ID >16778732</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Toxicokinetics of drugs of abuse: current knowledge of the isoenzymes involved in the human metabolism of tetrahydrocannabinol, cocaine, heroin, morphine, and codeine.</bp:TITLE>
+      <bp:SOURCE >Ther Drug Monit</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Maurer HH</bp:AUTHORS>
+      <bp:AUTHORS >Sauer C</bp:AUTHORS>
+      <bp:AUTHORS >Theobald DS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c81">
+      <bp:ID >12773168</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Human carboxylesterase 1: from drug metabolism to drug discovery.</bp:TITLE>
+      <bp:SOURCE >Biochem Soc Trans</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Redinbo MR</bp:AUTHORS>
+      <bp:AUTHORS >Bencharit S</bp:AUTHORS>
+      <bp:AUTHORS >Potter PM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cca">
+      <bp:ID >2420426</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The therapeutic use of heroin: a review of the pharmacological literature.</bp:TITLE>
+      <bp:SOURCE >Can J Physiol Pharmacol</bp:SOURCE>
+      <bp:YEAR >1986</bp:YEAR>
+      <bp:AUTHORS >Sawynok J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >drug pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000754</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>heroin drug pathway</bp:TERM><bp:ID>PW:0002558</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

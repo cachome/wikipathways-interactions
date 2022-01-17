@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="IL1 and megakaryocytes in obesity" Version="20141015" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Schematic of the effects of interleukin (IL)1-beta/IL1R1 on megakaryocyte and platelet function. A high fat diet will cause megakaryocytes to produce platelets with an increase in both inflammatory and thrombotic genes. 
+IL1-beta in circulation as a result of increased body weight will bind IL1R1 on megakaryocytes. This interaction leads to the activation of the nuclear factor (NF)kB, PI3K/Akt, and mitogen activated protein kinase (MAPK) (ERK and p38) pathways. As a result, there is an increase in megakarycoyte maturation, including increased adhesion, increases in ploidy, and increases in mRNA production of inflammatory and thrombotic genes. IL1-beta can also bind IL1R1 on platelets and either enhance aggregation induced by agonists or promote adhesion and heterotypic aggregate formation.
+
+Some of the data used to create the pathway was generated in mouse (noted in pathway), however the pathway represents human homologs of those genes.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2865 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>b30</BiopaxRef>
+  <Graphics BoardWidth="965.8632855567802" BoardHeight="813.2672732963565"/>
+  <DataNode TextLabel="p38/MAPK &#10;pathway" GraphId="af450" Type="Pathway" GroupRef="b940e">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="IL1R1" GraphId="bb1fb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PAR1" GraphId="ca338" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ICAM1" GraphId="a2e03" Type="GeneProduct" GroupRef="d11f8">
+        </DataNode>
+  <DataNode TextLabel="IL1B" GraphId="f6eb0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TIMP2" GraphId="c284e" Type="GeneProduct" GroupRef="d11f8">
+        </DataNode>
+  <DataNode TextLabel="SELENBP1" GraphId="fc360" Type="GeneProduct" GroupRef="d11f8">
+        </DataNode>
+  <DataNode TextLabel="MMP9" GraphId="dfbb7" Type="GeneProduct" GroupRef="df81e">
+        </DataNode>
+  <DataNode TextLabel="PLA2G7" GraphId="a0e17" Type="GeneProduct" GroupRef="d11f8">
+        </DataNode>
+  <DataNode TextLabel="IRAK1" GraphId="f2a3a" Type="GeneProduct" GroupRef="df81e">
+        </DataNode>
+  <DataNode TextLabel="TLR1" GraphId="ec04d" Type="GeneProduct" GroupRef="d11f8">
+        </DataNode>
+  <DataNode TextLabel="IL18" GraphId="f0137" Type="GeneProduct" GroupRef="df81e">
+        </DataNode>
+  <DataNode TextLabel="MYD88" GraphId="e43d6" Type="GeneProduct" GroupRef="d11f8">
+        </DataNode>
+  <DataNode TextLabel="TIMP1" GraphId="efd42" Type="GeneProduct" GroupRef="d11f8">
+        </DataNode>
+  <DataNode TextLabel="CCR3" GraphId="dfa2c" Type="GeneProduct" GroupRef="d11f8">
+        </DataNode>
+  <DataNode TextLabel="PIK3CA" GraphId="d91c5" Type="GeneProduct" GroupRef="b940e">
+        </DataNode>
+  <DataNode TextLabel="NLRP3" GraphId="e4f26" Type="GeneProduct" GroupRef="df81e">
+        </DataNode>
+  <DataNode TextLabel="FCER1A" GraphId="f942c" Type="GeneProduct" GroupRef="d11f8">
+        </DataNode>
+  <DataNode TextLabel="MYD88" GraphId="df699" Type="GeneProduct" GroupRef="df81e">
+        </DataNode>
+  <DataNode TextLabel="Thrombin" GraphId="c049b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IFNG" GraphId="d7a60" Type="GeneProduct" GroupRef="d11f8">
+        </DataNode>
+  <DataNode TextLabel="S100A9" GraphId="b4d4f" Type="GeneProduct" GroupRef="d11f8">
+        </DataNode>
+  <DataNode TextLabel="HBEGF" GraphId="f1dca" Type="GeneProduct" GroupRef="d11f8">
+        </DataNode>
+  <DataNode TextLabel="CCL2" GraphId="d7089" Type="GeneProduct" GroupRef="d11f8">
+        </DataNode>
+  <DataNode TextLabel="TLR2" GraphId="d2d26" Type="GeneProduct" GroupRef="d11f8">
+        </DataNode>
+  <DataNode TextLabel="ERK&#10;pathway" GraphId="e9f17" Type="Pathway" GroupRef="b940e">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="MMP9" GraphId="c90f9" Type="GeneProduct" GroupRef="d11f8">
+        </DataNode>
+  <DataNode TextLabel="IL1R1" GraphId="cd1e2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="c1481" Type="GeneProduct" GroupRef="b940e">
+        </DataNode>
+  <DataNode TextLabel="IL1B" GraphId="cb32e" Type="GeneProduct" GroupRef="df81e">
+        </DataNode>
+  <DataNode TextLabel="IL1R1" GraphId="d7c58" Type="GeneProduct" GroupRef="d11f8">
+        </DataNode>
+  <Interaction GraphId="e562f">
+    <Graphics>
+      <Point GraphRef="f8631"/>
+      <Point GraphRef="b5f3a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cd639">
+    <Graphics>
+      <Point GraphRef="c049b"/>
+      <Point GraphRef="ca338" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de0d1">
+    <Graphics>
+      <Point GraphRef="cd1e2"/>
+      <Point GraphRef="c1481" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8017">
+    <Graphics>
+      <Point GraphRef="cd1e2"/>
+      <Point GraphRef="d91c5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b5e89">
+    <Graphics>
+      <Point GraphRef="ca338"/>
+      <Point GraphRef="de57e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d3723">
+    <Graphics>
+      <Point GraphRef="cd1e2"/>
+      <Point GraphRef="af450" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ad9e0">
+    <Graphics>
+      <Point GraphRef="c6902"/>
+      <Point GraphRef="ae93f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b208b">
+    <Graphics>
+      <Point GraphRef="f6eb0"/>
+      <Point GraphRef="cd1e2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cb632">
+    <Graphics>
+      <Point GraphRef="cd1e2"/>
+      <Point GraphRef="e9f17" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b9313">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b60b7"/>
+      <Point GraphRef="f6eb0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b4c57">
+    <Graphics>
+      <Point GraphRef="bb1fb"/>
+      <Point GraphRef="fc89d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6c43">
+    <Graphics>
+      <Point GraphRef="f8631"/>
+      <Point GraphRef="d519f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e30f3">
+    <Graphics>
+      <Point GraphRef="f8631"/>
+      <Point GraphRef="d4fb2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Increased adhesion" GraphId="d519f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Increased ploidy" GraphId="a8649" GroupRef="fe47f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Transcripts increased in mouse data&#10;(Human homologs)" GraphId="cf138">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Platelets with increased inflammatory&#10;and thrombotic transcripts" GraphId="d4fb2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="High Fat Diet" GraphId="b60b7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Transcripts increased in&#10;Framingham Heart Study" GraphId="d07f9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Active integrins" GraphId="d201c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Platelet" GraphId="a9849" GroupRef="b7e5e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="White Blood Cell" GraphId="caa56" GroupRef="b7e5e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Adhesion" GraphId="c1d59" GroupRef="b7e5e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Aggregation" GraphId="fedd4" GroupRef="b7e5e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Heterotypic Aggregate&#10;Formation" GraphId="efe17" GroupRef="b7e5e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Megakaryocyte" GraphId="b8d27">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="c6902">
+    <Graphics FillColor="5a92f0" ShapeType="Oval" Color="0066cc"/>
+  </Shape>
+  <Shape GraphId="fac2c">
+    <Graphics FillColor="ccdbeb" ShapeType="Oval" Color="0066cc"/>
+  </Shape>
+  <Shape GraphId="bdbb2" GroupRef="b7e5e">
+    <Graphics FillColor="cccccc" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b5f3a" GroupRef="fe47f">
+    <Graphics FillColor="5a92f0" ShapeType="Oval" Color="5a92f0"/>
+  </Shape>
+  <Shape GraphId="de57e">
+    <Graphics FillColor="009900" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="fc89d">
+    <Graphics FillColor="009900" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="d8889" GroupRef="b7e5e">
+    <Graphics FillColor="5a92f0" ShapeType="Oval" Color="0066cc"/>
+  </Shape>
+  <Shape GraphId="c7ec2" GroupRef="b7e5e">
+    <Graphics FillColor="5a92f0" ShapeType="Oval" Color="0066cc"/>
+  </Shape>
+  <Group GroupId="fe47f" GraphId="d2e20" Style="Group"/>
+  <Group GroupId="d11f8" GraphId="fdd05" Style="Group">
+    <Comment>From mouse data</Comment>
+  </Group>
+  <Group GroupId="df81e" GraphId="a1615" Style="Group">
+    <Comment>From Framingham Heart Study</Comment>
+  </Group>
+  <Group GroupId="b940e" GraphId="f8631" Style="Group"/>
+  <Group GroupId="b7e5e" GraphId="ae93f" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b30">
+      <bp:ID >24458711</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Interleukin 1 receptor 1 and interleukin 1&#338;&#8804; regulate megakaryocyte maturation, platelet activation, and transcript profile during inflammation in mice and humans.</bp:TITLE>
+      <bp:SOURCE >Arterioscler Thromb Vasc Biol</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Beaulieu LM</bp:AUTHORS>
+      <bp:AUTHORS >Lin E</bp:AUTHORS>
+      <bp:AUTHORS >Mick E</bp:AUTHORS>
+      <bp:AUTHORS >Koupenova M</bp:AUTHORS>
+      <bp:AUTHORS >Weinberg EO</bp:AUTHORS>
+      <bp:AUTHORS >Kramer CD</bp:AUTHORS>
+      <bp:AUTHORS >Genco CA</bp:AUTHORS>
+      <bp:AUTHORS >Tanriverdi K</bp:AUTHORS>
+      <bp:AUTHORS >Larson MG</bp:AUTHORS>
+      <bp:AUTHORS >Benjamin EJ</bp:AUTHORS>
+      <bp:AUTHORS >Freedman JE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >overnutrition</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:654</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>obesity disease pathway</bp:TERM><bp:ID>PW:0000540</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>obesity</bp:TERM><bp:ID>DOID:9970</bp:ID><bp:Ontology>Disease</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

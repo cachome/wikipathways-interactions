@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Vitamin D metabolism" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Photochemical synthesis of vitamin D3 (cholecalciferol, D3) occurs cutaneously where pro-vitamin D3 (7-dehydrocholesterol) is converted to pre-vitamin D3 (pre-D3) in response to ultraviolet B (sunlight) exposure. DHCR7 encodes the enzyme 7-dehydrocholesterol (7-DHC) reductase, which converts 7-DHC to cholesterol, thereby removing the substrate from the synthetic pathway of vitamin D3, a precursor of 25-hydroxyvitamin D3.The finding that common variants at DHCR7 are strongly associated with circulating 25-hydroxyvitamin D concentrations suggests that this enzyme could have a larger role in regulation of vitamin D status than has previously been recognised. Vitamin D3, obtained from the isomerization of pre-vitamin D3 in the epidermal basal layers or intestinal absorption of natural and fortified foods and supplements, binds to vitamin D-binding protein (DBP) in the bloodstream, and is transported to the liver. D3 is hydroxylated by liver 25-hydroxylases (25-OHase). The resultant 25-hydroxycholecalciferol (25(OH)D3) is 1-hydroxylated in the kidney by 25-hydroxyvitamin D3-1 -hydroxylase (1-OHase). This yields the active secosteroid 1 ,25(OH)2D3 (calcitriol), which has different effects on various target tissues. The synthesis of 1,25(OH)2D3 from 25(OH)D3 is stimulated by parathyroid hormone (PTH) and suppressed by Ca2+, Pi and 1,25(OH)2D3 itself. The rate-limiting step in catabolism is the degradation of 25(OH)D3 and 1,25(OH)2D3 to 24,25(OH)D3 and 1,24,25(OH)2D3, respectively,which occurs through 24-hydroxylation by 25-hydroxyvitamin D 24-hydroxylase (24-OHase), encoded by the CYP24A1 gene. 24,25(OH)D3 and 1,24,25(OH)2D3 are consequently excreted. Vitamin D activity is mediated through binding of 1,25(OH)2D3 to the vitamin D receptor (VDR), which can regulate transcription of other genes involved in cell regulation, growth, and immunity. VDR modulates the expression of genes by forming a heterodimer complex with retinoid-X-receptors (RXR).
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP1531 CPTAC Assay Portal].</Comment>
+  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
+  <BiopaxRef>f3f</BiopaxRef>
+  <Graphics BoardWidth="1085.8542416966802" BoardHeight="859.641903939838"/>
+  <DataNode TextLabel="Inactive&#10;24,25-OH-&#10;vitamin D" GraphId="a3330" Type="Metabolite">
+    <Graphics FontName="Verdana" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="RXRA" GraphId="a4a3c" Type="GeneProduct" GroupRef="e597a">
+    <Graphics FontName="Verdana"/>
+    </DataNode>
+  <DataNode TextLabel="Calcidiol" GraphId="a5036" Type="Metabolite">
+    <Graphics FontName="Verdana" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Calcidiol" GraphId="a51a5" Type="Metabolite">
+    <Graphics FontName="Verdana" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Parathyroid hormone" GraphId="b3aa4" Type="GeneProduct">
+    <Graphics FontName="Verdana"/>
+    </DataNode>
+  <DataNode TextLabel="Previtamin D3" GraphId="b7c22" Type="Metabolite">
+    <Graphics FontName="Verdana" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Calcitriol" GraphId="ba01d" Type="Metabolite">
+    <Graphics FontName="Verdana" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2R1 " GraphId="ba64b" Type="GeneProduct" GroupRef="bc6d9">
+    <BiopaxRef>def</BiopaxRef>
+    <Graphics FontName="Verdana"/>
+    </DataNode>
+  <DataNode TextLabel="Pi" GraphId="bbd6c" Type="Metabolite" GroupRef="d99ea">
+    <Graphics FontName="Verdana" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DHCR7" GraphId="bcdc9" Type="GeneProduct">
+    <BiopaxRef>b3f</BiopaxRef>
+    <BiopaxRef>d5b</BiopaxRef>
+    <BiopaxRef>ca1</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CYP27A1" GraphId="bfa93" Type="GeneProduct" GroupRef="bc6d9">
+    <BiopaxRef>a3b</BiopaxRef>
+    <Graphics FontName="Verdana"/>
+    </DataNode>
+  <DataNode TextLabel="Vitamin D binding protein" GraphId="c72dd" Type="GeneProduct">
+    <Graphics FontName="Verdana"/>
+    </DataNode>
+  <DataNode TextLabel="alpha-globulin" GraphId="d140a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RXRB" GraphId="d14a3" Type="GeneProduct" GroupRef="e597a">
+    <Graphics FontName="Verdana"/>
+    </DataNode>
+  <DataNode TextLabel="VDR" GraphId="d69a4" Type="GeneProduct">
+    <Graphics FontName="Verdana"/>
+    </DataNode>
+  <DataNode TextLabel="Cholecalciferol" GraphId="dc335" Type="Metabolite">
+    <Graphics FontName="Verdana" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cholesterol" GraphId="de7a4" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP24A1" GraphId="e26ee" Type="GeneProduct">
+    <Graphics FontName="Verdana"/>
+    </DataNode>
+  <DataNode TextLabel="CYP27B1" GraphId="e42dc" Type="GeneProduct">
+    <Graphics FontName="Verdana"/>
+    </DataNode>
+  <DataNode TextLabel="Vitamin D binding protein" GraphId="f687e" Type="Protein" GroupRef="d9dda">
+    <Graphics FontName="Verdana"/>
+    </DataNode>
+  <DataNode TextLabel="7-Dehydro-&#10;cholesterol" GraphId="fd693" Type="Metabolite">
+    <Graphics FontName="Verdana" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ca" GraphId="ffd6c" Type="Metabolite" GroupRef="d99ea">
+    <Graphics FontName="Verdana" Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="ac27b">
+    <Graphics>
+      <Point GraphRef="c72dd"/>
+      <Point GraphRef="a5684" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b6cd3">
+    <Graphics>
+      <Point GraphRef="febe0"/>
+      <Point GraphRef="cbc34"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="becb8">
+    <Graphics>
+      <Point GraphRef="fb5c0"/>
+      <Point GraphRef="a9021"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f41a2">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="ff0000">
+      <Point GraphRef="a9fb3"/>
+      <Point GraphRef="e42dc" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3306118f">
+    <Graphics>
+      <Point GraphRef="a5036"/>
+      <Point GraphRef="a3330" ArrowHead="Arrow"/>
+      <Anchor Position="0.8152775432339119" Shape="None" GraphId="c892a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3a3d310">
+    <Graphics>
+      <Point GraphRef="a5036"/>
+      <Point GraphRef="ba01d" ArrowHead="Arrow"/>
+      <Anchor Position="0.6742655728275083" Shape="None" GraphId="a249f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3edf95c8">
+    <Graphics>
+      <Point GraphRef="ba01d"/>
+      <Point GraphRef="d69a4" ArrowHead="mim-binding"/>
+      <Anchor Position="0.6471004138947576" Shape="None" GraphId="a5684"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id402e7170">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="0000cc">
+      <Point GraphRef="b3aa4"/>
+      <Point GraphRef="e26ee" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id44f7d0a6">
+    <Graphics>
+      <Point GraphRef="b7c22"/>
+      <Point GraphRef="dc335" ArrowHead="Arrow"/>
+      <Anchor Position="0.3660562780778637" Shape="None" GraphId="febe0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4f4dd7e8">
+    <Graphics>
+      <Point GraphRef="d69a4"/>
+      <Point GraphRef="c7c40" ArrowHead="Arrow"/>
+      <Anchor Position="0.43484138367267977" Shape="None" GraphId="bc01e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id52d502db">
+    <Graphics>
+      <Point GraphRef="f2831"/>
+      <Point GraphRef="c244f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id646fbe27">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken" Color="009900">
+      <Point GraphRef="ba01d"/>
+      <Point GraphRef="e26ee" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6c5af5d8">
+    <Graphics>
+      <Point GraphRef="e26ee"/>
+      <Point GraphRef="c892a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id867ef92">
+    <Graphics>
+      <Point GraphRef="e42dc"/>
+      <Point GraphRef="a249f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id879db83f">
+    <Graphics>
+      <Point GraphRef="fd693"/>
+      <Point GraphRef="b7c22" ArrowHead="mim-modification"/>
+      <Anchor Position="0.32856060558360584" Shape="None" GraphId="c244f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaa80d2d4">
+    <Graphics>
+      <Point GraphRef="ee55c"/>
+      <Point GraphRef="d2d61" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaf407315">
+    <Comment>7-dehydrocholesterolreductase</Comment>
+    <Graphics>
+      <Point GraphRef="bcdc9"/>
+      <Point GraphRef="d39c1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb2536244">
+    <Comment>Transport from Hepatocyte to kidney tissue</Comment>
+    <Graphics>
+      <Point GraphRef="a51a5"/>
+      <Point GraphRef="a5036" ArrowHead="Arrow"/>
+      <Anchor Position="0.5608498119209808" Shape="None" GraphId="ad672"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idba7e735a">
+    <Graphics LineStyle="Broken" Color="009900">
+      <Point GraphRef="b3aa4"/>
+      <Point GraphRef="e42dc" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc015bca4">
+    <Graphics>
+      <Point GraphRef="fd693"/>
+      <Point GraphRef="de7a4" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5185201451378435" Shape="None" GraphId="d39c1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd3589337">
+    <Graphics>
+      <Point GraphRef="d140a"/>
+      <Point GraphRef="ad672" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide926490f">
+    <Graphics>
+      <Point GraphRef="dc335"/>
+      <Point GraphRef="a51a5" ArrowHead="Arrow"/>
+      <Anchor Position="0.7158260391069697" Shape="None" GraphId="d2d61"/>
+      <Anchor Position="0.17624678962678672" Shape="None" GraphId="a9021"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf68b763e">
+    <Graphics>
+      <Point GraphRef="bc01e"/>
+      <Point GraphRef="bf5aa"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="id9338cbd0">
+    <Graphics LineStyle="Broken" Color="009933">
+      <Point/>
+      <Point ArrowHead="mim-stimulation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b6cf0">
+    <Graphics LineStyle="Broken" Color="000099">
+      <Point/>
+      <Point ArrowHead="mim-stimulation"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Vitamin D from Diet" GraphId="a3a68" GroupRef="d9dda">
+    <Graphics FillColor="ffffff" FontName="Verdana" Color="006600"/>
+  </Label>
+  <Label TextLabel="Spontaneous isomerisation" GraphId="cbc34">
+    <Graphics FillColor="ffffff" FontName="Verdana" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Endocrine modulators" GraphId="d67d2">
+    <Graphics FillColor="ffffff" FontName="Verdana"/>
+  </Label>
+  <Label TextLabel="UV B radiation from sunlight" GraphId="f2831">
+    <Graphics FillColor="ffffff" FontName="Verdana" ShapeType="Rectangle" Color="ff6600"/>
+  </Label>
+  <Label TextLabel="Legend:" GraphId="f8714">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Label TextLabel="Activation" GraphId="edba5">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Label TextLabel="Tissue-specific regulation" GraphId="f4a51">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Shape GraphId="afcca">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="VDR targets" GraphId="c7c40">
+    <BiopaxRef>cab</BiopaxRef>
+    <Graphics FontName="Verdana" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="   Skin" GraphId="dc46a">
+    <Graphics Align="Left" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Hepatocyte" GraphId="f0044">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Kidney" GraphId="dcd2e">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="d99ea" GraphId="a9fb3" Style="Group"/>
+  <Group GroupId="e597a" GraphId="bf5aa" Style="Group"/>
+  <Group GroupId="bc6d9" GraphId="ee55c" Style="Group"/>
+  <Group GroupId="d9dda" GraphId="fb5c0"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="def">
+      <bp:ID >15128933</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Genetic evidence that the human CYP2R1 enzyme is a key vitamin D 25-hydroxylase.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:ID >15128933</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Genetic evidence that the human CYP2R1 enzyme is a key vitamin D 25-hydroxylase.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Cheng JB</bp:AUTHORS>
+      <bp:AUTHORS >Levine MA</bp:AUTHORS>
+      <bp:AUTHORS >Bell NH</bp:AUTHORS>
+      <bp:AUTHORS >Mangelsdorf DJ</bp:AUTHORS>
+      <bp:AUTHORS >Russell DW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >vitamin D metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001011</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca1">
+      <bp:ID >20541252</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Common genetic determinants of vitamin D insufficiency: a genome-wide association study</bp:TITLE>
+      <bp:SOURCE >Lancet,376:180-188</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Thomas J Wang*, Feng Zhang*, J Brent Richards*, Bryan Kestenbaum*, Joyce B van Meurs*, Diane Berry*, Douglas P Kiel, Elizabeth A Streeten,&#13;
+Claes Ohlsson, Daniel L Koller, Leena Peltonen&#226;&#8364;&#160;, Jason D Cooper, Paul F O&#226;&#8364;&#8482;Reilly, Denise K Houston, Nicole L Glazer, Liesbeth Vandenput, Munro Peacock,&#13;
+Julia Shi, Fernando Rivadeneira, Mark I McCarthy, Pouta Anneli, Ian H de Boer, Massimo Mangino, Bernet Kato, Deborah J Smyth, Sarah L Booth,&#13;
+Paul F Jacques, Greg L Burke, Mark Goodarzi, Ching-Lung Cheung, Myles Wolf, Kenneth Rice, David Goltzman, Nick Hidiroglou, Martin Ladouceur,&#13;
+Nicholas J Wareham, Lynne J Hocking, Deborah Hart, Nigel K Arden, Cyrus Cooper, Suneil Malik, William D Fraser, Anna-Liisa Hartikainen,&#13;
+Guangju Zhai, Helen M Macdonald, Nita G Forouhi, Ruth J F Loos, David M Reid, Alan Hakim, Elaine Dennison, Yongmei Liu, Chris Power,&#13;
+Helen E Stevens, Laitinen Jaana, Ramachandran S Vasan, Nicole Soranzo, J&#195;&#182;rg Bojunga, Bruce M Psaty, Mattias Lorentzon, Tatiana Foroud,&#13;
+Tamara B Harris, Albert Hofman, John-Olov Jansson, Jane A Cauley, Andre G Uitterlinden, Quince Gibson, Marjo-Riitta J&#195;&#164;rvelin, David Karasik,&#13;
+David S Siscovick, Michael J Econs, Stephen B Kritchevsky, Jose C Florez, John A Todd*, Josee Dupuis*, Elina Hypp&#195;&#182;nen*, Timothy D Spector*</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a3b">
+      <bp:ID >7690968</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Transfected human liver cytochrome P-450 hydroxylates vitamin D analogs at different side-chain positions.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >1993</bp:YEAR>
+      <bp:AUTHORS >Guo YD</bp:AUTHORS>
+      <bp:AUTHORS >Strugnell S</bp:AUTHORS>
+      <bp:AUTHORS >Back DW</bp:AUTHORS>
+      <bp:AUTHORS >Jones G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >rickets</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:10609</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >hepatocyte</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000182</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >skin fibroblast</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0002620</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cab">
+      <bp:ID >20736230</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A ChIP-seq defined genome-wide map of vitamin D receptor binding: Associations with disease and evolution.</bp:TITLE>
+      <bp:SOURCE >Genome Res</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Ramagopalan SV</bp:AUTHORS>
+      <bp:AUTHORS >Heger A</bp:AUTHORS>
+      <bp:AUTHORS >Berlanga AJ</bp:AUTHORS>
+      <bp:AUTHORS >Maugeri NJ</bp:AUTHORS>
+      <bp:AUTHORS >Lincoln MR</bp:AUTHORS>
+      <bp:AUTHORS >Burrell A</bp:AUTHORS>
+      <bp:AUTHORS >Handunnetthi L</bp:AUTHORS>
+      <bp:AUTHORS >Handel AE</bp:AUTHORS>
+      <bp:AUTHORS >Disanto G</bp:AUTHORS>
+      <bp:AUTHORS >Orton SM</bp:AUTHORS>
+      <bp:AUTHORS >Watson CT</bp:AUTHORS>
+      <bp:AUTHORS >Morahan JM</bp:AUTHORS>
+      <bp:AUTHORS >Giovannoni G</bp:AUTHORS>
+      <bp:AUTHORS >Ponting CP</bp:AUTHORS>
+      <bp:AUTHORS >Ebers GC</bp:AUTHORS>
+      <bp:AUTHORS >Knight JC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f3f">
+      <bp:ID >18689389</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >From vitamin D to hormone D: fundamentals of the vitamin D endocrine system essential for good health.</bp:TITLE>
+      <bp:SOURCE >Am J Clin Nutr</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Norman AW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3f">
+      <bp:ID >20418485</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Genome-wide association study of circulating vitamin D levels.</bp:TITLE>
+      <bp:SOURCE >Hum Mol Genet. 2010 Jul 1;19(13):2739-45</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Ahn J, Yu K, Stolzenberg-Solomon R, Simon KC, McCullough ML, Gallicchio L, Jacobs EJ, Ascherio A, Helzlsouer K, Jacobs KB, Li Q, Weinstein SJ, Purdue M, Virtamo J, Horst R, Wheeler W, Chanock S, Hunter DJ, Hayes RB, Kraft P, Albanes D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >kidney cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:1000497</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >metabolic pathway of cofactors and vitamins</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000135</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d5b">
+      <bp:ID >11111101</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Biochemical and genetic aspects of 7-dehydrocholesterol reductase and Smith-Lemli-Opitz syndrome.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Waterham HR</bp:AUTHORS>
+      <bp:AUTHORS >Wanders RJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >osteomalacia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:10573</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

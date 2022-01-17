@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Mitochondrial complex I inhibition leading to chemical-induced Fanconi syndrome" Version="20200706" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway is a meta-pathway that represents an updated version of the Adverse Outcome Pathway 276: Inhibition of complex I of the electron transport chain leading to chemical induced Fanconi syndrome (https://aopwiki.org/aops/276). All Key Events are present as Key Event nodes, with their corresponding molecular pathways as pathway nodes.</Comment>
+  <Graphics BoardWidth="821.967738225858" BoardHeight="1016.138888888889"/>
+  <DataNode TextLabel="KE888: Binding of inhibitor, &#10;NADH-ubiquinone oxidoreductase (complex I)" GraphId="fc8d5" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="Autophagy" GraphId="b6ccd" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Necrosis" GraphId="a7af7" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Deguelin" GraphId="e3fea" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Decreased proximal tubule vectorial transport" GraphId="dbc60" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Decreased mitochondrial oxidative phosphorylation" GraphId="b9447" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Apoptosis" GraphId="eb799" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Ferroptosis" GraphId="c2dac" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Assembly of mitochondrial complex I" GraphId="d19e6" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Oxidative stress response" GraphId="c430b" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Impaired proteostasis" GraphId="bafd5" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Unfolded Protein Response" GraphId="f7e4c" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Rotenone" GraphId="f827a" Type="Event">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="KE887: Inhibition, &#10;NADH-ubiquinone oxidoreductase (complex I)" GraphId="b805e" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="KE1477: Decrease, OXPHOS" GraphId="a361f" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="KE1562: Decreased Na/K ATPase activity&#10;" GraphId="cf3b1" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="KE1563: Decreased proximal tubular vectorial transport&#10;" GraphId="ef339" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="KE1564: Chemical induced Fanconi syndrome&#10;" GraphId="b58b3" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="KE55: N/A, Cell injury/death&#10;" GraphId="ee286" Type="Event">
+        </DataNode>
+  <DataNode TextLabel="KE889: Impaired, Proteostasis&#10;" GraphId="c4e99" Type="Event">
+        </DataNode>
+  <Interaction GraphId="id11cc7706">
+    <Graphics>
+      <Point GraphRef="fc8d5"/>
+      <Point GraphRef="d19e6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id391453a2">
+    <Graphics>
+      <Point GraphRef="ee286"/>
+      <Point GraphRef="eb799"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id45956cf6">
+    <Graphics>
+      <Point GraphRef="c4e99"/>
+      <Point GraphRef="bafd5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4a0511f1">
+    <Graphics>
+      <Point GraphRef="ee286"/>
+      <Point GraphRef="a7af7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5f5a0663">
+    <Graphics>
+      <Point GraphRef="c4e99"/>
+      <Point GraphRef="f7e4c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7d3d778">
+    <Graphics>
+      <Point GraphRef="ee286"/>
+      <Point GraphRef="b6ccd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id900b6636">
+    <Graphics>
+      <Point GraphRef="eb799"/>
+      <Point GraphRef="c2dac"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida5739b00">
+    <Graphics>
+      <Point GraphRef="b805e"/>
+      <Point GraphRef="d19e6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc8a282c3">
+    <Graphics>
+      <Point GraphRef="ef339"/>
+      <Point GraphRef="dbc60"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd1787fcc">
+    <Graphics>
+      <Point GraphRef="cf3b1"/>
+      <Point GraphRef="c430b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide1efb223">
+    <Graphics>
+      <Point GraphRef="b9447"/>
+      <Point GraphRef="a361f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf8f5cf58">
+    <Graphics>
+      <Point GraphRef="fc8d5"/>
+      <Point GraphRef="b805e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dcd54">
+    <Graphics>
+      <Point GraphRef="f827a"/>
+      <Point GraphRef="fc8d5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d3d41">
+    <Graphics>
+      <Point GraphRef="b805e"/>
+      <Point GraphRef="a361f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6488">
+    <Graphics>
+      <Point GraphRef="cf3b1"/>
+      <Point GraphRef="c4e99" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fe99c">
+    <Graphics>
+      <Point GraphRef="ee286"/>
+      <Point GraphRef="ef339" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d48cb">
+    <Graphics>
+      <Point GraphRef="cf3b1"/>
+      <Point GraphRef="ee286" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e10db">
+    <Graphics>
+      <Point GraphRef="c4e99"/>
+      <Point GraphRef="ee286" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c0b78">
+    <Graphics>
+      <Point GraphRef="ef339"/>
+      <Point GraphRef="b58b3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dc69c">
+    <Graphics>
+      <Point GraphRef="e3fea"/>
+      <Point GraphRef="fc8d5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e178a">
+    <Graphics>
+      <Point GraphRef="c4e99"/>
+      <Point GraphRef="ef339" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d72a2">
+    <Graphics>
+      <Point GraphRef="a361f"/>
+      <Point GraphRef="cf3b1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >altered metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000262</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Fanconi syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:1062</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

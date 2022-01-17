@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name=" Non-classical role of vitamin D" Version="20210713" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Vitamin D is known for its participation in various skeletal and non-skeletal muscle homeostasis. In addition to Calcium (Ca+2) and phosphorous (P) absorption, its association with CVD, hypertention, cancer, obesity, diabetes and immune system has been reported. It actively participates in the regulation of cardiovascular system through Renin Angiotensin Aldosterone System (RAAS). Renin is secreted by the kidney and it activates the formation of angiotensin II that leads to the decreased production of nitric oxide (NO) and increased endothelial vascular dysfunction (P&#233;rez-Hern&#225;ndez et al., 2016). Vitamin D causes the insulin release, facilitates muscle contraction and glucose uptake by enhancing the activity of glucose transporter 4 (GLUT4) channels in the cells (Berridge, 2017) and reduces the aldosterone . From last few years vitamin D has gained special attention as immunomodulatory agent. The immunologic cells such as B cells, T cells, and antigen presenting cells express vitamin D receptors on their cells as well as are capable of synthesizing vitamin D metabolites especially calcitriol. The beneficial effects of vitamin D are linked with both innate and adaptive immune systems. During vitamin D deficiency an unwanted production of pro-inflammatory cytokines cause atherosclerotic lesions and atherogenesis. These conditions lead to increased vasoconstriction and decreased vasodilation, endothelial dysfunction, and alleviated nitric oxide formation. Furthermore, the expression of angiotensin-converting enzyme 2 (ACE2; responsible for the retrospective production of Ang1-7 form Ang II) is also reduced in vitamin D deficient subjects. Such individuals are more vulnerable to infectious diseases, especially, recent pandemic of COVID-19 (Malek Mahdavi, 2020).</Comment>
+  <Graphics BoardWidth="964.0" BoardHeight="610.5"/>
+  <DataNode TextLabel="Angiotensinogen" GraphId="a1790" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="aldosterone" GraphId="a5202" Type="Metabolite">
+        </DataNode>
+  <DataNode TextLabel="1,25-dihydroxycholecalciferol" GraphId="ac92f" Type="Metabolite" GroupRef="f1650">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="cytokines and inflammation" GraphId="ad27a" Type="Pathway" GroupRef="cb8cd">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Vasodilation" GraphId="b2235" Type="Pathway" GroupRef="acbb6">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="ROS production" GraphId="b3b49" Type="Pathway" GroupRef="cb8cd">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="vitamin D receptor &#10;agonists" GraphId="b5eea" Type="Metabolite" GroupRef="f1650">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="25-hydroxycholecalciferol" GraphId="b5fb4" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="angiotensin I" GraphId="b6557" Type="Metabolite">
+    <Graphics Color="003399"/>
+    </DataNode>
+  <DataNode TextLabel="7-Dehydrocholesterol" GraphId="b8b94" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Apoptosis" GraphId="b9bc7" Type="Pathway" GroupRef="bd812">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Type-1 &#10;angiotensin II &#10;receptor" GraphId="ba70a" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Cholecalciferol" GraphId="bac0d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Type-2 &#10;angiotensin II &#10;receptor" GraphId="bf73a" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="25-hydroxylase" GraphId="c9f22" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="1,25-dihydroxycholecalciferol" GraphId="cf765" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Renal Type-1 &#10;angiotensin II &#10;receptor" GraphId="d0017" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="ACE2" GraphId="d0302" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Renin" GraphId="d414a" Type="Protein">
+    <BiopaxRef>e76</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Fibrosis" GraphId="d5e1b" Type="Pathway" GroupRef="bd812">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Angiotensin II" GraphId="dba94" Type="Metabolite">
+    <Graphics Color="003399"/>
+    </DataNode>
+  <DataNode TextLabel="1-alpha-&#10;hydroxylase " GraphId="e5ceb" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="ACE" GraphId="e935e" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Inflammation" GraphId="ee219" Type="Pathway" GroupRef="bd812">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <Interaction GraphId="id1f1dc8a3">
+    <Graphics>
+      <Point GraphRef="dba94"/>
+      <Point GraphRef="d0017" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id27558b8f">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="b6557"/>
+      <Point GraphRef="ec2ea"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3daf0281">
+    <Graphics>
+      <Point GraphRef="dba94"/>
+      <Point GraphRef="b6557" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f60b1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3e08f39">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a1790"/>
+      <Point/>
+      <Point GraphRef="b70b0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id48331265">
+    <Graphics Color="ff0000">
+      <Point GraphRef="ac92f"/>
+      <Point GraphRef="d414a" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id53aefa5c">
+    <Graphics>
+      <Point GraphRef="cf765"/>
+      <Point GraphRef="fa45e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id548b6ab2">
+    <Graphics>
+      <Point GraphRef="d414a"/>
+      <Point GraphRef="fa952" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5a128648">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a300f"/>
+      <Point GraphRef="d414a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5ccfb732">
+    <Graphics>
+      <Point GraphRef="e5ceb"/>
+      <Point GraphRef="efa4a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6e472ad6">
+    <Graphics>
+      <Point GraphRef="c9f22"/>
+      <Point GraphRef="bac98" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id865f394b">
+    <Graphics>
+      <Point GraphRef="dba94"/>
+      <Point GraphRef="bf73a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8e566d1e">
+    <Graphics>
+      <Point GraphRef="e935e"/>
+      <Point GraphRef="c4423" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id96120839">
+    <Graphics>
+      <Point GraphRef="b6557"/>
+      <Point GraphRef="dba94" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c4423"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id97daad93">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ba70a"/>
+      <Point GraphRef="dcb4b" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida6b72457">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bf73a"/>
+      <Point GraphRef="c9bd7" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idac429ec">
+    <Graphics>
+      <Point GraphRef="bac0d"/>
+      <Point GraphRef="b5fb4" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bac98"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idadb1744e">
+    <Graphics>
+      <Point GraphRef="dba94"/>
+      <Point GraphRef="ba70a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idba0916a">
+    <Graphics>
+      <Point GraphRef="b8b94"/>
+      <Point GraphRef="bac0d" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbb55587">
+    <Graphics>
+      <Point GraphRef="a1790"/>
+      <Point GraphRef="b6557" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="fa952"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbf5a9cab">
+    <Graphics>
+      <Point GraphRef="d0302"/>
+      <Point GraphRef="f60b1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd103f83c">
+    <BiopaxRef>aac</BiopaxRef>
+    <Graphics Color="00ff33">
+      <Point GraphRef="cf765"/>
+      <Point GraphRef="d0302" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd51b8712">
+    <Graphics>
+      <Point GraphRef="b5fb4"/>
+      <Point GraphRef="b708b" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="efa4a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idded1f3a">
+    <Graphics>
+      <Point GraphRef="d0017"/>
+      <Point GraphRef="a5202" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ec2ec">
+    <BiopaxRef>cd9</BiopaxRef>
+    <Graphics Color="ff0000">
+      <Point GraphRef="a32e2"/>
+      <Point GraphRef="d0302" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="id1c420aeb">
+    <Graphics>
+      <Point GraphRef="a5202"/>
+      <Point GraphRef="e6494"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="iddf46a0dd">
+    <Graphics>
+      <Point GraphRef="f1e1f"/>
+      <Point GraphRef="c9abf"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Kidney" GraphId="a300f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Liver" GraphId="b70b0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="UV (295-320 nm)" GraphId="b8dbb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="HTN &amp; CVD" GraphId="c9abf">
+    <Graphics FillColor="ffffff" Color="ff0033"/>
+  </Label>
+  <Label TextLabel="&amp; anti-proliferation" GraphId="c9bd7" GroupRef="acbb6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="SARS Cov-2 with genome" GraphId="e2e09">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Diabetes" GraphId="e6494">
+    <BiopaxRef>c90</BiopaxRef>
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Blood stream" GraphId="ed3c3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Increase in Na, K retention, &#10;Increase vasoconstriction" GraphId="f1e1f" GroupRef="cb8cd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Skin" GraphId="f5af3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Strong&#10;Immunity" GraphId="fa45e">
+    <Graphics FillColor="ffffff" Color="009933"/>
+  </Label>
+  <Label TextLabel="SARS glycoprotein spike" GraphId="fae89">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="a46eb">
+    <Graphics ShapeType="RoundedRectangle" Color="999999"/>
+  </Shape>
+  <Shape GraphId="c3f5f">
+    <Graphics ShapeType="RoundedRectangle" Color="999999"/>
+  </Shape>
+  <Shape GraphId="c4f29">
+    <Graphics ShapeType="RoundedRectangle" Color="999999"/>
+  </Shape>
+  <Shape GraphId="f05cc">
+    <Graphics ShapeType="RoundedRectangle" Color="999999"/>
+  </Shape>
+  <Shape TextLabel="S" GraphId="a55b9">
+    <Graphics FillColor="ff6666" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ea6e9" GroupRef="ce14b">
+    <Graphics ShapeType="Arc" Color="ff0000"/>
+  </Shape>
+  <Shape TextLabel="S" GraphId="abd01" GroupRef="ce14b">
+    <Graphics FillColor="ff6666" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="efc5a" GroupRef="ce14b">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d2e71" GroupRef="cdcd9">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d4b59" GroupRef="cdcd9">
+    <Graphics ShapeType="Arc" Color="ff0000"/>
+  </Shape>
+  <Group GroupId="acbb6" Style="Group"/>
+  <Group GroupId="cdcd9" Style="Group"/>
+  <Group GroupId="ce14b" GraphId="a32e2" Style="Group"/>
+  <Group GroupId="f1650" GraphId="b708b" Style="Complex"/>
+  <Group GroupId="cb8cd" GraphId="dcb4b" Style="Group"/>
+  <Group GroupId="bd812" GraphId="ec2ea" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >diabetes mellitus</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:9351</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aac">
+      <bp:ID >32685191</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The angiotensin-converting enzyme 2 (ACE2) receptor in the prevention and treatment of COVID-19 are distinctly different paradigms.</bp:TITLE>
+      <bp:SOURCE >Clin Hypertens</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >McLachlan CS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >vitamin D signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >vitamin D metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001011</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >COVID-19</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0080600</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd9">
+      <bp:ID >32584474</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A brief review of interplay between vitamin D and angiotensin-converting enzyme 2: Implications for a potential treatment for COVID-19.</bp:TITLE>
+      <bp:SOURCE >Rev Med Virol</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Malek Mahdavi A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >hypertension</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:10763</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c90">
+      <bp:ID >28341729</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Vitamin D deficiency and diabetes.</bp:TITLE>
+      <bp:SOURCE >Biochem J</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Berridge MJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e76">
+      <bp:ID >27117316</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Vitamin D and its effects on cardiovascular diseases: a comprehensive review.</bp:TITLE>
+      <bp:SOURCE >Korean J Intern Med</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >P&#233;rez-Hern&#225;ndez N</bp:AUTHORS>
+      <bp:AUTHORS >Aptilon-Duque G</bp:AUTHORS>
+      <bp:AUTHORS >Nostroza-Hern&#225;ndez MC</bp:AUTHORS>
+      <bp:AUTHORS >Vargas-Alarc&#243;n G</bp:AUTHORS>
+      <bp:AUTHORS >Rodr&#237;guez-P&#233;rez JM</bp:AUTHORS>
+      <bp:AUTHORS >Blachman-Braun R</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

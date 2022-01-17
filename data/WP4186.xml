@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Somatroph axis (GH) and its relationship to dietary restriction and aging" Version="20171129" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The somatotrophic axis in mammals comprises the growth hormone (GH), which is produced by the anterior pituitary, and its secondary mediator, insulin-like growth factor 1 (IGF-1). The intracellular signaling pathway of IGF-1 is the same as that elicited by insulin, which informs cells of the presence of glucose. For this reason, IGF-1 and insulin signaling are known as the insulin and IGF-1 signaling (IIS) pathway. Remarkably, the IIS pathway is the most conserved aging-controlling pathway in evolution, and among its multiple targets are the FOXO family of transcription factors and the mTOR complexes, which are also involved in aging and conserved through evolution. Genetic polymorphisms or mutations that reduce the functions of GH, IGF-1 receptor, insulin receptor, or downstream intracellular effectors such as AKT, mTOR, and FOXO have been linked to longevity. Molecules that favor aging are shown in orange, and molecules with anti-aging properties are shown in light green.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP4186 CPTAC Assay Portal].</Comment>
+  <BiopaxRef>ece</BiopaxRef>
+  <Graphics BoardWidth="712.4583749999999" BoardHeight="596.5"/>
+  <DataNode TextLabel="FOXO" GraphId="ae825" Type="GeneProduct">
+    <Graphics FillColor="00ff99"/>
+    </DataNode>
+  <DataNode TextLabel="IGF-1" GraphId="bb264" Type="GeneProduct">
+    <Graphics FillColor="ff9966"/>
+    </DataNode>
+  <DataNode TextLabel="PTEN" GraphId="c5c3e" Type="Protein">
+    <Graphics FillColor="00ff99"/>
+    </DataNode>
+  <DataNode TextLabel="SIRT1" GraphId="cd394" Type="GeneProduct">
+    <Graphics FillColor="00ff99"/>
+    </DataNode>
+  <DataNode TextLabel="PI3K " GraphId="cf8ce" Type="Protein">
+    <Graphics FillColor="ff9966"/>
+    </DataNode>
+  <DataNode TextLabel="GH" GraphId="d6a76" Type="Metabolite">
+    <Graphics FillColor="ff9966" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MTOR" GraphId="da955" Type="GeneProduct">
+    <Graphics FillColor="ff9966"/>
+    </DataNode>
+  <DataNode TextLabel="PGC-1 alpha" GraphId="eebfa" Type="Protein">
+    <Graphics FillColor="00ff99"/>
+    </DataNode>
+  <DataNode TextLabel="AKT" GraphId="ef536" Type="GeneProduct">
+    <Graphics FillColor="ff9966"/>
+    </DataNode>
+  <DataNode TextLabel="IGF and insuline signaling" GraphId="f5b19" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="AMPK" GraphId="fd3be" Type="Protein">
+    <Graphics FillColor="00ff99"/>
+    </DataNode>
+  <Interaction GraphId="id125d7377">
+    <Graphics>
+      <Point GraphRef="cd394"/>
+      <Point GraphRef="eebfa" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id28ab4c8c">
+    <Graphics>
+      <Point GraphRef="bb264"/>
+      <Point GraphRef="cf8ce" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id450d9e19">
+    <Graphics>
+      <Point GraphRef="cd394"/>
+      <Point GraphRef="fd3be" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id48f792b3">
+    <Graphics>
+      <Point GraphRef="a476e"/>
+      <Point GraphRef="cd394" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id51313552">
+    <Graphics>
+      <Point GraphRef="ae825"/>
+      <Point GraphRef="b9086" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id68eacfd6">
+    <Graphics>
+      <Point GraphRef="d6a76"/>
+      <Point GraphRef="bb264" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f7c1c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7b33528">
+    <Graphics>
+      <Point GraphRef="cf8ce"/>
+      <Point GraphRef="ef536" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id82dac71d">
+    <Graphics>
+      <Point GraphRef="eebfa"/>
+      <Point GraphRef="b9086" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8bc2b7ff">
+    <Graphics>
+      <Point GraphRef="fd3be"/>
+      <Point GraphRef="da955" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida3a65c5">
+    <Graphics>
+      <Point GraphRef="a476e"/>
+      <Point GraphRef="fd3be" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb91995c9">
+    <Graphics>
+      <Point GraphRef="da955"/>
+      <Point GraphRef="b9086" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc17fd844">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a476e"/>
+      <Point GraphRef="da955" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc194dbe1">
+    <Graphics>
+      <Point GraphRef="f5b19"/>
+      <Point GraphRef="f7c1c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc51a3410">
+    <Graphics ConnectorType="Segmented">
+      <Point/>
+      <Point GraphRef="ae825" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc56675d7">
+    <Graphics>
+      <Point GraphRef="fd3be"/>
+      <Point GraphRef="cd394" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc91c0061">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a476e"/>
+      <Point GraphRef="bb264" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf1d91ea7">
+    <Graphics>
+      <Point GraphRef="c5c3e"/>
+      <Point GraphRef="cf8ce" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf6d69c75">
+    <Graphics>
+      <Point GraphRef="ef536"/>
+      <Point GraphRef="da955" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Dietary Restriction" GraphId="a476e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Aging" GraphId="b9086">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >growth factor signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000168</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ece">
+      <bp:ID >23746838</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The hallmarks of aging.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:ID >23746838</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The hallmarks of aging.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Lopez C</bp:AUTHORS>
+      <bp:AUTHORS >Blasco MA</bp:AUTHORS>
+      <bp:AUTHORS >Partridge L</bp:AUTHORS>
+      <bp:AUTHORS >Serrano M</bp:AUTHORS>
+      <bp:AUTHORS >Kroemer G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >aging pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000651</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

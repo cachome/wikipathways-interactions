@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Blood clotting cascade" Last-Modified="10/17/2013" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="GenMAPP notes"/>
+  <Comment Source="GenMAPP remarks"/>
+  <Comment Source="WikiPathways-category">Physiological Process</Comment>
+  <Comment Source="WikiPathways-description">Coagulation is a complex process by which blood forms clots. It is an important part of hemostasis (the cessation of blood loss from a damaged vessel), wherein a damaged blood vessel wall is covered by a platelet and fibrin-containing clot to stop bleeding and begin repair of the damaged vessel. Disorders of coagulation can lead to an increased risk of bleeding (hemorrhage) or clotting (thrombosis).
+
+Source: [[wikipedia:Coagulation|Wikipedia]]
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP272 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>cc2</BiopaxRef>
+  <Graphics BoardWidth="1286.0" BoardHeight="1086.5"/>
+  <DataNode TextLabel="Factor XIIa" GraphId="a10d3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Factor XIIIa" GraphId="a752a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Factor IXa" GraphId="d0650" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Factor VIIIa" GraphId="e7fe6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Factor XIa" GraphId="e8494" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Factor VIIa" GraphId="ed827" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Factor X" GraphId="a0e" Type="GeneProduct" GroupRef="fd46e">
+        </DataNode>
+  <DataNode TextLabel="Factor II" GraphId="a1d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Factor XII" GraphId="a29" Type="GeneProduct" GroupRef="ab77b">
+        </DataNode>
+  <DataNode TextLabel="KLKB1" GraphId="a4364" Type="GeneProduct" GroupRef="ab77b">
+        </DataNode>
+  <DataNode TextLabel="Fibrin" GraphId="a53" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FGG" GraphId="aa3" Type="GeneProduct" GroupRef="cc726">
+        </DataNode>
+  <DataNode TextLabel="Zinc" GraphId="ab8bc" Type="Metabolite" GroupRef="ab77b">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Factor X" GraphId="b58" Type="GeneProduct" GroupRef="fd46e">
+        </DataNode>
+  <DataNode TextLabel="Plasminogen" GraphId="b6a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Tissue Factor" GraphId="b6f8b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Factor Va" GraphId="c2a48" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Factor IX" GraphId="c3c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Factor VIII A1" GraphId="c42" Type="GeneProduct" GroupRef="f4f2f">
+        </DataNode>
+  <DataNode TextLabel="Thrombin (II)" GraphId="c57ed" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PLAU" GraphId="c85" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FGB" GraphId="c8e" Type="GeneProduct" GroupRef="cc726">
+        </DataNode>
+  <DataNode TextLabel="KLK1" GraphId="c997e" Type="GeneProduct" GroupRef="ab77b">
+        </DataNode>
+  <DataNode TextLabel="VWF" GraphId="cce" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Factor V" GraphId="d41" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Factor XIIIb" GraphId="d78" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Factor Xa" GraphId="d8abe" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Factor XI" GraphId="e03" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SERPINF2" GraphId="edf" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="tPA" GraphId="ef4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SERPINB2" GraphId="f20" Type="GeneProduct" GroupRef="d6cba">
+        </DataNode>
+  <DataNode TextLabel="SERPINE1" GraphId="f7b" Type="GeneProduct" GroupRef="d6cba">
+        </DataNode>
+  <DataNode TextLabel="Fibrin Complement &#10;Receptor 3 Signaling" GraphId="f9e01" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Factor VIII" GraphId="fc4" Type="GeneProduct" GroupRef="f4f2f">
+        </DataNode>
+  <DataNode TextLabel="Factor VII" GraphId="fc6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FGA" GraphId="fcc" Type="GeneProduct" GroupRef="cc726">
+        </DataNode>
+  <DataNode TextLabel="Plasmin" GraphId="ebf2b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Factor Va" GraphId="ebdc0" Type="GeneProduct" GroupRef="dd155">
+        </DataNode>
+  <DataNode TextLabel="Factor Xa" GraphId="ff33f" Type="GeneProduct" GroupRef="dd155">
+        </DataNode>
+  <Interaction GraphId="a4187">
+    <Graphics>
+      <Point GraphRef="cce"/>
+      <Point GraphRef="fd90f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a80d7">
+    <Graphics>
+      <Point GraphRef="a752a"/>
+      <Point GraphRef="a3f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ad596">
+    <Graphics>
+      <Point GraphRef="a1d"/>
+      <Point GraphRef="c57ed" ArrowHead="Arrow"/>
+      <Anchor Position="0.6322920770817104" Shape="None" GraphId="a8fbc"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b0274">
+    <Graphics>
+      <Point GraphRef="a3f"/>
+      <Point GraphRef="a53" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b70ba">
+    <Graphics>
+      <Point GraphRef="b1abb"/>
+      <Point GraphRef="a8fbc" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b8a44">
+    <Graphics>
+      <Point GraphRef="ef4"/>
+      <Point GraphRef="bc135" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b9eb9">
+    <Graphics>
+      <Point GraphRef="a53"/>
+      <Point GraphRef="e5b" ArrowHead="Arrow"/>
+      <Anchor Position="0.7497525637237686" Shape="None" GraphId="d23c5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bac25">
+    <Graphics>
+      <Point GraphRef="d41"/>
+      <Point GraphRef="c2a48" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bac31">
+    <Graphics>
+      <Point GraphRef="f2b4c"/>
+      <Point GraphRef="a10d3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c5767">
+    <Graphics>
+      <Point GraphRef="c2a48"/>
+      <Point GraphRef="b1abb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c99a9">
+    <Graphics>
+      <Point GraphRef="fa7f8"/>
+      <Point GraphRef="fa8" ArrowHead="Arrow"/>
+      <Anchor Position="0.6875745546462656" Shape="None" GraphId="fc0e6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cae1d">
+    <Graphics>
+      <Point GraphRef="b6f8b"/>
+      <Point GraphRef="f0080" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cc687">
+    <Graphics>
+      <Point GraphRef="d78"/>
+      <Point GraphRef="a752a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2876">
+    <Graphics>
+      <Point GraphRef="a10d3"/>
+      <Point GraphRef="a2cea" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d82a9">
+    <Graphics>
+      <Point GraphRef="e8494"/>
+      <Point GraphRef="c8106" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dbe88">
+    <Graphics>
+      <Point GraphRef="c85"/>
+      <Point GraphRef="bc135" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de3df">
+    <Graphics>
+      <Point GraphRef="fc6"/>
+      <Point GraphRef="ed827" ArrowHead="Arrow"/>
+      <Anchor Position="0.6073752711496746" Shape="None" GraphId="f0080"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e1b79">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="fd90f"/>
+      <Point GraphRef="e7fe6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e1e91">
+    <Graphics>
+      <Point GraphRef="ebf2b"/>
+      <Point GraphRef="d23c5" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e6f59">
+    <Graphics>
+      <Point GraphRef="fa8"/>
+      <Point GraphRef="a3f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e95de">
+    <Graphics>
+      <Point GraphRef="c3c"/>
+      <Point GraphRef="d0650" ArrowHead="Arrow"/>
+      <Anchor Position="0.5041120650700415" Shape="None" GraphId="c8106"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eaa53">
+    <Graphics>
+      <Point GraphRef="e677e"/>
+      <Point GraphRef="d8abe" ArrowHead="Arrow"/>
+      <Anchor Position="0.5576642335766423" Shape="None" GraphId="f84a5"/>
+      <Anchor Position="0.4" Shape="None" GraphId="dbe1a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eea25">
+    <Graphics>
+      <Point GraphRef="e0f"/>
+      <Point GraphRef="b6f8b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ef6d9">
+    <Graphics>
+      <Point GraphRef="d27b6"/>
+      <Point GraphRef="ef4" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f0f42">
+    <Graphics>
+      <Point GraphRef="e03"/>
+      <Point GraphRef="e8494" ArrowHead="Arrow"/>
+      <Anchor Position="0.5601697905913756" Shape="None" GraphId="a2cea"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f20f6">
+    <Graphics>
+      <Point GraphRef="ed827"/>
+      <Point GraphRef="dbe1a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f395b">
+    <Graphics>
+      <Point GraphRef="edf"/>
+      <Point GraphRef="ebf2b" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fb5de">
+    <Graphics>
+      <Point GraphRef="c57ed"/>
+      <Point GraphRef="fc0e6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2e513dd">
+    <Graphics>
+      <Point GraphRef="e7fe6"/>
+      <Point GraphRef="dbe1a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id95bef876">
+    <Graphics>
+      <Point GraphRef="d8abe"/>
+      <Point GraphRef="b1abb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida979a0fd">
+    <Graphics>
+      <Point GraphRef="d27b6"/>
+      <Point GraphRef="c85" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idafb7647e">
+    <Graphics>
+      <Point GraphRef="d0650"/>
+      <Point GraphRef="dbe1a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc5f8732c">
+    <Graphics>
+      <Point GraphRef="a53"/>
+      <Point GraphRef="f9e01" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddd2a9b8">
+    <Graphics>
+      <Point GraphRef="b6a"/>
+      <Point GraphRef="ebf2b" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bc135"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Fibrin Polymer" GraphId="a3f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Intrinsic Pathway" GraphId="ae4">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ff9900"/>
+  </Label>
+  <Label TextLabel="Prothrombinase &#10;complex" GraphId="b00de" GroupRef="dd155">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Thrombolysis" GraphId="c4d">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ff9900"/>
+  </Label>
+  <Label TextLabel="Extrinsic Pathway" GraphId="d06">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="ff9900"/>
+  </Label>
+  <Label TextLabel="Tissue Injury" GraphId="e0f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Fibrin Degradation Products" GraphId="e5b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel=" " GraphId="e69">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel=" " GraphId="ebe">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Fibrin Monomer" GraphId="fa8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Group GroupId="dd155" GraphId="b1abb" Style="Complex"/>
+  <Group GroupId="d6cba" GraphId="d27b6"/>
+  <Group GroupId="fd46e" GraphId="e677e"/>
+  <Group GroupId="ab77b" GraphId="f2b4c" Style="Group"/>
+  <Group GroupId="cc726" GraphId="fa7f8"/>
+  <Group GroupId="f4f2f" GraphId="fd90f"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cc2">
+      <bp:ID >7741998</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The current status of coagulation.</bp:TITLE>
+      <bp:SOURCE >Ann Med</bp:SOURCE>
+      <bp:YEAR >1995</bp:YEAR>
+      <bp:AUTHORS >Luchtman-Jones L</bp:AUTHORS>
+      <bp:AUTHORS >Broze GJ Jr</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>coagulation cascade pathway</bp:TERM><bp:ID>PW:0000474</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

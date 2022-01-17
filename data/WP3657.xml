@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Hematopoietic stem cell gene regulation by GABP alpha/beta complex" Version="20160614" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">GABP alpha/beta complex mediates the maintenance of hematopoietic stem cells (HSCs) through control of proteins necessary for epigenetic modification and transcription regulation. The activation of key transcription factors and proteins required for HSC survival, self renewal, quiescence, differentiation, and aging is controlled by the GABP alpha/beta complex. This complex also down-regulates GZMB, protein important for inhibiting HSC survival. This pathway is based on figure 7 from Yu et al.
+
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3657 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>cee</BiopaxRef>
+  <Graphics BoardWidth="1217.25" BoardHeight="633.3445378151257"/>
+  <DataNode TextLabel="SMARCA4" GraphId="a0ece" Type="GeneProduct" GroupRef="e364d">
+        </DataNode>
+  <DataNode TextLabel="HSC self renewal" GraphId="a3e5b" Type="Pathway">
+    <Comment/>
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="BCL2" GraphId="a453e" Type="GeneProduct" GroupRef="de7eb">
+        </DataNode>
+  <DataNode TextLabel="HSC differentiation" GraphId="a939a" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="DNMT3B" GraphId="a973e" Type="GeneProduct" GroupRef="aa8a1">
+        </DataNode>
+  <DataNode TextLabel="DNMT3A" GraphId="ac151" Type="GeneProduct" GroupRef="aa8a1">
+        </DataNode>
+  <DataNode TextLabel="TERF2" GraphId="adb04" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ETV6" GraphId="b1e90" Type="GeneProduct" GroupRef="efaef">
+        </DataNode>
+  <DataNode TextLabel="DNMT1" GraphId="b299a" Type="GeneProduct" GroupRef="e364d">
+        </DataNode>
+  <DataNode TextLabel="ZFX" GraphId="b33f7" Type="GeneProduct" GroupRef="efaef">
+        </DataNode>
+  <DataNode TextLabel="GZMB" GraphId="ca811" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HSC aging" GraphId="cff52" Type="Pathway">
+    <Comment>Identifier Not Found</Comment>
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="SMAD4" GraphId="d4af9" Type="GeneProduct" GroupRef="efaef">
+        </DataNode>
+  <DataNode TextLabel="GABPA" GraphId="d4e0b" Type="GeneProduct" GroupRef="b6eda">
+        </DataNode>
+  <DataNode TextLabel="PTEN" GraphId="d5612" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BCL2L1" GraphId="dd9b9" Type="GeneProduct" GroupRef="de7eb">
+        </DataNode>
+  <DataNode TextLabel="FOXO3" GraphId="e1512" Type="GeneProduct" GroupRef="efaef">
+        </DataNode>
+  <DataNode TextLabel="GABPB" GraphId="e6620" Type="GeneProduct" GroupRef="b6eda">
+    <Comment>GABPB Not Specified</Comment>
+        </DataNode>
+  <DataNode TextLabel="FLT3" GraphId="eb911" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CREBBP" GraphId="f1895" Type="GeneProduct" GroupRef="aa8a1">
+        </DataNode>
+  <DataNode TextLabel="EP300" GraphId="f269b" Type="GeneProduct" GroupRef="e364d">
+        </DataNode>
+  <DataNode TextLabel="Chromatin remodeling and &#10;epigenetic modifications" GraphId="f3bac" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="HSC survival" GraphId="f4b6c" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="ATM" GraphId="f50ed" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HSC quiescence" GraphId="fd8ae" Type="Pathway">
+    <Comment>Identifier Not Found</Comment>
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="MCL1" GraphId="ff0ad" Type="GeneProduct" GroupRef="de7eb">
+        </DataNode>
+  <Interaction GraphId="id18392e03">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a6bfb"/>
+      <Point GraphRef="e0d3d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id247b4063">
+    <Graphics>
+      <Point GraphRef="f3bac"/>
+      <Point GraphRef="f4b6c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3ff10ba0">
+    <Graphics>
+      <Point GraphRef="f50ed"/>
+      <Point GraphRef="cff52" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id41519f38">
+    <Graphics>
+      <Point GraphRef="a7b7d"/>
+      <Point GraphRef="f4b6c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id56343d83">
+    <Graphics>
+      <Point GraphRef="e0d3d"/>
+      <Point GraphRef="a3971" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5c88dc53">
+    <Graphics>
+      <Point GraphRef="f3bac"/>
+      <Point GraphRef="a939a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6dea031c">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e0d3d"/>
+      <Point GraphRef="a7b7d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id726bc06d">
+    <Graphics>
+      <Point GraphRef="eb911"/>
+      <Point GraphRef="a939a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id818ca6cd">
+    <Graphics>
+      <Point GraphRef="a6bfb"/>
+      <Point GraphRef="f3bac" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8b8712ff">
+    <Graphics>
+      <Point GraphRef="e0d3d"/>
+      <Point GraphRef="a2650" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id93933e3">
+    <Graphics>
+      <Point GraphRef="ca811"/>
+      <Point GraphRef="f4b6c" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9dd2cdf6">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e0d3d"/>
+      <Point GraphRef="adb04" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida4b57231">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a2650"/>
+      <Point GraphRef="a6bfb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida7142c84">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e0d3d"/>
+      <Point GraphRef="f50ed" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb5e3fb53">
+    <Graphics>
+      <Point GraphRef="e0d3d"/>
+      <Point GraphRef="a6bfb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb803f178">
+    <Graphics>
+      <Point GraphRef="e0d3d"/>
+      <Point GraphRef="d5612" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc6ac11e1">
+    <Graphics>
+      <Point GraphRef="a2650"/>
+      <Point GraphRef="fd8ae" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc9667b32">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e0d3d"/>
+      <Point GraphRef="ca811" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcd3ea527">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a2650"/>
+      <Point GraphRef="e0d3d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcf9c0223">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e0d3d"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="e0d3d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd30db16">
+    <Graphics>
+      <Point GraphRef="a2650"/>
+      <Point GraphRef="a3e5b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd7097413">
+    <Graphics>
+      <Point GraphRef="e0d3d"/>
+      <Point GraphRef="eb911" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd9bde77b">
+    <Graphics>
+      <Point GraphRef="a2650"/>
+      <Point GraphRef="f4b6c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ided706182">
+    <Graphics>
+      <Point GraphRef="adb04"/>
+      <Point GraphRef="cff52" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf210e8f9">
+    <Graphics>
+      <Point GraphRef="d5612"/>
+      <Point GraphRef="fd8ae" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf5453e37">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a6bfb"/>
+      <Point GraphRef="a2650" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfc741b3c">
+    <Graphics>
+      <Point GraphRef="a3971"/>
+      <Point GraphRef="f3bac" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfed1cbf">
+    <Graphics>
+      <Point GraphRef="f3bac"/>
+      <Point GraphRef="a3e5b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="d2ab0" GroupRef="b7384">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id386a051e" GroupRef="b7384">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="iddae2ec15" GroupRef="b7384">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Legend" GraphId="b3fae" GroupRef="b7384">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Downregulation" GraphId="ba848" GroupRef="b7384">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Physiological affects" GraphId="d5af9" GroupRef="b7384">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Key HSC &#10;transcription factors" GraphId="ebe2a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Hypothetical interactions" GraphId="edfc3" GroupRef="b7384">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="GABP complex autoregulation" GraphId="ef6ff">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="cce72" GroupRef="b7384">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="edfc5">
+    <Graphics ShapeType="RoundedRectangle" LineStyle="Broken" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="b7384" Style="Group"/>
+  <Group GroupId="efaef" GraphId="a2650" Style="Group"/>
+  <Group GroupId="aa8a1" GraphId="a3971" Style="Group"/>
+  <Group GroupId="e364d" GraphId="a6bfb" Style="Group"/>
+  <Group GroupId="de7eb" GraphId="a7b7d" Style="Group"/>
+  <Group GroupId="b6eda" GraphId="e0d3d" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DNA modification pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001340</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >hematopoietic stem cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000037</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cee">
+      <bp:ID >21139080</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >GABP controls a critical transcription regulatory module that is essential for maintenance and differentiation of hematopoietic stem/progenitor cells.</bp:TITLE>
+      <bp:SOURCE >Blood</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Yu S</bp:AUTHORS>
+      <bp:AUTHORS >Cui K</bp:AUTHORS>
+      <bp:AUTHORS >Jothi R</bp:AUTHORS>
+      <bp:AUTHORS >Zhao DM</bp:AUTHORS>
+      <bp:AUTHORS >Jing X</bp:AUTHORS>
+      <bp:AUTHORS >Zhao K</bp:AUTHORS>
+      <bp:AUTHORS >Xue HH</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

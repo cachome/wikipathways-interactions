@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Development of pulmonary dendritic cells and macrophage subsets" Version="20160829" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Development of pulmonary DC and macrophage subsets. This model of pulmonary DC and macrophage subset differentiation in mice summarizes recent findings suggesting early lineage commitment of cDCs in the BM and differentiation of monocytes into different population with DC, macrophage, or suppressive functions. All DC subsets present in the lung originate from hematopoietic progenitors (HSC) that differentiate into a common myeloid progenitor (CMP). Such CMPs further differentiate to a common DC progenitors (CDPs) or macrophage DC progenitors (MDPs). MDPs give rise to a common monocyte precursor (cMoP). In a CSF-1-dependent mechanism, Ly6Chi monocytes develop, which can further differentiate into Ly6Clo monocytes. Such Ly6Clo monocytes may also derive directly from cMoPs. Both monocyte populations can enter the lung and become monocyte-derived DCs, macrophages, or suppressor cells (25, 62). CDPs also serve as precursors for pDCs and pre-cDCs. Recent studies suggest that the two cDC populations deriving from the pre-cDC progenitor, i.e., CD103+ cDCs and CD11b+ cDCs, arise already in the bone marrow as pre-cDC1/cDC2 subtypes. One study suggested that pulmonary monocytes may differentiate into pulmonary CD103+ and CD11b+ DC; however, it is unclear whether such cells are phenotypically and functionally identical to CD103+ and CD11b+ cDCs. Activation of defined transcription factors (in blue) at distinct time points is critical for lineage commitment of the different DC precursors. During the early developmental stages, important transcription factors include STAT3, IRF8, and PU.1. At later stages, E2-2 is decisive for pDC commitment of CDPs. BATF3 and IRF8 are associated with the CD103+ cDC and IRF4 with the CD11b+ differentiation. In addition to the transcription factors, several growth factors (in green) play key functions in the development of pre-cDCs and the different DC subsets, in particular Flt3L, CSF-1 (M-CSF), and CSF-2 (GM-CSF). The lung contains two major macrophage populations, i.e., alveolar and interstitial macrophages (AMs and IMs, respectively). It is now well appreciated that AMs derive from yolk sac and fetal liver progenitors that colonize the embryonic lung and are maintained by self-renewal at steady state. The origin of IMs remains elusive. Some data suggest that they represent monocyte-derived macrophages.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3892 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>e7d</BiopaxRef>
+  <Graphics BoardWidth="1338.0" BoardHeight="947.3333333333333"/>
+  <DataNode TextLabel="ID2" GraphId="ca2bc" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IRF4" GraphId="b296d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RUNX2" GraphId="f7fb5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FLT3L" GraphId="cd7a5" Type="GeneProduct" GroupRef="f2b8a">
+        </DataNode>
+  <DataNode TextLabel="Ikaros" GraphId="e280f" Type="GeneProduct" GroupRef="e791c">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="f02a5" Type="GeneProduct" GroupRef="f2b8a">
+        </DataNode>
+  <DataNode TextLabel="IRF8" GraphId="f5108" Type="GeneProduct" GroupRef="e791c">
+        </DataNode>
+  <DataNode TextLabel="CSF2" GraphId="ea3c9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PU.1" GraphId="d92e8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TPO" GraphId="e68e2" Type="GeneProduct" GroupRef="ee57d">
+        </DataNode>
+  <DataNode TextLabel="PU.1" GraphId="b89c9" Type="GeneProduct" GroupRef="f2b8a">
+        </DataNode>
+  <DataNode TextLabel="IRF8" GraphId="ac475" Type="GeneProduct" GroupRef="f2b8a">
+        </DataNode>
+  <DataNode TextLabel="CSF1" GraphId="c78e2" Type="GeneProduct" GroupRef="f2b8a">
+        </DataNode>
+  <DataNode TextLabel="CSF1" GraphId="a979d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FLT3L" GraphId="e316c" Type="GeneProduct" GroupRef="cc442">
+        </DataNode>
+  <DataNode TextLabel="PU.1" GraphId="e1069" Type="GeneProduct" GroupRef="cc442">
+        </DataNode>
+  <DataNode TextLabel="CSF1" GraphId="b2817" Type="GeneProduct" GroupRef="cc442">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="e6762" Type="GeneProduct" GroupRef="c0528">
+        </DataNode>
+  <DataNode TextLabel="FLT3L" GraphId="ae1ed" Type="GeneProduct" GroupRef="c0528">
+        </DataNode>
+  <DataNode TextLabel="PU.1" GraphId="f6007" Type="GeneProduct" GroupRef="c0528">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="e421f" Type="GeneProduct" GroupRef="e791c">
+        </DataNode>
+  <DataNode TextLabel="PU.1" GraphId="b0e75" Type="GeneProduct" GroupRef="e791c">
+        </DataNode>
+  <DataNode TextLabel="E2-2" GraphId="e41a1" Type="GeneProduct" GroupRef="e791c">
+        </DataNode>
+  <DataNode TextLabel="FLT3L" GraphId="baaef" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FLT3L" GraphId="a7f1d" Type="GeneProduct" GroupRef="ee57d">
+        </DataNode>
+  <DataNode TextLabel="CSF1" GraphId="ab313" Type="GeneProduct" GroupRef="ee57d">
+        </DataNode>
+  <DataNode TextLabel="IRF8" GraphId="d3a5a" Type="GeneProduct" GroupRef="f2475">
+        </DataNode>
+  <DataNode TextLabel="BATF3" GraphId="bb2f5" Type="GeneProduct" GroupRef="f2475">
+        </DataNode>
+  <DataNode TextLabel="CSF1" GraphId="e6e90" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IRF8" GraphId="fb6b2" Type="GeneProduct" GroupRef="d4c5f">
+        </DataNode>
+  <DataNode TextLabel="BATF3" GraphId="f5036" Type="GeneProduct" GroupRef="d4c5f">
+        </DataNode>
+  <DataNode TextLabel="FLT3L" GraphId="e5cd3" Type="GeneProduct" GroupRef="e84cf">
+        </DataNode>
+  <DataNode TextLabel="IRF4" GraphId="fff97" Type="GeneProduct" GroupRef="e84cf">
+        </DataNode>
+  <DataNode TextLabel="CSF1" GraphId="cdcfa" Type="GeneProduct" GroupRef="e84cf">
+        </DataNode>
+  <DataNode TextLabel="CSF2" GraphId="e14bd" Type="GeneProduct" GroupRef="e84cf">
+        </DataNode>
+  <Interaction GraphId="ida1228a5b">
+    <Graphics>
+      <Point GraphRef="a9525"/>
+      <Point GraphRef="c2588" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida50a5745">
+    <Graphics>
+      <Point GraphRef="baaef"/>
+      <Point GraphRef="f80c8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id60aee99a">
+    <Graphics>
+      <Point GraphRef="f1baa"/>
+      <Point GraphRef="b66ab" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide5517d10">
+    <Graphics>
+      <Point GraphRef="e94fd"/>
+      <Point GraphRef="c6896" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id26fc3a8d">
+    <Graphics>
+      <Point GraphRef="ea3c9"/>
+      <Point GraphRef="bb9e9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7b4a6ffa">
+    <Graphics>
+      <Point GraphRef="a979d"/>
+      <Point GraphRef="b3474" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcf8bb015">
+    <Graphics>
+      <Point GraphRef="aa60f"/>
+      <Point GraphRef="cb424" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id61623b2e">
+    <Graphics>
+      <Point GraphRef="b6f40"/>
+      <Point GraphRef="db94c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id90e8c472">
+    <Graphics>
+      <Point GraphRef="e6e90"/>
+      <Point GraphRef="fdf03" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8727e8ef">
+    <Graphics>
+      <Point GraphRef="e6e90"/>
+      <Point GraphRef="f980e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5ac3ed02">
+    <Graphics>
+      <Point GraphRef="ed380"/>
+      <Point GraphRef="e8cce" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcf9f85b4">
+    <Graphics>
+      <Point GraphRef="a59a0"/>
+      <Point GraphRef="a60f2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1035c96">
+    <Graphics LineStyle="Broken" Color="009999">
+      <Point GraphRef="d2842"/>
+      <Point GraphRef="c509b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idef54b839">
+    <Graphics>
+      <Point GraphRef="d92e8"/>
+      <Point GraphRef="fcb81" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf13fac30">
+    <Graphics>
+      <Point GraphRef="ca2bc"/>
+      <Point GraphRef="f55f9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id88b883da">
+    <Graphics>
+      <Point GraphRef="b6fac"/>
+      <Point GraphRef="d1541" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd1129417">
+    <Graphics>
+      <Point GraphRef="b296d"/>
+      <Point GraphRef="e919e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9d71b069">
+    <Graphics>
+      <Point GraphRef="f7fb5"/>
+      <Point GraphRef="c7bac" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eb9e7">
+    <Graphics LineStyle="Broken" Color="009999">
+      <Point GraphRef="ad2f2"/>
+      <Point GraphRef="a04a9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6154">
+    <Graphics>
+      <Point GraphRef="ea3c9"/>
+      <Point GraphRef="c93f1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="a85b1">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id1113c578">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f541e">
+    <Graphics Color="cc3300">
+      <Point GraphRef="bc43e"/>
+      <Point GraphRef="d2842" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="fcb81"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="be424">
+    <Graphics LineStyle="Broken" Color="336600">
+      <Point GraphRef="bbad6"/>
+      <Point GraphRef="cfb10" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id30f6d8fe">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id4cf58d2f">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c824b">
+    <Graphics Color="cc3300">
+      <Point GraphRef="d2842"/>
+      <Point GraphRef="f6a14" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a60f2"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f4d9c">
+    <Graphics Color="cc3300">
+      <Point GraphRef="f6a14"/>
+      <Point GraphRef="ff2d4" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b3474"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b258f">
+    <Graphics LineStyle="Broken" Color="009999">
+      <Point GraphRef="c509b"/>
+      <Point GraphRef="bbad6" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d1541"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a8031">
+    <Graphics LineStyle="Broken" Color="009999">
+      <Point GraphRef="bbad6"/>
+      <Point GraphRef="ad2f2" ArrowHead="Arrow"/>
+      <Anchor Position="0.5588775684772804" Shape="None" GraphId="f55f9"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="aa8f1">
+    <Graphics Color="009999">
+      <Point GraphRef="f6a14"/>
+      <Point GraphRef="c509b" ArrowHead="Arrow"/>
+      <Anchor Position="0.5860630019452008" Shape="None" GraphId="c2588"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="be0c7">
+    <Graphics Color="660099">
+      <Point GraphRef="c509b"/>
+      <Point GraphRef="b05c4" ArrowHead="Arrow"/>
+      <Anchor Position="0.5454778466444068" Shape="None" GraphId="b66ab"/>
+      <Anchor Position="0.7663969225103835" Shape="None" GraphId="db94c"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c3c8b">
+    <Graphics Color="660099">
+      <Point GraphRef="b05c4"/>
+      <Point GraphRef="bfcd2" ArrowHead="Arrow"/>
+      <Anchor Position="0.7695975729582646" Shape="None" GraphId="c7bac"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f7b9f">
+    <Graphics Color="660099">
+      <Point GraphRef="bfcd2"/>
+      <Point GraphRef="fd857" ArrowHead="Arrow"/>
+      <Anchor Position="0.5361735330836392" Shape="None" GraphId="f80c8"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f33c1">
+    <Graphics LineStyle="Broken" Color="336600">
+      <Point GraphRef="cfb10"/>
+      <Point GraphRef="b61d6" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b5dbb">
+    <Graphics LineStyle="Broken" Color="336600">
+      <Point GraphRef="b61d6"/>
+      <Point GraphRef="fe92c" ArrowHead="Arrow"/>
+      <Anchor Position="0.4562025997260564" Shape="None" GraphId="c6896"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e01e6">
+    <Graphics LineStyle="Broken" Color="3399ff">
+      <Point GraphRef="e132a"/>
+      <Point GraphRef="e046c" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b49f9">
+    <Graphics LineStyle="Broken" Color="3399ff">
+      <Point GraphRef="e046c"/>
+      <Point GraphRef="eb206" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e919e"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b33b0">
+    <Graphics LineStyle="Broken" Color="3399ff">
+      <Point GraphRef="bbad6"/>
+      <Point GraphRef="e132a" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ed947">
+    <Graphics Color="cc6600">
+      <Point GraphRef="ff2d4"/>
+      <Point GraphRef="fcefc" ArrowHead="Arrow"/>
+      <Anchor Position="0.6490592924819572" Shape="None" GraphId="f980e"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c7cf5">
+    <Graphics LineStyle="Broken" Color="cc6600">
+      <Point GraphRef="ff2d4"/>
+      <Point GraphRef="a6262" ArrowHead="Arrow"/>
+      <Anchor Position="0.6574833316213847" Shape="None" GraphId="fdf03"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c0c99">
+    <Graphics Color="cc6600">
+      <Point GraphRef="fcefc"/>
+      <Point GraphRef="aa117" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="beba8">
+    <Graphics Color="ff6633">
+      <Point GraphRef="fcefc"/>
+      <Point GraphRef="a6262" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="feb1a">
+    <Graphics Color="cc6600">
+      <Point GraphRef="a6262"/>
+      <Point GraphRef="f550b" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f102f">
+    <Graphics Color="cc6600">
+      <Point GraphRef="aa117"/>
+      <Point GraphRef="cdf1d" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="edc04">
+    <Graphics LineStyle="Broken" Color="cc6600">
+      <Point GraphRef="f550b"/>
+      <Point GraphRef="de8bf" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cf9bb">
+    <Graphics LineStyle="Broken" Color="336600">
+      <Point GraphRef="fe92c"/>
+      <Point GraphRef="baa1d" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fbf71">
+    <Graphics LineStyle="Broken" Color="336600">
+      <Point GraphRef="a04a9"/>
+      <Point GraphRef="baa1d" ArrowHead="Arrow"/>
+      <Anchor Position="0.2935516564162411" Shape="None" GraphId="cb424"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="aed9f">
+    <Graphics LineStyle="Broken" Color="3399ff">
+      <Point GraphRef="a04a9"/>
+      <Point GraphRef="ca1b5" ArrowHead="Arrow"/>
+      <Anchor Position="0.5583714616190558" Shape="None" GraphId="e8cce"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b865e">
+    <Graphics LineStyle="Broken" Color="cc6600">
+      <Point GraphRef="cdf1d"/>
+      <Point GraphRef="d2979" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a0fc7">
+    <Graphics Color="cc6600">
+      <Point GraphRef="cdf1d"/>
+      <Point GraphRef="f4392" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e9028">
+    <Graphics Color="cc6600">
+      <Point GraphRef="cdf1d"/>
+      <Point GraphRef="afab7" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cfa05">
+    <Graphics ConnectorType="Elbow" Color="cc6600">
+      <Point GraphRef="a4867"/>
+      <Point/>
+      <Point GraphRef="e5770" ArrowHead="Arrow"/>
+      <Anchor Position="0.5458191757842082" Shape="None" GraphId="c93f1"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a7093">
+    <Graphics ConnectorType="Elbow" Color="cc6600">
+      <Point GraphRef="a7efa"/>
+      <Point/>
+      <Point GraphRef="e5770" ArrowHead="Arrow"/>
+      <Anchor Position="0.5388512075802279" Shape="None" GraphId="bb9e9"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fe0d2">
+    <Graphics LineStyle="Broken" Color="cc6600">
+      <Point GraphRef="f4392"/>
+      <Point GraphRef="d291c" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f4c2c">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Yolk&#10;sac" GraphId="a6573">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CMP: Common myeloid progenitor" GraphId="a672a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CDP: Common DC progenitor" GraphId="a92e2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="MDP: Monocyte-macrophage DC progenitor" GraphId="ce5f2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Pathways found in independent studies" GraphId="e2464">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="HSC: Hematopoietic stem cells" GraphId="ea5b6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="cMoP: Common monocyte progenitor" GraphId="f0fe3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="cDC: Conventional DC" GraphId="f75c1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Fetal&#10;liver" GraphId="a501c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Lung" GraphId="d2b27">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Blood" GraphId="b0346">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Bone Marrow" GraphId="acfe2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Pathways found in single study / controversial" GraphId="efc2d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="DC: Dendritic cells" GraphId="b9fcd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="pDC: Plasmacytoid DC" GraphId="c434a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="b9636">
+    <Graphics FillColor="f6efe0" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="b62dc">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="HSC" GraphId="bc43e">
+    <Graphics ShapeType="Oval" Color="cc3300"/>
+  </Shape>
+  <Shape GraphId="b1114">
+    <Graphics FillColor="ffffcc" ShapeType="Rectangle"/>
+  </Shape>
+  <Shape TextLabel="CMP" GraphId="d2842">
+    <Graphics ShapeType="Oval" Color="666600"/>
+  </Shape>
+  <Shape TextLabel="MDP" GraphId="f6a14">
+    <Graphics ShapeType="Oval" Color="cc3300"/>
+  </Shape>
+  <Shape TextLabel="cMoP" GraphId="ff2d4">
+    <Graphics ShapeType="Oval" Color="ff6600"/>
+  </Shape>
+  <Shape TextLabel="Ly6C-hi&#10;Monocytes" GraphId="fcefc">
+    <Graphics ShapeType="Oval" Color="cc6600"/>
+  </Shape>
+  <Shape TextLabel="CDP" GraphId="c509b">
+    <Graphics FillColor="ccffff" ShapeType="Oval" Color="009999"/>
+  </Shape>
+  <Shape TextLabel="Pre-cDC" GraphId="bbad6">
+    <Graphics ShapeType="Oval" Color="009999"/>
+  </Shape>
+  <Shape TextLabel="Pre-cDC" GraphId="a04a9">
+    <Graphics ShapeType="Oval" Color="009999"/>
+  </Shape>
+  <Shape TextLabel="Pre-cDC" GraphId="ad2f2">
+    <Graphics ShapeType="Oval" Color="009999"/>
+  </Shape>
+  <Shape TextLabel="Pre-cDC2" GraphId="e132a">
+    <Graphics ShapeType="Oval" Color="3399ff"/>
+  </Shape>
+  <Shape TextLabel="Pre-pDC" GraphId="b05c4">
+    <Graphics ShapeType="Oval" Color="660099"/>
+  </Shape>
+  <Shape TextLabel="pDC" GraphId="bfcd2">
+    <Graphics ShapeType="Oval" Color="660099"/>
+  </Shape>
+  <Shape TextLabel="pDC" GraphId="fd857">
+    <Graphics ShapeType="Oval" Color="660099"/>
+  </Shape>
+  <Shape TextLabel="Pre-cDC1" GraphId="cfb10">
+    <Graphics ShapeType="Oval" Color="336600"/>
+  </Shape>
+  <Shape TextLabel="Pre-cDC1" GraphId="fe92c">
+    <Graphics ShapeType="Oval" Color="336600"/>
+  </Shape>
+  <Shape TextLabel="Pre-cDC1" GraphId="b61d6">
+    <Graphics ShapeType="Oval" Color="336600"/>
+  </Shape>
+  <Shape TextLabel="Pre-cDC2" GraphId="e046c">
+    <Graphics ShapeType="Oval" Color="3399ff"/>
+  </Shape>
+  <Shape TextLabel="Pre-cDC2" GraphId="eb206">
+    <Graphics ShapeType="Oval" Color="3399ff"/>
+  </Shape>
+  <Shape TextLabel="Ly6C-lo&#10;Monocytes" GraphId="a6262">
+    <Graphics ShapeType="Oval" Color="cc6600"/>
+  </Shape>
+  <Shape TextLabel="Ly6C-hi&#10;Monocytes" GraphId="aa117">
+    <Graphics ShapeType="Oval" Color="cc6600"/>
+  </Shape>
+  <Shape TextLabel="Ly6C-hi&#10;Monocytes" GraphId="cdf1d">
+    <Graphics ShapeType="Oval" Color="cc6600"/>
+  </Shape>
+  <Shape TextLabel="Ly6C-lo&#10;Monocytes" GraphId="f550b">
+    <Graphics ShapeType="Oval" Color="cc6600"/>
+  </Shape>
+  <Shape TextLabel="Ly6C-lo&#10;Monocytes" GraphId="de8bf">
+    <Graphics ShapeType="Oval" Color="cc6600"/>
+  </Shape>
+  <Shape TextLabel="CD103+ DC" GraphId="baa1d">
+    <Graphics ShapeType="Oval" Color="336600"/>
+  </Shape>
+  <Shape TextLabel="CD11b+ DC" GraphId="ca1b5">
+    <Graphics ShapeType="Oval" Color="3399ff"/>
+  </Shape>
+  <Shape TextLabel="CD103+&#10;Monocyte-derived DC" GraphId="d2979">
+    <Graphics ShapeType="Oval" Color="336600"/>
+  </Shape>
+  <Shape TextLabel="Monocyte-derived&#10;macrophage" GraphId="f4392">
+    <Graphics ShapeType="Oval" Color="cc6600"/>
+  </Shape>
+  <Shape TextLabel="CD11b+ &#10;Monocyte-derived&#10;macrophage" GraphId="afab7">
+    <Graphics ShapeType="Oval" Color="cc6600"/>
+  </Shape>
+  <Shape TextLabel="Ly6C-lo&#10;Monocytes" GraphId="a4867">
+    <Graphics ShapeType="Oval" Color="cc6600"/>
+  </Shape>
+  <Shape TextLabel="Ly6C-lo&#10;Monocytes" GraphId="a7efa">
+    <Graphics ShapeType="Oval" Color="cc6600"/>
+  </Shape>
+  <Shape TextLabel="Alveolar&#10;macrophage" GraphId="e5770">
+    <Graphics ShapeType="Oval" Color="cc6600"/>
+  </Shape>
+  <Shape TextLabel="Interstitial&#10;macrophage" GraphId="d291c">
+    <Graphics ShapeType="Oval" Color="cc6600"/>
+  </Shape>
+  <Group GroupId="ecf42" Style="Group"/>
+  <Group GroupId="f2b8a" GraphId="a59a0" Style="Group"/>
+  <Group GroupId="c0528" GraphId="a9525" Style="Group"/>
+  <Group GroupId="d4c5f" GraphId="aa60f" Style="Group"/>
+  <Group GroupId="ee57d" GraphId="b6f40" Style="Group"/>
+  <Group GroupId="cc442" GraphId="b6fac" Style="Group"/>
+  <Group GroupId="ebabb" GraphId="db5fe" Style="Group"/>
+  <Group GroupId="f2475" GraphId="e94fd" Style="Group"/>
+  <Group GroupId="e84cf" GraphId="ed380" Style="Group"/>
+  <Group GroupId="e791c" GraphId="f1baa" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >dendritic cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000451</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e7d">
+      <bp:ID >27047494</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Origin, Localization, and Immunoregulatory Properties of Pulmonary Phagocytes in Allergic Asthma.</bp:TITLE>
+      <bp:SOURCE >Front Immunol</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Hoffmann F</bp:AUTHORS>
+      <bp:AUTHORS >Ender F</bp:AUTHORS>
+      <bp:AUTHORS >Schmudde I</bp:AUTHORS>
+      <bp:AUTHORS >Lewkowich IP</bp:AUTHORS>
+      <bp:AUTHORS >K&#246;hl J</bp:AUTHORS>
+      <bp:AUTHORS >K&#246;nig P</bp:AUTHORS>
+      <bp:AUTHORS >Laumonnier Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >bone marrow hematopoietic cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:1001610</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >macrophage dendritic cell progenitor</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0002009</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

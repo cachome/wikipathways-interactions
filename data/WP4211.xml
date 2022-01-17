@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transcriptional cascade regulating adipogenesis" Version="20180202" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Peroxisome proliferator-activated receptor gamma (PPARG) lies at the core of the transcriptional cascade that regulates adipogenesis. The expression of PPARG is regulated by several pro-adipogenic (green) and anti-adipogenic (orange) factors. PPARG itself is activated by an as-yet-uncharacterized ligand. CCAAT-enhancer-binding protein alpha (C/EBPA) is regulated through a series of inhibitory protein&#8211;protein interactions. Some transcription-factor families have several members that participate in adipogenesis, such as the Kr&#252;ppel-like factors (KLFs). Rosen et al. Figure 2a</Comment>
+  <BiopaxRef>d3b</BiopaxRef>
+  <Graphics BoardWidth="632.7618895319312" BoardHeight="458.86972249217143"/>
+  <DataNode TextLabel="GATA2" Type="GeneProduct" GroupRef="abce6">
+    <Comment>GATA2/3</Comment>
+    <Graphics Color="cc9900"/>
+    </DataNode>
+  <DataNode TextLabel="GATA3" Type="GeneProduct" GroupRef="abce6">
+    <Comment>GATA2/3</Comment>
+    <Graphics Color="cc9900"/>
+    </DataNode>
+  <DataNode TextLabel="CEBPA" GraphId="a0e05" Type="GeneProduct">
+    <Comment>C/EBP&#945;</Comment>
+    <Graphics Color="006600"/>
+    </DataNode>
+  <DataNode TextLabel="CEBPG" GraphId="a31d4" Type="GeneProduct">
+    <Comment>C/EBP&#947;</Comment>
+    <Graphics Color="cc9900"/>
+    </DataNode>
+  <DataNode TextLabel="KLF5" GraphId="b3967" Type="GeneProduct">
+    <Graphics Color="006600"/>
+    </DataNode>
+  <DataNode TextLabel="SREBF1" GraphId="d513f" Type="GeneProduct">
+    <Comment>SREBP1c</Comment>
+    <Graphics Color="006600"/>
+    </DataNode>
+  <DataNode TextLabel="CEBPD" GraphId="defe5" Type="GeneProduct" GroupRef="c30c1">
+    <Comment>C/EBP&#948;</Comment>
+    <Graphics Color="006600"/>
+    </DataNode>
+  <DataNode TextLabel="CEBPB" GraphId="e4e52" Type="GeneProduct" GroupRef="c30c1">
+    <Comment>C/EBP&#946;</Comment>
+    <Graphics Color="006600"/>
+    </DataNode>
+  <DataNode TextLabel="PPARG" GraphId="e6700" Type="GeneProduct">
+    <Comment>PPAR&#947;</Comment>
+    <Graphics Color="006600"/>
+    </DataNode>
+  <DataNode TextLabel="KLF2" GraphId="e9cfe" Type="GeneProduct">
+    <Graphics Color="cc9900"/>
+    </DataNode>
+  <DataNode TextLabel="EGR2" GraphId="f0ffa" Type="GeneProduct">
+    <Comment>KROX20</Comment>
+    <Graphics Color="006600"/>
+    </DataNode>
+  <DataNode TextLabel="DDIT3" GraphId="f4205" Type="GeneProduct">
+    <Comment>CHOP</Comment>
+    <Graphics Color="cc9900"/>
+    </DataNode>
+  <DataNode TextLabel="KLF15" GraphId="fad43" Type="GeneProduct">
+    <Graphics Color="006600"/>
+    </DataNode>
+  <Interaction GraphId="id13a2ad42">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a0e05"/>
+      <Point GraphRef="e35a1" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id21126164">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ced6b"/>
+      <Point GraphRef="a0e05" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id21c051e4">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a31d4"/>
+      <Point GraphRef="e4e52" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id241458b0">
+    <Graphics>
+      <Point GraphRef="fad43"/>
+      <Point GraphRef="e6700" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2b039924">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e6700"/>
+      <Point GraphRef="e35a1" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3e7c3f09">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f9800"/>
+      <Point/>
+      <Point GraphRef="a0e05" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6173bc07">
+    <Graphics>
+      <Point GraphRef="e6700"/>
+      <Point GraphRef="a0e05" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7ad5c3c4">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d513f"/>
+      <Point GraphRef="e6700" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id88d03025">
+    <Graphics>
+      <Point GraphRef="e4e52"/>
+      <Point GraphRef="defe5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id915c01b6">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f9800"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="e6700" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9658a5a3">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f4205"/>
+      <Point GraphRef="e4e52" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida9ea02f3">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e9cfe"/>
+      <Point GraphRef="e6700" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd82be1ff">
+    <Graphics>
+      <Point GraphRef="a0e05"/>
+      <Point GraphRef="e6700" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideb86cddf">
+    <Graphics>
+      <Point GraphRef="f0ffa"/>
+      <Point GraphRef="e4e52" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idee8120ab">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ced6b"/>
+      <Point GraphRef="e6700" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf206907f">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b3967"/>
+      <Point GraphRef="e6700" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Pro-adipogenic" GraphId="aafdf">
+    <Graphics FillColor="ffffff" Color="006600"/>
+  </Label>
+  <Label TextLabel="Anti-adipogenic" GraphId="c2274">
+    <Graphics FillColor="ffffff" Color="cc9900"/>
+  </Label>
+  <Label TextLabel=" Genes of terminal&#10; adipocyte&#10; differentiation" GraphId="e35a1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Group GroupId="abce6" GraphId="ced6b" Style="Complex"/>
+  <Group GroupId="c30c1" GraphId="f9800"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d3b">
+      <bp:ID >17139329</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Adipocyte differentiation from the inside out.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Rosen ED</bp:AUTHORS>
+      <bp:AUTHORS >MacDougald OA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >fat cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000136</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >signaling pathway pertinent to development</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000650</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

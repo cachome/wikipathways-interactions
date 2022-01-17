@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="LDLRAD4 and what we know about it" Version="20200420" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">A recent GWAS study was tweeted (https://twitter.com/BrentRichards19/status/1251550109931888643) showing an intronic SNP in LDLRAD4 as relevant. This pathway summarizes what is known of the biological role of this gene and its proteins.</Comment>
+  <Graphics BoardWidth="593.9331713244223" BoardHeight="522.4362089914945"/>
+  <DataNode TextLabel="Autophagosome&#10;formation" GraphId="a5486" Type="Pathway">
+    <Graphics ShapeType="None"/>
+    </DataNode>
+  <DataNode TextLabel="Neurodevelopmental&#10;disorders" GraphId="e1533" Type="Pathway">
+    <Graphics ShapeType="None"/>
+    </DataNode>
+  <DataNode TextLabel="Blood&#10;pressure" GraphId="e3ffd" Type="Pathway">
+    <Graphics ShapeType="None"/>
+    </DataNode>
+  <DataNode TextLabel="PMEPA1" GraphId="b351b" Type="GeneProduct" GroupRef="dd3b2">
+    <Comment>Also known as TMEPAI</Comment>
+        </DataNode>
+  <DataNode TextLabel="Ebola virus&#10;pathway in host" GraphId="b8756" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="TGF-B signaling&#10;pathway" GraphId="bab41" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="NEDD4" GraphId="c276a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LDLRAD4-AS1" GraphId="c9042" Type="Rna">
+    <Comment>lncRNA</Comment>
+        </DataNode>
+  <DataNode TextLabel="LDLRAD4" GraphId="e9bfd" Type="GeneProduct">
+    <Comment>Also known as C18ORF1</Comment>
+        </DataNode>
+  <DataNode TextLabel="SMAD2" GraphId="ee0af" Type="GeneProduct" GroupRef="c7bcc">
+        </DataNode>
+  <DataNode TextLabel="hsa-miR-20a-5p" GraphId="f25b2" Type="Rna">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="ATG16L1" GraphId="f314c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TGFBR2" GraphId="f673b" Type="GeneProduct" GroupRef="d001a">
+        </DataNode>
+  <DataNode TextLabel="LDLRAD4" GraphId="ca96b" Type="GeneProduct" GroupRef="dd3b2">
+    <Comment>Also known as C18ORF1</Comment>
+        </DataNode>
+  <DataNode TextLabel="SMAD2" GraphId="caffc" Type="GeneProduct" GroupRef="c7bcc">
+        </DataNode>
+  <DataNode TextLabel="TGFBR1" GraphId="ea248" Type="GeneProduct" GroupRef="d001a">
+        </DataNode>
+  <DataNode TextLabel="LDLRAD4" GraphId="d98b8" Type="GeneProduct" GroupRef="d40bc">
+    <Comment>Also known as C18ORF1</Comment>
+        </DataNode>
+  <DataNode TextLabel="NEDD4" GraphId="c628c" Type="GeneProduct" GroupRef="d40bc">
+        </DataNode>
+  <Interaction GraphId="id3b8d16d5">
+    <BiopaxRef>a15</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f25b2"/>
+      <Point GraphRef="f314c" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4fe61d16">
+    <Graphics>
+      <Point GraphRef="c276a"/>
+      <Point GraphRef="c628c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5444d4cb">
+    <BiopaxRef>f47</BiopaxRef>
+    <BiopaxRef>f1b</BiopaxRef>
+    <BiopaxRef>f55</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b0004"/>
+      <Point GraphRef="e236b" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id61a8eeaa">
+    <BiopaxRef>fea</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="beba2"/>
+      <Point/>
+      <Point GraphRef="bab41" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id694a53fa">
+    <BiopaxRef>a15</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a5486"/>
+      <Point GraphRef="f314c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6cc9fb0d">
+    <BiopaxRef>fea</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e9bfd"/>
+      <Point GraphRef="c276a"/>
+      <Anchor Position="0.4" Shape="None" GraphId="beba2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6fa109c9">
+    <BiopaxRef>f37</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e1533"/>
+      <Point GraphRef="e9bfd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id71ecd0f3">
+    <Graphics>
+      <Point GraphRef="c276a"/>
+      <Point GraphRef="b8756"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7947a72f">
+    <Graphics>
+      <Point GraphRef="e9bfd"/>
+      <Point GraphRef="d98b8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide33a2255">
+    <Graphics>
+      <Point GraphRef="e3254"/>
+      <Point GraphRef="df78d" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e236b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idef60a322">
+    <Comment>Association based on rs8096897 being linked to systolic blood pressure</Comment>
+    <BiopaxRef>b9d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e3ffd"/>
+      <Point GraphRef="e9bfd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf54d419">
+    <Graphics>
+      <Point GraphRef="e9bfd"/>
+      <Point GraphRef="ca96b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfb4f20fd">
+    <BiopaxRef>ef9</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c9042"/>
+      <Point GraphRef="e9bfd" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfdf4dec2">
+    <BiopaxRef>d3e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e9bfd"/>
+      <Point GraphRef="f25b2"/>
+    </Graphics>
+    </Interaction>
+  <Shape GraphId="f5f9d">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Group GroupId="dd3b2" GraphId="b0004" Style="Complex"/>
+  <Group GroupId="c7bcc" GraphId="df78d" Style="Complex"/>
+  <Group GroupId="d001a" GraphId="e3254" Style="Complex"/>
+  <Group GroupId="d40bc" GraphId="ea922" Style="Complex">
+    <BiopaxRef>ae5</BiopaxRef>
+  </Group>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae5">
+      <bp:ID >26186194</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The BioPlex Network: A Systematic Exploration of the Human Interactome.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Huttlin EL</bp:AUTHORS>
+      <bp:AUTHORS >Ting L</bp:AUTHORS>
+      <bp:AUTHORS >Bruckner RJ</bp:AUTHORS>
+      <bp:AUTHORS >Gebreab F</bp:AUTHORS>
+      <bp:AUTHORS >Gygi MP</bp:AUTHORS>
+      <bp:AUTHORS >Szpyt J</bp:AUTHORS>
+      <bp:AUTHORS >Tam S</bp:AUTHORS>
+      <bp:AUTHORS >Zarraga G</bp:AUTHORS>
+      <bp:AUTHORS >Colby G</bp:AUTHORS>
+      <bp:AUTHORS >Baltier K</bp:AUTHORS>
+      <bp:AUTHORS >Dong R</bp:AUTHORS>
+      <bp:AUTHORS >Guarani V</bp:AUTHORS>
+      <bp:AUTHORS >Vaites LP</bp:AUTHORS>
+      <bp:AUTHORS >Ordureau A</bp:AUTHORS>
+      <bp:AUTHORS >Rad R</bp:AUTHORS>
+      <bp:AUTHORS >Erickson BK</bp:AUTHORS>
+      <bp:AUTHORS >W&#252;hr M</bp:AUTHORS>
+      <bp:AUTHORS >Chick J</bp:AUTHORS>
+      <bp:AUTHORS >Zhai B</bp:AUTHORS>
+      <bp:AUTHORS >Kolippakkam D</bp:AUTHORS>
+      <bp:AUTHORS >Mintseris J</bp:AUTHORS>
+      <bp:AUTHORS >Obar RA</bp:AUTHORS>
+      <bp:AUTHORS >Harris T</bp:AUTHORS>
+      <bp:AUTHORS >Artavanis-Tsakonas S</bp:AUTHORS>
+      <bp:AUTHORS >Sowa ME</bp:AUTHORS>
+      <bp:AUTHORS >De Camilli P</bp:AUTHORS>
+      <bp:AUTHORS >Paulo JA</bp:AUTHORS>
+      <bp:AUTHORS >Harper JW</bp:AUTHORS>
+      <bp:AUTHORS >Gygi SP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f1b">
+      <bp:ID >24438557</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >TMEPAI/PMEPA1 enhances tumorigenic activities in lung cancer cells.</bp:TITLE>
+      <bp:SOURCE >Cancer Sci</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Vo Nguyen TT</bp:AUTHORS>
+      <bp:AUTHORS >Watanabe Y</bp:AUTHORS>
+      <bp:AUTHORS >Shiba A</bp:AUTHORS>
+      <bp:AUTHORS >Noguchi M</bp:AUTHORS>
+      <bp:AUTHORS >Itoh S</bp:AUTHORS>
+      <bp:AUTHORS >Kato M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef9">
+      <bp:ID >32111819</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Antisense lncRNA LDLRAD4-AS1 promotes metastasis by decreasing the expression of LDLRAD4 and predicts a poor prognosis in colorectal cancer.</bp:TITLE>
+      <bp:SOURCE >Cell Death Dis</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Mo S</bp:AUTHORS>
+      <bp:AUTHORS >Zhang L</bp:AUTHORS>
+      <bp:AUTHORS >Dai W</bp:AUTHORS>
+      <bp:AUTHORS >Han L</bp:AUTHORS>
+      <bp:AUTHORS >Wang R</bp:AUTHORS>
+      <bp:AUTHORS >Xiang W</bp:AUTHORS>
+      <bp:AUTHORS >Wang Z</bp:AUTHORS>
+      <bp:AUTHORS >Li Q</bp:AUTHORS>
+      <bp:AUTHORS >Yu J</bp:AUTHORS>
+      <bp:AUTHORS >Yuan J</bp:AUTHORS>
+      <bp:AUTHORS >Cai S</bp:AUTHORS>
+      <bp:AUTHORS >Cai G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d3e">
+      <bp:ID >31819986</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Association Between Side Effects and Blood microRNA Expression Levels and Their Targeted Pathways in Patients With Major Depressive Disorder Treated by a Selective Serotonin Reuptake Inhibitor, Escitalopram: A CAN-BIND-1 Report.</bp:TITLE>
+      <bp:SOURCE >Int J Neuropsychopharmacol</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Yrondi A</bp:AUTHORS>
+      <bp:AUTHORS >Fiori LM</bp:AUTHORS>
+      <bp:AUTHORS >Frey BN</bp:AUTHORS>
+      <bp:AUTHORS >Lam RW</bp:AUTHORS>
+      <bp:AUTHORS >MacQueen GM</bp:AUTHORS>
+      <bp:AUTHORS >Milev R</bp:AUTHORS>
+      <bp:AUTHORS >M&#252;ller DJ</bp:AUTHORS>
+      <bp:AUTHORS >Foster JA</bp:AUTHORS>
+      <bp:AUTHORS >Kennedy SH</bp:AUTHORS>
+      <bp:AUTHORS >Turecki G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fea">
+      <bp:ID >28888937</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Low density lipoprotein receptor class A domain containing 4 (LDLRAD4) promotes tumorigenesis of hepatic cancer cells.</bp:TITLE>
+      <bp:SOURCE >Exp Cell Res</bp:SOURCE>
+      <bp:YEAR >2017</bp:YEAR>
+      <bp:AUTHORS >Liu Z</bp:AUTHORS>
+      <bp:AUTHORS >Huo X</bp:AUTHORS>
+      <bp:AUTHORS >Zhao S</bp:AUTHORS>
+      <bp:AUTHORS >Yang J</bp:AUTHORS>
+      <bp:AUTHORS >Shi W</bp:AUTHORS>
+      <bp:AUTHORS >Jing L</bp:AUTHORS>
+      <bp:AUTHORS >Li W</bp:AUTHORS>
+      <bp:AUTHORS >Li Y</bp:AUTHORS>
+      <bp:AUTHORS >Ma L</bp:AUTHORS>
+      <bp:AUTHORS >Gao Y</bp:AUTHORS>
+      <bp:AUTHORS >Diao A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a15">
+      <bp:ID >26165754</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MiR-20a-5p mediates hypoxia-induced autophagy by targeting ATG16L1 in ischemic kidney injury.</bp:TITLE>
+      <bp:SOURCE >Life Sci</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Wang IK</bp:AUTHORS>
+      <bp:AUTHORS >Sun KT</bp:AUTHORS>
+      <bp:AUTHORS >Tsai TH</bp:AUTHORS>
+      <bp:AUTHORS >Chen CW</bp:AUTHORS>
+      <bp:AUTHORS >Chang SS</bp:AUTHORS>
+      <bp:AUTHORS >Yu TM</bp:AUTHORS>
+      <bp:AUTHORS >Yen TH</bp:AUTHORS>
+      <bp:AUTHORS >Lin FY</bp:AUTHORS>
+      <bp:AUTHORS >Huang CC</bp:AUTHORS>
+      <bp:AUTHORS >Li CY</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f47">
+      <bp:ID >24627487</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >C18 ORF1, a novel negative regulator of transforming growth factor-&#946; signaling.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Nakano N</bp:AUTHORS>
+      <bp:AUTHORS >Maeyama K</bp:AUTHORS>
+      <bp:AUTHORS >Sakata N</bp:AUTHORS>
+      <bp:AUTHORS >Itoh F</bp:AUTHORS>
+      <bp:AUTHORS >Akatsu R</bp:AUTHORS>
+      <bp:AUTHORS >Nakata M</bp:AUTHORS>
+      <bp:AUTHORS >Katsu Y</bp:AUTHORS>
+      <bp:AUTHORS >Ikeno S</bp:AUTHORS>
+      <bp:AUTHORS >Togawa Y</bp:AUTHORS>
+      <bp:AUTHORS >Vo Nguyen TT</bp:AUTHORS>
+      <bp:AUTHORS >Watanabe Y</bp:AUTHORS>
+      <bp:AUTHORS >Kato M</bp:AUTHORS>
+      <bp:AUTHORS >Itoh S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f55">
+      <bp:ID >29945215</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >TMEPAI family: involvement in regulation of multiple signalling pathways.</bp:TITLE>
+      <bp:SOURCE >J Biochem</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Itoh S</bp:AUTHORS>
+      <bp:AUTHORS >Itoh F</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f37">
+      <bp:ID >31602316</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A large data resource of genomic copy number variation across neurodevelopmental disorders.</bp:TITLE>
+      <bp:SOURCE >NPJ Genom Med</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Zarrei M</bp:AUTHORS>
+      <bp:AUTHORS >Burton CL</bp:AUTHORS>
+      <bp:AUTHORS >Engchuan W</bp:AUTHORS>
+      <bp:AUTHORS >Young EJ</bp:AUTHORS>
+      <bp:AUTHORS >Higginbotham EJ</bp:AUTHORS>
+      <bp:AUTHORS >MacDonald JR</bp:AUTHORS>
+      <bp:AUTHORS >Trost B</bp:AUTHORS>
+      <bp:AUTHORS >Chan AJS</bp:AUTHORS>
+      <bp:AUTHORS >Walker S</bp:AUTHORS>
+      <bp:AUTHORS >Lamoureux S</bp:AUTHORS>
+      <bp:AUTHORS >Heung T</bp:AUTHORS>
+      <bp:AUTHORS >Mojarad BA</bp:AUTHORS>
+      <bp:AUTHORS >Kellam B</bp:AUTHORS>
+      <bp:AUTHORS >Paton T</bp:AUTHORS>
+      <bp:AUTHORS >Faheem M</bp:AUTHORS>
+      <bp:AUTHORS >Miron K</bp:AUTHORS>
+      <bp:AUTHORS >Lu C</bp:AUTHORS>
+      <bp:AUTHORS >Wang T</bp:AUTHORS>
+      <bp:AUTHORS >Samler K</bp:AUTHORS>
+      <bp:AUTHORS >Wang X</bp:AUTHORS>
+      <bp:AUTHORS >Costain G</bp:AUTHORS>
+      <bp:AUTHORS >Hoang N</bp:AUTHORS>
+      <bp:AUTHORS >Pellecchia G</bp:AUTHORS>
+      <bp:AUTHORS >Wei J</bp:AUTHORS>
+      <bp:AUTHORS >Patel RV</bp:AUTHORS>
+      <bp:AUTHORS >Thiruvahindrapuram B</bp:AUTHORS>
+      <bp:AUTHORS >Roifman M</bp:AUTHORS>
+      <bp:AUTHORS >Merico D</bp:AUTHORS>
+      <bp:AUTHORS >Goodale T</bp:AUTHORS>
+      <bp:AUTHORS >Drmic I</bp:AUTHORS>
+      <bp:AUTHORS >Speevak M</bp:AUTHORS>
+      <bp:AUTHORS >Howe JL</bp:AUTHORS>
+      <bp:AUTHORS >Yuen RKC</bp:AUTHORS>
+      <bp:AUTHORS >Buchanan JA</bp:AUTHORS>
+      <bp:AUTHORS >Vorstman JAS</bp:AUTHORS>
+      <bp:AUTHORS >Marshall CR</bp:AUTHORS>
+      <bp:AUTHORS >Wintle RF</bp:AUTHORS>
+      <bp:AUTHORS >Rosenberg DR</bp:AUTHORS>
+      <bp:AUTHORS >Hanna GL</bp:AUTHORS>
+      <bp:AUTHORS >Woodbury-Smith M</bp:AUTHORS>
+      <bp:AUTHORS >Cytrynbaum C</bp:AUTHORS>
+      <bp:AUTHORS >Zwaigenbaum L</bp:AUTHORS>
+      <bp:AUTHORS >Elsabbagh M</bp:AUTHORS>
+      <bp:AUTHORS >Flanagan J</bp:AUTHORS>
+      <bp:AUTHORS >Fernandez BA</bp:AUTHORS>
+      <bp:AUTHORS >Carter MT</bp:AUTHORS>
+      <bp:AUTHORS >Szatmari P</bp:AUTHORS>
+      <bp:AUTHORS >Roberts W</bp:AUTHORS>
+      <bp:AUTHORS >Lerch J</bp:AUTHORS>
+      <bp:AUTHORS >Liu X</bp:AUTHORS>
+      <bp:AUTHORS >Nicolson R</bp:AUTHORS>
+      <bp:AUTHORS >Georgiades S</bp:AUTHORS>
+      <bp:AUTHORS >Weksberg R</bp:AUTHORS>
+      <bp:AUTHORS >Arnold PD</bp:AUTHORS>
+      <bp:AUTHORS >Bassett AS</bp:AUTHORS>
+      <bp:AUTHORS >Crosbie J</bp:AUTHORS>
+      <bp:AUTHORS >Schachar R</bp:AUTHORS>
+      <bp:AUTHORS >Stavropoulos DJ</bp:AUTHORS>
+      <bp:AUTHORS >Anagnostou E</bp:AUTHORS>
+      <bp:AUTHORS >Scherer SW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease by infectious agent</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0050117</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b9d">
+      <bp:ID >19430479</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Genome-wide association study of blood pressure and hypertension.</bp:TITLE>
+      <bp:SOURCE >Nat Genet</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Levy D</bp:AUTHORS>
+      <bp:AUTHORS >Ehret GB</bp:AUTHORS>
+      <bp:AUTHORS >Rice K</bp:AUTHORS>
+      <bp:AUTHORS >Verwoert GC</bp:AUTHORS>
+      <bp:AUTHORS >Launer LJ</bp:AUTHORS>
+      <bp:AUTHORS >Dehghan A</bp:AUTHORS>
+      <bp:AUTHORS >Glazer NL</bp:AUTHORS>
+      <bp:AUTHORS >Morrison AC</bp:AUTHORS>
+      <bp:AUTHORS >Johnson AD</bp:AUTHORS>
+      <bp:AUTHORS >Aspelund T</bp:AUTHORS>
+      <bp:AUTHORS >Aulchenko Y</bp:AUTHORS>
+      <bp:AUTHORS >Lumley T</bp:AUTHORS>
+      <bp:AUTHORS >K&#246;ttgen A</bp:AUTHORS>
+      <bp:AUTHORS >Vasan RS</bp:AUTHORS>
+      <bp:AUTHORS >Rivadeneira F</bp:AUTHORS>
+      <bp:AUTHORS >Eiriksdottir G</bp:AUTHORS>
+      <bp:AUTHORS >Guo X</bp:AUTHORS>
+      <bp:AUTHORS >Arking DE</bp:AUTHORS>
+      <bp:AUTHORS >Mitchell GF</bp:AUTHORS>
+      <bp:AUTHORS >Mattace-Raso FU</bp:AUTHORS>
+      <bp:AUTHORS >Smith AV</bp:AUTHORS>
+      <bp:AUTHORS >Taylor K</bp:AUTHORS>
+      <bp:AUTHORS >Scharpf RB</bp:AUTHORS>
+      <bp:AUTHORS >Hwang SJ</bp:AUTHORS>
+      <bp:AUTHORS >Sijbrands EJ</bp:AUTHORS>
+      <bp:AUTHORS >Bis J</bp:AUTHORS>
+      <bp:AUTHORS >Harris TB</bp:AUTHORS>
+      <bp:AUTHORS >Ganesh SK</bp:AUTHORS>
+      <bp:AUTHORS >O'Donnell CJ</bp:AUTHORS>
+      <bp:AUTHORS >Hofman A</bp:AUTHORS>
+      <bp:AUTHORS >Rotter JI</bp:AUTHORS>
+      <bp:AUTHORS >Coresh J</bp:AUTHORS>
+      <bp:AUTHORS >Benjamin EJ</bp:AUTHORS>
+      <bp:AUTHORS >Uitterlinden AG</bp:AUTHORS>
+      <bp:AUTHORS >Heiss G</bp:AUTHORS>
+      <bp:AUTHORS >Fox CS</bp:AUTHORS>
+      <bp:AUTHORS >Witteman JC</bp:AUTHORS>
+      <bp:AUTHORS >Boerwinkle E</bp:AUTHORS>
+      <bp:AUTHORS >Wang TJ</bp:AUTHORS>
+      <bp:AUTHORS >Gudnason V</bp:AUTHORS>
+      <bp:AUTHORS >Larson MG</bp:AUTHORS>
+      <bp:AUTHORS >Chakravarti A</bp:AUTHORS>
+      <bp:AUTHORS >Psaty BM</bp:AUTHORS>
+      <bp:AUTHORS >van Duijn CM</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

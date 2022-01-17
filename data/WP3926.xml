@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="ApoE and miR-146 in inflammation and atherosclerosis" Version="20151214" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Apolipoprotein E (ApoE) enhances purine-rich PU-box-binding protein 1 (PU.1)-dependent miR-146a transcription to suppress nuclear factor-&#954;B (NF-&#954;B)-driven monocyte and macrophage activation and thereby inflammation and atherosclerosis.
+
+Environmental ligands of toll-like receptors (TLRs), including lipopolysaccharide (LPS) and oxidized low-density lipoprotein (oxLDL), caused by hyperlipidemia provoke inflammatory signaling in monocytes and macrophages resulting in NF-&#954;B activation. Gene transcription from NF-&#954;B activity results in the production of inflammatory mediators, including proatherogenic cytokines. It also results in the production of primary miR-146a (pri-miR-146a) that is subsequently processed into mature miR-146a that silences the expression of key TLR-adaptor molecules interleukin-1 receptor-associated kinase 1 (IRAK1) and TNF receptor-associated factor 6 (TRAF6). The production of miR-146a thereby serves as a regulatory feedback loop to suppress NF-&#954;B activity and resolve inflammation. Findings from our study identified that cellular apoE expression contributes to amplify this regulatory feedback loop by increasing PU.1-dependent transcription of pri-miR-146a and thereby mature miR-146a production.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3926 CPTAC Assay Portal]</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway "ApoE and miR-146 in inflammation and atherosclerosis", WP3592 revision 89801, with a 90.0% conversion rate.</Comment>
+  <BiopaxRef>d6b</BiopaxRef>
+  <Graphics BoardWidth="790.0" BoardHeight="688.0"/>
+  <DataNode TextLabel="Lipopolysaccharide" GraphId="e6c3d" Type="Metabolite">
+    <Graphics ShapeType="None"/>
+    </DataNode>
+  <DataNode TextLabel="NFKB2" GraphId="b2151" Type="GeneProduct" GroupRef="a82a7">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000025225</Comment>
+        </DataNode>
+  <DataNode TextLabel="APOE" GraphId="bfc4d" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000002985</Comment>
+        </DataNode>
+  <DataNode TextLabel="RELA" GraphId="cc3aa" Type="GeneProduct" GroupRef="a82a7">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000024927</Comment>
+        </DataNode>
+  <DataNode TextLabel="MIR146A" GraphId="da74b" Type="GeneProduct">
+    <Comment Source="HomologyMapper">No homologues found for original id Mb:MI0000170</Comment>
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="HDL" GraphId="e41d0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SPI1" GraphId="e6e69" Type="GeneProduct" GroupRef="f77bb">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:20375</Comment>
+        </DataNode>
+  <DataNode TextLabel="IRAK1" GraphId="ed792" Type="GeneProduct" GroupRef="a7ed5">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000031392</Comment>
+        </DataNode>
+  <DataNode TextLabel="TLR4" GraphId="fa33a" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000039005</Comment>
+        </DataNode>
+  <DataNode TextLabel="TRAF6" GraphId="fc1b1" Type="GeneProduct" GroupRef="a7ed5">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000017386</Comment>
+        </DataNode>
+  <DataNode TextLabel="TLR2" GraphId="ffe69" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000027995</Comment>
+        </DataNode>
+  <DataNode TextLabel="ox-LDL" GraphId="ba110" Type="Metabolite">
+    <Graphics ShapeType="None"/>
+    </DataNode>
+  <DataNode TextLabel="RELA" GraphId="c87cb" Type="GeneProduct" GroupRef="ee6ee">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000024927</Comment>
+        </DataNode>
+  <DataNode TextLabel="NFKB2" GraphId="c2fa9" Type="GeneProduct" GroupRef="ee6ee">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000025225</Comment>
+        </DataNode>
+  <DataNode TextLabel="HDL" GraphId="d64c3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <State GraphRef="cc3aa" TextLabel="P" GraphId="e285b">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c87cb" TextLabel="P" GraphId="af2b2">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id23731ff3">
+    <Graphics>
+      <Point GraphRef="ed453"/>
+      <Point GraphRef="eeded" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id29f19bad">
+    <Graphics>
+      <Point GraphRef="fa33a"/>
+      <Point GraphRef="c85f5" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3169426f">
+    <Graphics>
+      <Point GraphRef="aab86"/>
+      <Point GraphRef="a84e6" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id39896e46">
+    <Graphics>
+      <Point GraphRef="da74b"/>
+      <Point GraphRef="c85f5" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3b137d88">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d4c80"/>
+      <Point GraphRef="deee3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5bd82ddb">
+    <BiopaxRef>cee</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bfc4d"/>
+      <Point GraphRef="f10a1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5fc40f62">
+    <Graphics>
+      <Point GraphRef="eeded"/>
+      <Point GraphRef="d4c80" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id75364118">
+    <Graphics>
+      <Point GraphRef="bfc4d"/>
+      <Point GraphRef="faf3d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id79dfb402">
+    <Graphics>
+      <Point GraphRef="e6c3d"/>
+      <Point GraphRef="fa33a" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb607b62c">
+    <Graphics>
+      <Point GraphRef="ba110"/>
+      <Point GraphRef="ffe69" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbe323268">
+    <Graphics>
+      <Point GraphRef="a84e6"/>
+      <Point GraphRef="eb278" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc1efcbcf">
+    <Graphics>
+      <Point GraphRef="eeded"/>
+      <Point GraphRef="aab86" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idca3b4aea">
+    <Graphics>
+      <Point GraphRef="e41d0"/>
+      <Point GraphRef="d64c3" ArrowHead="Arrow"/>
+      <Anchor Position="0.491037283804133" Shape="None" GraphId="f10a1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf64f1c51">
+    <Graphics>
+      <Point GraphRef="ffe69"/>
+      <Point GraphRef="c85f5" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf6b9813b">
+    <Graphics>
+      <Point GraphRef="c85f5"/>
+      <Point GraphRef="cc3aa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a295e">
+    <Graphics>
+      <Point GraphRef="eb278"/>
+      <Point GraphRef="da74b" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3315">
+    <Graphics>
+      <Point GraphRef="faf3d"/>
+      <Point GraphRef="aab86" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Monocyte and macrophage &#10;activation" GraphId="deee3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="pri-miR-146a" GraphId="ac979" GroupRef="a22de">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="pre-miR-146a" GraphId="a84e6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="pre-miR-146a" GraphId="eb278">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="cytokine genes" GraphId="d4c80">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="d3f3c">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="ded5d">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="a22de" GraphId="aab86" Style="Group"/>
+  <Group GroupId="cf3b0" GraphId="b99ea" Style="Group"/>
+  <Group GroupId="a8785" GraphId="c48cd" Style="Group"/>
+  <Group GroupId="a7ed5" GraphId="c85f5" Style="Group"/>
+  <Group GroupId="a82a7" GraphId="ed453" Style="Group"/>
+  <Group GroupId="ee6ee" GraphId="eeded" Style="Group"/>
+  <Group GroupId="f77bb" GraphId="faf3d" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >atherosclerosis</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:1936</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d6b">
+      <bp:ID >25904598</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Apolipoprotein E enhances microRNA-146a in monocytes and macrophages to suppress nuclear factor-&#954;B-driven inflammation and atherosclerosis.</bp:TITLE>
+      <bp:SOURCE >Circ Res</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Li K</bp:AUTHORS>
+      <bp:AUTHORS >Ching D</bp:AUTHORS>
+      <bp:AUTHORS >Luk FS</bp:AUTHORS>
+      <bp:AUTHORS >Raffai RL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cee">
+      <bp:ID >30101215</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >MicroRNA-146a&amp;amp; hematopoiesis: friend or foe in atherosclerosis.</bp:TITLE>
+      <bp:SOURCE >Noncoding RNA Investig</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Raffai RL</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

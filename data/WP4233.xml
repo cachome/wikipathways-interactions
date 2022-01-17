@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Acrylamide biotransformation and exposure biomarkers" Version="20180316" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Acrylamide (AA) is absorbed from the gastrointestinal tract and is converted to toxic glycidamide (GA) by cytochrome P450 2E1. Both AA and GA are coupled with glutathione (GSH) in the liver to form conjugates that are metabolized in the kidney and urinary tract to form modified merbapturic acids (AAMA and GAMA) that serve as biomarkers for AA in urine. Meanwhile, haemoglobin adducts are formed in the blood, including AA-Valine and GA-Valine. Genotoxic and carcinogenic activity is mediated by GA and the formation of DNA adducts with guanine and adenosine.   </Comment>
+  <BiopaxRef>b00</BiopaxRef>
+  <Graphics BoardWidth="674.9579831932772" BoardHeight="577.2689075630254"/>
+  <DataNode TextLabel="Acrylamide (AA)" GraphId="a5aa9" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AAMA" GraphId="c0e1c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="N7-GA-Guanine" GraphId="d6e01" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AA-GSH" GraphId="e1fb0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Glutathione" GraphId="e2b7d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AA-Val" GraphId="eb0fb" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Valine" GraphId="fd7f2" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP2E1" GraphId="feeb1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Glycidamide (GA)" GraphId="e7720" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GAMA" GraphId="b202f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GA-Val" GraphId="cd457" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="N3-GA-Adenosine" GraphId="f3a4a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GA-GSH" GraphId="ad4d0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="a5aa9"/>
+      <Point GraphRef="e7720" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a622d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="e7720"/>
+      <Point GraphRef="d6e01" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="e7720"/>
+      <Point GraphRef="f3a4a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="e7720"/>
+      <Point GraphRef="cd457" ArrowHead="Arrow"/>
+      <Anchor Position="1.0" Shape="None" GraphId="d653b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="a5aa9"/>
+      <Point GraphRef="eb0fb" ArrowHead="Arrow"/>
+      <Anchor Position="1.0" Shape="None" GraphId="f60ce"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="a5aa9"/>
+      <Point GraphRef="e1fb0" ArrowHead="Arrow"/>
+      <Anchor Position="1.0" Shape="None" GraphId="ede8e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="e7720"/>
+      <Point GraphRef="ad4d0" ArrowHead="Arrow"/>
+      <Anchor Position="1.0" Shape="None" GraphId="d08c3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="e1fb0"/>
+      <Point GraphRef="c0e1c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="ad4d0"/>
+      <Point GraphRef="b202f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e2b7d"/>
+      <Point/>
+      <Point GraphRef="ede8e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e2b7d"/>
+      <Point/>
+      <Point GraphRef="d08c3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="fd7f2"/>
+      <Point/>
+      <Point GraphRef="f60ce" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="feeb1"/>
+      <Point GraphRef="a622d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6701">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="fd7f2"/>
+      <Point/>
+      <Point GraphRef="d653b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="DNA" GraphId="b7fca">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Kidney and Urinary Tract" GraphId="d6dec">
+    <Graphics FillColor="ffffff" Color="666666"/>
+  </Label>
+  <Label TextLabel="Liver" GraphId="ca1a8">
+    <Graphics FillColor="ffffff" Color="666666"/>
+  </Label>
+  <Label TextLabel="Genotoxicity and carcinogenicity" GraphId="f4ad5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Urinary biomarkers" GraphId="a3253">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Blood biomarkers" GraphId="f83d7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="e0de5">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e4472">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b00">
+      <bp:ID >29302712</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Exposure assessment of process-related contaminants in food by biomarker monitoring.</bp:TITLE>
+      <bp:SOURCE >Arch Toxicol</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Rietjens IMCM</bp:AUTHORS>
+      <bp:AUTHORS >Dussort P</bp:AUTHORS>
+      <bp:AUTHORS >G&#252;nther H</bp:AUTHORS>
+      <bp:AUTHORS >Hanlon P</bp:AUTHORS>
+      <bp:AUTHORS >Honda H</bp:AUTHORS>
+      <bp:AUTHORS >Mally A</bp:AUTHORS>
+      <bp:AUTHORS >O'Hagan S</bp:AUTHORS>
+      <bp:AUTHORS >Scholz G</bp:AUTHORS>
+      <bp:AUTHORS >Seidel A</bp:AUTHORS>
+      <bp:AUTHORS >Swenberg J</bp:AUTHORS>
+      <bp:AUTHORS >Teeguarden J</bp:AUTHORS>
+      <bp:AUTHORS >Eisenbrand G</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>kidney cell</bp:TERM><bp:ID>CL:1000497</bp:ID><bp:Ontology>Cell Type</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>hepatocyte</bp:TERM><bp:ID>CL:0000182</bp:ID><bp:Ontology>Cell Type</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>classic metabolic pathway</bp:TERM><bp:ID>PW:0000002</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>glutathione conjugates processing - the mercapturic acid pathway</bp:TERM><bp:ID>PW:0000377</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>phase I biotransformation pathway via cytochrome P450</bp:TERM><bp:ID>PW:0000375</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

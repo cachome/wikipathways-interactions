@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Nod-like receptor (NLR) signaling pathway" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Mammalian cells have evolved a set of specialized pattern recognition-molecules (PRMs) to detect conserved molecular motifs present on pathogens known as pathogen associated-molecular-patterns (PAMPs). NLR proteins (alternatively named NBD-LRR or CATERPILLER) represent one subclass of PRMs that have recently attracted much attention. Their cytoplasmic location differs from the classical PRMs which are mostly membrane spanning receptors (such as the Toll-like-receptors (TLRs) or lectins) and accordingly NLRs were proposed to be activated mainly by intracellular bacterial pathogens.</Comment>
+  <BiopaxRef>d56</BiopaxRef>
+  <BiopaxRef>b56</BiopaxRef>
+  <BiopaxRef>f81</BiopaxRef>
+  <BiopaxRef>f78</BiopaxRef>
+  <BiopaxRef>b26</BiopaxRef>
+  <BiopaxRef>c28</BiopaxRef>
+  <Graphics BoardWidth="1616.0" BoardHeight="866.0"/>
+  <DataNode TextLabel="TAK1" GraphId="ce469" Type="GeneProduct" GroupRef="f2631">
+        </DataNode>
+  <DataNode TextLabel="CARD" GraphId="dba17" Type="GeneProduct" GroupRef="fe1ee">
+        </DataNode>
+  <DataNode TextLabel="ERBB2IP" GraphId="a8040" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TriDAP" GraphId="bf8e1" Type="Metabolite">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="MDP" GraphId="dd316" Type="Metabolite">
+    <Graphics Color="ff0033"/>
+    </DataNode>
+  <DataNode TextLabel="DAMPS" GraphId="aff40" Type="Metabolite">
+    <Graphics Color="ff0000"/>
+    </DataNode>
+  <DataNode TextLabel="CARD" GraphId="b34c1" Type="GeneProduct" GroupRef="fc942">
+        </DataNode>
+  <DataNode TextLabel="CARD" GraphId="b3290" Type="GeneProduct" GroupRef="fc942">
+        </DataNode>
+  <DataNode TextLabel="CARD" GraphId="c116a" Type="GeneProduct" GroupRef="bf51a">
+        </DataNode>
+  <DataNode TextLabel="ERK" GraphId="ca822" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAPK" GraphId="c87f4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="JNK" GraphId="ca07c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NEMO" GraphId="baa78" Type="GeneProduct" GroupRef="c95c4">
+        </DataNode>
+  <DataNode TextLabel="IKKalpha" GraphId="b2366" Type="GeneProduct" GroupRef="c95c4">
+        </DataNode>
+  <DataNode TextLabel="IKKbeta" GraphId="ddac9" Type="GeneProduct" GroupRef="c95c4">
+        </DataNode>
+  <DataNode TextLabel="RelA" GraphId="c7084" Type="GeneProduct" GroupRef="e69a7">
+        </DataNode>
+  <DataNode TextLabel="p50" GraphId="e68ae" Type="GeneProduct" GroupRef="e69a7">
+        </DataNode>
+  <Interaction GraphId="a584f">
+    <Graphics>
+      <Point GraphRef="a8040"/>
+      <Point GraphRef="ee356" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d723a">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="dd316"/>
+      <Point GraphRef="a6a99" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a9aaf">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="aff40"/>
+      <Point GraphRef="afb65" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9d2a" GroupRef="fe1ee">
+    <Graphics>
+      <Point GraphRef="dba17"/>
+      <Point GraphRef="d5df5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e508b" GroupRef="fe1ee">
+    <Graphics>
+      <Point GraphRef="d5df5"/>
+      <Point GraphRef="aab26"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="efd57">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bf8e1"/>
+      <Point GraphRef="e15d2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e40a8" GroupRef="fc942">
+    <Graphics>
+      <Point GraphRef="b34c1"/>
+      <Point GraphRef="efb4d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f7b3e" GroupRef="fc942">
+    <Graphics>
+      <Point GraphRef="efb4d"/>
+      <Point GraphRef="dac44"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ef9ad" GroupRef="fc942">
+    <Graphics>
+      <Point GraphRef="b3290"/>
+      <Point GraphRef="b34c1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e518e" GroupRef="bf51a">
+    <Graphics>
+      <Point GraphRef="c116a"/>
+      <Point GraphRef="cbfc8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f4de8">
+    <Graphics>
+      <Point GraphRef="fe33c"/>
+      <Point GraphRef="faa76" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fc609">
+    <Graphics>
+      <Point GraphRef="ee356"/>
+      <Point GraphRef="faa76" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fac29">
+    <Graphics>
+      <Point GraphRef="faa76"/>
+      <Point GraphRef="a1cd1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c418f">
+    <Graphics>
+      <Point GraphRef="a1cd1"/>
+      <Point GraphRef="c87f4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ee4e2">
+    <Graphics>
+      <Point GraphRef="a1cd1"/>
+      <Point GraphRef="ca822" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c65d7">
+    <Graphics>
+      <Point GraphRef="a1cd1"/>
+      <Point GraphRef="ca07c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dcc1b">
+    <Graphics>
+      <Point GraphRef="a1cd1"/>
+      <Point GraphRef="a2900" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bafdc">
+    <Graphics>
+      <Point GraphRef="a2900"/>
+      <Point GraphRef="d2edd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a5062">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d2edd"/>
+      <Point GraphRef="ceaec" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a7940">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d2edd"/>
+      <Point GraphRef="c62c6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a2676" GroupRef="f9f72">
+    <Graphics>
+      <Point GraphRef="afa1b"/>
+      <Point GraphRef="ac2b5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d5e7f" GroupRef="f9f72">
+    <Graphics>
+      <Point GraphRef="d1487"/>
+      <Point GraphRef="eb477"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de367" GroupRef="f9f72">
+    <Graphics>
+      <Point GraphRef="ef05f"/>
+      <Point GraphRef="a8865"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a5a9b" GroupRef="f9f72">
+    <Graphics>
+      <Point GraphRef="afa1b"/>
+      <Point GraphRef="e19ef"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c8ab8" GroupRef="f9f72">
+    <Graphics>
+      <Point GraphRef="d1487"/>
+      <Point GraphRef="f71fc"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c90a6" GroupRef="f9f72">
+    <Graphics>
+      <Point GraphRef="ef05f"/>
+      <Point GraphRef="c3716"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f03a6" GroupRef="f9f72">
+    <Graphics>
+      <Point GraphRef="ba45a"/>
+      <Point GraphRef="f1122"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cd2de" GroupRef="f9f72">
+    <Graphics>
+      <Point GraphRef="c4ac3"/>
+      <Point GraphRef="a039f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d3ca2" GroupRef="f9f72">
+    <Graphics>
+      <Point GraphRef="afcd2"/>
+      <Point GraphRef="c3a01"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f7913" GroupRef="f9f72">
+    <Graphics>
+      <Point GraphRef="c3a01"/>
+      <Point GraphRef="d3781"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b7ccd" GroupRef="f9f72">
+    <Graphics>
+      <Point GraphRef="ff033"/>
+      <Point GraphRef="f71ca"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c600c" GroupRef="f9f72">
+    <Graphics>
+      <Point GraphRef="f71ca"/>
+      <Point GraphRef="f5acb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cf88f">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="afb65"/>
+      <Point GraphRef="a9ecd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="NACHT" GraphId="eaba4" GroupRef="fe1ee">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NACHT" GraphId="d2272" GroupRef="fc942">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nod2" GraphId="a6a99">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nod1" GraphId="e15d2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="KD" GraphId="b5e06" GroupRef="bf51a">
+    <Comment>Kinase domain of RIP2</Comment>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="RIP2" GraphId="a39ce">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="TAB1" GraphId="bd9bd" GroupRef="f2631">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="TAB2" GraphId="f202e" GroupRef="f2631">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="K63-linked Ub" GraphId="edd3c" GroupRef="c95c4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="I&#1571;&#1688;&#1570;&#1563;B&#1571;&#1688;&#1570;&#177;" GraphId="df5a8" GroupRef="e69a7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="transcription" GraphId="ceaec">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="degradation" GraphId="c62c6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NACHT" GraphId="b73d5" GroupRef="f9f72">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NACHT" GraphId="d0088" GroupRef="f9f72">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NACHT" GraphId="c49c0" GroupRef="f9f72">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PYD" GraphId="c4445" GroupRef="f9f72">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PYD" GraphId="e80ca" GroupRef="f9f72">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PYD" GraphId="bcfd1" GroupRef="f9f72">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PYD" GraphId="d972c" GroupRef="f9f72">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PYD" GraphId="c814a" GroupRef="f9f72">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CARD" GraphId="bd5df" GroupRef="f9f72">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CARD" GraphId="b8ae6" GroupRef="f9f72">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CARD" GraphId="adc4b" GroupRef="f9f72">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CARD" GraphId="cc4fd" GroupRef="f9f72">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="p10" GraphId="bb2a7" GroupRef="f9f72">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="p20" GraphId="e6ddd" GroupRef="f9f72">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="p10" GraphId="b464b" GroupRef="f9f72">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="p20" GraphId="a6b1d" GroupRef="f9f72">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="IL-1&#1571;&#175;&#1570;&#1567;&#1570;&#189; and IL-18&#10;" GraphId="a9ecd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="NALP3" GraphId="d79e2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ASC" GraphId="ac15e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Caspase-1" GraphId="f8b50">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inflammasome pathway" GraphId="ac763">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="dfec9">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="aab26" GroupRef="fe1ee">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e626f" GroupRef="fe1ee">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ee569" GroupRef="fe1ee">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="aa9a2" GroupRef="fe1ee">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f60c3" GroupRef="fe1ee">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cc724" GroupRef="fe1ee">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cc88e" GroupRef="fe1ee">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="b76a6" GroupRef="fe1ee">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f6757" GroupRef="fe1ee">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d5df5" GroupRef="fe1ee">
+    <Comment>Type your comment here</Comment>
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="dee02" GroupRef="fc942">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ce23c" GroupRef="fc942">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="efb4d" GroupRef="fc942">
+    <Comment>Type your comment here</Comment>
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e90a2" GroupRef="fc942">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="dac44" GroupRef="fc942">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f3060" GroupRef="fc942">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fb123" GroupRef="fc942">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a7688" GroupRef="fc942">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ff892" GroupRef="fc942">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e5a3e" GroupRef="fc942">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cbfc8" GroupRef="bf51a">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f6978" GroupRef="f2631">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ab7a5" GroupRef="f2631">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a819a" GroupRef="c95c4">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a04b7" GroupRef="e69a7">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="be79d" GroupRef="e69a7">
+    <Graphics ShapeType="mim-phosphorylated"/>
+  </Shape>
+  <Shape GraphId="d7184">
+    <Graphics ShapeType="Oval" LineStyle="Broken"/>
+  </Shape>
+  <Shape GraphId="d1487" GroupRef="f9f72">
+    <Comment>Type your comment here</Comment>
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ef05f" GroupRef="f9f72">
+    <Comment>Type your comment here</Comment>
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="afa1b" GroupRef="f9f72">
+    <Comment>Type your comment here</Comment>
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e49c6" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d6b3d" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d9aaf" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ac2b5" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cacea" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c4d92" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f69a9" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="be6c2" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a942e" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bd0d0" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fdcb4" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="bb797" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fc6b1" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="eb477" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f9b0a" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ef747" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f3a63" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="eaa86" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e6429" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ccc00" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a8865" GroupRef="f9f72">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e19ef" GroupRef="f9f72">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="f71fc" GroupRef="f9f72">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="c3716" GroupRef="f9f72">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="f1122" GroupRef="f9f72">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="a039f" GroupRef="f9f72">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="ba45a" GroupRef="f9f72">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="c4ac3" GroupRef="f9f72">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="f5acb" GroupRef="f9f72">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="d3781" GroupRef="f9f72">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="afcd2" GroupRef="f9f72">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="c3a01" GroupRef="f9f72">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="f71ca" GroupRef="f9f72">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="ff033" GroupRef="f9f72">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="cceeb">
+    <Graphics ShapeType="Brace"/>
+  </Shape>
+  <Shape GraphId="c82b2">
+    <Graphics ShapeType="Brace"/>
+  </Shape>
+  <Shape GraphId="b4d3a">
+    <Graphics ShapeType="Brace"/>
+  </Shape>
+  <Shape GraphId="e61e7">
+    <Comment>Inflammasome pathway</Comment>
+    <BiopaxRef>c28</BiopaxRef>
+    <Graphics ShapeType="Rectangle" LineStyle="Broken"/>
+  </Shape>
+  <Group GroupId="f9f72" GraphId="afb65" Style="Group" TextLabel="NALP3 inflammasome"/>
+  <Group GroupId="fe1ee" GraphId="fe33c" Style="Group" TextLabel="Nod1"/>
+  <Group GroupId="fc942" GraphId="ee356" Style="Group" TextLabel="Nod2"/>
+  <Group GroupId="e69a7" GraphId="d2edd" Style="Complex"/>
+  <Group GroupId="c95c4" GraphId="a2900" Style="Group"/>
+  <Group GroupId="f2631" GraphId="a1cd1" Style="Group"/>
+  <Group GroupId="bf51a" GraphId="faa76" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c28">
+      <bp:ID >17186029</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Inflammasome adaptors and sensors: intracellular regulators of infection and inflammation.</bp:TITLE>
+      <bp:SOURCE >Nat Rev Immunol</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Mariathasan S</bp:AUTHORS>
+      <bp:AUTHORS >Monack DM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b26">
+      <bp:ID >18161746</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Nod-like proteins in inflammation and disease.</bp:TITLE>
+      <bp:SOURCE >J Pathol</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Carneiro LA</bp:AUTHORS>
+      <bp:AUTHORS >Magalhaes JG</bp:AUTHORS>
+      <bp:AUTHORS >Tattoli I</bp:AUTHORS>
+      <bp:AUTHORS >Philpott DJ</bp:AUTHORS>
+      <bp:AUTHORS >Travassos LH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d56">
+      <bp:ID >18414735</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Signal transduction pathways used by NLR-type innate immune receptors.</bp:TITLE>
+      <bp:SOURCE >Mol Biosyst</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Kufer TA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b56">
+      <bp:ID >17110941</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Nod-like proteins in immunity, inflammation and disease.</bp:TITLE>
+      <bp:SOURCE >Nat Immunol</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Fritz JH</bp:AUTHORS>
+      <bp:AUTHORS >Ferrero RL</bp:AUTHORS>
+      <bp:AUTHORS >Philpott DJ</bp:AUTHORS>
+      <bp:AUTHORS >Girardin SE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f78">
+      <bp:ID >18585455</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NOD-like receptors (NLRs): bona fide intracellular microbial sensors.</bp:TITLE>
+      <bp:SOURCE >Curr Opin Immunol</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Shaw MH</bp:AUTHORS>
+      <bp:AUTHORS >Reimer T</bp:AUTHORS>
+      <bp:AUTHORS >Kim YG</bp:AUTHORS>
+      <bp:AUTHORS >Nu&amp;amp;#xfffd;ez G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f81">
+      <bp:ID >16823444</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Intracellular pattern recognition receptors in the host response.</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Meylan E</bp:AUTHORS>
+      <bp:AUTHORS >Tschopp J</bp:AUTHORS>
+      <bp:AUTHORS >Karin M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >NLR signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000817</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >NOD-like receptor signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000817</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

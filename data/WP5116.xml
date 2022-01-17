@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="SARS-CoV-2 B.1.1.7 variant antagonises innate immune activation" Version="20210610" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway describes the antagonistic effects of the SARS-CoV-2 B.1.1.7 (Alpha) variant on innate immune activation. The pathway is based on Figure 5 from [https://www.biorxiv.org/content/10.1101/2021.06.06.446826v1.full Thorne et al.]
+
+SARS-CoV-2 is known to antagonize innate immune activation, and the highly transmissible B.1.1.7 variant does this more effectively by increased RNA synthesis and increased protein expression of key innate immune antagonists, Orf9b, Orf6 and N:
+N prevents activation of RNA sensor RIG-1 (DDX58), Orf6 inhibits IRF3 nuclear translocation and subsequent type 1 interferon production and Orf9b inhibits RNA-sensing by binding to TOM70 (TOMM70). The latter interaction is regulated by phosphorylation of Orf9b on Ser53; Orf9b that is phosphorylated on Ser53 cannot bind to TOM70.</Comment>
+  <BiopaxRef>d27</BiopaxRef>
+  <Graphics BoardWidth="878.7394957983192" BoardHeight="985.8823529411764"/>
+  <DataNode TextLabel="IFNB1" GraphId="a3d27" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TBK1" GraphId="b4c5d" Type="GeneProduct" GroupRef="f5c8d">
+        </DataNode>
+  <DataNode TextLabel="DDX58" GraphId="cb235" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Orf6 sgRNA" GraphId="da33c" Type="Rna" GroupRef="e546c">
+        </DataNode>
+  <DataNode TextLabel="N" GraphId="e93f4" Type="Protein">
+    <Comment>PDB structure for SARS-CoV strain: 6JYT</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="TRAF6" GraphId="d9774" Type="GeneProduct" GroupRef="e6ffb">
+        </DataNode>
+  <DataNode TextLabel="TRAF3" GraphId="ad59f" Type="GeneProduct" GroupRef="e6ffb">
+        </DataNode>
+  <DataNode TextLabel="MAVS" GraphId="bba0f" Type="GeneProduct" GroupRef="e6ffb">
+        </DataNode>
+  <DataNode TextLabel="TOMM70" GraphId="e2ee3" Type="Protein" GroupRef="e6ffb">
+        </DataNode>
+  <DataNode TextLabel="Orf9b" GraphId="b9a5e" Type="Protein">
+    <Comment>promotes mitochondrial fusion</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="Orf6" GraphId="d7474" Type="GeneProduct">
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="IRF3" GraphId="de668" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Orf9b" GraphId="eba16" Type="Protein">
+    <Comment>promotes mitochondrial fusion</Comment>
+    <Graphics FillColor="ffcccc" ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="IRF3" GraphId="aaba9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="N sgRNA" GraphId="a8959" Type="Rna" GroupRef="e546c">
+        </DataNode>
+  <DataNode TextLabel="Orf9b sgRNA" GraphId="a1e44" Type="Rna" GroupRef="e546c">
+        </DataNode>
+  <DataNode TextLabel="Genomic RNA" GraphId="d6778" Type="Rna">
+        </DataNode>
+  <DataNode TextLabel="IKBKE" GraphId="eeae3" Type="GeneProduct" GroupRef="f5c8d">
+        </DataNode>
+  <State GraphRef="eba16" TextLabel="P" GraphId="d2c1a">
+    <Comment>parentid=P0DTD2; parentsymbol=Orf9b; site=; position=ser53; sitegrpid=; ptm=p; direction=d</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id20b96f19">
+    <Graphics>
+      <Point GraphRef="b9a5e" ArrowHead="Arrow"/>
+      <Point GraphRef="eba16" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2a86bd25">
+    <Graphics>
+      <Point GraphRef="de668"/>
+      <Point GraphRef="aaba9" ArrowHead="Arrow"/>
+      <Anchor Position="0.19641505880393847" Shape="None" GraphId="ad7dc"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3148b3d7">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d7bb1"/>
+      <Point GraphRef="d6778" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id42df1d08">
+    <Graphics>
+      <Point GraphRef="aaba9"/>
+      <Point GraphRef="a3d27" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5c0e1897">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="a8959"/>
+      <Point GraphRef="e93f4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5db8079b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d6778"/>
+      <Point GraphRef="b8d63" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id67a80b73">
+    <Graphics>
+      <Point GraphRef="b1bba"/>
+      <Point GraphRef="e24ca" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7ab814f6">
+    <BiopaxRef>c95</BiopaxRef>
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="d7474"/>
+      <Point GraphRef="ad7dc" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8a30643b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b8d63"/>
+      <Point GraphRef="cb235" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9156df0e">
+    <BiopaxRef>a5f</BiopaxRef>
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e93f4"/>
+      <Point/>
+      <Point GraphRef="cb235" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida51c01e">
+    <BiopaxRef>ae3</BiopaxRef>
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b9a5e"/>
+      <Point GraphRef="e2ee3" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcfe5cb4d">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a3d27"/>
+      <Point GraphRef="f3919" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd4b76baf">
+    <Graphics>
+      <Point GraphRef="e24ca"/>
+      <Point GraphRef="de668" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide3c67acc">
+    <Graphics>
+      <Point GraphRef="cb235"/>
+      <Point GraphRef="b1bba" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b2301">
+    <Graphics>
+      <Point GraphRef="d7474"/>
+      <Point GraphRef="f3919" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e87dd">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="da33c"/>
+      <Point GraphRef="d7474" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc790">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="a1e44"/>
+      <Point GraphRef="b9a5e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="cc4bc" GroupRef="d5b77">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e9d01" GroupRef="d5b77">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b6ac9" GroupRef="d5b77">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bc060" GroupRef="d5b77">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cb639" GroupRef="d5b77">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d677a" GroupRef="d5b77">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f19d6" GroupRef="d5b77">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e9eee" GroupRef="d5b77">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="faf71" GroupRef="d5b77">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cb9ec" GroupRef="d5b77">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ea234" GroupRef="d5b77">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a4a34" GroupRef="d5b77">
+    <Graphics Color="ff0000">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="IFN antiviral&#10;signaling" GraphId="f3919">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="SARS-CoV-2" GraphId="fbcf5" GroupRef="d5b77">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Subgenomic RNAs" GraphId="acf66">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape TextLabel="Respiratory epithelial cell" GraphId="d2163">
+    <Graphics Align="Left" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Nucleus" GraphId="e664f">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="a7288" GroupRef="d5b77">
+    <Graphics ShapeType="Oval" Color="ffcc00"/>
+  </Shape>
+  <Shape GraphId="a5deb" GroupRef="d5b77">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="e0e57" GroupRef="d5b77">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="f8d46" GroupRef="d5b77">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="a8f11" GroupRef="d5b77">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="c6430" GroupRef="d5b77">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="aabd4" GroupRef="d5b77">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="c4c33" GroupRef="d5b77">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="cc448" GroupRef="d5b77">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="f5c90" GroupRef="d5b77">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="be942" GroupRef="d5b77">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="c5345" GroupRef="d5b77">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Shape GraphId="b9891" GroupRef="d5b77">
+    <Graphics ShapeType="Oval" Color="ff0000"/>
+  </Shape>
+  <Group GroupId="eaa6f" GraphId="a29aa" Style="Group"/>
+  <Group GroupId="e6ffb" GraphId="b1bba" Style="Complex"/>
+  <Group GroupId="e546c" GraphId="b8d63" Style="Group"/>
+  <Group GroupId="d5b77" GraphId="d7bb1" Style="Group"/>
+  <Group GroupId="f5c8d" GraphId="e24ca" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eb7">
+      <bp:ID >32155444</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Structure, Function, and Antigenicity of the SARS-CoV-2 Spike Glycoprotein.</bp:TITLE>
+      <bp:SOURCE >Cell</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Walls AC</bp:AUTHORS>
+      <bp:AUTHORS >Park YJ</bp:AUTHORS>
+      <bp:AUTHORS >Tortorici MA</bp:AUTHORS>
+      <bp:AUTHORS >Wall A</bp:AUTHORS>
+      <bp:AUTHORS >McGuire AT</bp:AUTHORS>
+      <bp:AUTHORS >Veesler D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a5f">
+      <bp:ID >33801464</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >SARS-CoV-2 Nucleocapsid Protein Targets RIG-I-Like Receptor Pathways to Inhibit the Induction of Interferon Response.</bp:TITLE>
+      <bp:SOURCE >Cells</bp:SOURCE>
+      <bp:YEAR >2021</bp:YEAR>
+      <bp:AUTHORS >Oh SJ</bp:AUTHORS>
+      <bp:AUTHORS >Shin OS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae3">
+      <bp:ID >32728199</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >SARS-CoV-2 Orf9b suppresses type I interferon responses by targeting TOM70.</bp:TITLE>
+      <bp:SOURCE >Cell Mol Immunol</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Jiang HW</bp:AUTHORS>
+      <bp:AUTHORS >Zhang HN</bp:AUTHORS>
+      <bp:AUTHORS >Meng QF</bp:AUTHORS>
+      <bp:AUTHORS >Xie J</bp:AUTHORS>
+      <bp:AUTHORS >Li Y</bp:AUTHORS>
+      <bp:AUTHORS >Chen H</bp:AUTHORS>
+      <bp:AUTHORS >Zheng YX</bp:AUTHORS>
+      <bp:AUTHORS >Wang XN</bp:AUTHORS>
+      <bp:AUTHORS >Qi H</bp:AUTHORS>
+      <bp:AUTHORS >Zhang J</bp:AUTHORS>
+      <bp:AUTHORS >Wang PH</bp:AUTHORS>
+      <bp:AUTHORS >Han ZG</bp:AUTHORS>
+      <bp:AUTHORS >Tao SC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >COVID-19</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0080600</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >epithelial cell of upper respiratory tract</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0002631</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >innate immune response pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000234</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >severe acute respiratory syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:2945</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c95">
+      <bp:ID >32733001</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Activation and evasion of type I interferon responses by SARS-CoV-2.</bp:TITLE>
+      <bp:SOURCE >Nat Commun</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Lei X</bp:AUTHORS>
+      <bp:AUTHORS >Dong X</bp:AUTHORS>
+      <bp:AUTHORS >Ma R</bp:AUTHORS>
+      <bp:AUTHORS >Wang W</bp:AUTHORS>
+      <bp:AUTHORS >Xiao X</bp:AUTHORS>
+      <bp:AUTHORS >Tian Z</bp:AUTHORS>
+      <bp:AUTHORS >Wang C</bp:AUTHORS>
+      <bp:AUTHORS >Wang Y</bp:AUTHORS>
+      <bp:AUTHORS >Li L</bp:AUTHORS>
+      <bp:AUTHORS >Ren L</bp:AUTHORS>
+      <bp:AUTHORS >Guo F</bp:AUTHORS>
+      <bp:AUTHORS >Zhao Z</bp:AUTHORS>
+      <bp:AUTHORS >Zhou Z</bp:AUTHORS>
+      <bp:AUTHORS >Xiang Z</bp:AUTHORS>
+      <bp:AUTHORS >Wang J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d27">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Evolution of enhanced innate immune evasion by the SARS-CoV-2 B.1.1.7 UK variant</bp:TITLE>
+      <bp:SOURCE >bioRxiv</bp:SOURCE>
+      <bp:YEAR >2021</bp:YEAR>
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Evolution of enhanced innate immune evasion by the SARS-CoV-2 B.1.1.7 UK variant</bp:TITLE>
+      <bp:SOURCE >https://www.biorxiv.org/content/10.1101/2021.06.06.446826v1.full</bp:SOURCE>
+      <bp:YEAR >2021</bp:YEAR>
+      <bp:AUTHORS >Lucy G Thorne</bp:AUTHORS>
+      <bp:AUTHORS >Mehdi Bouhaddou</bp:AUTHORS>
+      <bp:AUTHORS >Ann-Kathrin Reuschl</bp:AUTHORS>
+      <bp:AUTHORS >Lorena Zuliani-Alvarez</bp:AUTHORS>
+      <bp:AUTHORS >Ben Polacco</bp:AUTHORS>
+      <bp:AUTHORS >Adrian Pelin</bp:AUTHORS>
+      <bp:AUTHORS >Jyoti Batra</bp:AUTHORS>
+      <bp:AUTHORS >Matthew V.X. Whelan</bp:AUTHORS>
+      <bp:AUTHORS >Manisha Ummadi</bp:AUTHORS>
+      <bp:AUTHORS >Ajda Rojc</bp:AUTHORS>
+      <bp:AUTHORS >Jane Turner</bp:AUTHORS>
+      <bp:AUTHORS >Kirsten Obernier</bp:AUTHORS>
+      <bp:AUTHORS >Hannes Braberg</bp:AUTHORS>
+      <bp:AUTHORS >Margaret Soucheray</bp:AUTHORS>
+      <bp:AUTHORS >Alicia Richards</bp:AUTHORS>
+      <bp:AUTHORS >Kuei-Ho Chen</bp:AUTHORS>
+      <bp:AUTHORS >Bhavya Harjai</bp:AUTHORS>
+      <bp:AUTHORS >Danish Memon</bp:AUTHORS>
+      <bp:AUTHORS >Myra Hosmillo</bp:AUTHORS>
+      <bp:AUTHORS >Joseph Hiatt</bp:AUTHORS>
+      <bp:AUTHORS >Aminu Jahun</bp:AUTHORS>
+      <bp:AUTHORS >Ian G. Goodfellow</bp:AUTHORS>
+      <bp:AUTHORS >Jacqueline M. Fabius</bp:AUTHORS>
+      <bp:AUTHORS >Kevan Shokat</bp:AUTHORS>
+      <bp:AUTHORS >Natalia Jura</bp:AUTHORS>
+      <bp:AUTHORS >Klim Verba</bp:AUTHORS>
+      <bp:AUTHORS >Mahdad Noursadeghi</bp:AUTHORS>
+      <bp:AUTHORS >Pedro Beltrao</bp:AUTHORS>
+      <bp:AUTHORS >Danielle L. Swaney</bp:AUTHORS>
+      <bp:AUTHORS >Adolfo Garcia-Sastre</bp:AUTHORS>
+      <bp:AUTHORS >Clare Jolly</bp:AUTHORS>
+      <bp:AUTHORS >Greg J. Towers</bp:AUTHORS>
+      <bp:AUTHORS >Nevan J. Krogan</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

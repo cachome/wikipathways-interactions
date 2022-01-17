@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Glial cell differentiation" Author="Nathan Salomonis" Organism="Homo sapiens"><Comment Source="WikiPathways-description">Glial cells, consisting of microglia, astrocytes, and oligodendrocyte lineage cells as their major components, constitute a large fraction of the mammalian brain. Originally considered as purely non-functional glue for neurons, decades of research have highlighted the importance as well as further functions of glial cells. Source: https://dx.doi.org/10.3389%2Ffncel.2017.00024.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2276 CPTAC Assay Portal]</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <Graphics BoardWidth="1342.9090909090912" BoardHeight="606.9696969696975"/>
+  <DataNode TextLabel="GAP43" GraphId="ec4c8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MBP" GraphId="fa5dc" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PLP1" GraphId="a3e3b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAG" GraphId="fe21e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CNP" GraphId="bff4c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TPPP" GraphId="c4f8f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="miR-206" GraphId="d67cb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MSN" GraphId="f5f1b" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="idfb49e1db">
+    <BiopaxRef>c66</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c4f8f"/>
+      <Point GraphRef="ea962" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id52963094">
+    <BiopaxRef>f35</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ec4c8"/>
+      <Point GraphRef="f9eff" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6d85230c">
+    <BiopaxRef>c66</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d67cb"/>
+      <Point GraphRef="c4f8f" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7d16b712">
+    <BiopaxRef>e0a</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a4018"/>
+      <Point GraphRef="ea962" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine>
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine>
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine>
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine>
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Myelin Proteins" GraphId="e8334">
+    <BiopaxRef>e0a</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Downregulation" GraphId="dc08e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Hypoxia" GraphId="a4018">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Neural Stem Cell" GraphId="f9eff">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Glial Cell Differentiation" GraphId="ea962">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Oligodendrocyte &#10;Progenitor" GraphId="dabc9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Axon Myelination" GraphId="d17af">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Filopodia Extension" GraphId="fca64">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="ab013">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b133b">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c66">
+      <bp:ID >19606501</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Tubulin polymerization-promoting protein (TPPP/p25) is critical for oligodendrocyte differentiation.</bp:TITLE>
+      <bp:SOURCE >Glia</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:ID >19606501</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Tubulin polymerization-promoting protein (TPPP/p25) is critical for oligodendrocyte differentiation.</bp:TITLE>
+      <bp:SOURCE >Glia</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Lehotzky A</bp:AUTHORS>
+      <bp:AUTHORS >Lau P</bp:AUTHORS>
+      <bp:AUTHORS >Tok&#233;si N</bp:AUTHORS>
+      <bp:AUTHORS >Muja N</bp:AUTHORS>
+      <bp:AUTHORS >Hudson LD</bp:AUTHORS>
+      <bp:AUTHORS >Ov&#225;di J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >signaling pathway pertinent to development</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000650</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f35">
+      <bp:ID >12106454</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Down-regulation of GAP-43 During Oligodendrocyte Development and Lack of Expression by Astrocytes In Vivo: Implications for Macroglial Differentiation.</bp:TITLE>
+      <bp:SOURCE >Eur J Neurosci</bp:SOURCE>
+      <bp:YEAR >1991</bp:YEAR>
+      <bp:AUTHORS >Curtis R</bp:AUTHORS>
+      <bp:AUTHORS >Hardy R</bp:AUTHORS>
+      <bp:AUTHORS >Reynolds R</bp:AUTHORS>
+      <bp:AUTHORS >Spruce BA</bp:AUTHORS>
+      <bp:AUTHORS >Wilkin GP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e0a">
+      <bp:ID >21953180</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mouse intermittent hypoxia mimicking apnoea of prematurity: effects on myelinogenesis and axonal maturation.</bp:TITLE>
+      <bp:SOURCE >J Pathol</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Cai J</bp:AUTHORS>
+      <bp:AUTHORS >Tuong CM</bp:AUTHORS>
+      <bp:AUTHORS >Zhang Y</bp:AUTHORS>
+      <bp:AUTHORS >Shields CB</bp:AUTHORS>
+      <bp:AUTHORS >Guo G</bp:AUTHORS>
+      <bp:AUTHORS >Fu H</bp:AUTHORS>
+      <bp:AUTHORS >Gozal D</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>glial cell</bp:TERM><bp:ID>CL:0000125</bp:ID><bp:Ontology>Cell Type</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>neural cell</bp:TERM><bp:ID>CL:0002319</bp:ID><bp:Ontology>Cell Type</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>stem cell</bp:TERM><bp:ID>CL:0000034</bp:ID><bp:Ontology>Cell Type</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

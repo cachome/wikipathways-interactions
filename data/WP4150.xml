@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Wnt signaling in kidney disease" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway is modeled after Figure 5 of the article "Glomerulocystic kidney disease" (Bissler, et al. 2010). The gene product Wnt signals two different paths titled canonical and non-canonical. The non-canonical path is mediated by the membrane bound protein Disheveled (Dvl) which then controls the planar cell Polarity. The canonical path on the other hand is mediated by the cytoplasmic protein Disheveled (Dvl) and then is effected through b-catenin transcription. The complex of Nphp2 and Nphp3 seem to help facilitate the process by controlling the Wnt signaling.  Bergmann, et al. (2008) showed that Nphp3 deficiency in Xenopus resulted to planar cell polarity defects.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP4150 CPTAC Assay Portal].</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway [http://wikipathways.org/instance/WP3857_r90797 WP3857 (rev 90797)] with a 100.0% conversion rate.</Comment>
+  <BiopaxRef>b22</BiopaxRef>
+  <BiopaxRef>b30</BiopaxRef>
+  <Graphics BoardWidth="693.1944444444446" BoardHeight="701.8750000000001"/>
+  <DataNode TextLabel="Calcium" GraphId="a79e8" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NPHP3-ACAD11" GraphId="c1b2f" Type="GeneProduct" GroupRef="f0825">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000032558</Comment>
+        </DataNode>
+  <DataNode TextLabel="RHOA" GraphId="d79be" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000007815</Comment>
+        </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="e260b" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000006932</Comment>
+        </DataNode>
+  <DataNode TextLabel="INVS" GraphId="f5b5a" Type="GeneProduct" GroupRef="f0825">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000028344</Comment>
+        </DataNode>
+  <DataNode TextLabel="LRP5" GraphId="bed20" Type="GeneProduct" GroupRef="fa9c4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000024913</Comment>
+        </DataNode>
+  <DataNode TextLabel="LRP6" GraphId="a5781" Type="GeneProduct" GroupRef="fa9c4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000030201</Comment>
+        </DataNode>
+  <DataNode TextLabel="WNT1" GraphId="c8741" Type="GeneProduct" GroupRef="c2cd4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22408</Comment>
+        </DataNode>
+  <DataNode TextLabel="WNT10A" GraphId="e82c7" Type="GeneProduct" GroupRef="c2cd4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22409</Comment>
+        </DataNode>
+  <DataNode TextLabel="WNT10B" GraphId="b90fc" Type="GeneProduct" GroupRef="c2cd4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22410</Comment>
+        </DataNode>
+  <DataNode TextLabel="WNT7A" GraphId="c28ba" Type="GeneProduct" GroupRef="c2cd4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22421</Comment>
+        </DataNode>
+  <DataNode TextLabel="WNT16" GraphId="e8067" Type="GeneProduct" GroupRef="c2cd4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:93735</Comment>
+        </DataNode>
+  <DataNode TextLabel="WNT6" GraphId="eef62" Type="GeneProduct" GroupRef="c2cd4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22420</Comment>
+        </DataNode>
+  <DataNode TextLabel="WNT5A" GraphId="f16d2" Type="GeneProduct" GroupRef="c2cd4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22418</Comment>
+        </DataNode>
+  <DataNode TextLabel="WNT2B" GraphId="d6d64" Type="GeneProduct" GroupRef="c2cd4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22414</Comment>
+        </DataNode>
+  <DataNode TextLabel="WNT11" GraphId="d8115" Type="GeneProduct" GroupRef="c2cd4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22411</Comment>
+        </DataNode>
+  <DataNode TextLabel="WNT4" GraphId="de75e" Type="GeneProduct" GroupRef="c2cd4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22417</Comment>
+        </DataNode>
+  <DataNode TextLabel="WNT3A" GraphId="bb0cc" Type="GeneProduct" GroupRef="c2cd4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22416</Comment>
+        </DataNode>
+  <DataNode TextLabel="WNT5B" GraphId="f68e9" Type="GeneProduct" GroupRef="c2cd4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22419</Comment>
+        </DataNode>
+  <DataNode TextLabel="WNT9B" GraphId="ad343" Type="GeneProduct" GroupRef="c2cd4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22412</Comment>
+        </DataNode>
+  <DataNode TextLabel="WNT2" GraphId="a9c73" Type="GeneProduct" GroupRef="c2cd4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22413</Comment>
+        </DataNode>
+  <DataNode TextLabel="WNT3" GraphId="a6c0a" Type="GeneProduct" GroupRef="c2cd4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22415</Comment>
+        </DataNode>
+  <DataNode TextLabel="WNT7B" GraphId="abf91" Type="GeneProduct" GroupRef="c2cd4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22422</Comment>
+        </DataNode>
+  <DataNode TextLabel="FZD1" GraphId="eddb6" Type="GeneProduct" GroupRef="d6cc0">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14362</Comment>
+        </DataNode>
+  <DataNode TextLabel="FZD8" GraphId="d807c" Type="GeneProduct" GroupRef="d6cc0">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14370</Comment>
+        </DataNode>
+  <DataNode TextLabel="FZD4" GraphId="f4e2e" Type="GeneProduct" GroupRef="d6cc0">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14366</Comment>
+        </DataNode>
+  <DataNode TextLabel="FZD2" GraphId="ebb8e" Type="GeneProduct" GroupRef="d6cc0">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:57265</Comment>
+        </DataNode>
+  <DataNode TextLabel="FZD7" GraphId="b01b5" Type="GeneProduct" GroupRef="d6cc0">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14369</Comment>
+        </DataNode>
+  <DataNode TextLabel="FZD9" GraphId="f8c46" Type="GeneProduct" GroupRef="d6cc0">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14371</Comment>
+        </DataNode>
+  <DataNode TextLabel="FZD5" GraphId="aa653" Type="GeneProduct" GroupRef="d6cc0">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14367</Comment>
+        </DataNode>
+  <DataNode TextLabel="FZD6" GraphId="d84fc" Type="GeneProduct" GroupRef="d6cc0">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14368</Comment>
+        </DataNode>
+  <DataNode TextLabel="FZD3" GraphId="c23f4" Type="GeneProduct" GroupRef="d6cc0">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14365</Comment>
+        </DataNode>
+  <DataNode TextLabel="FZD1" GraphId="d85b7" Type="GeneProduct" GroupRef="fa9c4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14362</Comment>
+        </DataNode>
+  <DataNode TextLabel="FZD8" GraphId="e7137" Type="GeneProduct" GroupRef="fa9c4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14370</Comment>
+        </DataNode>
+  <DataNode TextLabel="FZD4" GraphId="f98ab" Type="GeneProduct" GroupRef="fa9c4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14366</Comment>
+        </DataNode>
+  <DataNode TextLabel="FZD2" GraphId="d0aea" Type="GeneProduct" GroupRef="fa9c4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:57265</Comment>
+        </DataNode>
+  <DataNode TextLabel="FZD7" GraphId="b4545" Type="GeneProduct" GroupRef="fa9c4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14369</Comment>
+        </DataNode>
+  <DataNode TextLabel="FZD9" GraphId="a02b4" Type="GeneProduct" GroupRef="fa9c4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14371</Comment>
+        </DataNode>
+  <DataNode TextLabel="FZD5" GraphId="df6aa" Type="GeneProduct" GroupRef="fa9c4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14367</Comment>
+        </DataNode>
+  <DataNode TextLabel="FZD6" GraphId="e461a" Type="GeneProduct" GroupRef="fa9c4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14368</Comment>
+        </DataNode>
+  <DataNode TextLabel="FZD3" GraphId="f8a11" Type="GeneProduct" GroupRef="fa9c4">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14365</Comment>
+        </DataNode>
+  <DataNode TextLabel="DVL2" GraphId="e927b" Type="GeneProduct" GroupRef="af659">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:13543</Comment>
+        </DataNode>
+  <DataNode TextLabel="DVL3" GraphId="b3ca8" Type="GeneProduct" GroupRef="af659">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:13544</Comment>
+        </DataNode>
+  <DataNode TextLabel="DVL1" GraphId="e8e3b" Type="GeneProduct" GroupRef="af659">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:13542</Comment>
+        </DataNode>
+  <DataNode TextLabel="MAPK9" GraphId="d4b7c" Type="GeneProduct" GroupRef="d291d">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:26420</Comment>
+        </DataNode>
+  <DataNode TextLabel="MAPK10" GraphId="fbdaf" Type="GeneProduct" GroupRef="d291d">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:26414</Comment>
+        </DataNode>
+  <DataNode TextLabel="MAPK8" GraphId="ba0a5" Type="GeneProduct" GroupRef="d291d">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:26419</Comment>
+        </DataNode>
+  <DataNode TextLabel="DVL2" GraphId="efafa" Type="GeneProduct" GroupRef="b93c1">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:13543</Comment>
+        </DataNode>
+  <DataNode TextLabel="DVL3" GraphId="a00e0" Type="GeneProduct" GroupRef="b93c1">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:13544</Comment>
+        </DataNode>
+  <DataNode TextLabel="DVL1" GraphId="a351e" Type="GeneProduct" GroupRef="b93c1">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:13542</Comment>
+        </DataNode>
+  <Interaction GraphId="id22cf2961">
+    <Graphics>
+      <Point GraphRef="e260b"/>
+      <Point GraphRef="f52d7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id274739c0">
+    <Graphics>
+      <Point GraphRef="db3fa"/>
+      <Point GraphRef="a79e8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3a353084">
+    <Graphics>
+      <Point GraphRef="db3fa"/>
+      <Point GraphRef="c2e10" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5fda9164">
+    <Graphics>
+      <Point GraphRef="d79be"/>
+      <Point GraphRef="d2569" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id76225631">
+    <Graphics>
+      <Point GraphRef="e6a97"/>
+      <Point GraphRef="db3fa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id900c5112">
+    <Comment>Proposed Inhibition </Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c7d85"/>
+      <Point GraphRef="db3fa" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id92b055c2">
+    <Graphics>
+      <Point GraphRef="fc2af"/>
+      <Point GraphRef="a562c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9ea887c7">
+    <Graphics>
+      <Point GraphRef="c2e10"/>
+      <Point GraphRef="d2569" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc2ee2143">
+    <Graphics>
+      <Point GraphRef="a562c"/>
+      <Point GraphRef="e260b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc5063081">
+    <Graphics>
+      <Point GraphRef="db3fa"/>
+      <Point GraphRef="d79be" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcc9548b6">
+    <Graphics>
+      <Point GraphRef="c7d85"/>
+      <Point GraphRef="a562c" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd9140609">
+    <Graphics>
+      <Point GraphRef="dba99"/>
+      <Point GraphRef="e6a97" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide02a4644">
+    <Graphics>
+      <Point GraphRef="a79e8"/>
+      <Point GraphRef="d2569" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf66e1f24">
+    <Graphics>
+      <Point GraphRef="dba99"/>
+      <Point GraphRef="fc2af" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Canonical " GraphId="a6d22">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cytoskeleton/planar cell Polarity" GraphId="d2569">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Non-Canonical " GraphId="e855a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Transcription" GraphId="f52d7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="cytoplasmic&#10;disheveled" GraphId="eca2f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="membrane-bound&#10;disheveled" GraphId="f6223">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="add5a">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="fcf7f">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="d33ea" Style="Group"/>
+  <Group GroupId="b93c1" GraphId="a562c" Style="Group"/>
+  <Group GroupId="dd046" GraphId="a63fc" Style="Group"/>
+  <Group GroupId="ae23a" GraphId="bdca4" Style="Group"/>
+  <Group GroupId="d291d" GraphId="c2e10" Style="Group"/>
+  <Group GroupId="f0825" GraphId="c7d85" Style="Complex"/>
+  <Group GroupId="af659" GraphId="db3fa" Style="Group"/>
+  <Group GroupId="c2cd4" GraphId="dba99" Style="Group"/>
+  <Group GroupId="d6cc0" GraphId="e6a97" Style="Group"/>
+  <Group GroupId="fa9c4" GraphId="fc2af" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b22">
+      <bp:ID >18371931</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Loss of nephrocystin-3 function can cause embryonic lethality, Meckel-Gruber-like syndrome, situs inversus, and renal-hepatic-pancreatic dysplasia.</bp:TITLE>
+      <bp:SOURCE >Am J Hum Genet</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Bergmann C</bp:AUTHORS>
+      <bp:AUTHORS >Fliegauf M</bp:AUTHORS>
+      <bp:AUTHORS >Br&#252;chle NO</bp:AUTHORS>
+      <bp:AUTHORS >Frank V</bp:AUTHORS>
+      <bp:AUTHORS >Olbrich H</bp:AUTHORS>
+      <bp:AUTHORS >Kirschner J</bp:AUTHORS>
+      <bp:AUTHORS >Schermer B</bp:AUTHORS>
+      <bp:AUTHORS >Schmedding I</bp:AUTHORS>
+      <bp:AUTHORS >Kispert A</bp:AUTHORS>
+      <bp:AUTHORS >Kr&#228;nzlin B</bp:AUTHORS>
+      <bp:AUTHORS >N&#252;rnberg G</bp:AUTHORS>
+      <bp:AUTHORS >Becker C</bp:AUTHORS>
+      <bp:AUTHORS >Grimm T</bp:AUTHORS>
+      <bp:AUTHORS >Girschick G</bp:AUTHORS>
+      <bp:AUTHORS >Lynch SA</bp:AUTHORS>
+      <bp:AUTHORS >Kelehan P</bp:AUTHORS>
+      <bp:AUTHORS >Senderek J</bp:AUTHORS>
+      <bp:AUTHORS >Neuhaus TJ</bp:AUTHORS>
+      <bp:AUTHORS >Stallmach T</bp:AUTHORS>
+      <bp:AUTHORS >Zentgraf H</bp:AUTHORS>
+      <bp:AUTHORS >N&#252;rnberg P</bp:AUTHORS>
+      <bp:AUTHORS >Gretz N</bp:AUTHORS>
+      <bp:AUTHORS >Lo C</bp:AUTHORS>
+      <bp:AUTHORS >Lienkamp S</bp:AUTHORS>
+      <bp:AUTHORS >Sch&#228;fer T</bp:AUTHORS>
+      <bp:AUTHORS >Walz G</bp:AUTHORS>
+      <bp:AUTHORS >Benzing T</bp:AUTHORS>
+      <bp:AUTHORS >Zerres K</bp:AUTHORS>
+      <bp:AUTHORS >Omran H</bp:AUTHORS>
+    </bp:PublicationXref>
+    
+    
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b30">
+      <bp:ID >20091054</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Glomerulocystic kidney disease.</bp:TITLE>
+      <bp:SOURCE >Pediatr Nephrol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Bissler JJ</bp:AUTHORS>
+      <bp:AUTHORS >Siroky BJ</bp:AUTHORS>
+      <bp:AUTHORS >Yin H</bp:AUTHORS>
+    </bp:PublicationXref>
+    
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >kidney disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:557</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Wnt signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000008</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Wnt signaling, the planar cell polarity pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000200</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

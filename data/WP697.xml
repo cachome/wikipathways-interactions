@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Estrogen metabolism" Last-Modified="2/22/2013" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Estrogens are metabolized via hydroxylation by cytochrome P450 enzymes such as CYP1A1 and CYP3A4 and via conjugation by estrogen sulfotransferases (sulfation) and UDP-glucuronyltransferases (glucuronidation). In addition, estradiol is dehydrogenated by 17&#946;-Hydroxysteroid dehydrogenase into the much less potent estrogen estrone. These reactions occur primarily in the liver, but also in other tissues.
+Description source: [https://en.wikipedia.org/wiki/Estrogen#Metabolism Wikipedia].
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP697 CPTAC Assay Portal]</Comment>
+  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
+  <BiopaxRef>d4e</BiopaxRef>
+  <BiopaxRef>e6e</BiopaxRef>
+  <BiopaxRef>aa4</BiopaxRef>
+  <Graphics BoardWidth="1328.4337349397592" BoardHeight="957.0621611768647"/>
+  <DataNode TextLabel="2-Hydroxyestrone" GraphId="a02aa" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="COMT" GraphId="a08d8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="UGT1A8" GraphId="a0acf" Type="GeneProduct" GroupRef="dbebc">
+        </DataNode>
+  <DataNode TextLabel="CYP1A2" GraphId="a1522" Type="GeneProduct" GroupRef="d0795">
+        </DataNode>
+  <DataNode TextLabel="Estrone" GraphId="a1c3d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A1" GraphId="a3c7e" Type="GeneProduct" GroupRef="dbebc">
+        </DataNode>
+  <DataNode TextLabel="UGT1A1" GraphId="a3ced" Type="GeneProduct" GroupRef="a5d88">
+        </DataNode>
+  <DataNode TextLabel="4-hydroxyestradiol" GraphId="a5224" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1E1" GraphId="a52bd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="COMT" GraphId="a66b3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="UGT1A8" GraphId="a71a8" Type="GeneProduct" GroupRef="f4994">
+        </DataNode>
+  <DataNode TextLabel="4-Methoxyestradiol-3-glucuronide" GraphId="a8c52" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SULT1A1" GraphId="a9b82" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="2-Methoxyestradiol-3-glucuronide" GraphId="accb8" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ARSE" GraphId="acfb8" Type="GeneProduct" GroupRef="a564e">
+        </DataNode>
+  <DataNode TextLabel="2-Hydroxyestradiol" GraphId="b1f8b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Estradiol sulfate" GraphId="b4a78" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Estrone sulfate" GraphId="b4ce2" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="2-hydroxyestradiol-3-glucuronide" GraphId="b4e39" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A8" GraphId="b58ec" Type="GeneProduct" GroupRef="aaac7">
+        </DataNode>
+  <DataNode TextLabel="NQO1" GraphId="b5b9e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Oxygen" GraphId="b67d1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP3A4" GraphId="b6fe2" Type="GeneProduct" GroupRef="d0795">
+        </DataNode>
+  <DataNode TextLabel="Oxygen" GraphId="b8a91" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A1" GraphId="b9e27" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ESTRADIOL" GraphId="ba9ff" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP1A1" GraphId="bab8d" Type="GeneProduct" GroupRef="d0795">
+        </DataNode>
+  <DataNode TextLabel="SULT1A1" GraphId="bb324" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Oxygen" GraphId="bbc30" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Oxygen" GraphId="bcfb5" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="2-hydroxy-estradiol-2-glucuronide" GraphId="bff50" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UGT2B7" GraphId="c0644" Type="GeneProduct" GroupRef="c4d4d">
+        </DataNode>
+  <DataNode TextLabel="UGT1A8" GraphId="c13d1" Type="GeneProduct" GroupRef="c4d4d">
+        </DataNode>
+  <DataNode TextLabel="4-hydroxyestrone" GraphId="c4edd" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Estrone-2,3-quinone" GraphId="c6219" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="16a-Hydroxyestrone" GraphId="c6cde" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="COMT" GraphId="c6de6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="2-Methoxyestrone 3-glucuronide" GraphId="c711c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Estradiol-3,4-semiquinone" GraphId="c8dd7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="2-Hydroxyestrone-3-glucuronide" GraphId="c8f50" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="4-hydroxyestrone-3-glucuronide" GraphId="c952c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Estrone-2,3-semiquinone" GraphId="ca198" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A9" GraphId="ca584" Type="GeneProduct" GroupRef="aaac7">
+        </DataNode>
+  <DataNode TextLabel="Estradiol-3-glucuronide" GraphId="cb978" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Superoxide" GraphId="ccb38" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A8" GraphId="ce733" Type="GeneProduct" GroupRef="a5d88">
+        </DataNode>
+  <DataNode TextLabel="UGT1A1" GraphId="cff4d" Type="GeneProduct" GroupRef="f4994">
+        </DataNode>
+  <DataNode TextLabel="UGT1A8" GraphId="d1985" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="COMT" GraphId="d1c07" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="UGT1A9" GraphId="d2274" Type="GeneProduct" GroupRef="c4d4d">
+        </DataNode>
+  <DataNode TextLabel="UGT1A8" GraphId="d2893" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="4-Methoxyestrone-3-glucuronide" GraphId="d314c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP1A2" GraphId="d5254" Type="GeneProduct" GroupRef="ff51f">
+        </DataNode>
+  <DataNode TextLabel="Superoxide" GraphId="d5d62" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GSTA1" GraphId="da5b9" Type="GeneProduct" GroupRef="ee6bc">
+        </DataNode>
+  <DataNode TextLabel="UGT2B7" GraphId="db398" Type="GeneProduct" GroupRef="aaac7">
+        </DataNode>
+  <DataNode TextLabel="CYP3A4" GraphId="dceef" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="2-Methoxyestradiol" GraphId="dcf13" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A1" GraphId="ddc29" Type="GeneProduct" GroupRef="e5d21">
+        </DataNode>
+  <DataNode TextLabel="2-hydroxy-estradiol-sulfate" GraphId="ddd79" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Estradiol-3,4-quinone" GraphId="e0929" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Superoxide" GraphId="e16e9" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Estradiol-2,3-semiquinone" GraphId="e31ce" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Estradiol-17-glucuronide" GraphId="e3953" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UGT1A8" GraphId="e3a57" Type="GeneProduct" GroupRef="e5d21">
+        </DataNode>
+  <DataNode TextLabel="UGT1A8" GraphId="e3dfa" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="UGT1A3" GraphId="e8421" Type="GeneProduct" GroupRef="a5d88">
+        </DataNode>
+  <DataNode TextLabel="Estrone-17-glucuronide" GraphId="e8b90" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GSTM1" GraphId="e8fd9" Type="GeneProduct" GroupRef="ee6bc">
+        </DataNode>
+  <DataNode TextLabel="ARSC" GraphId="ead6b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Estrone-3,4-semiquinone" GraphId="eb843" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP1A1" GraphId="ec856" Type="GeneProduct" GroupRef="ff51f">
+        </DataNode>
+  <DataNode TextLabel="4-hydroxy-estradiol-4-glucuronide" GraphId="ec8e7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Estradiol-2,3-quinone" GraphId="eeee5" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="4-hydroxy-estradiol-sulfate" GraphId="f0843" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="4-Methoxyestradiol" GraphId="f152e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NQO1" GraphId="f1c4c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Estrone-3-glucuronide" GraphId="f1ddd" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ARSD" GraphId="f6c06" Type="GeneProduct" GroupRef="a564e">
+        </DataNode>
+  <DataNode TextLabel="UGT1A1" GraphId="f783c" Type="GeneProduct" GroupRef="c4d4d">
+        </DataNode>
+  <DataNode TextLabel="UGT2B7" GraphId="f9647" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SULT1A1" GraphId="fa8d0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Superoxide" GraphId="fac11" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="2-Methoxyestrone" GraphId="fbd2c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="4-Methoxyestrone" GraphId="fcdea" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Estrone-3,4-quinone" GraphId="ff145" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP1B1" GraphId="ffa4f" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="a13a5">
+    <BiopaxRef>e4d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="eb843"/>
+      <Point GraphRef="ff145" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a192f">
+    <BiopaxRef>e4f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b1f8b"/>
+      <Point GraphRef="ddd79" ArrowHead="Arrow"/>
+      <Anchor Position="0.4736645569861418" Shape="None" GraphId="b4387"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a482f">
+    <BiopaxRef>aef</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="eeee5"/>
+      <Point GraphRef="b828c" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6789">
+    <BiopaxRef>d2e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fcdea"/>
+      <Point GraphRef="d314c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e4f33"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aa0f6">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a1c3d"/>
+      <Point GraphRef="a02aa" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6298932384341636" Shape="None" GraphId="f6284"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aa545">
+    <Graphics>
+      <Point GraphRef="eca69"/>
+      <Point GraphRef="b1115" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ac27c">
+    <BiopaxRef>e4d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c4edd"/>
+      <Point GraphRef="fcdea" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a446c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="addff">
+    <Graphics>
+      <Point GraphRef="dceef"/>
+      <Point GraphRef="ad5f8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="af9a7">
+    <BiopaxRef>d2e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a5224"/>
+      <Point GraphRef="ec8e7" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.49831918970709005" Shape="None" GraphId="cad77"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b25cf">
+    <Graphics>
+      <Point GraphRef="ba831"/>
+      <Point GraphRef="e0e15" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b458d">
+    <BiopaxRef>d2e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c4edd"/>
+      <Point GraphRef="c952c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5416666666666666" Shape="None" GraphId="ed2cd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b6ea6">
+    <BiopaxRef>ae5</BiopaxRef>
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c6219"/>
+      <Point GraphRef="a02aa" ArrowHead="Arrow"/>
+      <Anchor Position="0.43279258400927" Shape="None" GraphId="e92cd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b740d">
+    <BiopaxRef>e4d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c4edd"/>
+      <Point GraphRef="eb843" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b75f6">
+    <BiopaxRef>e4f</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ba9ff"/>
+      <Point/>
+      <Point GraphRef="b4a78" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.9020632542995305" Shape="None" GraphId="c5917"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b835b">
+    <BiopaxRef>d2e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="fbd2c"/>
+      <Point GraphRef="c711c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a959a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b87f2">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="bcfb5"/>
+      <Point/>
+      <Point GraphRef="ccb38" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b88f5">
+    <Graphics>
+      <Point GraphRef="ba9ff"/>
+      <Point GraphRef="b1f8b" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.11764705882352941" Shape="None" GraphId="b1115"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b964e">
+    <Graphics>
+      <Point GraphRef="a1c3d"/>
+      <Point GraphRef="c6cde" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6090909090909091" Shape="None" GraphId="ad5f8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ba1be">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d2893"/>
+      <Point GraphRef="fab0c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bbb74">
+    <BiopaxRef>e4d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c8dd7"/>
+      <Point GraphRef="e0929" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc4ab">
+    <Graphics>
+      <Point GraphRef="b5b9e"/>
+      <Point GraphRef="b80eb" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bd867">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a1c3d"/>
+      <Point GraphRef="b4ce2" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5162140665833428" Shape="None" GraphId="a31c2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bf0c0">
+    <Graphics>
+      <Point GraphRef="d1985"/>
+      <Point GraphRef="e4f33" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c0c85">
+    <BiopaxRef>d2e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a02aa"/>
+      <Point GraphRef="c8f50" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="fd06d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c0f9d">
+    <BiopaxRef>e4d</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c6219"/>
+      <Point GraphRef="c1376" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1387">
+    <Graphics>
+      <Point GraphRef="a08d8"/>
+      <Point GraphRef="d4019" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c26cf">
+    <Graphics>
+      <Point GraphRef="a66b3"/>
+      <Point GraphRef="a446c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c2de4">
+    <BiopaxRef>e4f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b1f8b"/>
+      <Point GraphRef="dcf13" ArrowHead="Arrow"/>
+      <Anchor Position="0.5005354684073638" Shape="None" GraphId="d4019"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c4984">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e3dfa"/>
+      <Point GraphRef="a959a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c58bf">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b8a91"/>
+      <Point/>
+      <Point GraphRef="d5d62" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c5f71">
+    <Graphics>
+      <Point GraphRef="fb236"/>
+      <Point GraphRef="e319d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c62ef">
+    <Graphics>
+      <Point GraphRef="c6de6"/>
+      <Point GraphRef="d831d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6cac">
+    <Graphics>
+      <Point GraphRef="fa8d0"/>
+      <Point GraphRef="a763f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6f4c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d2893"/>
+      <Point GraphRef="b4b28" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c89c3">
+    <Graphics>
+      <Point GraphRef="ead6b"/>
+      <Point GraphRef="c8dc6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c8eca">
+    <Graphics>
+      <Point GraphRef="fb6fe"/>
+      <Point GraphRef="cad77" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9119">
+    <Graphics>
+      <Point GraphRef="abaee"/>
+      <Point GraphRef="f9f8a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9718">
+    <BiopaxRef>e4d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e31ce"/>
+      <Point GraphRef="eeee5" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9c94">
+    <BiopaxRef>d2e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b1f8b"/>
+      <Point GraphRef="bff50" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6330843395728409" Shape="None" GraphId="e2b2e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cae6b">
+    <BiopaxRef>e4f</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a5224"/>
+      <Point GraphRef="f0843" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4736645569861418" Shape="None" GraphId="a763f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ccc8e">
+    <Graphics>
+      <Point GraphRef="a1c3d" ArrowHead="Arrow"/>
+      <Point GraphRef="ba9ff" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cd1af">
+    <BiopaxRef>e4d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b1f8b"/>
+      <Point GraphRef="e31ce" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ce904">
+    <Graphics>
+      <Point GraphRef="dcf13"/>
+      <Point GraphRef="accb8" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4877867420158383" Shape="None" GraphId="e8be5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d0591">
+    <BiopaxRef>d2e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b1f8b"/>
+      <Point GraphRef="b4e39" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6666666666666666" Shape="None" GraphId="e319d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d07a2">
+    <Graphics>
+      <Point GraphRef="f3564"/>
+      <Point GraphRef="a8fde" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d0ce0">
+    <Graphics>
+      <Point GraphRef="f1c4c"/>
+      <Point GraphRef="a4852" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d12ac">
+    <Graphics>
+      <Point GraphRef="f9647"/>
+      <Point GraphRef="b3feb" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d14a3">
+    <BiopaxRef>e4d</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="eeee5"/>
+      <Point GraphRef="b4bb4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2f1e">
+    <BiopaxRef>e4d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a5224"/>
+      <Point GraphRef="f152e" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.25729442970822375" Shape="None" GraphId="d831d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d39ad">
+    <BiopaxRef>e4d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a02aa"/>
+      <Point GraphRef="fbd2c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4862323383324493" Shape="None" GraphId="f075b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d5536">
+    <Graphics>
+      <Point GraphRef="a9b82"/>
+      <Point GraphRef="b4387" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d7454">
+    <BiopaxRef>e4d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ca198"/>
+      <Point GraphRef="c6219" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d763e">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b4ce2"/>
+      <Point GraphRef="a1c3d" ArrowHead="Arrow"/>
+      <Anchor Position="0.1692946058091286" Shape="None" GraphId="e0e15"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d8875">
+    <Graphics>
+      <Point GraphRef="ffa4f"/>
+      <Point GraphRef="eb841" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d9db0">
+    <BiopaxRef>d2e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ba9ff"/>
+      <Point GraphRef="cb978" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5827754306142345" Shape="None" GraphId="f9f8a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="da314">
+    <BiopaxRef>d4e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b4a78"/>
+      <Point GraphRef="ba9ff" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.18484809639789768" Shape="None" GraphId="c8dc6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dbcde">
+    <BiopaxRef>ae5</BiopaxRef>
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="eeee5"/>
+      <Point GraphRef="b1f8b" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a4852"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df757">
+    <BiopaxRef>e4d</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ff145"/>
+      <Point GraphRef="b66c6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e02d8">
+    <Graphics>
+      <Point GraphRef="bb324"/>
+      <Point GraphRef="c5917" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0405">
+    <Graphics>
+      <Point GraphRef="d1c07"/>
+      <Point GraphRef="f075b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e134f">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="bbc30"/>
+      <Point/>
+      <Point GraphRef="fac11" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e1681">
+    <BiopaxRef>d2e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a1c3d"/>
+      <Point GraphRef="f1ddd" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.47836906584992345" Shape="None" GraphId="fab0c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e1883">
+    <BiopaxRef>e4d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a5224"/>
+      <Point GraphRef="c8dd7" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e3b76">
+    <Graphics>
+      <Point GraphRef="a61f9"/>
+      <Point GraphRef="f76e9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e77c5">
+    <BiopaxRef>d2e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a1c3d"/>
+      <Point GraphRef="e8b90" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.3807198590485779" Shape="None" GraphId="b4b28"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e813d">
+    <BiopaxRef>e4d</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e0929"/>
+      <Point GraphRef="c2bf5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e917a">
+    <Graphics>
+      <Point GraphRef="e606f"/>
+      <Point GraphRef="e8be5" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e99b7">
+    <Graphics>
+      <Point GraphRef="a52bd"/>
+      <Point GraphRef="a31c2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ebcfb">
+    <BiopaxRef>ae5</BiopaxRef>
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="ff145"/>
+      <Point GraphRef="c4edd" ArrowHead="Arrow"/>
+      <Anchor Position="0.4312933025404157" Shape="None" GraphId="b80eb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="edcfe">
+    <BiopaxRef>d2e</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ba9ff"/>
+      <Point GraphRef="e3953" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7129217987027178" Shape="None" GraphId="b3feb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ee72b">
+    <BiopaxRef>d2e</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f152e"/>
+      <Point GraphRef="a8c52" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5365055762081778" Shape="None" GraphId="f76e9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3347">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b67d1"/>
+      <Point/>
+      <Point GraphRef="e16e9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3d18">
+    <Graphics>
+      <Point GraphRef="f3564"/>
+      <Point GraphRef="f6284" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f48c0">
+    <Graphics>
+      <Point GraphRef="b5b9e"/>
+      <Point GraphRef="e92cd" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f4b42">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ba9ff"/>
+      <Point GraphRef="a5224" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.391318703996698" Shape="None" GraphId="eb841"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f7947">
+    <BiopaxRef>e4d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a02aa"/>
+      <Point GraphRef="ca198" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f7fb4">
+    <Graphics>
+      <Point GraphRef="f1c4c"/>
+      <Point GraphRef="bbb96" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8c7d">
+    <BiopaxRef>ae5</BiopaxRef>
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e0929"/>
+      <Point GraphRef="a5224" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bbb96"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fcb40">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a1c3d"/>
+      <Point GraphRef="c4edd" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6486486486486488" Shape="None" GraphId="a8fde"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fd816">
+    <Graphics>
+      <Point GraphRef="b9e27"/>
+      <Point GraphRef="fd06d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fda28">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e3dfa"/>
+      <Point GraphRef="ed2cd" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fea57">
+    <Graphics>
+      <Point GraphRef="c460e"/>
+      <Point GraphRef="e2b2e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="DNA adducts" GraphId="b4bb4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="DNA adducts" GraphId="b66c6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="DNA adducts" GraphId="c1376">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="DNA adducts" GraphId="c2bf5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Group GroupId="e5d21" GraphId="a61f9" Style="Complex"/>
+  <Group GroupId="f4994" GraphId="abaee" Style="Complex"/>
+  <Group GroupId="ee6bc" GraphId="b828c" Style="Complex"/>
+  <Group GroupId="a564e" GraphId="ba831" Style="Complex"/>
+  <Group GroupId="dbebc" GraphId="c460e" Style="Complex"/>
+  <Group GroupId="a5d88" GraphId="e606f" Style="Complex"/>
+  <Group GroupId="d0795" GraphId="eca69" Style="Complex"/>
+  <Group GroupId="ff51f" GraphId="f3564" Style="Complex"/>
+  <Group GroupId="c4d4d" GraphId="fb236" Style="Complex"/>
+  <Group GroupId="aaac7" GraphId="fb6fe" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae5">
+      <bp:ID >12714703</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Functional implications of antiestrogen induction of quinone reductase: inhibition of estrogen-induced deoxyribonucleic acid damage.</bp:TITLE>
+      <bp:SOURCE >Mol Endocrinol</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Bianco NR</bp:AUTHORS>
+      <bp:AUTHORS >Perry G</bp:AUTHORS>
+      <bp:AUTHORS >Smith MA</bp:AUTHORS>
+      <bp:AUTHORS >Templeton DJ</bp:AUTHORS>
+      <bp:AUTHORS >Montano MM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e6e">
+      <bp:ID >12587805</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >2-Methoxyestradiol, a promising anticancer agent.</bp:TITLE>
+      <bp:SOURCE >Pharmacotherapy</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Lakhani NJ</bp:AUTHORS>
+      <bp:AUTHORS >Sarkar MA</bp:AUTHORS>
+      <bp:AUTHORS >Venitz J</bp:AUTHORS>
+      <bp:AUTHORS >Figg WD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >C18-steroid hormone biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000780</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e4d">
+      <bp:ID >9380738</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Molecular origin of cancer: catechol estrogen-3,4-quinones as endogenous tumor initiators.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Cavalieri EL</bp:AUTHORS>
+      <bp:AUTHORS >Stack DE</bp:AUTHORS>
+      <bp:AUTHORS >Devanesan PD</bp:AUTHORS>
+      <bp:AUTHORS >Todorovic R</bp:AUTHORS>
+      <bp:AUTHORS >Dwivedy I</bp:AUTHORS>
+      <bp:AUTHORS >Higginbotham S</bp:AUTHORS>
+      <bp:AUTHORS >Johansson SL</bp:AUTHORS>
+      <bp:AUTHORS >Patil KD</bp:AUTHORS>
+      <bp:AUTHORS >Gross ML</bp:AUTHORS>
+      <bp:AUTHORS >Gooden JK</bp:AUTHORS>
+      <bp:AUTHORS >Ramanathan R</bp:AUTHORS>
+      <bp:AUTHORS >Cerny RL</bp:AUTHORS>
+      <bp:AUTHORS >Rogan EG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d4e">
+      <bp:ID >10963623</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Estrogen metabolism by conjugation.</bp:TITLE>
+      <bp:SOURCE >J Natl Cancer Inst Monogr</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Raftogianis R</bp:AUTHORS>
+      <bp:AUTHORS >Creveling C</bp:AUTHORS>
+      <bp:AUTHORS >Weinshilboum R</bp:AUTHORS>
+      <bp:AUTHORS >Weisz J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aef">
+      <bp:ID >15607759</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Estradiol metabolites as isoform-specific inhibitors of human glutathione S-transferases.</bp:TITLE>
+      <bp:SOURCE >Chem Biol Interact</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Abel EL</bp:AUTHORS>
+      <bp:AUTHORS >Lyon RP</bp:AUTHORS>
+      <bp:AUTHORS >Bammler TK</bp:AUTHORS>
+      <bp:AUTHORS >Verlinde CL</bp:AUTHORS>
+      <bp:AUTHORS >Lau SS</bp:AUTHORS>
+      <bp:AUTHORS >Monks TJ</bp:AUTHORS>
+      <bp:AUTHORS >Eaton DL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e4f">
+      <bp:ID >16280036</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Genetic polymorphisms in human SULT1A1 and UGT1A1 genes associate with breast tumor characteristics: a case-series study.</bp:TITLE>
+      <bp:SOURCE >Breast Cancer Res</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Shatalova EG</bp:AUTHORS>
+      <bp:AUTHORS >Walther SE</bp:AUTHORS>
+      <bp:AUTHORS >Favorova OO</bp:AUTHORS>
+      <bp:AUTHORS >Rebbeck TR</bp:AUTHORS>
+      <bp:AUTHORS >Blanchard RL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d2e">
+      <bp:ID >15535854</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Metabolic inactivation of estrogens in breast tissue by UDP-glucuronosyltransferase enzymes: an overview.</bp:TITLE>
+      <bp:SOURCE >Breast Cancer Res</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Guillemette C</bp:AUTHORS>
+      <bp:AUTHORS >Belanger A</bp:AUTHORS>
+      <bp:AUTHORS >Lepine J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aa4">
+      <bp:ID >12727798</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Relative imbalances in estrogen metabolism and conjugation in breast tissue of women with carcinoma: potential biomarkers of susceptibility to cancer.</bp:TITLE>
+      <bp:SOURCE >Carcinogenesis</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Rogan EG</bp:AUTHORS>
+      <bp:AUTHORS >Badawi AF</bp:AUTHORS>
+      <bp:AUTHORS >Devanesan PD</bp:AUTHORS>
+      <bp:AUTHORS >Meza JL</bp:AUTHORS>
+      <bp:AUTHORS >Edney JA</bp:AUTHORS>
+      <bp:AUTHORS >West WW</bp:AUTHORS>
+      <bp:AUTHORS >Higginbotham SM</bp:AUTHORS>
+      <bp:AUTHORS >Cavalieri EL</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

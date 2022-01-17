@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Amino acid metabolism pathway excerpt: histidine catabolism extension" Version="20190521" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway was created based on findings from the bachelor thesis project by Kristin Koppelmaa which investigated vitamin D GWAS results. 
+Thesis DOI: https://figshare.com/articles/From_SNPs_to_Pathways_Functional_Interpretation_of_Vitamin_D_GWAS_Results/8796710.
+This pathway shows an excerpt of the WikiPathways amino acid metabolism (WP3925) pathway containing the segment between the metabolites histidine and glutamate that was extended. The proteins added to the conversion were AMDHD1 and UROC1. Although the HAL and FTCD proteins were included in the amino acid metabolism pathway previously, the lead SNP rs7487782 which exists in both HAL and AMDHD1, was added to the pathway and linked to these two genes. This variant was mapped to these genes during the analysis of a dataset originating from [https://www.ncbi.nlm.nih.gov/pubmed/29343764 PMID: 29343764].</Comment>
+  <Graphics BoardWidth="979.3333333333309" BoardHeight="615.5714285714287"/>
+  <DataNode TextLabel="Aconitate" GraphId="d40ac" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GLUD1" GraphId="e468e" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = M:MGI:95753</Comment>
+        </DataNode>
+  <DataNode TextLabel="Oxaloacetate" GraphId="c3712" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="HAL" GraphId="d4804" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = M:MGI:96010</Comment>
+        </DataNode>
+  <DataNode TextLabel="isocitrate" GraphId="e2c11" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Citrate" GraphId="fcbea" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Histidine" GraphId="a4099" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Pyruvate" GraphId="dcf4f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Alanine" GraphId="d3922" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GPT2" GraphId="c9d9e" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = M:MGI:1915391</Comment>
+        </DataNode>
+  <DataNode TextLabel="Oxaloacetate" GraphId="a4975" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Succinyl-CoA" GraphId="a5c85" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FTCD" GraphId="af14a" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = M:MGI:1339962</Comment>
+        </DataNode>
+  <DataNode TextLabel="Succinate" GraphId="d49f0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Fumarate" GraphId="f40dc" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Glutamate" GraphId="dab10" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Malate" GraphId="e5dc1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="2-oxo-glutarate" GraphId="cc058" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UROC1" GraphId="de8d0" Type="GeneProduct">
+    <Comment>Dimer with NAD+ 
+</Comment>
+        </DataNode>
+  <DataNode TextLabel="AMDHD1" GraphId="d1463" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="UCA" GraphId="ebe3c" Type="Metabolite">
+    <Comment>trans-urocanic acid</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="4I-5PROA" GraphId="b7308" Type="Metabolite">
+    <Comment>trans-urocanic acid</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NF-Glu" GraphId="e3caf" Type="Metabolite">
+    <Comment>trans-urocanic acid</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="id25a0d83f">
+    <Graphics>
+      <Point GraphRef="d2478"/>
+      <Point GraphRef="d1463" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id59bafb8">
+    <Graphics>
+      <Point GraphRef="de8d0"/>
+      <Point GraphRef="a8a87" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb93fd5c3">
+    <Graphics>
+      <Point GraphRef="d1463"/>
+      <Point GraphRef="cc383" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddf3437a3">
+    <Graphics>
+      <Point GraphRef="d2478"/>
+      <Point GraphRef="d4804" ArrowHead="mim-modification"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ef527">
+    <Graphics>
+      <Point GraphRef="c299b"/>
+      <Point GraphRef="dcf4f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c8239">
+    <Graphics>
+      <Point GraphRef="f2ee5"/>
+      <Point GraphRef="d3922" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b8916">
+    <Graphics>
+      <Point GraphRef="cc058" ArrowHead="mim-conversion"/>
+      <Point GraphRef="dab10" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6498982057322139" Shape="None" GraphId="c299b"/>
+      <Anchor Position="0.24620073582967572" Shape="None" GraphId="f2ee5"/>
+      <Anchor Position="0.49838856061204745" Shape="None" GraphId="c4655"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a3851">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ebe3c" ArrowHead="mim-conversion"/>
+      <Point GraphRef="a4099" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4423972263497184" Shape="None" GraphId="d846b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bfa52">
+    <Graphics>
+      <Point GraphRef="a0e5e"/>
+      <Point GraphRef="c3712" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a4cfa">
+    <Graphics>
+      <Point GraphRef="dab10" ArrowHead="mim-conversion"/>
+      <Point GraphRef="cc058" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.39286653105914005" Shape="None" GraphId="a0e5e"/>
+      <Anchor Position="0.5782924367511453" Shape="None" GraphId="b5e8b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b5cbe">
+    <Graphics ConnectorType="Segmented">
+      <Point GraphRef="f40dc"/>
+      <Point/>
+      <Point GraphRef="e5dc1"/>
+      <Anchor Position="0.45219779974800556" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ac94c">
+    <Graphics ConnectorType="Segmented">
+      <Point GraphRef="fcbea"/>
+      <Point/>
+      <Point GraphRef="d40ac"/>
+      <Anchor Position="0.4792607747722166" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c03f3">
+    <Graphics>
+      <Point GraphRef="d4804"/>
+      <Point GraphRef="d846b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ce1d2">
+    <Graphics ConnectorType="Segmented">
+      <Point GraphRef="e2c11"/>
+      <Point/>
+      <Point GraphRef="cc058"/>
+      <Anchor Position="0.4" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eb56f">
+    <Graphics>
+      <Point GraphRef="e468e"/>
+      <Point GraphRef="b5e8b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f7ccc">
+    <Graphics>
+      <Point GraphRef="c9d9e"/>
+      <Point GraphRef="c4655" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c5ffb">
+    <Graphics>
+      <Point GraphRef="af14a"/>
+      <Point GraphRef="d8126" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d18d0">
+    <Graphics ConnectorType="Segmented">
+      <Point GraphRef="cc058"/>
+      <Point/>
+      <Point GraphRef="a5c85"/>
+      <Anchor Position="0.5158815344767672" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc15f">
+    <Graphics ConnectorType="Segmented">
+      <Point GraphRef="a4975"/>
+      <Point/>
+      <Point GraphRef="fcbea"/>
+      <Anchor Position="0.4" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c317f">
+    <Graphics ConnectorType="Segmented">
+      <Point GraphRef="d40ac"/>
+      <Point/>
+      <Point GraphRef="e2c11"/>
+      <Anchor Position="0.4" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c8dbf">
+    <Graphics ConnectorType="Segmented">
+      <Point GraphRef="d49f0"/>
+      <Point/>
+      <Point GraphRef="a5c85"/>
+      <Anchor Position="0.4" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a4269">
+    <Graphics ConnectorType="Segmented">
+      <Point GraphRef="f40dc"/>
+      <Point/>
+      <Point GraphRef="d49f0"/>
+      <Anchor Position="0.4" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f2590">
+    <Graphics ConnectorType="Segmented">
+      <Point GraphRef="e5dc1"/>
+      <Point/>
+      <Point GraphRef="a4975"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f5f0d">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b7308" ArrowHead="mim-conversion"/>
+      <Point GraphRef="ebe3c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5546218487395123" Shape="None" GraphId="a8a87"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ebdd3">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b7308" ArrowHead="mim-conversion"/>
+      <Point GraphRef="e3caf" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5025716385010439" Shape="None" GraphId="cc383"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d120f">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="dab10" ArrowHead="mim-conversion"/>
+      <Point GraphRef="e3caf" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.606217616580333" Shape="None" GraphId="d8126"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="TCA cycle" GraphId="ea181">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="glutamate metabolism" GraphId="d5a3f">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Shape TextLabel="rs7487781&#10;" GraphId="d2478">
+    <Comment>For more info: https://www.ensembl.org/Homo_sapiens/Variation/Explore?r=12:95961098-95962098;v=rs7487781</Comment>
+    <BiopaxRef>bd1</BiopaxRef>
+    <Graphics ShapeType="Oval" Color="ff3333"/>
+  </Shape>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd1">
+      <bp:ID >29343764 </bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE />
+      <bp:SOURCE />
+      <bp:YEAR />
+      <bp:ID >29343764</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Genome-wide association study in 79,366 European-ancestry individuals informs the genetic architecture of 25-hydroxyvitamin D levels.</bp:TITLE>
+      <bp:SOURCE >Nat Commun</bp:SOURCE>
+      <bp:YEAR >2018</bp:YEAR>
+      <bp:AUTHORS >Jiang X</bp:AUTHORS>
+      <bp:AUTHORS >O'Reilly PF</bp:AUTHORS>
+      <bp:AUTHORS >Aschard H</bp:AUTHORS>
+      <bp:AUTHORS >Hsu YH</bp:AUTHORS>
+      <bp:AUTHORS >Richards JB</bp:AUTHORS>
+      <bp:AUTHORS >Dupuis J</bp:AUTHORS>
+      <bp:AUTHORS >Ingelsson E</bp:AUTHORS>
+      <bp:AUTHORS >Karasik D</bp:AUTHORS>
+      <bp:AUTHORS >Pilz S</bp:AUTHORS>
+      <bp:AUTHORS >Berry D</bp:AUTHORS>
+      <bp:AUTHORS >Kestenbaum B</bp:AUTHORS>
+      <bp:AUTHORS >Zheng J</bp:AUTHORS>
+      <bp:AUTHORS >Luan J</bp:AUTHORS>
+      <bp:AUTHORS >Sofianopoulou E</bp:AUTHORS>
+      <bp:AUTHORS >Streeten EA</bp:AUTHORS>
+      <bp:AUTHORS >Albanes D</bp:AUTHORS>
+      <bp:AUTHORS >Lutsey PL</bp:AUTHORS>
+      <bp:AUTHORS >Yao L</bp:AUTHORS>
+      <bp:AUTHORS >Tang W</bp:AUTHORS>
+      <bp:AUTHORS >Econs MJ</bp:AUTHORS>
+      <bp:AUTHORS >Wallaschofski H</bp:AUTHORS>
+      <bp:AUTHORS >V&#246;lzke H</bp:AUTHORS>
+      <bp:AUTHORS >Zhou A</bp:AUTHORS>
+      <bp:AUTHORS >Power C</bp:AUTHORS>
+      <bp:AUTHORS >McCarthy MI</bp:AUTHORS>
+      <bp:AUTHORS >Michos ED</bp:AUTHORS>
+      <bp:AUTHORS >Boerwinkle E</bp:AUTHORS>
+      <bp:AUTHORS >Weinstein SJ</bp:AUTHORS>
+      <bp:AUTHORS >Freedman ND</bp:AUTHORS>
+      <bp:AUTHORS >Huang WY</bp:AUTHORS>
+      <bp:AUTHORS >Van Schoor NM</bp:AUTHORS>
+      <bp:AUTHORS >van der Velde N</bp:AUTHORS>
+      <bp:AUTHORS >Groot LCPGM</bp:AUTHORS>
+      <bp:AUTHORS >Enneman A</bp:AUTHORS>
+      <bp:AUTHORS >Cupples LA</bp:AUTHORS>
+      <bp:AUTHORS >Booth SL</bp:AUTHORS>
+      <bp:AUTHORS >Vasan RS</bp:AUTHORS>
+      <bp:AUTHORS >Liu CT</bp:AUTHORS>
+      <bp:AUTHORS >Zhou Y</bp:AUTHORS>
+      <bp:AUTHORS >Ripatti S</bp:AUTHORS>
+      <bp:AUTHORS >Ohlsson C</bp:AUTHORS>
+      <bp:AUTHORS >Vandenput L</bp:AUTHORS>
+      <bp:AUTHORS >Lorentzon M</bp:AUTHORS>
+      <bp:AUTHORS >Eriksson JG</bp:AUTHORS>
+      <bp:AUTHORS >Shea MK</bp:AUTHORS>
+      <bp:AUTHORS >Houston DK</bp:AUTHORS>
+      <bp:AUTHORS >Kritchevsky SB</bp:AUTHORS>
+      <bp:AUTHORS >Liu Y</bp:AUTHORS>
+      <bp:AUTHORS >Lohman KK</bp:AUTHORS>
+      <bp:AUTHORS >Ferrucci L</bp:AUTHORS>
+      <bp:AUTHORS >Peacock M</bp:AUTHORS>
+      <bp:AUTHORS >Gieger C</bp:AUTHORS>
+      <bp:AUTHORS >Beekman M</bp:AUTHORS>
+      <bp:AUTHORS >Slagboom E</bp:AUTHORS>
+      <bp:AUTHORS >Deelen J</bp:AUTHORS>
+      <bp:AUTHORS >Heemst DV</bp:AUTHORS>
+      <bp:AUTHORS >Kleber ME</bp:AUTHORS>
+      <bp:AUTHORS >M&#228;rz W</bp:AUTHORS>
+      <bp:AUTHORS >de Boer IH</bp:AUTHORS>
+      <bp:AUTHORS >Wood AC</bp:AUTHORS>
+      <bp:AUTHORS >Rotter JI</bp:AUTHORS>
+      <bp:AUTHORS >Rich SS</bp:AUTHORS>
+      <bp:AUTHORS >Robinson-Cohen C</bp:AUTHORS>
+      <bp:AUTHORS >den Heijer M</bp:AUTHORS>
+      <bp:AUTHORS >Jarvelin MR</bp:AUTHORS>
+      <bp:AUTHORS >Cavadino A</bp:AUTHORS>
+      <bp:AUTHORS >Joshi PK</bp:AUTHORS>
+      <bp:AUTHORS >Wilson JF</bp:AUTHORS>
+      <bp:AUTHORS >Hayward C</bp:AUTHORS>
+      <bp:AUTHORS >Lind L</bp:AUTHORS>
+      <bp:AUTHORS >Micha&#235;lsson K</bp:AUTHORS>
+      <bp:AUTHORS >Trompet S</bp:AUTHORS>
+      <bp:AUTHORS >Zillikens MC</bp:AUTHORS>
+      <bp:AUTHORS >Uitterlinden AG</bp:AUTHORS>
+      <bp:AUTHORS >Rivadeneira F</bp:AUTHORS>
+      <bp:AUTHORS >Broer L</bp:AUTHORS>
+      <bp:AUTHORS >Zgaga L</bp:AUTHORS>
+      <bp:AUTHORS >Campbell H</bp:AUTHORS>
+      <bp:AUTHORS >Theodoratou E</bp:AUTHORS>
+      <bp:AUTHORS >Farrington SM</bp:AUTHORS>
+      <bp:AUTHORS >Timofeeva M</bp:AUTHORS>
+      <bp:AUTHORS >Dunlop MG</bp:AUTHORS>
+      <bp:AUTHORS >Valdes AM</bp:AUTHORS>
+      <bp:AUTHORS >Tikkanen E</bp:AUTHORS>
+      <bp:AUTHORS >Lehtim&#228;ki T</bp:AUTHORS>
+      <bp:AUTHORS >Lyytik&#228;inen LP</bp:AUTHORS>
+      <bp:AUTHORS >K&#228;h&#246;nen M</bp:AUTHORS>
+      <bp:AUTHORS >Raitakari OT</bp:AUTHORS>
+      <bp:AUTHORS >Mikkil&#228; V</bp:AUTHORS>
+      <bp:AUTHORS >Ikram MA</bp:AUTHORS>
+      <bp:AUTHORS >Sattar N</bp:AUTHORS>
+      <bp:AUTHORS >Jukema JW</bp:AUTHORS>
+      <bp:AUTHORS >Wareham NJ</bp:AUTHORS>
+      <bp:AUTHORS >Langenberg C</bp:AUTHORS>
+      <bp:AUTHORS >Forouhi NG</bp:AUTHORS>
+      <bp:AUTHORS >Gundersen TE</bp:AUTHORS>
+      <bp:AUTHORS >Khaw KT</bp:AUTHORS>
+      <bp:AUTHORS >Butterworth AS</bp:AUTHORS>
+      <bp:AUTHORS >Danesh J</bp:AUTHORS>
+      <bp:AUTHORS >Spector T</bp:AUTHORS>
+      <bp:AUTHORS >Wang TJ</bp:AUTHORS>
+      <bp:AUTHORS >Hypp&#246;nen E</bp:AUTHORS>
+      <bp:AUTHORS >Kraft P</bp:AUTHORS>
+      <bp:AUTHORS >Kiel DP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >histidine degradation pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001267</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

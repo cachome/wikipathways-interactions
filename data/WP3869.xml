@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cannabinoid receptor signaling" Version="20160803" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Endogenous cannabinoid receptors belong to the endocannabinoid system and are located in the mammalian brain and throughout the central and peripheral nervous systems, consisting of neuromodulatory lipids and their receptors. The endocannabinoid system is involved in a variety of physiological processes including appetite, pain-sensation, mood, and memory, and in mediating the psychoactive effects of cannabis. Two primary endocannabinoid receptors have been identified: CNR1 and CNR2. CNR1 is found predominantly in the brain and nervous system, as well as in peripheral organs and tissues, and are the main molecular target of the endocannabinoid ligand (binding molecule), Anandamide, as well as its mimetic phytocannabinoid, THC (tetrahydrocannabinol). One other main endocannabinoid is 2-Arachidonoylglycerol (2-AG) which is active at both cannabinoid receptors, along with its own mimetic phytocannabinoid, CBD (cannabidiol). 2-AG and CBD are involved in the regulation of appetite, immune system functions and pain management.
+Source: https://en.wikipedia.org/wiki/Endocannabinoid_system 
+
+Not all MAPK subtypes are relevant for this pathway. The relevant types have been separately added on the right side of the pathway. 
+Source: Howlett A.C. Cannabinoid Receptor Signaling. In: Pertwee R.G. (eds) Cannabinoids. Handbook of Experimental Pharmacology, vol 168. Springer, Berlin, Heidelberg, 2005</Comment>
+  <Graphics BoardWidth="1056.3266706967806" BoardHeight="731.0"/>
+  <DataNode TextLabel="CYP3A4" GraphId="c5fd1" Type="GeneProduct" GroupRef="e5cb1">
+        </DataNode>
+  <DataNode TextLabel="CYP2C19" GraphId="eb2e3" Type="GeneProduct" GroupRef="e5cb1">
+    <BiopaxRef>bff</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="PRKACB" GraphId="a2e69" Type="GeneProduct" GroupRef="a6ccb">
+        </DataNode>
+  <DataNode TextLabel="MAPK11" GraphId="a3d6a" Type="GeneProduct" GroupRef="e7848">
+        </DataNode>
+  <DataNode TextLabel="PRKACA" GraphId="a986a" Type="GeneProduct" GroupRef="a6ccb">
+        </DataNode>
+  <DataNode TextLabel="MAPK9" GraphId="abee9" Type="GeneProduct" GroupRef="e7848">
+        </DataNode>
+  <DataNode TextLabel="MAPK10" GraphId="b043b" Type="GeneProduct" GroupRef="e7848">
+        </DataNode>
+  <DataNode TextLabel="MAPK14" GraphId="bfe0a" Type="GeneProduct" GroupRef="e7848">
+        </DataNode>
+  <DataNode TextLabel="MAPK8" GraphId="ccc2c" Type="GeneProduct" GroupRef="e7848">
+        </DataNode>
+  <DataNode TextLabel="MAPK12" GraphId="cf1d3" Type="GeneProduct" GroupRef="e7848">
+        </DataNode>
+  <DataNode TextLabel="ADCY1" GraphId="d149e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAPK3" GraphId="d29bc" Type="GeneProduct" GroupRef="e7848">
+        </DataNode>
+  <DataNode TextLabel="PRKAR1A" GraphId="d2b0c" Type="GeneProduct" GroupRef="a6ccb">
+        </DataNode>
+  <DataNode TextLabel="PRKAR2B" GraphId="d6a92" Type="GeneProduct" GroupRef="a6ccb">
+        </DataNode>
+  <DataNode TextLabel="MAPK1" GraphId="db729" Type="GeneProduct" GroupRef="e7848">
+        </DataNode>
+  <DataNode TextLabel="PRKAR1B" GraphId="e3f28" Type="GeneProduct" GroupRef="a6ccb">
+        </DataNode>
+  <DataNode TextLabel="PRKACG" GraphId="e787d" Type="GeneProduct" GroupRef="a6ccb">
+        </DataNode>
+  <DataNode TextLabel="MAPK13" GraphId="eab36" Type="GeneProduct" GroupRef="e7848">
+        </DataNode>
+  <DataNode TextLabel="PRKAR2A" GraphId="f5133" Type="GeneProduct" GroupRef="a6ccb">
+        </DataNode>
+  <DataNode TextLabel="CNR1" GraphId="bcb53" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYP2C9" GraphId="fb907" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="11-OH-THC" GraphId="bbf68" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MAPK " GraphId="dac65" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Phosphatidylethanolamine" GraphId="ec704" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DAGLB" GraphId="a9360" Type="GeneProduct" GroupRef="c674a">
+        </DataNode>
+  <DataNode TextLabel="cAMP " GraphId="e6283" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AHR" GraphId="e47d6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NAPEPLD" GraphId="a774a" Type="GeneProduct">
+    <BiopaxRef>f43</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ADCY7" GraphId="d6387" Type="GeneProduct">
+    <BiopaxRef>b2b</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NAPE" GraphId="ded9f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DAGLA" GraphId="b9d11" Type="GeneProduct" GroupRef="c674a">
+    <BiopaxRef>f43</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Arachidonic acid" GraphId="a2018" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="THC" GraphId="ad5a8" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="1''-hydroxycannabidiol" GraphId="b9709" Type="Metabolite" GroupRef="f80bc">
+    <BiopaxRef>bff</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="2-arachidonoylglycerol" GraphId="c300e" Type="Metabolite" GroupRef="ed314">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="protein tyrosine kinases" GraphId="c4413" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="FAAH" GraphId="b35dc" Type="GeneProduct">
+    <BiopaxRef>f43</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Glutamate" GraphId="a3564" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ADORA2A" GraphId="d9634" Type="GeneProduct">
+    <BiopaxRef>e7f</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="CNR2" GraphId="d579d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Calcium" GraphId="a374b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GABA " GraphId="be6ae" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CBD" GraphId="b20c1" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ATP" GraphId="fbf6c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AEA" GraphId="f7ac2" Type="Metabolite" GroupRef="ed314">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Anti-inflammatory pathways" GraphId="b4e42" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="COOH-THC" GraphId="be0ec" Type="Metabolite">
+    <BiopaxRef>d25</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CYP1A1" GraphId="b2178" Type="GeneProduct">
+    <BiopaxRef>dd7</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="ATP" GraphId="aac8b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="cAMP " GraphId="aa017" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CBD" GraphId="f38f7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="2''-hydroxycannabidiol " GraphId="b6000" Type="Metabolite" GroupRef="f80bc">
+    <BiopaxRef>bff</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="3''-hydroxycannabidiol " GraphId="a8f50" Type="Metabolite" GroupRef="f80bc">
+    <BiopaxRef>bff</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="4''-hydroxycannabidiol " GraphId="e74d3" Type="Metabolite" GroupRef="f80bc">
+    <BiopaxRef>bff</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="5''-hydroxycannabidiol " GraphId="b6010" Type="Metabolite" GroupRef="f80bc">
+    <BiopaxRef>bff</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="6a-hydroxycannabidiol  " GraphId="b2115" Type="Metabolite" GroupRef="f80bc">
+    <BiopaxRef>bff</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="6b-hydroxycannabidiol " GraphId="d14c9" Type="Metabolite" GroupRef="f80bc">
+    <BiopaxRef>bff</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="7-hydroxycannabidiol  " GraphId="be9db" Type="Metabolite" GroupRef="f80bc">
+    <BiopaxRef>bff</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PRKACB" GraphId="f5c98" Type="GeneProduct" GroupRef="c0b6d">
+        </DataNode>
+  <DataNode TextLabel="PRKACA" GraphId="bf9f8" Type="GeneProduct" GroupRef="c0b6d">
+        </DataNode>
+  <DataNode TextLabel="PRKAR1A" GraphId="f74bd" Type="GeneProduct" GroupRef="c0b6d">
+        </DataNode>
+  <DataNode TextLabel="PRKAR2B" GraphId="e8ff0" Type="GeneProduct" GroupRef="c0b6d">
+        </DataNode>
+  <DataNode TextLabel="PRKAR1B" GraphId="b368e" Type="GeneProduct" GroupRef="c0b6d">
+        </DataNode>
+  <DataNode TextLabel="PRKACG" GraphId="b9097" Type="GeneProduct" GroupRef="c0b6d">
+        </DataNode>
+  <DataNode TextLabel="PRKAR2A" GraphId="dd191" Type="GeneProduct" GroupRef="c0b6d">
+        </DataNode>
+  <DataNode TextLabel="PRKACB" GraphId="d8f24" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PRKACA" GraphId="f5de9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PRKAR1A" GraphId="a1eda" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PRKAR2B" GraphId="e1ca6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PRKAR1B" GraphId="d1bb6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PRKACG" GraphId="ada9d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PRKAR2A" GraphId="b1644" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="ida7eea394">
+    <Graphics>
+      <Point GraphRef="f7ac2"/>
+      <Point GraphRef="eba2e" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5805951408794997" Shape="None" GraphId="c8a57"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idadcde927">
+    <Graphics>
+      <Point GraphRef="aa017"/>
+      <Point GraphRef="f92cd" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb26069eb">
+    <Graphics>
+      <Point GraphRef="aac8b"/>
+      <Point GraphRef="aa017" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.44803995461638324" Shape="None" GraphId="ae787"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2fb5428e">
+    <Graphics>
+      <Point GraphRef="d579d"/>
+      <Point GraphRef="d6387" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcbff8645">
+    <Graphics>
+      <Point GraphRef="b20c1"/>
+      <Point GraphRef="d9634" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id635b63f9">
+    <Graphics>
+      <Point GraphRef="a2018"/>
+      <Point GraphRef="c300e" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.3376937058260406" Shape="None" GraphId="e5d0e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7f653755">
+    <Graphics>
+      <Point GraphRef="bcb53"/>
+      <Point GraphRef="dac65" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddf6bc193">
+    <Graphics>
+      <Point GraphRef="fb907"/>
+      <Point GraphRef="b7e78" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id66a29503">
+    <Graphics>
+      <Point GraphRef="f7ac2"/>
+      <Point GraphRef="bcb53" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9e3ff9c0">
+    <Graphics>
+      <Point GraphRef="c4413"/>
+      <Point GraphRef="b2178" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8f2539a1">
+    <Graphics>
+      <Point GraphRef="ded9f"/>
+      <Point GraphRef="f7ac2" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5250304421911033" Shape="None" GraphId="a5630"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaf0d839a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bcb53"/>
+      <Point GraphRef="be6ae" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2c49f403">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b20c1"/>
+      <Point/>
+      <Point GraphRef="a6c8a" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.3813333333333332" Shape="None" GraphId="c7b05"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcb468db4">
+    <BiopaxRef>ef5</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b20c1"/>
+      <Point GraphRef="bcb53" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfbfc0fd">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a374b"/>
+      <Point GraphRef="a774a" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb26224c6">
+    <Graphics>
+      <Point GraphRef="a352c"/>
+      <Point GraphRef="e5d0e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id566b671e">
+    <Graphics>
+      <Point GraphRef="ec704"/>
+      <Point GraphRef="ded9f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfb21e50a">
+    <Graphics>
+      <Point GraphRef="d9634"/>
+      <Point GraphRef="b4e42" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9b949cac">
+    <Graphics>
+      <Point GraphRef="a774a"/>
+      <Point GraphRef="a5630" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida09820b1">
+    <Graphics>
+      <Point GraphRef="fb907"/>
+      <Point GraphRef="e8a6b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb02cb54c">
+    <Graphics>
+      <Point GraphRef="a2aab"/>
+      <Point GraphRef="c7b05" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id88127f88">
+    <Graphics>
+      <Point GraphRef="d6387"/>
+      <Point GraphRef="ae787" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2bcd6568">
+    <Graphics>
+      <Point GraphRef="f38f7"/>
+      <Point GraphRef="d579d" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7a2c5244">
+    <Graphics>
+      <Point GraphRef="fbf6c"/>
+      <Point GraphRef="e6283" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4494253530790781" Shape="None" GraphId="f6c9c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id70eef511">
+    <Graphics>
+      <Point GraphRef="b35dc"/>
+      <Point GraphRef="c8a57" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id64bb62e9">
+    <Graphics>
+      <Point GraphRef="d149e"/>
+      <Point GraphRef="f6c9c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id79ab07b2">
+    <Graphics>
+      <Point GraphRef="e6283"/>
+      <Point GraphRef="a31a3" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3a386560">
+    <Graphics>
+      <Point GraphRef="bcb53"/>
+      <Point GraphRef="d149e" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb9b6c69">
+    <Graphics>
+      <Point GraphRef="c300e"/>
+      <Point GraphRef="d579d" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6a3d2168">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bcb53"/>
+      <Point GraphRef="a3564" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id955803ea">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b20c1"/>
+      <Point/>
+      <Point GraphRef="e47d6" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf0a6607a">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="a374b"/>
+      <Point GraphRef="a352c" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5d2c054a">
+    <Graphics>
+      <Point GraphRef="ad5a8"/>
+      <Point GraphRef="bcb53" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idce1677fd">
+    <Graphics>
+      <Point GraphRef="bbf68"/>
+      <Point GraphRef="be0ec" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.669790598916386" Shape="None" GraphId="e8a6b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2eb7c766">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bbf68"/>
+      <Point/>
+      <Point GraphRef="bcb53" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id13dcbab6">
+    <Graphics>
+      <Point GraphRef="ad5a8"/>
+      <Point GraphRef="bbf68" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b7e78"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbd3d1d7b">
+    <Graphics>
+      <Point GraphRef="e47d6"/>
+      <Point GraphRef="c4413" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ea2d8">
+    <Graphics>
+      <Point GraphRef="c300e"/>
+      <Point GraphRef="bcb53" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="idfc4efdf7">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Relevant MAPK &#10;subtypes" GraphId="adbc5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="endogenous cannabinoids" GraphId="c7305">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PKA" GraphId="d6353">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CBD catabolism" GraphId="e3ac0">
+    <Graphics FillColor="ffffff" Color="ff0033"/>
+  </Label>
+  <Label TextLabel="Neuronal cell of CNS&#10;(hyppocampus, cerebellum or basal ganglia)" GraphId="c28a6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="inactive" GraphId="e6ade">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inhibition of Glutamate or GABA &#10;release in synaptic cleft" GraphId="c09bf">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Leukocytes, spleen, thymus, bone marrow&#10;and other tissues associated with immune functions" GraphId="e2864">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="HepG2 cells" GraphId="cede7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="endogeneous cannabinoid &#10;synthesis" GraphId="df7fa">
+    <Graphics FillColor="ffffff" Color="ff0033"/>
+  </Label>
+  <Label TextLabel="PKA regulatory &#10;subunit type I" GraphId="b4c57">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PKA&#10;catalytic &#10;subunit" GraphId="ceb32">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PKA regulatory &#10;subunit type II" GraphId="e84aa">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PKA" GraphId="bd62d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="a0326">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="fa1d3">
+    <Graphics ShapeType="Rectangle" Color="999999"/>
+  </Shape>
+  <Shape GraphId="f8216">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="eba2e">
+    <Graphics ShapeType="mim-degradation"/>
+  </Shape>
+  <Shape GraphId="e6b47">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="e5cb1" GraphId="a2aab" Style="Group"/>
+  <Group GroupId="c0b6d" GraphId="a31a3" Style="Complex"/>
+  <Group GroupId="c674a" GraphId="a352c" Style="Complex"/>
+  <Group GroupId="f80bc" GraphId="a6c8a" Style="Group"/>
+  <Group GroupId="ed314" GraphId="b30ac" Style="Group"/>
+  <Group GroupId="e7848" GraphId="b4b73" Style="Group"/>
+  <Group GroupId="dc585" GraphId="b928e" Style="Complex"/>
+  <Group GroupId="a5015" GraphId="dce18" Style="Complex"/>
+  <Group GroupId="a6ccb" GraphId="f92cd" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f43">
+      <bp:ID >23108542</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Endocannabinoids via CB&#195;&#162;&#226;&#8364;&#353;&#239;&#191;&#189; receptors act as neurogenic niche cues during cortical development.</bp:TITLE>
+      <bp:SOURCE >Philos Trans R Soc Lond B Biol Sci</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >D&#195;&#402;&#194;&#173;az-Alonso J</bp:AUTHORS>
+      <bp:AUTHORS >Guzm&#195;&#402;&#194;&#161;n M</bp:AUTHORS>
+      <bp:AUTHORS >Galve-Roperh I</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cannabinoid signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001163</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d25">
+      <bp:ID >27106177</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Pharmacokinetic Drug Interactions with Tobacco, Cannabinoids and Smoking Cessation Products.</bp:TITLE>
+      <bp:SOURCE >Clin Pharmacokinet</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Anderson GD</bp:AUTHORS>
+      <bp:AUTHORS >Chan LN</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >leukocyte</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000738</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dd7">
+      <bp:ID >26187180</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cannabidiol induces expression of human cytochrome P450 1A1 that is possibly mediated through aryl hydrocarbon receptor signaling in HepG2 cells.</bp:TITLE>
+      <bp:SOURCE >Life Sci</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Yamaori S</bp:AUTHORS>
+      <bp:AUTHORS >Kinugasa Y</bp:AUTHORS>
+      <bp:AUTHORS >Jiang R</bp:AUTHORS>
+      <bp:AUTHORS >Takeda S</bp:AUTHORS>
+      <bp:AUTHORS >Yamamoto I</bp:AUTHORS>
+      <bp:AUTHORS >Watanabe K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >xenobiotic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001229</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e7f">
+      <bp:ID >16672367</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Inhibition of an equilibrative nucleoside transporter by cannabidiol: a mechanism of cannabinoid immunosuppression.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Carrier EJ</bp:AUTHORS>
+      <bp:AUTHORS >Auchampach JA</bp:AUTHORS>
+      <bp:AUTHORS >Hillard CJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef5">
+      <bp:ID >26218440</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cannabidiol is a negative allosteric modulator of the cannabinoid CB1 receptor.</bp:TITLE>
+      <bp:SOURCE >Br J Pharmacol</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Laprairie RB</bp:AUTHORS>
+      <bp:AUTHORS >Bagher AM</bp:AUTHORS>
+      <bp:AUTHORS >Kelly ME</bp:AUTHORS>
+      <bp:AUTHORS >Denovan-Wright EM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bff">
+      <bp:ID >21704641</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification of cytochrome P450 enzymes responsible for metabolism of cannabidiol by human liver microsomes.</bp:TITLE>
+      <bp:SOURCE >Life Sci</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Jiang R</bp:AUTHORS>
+      <bp:AUTHORS >Yamaori S</bp:AUTHORS>
+      <bp:AUTHORS >Takeda S</bp:AUTHORS>
+      <bp:AUTHORS >Yamamoto I</bp:AUTHORS>
+      <bp:AUTHORS >Watanabe K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b2b">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE />
+      <bp:SOURCE >http://www.genecards.org/cgi-bin/carddisp.pl?gene=CNR2&amp;keywords=cnr2</bp:SOURCE>
+      <bp:YEAR />
+      <bp:AUTHORS />
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >neuron</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000540</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

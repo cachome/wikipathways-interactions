@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Hepatocyte growth factor receptor signaling" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Signaling pathway of the Hepatocyte Growth Factor Receptor (Homo sapiens) also know as C-Met. The C-Met activation results in the stimulation of a variety of intracellular signalling pathways, which regulate several processes such as: motility, migration, proliferation and invasion.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP313 CPTAC Assay Portal].</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <BiopaxRef>bd0</BiopaxRef>
+  <Graphics BoardWidth="964.1666666666667" BoardHeight="705.0"/>
+  <DataNode TextLabel="FOS" GraphId="ffb" Type="GeneProduct" GroupRef="d658e">
+        </DataNode>
+  <DataNode TextLabel="PTPN11" GraphId="f7a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ELK1" GraphId="c92" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAP4K1" GraphId="c3e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PXN" GraphId="f8b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAPK1" GraphId="cf0" Type="GeneProduct" GroupRef="de5d2">
+        </DataNode>
+  <DataNode TextLabel="PIK3CA" GraphId="d55" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PAK1" GraphId="d46" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GRB2" GraphId="eb2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PXN" GraphId="aec" Type="GeneProduct" GroupRef="c1e29">
+        </DataNode>
+  <DataNode TextLabel="MAPK8" GraphId="d51" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Met" GraphId="c41" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PTK2B" GraphId="c28" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="JUN" GraphId="e66" Type="GeneProduct" GroupRef="d658e">
+        </DataNode>
+  <DataNode TextLabel="SRC" GraphId="c7d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RAP1B" GraphId="a5c" Type="GeneProduct" GroupRef="d2132">
+        </DataNode>
+  <DataNode TextLabel="CRKL" GraphId="da7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GAB1" GraphId="afd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SRC" GraphId="a72" Type="GeneProduct" GroupRef="c1e29">
+        </DataNode>
+  <DataNode TextLabel="HRAS" GraphId="df3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="dad" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CRK" GraphId="a8c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PTEN" GraphId="b84" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAP2K2" GraphId="bda" Type="GeneProduct" GroupRef="c7fcd">
+        </DataNode>
+  <DataNode TextLabel="RAF1" GraphId="a5b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PTK2" GraphId="eaa" Type="GeneProduct" GroupRef="c1e29">
+        </DataNode>
+  <DataNode TextLabel="RAPGEF1" GraphId="a2a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RASA1" GraphId="c07" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAPK3" GraphId="fdb" Type="GeneProduct" GroupRef="de5d2">
+        </DataNode>
+  <DataNode TextLabel="RAP1A" GraphId="ca6" Type="GeneProduct" GroupRef="d2132">
+        </DataNode>
+  <DataNode TextLabel="MAP2K1" GraphId="c51" Type="GeneProduct" GroupRef="c7fcd">
+        </DataNode>
+  <DataNode TextLabel="ITGB1" GraphId="f3b" Type="GeneProduct" GroupRef="c1e29">
+        </DataNode>
+  <DataNode TextLabel="PTK2" GraphId="a77" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DOCK1" GraphId="f79" Type="GeneProduct">
+    <Comment Source="GenMAPP remarks">Interim Symbol: Dock1 predicted and Name: dedicator of cyto-kinesis 1 (predicted)</Comment>
+        </DataNode>
+  <DataNode TextLabel="HGF" GraphId="bb6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PTK2B" GraphId="ac5" Type="GeneProduct" GroupRef="c1e29">
+        </DataNode>
+  <DataNode TextLabel="ITGA1" GraphId="c8a" Type="GeneProduct" GroupRef="c1e29">
+        </DataNode>
+  <DataNode TextLabel="SOS1" GraphId="e2a" Type="GeneProduct">
+    <Comment Source="GenMAPP remarks">Son of sevenless homolog 1 (Drosophila) (predicted)</Comment>
+        </DataNode>
+  <State GraphRef="f8b" TextLabel="P" GraphId="a2b50">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c07" TextLabel="p" GraphId="b08e7">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a77" TextLabel="p" GraphId="eb45b">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="c4960">
+    <BiopaxRef>bd0</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c41" ArrowHead="mim-binding"/>
+      <Point GraphRef="bb6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d8888">
+    <Graphics>
+      <Point GraphRef="f451e"/>
+      <Point GraphRef="c92" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fda6d">
+    <Graphics>
+      <Point GraphRef="a5b"/>
+      <Point GraphRef="d9ca0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c564b">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f451e"/>
+      <Point GraphRef="c506b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ca8e5">
+    <Graphics>
+      <Point GraphRef="f79"/>
+      <Point GraphRef="c3f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b8547">
+    <Graphics>
+      <Point GraphRef="d9ca0"/>
+      <Point GraphRef="f451e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ac57c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="eaa"/>
+      <Point GraphRef="d55" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6dc5">
+    <Graphics Color="ff0000">
+      <Point GraphRef="b84"/>
+      <Point GraphRef="ccdc3" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ccc1c">
+    <Graphics>
+      <Point GraphRef="a8c"/>
+      <Point GraphRef="c3e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b4308">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="afd"/>
+      <Point GraphRef="e8880" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f6305">
+    <Graphics>
+      <Point GraphRef="da7"/>
+      <Point GraphRef="c3e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df4d2">
+    <Graphics>
+      <Point GraphRef="dad"/>
+      <Point GraphRef="ae7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a0e54">
+    <Graphics>
+      <Point GraphRef="afd"/>
+      <Point GraphRef="a8c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ae8e9">
+    <Graphics>
+      <Point GraphRef="da7"/>
+      <Point GraphRef="a2a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a80e5">
+    <Graphics ConnectorType="Elbow" Color="ff0000">
+      <Point GraphRef="d46"/>
+      <Point GraphRef="f87" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a634f">
+    <Graphics>
+      <Point GraphRef="c09a0"/>
+      <Point GraphRef="f451e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0c0f">
+    <Graphics>
+      <Point GraphRef="a5c"/>
+      <Point GraphRef="b91" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fc447">
+    <Graphics>
+      <Point GraphRef="a16"/>
+      <Point GraphRef="d46" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6903">
+    <Graphics>
+      <Point GraphRef="d0f"/>
+      <Point GraphRef="f87" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d59ad">
+    <Graphics>
+      <Point GraphRef="df3"/>
+      <Point GraphRef="a5b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eafcf">
+    <Graphics>
+      <Point GraphRef="f7a"/>
+      <Point GraphRef="df3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ec44a">
+    <Graphics>
+      <Point GraphRef="afd"/>
+      <Point GraphRef="da7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b236d">
+    <Graphics>
+      <Point GraphRef="a2a"/>
+      <Point GraphRef="ca6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fc043">
+    <Graphics>
+      <Point GraphRef="da7"/>
+      <Point GraphRef="f79" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa47e">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d55"/>
+      <Point GraphRef="a16" ArrowHead="Arrow"/>
+      <Anchor Position="0.6092734890442095" Shape="None" GraphId="e8880"/>
+      <Anchor Position="0.741109132977068" Shape="None" GraphId="ccdc3"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c3d8a">
+    <Graphics>
+      <Point GraphRef="c92"/>
+      <Point GraphRef="ae7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f938e">
+    <Graphics>
+      <Point GraphRef="c3e"/>
+      <Point GraphRef="d51" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c51df">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ae7"/>
+      <Point GraphRef="a50" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2c05">
+    <Graphics>
+      <Point GraphRef="d51"/>
+      <Point GraphRef="d0f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d7e05">
+    <Graphics>
+      <Point GraphRef="dd4"/>
+      <Point GraphRef="f87" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c26e7">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d55"/>
+      <Point GraphRef="dad" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d1075">
+    <Graphics>
+      <Point GraphRef="c506b"/>
+      <Point GraphRef="dd4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ce3ac">
+    <Graphics>
+      <Point GraphRef="f76"/>
+      <Point GraphRef="a50" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="c091c">
+    <Graphics Color="cccccc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="idf9cf04dd">
+    <Graphics Color="cccccc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Trancription" GraphId="ae7">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="AKT Pathway" GraphId="a16">
+    <Graphics FillColor="ffffff" Color="008000"/>
+  </Label>
+  <Label TextLabel="Transcription&#10;of Cox2" GraphId="dd4">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Cytoplasm" GraphId="d16">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="RAC1&#10;pathway" GraphId="c3f">
+    <Graphics FillColor="ffffff" Color="008000"/>
+  </Label>
+  <Label TextLabel="Changes in Cytoskeleton&#10;and Cell mobility" GraphId="a50">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Actin" GraphId="e2c" GroupRef="c1e29">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AP-1" GraphId="a8d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Extracellular" GraphId="b14">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="Transcription" GraphId="d0f">
+    <Graphics FillColor="ffffff" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Anoikis" GraphId="f87">
+    <Graphics FillColor="ffffff" FontStyle="Italic" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="RHO&#10;pathway" GraphId="f76">
+    <Graphics FillColor="ffffff" Color="008000"/>
+  </Label>
+  <Label TextLabel="CDC42&#10;pathway" GraphId="b91">
+    <Graphics FillColor="ffffff" Color="008000"/>
+  </Label>
+  <Shape GraphId="fee">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="e34">
+    <Graphics FillColor="efefef" ShapeType="Rectangle"/>
+  </Shape>
+  <Group GroupId="d2132" GraphId="c09a0"/>
+  <Group GroupId="d658e" GraphId="c506b"/>
+  <Group GroupId="c7fcd" GraphId="d9ca0"/>
+  <Group GroupId="de5d2" GraphId="f451e"/>
+  <Group GroupId="c1e29" GraphId="fc598"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Rho/Rac/Cdc42 mediated signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000105</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >scatter factor/hepatocyte growth factor signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000578</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >hepatocyte</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000182</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd0">
+      <bp:ID >22128289</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >An overview of the c-MET signaling pathway.</bp:TITLE>
+      <bp:SOURCE >Ther Adv Med Oncol</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Organ SL</bp:AUTHORS>
+      <bp:AUTHORS >Tsao MS</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

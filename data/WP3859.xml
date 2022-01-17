@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="TGF-beta signaling in thyroid cells for epithelial-mesenchymal transition" Version="20160720" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway is based on the Figure 7 of "Cadherin 6 Is a New RUNX2 Target in TGF-&#946; Signalling Pathway" (see bibliography). TGF-B is a target gene in thyroid cells in the causation of cancer. When TGF-B is activated, the pathway can take 2 directions, through a SMAD pathway or a Non-Smad pathway. Through the SMAD pathway, SMAD separates into SMAD2/3, SMAD4, and involves phosphates into the nuclear signalling. Through the Non-SMAD pathway, the activation of MAPK and Pi3k  causes the activation of ERK, AKT and phosphates, and then into the nuclear signalling. Within the nuclear signalling, EMT-TF has two responses, early and late. With the early response, EMT-TF signals to Id1 and RUNX2, and with the late response, EMT-TF signals to Snai1 and Snai2. Depending on the response also dictates the type of marker that will follow. If early, N-CAD,FN1,VIM,TNC, and CDH6 all cause the activation of the Mesenchymal markers. If late, E-CAD, and CDH16 cause the inhibition of the Epithelial Markers.  
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3859 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>b96</BiopaxRef>
+  <Graphics BoardWidth="952.0" BoardHeight="778.0"/>
+  <DataNode TextLabel="RUNX2" GraphId="aa28a" Type="GeneProduct" GroupRef="b4118">
+        </DataNode>
+  <DataNode TextLabel="PI3K" GraphId="bb463" Type="GeneProduct" GroupRef="bc3e5">
+        </DataNode>
+  <DataNode TextLabel="CDH16" GraphId="bc048" Type="GeneProduct" GroupRef="fda77">
+        </DataNode>
+  <DataNode TextLabel="N-CAD" GraphId="bca32" Type="Protein" GroupRef="f21a4">
+        </DataNode>
+  <DataNode TextLabel="E-CAD" GraphId="bf323" Type="GeneProduct" GroupRef="fda77">
+        </DataNode>
+  <DataNode TextLabel="TNC" GraphId="c0bc3" Type="GeneProduct" GroupRef="f21a4">
+        </DataNode>
+  <DataNode TextLabel="ERK" GraphId="cd72c" Type="GeneProduct" GroupRef="d2c98">
+    <Comment>ERK Not Specified</Comment>
+        </DataNode>
+  <DataNode TextLabel="SMAD3" GraphId="ceff3" Type="GeneProduct" GroupRef="cb6c8">
+        </DataNode>
+  <DataNode TextLabel="SMAD4" GraphId="cffb6" Type="GeneProduct" GroupRef="cb6c8">
+        </DataNode>
+  <DataNode TextLabel="ID1" GraphId="d3f43" Type="GeneProduct" GroupRef="b4118">
+        </DataNode>
+  <DataNode TextLabel="MAPK" GraphId="e213a" Type="GeneProduct" GroupRef="bc3e5">
+    <Comment>MAPK Not Specified</Comment>
+        </DataNode>
+  <DataNode TextLabel="FN1" GraphId="e588e" Type="GeneProduct" GroupRef="f21a4">
+        </DataNode>
+  <DataNode TextLabel="SNAI1" GraphId="e61cb" Type="GeneProduct" GroupRef="b4118">
+        </DataNode>
+  <DataNode TextLabel="CDH6" GraphId="e7aaa" Type="GeneProduct" GroupRef="f21a4">
+        </DataNode>
+  <DataNode TextLabel="VIM" GraphId="e80c5" Type="GeneProduct" GroupRef="f21a4">
+        </DataNode>
+  <DataNode TextLabel="SMAD2" GraphId="eb8a1" Type="GeneProduct" GroupRef="cb6c8">
+        </DataNode>
+  <DataNode TextLabel="TGF-B" GraphId="ed2da" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SNAI2" GraphId="eebfe" Type="GeneProduct" GroupRef="b4118">
+        </DataNode>
+  <DataNode TextLabel="AKT" GraphId="fe4d6" Type="GeneProduct" GroupRef="d2c98">
+    <Comment>AKT Not Specified</Comment>
+        </DataNode>
+  <State GraphRef="eb8a1" TextLabel="P" GraphId="a1d08">
+    <Comment>Phosphate</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ceff3" TextLabel="P" GraphId="aa0e6">
+    <Comment>Phosphate</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ed2da" TextLabel="P" GraphId="aacc0">
+    <Comment>Phosphate</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ed2da" TextLabel="P" GraphId="afa87">
+    <Comment>Phosphate</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="cd72c" TextLabel="P" GraphId="b913a">
+    <Comment>Phosphate</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ed2da" TextLabel="P" GraphId="d1547">
+    <Comment>Phosphate</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="fe4d6" TextLabel="P" GraphId="fbd86">
+    <Comment>Phosphate</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="d6f99"/>
+      <Point GraphRef="a70ab" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="d6f99"/>
+      <Point GraphRef="e8c07" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id681829e0">
+    <Graphics>
+      <Point GraphRef="c2bb2"/>
+      <Point GraphRef="ec4cd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7259e8c5">
+    <Graphics>
+      <Point GraphRef="ba481"/>
+      <Point GraphRef="ec4cd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7deca69d">
+    <Graphics>
+      <Point GraphRef="bb463"/>
+      <Point GraphRef="cd72c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaa96bebe">
+    <Graphics>
+      <Point GraphRef="ed2da"/>
+      <Point GraphRef="c5473" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb710c8eb">
+    <Graphics>
+      <Point GraphRef="ed2da"/>
+      <Point GraphRef="ba481" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idced16063">
+    <Graphics>
+      <Point GraphRef="e213a"/>
+      <Point GraphRef="fe4d6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="SMAD Pathway" GraphId="a4c35">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Late Response TF" GraphId="a5eeb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Epithelial Markers" GraphId="df932">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="EMT Transcription Factors" GraphId="ec4cd">
+    <Comment>Epithelial-Mesenchymal Transition Transcription Factors</Comment>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Mesenchymal Markers" GraphId="f0dde">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Non-SMAD Pathway" GraphId="e53af">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Early Response TF" GraphId="dc5f9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="be760">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="fd9d4">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="f21a4" GraphId="a70ab" Style="Group"/>
+  <Group GroupId="cb6c8" GraphId="ba481" Style="Complex"/>
+  <Group GroupId="d2c98" GraphId="c2bb2" Style="Group"/>
+  <Group GroupId="bc3e5" GraphId="c5473" Style="Group"/>
+  <Group GroupId="b4118" GraphId="d6f99" Style="Group"/>
+  <Group GroupId="fda77" GraphId="e8c07" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >thyroid cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:1781</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b96">
+      <bp:ID >24069422</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Cadherin 6 is a new RUNX2 target in TGF-&#946; signalling pathway.</bp:TITLE>
+      <bp:SOURCE >PLoS One</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Sancisi V</bp:AUTHORS>
+      <bp:AUTHORS >Gandolfi G</bp:AUTHORS>
+      <bp:AUTHORS >Ragazzi M</bp:AUTHORS>
+      <bp:AUTHORS >Nicoli D</bp:AUTHORS>
+      <bp:AUTHORS >Tamagnini I</bp:AUTHORS>
+      <bp:AUTHORS >Piana S</bp:AUTHORS>
+      <bp:AUTHORS >Ciarrocchi A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="H19 action Rb-E2F1 signaling and CDK-Beta-catenin activity" Version="20170306" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">In this proposed model, H19 interacts with macroH2A, and this may consequently lead to de-repression of genes including CDK8, CDK4, and CCND1. Increased CDK4-cyclin D1 complex phosphorylates Rb to disrupt Rb-E2F1 interaction, leading to E2F1 activation. The increase of CDK8 expression enhances the function of mediator complex including MED1, and facilitates the gene regulation by &#946;-catenin. These downstream targets could work in a synergistic way of promoting cell proliferation and increasing cell motility in CRC.
+Reference: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5264449/
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3969 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>cdc</BiopaxRef>
+  <Graphics BoardWidth="650.002004008016" BoardHeight="527.5420841683372"/>
+  <DataNode TextLabel="macroH2A" GraphId="aacb8" Type="GeneProduct" GroupRef="d524f">
+        </DataNode>
+  <DataNode TextLabel="CDK4" GraphId="ab405" Type="GeneProduct" GroupRef="bdebf">
+        </DataNode>
+  <DataNode TextLabel="H19" GraphId="ab411" Type="Rna" GroupRef="d524f">
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="G1-S transition" GraphId="dea00" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="fe54e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CCND1" GraphId="a545e" Type="GeneProduct" GroupRef="bdebf">
+        </DataNode>
+  <DataNode TextLabel="E2F1" GraphId="df2bb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CDK8" GraphId="ca5ca" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CDK8" GraphId="e3a0e" Type="GeneProduct" GroupRef="c8040">
+        </DataNode>
+  <DataNode TextLabel="MED1" GraphId="d5a02" Type="GeneProduct" GroupRef="c8040">
+        </DataNode>
+  <DataNode TextLabel="CSRP2" GraphId="e5f2c" Type="GeneProduct" GroupRef="ac7c0">
+        </DataNode>
+  <DataNode TextLabel="JAG1" GraphId="a66fd" Type="GeneProduct" GroupRef="ac7c0">
+        </DataNode>
+  <DataNode TextLabel="SOX4" GraphId="f279d" Type="GeneProduct" GroupRef="ac7c0">
+        </DataNode>
+  <DataNode TextLabel="CDH1" GraphId="e95b1" Type="GeneProduct" GroupRef="fbbec">
+        </DataNode>
+  <DataNode TextLabel="TULP3" GraphId="b3438" Type="GeneProduct" GroupRef="fbbec">
+        </DataNode>
+  <DataNode TextLabel="PMAIP1" GraphId="f8b16" Type="GeneProduct" GroupRef="fbbec">
+        </DataNode>
+  <DataNode TextLabel="RB1" GraphId="ad1bc" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="E2F1" GraphId="c32fb" Type="GeneProduct" GroupRef="b99fc">
+        </DataNode>
+  <DataNode TextLabel="RB1" GraphId="c9bb7" Type="GeneProduct" GroupRef="b99fc">
+        </DataNode>
+  <State GraphRef="ad1bc" TextLabel="P" GraphId="f7e81">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="a00f8"/>
+      <Point GraphRef="df2bb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2e7e9608">
+    <Graphics>
+      <Point GraphRef="d643c"/>
+      <Point GraphRef="c888f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id67204f6c">
+    <Graphics>
+      <Point GraphRef="fe54e"/>
+      <Point GraphRef="f558b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8f30766f">
+    <Graphics>
+      <Point GraphRef="df2bb"/>
+      <Point GraphRef="dea00" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id947172ed">
+    <Graphics>
+      <Point GraphRef="ca5ca"/>
+      <Point GraphRef="fe54e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id99c9121f">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="f11cd"/>
+      <Point GraphRef="ca5ca" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc02d1cf8">
+    <Graphics>
+      <Point GraphRef="dea00"/>
+      <Point GraphRef="f61a0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd2f7294d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d955e"/>
+      <Point GraphRef="d8d56" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd54b8361">
+    <Graphics>
+      <Point GraphRef="a00f8"/>
+      <Point GraphRef="ad1bc" ArrowHead="Arrow"/>
+      <Anchor Position="0.47848571091176906" Shape="None" GraphId="d8d56"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd975a653">
+    <Graphics>
+      <Point GraphRef="b827a"/>
+      <Point GraphRef="f61a0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddeb3a82e">
+    <Graphics>
+      <Point GraphRef="ca5ca"/>
+      <Point GraphRef="b827a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idedaf9dc2">
+    <Graphics>
+      <Point GraphRef="fe54e"/>
+      <Point GraphRef="d643c" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idef46713c">
+    <Graphics>
+      <Point GraphRef="f558b"/>
+      <Point GraphRef="f61a0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2ad6">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f11cd"/>
+      <Point GraphRef="d955e" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a1939">
+    <Graphics>
+      <Point GraphRef="d643c"/>
+      <Point GraphRef="f61a0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2dee">
+    <Graphics>
+      <Point GraphRef="f558b"/>
+      <Point GraphRef="c888f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3447">
+    <Graphics>
+      <Point GraphRef="ca5ca"/>
+      <Point GraphRef="dea00" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="CRC growth" GraphId="f61a0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CRC migration" GraphId="c888f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Group GroupId="b99fc" GraphId="a00f8" Style="Group"/>
+  <Group GroupId="c8040" GraphId="b827a" Style="Group"/>
+  <Group GroupId="fbbec" GraphId="d643c" Style="Group"/>
+  <Group GroupId="bdebf" GraphId="d955e" Style="Group"/>
+  <Group GroupId="d524f" GraphId="f11cd" Style="Group"/>
+  <Group GroupId="ac7c0" GraphId="f558b" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cdc">
+      <bp:ID >27789274</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >H19 Noncoding RNA, an Independent Prognostic Factor, Regulates Essential Rb-E2F and CDK8-&#946;-Catenin Signaling in Colorectal Cancer.</bp:TITLE>
+      <bp:SOURCE >EBioMedicine</bp:SOURCE>
+      <bp:YEAR >2016</bp:YEAR>
+      <bp:AUTHORS >Ohtsuka M</bp:AUTHORS>
+      <bp:AUTHORS >Ling H</bp:AUTHORS>
+      <bp:AUTHORS >Ivan C</bp:AUTHORS>
+      <bp:AUTHORS >Pichler M</bp:AUTHORS>
+      <bp:AUTHORS >Matsushita D</bp:AUTHORS>
+      <bp:AUTHORS >Goblirsch M</bp:AUTHORS>
+      <bp:AUTHORS >Stiegelbauer V</bp:AUTHORS>
+      <bp:AUTHORS >Shigeyasu K</bp:AUTHORS>
+      <bp:AUTHORS >Zhang X</bp:AUTHORS>
+      <bp:AUTHORS >Chen M</bp:AUTHORS>
+      <bp:AUTHORS >Vidhu F</bp:AUTHORS>
+      <bp:AUTHORS >Bartholomeusz GA</bp:AUTHORS>
+      <bp:AUTHORS >Toiyama Y</bp:AUTHORS>
+      <bp:AUTHORS >Kusunoki M</bp:AUTHORS>
+      <bp:AUTHORS >Doki Y</bp:AUTHORS>
+      <bp:AUTHORS >Mori M</bp:AUTHORS>
+      <bp:AUTHORS >Song S</bp:AUTHORS>
+      <bp:AUTHORS >Gunther JR</bp:AUTHORS>
+      <bp:AUTHORS >Krishnan S</bp:AUTHORS>
+      <bp:AUTHORS >Slaby O</bp:AUTHORS>
+      <bp:AUTHORS >Goel A</bp:AUTHORS>
+      <bp:AUTHORS >Ajani JA</bp:AUTHORS>
+      <bp:AUTHORS >Radovich M</bp:AUTHORS>
+      <bp:AUTHORS >Calin GA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >colorectal cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:9256</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

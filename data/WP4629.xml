@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Aerobic glycolysis" Last-Modified="6/03/2019" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="WikiPathways-description">Glycolysis is the metabolic pathway that converts glucose C6H12O6, into pyruvate, CH3COCOO- and H+. The free energy released in this process is used to form the ATP and NADH.
+This pathway was made during a research project at the UMCG, concerning changed glycolytic fluxes during the Warburg Effect. It is an extended version of the glycolysis pathway (WP534), and is descriptive of the content that is provided in the computer model of Shestov et al (2014).
+A second version, containing the content of the model itself as well as the corresponding supplement and article, can be found here [https://www.wikipathways.org/index.php/Pathway:WP4628]
+
+This pathway was uploaded to provide a high resolution version to readers of the thesis.
+Description and pathway adapted from [https://www.wikipathways.org/index.php/Pathway:WP534]
+Referred article: Shestov et al., 2014 [https://www.ncbi.nlm.nih.gov/pubmed/25009227]</Comment>
+  <Comment Source="GenMAPP notes"/>
+  <Comment Source="GenMAPP remarks"/>
+  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
+  <Graphics BoardWidth="1019.7569782977636" BoardHeight="1039.7728653896197"/>
+  <DataNode TextLabel="ATP" GraphId="d5702" Type="Metabolite" GroupRef="bb8f7">
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="AMP" GraphId="ee4ab" Type="Metabolite" GroupRef="bb8f7">
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="O2e" GraphId="b1815" Type="Metabolite" GroupRef="d2982">
+    <Graphics FillColor="ff3300" ShapeType="Oval" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="H" GraphId="ef8b4" Type="Metabolite" GroupRef="c6e5a">
+    <Graphics ShapeType="Oval" Color="00cccc"/>
+    </DataNode>
+  <DataNode TextLabel="HK" GraphId="cc85c" Type="GeneProduct">
+    <Graphics FillColor="99ff99"/>
+    </DataNode>
+  <DataNode TextLabel="GLUT" GraphId="f9637" Type="GeneProduct">
+    <Graphics FillColor="99ff99"/>
+    </DataNode>
+  <DataNode TextLabel="_2PG" GraphId="a6bc9" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="BPG" GraphId="ae265" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PYR" GraphId="df744" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GAP" GraphId="dd104" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PGK&#10;" GraphId="b9cbd" Type="GeneProduct">
+    <Graphics FillColor="99ff99"/>
+    </DataNode>
+  <DataNode TextLabel="ENO" GraphId="daabb" Type="GeneProduct">
+    <Graphics FillColor="99ff99"/>
+    </DataNode>
+  <DataNode TextLabel="ATP" GraphId="eca64" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="GPI" GraphId="ae83f" Type="GeneProduct">
+    <Comment>glucose-6-phosphate isomerase</Comment>
+    <Graphics FillColor="99ff99"/>
+    </DataNode>
+  <DataNode TextLabel="LDH&#10;" GraphId="ca23f" Type="GeneProduct">
+    <Graphics FillColor="99ff99"/>
+    </DataNode>
+  <DataNode TextLabel="G6P" GraphId="f9a44" Type="Metabolite">
+    <Comment>Glucose-6-Phosphate (2-)</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="LAC" GraphId="d069e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PEP" GraphId="f56ff" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PK" GraphId="fbe23" Type="GeneProduct">
+    <Graphics FillColor="99ff99"/>
+    </DataNode>
+  <DataNode TextLabel="_3PG" GraphId="bbb71" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="H" GraphId="fb00b" Type="Metabolite" GroupRef="d40a0">
+    <Graphics ShapeType="Oval" Color="00cccc"/>
+    </DataNode>
+  <DataNode TextLabel="GLU" GraphId="e51e3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="F6P" GraphId="e2849" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DHAP" GraphId="f4df9" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ALD" GraphId="a8e1c" Type="GeneProduct">
+    <Graphics FillColor="99ff99"/>
+    </DataNode>
+  <DataNode TextLabel="PFK" GraphId="b5af6" Type="GeneProduct">
+    <Comment>Type your comment here</Comment>
+    <Graphics FillColor="99ff99"/>
+    </DataNode>
+  <DataNode TextLabel="GLUe" GraphId="d9df3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GAPDH" GraphId="abb35" Type="GeneProduct">
+    <Graphics FillColor="99ff99"/>
+    </DataNode>
+  <DataNode TextLabel="ADP" GraphId="bffc4" Type="Metabolite" GroupRef="d40a0">
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="FBP" GraphId="cafe6" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PGM&#10;" GraphId="d214c" Type="GeneProduct">
+    <Graphics FillColor="99ff99"/>
+    </DataNode>
+  <DataNode TextLabel="TPI" GraphId="a0d21" Type="GeneProduct">
+    <Graphics FillColor="99ff99"/>
+    </DataNode>
+  <DataNode TextLabel="ATP" GraphId="d34d2" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="ADP" GraphId="dd61e" Type="Metabolite" GroupRef="c6e5a">
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="AMP" GraphId="e5cd8" Type="Metabolite">
+    <BiopaxRef>db4</BiopaxRef>
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="NAD" GraphId="e5caa" Type="Metabolite" GroupRef="fbd90">
+    <Graphics ShapeType="Oval" Color="009933"/>
+    </DataNode>
+  <DataNode TextLabel="P" GraphId="e6736" Type="Metabolite" GroupRef="fbd90">
+    <Graphics FillColor="ff9900" ShapeType="Oval" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="NADH" GraphId="db600" Type="Metabolite" GroupRef="f52b0">
+    <Graphics ShapeType="Oval" Color="009933"/>
+    </DataNode>
+  <DataNode TextLabel="H" GraphId="e0dd3" Type="Metabolite" GroupRef="f52b0">
+    <Graphics ShapeType="Oval" Color="00cccc"/>
+    </DataNode>
+  <DataNode TextLabel="ATP" GraphId="d44d7" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="ADP" GraphId="e0c6b" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="ATP" GraphId="ea62c" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="ADP" GraphId="ecf72" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="LACe" GraphId="e2851" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="NAD" GraphId="ac856" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="009933"/>
+    </DataNode>
+  <DataNode TextLabel="NADH" GraphId="ec4da" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="009933"/>
+    </DataNode>
+  <DataNode TextLabel="LACT" GraphId="b388c" Type="GeneProduct">
+    <Graphics FillColor="99ff99"/>
+    </DataNode>
+  <DataNode TextLabel="ADP" GraphId="a353a" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="P" GraphId="e1049" Type="Metabolite">
+    <Graphics FillColor="ff9900" ShapeType="Oval" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="ATP" GraphId="e3c50" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="O2" GraphId="b88af" Type="Metabolite">
+    <Graphics FillColor="ff3300" ShapeType="Oval" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="OXPHOS" GraphId="b4253">
+    <Graphics FillColor="99ff99"/>
+    </DataNode>
+  <DataNode TextLabel="O2" GraphId="f9b82" Type="Metabolite">
+    <Graphics FillColor="ff3300" ShapeType="Oval" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="NADH" GraphId="aedce" Type="Metabolite" GroupRef="f4171">
+    <Graphics ShapeType="Oval" Color="009933"/>
+    </DataNode>
+  <DataNode TextLabel="MAS" GraphId="be553" GroupRef="f4171">
+    <Graphics FillColor="99ff99"/>
+    </DataNode>
+  <DataNode TextLabel="ADP" GraphId="ee96f" Type="Metabolite" GroupRef="f4171">
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="P" GraphId="d540f" Type="Metabolite" GroupRef="f4171">
+    <Graphics FillColor="ff9900" ShapeType="Oval" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="ATP" GraphId="dce80" Type="Metabolite" GroupRef="f4171">
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="NAD" GraphId="a7ef3" Type="Metabolite" GroupRef="f4171">
+    <Graphics ShapeType="Oval" Color="009933"/>
+    </DataNode>
+  <DataNode TextLabel="OXYT" GraphId="cf5d5">
+    <Graphics FillColor="99ff99"/>
+    </DataNode>
+  <DataNode TextLabel="ATP" GraphId="e8d28" Type="Metabolite" GroupRef="a749c">
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="ATPase" GraphId="e55fb" Type="GeneProduct" GroupRef="a749c">
+    <Graphics FillColor="99ff99"/>
+    </DataNode>
+  <DataNode TextLabel="ADP" GraphId="a474c" Type="Metabolite" GroupRef="a749c">
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="H" GraphId="e305d" Type="Metabolite" GroupRef="a749c">
+    <Graphics ShapeType="Oval" Color="00cccc"/>
+    </DataNode>
+  <DataNode TextLabel="P" GraphId="f38c3" Type="Metabolite" GroupRef="a749c">
+    <Graphics FillColor="ff9900" ShapeType="Oval" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="ADP" GraphId="f6441" Type="Metabolite" GroupRef="bb8f7">
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="ADP" GraphId="bf920" Type="Metabolite" GroupRef="bb8f7">
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="AK" GraphId="fdee0" Type="GeneProduct" GroupRef="bb8f7">
+    <Graphics FillColor="99ff99"/>
+    </DataNode>
+  <DataNode TextLabel="PYR" GraphId="a659a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Pathway" GraphId="cc568" Type="Pathway">
+    <Graphics Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Metabolite" GraphId="d1839" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Enzyme" GraphId="bfab9" Type="GeneProduct">
+    <Comment>glucose-6-phosphate isomerase</Comment>
+    <Graphics FillColor="99ff99"/>
+    </DataNode>
+  <DataNode TextLabel="NAD" GraphId="ad716" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="009933"/>
+    </DataNode>
+  <DataNode TextLabel="P" GraphId="a6f08" Type="Metabolite">
+    <Graphics FillColor="ff9900" ShapeType="Oval" Color="ffffff"/>
+    </DataNode>
+  <DataNode TextLabel="H" GraphId="aa93d" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="00cccc"/>
+    </DataNode>
+  <DataNode TextLabel="ATP" GraphId="b431d" Type="Metabolite">
+    <Graphics ShapeType="Oval" Color="cc00cc"/>
+    </DataNode>
+  <DataNode TextLabel="Metabolite" GraphId="e0e1d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="id737b5a70">
+    <Graphics Color="33cc00">
+      <Point GraphRef="e5cd8"/>
+      <Point GraphRef="b5af6" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1aba2109">
+    <Graphics>
+      <Point GraphRef="df744"/>
+      <Point GraphRef="a659a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3b4b7737">
+    <Graphics>
+      <Point GraphRef="b4253"/>
+      <Point GraphRef="a8d55" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id412c96cf" GroupRef="a749c">
+    <Graphics>
+      <Point GraphRef="e55fb"/>
+      <Point GraphRef="c49a4" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id52020979" GroupRef="bb8f7">
+    <Graphics>
+      <Point GraphRef="fdee0"/>
+      <Point GraphRef="fedbd" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id56bd89cd">
+    <Graphics>
+      <Point GraphRef="b388c"/>
+      <Point GraphRef="c0848" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id71a7cef0">
+    <BiopaxRef>f5f</BiopaxRef>
+    <Graphics ConnectorType="Elbow" Color="33cc00">
+      <Point GraphRef="cafe6"/>
+      <Point/>
+      <Point GraphRef="fbe23" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida3b3884a">
+    <Graphics>
+      <Point GraphRef="ce1f3" ArrowHead="mim-conversion"/>
+      <Point GraphRef="e9455" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.472534725991603" Shape="None" GraphId="a8d55"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida7efafed" GroupRef="f4171">
+    <Graphics>
+      <Point GraphRef="e9c1e"/>
+      <Point GraphRef="d7cf3" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.35813484470790224" Shape="None" GraphId="c4c45"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb8688997" GroupRef="a749c">
+    <Graphics>
+      <Point GraphRef="e8d28" ArrowHead="mim-conversion"/>
+      <Point ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5632859766533781" Shape="None" GraphId="c49a4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbb708814">
+    <Graphics>
+      <Point GraphRef="cf5d5"/>
+      <Point GraphRef="a9fd8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc07990f9" GroupRef="f4171">
+    <Graphics>
+      <Point GraphRef="be553"/>
+      <Point GraphRef="c4c45" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idece12f5f" GroupRef="bb8f7">
+    <Graphics>
+      <Point GraphRef="e09cb" ArrowHead="mim-conversion"/>
+      <Point GraphRef="f1e4f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4985122521251007" Shape="None" GraphId="fedbd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="da548">
+    <Graphics>
+      <Point GraphRef="ae265" ArrowHead="Arrow"/>
+      <Point GraphRef="bbb71" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.46087710995425074" Shape="None" GraphId="b6754"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ab869">
+    <Graphics>
+      <Point GraphRef="b5af6"/>
+      <Point GraphRef="f03a6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e3c06">
+    <Graphics>
+      <Point GraphRef="f4df9" ArrowHead="Arrow"/>
+      <Point GraphRef="dd104" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5186914461463296" Shape="None" GraphId="c3fb6"/>
+      <Anchor Position="0.5322462197199659" Shape="None" GraphId="c9cf1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dccc1">
+    <Graphics>
+      <Point GraphRef="fbe23"/>
+      <Point GraphRef="bb35c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6bda">
+    <Graphics>
+      <Point GraphRef="bbb71" ArrowHead="Arrow"/>
+      <Point GraphRef="a6bc9" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5226977950713364" Shape="None" GraphId="fbb3b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="af8b3">
+    <Graphics>
+      <Point GraphRef="ca23f"/>
+      <Point GraphRef="ad8a9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f94fb">
+    <Graphics>
+      <Point GraphRef="cafe6" ArrowHead="Arrow"/>
+      <Point GraphRef="dd104" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4258914990704745" Shape="None" GraphId="a3756"/>
+      <Anchor Position="0.4232241365777052" Shape="None" GraphId="e2e43"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ea8dd">
+    <Graphics>
+      <Point GraphRef="d9df3" ArrowHead="Arrow"/>
+      <Point GraphRef="e51e3" ArrowHead="Arrow"/>
+      <Anchor Position="0.39228537036686095" Shape="None" GraphId="c43f4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c96e5">
+    <Graphics>
+      <Point GraphRef="f56ff"/>
+      <Point GraphRef="df744" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bb35c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3a78">
+    <Graphics>
+      <Point GraphRef="df744" ArrowHead="Arrow"/>
+      <Point GraphRef="d069e" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ad8a9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dcd0f">
+    <Graphics>
+      <Point GraphRef="a0d21"/>
+      <Point GraphRef="c9cf1" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c5bcc">
+    <Graphics>
+      <Point GraphRef="a6bc9" ArrowHead="Arrow"/>
+      <Point GraphRef="f56ff" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5351909731037209" Shape="None" GraphId="d4d1f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6fe6">
+    <Graphics>
+      <Point GraphRef="abb35"/>
+      <Point GraphRef="f3e62" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ece30">
+    <Graphics>
+      <Point GraphRef="a8e1c"/>
+      <Point GraphRef="a3756" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e27b0">
+    <Graphics>
+      <Point GraphRef="daabb"/>
+      <Point GraphRef="d4d1f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc862">
+    <Graphics>
+      <Point GraphRef="b9cbd"/>
+      <Point GraphRef="b6754" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a525b">
+    <Graphics>
+      <Point GraphRef="e2849" ArrowHead="mim-conversion"/>
+      <Point GraphRef="cafe6" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4134078212290506" Shape="None" GraphId="f03a6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idee73ac84">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9687">
+    <Graphics>
+      <Point GraphRef="f9637"/>
+      <Point GraphRef="c43f4" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a078c">
+    <Graphics>
+      <Point GraphRef="cc85c"/>
+      <Point GraphRef="ddc7f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a0c40">
+    <Graphics>
+      <Point GraphRef="d214c"/>
+      <Point GraphRef="fbb3b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c5d08">
+    <Graphics>
+      <Point GraphRef="dd104" ArrowHead="Arrow"/>
+      <Point GraphRef="ae265" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.46087710995425074" Shape="None" GraphId="f3e62"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c4ad7">
+    <Graphics>
+      <Point GraphRef="e51e3" ArrowHead="mim-conversion"/>
+      <Point GraphRef="f9a44" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6114850125278065" Shape="None" GraphId="ddc7f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc75434d8">
+    <Graphics>
+      <Point GraphRef="ae83f"/>
+      <Point GraphRef="fb051" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c866d">
+    <Graphics>
+      <Point GraphRef="e2e43"/>
+      <Point GraphRef="f4df9" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5319073741047352" Shape="None" GraphId="e444a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6411">
+    <Graphics>
+      <Point GraphRef="e2849" ArrowHead="mim-conversion"/>
+      <Point GraphRef="f9a44" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.570171268656718" Shape="None" GraphId="fb051"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3ca5edfb">
+    <Graphics ConnectorType="Curved" Color="cc00cc">
+      <Point GraphRef="eca64"/>
+      <Point/>
+      <Point GraphRef="e8812" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a2d66">
+    <Graphics ConnectorType="Curved" Color="cc00cc">
+      <Point GraphRef="d34d2"/>
+      <Point/>
+      <Point GraphRef="d1490" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d256d">
+    <Graphics ConnectorType="Curved" Color="cc00cc">
+      <Point GraphRef="f8b30"/>
+      <Point/>
+      <Point GraphRef="a0e4a" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bf854">
+    <Graphics ConnectorType="Curved" Color="cc00cc">
+      <Point GraphRef="e0c6b"/>
+      <Point/>
+      <Point GraphRef="d44d7" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c647a">
+    <Graphics ConnectorType="Curved" Color="cc00cc">
+      <Point GraphRef="ecf72"/>
+      <Point/>
+      <Point GraphRef="ea62c" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="efc2f">
+    <Graphics ConnectorType="Curved" Color="cc00cc">
+      <Point GraphRef="ec4da"/>
+      <Point/>
+      <Point GraphRef="ac856" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id38db71f5">
+    <Graphics>
+      <Point GraphRef="f9b82" ArrowHead="mim-conversion"/>
+      <Point GraphRef="c3225" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4202869605211178" Shape="None" GraphId="a9fd8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4492be65">
+    <Graphics>
+      <Point GraphRef="d069e" ArrowHead="mim-conversion"/>
+      <Point GraphRef="e2851" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6576429567438679" Shape="None" GraphId="c0848"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c5dc1">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="a8007">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="abe10">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-stimulation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f4b1d">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a049d">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point ArrowHead="mim-stimulation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e52b2">
+    <Graphics Color="cc00cc">
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="x 12.5" GraphId="c4d5c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Applies to PKA &#10;and PKL; does &#10;not apply to PKM" GraphId="d3a74">
+    <Graphics FillColor="ffffff" FontStyle="Italic"/>
+  </Label>
+  <Label TextLabel="Cytosol" GraphId="d5023">
+    <Graphics FillColor="ffffff" Color="999999"/>
+  </Label>
+  <Label TextLabel="Extracellular environment" GraphId="bb0e3">
+    <Graphics FillColor="ffffff" Color="999999"/>
+  </Label>
+  <Label TextLabel="Cytosol" GraphId="bce1b">
+    <Graphics FillColor="ffffff" Color="999999"/>
+  </Label>
+  <Label TextLabel="Extracellular environment" GraphId="f1aae">
+    <Graphics FillColor="ffffff" Color="999999"/>
+  </Label>
+  <Label TextLabel="x 12.5" GraphId="c8c2b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="x 12.5" GraphId="a3fbc">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="x 3" GraphId="f5416">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="x 2.5" GraphId="a7432" GroupRef="f4171">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="x 2.5" GraphId="aff56" GroupRef="f4171">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="x 2.5" GraphId="f74b5" GroupRef="f4171">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Stimulation" GraphId="a0747">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Catalysis&#10;" GraphId="a23d0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Conversion" GraphId="f5f81">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Branch pathway originating&#10;from the glycolysis" GraphId="cae59">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Label TextLabel="Glycolytic metabolite" GraphId="db1a5">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Label TextLabel="Enzyme or process" GraphId="ff0e5">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Label TextLabel="Chemicals; colour coded&#10;for better visualisation" GraphId="cd734">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Label TextLabel="Effector of the reaction&#10;pointed at" GraphId="d8543">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Label TextLabel="Conversion of a&#10;catalysing chemical" GraphId="a1be2">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Label TextLabel="Metabolite that is fixed&#10;in the computer model" GraphId="bf1f7">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Shape GraphId="c3225" GroupRef="d2982">
+    <Graphics ShapeType="Oval" Color="ff3300"/>
+  </Shape>
+  <Shape GraphId="e9455">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="d7cf3" GroupRef="f4171">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="b56a6" GroupRef="a749c">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="f1e4f" GroupRef="bb8f7">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="e09cb" GroupRef="bb8f7">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="ce1f3">
+    <BiopaxRef>bc6</BiopaxRef>
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="e9c1e" GroupRef="f4171">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="ccab1">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Group GroupId="d2982" Style="Group"/>
+  <Group GroupId="a749c" Style="Group"/>
+  <Group GroupId="bb8f7" Style="Group"/>
+  <Group GroupId="f4171" Style="Group"/>
+  <Group GroupId="f52b0" GraphId="a0e4a" Style="Group"/>
+  <Group GroupId="c6e5a" GraphId="d1490" Style="Group"/>
+  <Group GroupId="d40a0" GraphId="e8812" Style="Group"/>
+  <Group GroupId="d6d14" GraphId="f18db" Style="Group"/>
+  <Group GroupId="fbd90" GraphId="f8b30" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f5f">
+      <bp:ID >4729424</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE />
+      <bp:SOURCE />
+      <bp:YEAR />
+      <bp:ID >4729424</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Pyruvate kinase. Classes of regulatory isoenzymes in mammalian tissues.</bp:TITLE>
+      <bp:SOURCE >Eur J Biochem</bp:SOURCE>
+      <bp:YEAR >1973</bp:YEAR>
+      <bp:ID >4729424</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Pyruvate kinase. Classes of regulatory isoenzymes in mammalian tissues.</bp:TITLE>
+      <bp:SOURCE >Eur J Biochem</bp:SOURCE>
+      <bp:YEAR >1973</bp:YEAR>
+      <bp:AUTHORS >Carbonell J</bp:AUTHORS>
+      <bp:AUTHORS >Fel&#237;u JE</bp:AUTHORS>
+      <bp:AUTHORS >Marco R</bp:AUTHORS>
+      <bp:AUTHORS >Sols A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bc6">
+      <bp:ID />
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulation of mitochondrial oxidative phosphorylation through cell signaling</bp:TITLE>
+      <bp:SOURCE >https://www.sciencedirect.com/science/article/pii/S0167488907002364?via%3Dihub</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:ID >18240421</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Regulation of mitochondrial oxidative phosphorylation through cell signaling.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >H&#252;ttemann M</bp:AUTHORS>
+      <bp:AUTHORS >Lee I</bp:AUTHORS>
+      <bp:AUTHORS >Samavati L</bp:AUTHORS>
+      <bp:AUTHORS >Yu H</bp:AUTHORS>
+      <bp:AUTHORS >Doan JW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >glycolysis/gluconeogenesis pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000025</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="db4">
+      <bp:ID >0716730510</bp:ID>
+      <bp:DB >ISBN</bp:DB>
+      <bp:TITLE >Biochemistry</bp:TITLE>
+      <bp:SOURCE >https://www.ncbi.nlm.nih.gov/books/NBK22395/</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Berg JM</bp:AUTHORS>
+      <bp:AUTHORS >Tymoczko JL</bp:AUTHORS>
+      <bp:AUTHORS >Stryer L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >gluconeogenesis pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000641</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efd">
+      <bp:ID >22628558</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A mitochondrial pyruvate carrier required for pyruvate uptake in yeast, Drosophila, and humans.</bp:TITLE>
+      <bp:SOURCE >Science</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Bricker DK</bp:AUTHORS>
+      <bp:AUTHORS >Taylor EB</bp:AUTHORS>
+      <bp:AUTHORS >Schell JC</bp:AUTHORS>
+      <bp:AUTHORS >Orsak T</bp:AUTHORS>
+      <bp:AUTHORS >Boutron A</bp:AUTHORS>
+      <bp:AUTHORS >Chen YC</bp:AUTHORS>
+      <bp:AUTHORS >Cox JE</bp:AUTHORS>
+      <bp:AUTHORS >Cardon CM</bp:AUTHORS>
+      <bp:AUTHORS >Van Vranken JG</bp:AUTHORS>
+      <bp:AUTHORS >Dephoure N</bp:AUTHORS>
+      <bp:AUTHORS >Redin C</bp:AUTHORS>
+      <bp:AUTHORS >Boudina S</bp:AUTHORS>
+      <bp:AUTHORS >Gygi SP</bp:AUTHORS>
+      <bp:AUTHORS >Brivet M</bp:AUTHORS>
+      <bp:AUTHORS >Thummel CS</bp:AUTHORS>
+      <bp:AUTHORS >Rutter J</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

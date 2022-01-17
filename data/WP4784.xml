@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Proteoglycan biosynthesis" Version="20191220" Organism="Homo sapiens"><Comment Source="WikiPathways-description">PG synthesis is a complex mechanism that can be divided in four main steps. Core protein synthesis occurs in the rough endoplasmic reticulum (RER). Once PG core protein has been synthesized, it moves from the RER to the Golgi apparatus where the first sugar of glycosaminoalycan (GAG) chain is added on Ser residues. GAG synthesis continues by glycosyltransferases that transfer sugar moieties from UDP-sugars to GAG chains. UDP-sugars are synthesized in the cytoplasm and are translocated in the Golgi apparatus by an antiporter with UMP. Then UDP, the by-product of glycosyltransferase reactions, is hydrolyzed to UMP and phosphate by calcium activated nucleotidase 1 (CANT1). Chondroitin, dermatan and heparan sulfate synthesis starts on a Ser residue of the PG core protein with the formation of a tetrasaccharide linkage region composed of a xylose (Xyl), two galactoses (Gal) and a glucuronic acid (GlcUA). After tetrasaccharide synthesis, GAG chain elongation continues through the binding of specific saccharides defining chondroitin sulfate, dermatan sulfate and heparan sulfate. Specific enzymes are involved in this process and mutations in their gene cause different types of skeletal dysplasia (indicated in red boxes). The third step is GAG sulfation.  Sulfate enters in cells through the SLC26A2 transporter and it is activated to 30-phosphoadenosine 50-phosphosulfate (PAPS) by PAPS synthase (PAPSS) in the cytosol. Through a PAPS transporter (PAPST), PAPS moves to Golgi apparatus where it is used as sulfate donor by sulfotransferases to sulfate GAGs. This reaction also produces phosphoadenosine phosphate (PAP), that is hydrolyzed into AMP and phosphate by a Golgi resident phosphoadenosine phosphate phosphatase (gPAPP). Once synthesized, PGs are secreted in extracellular space.
+
+Sulfation of GAGs is an important step in PG synthesis determining PG properties. Inorganic sulfate enters in cells through a sulfate/chloride antiporter named SLC26A2, but a small amount of sulfate could be derived from sulfur-containing amino acid metabolism. To be used by Golgi sulfotransferases, sulfate is activated to 30-phosphoadenosine 50-phosphosulfate (PAPS), the universal sulfate donor, by PAPS synthase (PAPSS2). The by-product of sulfotransferase reactions, phosphoadenosine phosphate (PAP), is hydrolyzed by a Golgi resident phosphoadenosine phosphate phosphatase (gPAPP) in order to prevent feedback inhibition of these reactions.
+
+Linked with a dotted arrow to the GeneProduct nodes are skeletal dysplasias caused by mutation in the respective gene.
+
+For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Comment>
+  <BiopaxRef>e79</BiopaxRef>
+  <Graphics BoardWidth="2996.153846153846" BoardHeight="1493.8932496075352"/>
+  <DataNode TextLabel="Udp xylose" GraphId="a0133" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CSGALNACT1" GraphId="a37cc" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SLC35B2" GraphId="a399d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PAPS" GraphId="a3e54" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Sulfate ion (SO42-)" GraphId="a796a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="B3GALT6" GraphId="a7dbd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IMPAD1" GraphId="a8d43" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="B4GALT7" GraphId="a9646" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CHSY1" GraphId="ad445" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="uridine diphosphate&#10;glucuronic acid" GraphId="b41fc" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PAPSS2" GraphId="b5f3c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EXT2" GraphId="b796c" Type="GeneProduct" GroupRef="dfb8c">
+        </DataNode>
+  <DataNode TextLabel="Xylose" GraphId="ba150" Type="Metabolite">
+    <Graphics ShapeType="Hexagon" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PO4(.2-)" GraphId="bc166" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="galactose" GraphId="c44ff" Type="Metabolite">
+    <Graphics ShapeType="Hexagon" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UDP" GraphId="c9fad" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="chloride" GraphId="ccbd0" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UMP" GraphId="cd316" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="XYLT1" GraphId="d0073" Type="GeneProduct" GroupRef="c336b">
+        </DataNode>
+  <DataNode TextLabel="Phosphoadenosine phosphate" GraphId="d4007" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ADENOSINE MONOPHOSPHATE" GraphId="d73ce" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CHST3" GraphId="d740b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SLC26A2" GraphId="d96f4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="D-glucuronic acid" GraphId="e21f8" Type="Metabolite">
+    <Graphics ShapeType="Hexagon" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="XYLT2" GraphId="e3f56" Type="GeneProduct" GroupRef="c336b">
+        </DataNode>
+  <DataNode TextLabel="EXTL3" GraphId="e5eaa" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="N-Acetylgalactosamine" GraphId="e72e8" Type="Metabolite">
+    <Graphics ShapeType="Hexagon" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="B3GAT3" GraphId="ea45f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CHST14" GraphId="f3401" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SLC35B3" GraphId="f92c4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EXT1" GraphId="f982b" Type="GeneProduct" GroupRef="dfb8c">
+        </DataNode>
+  <DataNode TextLabel="CANT1" GraphId="fc400" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Udp galactose" GraphId="fc4c9" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Sulfate ion (SO42-)" GraphId="ef69c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="chloride" GraphId="e7adc" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PAPS" GraphId="da842" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="galactose" GraphId="e4415" Type="Metabolite">
+    <Graphics ShapeType="Hexagon" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Udp galactose" GraphId="ca8fd" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="N-Acetylgalactosamine" GraphId="a0401" Type="Metabolite">
+    <Graphics ShapeType="Hexagon" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="N-acetylglucosamines" GraphId="b8119" Type="Metabolite">
+    <Graphics ShapeType="Hexagon" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="D-glucuronic acid" GraphId="b2fe4" Type="Metabolite">
+    <Graphics ShapeType="Hexagon" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="D-glucuronic acid" GraphId="f52a0" Type="Metabolite">
+    <Graphics ShapeType="Hexagon" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="L-Iduronic acid" GraphId="e9652" Type="Metabolite">
+    <Graphics ShapeType="Hexagon" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="N-Acetylgalactosamine" GraphId="a2b54" Type="Metabolite">
+    <Graphics ShapeType="Hexagon" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="N-Acetylgalactosamine" GraphId="fdc72" Type="Metabolite">
+    <Graphics ShapeType="Hexagon" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="N-acetylglucosamines" GraphId="d4645" Type="Metabolite">
+    <Graphics ShapeType="Hexagon" Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="id1126db9c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ad445"/>
+      <Point GraphRef="ef056" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id18e10d3f">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c9fad"/>
+      <Point/>
+      <Point GraphRef="cd316" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e4bbb"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id18e49a61">
+    <BiopaxRef>a00</BiopaxRef>
+    <BiopaxRef>b94</BiopaxRef>
+    <BiopaxRef>a1f</BiopaxRef>
+    <BiopaxRef>ec2</BiopaxRef>
+    <BiopaxRef>c74</BiopaxRef>
+    <BiopaxRef>ad6</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a37cc"/>
+      <Point GraphRef="aab56" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1ae2c86c">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e9652"/>
+      <Point GraphRef="fdc72"/>
+      <Anchor Position="0.5354035749509795" Shape="None" GraphId="b068a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id231f3742">
+    <Graphics>
+      <Point GraphRef="b41fc"/>
+      <Point GraphRef="c7d2d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id24f327d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ad445"/>
+      <Point GraphRef="bf13b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id26288c9e">
+    <Graphics>
+      <Point GraphRef="fdc72"/>
+      <Point GraphRef="f9593" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id262c22a9">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c9fad"/>
+      <Point/>
+      <Point GraphRef="bc166" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="fd8ef"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id282d297">
+    <Graphics>
+      <Point GraphRef="b5f3c"/>
+      <Point GraphRef="b7dd9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2a55f0e1">
+    <BiopaxRef>eac</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e63e3"/>
+      <Point GraphRef="c465c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id368221f1">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c1750"/>
+      <Point GraphRef="a0401"/>
+      <Anchor Position="0.2183457271200605" Shape="None" GraphId="ef07d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id369e95d">
+    <Graphics>
+      <Point GraphRef="faf4d"/>
+      <Point GraphRef="ef69c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3a160615">
+    <Graphics>
+      <Point GraphRef="f92c4"/>
+      <Point GraphRef="d2a66" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3bc4867b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e72e8"/>
+      <Point GraphRef="b2fe4"/>
+      <Anchor Position="0.7187460062014992" Shape="None" GraphId="a5243"/>
+      <Anchor Position="0.6567295212021996" Shape="None" GraphId="d7ff4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id466673af">
+    <Graphics>
+      <Point GraphRef="a2b54"/>
+      <Point GraphRef="f9593" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id47c4c78a">
+    <Graphics>
+      <Point GraphRef="e21f8"/>
+      <Point GraphRef="e01a2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4b994c8c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ad445"/>
+      <Point GraphRef="d7ff4" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4cb20e14">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c44ff"/>
+      <Point GraphRef="e4415"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a0f25"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4dc479a8">
+    <BiopaxRef>d04</BiopaxRef>
+    <BiopaxRef>ad3</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a3e54"/>
+      <Point GraphRef="da842" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d2a66"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4e4293dd">
+    <Graphics>
+      <Point GraphRef="f3401"/>
+      <Point GraphRef="bdb72" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id53fa5c89">
+    <Graphics>
+      <Point GraphRef="fc400"/>
+      <Point GraphRef="e4bbb" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5877efd3">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b2fe4"/>
+      <Point GraphRef="a2b54"/>
+      <Anchor Position="0.3292665097072756" Shape="None" GraphId="ef056"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5fc24e30">
+    <Graphics>
+      <Point GraphRef="e21f8"/>
+      <Point GraphRef="c1750" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id60daebd3">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e01a2"/>
+      <Point GraphRef="e72e8"/>
+      <Anchor Position="0.5329141440472382" Shape="None" GraphId="aab56"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id63b6a533">
+    <Graphics>
+      <Point GraphRef="ef69c"/>
+      <Point GraphRef="a3e54" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b7dd9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6641570c">
+    <Graphics>
+      <Point GraphRef="fc400"/>
+      <Point GraphRef="fd8ef" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6c986edf">
+    <Graphics>
+      <Point GraphRef="a0133"/>
+      <Point GraphRef="b8e79" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6cf5cf5d">
+    <BiopaxRef>eac</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e63e3"/>
+      <Point GraphRef="b7572" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id706e57f0">
+    <Graphics>
+      <Point GraphRef="a2815"/>
+      <Point GraphRef="ed0cd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id71ae48e0">
+    <Graphics>
+      <Point GraphRef="a0f25"/>
+      <Point GraphRef="c9fad" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7249a69a">
+    <Graphics>
+      <Point GraphRef="c7d2d"/>
+      <Point GraphRef="c9fad" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id74467624">
+    <BiopaxRef>ac7</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ccbd0"/>
+      <Point GraphRef="e7adc" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="db1b9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id87a84cd1">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b8119"/>
+      <Point GraphRef="f52a0"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c465c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id884212af">
+    <BiopaxRef>ddf</BiopaxRef>
+    <BiopaxRef>eac</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a7dbd"/>
+      <Point GraphRef="a0f25" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id893d736b">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ad445"/>
+      <Point GraphRef="b068a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8bf24cc5">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e4415"/>
+      <Point GraphRef="e21f8"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c7d2d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8cf72b8d">
+    <BiopaxRef>a00</BiopaxRef>
+    <BiopaxRef>b94</BiopaxRef>
+    <BiopaxRef>a1f</BiopaxRef>
+    <BiopaxRef>ec2</BiopaxRef>
+    <BiopaxRef>c74</BiopaxRef>
+    <BiopaxRef>ad6</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a37cc"/>
+      <Point GraphRef="ef07d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9352d435">
+    <Graphics>
+      <Point GraphRef="fc4c9"/>
+      <Point GraphRef="efeab" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id950944a">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a0401"/>
+      <Point GraphRef="e9652"/>
+      <Anchor Position="0.408663581205008" Shape="None" GraphId="bf13b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id953cd359">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ed0cd"/>
+      <Point GraphRef="ba150"/>
+      <Anchor Position="0.4486541353107664" Shape="None" GraphId="b8e79"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida4fd854a">
+    <Graphics>
+      <Point GraphRef="b8e79"/>
+      <Point GraphRef="c9fad" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida52a8523">
+    <Graphics>
+      <Point GraphRef="ca8fd"/>
+      <Point GraphRef="a0f25" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaa870ae9">
+    <Graphics>
+      <Point GraphRef="d740b"/>
+      <Point GraphRef="bdb72" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb42bf92">
+    <BiopaxRef>ac7</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a796a"/>
+      <Point GraphRef="ef69c" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e2c5e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb5b28b50">
+    <Graphics>
+      <Point GraphRef="da842"/>
+      <Point GraphRef="d4007" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bdb72"/>
+      <Anchor Position="0.4" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb5bd74d0">
+    <Graphics>
+      <Point GraphRef="efeab"/>
+      <Point GraphRef="c9fad" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb9a2a75c">
+    <Graphics>
+      <Point GraphRef="d96f4"/>
+      <Point GraphRef="db1b9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbb6b5e78">
+    <BiopaxRef>cc7</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d4007"/>
+      <Point GraphRef="d73ce" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c054a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbc60baf4">
+    <Graphics>
+      <Point GraphRef="a399d"/>
+      <Point GraphRef="d2a66" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbec3a78a">
+    <Graphics>
+      <Point GraphRef="e21f8"/>
+      <Point GraphRef="e3ea2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc5f5e32c">
+    <BiopaxRef>ddf</BiopaxRef>
+    <BiopaxRef>eac</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a9646"/>
+      <Point GraphRef="efeab" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc8295a55">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e3ea2"/>
+      <Point GraphRef="b8119"/>
+      <Anchor Position="0.5180935515848507" Shape="None" GraphId="b9a2d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idceb8f07f">
+    <Graphics>
+      <Point GraphRef="d96f4"/>
+      <Point GraphRef="e2c5e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcf5ee43e">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f9593"/>
+      <Point GraphRef="a01a9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcf8643da">
+    <BiopaxRef>eac</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e5eaa"/>
+      <Point GraphRef="b9a2d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd58c1d9f">
+    <BiopaxRef>d18</BiopaxRef>
+    <BiopaxRef>a48</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="c8c96"/>
+      <Point GraphRef="f1c48" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd919c67e">
+    <Graphics>
+      <Point GraphRef="d4645"/>
+      <Point GraphRef="f9593" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddae07d44">
+    <Graphics>
+      <Point GraphRef="a8d43"/>
+      <Point GraphRef="c054a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf02814e8">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f52a0"/>
+      <Point GraphRef="d4645"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b7572"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf2b0c597">
+    <BiopaxRef>ddf</BiopaxRef>
+    <BiopaxRef>eac</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ff46c"/>
+      <Point GraphRef="b8e79" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf6249c8b">
+    <BiopaxRef>ddf</BiopaxRef>
+    <BiopaxRef>eac</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ea45f"/>
+      <Point GraphRef="c7d2d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfb47e3fb">
+    <Graphics>
+      <Point GraphRef="a01a9"/>
+      <Point GraphRef="c8c96" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="daa2b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ba150"/>
+      <Point GraphRef="c44ff"/>
+      <Anchor Position="0.5136634477090538" Shape="None" GraphId="efeab"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d96f4"/>
+      <Point GraphRef="ac607" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d80a4">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b5f3c"/>
+      <Point GraphRef="f8587" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f6362">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="d740b"/>
+      <Point/>
+      <Point GraphRef="c64f7" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ed4cc">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="f3401"/>
+      <Point/>
+      <Point GraphRef="db286" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ec079">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="a8d43"/>
+      <Point/>
+      <Point GraphRef="d47bd" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a9c46">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="d0073"/>
+      <Point GraphRef="a5cd6" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="af182">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="e3f56"/>
+      <Point/>
+      <Point GraphRef="ca91f" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a235b">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="a9646"/>
+      <Point GraphRef="d21ed" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="aff72">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="a7dbd"/>
+      <Point GraphRef="e446e" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="be3f5">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="ea45f"/>
+      <Point/>
+      <Point GraphRef="e6216" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ba3e0">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="fc400"/>
+      <Point GraphRef="da365" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fd177">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a37cc"/>
+      <Point GraphRef="fbac7" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a9f49">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e5eaa"/>
+      <Point GraphRef="a0e75" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a1f0c">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ad445"/>
+      <Point GraphRef="c6470" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b3ba7">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e63e3"/>
+      <Point GraphRef="e191f" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b54f6">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="cf607">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e5380">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fba6c">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b3cc1">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="eb907">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dd002">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f9d69">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e020f">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f1a53">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bc47b">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fc530">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="aa26f">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d0089">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ad723">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ddf91">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c2214">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b5ae8">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Sulfation of&#10;proteoglycan" GraphId="a01a9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Proteoglycan core synthesized in&#10;Rough Endoplasmic Reticulum" GraphId="a2815">
+    <BiopaxRef>a16</BiopaxRef>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cytoplasm" GraphId="c329b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Newly synthesized&#10;proteoglycan" GraphId="c8c96">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Golgi apparatus" GraphId="ca123">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Extracellular space" GraphId="cf5e1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="n" GraphId="f15b6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Glycosylated proteoglycan" GraphId="f9593">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Chondroitin sulfate" GraphId="f9f08">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Sulfur-containing amino&#10;    acid metabolism" GraphId="faf4d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Newly synthesized&#10;proteoglycan" GraphId="f1c48">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Dermatan sulfate" GraphId="eecf9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Heparan sulfate" GraphId="f51e4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="n" GraphId="d6e83">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="n" GraphId="e47a5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="OMIM:600972&#10;Achondrogenesis, Type IB" GraphId="ee036" Href="https://omim.org/entry/600972" GroupRef="a6e8e">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:256050&#10;Atelosteogenesis, Type II" Href="https://omim.org/entry/256050" GroupRef="a6e8e">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:615777&#10;Desbuquois Dysplasia 2" GraphId="a5cd6" Href="https://omim.org/entry/615777">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:605822&#10;Spondyloocular Syndrome" GraphId="ca91f" Href="https://omim.org/entry/605822">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:612847&#10;Brachyolmia Type 4 With Mild &#10;Epiphyseal And Metaphyseal Changes" GraphId="f8587" Href="https://omim.org/entry/612847">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:150230&#10;Trichorhinophalangeal Syndrome, Type II" Href="https://omim.org/entry/150230" GroupRef="d31ca">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:614078&#10;Chondrodysplasia With Joint Dislocations, gPAPP Type" GraphId="d47bd" Href="https://omim.org/entry/614078">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:222600&#10;Diastrophic Dysplasia" Href="https://omim.org/entry/222600" GroupRef="a6e8e">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:143095&#10;Spondyloepiphyseal Dysplasia With &#10;Congenital Joint Dislocations" GraphId="c64f7" Href="https://omim.org/entry/143095">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:130070&#10;Ehlers-Danlos Syndrome, &#10;Spondylodysplastic Type, 1" GraphId="d21ed" Href="https://omim.org/entry/130070">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:605282&#10;Temtamy Preaxial Brachydactyly Syndrome" GraphId="c6470" Href="https://omim.org/entry/605282">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:616615&#10;CSGALNACT1 deficiency (joint dislocations &#10;and mild skeletal dysplasia)" GraphId="fbac7" Href="https://omim.org/entry/616615">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:226900&#10;Epiphyseal Dysplasia, Multiple, 4" Href="https://omim.org/entry/226900" GroupRef="a6e8e">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:133700&#10;Exostoses, Multiple, Type I" GraphId="e4987" Href="https://omim.org/entry/133700" GroupRef="d31ca">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:617719&#10;Epiphyseal Dysplasia, Multiple, 7" GraphId="aae4a" Href="https://omim.org/entry/617719" GroupRef="de0cc">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:271640&#10;Spondyloepimetaphyseal Dysplasia &#10;With Joint Laxity, Type 1, With &#10;Or Without Fractures" GraphId="e446e" Href="https://omim.org/entry/271640">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:251450&#10;Desbuquois Dysplasia 1" Href="https://omim.org/entry/251450" GroupRef="de0cc">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:245600&#10;Multiple Joint Dislocations, Short Stature, &#10;And Craniofacial Dysmorphism With Or &#10;Without Congenital Heart Defects" GraphId="e6216" Href="https://omim.org/entry/245600">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:601776&#10;Ehlers-Danlos Syndrome, &#10;Musculocontractural Type, 1" GraphId="db286" Href="https://omim.org/entry/601776">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="OMIM:617425&#10;Immunoskeletal Dysplasia With &#10;Neurodevelopmental Abnormalities" GraphId="a0e75" Href="https://omim.org/entry/617425">
+    <Comment>DISEASE</Comment>
+    <Graphics FillColor="ffcece" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Shape GraphId="a97fa">
+    <Graphics ShapeType="Golgi Apparatus" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="adef8">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c638c">
+    <Graphics ShapeType="Endoplasmic Reticulum" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="dc0d6">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="GlcUA-Gal-Gal-Xyl-protein" GraphId="e01a2">
+    <Graphics ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape TextLabel="PG Core Protein" GraphId="ed0cd">
+    <Graphics ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape TextLabel="GlcUA-Gal-Gal-Xyl-protein" GraphId="c1750">
+    <Graphics ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape TextLabel="GlcUA-Gal-Gal-Xyl-protein" GraphId="e3ea2">
+    <Graphics ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Group GroupId="a6e8e" GraphId="ac607" Style="Group"/>
+  <Group GroupId="de0cc" GraphId="da365" Style="Group"/>
+  <Group GroupId="d31ca" GraphId="e191f" Style="Group"/>
+  <Group GroupId="dfb8c" GraphId="e63e3" Style="Group"/>
+  <Group GroupId="c336b" GraphId="ff46c" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cc7">
+      <bp:ID >18695242</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A role for a lithium-inhibited Golgi nucleotidase in skeletal development and sulfation.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Frederick JP</bp:AUTHORS>
+      <bp:AUTHORS >Tafari AT</bp:AUTHORS>
+      <bp:AUTHORS >Wu SM</bp:AUTHORS>
+      <bp:AUTHORS >Megosh LC</bp:AUTHORS>
+      <bp:AUTHORS >Chiou ST</bp:AUTHORS>
+      <bp:AUTHORS >Irving RP</bp:AUTHORS>
+      <bp:AUTHORS >York JD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a48">
+      <bp:ID >26327396</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Glycosaminoglycans: Sorting determinants in intracellular protein traffic.</bp:TITLE>
+      <bp:SOURCE >Int J Biochem Cell Biol</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Mihov D</bp:AUTHORS>
+      <bp:AUTHORS >Spiess M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ddf">
+      <bp:ID >26582078</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Mutations in Biosynthetic Enzymes for the Protein Linker Region of Chondroitin/Dermatan/Heparan Sulfate Cause Skeletal and Skin Dysplasias.</bp:TITLE>
+      <bp:SOURCE >Biomed Res Int</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Mizumoto S</bp:AUTHORS>
+      <bp:AUTHORS >Yamada S</bp:AUTHORS>
+      <bp:AUTHORS >Sugahara K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e79">
+      <bp:ID >31286677</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Bone and connective tissue disorders caused by defects in glycosaminoglycan biosynthesis: a panoramic view.</bp:TITLE>
+      <bp:SOURCE >FEBS J</bp:SOURCE>
+      <bp:YEAR >2019</bp:YEAR>
+      <bp:AUTHORS >Paganini C</bp:AUTHORS>
+      <bp:AUTHORS >Costantini R</bp:AUTHORS>
+      <bp:AUTHORS >Superti-Furga A</bp:AUTHORS>
+      <bp:AUTHORS >Rossi A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad6">
+      <bp:ID >12446672</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Differential roles of two N-acetylgalactosaminyltransferases, CSGalNAcT-1, and a novel enzyme, CSGalNAcT-2. Initiation and elongation in synthesis of chondroitin sulfate.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Sato T</bp:AUTHORS>
+      <bp:AUTHORS >Gotoh M</bp:AUTHORS>
+      <bp:AUTHORS >Kiyohara K</bp:AUTHORS>
+      <bp:AUTHORS >Akashima T</bp:AUTHORS>
+      <bp:AUTHORS >Iwasaki H</bp:AUTHORS>
+      <bp:AUTHORS >Kameyama A</bp:AUTHORS>
+      <bp:AUTHORS >Mochizuki H</bp:AUTHORS>
+      <bp:AUTHORS >Yada T</bp:AUTHORS>
+      <bp:AUTHORS >Inaba N</bp:AUTHORS>
+      <bp:AUTHORS >Togayachi A</bp:AUTHORS>
+      <bp:AUTHORS >Kudo T</bp:AUTHORS>
+      <bp:AUTHORS >Asada M</bp:AUTHORS>
+      <bp:AUTHORS >Watanabe H</bp:AUTHORS>
+      <bp:AUTHORS >Imamura T</bp:AUTHORS>
+      <bp:AUTHORS >Kimata K</bp:AUTHORS>
+      <bp:AUTHORS >Narimatsu H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac7">
+      <bp:ID >1978318</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Diastrophic dysplasia gene maps to the distal long arm of chromosome 5.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >1990</bp:YEAR>
+      <bp:AUTHORS >H&#228;stbacka J</bp:AUTHORS>
+      <bp:AUTHORS >Kaitila I</bp:AUTHORS>
+      <bp:AUTHORS >Sistonen P</bp:AUTHORS>
+      <bp:AUTHORS >de la Chapelle A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d18">
+      <bp:ID >26308067</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Determinants of Glycosaminoglycan (GAG)Structure.</bp:TITLE>
+      <bp:SOURCE >Biomolecules</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Prydz K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d04">
+      <bp:ID >12716889</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Molecular cloning and identification of 3'-phosphoadenosine 5'-phosphosulfate transporter.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Kamiyama S</bp:AUTHORS>
+      <bp:AUTHORS >Suda T</bp:AUTHORS>
+      <bp:AUTHORS >Ueda R</bp:AUTHORS>
+      <bp:AUTHORS >Suzuki M</bp:AUTHORS>
+      <bp:AUTHORS >Okubo R</bp:AUTHORS>
+      <bp:AUTHORS >Kikuchi N</bp:AUTHORS>
+      <bp:AUTHORS >Chiba Y</bp:AUTHORS>
+      <bp:AUTHORS >Goto S</bp:AUTHORS>
+      <bp:AUTHORS >Toyoda H</bp:AUTHORS>
+      <bp:AUTHORS >Saigo K</bp:AUTHORS>
+      <bp:AUTHORS >Watanabe M</bp:AUTHORS>
+      <bp:AUTHORS >Narimatsu H</bp:AUTHORS>
+      <bp:AUTHORS >Jigami Y</bp:AUTHORS>
+      <bp:AUTHORS >Nishihara S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a00">
+      <bp:ID >17253960</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Involvement of chondroitin sulfate synthase-3 (chondroitin synthase-2) in chondroitin polymerization through its interaction with chondroitin synthase-1 or chondroitin-polymerizing factor.</bp:TITLE>
+      <bp:SOURCE >Biochem J</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Izumikawa T</bp:AUTHORS>
+      <bp:AUTHORS >Uyama T</bp:AUTHORS>
+      <bp:AUTHORS >Okuura Y</bp:AUTHORS>
+      <bp:AUTHORS >Sugahara K</bp:AUTHORS>
+      <bp:AUTHORS >Kitagawa H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec2">
+      <bp:ID >11514575</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Molecular cloning and expression of a human chondroitin synthase.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Kitagawa H</bp:AUTHORS>
+      <bp:AUTHORS >Uyama T</bp:AUTHORS>
+      <bp:AUTHORS >Sugahara K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c74">
+      <bp:ID >11788602</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Molecular cloning and expression of human chondroitin N-acetylgalactosaminyltransferase: the key enzyme for chain initiation and elongation of chondroitin/dermatan sulfate on the protein linkage region tetrasaccharide shared by heparin/heparan sulfate.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Uyama T</bp:AUTHORS>
+      <bp:AUTHORS >Kitagawa H</bp:AUTHORS>
+      <bp:AUTHORS >Tamura Ji J</bp:AUTHORS>
+      <bp:AUTHORS >Sugahara K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad3">
+      <bp:ID >16492677</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Molecular cloning and characterization of a novel 3'-phosphoadenosine 5'-phosphosulfate transporter, PAPST2.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:ID >16492677</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Molecular cloning and characterization of a novel 3'-phosphoadenosine 5'-phosphosulfate transporter, PAPST2.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Kamiyama S</bp:AUTHORS>
+      <bp:AUTHORS >Sasaki N</bp:AUTHORS>
+      <bp:AUTHORS >Goda E</bp:AUTHORS>
+      <bp:AUTHORS >Ui-Tei K</bp:AUTHORS>
+      <bp:AUTHORS >Saigo K</bp:AUTHORS>
+      <bp:AUTHORS >Narimatsu H</bp:AUTHORS>
+      <bp:AUTHORS >Jigami Y</bp:AUTHORS>
+      <bp:AUTHORS >Kannagi R</bp:AUTHORS>
+      <bp:AUTHORS >Irimura T</bp:AUTHORS>
+      <bp:AUTHORS >Nishihara S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b94">
+      <bp:ID >18316376</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification of chondroitin sulfate glucuronyltransferase as chondroitin synthase-3 involved in chondroitin polymerization: chondroitin polymerization is achieved by multiple enzyme complexes consisting of chondroitin synthase family members.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Izumikawa T</bp:AUTHORS>
+      <bp:AUTHORS >Koike T</bp:AUTHORS>
+      <bp:AUTHORS >Shiozawa S</bp:AUTHORS>
+      <bp:AUTHORS >Sugahara K</bp:AUTHORS>
+      <bp:AUTHORS >Tamura J</bp:AUTHORS>
+      <bp:AUTHORS >Kitagawa H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a16">
+      <bp:ID >25105124</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Metabolism of cartilage proteoglycans inhealth and disease.</bp:TITLE>
+      <bp:SOURCE >Biomed Res Int</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Vynios DH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eac">
+      <bp:ID >25126564</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Human genetic disorders and knockout mice deficient in glycosaminoglycan.</bp:TITLE>
+      <bp:SOURCE >Biomed Res Int</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Mizumoto S</bp:AUTHORS>
+      <bp:AUTHORS >Yamada S</bp:AUTHORS>
+      <bp:AUTHORS >Sugahara K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a1f">
+      <bp:ID >12716890</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Molecular cloning of a chondroitin polymerizing factor that cooperates with chondroitin synthase for chondroitin polymerization.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Kitagawa H</bp:AUTHORS>
+      <bp:AUTHORS >Izumikawa T</bp:AUTHORS>
+      <bp:AUTHORS >Uyama T</bp:AUTHORS>
+      <bp:AUTHORS >Sugahara K</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>classic metabolic pathway</bp:TERM><bp:ID>PW:0000002</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

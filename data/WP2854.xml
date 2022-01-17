@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Gene regulatory network modelling somitogenesis " Version="20140930" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Reaction scheme of the proposed gene regulatory network (GRN).
+
+The scheme details the full GRN for one cell and part of a neighboring cell for those reactions that involve ligand-receptor interactions like in Delta-Notch signaling or input from the Fgf8 or Wnt3a signal transduction pathways. Color-coded circular areas for each gene symbolize mRNA and protein. For fast changing gene products the transport of mRNA or protein between cytoplasm and nucleus or between cytoplasm and membrane is explicitly simulated, which is indicated by dividing each half-area of the circle again. Regulatory interactions are shown as activating or repressing arrows. Broken lines indicate that the interaction is simulated only in an even more course-grained manner than the other gene regulatory reactions. NICD, which originates through cleavage reactions following DLL1 ligand binding to the NOTCH1 receptor, was assigned a separate symbol to clarify that only the intracellular domain of the Notch receptor acts in the nucleus as a transcription (co)-factor. The (weak) modulating action of LFNG on D/N signaling is shown as dashed lines - (red for the case of inhibiting action, green for the case of a positive effect on the D/N reaction rate.) Arrows pointing to the symbol for the empty set designate decay reactions of a species. We suppressed them for all species' decays except for those decay rates that we assume as controlled by signal transduction pathways. This applies also to the removal of DLL1 and NOTCH1 from the membrane after their binding, resulting in NOTCH1 cleavage and NICD split-off.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2854 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>e6c</BiopaxRef>
+  <Graphics BoardWidth="798.0" BoardHeight="644.0"/>
+  <DataNode TextLabel="FGF8" GraphId="cbb2f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TBX6" GraphId="ca8ee" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RIPPLY2" GraphId="bb2e5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MESP2" GraphId="d39d8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EPHA4" GraphId="ea522" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HES7" GraphId="c11f9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HES1" GraphId="eae0c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NICD" GraphId="d6e0b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="LFNG" GraphId="e7a60" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NOTCH1" GraphId="cf313" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DLL1" GraphId="d8973" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WNT3A" GraphId="bef68" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NOTCH1" GraphId="a24b5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DLL1" GraphId="f4710" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="WNT3A" GraphId="c5d2f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FGF8" GraphId="bd6ad" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FGF8" GraphId="eb1fd" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="idd8cb5782">
+    <Graphics>
+      <Point GraphRef="d39d8"/>
+      <Point GraphRef="ea522" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcc767638">
+    <Graphics>
+      <Point GraphRef="d39d8"/>
+      <Point GraphRef="bb2e5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida2964802">
+    <Graphics>
+      <Point GraphRef="bb2e5"/>
+      <Point GraphRef="d39d8" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideab33fe">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ca8ee"/>
+      <Point/>
+      <Point GraphRef="d39d8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddc90ec24">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bd6ad"/>
+      <Point GraphRef="d39d8" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7d9535d0">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d6e0b"/>
+      <Point GraphRef="d39d8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8d07267b">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ca8ee"/>
+      <Point GraphRef="bb2e5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idafe51d16">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="ca8ee"/>
+      <Point GraphRef="d8973" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9c98b82e">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c5d2f"/>
+      <Point/>
+      <Point GraphRef="ca8ee" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id139ec6a6">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="cbb2f"/>
+      <Point GraphRef="cbb2f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc151bef8">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bd6ad"/>
+      <Point GraphRef="bd6ad" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc4fa6cb7">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c5d2f"/>
+      <Point GraphRef="c5d2f" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1cd12f50">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f4710"/>
+      <Point GraphRef="cf313"/>
+      <Anchor Position="0.7593330689827187" Shape="None" GraphId="edad1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf9ba1782">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bef68"/>
+      <Point/>
+      <Point GraphRef="a24b5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9b749d6d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="bef68"/>
+      <Point GraphRef="bef68" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfc8bc572">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c5d2f"/>
+      <Point/>
+      <Point GraphRef="d8973" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6c4a9b88">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c5d2f"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="cf313" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9602c9d1">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="edad1"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="d6e0b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2a4d9be6">
+    <Graphics>
+      <Point GraphRef="d6e0b"/>
+      <Point GraphRef="eae0c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id50feb987">
+    <Graphics>
+      <Point GraphRef="eae0c"/>
+      <Point GraphRef="a3478" ArrowHead="Arrow"/>
+      <Anchor Position="0.3423233155840134" Shape="None" GraphId="e7d9f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id78f7c09e">
+    <Graphics>
+      <Point GraphRef="d6e0b"/>
+      <Point GraphRef="a3478" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ec48c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id96bcac66">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="eae0c"/>
+      <Point GraphRef="eae0c" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7dffd7cf">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="bd6ad"/>
+      <Point/>
+      <Point GraphRef="e7d9f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8d2a2109">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="c5d2f"/>
+      <Point/>
+      <Point GraphRef="ec48c" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbfd493dd">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d6e0b"/>
+      <Point GraphRef="c11f9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id63e5ba7d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c11f9"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="c11f9" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2e7833e1">
+    <Graphics>
+      <Point GraphRef="c11f9"/>
+      <Point GraphRef="e7a60" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3777b293">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d6e0b"/>
+      <Point GraphRef="e7a60" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2d1ddc5c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c11f9"/>
+      <Point/>
+      <Point GraphRef="d8973" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2e4fdeec">
+    <Graphics ConnectorType="Curved" LineStyle="Broken" Color="ff0033">
+      <Point GraphRef="e7a60"/>
+      <Point/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="edad1" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id16cc8e0">
+    <Graphics ConnectorType="Curved" LineStyle="Broken" Color="009933">
+      <Point GraphRef="e7a60"/>
+      <Point/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="edad1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id20315a91">
+    <Graphics>
+      <Point GraphRef="cbb2f"/>
+      <Point GraphRef="eb1fd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Shape GraphId="a3478">
+    <Graphics ShapeType="mim-degradation"/>
+  </Shape>
+  <Shape GraphId="c6812">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e8761">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e6c">
+      <bp:ID >22761566</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >From dynamic expression patterns to boundary formation in the presomitic mesoderm.</bp:TITLE>
+      <bp:SOURCE >PLoS Comput Biol</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Tiedemann HB</bp:AUTHORS>
+      <bp:AUTHORS >Schneltzer E</bp:AUTHORS>
+      <bp:AUTHORS >Zeiser S</bp:AUTHORS>
+      <bp:AUTHORS >Hoesel B</bp:AUTHORS>
+      <bp:AUTHORS >Beckers J</bp:AUTHORS>
+      <bp:AUTHORS >Przemeck GK</bp:AUTHORS>
+      <bp:AUTHORS >de Angelis MH</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>regulatory pathway</bp:TERM><bp:ID>PW:0000004</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

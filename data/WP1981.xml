@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Thyroxine (thyroid hormone) production" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Thyroxine hormone is produced in the thyroid gland from tyrosine and iodine. Thyrotropin-releasing hormone (TRH) is produced by the hypothalamus. It stimulates the production of thyroid-stimulating hormone (TSH) in the anterior pituitary gland, which affects the thyroid-stimulating hormone receptor (TSHR). Iodine is captured by a hydrogen peroxide trap procuced by thyroid peroxidase and added to the 3' and 5' postitions of tyrosine. This can either be free tyrosine or a tyrosine residue in thyroglobuline. After the multiple iodination steps this produces T3 and T4. 
+The production of the thyroid hormones thyroxine (T4),tri-iodothyronine (T3) and reverse T3 (rT3) is dependent on the organification of iodine into thyroglobulin (Tg), the major protein product of the thyroid (2). This involves thyroid peroxidase catalyzed iodination of tyrosine residues in Tg to form mono- and di-iodotyrosines and their subsequent crosslinking to form the iodothyronines T3 and T4.
+
+Iodine 131 is an important radioactive fallout product. It was released in the atmosphere after nuclear tests and after nuclear incidents like at Tchernobyl and Fukushima. Since the iodine is concentrated in the thyroid glant as a substrate for the process described here non-radioactive iodine 127 is given as competitor to people exposed.</Comment>
+  <BiopaxRef>d2a</BiopaxRef>
+  <Graphics BoardWidth="1309.0" BoardHeight="617.0"/>
+  <DataNode TextLabel="Triiodothyronine (T3)" GraphId="fcff2" Type="Metabolite">
+    <Graphics FontName="Verdana" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TSH" GraphId="abd53" Type="GeneProduct">
+    <Graphics FontName="Verdana"/>
+    </DataNode>
+  <DataNode TextLabel="127 Iodide" GraphId="f3eaa" Type="Metabolite" GroupRef="e6879">
+    <Graphics FontName="Verdana" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TRH" GraphId="adcdb" Type="GeneProduct">
+    <Graphics FontName="Verdana"/>
+    </DataNode>
+  <DataNode TextLabel="TSHR" GraphId="b0a8e" Type="GeneProduct">
+    <Graphics FontName="Verdana"/>
+    </DataNode>
+  <DataNode TextLabel="SLC5A5" GraphId="ecc11" Type="GeneProduct">
+    <Graphics FontName="Verdana"/>
+    </DataNode>
+  <DataNode TextLabel="131 Iodide" GraphId="fb5f6" Type="Metabolite" GroupRef="e6879">
+    <Graphics FontName="Verdana" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Thyruglobulin (Tg)" GraphId="d7d5b" Type="GeneProduct">
+    <BiopaxRef>f2a</BiopaxRef>
+    <Graphics FontName="Verdana"/>
+    </DataNode>
+  <DataNode TextLabel="Thyroidperoxidase&#10;" GraphId="a85d9" Type="GeneProduct">
+    <Graphics FontName="Verdana"/>
+    </DataNode>
+  <DataNode TextLabel="L-Tyrosine" GraphId="bfddd" Type="Metabolite">
+    <Graphics FontName="Verdana" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Thyroxine (T4)" GraphId="f95aa" Type="Metabolite">
+    <Graphics FontName="Verdana" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="131 Iodide" GraphId="af9f2" Type="Metabolite" GroupRef="d13e2">
+    <Graphics FontName="Verdana" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="127 Iodide" GraphId="bed55" Type="Metabolite" GroupRef="d13e2">
+    <Graphics FontName="Verdana" Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="f6732">
+    <Graphics>
+      <Point GraphRef="a06aa"/>
+      <Point GraphRef="a1f14" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.488570715411992" Shape="Circle" GraphId="b3fac"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a5bbe">
+    <Graphics>
+      <Point GraphRef="bfddd"/>
+      <Point GraphRef="d7d5b" ArrowHead="Arrow"/>
+      <Anchor Position="0.49945973841507196" Shape="None" GraphId="d2079"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dca29">
+    <Graphics>
+      <Point GraphRef="adcdb"/>
+      <Point GraphRef="abd53" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e79b5">
+    <Graphics>
+      <Point GraphRef="a1f14"/>
+      <Point GraphRef="d2079"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a07eb">
+    <Graphics>
+      <Point GraphRef="d7d5b"/>
+      <Point GraphRef="cf33e" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b11fa">
+    <Graphics>
+      <Point GraphRef="abd53"/>
+      <Point GraphRef="b0a8e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bde6f">
+    <Graphics>
+      <Point GraphRef="d0ba9"/>
+      <Point GraphRef="fcff2" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bbcf4">
+    <Graphics>
+      <Point GraphRef="cf33e"/>
+      <Point GraphRef="f95aa" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.22646053480091743" Shape="None" GraphId="d0ba9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cddf6">
+    <Graphics>
+      <Point GraphRef="ecc11"/>
+      <Point GraphRef="b3fac"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e58fe">
+    <Graphics>
+      <Point GraphRef="a85d9"/>
+      <Point GraphRef="d2079" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Iodination of &#10;tyrosine" GraphId="c9cdc">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Hypothalamus" GraphId="ee012">
+    <Graphics FillColor="ffffff" FontName="Verdana"/>
+  </Label>
+  <Label TextLabel="mono- and&#10;di-iodotyrosines" GraphId="cf33e">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Spontaneous&#10;crosslinking" GraphId="ff236">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Anterior pituitary" GraphId="b24e8">
+    <Graphics FillColor="ffffff" FontName="Verdana"/>
+  </Label>
+  <Label TextLabel="Thyroid" GraphId="e31b7">
+    <Graphics FillColor="ffffff" FontName="Verdana"/>
+  </Label>
+  <Shape GraphId="b3d51">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e59e1">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="a7088">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="d13e2" GraphId="a06aa" Style="Group"/>
+  <Group GroupId="e6879" GraphId="a1f14" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f2a">
+      <bp:ID >221813</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Control of thyroglobulin synthesis and secretion</bp:TITLE>
+      <bp:SOURCE >N. Engl. J. Med. 301:239</bp:SOURCE>
+      <bp:YEAR >1979</bp:YEAR>
+      <bp:AUTHORS >Van Herle, A.J .</bp:AUTHORS>
+      <bp:AUTHORS >G. Vassart</bp:AUTHORS>
+      <bp:AUTHORS >J.E . Dumont</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >thyroid hormone signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000501</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >thyroid hormone signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000501</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >thyroid gland disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:50</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >thyroid gland disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:50</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d2a">
+      <bp:ID >7871153 </bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Thyroid cancer after exposure to external radiation: a pooled analysis of seven studies.</bp:TITLE>
+      <bp:SOURCE >Radiat Res</bp:SOURCE>
+      <bp:YEAR >1995</bp:YEAR>
+      <bp:AUTHORS >Ron E</bp:AUTHORS>
+      <bp:AUTHORS >Lubin JH</bp:AUTHORS>
+      <bp:AUTHORS >Shore RE</bp:AUTHORS>
+      <bp:AUTHORS >Mabuchi K</bp:AUTHORS>
+      <bp:AUTHORS >Modan B</bp:AUTHORS>
+      <bp:AUTHORS >Pottern LM</bp:AUTHORS>
+      <bp:AUTHORS >Schneider AB</bp:AUTHORS>
+      <bp:AUTHORS >Tucker MA</bp:AUTHORS>
+      <bp:AUTHORS >Boice JD Jr</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Alpha 6 beta 4 signaling pathway" Organism="Homo sapiens" License="Freely available under Creative Commons license">
+  <Comment Source="WikiPathways-description">The integrin alpha6beta4 was discovered in the late 1980s by two different groups and was called either alphaEbeta4 or Ic-Ic binding protein (Ic-IcBP) (1,2). The alpha6beta4 integrin is a component of Hemidesmosomes (HDs) (3, 4,5). Increased expression of alphaEbeta4 and changes in its distribution is found to be correlated with increased aggressiveness of tumors and poor prognosis (6, 7). Although integrin alpha6beta4, can interact with different laminin isoforms, its preferred ligand in the epidermal BM is laminin-5 (8, 9). The beta4 integrin is a large protein and has a cytoplasmic domain of more than 1000 amino acids (10, 11). This domain contains a Na-Ca exchanger (CalX) motif followed by two pairs of type III fibronectin (FNIII) domains separated by a connecting segment (CS). It is found to associate with the intermediate filament system through plectin and BP230, which are components of hemidesmosomes (12,13,14). Interaction of intgrin beta4 with components of hemidesmosomes including plectin, BP230 and BP180 is found to be important in signaling events associated with cell growth, survival, and migration under physiological and pathological conditions.
+
+Studies have shown that beta4 can regulate keratinocyte migration both positively and negatively (15,16,17,18). It is also found to regulate cell survival in keratinocytes in cell culture systems under stress in a PI3K/Akt pathway dependent manner (19,18). However, alpha6beta4 was not found to have any effect on keratinocyte survival in vivo (20, 18, 16). Apart from its effects on keratinocytes, evidence suggests that integrin alpha6beta4 is important in cancer cell invasion (21,22,23,24) and survival (25,26,27,28,16,29). The cancer cell invasion is regulated through a IRS/PI3K dependent process while the effect on carcinoma cell survival in a PI3K/Akt and dependent manner. Activation of the transcription factors NFkappaB and NF-IL6 in a p38Mapk dependent pathway and subsequent activation of IL6 gene expression was shown to be mechanism of alpha6beta4 induced survival of thymocytes and proliferation of thymic epithelial cells (27,30). Integrin alpha6beta4 is also known activate the Ras/Raf/MEK/ERK cascade which is found to be involved in the regulation of cell cycle (31,32,33,34).
+NetPath (http://www.netpath.org) is a collaborative project between PandeyLab at Johns Hopkins University (http://pandeylab.igm.jhmi.edu) and the Institute of Bioinformatics (http://www.ibioinformatics.org).  If you use this pathway, please cite the NetPath website until the pathway is published.</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <BiopaxRef>e8a</BiopaxRef>
+  <Graphics BoardWidth="1198.0" BoardHeight="1221.79862136878"/>
+  <DataNode TextLabel="ITGB4" GraphId="a070f" Type="Protein" GroupRef="d24ea">
+        </DataNode>
+  <DataNode TextLabel="MAPK14" GraphId="a1368" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PTK2" GraphId="a5b24" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="ITGB4" GraphId="a8a28" Type="Protein" GroupRef="aa170">
+        </DataNode>
+  <DataNode TextLabel="MTOR" GraphId="ab383" Type="Protein">
+    <Graphics FillColor="00ffff"/>
+    </DataNode>
+  <DataNode TextLabel="MAPK1" GraphId="ae4fa" Type="Protein" GroupRef="daa8b">
+        </DataNode>
+  <DataNode TextLabel="IRS2" GraphId="ae51f" Type="Protein" GroupRef="cad82">
+        </DataNode>
+  <DataNode TextLabel="ITGA6" GraphId="afd25" Type="Protein" GroupRef="d05a9">
+        </DataNode>
+  <DataNode TextLabel="PRKCD" GraphId="b017f" Type="Protein">
+    <Graphics FillColor="00ffff"/>
+    </DataNode>
+  <DataNode TextLabel="MAPK3" GraphId="b11ca" Type="Protein" GroupRef="daa8b">
+        </DataNode>
+  <DataNode TextLabel="GAB1" GraphId="b3311" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="LAMA2" GraphId="b38f0" Type="Protein" GroupRef="c37e3">
+        </DataNode>
+  <DataNode TextLabel="LAMB1" GraphId="b43ea" Type="Protein" GroupRef="c37e3">
+        </DataNode>
+  <DataNode TextLabel="LAMA2" GraphId="baa58" Type="Protein" GroupRef="fe369">
+        </DataNode>
+  <DataNode TextLabel="ITGA6" GraphId="bad8b" Type="Protein" GroupRef="fe369">
+        </DataNode>
+  <DataNode TextLabel="AKT1" GraphId="bd3e5" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="ITGB4" GraphId="bde20" Type="Protein" GroupRef="d7486">
+        </DataNode>
+  <DataNode TextLabel="EIF4EBP1" GraphId="be9eb" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="LAMA5" GraphId="bf735" Type="Protein" GroupRef="d9717">
+        </DataNode>
+  <DataNode TextLabel="LAMC1" GraphId="c10e7" Type="Protein" GroupRef="c37e3">
+        </DataNode>
+  <DataNode TextLabel="PTPN11" GraphId="c244d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="LAMC2" GraphId="c26f5" Type="Protein" GroupRef="d24ea">
+        </DataNode>
+  <DataNode TextLabel="PIK3R2" GraphId="c6979" Type="Protein" GroupRef="b41bd">
+        </DataNode>
+  <DataNode TextLabel="LAMB1" GraphId="c8a2b" Type="Protein" GroupRef="d7486">
+        </DataNode>
+  <DataNode TextLabel="LAMC1" GraphId="cae06" Type="Protein" GroupRef="d7486">
+        </DataNode>
+  <DataNode TextLabel="LAMA3" GraphId="cc0b3" Type="Protein" GroupRef="d24ea">
+        </DataNode>
+  <DataNode TextLabel="LAMB1" GraphId="cce10" Type="Protein" GroupRef="d05a9">
+        </DataNode>
+  <DataNode TextLabel="ITGB4" GraphId="ce87a" Type="Protein" GroupRef="fe369">
+        </DataNode>
+  <DataNode TextLabel="SOS1" GraphId="d32d5" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="LAMB2" GraphId="d6fb1" Type="Protein" GroupRef="d9717">
+        </DataNode>
+  <DataNode TextLabel="LAMB2" GraphId="d7149" Type="Protein" GroupRef="fe369">
+        </DataNode>
+  <DataNode TextLabel="IRS1" GraphId="d7a9c" Type="Protein" GroupRef="cad82">
+        </DataNode>
+  <DataNode TextLabel="ITGA6" GraphId="db214" Type="Protein" GroupRef="c37e3">
+        </DataNode>
+  <DataNode TextLabel="GRB2" GraphId="db5db" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RHOA" GraphId="dd415" Type="Protein">
+    <Graphics FillColor="00ffff"/>
+    </DataNode>
+  <DataNode TextLabel="RAC1" GraphId="dd941" Type="Protein">
+    <Graphics FillColor="00ffff"/>
+    </DataNode>
+  <DataNode TextLabel="LAMA1" GraphId="de3de" Type="Protein" GroupRef="d7486">
+        </DataNode>
+  <DataNode TextLabel="LAMC1" GraphId="e000a" Type="Protein" GroupRef="d9717">
+        </DataNode>
+  <DataNode TextLabel="LAMA5" GraphId="e169d" Type="Protein" GroupRef="d05a9">
+        </DataNode>
+  <DataNode TextLabel="ITGA6" GraphId="e45dd" Type="Protein" GroupRef="aa170">
+    <Comment> ITGB4 interacts with ITGA6 in PA-JEB keratinocytes, 804G cells,MDA-MB-435 cells and HUVECs.</Comment>
+        </DataNode>
+  <DataNode TextLabel="ITGA6" GraphId="e5d02" Type="Protein" GroupRef="d24ea">
+        </DataNode>
+  <DataNode TextLabel="SHC1" GraphId="e81bd" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="ITGB4" GraphId="e8b87" Type="Protein" GroupRef="d05a9">
+        </DataNode>
+  <DataNode TextLabel="LAMC1" GraphId="e8d0c" Type="Protein" GroupRef="fe369">
+        </DataNode>
+  <DataNode TextLabel="LAMC1" GraphId="eaf45" Type="Protein" GroupRef="d05a9">
+        </DataNode>
+  <DataNode TextLabel="ITGA6" GraphId="ee133" Type="Protein" GroupRef="d7486">
+        </DataNode>
+  <DataNode TextLabel="LAMB3" GraphId="f4087" Type="Protein" GroupRef="d24ea">
+        </DataNode>
+  <DataNode TextLabel="ITGB4" GraphId="fb8b0" Type="Protein" GroupRef="c37e3">
+        </DataNode>
+  <DataNode TextLabel="PIK3R1" GraphId="fc51d" Type="Protein" GroupRef="b41bd">
+        </DataNode>
+  <DataNode TextLabel="SRC" GraphId="fc8e2" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="HRAS" GraphId="fdce9" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PRKCA" GraphId="ffa3b" Type="Protein">
+    <Graphics FillColor="00ffff"/>
+    </DataNode>
+  <State GraphRef="b3311" TextLabel="P" GraphId="bdbfb">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="fdce9" TextLabel="GTP" GraphId="c3533">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="fc8e2" TextLabel="P" GraphId="e05fd">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="bd3e5" TextLabel="P" GraphId="ed124">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="a726b" GroupRef="d7486">
+    <Graphics>
+      <Point GraphRef="fcbdd"/>
+      <Point GraphRef="ee133"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a7df4" GroupRef="fe369">
+    <Graphics Color="ff3399">
+      <Point GraphRef="d7149"/>
+      <Point GraphRef="a6e25"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a9581" GroupRef="d05a9">
+    <Graphics Color="ff3399">
+      <Point GraphRef="cce10"/>
+      <Point GraphRef="dbade"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b6a88">
+    <Comment>Alpha 6 beta 4 ligation induces the activation of ERK1/2</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="fdce9"/>
+      <Point GraphRef="ae4fa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b83ad" GroupRef="d7486">
+    <Graphics Color="ff3399">
+      <Point GraphRef="c8a2b"/>
+      <Point GraphRef="c53da"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bd099" GroupRef="d24ea">
+    <Graphics>
+      <Point GraphRef="e5245"/>
+      <Point GraphRef="a070f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bf737" GroupRef="c37e3">
+    <Graphics>
+      <Point GraphRef="c465e"/>
+      <Point GraphRef="db214"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c37e3" GroupRef="d24ea">
+    <Graphics Color="ff3399">
+      <Point GraphRef="f4087"/>
+      <Point GraphRef="d3b28"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6448">
+    <Comment>Alpha 6 beta 4 integrin induces the association and recruitment of src to the FAK involved focal adhesion complex.</Comment>
+    <Comment> SRC phosphorylates PTK2 at the Tyr925 site in B16-F10 cells.</Comment>
+    <Graphics Color="0000ff">
+      <Point GraphRef="fc8e2"/>
+      <Point GraphRef="a5b24" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c934a">
+    <Comment>Activation of alpha6 beta 4 integrin leads to the interaction of FAK with &#195;&#8230;&#226;&#8364;&#8482;&#195;&#162;&#226;&#8364;&#176;&#194;&#164;4 integrin subunit in HUVECs cells. </Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="a070f"/>
+      <Point GraphRef="a5b24" ArrowHead="Arrow"/>
+      <Anchor Position="0.30327868852459017" Shape="None" GraphId="a1923"/>
+      <Anchor Position="0.30327868852459017" Shape="None"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ca9e3" GroupRef="d9717">
+    <Graphics>
+      <Point GraphRef="f8583"/>
+      <Point GraphRef="a8a28"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d0c3f">
+    <Comment> PIK3R1 interacts with IRS1 in MDA-MB-435 cells.</Comment>
+    <Comment>PIK3R1 interacts with IRS2 in MDA-MB-435 cells. IRS proteins contain several PI3K binding sites, and involved in the activation of PI3K.</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="ae51f"/>
+      <Point GraphRef="fc51d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2406" GroupRef="d9717">
+    <Graphics>
+      <Point GraphRef="c930f"/>
+      <Point GraphRef="e45dd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6750" GroupRef="fe369">
+    <Graphics>
+      <Point GraphRef="de430"/>
+      <Point GraphRef="bad8b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d97c8" GroupRef="c37e3">
+    <Graphics>
+      <Point GraphRef="f371b"/>
+      <Point GraphRef="fb8b0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d9b98" GroupRef="d05a9">
+    <Graphics>
+      <Point GraphRef="ee07b"/>
+      <Point GraphRef="e8b87"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dc54a">
+    <Comment>SHC1 interacts with GRB2 in primary human keratinocytes and A431 cells. </Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="e81bd"/>
+      <Point GraphRef="db5db" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dfdd6" GroupRef="d7486">
+    <Graphics>
+      <Point GraphRef="da28f"/>
+      <Point GraphRef="bde20"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e2799" GroupRef="d24ea">
+    <Graphics>
+      <Point GraphRef="e3ba0"/>
+      <Point GraphRef="e5d02"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e705c" GroupRef="d9717">
+    <Graphics Color="ff3399">
+      <Point GraphRef="d6fb1"/>
+      <Point GraphRef="cf5e1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ec356" GroupRef="c37e3">
+    <Graphics Color="ff3399">
+      <Point GraphRef="b43ea"/>
+      <Point GraphRef="acb92"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f136a">
+    <Graphics Color="0000ff">
+      <Point GraphRef="ab383"/>
+      <Point GraphRef="be9eb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f15b9" GroupRef="fe369">
+    <Graphics>
+      <Point GraphRef="f3c5b"/>
+      <Point GraphRef="ce87a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f67ec">
+    <Comment>Alpha 6 beta 4 ligation induces the activation of H-ras </Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d32d5"/>
+      <Point GraphRef="fdce9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f81df" GroupRef="d05a9">
+    <Graphics>
+      <Point GraphRef="f7614"/>
+      <Point GraphRef="afd25"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id28a34468">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="a1923"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="c244d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id30c50a60">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="a1923"/>
+      <Point GraphRef="e81bd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3372bc15">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="f6c59"/>
+      <Point GraphRef="dd415" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id40075c55">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="a070f"/>
+      <Point/>
+      <Point GraphRef="dd941" ArrowHead="Arrow"/>
+      <Anchor Position="0.6959622228305503" Shape="None" GraphId="f6c59"/>
+      <Anchor Position="0.2881604160963592" Shape="None" GraphId="b39a0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4c351566">
+    <Graphics ConnectorType="Elbow" Color="0000ff">
+      <Point GraphRef="ffa3b"/>
+      <Point GraphRef="fe2b7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id655a23b1">
+    <Graphics Color="00cc00">
+      <Point GraphRef="db5db"/>
+      <Point GraphRef="d32d5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id888c2cd5">
+    <Graphics ConnectorType="Elbow" Color="0000ff">
+      <Point GraphRef="b017f"/>
+      <Point/>
+      <Point GraphRef="a070f" ArrowHead="Arrow"/>
+      <Anchor Position="0.20557216246705037" Shape="None" GraphId="fe2b7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9135096f">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="c244d"/>
+      <Point/>
+      <Point GraphRef="fc8e2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb8464b11">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="fc8e2"/>
+      <Point/>
+      <Point GraphRef="b3311" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc9eefd9e">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="a5b24"/>
+      <Point/>
+      <Point GraphRef="db5db" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcc69104">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="b39a0"/>
+      <Point/>
+      <Point GraphRef="d7a9c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e75a7">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="fc8e2"/>
+      <Point GraphRef="a1368" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f46d6">
+    <Comment> PIK3R1 phosphorylates AKT1 upon stimulation of beta4 integrin receptor in A431 cells.</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c6979"/>
+      <Point GraphRef="bd3e5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="faa29">
+    <Comment/>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bd3e5"/>
+      <Point GraphRef="ab383" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d28d3">
+    <Comment/>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="dd941"/>
+      <Point GraphRef="c22d1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e616a">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="dd415"/>
+      <Point GraphRef="cdf0d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e75aa">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c22d1"/>
+      <Point GraphRef="cdf0d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ed4d7">
+    <Graphics Color="ff3399">
+      <Point GraphRef="c89c2"/>
+      <Point GraphRef="d9e2c"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="b76f6">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="TBar"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c7db4">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b51ef">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e797d">
+    <Graphics Color="ff0033">
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d3db7">
+    <Graphics Color="9900cc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="af5b9">
+    <Graphics Color="cc00cc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="aa753">
+    <Graphics Color="999900">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c4b96">
+    <Graphics LineStyle="Broken" Color="00cccc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bc911">
+    <Graphics Color="00ffff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d2756">
+    <Graphics Color="ffcc33">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bca6f">
+    <Graphics>
+      <Point GraphRef="fe36a"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d404f">
+    <Graphics Color="0000ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c01b1">
+    <Graphics Color="ff9933">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c00a7">
+    <Graphics Color="cccc00">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d79e1">
+    <Graphics Color="770000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c92ba">
+    <Graphics Color="775200">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f8ea4">
+    <Graphics Color="ff6666">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="bab97">
+    <Graphics Color="999999">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ff6c6">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="da121">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d6155">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b70ff">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b497e">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="df10c">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fa6f3">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="organisation" GraphId="a09a8" GroupRef="fd277">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cofilin" GraphId="c22d1">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Regulation of " GraphId="cdf0d" GroupRef="fd277">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Label" GraphId="d7a2b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Label" GraphId="e70a2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="cytoskeletal" GraphId="ef3a1" GroupRef="fd277">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Alpha 6 beta 4 signaling pathway" GraphId="f23f3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Label" GraphId="fda54">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Protein - protein dissociation" GraphId="a5338">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Receptor" GraphId="c75b5">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Protein" GraphId="f25b5">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Enzyme complex" GraphId="dc61a">
+    <Graphics FillColor="99ff33" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="mRNA" GraphId="e9e7c">
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Protein" GraphId="af19d">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Protein" GraphId="e8612">
+    <Graphics FillColor="99ffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Ligand" GraphId="c89c2">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Small molecule" GraphId="b5a8f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Induced activation" GraphId="ca975">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Inhibition" GraphId="cd35c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Auto catalysis" GraphId="add91">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Transport" GraphId="d1c0d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Positive regulation of gene expression" GraphId="c3228">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Leads to through unknown mechanism" GraphId="e9a87">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Negative regulation of gene expression" GraphId="e9602">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Translocation " GraphId="c26b0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Ubiquitination" GraphId="a0432">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Deubiquitination" GraphId="c6064">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Sumoylation" GraphId="b6aea">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Induced catalysis" GraphId="b3f62">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Protein-protein interaction" GraphId="e6afb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Acetylation" GraphId="df99b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Dephosphorylation" GraphId="d781e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="LEGEND" GraphId="e93da">
+    <Graphics FillColor="ffffff" Color="3333ff"/>
+  </Label>
+  <Label TextLabel="Phosphorylation" GraphId="a8fd7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Deacetylation" GraphId="c2e08">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Golgi apparatus" GraphId="ff1ae">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Endosome" GraphId="e537d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="a567e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Mitochondrion" GraphId="e617d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Desumoylation" GraphId="a8b9d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Methylation" GraphId="ccab2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Demethylation" GraphId="cdfaa">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Palmitoylation" GraphId="f84ec">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cytoplasm" GraphId="ae487">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="EC" GraphId="f9583">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Plasma membrane" GraphId="bb801">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="MT" GraphId="f30b3">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Endoplasmic reticulum" GraphId="a4a98">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CY" GraphId="b50d2">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="PM" GraphId="c1b3b">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="GO" GraphId="d46d8">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="NU" GraphId="a770e">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Extracellular" GraphId="a7d58">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ER" GraphId="f663b">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="EN" GraphId="d056f">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Proteolytic cleavage" GraphId="df8d2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="a6e25" GroupRef="fe369">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff0066"/>
+  </Shape>
+  <Shape GraphId="acb92" GroupRef="c37e3">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff0066"/>
+  </Shape>
+  <Shape GraphId="c465e" GroupRef="c37e3">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="c53da" GroupRef="d7486">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff0066"/>
+  </Shape>
+  <Shape GraphId="c930f" GroupRef="d9717">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="cf5e1" GroupRef="d9717">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff0066"/>
+  </Shape>
+  <Shape GraphId="d3b28" GroupRef="d24ea">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff0066"/>
+  </Shape>
+  <Shape GraphId="da28f" GroupRef="d7486">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="dbade" GroupRef="d05a9">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff0066"/>
+  </Shape>
+  <Shape GraphId="de430" GroupRef="fe369">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="e3ba0" GroupRef="d24ea">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="e5245" GroupRef="d24ea">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="ee07b" GroupRef="d05a9">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="f371b" GroupRef="c37e3">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="f3c5b" GroupRef="fe369">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="f7614" GroupRef="d05a9">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="f8583" GroupRef="d9717">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="fcbdd" GroupRef="d7486">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="fe36a">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="b33b4">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="ec0f6">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape TextLabel="Molecule" GraphId="f3c5d">
+    <Graphics FillColor="ffccff" ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d9e2c">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff0066"/>
+  </Shape>
+  <Shape GraphId="dc390">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="daa8b" GraphId="a254f" Style="Group"/>
+  <Group GroupId="fd277" GraphId="abaaa" Style="Group"/>
+  <Group GroupId="d7486" GraphId="ae4e9" Style="Group">
+    <Comment>ITGA6 and ITGB4 interacts with LAMA1,LAMB1 and LAMC1 in 804G cells.</Comment>
+  </Group>
+  <Group GroupId="fe369" GraphId="b20d2" Style="Group">
+    <Comment> ITGA6 and ITGB4 interacts with LAMA2,LAMB2 and LAMC1 in 804G cells.</Comment>
+  </Group>
+  <Group GroupId="d24ea" GraphId="d3706" Style="Group">
+    <Comment>ITGA6 and ITGB4 interact with LAMA3,LAMB3 and LAMC2 in K562 and 804G cells.</Comment>
+    <Comment> ITGB4 interacts with LAMA3,LAMB3, and LAMC2 in 804G cells.</Comment>
+  </Group>
+  <Group GroupId="aa170" GraphId="eaa2d" Style="Group"/>
+  <Group GroupId="d05a9" GraphId="eb2a9" Style="Group">
+    <Comment>ITGA6 and ITGB4 interacts with LAMA5,LAMB1 and LAMC1 in A172, A431,A549,EJ-1,WI-38,HT1080 and K562 cells.</Comment>
+  </Group>
+  <Group GroupId="cad82" GraphId="ec4a5" Style="Group"/>
+  <Group GroupId="c37e3" GraphId="f1366" Style="Group">
+    <Comment>ITGA6 and ITGB4 interacts with LAMA2,LAMB1 and LAMC1 in 804G cells.</Comment>
+  </Group>
+  <Group GroupId="b41bd" GraphId="f1ddd" Style="Group"/>
+  <Group GroupId="d9717" GraphId="f4701" Style="Group">
+    <Comment>ITGA6 and ITGB4 interact with LAMA5,LAMB2 and LAMC1 in K562 cells.</Comment>
+  </Group>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >integrin mediated signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000286</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e8a">
+      <bp:ID >20067622</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NetPath: a public resource of curated signal transduction pathways.</bp:TITLE>
+      <bp:SOURCE >Genome Biol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Kandasamy K</bp:AUTHORS>
+      <bp:AUTHORS >Mohan SS</bp:AUTHORS>
+      <bp:AUTHORS >Raju R</bp:AUTHORS>
+      <bp:AUTHORS >Keerthikumar S</bp:AUTHORS>
+      <bp:AUTHORS >Kumar GS</bp:AUTHORS>
+      <bp:AUTHORS >Venugopal AK</bp:AUTHORS>
+      <bp:AUTHORS >Telikicherla D</bp:AUTHORS>
+      <bp:AUTHORS >Navarro JD</bp:AUTHORS>
+      <bp:AUTHORS >Mathivanan S</bp:AUTHORS>
+      <bp:AUTHORS >Pecquet C</bp:AUTHORS>
+      <bp:AUTHORS >Gollapudi SK</bp:AUTHORS>
+      <bp:AUTHORS >Tattikota SG</bp:AUTHORS>
+      <bp:AUTHORS >Mohan S</bp:AUTHORS>
+      <bp:AUTHORS >Padhukasahasram H</bp:AUTHORS>
+      <bp:AUTHORS >Subbannayya Y</bp:AUTHORS>
+      <bp:AUTHORS >Goel R</bp:AUTHORS>
+      <bp:AUTHORS >Jacob HK</bp:AUTHORS>
+      <bp:AUTHORS >Zhong J</bp:AUTHORS>
+      <bp:AUTHORS >Sekhar R</bp:AUTHORS>
+      <bp:AUTHORS >Nanjappa V</bp:AUTHORS>
+      <bp:AUTHORS >Balakrishnan L</bp:AUTHORS>
+      <bp:AUTHORS >Subbaiah R</bp:AUTHORS>
+      <bp:AUTHORS >Ramachandra YL</bp:AUTHORS>
+      <bp:AUTHORS >Rahiman BA</bp:AUTHORS>
+      <bp:AUTHORS >Prasad TS</bp:AUTHORS>
+      <bp:AUTHORS >Lin JX</bp:AUTHORS>
+      <bp:AUTHORS >Houtman JC</bp:AUTHORS>
+      <bp:AUTHORS >Desiderio S</bp:AUTHORS>
+      <bp:AUTHORS >Renauld JC</bp:AUTHORS>
+      <bp:AUTHORS >Constantinescu SN</bp:AUTHORS>
+      <bp:AUTHORS >Ohara O</bp:AUTHORS>
+      <bp:AUTHORS >Hirano T</bp:AUTHORS>
+      <bp:AUTHORS >Kubo M</bp:AUTHORS>
+      <bp:AUTHORS >Singh S</bp:AUTHORS>
+      <bp:AUTHORS >Khatri P</bp:AUTHORS>
+      <bp:AUTHORS >Draghici S</bp:AUTHORS>
+      <bp:AUTHORS >Bader GD</bp:AUTHORS>
+      <bp:AUTHORS >Sander C</bp:AUTHORS>
+      <bp:AUTHORS >Leonard WJ</bp:AUTHORS>
+      <bp:AUTHORS >Pandey A</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

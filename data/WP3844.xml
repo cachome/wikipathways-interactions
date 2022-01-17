@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="PI3K-AKT-mTOR signaling pathway and therapeutic opportunities" Version="20160630" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway is based on figure 1 from Merritt et al. (See Bibliography). The PI3K-AKT-mTOR signaling pathway has been shown to have a significant correlation with the development of castration-resistant prostate cancer. The signaling pathway regulates many cellular processes such as protein synthesis, proliferation, survival, metabolism, and differentiation, all factors that would increase a cancerous cell's ability to survive. Scientists have explored the use of various inhibitors for different parts of the signaling pathway, and have been faced with varying success. 
+
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3844 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>e9f</BiopaxRef>
+  <Graphics BoardWidth="690.0" BoardHeight="757.2689075630248"/>
+  <DataNode TextLabel="TSC2" GraphId="a2b6e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="eNOS" GraphId="a6c95" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="GRB10" GraphId="a855f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RAPTOR" GraphId="a909b" Type="GeneProduct" GroupRef="bb4e2">
+        </DataNode>
+  <DataNode TextLabel="FOXO3" GraphId="abd24" Type="GeneProduct" GroupRef="dad10">
+        </DataNode>
+  <DataNode TextLabel="PIP3" GraphId="b2dbb" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="AKT" GraphId="b6796" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TFEB" GraphId="be7fa" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PIP2" GraphId="c4c9c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="FOXO1" GraphId="c516b" Type="GeneProduct" GroupRef="dad10">
+    <Comment/>
+        </DataNode>
+  <DataNode TextLabel="FIP200" GraphId="d2553" Type="GeneProduct" GroupRef="af34c">
+        </DataNode>
+  <DataNode TextLabel="PTEN" GraphId="d50c7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="BAD" GraphId="d662d" Type="GeneProduct" GroupRef="dad10">
+        </DataNode>
+  <DataNode TextLabel="ULK1" GraphId="d8db4" Type="GeneProduct" GroupRef="af34c">
+        </DataNode>
+  <DataNode TextLabel="PDK1" GraphId="e11f4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="4EBP1&#10;" GraphId="e14d7" Type="GeneProduct">
+    <Comment/>
+        </DataNode>
+  <DataNode TextLabel="MTOR" GraphId="e5219" Type="GeneProduct" GroupRef="bb4e2">
+        </DataNode>
+  <DataNode TextLabel="p27" GraphId="e5b6e" Type="GeneProduct" GroupRef="dad10">
+        </DataNode>
+  <DataNode TextLabel="Receptor Tyrosine&#10;Kinases" GraphId="e680c" Type="GeneProduct" GroupRef="e633b">
+        </DataNode>
+  <DataNode TextLabel="MTOR" GraphId="e70ee" Type="GeneProduct" GroupRef="de683">
+        </DataNode>
+  <DataNode TextLabel="GSK3B" GraphId="e879b" Type="GeneProduct" GroupRef="dad10">
+        </DataNode>
+  <DataNode TextLabel="ATG13" GraphId="e8cc4" Type="GeneProduct" GroupRef="af34c">
+        </DataNode>
+  <DataNode TextLabel="RHEB" GraphId="ea7bf" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="S6K1" GraphId="ed4ae" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RICTOR" GraphId="f21ed" Type="GeneProduct" GroupRef="de683">
+        </DataNode>
+  <DataNode TextLabel="FOXO4" GraphId="f6e10" Type="GeneProduct" GroupRef="dad10">
+        </DataNode>
+  <DataNode TextLabel="PIK3CA" GraphId="c68e6" Type="GeneProduct" GroupRef="f0f3e">
+        </DataNode>
+  <DataNode TextLabel="PIK3CB" GraphId="c283e" Type="GeneProduct" GroupRef="f0f3e">
+        </DataNode>
+  <DataNode TextLabel="PIK3R1" GraphId="e7903" Type="GeneProduct" GroupRef="f0f3e">
+        </DataNode>
+  <DataNode TextLabel="PIK3R2" GraphId="da3b7" Type="GeneProduct" GroupRef="f0f3e">
+        </DataNode>
+  <DataNode TextLabel="PIK3R3" GraphId="cdaa3" Type="GeneProduct" GroupRef="f0f3e">
+        </DataNode>
+  <DataNode TextLabel="PIK3CG" GraphId="a87f5" Type="GeneProduct" GroupRef="f0f3e">
+        </DataNode>
+  <DataNode TextLabel="G Protein-coupled &#10;Receptors" GraphId="f8429" Type="GeneProduct" GroupRef="e633b">
+        </DataNode>
+  <DataNode TextLabel="HRAS" GraphId="cc3eb" Type="GeneProduct" GroupRef="e633b">
+        </DataNode>
+  <DataNode TextLabel="NRAS" GraphId="fad91" Type="GeneProduct" GroupRef="e633b">
+        </DataNode>
+  <DataNode TextLabel="KRAS" GraphId="f69aa" Type="GeneProduct" GroupRef="e633b">
+        </DataNode>
+  <Interaction GraphId="id1b0f3ad1">
+    <Graphics>
+      <Point GraphRef="b2dbb"/>
+      <Point GraphRef="b6796" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id28093625">
+    <Graphics>
+      <Point GraphRef="b6796"/>
+      <Point GraphRef="a2b6e" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id352da1ec">
+    <Graphics>
+      <Point GraphRef="c9924"/>
+      <Point GraphRef="ed4ae" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3c721ead">
+    <Graphics>
+      <Point GraphRef="a2b6e"/>
+      <Point GraphRef="ea7bf" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6a933828">
+    <Graphics>
+      <Point GraphRef="c9924"/>
+      <Point GraphRef="cc01c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6a9f4034">
+    <Graphics>
+      <Point GraphRef="b6796"/>
+      <Point GraphRef="fa884" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6b80076b">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d5327"/>
+      <Point GraphRef="c9924" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7cb0a488">
+    <Graphics>
+      <Point GraphRef="b6796"/>
+      <Point GraphRef="a6c95" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id806188c8">
+    <Graphics>
+      <Point GraphRef="c53b8"/>
+      <Point GraphRef="f5cbd" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id85aa8dea">
+    <Graphics>
+      <Point GraphRef="c4c9c"/>
+      <Point GraphRef="b2dbb" ArrowHead="Arrow"/>
+      <Anchor Position="0.47520544063474074" Shape="None" GraphId="bbf39"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id86040f4e">
+    <Graphics>
+      <Point GraphRef="b281a"/>
+      <Point GraphRef="c6e90" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id924a6aed">
+    <Graphics>
+      <Point GraphRef="f5cbd"/>
+      <Point GraphRef="b6796" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9696fa30">
+    <Graphics>
+      <Point GraphRef="d775a"/>
+      <Point GraphRef="b6796" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id99ee32c3">
+    <Graphics>
+      <Point GraphRef="c9924"/>
+      <Point GraphRef="e14d7" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida3beaec4">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a94cc"/>
+      <Point GraphRef="c6e90" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida3ea721">
+    <Graphics>
+      <Point GraphRef="c9924"/>
+      <Point GraphRef="be7fa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida418031b">
+    <Graphics>
+      <Point GraphRef="d50c7"/>
+      <Point GraphRef="fe4e6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaaf8ef99">
+    <Graphics>
+      <Point GraphRef="c6e90"/>
+      <Point GraphRef="bbf39" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbf5c3cfc">
+    <Graphics>
+      <Point GraphRef="c9924"/>
+      <Point GraphRef="a855f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc3fe5fe5">
+    <Graphics>
+      <Point GraphRef="c53b8"/>
+      <Point GraphRef="c9924" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd3d903e8">
+    <Graphics>
+      <Point GraphRef="e11f4"/>
+      <Point GraphRef="b6796" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd4139b6f">
+    <Graphics>
+      <Point GraphRef="b2dbb"/>
+      <Point GraphRef="c4c9c" ArrowHead="Arrow"/>
+      <Anchor Position="0.47580311595201974" Shape="None" GraphId="fe4e6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide3a963c2">
+    <Graphics>
+      <Point GraphRef="ea7bf"/>
+      <Point GraphRef="c9924" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="PI3K inhibitors" GraphId="b281a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ATP site mTOR inhibitors" GraphId="c53b8">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Allosteric mTOR inhibitors" GraphId="d5327">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="AKT inhibitors" GraphId="d775a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Group GroupId="e633b" GraphId="a94cc" Style="Group"/>
+  <Group GroupId="f0f3e" GraphId="c6e90" Style="Complex"/>
+  <Group GroupId="bb4e2" GraphId="c9924" Style="Complex">
+    <Comment>mTORC1</Comment>
+  </Group>
+  <Group GroupId="af34c" GraphId="cc01c" Style="Complex"/>
+  <Group GroupId="de683" GraphId="f5cbd" Style="Complex">
+    <Comment>mTORC2</Comment>
+  </Group>
+  <Group GroupId="dad10" GraphId="fa884" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >phosphatidylinositol 3-kinase-Akt signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000232</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e9f">
+      <bp:ID >24759575</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >PI3K-AKT-mTOR singaling in prostate cancer progression and androgen deprivation therapy resistance</bp:TITLE>
+      <bp:SOURCE >NIH</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Merritt P Edlind</bp:AUTHORS>
+      <bp:AUTHORS >Andrew C Hsieh</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >phosphatidylinositol 3-kinase signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000595</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

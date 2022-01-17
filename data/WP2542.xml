@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Sulindac metabolic pathway" Author="Egon Willighagen" Organism="Homo sapiens"><Comment Source="WikiPathways-description">Metabolism of sulindac sulfide is catalyzed by MsrA, MsrB2, and MsrB3.</Comment>
+  <BiopaxRef>b1d</BiopaxRef>
+  <Graphics BoardWidth="635.0" BoardHeight="325.0"/>
+  <DataNode TextLabel="Sulindac-S" GraphId="c89b3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Sulfindac sulfide" GraphId="a1f9f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MsrA" GraphId="e495e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="FMO" GraphId="ed228" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MsrB2" GraphId="c2ce3" Type="GeneProduct" GroupRef="cbaa1">
+        </DataNode>
+  <DataNode TextLabel="CYP1B1" GraphId="adfbb" Type="GeneProduct" GroupRef="f8012">
+        </DataNode>
+  <DataNode TextLabel="Sulindac-R" GraphId="facbe" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Sulindac sulfone" GraphId="b80d4" Type="Metabolite">
+    <Comment>The structure for the sulfone in the paper is inconsistent with the entries in ChemSpider and PubChem; I assume the paper made typographic errors.</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MsrB3" GraphId="aff0a" Type="GeneProduct" GroupRef="cbaa1">
+        </DataNode>
+  <DataNode TextLabel="CYP1A2" GraphId="e312f" Type="GeneProduct" GroupRef="f8012">
+        </DataNode>
+  <DataNode TextLabel="CYP1A2" GraphId="d8d1c" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="id88e36fe3">
+    <Graphics>
+      <Point GraphRef="c89b3"/>
+      <Point GraphRef="a1f9f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.49532620808234745" Shape="None" GraphId="a601e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1bc04a73">
+    <Graphics>
+      <Point GraphRef="e495e"/>
+      <Point GraphRef="a601e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1d00538b">
+    <Graphics>
+      <Point GraphRef="a1f9f"/>
+      <Point GraphRef="facbe" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d387f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6412c6f1">
+    <Graphics>
+      <Point GraphRef="facbe"/>
+      <Point GraphRef="a1f9f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d93cc"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6897b5e0">
+    <Graphics>
+      <Point GraphRef="da567"/>
+      <Point GraphRef="d93cc" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd5b178a2">
+    <Graphics>
+      <Point GraphRef="ed228"/>
+      <Point GraphRef="d387f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4bb9df15">
+    <Graphics>
+      <Point GraphRef="facbe"/>
+      <Point GraphRef="b80d4" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="aed5b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id76eea139">
+    <Graphics>
+      <Point GraphRef="c89b3"/>
+      <Point GraphRef="b80d4" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d90a8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf9bbca95">
+    <Graphics>
+      <Point GraphRef="bf268"/>
+      <Point GraphRef="aed5b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id31bb6c8a">
+    <Graphics>
+      <Point GraphRef="d8d1c"/>
+      <Point GraphRef="d90a8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Group GroupId="cbaa1" GraphId="da567"/>
+  <Group GroupId="f8012" GraphId="bf268"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b1d">
+      <bp:ID >21383205</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Studies on the metabolism and biological activity of the epimers of sulindac.</bp:TITLE>
+      <bp:SOURCE >Drug Metab Dispos</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Brunell D</bp:AUTHORS>
+      <bp:AUTHORS >Sagher D</bp:AUTHORS>
+      <bp:AUTHORS >Kesaraju S</bp:AUTHORS>
+      <bp:AUTHORS >Brot N</bp:AUTHORS>
+      <bp:AUTHORS >Weissbach H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >classic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000002</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>xenobiotic metabolic pathway</bp:TERM><bp:ID>PW:0001229</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

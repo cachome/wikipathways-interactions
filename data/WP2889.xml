@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Oxytocin signaling" Author="Mikhail Monakhov" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway shows a high-level overview of oxytocin signalling.</Comment>
+  <Graphics BoardWidth="914.0" BoardHeight="265.0"/>
+  <DataNode TextLabel="MAPK signalling pathway" GraphId="a5aa1" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Contraction (myometrial cell, &#10;mammary gland myoepithelial cell)" GraphId="a6d1b" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="PLC" GraphId="af3f0" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="OXTR" GraphId="b22db" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Oxytocin release &#10;(OXT neurons)" GraphId="c2500" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Ca2+" GraphId="c290a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PKC&#10;isozyme family" GraphId="d3ba0" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CD38" GraphId="d6368" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Gq" GraphId="e7ecf" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Protein synthesis" GraphId="f0312" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Oxytocin" GraphId="f0701" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="IP3" GraphId="f2aeb" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DAG" GraphId="f5689" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="id2b611a0d">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c290a"/>
+      <Point GraphRef="c2500" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4194fa9a">
+    <Graphics>
+      <Point GraphRef="f5689"/>
+      <Point GraphRef="d3ba0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6bbbc740">
+    <Graphics>
+      <Point GraphRef="d3ba0"/>
+      <Point GraphRef="d6368" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id717f2b83">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d3ba0"/>
+      <Point GraphRef="f0312" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7f658d84">
+    <Graphics>
+      <Point GraphRef="f0701"/>
+      <Point GraphRef="b22db" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idae3b4b15">
+    <Graphics>
+      <Point GraphRef="e7ecf"/>
+      <Point GraphRef="af3f0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb8e45ea3">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f2aeb"/>
+      <Point GraphRef="a6d1b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcabb6d93">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d6368"/>
+      <Point GraphRef="c290a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd1d676ed">
+    <Graphics>
+      <Point GraphRef="b22db"/>
+      <Point GraphRef="e7ecf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide2c25885">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e7ecf"/>
+      <Point GraphRef="a5aa1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf0246ca2">
+    <Graphics>
+      <Point GraphRef="af3f0"/>
+      <Point GraphRef="f5689" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf42827ad">
+    <Graphics>
+      <Point GraphRef="af3f0"/>
+      <Point GraphRef="f2aeb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Shape GraphId="f3b69">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >oxytocin signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000494</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Ophthalmate biosynthesis in hepatocytes" Version="20181220" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway visualises the mechanism of ophthalmate biosynthesis in hepatocytes. GSH can inhibits GCC; however when the cell is facing oxidative stress, GSH is consumed, and therefore activating GCS. This enhances the biosynthesis of ophthalmate, which is transported out of the cell over the hepatocellular membrane via MRP transporters. </Comment>
+  <BiopaxRef>a60</BiopaxRef>
+  <Graphics BoardWidth="422.0027563395809" BoardHeight="442.36879823594273"/>
+  <DataNode TextLabel="MRP-transporter" GraphId="ab6da" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Cys" GraphId="c56d9" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GCS" GraphId="d4226" Type="Protein">
+    <Comment>aka Glutamate Cysteine Ligase (GCL) (EC 6.3.2.2), previously known as gamma-glutamylcysteine synthetase (GCS)</Comment>
+        </DataNode>
+  <DataNode TextLabel="gamma-Glu-Cys" GraphId="a9161" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GSH" GraphId="b3e6b" Type="Metabolite">
+    <Comment>aka glutathione</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="2AB" GraphId="bdbde" Type="Metabolite">
+    <Comment>aka 2-aminobutyrate</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="gamma-Glu-2AB" GraphId="a7f90" Type="Metabolite">
+    <Comment>aka gamma-Glutamyl-2-aminobutyrate</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ophthalmate" GraphId="f3452" Type="Metabolite">
+    <Comment>aka ophthalmic acid</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GS" GraphId="ff2fb" Type="Protein">
+    <Comment>aka Glutathione synthetase (GSS)</Comment>
+        </DataNode>
+  <DataNode TextLabel="ophthalmate" GraphId="aefde" Type="Metabolite">
+    <Comment>aka ophthalmic acid</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="id90fdc074">
+    <Graphics>
+      <Point GraphRef="a9161"/>
+      <Point GraphRef="b3e6b" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a8b51"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida18834">
+    <Comment>TRANSPORT</Comment>
+    <Graphics>
+      <Point GraphRef="f3452"/>
+      <Point GraphRef="ab6da" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida5e3974f">
+    <BiopaxRef>e89</BiopaxRef>
+    <BiopaxRef>c74</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d4226"/>
+      <Point GraphRef="d3d70" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfa5c8d63">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b3e6b"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="d4226" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfaecfa06">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c56d9"/>
+      <Point GraphRef="a9161" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f2262"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6ed8">
+    <BiopaxRef>e89</BiopaxRef>
+    <BiopaxRef>bae</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a7f90"/>
+      <Point GraphRef="f3452" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b8e07"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3a4b">
+    <BiopaxRef>e89</BiopaxRef>
+    <BiopaxRef>c74</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bdbde"/>
+      <Point GraphRef="a7f90" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d3d70"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eca69">
+    <Graphics>
+      <Point GraphRef="d4226"/>
+      <Point GraphRef="f2262" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cd9c8">
+    <BiopaxRef>e89</BiopaxRef>
+    <BiopaxRef>bae</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ff2fb"/>
+      <Point GraphRef="b8e07" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="caee3">
+    <Graphics>
+      <Point GraphRef="ff2fb"/>
+      <Point GraphRef="a8b51" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="acb7e">
+    <Comment>TRANSPORT</Comment>
+    <Graphics>
+      <Point GraphRef="ab6da"/>
+      <Point GraphRef="aefde" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Shape TextLabel=" hepatocyte" GraphId="e3c96">
+    <Graphics Align="Left" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e89">
+      <bp:ID >637852</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Synthesis of ophthalmic acid in liver and kidney in vivo.</bp:TITLE>
+      <bp:SOURCE >Biochem J</bp:SOURCE>
+      <bp:YEAR >1978</bp:YEAR>
+      <bp:AUTHORS >Orlowski M</bp:AUTHORS>
+      <bp:AUTHORS >Wilk S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >glutathione metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000134</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bae">
+      <bp:ID >447639</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Glutathione synthetase. Purification from rat kidney and mapping of the substrate binding sites.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >1979</bp:YEAR>
+      <bp:AUTHORS >Oppenheimer L</bp:AUTHORS>
+      <bp:AUTHORS >Wellner VP</bp:AUTHORS>
+      <bp:AUTHORS >Griffith OW</bp:AUTHORS>
+      <bp:AUTHORS >Meister A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >hepatocyte</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000182</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a60">
+      <bp:ID >16608839</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Differential metabolomics reveals ophthalmic acid as an oxidative stress biomarker indicating hepatic glutathione consumption.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Soga T</bp:AUTHORS>
+      <bp:AUTHORS >Baran R</bp:AUTHORS>
+      <bp:AUTHORS >Suematsu M</bp:AUTHORS>
+      <bp:AUTHORS >Ueno Y</bp:AUTHORS>
+      <bp:AUTHORS >Ikeda S</bp:AUTHORS>
+      <bp:AUTHORS >Sakurakawa T</bp:AUTHORS>
+      <bp:AUTHORS >Kakazu Y</bp:AUTHORS>
+      <bp:AUTHORS >Ishikawa T</bp:AUTHORS>
+      <bp:AUTHORS >Robert M</bp:AUTHORS>
+      <bp:AUTHORS >Nishioka T</bp:AUTHORS>
+      <bp:AUTHORS >Tomita M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c74">
+      <bp:ID >2895925</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >On the active site thiol of gamma-glutamylcysteine synthetase: relationships to catalysis, inhibition, and regulation.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >1988</bp:YEAR>
+      <bp:AUTHORS >Huang CS</bp:AUTHORS>
+      <bp:AUTHORS >Moore WR</bp:AUTHORS>
+      <bp:AUTHORS >Meister A</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

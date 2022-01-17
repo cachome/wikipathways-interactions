@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Kit receptor signaling pathway" Organism="Homo sapiens" License="Freely available under Creative Commons license">
+  <Comment Source="WikiPathways-description">Kit is a cytokine receptor that belongs to the type III receptor tyrosine kinase family. It is structurally similar to platelet-derived growth factor recpetors (PDGFRs), colony stimulating factor-1 receptor and fms-like tyrosine kinase. Kit signaling is plays important role in a number of physiological processes including erythropoiesis, lymphopoiesis, mast cell development and function, megakaryopoiesis, gametogenesis and melanogenesis. Sequence alterations in the c-kit gene are found to be associated with different cancers including hematopoietic malignancies, gastrointestinal stromal tumors, germ cell tumors, small-cell lung cancer and pancreatic cancer. The primary ligand for kit receptor is stem cell factor (SCF). It is also known as Kit ligand, steel factor or mast cell growth factor. SCF is a glycosylated, non-covalent homodimer. Alternative splicing and proteolytic cleavage results in soluble and membrane bound forms of the protein. that binds to two KIT monomers. Binding of SCF to KIT results in the dimerization of the receptor and its autophsphorylation. The residues that are known to get phosphorylated upon ligand binding include Tyr568, Tyr570, Tyr703, Tyr721, Tyr730, Tyr823, Tyr 900 and Tyr936. Signaling events downstream of the KIT receptor are well studied. Among the signaling cascades that are activated are the Ras/Raf/MEK/MAPK and the PI3K/AKT/RPS6K pathways. KIT stimulation is also known to activate the JAK/STAT and PLC/PKC signaling pathways. Among the other key proteins that are regulated by KIT are the kinases BTK, TEC, LYN, SRC, FYN and JNK. Regulation of KIT receptor tyrosine kinase occurs through many mechanisms. Activated KIT receptors are degraded via CBL, a E3 ubiquitin-protein ligase. CBL induces the degradation of the receptor via the proteasome or lysosome. KIT can also be dephosphorylated and inactivated by the protein tyrosine phosphatase Shp1. Also, activation of protein kinase C results in a negative feedback loop, wherein it phosphorylates specific serine residues leading to the inactivation of KIT. 
+  
+Please access this pathway at [http://www.netpath.org/netslim/kit_pathway.html NetSlim] database.
+
+If you use this pathway, please cite the following paper:
+Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugopal, A. K., Telikicherla, D., Navarro, J. D., Mathivanan, S., Pecquet, C., Gollapudi, S. K., Tattikota, S. G., Mohan, S., Padhukasahasram, H., Subbannayya, Y., Goel, R., Jacob, H. K. C., Zhong, J., Sekhar, R., Nanjappa, V., Balakrishnan, L., Subbaiah, R., Ramachandra, Y. L., Rahiman, B. A., Prasad, T. S. K., Lin, J., Houtman, J. C. D., Desiderio, S., Renauld, J., Constantinescu, S. N., Ohara, O., Hirano, T., Kubo, M., Singh, S., Khatri, P., Draghici, S., Bader, G. D., Sander, C., Leonard, W. J. and Pandey, A. (2010). NetPath: A public resource of curated signal transduction pathways. &lt;i&gt;Genome Biology&lt;/i&gt;. 11:R3.</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <BiopaxRef>ddc</BiopaxRef>
+  <Graphics BoardWidth="1287.0" BoardHeight="1403.0"/>
+  <DataNode TextLabel="RPS6KA1" GraphId="bdad5" Type="Protein" GroupRef="d7407">
+        </DataNode>
+  <DataNode TextLabel="RPS6KA3" GraphId="b8363" Type="Protein" GroupRef="d7407">
+        </DataNode>
+  <DataNode TextLabel="AKT1" GraphId="bd3e5" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="DOK1" GraphId="c7e65" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CRK" GraphId="d0dba" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="EP300" GraphId="b8b87" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="KITLG" GraphId="e66d7" Type="Protein" GroupRef="c4bea">
+        </DataNode>
+  <DataNode TextLabel="KIT" GraphId="acac8" Type="Rna">
+    <Graphics FontStyle="Italic"/>
+    </DataNode>
+  <DataNode TextLabel="VAV1" GraphId="d7053" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="FOS" GraphId="b5ba1" Type="Rna">
+    <Graphics FontStyle="Italic"/>
+    </DataNode>
+  <DataNode TextLabel="GAB2" GraphId="ab2ca" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="TEC" GraphId="a96a3" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="BCL2" GraphId="b00f4" Type="Rna">
+    <Graphics FontStyle="Italic"/>
+    </DataNode>
+  <DataNode TextLabel="MAP2K2" GraphId="ddece" Type="Protein" GroupRef="f93b2">
+        </DataNode>
+  <DataNode TextLabel="GRB7" GraphId="cf51d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="SHC1" GraphId="e81bd" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="SH2B2" GraphId="adf01" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="FYN" GraphId="d96bc" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="KIT" GraphId="f071b" Type="Protein" GroupRef="c4bea">
+        </DataNode>
+  <DataNode TextLabel="CRKL" GraphId="b3311" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="SNAI2" GraphId="d20e5" Type="Rna">
+    <Graphics FontStyle="Italic"/>
+    </DataNode>
+  <DataNode TextLabel="JAK2" GraphId="b679d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="TBX2" GraphId="c905d" Type="Rna">
+    <Graphics FontStyle="Italic"/>
+    </DataNode>
+  <DataNode TextLabel="PIK3R2" GraphId="a6aea" Type="Protein" GroupRef="ac446">
+        </DataNode>
+  <DataNode TextLabel="STAT5B" GraphId="d6dad" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="SOCS1" GraphId="b0115" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PLCG1" GraphId="ad01d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="SNAI1" GraphId="a4707" Type="Rna">
+    <Graphics FontStyle="Italic"/>
+    </DataNode>
+  <DataNode TextLabel="BTK" GraphId="a55c1" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="GRB10" GraphId="c04c5" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="LYN" GraphId="ab555" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MATK" GraphId="c9898" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PTPN6" GraphId="e8ec9" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="KIT" GraphId="e889e" Type="Protein" GroupRef="c4bea">
+        </DataNode>
+  <DataNode TextLabel="CBL" GraphId="f6f75" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="SOCS6" GraphId="dcd62" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="KITLG" GraphId="a51cd" Type="Protein" GroupRef="c4bea">
+        </DataNode>
+  <DataNode TextLabel="RPS6" GraphId="b7974" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MTOR" GraphId="dd415" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="SOS1" GraphId="c89bf" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RAF1" GraphId="d7a9c" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MAP2K1" GraphId="b6079" Type="Protein" GroupRef="f93b2">
+        </DataNode>
+  <DataNode TextLabel="INPP5D" GraphId="c599a" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="e4f34" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="ea4b4" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="STAT1" GraphId="e6a2e" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MAPK1" GraphId="ae4fa" Type="Protein" GroupRef="f14df">
+        </DataNode>
+  <DataNode TextLabel="FOXO3A" GraphId="c7768" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="STAT1" GraphId="ad218" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="GRB2" GraphId="db5db" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MAPK3" GraphId="b11ca" Type="Protein" GroupRef="f14df">
+        </DataNode>
+  <DataNode TextLabel="PTPN11" GraphId="f5ec4" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RPS6KB1" GraphId="a9631" Type="Protein" GroupRef="d7407">
+        </DataNode>
+  <DataNode TextLabel="STAT5A" GraphId="cbcf2" Type="Protein" GroupRef="a02e7">
+        </DataNode>
+  <DataNode TextLabel="STAT5B" GraphId="fc7b3" Type="Protein" GroupRef="a02e7">
+        </DataNode>
+  <DataNode TextLabel="STAT5A" GraphId="a8f5b" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="JUNB" GraphId="ca5b1" Type="Rna">
+    <Graphics FontStyle="Italic"/>
+    </DataNode>
+  <DataNode TextLabel="PRKCA" GraphId="b882a" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="BAD" GraphId="cc169" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PRKCB1" GraphId="c8830" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MAPK8" GraphId="a13b9" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MAPK8" GraphId="b41fb" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MAPK14" GraphId="ab480" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PIK3R1" GraphId="fc51d" Type="Protein" GroupRef="ac446">
+        </DataNode>
+  <DataNode TextLabel="SRC" GraphId="ca7f6" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MITF" GraphId="b3ebf" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="STAT5A" GraphId="ad8e4" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="HRAS" GraphId="bd754" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RPS6KA1" GraphId="a8a7b" Type="Protein" GroupRef="ab8ba">
+        </DataNode>
+  <DataNode TextLabel="RPS6KA3" GraphId="b8988" Type="Protein" GroupRef="ab8ba">
+        </DataNode>
+  <DataNode TextLabel="RPS6KB1" GraphId="e3ee0" Type="Protein" GroupRef="ab8ba">
+        </DataNode>
+  <DataNode TextLabel="MAPK1" GraphId="e725f" Type="Protein" GroupRef="c8fdd">
+        </DataNode>
+  <DataNode TextLabel="MAPK3" GraphId="ba52c" Type="Protein" GroupRef="c8fdd">
+        </DataNode>
+  <State GraphRef="b8363" TextLabel="P" GraphId="e0108">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="bd3e5" TextLabel="P" GraphId="f93d4">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="c7e65" TextLabel="P" GraphId="b3a92">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d0dba" TextLabel="P" GraphId="b7bd2">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d7053" TextLabel="P" GraphId="a89ce">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ab2ca" TextLabel="P" GraphId="e1663">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ddece" TextLabel="P" GraphId="bbe5b">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="e81bd" TextLabel="P" GraphId="a6727">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f071b" TextLabel="Ub" GraphId="c993f">
+    <Graphics FillColor="cc00cc" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b679d" TextLabel="P" GraphId="d00e1">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ad01d" TextLabel="P" GraphId="f6c82">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a55c1" TextLabel="P" GraphId="a956b">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f6f75" TextLabel="P" GraphId="e56d0">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="dd415" TextLabel="P" GraphId="cff12">
+    <Graphics FillColor="ffff33" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d7a9c" TextLabel="P" GraphId="b9591">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b6079" TextLabel="P" GraphId="eddb6">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ea4b4" TextLabel="P" GraphId="d2878">
+    <Graphics FillColor="ffff33" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ae4fa" TextLabel="P" GraphId="ad31c">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ad218" TextLabel="P" GraphId="d44ee">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b11ca" TextLabel="P" GraphId="b3866">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="f5ec4" TextLabel="P" GraphId="e8485">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a9631" TextLabel="P" GraphId="deadd">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="a8f5b" TextLabel="P" GraphId="b49aa">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="b41fb" TextLabel="P" GraphId="b8a4a">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ab480" TextLabel="P" GraphId="e48e9">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="fc51d" TextLabel="P" GraphId="d6089">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ca7f6" TextLabel="P" GraphId="d9f94">
+    <Graphics FillColor="ffff33" ShapeType="Oval"/>
+    </State>
+  <State GraphRef="bd754" TextLabel="GTP" GraphId="b3be1">
+    <Graphics FillColor="ffff00" ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id22a084b8">
+    <Graphics>
+      <Point GraphRef="b3ebf"/>
+      <Point GraphRef="c905d" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id25325ac">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="db5db"/>
+      <Point/>
+      <Point GraphRef="f5ec4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id29f5f69">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="deb52"/>
+      <Point GraphRef="c8830" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2aea1b41">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="e7171"/>
+      <Point/>
+      <Point GraphRef="f6f75" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3ca388cd">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="b5ba1" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3cf9e9a6">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="a55c1"/>
+      <Point/>
+      <Point GraphRef="ad01d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4c4c910f">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="d0dba"/>
+      <Point GraphRef="fc51d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4e93d06a">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="cc900"/>
+      <Point/>
+      <Point GraphRef="ad218" ArrowHead="Arrow"/>
+      <Anchor Position="0.21418693504776545" Shape="None" GraphId="afea6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5370b60f">
+    <Graphics ConnectorType="Elbow" Color="0000ff">
+      <Point GraphRef="a96a3"/>
+      <Point GraphRef="c7e65" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id604e4b9d">
+    <Graphics Color="0000ff">
+      <Point GraphRef="e889e"/>
+      <Point GraphRef="ce5a4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6afaa580">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="ad01d"/>
+      <Point/>
+      <Point GraphRef="c8830" ArrowHead="Arrow"/>
+      <Anchor Position="0.37121002453750096" Shape="None" GraphId="ef5ae"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6f63477b">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="b6079"/>
+      <Point GraphRef="ab480" ArrowHead="Arrow"/>
+      <Anchor Position="0.3454522055274966" Shape="None" GraphId="debe4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id73eb32b2">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ad8cc"/>
+      <Point GraphRef="bd3e5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id740d5e52">
+    <Graphics ConnectorType="Elbow" Color="00ffff">
+      <Point GraphRef="e8ec9"/>
+      <Point GraphRef="f071b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7d8e2e45">
+    <Graphics>
+      <Point/>
+      <Point GraphRef="acac8" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7e50b786">
+    <Graphics ConnectorType="Elbow" Color="0000ff">
+      <Point GraphRef="bd3e5"/>
+      <Point/>
+      <Point GraphRef="cc169" ArrowHead="Arrow"/>
+      <Anchor Position="0.4650217008113741" Shape="None" GraphId="acd7c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7fe1ce5">
+    <Graphics>
+      <Point GraphRef="f1103"/>
+      <Point GraphRef="b00f4" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id800b9798">
+    <Graphics Color="00cc00">
+      <Point GraphRef="c7e65"/>
+      <Point GraphRef="c599a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8306bd5">
+    <Graphics Color="00cc00">
+      <Point GraphRef="dcd62"/>
+      <Point GraphRef="db5db" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id881c81a7">
+    <Graphics>
+      <Point GraphRef="b3ace"/>
+      <Point GraphRef="a4707" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9b84df92">
+    <Graphics Color="0000ff">
+      <Point GraphRef="acd7c"/>
+      <Point GraphRef="c7768" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida84ce6bf">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="c7e65"/>
+      <Point GraphRef="ad01d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb56b35bd">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="debe4"/>
+      <Point/>
+      <Point GraphRef="b41fb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb66b7d6d">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b3ebf"/>
+      <Point/>
+      <Point GraphRef="d20e5" ArrowHead="mim-transcription-translation"/>
+      <Anchor Position="0.30068384939448656" Shape="None" GraphId="b3ace"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc83d2029">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="b3311"/>
+      <Point GraphRef="fc51d" ArrowHead="Arrow"/>
+      <Anchor Position="0.22810860042503237" Shape="None" GraphId="e7171"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddc3cbb76">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="b679d"/>
+      <Point/>
+      <Point GraphRef="ea4b4" ArrowHead="Arrow"/>
+      <Anchor Position="0.3624267535486531" Shape="None" GraphId="cc900"/>
+      <Anchor Position="0.47999927732175535" Shape="None" GraphId="e86c1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide8ab98a3">
+    <Graphics LineStyle="Broken" Color="00cccc">
+      <Point GraphRef="b11ca"/>
+      <Point GraphRef="e725f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideb597089">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="b0115"/>
+      <Point GraphRef="db5db" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ided56af3e">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b3ebf"/>
+      <Point/>
+      <Point GraphRef="ca5b1" ArrowHead="mim-transcription-translation"/>
+      <Anchor Position="0.30498718823357374" Shape="None" GraphId="f1103"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf2584f6f">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="c04c5"/>
+      <Point GraphRef="bd3e5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f171a">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f20a7">
+    <Comment>Negative regulation of Kit signaling by PKCs</Comment>
+    <Graphics Color="0000ff">
+      <Point GraphRef="c8830"/>
+      <Point GraphRef="b15e6"/>
+      <Anchor Position="0.3227988063159309" Shape="None" GraphId="fa21f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2e34dce">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c6bbf">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id26bf8d29">
+    <Graphics Color="0000ff">
+      <Point/>
+      <Point GraphRef="f2732"/>
+      <Anchor Position="0.7752808988764045" Shape="None" GraphId="e470c"/>
+      <Anchor Position="0.5449438202247191" Shape="None" GraphId="eab86"/>
+      <Anchor Position="0.0" Shape="None" GraphId="ce5a4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f4a16">
+    <Graphics Color="0000ff">
+      <Point GraphRef="ec3c4"/>
+      <Point GraphRef="f071b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id90a3c6bd">
+    <Graphics Color="00cc32">
+      <Point/>
+      <Point GraphRef="ad218" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb9a99498">
+    <Graphics Color="0000ff">
+      <Point GraphRef="ab8f4"/>
+      <Point/>
+      <Anchor Position="0.6569769613862474" Shape="None" GraphId="ec3c4"/>
+      <Anchor Position="1.0" Shape="None" GraphId="fed98"/>
+      <Anchor Position="0.5162463313735531" Shape="None" GraphId="acdcd"/>
+      <Anchor Position="0.275060293773412" Shape="None" GraphId="b15e6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8266">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d593b">
+    <Graphics Color="0000cc">
+      <Point GraphRef="b882a"/>
+      <Point GraphRef="cb5bd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="be882">
+    <Graphics Color="3300cc">
+      <Point GraphRef="ba52c"/>
+      <Point GraphRef="b3ebf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ea050">
+    <Graphics Color="0000ff">
+      <Point GraphRef="ab555"/>
+      <Point GraphRef="c7e65" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aa9df">
+    <Graphics Color="0000ff">
+      <Point GraphRef="e470c"/>
+      <Point GraphRef="d6dad" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0fe8">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="afea6"/>
+      <Point GraphRef="d6dad" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b4481">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point GraphRef="deb52" ArrowHead="Arrow"/>
+      <Anchor Position="0.0" Shape="None" GraphId="ad8cc"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e6605">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ef5ae"/>
+      <Point GraphRef="b882a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1964598e">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bd3e5"/>
+      <Point GraphRef="dd415" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e28d9">
+    <Graphics Color="0000ff">
+      <Point GraphRef="a8a7b"/>
+      <Point GraphRef="b3ebf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dadeb">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a6aea"/>
+      <Point GraphRef="bd3e5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eaaec" GroupRef="c4bea">
+    <Graphics>
+      <Point GraphRef="ea5a9"/>
+      <Point GraphRef="f071b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f15b9" GroupRef="c4bea">
+    <Graphics>
+      <Point GraphRef="f3c5b"/>
+      <Point GraphRef="e889e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e5f46">
+    <Graphics Color="00cc00">
+      <Point GraphRef="b8b87"/>
+      <Point GraphRef="b3ebf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e1df4">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bdad5"/>
+      <Point GraphRef="b7974" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b674a">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="dd415"/>
+      <Point GraphRef="a9631" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e4182">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ddece"/>
+      <Point GraphRef="ae4fa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c699c">
+    <Graphics LineStyle="Broken" Color="00cccc">
+      <Point GraphRef="ea4b4"/>
+      <Point GraphRef="e4f34" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d3785">
+    <Graphics LineStyle="Broken" Color="00cccc">
+      <Point GraphRef="ad218"/>
+      <Point GraphRef="e6a2e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9bf4">
+    <Graphics LineStyle="Broken" Color="00cccc">
+      <Point GraphRef="ad8e4"/>
+      <Point GraphRef="cbcf2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d7513" GroupRef="c4bea">
+    <Graphics Color="0000ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f316d">
+    <Graphics Color="00cc00">
+      <Point GraphRef="f6f75"/>
+      <Point GraphRef="fc51d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a0411">
+    <Graphics Color="00cc00">
+      <Point GraphRef="db5db"/>
+      <Point GraphRef="c89bf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ebee1">
+    <Graphics Color="0000ff">
+      <Point GraphRef="d96bc"/>
+      <Point GraphRef="fed98"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="db3c6">
+    <Graphics Color="00cc00">
+      <Point GraphRef="d6dad"/>
+      <Point GraphRef="ad8e4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="efacc">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="cf51d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dc54a">
+    <Graphics Color="00cc00">
+      <Point GraphRef="e81bd"/>
+      <Point GraphRef="db5db" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c7e17">
+    <Graphics Color="0000ff">
+      <Point GraphRef="ca7f6"/>
+      <Point GraphRef="acdcd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="da737">
+    <Graphics Color="00cc00">
+      <Point GraphRef="c89bf"/>
+      <Point GraphRef="bd754" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f4748">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="c599a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c684d">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="a96a3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c58d0">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="a55c1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b42d0">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="e81bd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c8878">
+    <Graphics Color="0000ff">
+      <Point GraphRef="ab555"/>
+      <Point/>
+      <Anchor Position="0.9872674234395629" Shape="None" GraphId="ab8f4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e1736">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="c9898" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e9c76">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="c04c5" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bebfd">
+    <Graphics Color="00cc00">
+      <Point GraphRef="ab2ca"/>
+      <Point GraphRef="fc51d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e5a4d">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="b679d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ff09c">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="b3311" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="db6fd">
+    <Graphics Color="00cc00">
+      <Point GraphRef="c7e65"/>
+      <Point GraphRef="b3311" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e4454">
+    <Graphics Color="00cc00">
+      <Point GraphRef="b0115"/>
+      <Point GraphRef="d7053" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d09c1">
+    <Graphics Color="00cc00">
+      <Point GraphRef="f5ec4"/>
+      <Point GraphRef="ab2ca" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aae20">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="adf01" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cda02">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="fc51d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fe99f">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="dcd62" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="adc57">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="b0115" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d6a5c">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point GraphRef="f5ec4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a748a">
+    <Graphics Color="00cc00">
+      <Point GraphRef="bd754"/>
+      <Point GraphRef="d7a9c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f67ec">
+    <Comment>Activation of RAF induces the phosphorylation and activation of MEKs</Comment>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d7a9c"/>
+      <Point GraphRef="b6079" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bfb6f" GroupRef="c4bea">
+    <Graphics Color="ff3399">
+      <Point GraphRef="e66d7"/>
+      <Point GraphRef="dc9d1"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fb15b">
+    <Graphics Color="0000ff">
+      <Point GraphRef="eab86"/>
+      <Point GraphRef="a8f5b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="db6ab">
+    <Graphics Color="0000ff">
+      <Point/>
+      <Point GraphRef="ad218" ArrowHead="Arrow"/>
+      <Anchor Position="0.0" Shape="None" GraphId="f2732"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="efd6c">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ba52c"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e26d2">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b8988"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b4bab">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e86c1"/>
+      <Point GraphRef="a8f5b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f2282">
+    <Graphics LineStyle="Broken" Color="00cccc">
+      <Point GraphRef="b8363"/>
+      <Point GraphRef="e3ee0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ffa1c">
+    <Graphics Color="0000cc">
+      <Point GraphRef="fa21f"/>
+      <Point/>
+      <Anchor Position="1.0" Shape="None" GraphId="cb5bd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="abbfb">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e458d">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dd8f0">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b50f5">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b1a3e">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ce09b">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aade8">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e95cd">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0e51">
+    <Graphics Color="ff3399">
+      <Point GraphRef="da79d"/>
+      <Point GraphRef="d8fa8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a557e">
+    <Graphics>
+      <Point GraphRef="a59ed"/>
+      <Point GraphRef="c75a3"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="c4803">
+    <Graphics Color="ff0033">
+      <Point/>
+      <Point ArrowHead="mim-inhibition"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a689d">
+    <Graphics Color="9900cc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a15a3">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f4a99">
+    <Graphics Color="cc00cc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ed739">
+    <Graphics Color="999900">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d6913">
+    <Graphics LineStyle="Broken" Color="00cccc">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c1a70">
+    <Graphics Color="00ffff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c1cd3">
+    <Graphics Color="ffcc33">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a8ff7">
+    <Graphics Color="ff00ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d5f09">
+    <Graphics Color="0000ff">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dd1bd">
+    <Graphics Color="ff9933">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a3771">
+    <Graphics Color="cccc00">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b56c7">
+    <Graphics Color="770000">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e3c47">
+    <Graphics Color="775200">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="af216">
+    <Graphics Color="ff6666">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b3238">
+    <Graphics Color="999999">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fa3a8">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f0595">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="TBar"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="fd9b1">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e9379">
+    <Graphics Color="00cc00">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c8f62">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a7d17">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Phospholipase D" GraphId="deb52">
+    <Graphics FillColor="ccff33" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Kit receptor signaling pathway" GraphId="e71e2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CY" GraphId="d46a6">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="NU" GraphId="fb2c2">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="CY" GraphId="cf745">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="NU" GraphId="ea425">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="CY" GraphId="b991e">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="NU" GraphId="d2d88">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="CY" GraphId="a2df3">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="NU" GraphId="c36a3">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="CY" GraphId="e4931">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="NU" GraphId="fe49b">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Protein" GraphId="b9c2b">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Inhibition" GraphId="a0907">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Auto catalysis" GraphId="d5cbb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Transport" GraphId="da5ed">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Positive regulation of gene expression" GraphId="a7acc">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Leads to through unknown mechanism" GraphId="decd3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Negative regulation of gene expression" GraphId="b4bcc">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Translocation " GraphId="e3c35">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Ubiquitination" GraphId="b00f0">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Deubiquitination" GraphId="b4740">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Sumoylation" GraphId="d49ed">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Induced catalysis" GraphId="fd7e6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Protein-protein interaction" GraphId="e48d3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Acetylation" GraphId="aec88">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Dephosphorylation" GraphId="acb0d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="LEGEND" GraphId="dc19b">
+    <Graphics FillColor="ffffff" Color="3333ff"/>
+  </Label>
+  <Label TextLabel="Phosphorylation" GraphId="a999a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Deacetylation" GraphId="e592c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Golgi apparatus" GraphId="ff08d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Endosome" GraphId="e0b99">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="f2558">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Mitochondrion" GraphId="e77d6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Desumoylation" GraphId="ebaab">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Methylation" GraphId="e0ab1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Demethylation" GraphId="dfefb">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Palmitoylation" GraphId="a4468">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cytoplasm" GraphId="f2a83">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="EC" GraphId="f8d54">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Plasma membrane" GraphId="d42bd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="MT" GraphId="cdfeb">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Endoplasmic reticulum" GraphId="e2bf4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="CY" GraphId="c7faf">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="PM" GraphId="b8930">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="GO" GraphId="da8ca">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="NU" GraphId="cf88a">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Extracellular" GraphId="eb05b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ER" GraphId="ed114">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="EN" GraphId="dbce5">
+    <Graphics FillColor="ffffff" Color="ff00ff"/>
+  </Label>
+  <Label TextLabel="Proteolytic cleavage" GraphId="bd53a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="mRNA" GraphId="ec5a3">
+    <Graphics FillColor="ffffff" FontStyle="Italic" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Receptor" GraphId="c75a3">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Ligand" GraphId="da79d">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Protein" GraphId="d4632">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Enzyme complex" GraphId="da4f0">
+    <Graphics FillColor="ccff33" ShapeType="Rectangle"/>
+  </Label>
+  <Shape GraphId="ea5a9" GroupRef="c4bea">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="dc9d1" GroupRef="c4bea">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff0066"/>
+  </Shape>
+  <Shape GraphId="f3c5b" GroupRef="c4bea">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="fe6ba" GroupRef="c4bea">
+    <Graphics ShapeType="Arc" Color="0000ff"/>
+  </Shape>
+  <Shape GraphId="c7501">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="dedd0">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="a59ed">
+    <Graphics ShapeType="Arc"/>
+  </Shape>
+  <Shape GraphId="d8fa8">
+    <Graphics FillColor="ff3399" ShapeType="Oval" Color="ff0066"/>
+  </Shape>
+  <Shape GraphId="e66ac">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="f14df" GraphId="a7724" Style="Group"/>
+  <Group GroupId="c8fdd" GraphId="bd11e" Style="Group"/>
+  <Group GroupId="f93b2" GraphId="c4fc6" Style="Group"/>
+  <Group GroupId="ac446" GraphId="efae0" Style="Group"/>
+  <Group GroupId="ab8ba" GraphId="efb0b" Style="Group"/>
+  <Group GroupId="d7407" GraphId="f5448" Style="Group"/>
+  <Group GroupId="a02e7" GraphId="f7faa" Style="Group"/>
+  <Group GroupId="c4bea" GraphId="fd5e6" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cytokine mediated signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000828</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Stem Cell Factor signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001227</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ddc">
+      <bp:ID >20067622</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NetPath: a public resource of curated signal transduction pathways.</bp:TITLE>
+      <bp:SOURCE >Genome Biol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Kandasamy K</bp:AUTHORS>
+      <bp:AUTHORS >Mohan SS</bp:AUTHORS>
+      <bp:AUTHORS >Raju R</bp:AUTHORS>
+      <bp:AUTHORS >Keerthikumar S</bp:AUTHORS>
+      <bp:AUTHORS >Kumar GS</bp:AUTHORS>
+      <bp:AUTHORS >Venugopal AK</bp:AUTHORS>
+      <bp:AUTHORS >Telikicherla D</bp:AUTHORS>
+      <bp:AUTHORS >Navarro JD</bp:AUTHORS>
+      <bp:AUTHORS >Mathivanan S</bp:AUTHORS>
+      <bp:AUTHORS >Pecquet C</bp:AUTHORS>
+      <bp:AUTHORS >Gollapudi SK</bp:AUTHORS>
+      <bp:AUTHORS >Tattikota SG</bp:AUTHORS>
+      <bp:AUTHORS >Mohan S</bp:AUTHORS>
+      <bp:AUTHORS >Padhukasahasram H</bp:AUTHORS>
+      <bp:AUTHORS >Subbannayya Y</bp:AUTHORS>
+      <bp:AUTHORS >Goel R</bp:AUTHORS>
+      <bp:AUTHORS >Jacob HK</bp:AUTHORS>
+      <bp:AUTHORS >Zhong J</bp:AUTHORS>
+      <bp:AUTHORS >Sekhar R</bp:AUTHORS>
+      <bp:AUTHORS >Nanjappa V</bp:AUTHORS>
+      <bp:AUTHORS >Balakrishnan L</bp:AUTHORS>
+      <bp:AUTHORS >Subbaiah R</bp:AUTHORS>
+      <bp:AUTHORS >Ramachandra YL</bp:AUTHORS>
+      <bp:AUTHORS >Rahiman BA</bp:AUTHORS>
+      <bp:AUTHORS >Prasad TS</bp:AUTHORS>
+      <bp:AUTHORS >Lin JX</bp:AUTHORS>
+      <bp:AUTHORS >Houtman JC</bp:AUTHORS>
+      <bp:AUTHORS >Desiderio S</bp:AUTHORS>
+      <bp:AUTHORS >Renauld JC</bp:AUTHORS>
+      <bp:AUTHORS >Constantinescu SN</bp:AUTHORS>
+      <bp:AUTHORS >Ohara O</bp:AUTHORS>
+      <bp:AUTHORS >Hirano T</bp:AUTHORS>
+      <bp:AUTHORS >Kubo M</bp:AUTHORS>
+      <bp:AUTHORS >Singh S</bp:AUTHORS>
+      <bp:AUTHORS >Khatri P</bp:AUTHORS>
+      <bp:AUTHORS >Draghici S</bp:AUTHORS>
+      <bp:AUTHORS >Bader GD</bp:AUTHORS>
+      <bp:AUTHORS >Sander C</bp:AUTHORS>
+      <bp:AUTHORS >Leonard WJ</bp:AUTHORS>
+      <bp:AUTHORS >Pandey A</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

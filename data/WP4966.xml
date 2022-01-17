@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Fluoroacetic acid toxicity" Version="20200907" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Pathway on fluoroacetic acid toxicity describing how it ultimately leads to disturbance of the Krebs cycle.</Comment>
+  <BiopaxRef>e16</BiopaxRef>
+  <Graphics BoardWidth="580.6138735420503" BoardHeight="642.0297805642628"/>
+  <DataNode TextLabel="Isocitric acid" GraphId="a4e9e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="4-Hydroxy-trans-aconitate" GraphId="ab933" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Fluoroacetic acid" GraphId="b14bb" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Aconitase" GraphId="b518f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Fluoroacetyl-CoA" GraphId="b79c2" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Citric acid" GraphId="bb3e8" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Acetate" GraphId="c0e0f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ALDH3A2" GraphId="d7c89" Type="GeneProduct" GroupRef="e0860">
+        </DataNode>
+  <DataNode TextLabel="ALDH9A1" GraphId="d953f" Type="GeneProduct" GroupRef="e0860">
+        </DataNode>
+  <DataNode TextLabel="Fluoroacetaldehyde" GraphId="e0672" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cytric acid cycle (Krebs cycle)" GraphId="ecd72" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Acetyl-CoA synthetase" GraphId="f08eb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ALDH2" GraphId="f2cb5" Type="GeneProduct" GroupRef="e0860">
+        </DataNode>
+  <DataNode TextLabel="Citrate synthase" GraphId="fd937" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Fluorocitric acid" GraphId="a6bef" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <Interaction GraphId="id27115e07">
+    <Graphics>
+      <Point GraphRef="e0672"/>
+      <Point GraphRef="b14bb" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.533972934324116" Shape="None" GraphId="bacc8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4b7bb88d">
+    <Graphics>
+      <Point GraphRef="fd937"/>
+      <Point GraphRef="be619" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5c0f2e2e">
+    <Graphics>
+      <Point GraphRef="b14bb"/>
+      <Point GraphRef="b79c2" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d5959"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id67c7a54a">
+    <Graphics>
+      <Point GraphRef="b518f"/>
+      <Point GraphRef="f263e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id94e0bf5e">
+    <Graphics>
+      <Point GraphRef="f08eb"/>
+      <Point GraphRef="d5959" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbf3af0c2">
+    <Graphics>
+      <Point GraphRef="f8f74"/>
+      <Point GraphRef="bacc8" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd88060cb">
+    <Graphics Color="ff3333">
+      <Point GraphRef="ab933"/>
+      <Point GraphRef="b518f" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide378a41f">
+    <Graphics>
+      <Point GraphRef="a6bef"/>
+      <Point GraphRef="ab933" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.45088632418329744" Shape="None" GraphId="c8862"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide8b93ca4">
+    <Graphics>
+      <Point GraphRef="c0e0f"/>
+      <Point GraphRef="d5959" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide9b9942d">
+    <Graphics>
+      <Point GraphRef="bb3e8"/>
+      <Point GraphRef="a4e9e" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f263e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idef798b17">
+    <Graphics>
+      <Point GraphRef="b518f"/>
+      <Point GraphRef="c8862" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf88e006d">
+    <Graphics>
+      <Point GraphRef="b79c2"/>
+      <Point GraphRef="a6bef" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="be619"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Aldehyde dehydrogenases" GraphId="aad06">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Group GroupId="e0860" GraphId="f8f74" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e16">
+      <bp:ID >32182061</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Metabolic and Pharmaceutical Aspects of Fluorinated Compounds.</bp:TITLE>
+      <bp:SOURCE >J Med Chem</bp:SOURCE>
+      <bp:YEAR >2020</bp:YEAR>
+      <bp:AUTHORS >Johnson BM</bp:AUTHORS>
+      <bp:AUTHORS >Shu YZ</bp:AUTHORS>
+      <bp:AUTHORS >Zhuo X</bp:AUTHORS>
+      <bp:AUTHORS >Meanwell NA</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>disease pathway</bp:TERM><bp:ID>PW:0000013</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>altered citric acid cycle pathway</bp:TERM><bp:ID>PW:0001119</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>altered metabolic pathway</bp:TERM><bp:ID>PW:0000262</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

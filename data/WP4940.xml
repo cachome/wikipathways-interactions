@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="15q11.2 copy number variation syndrome" Version="20200623" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway shows the genes known in the 15q11.2 region which can cause a copy number variation syndrome (CNV) if deleted or duplicated (or triplicated). These rare genetic syndromes are called 15q11.2 deletion or duplication syndrome, also known as Burnside Butler syndrome. This region is relatively small compared to other CNVs but it contains with NIPA1 and NIPA2 two important Magnesium transporters which are active in the central nervous system. CYFIP1 is an important interactor with FMR1, which is the causative gene for fragile X syndrome. The breakpoints (chr15:22,805,313-23,094,530 GRCh37/hg19) are defined as given in Kendall et al. 2017: http://dx.doi.org/10.1016/j.biopsych.2016.08.014.</Comment>
+  <Graphics BoardWidth="951.7557251908397" BoardHeight="459.5"/>
+  <DataNode TextLabel="ELMO2P1" Type="GeneProduct">
+    <Graphics Color="666666"/>
+    </DataNode>
+  <DataNode TextLabel="gamma tubulin complex" GraphId="b022f" Type="Complex" GroupRef="dae31">
+        </DataNode>
+  <DataNode TextLabel="TUBGCP5" GraphId="b5b94" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NIPA2" GraphId="bd67f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TUBGCP6" GraphId="be43d" Type="GeneProduct" GroupRef="dae31">
+        </DataNode>
+  <DataNode TextLabel="TUBGCP4" GraphId="c85b6" Type="GeneProduct" GroupRef="dae31">
+        </DataNode>
+  <DataNode TextLabel="Fragile X Syndrome" GraphId="dcc3d" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Mg2+" GraphId="de121" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TUBGCP2" GraphId="dee52" Type="GeneProduct" GroupRef="dae31">
+        </DataNode>
+  <DataNode TextLabel="NIPA1" GraphId="e51fd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYFIP1" GraphId="e96b4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TUBGCP3" GraphId="f6cff" Type="GeneProduct" GroupRef="dae31">
+        </DataNode>
+  <DataNode TextLabel="FMR1" GraphId="fcd27" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TUBGCP5" GraphId="e89a8" Type="GeneProduct" GroupRef="dae31">
+        </DataNode>
+  <Interaction GraphId="id21e40de5">
+    <BiopaxRef>bf1</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bd67f"/>
+      <Point GraphRef="de121" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida94b906">
+    <BiopaxRef>d21</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b5b94"/>
+      <Point GraphRef="dfff0" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb4905ee8">
+    <BiopaxRef>dec</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e51fd"/>
+      <Point GraphRef="de121" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcb28a0a0">
+    <BiopaxRef>b5d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e96b4"/>
+      <Point GraphRef="fcd27" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd9ba9c1d">
+    <Graphics>
+      <Point GraphRef="fcd27"/>
+      <Point GraphRef="dcc3d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="f0ce1">
+    <Graphics Color="ff0000">
+      <Point ArrowHead="Arrow"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e45f7">
+    <Graphics Color="ff0000">
+      <Point ArrowHead="Arrow"/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Transport of Mg" GraphId="bada5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="RNA gene" GraphId="bf0de">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="990099"/>
+  </Label>
+  <Label TextLabel="pseudo gene" GraphId="b8b8a">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle" Color="666666"/>
+  </Label>
+  <Label TextLabel="Chromosome 15:22,805,313" GraphId="e2f00">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Label TextLabel="Chromosome 15:23,094,530" GraphId="e9a0a">
+    <Graphics FillColor="ffffff" Color="ff0000"/>
+  </Label>
+  <Group GroupId="dae31" GraphId="dfff0" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d21">
+      <bp:ID >26316498</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >&#947;-Tubulin complexes in microtubule nucleation and beyond.</bp:TITLE>
+      <bp:SOURCE >Mol Biol Cell</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Oakley BR</bp:AUTHORS>
+      <bp:AUTHORS >Paolillo V</bp:AUTHORS>
+      <bp:AUTHORS >Zheng Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dec">
+      <bp:ID >17166836</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >NIPA1(SPG6), the basis for autosomal dominant form of hereditary spastic paraplegia, encodes a functional Mg2+ transporter.</bp:TITLE>
+      <bp:SOURCE >J Biol Chem</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Goytain A</bp:AUTHORS>
+      <bp:AUTHORS >Hines RM</bp:AUTHORS>
+      <bp:AUTHORS >El-Husseini A</bp:AUTHORS>
+      <bp:AUTHORS >Quamme GA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bf1">
+      <bp:ID >18667602</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Functional characterization of NIPA2, a selective Mg2+ transporter.</bp:TITLE>
+      <bp:SOURCE >Am J Physiol Cell Physiol</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Goytain A</bp:AUTHORS>
+      <bp:AUTHORS >Hines RM</bp:AUTHORS>
+      <bp:AUTHORS >Quamme GA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >genetic disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:630</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >chromosome 15q11.2 deletion syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0060393</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b5d">
+      <bp:ID >11438699</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A highly conserved protein family interacting with the fragile X mental retardation protein (FMRP) and displaying selective interactions with FMRP-related proteins FXR1P and FXR2P.</bp:TITLE>
+      <bp:SOURCE >Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Schenck A</bp:AUTHORS>
+      <bp:AUTHORS >Bardoni B</bp:AUTHORS>
+      <bp:AUTHORS >Moro A</bp:AUTHORS>
+      <bp:AUTHORS >Bagni C</bp:AUTHORS>
+      <bp:AUTHORS >Mandel JL</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

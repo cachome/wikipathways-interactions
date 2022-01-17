@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="T cell receptor and co-stimulatory signaling" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The activation and translocation of transcription factors NFAT, AP-1 and NF-kappa-B via the co-stimulatory signaling cascade triggered by MHC peptide, B7 proteins and PD-L1. The activation of NFAT involves a Ca2+/calcineurin disruption of a massive RNA-protein complex prior to its translocation into the nucleus and ultimate transcription factor activity.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2583 CPTAC Assay Portal].</Comment>
+  <Graphics BoardWidth="1094.44242141301" BoardHeight="1023.6974789915965"/>
+  <DataNode TextLabel="LCK" GraphId="dde01" Type="GeneProduct" GroupRef="b783d">
+    <Comment>Cytoplasmic tyrosine kinase - Lck in its inactive state is bound to CD4/CD8 cytoplasmic tail and it's terminal tyrosine is phosphorylated. Dephosphorylation of this amino acid (by tyrosine phosphotase CD45 -- CD4/CD8 binding its ligand) causes a conformations change in LcK and it becomes an active tyrosine kinase.
+
+LcK is activated when the extracellular part of CD8 binds its (MHC:peptide) ligand. Lck is a Src family kinase that is constitutively expressed. It phosphorylates all TCR ITAMS.
+
+Rephosphorylation of this carboxyl-terminal tyrosine by Csk returns Lck to the inactive state.
+
+Basically, Lck is bound to CD8. When CD8 binds MHC:peptide, Lck gets activated and can phosphorylate nearby ITAMs.</Comment>
+        </DataNode>
+  <DataNode TextLabel="ZAP70" GraphId="f346f" Type="GeneProduct">
+    <Comment>ZAP-70 is kinase that becomes activated after phosphorylation. It contains to tandem SH2 domains that bind to phosphorylated ITAMs on the TCR complex cytoplasmic tails. 
+
+It docks at the TCR (requires both ITAM positions to be phosphorylated), is then phosphorylated by Lck, and then recruits other signaling proteins.
+
+</Comment>
+        </DataNode>
+  <DataNode TextLabel="PIP2" GraphId="beb89" Type="Metabolite">
+    <Comment>PIP2 is a membrane lipid. </Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="LAT / SLP-76 scaffold complex" GraphId="ff54e" Type="Protein">
+    <Comment>Linker for Activation of T cells - LAT is a transmembrane scaffold protein. It can be phosphorylated by Zap-70.
+
+This scaffold includes LAT, SLP-76, Grb2, SOS, GADS</Comment>
+        </DataNode>
+  <DataNode TextLabel="PIP3" GraphId="b8443" Type="Metabolite">
+    <Comment>PIP3 is a membrane lipid generated from PIP2 by the enzyme P13K. PIP3 has a PH binding domain that can be recognized by PLC-g, Itk, and Atk.</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PLCG1" GraphId="f5b02" Type="GeneProduct">
+    <Comment>PLC-g is a phospholipase, a class of enzymes that cleave phospholipids just before the phosphate group.
+
+PLC-g is initially brought to the plasma membrane by binding of its PH domain to membrane lipid PIP3. PLC-g then binds to LAT and SLP-76 and can be activated by Itk mediated phosphorylation.
+
+PLC-g ultimately produces 3 different second messangers to activate 3 paths leading to different TFs that lead to IL-2 transcription</Comment>
+        </DataNode>
+  <DataNode TextLabel="ITK" GraphId="b6ecd" Type="Protein">
+    <Comment>Itk is a membrane associated tryosine kinase. It binds to phosphorylated LAT and SLP-76 scafflods. From here is activates PLC-g by phosphorylation</Comment>
+        </DataNode>
+  <DataNode TextLabel="AKT1" GraphId="c5e7e" Type="GeneProduct">
+    <Comment>Akt is a serine/threonine-specific protein kinase that plays a key role in many cellular processes such as glucose metabolism, apoptosis, cell proliferation, transcription, and cell migration.
+
+Akt is recruited to the membrane by PIP3. Here Akt can be activated / phosphorylated (indirectly) by P13K and can then phosphorylate a variety of downstream pathways. Noteably, Akt promotes cell survival by inhibiting the cell death pathway and stimulates cell metabolism by increasing the utilization of glucose.</Comment>
+        </DataNode>
+  <DataNode TextLabel="PKC-a" GraphId="b78e0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SHP1" GraphId="d4781" Type="GeneProduct">
+    <Comment>SHP-1/2 are tyrosine phosphatases. Here, SHP removes phosphates from PIP3 reverting it back to PIP2. (reverses the work of tyrosine kinase P13K)
+
+SHP is recruited to the PD-1 cytoplasmic tail when PD-1 ITIMs are phosphorylated.</Comment>
+        </DataNode>
+  <DataNode TextLabel="P13K" GraphId="f2340" Type="Protein">
+    <Comment>P13K converts membrane lipid PIP2 to PIP3 by adding a phosphate. P13K activity is dependent upon CD28 co-stimulation because P13K can bind to phosphorylated ITIMs on CD28.
+
+PI3K can also bind ICOS</Comment>
+        </DataNode>
+  <DataNode TextLabel="Ca2+" GraphId="fea98" Type="Metabolite">
+    <Comment>Calcium ions are second messengers, small-molecule biochemical mediators. Calcium is released from the ER by IP3. It diffuses throughough the cell enabling the signal to activate a variety of taget proteins. A certain calcium ion concentration must be acheived before targets can be activated.</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Bcl-xL" GraphId="eeb8e" Type="Protein">
+    <Comment>Bcl-xL is a transmembrane protein in the mitochondria. It is a anti-apoptosis protein because it prevents release of cytochrome c from the mitochondria.</Comment>
+    <Graphics ShapeType="Hexagon"/>
+    </DataNode>
+  <DataNode TextLabel="Erk" GraphId="cf1d5" Type="Protein">
+    <Comment>Erk is MAP kinase that is phosphorylated by MAPKK, Mek. SHP's and PP2A may also dephosphorylate Erk to some extent.</Comment>
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="d965c" Type="GeneProduct">
+    <Comment/>
+    <Graphics ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="AP-1 " GraphId="dc90a" Type="Protein">
+    <Comment>A heterodimeric protein composed of proteins belonging to the c-Fos, c-Jun, ATF and JDP families</Comment>
+    <Graphics ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="NFAT1" GraphId="ff620" Type="Protein">
+    <Comment/>
+    <Graphics ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="Ras-GAP" GraphId="f2b94" Type="GeneProduct">
+    <Comment>Ras-GAP rapidly downregulates the activity of Ras by converting its bound GTP to GDP</Comment>
+        </DataNode>
+  <DataNode TextLabel="Ras-GTP" GraphId="f002d" Type="Protein">
+    <Comment>Ras is a small G protein of GTPase. It is located in the membrane, and it acts as a molecular switch. It is inactive when bound to GDP, but becomes active when GDP is switched for GTP. Binding the GTP induces a conformational change in Ras thus enabling it to bind to and do other things.</Comment>
+        </DataNode>
+  <DataNode TextLabel="DAG" GraphId="ab4fe" Type="Metabolite">
+    <Comment>Produced from PIP2 cleaveage by PLC-g.
+
+DAG is a membrane protein which can now recruit other signaling molecules to the membrane by serving as a binding target. </Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="IP3" GraphId="d1518" Type="Metabolite">
+    <Comment>IP3 is generated when PLC-g cleaves PIP2.
+
+IP3 is a second messanger that diffuses into the cytosol and binds to IP3 receptors on the ER therey opening calcium channels.</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Calmodulin" GraphId="e07f7" Type="Protein">
+    <Comment>Calmodulin is a calcium binding protein. Binding Ca ions induces a conformational change allowing calmodulin to bind to and regulate a variety of effector proteins.</Comment>
+        </DataNode>
+  <DataNode TextLabel="RasGRP" GraphId="beeba" Type="GeneProduct">
+    <Comment>RasGRP binds to DAG in the membrane where it can activate Ras</Comment>
+        </DataNode>
+  <DataNode TextLabel="IL2" GraphId="b595a" Type="GeneProduct">
+    <Comment>All three TFs (NFAT, AP-1, and NFkB) a needed to initiate IL-2 transcription.</Comment>
+    <Graphics ShapeType="Hexagon"/>
+    </DataNode>
+  <DataNode TextLabel="Calcineurin" GraphId="e95dc" Type="GeneProduct">
+    <Comment>Calcineurin is a protein phosphatase that acts on NFAT. </Comment>
+        </DataNode>
+  <DataNode TextLabel="IkBa" GraphId="dd1b4" Type="Protein">
+    <Comment>IkB is an inhibitory protein which when bound to NFkB holds it in an inactive state.</Comment>
+        </DataNode>
+  <DataNode TextLabel="IKK complex" GraphId="a7ff6" Type="GeneProduct">
+    <Comment>IKK is a complex of serine kinases. It phosphorylates IkB, stimulating IkB's ubiquitination which targets IkB for degradation by the proteasome.</Comment>
+        </DataNode>
+  <DataNode TextLabel="PTEN" GraphId="e9f05" Type="Protein">
+    <Comment>Phosphatase and tensin homolog - PTEN is constitutively expressed and is a PIP3 phosphatase.</Comment>
+        </DataNode>
+  <DataNode TextLabel="PDK1" GraphId="b6cf9" Type="GeneProduct">
+    <Comment>Phosphoinositide-dependent kinase-1: recruited to the membrane by docking at PIP3 and phosphorylates/activates Akt</Comment>
+        </DataNode>
+  <DataNode TextLabel="Ras-GDP" GraphId="e35aa" Type="Protein">
+    <Comment>Ras is a small G protein of GTPase. It is located in the membrane, and it acts as a molecular switch. It is inactive when bound to GDP, but becomes active when GDP is switched for GTP. Binding the GTP induces a conformational change in Ras thus enabling it to bind to and do other things.</Comment>
+        </DataNode>
+  <DataNode TextLabel="PIP2" GraphId="c6db8" Type="Metabolite">
+    <Comment>PIP2 is a membrane lipid.</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="MHC peptide" GraphId="da6cd" Type="Complex">
+    <Comment/>
+    <Graphics ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="B7-1/ B7-2" GraphId="a8ece" Type="Complex">
+    <Comment/>
+    <Graphics ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="B7-1/ B7-2" GraphId="f7b20" Type="Complex">
+    <Comment/>
+    <Graphics ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="PD-L1" GraphId="c951f" Type="Complex">
+    <Comment/>
+    <Graphics ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="NFAT1" GraphId="cc296" Type="Protein" GroupRef="b02e6">
+    <Comment/>
+    <Graphics ShapeType="Oval"/>
+    </DataNode>
+  <DataNode TextLabel="CSNK1A1" GraphId="ee0e6" Type="GeneProduct" GroupRef="b02e6">
+        </DataNode>
+  <DataNode TextLabel="GSK3A" GraphId="f3f11" Type="GeneProduct" GroupRef="b02e6">
+        </DataNode>
+  <DataNode TextLabel="GSK3B" GraphId="fd8f4" Type="GeneProduct" GroupRef="b02e6">
+        </DataNode>
+  <DataNode TextLabel="DYRK1A" GraphId="d02ac" Type="GeneProduct" GroupRef="b02e6">
+        </DataNode>
+  <DataNode TextLabel="DYRK2" GraphId="a4c27" Type="GeneProduct" GroupRef="b02e6">
+        </DataNode>
+  <DataNode TextLabel="NRON" GraphId="dea5f" Type="GeneProduct" GroupRef="b02e6">
+    <Comment>NRON is a long non-coding RNA</Comment>
+    <BiopaxRef>a44</BiopaxRef>
+    <Graphics Color="990099"/>
+    </DataNode>
+  <DataNode TextLabel="FYN" GraphId="cd850" Type="GeneProduct" GroupRef="b783d">
+        </DataNode>
+  <DataNode TextLabel="TCRA" GraphId="e47c1" Type="GeneProduct" GroupRef="f8213">
+        </DataNode>
+  <DataNode TextLabel="TCRB" GraphId="aa665" Type="GeneProduct" GroupRef="f8213">
+        </DataNode>
+  <DataNode TextLabel="CD8A" GraphId="ed56f" Type="GeneProduct" GroupRef="cd319">
+    <Comment>CD8 co-receptor - alpha subunit</Comment>
+        </DataNode>
+  <DataNode TextLabel="CD8B" GraphId="c363d" Type="GeneProduct" GroupRef="cd319">
+    <Comment>CD8 co-receptor - beta subunit</Comment>
+        </DataNode>
+  <DataNode TextLabel="CD28" GraphId="ed30d" Type="GeneProduct">
+    <Comment>CD28 is a co-stimulatory surface receptor. It bind B7-1 and B7-2. After CD28 binds its ligand, it is phosphorylated by Lck. The effect of this phosphorylation activates P13K to generate PIP3 which recruits Itk to the cell membrane where Lck can phosphorylate it. Then Itk-P can recruit PLC-g</Comment>
+        </DataNode>
+  <DataNode TextLabel="CTLA4" GraphId="c2643" Type="GeneProduct">
+    <Comment>Expression is enhanced by IL-2.
+Function is controlled largely by regulation of its surface expression. Initially CTLA-4 is in the intracellular membrane but moves to the cell surface after T-cell receptor signaling.
+When CTLA-4 cytoplasmic tail is NOT phosphorylated it binds to AP-2 (clathrin adapter molecule) and is removed from the surface. When the tail is phosphorylated AP-2 cannot bind and CTLA-4 is expressed on the surface.
+CTLA-4 competes with CD28 for B7 ligand, and it has a higher affinity of B7 in part because CTLA-4 binds B7 in a dimer.
+CTLA-4 interfers with the formation of lipid rafts, TCR:ZAP70 microclusters, and central supramolecular activation complex.</Comment>
+        </DataNode>
+  <DataNode TextLabel="PDCD1" GraphId="e282a" Type="GeneProduct">
+    <Comment>PD-1 is repressed by pro-inflammatry cytokines. It's ligand, PD-L1, is constitutively expressed on T-cells. PD-1 contains a ITIM (immunoreceptor tyrosine-based inhibitory motif) in its cytoplasmic tail. When this ITIM is phosphorylated, it recruits either of 2 inhibitory phosphatases called SHP</Comment>
+        </DataNode>
+  <State GraphRef="cc296" TextLabel="P" GraphId="e2b6f">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id12ffba13">
+    <Comment>IkB hols NFkB in the cytoplams in an inactive state by binding to it. Once IkB is phosphorylated, NFkb is realeased and enters the nucleus.</Comment>
+    <Graphics Color="ff0033">
+      <Point GraphRef="dd1b4"/>
+      <Point GraphRef="d965c" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id139f5313">
+    <Comment>Dephosphorylation of NFAT by calcineurin allows NFAT to enter the nucleus.</Comment>
+    <Graphics Color="0000ff">
+      <Point GraphRef="e95dc"/>
+      <Point GraphRef="daadd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2489f199">
+    <Comment>SHP can de-phosphorylate Zap-70.</Comment>
+    <Graphics ConnectorType="Elbow" Color="0033ff">
+      <Point GraphRef="d4781"/>
+      <Point/>
+      <Point GraphRef="f346f" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id26a22e18">
+    <Graphics Color="33cc00">
+      <Point GraphRef="dc90a"/>
+      <Point GraphRef="b595a" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id283fc4e0">
+    <Graphics Color="00cc00">
+      <Point GraphRef="ff54e"/>
+      <Point GraphRef="b6ecd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2fca9322">
+    <Comment>Like PD-1, CTLA-4 also has an ITIM. When PP2A is phosphorylated and dissociates from CTLA-4 ITIM, SHPs can dock there.</Comment>
+    <Graphics ConnectorType="Elbow" Color="33cc00">
+      <Point GraphRef="c2643"/>
+      <Point/>
+      <Point GraphRef="d4781" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3874e5dc">
+    <Comment>PTEN dephosphorylates PIP3 converting it back into PIP2</Comment>
+    <Graphics Color="3333ff">
+      <Point GraphRef="e9f05"/>
+      <Point GraphRef="d6af8" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4244a269">
+    <Graphics Color="ff9900">
+      <Point GraphRef="e35aa"/>
+      <Point GraphRef="f002d" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c363b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4362a538">
+    <Comment>Lck can phosphorylate ITAMs on CD28 when it binds its ligand (MHC:peptide) and hence is brought close to the TCR</Comment>
+    <Graphics ConnectorType="Elbow" Color="cc00cc">
+      <Point GraphRef="b9041"/>
+      <Point GraphRef="ed30d" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4430e9f9">
+    <Comment>P13K binds to phosphorylated CD28 ITAMs</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="ed30d"/>
+      <Point GraphRef="f2340" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id49612b91">
+    <Comment>When ITAMs on CTLA-4 have been phosphorylated, P13K can dock there and begin its kinase action.</Comment>
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="c2643"/>
+      <Point GraphRef="f2340" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4b01005b">
+    <Comment>Once Itk is recruited to the membrane by binding to PIP3, it can be activated/phosphorylated by Lck</Comment>
+    <Graphics Color="cc00cc">
+      <Point GraphRef="b9041"/>
+      <Point GraphRef="b6ecd" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id54643aa6">
+    <Graphics Color="cc00cc">
+      <Point GraphRef="b6cf9"/>
+      <Point GraphRef="c5e7e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id57452236">
+    <Comment>Once PKC localizes to the membrane it can phosphorylate membrane protein CARMA1.</Comment>
+    <Graphics Color="cc00cc">
+      <Point GraphRef="b78e0"/>
+      <Point GraphRef="a7ff6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id57e04b22">
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="d965c"/>
+      <Point GraphRef="eeb8e" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id61bb862f">
+    <Comment>CD4/8 binding its ligand activates Lck</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="b8142"/>
+      <Point GraphRef="b9041" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6316c817">
+    <Comment>Lck can phosphorylate PD-1 ITIMS when PD-1 had bound its ligand and it brought close to the immunological synapse.</Comment>
+    <Graphics ConnectorType="Elbow" Color="cc00cc">
+      <Point GraphRef="b9041"/>
+      <Point GraphRef="e282a" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id641b35cd">
+    <Graphics Color="33cc00">
+      <Point GraphRef="beeba"/>
+      <Point GraphRef="c363b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id68241bda">
+    <Comment>Once calmodulin das bound Ca ions and changes conformation, it can bind to and activate calcineurin.</Comment>
+    <Graphics Color="33cc00">
+      <Point GraphRef="e07f7"/>
+      <Point GraphRef="e95dc" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6f3349d2">
+    <Comment>SHP phosphoatase can de-phosphorylate PIP3 and revert it back to PIP2</Comment>
+    <Graphics ConnectorType="Elbow" Color="0066ff">
+      <Point GraphRef="d4781"/>
+      <Point GraphRef="b8443" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id85f10f7a">
+    <Graphics ConnectorType="Elbow" Color="cc00cc">
+      <Point GraphRef="b6ecd"/>
+      <Point GraphRef="f5b02" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id87e48fbb">
+    <Graphics>
+      <Point GraphRef="daadd"/>
+      <Point GraphRef="ff620" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id90944a8f">
+    <Graphics ConnectorType="Elbow" Color="cc00cc">
+      <Point GraphRef="b9041"/>
+      <Point GraphRef="a140c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id94d147d0">
+    <Comment>Ras activates Raf</Comment>
+    <Graphics Color="33cc00">
+      <Point GraphRef="f002d"/>
+      <Point GraphRef="cf1d5" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id95054879">
+    <Comment>IP3 binds the ER to release calcium</Comment>
+    <Graphics Color="33cc00">
+      <Point GraphRef="d1518"/>
+      <Point GraphRef="fea98" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id98914f7b">
+    <Graphics Color="cc00cc">
+      <Point GraphRef="a7ff6"/>
+      <Point GraphRef="dd1b4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9e40c182">
+    <Graphics LineStyle="Broken" Color="ff0000">
+      <Point GraphRef="b595a"/>
+      <Point GraphRef="bdd9d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9e7cce8">
+    <Graphics Color="ff9900">
+      <Point GraphRef="beb89"/>
+      <Point GraphRef="b8443" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d6af8"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida06fc4da">
+    <Graphics Color="33cc00">
+      <Point GraphRef="ff620"/>
+      <Point GraphRef="b595a" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida1506fa6">
+    <Comment>DAG recruites PKC to the membrane where i docks to DAG and acts as a kinase.</Comment>
+    <Graphics Color="33cc00">
+      <Point GraphRef="ab4fe"/>
+      <Point GraphRef="b78e0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida37351ba">
+    <Graphics Color="00cc00">
+      <Point GraphRef="ff54e"/>
+      <Point GraphRef="f5b02" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idac77b406">
+    <Graphics Color="ff9900">
+      <Point GraphRef="c6db8"/>
+      <Point GraphRef="ab4fe" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c2b15"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idaf4f9a86">
+    <Graphics Color="00cc00">
+      <Point GraphRef="b8443"/>
+      <Point GraphRef="b6cf9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb6262259">
+    <Comment>PLC-g cleaves PIP2 to produce DAG and IP3</Comment>
+    <Graphics ConnectorType="Elbow" Color="33cc00">
+      <Point GraphRef="f5b02"/>
+      <Point GraphRef="c2b15" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb713e88d">
+    <Comment>Ras-Gap is a GTPase that converts GTP to GDP</Comment>
+    <Graphics Color="ff0033">
+      <Point GraphRef="f2b94"/>
+      <Point GraphRef="f002d" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb93be9d6">
+    <Comment>Akt is recruited to the membrane by PIP3; it can dock there and become activated.</Comment>
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="b8443"/>
+      <Point GraphRef="c5e7e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbd80ffef">
+    <Comment>Once TCR ITAMs are phosphorylated, Zap-70 can dock there</Comment>
+    <Graphics ConnectorType="Elbow" Color="00cc00">
+      <Point GraphRef="a140c"/>
+      <Point GraphRef="f346f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbe349dc1">
+    <Graphics Color="cc00cc">
+      <Point GraphRef="f2340"/>
+      <Point GraphRef="d6af8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc4ba447e">
+    <Comment>Calmodulin binds Ca 2+ ions inducing a conformational change</Comment>
+    <Graphics Color="33cc00">
+      <Point GraphRef="fea98"/>
+      <Point GraphRef="e07f7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddf233a60">
+    <Graphics ConnectorType="Elbow" Color="33cc00">
+      <Point GraphRef="d965c"/>
+      <Point/>
+      <Point GraphRef="b595a" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide5eb4822">
+    <Comment>When phosphatase SHP binds to phosphorylated ITIMs on PD-1 cytoplasmic tail it becomes an active phosphatases and begins de-phosphorylating neighboring ITAMS and kinases.</Comment>
+    <Graphics ConnectorType="Elbow" Color="0033ff">
+      <Point GraphRef="d4781"/>
+      <Point GraphRef="a140c" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf1d50316">
+    <Graphics Color="00cc00">
+      <Point GraphRef="cf1d5"/>
+      <Point GraphRef="dc90a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf1fab056">
+    <Comment>SHP-1 and SHP-2 can dock at phosphorylated PD-1 ITIMS</Comment>
+    <Graphics Color="00cc00">
+      <Point GraphRef="e282a"/>
+      <Point GraphRef="d4781" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf3c791ae">
+    <Graphics ConnectorType="Elbow" Color="cc00cc">
+      <Point GraphRef="c5e7e"/>
+      <Point/>
+      <Point GraphRef="a7ff6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf90384d2">
+    <Comment>When Zap-70 is recruited to the membrane by docking to phosphorylated ITAMs on The TCR, Lck can phosphorylate Zap-70.</Comment>
+    <Graphics Color="cc00cc">
+      <Point GraphRef="b9041"/>
+      <Point GraphRef="f346f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf9242188">
+    <Graphics Color="cc00cc">
+      <Point GraphRef="f346f"/>
+      <Point GraphRef="ff54e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfaee1523">
+    <Graphics Color="ff9900">
+      <Point GraphRef="c6db8"/>
+      <Point GraphRef="d1518" ArrowHead="Arrow"/>
+      <Anchor Position="0.2772640368335718" Shape="None" GraphId="c973f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfe2bcb03">
+    <Comment>Lck can phosphorylate CTLA-4 ITAMS when CTLA-4 binds B7 ligand</Comment>
+    <Graphics ConnectorType="Elbow" Color="cc00cc">
+      <Point GraphRef="b9041"/>
+      <Point GraphRef="c2643" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idff186ca1">
+    <Graphics ConnectorType="Elbow" Color="33cc00">
+      <Point GraphRef="ab4fe"/>
+      <Point/>
+      <Point GraphRef="beeba" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a653a">
+    <Graphics LineStyle="Broken" Color="ff0000">
+      <Point GraphRef="eeb8e"/>
+      <Point GraphRef="d8ce7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b2840">
+    <Comment>PLC-g cleaves PIP2 to produce DAG and IP3</Comment>
+    <Graphics Color="33cc00">
+      <Point GraphRef="f5b02"/>
+      <Point GraphRef="c973f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="id72961117">
+    <Graphics Color="ff9933">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d9cd8">
+    <Graphics Color="3333ff">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a55ce">
+    <Graphics Color="cc00cc">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ea44f">
+    <Graphics Color="00cc33">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c37ba">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c9b3a">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="TBar"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Proliferation" GraphId="bdd9d">
+    <Graphics FillColor="ffffff" Color="ff0033"/>
+  </Label>
+  <Label TextLabel="LEGEND" GraphId="ea9bf">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="protein-protein interaction" GraphId="f76a1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="inhibition" GraphId="eb212">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="activation / recruitment" GraphId="b4fd7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="phosphorylation" GraphId="cac09">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="dephosphorylation" GraphId="e3c5c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="necessary precursor" GraphId="f4440">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Survival" GraphId="d8ce7">
+    <Graphics FillColor="ffffff" Color="ff0033"/>
+  </Label>
+  <Label TextLabel="" GraphId="bbacf">
+    <Comment/>
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="" GraphId="c42b6">
+    <Comment/>
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Label>
+  <Label TextLabel="" GraphId="ed31b">
+    <Comment/>
+    <Graphics FillColor="ffffff" ShapeType="Hexagon"/>
+  </Label>
+  <Label TextLabel="signaling molecule" GraphId="af244">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="transcription factor" GraphId="da178">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Label TextLabel="target gene" GraphId="b2480">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Label TextLabel="" GraphId="d12be">
+    <Comment/>
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Label>
+  <Label TextLabel="ligand" GraphId="eebe4">
+    <Graphics FillColor="ffffff" Align="Left"/>
+  </Label>
+  <Shape GraphId="a056d">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="a533f">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="e3250">
+    <Graphics ShapeType="RoundedRectangle" LineStyle="Broken" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="f8213" GraphId="a140c" Style="Complex"/>
+  <Group GroupId="cd319" GraphId="b8142" Style="Complex"/>
+  <Group GroupId="b783d" GraphId="b9041" Style="Group"/>
+  <Group GroupId="b02e6" GraphId="daadd" Style="Complex">
+    <BiopaxRef>a9d</BiopaxRef>
+  </Group>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a9d">
+      <bp:ID >23483280</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Orai1-NFAT signalling pathway triggered by T cell receptor stimulation.</bp:TITLE>
+      <bp:SOURCE >Mol Cells</bp:SOURCE>
+      <bp:YEAR >2013</bp:YEAR>
+      <bp:AUTHORS >Srikanth S</bp:AUTHORS>
+      <bp:AUTHORS >Gwack Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a44">
+      <bp:ID >24493213</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Long non-coding RNA in liver diseases.</bp:TITLE>
+      <bp:SOURCE >Hepatology</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Takahashi K</bp:AUTHORS>
+      <bp:AUTHORS >Yan I</bp:AUTHORS>
+      <bp:AUTHORS >Haga H</bp:AUTHORS>
+      <bp:AUTHORS >Patel T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >calcineurin signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000315</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Toll-like receptor signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000814</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >nuclear factor of activated T-cells signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000317</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >T cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000084</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

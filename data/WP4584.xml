@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Biomarkers for pyrimidine metabolism disorders" Version="20161102" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Pyrimidine metabolism disorders are caused by enzyme defects in the metabolism of pyrimidine (WP4225). The clinical presentation of pyrimidine disorders is very diverse, because of the diversity in biological function. The severity of the disorder is determined by the severity of the defect and the function of the normal enzyme.
+The diagnosis of Pyrimidine metabolism disorders is based on altered concentrations of different metabolic biochemical markers. Some of these markers are metabolites in the pyrimidine metabolism, but there are also several other markers, that are either indirectly or not related to pyrimidine metabolism. All metabolic markers used for the diagnosis of at least one Pyrimidine metabolism disorder and their relations are visualized in this pathway. 
+Biochemical markers derived from http://www.iembase.org/, for all diseases pictured in WP4225.
+</Comment>
+  <Comment Source="WikiPathways-description">Overview of pyrimidine metabolism and related diseases</Comment>
+  <Comment Source="WikiPathways-description">Pyrimidine metabolism disorders are caused by enzyme defects in the metabolism of pyrimidine (WP4225). The clinical presentation of pyrimidine disorders is very diverse, because of the diversity in biological function. The severity of the disorder is determined by the severity of the defect and the function of the normal enzyme.
+The diagnosis of Pyrimidine metabolism disorders is based on altered concentrations of different metabolic biochemical markers. Some of these markers are metabolites in the pyrimidine metabolism, but there are also several other markers, that are either indirectly or not related to pyrimidine metabolism. All metabolic markers used for the diagnosis of at least one Pyrimidine metabolism disorder and their relations are visualized in this pathway. 
+Biochemical markers derived from http://www.iembase.org/, for all diseases pictured in WP4225.
+</Comment>
+  <BiopaxRef>e8c</BiopaxRef>
+  <BiopaxRef>e1e</BiopaxRef>
+  <Graphics BoardWidth="1129.6879187500022" BoardHeight="960.1112264880944"/>
+  <DataNode TextLabel="(S)-Beta-aminoisobutyrate" GraphId="a059c" Type="Metabolite">
+    <Comment>aka (R)-3-amino-2-methylpropanoate</Comment>
+    <Comment>Zwitterion needed for conversion to take place</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Orotate" GraphId="a376f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UTP" GraphId="a4a19" Type="Metabolite">
+    <Comment>(4-) charge needed for conversion to take place</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UMPS" GraphId="a7313" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="5-OH-Methyluracil&#10;" GraphId="ad047" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Thymidine" GraphId="b07ad" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="OMP" GraphId="b1af3" Type="Metabolite">
+    <Comment>Orotidylic acid </Comment>
+    <Comment>(3-) charge needed for conversion to take place</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Lactate" GraphId="b1fc6" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Creatine kinase&#10;" GraphId="b451a" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="DPD" GraphId="b47f8" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PUS1" GraphId="b659a" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CDP" GraphId="be84e" Type="Metabolite">
+    <Comment>(3-) charge needed for conversion to take place</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Purine metabolism" GraphId="c0439" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Amino Acid &#10;metabolism" GraphId="c85d0" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="UMPH1" GraphId="c9486" Type="Protein" GroupRef="e2ed8">
+    <Comment>aka P5N1</Comment>
+    <Comment>Enzymes and reactions added with info from https://www.omim.org/entry/606224</Comment>
+        </DataNode>
+  <DataNode TextLabel="N-Carbamoyl-beta-alanine" GraphId="cacb9" Type="Metabolite">
+    <Comment>aka 3-(carbamoylamino)propanoate</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Uridine" GraphId="d1795" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Creatine-P" GraphId="d2cc0" Type="Metabolite">
+    <Comment>(2-) charge needed for conversion to take place</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Dihydrouracil" GraphId="d5df4" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cytidine" GraphId="d7db3" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Dihydrothymine" GraphId="d8f8d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cytosine" GraphId="d9b22" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UMP" GraphId="da05f" Type="Metabolite">
+    <Comment>(2-) charge needed for conversion to take place</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TP" GraphId="e154f" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Glutathione &#10;metabolism" GraphId="e29a9" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Uracil" GraphId="e430d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CMP" GraphId="e4502" Type="Metabolite">
+    <Comment>(2-) charge needed for conversion to take place</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Orotidine" GraphId="e6297" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Pyrimidine &#10;metabolism" GraphId="e668e" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="N-Carbamyl-beta-aminoisobutyric acid" GraphId="eb464" Type="Metabolite">
+    <Comment>aka 3-(carbamoylamino)-2-methylpropanoate</Comment>
+    <Comment>(1-) charge needed for conversion to take place</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cysteine" GraphId="f0ae4" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CTP" GraphId="f1756" Type="Metabolite">
+    <Comment>(4-) charge needed for conversion to take place</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Beta-alanine" GraphId="f2bed" Type="Metabolite">
+    <Comment>Zwitterion needed for conversion to take place</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PRPP" GraphId="f35d2" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UDP" GraphId="f3bab" Type="Metabolite">
+    <Comment>(3-) charge needed for conversion to take place</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Thymine" GraphId="f5640" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Uric acid&#10;" GraphId="f5ee2" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Creatine" GraphId="f7d37" Type="Metabolite">
+    <Comment>Zwitterion needed for conversion to take place</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="2-Deoxyuridine" GraphId="f8993" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Glutathione&#10;" GraphId="f9851" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Pseudouridine&#10;" GraphId="fc262" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="+ PRPP" GraphId="c2422" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="UMPH2" GraphId="e9612" Type="Protein" GroupRef="e2ed8">
+    <Comment>aka NT5C</Comment>
+    <Comment>Enzymes and reactions added with info from https://www.omim.org/entry/606224</Comment>
+        </DataNode>
+  <DataNode TextLabel="UMPH" GraphId="bbd82" Type="Protein" GroupRef="e2ed8">
+    <Comment>aka P5N</Comment>
+    <Comment>Enzymes and reactions added with info from https://www.omim.org/entry/606224</Comment>
+        </DataNode>
+  <DataNode TextLabel="UMPH1" GraphId="eecac" Type="Protein" GroupRef="ed367">
+    <Comment>aka P5N1</Comment>
+    <Comment>Enzymes and reactions added with info from https://www.omim.org/entry/606224</Comment>
+        </DataNode>
+  <DataNode TextLabel="UMPH2" GraphId="a625a" Type="Protein" GroupRef="ed367">
+    <Comment>aka NT5C</Comment>
+    <Comment>Enzymes and reactions added with info from https://www.omim.org/entry/606224</Comment>
+        </DataNode>
+  <DataNode TextLabel="UMPH" GraphId="c1116" Type="Protein" GroupRef="ed367">
+    <Comment>aka P5N</Comment>
+    <Comment>Enzymes and reactions added with info from https://www.omim.org/entry/606224</Comment>
+        </DataNode>
+  <DataNode TextLabel="UP" GraphId="d7bff" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="DHP" GraphId="f091a" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="TK2" GraphId="e58cc" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="TS" GraphId="c6301" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="dUDP" GraphId="c8ad3" Type="Metabolite">
+    <Comment>(3-) charge needed for conversion to take place</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="dUMP" GraphId="ba68e" Type="Metabolite">
+    <Comment>(2-) charge needed for conversion to take place</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="dTMP" GraphId="f49c1" Type="Metabolite">
+    <Comment>(2-) charge needed for conversion to take place</Comment>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="RR" GraphId="b8993" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RRM1" GraphId="d5609" Type="Protein" GroupRef="e1ee5">
+        </DataNode>
+  <DataNode TextLabel="RRM2" GraphId="a5bce" Type="Protein" GroupRef="e1ee5">
+        </DataNode>
+  <DataNode TextLabel="RRM2B" GraphId="d32b7" Type="Protein" GroupRef="a9928">
+        </DataNode>
+  <DataNode TextLabel="OPRT" GraphId="f2e8d" Type="Protein" GroupRef="e2e15">
+        </DataNode>
+  <DataNode TextLabel="OMPDC" GraphId="ee414" Type="Protein" GroupRef="e2e15">
+        </DataNode>
+  <DataNode TextLabel="RRM1" GraphId="a9e38" Type="Protein" GroupRef="a9928">
+        </DataNode>
+  <DataNode TextLabel="Dihydroorotate" GraphId="e6967" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DHODH" GraphId="ba614" Type="Protein">
+        </DataNode>
+  <Interaction GraphId="id1104ad95">
+    <Graphics>
+      <Point GraphRef="eb464"/>
+      <Point GraphRef="a059c" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a0bf6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1c149b88">
+    <Graphics>
+      <Point GraphRef="e430d"/>
+      <Point GraphRef="d5df4" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4707401793418786" Shape="None" GraphId="e3186"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id1f228024">
+    <Graphics>
+      <Point GraphRef="b1af3"/>
+      <Point GraphRef="e6297" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id20f5d69f">
+    <Graphics>
+      <Point GraphRef="f5640"/>
+      <Point GraphRef="d8f8d" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4379714265057255" Shape="None" GraphId="d82b9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2be8db51">
+    <Graphics>
+      <Point GraphRef="e4502"/>
+      <Point GraphRef="d7db3" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e3511"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id33ecbd08">
+    <Graphics>
+      <Point GraphRef="b1af3"/>
+      <Point GraphRef="da05f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.39026327177917913" Shape="None" GraphId="d9a09"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id36f7db9">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c85d0"/>
+      <Point GraphRef="d2cc0" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3cf22b97">
+    <Graphics>
+      <Point GraphRef="d8f8d"/>
+      <Point GraphRef="eb464" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bee48"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id40676202">
+    <Graphics>
+      <Point GraphRef="e154f"/>
+      <Point GraphRef="c4a33" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4ad87234">
+    <BiopaxRef>ce8</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b8993"/>
+      <Point GraphRef="beb20" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4ea1ba68">
+    <Graphics>
+      <Point GraphRef="f3bab"/>
+      <Point GraphRef="a4a19" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5337976a">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c85d0"/>
+      <Point GraphRef="f0ae4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id61704e32">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e668e"/>
+      <Point GraphRef="e6967" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id708389bb">
+    <Comment>Enzymes and reactions added with info from https://www.omim.org/entry/606224</Comment>
+    <Graphics>
+      <Point GraphRef="b54de"/>
+      <Point GraphRef="e3511" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7220224d">
+    <Graphics>
+      <Point GraphRef="a376f"/>
+      <Point GraphRef="b1af3" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="ade61"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7ea99148">
+    <Graphics>
+      <Point GraphRef="be84e"/>
+      <Point GraphRef="e4502" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7f386c71">
+    <Graphics>
+      <Point GraphRef="b47f8"/>
+      <Point GraphRef="e3186" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8798468a">
+    <Graphics>
+      <Point GraphRef="b47f8"/>
+      <Point GraphRef="d82b9" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id89e92553">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e29a9"/>
+      <Point GraphRef="f9851" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8dcba612">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f0ae4"/>
+      <Point GraphRef="e29a9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id95e39e8c">
+    <Graphics>
+      <Point GraphRef="a7313"/>
+      <Point GraphRef="ade61" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id96a3ec96">
+    <Graphics>
+      <Point GraphRef="f1756"/>
+      <Point GraphRef="be84e" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id96f35010">
+    <Graphics>
+      <Point GraphRef="a4a19"/>
+      <Point GraphRef="f1756" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idae3778fb">
+    <Graphics>
+      <Point GraphRef="f8993"/>
+      <Point GraphRef="e430d" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6010827451629811" Shape="None" GraphId="fe487"/>
+      <Anchor Position="0.6765641468030983" Shape="None" GraphId="ac32a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb2a2b2f7">
+    <Graphics>
+      <Point GraphRef="b07ad"/>
+      <Point GraphRef="f5640" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6007646059249767" Shape="None" GraphId="c4a33"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbcc14ba">
+    <Graphics>
+      <Point GraphRef="cacb9"/>
+      <Point GraphRef="f2bed" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="a475d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc07f85d9">
+    <Graphics>
+      <Point GraphRef="b451a"/>
+      <Point GraphRef="dce95" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc08cd2e2">
+    <Graphics>
+      <Point GraphRef="d1795"/>
+      <Point GraphRef="fc262" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b3a5c"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc16af208">
+    <Graphics>
+      <Point GraphRef="d7db3"/>
+      <Point GraphRef="d9b22" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc7686b9">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c0439"/>
+      <Point GraphRef="f5ee2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd1dc5884">
+    <BiopaxRef>a6d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f7d37"/>
+      <Point GraphRef="d2cc0" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="dce95"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd341f558">
+    <Graphics>
+      <Point GraphRef="f5640"/>
+      <Point GraphRef="ad047" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb8bfb4d">
+    <Graphics>
+      <Point GraphRef="da05f"/>
+      <Point GraphRef="d1795" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c323e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddbe53d27">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f35d2"/>
+      <Point GraphRef="c0439" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddfdb0aed">
+    <Graphics>
+      <Point GraphRef="a7313"/>
+      <Point GraphRef="d9a09" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide30433f6">
+    <Graphics>
+      <Point GraphRef="d5df4"/>
+      <Point GraphRef="cacb9" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d3148"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide99f92e6">
+    <Graphics>
+      <Point GraphRef="b659a"/>
+      <Point GraphRef="b3a5c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idebc243ea">
+    <Comment>Enzymes and reactions added with info from https://www.omim.org/entry/606224</Comment>
+    <Graphics>
+      <Point GraphRef="f8952"/>
+      <Point GraphRef="c323e" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf38ccffd">
+    <Graphics>
+      <Point GraphRef="da05f"/>
+      <Point GraphRef="f3bab" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf41b2cd1">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="c85d0"/>
+      <Point GraphRef="b1fc6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf66e6735">
+    <Graphics>
+      <Point GraphRef="e154f"/>
+      <Point GraphRef="ac32a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfce12384">
+    <Graphics>
+      <Point GraphRef="d1795"/>
+      <Point GraphRef="e430d" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="daf1c">
+    <Graphics>
+      <Point GraphRef="f35d2"/>
+      <Point GraphRef="ade61"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3e59">
+    <Graphics>
+      <Point GraphRef="c2422"/>
+      <Point GraphRef="d9a09"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fceda">
+    <Graphics>
+      <Point GraphRef="d7bff"/>
+      <Point GraphRef="a475d" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa127">
+    <Graphics>
+      <Point GraphRef="f091a"/>
+      <Point GraphRef="bee48" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ceb65">
+    <Graphics>
+      <Point GraphRef="d7bff"/>
+      <Point GraphRef="a0bf6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc0a3">
+    <Graphics>
+      <Point GraphRef="f091a"/>
+      <Point GraphRef="d3148" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e9e87">
+    <Graphics>
+      <Point GraphRef="ba68e"/>
+      <Point GraphRef="f49c1" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bc7ad"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d364a">
+    <Graphics>
+      <Point GraphRef="c6301"/>
+      <Point GraphRef="bc7ad" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cbe2a">
+    <BiopaxRef>ef8</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="da05f"/>
+      <Point GraphRef="c8ad3" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.44365528471156274" Shape="None" GraphId="beb20"/>
+      <Anchor Position="0.7736639523273053" Shape="None" GraphId="a0fe0"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c58cd">
+    <BiopaxRef>a02</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b07ad"/>
+      <Point GraphRef="f49c1" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="be089"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d0c4e">
+    <Graphics>
+      <Point GraphRef="f49c1"/>
+      <Point GraphRef="b07ad" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="afc94">
+    <Graphics>
+      <Point GraphRef="ba68e"/>
+      <Point GraphRef="f8993" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ed3c7">
+    <Graphics>
+      <Point GraphRef="e58cc"/>
+      <Point GraphRef="be089" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fc18a">
+    <Graphics>
+      <Point GraphRef="ba68e"/>
+      <Point GraphRef="c8ad3" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f2ce2">
+    <Graphics>
+      <Point GraphRef="ba614"/>
+      <Point GraphRef="df78f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d1be0">
+    <Graphics>
+      <Point GraphRef="e6967"/>
+      <Point GraphRef="a376f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.19000683935724635" Shape="None" GraphId="df78f"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="a3a23">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f1756"/>
+      <Point GraphRef="d7db3" ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="UMPS-complex" GraphId="b05cf">
+    <Comment>UMPS (UMP synthase complex) is a complex consisting of orotate phosphoribosyltransferase (OPRT) and OMP decarboxylase (OMPDC)</Comment>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="RR-complex&#10;The two possible compositions" GraphId="f801f">
+    <Comment>UMPS (UMP synthase complex) is a complex consisting of orotate phosphoribosyltransferase (OPRT) and OMP decarboxylase (OMPDC)</Comment>
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Group GroupId="a9928" Style="Complex"/>
+  <Group GroupId="e1ee5" Style="Complex"/>
+  <Group GroupId="e2e15" Style="Complex"/>
+  <Group GroupId="ed367" GraphId="b54de" Style="Group">
+    <Comment>Enzymes and reactions added with info from https://www.omim.org/entry/606224</Comment>
+  </Group>
+  <Group GroupId="e2ed8" GraphId="f8952" Style="Group">
+    <Comment>Enzymes and reactions added with info from https://www.omim.org/entry/606224</Comment>
+  </Group>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6d">
+      <bp:ID >10893433</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Creatine and creatinine metabolism.</bp:TITLE>
+      <bp:SOURCE >Physiol Rev</bp:SOURCE>
+      <bp:YEAR >2000</bp:YEAR>
+      <bp:AUTHORS >Wyss M</bp:AUTHORS>
+      <bp:AUTHORS >Kaddurah-Daouk R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >oroticaciduria 1 disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001605</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >beta-ureidopropionase deficiency pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001603</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce8">
+      <bp:ID >16376858</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Characterization of enzymatic properties of human ribonucleotide reductase holoenzyme reconstituted in vitro from hRRM1, hRRM2, and p53R2 subunits.</bp:TITLE>
+      <bp:SOURCE >Biochem Biophys Res Commun</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Qiu W</bp:AUTHORS>
+      <bp:AUTHORS >Zhou B</bp:AUTHORS>
+      <bp:AUTHORS >Darwish D</bp:AUTHORS>
+      <bp:AUTHORS >Shao J</bp:AUTHORS>
+      <bp:AUTHORS >Yen Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >pyrimidine metabolic disorder</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0050832</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e1e">
+      <bp:ID >9783642403361</bp:ID>
+      <bp:DB >ISBN</bp:DB>
+      <bp:TITLE >Physician's Guide to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases Chapter 41</bp:TITLE>
+      <bp:SOURCE >ISBN:978-3-642-40337-8</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Blau, N.</bp:AUTHORS>
+      <bp:AUTHORS >Duran, M.</bp:AUTHORS>
+      <bp:AUTHORS >Gibson, K.M.</bp:AUTHORS>
+      <bp:AUTHORS >Donisi-Vici, C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >inborn error purine-pyrimidine metabolism disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001776</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >orotic aciduria</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0050833</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >dihydropyrimidine dehydrogenase deficiency pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0002210</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >pyrimidine metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000032</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >dihydropyrimidine dehydrogenase deficiency</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:14218</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="HIPK2 in kidney fibrosis" Version="20191122" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway shows the activation of multiple signaling pathways involved in kidney fibrosis, starting from an insult like HIV infection or oxidative stress, through the suppression of SIAH1 and increased expression of HIPK2.
+This pathway was adapted from Figure 6i of [https://pubmed.ncbi.nlm.nih.gov/22406746/ Jin et. al.]</Comment>
+  <BiopaxRef>bc9</BiopaxRef>
+  <Graphics BoardWidth="821.0" BoardHeight="639.0"/>
+  <DataNode TextLabel="SIAH1" GraphId="e3933" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Notch signaling" GraphId="ed1ec" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="HIPK2" GraphId="e952c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Wnt / B-catenin &#10;signaling" GraphId="dc5e1" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="TGF-B signaling" GraphId="ee0e3" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="p53 pathway" GraphId="d43d6" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="NF-kB signaling" GraphId="fdfcc" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <Interaction>
+    <Graphics>
+      <Point GraphRef="e40eb"/>
+      <Point GraphRef="e3933" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id17e976cf">
+    <Graphics>
+      <Point GraphRef="c1d83"/>
+      <Point GraphRef="e3933" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2a671ab0">
+    <Graphics>
+      <Point GraphRef="ed1ec"/>
+      <Point GraphRef="fbf1a" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id407a8f33">
+    <Graphics>
+      <Point GraphRef="e952c"/>
+      <Point GraphRef="ed1ec" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4e1d3bf5">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="fbf1a"/>
+      <Point GraphRef="e3f0b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbf69bc25">
+    <Graphics>
+      <Point GraphRef="e3933"/>
+      <Point GraphRef="e952c" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a944a">
+    <Graphics>
+      <Point GraphRef="e952c"/>
+      <Point GraphRef="dc5e1" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc9d1">
+    <Graphics>
+      <Point GraphRef="e952c"/>
+      <Point GraphRef="ee0e3" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bf029">
+    <Graphics>
+      <Point GraphRef="e952c"/>
+      <Point GraphRef="d43d6" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dad40">
+    <Graphics>
+      <Point GraphRef="e952c"/>
+      <Point GraphRef="fdfcc" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eee47">
+    <Graphics>
+      <Point GraphRef="dc5e1"/>
+      <Point GraphRef="fbf1a" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e910a">
+    <Graphics>
+      <Point GraphRef="ee0e3"/>
+      <Point GraphRef="fbf1a" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c88b2">
+    <Graphics>
+      <Point GraphRef="ee0e3"/>
+      <Point GraphRef="a3213" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aa55c">
+    <Graphics>
+      <Point GraphRef="d43d6"/>
+      <Point GraphRef="a3213" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ed3e0">
+    <Graphics>
+      <Point GraphRef="fdfcc"/>
+      <Point GraphRef="f15a3" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f2ff7">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a3213"/>
+      <Point GraphRef="e3f0b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cdf20">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f15a3"/>
+      <Point GraphRef="e3f0b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="HIV infection" GraphId="c1d83">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Epithelial-mesenchymal&#10;transition markers" GraphId="fbf1a">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Label>
+  <Label TextLabel="KIDNEY FIBROSIS" GraphId="e3f0b">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <Label TextLabel="Apoptosis" GraphId="a3213">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Label>
+  <Label TextLabel="Inflammation" GraphId="f15a3">
+    <Graphics FillColor="ffffff" ShapeType="Oval"/>
+  </Label>
+  <Label TextLabel="ROS&#10;DNA damage" GraphId="e40eb">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle"/>
+  </Label>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bc9">
+      <bp:ID >22406746</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >A systems approach identifies HIPK2 as a key regulator of kidney fibrosis.</bp:TITLE>
+      <bp:SOURCE >Nat Med</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Jin Y</bp:AUTHORS>
+      <bp:AUTHORS >Ratnam K</bp:AUTHORS>
+      <bp:AUTHORS >Chuang PY</bp:AUTHORS>
+      <bp:AUTHORS >Fan Y</bp:AUTHORS>
+      <bp:AUTHORS >Zhong Y</bp:AUTHORS>
+      <bp:AUTHORS >Dai Y</bp:AUTHORS>
+      <bp:AUTHORS >Mazloom AR</bp:AUTHORS>
+      <bp:AUTHORS >Chen EY</bp:AUTHORS>
+      <bp:AUTHORS >D'Agati V</bp:AUTHORS>
+      <bp:AUTHORS >Xiong H</bp:AUTHORS>
+      <bp:AUTHORS >Ross MJ</bp:AUTHORS>
+      <bp:AUTHORS >Chen N</bp:AUTHORS>
+      <bp:AUTHORS >Ma'ayan A</bp:AUTHORS>
+      <bp:AUTHORS >He JC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >renal fibrosis</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0050855</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >kidney disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000300</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

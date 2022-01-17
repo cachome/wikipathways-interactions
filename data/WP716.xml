@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Vitamin A and carotenoid metabolism" Last-Modified="10/17/2013" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="GenMAPP notes"/>
+  <Comment Source="GenMAPP remarks"/>
+  <Comment Source="WikiPathways-description">This pathway is about carotenoid and vitamin A metabolism. The initial version was created by the NuGO focusteam on Carotenoid metabolism. It was used to test a text mining workflow which added some additional entities (see Waagmeester et al. 2009 [https://www.ncbi.nlm.nih.gov/pubmed/19715393]).</Comment>
+  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
+  <BiopaxRef>f7b</BiopaxRef>
+  <BiopaxRef>e98</BiopaxRef>
+  <BiopaxRef>d20</BiopaxRef>
+  <Graphics BoardWidth="1717.6666564941406" BoardHeight="769.0"/>
+  <DataNode TextLabel="Betacarotene" GraphId="a0009" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Bcmo1" GraphId="a0454" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ARAT" GraphId="a29e9" Type="Protein" GroupRef="ca852">
+        </DataNode>
+  <DataNode TextLabel="Rbp7" GraphId="a2c14" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Aldh1a1" GraphId="a44fb" Type="GeneProduct" GroupRef="a67ed">
+        </DataNode>
+  <DataNode TextLabel="RARa" GraphId="a4628" Type="GeneProduct" GroupRef="f026a">
+        </DataNode>
+  <DataNode TextLabel="Aldh1a2" GraphId="a5ee0" Type="GeneProduct" GroupRef="a67ed">
+        </DataNode>
+  <DataNode TextLabel="Abcg8" GraphId="a631d" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Retinol&#10;Vitamin A" GraphId="a6725" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Rdh12" GraphId="a6e8e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Rdh5" GraphId="aa7cc" Type="GeneProduct" GroupRef="c8035">
+        </DataNode>
+  <DataNode TextLabel="Dhrs3" GraphId="aa8f9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Cyp26b1" GraphId="abd14" Type="GeneProduct" GroupRef="efd49">
+        </DataNode>
+  <DataNode TextLabel="all-transe 4-oxo RA" GraphId="abd6c" Type="Metabolite" GroupRef="ff2c2">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Npc1l1" GraphId="ac273" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Aldh1a3" GraphId="ad473" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Aldh1a3" GraphId="aeaa5" Type="GeneProduct" GroupRef="a67ed">
+        </DataNode>
+  <DataNode TextLabel="Abcg5" GraphId="af7a1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="11-cis-Retinol" GraphId="b07e7" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Lpl" GraphId="b0eea" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="all-trans Retinol&#10;Vitamin A" GraphId="b100e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="4-oxo-Retinoic acid" GraphId="b29bb" Type="Metabolite" GroupRef="ff2c2">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Cyp2e1" GraphId="b3750" Type="GeneProduct" GroupRef="efd49">
+        </DataNode>
+  <DataNode TextLabel="Beta-Cryptoxanthin" GraphId="b3b6b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="RPE65" GraphId="b5d6e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Bcdo2" GraphId="b60c6" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAPK" GraphId="b67a1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Zeaxanthin" GraphId="b8047" Type="Metabolite">
+    <BiopaxRef>da5</BiopaxRef>
+    <BiopaxRef>d8f</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Lutein" GraphId="b8e2b" Type="Metabolite">
+    <BiopaxRef>da5</BiopaxRef>
+    <BiopaxRef>d87</BiopaxRef>
+    <BiopaxRef>f30</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="11-cis-Retinal" GraphId="b92cb" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Betacarotene" GraphId="ba983" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Scarb1" GraphId="bb02c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Lycopene" GraphId="bc1f4" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Retinyl ester" GraphId="bc239" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Sult2b1" GraphId="bcaf2" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="all-trans Retinal" GraphId="be432" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Lrat" GraphId="c1e29" Type="GeneProduct" GroupRef="ca852">
+        </DataNode>
+  <DataNode TextLabel="All-trans-13,14-dihydroretinol" GraphId="c25bf" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="RXRb" GraphId="c3ba7" Type="GeneProduct" GroupRef="f026a">
+        </DataNode>
+  <DataNode TextLabel="9-cis-Retinal" GraphId="c8b7e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Rdh10" GraphId="c937f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Retsat" GraphId="ca165" Type="GeneProduct">
+    <BiopaxRef>afc</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="Rbp1" GraphId="ca197" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Rdh12" GraphId="ca572" Type="GeneProduct" GroupRef="c8035">
+        </DataNode>
+  <DataNode TextLabel="RXRa" GraphId="ca8ba" Type="GeneProduct" GroupRef="f026a">
+        </DataNode>
+  <DataNode TextLabel="Adh4" GraphId="caa5e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Vitamin D3" GraphId="cae4c" Type="Metabolite">
+    <BiopaxRef>cd1</BiopaxRef>
+    <BiopaxRef>e17</BiopaxRef>
+    <BiopaxRef>c13</BiopaxRef>
+    <BiopaxRef>fe3</BiopaxRef>
+    <Graphics FillColor="Transparent" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Sult1a1" GraphId="d104f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Cyp26a1" GraphId="d1a73" Type="GeneProduct" GroupRef="efd49">
+        </DataNode>
+  <DataNode TextLabel="all-trans Retinoic acid&#10;Vitamin A acid" GraphId="d2c11" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Awat" GraphId="d3f08" Type="GeneProduct" GroupRef="ca852">
+        </DataNode>
+  <DataNode TextLabel="Bcmo1" GraphId="d7d44" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Cd36" GraphId="d8d94" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Violaxanthin" GraphId="dcbc5" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="RARg" GraphId="dd52d" Type="GeneProduct" GroupRef="f026a">
+        </DataNode>
+  <DataNode TextLabel="Aldh1a2" GraphId="dd561" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="13,14 dehydroretinal" GraphId="ddf11" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Canthaxanthin" GraphId="df783" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Scarb1" GraphId="df9cb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="13,14 dehydro RA" GraphId="e085b" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="9-cis-Retinoic acid" GraphId="e50bb" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Astaxanthin" GraphId="e58bb" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Lrat" GraphId="e5e97" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Aldh1a1" GraphId="e5fb8" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Rdh5" GraphId="e944a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Rdh8" GraphId="eae89" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Adh1" GraphId="edcfc" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RXRg" GraphId="ef3c3" Type="GeneProduct" GroupRef="f026a">
+        </DataNode>
+  <DataNode TextLabel="9-cis-Retinol" GraphId="f2294" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Crabp2" GraphId="f2b81" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Crabp1" GraphId="f3fcd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Rlbp1" GraphId="f5020" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Alpha-Carotene" GraphId="f5db8" Type="Metabolite">
+    <BiopaxRef>c78</BiopaxRef>
+    <BiopaxRef>e56</BiopaxRef>
+    <BiopaxRef>bbd</BiopaxRef>
+    <BiopaxRef>e92</BiopaxRef>
+    <BiopaxRef>e3d</BiopaxRef>
+    <BiopaxRef>e5f</BiopaxRef>
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Retinol&#10;Vitamin A" GraphId="f698d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="beta 10' apocorotenal" GraphId="f6cee" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Betacarotene" GraphId="f8808" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Rbp2" GraphId="f933c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Retinyl ester" GraphId="f9a58" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Bcmo1" GraphId="fa279" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Rbp4" GraphId="fa5bd" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Retinal&#10;Vitamin A aldehyde" GraphId="fa6ab" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Betacarotene" GraphId="fc14f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="RARb" GraphId="fc7ce" Type="GeneProduct" GroupRef="f026a">
+        </DataNode>
+  <DataNode TextLabel="Retinol dehydrogenases" GraphId="fe9c7" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="a01bf">
+    <Graphics>
+      <Point GraphRef="c8b7e"/>
+      <Point GraphRef="f2294" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a05d3">
+    <Graphics>
+      <Point GraphRef="bc1f4"/>
+      <Point GraphRef="a0454" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a152d">
+    <Graphics>
+      <Point GraphRef="ba983"/>
+      <Point GraphRef="a0009" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f4392"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a259a">
+    <Graphics>
+      <Point GraphRef="f8808"/>
+      <Point GraphRef="fa6ab" ArrowHead="Arrow"/>
+      <Anchor Position="0.42857142857142855" Shape="None" GraphId="b15ba"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a3ca7">
+    <Graphics>
+      <Point GraphRef="b07e7"/>
+      <Point GraphRef="b92cb" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="d9380"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a49f5">
+    <Graphics>
+      <Point GraphRef="f2294"/>
+      <Point GraphRef="c8b7e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b4096">
+    <Graphics>
+      <Point GraphRef="c8b7e"/>
+      <Point GraphRef="e50bb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b6471">
+    <Graphics>
+      <Point GraphRef="fc14f"/>
+      <Point GraphRef="f8808" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bdca5">
+    <Graphics>
+      <Point GraphRef="fa6ab"/>
+      <Point GraphRef="f698d" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="bbd2f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bef7f">
+    <Graphics>
+      <Point GraphRef="c25bf"/>
+      <Point GraphRef="ddf11" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bf935">
+    <Graphics>
+      <Point GraphRef="e283f"/>
+      <Point GraphRef="f9a58" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1683">
+    <Graphics>
+      <Point GraphRef="e3eb2"/>
+      <Point GraphRef="f46e4" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c232c">
+    <Graphics>
+      <Point GraphRef="ddf11"/>
+      <Point GraphRef="e085b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c574e">
+    <Graphics>
+      <Point GraphRef="df783"/>
+      <Point GraphRef="fa279" ArrowHead="TBar"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c7f17">
+    <Graphics>
+      <Point GraphRef="b5d83"/>
+      <Point GraphRef="fff04" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c8c65">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f6cee"/>
+      <Point GraphRef="be432" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="cf07e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c91f7">
+    <Graphics>
+      <Point GraphRef="f9a58"/>
+      <Point GraphRef="b100e" ArrowHead="Arrow"/>
+      <Anchor Position="0.5399202399557906" Shape="None" GraphId="e5c5d"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ccbcf">
+    <Graphics>
+      <Point GraphRef="f698d"/>
+      <Point GraphRef="bc239" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="e2057"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cecd6">
+    <Graphics>
+      <Point GraphRef="fc14f"/>
+      <Point GraphRef="f8808" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cfdc8">
+    <Graphics>
+      <Point GraphRef="fff04"/>
+      <Point GraphRef="e283f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d368b">
+    <Graphics>
+      <Point GraphRef="be432"/>
+      <Point GraphRef="b100e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d4ed3">
+    <Graphics>
+      <Point GraphRef="ddf11"/>
+      <Point GraphRef="c25bf" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="da3a7">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="af32a"/>
+      <Point GraphRef="b67a1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de821">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bc239"/>
+      <Point GraphRef="b5d83" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e1a3d">
+    <Graphics>
+      <Point GraphRef="f9a58"/>
+      <Point GraphRef="b07e7" ArrowHead="Arrow"/>
+      <Anchor Position="0.6400233456454758" Shape="None" GraphId="c6a04"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e4360">
+    <Graphics>
+      <Point GraphRef="fc14f"/>
+      <Point GraphRef="f8808" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e9329">
+    <Graphics>
+      <Point GraphRef="f1642"/>
+      <Point GraphRef="d3ed9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eaefe">
+    <Graphics>
+      <Point GraphRef="b100e"/>
+      <Point GraphRef="f9a58" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f5a20">
+    <Graphics>
+      <Point GraphRef="b100e"/>
+      <Point GraphRef="f2294" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f5d42">
+    <Graphics>
+      <Point GraphRef="a6725"/>
+      <Point GraphRef="f698d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f927c">
+    <Graphics>
+      <Point GraphRef="a0009"/>
+      <Point GraphRef="f6cee" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="acb3a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f9b7f">
+    <Graphics>
+      <Point GraphRef="b100e"/>
+      <Point GraphRef="be432" ArrowHead="Arrow"/>
+      <Anchor Position="0.5400291120815137" Shape="None" GraphId="e8c64"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f9e96">
+    <Graphics>
+      <Point GraphRef="a0009"/>
+      <Point GraphRef="be432" ArrowHead="Arrow"/>
+      <Anchor Position="0.3692870201096889" Shape="None" GraphId="f8176"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa1ce">
+    <Graphics>
+      <Point GraphRef="fc14f"/>
+      <Point GraphRef="f8808" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa6b6">
+    <Graphics>
+      <Point GraphRef="b100e"/>
+      <Point GraphRef="c25bf" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="aa2bd"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ff915">
+    <Graphics>
+      <Point GraphRef="be432"/>
+      <Point GraphRef="d2c11" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="f4ed5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3d5c0c0e">
+    <Graphics>
+      <Point GraphRef="e5c5d"/>
+      <Point GraphRef="d48d9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id425e272c">
+    <Graphics>
+      <Point GraphRef="e5e97"/>
+      <Point GraphRef="e2057"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id629aa9b">
+    <Graphics>
+      <Point GraphRef="f4ed5"/>
+      <Point GraphRef="ea8ec"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6dcdecc6">
+    <Graphics>
+      <Point GraphRef="aa8f9"/>
+      <Point GraphRef="e8c64"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id815aa511">
+    <Graphics>
+      <Point GraphRef="d7d44"/>
+      <Point GraphRef="b15ba"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8a53db5f">
+    <Graphics>
+      <Point GraphRef="aa2bd"/>
+      <Point GraphRef="ca165"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9067f6e3">
+    <Graphics>
+      <Point GraphRef="b60c6"/>
+      <Point GraphRef="acb3a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida019a6f">
+    <Graphics>
+      <Point GraphRef="d9380"/>
+      <Point GraphRef="c3cd9"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbd512c36">
+    <Graphics>
+      <Point GraphRef="fa279"/>
+      <Point GraphRef="f8176"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbdb125c7">
+    <Graphics>
+      <Point GraphRef="b5d6e"/>
+      <Point GraphRef="c6a04"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc14c753a">
+    <Graphics>
+      <Point GraphRef="cf07e"/>
+      <Point GraphRef="a0454"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddc6f9d6e">
+    <Graphics>
+      <Point GraphRef="bb02c"/>
+      <Point GraphRef="f4392"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfcddae72">
+    <Graphics>
+      <Point GraphRef="fe9c7"/>
+      <Point GraphRef="bbd2f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d76f8">
+    <Graphics>
+      <Point GraphRef="e3eb2"/>
+      <Point GraphRef="d104f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b00bf">
+    <Graphics>
+      <Point GraphRef="e3eb2"/>
+      <Point GraphRef="a6a71" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b2026">
+    <Graphics>
+      <Point GraphRef="f1642"/>
+      <Point GraphRef="e3eb2" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="a7c06">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f8808"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dc4cd">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e662c">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="efc2a">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point GraphRef="b67a1" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f789f">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="chylomicron" GraphId="a59dc">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ROL=retinol; RAL=retinaldehyde, RA = retinoic acid, RE = retinyl ester, RPE = retinal pigment epithelium " GraphId="a68ae">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nuclear receptors" GraphId="acb0e">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="?" GraphId="accc9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cytochrome P450 family" GraphId="bad15">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Blood" GraphId="bbb8a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Diet" GraphId="bde33">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="?" GraphId="be18b">
+    <Graphics FillColor="ffffff" FontName="Helvetica"/>
+  </Label>
+  <Label TextLabel="RE + dietary lipids" GraphId="bf9ac">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Rhodopsin formation" GraphId="c316f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="?" GraphId="d0e57">
+    <Graphics FillColor="ffffff" FontName="Helvetica"/>
+  </Label>
+  <Label TextLabel="" GraphId="d2abe">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="?" GraphId="d35e1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="RA-binding proteins" GraphId="d4783">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ROL-binding proteins" GraphId="d77ac">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Liver/other organs" GraphId="dbb4c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="RE + dietary lipids" GraphId="dbb77">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Enterocyte" GraphId="e213d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="RE + dietary lipids" GraphId="e283f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="?" GraphId="e4244">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="11-cis binding protein" GraphId="e57a1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="gap junction communication" GraphId="f3218">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="PPAR pathways" GraphId="f46e4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="?" GraphId="fb570">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Retinal pigment epithelium specific" GraphId="ff769">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="ffe89">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="af32a">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="b5d83">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cada1">
+    <Graphics ShapeType="Brace"/>
+  </Shape>
+  <Shape GraphId="dfe9c">
+    <Graphics FillColor="000000" ShapeType="Brace"/>
+  </Shape>
+  <Shape GraphId="dffed">
+    <Graphics FillColor="000000" ShapeType="Brace"/>
+  </Shape>
+  <Shape GraphId="e25f2">
+    <Graphics ShapeType="Rectangle" LineStyle="Broken"/>
+  </Shape>
+  <Shape GraphId="f1642">
+    <Graphics ShapeType="Brace"/>
+  </Shape>
+  <Shape GraphId="fff04">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="efd49" GraphId="a6a71" Style="Group"/>
+  <Group GroupId="c8035" GraphId="c3cd9" Style="Group"/>
+  <Group GroupId="ff2c2" GraphId="d3ed9" Style="Group"/>
+  <Group GroupId="ca852" GraphId="d48d9" Style="Group"/>
+  <Group GroupId="f026a" GraphId="e3eb2" Style="Group"/>
+  <Group GroupId="a67ed" GraphId="ea8ec" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >metabolic pathway of cofactors and vitamins</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000135</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e5f">
+      <bp:ID >8948389</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Influence of using different sources of carotenoid data in epidemiologic studies.</bp:TITLE>
+      <bp:SOURCE >J Am Diet Assoc</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >VandenLangenberg GM</bp:AUTHORS>
+      <bp:AUTHORS >Brady WE</bp:AUTHORS>
+      <bp:AUTHORS >Nebeling LC</bp:AUTHORS>
+      <bp:AUTHORS >Block G</bp:AUTHORS>
+      <bp:AUTHORS >Forman M</bp:AUTHORS>
+      <bp:AUTHORS >Bowen PE</bp:AUTHORS>
+      <bp:AUTHORS >Stacewicz-Sapuntzakis M</bp:AUTHORS>
+      <bp:AUTHORS >Mares-Perlman JA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d8f">
+      <bp:ID >1444060</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Antioxidant functions of vitamins. Vitamins E and C, beta-carotene, and other carotenoids.</bp:TITLE>
+      <bp:SOURCE >Ann N Y Acad Sci</bp:SOURCE>
+      <bp:YEAR >1992</bp:YEAR>
+      <bp:AUTHORS >Sies H</bp:AUTHORS>
+      <bp:AUTHORS >Stahl W</bp:AUTHORS>
+      <bp:AUTHORS >Sundquist AR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f30">
+      <bp:ID >1416048</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Separation and identification of carotenoids and their oxidation products in the extracts of human plasma.</bp:TITLE>
+      <bp:SOURCE >Anal Chem</bp:SOURCE>
+      <bp:YEAR >1992</bp:YEAR>
+      <bp:AUTHORS >Khachik F</bp:AUTHORS>
+      <bp:AUTHORS >Beecher GR</bp:AUTHORS>
+      <bp:AUTHORS >Goli MB</bp:AUTHORS>
+      <bp:AUTHORS >Lusby WR</bp:AUTHORS>
+      <bp:AUTHORS >Smith JC Jr</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c78">
+      <bp:ID >8017322</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Seasonal and sex-related variations in six serum carotenoids, retinol, and alpha-tocopherol.</bp:TITLE>
+      <bp:SOURCE >Am J Clin Nutr</bp:SOURCE>
+      <bp:YEAR >1994</bp:YEAR>
+      <bp:AUTHORS >Olmedilla B</bp:AUTHORS>
+      <bp:AUTHORS >Granado F</bp:AUTHORS>
+      <bp:AUTHORS >Blanco I</bp:AUTHORS>
+      <bp:AUTHORS >Rojas-Hidalgo E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da5">
+      <bp:ID >3372162</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Carotenoids in the human macula and whole retina.</bp:TITLE>
+      <bp:SOURCE >Invest Ophthalmol Vis Sci</bp:SOURCE>
+      <bp:YEAR >1988</bp:YEAR>
+      <bp:AUTHORS >Handelman GJ</bp:AUTHORS>
+      <bp:AUTHORS >Dratz EA</bp:AUTHORS>
+      <bp:AUTHORS >Reay CC</bp:AUTHORS>
+      <bp:AUTHORS >van Kuijk JG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="afc">
+      <bp:ID >18289917</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification and characterization of a novel mouse peroxisome proliferator-activated receptor alpha-regulated and starvation-induced gene, Ppsig.</bp:TITLE>
+      <bp:SOURCE >Int J Biochem Cell Biol</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Sun Y</bp:AUTHORS>
+      <bp:AUTHORS >Ng L</bp:AUTHORS>
+      <bp:AUTHORS >Lam W</bp:AUTHORS>
+      <bp:AUTHORS >Lo CK</bp:AUTHORS>
+      <bp:AUTHORS >Chan PT</bp:AUTHORS>
+      <bp:AUTHORS >Yuen YL</bp:AUTHORS>
+      <bp:AUTHORS >Wong PF</bp:AUTHORS>
+      <bp:AUTHORS >Tsang DS</bp:AUTHORS>
+      <bp:AUTHORS >Cheung WT</bp:AUTHORS>
+      <bp:AUTHORS >Lee SS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fe3">
+      <bp:ID >3019190</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Interrelationships among liposoluble vitamins in ruminants.</bp:TITLE>
+      <bp:SOURCE >Am J Vet Res</bp:SOURCE>
+      <bp:YEAR >1986</bp:YEAR>
+      <bp:AUTHORS >Hidiroglou M</bp:AUTHORS>
+      <bp:AUTHORS >Williams CJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e92">
+      <bp:ID >9453379</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Vitamin A deficiency and nocturnal vision in teenagers with cystic fibrosis.</bp:TITLE>
+      <bp:SOURCE >Eur J Pediatr</bp:SOURCE>
+      <bp:YEAR >1997</bp:YEAR>
+      <bp:AUTHORS >Huet F</bp:AUTHORS>
+      <bp:AUTHORS >Semama D</bp:AUTHORS>
+      <bp:AUTHORS >Maingueneau C</bp:AUTHORS>
+      <bp:AUTHORS >Charavel A</bp:AUTHORS>
+      <bp:AUTHORS >Nivelon JL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e3d">
+      <bp:ID >12806616</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Relation of elevated serum alanine aminotransferase activity with iron and antioxidant levels in the United States.</bp:TITLE>
+      <bp:SOURCE >Gastroenterology</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Ruhl CE</bp:AUTHORS>
+      <bp:AUTHORS >Everhart JE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f7b">
+      <bp:ID >12401878</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Gene expression regulation by retinoic acid.</bp:TITLE>
+      <bp:SOURCE >J Lipid Res</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Balmer JE</bp:AUTHORS>
+      <bp:AUTHORS >Blomhoff R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d20">
+      <bp:ID >19715393</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Pathway enrichment based on text mining and its validation on carotenoid and vitamin A metabolism.</bp:TITLE>
+      <bp:SOURCE >OMICS</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Waagmeester A</bp:AUTHORS>
+      <bp:AUTHORS >Pezik P</bp:AUTHORS>
+      <bp:AUTHORS >Coort S</bp:AUTHORS>
+      <bp:AUTHORS >Tourniaire F</bp:AUTHORS>
+      <bp:AUTHORS >Evelo C</bp:AUTHORS>
+      <bp:AUTHORS >Rebholz-Schuhmann D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d87">
+      <bp:ID >1595584</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Plasma carotenoid response to chronic intake of selected foods and beta-carotene supplements in men.</bp:TITLE>
+      <bp:SOURCE >Am J Clin Nutr</bp:SOURCE>
+      <bp:YEAR >1992</bp:YEAR>
+      <bp:AUTHORS >Micozzi MS</bp:AUTHORS>
+      <bp:AUTHORS >Brown ED</bp:AUTHORS>
+      <bp:AUTHORS >Edwards BK</bp:AUTHORS>
+      <bp:AUTHORS >Bieri JG</bp:AUTHORS>
+      <bp:AUTHORS >Taylor PR</bp:AUTHORS>
+      <bp:AUTHORS >Khachik F</bp:AUTHORS>
+      <bp:AUTHORS >Beecher GR</bp:AUTHORS>
+      <bp:AUTHORS >Smith JC Jr</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e98">
+      <bp:ID >2656356</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Biological actions of carotenoids.</bp:TITLE>
+      <bp:SOURCE >FASEB J</bp:SOURCE>
+      <bp:YEAR >1989</bp:YEAR>
+      <bp:AUTHORS >Bendich A</bp:AUTHORS>
+      <bp:AUTHORS >Olson JA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd1">
+      <bp:ID >9627692</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Vitamin D analogs affect the uptake and metabolism of retinol by human epidermal keratinocytes in culture.</bp:TITLE>
+      <bp:SOURCE >J Investig Dermatol Symp Proc</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >Torma H</bp:AUTHORS>
+      <bp:AUTHORS >Rollman O</bp:AUTHORS>
+      <bp:AUTHORS >Binderup L</bp:AUTHORS>
+      <bp:AUTHORS >Michaelsson G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e56">
+      <bp:ID >12937841</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Preliminary identification of carotenoids in malignant and benign neoplasms of the breast and surrounding fatty tissue.</bp:TITLE>
+      <bp:SOURCE >Neoplasma</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Czeczuga-Semeniuk E</bp:AUTHORS>
+      <bp:AUTHORS >Wolczynski S</bp:AUTHORS>
+      <bp:AUTHORS >Markiewicz W</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >vitamin A and metabolites signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001116</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bbd">
+      <bp:ID >8878137</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Acute phase response and plasma carotenoid concentrations in older women: findings from the nun study.</bp:TITLE>
+      <bp:SOURCE >Nutrition</bp:SOURCE>
+      <bp:YEAR >1996</bp:YEAR>
+      <bp:AUTHORS >Boosalis MG</bp:AUTHORS>
+      <bp:AUTHORS >Snowdon DA</bp:AUTHORS>
+      <bp:AUTHORS >Tully CL</bp:AUTHORS>
+      <bp:AUTHORS >Gross MD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e17">
+      <bp:ID >10227052</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Lycopene and 1,25-dihydroxyvitamin D3 cooperate in the inhibition of cell cycle progression and induction of differentiation in HL-60 leukemic cells.</bp:TITLE>
+      <bp:SOURCE >Nutr Cancer</bp:SOURCE>
+      <bp:YEAR >1999</bp:YEAR>
+      <bp:AUTHORS >Amir H</bp:AUTHORS>
+      <bp:AUTHORS >Karas M</bp:AUTHORS>
+      <bp:AUTHORS >Giat J</bp:AUTHORS>
+      <bp:AUTHORS >Danilenko M</bp:AUTHORS>
+      <bp:AUTHORS >Levy R</bp:AUTHORS>
+      <bp:AUTHORS >Yermiahu T</bp:AUTHORS>
+      <bp:AUTHORS >Levy J</bp:AUTHORS>
+      <bp:AUTHORS >Sharoni Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c13">
+      <bp:ID >11585356</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Vitamin A antagonizes calcium response to vitamin D in man.</bp:TITLE>
+      <bp:SOURCE >J Bone Miner Res</bp:SOURCE>
+      <bp:YEAR >2001</bp:YEAR>
+      <bp:AUTHORS >Johansson S</bp:AUTHORS>
+      <bp:AUTHORS >Melhus H</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>retinol metabolic pathway</bp:TERM><bp:ID>PW:0000141</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

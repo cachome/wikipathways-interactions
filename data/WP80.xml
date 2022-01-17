@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Nucleotide GPCRs" Organism="Homo sapiens" License="CC BY 2.0">
+  <Comment Source="GenMAPP notes"/>
+  <Comment Source="GenMAPP remarks"/>
+  <Comment Source="WikiPathways-category">Molecular Function</Comment>
+  <Graphics BoardWidth="549.7666666666667" BoardHeight="458.0"/>
+  <DataNode TextLabel="ADORA1" GraphId="b82" Type="GeneProduct" GroupRef="d9620">
+        </DataNode>
+  <DataNode TextLabel="ADORA2A" GraphId="a58" Type="GeneProduct" GroupRef="d9620">
+        </DataNode>
+  <DataNode TextLabel="ADORA2B" GraphId="fd5" Type="GeneProduct" GroupRef="d9620">
+        </DataNode>
+  <DataNode TextLabel="ADORA3" GraphId="afd" Type="GeneProduct" GroupRef="d9620">
+        </DataNode>
+  <DataNode TextLabel="P2RY1" GraphId="fa1" Type="GeneProduct" GroupRef="dc35e">
+        </DataNode>
+  <DataNode TextLabel="P2RY2" GraphId="f37" Type="GeneProduct" GroupRef="dc35e">
+        </DataNode>
+  <DataNode TextLabel="P2RY5" GraphId="a25" Type="GeneProduct" GroupRef="dc35e">
+        </DataNode>
+  <DataNode TextLabel="P2RY6" GraphId="e37" Type="GeneProduct" GroupRef="dc35e">
+        </DataNode>
+  <DataNode TextLabel="LTB4R" GraphId="b6a" Type="GeneProduct" GroupRef="dc35e">
+        </DataNode>
+  <DataNode TextLabel="GPR23" GraphId="fd4" Type="GeneProduct" GroupRef="dc35e">
+        </DataNode>
+  <DataNode TextLabel="P2RY4" GraphId="e4c" Type="GeneProduct" GroupRef="dc35e">
+        </DataNode>
+  <DataNode TextLabel="Adenosine" GraphId="c4d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Adenine" GraphId="efa" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Gi/Go Pathway" GraphId="b62e8" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Gs Pathway" GraphId="d72b3" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Gq/G11 Pathway" GraphId="de1d6" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <Interaction GraphId="id8876d41e">
+    <Graphics ConnectorType="Curved" Color="ff8000">
+      <Point GraphRef="afd"/>
+      <Point GraphRef="b62e8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id67b240e9">
+    <Graphics ConnectorType="Curved" Color="0000ff">
+      <Point GraphRef="a58"/>
+      <Point GraphRef="d72b3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id916bcd07">
+    <Graphics ConnectorType="Curved" Color="ff8000">
+      <Point GraphRef="f37"/>
+      <Point GraphRef="b62e8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idf7f12c86">
+    <Graphics ConnectorType="Curved" Color="00ff00">
+      <Point GraphRef="fa1"/>
+      <Point GraphRef="de1d6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idca6442a3">
+    <Graphics ConnectorType="Curved" Color="00ff00">
+      <Point GraphRef="f37"/>
+      <Point GraphRef="de1d6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5dfcf38b">
+    <Graphics ConnectorType="Curved" Color="00ff00">
+      <Point GraphRef="e4c"/>
+      <Point GraphRef="de1d6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2e31fc5">
+    <Graphics ConnectorType="Curved" Color="00ff00">
+      <Point GraphRef="e37"/>
+      <Point GraphRef="de1d6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id79e85aae">
+    <Graphics ConnectorType="Curved" Color="0000ff">
+      <Point GraphRef="afd"/>
+      <Point GraphRef="d72b3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4ff7f6fc">
+    <Graphics ConnectorType="Curved" Color="ff8000">
+      <Point GraphRef="b82"/>
+      <Point GraphRef="b62e8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9a6e7319">
+    <Graphics>
+      <Point GraphRef="efa"/>
+      <Point GraphRef="af03b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide94f47c5">
+    <Graphics>
+      <Point GraphRef="c4d"/>
+      <Point GraphRef="cb700" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Group GroupId="d9620" GraphId="cb700"/>
+  <Group GroupId="dc35e" GraphId="af03b"/>
+  <InfoBox/>
+  <Legend/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >G protein mediated signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000125</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

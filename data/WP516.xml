@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Hypertrophy model" Last-Modified="10/17/2013" Organism="Homo sapiens" License="CC BY 2.0"><Comment Source="WikiPathways-description">Model of the effects of resistance exercise on gene regulation in human quadriceps muscle after an acute bout of isotonic exercise.
+
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP516 CPTAC Assay Portal]</Comment>
+  <Comment Source="WikiPathways-category">Physiological Process</Comment>
+  <BiopaxRef>d1c</BiopaxRef>
+  <Graphics BoardWidth="1039.1389599317984" BoardHeight="788.6666666666666"/>
+  <DataNode TextLabel="WDR1" GraphId="a16" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EIF4EBP1" GraphId="a82" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MINOR" GraphId="aab" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL1R1" GraphId="b62" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="NR4A3" GraphId="b68" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL1A" GraphId="ba3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IFNG" GraphId="c16" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EIF4E" GraphId="c2b" Type="GeneProduct" GroupRef="c11dd">
+        </DataNode>
+  <DataNode TextLabel="VEGF" GraphId="c90" Type="GeneProduct" GroupRef="f3c72">
+        </DataNode>
+  <DataNode TextLabel="ATF3" GraphId="cbb" Type="GeneProduct" GroupRef="a838e">
+        </DataNode>
+  <DataNode TextLabel="TCF8" GraphId="d01" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="JUND" GraphId="d08" Type="GeneProduct" GroupRef="a838e">
+        </DataNode>
+  <DataNode TextLabel="GDF8" GraphId="d86" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ADAM10" GraphId="e16" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CYR61" GraphId="e24" Type="GeneProduct" GroupRef="f3c72">
+        </DataNode>
+  <DataNode TextLabel="ANKRD1" GraphId="e3f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="?" GraphId="e4e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="DUSP14" GraphId="e77" Type="GeneProduct" GroupRef="c11dd">
+        </DataNode>
+  <DataNode TextLabel="HBEGF" GraphId="e92" Type="GeneProduct" GroupRef="e0503">
+        </DataNode>
+  <DataNode TextLabel="IFRD1" GraphId="ec8" Type="GeneProduct" GroupRef="e0503">
+        </DataNode>
+  <DataNode TextLabel="MYOG" GraphId="f48" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL18" GraphId="fb0" Type="GeneProduct">
+        </DataNode>
+  <Interaction GraphId="be75e">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="fb0"/>
+      <Point GraphRef="f48" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c18f4">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b62"/>
+      <Point GraphRef="f48" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cdca0">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b68"/>
+      <Point GraphRef="e4e" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="daaff">
+    <Graphics>
+      <Point GraphRef="b62"/>
+      <Point GraphRef="ba3" ArrowHead="Receptor"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e4648">
+    <Graphics>
+      <Point GraphRef="fb0"/>
+      <Point GraphRef="c16" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f1980">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e16"/>
+      <Point GraphRef="e92" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="a1026">
+    <Graphics>
+      <Point GraphRef="d86"/>
+      <Point GraphRef="df5" ArrowHead="TBar"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a18f0">
+    <Graphics>
+      <Point GraphRef="bd720"/>
+      <Point GraphRef="a57" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a669f">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b029e">
+    <Graphics>
+      <Point GraphRef="b3a39"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c7921">
+    <Graphics>
+      <Point GraphRef="a82"/>
+      <Point GraphRef="a57" ArrowHead="TBar"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c800c">
+    <Graphics>
+      <Point GraphRef="bd720"/>
+      <Point GraphRef="b68"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e3704">
+    <Graphics>
+      <Point GraphRef="acca3"/>
+      <Point GraphRef="b7a" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ff8d4">
+    <Graphics>
+      <Point GraphRef="c16"/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="protein synthesis" GraphId="a57">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="angiogenesis" GraphId="b7a">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Nucleus" GraphId="be73e">
+    <Graphics FillColor="ffffff" Color="666666"/>
+  </Label>
+  <Label TextLabel="Extracellular" GraphId="c0a90">
+    <Graphics FillColor="ffffff" Color="666666"/>
+  </Label>
+  <Label TextLabel="-634" GraphId="c3b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="+500" GraphId="c46">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="correlate to all 4 MINOR probes" GraphId="c55">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="proliferative response" GraphId="df5">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="HB-EGF correlated" GraphId="e74">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="+296" GraphId="eb3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="+1" GraphId="ec1">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="-698" GraphId="f96">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="bd720">
+    <Graphics ShapeType="Rectangle" LineStyle="Broken"/>
+  </Shape>
+  <Shape GraphId="c114d">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d2981">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="f3c72" GraphId="acca3"/>
+  <Group GroupId="e0503" GraphId="b3a39"/>
+  <Group GroupId="c11dd" GraphId="d9d41"/>
+  <Group GroupId="a838e" GraphId="ef38a"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >heart disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:114</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d1c">
+      <bp:ID >14519196</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Time- and exercise-dependent gene regulation in human skeletal muscle.</bp:TITLE>
+      <bp:SOURCE >Genome Biol</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Zambon AC</bp:AUTHORS>
+      <bp:AUTHORS >McDearmon EL</bp:AUTHORS>
+      <bp:AUTHORS >Salomonis N</bp:AUTHORS>
+      <bp:AUTHORS >Vranizan KM</bp:AUTHORS>
+      <bp:AUTHORS >Johansen KL</bp:AUTHORS>
+      <bp:AUTHORS >Adey D</bp:AUTHORS>
+      <bp:AUTHORS >Takahashi JS</bp:AUTHORS>
+      <bp:AUTHORS >Schambelan M</bp:AUTHORS>
+      <bp:AUTHORS >Conklin BR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >hypertrophic cardiomyopathy pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000296</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>cardiac muscle cell</bp:TERM><bp:ID>CL:0000746</bp:ID><bp:Ontology>Cell Type</bp:Ontology></bp:openControlledVocabulary><bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>muscle cell</bp:TERM><bp:ID>CL:0000187</bp:ID><bp:Ontology>Cell Type</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

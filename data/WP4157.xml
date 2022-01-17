@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="GABA metabolism (aka GHB)" Version="20171011" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Gamma-Hydroxybutyric acid (GHB) is a naturally occurring neurotransmitter and a psychoactive drug. This compound is a precursor to GABA, glutamate, and glycine in certain brain areas, acts on the GHB receptor and is a weak agonist at the GABAB receptor.
+GHB has been used in a medical setting as a general anesthetic and as a treatment for cataplexy, narcolepsy, and alcoholism. It is also used illegally as an intoxicant, to try to increase athletic performance, and as a date rape drug. GHB is also produced as a result of fermentation, and is found in small quantities in some beers and wines, beef and small citrus fruits. Succinic semialdehyde dehydrogenase deficiency is a disease that causes GHB to accumulate in the blood.
+
+Part of this pathway was inspired by Chapter 5 of the book of Blau (ISBN 3642403360 (978-3642403361)), Fig. 5.3.
+</Comment>
+  <BiopaxRef>d9d</BiopaxRef>
+  <BiopaxRef>a77</BiopaxRef>
+  <Graphics BoardWidth="1321.759332948448" BoardHeight="805.1190476190486"/>
+  <DataNode TextLabel="gamma-aminobutanoic acid (GABA)" GraphId="a02e4" Type="Metabolite">
+    <Comment>aka gamma-aminobutyric acid</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="succinic acid" GraphId="a0d17" Type="Metabolite">
+    <Comment>aka succinate</Comment>
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="D-2-hydroxyglutarate &#10;transhydrogenase" GraphId="a35cd" Type="Protein">
+    <Comment>aka hydroxyacid-oxoacid transhydrogenase (HOT)</Comment>
+        </DataNode>
+  <DataNode TextLabel="4-butyrolactone" GraphId="a726b" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ADH" GraphId="a748e" Type="Protein">
+    <Comment>alcohol dehydrogenase</Comment>
+        </DataNode>
+  <DataNode TextLabel="Serum paraoxonase/lactonase 3 (b)" GraphId="a8e0f" Type="Protein" GroupRef="ef53f">
+        </DataNode>
+  <DataNode TextLabel="GHB dehydrogenase" GraphId="ab014" Type="Protein" GroupRef="b85c0">
+    <Comment>aka NAD-dependent 4-hydroxybutyrate dehydrogenase</Comment>
+        </DataNode>
+  <DataNode TextLabel="D-2-hydroxyglutaric acid" GraphId="aff14" Type="Metabolite">
+    <Comment>aka D-2-hydroxyglutarate</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="gamma-hydroxybutyric acid (GHB)" GraphId="b1c03" Type="Metabolite">
+    <Comment>aka 4-hydroxybutanoic acid</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="1,4-butanediol " GraphId="c6fea" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="3-oxo-4-hydroxybutyric acid" GraphId="c88ea" Type="Metabolite">
+    <Comment>aka 4-hydroxy-3-oxobutanoic acid</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ALDH" GraphId="ca1d2" Type="Protein">
+    <Comment>aldehyde dehydrogenase</Comment>
+        </DataNode>
+  <DataNode TextLabel="SSA reductase" GraphId="cb5c0" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="GABAT" GraphId="cbbbb" Type="Protein">
+    <Comment>GABA transaminase</Comment>
+        </DataNode>
+  <DataNode TextLabel="4-hydroxybutyraldehyde" GraphId="d1717" Type="Metabolite">
+    <Comment>aka 4-hydroxybutanal</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="fatty acid beta-oxidation spiral" GraphId="d432f" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="succinic semialdehyde " GraphId="dc97f" Type="Metabolite">
+    <Comment>aka succinate semialdehyde
+aka 4-oxobutanoic acid</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="alpha-ketoglutarate" GraphId="e42f5" Type="Metabolite">
+    <Comment>aka 2-ketoglutarate
+aka 2-oxoglutarate</Comment>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Serum paraoxonase/lactonase 3 (c) " GraphId="e8441" Type="Protein" GroupRef="ef53f">
+        </DataNode>
+  <DataNode TextLabel="lactamase" GraphId="eeca4" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="TCA cycle" GraphId="f1025" Type="Pathway">
+    <Comment>aka Krebs Cycle</Comment>
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="glycolic acid" GraphId="f10ea" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="3,4-dihydroxybutyric acid" GraphId="f713c" Type="Metabolite">
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Serum paraoxonase/lactonase 3 (a)" GraphId="fb6f2" Type="Protein" GroupRef="ef53f">
+        </DataNode>
+  <DataNode TextLabel="ADH" GraphId="f5018" Type="Protein" GroupRef="b85c0">
+    <Comment>alcohol dehydrogenase</Comment>
+        </DataNode>
+  <DataNode TextLabel="SSADH" GraphId="d14c8" Type="Protein">
+    <Comment>Succinate-semialdehyde dehydrogenase</Comment>
+        </DataNode>
+  <DataNode TextLabel="glutamine" GraphId="b1fa0" Type="Metabolite">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="succinic semialdehyde " GraphId="a9eae" Type="Metabolite">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="glutamic acid" GraphId="e4e86" Type="Metabolite">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="GABAT" GraphId="e04c6" Type="Protein">
+    <Comment>GABA transaminase</Comment>
+    <BiopaxRef>a77</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="uracil" GraphId="d9940" Type="Metabolite">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="beta-alanine" GraphId="d66f3" Type="Metabolite">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="malonic semialdehyde" GraphId="b1674" Type="Metabolite">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="4,5-dihydroxyhexanoic acid" GraphId="c54a7" Type="Metabolite">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="4-hydroxybutyric acid" GraphId="eb6c9" Type="Metabolite">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="3-oxo-4-hydroxybutanoic" GraphId="dff25" Type="Metabolite">
+    <Comment>aka 3-oxo-4-hydroxybutyric acid
+aka 4-hydroxy-3-oxobutanoic acid</Comment>
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="2-oxo-4-hydroxybutanoic" GraphId="a4621" Type="Metabolite">
+    <Comment>aka 2-oxo-4-hydroxybutyric acid
+aka 4-hydroxy-2-oxobutanoic acid</Comment>
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="3-hydroxypropionic" GraphId="ffd88" Type="Metabolite">
+    <Comment>aka 3-hydroxypropionic acid</Comment>
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="2-ketoglutarate" GraphId="c4f0c" Type="Metabolite">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="D-2-hydroxyglutarate" GraphId="f6bda" Type="Metabolite">
+    <Comment>D-2-hydroxyglutaric acid</Comment>
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics ShapeType="RoundedRectangle" Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Serum paraoxonase/lactonase 3" GraphId="f8518" Type="Protein" GroupRef="ef53f">
+        </DataNode>
+  <Interaction GraphId="id1146de55">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d9940"/>
+      <Point GraphRef="d66f3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id18e96518">
+    <Graphics>
+      <Point GraphRef="b1c03"/>
+      <Point GraphRef="d432f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id22db7e0f">
+    <Graphics>
+      <Point GraphRef="dc97f"/>
+      <Point GraphRef="a0d17" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6565217391304348" Shape="None" GraphId="ec3cc"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id3651df56">
+    <Graphics>
+      <Point GraphRef="d14c8"/>
+      <Point GraphRef="ec3cc" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id39322306">
+    <Graphics>
+      <Point GraphRef="a9d69"/>
+      <Point GraphRef="a4b5c" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5135c56c">
+    <BiopaxRef>d9d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a0a96"/>
+      <Point GraphRef="aff14" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id59db4fc2">
+    <BiopaxRef>d9d</BiopaxRef>
+    <BiopaxRef>d1f</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b1c03"/>
+      <Point/>
+      <Point GraphRef="dc97f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.7240349676001497" Shape="None" GraphId="eed78"/>
+      <Anchor Position="0.790242559431836" Shape="None" GraphId="a0a96"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5f547a2c">
+    <Graphics>
+      <Point GraphRef="a0d17"/>
+      <Point GraphRef="f1025" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6e58511b">
+    <Graphics>
+      <Point GraphRef="b1c03"/>
+      <Point GraphRef="dc97f" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4714828897338403" Shape="None" GraphId="dec65"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id70dfa715">
+    <Graphics>
+      <Point GraphRef="a748e"/>
+      <Point GraphRef="d0d1b" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7753dfcf">
+    <Graphics>
+      <Point GraphRef="a35cd"/>
+      <Point GraphRef="eed78" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7895f1c1">
+    <Graphics>
+      <Point GraphRef="c6fea"/>
+      <Point GraphRef="d1717" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.43457943925233644" Shape="None" GraphId="d0d1b"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id867b0741">
+    <Graphics>
+      <Point GraphRef="d432f"/>
+      <Point GraphRef="f713c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8d895e89">
+    <Graphics>
+      <Point GraphRef="d1717"/>
+      <Point GraphRef="b1c03" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c2e22"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9a51f501">
+    <Graphics>
+      <Point GraphRef="cb5c0"/>
+      <Point GraphRef="a43c2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida6eaea5">
+    <Graphics>
+      <Point GraphRef="beeab"/>
+      <Point GraphRef="dec65" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida8caf6b8">
+    <Graphics>
+      <Point GraphRef="dc97f"/>
+      <Point GraphRef="b1c03" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5125" Shape="None" GraphId="a43c2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbfa8d851">
+    <Graphics>
+      <Point GraphRef="d432f"/>
+      <Point GraphRef="c88ea" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc3806864">
+    <Graphics>
+      <Point GraphRef="eeca4"/>
+      <Point GraphRef="aa71a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd796abc5">
+    <Graphics>
+      <Point GraphRef="d432f"/>
+      <Point GraphRef="f10ea" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd7efd312">
+    <Graphics>
+      <Point GraphRef="cbbbb"/>
+      <Point GraphRef="d8aae" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idde7854b0">
+    <Comment>parent compounds, not a specific reaction</Comment>
+    <Graphics>
+      <Point GraphRef="a726b"/>
+      <Point GraphRef="b1c03" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.2904040404040404" Shape="None" GraphId="a4b5c"/>
+      <Anchor Position="0.7297979797979798" Shape="None" GraphId="aa71a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide80dec58">
+    <BiopaxRef>d9d</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e42f5"/>
+      <Point GraphRef="a0a96" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idea2eee8b">
+    <Graphics>
+      <Point GraphRef="ca1d2"/>
+      <Point GraphRef="c2e22" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b7698">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="b1fa0"/>
+      <Point GraphRef="e4e86" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b3990">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e4e86"/>
+      <Point GraphRef="a02e4" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d47ef">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="e04c6"/>
+      <Point GraphRef="a7429" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f2b53">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d66f3"/>
+      <Point GraphRef="b1674" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.22621690862510815" Shape="None" GraphId="a7429"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bc28f">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a02e4"/>
+      <Point GraphRef="a9eae" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.18950404720104153" Shape="None" GraphId="d8aae"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f75ea">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a9eae"/>
+      <Point GraphRef="a0d17" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a6dab">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="dc97f"/>
+      <Point GraphRef="c54a7" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fee68">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a9eae"/>
+      <Point GraphRef="eb6c9" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6527915619083534" Shape="None" GraphId="d1f8a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f8296">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="eb6c9"/>
+      <Point GraphRef="a4621" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c531a">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="eb6c9"/>
+      <Point GraphRef="dff25" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ad11d">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="a4621"/>
+      <Point GraphRef="ffd88" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ee502">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="d1f8a"/>
+      <Point GraphRef="c4f0c" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e7b0c">
+    <BiopaxRef>a77</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f6bda"/>
+      <Point GraphRef="d1f8a" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="fecc9">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ec3cc"/>
+      <Point GraphRef="db4e9" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="id82bc8b8d">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a9eae"/>
+      <Point GraphRef="dc97f"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b305c">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a7429"/>
+      <Point GraphRef="bfea6" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c62ac">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-conversion"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d1a77">
+    <Graphics LineStyle="Broken">
+      <Point/>
+      <Point ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dcfb0">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b48a9">
+    <Graphics>
+      <Point/>
+      <Point ArrowHead="mim-stimulation"/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="e909d">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d8aae"/>
+      <Point GraphRef="a5a39" ArrowHead="Arrow"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="SSADH" GraphId="db4e9" Href="https://omim.org/entry/271980">
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="GABAT" GraphId="bfea6" Href="https://omim.org/entry/613163">
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Disease" GraphId="bd98e">
+    <Graphics FillColor="ffcccc" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Catalysis" GraphId="f47db">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Pathway" GraphId="a8538">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" Color="009933"/>
+  </Label>
+  <Label TextLabel="Stimulation" GraphId="b5efd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Protein" GraphId="cb3d0">
+    <Graphics FillColor="ffffff" ShapeType="Rectangle"/>
+  </Label>
+  <Label TextLabel="Metabolite" GraphId="ef918">
+    <Graphics FillColor="ffffff" ShapeType="RoundedRectangle" Color="0000ff"/>
+  </Label>
+  <Label TextLabel="Conversion" GraphId="d0211">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Connection &#10;to disease&#10;" GraphId="da17d">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Legend" GraphId="d60a3">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="GABAT" GraphId="a5a39" Href="https://omim.org/entry/613163">
+    <Graphics FillColor="ffcccc" ShapeType="Oval" Color="0000ff"/>
+  </Label>
+  <Shape GraphId="a0e67">
+    <Graphics ShapeType="RoundedRectangle" LineStyle="Broken" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="ef53f" GraphId="a9d69" Style="Group"/>
+  <Group GroupId="b85c0" GraphId="beeab" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d1f">
+      <bp:ID >16435184</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Kinetic characterization of human hydroxyacid-oxoacid transhydrogenase: relevance to D-2-hydroxyglutaric and gamma-hydroxybutyric acidurias.</bp:TITLE>
+      <bp:SOURCE >J Inherit Metab Dis</bp:SOURCE>
+      <bp:YEAR >2005</bp:YEAR>
+      <bp:AUTHORS >Struys EA</bp:AUTHORS>
+      <bp:AUTHORS >Verhoeven NM</bp:AUTHORS>
+      <bp:AUTHORS >Ten Brink HJ</bp:AUTHORS>
+      <bp:AUTHORS >Wickenhagen WV</bp:AUTHORS>
+      <bp:AUTHORS >Gibson KM</bp:AUTHORS>
+      <bp:AUTHORS >Jakobs C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >xenobiotic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001229</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >neurotransmitter metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000407</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >succinic semialdehyde dehydrogenase deficiency</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:0060175</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a77">
+      <bp:ID >9783642403361</bp:ID>
+      <bp:DB >ISBN</bp:DB>
+      <bp:TITLE >Physician's Guide to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases</bp:TITLE>
+      <bp:SOURCE >Springer (ISBN-13: 9783642403361)</bp:SOURCE>
+      <bp:YEAR >2014</bp:YEAR>
+      <bp:AUTHORS >Nenad Blau</bp:AUTHORS>
+      <bp:AUTHORS >Carlo Dionisi Vici</bp:AUTHORS>
+      <bp:AUTHORS >K Michael Gibson</bp:AUTHORS>
+      <bp:AUTHORS >Marinus Duran</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d9d">
+      <bp:ID >16483879</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Metabolism of gamma-hydroxybutyrate to d-2-hydroxyglutarate in mammals: further evidence for d-2-hydroxyglutarate transhydrogenase.</bp:TITLE>
+      <bp:SOURCE >Metabolism</bp:SOURCE>
+      <bp:YEAR >2006</bp:YEAR>
+      <bp:AUTHORS >Struys EA</bp:AUTHORS>
+      <bp:AUTHORS >Verhoeven NM</bp:AUTHORS>
+      <bp:AUTHORS >Jansen EE</bp:AUTHORS>
+      <bp:AUTHORS >Ten Brink HJ</bp:AUTHORS>
+      <bp:AUTHORS >Gupta M</bp:AUTHORS>
+      <bp:AUTHORS >Burlingame TG</bp:AUTHORS>
+      <bp:AUTHORS >Quang LS</bp:AUTHORS>
+      <bp:AUTHORS >Maher T</bp:AUTHORS>
+      <bp:AUTHORS >Rinaldo P</bp:AUTHORS>
+      <bp:AUTHORS >Snead OC</bp:AUTHORS>
+      <bp:AUTHORS >Goodwin AK</bp:AUTHORS>
+      <bp:AUTHORS >Weerts EM</bp:AUTHORS>
+      <bp:AUTHORS >Brown PR</bp:AUTHORS>
+      <bp:AUTHORS >Murphy TC</bp:AUTHORS>
+      <bp:AUTHORS >Picklo MJ</bp:AUTHORS>
+      <bp:AUTHORS >Jakobs C</bp:AUTHORS>
+      <bp:AUTHORS >Gibson KM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >gamma-aminobutyric acid metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000412</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>

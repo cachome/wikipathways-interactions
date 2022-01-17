@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Mitochondrial gene expression" Last-Modified="10/17/2013" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Numerous nuclear-encoded genes co-ordinate the expression of genes encoded on the mitochondrial genome.</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
+  <BiopaxRef>e86</BiopaxRef>
+  <Graphics BoardWidth="746.0" BoardHeight="767.0"/>
+  <DataNode TextLabel="cGMP" GraphId="a0c4e" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TFAM" GraphId="a2d0e" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="HCFC1" GraphId="b0e34" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="TFB1M" GraphId="b36a6" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="cAMP" GraphId="b7e5a" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="TFB2M" GraphId="c48d7" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PPRC1" GraphId="c581d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MTERFD1" GraphId="c59e2" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MTERF" GraphId="cec67" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="GABPA" GraphId="d0aba" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="POLRMT" GraphId="db7ea" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="ESRRA" GraphId="de06d" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="NRF1" GraphId="e5c22" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="GABPB2" GraphId="ef8ff" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Ca2+" GraphId="f0707" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="SP1" GraphId="f4058" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PPARGC1A" GraphId="f60b1" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PPARGC1B" GraphId="f65cf" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="MYEF2" GraphId="f829f" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CAMK4" GraphId="f8866" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CREB1" GraphId="fb9fa" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PPP3CA" GraphId="fbffd" Type="Protein">
+    <Comment>Type your comment here</Comment>
+        </DataNode>
+  <DataNode TextLabel="PKA" GraphId="fc7a3" Type="Complex">
+        </DataNode>
+  <Interaction GraphId="a1fd8">
+    <Graphics>
+      <Point GraphRef="f60b1"/>
+      <Point GraphRef="ef8ff" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a3192">
+    <Graphics>
+      <Point GraphRef="a2d0e"/>
+      <Point GraphRef="db7ea"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b1d73">
+    <Graphics>
+      <Point GraphRef="f60b1"/>
+      <Point GraphRef="de06d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b8294">
+    <Graphics>
+      <Point GraphRef="fc7a3"/>
+      <Point GraphRef="fb9fa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b8c0f">
+    <Graphics>
+      <Point GraphRef="cec67"/>
+      <Point GraphRef="dc0c1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="bf33e">
+    <Graphics>
+      <Point GraphRef="f0707"/>
+      <Point GraphRef="fbffd" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c400c">
+    <Graphics>
+      <Point GraphRef="f829f"/>
+      <Point GraphRef="f60b1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c59a2">
+    <Graphics>
+      <Point GraphRef="fbffd"/>
+      <Point GraphRef="f60b1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c7dd4">
+    <Graphics>
+      <Point GraphRef="f0707"/>
+      <Point GraphRef="f8866" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c7fc7">
+    <Graphics>
+      <Point GraphRef="db7ea"/>
+      <Point GraphRef="e2436" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ca8c3">
+    <Graphics>
+      <Point GraphRef="f60b1"/>
+      <Point GraphRef="d0aba" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dc1dc">
+    <Graphics>
+      <Point GraphRef="f8866"/>
+      <Point GraphRef="fb9fa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e0924">
+    <Graphics>
+      <Point GraphRef="db7ea"/>
+      <Point GraphRef="b7dbb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e1491">
+    <Graphics>
+      <Point GraphRef="f65cf"/>
+      <Point GraphRef="e5c22" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e28a5">
+    <Graphics>
+      <Point GraphRef="f60b1"/>
+      <Point GraphRef="e5c22" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e36d7">
+    <Graphics>
+      <Point GraphRef="db7ea"/>
+      <Point GraphRef="eee9d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e76fa">
+    <Graphics>
+      <Point GraphRef="b7e5a"/>
+      <Point GraphRef="fc7a3" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e7762">
+    <Graphics>
+      <Point GraphRef="a2d0e"/>
+      <Point GraphRef="c48d7"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="edcfb">
+    <Graphics>
+      <Point GraphRef="b36a6"/>
+      <Point GraphRef="a2d0e"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3472">
+    <Graphics>
+      <Point GraphRef="fb9fa"/>
+      <Point GraphRef="f60b1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f4adc">
+    <Graphics>
+      <Point GraphRef="c581d"/>
+      <Point GraphRef="e5c22" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Shape GraphId="b7dbb">
+    <Graphics FillColor="3333ff" ShapeType="Rectangle" Color="9999ff"/>
+  </Shape>
+  <Shape GraphId="dc0c1">
+    <Graphics ShapeType="Oval" Color="3333ff"/>
+  </Shape>
+  <Shape GraphId="e2436">
+    <Graphics FillColor="3333ff" ShapeType="Rectangle" Color="9999ff"/>
+  </Shape>
+  <Shape GraphId="eee9d">
+    <Graphics FillColor="3333ff" ShapeType="Rectangle" Color="9999ff"/>
+  </Shape>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >mitochondrial transcription pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0001333</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e86">
+      <bp:ID >18391175</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Transcriptional paradigms in mammalian mitochondrial biogenesis and function.</bp:TITLE>
+      <bp:SOURCE >Physiol Rev</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Scarpulla RC</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

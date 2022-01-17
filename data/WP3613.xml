@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Photodynamic therapy-induced unfolded protein response" Version="20131009" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Photodynamic therapy may induce a proteotoxic stress response mediated by transcription factors heat shock factor 1 (HSF1), X-box binding protein 1 (XBP1), activating transcription factor (ATF) 6, and ATF4.
+
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3613 CPTAC Assay Portal]</Comment>
+  <BiopaxRef>a27</BiopaxRef>
+  <BiopaxRef>f28</BiopaxRef>
+  <Graphics BoardWidth="682.6207605344296" BoardHeight="722.2934079468749"/>
+  <DataNode TextLabel="UBE2E1" GraphId="a30d6" Type="GeneProduct" GroupRef="abdf6">
+        </DataNode>
+  <DataNode TextLabel="DNAJB9" GraphId="a89b3" Type="GeneProduct" GroupRef="abdf6">
+        </DataNode>
+  <DataNode TextLabel="XBP1" GraphId="f795e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PDIA6" GraphId="fa62f" Type="GeneProduct" GroupRef="abdf6">
+        </DataNode>
+  <DataNode TextLabel="EDEM1" GraphId="a00f4" Type="GeneProduct" GroupRef="abdf6">
+        </DataNode>
+  <DataNode TextLabel="XBP1" GraphId="de84a" Type="GeneProduct" GroupRef="abdf6">
+        </DataNode>
+  <DataNode TextLabel="NFE2L2" GraphId="b354c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ATF4" GraphId="b91d1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EIF2A" GraphId="ede18" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ATF6" GraphId="f0497" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="HSPA5" GraphId="f48e1" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ATF6" GraphId="b8be7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ERN1" GraphId="c32b0" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="EIF2AK3" GraphId="ee979" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="ATF6" GraphId="ec155" Type="GeneProduct" GroupRef="abdf6">
+        </DataNode>
+  <DataNode TextLabel="HSPA5" GraphId="be86d" Type="GeneProduct" GroupRef="abdf6">
+        </DataNode>
+  <DataNode TextLabel="XBP1" GraphId="f1aeb" Type="GeneProduct" GroupRef="db4de">
+        </DataNode>
+  <DataNode TextLabel="HSP90B1" GraphId="e7a38" Type="GeneProduct" GroupRef="db4de">
+        </DataNode>
+  <DataNode TextLabel="ERP27" GraphId="cb605" Type="GeneProduct" GroupRef="db4de">
+        </DataNode>
+  <DataNode TextLabel="CALR" GraphId="f4cd7" Type="GeneProduct" GroupRef="db4de">
+        </DataNode>
+  <DataNode TextLabel="DDIT3" GraphId="b7cca" Type="GeneProduct" GroupRef="db4de">
+        </DataNode>
+  <DataNode TextLabel="HSPA5" GraphId="f2a7d" Type="GeneProduct" GroupRef="db4de">
+        </DataNode>
+  <DataNode TextLabel="DNAJC3" GraphId="d34b1" Type="GeneProduct" GroupRef="de26e">
+        </DataNode>
+  <DataNode TextLabel="DNAJB9" GraphId="a5803" Type="GeneProduct" GroupRef="de26e">
+        </DataNode>
+  <DataNode TextLabel="ASNS" GraphId="e9ea8" Type="GeneProduct" GroupRef="de26e">
+        </DataNode>
+  <DataNode TextLabel="DNAJB11" GraphId="c15e5" Type="GeneProduct" GroupRef="de26e">
+        </DataNode>
+  <DataNode TextLabel="SULT1E1" GraphId="a6125" Type="GeneProduct" GroupRef="de26e">
+        </DataNode>
+  <DataNode TextLabel="NARS" GraphId="f4405" Type="GeneProduct" GroupRef="de26e">
+        </DataNode>
+  <DataNode TextLabel="ATF3" GraphId="ebff3" Type="GeneProduct" GroupRef="de26e">
+        </DataNode>
+  <DataNode TextLabel="DDIT3" GraphId="fcaed" Type="GeneProduct" GroupRef="de26e">
+        </DataNode>
+  <DataNode TextLabel="BBC3" GraphId="e0e13" Type="GeneProduct" GroupRef="de26e">
+        </DataNode>
+  <DataNode TextLabel="PPP1R15A" GraphId="a8542" Type="GeneProduct" GroupRef="de26e">
+        </DataNode>
+  <DataNode TextLabel="BCL2L11" GraphId="ecc75" Type="GeneProduct" GroupRef="de26e">
+        </DataNode>
+  <DataNode TextLabel="TRIB3" GraphId="bbbe6" Type="GeneProduct" GroupRef="de26e">
+        </DataNode>
+  <DataNode TextLabel="WARS" GraphId="ff584" Type="GeneProduct" GroupRef="de26e">
+        </DataNode>
+  <Interaction GraphId="id91a65207">
+    <Graphics>
+      <Point GraphRef="ee979"/>
+      <Point GraphRef="ede18" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id82592eeb">
+    <Graphics>
+      <Point GraphRef="ede18"/>
+      <Point GraphRef="b91d1" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b0735">
+    <Graphics>
+      <Point GraphRef="f0497"/>
+      <Point GraphRef="a5d69" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cb6af">
+    <Graphics>
+      <Point GraphRef="b8be7"/>
+      <Point GraphRef="f0497" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="db6b5">
+    <Graphics>
+      <Point GraphRef="b91d1"/>
+      <Point GraphRef="e709d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fd4e5">
+    <Graphics>
+      <Point GraphRef="ee979"/>
+      <Point GraphRef="b354c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c2158">
+    <Graphics>
+      <Point GraphRef="f795e"/>
+      <Point GraphRef="b0ac9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="afc7f">
+    <Graphics>
+      <Point GraphRef="c32b0"/>
+      <Point GraphRef="f795e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Gene &#10;transcription" GraphId="a8824">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Proteotoxic stress" GraphId="a2591">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="ER" GraphId="d676b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="a73ad">
+    <Graphics FillColor="ccffff" ShapeType="RoundedRectangle" Color="009999"/>
+  </Shape>
+  <Shape GraphId="d9da8">
+    <Graphics FillColor="ccffff" ShapeType="Oval" Color="009999"/>
+  </Shape>
+  <Shape GraphId="cc8e9">
+    <Graphics ShapeType="RoundedRectangle" Color="006666"/>
+  </Shape>
+  <Group GroupId="de26e" GraphId="e709d" Style="Group"/>
+  <Group GroupId="abdf6" GraphId="b0ac9" Style="Group"/>
+  <Group GroupId="db4de" GraphId="a5d69" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a27">
+      <bp:ID >26705830</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Low-power photodynamic therapy induces survival signaling in perihilar cholangiocarcinoma cells.</bp:TITLE>
+      <bp:SOURCE >BMC Cancer</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Weijer R</bp:AUTHORS>
+      <bp:AUTHORS >Broekgaarden M</bp:AUTHORS>
+      <bp:AUTHORS >van Golen RF</bp:AUTHORS>
+      <bp:AUTHORS >Bulle E</bp:AUTHORS>
+      <bp:AUTHORS >Nieuwenhuis E</bp:AUTHORS>
+      <bp:AUTHORS >Jongejan A</bp:AUTHORS>
+      <bp:AUTHORS >Moerland PD</bp:AUTHORS>
+      <bp:AUTHORS >van Kampen AH</bp:AUTHORS>
+      <bp:AUTHORS >van Gulik TM</bp:AUTHORS>
+      <bp:AUTHORS >Heger M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >altered regulatory pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000263</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:162</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f28">
+      <bp:ID >26516076</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Tumor cell survival pathways activated by photodynamic therapy: a molecular basis for pharmacological inhibition strategies.</bp:TITLE>
+      <bp:SOURCE >Cancer Metastasis Rev</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Broekgaarden M</bp:AUTHORS>
+      <bp:AUTHORS >Weijer R</bp:AUTHORS>
+      <bp:AUTHORS >van Gulik TM</bp:AUTHORS>
+      <bp:AUTHORS >Hamblin MR</bp:AUTHORS>
+      <bp:AUTHORS >Heger M</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

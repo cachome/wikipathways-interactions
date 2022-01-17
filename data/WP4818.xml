@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Conversion of angiotensinogen to angiotensin II " Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway depicts the conversion of Angiotensinogen to Angiotensin II by enzymes of the Renin-Angiotensin-System (RAS) and Nonrenin-Angiotensin-System (NRAS). 
+The NRAS pathway includes both direct and indirect conversion. </Comment>
+  <BiopaxRef>a41</BiopaxRef>
+  <Graphics BoardWidth="548.8343895408266" BoardHeight="381.0840083496343"/>
+  <DataNode TextLabel="CMA1" GraphId="f10d3" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Angiotensinogen" GraphId="feba2" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CTSG" GraphId="ba517" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="ACE" GraphId="f65c7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="human angiotensin II" GraphId="bb607" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="CTSG" GraphId="de835" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CTSD&#10;" GraphId="f1858" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Angiotensin I" GraphId="f7067" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="REN" GraphId="bcc22" Type="Protein">
+        </DataNode>
+  <Interaction GraphId="d8a09">
+    <Graphics>
+      <Point GraphRef="f10d3"/>
+      <Point GraphRef="d9dc6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d3d99">
+    <Graphics>
+      <Point GraphRef="de835"/>
+      <Point GraphRef="e8ac6" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="deb83">
+    <Graphics>
+      <Point GraphRef="ba517"/>
+      <Point GraphRef="efc75" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c316c">
+    <Graphics ConnectorType="Segmented">
+      <Point GraphRef="feba2"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="bb607" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.5017162759581909" Shape="None" GraphId="e8ac6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ed3a4">
+    <Graphics>
+      <Point GraphRef="f65c7"/>
+      <Point GraphRef="efc75" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="aa4d2">
+    <Graphics>
+      <Point GraphRef="f1858"/>
+      <Point GraphRef="dc657" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d5c9b">
+    <Graphics>
+      <Point GraphRef="bcc22"/>
+      <Point GraphRef="dc657" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="fa188">
+    <Graphics>
+      <Point GraphRef="f7067"/>
+      <Point GraphRef="bb607" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.31688491429788346" Shape="None" GraphId="efc75"/>
+      <Anchor Position="0.7129245182582832" Shape="None" GraphId="d9dc6"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dd617">
+    <Graphics>
+      <Point GraphRef="feba2"/>
+      <Point GraphRef="f7067" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="dc657"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="NRAS pathway&#10;" GraphId="ea8a4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="RAS pathway" GraphId="df41c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="f93a3">
+    <Graphics ShapeType="RoundedRectangle"/>
+  </Shape>
+  <Shape GraphId="f6777">
+    <Graphics ShapeType="RoundedRectangle"/>
+  </Shape>
+  <InfoBox/>
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >classic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000002</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a41">
+      <bp:ID >9814470</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Human adipose tissue expresses angiotensinogen and enzymes required for its conversion to angiotensin II.</bp:TITLE>
+      <bp:SOURCE >J Clin Endocrinol Metab</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Karlsson C</bp:AUTHORS>
+      <bp:AUTHORS >Lindell K</bp:AUTHORS>
+      <bp:AUTHORS >Ottosson M</bp:AUTHORS>
+      <bp:AUTHORS >Sj&#246;str&#246;m L</bp:AUTHORS>
+      <bp:AUTHORS >Carlsson B</bp:AUTHORS>
+      <bp:AUTHORS >Carlsson LM</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>angiotensin II signaling pathway</bp:TERM><bp:ID>PW:0000244</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

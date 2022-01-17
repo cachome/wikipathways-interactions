@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="PDGF pathway" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">PDGF belongs to the PDGF/VEGF (vascular endothelial growth factor) family, which is characterized by eight strictly conserved cysteine residues with similar spacing in between (Joukov et al., 1997; Heldin and Westermark, 1999). The A-, B-, C-, and D-chain genes of PDGF are localized to the chromosomes 7p22, 22q13, 4q31, and 11q22, respectively, and their expression is independently regulated. Two forms of the PDGF A-chain, containing 196 and 211 amino acid residues resulting from differential splicing of the transcript, are synthesized, dimerized, proteolytically processed in the Nterminus, and secreted from the cell as a ~30 kDa dimer. The PDGF B chain encoding 241 amino acid residues is dimerized, processed by additional proteolysis, and secreted as a 24 kDa dimer. The homodimers PDGF AA, BB, and the heterodimer AB contain three intrachain disulfide bonds made between the 1st.
+
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2526 CPTAC Assay Portal]</Comment>
+  <Graphics BoardWidth="1625.4106059895714" BoardHeight="1171.943549882923"/>
+  <DataNode TextLabel="GRB2" GraphId="a29c7" Type="Protein" GroupRef="ec31a">
+        </DataNode>
+  <DataNode TextLabel="STAT1" GraphId="a8240" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="ac0a0" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="NFkB" GraphId="b713e" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="AP-1&#10;(c-Jun)" GraphId="b7458" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RASA1(GAP)" GraphId="b8841" Type="GeneProduct" GroupRef="b4360">
+        </DataNode>
+  <DataNode TextLabel="SH-PTP2&#10;(PTN11)" GraphId="c148a" Type="GeneProduct" GroupRef="d7d95">
+        </DataNode>
+  <DataNode TextLabel="SOS1" GraphId="c188e" Type="Protein" GroupRef="ec31a">
+        </DataNode>
+  <DataNode TextLabel="RAF1" GraphId="c7713" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PDGFRB" GraphId="cf58b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAPK8&#10;(JNK1)" GraphId="d1d14" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SHC1" GraphId="d4168" Type="Protein" GroupRef="ec31a">
+        </DataNode>
+  <DataNode TextLabel="MAPK3" GraphId="d4fa5" Type="GeneProduct" GroupRef="ce852">
+        </DataNode>
+  <DataNode TextLabel="MAP2K4&#10;(JNKK1)" GraphId="d7869" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PLCG1" GraphId="d82bc" Type="GeneProduct" GroupRef="cea31">
+        </DataNode>
+  <DataNode TextLabel="P&#10;D&#10;G&#10;F&#10;A" GraphId="d941a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MAPK1" GraphId="dded5" Type="GeneProduct" GroupRef="ce852">
+        </DataNode>
+  <DataNode TextLabel="MAP3K1&#10;(MEKK1)" GraphId="e7616" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="PDGFB" GraphId="e93e3" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MP2K1&#10;(MEK 1)" GraphId="e97a4" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="H-Ras-1&#10;(Ras)" GraphId="f1bc5" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="P&#10;D&#10;G&#10;F&#10;A" GraphId="eea7a" Type="GeneProduct">
+    <BiopaxRef>c89</BiopaxRef>
+    <BiopaxRef>b3a</BiopaxRef>
+    <BiopaxRef>b2c</BiopaxRef>
+    <BiopaxRef>a00</BiopaxRef>
+    <BiopaxRef>f4a</BiopaxRef>
+    <BiopaxRef>b74</BiopaxRef>
+    <BiopaxRef>dd5</BiopaxRef>
+    <BiopaxRef>c65</BiopaxRef>
+    <BiopaxRef>dc2</BiopaxRef>
+    <BiopaxRef>d53</BiopaxRef>
+        </DataNode>
+  <DataNode TextLabel="NFkB" GraphId="cddfa" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="STAT1" GraphId="ceee5" Type="Protein" GroupRef="d5783">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="efacb" Type="Protein" GroupRef="d87e6">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="d2628" Type="Protein" GroupRef="fb8d4">
+        </DataNode>
+  <DataNode TextLabel="STAT1" GraphId="dafd5" Type="Protein" GroupRef="fb8d4">
+        </DataNode>
+  <DataNode TextLabel="STAT3" GraphId="bd14b" Type="Protein" GroupRef="a2628">
+        </DataNode>
+  <DataNode TextLabel="STAT1" GraphId="fdd3f" Type="Protein" GroupRef="a2628">
+        </DataNode>
+  <DataNode TextLabel="JAK1" GraphId="b8298" Type="Protein" GroupRef="b25c2">
+        </DataNode>
+  <DataNode TextLabel="Cyclic AMP&#10;(cAMP)" GraphId="cbdf4" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="DAG" GraphId="ce636" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Prostaglandin I2&#10;(PGI2)" GraphId="f9d60" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="IP3" GraphId="e0061" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="COX2" GraphId="dc420" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PIP2[4',5']" GraphId="d1003" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Ca2+" GraphId="e2e76" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Phospholipid&#10;(containing arachidonic acid)" GraphId="bf4f4" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PLA2G4A&#10;(cPLA2)" GraphId="aa8c7" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="Cell proliferation" GraphId="f9a51" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="&#10;Ca&#10;&#10;c&#10;h&#10;a&#10;n&#10;n&#10;e&#10;l" GraphId="f3727" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="[Ca2+]i" GraphId="d597f" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Arachidonic acid" GraphId="f08b4" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="ELK1" GraphId="fb4f9" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="c-Fos" GraphId="e8d70" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SRF" GraphId="be021" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="&#10;Na+/H+&#10;&#10;e&#10;x&#10;c&#10;h&#10;a&#10;n&#10;g&#10;e&#10;r" GraphId="ea16a" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="H+" GraphId="cfe4c" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="Na" GraphId="a262d" Type="Metabolite">
+    <Graphics Color="0000ff"/>
+    </DataNode>
+  <DataNode TextLabel="PI3K" GraphId="e8254" Type="Protein" GroupRef="b39f9">
+        </DataNode>
+  <DataNode TextLabel="c-Src" GraphId="fde06" Type="Protein" GroupRef="ff7b7">
+        </DataNode>
+  <DataNode TextLabel="TIAM1" GraphId="e6678" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Vav2" GraphId="c3b8a" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Rac1" GraphId="e47a3" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="RhoA" GraphId="c4916" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Por1&#10;(ARF1P2)" GraphId="c2a32" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="PAK1" GraphId="cc6b7" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Vav1" GraphId="bbddf" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="CDC42" GraphId="ea6d3" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="N-WASP" GraphId="d543a" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Filopodia&#10;Formation" GraphId="b4da8" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Actin,&#10;Stress Fibers&#10;and Adhesion" GraphId="a7a2c" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Lamellipodia&#10;Formation" GraphId="f1a94" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="Cell Migration" GraphId="e7cfb" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="IKK" GraphId="b3e91" Type="Protein">
+        </DataNode>
+  <DataNode TextLabel="Akt&#10;Pathway" GraphId="c3d80" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="IkB alpha" GraphId="a8ae5" Type="GeneProduct" GroupRef="bbb3c">
+        </DataNode>
+  <DataNode TextLabel="Degradation" GraphId="f9b1a" Type="Pathway">
+    <Graphics ShapeType="None" Color="14961e"/>
+    </DataNode>
+  <Interaction GraphId="id5e3d61b9">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="f51ed"/>
+      <Point/>
+      <Point GraphRef="f1bc5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id61a4459e">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="efacb"/>
+      <Point GraphRef="cfdb4" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7141f9b9">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="d1d14"/>
+      <Point/>
+      <Point GraphRef="b7458" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id78056d74">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e7616"/>
+      <Point/>
+      <Point GraphRef="d7869" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id7d2d8850">
+    <Graphics>
+      <Point GraphRef="d7869"/>
+      <Point GraphRef="d1d14" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id82d98619">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="ceee5"/>
+      <Point/>
+      <Point GraphRef="cfdb4" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id89a9901c">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e97a4"/>
+      <Point/>
+      <Point GraphRef="e7616" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id958daf74">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b713e"/>
+      <Point/>
+      <Point GraphRef="cddfa" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id96a554a1">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="c7713"/>
+      <Point GraphRef="e97a4" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida5e58244">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e8254"/>
+      <Point/>
+      <Point GraphRef="ea16a" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb28e0cda">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f1bc5"/>
+      <Point/>
+      <Point GraphRef="c7713" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb79e12c6">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e8254"/>
+      <Point/>
+      <Point GraphRef="c3d80" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcdaa57e2">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="ac0a0"/>
+      <Point/>
+      <Point GraphRef="efacb" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd3303bc">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e8254"/>
+      <Point/>
+      <Point GraphRef="bbddf" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd7318159">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="cfdb4"/>
+      <Point/>
+      <Point GraphRef="ab944" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idda5d24a0">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="a8240"/>
+      <Point/>
+      <Point GraphRef="ceee5" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idfcbc5ad9">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="a8ae5"/>
+      <Point GraphRef="f9b1a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2624d99f">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b8841"/>
+      <Point/>
+      <Point GraphRef="f1bc5" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d2cea">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="d597f"/>
+      <Point GraphRef="aa8c7" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ee837">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d597f"/>
+      <Point/>
+      <Point/>
+      <Point GraphRef="f9a51" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="eb933">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="f08b4"/>
+      <Point/>
+      <Point GraphRef="dc420" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cc256">
+    <Graphics>
+      <Point GraphRef="f9d60"/>
+      <Point GraphRef="cbdf4" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ce440">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="d1003"/>
+      <Point/>
+      <Point GraphRef="ce636" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="faae2">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="f3727"/>
+      <Point GraphRef="d597f" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f4556">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e0061"/>
+      <Point GraphRef="d597f" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b5d02">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="bf4f4"/>
+      <Point/>
+      <Point GraphRef="f08b4" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cc58d">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="d1003"/>
+      <Point GraphRef="e0061" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a5c13">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="dc420"/>
+      <Point GraphRef="f9d60" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d1edc">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="cbdf4"/>
+      <Point/>
+      <Point GraphRef="b3ab5" ArrowHead="mim-inhibition"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="dc112">
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d82bc"/>
+      <Point GraphRef="d1003" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e8287">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b1aaf"/>
+      <Point GraphRef="fb4f9" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c4214">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e97a4"/>
+      <Point GraphRef="b1aaf" ArrowHead="mim-stimulation"/>
+      <Anchor Position="0.8314805492937621" Shape="None" GraphId="b3ab5"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f9d18">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="adc3f"/>
+      <Point GraphRef="cfe4c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d8675">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="fe342"/>
+      <Point GraphRef="a262d" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c1424">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="fde06"/>
+      <Point/>
+      <Point GraphRef="e6678" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d7f2a">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c3b8a"/>
+      <Point/>
+      <Point GraphRef="e47a3" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="df825">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="cc6b7"/>
+      <Point/>
+      <Point GraphRef="f1a94" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ddfe1">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e47a3"/>
+      <Point/>
+      <Point GraphRef="cc6b7" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="acf9d">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e6678"/>
+      <Point/>
+      <Point GraphRef="e47a3" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="db78d">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="d543a"/>
+      <Point GraphRef="b4da8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b6b78">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="bbddf"/>
+      <Point/>
+      <Point GraphRef="ea6d3" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d66d5">
+    <Graphics>
+      <Point GraphRef="f1a94"/>
+      <Point GraphRef="e7cfb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a5e72">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e8254"/>
+      <Point GraphRef="e47a3" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ce697">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e47a3"/>
+      <Point GraphRef="c2a32" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ac7bb">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c2a32"/>
+      <Point/>
+      <Point GraphRef="f1a94" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e40d1">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="ea6d3"/>
+      <Point/>
+      <Point GraphRef="d543a" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d84e3">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e8254"/>
+      <Point/>
+      <Point GraphRef="c4916" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c9641">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c4916"/>
+      <Point/>
+      <Point GraphRef="a7a2c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f4dbc">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="a7a2c"/>
+      <Point GraphRef="e7cfb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="c47b9">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b4da8"/>
+      <Point GraphRef="e7cfb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b7ba5">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="fde06"/>
+      <Point/>
+      <Point GraphRef="c3b8a" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b887e">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="c3d80"/>
+      <Point/>
+      <Point GraphRef="b3e91" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f3002">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="b3e91"/>
+      <Point/>
+      <Point GraphRef="b713e" ArrowHead="mim-stimulation"/>
+    </Graphics>
+    </Interaction>
+  <GraphicalLine GraphId="id7ed18420">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="iddf5752a4">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b6a25" GroupRef="a47cb">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="dd07b" GroupRef="a47cb">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ca3b5" GroupRef="a47cb">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="b56aa">
+    <Graphics>
+      <Point/>
+      <Point/>
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="d5a56">
+    <Graphics ConnectorType="Curved">
+      <Point GraphRef="e2e76"/>
+      <Point GraphRef="f3727"/>
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="ERK1/2&#10;(MAPK3/MAPK1)" GraphId="a9894" GroupRef="ce852">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="b8938" GroupRef="b4360">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="c857c" GroupRef="d87e6">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="b63b9" GroupRef="d5783">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="f8683" GroupRef="fb8d4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="a037f" GroupRef="fb8d4">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="e6a99" GroupRef="a2628">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="d27a1" GroupRef="a2628">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="fb039" GroupRef="cea31">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="d9f5e" GroupRef="b25c2">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="dc086" GroupRef="d7d95">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="c7d5a" GroupRef="b39f9">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="f8fe6" GroupRef="ff7b7">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="P" GraphId="e158c" GroupRef="bbb3c">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape GraphId="adc3f">
+    <Graphics ShapeType="mim-degradation"/>
+  </Shape>
+  <Shape GraphId="b32b4">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="c5052">
+    <Graphics ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="e6ddf" GroupRef="b4360">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="fe342">
+    <Graphics ShapeType="mim-degradation"/>
+  </Shape>
+  <Shape GraphId="f25b4">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="a4fa1" GroupRef="a47cb">
+    <Graphics ShapeType="Rectangle"/>
+  </Shape>
+  <Shape GraphId="ed826" GroupRef="d87e6">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="c83e7" GroupRef="d5783">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="cce6c" GroupRef="fb8d4">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e078a" GroupRef="fb8d4">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="dab1d" GroupRef="a2628">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="a72f1" GroupRef="a2628">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="de669" GroupRef="cea31">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="ae284" GroupRef="b25c2">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="f0757" GroupRef="d7d95">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e25c2" GroupRef="b39f9">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="e2256" GroupRef="ff7b7">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Shape GraphId="d2468" GroupRef="bbb3c">
+    <Graphics ShapeType="Oval"/>
+  </Shape>
+  <Group GroupId="a47cb" GraphId="a3482" Style="Group"/>
+  <Group GroupId="ee2b9" GraphId="a4e59" Style="Group"/>
+  <Group GroupId="a2628" GraphId="ab944" Style="Complex"/>
+  <Group GroupId="f1d22" GraphId="ac9a4" Style="Group"/>
+  <Group GroupId="d5783" GraphId="afec9" Style="Group"/>
+  <Group GroupId="ce852" GraphId="b1aaf"/>
+  <Group GroupId="bbb3c" GraphId="b63ec" Style="Group"/>
+  <Group GroupId="ac6c5" GraphId="b9b84" Style="Group"/>
+  <Group GroupId="e6db0" GraphId="b9d3b" Style="Group"/>
+  <Group GroupId="ff7b7" GraphId="c38a8" Style="Group"/>
+  <Group GroupId="b85a6" GraphId="ce79c" Style="Group"/>
+  <Group GroupId="fb8d4" GraphId="cfdb4" Style="Complex"/>
+  <Group GroupId="a2be2" GraphId="d011c" Style="Group"/>
+  <Group GroupId="a9d5a" GraphId="e58a9" Style="Group"/>
+  <Group GroupId="e88e8" GraphId="eaf94" Style="Group"/>
+  <Group GroupId="b4360" GraphId="ec959" Style="Group"/>
+  <Group GroupId="d7d95" GraphId="ecb91" Style="Group"/>
+  <Group GroupId="cea31" GraphId="ef1dd" Style="Group"/>
+  <Group GroupId="ec31a" GraphId="f51ed" Style="Complex"/>
+  <Group GroupId="db648" GraphId="f7ff6" Style="Group"/>
+  <Group GroupId="d87e6" GraphId="f8375" Style="Group"/>
+  <Group GroupId="dbaa7" GraphId="f8964" Style="Complex"/>
+  <Group GroupId="b25c2" GraphId="f9ad3" Style="Group"/>
+  <Group GroupId="b39f9" GraphId="ff35f" Style="Group"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c65">
+      <bp:ID >21769672</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >PDGF: the nuts and bolts of signalling toolbox.</bp:TITLE>
+      <bp:SOURCE >Tumour Biol</bp:SOURCE>
+      <bp:YEAR >2011</bp:YEAR>
+      <bp:AUTHORS >Farooqi AA</bp:AUTHORS>
+      <bp:AUTHORS >Waseem S</bp:AUTHORS>
+      <bp:AUTHORS >Riaz AM</bp:AUTHORS>
+      <bp:AUTHORS >Dilawar BA</bp:AUTHORS>
+      <bp:AUTHORS >Mukhtar S</bp:AUTHORS>
+      <bp:AUTHORS >Minhaj S</bp:AUTHORS>
+      <bp:AUTHORS >Waseem MS</bp:AUTHORS>
+      <bp:AUTHORS >Daniel S</bp:AUTHORS>
+      <bp:AUTHORS >Malik BA</bp:AUTHORS>
+      <bp:AUTHORS >Nawaz A</bp:AUTHORS>
+      <bp:AUTHORS >Bhatti S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c89">
+      <bp:ID >2841963</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Structural and functional aspects of platelet-derived growth factor.</bp:TITLE>
+      <bp:SOURCE >Br J Cancer</bp:SOURCE>
+      <bp:YEAR >1988</bp:YEAR>
+      <bp:AUTHORS >Heldin CH</bp:AUTHORS>
+      <bp:AUTHORS >Hammacher A</bp:AUTHORS>
+      <bp:AUTHORS >Nist&#1571;&#169;r M</bp:AUTHORS>
+      <bp:AUTHORS >Westermark B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Jak-Stat signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000209</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d53">
+      <bp:ID >18483217</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Role of platelet-derived growth factors in physiology and medicine.</bp:TITLE>
+      <bp:SOURCE >Genes Dev</bp:SOURCE>
+      <bp:YEAR >2008</bp:YEAR>
+      <bp:AUTHORS >Andrae J</bp:AUTHORS>
+      <bp:AUTHORS >Gallini R</bp:AUTHORS>
+      <bp:AUTHORS >Betsholtz C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3a">
+      <bp:ID >2546599</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Structure and function of platelet-derived growth factor (PDGF) and related proteins.</bp:TITLE>
+      <bp:SOURCE >Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR >1989</bp:YEAR>
+      <bp:AUTHORS >Hannink M</bp:AUTHORS>
+      <bp:AUTHORS >Donoghue DJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dd5">
+      <bp:ID >22512244</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Autocrine PDGF stimulation in malignancies.</bp:TITLE>
+      <bp:SOURCE >Ups J Med Sci</bp:SOURCE>
+      <bp:YEAR >2012</bp:YEAR>
+      <bp:AUTHORS >Heldin CH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a00">
+      <bp:ID >2545232</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Platelet-derived growth factor. Three isoforms that bind to two distinct cell surface receptors.</bp:TITLE>
+      <bp:SOURCE >Acta Oncol</bp:SOURCE>
+      <bp:YEAR >1989</bp:YEAR>
+      <bp:AUTHORS >Claesson-Welsh L</bp:AUTHORS>
+      <bp:AUTHORS >Heldin CH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f4a">
+      <bp:ID >1755382</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >PDGF and the small inducible gene (SIG) family: roles in the inflammatory response.</bp:TITLE>
+      <bp:SOURCE >Adv Exp Med Biol</bp:SOURCE>
+      <bp:YEAR >1991</bp:YEAR>
+      <bp:AUTHORS >Kawahara RS</bp:AUTHORS>
+      <bp:AUTHORS >Deng ZW</bp:AUTHORS>
+      <bp:AUTHORS >Deuel TF</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >DOID:162</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b74">
+      <bp:ID >1661577</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >PDGF: a multifunctional growth factor.</bp:TITLE>
+      <bp:SOURCE >Baillieres Clin Endocrinol Metab</bp:SOURCE>
+      <bp:YEAR >1991</bp:YEAR>
+      <bp:AUTHORS >Antoniades HN</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc2">
+      <bp:ID >20657170</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >PDGF function in diverse neural crest cell populations.</bp:TITLE>
+      <bp:SOURCE >Cell Adh Migr</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Smith CL</bp:AUTHORS>
+      <bp:AUTHORS >Tallquist MD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >platelet-derived growth factor signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000297</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b2c">
+      <bp:ID >2557116</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Platelet-derived growth factors: a family of isoforms that bind to two distinct receptors.</bp:TITLE>
+      <bp:SOURCE >Br Med Bull</bp:SOURCE>
+      <bp:YEAR >1989</bp:YEAR>
+      <bp:AUTHORS >Heldin CH</bp:AUTHORS>
+      <bp:AUTHORS >Westermark B</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

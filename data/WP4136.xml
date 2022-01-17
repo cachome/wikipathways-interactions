@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Fibrin complement receptor 3 signaling pathway" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The blood protein fibrinogen, a key component of the coagulation cascade, has been identified as an early molecular factor triggering inflammation in the brain and periphery (see bibliography). Upon fibrinogen extravasation across leaky vessels (i.e., break down of the blood-brain barrier), fibrinogen is converted by thrombin to insoluble fibrin. Based on published studies, this signaling pathway highlights fibrin as a CD11b/CD18 (complement receptor; CR3) integrin receptor ligand that regulates innate immunity. Fibrin activates central nervous system (CNS) resident microglia and peripheral (bone marrow-derived) macrophages via CR3, leading to intracellular kinase signaling activation including PI3K, AKT1, and RhoA activity that regulates phagocytosis; and NF-&#954;B translocation to the nucleus that transcriptionally regulates proinflammatory cytokines and chemokines that recruit T-cells and macrophages. Canonical LPS-TLR4 activation of innate immune cells and potential mechanisms of CD11b transactivation are shown.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP4136 CPTAC Assay Portal]</Comment>
+  <Graphics BoardWidth="1388.240462272995" BoardHeight="1198.0876979293546"/>
+  <DataNode TextLabel="AKT1" GraphId="a6979" Type="GeneProduct" GroupRef="f5f2e">
+        </DataNode>
+  <DataNode TextLabel="IL6" GraphId="a816e" Type="GeneProduct" GroupRef="ae9b3">
+        </DataNode>
+  <DataNode TextLabel="IKBKB" GraphId="a9980" Type="GeneProduct" GroupRef="e5ac3">
+        </DataNode>
+  <DataNode TextLabel="PI3K" GraphId="b22ec" Type="GeneProduct" GroupRef="c3bf4">
+        </DataNode>
+  <DataNode TextLabel="Plasminogen" GraphId="b6173" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="SYK" GraphId="bdbb3" Type="GeneProduct" GroupRef="c9ce7">
+        </DataNode>
+  <DataNode TextLabel="LPS" GraphId="bf7e2" Type="Metabolite">
+    <Graphics Color="0033ff"/>
+    </DataNode>
+  <DataNode TextLabel="TLR3" GraphId="cdbdb" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CBL-B" GraphId="cf867" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MYD88" GraphId="d3bc8" Type="GeneProduct" GroupRef="f9a9d">
+        </DataNode>
+  <DataNode TextLabel="IFNB1" GraphId="d8f77" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="RHOA" GraphId="e154b" Type="GeneProduct" GroupRef="f5f2e">
+        </DataNode>
+  <DataNode TextLabel="Blood Clotting &#10;Cascade" GraphId="e4b80" Type="Pathway">
+    <Graphics ShapeType="RoundedRectangle" Color="14961e"/>
+    </DataNode>
+  <DataNode TextLabel="IRAK1" GraphId="e4ffd" Type="GeneProduct" GroupRef="eeb35">
+        </DataNode>
+  <DataNode TextLabel="tPA" GraphId="ea955" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CXCL10" GraphId="ecfb1" Type="GeneProduct" GroupRef="a1bde">
+        </DataNode>
+  <DataNode TextLabel="RAPL" GraphId="f137a" Type="GeneProduct" GroupRef="c3bf4">
+        </DataNode>
+  <DataNode TextLabel="Fibrin" GraphId="f2db0" Type="Metabolite">
+    <Graphics Color="0033ff"/>
+    </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="f4044" Type="GeneProduct" GroupRef="f20b5">
+        </DataNode>
+  <DataNode TextLabel="TIRAP" GraphId="f5c83" Type="GeneProduct" GroupRef="f9a9d">
+        </DataNode>
+  <DataNode TextLabel="TRAF6" GraphId="f6deb" Type="GeneProduct" GroupRef="eeb35">
+        </DataNode>
+  <DataNode TextLabel="TRIF" GraphId="f7daf" Type="GeneProduct" GroupRef="f9a9d">
+        </DataNode>
+  <DataNode TextLabel="CD14" GraphId="f9b0b" Type="GeneProduct" GroupRef="f9a9d">
+        </DataNode>
+  <DataNode TextLabel="DAP12" GraphId="fc12e" Type="GeneProduct" GroupRef="c9ce7">
+        </DataNode>
+  <DataNode TextLabel="FcRg" GraphId="ff53b" Type="GeneProduct" GroupRef="c9ce7">
+        </DataNode>
+  <DataNode TextLabel="CXCL3" GraphId="ffec4" Type="GeneProduct" GroupRef="a1bde">
+        </DataNode>
+  <DataNode TextLabel="Plasmin" GraphId="cca0b" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IRAK4" GraphId="a190b" Type="GeneProduct" GroupRef="eeb35">
+        </DataNode>
+  <DataNode TextLabel="MD2" GraphId="c6f47" Type="GeneProduct" GroupRef="f9a9d">
+        </DataNode>
+  <DataNode TextLabel="LBP" GraphId="ba1a4" Type="GeneProduct" GroupRef="f9a9d">
+        </DataNode>
+  <DataNode TextLabel="TLR4" GraphId="a6675" Type="GeneProduct" GroupRef="f9a9d">
+        </DataNode>
+  <DataNode TextLabel="SRC" GraphId="a862f" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TRAF" GraphId="f600c" Type="GeneProduct" GroupRef="f9a9d">
+        </DataNode>
+  <DataNode TextLabel="IRF3" GraphId="ba11a" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CD11b" GraphId="cf3e1" Type="GeneProduct" GroupRef="c825d">
+        </DataNode>
+  <DataNode TextLabel="CD18" GraphId="bf216" Type="GeneProduct" GroupRef="c825d">
+        </DataNode>
+  <DataNode TextLabel="TRIF" GraphId="ffeab" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="MYD88" GraphId="bbded" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="TNF" GraphId="cd744" Type="GeneProduct" GroupRef="ae9b3">
+        </DataNode>
+  <DataNode TextLabel="SYK" GraphId="fef16" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IRF3" GraphId="d4e2c" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="CCL2" GraphId="e1110" Type="GeneProduct" GroupRef="a1bde">
+        </DataNode>
+  <DataNode TextLabel="CHUK" GraphId="b2c86" Type="GeneProduct" GroupRef="e5ac3">
+        </DataNode>
+  <DataNode TextLabel="IKBKG" GraphId="e0416" Type="GeneProduct" GroupRef="e5ac3">
+        </DataNode>
+  <DataNode TextLabel="PI3K" GraphId="b7070" Type="GeneProduct" GroupRef="f5f2e">
+        </DataNode>
+  <DataNode TextLabel="FGA" GraphId="cd7cc" Type="GeneProduct" GroupRef="c7d72">
+        </DataNode>
+  <DataNode TextLabel="IRAK2" GraphId="eb230" Type="GeneProduct">
+        </DataNode>
+  <DataNode TextLabel="IL12B" GraphId="c8832" Type="GeneProduct" GroupRef="ae9b3">
+        </DataNode>
+  <DataNode TextLabel="NOS2" GraphId="eaa30" Type="GeneProduct" GroupRef="ae9b3">
+        </DataNode>
+  <DataNode TextLabel="FGB" GraphId="e1b89" Type="GeneProduct" GroupRef="c7d72">
+        </DataNode>
+  <DataNode TextLabel="FGG" GraphId="f4778" Type="GeneProduct" GroupRef="c7d72">
+        </DataNode>
+  <DataNode TextLabel="REL" GraphId="f79f5" Type="GeneProduct" GroupRef="f20b5">
+        </DataNode>
+  <DataNode TextLabel="RELA" GraphId="c3850" Type="GeneProduct" GroupRef="f20b5">
+        </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="d80dc" Type="GeneProduct" GroupRef="b6aef">
+        </DataNode>
+  <DataNode TextLabel="REL" GraphId="c81fe" Type="GeneProduct" GroupRef="b6aef">
+        </DataNode>
+  <DataNode TextLabel="RELA" GraphId="bd642" Type="GeneProduct" GroupRef="b6aef">
+        </DataNode>
+  <State GraphRef="bdbb3" TextLabel="P" GraphId="e1136">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ba11a" TextLabel="P" GraphId="c313a">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="ffeab" TextLabel="P" GraphId="bca1f">
+    <Comment>parent=Q8IUC6; position=tyr375; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="bbded" TextLabel="P" GraphId="ffdef">
+    <Comment>parent=Q99836; position=tyr227; ptm=p; direction=u</Comment>
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <State GraphRef="d4e2c" TextLabel="P" GraphId="e3cf4">
+    <Graphics ShapeType="Oval"/>
+    </State>
+  <Interaction GraphId="id1adebc05">
+    <BiopaxRef>f1c</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f2aab"/>
+      <Point GraphRef="cdbdb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2e554a5f">
+    <BiopaxRef>f1c</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="f7daf"/>
+      <Point/>
+      <Point GraphRef="b47d8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id2ea3c328">
+    <Graphics>
+      <Point GraphRef="b50e9"/>
+      <Point GraphRef="f2db0" ArrowHead="mim-conversion"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id35ff67b3">
+    <BiopaxRef>d51</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cf867"/>
+      <Point GraphRef="e84b4" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id4e554bd">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="a6979"/>
+      <Point GraphRef="e154b" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id50418204">
+    <BiopaxRef>ebe</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ef3c6"/>
+      <Point GraphRef="b3a45" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id545f5b86">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="d3bc8"/>
+      <Point GraphRef="ae5f9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id56ba3a2f">
+    <BiopaxRef>b0e</BiopaxRef>
+    <BiopaxRef>ce2</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bf7e2"/>
+      <Point GraphRef="c6f47" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id5f57283f">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="ef3c6"/>
+      <Point GraphRef="bb90e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id65ea9c11">
+    <BiopaxRef>f1c</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bdbb3"/>
+      <Point GraphRef="ba03a" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id672b174b">
+    <Graphics>
+      <Point GraphRef="cca0b"/>
+      <Point GraphRef="ba173" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id6c77aa20">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="e4b80"/>
+      <Point GraphRef="b50e9" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id75c8e895">
+    <Graphics>
+      <Point GraphRef="f2db0"/>
+      <Point GraphRef="a111b" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6319400864518303" Shape="None" GraphId="ba173"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id8617c691">
+    <Graphics>
+      <Point GraphRef="ffeab"/>
+      <Point GraphRef="ef24f" ArrowHead="Arrow"/>
+      <Anchor Position="0.6062138074193558" Shape="None" GraphId="e84b4"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="id9c735c30">
+    <Graphics>
+      <Point GraphRef="b6173"/>
+      <Point GraphRef="cca0b" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.6277188684347046" Shape="None" GraphId="fbc14"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida06e28cd">
+    <Graphics>
+      <Point GraphRef="ea955"/>
+      <Point GraphRef="fbc14" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida106d9fe">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="bb90e"/>
+      <Point GraphRef="cd8fb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ida575e3ee">
+    <Graphics>
+      <Point GraphRef="cd8fb"/>
+      <Point GraphRef="e6311" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idb21fdbfa">
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="ae5f9"/>
+      <Point GraphRef="cd8fb" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idbc3254b6">
+    <BiopaxRef>f1c</BiopaxRef>
+    <Graphics ConnectorType="Elbow" LineStyle="Broken">
+      <Point GraphRef="cdbdb"/>
+      <Point GraphRef="ba11a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc00b538">
+    <BiopaxRef>f1c</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="d3bc8"/>
+      <Point/>
+      <Point GraphRef="b47d8" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idc9b06304">
+    <Graphics>
+      <Point GraphRef="d3bc8"/>
+      <Point GraphRef="bbded" ArrowHead="Arrow"/>
+      <Anchor Position="0.7854608958734212" Shape="None" GraphId="f822f"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idcc704e5e">
+    <Graphics>
+      <Point GraphRef="d4e2c"/>
+      <Point GraphRef="d8f77" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd428825e">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f7daf"/>
+      <Point GraphRef="ba11a" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idd7ed181d">
+    <BiopaxRef>a07</BiopaxRef>
+    <BiopaxRef>ec5</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="f2db0"/>
+      <Point GraphRef="cf3e1" ArrowHead="mim-binding"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="idda460828">
+    <BiopaxRef>f1c</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="b47d8"/>
+      <Point GraphRef="ef3c6" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="iddb423d91">
+    <BiopaxRef>d51</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="ef3c6"/>
+      <Point GraphRef="a862f" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ide44ede6e">
+    <Graphics>
+      <Point GraphRef="a862f"/>
+      <Point GraphRef="b8ce2" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="ideff24b19">
+    <BiopaxRef>c14</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e6311"/>
+      <Point/>
+      <Point GraphRef="fd21f" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="d5c46">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="f7daf"/>
+      <Point GraphRef="bb90e" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e7d80">
+    <BiopaxRef>f1c</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="bdbb3"/>
+      <Point GraphRef="f822f" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="db268">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b3a45"/>
+      <Point GraphRef="faaad" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="f2d22">
+    <BiopaxRef>a78</BiopaxRef>
+    <BiopaxRef>d85</BiopaxRef>
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="faaad"/>
+      <Point GraphRef="e2d70" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="b9108">
+    <Graphics>
+      <Point GraphRef="f7daf"/>
+      <Point GraphRef="ffeab" ArrowHead="Arrow"/>
+      <Anchor Position="0.7365594522475833" Shape="None" GraphId="ba03a"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="a05bd">
+    <Graphics>
+      <Point GraphRef="bbded"/>
+      <Point GraphRef="ef24f" ArrowHead="Arrow"/>
+      <Anchor Position="0.5771247603298224" Shape="None" GraphId="ecd35"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="e782b">
+    <BiopaxRef>d51</BiopaxRef>
+    <Graphics>
+      <Point GraphRef="cf867"/>
+      <Point GraphRef="ecd35" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="de76f">
+    <Graphics>
+      <Point GraphRef="ba11a"/>
+      <Point GraphRef="d4e2c" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cae54">
+    <Graphics>
+      <Point GraphRef="fef16"/>
+      <Point GraphRef="bdbb3" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="b8ce2"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cf09e">
+    <BiopaxRef>c14</BiopaxRef>
+    <Graphics ConnectorType="Elbow">
+      <Point GraphRef="e6311"/>
+      <Point/>
+      <Point GraphRef="fb963" ArrowHead="mim-transcription-translation"/>
+    </Graphics>
+    </Interaction>
+  <Interaction GraphId="cf5fc">
+    <Graphics LineStyle="Broken">
+      <Point GraphRef="b7070"/>
+      <Point GraphRef="a6979" ArrowHead="Arrow"/>
+    </Graphics>
+    </Interaction>
+  <Label TextLabel="Ligand-independent&#10;signaling" GraphId="a0b60">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Fibrin Degradation&#10;Products" GraphId="a111b">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="MyD88-dependent" GraphId="d7fdd">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Degradation" GraphId="ef24f">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="dsRNA" GraphId="f2aab">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Fibrinogen" GraphId="f3246" GroupRef="c7d72">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Cytoskeletal &#10;rearrangement" GraphId="faaad">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="Phagocytosis" GraphId="e2d70">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Label TextLabel="MyD88-independent" GraphId="c5fdf">
+    <Graphics FillColor="ffffff"/>
+  </Label>
+  <Shape TextLabel="Macrophage" GraphId="af48b">
+    <Graphics Align="Left" ShapeType="RoundedRectangle" Color="c0c0c0"/>
+  </Shape>
+  <Shape TextLabel="Nucleus" GraphId="c436c">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Shape GraphId="d105d">
+    <Graphics ShapeType="Oval" Color="c0c0c0"/>
+  </Shape>
+  <Group GroupId="eeb35" GraphId="ae5f9" Style="Group"/>
+  <Group GroupId="f5f2e" GraphId="b3a45" Style="Group"/>
+  <Group GroupId="c3bf4" GraphId="b47d8" Style="Group"/>
+  <Group GroupId="c7d72" GraphId="b50e9" Style="Complex"/>
+  <Group GroupId="f9a9d" GraphId="b8026" Style="Complex"/>
+  <Group GroupId="e5ac3" GraphId="bb90e" Style="Group"/>
+  <Group GroupId="ae5d9" GraphId="c2a6f" Style="Complex"/>
+  <Group GroupId="c9ce7" GraphId="c4cac" Style="Group"/>
+  <Group GroupId="f20b5" GraphId="cd8fb" Style="Complex"/>
+  <Group GroupId="b6aef" GraphId="e6311" Style="Complex"/>
+  <Group GroupId="addd4" GraphId="e6efd" Style="Complex"/>
+  <Group GroupId="b9a07" GraphId="eb04a" Style="Complex"/>
+  <Group GroupId="c825d" GraphId="ef3c6" Style="Complex"/>
+  <Group GroupId="f2f99" GraphId="f1f5f" Style="Complex"/>
+  <Group GroupId="a1bde" GraphId="fb963" Style="Group"/>
+  <Group GroupId="ae9b3" GraphId="fd21f" Style="Group"/>
+  <Group GroupId="ab3f1" Style="Complex"/>
+  <InfoBox/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ebe">
+      <bp:ID >17339406</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The fibrin-derived gamma377-395 peptide inhibits microglia activation and suppresses relapsing paralysis in central nervous system autoimmune disease.</bp:TITLE>
+      <bp:SOURCE >J Exp Med</bp:SOURCE>
+      <bp:YEAR >2007</bp:YEAR>
+      <bp:AUTHORS >Adams RA</bp:AUTHORS>
+      <bp:AUTHORS >Bauer J</bp:AUTHORS>
+      <bp:AUTHORS >Flick MJ</bp:AUTHORS>
+      <bp:AUTHORS >Sikorski SL</bp:AUTHORS>
+      <bp:AUTHORS >Nuriel T</bp:AUTHORS>
+      <bp:AUTHORS >Lassmann H</bp:AUTHORS>
+      <bp:AUTHORS >Degen JL</bp:AUTHORS>
+      <bp:AUTHORS >Akassoglou K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >coagulation cascade pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000474</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce2">
+      <bp:ID >9851930</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Defective LPS signaling in C3H/HeJ and C57BL/10ScCr mice: mutations in Tlr4 gene.</bp:TITLE>
+      <bp:SOURCE >Science</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Poltorak A</bp:AUTHORS>
+      <bp:AUTHORS >He X</bp:AUTHORS>
+      <bp:AUTHORS >Smirnova I</bp:AUTHORS>
+      <bp:AUTHORS >Liu MY</bp:AUTHORS>
+      <bp:AUTHORS >Van Huffel C</bp:AUTHORS>
+      <bp:AUTHORS >Du X</bp:AUTHORS>
+      <bp:AUTHORS >Birdwell D</bp:AUTHORS>
+      <bp:AUTHORS >Alejos E</bp:AUTHORS>
+      <bp:AUTHORS >Silva M</bp:AUTHORS>
+      <bp:AUTHORS >Galanos C</bp:AUTHORS>
+      <bp:AUTHORS >Freudenberg M</bp:AUTHORS>
+      <bp:AUTHORS >Ricciardi-Castagnoli P</bp:AUTHORS>
+      <bp:AUTHORS >Layton B</bp:AUTHORS>
+      <bp:AUTHORS >Beutler B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c14">
+      <bp:ID >26353940</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Blood coagulation protein fibrinogen promotes autoimmunity and demyelination via chemokine release and antigen presentation.</bp:TITLE>
+      <bp:SOURCE >Nat Commun</bp:SOURCE>
+      <bp:YEAR >2015</bp:YEAR>
+      <bp:AUTHORS >Ryu JK</bp:AUTHORS>
+      <bp:AUTHORS >Petersen MA</bp:AUTHORS>
+      <bp:AUTHORS >Murray SG</bp:AUTHORS>
+      <bp:AUTHORS >Baeten KM</bp:AUTHORS>
+      <bp:AUTHORS >Meyer-Franke A</bp:AUTHORS>
+      <bp:AUTHORS >Chan JP</bp:AUTHORS>
+      <bp:AUTHORS >Vagena E</bp:AUTHORS>
+      <bp:AUTHORS >Bedard C</bp:AUTHORS>
+      <bp:AUTHORS >Machado MR</bp:AUTHORS>
+      <bp:AUTHORS >Rios Coronado PE</bp:AUTHORS>
+      <bp:AUTHORS >Prod'homme T</bp:AUTHORS>
+      <bp:AUTHORS >Charo IF</bp:AUTHORS>
+      <bp:AUTHORS >Lassmann H</bp:AUTHORS>
+      <bp:AUTHORS >Degen JL</bp:AUTHORS>
+      <bp:AUTHORS >Zamvil SS</bp:AUTHORS>
+      <bp:AUTHORS >Akassoglou K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f1c">
+      <bp:ID >20644576</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Integrins limit the Toll.</bp:TITLE>
+      <bp:SOURCE >Nat Immunol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Means TK</bp:AUTHORS>
+      <bp:AUTHORS >Luster AD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b0e">
+      <bp:ID >19252480</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >The structural basis of lipopolysaccharide recognition by the TLR4-MD-2 complex.</bp:TITLE>
+      <bp:SOURCE >Nature</bp:SOURCE>
+      <bp:YEAR >2009</bp:YEAR>
+      <bp:AUTHORS >Park BS</bp:AUTHORS>
+      <bp:AUTHORS >Song DH</bp:AUTHORS>
+      <bp:AUTHORS >Kim HM</bp:AUTHORS>
+      <bp:AUTHORS >Choi BS</bp:AUTHORS>
+      <bp:AUTHORS >Lee H</bp:AUTHORS>
+      <bp:AUTHORS >Lee JO</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >coagulation cascade pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000474</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d51">
+      <bp:ID >20639876</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Integrin CD11b negatively regulates TLR-triggered inflammatory responses by activating Syk and promoting degradation of MyD88 and TRIF via Cbl-b.</bp:TITLE>
+      <bp:SOURCE >Nat Immunol</bp:SOURCE>
+      <bp:YEAR >2010</bp:YEAR>
+      <bp:AUTHORS >Han C</bp:AUTHORS>
+      <bp:AUTHORS >Jin J</bp:AUTHORS>
+      <bp:AUTHORS >Xu S</bp:AUTHORS>
+      <bp:AUTHORS >Liu H</bp:AUTHORS>
+      <bp:AUTHORS >Li N</bp:AUTHORS>
+      <bp:AUTHORS >Cao X</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec5">
+      <bp:ID >15173886</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Leukocyte engagement of fibrin(ogen) via the integrin receptor alphaMbeta2/Mac-1 is critical for host inflammatory response in vivo.</bp:TITLE>
+      <bp:SOURCE >J Clin Invest</bp:SOURCE>
+      <bp:YEAR >2004</bp:YEAR>
+      <bp:AUTHORS >Flick MJ</bp:AUTHORS>
+      <bp:AUTHORS >Du X</bp:AUTHORS>
+      <bp:AUTHORS >Witte DP</bp:AUTHORS>
+      <bp:AUTHORS >Jirouskov&#225; M</bp:AUTHORS>
+      <bp:AUTHORS >Soloviev DA</bp:AUTHORS>
+      <bp:AUTHORS >Busuttil SJ</bp:AUTHORS>
+      <bp:AUTHORS >Plow EF</bp:AUTHORS>
+      <bp:AUTHORS >Degen JL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >classical complement pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000503</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >inflammatory response pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000024</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >macrophage</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000235</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >microglial cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000129</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a78">
+      <bp:ID >9831565</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Identification of two distinct mechanisms of phagocytosis controlled by different Rho GTPases.</bp:TITLE>
+      <bp:SOURCE >Science</bp:SOURCE>
+      <bp:YEAR >1998</bp:YEAR>
+      <bp:AUTHORS >Caron E</bp:AUTHORS>
+      <bp:AUTHORS >Hall A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >microglial cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >CL:0000129</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >inflammatory response pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000024</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a07">
+      <bp:ID >12899623</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Sequence gamma 377-395(P2), but not gamma 190-202(P1), is the binding sitefor the alpha MI-domain of integrin alpha M beta 2 in the gamma C-domain of fibrinogen.</bp:TITLE>
+      <bp:SOURCE >Biochemistry</bp:SOURCE>
+      <bp:YEAR >2003</bp:YEAR>
+      <bp:AUTHORS >Ugarova TP</bp:AUTHORS>
+      <bp:AUTHORS >Lishko VK</bp:AUTHORS>
+      <bp:AUTHORS >Podolnikova NP</bp:AUTHORS>
+      <bp:AUTHORS >Okumura N</bp:AUTHORS>
+      <bp:AUTHORS >Merkulov SM</bp:AUTHORS>
+      <bp:AUTHORS >Yakubenko VP</bp:AUTHORS>
+      <bp:AUTHORS >Yee VC</bp:AUTHORS>
+      <bp:AUTHORS >Lord ST</bp:AUTHORS>
+      <bp:AUTHORS >Haas TA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >classical complement pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >PW:0000503</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d85">
+      <bp:ID >11891120</bp:ID>
+      <bp:DB >PubMed</bp:DB>
+      <bp:TITLE >Roles of PI3Ks in leukocyte chemotaxis and phagocytosis.</bp:TITLE>
+      <bp:SOURCE >Curr Opin Cell Biol</bp:SOURCE>
+      <bp:YEAR >2002</bp:YEAR>
+      <bp:AUTHORS >Stephens L</bp:AUTHORS>
+      <bp:AUTHORS >Ellson C</bp:AUTHORS>
+      <bp:AUTHORS >Hawkins P</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
