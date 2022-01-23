@@ -66,6 +66,30 @@ def get_has_class_clause(raw_class):
     has_class_clause = 'contains(' + normed_class + ', "' + raw_class + '")'
     return has_class_clause
 
+def condense_colors(xml):
+    """Condense colors by using hexadecimal abbreviations where possible.
+    Consider using an abstract, general approach instead of hard-coding.
+    """
+    xml = re.sub('000000', '000', xml)
+    xml = re.sub('ff0000', 'f00', xml)
+    xml = re.sub('00ff00', '0f0', xml)
+    xml = re.sub('0000ff', '00f', xml)
+    xml = re.sub('00ffff', '0ff', xml)
+    xml = re.sub('ff00ff', 'f0f', xml)
+    xml = re.sub('ffff00', 'ff0', xml)
+    xml = re.sub('ffffff', 'fff', xml)
+    xml = re.sub('cc0000', 'c00', xml)
+    xml = re.sub('00cc00', '0c0', xml)
+    xml = re.sub('0000cc', '00c', xml)
+    xml = re.sub('00cccc', '0cc', xml)
+    xml = re.sub('cc00cc', 'c0c', xml)
+    xml = re.sub('cccc00', 'cc0', xml)
+    xml = re.sub('cccccc', 'ccc', xml)
+    xml = re.sub('999999', '999', xml)
+    xml = re.sub('808080', 'grey', xml)
+
+    return xml
+
 def lossy_optimize_gpml(gpml, pwid):
     """Lossily decrease size of WikiPathways GPML
     """
@@ -84,7 +108,8 @@ def lossy_optimize_gpml(gpml, pwid):
     tree = etree.fromstring(gpml)
 
     positional_attrs = [
-        "X", "Y", "CenterX", "CenterY", "Valign", "RelX", "RelY", "Rotation"
+        "X", "Y", "CenterX", "CenterY", "Valign", "RelX", "RelY", "Rotation",
+        "Position"
     ]
     extraneous_attrs = positional_attrs + [
         "ZOrder", "FontWeight", "FontSize", "LineThickness",
@@ -99,7 +124,7 @@ def lossy_optimize_gpml(gpml, pwid):
         for attr_name in extraneous_attrs:
             if attr_name in el.attrib: del el.attrib[attr_name]
 
-    extraneous_elements = ["Attribute", "Xref"]
+    extraneous_elements = ["Attribute", "Xref", "Label"]
     # key = '@Key="org.pathvisio.model.BackpageHead"'
     # selector = f"//gpml:Attribute[{key}]"
     for el_name in extraneous_elements:
@@ -127,6 +152,12 @@ def lossy_optimize_gpml(gpml, pwid):
     xml = re.sub('<Xref Database="" ID="" />', '', xml)
 
     xml = re.sub('<Graphics/>\n', '', xml)
+
+    xml = re.sub('<Point/>\n', '', xml)
+
+    xml = re.sub('Shape="None" ', '', xml)
+
+    xml = condense_colors(xml)
 
     # xml = re.sub('xml:space="preserve"', '', xml)
 
