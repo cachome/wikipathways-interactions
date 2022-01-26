@@ -36,6 +36,15 @@ organisms = [
     ## "Caenorhabditis elegans"
 ]
 
+def get_pathway_ids_and_names(organism):
+    base_url = "https://webservice.wikipathways.org/listPathways"
+    params = f"?organism={organism}&format=json"
+    url = base_url + params
+    response = requests.get(url)
+    data = response.json()
+    ids_and_names = [[pw['id'], pw['name']] for pw in data['pathways']]
+    return ids_and_names
+
 def get_gpml_zip_url(organism):
     date = "20220110"
     base = f"https://wikipathways-data.wmcloud.org/{date}/gpml/"
@@ -232,29 +241,22 @@ class WikiPathwaysCache():
                     print(f"Found previous error; skip processing {id}")
                     continue
 
-            # url = f"https://www.wikipathways.org/index.php/Pathway:{id}?view=widget"
+            url = f"https://www.wikipathways.org/index.php/Pathway:{id}?view=widget"
+            base_url = "https://www.wikipathways.org//wpi/wpi.php"
+            url = f"{base_url}?action=downloadFile&type=gpml&pwTitle=Pathway:{id}"
 
-            # try:
-            #     sleep(1)
-            #     selector = "svg.Diagram"
-            #     raw_content = self.driver.find_element_by_css_selector(selector)
-            #     content = raw_content.get_attribute("outerHTML")
-            # except Exception as e:
-            #     print(f"Encountered error when stringifying GPML for {id}")
-            #     error_pwids.append(id)
-            #     with open(error_path, "w") as f:
-            #         f.write(",".join(error_pwids))
-            #     sleep(0.5)
-            #     continue
-
-            gpml = content.replace(
-                'typeof="Diagram" xmlns:xlink="http://www.w3.org/1999/xlink"',
-                'typeof="Diagram"'
-            )
+            try:
+                sleep(1)
+                gpml = requests.get(url).text
+            except Exception as e:
+                print(f"Encountered error when stringifying GPML for {id}")
+                error_pwids.append(id)
+                with open(error_path, "w") as f:
+                    f.write(",".join(error_pwids))
+                sleep(0.5)
+                continue
 
             print("Preparing and writing " + gpml_path)
-
-            gpml = '<?xml version="1.0" encoding="UTF-8"?>\n' + gpml
 
             with open(gpml_path, "w") as f:
                 f.write(gpml)
@@ -327,7 +329,8 @@ class WikiPathwaysCache():
         if not os.path.exists(org_dir):
             os.makedirs(org_dir)
 
-        # self.fetch_gpml(ids_and_names, org_dir)
+        ids_and_names = get_pathway_ids_and_names(organism)
+        self.fetch_gpml(ids_and_names, org_dir)
         self.optimize_gpml(org_dir)
 
     def populate(self):
