@@ -7,6 +7,10 @@ from time import sleep
 
 import requests
 from lxml import etree
+import xmltodict
+import json as ljson
+
+import gzip
 
 # # Enable importing local modules when directly calling as script
 # if __name__ == "__main__":
@@ -206,6 +210,31 @@ def lossy_optimize_gpml(gpml, pwid):
 
     return xml
 
+def lossless_optimize_gpml(xml, pwid):
+    # json = ljson.dumps(xmltodict.parse(xml), indent=2)
+    json = ljson.dumps(xmltodict.parse(xml))
+
+    json = re.sub('@TextLabel', 'tl', json)
+    json = re.sub('@GraphId', 'g', json)
+    json = re.sub('@GraphRef', 'gr', json)
+    json = re.sub('@GroupRef', 'Gr', json)
+    json = re.sub('@GroupId', 'Gi', json)
+    json = re.sub('@Type', 't', json)
+    json = re.sub('@Color', 'c', json)
+    json = re.sub('@ArrowHead', 'a', json)
+    json = re.sub('Graphics', 'gx', json)
+    json = re.sub('Point', 'p', json)
+    json = re.sub('Interaction', 'i', json)
+    json = re.sub('Comment', 'cm', json)
+    json = re.sub('@ShapeType', 's', json)
+    json = re.sub('Anchor', 'an', json)
+    json = re.sub('"Protein"', '"p"', json)
+    json = re.sub('"GeneProduct"', '"g"', json)
+    json = re.sub('"Arrow"', '"a"', json)
+    json = re.sub('@LineStyle', 'ls')
+
+    return json
+
 class WikiPathwaysCache():
 
     def __init__(self, output_dir="data/", reuse=False):
@@ -275,6 +304,7 @@ class WikiPathwaysCache():
             name = original_name.split(".gpml")[0]
             pwid = re.search(r"WP\d+", name).group() # pathway ID
             optimized_xml_path = self.output_dir + pwid + ".xml"
+            optimized_json_path = optimized_xml_path.replace('.xml', '.json')
             print(f"Optimizing to create: {optimized_xml_path}")
 
             # try:
@@ -302,9 +332,13 @@ class WikiPathwaysCache():
 
             try:
                 xml = lossy_optimize_gpml(gpml, pwid)
+                # json = lossless_optimize_gpml(xml, pwid)
+                xml = gzip.compress(xml.encode('utf-8'))
+
             except Exception as e:
                 handled = "Encountered error converting XML for pathway"
-                if handled in str(e):
+                handled2 = "not well-formed"
+                if handled in str(e) or handled2 in str(e):
                     # print('Handled an error')
                     print(e)
                     optimize_error_pwids.append(pwid)
@@ -314,8 +348,11 @@ class WikiPathwaysCache():
                     print(e)
                     raise Exception(e)
 
-            with open(optimized_xml_path, "w") as f:
+            with open(optimized_xml_path, "wb") as f:
                 f.write(xml)
+
+            # with open(optimized_json_path, "w") as f:
+            #     f.write(json)
 
         num_errors = len(optimize_error_pwids)
         if num_errors > 0:
