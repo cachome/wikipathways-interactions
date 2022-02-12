@@ -28,16 +28,41 @@ ctx.verify_mode = ssl.CERT_NONE
 
 # Organisms configured for WikiPathways caching
 organisms = [
-    "Homo sapiens",
-    "Mus musculus",
+    "Unspecified",
+    "Acetobacterium woodii",
+    "Anopheles gambiae",
+    "Arabidopsis thaliana",
+    "Bacillus subtilis",
+    "Beta vulgaris",
+    "Brassica napus",
+    "Bos taurus",
+    "Caenorhabditis elegans",
+    "Canis familiaris",
+    "Clostridium thermocellum",
     "Danio rerio",
+    "Daphnia magna",
+    "Daphnia pulex",
+    "Drosophila melanogaster",
+    "Escherichia coli",
+    "Equus caballus",
     "Gallus gallus",
+    "Glycine max",
+    "Gibberella zeae",
+    "Homo sapiens",
+    "Hordeum vulgare",
+    "Mus musculus",
+    "Mycobacterium tuberculosis",
+    "Oryza sativa",
+    "Pan troglodytes",
+    "Populus trichocarpa",
     "Rattus norvegicus",
-    ## "Pan troglodytes",
-    ## "Canis lupus familiaris",
-    ## "Equus caballus",
-    ## "Bos taurus",
-    ## "Caenorhabditis elegans"
+    "Saccharomyces cerevisiae",
+    "Solanum lycopersicum",
+    "Sus scrofa",
+    "Vitis vinifera",
+    "Xenopus tropicalis",
+    "Zea mays",
+    "Plasmodium falciparum"
 ]
 
 def get_pathway_ids_and_names(organism):
@@ -303,7 +328,7 @@ class WikiPathwaysCache():
             original_name = gpml_path.split("/")[-1]
             name = original_name.split(".gpml")[0]
             pwid = re.search(r"WP\d+", name).group() # pathway ID
-            optimized_xml_path = self.output_dir + pwid + ".xml"
+            optimized_xml_path = self.output_dir + pwid + ".xml.gz"
             optimized_json_path = optimized_xml_path.replace('.xml', '.json')
             print(f"Optimizing to create: {optimized_xml_path}")
 
