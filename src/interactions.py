@@ -29,10 +29,10 @@ ctx.verify_mode = ssl.CERT_NONE
 # Organisms configured for WikiPathways caching
 organisms = [
     "Homo sapiens",
-    # "Mus musculus"
-    ## "Danio rerio",
-    ## "Gallus gallus",
-    ## "Rattus norvegicus",
+    "Mus musculus",
+    "Danio rerio",
+    "Gallus gallus",
+    "Rattus norvegicus",
     ## "Pan troglodytes",
     ## "Canis lupus familiaris",
     ## "Equus caballus",
