@@ -162,7 +162,10 @@ def lossy_optimize_gpml(gpml, pwid):
         for attr_name in extraneous_attrs:
             if attr_name in el.attrib: del el.attrib[attr_name]
 
-    extraneous_elements = ["Attribute", "Xref", "Label"]
+    extraneous_elements = [
+        "Attribute", "Xref", "Label", "Comment",
+        "BiopaxRef", "Biopax"
+    ]
     # key = '@Key="org.pathvisio.model.BackpageHead"'
     # selector = f"//gpml:Attribute[{key}]"
     for el_name in extraneous_elements:
