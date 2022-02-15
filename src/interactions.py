@@ -7,6 +7,10 @@ from time import sleep
 
 import requests
 from lxml import etree
+import xmltodict
+import json as ljson
+
+import gzip
 
 # # Enable importing local modules when directly calling as script
 # if __name__ == "__main__":
@@ -24,17 +28,51 @@ ctx.verify_mode = ssl.CERT_NONE
 
 # Organisms configured for WikiPathways caching
 organisms = [
+    "Unspecified",
+    "Acetobacterium woodii",
+    "Anopheles gambiae",
+    "Arabidopsis thaliana",
+    "Bacillus subtilis",
+    "Beta vulgaris",
+    "Brassica napus",
+    "Bos taurus",
+    "Caenorhabditis elegans",
+    "Canis familiaris",
+    "Clostridium thermocellum",
+    "Danio rerio",
+    "Daphnia magna",
+    "Daphnia pulex",
+    "Drosophila melanogaster",
+    "Escherichia coli",
+    "Equus caballus",
+    "Gallus gallus",
+    "Glycine max",
+    "Gibberella zeae",
     "Homo sapiens",
-    # "Mus musculus"
-    ## "Danio rerio",
-    ## "Gallus gallus",
-    ## "Rattus norvegicus",
-    ## "Pan troglodytes",
-    ## "Canis lupus familiaris",
-    ## "Equus caballus",
-    ## "Bos taurus",
-    ## "Caenorhabditis elegans"
+    "Hordeum vulgare",
+    "Mus musculus",
+    "Mycobacterium tuberculosis",
+    "Oryza sativa",
+    "Pan troglodytes",
+    "Populus trichocarpa",
+    "Rattus norvegicus",
+    "Saccharomyces cerevisiae",
+    "Solanum lycopersicum",
+    "Sus scrofa",
+    "Vitis vinifera",
+    "Xenopus tropicalis",
+    "Zea mays",
+    "Plasmodium falciparum"
 ]
+
+def get_pathway_ids_and_names(organism):
+    base_url = "https://webservice.wikipathways.org/listPathways"
+    params = f"?organism={organism}&format=json"
+    url = base_url + params
+    response = requests.get(url)
+    data = response.json()
+    ids_and_names = [[pw['id'], pw['name']] for pw in data['pathways']]
+    return ids_and_names
 
 def get_gpml_zip_url(organism):
     date = "20220110"
@@ -66,6 +104,30 @@ def get_has_class_clause(raw_class):
     has_class_clause = 'contains(' + normed_class + ', "' + raw_class + '")'
     return has_class_clause
 
+def condense_colors(xml):
+    """Condense colors by using hexadecimal abbreviations where possible.
+    Consider using an abstract, general approach instead of hard-coding.
+    """
+    xml = re.sub('000000', '000', xml)
+    xml = re.sub('ff0000', 'f00', xml)
+    xml = re.sub('00ff00', '0f0', xml)
+    xml = re.sub('0000ff', '00f', xml)
+    xml = re.sub('00ffff', '0ff', xml)
+    xml = re.sub('ff00ff', 'f0f', xml)
+    xml = re.sub('ffff00', 'ff0', xml)
+    xml = re.sub('ffffff', 'fff', xml)
+    xml = re.sub('cc0000', 'c00', xml)
+    xml = re.sub('00cc00', '0c0', xml)
+    xml = re.sub('0000cc', '00c', xml)
+    xml = re.sub('00cccc', '0cc', xml)
+    xml = re.sub('cc00cc', 'c0c', xml)
+    xml = re.sub('cccc00', 'cc0', xml)
+    xml = re.sub('cccccc', 'ccc', xml)
+    xml = re.sub('999999', '999', xml)
+    xml = re.sub('808080', 'grey', xml)
+
+    return xml
+
 def lossy_optimize_gpml(gpml, pwid):
     """Lossily decrease size of WikiPathways GPML
     """
@@ -84,7 +146,8 @@ def lossy_optimize_gpml(gpml, pwid):
     tree = etree.fromstring(gpml)
 
     positional_attrs = [
-        "X", "Y", "CenterX", "CenterY", "Valign", "RelX", "RelY", "Rotation"
+        "X", "Y", "CenterX", "CenterY", "Valign", "RelX", "RelY", "Rotation",
+        "Position"
     ]
     extraneous_attrs = positional_attrs + [
         "ZOrder", "FontWeight", "FontSize", "LineThickness",
@@ -99,7 +162,10 @@ def lossy_optimize_gpml(gpml, pwid):
         for attr_name in extraneous_attrs:
             if attr_name in el.attrib: del el.attrib[attr_name]
 
-    extraneous_elements = ["Attribute", "Xref"]
+    extraneous_elements = [
+        "Attribute", "Xref", "Label", "Comment",
+        "BiopaxRef", "Biopax"
+    ]
     # key = '@Key="org.pathvisio.model.BackpageHead"'
     # selector = f"//gpml:Attribute[{key}]"
     for el_name in extraneous_elements:
@@ -127,6 +193,12 @@ def lossy_optimize_gpml(gpml, pwid):
     xml = re.sub('<Xref Database="" ID="" />', '', xml)
 
     xml = re.sub('<Graphics/>\n', '', xml)
+
+    xml = re.sub('<Point/>\n', '', xml)
+
+    xml = re.sub('Shape="None" ', '', xml)
+
+    xml = condense_colors(xml)
 
     # xml = re.sub('xml:space="preserve"', '', xml)
 
@@ -166,6 +238,31 @@ def lossy_optimize_gpml(gpml, pwid):
 
     return xml
 
+def lossless_optimize_gpml(xml, pwid):
+    # json = ljson.dumps(xmltodict.parse(xml), indent=2)
+    json = ljson.dumps(xmltodict.parse(xml))
+
+    json = re.sub('@TextLabel', 'tl', json)
+    json = re.sub('@GraphId', 'g', json)
+    json = re.sub('@GraphRef', 'gr', json)
+    json = re.sub('@GroupRef', 'Gr', json)
+    json = re.sub('@GroupId', 'Gi', json)
+    json = re.sub('@Type', 't', json)
+    json = re.sub('@Color', 'c', json)
+    json = re.sub('@ArrowHead', 'a', json)
+    json = re.sub('Graphics', 'gx', json)
+    json = re.sub('Point', 'p', json)
+    json = re.sub('Interaction', 'i', json)
+    json = re.sub('Comment', 'cm', json)
+    json = re.sub('@ShapeType', 's', json)
+    json = re.sub('Anchor', 'an', json)
+    json = re.sub('"Protein"', '"p"', json)
+    json = re.sub('"GeneProduct"', '"g"', json)
+    json = re.sub('"Arrow"', '"a"', json)
+    json = re.sub('@LineStyle', 'ls')
+
+    return json
+
 class WikiPathwaysCache():
 
     def __init__(self, output_dir="data/", reuse=False):
@@ -201,29 +298,22 @@ class WikiPathwaysCache():
                     print(f"Found previous error; skip processing {id}")
                     continue
 
-            # url = f"https://www.wikipathways.org/index.php/Pathway:{id}?view=widget"
+            url = f"https://www.wikipathways.org/index.php/Pathway:{id}?view=widget"
+            base_url = "https://www.wikipathways.org//wpi/wpi.php"
+            url = f"{base_url}?action=downloadFile&type=gpml&pwTitle=Pathway:{id}"
 
-            # try:
-            #     sleep(1)
-            #     selector = "svg.Diagram"
-            #     raw_content = self.driver.find_element_by_css_selector(selector)
-            #     content = raw_content.get_attribute("outerHTML")
-            # except Exception as e:
-            #     print(f"Encountered error when stringifying GPML for {id}")
-            #     error_pwids.append(id)
-            #     with open(error_path, "w") as f:
-            #         f.write(",".join(error_pwids))
-            #     sleep(0.5)
-            #     continue
-
-            gpml = content.replace(
-                'typeof="Diagram" xmlns:xlink="http://www.w3.org/1999/xlink"',
-                'typeof="Diagram"'
-            )
+            try:
+                sleep(1)
+                gpml = requests.get(url).text
+            except Exception as e:
+                print(f"Encountered error when stringifying GPML for {id}")
+                error_pwids.append(id)
+                with open(error_path, "w") as f:
+                    f.write(",".join(error_pwids))
+                sleep(0.5)
+                continue
 
             print("Preparing and writing " + gpml_path)
-
-            gpml = '<?xml version="1.0" encoding="UTF-8"?>\n' + gpml
 
             with open(gpml_path, "w") as f:
                 f.write(gpml)
@@ -241,7 +331,8 @@ class WikiPathwaysCache():
             original_name = gpml_path.split("/")[-1]
             name = original_name.split(".gpml")[0]
             pwid = re.search(r"WP\d+", name).group() # pathway ID
-            optimized_xml_path = self.output_dir + pwid + ".xml"
+            optimized_xml_path = self.output_dir + pwid + ".xml.gz"
+            optimized_json_path = optimized_xml_path.replace('.xml', '.json')
             print(f"Optimizing to create: {optimized_xml_path}")
 
             # try:
@@ -269,9 +360,13 @@ class WikiPathwaysCache():
 
             try:
                 xml = lossy_optimize_gpml(gpml, pwid)
+                # json = lossless_optimize_gpml(xml, pwid)
+                xml = gzip.compress(xml.encode('utf-8'))
+
             except Exception as e:
                 handled = "Encountered error converting XML for pathway"
-                if handled in str(e):
+                handled2 = "not well-formed"
+                if handled in str(e) or handled2 in str(e):
                     # print('Handled an error')
                     print(e)
                     optimize_error_pwids.append(pwid)
@@ -281,8 +376,11 @@ class WikiPathwaysCache():
                     print(e)
                     raise Exception(e)
 
-            with open(optimized_xml_path, "w") as f:
+            with open(optimized_xml_path, "wb") as f:
                 f.write(xml)
+
+            # with open(optimized_json_path, "w") as f:
+            #     f.write(json)
 
         num_errors = len(optimize_error_pwids)
         if num_errors > 0:
@@ -296,7 +394,8 @@ class WikiPathwaysCache():
         if not os.path.exists(org_dir):
             os.makedirs(org_dir)
 
-        # self.fetch_gpml(ids_and_names, org_dir)
+        ids_and_names = get_pathway_ids_and_names(organism)
+        self.fetch_gpml(ids_and_names, org_dir)
         self.optimize_gpml(org_dir)
 
     def populate(self):
