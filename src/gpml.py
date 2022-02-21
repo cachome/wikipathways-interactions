@@ -2,15 +2,16 @@ import argparse
 import glob
 import os
 import re
-import ssl
 from time import sleep
+import json as ljson
+import gzip
 
 import requests
 from lxml import etree
 import xmltodict
-import json as ljson
 
-import gzip
+from lib import repo, module, ctx, organisms
+
 
 # # Enable importing local modules when directly calling as script
 # if __name__ == "__main__":
@@ -18,52 +19,6 @@ import gzip
 #     sys.path.append(cur_dir + "/..")
 
 # from lib import download_gzip
-
-repo = "cachome/wikipathways-interactions"
-module = "interactions.py"
-
-ctx = ssl.create_default_context()
-ctx.check_hostname = False
-ctx.verify_mode = ssl.CERT_NONE
-
-# Organisms configured for WikiPathways caching
-organisms = [
-    "Unspecified",
-    "Acetobacterium woodii",
-    "Anopheles gambiae",
-    "Arabidopsis thaliana",
-    "Bacillus subtilis",
-    "Beta vulgaris",
-    "Brassica napus",
-    "Bos taurus",
-    "Caenorhabditis elegans",
-    "Canis familiaris",
-    "Clostridium thermocellum",
-    "Danio rerio",
-    "Daphnia magna",
-    "Daphnia pulex",
-    "Drosophila melanogaster",
-    "Escherichia coli",
-    "Equus caballus",
-    "Gallus gallus",
-    "Glycine max",
-    "Gibberella zeae",
-    "Homo sapiens",
-    "Hordeum vulgare",
-    "Mus musculus",
-    "Mycobacterium tuberculosis",
-    "Oryza sativa",
-    "Pan troglodytes",
-    "Populus trichocarpa",
-    "Rattus norvegicus",
-    "Saccharomyces cerevisiae",
-    "Solanum lycopersicum",
-    "Sus scrofa",
-    "Vitis vinifera",
-    "Xenopus tropicalis",
-    "Zea mays",
-    "Plasmodium falciparum"
-]
 
 def get_pathway_ids_and_names(organism):
     base_url = "https://webservice.wikipathways.org/listPathways"
@@ -73,36 +28,6 @@ def get_pathway_ids_and_names(organism):
     data = response.json()
     ids_and_names = [[pw['id'], pw['name']] for pw in data['pathways']]
     return ids_and_names
-
-def get_gpml_zip_url(organism):
-    date = "20220110"
-    base = f"https://wikipathways-data.wmcloud.org/{date}/gpml/"
-    org_us = organism.replace(" ", "_")
-    url = f"{base}wikipathways-{date}-gpml-{org_us}.zip"
-    return url
-
-def unwrap_leaf(tree, has_bloat, leaf=None, selector=None):
-    """Helper for `unwrap` function
-    """
-    ns_map = {"gpml": "http://pathvisio.org/GPML/2013a"}
-    if not selector:
-        selector = f"//gpml:g[{has_bloat}]/gpml:g[{has_bloat}]/gpml:" + leaf
-    elements = tree.xpath(selector, namespaces=ns_map)
-    for element in elements:
-        parent = element.getparent()
-        grandparent = parent.getparent()
-        grandparent.replace(parent, element)
-
-def get_has_class_clause(raw_class):
-    """Enable typical class selectors in XPath, akin to CSS ".foo"
-
-    XPath makes it complicated to detect if a string is among class values.
-    That functionality is typical for class selectors, so tailor syntax to
-    ease such common queries.
-    """
-    normed_class = "concat(' ', normalize-space(@class), ' ')"
-    has_class_clause = 'contains(' + normed_class + ', "' + raw_class + '")'
-    return has_class_clause
 
 def condense_colors(xml):
     """Condense colors by using hexadecimal abbreviations where possible.
@@ -200,42 +125,6 @@ def lossy_optimize_gpml(gpml, pwid):
 
     xml = condense_colors(xml)
 
-    # xml = re.sub('xml:space="preserve"', '', xml)
-
-    # # Remove "px" from attributes where numbers are assumed to be pixels.
-    # xml = re.sub(r'width="([0-9.]+)px"', r'width="\1"', xml)
-
-    # xml = re.sub('fill="inherit"', '', xml)
-
-    # # Match any anchor or group tag, up until closing angle bracket (>), that
-    # # includes a color attribute with the value black (#000).
-    # # For such matches, remove the color attribute but not anything else.
-    # xml = re.sub(r'<g([^>]*)(color="#000")', r'<g \1', xml)
-
-    # xml = re.sub(r'<(rect class="Icon"[^>]*)(color="#000")', r'<rect \1', xml)
-
-    # xml = re.sub(r'<(text class="Text"[^>]*)(fill="#000")', r'<\1', xml)
-    # xml = re.sub(r'<(text class="Text"[^>]*)(stroke="white" stroke-width="0")', r'<\1', xml)
-
-    # xml = re.sub(r'class="([^"]*)( Node)"', r'class="\1"', xml)
-
-    # xml = re.sub(r'id="[^"]*-text-clipPath"', '', xml)
-
-    # # Remove class attributes from elements where it can be deduced
-    # xml = re.sub(r'<rect([^>]*)(class="[^"]*)"', r'<rect \1', xml)
-
-    # xml = re.sub(r'<path([^>]*)(id="[^"]*)"', r'<path \1', xml)
-    # # xml = re.sub(r'<path([^>]*)(fill="transparent")', r'<path \1', xml)
-
-    # xml = re.sub(r'id="[^"]*-icon" ', '', xml)
-    # xml = re.sub(r'id="[^"]*-text" class="[^"]*"', '', xml)
-
-    # # Round any floats to 2 decimal places
-    # xml = re.sub(r'\d*\.\d{2,}', lambda m: format(float(m.group(0)), '.2f'), xml)
-
-    # # Remove extraneous spaces
-    # xml = re.sub(r'\s{2,}', ' ', xml)
-
     return xml
 
 def lossless_optimize_gpml(xml, pwid):
@@ -265,7 +154,7 @@ def lossless_optimize_gpml(xml, pwid):
 
 class WikiPathwaysCache():
 
-    def __init__(self, output_dir="data/", reuse=False):
+    def __init__(self, output_dir="data/gpml/", reuse=False):
         self.output_dir = output_dir
         self.tmp_dir = f"tmp/"
         self.reuse = reuse
@@ -299,7 +188,7 @@ class WikiPathwaysCache():
                     continue
 
             url = f"https://www.wikipathways.org/index.php/Pathway:{id}?view=widget"
-            base_url = "https://www.wikipathways.org//wpi/wpi.php"
+            base_url = "https://www.wikipathways.org/wpi/wpi.php"
             url = f"{base_url}?action=downloadFile&type=gpml&pwTitle=Pathway:{id}"
 
             try:
