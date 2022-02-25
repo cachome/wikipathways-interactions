@@ -97,8 +97,7 @@ def maybe_gene_symbol(val):
     # ixn.toLowerCase() !== gene.name.toLowerCase()
   )
 
-def get_maybe_ixn_genes(result, position, gene):
-    fields = result["fields"]
+def get_maybe_ixn_genes(fields, position, gene):
     if position not in fields:
         # E.g. with undefined `mediator`
         return []
@@ -116,11 +115,17 @@ def lossy_optimize_interactions(json_str, gene):
     for result in json["result"]:
         # print('result')
         # print(result)
-        left = get_maybe_ixn_genes(result, "left", gene)
-        right = get_maybe_ixn_genes(result, "right", gene)
-        mediator = get_maybe_ixn_genes(result, "mediator", gene)
+        fields = result["fields"]
+        left = get_maybe_ixn_genes(fields, "left", gene)
+        right = get_maybe_ixn_genes(fields, "right", gene)
+        mediator = get_maybe_ixn_genes(fields, "mediator", gene)
 
-        if len(left) + len(right) + len(mediator) < 2:
+        mediated = "mediator" in fields
+        len_left_right = len(left) + len(right)
+        if (
+            (mediated and len_left_right + len(mediator) < 2) or
+            (not mediated and len_left_right < 1)
+        ):
             continue
 
         del result["score"]
@@ -303,6 +308,7 @@ class WikiPathwaysCache():
         Consider parallelizing this.
         """
         # organisms = ["Homo sapiens", "Mus musculus"] # Comment out to use all
+        # organisms = ["Homo sapiens"] # Comment out to use all
         for organism in organisms:
             self.populate_by_org(organism)
 
