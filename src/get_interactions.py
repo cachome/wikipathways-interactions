@@ -308,7 +308,7 @@ class WikiPathwaysCache():
         Consider parallelizing this.
         """
         # organisms = ["Homo sapiens", "Mus musculus"] # Comment out to use all
-        # organisms = ["Homo sapiens"] # Comment out to use all
+        organisms = ["Homo sapiens"] # Comment out to use all
         for organism in organisms:
             self.populate_by_org(organism)
 
